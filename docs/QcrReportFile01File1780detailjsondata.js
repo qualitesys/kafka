@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.StateRestoreCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.html#7"
  , "c1" : "void"
  , "c2" : "restore(byte[];byte[])"
  , "c3" : "1"

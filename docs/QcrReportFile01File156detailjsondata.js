@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.AllBrokersStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#30"
  , "c1" : "AllBrokersStrategy"
  , "c2" : "AllBrokersStrategy(LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#37"
  , "c1" : "ApiRequestScope"
  , "c2" : "lookupScope(BrokerKey)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#42"
  , "c1" : "MetadataRequest.Builder"
  , "c2" : "buildRequest(Set<BrokerKey>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#49"
  , "c1" : "LookupResult<BrokerKey>"
  , "c2" : "handleResponse(Set<BrokerKey>;AbstractResponse)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74"
  , "c1" : "void"
  , "c2" : "validateLookupKeys(Set<BrokerKey>)"
  , "c3" : "3"

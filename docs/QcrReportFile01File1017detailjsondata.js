@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.RemoteClusterUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#18"
  , "c1" : "RemoteClusterUtils"
  , "c2" : "RemoteClusterUtils()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21"
  , "c1" : "int"
  , "c2" : "replicationHops(Map<String,Object>;String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#29"
  , "c1" : "Set<String>"
  , "c2" : "heartbeatTopics(Map<String,Object>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#37"
  , "c1" : "Set<String>"
  , "c2" : "checkpointTopics(Map<String,Object>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45"
  , "c1" : "Set<String>"
  , "c2" : "upstreamClusters(Map<String,Object>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#53"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "translateOffsets(Map<String,Object>;String;String;Duration)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.source.SourceConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#12"
  , "c1" : "SourceConnectorContext"
  , "c2" : "context()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#17"
  , "c1" : "ExactlyOnceSupport"
  , "c2" : "exactlyOnceSupport(Map<String,String>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#22"
  , "c1" : "ConnectorTransactionBoundaries"
  , "c2" : "canDefineTransactionBoundaries(Map<String,String>)"
  , "c3" : "1"

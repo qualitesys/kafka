@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.InvalidOffsetException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/InvalidOffsetException.java.html#12"
  , "c1" : "InvalidOffsetException"
  , "c2" : "InvalidOffsetException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/InvalidOffsetException.java.html#16"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitions()"
  , "c3" : "1"

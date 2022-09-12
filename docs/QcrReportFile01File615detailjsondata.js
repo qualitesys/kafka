@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.BeginQuorumEpochRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#36"
  , "c1" : "BeginQuorumEpochRequest"
  , "c2" : "BeginQuorumEpochRequest(BeginQuorumEpochRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#42"
  , "c1" : "BeginQuorumEpochRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#47"
  , "c1" : "BeginQuorumEpochResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#52"
  , "c1" : "BeginQuorumEpochRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#56"
  , "c1" : "BeginQuorumEpochRequestData"
  , "c2" : "singletonRequest(TopicPartition;int;int)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochRequest.java.html#62"
  , "c1" : "BeginQuorumEpochRequestData"
  , "c2" : "singletonRequest(TopicPartition;String;int;int)"
  , "c3" : "1"

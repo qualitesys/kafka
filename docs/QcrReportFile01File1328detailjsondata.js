@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ClientQuotaImage" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#30"
  , "c1" : "ClientQuotaImage"
  , "c2" : "ClientQuotaImage(Map<String,Double>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#34"
  , "c1" : "Map<String,Double>"
  , "c2" : "quotas()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#38"
  , "c1" : "void"
  , "c2" : "write(ClientQuotaEntity;Consumer<List<ApiMessageAndVersion>>)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#51"
  , "c1" : "List<EntityData>"
  , "c2" : "entityToData(ClientQuotaEntity)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#61"
  , "c1" : "ClientQuotaEntity"
  , "c2" : "dataToEntity(List<EntityData>)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#69"
  , "c1" : "List<ValueData>"
  , "c2" : "toDescribeValues()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#77"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#82"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#89"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#94"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

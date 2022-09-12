@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.ValueAndTimestamp" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#13"
  , "c1" : "ValueAndTimestamp"
  , "c2" : "ValueAndTimestamp(V;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#31"
  , "c1" : "V"
  , "c2" : "value()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#35"
  , "c1" : "long"
  , "c2" : "timestamp()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#40"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#45"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#58"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

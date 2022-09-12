@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.CoordinatorStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#34"
  , "c1" : "CoordinatorStrategy"
  , "c2" : "CoordinatorStrategy(FindCoordinatorRequest.CoordinatorType;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#43"
  , "c1" : "ApiRequestScope"
  , "c2" : "lookupScope(CoordinatorKey)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#54"
  , "c1" : "FindCoordinatorRequest.Builder"
  , "c2" : "buildRequest(Set<CoordinatorKey>)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#74"
  , "c1" : "LookupResult<CoordinatorKey>"
  , "c2" : "handleResponse(Set<CoordinatorKey>;AbstractResponse)"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#104"
  , "c1" : "void"
  , "c2" : "disableBatch()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#108"
  , "c1" : "CoordinatorKey"
  , "c2" : "requireSingletonAndType(Set<CoordinatorKey>)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#119"
  , "c1" : "void"
  , "c2" : "ensureSameType(Set<CoordinatorKey>)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#128"
  , "c1" : "boolean"
  , "c2" : "isRepresentableKey(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#132"
  , "c1" : "void"
  , "c2" : "handleError(Errors;CoordinatorKey;int;Map<CoordinatorKey,Integer>;Map<CoordinatorKey,Throwable>)"
  , "c3" : "6"

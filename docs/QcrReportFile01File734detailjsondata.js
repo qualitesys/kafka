@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.UpdateMetadataResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#16"
  , "c1" : "UpdateMetadataResponse"
  , "c2" : "UpdateMetadataResponse(UpdateMetadataResponseData)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#21"
  , "c1" : "Errors"
  , "c2" : "error()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#26"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#31"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#35"
  , "c1" : "UpdateMetadataResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#40"
  , "c1" : "UpdateMetadataResponseData"
  , "c2" : "data()"
  , "c3" : "1"

@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.task.WorkerStatusTracker
 class org.apache.kafka.trogdor.task.WorkerStatusTracker {
-+  update(JsonNode)
+update(JsonNode) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.html#10]]]
 } 
 @enduml

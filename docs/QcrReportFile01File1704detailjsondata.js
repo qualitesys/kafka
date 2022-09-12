@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.SessionWindowedKStreamImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#40"
  , "c1" : "SessionWindowedKStreamImpl"
  , "c2" : "SessionWindowedKStreamImpl(SessionWindows;InternalStreamsBuilder;Set<String>;String;Serde<K>;Serde<V>;GroupedStreamAggregateBuilder<K,V>;GraphNode)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#55"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#60"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count(Named)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#65"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count(Materialized<K,Long,SessionStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#70"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "count(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#83"
  , "c1" : "SessionWindowedKStream<K,V>"
  , "c2" : "emitStrategy(EmitStrategy)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#88"
  , "c1" : "KTable<Windowed<K>,Long>"
  , "c2" : "doCount(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#117"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#122"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>;Named)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#127"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#133"
  , "c1" : "KTable<Windowed<K>,V>"
  , "c2" : "reduce(Reducer<V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00281"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#281"
  , "c1" : "Merger<K,V>"
  , "c2" : "mergerForAggregator(Aggregator<K,V,V>)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#285"
  , "c1" : "Aggregator<K,V,V>"
  , "c2" : "aggregatorForReducer(Reducer<V>)"
  , "c3" : "1"

@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.TopicDelta
 class org.apache.kafka.image.TopicDelta {
-+  TopicDelta(TopicImage)
-+  image()
-+  partitionChanges()
-+  name()
-+  id()
-+  replay(PartitionRecord)
-+  replay(PartitionChangeRecord)
-+  apply()
-+  localChanges(int)
-+  toString()
++ TopicDelta(TopicImage) : TopicDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#23]]]
++ image() : TopicImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#27]]]
++ partitionChanges() : Map<Integer,PartitionRegistration> [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#31]]]
++ name() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#35]]]
++ id() : Uuid [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#39]]]
++ replay(PartitionRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#43]]]
++ replay(PartitionChangeRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#47]]]
++ apply() : TopicImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#59]]]
++ localChanges(int) : LocalReplicaChanges [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#79]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#116]]]
 } 
 @enduml

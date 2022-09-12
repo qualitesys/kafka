@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.LoggingSignalHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#30"
  , "c1" : "LoggingSignalHandler"
  , "c2" : "LoggingSignalHandler()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#40"
  , "c1" : "void"
  , "c2" : "register()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#49"
  , "c1" : "Object"
  , "c2" : "createSignalHandler(Map<String,Object>)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#74"
  , "c1" : "void"
  , "c2" : "register(String;Map<String,Object>)"
  , "c3" : "2"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.OffsetStorageReaderImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#32"
  , "c1" : "OffsetStorageReaderImpl"
  , "c2" : "OffsetStorageReaderImpl(OffsetBackingStore;String;Converter;Converter)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#126"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"

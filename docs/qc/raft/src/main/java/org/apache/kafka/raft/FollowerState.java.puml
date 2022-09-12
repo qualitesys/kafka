@@ -2,21 +2,21 @@
 !pragma layout smetana
 EpochState <|-- org.apache.kafka.raft.FollowerState
 class org.apache.kafka.raft.FollowerState {
-+  FollowerState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)
-+  election()
-+  epoch()
-+  name()
-+  remainingFetchTimeMs(long)
-+  leaderId()
-+  hasFetchTimeoutExpired(long)
-+  resetFetchTimeout(long)
-+  overrideFetchTimeout(long;long)
-+  updateHighWatermark(OptionalLong)
-+  highWatermark()
-+  fetchingSnapshot()
-+  setFetchingSnapshot(Optional<RawSnapshotWriter>)
-+  canGrantVote(int;boolean)
-+  toString()
-+  close()
++ FollowerState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext) : FollowerState [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#28]]]
++ election() : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#48]]]
++ epoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#58]]]
++ name() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#63]]]
++ remainingFetchTimeMs(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#67]]]
++ leaderId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#72]]]
++ hasFetchTimeoutExpired(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#76]]]
++ resetFetchTimeout(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#81]]]
++ overrideFetchTimeout(long;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#86]]]
++ updateHighWatermark(OptionalLong) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91]]]
++ highWatermark() : Optional<LogOffsetMetadata> [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#115]]]
++ fetchingSnapshot() : Optional<RawSnapshotWriter> [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#119]]]
++ setFetchingSnapshot(Optional<RawSnapshotWriter>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#123]]]
++ canGrantVote(int;boolean) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#131]]]
++ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#138]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#150]]]
 } 
 @enduml

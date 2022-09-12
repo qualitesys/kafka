@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.BrokerRegistrationReply" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#11"
  , "c1" : "BrokerRegistrationReply"
  , "c2" : "BrokerRegistrationReply(long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#15"
  , "c1" : "long"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#20"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#25"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#32"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

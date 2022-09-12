@@ -2,15 +2,15 @@
 !pragma layout smetana
 WindowBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier
 class org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier {
-+  RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;boolean)
-+  RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;WindowStoreTypes)
-+  name()
-+  get()
-+  metricsScope()
-+  segmentIntervalMs()
-+  windowSize()
-+  retainDuplicates()
-+  retentionPeriod()
-+  toString()
++ RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;boolean) : RocksDbWindowBytesStoreSupplier [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#21]]]
++ RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;WindowStoreTypes) : RocksDbWindowBytesStoreSupplier [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#33]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#48]]]
++ get() : WindowStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#53]]]
++ metricsScope() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#81]]]
++ segmentIntervalMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#86]]]
++ windowSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#91]]]
++ retainDuplicates() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#96]]]
++ retentionPeriod() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#101]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#106]]]
 } 
 @enduml

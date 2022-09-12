@@ -2,20 +2,20 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.RestServer
 class org.apache.kafka.connect.runtime.rest.RestServer {
-+  RestServer(WorkerConfig)
-+  createConnectors(List<String>;List<String>)
-+  createConnector(String)
-+  createConnector(String;boolean)
-+  initializeServer()
-+  initializeResources(Herder)
-+  serverUrl()
-+  stop()
-+  advertisedUrl()
-+  adminUrl()
-+  requestTimeout(long)
-+  determineAdvertisedProtocol()
-+  findConnector(String)
-+  registerRestExtensions(Herder;ResourceConfig)
-+  configureHttpResponsHeaderFilter(ServletContextHandler)
++ RestServer(WorkerConfig) : RestServer [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#80]]]
++ createConnectors(List<String>;List<String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#93]]]
++ createConnector(String) : Connector [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#114]]]
++ createConnector(String;boolean) : Connector [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#119]]]
++ initializeServer() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#165]]]
++ initializeResources(Herder) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#185]]]
++ serverUrl() : URI [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#290]]]
++ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#294]]]
++ advertisedUrl() : URI [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#316]]]
++ adminUrl() : URI [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#341]]]
++ requestTimeout(long) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#367]]]
+determineAdvertisedProtocol() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#371]]]
+findConnector(String) : ServerConnector [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#393]]]
+registerRestExtensions(Herder;ResourceConfig) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#408]]]
+configureHttpResponsHeaderFilter(ServletContextHandler) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#437]]]
 } 
 @enduml

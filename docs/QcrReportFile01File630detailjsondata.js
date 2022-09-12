@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.CreateTopicsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#70"
  , "c1" : "CreateTopicsRequest"
  , "c2" : "CreateTopicsRequest(CreateTopicsRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#76"
  , "c1" : "CreateTopicsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#81"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateTopicsRequest.java.html#96"
  , "c1" : "CreateTopicsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

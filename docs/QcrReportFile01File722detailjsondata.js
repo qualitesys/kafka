@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.StopReplicaRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#86"
  , "c1" : "StopReplicaRequest"
  , "c2" : "StopReplicaRequest(StopReplicaRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#92"
  , "c1" : "StopReplicaResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#113"
  , "c1" : "Iterable<StopReplicaTopicState>"
  , "c2" : "topicStates()"
  , "c3" : "6"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#138"
  , "c1" : "Map<TopicPartition,StopReplicaPartitionState>"
  , "c2" : "partitionStates()"
  , "c3" : "10"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#173"
  , "c1" : "int"
  , "c2" : "controllerId()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#178"
  , "c1" : "int"
  , "c2" : "controllerEpoch()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#183"
  , "c1" : "long"
  , "c2" : "brokerEpoch()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00187"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#187"
  , "c1" : "StopReplicaRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#192"
  , "c1" : "StopReplicaRequestData"
  , "c2" : "data()"
  , "c3" : "1"

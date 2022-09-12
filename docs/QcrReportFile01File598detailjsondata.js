@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.AllocateProducerIdsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#16"
  , "c1" : "AllocateProducerIdsRequest"
  , "c2" : "AllocateProducerIdsRequest(AllocateProducerIdsRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#22"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#29"
  , "c1" : "AllocateProducerIdsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#53"
  , "c1" : "AllocateProducerIdsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

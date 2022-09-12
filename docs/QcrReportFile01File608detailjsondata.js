@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#43"
  , "c1" : "AlterReplicaLogDirsRequest"
  , "c2" : "AlterReplicaLogDirsRequest(AlterReplicaLogDirsRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#49"
  , "c1" : "AlterReplicaLogDirsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#53"
  , "c1" : "AlterReplicaLogDirsResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#66"
  , "c1" : "Map<TopicPartition,String>"
  , "c2" : "partitionDirs()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#76"
  , "c1" : "AlterReplicaLogDirsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

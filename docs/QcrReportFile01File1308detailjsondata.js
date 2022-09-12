@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ControllerPurgatory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#18"
  , "c1" : "void"
  , "c2" : "completeUpTo(long)"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#33"
  , "c1" : "void"
  , "c2" : "failAll(Exception)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#45"
  , "c1" : "void"
  , "c2" : "add(long;DeferredEvent)"
  , "c3" : "4"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
  , "c1" : "OptionalLong"
  , "c2" : "highestPendingOffset()"
  , "c3" : "3"

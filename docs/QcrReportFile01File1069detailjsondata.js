@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.HerderConnectorContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#17"
  , "c1" : "HerderConnectorContext"
  , "c2" : "HerderConnectorContext(AbstractHerder;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#24"
  , "c1" : "void"
  , "c2" : "requestTaskReconfiguration()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#37"
  , "c1" : "void"
  , "c2" : "raiseError(Exception)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#49"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

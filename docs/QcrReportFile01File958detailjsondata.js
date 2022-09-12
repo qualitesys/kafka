@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.errors.SchemaBuilderException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00005"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/SchemaBuilderException.java.html#5"
  , "c1" : "SchemaBuilderException"
  , "c2" : "SchemaBuilderException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/SchemaBuilderException.java.html#9"
  , "c1" : "SchemaBuilderException"
  , "c2" : "SchemaBuilderException(String;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/SchemaBuilderException.java.html#13"
  , "c1" : "SchemaBuilderException"
  , "c2" : "SchemaBuilderException(Throwable)"
  , "c3" : "1"

@@ -2,8 +2,8 @@
 !pragma layout smetana
 RetriableException <|-- org.apache.kafka.common.errors.ThrottlingQuotaExceededException
 class org.apache.kafka.common.errors.ThrottlingQuotaExceededException {
-+  ThrottlingQuotaExceededException(String)
-+  ThrottlingQuotaExceededException(int;String)
-+  throttleTimeMs()
++ ThrottlingQuotaExceededException(String) : ThrottlingQuotaExceededException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.html#8]]]
++ ThrottlingQuotaExceededException(int;String) : ThrottlingQuotaExceededException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.html#12]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.html#17]]]
 } 
 @enduml

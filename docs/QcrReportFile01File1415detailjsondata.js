@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.RaftUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#26"
  , "c1" : "ApiMessage"
  , "c2" : "errorResponse(ApiKeys;Errors)"
  , "c3" : "5"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#41"
  , "c1" : "FetchRequestData"
  , "c2" : "singletonFetchRequest(TopicPartition;Uuid;Consumer<FetchRequestData.FetchPartition>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#61"
  , "c1" : "FetchResponseData"
  , "c2" : "singletonFetchResponse(TopicPartition;Uuid;Errors;Consumer<FetchResponseData.PartitionData>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#85"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(FetchRequestData;TopicPartition;Uuid)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#92"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(FetchResponseData;TopicPartition;Uuid)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#99"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(VoteResponseData;TopicPartition)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#106"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(VoteRequestData;TopicPartition)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#113"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(BeginQuorumEpochRequestData;TopicPartition)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#120"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(BeginQuorumEpochResponseData;TopicPartition)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#127"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(EndQuorumEpochRequestData;TopicPartition)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#134"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(EndQuorumEpochResponseData;TopicPartition)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#141"
  , "c1" : "boolean"
  , "c2" : "hasValidTopicPartition(DescribeQuorumRequestData;TopicPartition)"
  , "c3" : "1"

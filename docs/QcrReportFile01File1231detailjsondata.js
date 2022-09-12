@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.util.RegexValidator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.html#12"
  , "c1" : "void"
  , "c2" : "ensureValid(String;Object)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.html#21"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

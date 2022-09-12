@@ -2,28 +2,28 @@
 !pragma layout smetana
 AbstractCoordinatorCloseable <|-- org.apache.kafka.connect.runtime.distributed.WorkerCoordinator
 class org.apache.kafka.connect.runtime.distributed.WorkerCoordinator {
-+  WorkerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;Metrics;String;Time;String;ConfigBackingStore;WorkerRebalanceListener;ConnectProtocolCompatibility;int)
-+  requestRejoin(String)
-+  protocolType()
-+  ensureCoordinatorReady(Timer)
-+  poll(long)
-+  metadata()
-+  onJoinComplete(int;String;String;ByteBuffer)
-+  onLeaderElected(String;String;List<JoinGroupResponseMember>;boolean)
-+  onJoinPrepare(int;String)
-+  rejoinNeededOrPending()
-+  memberId()
-+  generationId()
-+  lastCompletedGenerationId()
-+  revokeAssignment(ExtendedAssignment)
-+  isLeader()
-+  ownerUrl(String)
-+  ownerUrl(ConnectorTaskId)
-+  configFreshSnapshot()
-+  configSnapshot()
-+  configSnapshot(ClusterConfigState)
-+  leaderState()
-+  leaderState(LeaderState)
-+  currentProtocolVersion()
++ WorkerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;Metrics;String;Time;String;ConfigBackingStore;WorkerRebalanceListener;ConnectProtocolCompatibility;int) : WorkerCoordinator [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#52]]]
++ requestRejoin(String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#85]]]
++ protocolType() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#91]]]
+ensureCoordinatorReady(Timer) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#97]]]
++ poll(long) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#101]]]
++ metadata() : JoinGroupRequestProtocolCollection [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#148]]]
+onJoinComplete(int;String;String;ByteBuffer) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#165]]]
+onLeaderElected(String;String;List<JoinGroupResponseMember>;boolean) : Map<String,ByteBuffer> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#195]]]
+onJoinPrepare(int;String) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#208]]]
+rejoinNeededOrPending() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#224]]]
++ memberId() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#230]]]
++ generationId() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#238]]]
++ lastCompletedGenerationId() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#243]]]
++ revokeAssignment(ExtendedAssignment) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#247]]]
+- isLeader() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#251]]]
++ ownerUrl(String) : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#256]]]
++ ownerUrl(ConnectorTaskId) : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#262]]]
++ configFreshSnapshot() : ClusterConfigState [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#269]]]
++ configSnapshot() : ClusterConfigState [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#274]]]
++ configSnapshot(ClusterConfigState) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#279]]]
+- leaderState() : LeaderState [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#284]]]
++ leaderState(LeaderState) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#289]]]
++ currentProtocolVersion() : short [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#294]]]
 } 
 @enduml

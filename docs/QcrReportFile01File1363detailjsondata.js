@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.VersionRange" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#14"
  , "c1" : "VersionRange"
  , "c2" : "VersionRange(short;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#19"
  , "c1" : "VersionRange"
  , "c2" : "of(short;short)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#23"
  , "c1" : "VersionRange"
  , "c2" : "of(int;int)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#27"
  , "c1" : "short"
  , "c2" : "min()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#31"
  , "c1" : "short"
  , "c2" : "max()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#36"
  , "c1" : "boolean"
  , "c2" : "contains(short)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#41"
  , "c1" : "boolean"
  , "c2" : "intersects(VersionRange)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#46"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#51"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#58"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "5"

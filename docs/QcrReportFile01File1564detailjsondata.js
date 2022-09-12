@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.TaskMigratedException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#10"
  , "c1" : "TaskMigratedException"
  , "c2" : "TaskMigratedException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#14"
  , "c1" : "TaskMigratedException"
  , "c2" : "TaskMigratedException(String;Throwable)"
  , "c3" : "1"

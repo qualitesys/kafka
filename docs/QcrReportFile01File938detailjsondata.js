@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java.html#15"
  , "c1" : "List<ConfigValue>"
  , "c2" : "validate(ConnectorClientConfigRequest)"
  , "c3" : "1"

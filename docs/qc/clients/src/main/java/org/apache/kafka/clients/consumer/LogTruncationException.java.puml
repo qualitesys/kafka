@@ -2,7 +2,7 @@
 !pragma layout smetana
 OffsetOutOfRangeException <|-- org.apache.kafka.clients.consumer.LogTruncationException
 class org.apache.kafka.clients.consumer.LogTruncationException {
-+  LogTruncationException(String;Map<TopicPartition,Long>;Map<TopicPartition,OffsetAndMetadata>)
-+  divergentOffsets()
++ LogTruncationException(String;Map<TopicPartition,Long>;Map<TopicPartition,OffsetAndMetadata>) : LogTruncationException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/LogTruncationException.java.html#14]]]
++ divergentOffsets() : Map<TopicPartition,OffsetAndMetadata> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/LogTruncationException.java.html#22]]]
 } 
 @enduml

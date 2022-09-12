@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListTransactionsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#20"
  , "c1" : "ListTransactionsOptions"
  , "c2" : "filterStates(Collection<TransactionState>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#26"
  , "c1" : "ListTransactionsOptions"
  , "c2" : "filterProducerIds(Collection<Long>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#32"
  , "c1" : "Set<TransactionState>"
  , "c2" : "filteredStates()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#37"
  , "c1" : "Set<Long>"
  , "c2" : "filteredProducerIds()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#42"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#51"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#60"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DeleteAclsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#58"
  , "c1" : "DeleteAclsResult"
  , "c2" : "DeleteAclsResult(Map<AclBindingFilter,KafkaFuture<FilterResults>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#63"
  , "c1" : "Map<AclBindingFilter,KafkaFuture<FilterResults>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#68"
  , "c1" : "KafkaFuture<Collection<AclBinding>>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#72"
  , "c1" : "List<AclBinding>"
  , "c2" : "getAclBindings(Map<AclBindingFilter,KafkaFuture<FilterResults>>)"
  , "c3" : "4"

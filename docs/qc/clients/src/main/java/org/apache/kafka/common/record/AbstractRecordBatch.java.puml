@@ -2,8 +2,8 @@
 !pragma layout smetana
 RecordBatch <|-- org.apache.kafka.common.record.AbstractRecordBatch
 class org.apache.kafka.common.record.AbstractRecordBatch {
-+  hasProducerId()
-+  nextOffset()
-+  isCompressed()
++ hasProducerId() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#7]]]
++ nextOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#12]]]
++ isCompressed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#17]]]
 } 
 @enduml

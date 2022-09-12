@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.SequentialPayloadGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#17"
  , "c1" : "SequentialPayloadGenerator"
  , "c2" : "SequentialPayloadGenerator(int;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#28"
  , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#33"
  , "c1" : "long"
  , "c2" : "startOffset()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#38"
  , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "1"

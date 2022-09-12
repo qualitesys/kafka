@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.KafkaFuture" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#40"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "allOf(KafkaFuture<?>...)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#61"
  , "c1" : "CompletionStage<T>"
  , "c2" : "toCompletionStage()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#70"
  , "c1" : "KafkaFuture<T>"
  , "c2" : "whenComplete(BiConsumer<?superT,?superThrowable>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#73"
  , "c1" : "boolean"
  , "c2" : "complete(T)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#76"
  , "c1" : "boolean"
  , "c2" : "completeExceptionally(Throwable)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#80"
  , "c1" : "boolean"
  , "c2" : "cancel(boolean)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#84"
  , "c1" : "T"
  , "c2" : "get()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#88"
  , "c1" : "T"
  , "c2" : "get(long;TimeUnit)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#92"
  , "c1" : "T"
  , "c2" : "getNow(T)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#96"
  , "c1" : "boolean"
  , "c2" : "isCancelled()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#99"
  , "c1" : "boolean"
  , "c2" : "isCompletedExceptionally()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#103"
  , "c1" : "boolean"
  , "c2" : "isDone()"
  , "c3" : "1"

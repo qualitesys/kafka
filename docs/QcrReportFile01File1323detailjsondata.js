@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.SnapshotGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#45"
  , "c1" : "SnapshotGenerator"
  , "c2" : "SnapshotGenerator(LogContext;SnapshotWriter<ApiMessageAndVersion>;int;List<Section>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#61"
  , "c1" : "long"
  , "c2" : "lastContainedLogOffset()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#65"
  , "c1" : "SnapshotWriter"
  , "c2" : "writer()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#70"
  , "c1" : "boolean"
  , "c2" : "generateBatch()"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#98"
  , "c1" : "OptionalLong"
  , "c2" : "generateBatches()"
  , "c3" : "3"

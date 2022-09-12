@@ -2,14 +2,14 @@
 !pragma layout smetana
 Configurable <|-- org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager
 class org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager {
-+  addRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)
-+  updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate)
-+  remoteLogSegmentMetadata(TopicIdPartition;int;long)
-+  highestOffsetForEpoch(TopicIdPartition;int)
-+  putRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)
-+  listRemoteLogSegments(TopicIdPartition)
-+  listRemoteLogSegments(TopicIdPartition;int)
-+  onPartitionLeadershipChanges(Set<TopicIdPartition>;Set<TopicIdPartition>)
-+  onStopPartitions(Set<TopicIdPartition>)
+addRemoteLogSegmentMetadata(RemoteLogSegmentMetadata) : CompletableFuture<Void> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#20]]]
+updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate) : CompletableFuture<Void> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#23]]]
+remoteLogSegmentMetadata(TopicIdPartition;int;long) : Optional<RemoteLogSegmentMetadata> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#27]]]
+highestOffsetForEpoch(TopicIdPartition;int) : Optional<Long> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#33]]]
+putRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata) : CompletableFuture<Void> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#37]]]
+listRemoteLogSegments(TopicIdPartition) : Iterator<RemoteLogSegmentMetadata> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#41]]]
+listRemoteLogSegments(TopicIdPartition;int) : Iterator<RemoteLogSegmentMetadata> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#45]]]
+onPartitionLeadershipChanges(Set<TopicIdPartition>;Set<TopicIdPartition>) : void [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#49]]]
+onStopPartitions(Set<TopicIdPartition>) : void [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#53]]]
 } 
 @enduml

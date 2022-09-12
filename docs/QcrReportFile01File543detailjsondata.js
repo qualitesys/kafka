@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.quota.ClientQuotaEntity" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#18"
  , "c1" : "boolean"
  , "c2" : "isValidEntityType(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#25"
  , "c1" : "ClientQuotaEntity"
  , "c2" : "ClientQuotaEntity(Map<String,String>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#30"
  , "c1" : "Map<String,String>"
  , "c2" : "entries()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#35"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#43"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#48"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

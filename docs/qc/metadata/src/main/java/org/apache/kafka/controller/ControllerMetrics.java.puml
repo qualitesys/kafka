@@ -2,28 +2,28 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.controller.ControllerMetrics
 class org.apache.kafka.controller.ControllerMetrics {
-+  setActive(boolean)
-+  active()
-+  updateEventQueueTime(long)
-+  updateEventQueueProcessingTime(long)
-+  setFencedBrokerCount(int)
-+  fencedBrokerCount()
-+  setActiveBrokerCount(int)
-+  activeBrokerCount()
-+  setGlobalTopicsCount(int)
-+  globalTopicsCount()
-+  setGlobalPartitionCount(int)
-+  globalPartitionCount()
-+  setOfflinePartitionCount(int)
-+  offlinePartitionCount()
-+  setPreferredReplicaImbalanceCount(int)
-+  preferredReplicaImbalanceCount()
-+  setLastAppliedRecordOffset(long)
-+  lastAppliedRecordOffset()
-+  setLastCommittedRecordOffset(long)
-+  lastCommittedRecordOffset()
-+  setLastAppliedRecordTimestamp(long)
-+  lastAppliedRecordTimestamp()
-+  close()
+setActive(boolean) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#7]]]
+active() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#9]]]
+updateEventQueueTime(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#11]]]
+updateEventQueueProcessingTime(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#13]]]
+setFencedBrokerCount(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#15]]]
+fencedBrokerCount() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#17]]]
+setActiveBrokerCount(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#19]]]
+activeBrokerCount() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#21]]]
+setGlobalTopicsCount(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#23]]]
+globalTopicsCount() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#25]]]
+setGlobalPartitionCount(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#27]]]
+globalPartitionCount() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#29]]]
+setOfflinePartitionCount(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#31]]]
+offlinePartitionCount() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#33]]]
+setPreferredReplicaImbalanceCount(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#35]]]
+preferredReplicaImbalanceCount() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#37]]]
+setLastAppliedRecordOffset(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#39]]]
+lastAppliedRecordOffset() : long [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#41]]]
+setLastCommittedRecordOffset(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#43]]]
+lastCommittedRecordOffset() : long [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#45]]]
+setLastAppliedRecordTimestamp(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#47]]]
+lastAppliedRecordTimestamp() : long [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#49]]]
+close() : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#51]]]
 } 
 @enduml

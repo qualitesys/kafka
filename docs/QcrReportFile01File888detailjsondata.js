@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.Bytes" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#20"
  , "c1" : "Bytes"
  , "c2" : "wrap(byte[])"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#27"
  , "c1" : "Bytes"
  , "c2" : "Bytes(byte[])"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#35"
  , "c1" : "byte[]"
  , "c2" : "get()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#41"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#50"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "5"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#67"
  , "c1" : "int"
  , "c2" : "compareTo(Bytes)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#72"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#77"
  , "c1" : "String"
  , "c2" : "toString(byte[];int;int)"
  , "c3" : "7"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104"
  , "c1" : "Bytes"
  , "c2" : "increment(Bytes)"
  , "c3" : "6"

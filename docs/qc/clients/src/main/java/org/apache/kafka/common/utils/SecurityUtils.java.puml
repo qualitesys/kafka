@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.SecurityUtils
 class org.apache.kafka.common.utils.SecurityUtils {
-+  parseKafkaPrincipal(String)
-+  addConfiguredSecurityProviders(Map<String,?>)
-+  resourceType(String)
-+  operation(String)
-+  permissionType(String)
-+  resourceTypeName(ResourceType)
-+  operationName(AclOperation)
-+  permissionTypeName(AclPermissionType)
-+  toPascalCase(String)
-+  authorizeByResourceTypeCheckArgs(AclOperation;ResourceType)
-+  denyAll(ResourcePattern)
++ parseKafkaPrincipal(String) : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#50]]]
++ addConfiguredSecurityProviders(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#64]]]
++ resourceType(String) : ResourceType [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#87]]]
++ operation(String) : AclOperation [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#91]]]
++ permissionType(String) : AclPermissionType [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#95]]]
++ resourceTypeName(ResourceType) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#110]]]
++ operationName(AclOperation) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#114]]]
++ permissionTypeName(AclPermissionType) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#118]]]
+- toPascalCase(String) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#122]]]
++ authorizeByResourceTypeCheckArgs(AclOperation;ResourceType) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#137]]]
++ denyAll(ResourcePattern) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#160]]]
 } 
 @enduml

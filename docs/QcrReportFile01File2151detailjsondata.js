@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.CoordinatorStatusResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.html#13"
  , "c1" : "CoordinatorStatusResponse"
  , "c2" : "CoordinatorStatusResponse(long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.html#18"
  , "c1" : "long"
  , "c2" : "serverStartMs()"
  , "c3" : "1"

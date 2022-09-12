@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.KafkaBasedLog" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#73"
  , "c1" : "KafkaBasedLog"
  , "c2" : "KafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<K,V>>;Time;Runnable)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#83"
  , "c1" : "KafkaBasedLog"
  , "c2" : "KafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Supplier<TopicAdmin>;Callback<ConsumerRecord<K,V>>;Time;java.util.function.Consumer<TopicAdmin>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#137"
  , "c1" : "void"
  , "c2" : "start()"
  , "c3" : "6"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#192"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#221"
  , "c1" : "void"
  , "c2" : "readToEnd(Callback<Void>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00231"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#231"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00236"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#236"
  , "c1" : "Future<Void>"
  , "c2" : "readToEnd()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00242"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#242"
  , "c1" : "void"
  , "c2" : "send(K;V)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#246"
  , "c1" : "void"
  , "c2" : "send(K;V;org.apache.kafka.clients.producer.Callback)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#252"
  , "c1" : "int"
  , "c2" : "partitionCount()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00256"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#256"
  , "c1" : "Producer<K,V>"
  , "c2" : "createProducer()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00265"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#265"
  , "c1" : "Consumer<K,V>"
  , "c2" : "createConsumer()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00274"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#274"
  , "c1" : "void"
  , "c2" : "poll(long)"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00288"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#288"
  , "c1" : "void"
  , "c2" : "readToLogEnd(boolean)"
  , "c3" : "5"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00315"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#315"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "readEndOffsets(Set<TopicPartition>;boolean)"
  , "c3" : "4"

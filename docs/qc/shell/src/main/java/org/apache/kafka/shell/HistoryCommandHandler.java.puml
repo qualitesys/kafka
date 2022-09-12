@@ -2,9 +2,9 @@
 !pragma layout smetana
 Commands.Handler <|-- org.apache.kafka.shell.HistoryCommandHandler
 class org.apache.kafka.shell.HistoryCommandHandler {
-+  HistoryCommandHandler(int)
-+  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
-+  hashCode()
-+  equals(Object)
++ HistoryCommandHandler(int) : HistoryCommandHandler [[[././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#62]]]
++ run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#67]]]
++ hashCode() : int [[[././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#81]]]
++ equals(Object) : boolean [[[././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#86]]]
 } 
 @enduml

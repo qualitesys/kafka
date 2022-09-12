@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.TaskMovement" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#27"
  , "c1" : "TaskMovement"
  , "c2" : "TaskMovement(TaskId;UUID;SortedSet<UUID>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#33"
  , "c1" : "TaskId"
  , "c2" : "task()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#37"
  , "c1" : "int"
  , "c2" : "numCaughtUpClients()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#41"
  , "c1" : "boolean"
  , "c2" : "taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist(TaskId;UUID;Map<UUID,ClientState>;Map<TaskId,SortedSet<UUID>>;Map<TaskId,SortedSet<UUID>>)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#55"
  , "c1" : "boolean"
  , "c2" : "taskIsCaughtUpOnClient(TaskId;UUID;Map<TaskId,SortedSet<UUID>>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#62"
  , "c1" : "int"
  , "c2" : "assignActiveTaskMovements(Map<TaskId,SortedSet<UUID>>;Map<TaskId,SortedSet<UUID>>;Map<UUID,ClientState>;Map<UUID,Set<TaskId>>;AtomicInteger)"
  , "c3" : "6"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#110"
  , "c1" : "int"
  , "c2" : "assignStandbyTaskMovements(Map<TaskId,SortedSet<UUID>>;Map<TaskId,SortedSet<UUID>>;Map<UUID,ClientState>;AtomicInteger;Map<UUID,Set<TaskId>>)"
  , "c3" : "10"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#175"
  , "c1" : "boolean"
  , "c2" : "tryToSwapStandbyAndActiveOnCaughtUpClient(Map<UUID,ClientState>;ConstrainedPrioritySet;TaskMovement)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00194"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#194"
  , "c1" : "boolean"
  , "c2" : "tryToMoveActiveToCaughtUpClientAndTryToWarmUp(Map<UUID,ClientState>;Map<UUID,Set<TaskId>>;AtomicInteger;ConstrainedPrioritySet;TaskMovement)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00214"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#214"
  , "c1" : "boolean"
  , "c2" : "tryToMoveActiveToMostCaughtUpClient(Map<TaskId,SortedSet<UUID>>;Map<UUID,ClientState>;Map<UUID,Set<TaskId>>;AtomicInteger;ConstrainedPrioritySet;TaskMovement)"
  , "c3" : "4"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00243"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#243"
  , "c1" : "void"
  , "c2" : "moveActiveAndTryToWarmUp(AtomicInteger;TaskId;ClientState;ClientState;Set<TaskId>)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00261"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#261"
  , "c1" : "void"
  , "c2" : "moveStandbyAndTryToWarmUp(AtomicInteger;TaskId;ClientState;ClientState)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00276"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#276"
  , "c1" : "void"
  , "c2" : "swapStandbyAndActive(TaskId;ClientState;ClientState)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#285"
  , "c1" : "UUID"
  , "c2" : "mostCaughtUpEligibleClient(Map<TaskId,SortedSet<UUID>>;TaskId;UUID)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00291"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#291"
  , "c1" : "UUID"
  , "c2" : "mostCaughtUpEligibleClient(Map<TaskId,SortedSet<UUID>>;Function<UUID,Boolean>;TaskId;UUID)"
  , "c3" : "5"

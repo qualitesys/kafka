@@ -2,8 +2,8 @@
 !pragma layout smetana
 StreamsException <|-- org.apache.kafka.streams.errors.TopologyException
 class org.apache.kafka.streams.errors.TopologyException {
-+  TopologyException(String)
-+  TopologyException(String;Throwable)
-+  TopologyException(Throwable)
++ TopologyException(String) : TopologyException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#10]]]
++ TopologyException(String;Throwable) : TopologyException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#14]]]
++ TopologyException(Throwable) : TopologyException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#19]]]
 } 
 @enduml

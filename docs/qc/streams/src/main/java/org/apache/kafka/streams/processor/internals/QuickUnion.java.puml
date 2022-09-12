@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.QuickUnion
 class org.apache.kafka.streams.processor.internals.QuickUnion {
-+  add(T)
-+  exists(T)
-+  root(T)
-+  unite(T;T...)
-+  unitePair(T;T)
++ add(T) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#11]]]
++ exists(T) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#15]]]
++ root(T) : T [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#20]]]
+unite(T;T...) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#40]]]
+- unitePair(T;T) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#46]]]
 } 
 @enduml

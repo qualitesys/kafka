@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.KeyValue" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#15"
  , "c1" : "KeyValue"
  , "c2" : "KeyValue(K;V)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#26"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#31"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.html#45"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

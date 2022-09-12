@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataSnapshotFile.java.html#44"
  , "c1" : "RemoteLogMetadataSnapshotFile"
  , "c2" : "RemoteLogMetadataSnapshotFile(Path)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataSnapshotFile.java.html#60"
  , "c1" : "void"
  , "c2" : "write(Snapshot)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataSnapshotFile.java.html#108"
  , "c1" : "Optional<Snapshot>"
  , "c2" : "read()"
  , "c3" : "6"

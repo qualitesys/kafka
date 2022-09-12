@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.KStreamImplJoin
 class org.apache.kafka.streams.kstream.internals.KStreamImplJoin {
-+  KStreamImplJoin(InternalStreamsBuilder;boolean;boolean)
-+  assertWindowSettings(WindowBytesStoreSupplier;JoinWindows)
-+  assertUniqueStoreNames(WindowBytesStoreSupplier;WindowBytesStoreSupplier)
+KStreamImplJoin(InternalStreamsBuilder;boolean;boolean) : KStreamImplJoin [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#67]]]
+- assertWindowSettings(WindowBytesStoreSupplier;JoinWindows) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#204]]]
+- assertUniqueStoreNames(WindowBytesStoreSupplier;WindowBytesStoreSupplier) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#216]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.InternalTopicConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#25"
  , "c1" : "InternalTopicConfig"
  , "c2" : "InternalTopicConfig(String;Map<String,String>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#32"
  , "c1" : "InternalTopicConfig"
  , "c2" : "InternalTopicConfig(String;Map<String,String>;int;boolean)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#45"
  , "c1" : "Map<String,String>"
  , "c2" : "getProperties(Map<String,String>;long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#47"
  , "c1" : "boolean"
  , "c2" : "hasEnforcedNumberOfPartitions()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#51"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#55"
  , "c1" : "Optional<Integer>"
  , "c2" : "numberOfPartitions()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#59"
  , "c1" : "void"
  , "c2" : "setNumberOfPartitions(int)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#70"
  , "c1" : "void"
  , "c2" : "validateNumberOfPartitions(int)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#77"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

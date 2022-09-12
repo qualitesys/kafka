@@ -2,7 +2,7 @@
 !pragma layout smetana
 CacheFlushListener_Windowed_KOut_,VOut_ <|-- org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener
 class org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener {
-+  SessionCacheFlushListener(ProcessorContext<Windowed<KOut>,Change<VOut>>)
-+  apply(Record<Windowed<KOut>,Change<VOut>>)
+SessionCacheFlushListener(ProcessorContext<Windowed<KOut>,Change<VOut>>) : SessionCacheFlushListener [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#17]]]
++ apply(Record<Windowed<KOut>,Change<VOut>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#23]]]
 } 
 @enduml

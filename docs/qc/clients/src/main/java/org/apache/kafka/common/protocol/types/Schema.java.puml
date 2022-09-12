@@ -2,18 +2,18 @@
 !pragma layout smetana
 Type <|-- org.apache.kafka.common.protocol.types.Schema
 class org.apache.kafka.common.protocol.types.Schema {
-+  Schema(Field...)
-+  Schema(boolean;Field...)
-+  write(ByteBuffer;Object)
-+  read(ByteBuffer)
-+  sizeOf(Object)
-+  numFields()
-+  get(int)
-+  get(String)
-+  fields()
-+  toString()
-+  validate(Object)
-+  walk(Visitor)
-+  handleNode(Type;Visitor)
++ Schema(Field...) : Schema [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#19]]]
++ Schema(boolean;Field...) : Schema [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#24]]]
++ write(ByteBuffer;Object) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#42]]]
++ read(ByteBuffer) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#57]]]
++ sizeOf(Object) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#86]]]
++ numFields() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#101]]]
++ get(int) : BoundField [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#106]]]
++ get(String) : BoundField [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#111]]]
++ fields() : BoundField[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#116]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#122]]]
++ validate(Object) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#135]]]
++ walk(Visitor) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#151]]]
+- handleNode(Type;Visitor) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#156]]]
 } 
 @enduml

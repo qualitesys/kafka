@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.OrderedBytes" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#13"
  , "c1" : "Bytes"
  , "c2" : "upperRange(Bytes;byte[])"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#45"
  , "c1" : "Bytes"
  , "c2" : "lowerRange(Bytes;byte[])"
  , "c3" : "1"

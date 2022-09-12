@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.replica.RackAwareReplicaSelector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
  , "c1" : "Optional<ReplicaView>"
  , "c2" : "select(TopicPartition;ClientMetadata;PartitionView)"
  , "c3" : "7"

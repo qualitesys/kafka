@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.TimestampRandomPayloadGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRandomPayloadGenerator.java.html#24"
  , "c1" : "TimestampRandomPayloadGenerator"
  , "c2" : "TimestampRandomPayloadGenerator(int;long)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRandomPayloadGenerator.java.html#38"
  , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRandomPayloadGenerator.java.html#43"
  , "c1" : "long"
  , "c2" : "seed()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRandomPayloadGenerator.java.html#48"
  , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "2"

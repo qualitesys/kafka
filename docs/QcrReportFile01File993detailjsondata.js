@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.StringConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#21"
  , "c1" : "StringConverter"
  , "c2" : "StringConverter()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#25"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#30"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#45"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#52"
  , "c1" : "byte[]"
  , "c2" : "fromConnectData(String;Schema;Object)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#61"
  , "c1" : "SchemaAndValue"
  , "c2" : "toConnectData(String;byte[])"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#70"
  , "c1" : "byte[]"
  , "c2" : "fromConnectHeader(String;String;Schema;Object)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#75"
  , "c1" : "SchemaAndValue"
  , "c2" : "toConnectHeader(String;String;byte[])"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#80"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

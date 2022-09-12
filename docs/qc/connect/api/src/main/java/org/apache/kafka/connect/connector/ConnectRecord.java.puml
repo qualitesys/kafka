@@ -2,20 +2,20 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.connector.ConnectRecord
 class org.apache.kafka.connect.connector.ConnectRecord {
-+  ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long)
-+  ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
-+  topic()
-+  kafkaPartition()
-+  key()
-+  keySchema()
-+  value()
-+  valueSchema()
-+  timestamp()
-+  headers()
-+  newRecord(String;Integer;Schema;Object;Schema;Object;Long)
-+  newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
-+  toString()
-+  equals(Object)
-+  hashCode()
++ ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long) : ConnectRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#22]]]
++ ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>) : ConnectRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#29]]]
++ topic() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#47]]]
++ kafkaPartition() : Integer [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#51]]]
++ key() : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#55]]]
++ keySchema() : Schema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#59]]]
++ value() : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#63]]]
++ valueSchema() : Schema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#67]]]
++ timestamp() : Long [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#71]]]
++ headers() : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#76]]]
++ newRecord(String;Integer;Schema;Object;Schema;Object;Long) : R [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#81]]]
++ newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>) : R [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#84]]]
++ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#87]]]
++ equals(Object) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#101]]]
++ hashCode() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#120]]]
 } 
 @enduml

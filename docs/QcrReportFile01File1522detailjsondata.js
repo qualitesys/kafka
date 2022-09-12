@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.examples.wordcount.WordCountDemo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html#26"
  , "c1" : "Properties"
  , "c2" : "getStreamsConfig(String[])"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html#49"
  , "c1" : "void"
  , "c2" : "createWordCountStream(StreamsBuilder)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html#61"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

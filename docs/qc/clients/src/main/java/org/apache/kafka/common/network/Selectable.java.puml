@@ -2,20 +2,20 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.network.Selectable
 class org.apache.kafka.common.network.Selectable {
-+  connect(String;InetSocketAddress;int;int)
-+  wakeup()
-+  close()
-+  close(String)
-+  send(NetworkSend)
-+  poll(long)
-+  completedSends()
-+  completedReceives()
-+  disconnected()
-+  connected()
-+  mute(String)
-+  unmute(String)
-+  muteAll()
-+  unmuteAll()
-+  isChannelReady(String)
+connect(String;InetSocketAddress;int;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#18]]]
+wakeup() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#21]]]
+close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#24]]]
+close(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#27]]]
+send(NetworkSend) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#30]]]
+poll(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#33]]]
+completedSends() : List<NetworkSend> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#36]]]
+completedReceives() : Collection<NetworkReceive> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#39]]]
+disconnected() : Map<String,ChannelState> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#42]]]
+connected() : List<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#45]]]
+mute(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#48]]]
+unmute(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#51]]]
+muteAll() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#54]]]
+unmuteAll() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#57]]]
+isChannelReady(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#60]]]
 } 
 @enduml

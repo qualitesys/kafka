@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramServerCallbackHandler.java.html#26"
  , "c1" : "ScramServerCallbackHandler"
  , "c2" : "ScramServerCallbackHandler(CredentialCache.Cache<ScramCredential>;DelegationTokenCache)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramServerCallbackHandler.java.html#33"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramServerCallbackHandler.java.html#38"
  , "c1" : "void"
  , "c2" : "handle(Callback[])"
  , "c3" : "9"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramServerCallbackHandler.java.html#59"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

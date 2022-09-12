@@ -2,8 +2,8 @@
 !pragma layout smetana
 InvalidMetadataException <|-- org.apache.kafka.common.errors.ReplicaNotAvailableException
 class org.apache.kafka.common.errors.ReplicaNotAvailableException {
-+  ReplicaNotAvailableException(String)
-+  ReplicaNotAvailableException(String;Throwable)
-+  ReplicaNotAvailableException(Throwable)
++ ReplicaNotAvailableException(String) : ReplicaNotAvailableException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ReplicaNotAvailableException.java.html#9]]]
++ ReplicaNotAvailableException(String;Throwable) : ReplicaNotAvailableException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ReplicaNotAvailableException.java.html#13]]]
++ ReplicaNotAvailableException(Throwable) : ReplicaNotAvailableException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ReplicaNotAvailableException.java.html#17]]]
 } 
 @enduml

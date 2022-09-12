@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.file.FileStreamSourceTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#41"
  , "c1" : "FileStreamSourceTask"
  , "c2" : "FileStreamSourceTask()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#46"
  , "c1" : "FileStreamSourceTask"
  , "c2" : "FileStreamSourceTask(int)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#51"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#56"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#71"
  , "c1" : "List<SourceRecord>"
  , "c2" : "poll()"
  , "c3" : "17"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#172"
  , "c1" : "String"
  , "c2" : "extractLine()"
  , "c3" : "9"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#203"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#218"
  , "c1" : "Map<String,String>"
  , "c2" : "offsetKey(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00222"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#222"
  , "c1" : "Map<String,Long>"
  , "c2" : "offsetValue(Long)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#226"
  , "c1" : "String"
  , "c2" : "logFilename()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00231"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#231"
  , "c1" : "int"
  , "c2" : "bufferSize()"
  , "c3" : "1"

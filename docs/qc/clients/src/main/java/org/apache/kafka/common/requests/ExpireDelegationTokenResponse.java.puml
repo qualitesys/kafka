@@ -2,14 +2,14 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.ExpireDelegationTokenResponse
 class org.apache.kafka.common.requests.ExpireDelegationTokenResponse {
-+  ExpireDelegationTokenResponse(ExpireDelegationTokenResponseData)
-+  parse(ByteBuffer;short)
-+  error()
-+  expiryTimestamp()
-+  errorCounts()
-+  data()
-+  throttleTimeMs()
-+  hasError()
-+  shouldClientThrottle(short)
++ ExpireDelegationTokenResponse(ExpireDelegationTokenResponseData) : ExpireDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#16]]]
++ parse(ByteBuffer;short) : ExpireDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#21]]]
++ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#26]]]
++ expiryTimestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#30]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#35]]]
++ data() : ExpireDelegationTokenResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#40]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#45]]]
++ hasError() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#49]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenResponse.java.html#54]]]
 } 
 @enduml

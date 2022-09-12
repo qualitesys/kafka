@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.internals.MetadataOperationContext
 class org.apache.kafka.clients.admin.internals.MetadataOperationContext {
-+  MetadataOperationContext(Collection<String>;O;long;Map<TopicPartition,KafkaFutureImpl<T>>)
-+  setResponse(Optional<MetadataResponse>)
-+  response()
-+  options()
-+  deadline()
-+  futures()
-+  topics()
-+  handleMetadataErrors(MetadataResponse)
-+  shouldRefreshMetadata(Errors)
++ MetadataOperationContext(Collection<String>;O;long;Map<TopicPartition,KafkaFutureImpl<T>>) : MetadataOperationContext [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#26]]]
++ setResponse(Optional<MetadataResponse>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#37]]]
++ response() : Optional<MetadataResponse> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#41]]]
++ options() : O [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#45]]]
++ deadline() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#49]]]
++ futures() : Map<TopicPartition,KafkaFutureImpl<T>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#53]]]
++ topics() : Collection<String> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#57]]]
++ handleMetadataErrors(MetadataResponse) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#61]]]
++ shouldRefreshMetadata(Errors) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#71]]]
 } 
 @enduml

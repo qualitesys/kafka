@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.InternalTopicConfig
 class org.apache.kafka.streams.processor.internals.InternalTopicConfig {
-+  InternalTopicConfig(String;Map<String,String>)
-+  InternalTopicConfig(String;Map<String,String>;int;boolean)
-+  getProperties(Map<String,String>;long)
-+  hasEnforcedNumberOfPartitions()
-+  name()
-+  numberOfPartitions()
-+  setNumberOfPartitions(int)
-+  validateNumberOfPartitions(int)
-+  toString()
+InternalTopicConfig(String;Map<String,String>) : InternalTopicConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#25]]]
+InternalTopicConfig(String;Map<String,String>;int;boolean) : InternalTopicConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#32]]]
++ getProperties(Map<String,String>;long) : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#45]]]
++ hasEnforcedNumberOfPartitions() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#47]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#51]]]
++ numberOfPartitions() : Optional<Integer> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#55]]]
++ setNumberOfPartitions(int) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#59]]]
+- validateNumberOfPartitions(int) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#70]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#77]]]
 } 
 @enduml

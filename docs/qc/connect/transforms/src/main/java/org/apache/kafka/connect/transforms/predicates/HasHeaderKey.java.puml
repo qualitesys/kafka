@@ -2,10 +2,10 @@
 !pragma layout smetana
 Predicate_R_ <|-- org.apache.kafka.connect.transforms.predicates.HasHeaderKey
 class org.apache.kafka.connect.transforms.predicates.HasHeaderKey {
-+  config()
-+  test(R)
-+  close()
-+  configure(Map<String,?>)
-+  toString()
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#24]]]
++ test(R) : boolean [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#29]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#35]]]
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#40]]]
++ toString() : String [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#45]]]
 } 
 @enduml

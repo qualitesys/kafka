@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#18"
  , "c1" : "int"
  , "c2" : "partition(String;Object;byte[];Object;byte[];Cluster)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#23"
  , "c1" : "int"
  , "c2" : "partition(String;Object;byte[];Object;byte[];Cluster;int)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#31"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#35"
  , "c1" : "void"
  , "c2" : "onNewBatch(String;Cluster;int)"
  , "c3" : "1"

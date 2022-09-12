@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.util.SimpleConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SimpleConfig.java.html#12"
  , "c1" : "SimpleConfig"
  , "c2" : "SimpleConfig(ConfigDef;Map<?,?>)"
  , "c3" : "1"

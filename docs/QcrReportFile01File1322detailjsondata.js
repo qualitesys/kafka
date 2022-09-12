@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ResultOrError" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#15"
  , "c1" : "ResultOrError"
  , "c2" : "ResultOrError(Errors;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#19"
  , "c1" : "ResultOrError"
  , "c2" : "ResultOrError(ApiError)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#25"
  , "c1" : "ResultOrError"
  , "c2" : "ResultOrError(T)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#38"
  , "c1" : "boolean"
  , "c2" : "isError()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#42"
  , "c1" : "boolean"
  , "c2" : "isResult()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#46"
  , "c1" : "ApiError"
  , "c2" : "error()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#50"
  , "c1" : "T"
  , "c2" : "result()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#55"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#65"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#70"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "3"

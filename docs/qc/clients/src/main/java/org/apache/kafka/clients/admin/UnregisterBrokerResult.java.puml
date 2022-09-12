@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.UnregisterBrokerResult
 class org.apache.kafka.clients.admin.UnregisterBrokerResult {
-+  UnregisterBrokerResult(KafkaFuture<Void>)
-+  all()
+UnregisterBrokerResult(KafkaFuture<Void>) : UnregisterBrokerResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerResult.java.html#11]]]
++ all() : KafkaFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerResult.java.html#16]]]
 } 
 @enduml

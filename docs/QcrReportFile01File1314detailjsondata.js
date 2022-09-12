@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.PartitionChangeBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#28"
  , "c1" : "boolean"
  , "c2" : "changeRecordIsNoOp(PartitionChangeRecord)"
  , "c3" : "7"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#60"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "PartitionChangeBuilder(PartitionRegistration;Uuid;int;Function<Integer,Boolean>;boolean)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#77"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetIsr(List<Integer>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#82"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetReplicas(List<Integer>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#87"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setElection(Election)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#92"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetRemoving(List<Integer>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#97"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetAdding(List<Integer>)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#102"
  , "c1" : "PartitionChangeBuilder"
  , "c2" : "setTargetLeaderRecoveryState(LeaderRecoveryState)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#120"
  , "c1" : "ElectionResult"
  , "c2" : "electLeader()"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#129"
  , "c1" : "ElectionResult"
  , "c2" : "electPreferredLeader()"
  , "c3" : "4"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#152"
  , "c1" : "ElectionResult"
  , "c2" : "electAnyLeader()"
  , "c3" : "5"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#178"
  , "c1" : "boolean"
  , "c2" : "isValidNewLeader(int)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00182"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#182"
  , "c1" : "void"
  , "c2" : "tryElection(PartitionChangeRecord)"
  , "c3" : "5"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#209"
  , "c1" : "void"
  , "c2" : "triggerLeaderEpochBumpIfNeeded(PartitionChangeRecord)"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#218"
  , "c1" : "void"
  , "c2" : "completeReassignmentIfNeeded()"
  , "c3" : "11"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00249"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#249"
  , "c1" : "Optional<ApiMessageAndVersion>"
  , "c2" : "build()"
  , "c3" : "8"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00286"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#286"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

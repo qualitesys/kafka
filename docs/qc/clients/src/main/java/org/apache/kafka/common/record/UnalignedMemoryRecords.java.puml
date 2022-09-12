@@ -2,9 +2,9 @@
 !pragma layout smetana
 UnalignedRecords <|-- org.apache.kafka.common.record.UnalignedMemoryRecords
 class org.apache.kafka.common.record.UnalignedMemoryRecords {
-+  UnalignedMemoryRecords(ByteBuffer)
-+  buffer()
-+  sizeInBytes()
-+  writeTo(TransferableChannel;long;int)
++ UnalignedMemoryRecords(ByteBuffer) : UnalignedMemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#16]]]
++ buffer() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#20]]]
++ sizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#25]]]
++ writeTo(TransferableChannel;long;int) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#30]]]
 } 
 @enduml

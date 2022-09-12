@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.server.builders.KafkaApisBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#50"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setRequestChannel(RequestChannel)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#55"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setMetadataSupport(MetadataSupport)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#60"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setReplicaManager(ReplicaManager)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#65"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setGroupCoordinator(GroupCoordinator)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#70"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setTxnCoordinator(TransactionCoordinator)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#75"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setAutoTopicCreationManager(AutoTopicCreationManager)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#80"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setBrokerId(int)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#85"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setConfig(KafkaConfig)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#90"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setConfigRepository(ConfigRepository)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#95"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setMetadataCache(MetadataCache)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#100"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setMetrics(Metrics)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#105"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setAuthorizer(Optional<Authorizer>)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#110"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setQuotas(QuotaManagers)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#115"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setFetchManager(FetchManager)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#120"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setBrokerTopicStats(BrokerTopicStats)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#125"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setClusterId(String)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#130"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setTime(Time)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#135"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setTokenManager(DelegationTokenManager)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00140"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#140"
  , "c1" : "KafkaApisBuilder"
  , "c2" : "setApiVersionManager(ApiVersionManager)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#145"
  , "c1" : "KafkaApis"
  , "c2" : "build()"
  , "c3" : "15"

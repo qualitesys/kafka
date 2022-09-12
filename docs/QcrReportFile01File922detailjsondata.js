@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.authorizer.AclDeleteResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#18"
  , "c1" : "AclDeleteResult"
  , "c2" : "AclDeleteResult(ApiException)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#22"
  , "c1" : "AclDeleteResult"
  , "c2" : "AclDeleteResult(Collection<AclBindingDeleteResult>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#26"
  , "c1" : "AclDeleteResult"
  , "c2" : "AclDeleteResult(Collection<AclBindingDeleteResult>;ApiException)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#32"
  , "c1" : "Optional<ApiException>"
  , "c2" : "exception()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#37"
  , "c1" : "Collection<AclBindingDeleteResult>"
  , "c2" : "aclBindingDeleteResults()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.Serdes" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00193"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#193"
  , "c1" : "Serde<Long>"
  , "c2" : "Long()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#198"
  , "c1" : "Serde<Integer>"
  , "c2" : "Integer()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#203"
  , "c1" : "Serde<Short>"
  , "c2" : "Short()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00208"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#208"
  , "c1" : "Serde<Float>"
  , "c2" : "Float()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00213"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#213"
  , "c1" : "Serde<Double>"
  , "c2" : "Double()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#218"
  , "c1" : "Serde<String>"
  , "c2" : "String()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00223"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#223"
  , "c1" : "Serde<ByteBuffer>"
  , "c2" : "ByteBuffer()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#228"
  , "c1" : "Serde<Bytes>"
  , "c2" : "Bytes()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00233"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#233"
  , "c1" : "Serde<UUID>"
  , "c2" : "UUID()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00238"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#238"
  , "c1" : "Serde<byte[]>"
  , "c2" : "ByteArray()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00243"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#243"
  , "c1" : "Serde<Void>"
  , "c2" : "Void()"
  , "c3" : "1"

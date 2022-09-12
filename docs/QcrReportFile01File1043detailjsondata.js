@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.mirror.formatters.OffsetSyncFormatter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/formatters/OffsetSyncFormatter.java.html#13"
  , "c1" : "void"
  , "c2" : "writeTo(ConsumerRecord<byte[],byte[]>;PrintStream)"
  , "c3" : "1"

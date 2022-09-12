@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.auth.SaslExtensions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#14"
  , "c1" : "SaslExtensions"
  , "c2" : "SaslExtensions(Map<String,String>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#19"
  , "c1" : "Map<String,String>"
  , "c2" : "map()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#24"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#31"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#36"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

@@ -2,64 +2,64 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskManager
 class org.apache.kafka.streams.processor.internals.TaskManager {
-+  TaskManager(Time;ChangelogReader;UUID;String;StreamsMetricsImpl;ActiveTaskCreator;StandbyTaskCreator;TopologyMetadata;Admin;StateDirectory)
-+  setMainConsumer(Consumer<byte[],byte[]>)
-+  totalProducerBlockedTime()
-+  processId()
-+  topologyMetadata()
-+  isRebalanceInProgress()
-+  handleRebalanceStart(Set<String>)
-+  handleRebalanceComplete()
-+  handleCorruption(Set<TaskId>)
-+  closeDirtyAndRevive(Collection<Task>;boolean)
-+  handleAssignment(Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>)
-+  handleCloseAndRecycle(Set<Task>;Set<Task>;Set<Task>;Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>;LinkedHashMap<TaskId,RuntimeException>)
-+  tryToCompleteRestoration(long;java.util.function.Consumer<Set<TopicPartition>>)
-+  handleRevocation(Collection<TopicPartition>)
-+  prepareCommitAndAddOffsetsToMap(Set<Task>;Map<Task,Map<TopicPartition,OffsetAndMetadata>>)
-+  handleLostAll()
-+  getTaskOffsetSums()
-+  tryToLockAllNonEmptyTaskDirectories()
-+  releaseLockedDirectoriesForTasks(Set<TaskId>)
-+  releaseLockedUnassignedTaskDirectories()
-+  sumOfChangelogOffsets(TaskId;Map<TopicPartition,Long>)
-+  closeTaskDirty(Task)
-+  completeTaskCloseClean(Task)
-+  shutdown(boolean)
-+  closeAndCleanUpTasks(Collection<Task>;Collection<Task>;boolean)
-+  tryCloseCleanActiveTasks(Collection<Task>;boolean;AtomicReference<RuntimeException>)
-+  tryCloseCleanStandbyTasks(Collection<Task>;boolean;AtomicReference<RuntimeException>)
-+  activeTaskIds()
-+  standbyTaskIds()
-+  tasks()
-+  notPausedTasks()
-+  activeTaskMap()
-+  activeTaskIterable()
-+  activeTaskStream()
-+  standbyTaskMap()
-+  standbyTaskIterable()
-+  standbyTaskStream()
-+  commitAll()
-+  addRecordsToTasks(ConsumerRecords<byte[],byte[]>)
-+  commit(Collection<Task>)
-+  maybeCommitActiveTasksPerUserRequested()
-+  commitTasksAndMaybeUpdateCommittableOffsets(Collection<Task>;Map<Task,Map<TopicPartition,OffsetAndMetadata>>)
-+  updateTaskEndMetadata(TopicPartition;Long)
-+  handleTopologyUpdates()
-+  maybeCloseTasksFromRemovedTopologies(Set<String>)
-+  process(int;Time)
-+  recordTaskProcessRatio(long;long)
-+  punctuate()
-+  maybePurgeCommittedRecords()
-+  toString()
-+  toString(String)
-+  producerMetrics()
-+  producerClientIds()
-+  lockedTaskDirectories()
-+  maybeWrapAndSetFirstException(AtomicReference<RuntimeException>;RuntimeException;TaskId)
-+  executeAndMaybeSwallow(boolean;Runnable;java.util.function.Consumer<RuntimeException>;java.util.function.Consumer<RuntimeException>)
-+  executeAndMaybeSwallow(boolean;Runnable;String;Logger)
-+  needsInitializationOrRestoration()
-+  addTask(Task)
+TaskManager(Time;ChangelogReader;UUID;String;StreamsMetricsImpl;ActiveTaskCreator;StandbyTaskCreator;TopologyMetadata;Admin;StateDirectory) : TaskManager [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#81]]]
+setMainConsumer(Consumer<byte[],byte[]>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#113]]]
++ totalProducerBlockedTime() : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#118]]]
++ processId() : UUID [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#122]]]
++ topologyMetadata() : TopologyMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#126]]]
+isRebalanceInProgress() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#130]]]
+handleRebalanceStart(Set<String>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#134]]]
+handleRebalanceComplete() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#142]]]
+handleCorruption(Set<TaskId>) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#153]]]
+- closeDirtyAndRevive(Collection<Task>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#195]]]
++ handleAssignment(Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#249]]]
+- handleCloseAndRecycle(Set<Task>;Set<Task>;Set<Task>;Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>;LinkedHashMap<TaskId,RuntimeException>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#330]]]
+tryToCompleteRestoration(long;java.util.function.Consumer<Set<TopicPartition>>) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#420]]]
+handleRevocation(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#481]]]
+- prepareCommitAndAddOffsetsToMap(Set<Task>;Map<Task,Map<TopicPartition,OffsetAndMetadata>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#585]]]
+handleLostAll() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#603]]]
++ getTaskOffsetSums() : Map<TaskId,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#623]]]
+- tryToLockAllNonEmptyTaskDirectories() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#655]]]
+- releaseLockedDirectoriesForTasks(Set<TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#678]]]
+- releaseLockedUnassignedTaskDirectories() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#690]]]
+- sumOfChangelogOffsets(TaskId;Map<TopicPartition,Long>) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#701]]]
+- closeTaskDirty(Task) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#729]]]
+- completeTaskCloseClean(Task) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#747]]]
+shutdown(boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#752]]]
+closeAndCleanUpTasks(Collection<Task>;Collection<Task>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#791]]]
+- tryCloseCleanActiveTasks(Collection<Task>;boolean;AtomicReference<RuntimeException>) : Collection<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#819]]]
+- tryCloseCleanStandbyTasks(Collection<Task>;boolean;AtomicReference<RuntimeException>) : Collection<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#917]]]
+activeTaskIds() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#943]]]
+standbyTaskIds() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#949]]]
+tasks() : Map<TaskId,Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#955]]]
+notPausedTasks() : Map<TaskId,Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#961]]]
+activeTaskMap() : Map<TaskId,Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#966]]]
+activeTaskIterable() : List<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#970]]]
+- activeTaskStream() : Stream<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#974]]]
+standbyTaskMap() : Map<TaskId,Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#978]]]
+- standbyTaskIterable() : List<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#982]]]
+- standbyTaskStream() : Stream<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#986]]]
+commitAll() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#991]]]
+addRecordsToTasks(ConsumerRecords<byte[],byte[]>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#996]]]
+commit(Collection<Task>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1011]]]
+maybeCommitActiveTasksPerUserRequested() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1027]]]
+- commitTasksAndMaybeUpdateCommittableOffsets(Collection<Task>;Map<Task,Map<TopicPartition,OffsetAndMetadata>>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1040]]]
++ updateTaskEndMetadata(TopicPartition;Long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1049]]]
+handleTopologyUpdates() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1060]]]
+maybeCloseTasksFromRemovedTopologies(Set<String>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1074]]]
+process(int;Time) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1102]]]
+recordTaskProcessRatio(long;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1106]]]
+punctuate() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1113]]]
+maybePurgeCommittedRecords() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1117]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1143]]]
++ toString(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1147]]]
+producerMetrics() : Map<MetricName,Metric> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1165]]]
+producerClientIds() : Set<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1169]]]
+lockedTaskDirectories() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1173]]]
+- maybeWrapAndSetFirstException(AtomicReference<RuntimeException>;RuntimeException;TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1177]]]
++ executeAndMaybeSwallow(boolean;Runnable;java.util.function.Consumer<RuntimeException>;java.util.function.Consumer<RuntimeException>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1188]]]
++ executeAndMaybeSwallow(boolean;Runnable;String;Logger) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1203]]]
+needsInitializationOrRestoration() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1216]]]
+addTask(Task) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1221]]]
 } 
 @enduml

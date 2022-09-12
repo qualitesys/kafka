@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.AbstractStatus
 class org.apache.kafka.connect.runtime.AbstractStatus {
-+  AbstractStatus(T;State;String;int;String)
-+  id()
-+  state()
-+  trace()
-+  workerId()
-+  generation()
-+  toString()
-+  equals(Object)
-+  hashCode()
++ AbstractStatus(T;State;String;int;String) : AbstractStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#23]]]
++ id() : T [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#35]]]
++ state() : State [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#39]]]
++ trace() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#43]]]
++ workerId() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#47]]]
++ generation() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#51]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#56]]]
++ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#66]]]
++ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#80]]]
 } 
 @enduml

@@ -1,77 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:580px;height:136px;background:#000000;" version="1.1" viewBox="0 0 580 136" width="580px" zoomAndPan="magnify"><defs/><g><rect fill="#010E08" height="1" style="stroke:#010E08;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="568" x="5" y="111.1563">Consumer_K,V_ &lt;|-- org.apache.kafka.clients.consumer.KafkaConsumer</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[957199bf98279a4753ca9de3cbb5ab46]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:580px;height:136px;background:#000000;" version="1.1" viewBox="0 0 580 136" width="580px" zoomAndPan="magnify"><defs/><g><rect fill="#0E0525" height="1" style="stroke:#0E0525;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="568" x="5" y="111.1563">Consumer_K,V_ &lt;|-- org.apache.kafka.clients.consumer.KafkaConsumer</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[b5f1b079bfb91e2490a775972c1de34f]
 @startuml
 !pragma layout smetana
 Consumer_K,V_ <|- - org.apache.kafka.clients.consumer.KafkaConsumer
 class org.apache.kafka.clients.consumer.KafkaConsumer {
-+  KafkaConsumer(Map<String,Object>)
-+  KafkaConsumer(Properties)
-+  KafkaConsumer(Properties;Deserializer<K>;Deserializer<V>)
-+  KafkaConsumer(Map<String,Object>;Deserializer<K>;Deserializer<V>)
-+  KafkaConsumer(ConsumerConfig;Deserializer<K>;Deserializer<V>)
-+  KafkaConsumer(LogContext;String;ConsumerCoordinator;Deserializer<K>;Deserializer<V>;Fetcher<K,V>;ConsumerInterceptors<K,V>;Time;ConsumerNetworkClient;Metrics;SubscriptionState;ConsumerMetadata;long;long;int;List<ConsumerPartitionAssignor>;String)
-+  buildMetrics(ConsumerConfig;Time;String)
-+  assignment()
-+  subscription()
-+  subscribe(Collection<String>;ConsumerRebalanceListener)
-+  subscribe(Collection<String>)
-+  subscribe(Pattern;ConsumerRebalanceListener)
-+  subscribe(Pattern)
-+  unsubscribe()
-+  assign(Collection<TopicPartition>)
-+  poll(long)
-+  poll(Duration)
-+  poll(Timer;boolean)
-+  updateAssignmentMetadataIfNeeded(Timer;boolean)
-+  pollForFetches(Timer)
-+  commitSync()
-+  commitSync(Duration)
-+  commitSync(Map<TopicPartition,OffsetAndMetadata>)
-+  commitSync(Map<TopicPartition,OffsetAndMetadata>;Duration)
-+  commitAsync()
-+  commitAsync(OffsetCommitCallback)
-+  commitAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback)
-+  seek(TopicPartition;long)
-+  seek(TopicPartition;OffsetAndMetadata)
-+  seekToBeginning(Collection<TopicPartition>)
-+  seekToEnd(Collection<TopicPartition>)
-+  position(TopicPartition)
-+  position(TopicPartition;Duration)
-+  committed(TopicPartition)
-+  committed(TopicPartition;Duration)
-+  committed(Set<TopicPartition>)
-+  committed(Set<TopicPartition>;Duration)
-+  metrics()
-+  partitionsFor(String)
-+  partitionsFor(String;Duration)
-+  listTopics()
-+  listTopics(Duration)
-+  pause(Collection<TopicPartition>)
-+  resume(Collection<TopicPartition>)
-+  paused()
-+  offsetsForTimes(Map<TopicPartition,Long>)
-+  offsetsForTimes(Map<TopicPartition,Long>;Duration)
-+  beginningOffsets(Collection<TopicPartition>)
-+  beginningOffsets(Collection<TopicPartition>;Duration)
-+  endOffsets(Collection<TopicPartition>)
-+  endOffsets(Collection<TopicPartition>;Duration)
-+  currentLag(TopicPartition)
-+  groupMetadata()
-+  enforceRebalance(String)
-+  enforceRebalance()
-+  close()
-+  close(Duration)
-+  wakeup()
-+  configureClusterResourceListeners(Deserializer<K>;Deserializer<V>;List<?>...)
-+  close(long;boolean)
-+  updateFetchPositions(Timer)
-+  acquireAndEnsureOpen()
-+  acquire()
-+  release()
-+  throwIfNoAssignorsConfigured()
-+  maybeThrowInvalidGroupIdException()
-+  updateLastSeenEpochIfNewer(TopicPartition;OffsetAndMetadata)
-+  getClientId()
-+  updateAssignmentMetadataIfNeeded(Timer)
++ KafkaConsumer(Map<String,Object>) : KafkaConsumer [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#113]]]
++ KafkaConsumer(Properties) : KafkaConsumer [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#118]]]
++ KafkaConsumer(Properties;Deserializer<K>;Deserializer<V>) : KafkaConsumer [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#123]]]
++ KafkaConsumer(Map<String,Object>;Deserializer<K>;Deserializer<V>) : KafkaConsumer [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#130]]]
+KafkaConsumer(ConsumerConfig;Deserializer<K>;Deserializer<V>) : KafkaConsumer [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#138]]]
+KafkaConsumer(LogContext;String;ConsumerCoordinator;Deserializer<K>;Deserializer<V>;Fetcher<K,V>;ConsumerInterceptors<K,V>;Time;ConsumerNetworkClient;Metrics;SubscriptionState;ConsumerMetadata;long;long;int;List<ConsumerPartitionAssignor>;String) : KafkaConsumer [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#302]]]
+- buildMetrics(ConsumerConfig;Time;String) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#340]]]
++ assignment() : Set<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#357]]]
++ subscription() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#367]]]
++ subscribe(Collection<String>;ConsumerRebalanceListener) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#378]]]
++ subscribe(Collection<String>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#406]]]
++ subscribe(Pattern;ConsumerRebalanceListener) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#412]]]
++ subscribe(Pattern) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#432]]]
++ unsubscribe() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#437]]]
++ assign(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#454]]]
++ poll(long) : ConsumerRecords<K,V> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#486]]]
++ poll(Duration) : ConsumerRecords<K,V> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#492]]]
+- poll(Timer;boolean) : ConsumerRecords<K,V> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#497]]]
+updateAssignmentMetadataIfNeeded(Timer;boolean) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#546]]]
+- pollForFetches(Timer) : Fetch<K,V> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#555]]]
++ commitSync() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#592]]]
++ commitSync(Duration) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#598]]]
++ commitSync(Map<TopicPartition,OffsetAndMetadata>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#604]]]
++ commitSync(Map<TopicPartition,OffsetAndMetadata>;Duration) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#610]]]
++ commitAsync() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#628]]]
++ commitAsync(OffsetCommitCallback) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#634]]]
++ commitAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#640]]]
++ seek(TopicPartition;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#654]]]
++ seek(TopicPartition;OffsetAndMetadata) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#673]]]
++ seekToBeginning(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#701]]]
++ seekToEnd(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#716]]]
++ position(TopicPartition) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#731]]]
++ position(TopicPartition;Duration) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#737]]]
++ committed(TopicPartition) : OffsetAndMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#763]]]
++ committed(TopicPartition;Duration) : OffsetAndMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#770]]]
++ committed(Set<TopicPartition>) : Map<TopicPartition,OffsetAndMetadata> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#776]]]
++ committed(Set<TopicPartition>;Duration) : Map<TopicPartition,OffsetAndMetadata> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#782]]]
++ metrics() : Map<MetricName,?extendsMetric> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#805]]]
++ partitionsFor(String) : List<PartitionInfo> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#811]]]
++ partitionsFor(String;Duration) : List<PartitionInfo> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#817]]]
++ listTopics() : Map<String,List<PartitionInfo>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#836]]]
++ listTopics(Duration) : Map<String,List<PartitionInfo>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#842]]]
++ pause(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#853]]]
++ resume(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#867]]]
++ paused() : Set<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#881]]]
++ offsetsForTimes(Map<TopicPartition,Long>) : Map<TopicPartition,OffsetAndTimestamp> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#892]]]
++ offsetsForTimes(Map<TopicPartition,Long>;Duration) : Map<TopicPartition,OffsetAndTimestamp> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#898]]]
++ beginningOffsets(Collection<TopicPartition>) : Map<TopicPartition,Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#916]]]
++ beginningOffsets(Collection<TopicPartition>;Duration) : Map<TopicPartition,Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#922]]]
++ endOffsets(Collection<TopicPartition>) : Map<TopicPartition,Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#933]]]
++ endOffsets(Collection<TopicPartition>;Duration) : Map<TopicPartition,Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#939]]]
++ currentLag(TopicPartition) : OptionalLong [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#950]]]
++ groupMetadata() : ConsumerGroupMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#979]]]
++ enforceRebalance(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#991]]]
++ enforceRebalance() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1005]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1011]]]
++ close(Duration) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1017]]]
++ wakeup() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1035]]]
+- configureClusterResourceListeners(Deserializer<K>;Deserializer<V>;List<?>...) : ClusterResourceListeners [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1039]]]
+- close(long;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1049]]]
+- updateFetchPositions(Timer) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1078]]]
+- acquireAndEnsureOpen() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1105]]]
+- acquire() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1114]]]
+- release() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1122]]]
+- throwIfNoAssignorsConfigured() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1127]]]
+- maybeThrowInvalidGroupIdException() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1133]]]
+- updateLastSeenEpochIfNewer(TopicPartition;OffsetAndMetadata) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1139]]]
+getClientId() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1145]]]
+updateAssignmentMetadataIfNeeded(Timer) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1149]]]
 } 
 @enduml
 

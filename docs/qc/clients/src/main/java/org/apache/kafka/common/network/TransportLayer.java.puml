@@ -2,17 +2,17 @@
 !pragma layout smetana
 ScatteringByteChannel <|-- org.apache.kafka.common.network.TransportLayer
 class org.apache.kafka.common.network.TransportLayer {
-+  ready()
-+  finishConnect()
-+  disconnect()
-+  isConnected()
-+  socketChannel()
-+  selectionKey()
-+  handshake()
-+  peerPrincipal()
-+  addInterestOps(int)
-+  removeInterestOps(int)
-+  isMute()
-+  hasBytesBuffered()
+ready() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#17]]]
+finishConnect() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#20]]]
+disconnect() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#23]]]
+isConnected() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#26]]]
+socketChannel() : SocketChannel [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#29]]]
+selectionKey() : SelectionKey [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#32]]]
+handshake() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#35]]]
+peerPrincipal() : Principal [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#38]]]
+addInterestOps(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#40]]]
+removeInterestOps(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#42]]]
+isMute() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#44]]]
+hasBytesBuffered() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#47]]]
 } 
 @enduml

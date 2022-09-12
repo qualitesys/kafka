@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.ClusterResourceListeners" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#14"
  , "c1" : "ClusterResourceListeners"
  , "c2" : "ClusterResourceListeners()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#19"
  , "c1" : "void"
  , "c2" : "maybeAdd(Object)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#26"
  , "c1" : "void"
  , "c2" : "maybeAddAll(List<?>)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#33"
  , "c1" : "void"
  , "c2" : "onUpdate(ClusterResource)"
  , "c3" : "2"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.Transformer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#16"
  , "c1" : "void"
  , "c2" : "init(ProcessorContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#19"
  , "c1" : "R"
  , "c2" : "transform(K;V)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#22"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.FloatDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatDeserializer.java.html#8"
  , "c1" : "Float"
  , "c2" : "deserialize(String;byte[])"
  , "c3" : "4"

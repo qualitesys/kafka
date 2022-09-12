@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.tools.ToolsUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#13"
  , "c1" : "void"
  , "c2" : "printMetrics(Map<MetricName,?extendsMetric>)"
  , "c3" : "6"

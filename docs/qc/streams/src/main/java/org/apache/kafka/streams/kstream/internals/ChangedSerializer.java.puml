@@ -2,11 +2,11 @@
 !pragma layout smetana
 Serializer_Change_T__ <|-- org.apache.kafka.streams.kstream.internals.ChangedSerializer
 class org.apache.kafka.streams.kstream.internals.ChangedSerializer {
-+  ChangedSerializer(Serializer<T>)
-+  inner()
-+  setIfUnset(SerdeGetter)
-+  serialize(String;Headers;Change<T>)
-+  serialize(String;Change<T>)
-+  close()
++ ChangedSerializer(Serializer<T>) : ChangedSerializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#17]]]
++ inner() : Serializer<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#21]]]
++ setIfUnset(SerdeGetter) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#27]]]
++ serialize(String;Headers;Change<T>) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#35]]]
++ serialize(String;Change<T>) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#62]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#67]]]
 } 
 @enduml

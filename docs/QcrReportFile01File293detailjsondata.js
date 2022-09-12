@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.ConfigChangeCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigChangeCallback.java.html#10"
  , "c1" : "void"
  , "c2" : "onChange(String;ConfigData)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.OffsetFetchResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#94"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "OffsetFetchResponse(OffsetFetchResponseData)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#101"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "OffsetFetchResponse(Errors;Map<TopicPartition,PartitionData>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#106"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "OffsetFetchResponse(int;Errors;Map<TopicPartition,PartitionData>)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#133"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "OffsetFetchResponse(int;Map<String,Errors>;Map<String,Map<TopicPartition,PartitionData>>)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#169"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "OffsetFetchResponse(OffsetFetchResponseData;short)"
  , "c3" : "4"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00189"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#189"
  , "c1" : "Errors"
  , "c2" : "topLevelError(OffsetFetchResponseData)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#202"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#206"
  , "c1" : "boolean"
  , "c2" : "hasError()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00210"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#210"
  , "c1" : "boolean"
  , "c2" : "groupHasError(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00214"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#214"
  , "c1" : "Errors"
  , "c2" : "error()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#218"
  , "c1" : "Errors"
  , "c2" : "groupLevelError(String)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#226"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "5"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00249"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#249"
  , "c1" : "Map<TopicPartition,PartitionData>"
  , "c2" : "responseDataV0ToV7()"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00264"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#264"
  , "c1" : "Map<TopicPartition,PartitionData>"
  , "c2" : "buildResponseData(String)"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#285"
  , "c1" : "Map<TopicPartition,PartitionData>"
  , "c2" : "partitionDataMap(String)"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00292"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#292"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00297"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#297"
  , "c1" : "OffsetFetchResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00302"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#302"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"

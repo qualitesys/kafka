@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.SchemaGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#38"
  , "c1" : "SchemaGenerator"
  , "c2" : "SchemaGenerator(HeaderGenerator;StructRegistry)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#44"
  , "c1" : "void"
  , "c2" : "generateSchemas(MessageSpec)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#59"
  , "c1" : "void"
  , "c2" : "generateSchemas(String;StructSpec;Versions)"
  , "c3" : "8"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#90"
  , "c1" : "void"
  , "c2" : "generateSchemaForVersion(StructSpec;short;CodeBuffer)"
  , "c3" : "8"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#136"
  , "c1" : "void"
  , "c2" : "generateTaggedFieldsSchemaForVersion(StructSpec;short;CodeBuffer)"
  , "c3" : "6"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00176"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#176"
  , "c1" : "String"
  , "c2" : "fieldTypeToSchemaType(FieldSpec;short;Versions)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00186"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#186"
  , "c1" : "String"
  , "c2" : "fieldTypeToSchemaType(FieldType;boolean;short;Versions;boolean)"
  , "c3" : "47"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00293"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#293"
  , "c1" : "short"
  , "c2" : "floorVersion(String;short)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00299"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#299"
  , "c1" : "void"
  , "c2" : "writeSchema(String;CodeBuffer)"
  , "c3" : "6"

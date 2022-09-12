@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.ConnectorStatus" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#7"
  , "c1" : "ConnectorStatus"
  , "c2" : "ConnectorStatus(String;State;String;String;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#11"
  , "c1" : "ConnectorStatus"
  , "c2" : "ConnectorStatus(String;State;String;int)"
  , "c3" : "1"

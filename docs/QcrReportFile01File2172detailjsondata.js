@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.rest.TasksResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.html#17"
  , "c1" : "TasksResponse"
  , "c2" : "TasksResponse(TreeMap<String,TaskState>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksResponse.java.html#23"
  , "c1" : "Map<String,TaskState>"
  , "c2" : "tasks()"
  , "c3" : "1"

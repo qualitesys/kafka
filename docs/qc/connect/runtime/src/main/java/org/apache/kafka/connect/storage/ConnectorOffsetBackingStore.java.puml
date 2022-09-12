@@ -2,19 +2,19 @@
 !pragma layout smetana
 OffsetBackingStore <|-- org.apache.kafka.connect.storage.ConnectorOffsetBackingStore
 class org.apache.kafka.connect.storage.ConnectorOffsetBackingStore {
-+  withConnectorAndWorkerStores(Supplier<LoggingContext>;OffsetBackingStore;KafkaOffsetBackingStore;String;TopicAdmin)
-+  withOnlyWorkerStore(Supplier<LoggingContext>;OffsetBackingStore;String)
-+  withOnlyConnectorStore(Supplier<LoggingContext>;KafkaOffsetBackingStore;String;TopicAdmin)
-+  ConnectorOffsetBackingStore(Time;Supplier<LoggingContext>;String;OffsetBackingStore;KafkaOffsetBackingStore;TopicAdmin)
-+  primaryOffsetsTopic()
-+  start()
-+  stop()
-+  get(Collection<ByteBuffer>)
-+  set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)
-+  configure(WorkerConfig)
-+  hasConnectorSpecificStore()
-+  hasWorkerGlobalStore()
-+  loggingContext()
-+  getFromStore(Optional<?extendsOffsetBackingStore>;Collection<ByteBuffer>)
++ withConnectorAndWorkerStores(Supplier<LoggingContext>;OffsetBackingStore;KafkaOffsetBackingStore;String;TopicAdmin) : ConnectorOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#33]]]
++ withOnlyWorkerStore(Supplier<LoggingContext>;OffsetBackingStore;String) : ConnectorOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#56]]]
++ withOnlyConnectorStore(Supplier<LoggingContext>;KafkaOffsetBackingStore;String;TopicAdmin) : ConnectorOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#67]]]
+ConnectorOffsetBackingStore(Time;Supplier<LoggingContext>;String;OffsetBackingStore;KafkaOffsetBackingStore;TopicAdmin) : ConnectorOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#93]]]
++ primaryOffsetsTopic() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#112]]]
++ start() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#118]]]
++ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#125]]]
++ get(Collection<ByteBuffer>) : Future<Map<ByteBuffer,ByteBuffer>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#133]]]
++ set(Map<ByteBuffer,ByteBuffer>;Callback<Void>) : Future<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#179]]]
++ configure(WorkerConfig) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#224]]]
++ hasConnectorSpecificStore() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#230]]]
++ hasWorkerGlobalStore() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#235]]]
+- loggingContext() : LoggingContext [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#239]]]
+- getFromStore(Optional<?extendsOffsetBackingStore>;Collection<ByteBuffer>) : Future<Map<ByteBuffer,ByteBuffer>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#245]]]
 } 
 @enduml

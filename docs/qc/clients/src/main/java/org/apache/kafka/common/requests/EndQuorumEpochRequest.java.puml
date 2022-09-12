@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.EndQuorumEpochRequest
 class org.apache.kafka.common.requests.EndQuorumEpochRequest {
-+  EndQuorumEpochRequest(EndQuorumEpochRequestData;short)
-+  data()
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
-+  singletonRequest(TopicPartition;int;int;List<Integer>)
-+  singletonRequest(TopicPartition;String;int;int;List<Integer>)
+- EndQuorumEpochRequest(EndQuorumEpochRequestData;short) : EndQuorumEpochRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#37]]]
++ data() : EndQuorumEpochRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#43]]]
++ getErrorResponse(int;Throwable) : EndQuorumEpochResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#48]]]
++ parse(ByteBuffer;short) : EndQuorumEpochRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#53]]]
++ singletonRequest(TopicPartition;int;int;List<Integer>) : EndQuorumEpochRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#57]]]
++ singletonRequest(TopicPartition;String;int;int;List<Integer>) : EndQuorumEpochRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#64]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.common.network.ChannelBuilder
 class org.apache.kafka.common.network.ChannelBuilder {
-+  buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)
-+  close()
+buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry) : KafkaChannel [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilder.java.html#15]]]
+close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilder.java.html#20]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.ReadOnlyKeyValueStore
 class org.apache.kafka.streams.state.ReadOnlyKeyValueStore {
-+  get(K)
-+  range(K;K)
-+  reverseRange(K;K)
-+  all()
-+  reverseAll()
-+  approximateNumEntries()
+get(K) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#11]]]
+range(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#14]]]
+reverseRange(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#17]]]
+all() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#22]]]
+reverseAll() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#25]]]
+approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#35]]]
 } 
 @enduml

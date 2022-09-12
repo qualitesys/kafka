@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#19"
  , "c1" : "QueryableStoreProvider"
  , "c2" : "QueryableStoreProvider(GlobalStateStoreProvider)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#38"
  , "c1" : "void"
  , "c2" : "addStoreProviderForThread(String;StreamThreadStateStoreProvider)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#42"
  , "c1" : "void"
  , "c2" : "removeStoreProviderForThread(String)"
  , "c3" : "1"

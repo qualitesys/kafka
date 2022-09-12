@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.storage.ClusterConfigState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#45"
  , "c1" : "ClusterConfigState"
  , "c2" : "ClusterConfigState(long;SessionKey;Map<String,Integer>;Map<String,Map<String,String>>;Map<String,TargetState>;Map<ConnectorTaskId,Map<String,String>>;Map<String,Integer>;Map<String,Integer>;Set<String>;Set<String>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#68"
  , "c1" : "ClusterConfigState"
  , "c2" : "ClusterConfigState(long;SessionKey;Map<String,Integer>;Map<String,Map<String,String>>;Map<String,TargetState>;Map<ConnectorTaskId,Map<String,String>>;Map<String,Integer>;Map<String,Integer>;Set<String>;Set<String>;WorkerConfigTransformer)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#93"
  , "c1" : "long"
  , "c2" : "offset()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#98"
  , "c1" : "SessionKey"
  , "c2" : "sessionKey()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#103"
  , "c1" : "boolean"
  , "c2" : "contains(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#108"
  , "c1" : "Set<String>"
  , "c2" : "connectors()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#113"
  , "c1" : "Map<String,String>"
  , "c2" : "connectorConfig(String)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#121"
  , "c1" : "Map<String,String>"
  , "c2" : "rawConnectorConfig(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#126"
  , "c1" : "TargetState"
  , "c2" : "targetState(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#131"
  , "c1" : "Map<String,String>"
  , "c2" : "taskConfig(ConnectorTaskId)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#139"
  , "c1" : "Map<String,String>"
  , "c2" : "rawTaskConfig(ConnectorTaskId)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#144"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "allTaskConfigs(String)"
  , "c3" : "4"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00159"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#159"
  , "c1" : "int"
  , "c2" : "taskCount(String)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#165"
  , "c1" : "boolean"
  , "c2" : "pendingFencing(String)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#170"
  , "c1" : "List<ConnectorTaskId>"
  , "c2" : "tasks(String)"
  , "c3" : "4"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00189"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#189"
  , "c1" : "Integer"
  , "c2" : "taskCountRecord(String)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00194"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#194"
  , "c1" : "Integer"
  , "c2" : "taskConfigGeneration(String)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00199"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#199"
  , "c1" : "Set<String>"
  , "c2" : "inconsistentConnectors()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#204"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00216"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#216"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00231"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#231"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

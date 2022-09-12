@@ -2,24 +2,24 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics
 class org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics {
-+  StateStoreMetrics()
-+  putSensor(String;String;String;StreamsMetricsImpl)
-+  putIfAbsentSensor(String;String;String;StreamsMetricsImpl)
-+  putAllSensor(String;String;String;StreamsMetricsImpl)
-+  getSensor(String;String;String;StreamsMetricsImpl)
-+  fetchSensor(String;String;String;StreamsMetricsImpl)
-+  allSensor(String;String;String;StreamsMetricsImpl)
-+  rangeSensor(String;String;String;StreamsMetricsImpl)
-+  prefixScanSensor(String;String;String;StreamsMetricsImpl)
-+  flushSensor(String;String;String;StreamsMetricsImpl)
-+  deleteSensor(String;String;String;StreamsMetricsImpl)
-+  removeSensor(String;String;String;StreamsMetricsImpl)
-+  restoreSensor(String;String;String;StreamsMetricsImpl)
-+  expiredWindowRecordDropSensor(String;String;String;StreamsMetricsImpl)
-+  suppressionBufferCountSensor(String;String;String;StreamsMetricsImpl)
-+  suppressionBufferSizeSensor(String;String;String;StreamsMetricsImpl)
-+  e2ELatencySensor(String;String;String;StreamsMetricsImpl)
-+  sizeOrCountSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)
-+  throughputAndLatencySensor(String;String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)
+- StateStoreMetrics() : StateStoreMetrics [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#23]]]
++ putSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#141]]]
++ putIfAbsentSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#158]]]
++ putAllSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#175]]]
++ getSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#192]]]
++ fetchSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#209]]]
++ allSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#226]]]
++ rangeSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#243]]]
++ prefixScanSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#260]]]
++ flushSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#287]]]
++ deleteSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#304]]]
++ removeSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#321]]]
++ restoreSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#338]]]
++ expiredWindowRecordDropSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#354]]]
++ suppressionBufferCountSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#375]]]
++ suppressionBufferSizeSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#391]]]
++ e2ELatencySensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#407]]]
+- sizeOrCountSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#425]]]
+- throughputAndLatencySensor(String;String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#442]]]
 } 
 @enduml

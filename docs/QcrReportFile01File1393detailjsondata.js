@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.EpochState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#9"
  , "c1" : "Optional<LogOffsetMetadata>"
  , "c2" : "highWatermark()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#14"
  , "c1" : "boolean"
  , "c2" : "canGrantVote(int;boolean)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#17"
  , "c1" : "ElectionState"
  , "c2" : "election()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#20"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#23"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"

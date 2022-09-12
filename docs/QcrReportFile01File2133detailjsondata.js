@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.coordinator.CoordinatorClient" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#103"
  , "c1" : "CoordinatorClient"
  , "c2" : "CoordinatorClient(Logger;int;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#109"
  , "c1" : "int"
  , "c2" : "maxTries()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#113"
  , "c1" : "String"
  , "c2" : "url(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#117"
  , "c1" : "CoordinatorStatusResponse"
  , "c2" : "status()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#124"
  , "c1" : "UptimeResponse"
  , "c2" : "uptime()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#131"
  , "c1" : "void"
  , "c2" : "createTask(CreateTaskRequest)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#138"
  , "c1" : "void"
  , "c2" : "stopTask(StopTaskRequest)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#145"
  , "c1" : "void"
  , "c2" : "destroyTask(DestroyTaskRequest)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#154"
  , "c1" : "TasksResponse"
  , "c2" : "tasks(TasksRequest)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#170"
  , "c1" : "TaskState"
  , "c2" : "task(TaskRequest)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#177"
  , "c1" : "void"
  , "c2" : "shutdown()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00184"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#184"
  , "c1" : "void"
  , "c2" : "addTargetArgument(ArgumentParser)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00194"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#194"
  , "c1" : "void"
  , "c2" : "addJsonArgument(ArgumentParser)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#202"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "29"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00446"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#446"
  , "c1" : "String"
  , "c2" : "prettyPrintTasksResponse(TasksResponse;ZoneOffset)"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00467"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#467"
  , "c1" : "String"
  , "c2" : "prettyPrintTaskInfo(TaskState;ZoneOffset)"
  , "c3" : "13"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.cli.ConnectDistributed" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#41"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#68"
  , "c1" : "Connect"
  , "c2" : "startConnect(Map<String,String>)"
  , "c3" : "1"

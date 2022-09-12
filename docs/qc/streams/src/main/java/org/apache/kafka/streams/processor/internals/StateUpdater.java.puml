@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateUpdater
 class org.apache.kafka.streams.processor.internals.StateUpdater {
-+  start()
-+  shutdown(Duration)
-+  add(Task)
-+  remove(TaskId)
-+  drainRestoredActiveTasks(Duration)
-+  drainRemovedTasks()
-+  drainExceptionsAndFailedTasks()
-+  getTasks()
-+  getActiveTasks()
-+  getStandbyTasks()
+start() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#46]]]
+shutdown(Duration) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#49]]]
+add(Task) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#52]]]
+remove(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#55]]]
+drainRestoredActiveTasks(Duration) : Set<StreamTask> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#58]]]
+drainRemovedTasks() : Set<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#62]]]
+drainExceptionsAndFailedTasks() : List<ExceptionAndTasks> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#65]]]
+getTasks() : Set<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#68]]]
+getActiveTasks() : Set<StreamTask> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#71]]]
+getStandbyTasks() : Set<StandbyTask> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#74]]]
 } 
 @enduml

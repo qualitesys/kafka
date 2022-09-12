@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:779px;height:136px;background:#000000;" version="1.1" viewBox="0 0 779 136" width="779px" zoomAndPan="magnify"><defs/><g><rect fill="#0E1708" height="1" style="stroke:#0E1708;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="767" x="5" y="111.1563">WindowStore_Bytes,byte[]_ &lt;|-- org.apache.kafka.streams.state.internals.InMemoryWindowStore</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[202998e7dbb2679f48ce9bb48ab40b9a]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:779px;height:136px;background:#000000;" version="1.1" viewBox="0 0 779 136" width="779px" zoomAndPan="magnify"><defs/><g><rect fill="#0D101D" height="1" style="stroke:#0D101D;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="767" x="5" y="111.1563">WindowStore_Bytes,byte[]_ &lt;|-- org.apache.kafka.streams.state.internals.InMemoryWindowStore</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[56eababbd41f5ae0347cffabd2803150]
 @startuml
 !pragma layout smetana
 WindowStore_Bytes,byte[]_ <|- - org.apache.kafka.streams.state.internals.InMemoryWindowStore
 class org.apache.kafka.streams.state.internals.InMemoryWindowStore {
-+  InMemoryWindowStore(String;long;long;boolean;String)
-+  name()
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  getPosition()
-+  put(Bytes;byte[];long)
-+  fetch(Bytes;long)
-+  fetch(Bytes;long;long)
-+  backwardFetch(Bytes;long;long)
-+  fetch(Bytes;long;long;boolean)
-+  fetch(Bytes;Bytes;long;long)
-+  backwardFetch(Bytes;Bytes;long;long)
-+  fetch(Bytes;Bytes;long;long;boolean)
-+  fetchAll(long;long)
-+  backwardFetchAll(long;long)
-+  fetchAll(long;long;boolean)
-+  all()
-+  backwardAll()
-+  persistent()
-+  isOpen()
-+  flush()
-+  close()
-+  removeExpiredSegments()
-+  maybeUpdateSeqnumForDups()
-+  wrapForDups(Bytes;int)
-+  getKey(Bytes)
-+  registerNewWindowStoreIterator(Bytes;Iterator<Map.Entry<Long,ConcurrentNavigableMap<Bytes,byte[]>>>;boolean)
-+  registerNewWindowedKeyValueIterator(Bytes;Bytes;Iterator<Map.Entry<Long,ConcurrentNavigableMap<Bytes,byte[]>>>;boolean)
++ InMemoryWindowStore(String;long;long;boolean;String) : InMemoryWindowStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#70]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#84]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#90]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#130]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#137]]]
++ put(Bytes;byte[];long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#142]]]
++ fetch(Bytes;long) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#171]]]
++ fetch(Bytes;long;long) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#190]]]
++ backwardFetch(Bytes;long;long) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#195]]]
+fetch(Bytes;long;long;boolean) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#199]]]
++ fetch(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#230]]]
++ backwardFetch(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#238]]]
+fetch(Bytes;Bytes;long;long;boolean) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#245]]]
++ fetchAll(long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#288]]]
++ backwardFetchAll(long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#293]]]
+fetchAll(long;long;boolean) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#297]]]
++ all() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#327]]]
++ backwardAll() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#341]]]
++ persistent() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#355]]]
++ isOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#360]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#380]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#385]]]
+- removeExpiredSegments() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#397]]]
+- maybeUpdateSeqnumForDups() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#405]]]
+- wrapForDups(Bytes;int) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#411]]]
+- getKey(Bytes) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#419]]]
+- registerNewWindowStoreIterator(Bytes;Iterator<Map.Entry<Long,ConcurrentNavigableMap<Bytes,byte[]>>>;boolean) : WrappedInMemoryWindowStoreIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#425]]]
+- registerNewWindowedKeyValueIterator(Bytes;Bytes;Iterator<Map.Entry<Long,ConcurrentNavigableMap<Bytes,byte[]>>>;boolean) : WrappedWindowedKeyValueIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#438]]]
 } 
 @enduml
 

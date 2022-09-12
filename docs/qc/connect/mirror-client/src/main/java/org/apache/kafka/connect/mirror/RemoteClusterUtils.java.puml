@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.mirror.RemoteClusterUtils
 class org.apache.kafka.connect.mirror.RemoteClusterUtils {
-+  RemoteClusterUtils()
-+  replicationHops(Map<String,Object>;String)
-+  heartbeatTopics(Map<String,Object>)
-+  checkpointTopics(Map<String,Object>)
-+  upstreamClusters(Map<String,Object>)
-+  translateOffsets(Map<String,Object>;String;String;Duration)
+- RemoteClusterUtils() : RemoteClusterUtils [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#18]]]
++ replicationHops(Map<String,Object>;String) : int [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21]]]
++ heartbeatTopics(Map<String,Object>) : Set<String> [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#29]]]
++ checkpointTopics(Map<String,Object>) : Set<String> [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#37]]]
++ upstreamClusters(Map<String,Object>) : Set<String> [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45]]]
++ translateOffsets(Map<String,Object>;String;String;Duration) : Map<TopicPartition,OffsetAndMetadata> [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#53]]]
 } 
 @enduml

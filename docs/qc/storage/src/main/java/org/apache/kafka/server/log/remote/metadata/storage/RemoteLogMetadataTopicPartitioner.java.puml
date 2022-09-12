@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner
 class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner {
-+  RemoteLogMetadataTopicPartitioner(int)
-+  metadataPartition(TopicIdPartition)
-+  toBytes(TopicIdPartition)
-+  toBytes(int)
++ RemoteLogMetadataTopicPartitioner(int) : RemoteLogMetadataTopicPartitioner [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#15]]]
++ metadataPartition(TopicIdPartition) : int [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#19]]]
+- toBytes(TopicIdPartition) : byte[] [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#27]]]
+- toBytes(int) : byte[] [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.html#36]]]
 } 
 @enduml

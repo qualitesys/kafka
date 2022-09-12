@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.KafkaConsumer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#113"
  , "c1" : "KafkaConsumer"
  , "c2" : "KafkaConsumer(Map<String,Object>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#118"
  , "c1" : "KafkaConsumer"
  , "c2" : "KafkaConsumer(Properties)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#123"
  , "c1" : "KafkaConsumer"
  , "c2" : "KafkaConsumer(Properties;Deserializer<K>;Deserializer<V>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#130"
  , "c1" : "KafkaConsumer"
  , "c2" : "KafkaConsumer(Map<String,Object>;Deserializer<K>;Deserializer<V>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#138"
  , "c1" : "KafkaConsumer"
  , "c2" : "KafkaConsumer(ConsumerConfig;Deserializer<K>;Deserializer<V>)"
  , "c3" : "11"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00302"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#302"
  , "c1" : "KafkaConsumer"
  , "c2" : "KafkaConsumer(LogContext;String;ConsumerCoordinator;Deserializer<K>;Deserializer<V>;Fetcher<K,V>;ConsumerInterceptors<K,V>;Time;ConsumerNetworkClient;Metrics;SubscriptionState;ConsumerMetadata;long;long;int;List<ConsumerPartitionAssignor>;String)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00340"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#340"
  , "c1" : "Metrics"
  , "c2" : "buildMetrics(ConsumerConfig;Time;String)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00357"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#357"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "assignment()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00367"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#367"
  , "c1" : "Set<String>"
  , "c2" : "subscription()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00378"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#378"
  , "c1" : "void"
  , "c2" : "subscribe(Collection<String>;ConsumerRebalanceListener)"
  , "c3" : "7"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#406"
  , "c1" : "void"
  , "c2" : "subscribe(Collection<String>)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00412"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#412"
  , "c1" : "void"
  , "c2" : "subscribe(Pattern;ConsumerRebalanceListener)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00432"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#432"
  , "c1" : "void"
  , "c2" : "subscribe(Pattern)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00437"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#437"
  , "c1" : "void"
  , "c2" : "unsubscribe()"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00454"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#454"
  , "c1" : "void"
  , "c2" : "assign(Collection<TopicPartition>)"
  , "c3" : "9"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00486"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#486"
  , "c1" : "ConsumerRecords<K,V>"
  , "c2" : "poll(long)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00492"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#492"
  , "c1" : "ConsumerRecords<K,V>"
  , "c2" : "poll(Duration)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00497"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#497"
  , "c1" : "ConsumerRecords<K,V>"
  , "c2" : "poll(Timer;boolean)"
  , "c3" : "10"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00546"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#546"
  , "c1" : "boolean"
  , "c2" : "updateAssignmentMetadataIfNeeded(Timer;boolean)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00555"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#555"
  , "c1" : "Fetch<K,V>"
  , "c2" : "pollForFetches(Timer)"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00592"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#592"
  , "c1" : "void"
  , "c2" : "commitSync()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00598"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#598"
  , "c1" : "void"
  , "c2" : "commitSync(Duration)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00604"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#604"
  , "c1" : "void"
  , "c2" : "commitSync(Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00610"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#610"
  , "c1" : "void"
  , "c2" : "commitSync(Map<TopicPartition,OffsetAndMetadata>;Duration)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00628"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#628"
  , "c1" : "void"
  , "c2" : "commitAsync()"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00634"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#634"
  , "c1" : "void"
  , "c2" : "commitAsync(OffsetCommitCallback)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00640"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#640"
  , "c1" : "void"
  , "c2" : "commitAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00654"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#654"
  , "c1" : "void"
  , "c2" : "seek(TopicPartition;long)"
  , "c3" : "2"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00673"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#673"
  , "c1" : "void"
  , "c2" : "seek(TopicPartition;OffsetAndMetadata)"
  , "c3" : "4"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00701"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#701"
  , "c1" : "void"
  , "c2" : "seekToBeginning(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00716"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#716"
  , "c1" : "void"
  , "c2" : "seekToEnd(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00731"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#731"
  , "c1" : "long"
  , "c2" : "position(TopicPartition)"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00737"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#737"
  , "c1" : "long"
  , "c2" : "position(TopicPartition;Duration)"
  , "c3" : "5"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00763"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#763"
  , "c1" : "OffsetAndMetadata"
  , "c2" : "committed(TopicPartition)"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00770"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#770"
  , "c1" : "OffsetAndMetadata"
  , "c2" : "committed(TopicPartition;Duration)"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00776"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#776"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "committed(Set<TopicPartition>)"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00782"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#782"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "committed(Set<TopicPartition>;Duration)"
  , "c3" : "3"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00805"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#805"
  , "c1" : "Map<MetricName,?extendsMetric>"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00811"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#811"
  , "c1" : "List<PartitionInfo>"
  , "c2" : "partitionsFor(String)"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00817"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#817"
  , "c1" : "List<PartitionInfo>"
  , "c2" : "partitionsFor(String;Duration)"
  , "c3" : "2"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00836"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#836"
  , "c1" : "Map<String,List<PartitionInfo>>"
  , "c2" : "listTopics()"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#842"
  , "c1" : "Map<String,List<PartitionInfo>>"
  , "c2" : "listTopics(Duration)"
  , "c3" : "1"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00853"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#853"
  , "c1" : "void"
  , "c2" : "pause(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00867"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#867"
  , "c1" : "void"
  , "c2" : "resume(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00881"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#881"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "paused()"
  , "c3" : "1"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00892"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#892"
  , "c1" : "Map<TopicPartition,OffsetAndTimestamp>"
  , "c2" : "offsetsForTimes(Map<TopicPartition,Long>)"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00898"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#898"
  , "c1" : "Map<TopicPartition,OffsetAndTimestamp>"
  , "c2" : "offsetsForTimes(Map<TopicPartition,Long>;Duration)"
  , "c3" : "3"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00916"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#916"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "beginningOffsets(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00922"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#922"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "beginningOffsets(Collection<TopicPartition>;Duration)"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00933"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#933"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "endOffsets(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00939"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#939"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "endOffsets(Collection<TopicPartition>;Duration)"
  , "c3" : "1"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00950"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#950"
  , "c1" : "OptionalLong"
  , "c2" : "currentLag(TopicPartition)"
  , "c3" : "3"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00979"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#979"
  , "c1" : "ConsumerGroupMetadata"
  , "c2" : "groupMetadata()"
  , "c3" : "1"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00991"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#991"
  , "c1" : "void"
  , "c2" : "enforceRebalance(String)"
  , "c3" : "2"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01005"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1005"
  , "c1" : "void"
  , "c2" : "enforceRebalance()"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1011"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1017"
  , "c1" : "void"
  , "c2" : "close(Duration)"
  , "c3" : "3"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1035"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1039"
  , "c1" : "ClusterResourceListeners"
  , "c2" : "configureClusterResourceListeners(Deserializer<K>;Deserializer<V>;List<?>...)"
  , "c3" : "2"
@@ -431,6 +549,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1049"
  , "c1" : "void"
  , "c2" : "close(long;boolean)"
  , "c3" : "4"
@@ -438,6 +558,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1078"
  , "c1" : "boolean"
  , "c2" : "updateFetchPositions(Timer)"
  , "c3" : "3"
@@ -445,6 +567,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1105"
  , "c1" : "void"
  , "c2" : "acquireAndEnsureOpen()"
  , "c3" : "2"
@@ -452,6 +576,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01114"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1114"
  , "c1" : "void"
  , "c2" : "acquire()"
  , "c3" : "2"
@@ -459,6 +585,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1122"
  , "c1" : "void"
  , "c2" : "release()"
  , "c3" : "2"
@@ -466,6 +594,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1127"
  , "c1" : "void"
  , "c2" : "throwIfNoAssignorsConfigured()"
  , "c3" : "2"
@@ -473,6 +603,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1133"
  , "c1" : "void"
  , "c2" : "maybeThrowInvalidGroupIdException()"
  , "c3" : "2"
@@ -480,6 +612,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01139"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1139"
  , "c1" : "void"
  , "c2" : "updateLastSeenEpochIfNewer(TopicPartition;OffsetAndMetadata)"
  , "c3" : "2"
@@ -487,6 +621,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01145"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1145"
  , "c1" : "String"
  , "c2" : "getClientId()"
  , "c3" : "1"
@@ -494,6 +630,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01149"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1149"
  , "c1" : "boolean"
  , "c2" : "updateAssignmentMetadataIfNeeded(Timer)"
  , "c3" : "1"

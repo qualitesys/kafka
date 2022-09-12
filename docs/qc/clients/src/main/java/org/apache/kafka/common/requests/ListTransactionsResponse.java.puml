@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.ListTransactionsResponse
 class org.apache.kafka.common.requests.ListTransactionsResponse {
-+  ListTransactionsResponse(ListTransactionsResponseData)
-+  data()
-+  errorCounts()
-+  parse(ByteBuffer;short)
-+  toString()
-+  throttleTimeMs()
++ ListTransactionsResponse(ListTransactionsResponseData) : ListTransactionsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsResponse.java.html#16]]]
++ data() : ListTransactionsResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsResponse.java.html#21]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsResponse.java.html#26]]]
++ parse(ByteBuffer;short) : ListTransactionsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsResponse.java.html#32]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsResponse.java.html#38]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsResponse.java.html#43]]]
 } 
 @enduml

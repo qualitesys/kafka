@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory
 class org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory {
-+  create(Map<String,?>)
-+  create(Map<String,?>;String)
-+  create(Map<String,?>;VerificationKeyResolver)
-+  create(Map<String,?>;String;VerificationKeyResolver)
++ create(Map<String,?>) : AccessTokenValidator [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#20]]]
++ create(Map<String,?>;String) : AccessTokenValidator [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#24]]]
++ create(Map<String,?>;VerificationKeyResolver) : AccessTokenValidator [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#31]]]
++ create(Map<String,?>;String;VerificationKeyResolver) : AccessTokenValidator [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#36]]]
 } 
 @enduml

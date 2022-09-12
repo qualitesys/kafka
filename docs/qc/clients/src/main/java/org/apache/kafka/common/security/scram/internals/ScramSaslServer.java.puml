@@ -2,17 +2,17 @@
 !pragma layout smetana
 SaslServer <|-- org.apache.kafka.common.security.scram.internals.ScramSaslServer
 class org.apache.kafka.common.security.scram.internals.ScramSaslServer {
-+  ScramSaslServer(ScramMechanism;Map<String,?>;CallbackHandler)
-+  evaluateResponse(byte[])
-+  getAuthorizationID()
-+  getMechanismName()
-+  getNegotiatedProperty(String)
-+  isComplete()
-+  unwrap(byte[];int;int)
-+  wrap(byte[];int;int)
-+  dispose()
-+  setState(State)
-+  verifyClientProof(ClientFinalMessage)
-+  clearCredentials()
++ ScramSaslServer(ScramMechanism;Map<String,?>;CallbackHandler) : ScramSaslServer [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#60]]]
++ evaluateResponse(byte[]) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#69]]]
++ getAuthorizationID() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#145]]]
++ getMechanismName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#152]]]
++ getNegotiatedProperty(String) : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#157]]]
++ isComplete() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#169]]]
++ unwrap(byte[];int;int) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#174]]]
++ wrap(byte[];int;int) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#181]]]
++ dispose() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#188]]]
+- setState(State) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#191]]]
+- verifyClientProof(ClientFinalMessage) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#196]]]
+- clearCredentials() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#208]]]
 } 
 @enduml

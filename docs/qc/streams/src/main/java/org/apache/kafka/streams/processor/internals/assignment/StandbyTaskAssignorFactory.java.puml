@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignorFactory
 class org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignorFactory {
-+  StandbyTaskAssignorFactory()
-+  create(AssignorConfiguration.AssignmentConfigs)
+- StandbyTaskAssignorFactory() : StandbyTaskAssignorFactory [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignorFactory.java.html#5]]]
+create(AssignorConfiguration.AssignmentConfigs) : StandbyTaskAssignor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignorFactory.java.html#7]]]
 } 
 @enduml

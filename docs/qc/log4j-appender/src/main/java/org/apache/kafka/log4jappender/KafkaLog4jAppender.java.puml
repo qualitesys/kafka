@@ -2,58 +2,58 @@
 !pragma layout smetana
 AppenderSkeleton <|-- org.apache.kafka.log4jappender.KafkaLog4jAppender
 class org.apache.kafka.log4jappender.KafkaLog4jAppender {
-+  getProducer()
-+  getBrokerList()
-+  setBrokerList(String)
-+  getRequiredNumAcks()
-+  setRequiredNumAcks(int)
-+  getLingerMs()
-+  setLingerMs(int)
-+  getBatchSize()
-+  setBatchSize(int)
-+  getRetries()
-+  setRetries(int)
-+  getDeliveryTimeoutMs()
-+  setDeliveryTimeoutMs(int)
-+  getCompressionType()
-+  setCompressionType(String)
-+  getTopic()
-+  setTopic(String)
-+  getIgnoreExceptions()
-+  setIgnoreExceptions(boolean)
-+  getSyncSend()
-+  setSyncSend(boolean)
-+  getSslTruststorePassword()
-+  getSslTruststoreLocation()
-+  getSecurityProtocol()
-+  setSecurityProtocol(String)
-+  setSslTruststoreLocation(String)
-+  setSslTruststorePassword(String)
-+  setSslKeystorePassword(String)
-+  setSslKeystoreType(String)
-+  setSslKeystoreLocation(String)
-+  setSaslKerberosServiceName(String)
-+  setClientJaasConfPath(String)
-+  setKerb5ConfPath(String)
-+  getSslKeystoreLocation()
-+  getSslKeystoreType()
-+  getSslKeystorePassword()
-+  getSaslKerberosServiceName()
-+  getClientJaasConfPath()
-+  setSaslMechanism(String)
-+  getSaslMechanism()
-+  setClientJaasConf(String)
-+  getClientJaasConf()
-+  getKerb5ConfPath()
-+  getMaxBlockMs()
-+  setMaxBlockMs(int)
-+  getSslEngineFactoryClass()
-+  setSslEngineFactoryClass(String)
-+  activateOptions()
-+  getKafkaProducer(Properties)
-+  append(LoggingEvent)
-+  subAppend(LoggingEvent)
-+  close()
-+  requiresLayout()
++ getProducer() : Producer<byte[],byte[]> [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#71]]]
++ getBrokerList() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#75]]]
++ setBrokerList(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#79]]]
++ getRequiredNumAcks() : int [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#83]]]
++ setRequiredNumAcks(int) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#87]]]
++ getLingerMs() : int [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#91]]]
++ setLingerMs(int) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#95]]]
++ getBatchSize() : int [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#99]]]
++ setBatchSize(int) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#103]]]
++ getRetries() : int [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#107]]]
++ setRetries(int) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#111]]]
++ getDeliveryTimeoutMs() : int [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#115]]]
++ setDeliveryTimeoutMs(int) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#119]]]
++ getCompressionType() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#123]]]
++ setCompressionType(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#127]]]
++ getTopic() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#131]]]
++ setTopic(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#135]]]
++ getIgnoreExceptions() : boolean [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#139]]]
++ setIgnoreExceptions(boolean) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#143]]]
++ getSyncSend() : boolean [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#147]]]
++ setSyncSend(boolean) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#151]]]
++ getSslTruststorePassword() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#155]]]
++ getSslTruststoreLocation() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#159]]]
++ getSecurityProtocol() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#163]]]
++ setSecurityProtocol(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#167]]]
++ setSslTruststoreLocation(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#171]]]
++ setSslTruststorePassword(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#175]]]
++ setSslKeystorePassword(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#179]]]
++ setSslKeystoreType(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#183]]]
++ setSslKeystoreLocation(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#187]]]
++ setSaslKerberosServiceName(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#191]]]
++ setClientJaasConfPath(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#195]]]
++ setKerb5ConfPath(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#199]]]
++ getSslKeystoreLocation() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#203]]]
++ getSslKeystoreType() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#207]]]
++ getSslKeystorePassword() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#211]]]
++ getSaslKerberosServiceName() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#215]]]
++ getClientJaasConfPath() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#219]]]
++ setSaslMechanism(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#223]]]
++ getSaslMechanism() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#227]]]
++ setClientJaasConf(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#231]]]
++ getClientJaasConf() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#235]]]
++ getKerb5ConfPath() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#239]]]
++ getMaxBlockMs() : int [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#243]]]
++ setMaxBlockMs(int) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#247]]]
++ getSslEngineFactoryClass() : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#251]]]
++ setSslEngineFactoryClass(String) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#255]]]
++ activateOptions() : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#260]]]
+getKafkaProducer(Properties) : Producer<byte[],byte[]> [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#327]]]
+append(LoggingEvent) : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#332]]]
+- subAppend(LoggingEvent) : String [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#348]]]
++ close() : void [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#353]]]
++ requiresLayout() : boolean [[[././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#361]]]
 } 
 @enduml

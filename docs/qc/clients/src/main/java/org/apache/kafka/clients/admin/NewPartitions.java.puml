@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.NewPartitions
 class org.apache.kafka.clients.admin.NewPartitions {
-+  NewPartitions(int;List<List<Integer>>)
-+  increaseTo(int)
-+  increaseTo(int;List<List<Integer>>)
-+  totalCount()
-+  assignments()
-+  toString()
+- NewPartitions(int;List<List<Integer>>) : NewPartitions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#18]]]
++ increaseTo(int) : NewPartitions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#24]]]
++ increaseTo(int;List<List<Integer>>) : NewPartitions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#29]]]
++ totalCount() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#34]]]
++ assignments() : List<List<Integer>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#39]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#44]]]
 } 
 @enduml

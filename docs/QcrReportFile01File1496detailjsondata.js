@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.CommittedOffsetsFile" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#24"
  , "c1" : "CommittedOffsetsFile"
  , "c2" : "CommittedOffsetsFile(File)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#53"
  , "c1" : "void"
  , "c2" : "writeEntries(Map<Integer,Long>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#57"
  , "c1" : "Map<Integer,Long>"
  , "c2" : "readEntries()"
  , "c3" : "3"

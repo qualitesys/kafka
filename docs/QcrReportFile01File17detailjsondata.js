@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.MetadataCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#39"
  , "c1" : "MetadataCache"
  , "c2" : "MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#50"
  , "c1" : "MetadataCache"
  , "c2" : "MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;Cluster)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#79"
  , "c1" : "Optional<PartitionMetadata>"
  , "c2" : "partitionMetadata(TopicPartition)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#83"
  , "c1" : "Map<String,Uuid>"
  , "c2" : "topicIds()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#87"
  , "c1" : "Optional<Node>"
  , "c2" : "nodeById(int)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#91"
  , "c1" : "Cluster"
  , "c2" : "cluster()"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#99"
  , "c1" : "ClusterResource"
  , "c2" : "clusterResource()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#104"
  , "c1" : "MetadataCache"
  , "c2" : "mergeWith(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;BiPredicate<String,Boolean>)"
  , "c3" : "6"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00159"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#159"
  , "c1" : "void"
  , "c2" : "computeClusterView()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00168"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#168"
  , "c1" : "MetadataCache"
  , "c2" : "bootstrap(List<InetSocketAddress>)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00180"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#180"
  , "c1" : "MetadataCache"
  , "c2" : "empty()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00186"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#186"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

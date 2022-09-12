@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00006"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedSegmentedBytesStore.java.html#6"
  , "c1" : "RocksDBTimestampedSegmentedBytesStore"
  , "c2" : "RocksDBTimestampedSegmentedBytesStore(String;String;long;long;KeySchema)"
  , "c3" : "1"

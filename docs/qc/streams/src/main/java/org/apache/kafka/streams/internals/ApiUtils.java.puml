@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.internals.ApiUtils
 class org.apache.kafka.streams.internals.ApiUtils {
-+  ApiUtils()
-+  validateMillisecondDuration(Duration;String)
-+  validateMillisecondInstant(Instant;String)
-+  prepareMillisCheckFailMsgPrefix(Object;String)
-+  checkSupplier(Supplier<?>)
+- ApiUtils() : ApiUtils [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#18]]]
++ validateMillisecondDuration(Duration;String) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#22]]]
++ validateMillisecondInstant(Instant;String) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#35]]]
++ prepareMillisCheckFailMsgPrefix(Object;String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#48]]]
++ checkSupplier(Supplier<?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#53]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#65"
  , "c1" : "InternalStreamsBuilder"
  , "c2" : "InternalStreamsBuilder(InternalTopologyBuilder)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#175"
  , "c1" : "String"
  , "c2" : "newProcessorName(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00180"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#180"
  , "c1" : "String"
  , "c2" : "newStoreName(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00184"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#184"
  , "c1" : "void"
  , "c2" : "addStateStore(StoreBuilder<?>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00211"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#211"
  , "c1" : "void"
  , "c2" : "addGraphNode(GraphNode;GraphNode)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00219"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#219"
  , "c1" : "void"
  , "c2" : "addGraphNode(Collection<GraphNode>;GraphNode)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00233"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#233"
  , "c1" : "void"
  , "c2" : "maybeAddNodeForOptimizationMetadata(GraphNode)"
  , "c3" : "10"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00257"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#257"
  , "c1" : "void"
  , "c2" : "buildAndOptimizeTopology()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00261"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#261"
  , "c1" : "void"
  , "c2" : "buildAndOptimizeTopology(boolean)"
  , "c3" : "6"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00293"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#293"
  , "c1" : "void"
  , "c2" : "mergeDuplicateSourceNodes()"
  , "c3" : "12"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00344"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#344"
  , "c1" : "void"
  , "c2" : "optimizeKTableSourceTopics()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00349"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#349"
  , "c1" : "void"
  , "c2" : "maybeOptimizeRepartitionOperations()"
  , "c3" : "8"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00420"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#420"
  , "c1" : "void"
  , "c2" : "maybeUpdateKeyChangingRepartitionNodeMap()"
  , "c3" : "8"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00452"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#452"
  , "c1" : "boolean"
  , "c2" : "mergeNodeHasRepartitionChildren(GraphNode;LinkedHashSet<OptimizableRepartitionNode<?,?>>)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00481"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#481"
  , "c1" : "GraphNode"
  , "c2" : "getKeyChangingParentNode(GraphNode)"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00491"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#491"
  , "c1" : "String"
  , "c2" : "getFirstRepartitionTopicName(Collection<OptimizableRepartitionNode<?,?>>)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00517"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#517"
  , "c1" : "GraphNode"
  , "c2" : "findParentNodeMatching(GraphNode;Predicate<GraphNode>)"
  , "c3" : "4"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00533"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#533"
  , "c1" : "GraphNode"
  , "c2" : "root()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.Send" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#10"
  , "c1" : "boolean"
  , "c2" : "completed()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#13"
  , "c1" : "long"
  , "c2" : "writeTo(TransferableChannel)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#16"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"

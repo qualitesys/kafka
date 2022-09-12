@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#19"
  , "c1" : "DescribeConsumerGroupsResult"
  , "c2" : "DescribeConsumerGroupsResult(Map<String,KafkaFuture<ConsumerGroupDescription>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#24"
  , "c1" : "Map<String,KafkaFuture<ConsumerGroupDescription>>"
  , "c2" : "describedGroups()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#31"
  , "c1" : "KafkaFuture<Map<String,ConsumerGroupDescription>>"
  , "c2" : "all()"
  , "c3" : "1"

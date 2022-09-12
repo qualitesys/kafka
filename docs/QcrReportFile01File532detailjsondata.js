@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.BoundField" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/BoundField.java.html#10"
  , "c1" : "BoundField"
  , "c2" : "BoundField(Field;Schema;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/BoundField.java.html#17"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

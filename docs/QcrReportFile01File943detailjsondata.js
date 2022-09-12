@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Field" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#12"
  , "c1" : "Field"
  , "c2" : "Field(String;int;Schema)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#19"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#25"
  , "c1" : "int"
  , "c2" : "index()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#30"
  , "c1" : "Schema"
  , "c2" : "schema()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#35"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#45"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Field.java.html#50"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

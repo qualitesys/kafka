@@ -2,8 +2,8 @@
 !pragma layout smetana
 Iterator_T_ <|-- org.apache.kafka.common.utils.MappedIterator
 class org.apache.kafka.common.utils.MappedIterator {
-+  MappedIterator(Iterator<?extendsF>;Function<F,T>)
-+  hasNext()
-+  next()
++ MappedIterator(Iterator<?extendsF>;Function<F,T>) : MappedIterator [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#12]]]
++ hasNext() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#18]]]
++ next() : T [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#23]]]
 } 
 @enduml

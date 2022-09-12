@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteStorageManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html#33"
  , "c1" : "void"
  , "c2" : "copyLogSegmentData(RemoteLogSegmentMetadata;LogSegmentData)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html#38"
  , "c1" : "InputStream"
  , "c2" : "fetchLogSegment(RemoteLogSegmentMetadata;int)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html#42"
  , "c1" : "InputStream"
  , "c2" : "fetchLogSegment(RemoteLogSegmentMetadata;int;int)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html#47"
  , "c1" : "InputStream"
  , "c2" : "fetchIndex(RemoteLogSegmentMetadata;IndexType)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html#51"
  , "c1" : "void"
  , "c2" : "deleteLogSegmentData(RemoteLogSegmentMetadata)"
  , "c3" : "1"

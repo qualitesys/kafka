@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.WindowRangeQuery" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#17"
  , "c1" : "WindowRangeQuery"
  , "c2" : "WindowRangeQuery(Optional<K>;Optional<Instant>;Optional<Instant>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#34"
  , "c1" : "Optional<K>"
  , "c2" : "getKey()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#38"
  , "c1" : "Optional<Instant>"
  , "c2" : "getTimeFrom()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#42"
  , "c1" : "Optional<Instant>"
  , "c2" : "getTimeTo()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#47"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

@@ -2,19 +2,19 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.query.StateQueryRequest
 class org.apache.kafka.streams.query.StateQueryRequest {
-+  StateQueryRequest(String;PositionBound;Optional<Set<Integer>>;Query<R>;boolean;boolean)
-+  inStore(String)
-+  withPositionBound(PositionBound)
-+  withAllPartitions()
-+  withPartitions(Set<Integer>)
-+  enableExecutionInfo()
-+  requireActive()
-+  getStoreName()
-+  getPositionBound()
-+  getQuery()
-+  isAllPartitions()
-+  getPartitions()
-+  executionInfoEnabled()
-+  isRequireActive()
+- StateQueryRequest(String;PositionBound;Optional<Set<Integer>>;Query<R>;boolean;boolean) : StateQueryRequest [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#22]]]
++ inStore(String) : InStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#39]]]
++ withPositionBound(PositionBound) : StateQueryRequest<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#44]]]
++ withAllPartitions() : StateQueryRequest<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#57]]]
++ withPartitions(Set<Integer>) : StateQueryRequest<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#69]]]
++ enableExecutionInfo() : StateQueryRequest<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#81]]]
++ requireActive() : StateQueryRequest<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#93]]]
++ getStoreName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#105]]]
++ getPositionBound() : PositionBound [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#110]]]
++ getQuery() : Query<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#115]]]
++ isAllPartitions() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#120]]]
++ getPartitions() : Set<Integer> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#125]]]
++ executionInfoEnabled() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#135]]]
++ isRequireActive() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#140]]]
 } 
 @enduml

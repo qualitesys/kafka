@@ -2,8 +2,8 @@
 !pragma layout smetana
 AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler
 class org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler {
-+  configure(Map<String,?>;String;List<AppConfigurationEntry>)
-+  handle(Callback[])
-+  close()
++ configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#21]]]
++ handle(Callback[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#27]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#57]]]
 } 
 @enduml

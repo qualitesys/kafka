@@ -2,19 +2,19 @@
 !pragma layout smetana
 BufferConfigInternal_Suppressed.StrictBufferConfig_Suppressed.StrictBufferConfig <|-- org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl
 class org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl {
-+  StrictBufferConfigImpl(long;long;BufferFullStrategy;Map<String,String>)
-+  StrictBufferConfigImpl()
-+  withMaxRecords(long)
-+  withMaxBytes(long)
-+  maxRecords()
-+  maxBytes()
-+  bufferFullStrategy()
-+  withLoggingDisabled()
-+  withLoggingEnabled(Map<String,String>)
-+  isLoggingEnabled()
-+  getLogConfig()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ StrictBufferConfigImpl(long;long;BufferFullStrategy;Map<String,String>) : StrictBufferConfigImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#19]]]
++ StrictBufferConfigImpl() : StrictBufferConfigImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#30]]]
++ withMaxRecords(long) : Suppressed.StrictBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#38]]]
++ withMaxBytes(long) : Suppressed.StrictBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#43]]]
++ maxRecords() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#48]]]
++ maxBytes() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#53]]]
++ bufferFullStrategy() : BufferFullStrategy [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#58]]]
++ withLoggingDisabled() : Suppressed.StrictBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#63]]]
++ withLoggingEnabled(Map<String,String>) : Suppressed.StrictBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#68]]]
++ isLoggingEnabled() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#73]]]
++ getLogConfig() : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#78]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#83]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#98]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#103]]]
 } 
 @enduml

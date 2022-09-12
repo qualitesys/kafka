@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.TopicsDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#32"
  , "c1" : "TopicsDelta"
  , "c2" : "TopicsDelta(TopicsImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#36"
  , "c1" : "TopicsImage"
  , "c2" : "image()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#40"
  , "c1" : "Map<Uuid,TopicDelta>"
  , "c2" : "changedTopics()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#44"
  , "c1" : "void"
  , "c2" : "replay(TopicRecord)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#50"
  , "c1" : "TopicDelta"
  , "c2" : "getOrCreateTopicDelta(Uuid)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#59"
  , "c1" : "void"
  , "c2" : "replay(PartitionRecord)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#64"
  , "c1" : "void"
  , "c2" : "replay(PartitionChangeRecord)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#69"
  , "c1" : "String"
  , "c2" : "replay(RemoveTopicRecord)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#89"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "3"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#97"
  , "c1" : "void"
  , "c2" : "handleMetadataVersionChange(MetadataVersion)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#101"
  , "c1" : "TopicsImage"
  , "c2" : "apply()"
  , "c3" : "7"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#129"
  , "c1" : "TopicDelta"
  , "c2" : "changedTopic(Uuid)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#134"
  , "c1" : "boolean"
  , "c2" : "topicWasDeleted(String)"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#142"
  , "c1" : "Set<Uuid>"
  , "c2" : "deletedTopicIds()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#147"
  , "c1" : "LocalReplicaChanges"
  , "c2" : "localChanges(int)"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#174"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

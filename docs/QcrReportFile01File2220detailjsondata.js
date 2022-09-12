@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.Throttle" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#14"
  , "c1" : "Throttle"
  , "c2" : "Throttle(int;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#22"
  , "c1" : "boolean"
  , "c2" : "increment()"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#42"
  , "c1" : "long"
  , "c2" : "lastTimeMs()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#46"
  , "c1" : "Time"
  , "c2" : "time()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#50"
  , "c1" : "void"
  , "c2" : "delay(long)"
  , "c3" : "2"

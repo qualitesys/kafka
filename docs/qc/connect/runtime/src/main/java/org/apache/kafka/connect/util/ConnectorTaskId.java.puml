@@ -2,12 +2,12 @@
 !pragma layout smetana
 Serializable <|-- org.apache.kafka.connect.util.ConnectorTaskId
 class org.apache.kafka.connect.util.ConnectorTaskId {
-+  ConnectorTaskId(String;int)
-+  connector()
-+  task()
-+  equals(Object)
-+  hashCode()
-+  toString()
-+  compareTo(ConnectorTaskId)
++ ConnectorTaskId(String;int) : ConnectorTaskId [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#16]]]
++ connector() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#22]]]
++ task() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#27]]]
++ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#32]]]
++ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#47]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#54]]]
++ compareTo(ConnectorTaskId) : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#59]]]
 } 
 @enduml

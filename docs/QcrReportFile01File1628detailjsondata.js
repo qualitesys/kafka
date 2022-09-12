@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.AbstractStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#36"
  , "c1" : "AbstractStream"
  , "c2" : "AbstractStream(AbstractStream<K,V>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#45"
  , "c1" : "AbstractStream"
  , "c2" : "AbstractStream(String;Serde<K>;Serde<V>;Set<String>;GraphNode;InternalStreamsBuilder)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#65"
  , "c1" : "InternalTopologyBuilder"
  , "c2" : "internalTopologyBuilder()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#69"
  , "c1" : "Set<String>"
  , "c2" : "ensureCopartitionWith(Collection<?extendsAbstractStream<K,?>>)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#131"
  , "c1" : "Serde<K>"
  , "c2" : "keySerde()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#135"
  , "c1" : "Serde<V>"
  , "c2" : "valueSerde()"
  , "c3" : "1"

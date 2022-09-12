@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#64"
  , "c1" : "JaasBasicAuthFilter"
  , "c2" : "JaasBasicAuthFilter(Configuration)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#69"
  , "c1" : "void"
  , "c2" : "filter(ContainerRequestContext)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#93"
  , "c1" : "boolean"
  , "c2" : "isInternalRequest(ContainerRequestContext)"
  , "c3" : "1"

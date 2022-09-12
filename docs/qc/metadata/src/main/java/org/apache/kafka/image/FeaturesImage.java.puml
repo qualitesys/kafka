@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.FeaturesImage
 class org.apache.kafka.image.FeaturesImage {
-+  FeaturesImage(Map<String,Short>;MetadataVersion)
-+  isEmpty()
-+  metadataVersion()
-+  finalizedVersions()
-+  finalizedVersion(String)
-+  write(Consumer<List<ApiMessageAndVersion>>)
-+  hashCode()
-+  equals(Object)
-+  toString()
++ FeaturesImage(Map<String,Short>;MetadataVersion) : FeaturesImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#28]]]
++ isEmpty() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#33]]]
++ metadataVersion() : MetadataVersion [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#37]]]
++ finalizedVersions() : Map<String,Short> [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#41]]]
+- finalizedVersion(String) : Optional<Short> [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#45]]]
++ write(Consumer<List<ApiMessageAndVersion>>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#49]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#68]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#73]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#81]]]
 } 
 @enduml

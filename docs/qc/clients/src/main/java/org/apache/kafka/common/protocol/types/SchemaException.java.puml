@@ -2,7 +2,7 @@
 !pragma layout smetana
 KafkaException <|-- org.apache.kafka.common.protocol.types.SchemaException
 class org.apache.kafka.common.protocol.types.SchemaException {
-+  SchemaException(String)
-+  SchemaException(String;Throwable)
++ SchemaException(String) : SchemaException [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/SchemaException.java.html#11]]]
++ SchemaException(String;Throwable) : SchemaException [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/SchemaException.java.html#15]]]
 } 
 @enduml

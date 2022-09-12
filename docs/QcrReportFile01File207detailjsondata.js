@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.Fetch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#37"
  , "c1" : "Fetch"
  , "c2" : "Fetch(Map<TopicPartition,List<ConsumerRecord<K,V>>>;boolean;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#48"
  , "c1" : "void"
  , "c2" : "add(Fetch<K,V>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#55"
  , "c1" : "Map<TopicPartition,List<ConsumerRecord<K,V>>>"
  , "c2" : "records()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#60"
  , "c1" : "boolean"
  , "c2" : "positionAdvanced()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#65"
  , "c1" : "int"
  , "c2" : "numRecords()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#70"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#74"
  , "c1" : "void"
  , "c2" : "addRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)"
  , "c3" : "3"

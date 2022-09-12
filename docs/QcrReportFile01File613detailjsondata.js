@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.ApiVersionsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#49"
  , "c1" : "ApiVersionsRequest"
  , "c2" : "ApiVersionsRequest(ApiVersionsRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#53"
  , "c1" : "ApiVersionsRequest"
  , "c2" : "ApiVersionsRequest(ApiVersionsRequestData;short;Short)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#65"
  , "c1" : "boolean"
  , "c2" : "hasUnsupportedRequestVersion()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#69"
  , "c1" : "boolean"
  , "c2" : "isValid()"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#79"
  , "c1" : "ApiVersionsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#84"
  , "c1" : "ApiVersionsResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#103"
  , "c1" : "ApiVersionsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

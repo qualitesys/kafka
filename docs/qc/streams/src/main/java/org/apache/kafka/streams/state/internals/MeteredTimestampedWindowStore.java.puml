@@ -2,7 +2,7 @@
 !pragma layout smetana
 MeteredWindowStore_K,ValueAndTimestamp_V__TimestampedWindowStore_K,V_ <|-- org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore
 class org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore {
-+  MeteredTimestampedWindowStore(WindowStore<Bytes,byte[]>;long;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)
-+  prepareValueSerde(Serde<ValueAndTimestamp<V>>;SerdeGetter)
+MeteredTimestampedWindowStore(WindowStore<Bytes,byte[]>;long;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>) : MeteredTimestampedWindowStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedWindowStore.java.html#17]]]
+prepareValueSerde(Serde<ValueAndTimestamp<V>>;SerdeGetter) : Serde<ValueAndTimestamp<V>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedWindowStore.java.html#28]]]
 } 
 @enduml

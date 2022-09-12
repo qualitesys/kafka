@@ -2,8 +2,8 @@
 !pragma layout smetana
 SampledStat <|-- org.apache.kafka.common.metrics.stats.Max
 class org.apache.kafka.common.metrics.stats.Max {
-+  Max()
-+  update(Sample;MetricConfig;double;long)
-+  combine(List<Sample>;MetricConfig;long)
++ Max() : Max [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.html#11]]]
+update(Sample;MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.html#16]]]
++ combine(List<Sample>;MetricConfig;long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.html#21]]]
 } 
 @enduml

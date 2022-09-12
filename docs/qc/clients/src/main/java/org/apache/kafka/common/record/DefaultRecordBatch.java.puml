@@ -2,53 +2,53 @@
 !pragma layout smetana
 AbstractRecordBatchMutableRecordBatch <|-- org.apache.kafka.common.record.DefaultRecordBatch
 class org.apache.kafka.common.record.DefaultRecordBatch {
-+  DefaultRecordBatch(ByteBuffer)
-+  magic()
-+  ensureValid()
-+  baseTimestamp()
-+  maxTimestamp()
-+  timestampType()
-+  baseOffset()
-+  lastOffset()
-+  producerId()
-+  producerEpoch()
-+  baseSequence()
-+  lastOffsetDelta()
-+  lastSequence()
-+  compressionType()
-+  sizeInBytes()
-+  count()
-+  countOrNull()
-+  writeTo(ByteBuffer)
-+  writeTo(ByteBufferOutputStream)
-+  isTransactional()
-+  hasDeleteHorizonMs()
-+  deleteHorizonMs()
-+  isControlBatch()
-+  partitionLeaderEpoch()
-+  recordInputStream(BufferSupplier)
-+  compressedIterator(BufferSupplier;boolean)
-+  uncompressedIterator()
-+  iterator()
-+  skipKeyValueIterator(BufferSupplier)
-+  streamingIterator(BufferSupplier)
-+  setLastOffset(long)
-+  setMaxTimestamp(TimestampType;long)
-+  setPartitionLeaderEpoch(int)
-+  checksum()
-+  isValid()
-+  computeChecksum()
-+  attributes()
-+  equals(Object)
-+  hashCode()
-+  computeAttributes(CompressionType;TimestampType;boolean;boolean;boolean)
-+  writeEmptyHeader(ByteBuffer;byte;long;short;int;long;long;int;TimestampType;long;boolean;boolean)
-+  writeHeader(ByteBuffer;long;int;int;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;boolean;int;int)
-+  toString()
-+  sizeInBytes(long;Iterable<Record>)
-+  sizeInBytes(Iterable<SimpleRecord>)
-+  estimateBatchSizeUpperBound(ByteBuffer;ByteBuffer;Header[])
-+  incrementSequence(int;int)
-+  decrementSequence(int;int)
+DefaultRecordBatch(ByteBuffer) : DefaultRecordBatch [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#70]]]
++ magic() : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#75]]]
++ ensureValid() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#80]]]
++ baseTimestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#91]]]
++ maxTimestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#96]]]
++ timestampType() : TimestampType [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#101]]]
++ baseOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#106]]]
++ lastOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#111]]]
++ producerId() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#116]]]
++ producerEpoch() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#121]]]
++ baseSequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#126]]]
+- lastOffsetDelta() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#130]]]
++ lastSequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#135]]]
++ compressionType() : CompressionType [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#143]]]
++ sizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#148]]]
+- count() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#152]]]
++ countOrNull() : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#157]]]
++ writeTo(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#162]]]
++ writeTo(ByteBufferOutputStream) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#167]]]
++ isTransactional() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#172]]]
+- hasDeleteHorizonMs() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#176]]]
++ deleteHorizonMs() : OptionalLong [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#181]]]
++ isControlBatch() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#189]]]
++ partitionLeaderEpoch() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#194]]]
++ recordInputStream(BufferSupplier) : DataInputStream [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#198]]]
+- compressedIterator(BufferSupplier;boolean) : CloseableIterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#204]]]
+- uncompressedIterator() : CloseableIterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#227]]]
++ iterator() : Iterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#249]]]
++ skipKeyValueIterator(BufferSupplier) : CloseableIterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#268]]]
++ streamingIterator(BufferSupplier) : CloseableIterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#283]]]
++ setLastOffset(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#291]]]
++ setMaxTimestamp(TimestampType;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#296]]]
++ setPartitionLeaderEpoch(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#310]]]
++ checksum() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#315]]]
++ isValid() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#319]]]
+- computeChecksum() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#323]]]
+- attributes() : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#327]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#333]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#344]]]
+- computeAttributes(CompressionType;TimestampType;boolean;boolean;boolean) : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#348]]]
++ writeEmptyHeader(ByteBuffer;byte;long;short;int;long;long;int;TimestampType;long;boolean;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#366]]]
++ writeHeader(ByteBuffer;long;int;int;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;boolean;int;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#384]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#427]]]
++ sizeInBytes(long;Iterable<Record>) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#434]]]
++ sizeInBytes(Iterable<SimpleRecord>) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#453]]]
+estimateBatchSizeUpperBound(ByteBuffer;ByteBuffer;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#473]]]
++ incrementSequence(int;int) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#477]]]
++ decrementSequence(int;int) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#483]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.task.WorkerStatusTracker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.html#10"
  , "c1" : "void"
  , "c2" : "update(JsonNode)"
  , "c3" : "1"

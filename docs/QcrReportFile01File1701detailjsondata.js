@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#17"
  , "c1" : "SessionCacheFlushListener"
  , "c2" : "SessionCacheFlushListener(ProcessorContext<Windowed<KOut>,Change<VOut>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#23"
  , "c1" : "void"
  , "c2" : "apply(Record<Windowed<KOut>,Change<VOut>>)"
  , "c3" : "1"

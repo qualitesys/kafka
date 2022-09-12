@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.config.ConfigData
 class org.apache.kafka.common.config.ConfigData {
-+  ConfigData(Map<String,String>;Long)
-+  ConfigData(Map<String,String>)
-+  data()
-+  ttl()
++ ConfigData(Map<String,String>;Long) : ConfigData [[[././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#15]]]
++ ConfigData(Map<String,String>) : ConfigData [[[././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#21]]]
++ data() : Map<String,String> [[[././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#26]]]
++ ttl() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#31]]]
 } 
 @enduml

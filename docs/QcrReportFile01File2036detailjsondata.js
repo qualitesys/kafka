@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.PositionSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#16"
  , "c1" : "PositionSerde"
  , "c2" : "PositionSerde()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#19"
  , "c1" : "Position"
  , "c2" : "deserialize(ByteBuffer)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#47"
  , "c1" : "ByteBuffer"
  , "c2" : "serialize(Position)"
  , "c3" : "4"

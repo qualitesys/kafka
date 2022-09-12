@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.ListTransactionsResult
 class org.apache.kafka.clients.admin.ListTransactionsResult {
-+  ListTransactionsResult(KafkaFuture<Map<Integer,KafkaFutureImpl<Collection<TransactionListing>>>>)
-+  all()
-+  byBrokerId()
-+  allByBrokerId()
+ListTransactionsResult(KafkaFuture<Map<Integer,KafkaFutureImpl<Collection<TransactionListing>>>>) : ListTransactionsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#21]]]
++ all() : KafkaFuture<Collection<TransactionListing>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#26]]]
++ byBrokerId() : KafkaFuture<Map<Integer,KafkaFuture<Collection<TransactionListing>>>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#37]]]
++ allByBrokerId() : KafkaFuture<Map<Integer,Collection<TransactionListing>>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#53]]]
 } 
 @enduml

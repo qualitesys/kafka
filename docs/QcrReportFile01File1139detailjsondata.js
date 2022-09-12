@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.rest.RestClient" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.html#121"
  , "c1" : "void"
  , "c2" : "addHeadersToRequest(HttpHeaders;Request)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.html#131"
  , "c1" : "Map<String,String>"
  , "c2" : "convertHttpFieldsToMap(HttpFields)"
  , "c3" : "3"

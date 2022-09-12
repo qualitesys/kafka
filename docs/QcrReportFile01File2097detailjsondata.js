@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#24"
  , "c1" : "RocksDBMetrics"
  , "c2" : "RocksDBMetrics()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00188"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#188"
  , "c1" : "Sensor"
  , "c2" : "bytesWrittenToDatabaseSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#206"
  , "c1" : "Sensor"
  , "c2" : "bytesReadFromDatabaseSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00224"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#224"
  , "c1" : "Sensor"
  , "c2" : "memtableBytesFlushedSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00242"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#242"
  , "c1" : "Sensor"
  , "c2" : "memtableHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00259"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#259"
  , "c1" : "Sensor"
  , "c2" : "memtableAvgFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00276"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#276"
  , "c1" : "Sensor"
  , "c2" : "memtableMinFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00293"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#293"
  , "c1" : "Sensor"
  , "c2" : "memtableMaxFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00310"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#310"
  , "c1" : "Sensor"
  , "c2" : "writeStallDurationSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00328"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#328"
  , "c1" : "Sensor"
  , "c2" : "blockCacheDataHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00345"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#345"
  , "c1" : "Sensor"
  , "c2" : "blockCacheIndexHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00362"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#362"
  , "c1" : "Sensor"
  , "c2" : "blockCacheFilterHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00379"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#379"
  , "c1" : "Sensor"
  , "c2" : "bytesReadDuringCompactionSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00396"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#396"
  , "c1" : "Sensor"
  , "c2" : "bytesWrittenDuringCompactionSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#413"
  , "c1" : "Sensor"
  , "c2" : "compactionTimeAvgSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00430"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#430"
  , "c1" : "Sensor"
  , "c2" : "compactionTimeMinSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00447"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#447"
  , "c1" : "Sensor"
  , "c2" : "compactionTimeMaxSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00464"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#464"
  , "c1" : "Sensor"
  , "c2" : "numberOfOpenFilesSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00482"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#482"
  , "c1" : "Sensor"
  , "c2" : "numberOfFileErrorsSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00499"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#499"
  , "c1" : "void"
  , "c2" : "addNumEntriesActiveMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00511"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#511"
  , "c1" : "void"
  , "c2" : "addNumEntriesImmMemTablesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00523"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#523"
  , "c1" : "void"
  , "c2" : "addNumDeletesImmMemTablesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00535"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#535"
  , "c1" : "void"
  , "c2" : "addNumDeletesActiveMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00547"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#547"
  , "c1" : "void"
  , "c2" : "addNumImmutableMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00559"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#559"
  , "c1" : "void"
  , "c2" : "addCurSizeActiveMemTable(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00571"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#571"
  , "c1" : "void"
  , "c2" : "addCurSizeAllMemTables(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00583"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#583"
  , "c1" : "void"
  , "c2" : "addSizeAllMemTables(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00595"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#595"
  , "c1" : "void"
  , "c2" : "addMemTableFlushPending(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00607"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#607"
  , "c1" : "void"
  , "c2" : "addNumRunningFlushesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00619"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#619"
  , "c1" : "void"
  , "c2" : "addCompactionPendingMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00631"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#631"
  , "c1" : "void"
  , "c2" : "addNumRunningCompactionsMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00643"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#643"
  , "c1" : "void"
  , "c2" : "addEstimatePendingCompactionBytesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00655"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#655"
  , "c1" : "void"
  , "c2" : "addTotalSstFilesSizeMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00667"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#667"
  , "c1" : "void"
  , "c2" : "addLiveSstFilesSizeMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00679"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#679"
  , "c1" : "void"
  , "c2" : "addNumLiveVersionMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00691"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#691"
  , "c1" : "void"
  , "c2" : "addBlockCacheCapacityMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00703"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#703"
  , "c1" : "void"
  , "c2" : "addBlockCacheUsageMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00715"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#715"
  , "c1" : "void"
  , "c2" : "addBlockCachePinnedUsageMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00727"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#727"
  , "c1" : "void"
  , "c2" : "addEstimateNumKeysMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00739"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#739"
  , "c1" : "void"
  , "c2" : "addEstimateTableReadersMemMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00751"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#751"
  , "c1" : "void"
  , "c2" : "addBackgroundErrorsMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00763"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#763"
  , "c1" : "void"
  , "c2" : "addMutableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge<BigInteger>;String;String)"
  , "c3" : "1"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00779"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#779"
  , "c1" : "Sensor"
  , "c2" : "createSensor(StreamsMetricsImpl;RocksDBMetricContext;String)"
  , "c3" : "1"

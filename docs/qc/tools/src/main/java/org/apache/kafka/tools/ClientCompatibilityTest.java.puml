@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.tools.ClientCompatibilityTest
 class org.apache.kafka.tools.ClientCompatibilityTest {
-+  main(String[])
-+  toHexString(byte[])
-+  compareArrays(byte[];byte[])
-+  ClientCompatibilityTest(TestConfig)
-+  run()
-+  testProduce()
-+  testAdminClient()
-+  testDescribeConfigsMethod(Admin)
-+  createTopicsResultTest(Admin;Collection<String>)
-+  topicExists(Collection<TopicListing>;String)
-+  testConsume(long)
-+  tryFeature(String;boolean;Invoker)
-+  tryFeature(String;boolean;Invoker;ResultTester)
++ main(String[]) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#88]]]
+- toHexString(byte[]) : String [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#191]]]
+- compareArrays(byte[];byte[]) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#199]]]
+ClientCompatibilityTest(TestConfig) : ClientCompatibilityTest [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#211]]]
+run() : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#226]]]
++ testProduce() : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#233]]]
+testAdminClient() : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#251]]]
+- testDescribeConfigsMethod(Admin) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#307]]]
+- createTopicsResultTest(Admin;Collection<String>) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#330]]]
+- topicExists(Collection<TopicListing>;String) : boolean [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#344]]]
++ testConsume(long) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#391]]]
+- tryFeature(String;boolean;Invoker) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#501]]]
+- tryFeature(String;boolean;Invoker;ResultTester) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505]]]
 } 
 @enduml

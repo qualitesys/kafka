@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.CompactArrayOf" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#18"
  , "c1" : "CompactArrayOf"
  , "c2" : "CompactArrayOf(Type)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#22"
  , "c1" : "CompactArrayOf"
  , "c2" : "nullable(Type)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#26"
  , "c1" : "CompactArrayOf"
  , "c2" : "CompactArrayOf(Type;boolean)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#32"
  , "c1" : "boolean"
  , "c2" : "isNullable()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#37"
  , "c1" : "void"
  , "c2" : "write(ByteBuffer;Object)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#51"
  , "c1" : "Object"
  , "c2" : "read(ByteBuffer)"
  , "c3" : "6"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#70"
  , "c1" : "int"
  , "c2" : "sizeOf(Object)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#83"
  , "c1" : "Optional<Type>"
  , "c2" : "arrayElementType()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#88"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#93"
  , "c1" : "Object[]"
  , "c2" : "validate(Object)"
  , "c3" : "3"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#108"
  , "c1" : "String"
  , "c2" : "typeName()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#113"
  , "c1" : "String"
  , "c2" : "documentation()"
  , "c3" : "1"

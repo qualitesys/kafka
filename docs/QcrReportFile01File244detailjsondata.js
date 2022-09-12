@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.RecordAccumulator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#71"
  , "c1" : "RecordAccumulator"
  , "c2" : "RecordAccumulator(LogContext;int;CompressionType;int;long;int;PartitionerConfig;Metrics;String;Time;ApiVersions;TransactionManager;BufferPool)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#107"
  , "c1" : "RecordAccumulator"
  , "c2" : "RecordAccumulator(LogContext;int;CompressionType;int;long;int;Metrics;String;Time;ApiVersions;TransactionManager;BufferPool)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#134"
  , "c1" : "void"
  , "c2" : "registerMetrics(Metrics;String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00151"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#151"
  , "c1" : "void"
  , "c2" : "setPartition(AppendCallbacks;int)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#157"
  , "c1" : "RecordAppendResult"
  , "c2" : "append(String;int;long;byte[];byte[];Header[];AppendCallbacks;long;boolean;long;Cluster)"
  , "c3" : "11"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#246"
  , "c1" : "RecordAppendResult"
  , "c2" : "appendNewBatch(String;int;Deque<ProducerBatch>;long;byte[];byte[];Header[];AppendCallbacks;ByteBuffer)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00276"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#276"
  , "c1" : "MemoryRecordsBuilder"
  , "c2" : "recordsBuilder(ByteBuffer;byte)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#285"
  , "c1" : "RecordAppendResult"
  , "c2" : "tryAppend(long;byte[];byte[];Header[];Callback;Deque<ProducerBatch>;long)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00303"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#303"
  , "c1" : "boolean"
  , "c2" : "isMuted(TopicPartition)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00307"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#307"
  , "c1" : "void"
  , "c2" : "resetNextBatchExpiryTime()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00311"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#311"
  , "c1" : "void"
  , "c2" : "maybeUpdateNextBatchExpiryTime(ProducerBatch)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00323"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#323"
  , "c1" : "List<ProducerBatch>"
  , "c2" : "expiredBatches(long)"
  , "c3" : "6"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00346"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#346"
  , "c1" : "long"
  , "c2" : "getDeliveryTimeoutMs()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00351"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#351"
  , "c1" : "void"
  , "c2" : "reenqueue(ProducerBatch;long)"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00363"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#363"
  , "c1" : "int"
  , "c2" : "splitAndReenqueue(ProducerBatch)"
  , "c3" : "4"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00399"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#399"
  , "c1" : "void"
  , "c2" : "insertInSequenceOrder(Deque<ProducerBatch>;ProducerBatch)"
  , "c3" : "7"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00442"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#442"
  , "c1" : "long"
  , "c2" : "batchReady(long;boolean;TopicPartition;Node;long;boolean;boolean;long;Set<Node>)"
  , "c3" : "4"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00469"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#469"
  , "c1" : "long"
  , "c2" : "partitionReady(Cluster;long;String;TopicInfo;long;Set<Node>;Set<String>)"
  , "c3" : "11"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00560"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#560"
  , "c1" : "ReadyCheckResult"
  , "c2" : "ready(Cluster;long)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00574"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#574"
  , "c1" : "boolean"
  , "c2" : "hasUndrained()"
  , "c3" : "4"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00586"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#586"
  , "c1" : "boolean"
  , "c2" : "shouldStopDrainBatchesForPartition(ProducerBatch;TopicPartition)"
  , "c3" : "8"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00624"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#624"
  , "c1" : "List<ProducerBatch>"
  , "c2" : "drainBatchesForOneNode(Cluster;Node;int;long)"
  , "c3" : "11"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00708"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#708"
  , "c1" : "int"
  , "c2" : "getDrainIndex(String)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00712"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#712"
  , "c1" : "void"
  , "c2" : "updateDrainIndex(String;int)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00717"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#717"
  , "c1" : "Map<Integer,List<ProducerBatch>>"
  , "c2" : "drain(Cluster;Set<Node>;int;long)"
  , "c3" : "3"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00729"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#729"
  , "c1" : "void"
  , "c2" : "updateNodeLatencyStats(Integer;long;boolean)"
  , "c3" : "3"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00750"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#750"
  , "c1" : "NodeLatencyStats"
  , "c2" : "getNodeLatencyStats(Integer)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00755"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#755"
  , "c1" : "BuiltInPartitioner"
  , "c2" : "getBuiltInPartitioner(String)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00760"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#760"
  , "c1" : "long"
  , "c2" : "nextExpiryTimeMs()"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00765"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#765"
  , "c1" : "Deque<ProducerBatch>"
  , "c2" : "getDeque(TopicPartition)"
  , "c3" : "2"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00773"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#773"
  , "c1" : "Deque<ProducerBatch>"
  , "c2" : "getOrCreateDeque(TopicPartition)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00779"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#779"
  , "c1" : "void"
  , "c2" : "deallocate(ProducerBatch)"
  , "c3" : "2"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00788"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#788"
  , "c1" : "long"
  , "c2" : "bufferPoolAvailableMemory()"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00793"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#793"
  , "c1" : "boolean"
  , "c2" : "flushInProgress()"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00798"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#798"
  , "c1" : "void"
  , "c2" : "beginFlush()"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00803"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#803"
  , "c1" : "boolean"
  , "c2" : "appendsInProgress()"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00808"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#808"
  , "c1" : "void"
  , "c2" : "awaitFlushCompletion()"
  , "c3" : "2"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00822"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#822"
  , "c1" : "boolean"
  , "c2" : "hasIncomplete()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00827"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#827"
  , "c1" : "void"
  , "c2" : "abortIncompleteBatches()"
  , "c3" : "3"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00843"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#843"
  , "c1" : "void"
  , "c2" : "abortBatches()"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00848"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#848"
  , "c1" : "void"
  , "c2" : "abortBatches(RuntimeException)"
  , "c3" : "2"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00861"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#861"
  , "c1" : "void"
  , "c2" : "abortUndrainedBatches(RuntimeException)"
  , "c3" : "4"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00879"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#879"
  , "c1" : "void"
  , "c2" : "mutePartition(TopicPartition)"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00883"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#883"
  , "c1" : "void"
  , "c2" : "unmutePartition(TopicPartition)"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00888"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#888"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.Serde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#11"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#17"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#21"
  , "c1" : "Serializer<T>"
  , "c2" : "serializer()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#23"
  , "c1" : "Deserializer<T>"
  , "c2" : "deserializer()"
  , "c3" : "1"

@@ -2,11 +2,11 @@
 !pragma layout smetana
 KeyValueIterator_Windowed_K_,V_ <|-- org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator
 class org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator {
-+  MeteredWindowedKeyValueIterator(KeyValueIterator<Windowed<Bytes>,byte[]>;Sensor;StreamsMetrics;Function<byte[],K>;Function<byte[],V>;Time)
-+  hasNext()
-+  next()
-+  windowedKey(Windowed<Bytes>)
-+  close()
-+  peekNextKey()
+MeteredWindowedKeyValueIterator(KeyValueIterator<Windowed<Bytes>,byte[]>;Sensor;StreamsMetrics;Function<byte[],K>;Function<byte[],V>;Time) : MeteredWindowedKeyValueIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#24]]]
++ hasNext() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#40]]]
++ next() : KeyValue<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#45]]]
+- windowedKey(Windowed<Bytes>) : Windowed<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#50]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#56]]]
++ peekNextKey() : Windowed<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#65]]]
 } 
 @enduml

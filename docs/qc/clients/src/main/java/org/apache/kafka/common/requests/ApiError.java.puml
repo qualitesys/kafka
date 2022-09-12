@@ -2,19 +2,19 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.requests.ApiError
 class org.apache.kafka.common.requests.ApiError {
-+  fromThrowable(Throwable)
-+  ApiError(Errors)
-+  ApiError(Errors;String)
-+  ApiError(short;String)
-+  is(Errors)
-+  isFailure()
-+  isSuccess()
-+  error()
-+  message()
-+  messageWithFallback()
-+  exception()
-+  hashCode()
-+  equals(Object)
-+  toString()
++ fromThrowable(Throwable) : ApiError [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#20]]]
++ ApiError(Errors) : ApiError [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#36]]]
++ ApiError(Errors;String) : ApiError [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#40]]]
++ ApiError(short;String) : ApiError [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#45]]]
++ is(Errors) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#50]]]
++ isFailure() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#54]]]
++ isSuccess() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#58]]]
++ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#62]]]
++ message() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#67]]]
++ messageWithFallback() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#72]]]
++ exception() : ApiException [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#78]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#83]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#88]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#98]]]
 } 
 @enduml

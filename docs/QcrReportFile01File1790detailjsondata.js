@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.TopicNameExtractor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/TopicNameExtractor.java.html#8"
  , "c1" : "String"
  , "c2" : "extract(K;V;RecordContext)"
  , "c3" : "1"

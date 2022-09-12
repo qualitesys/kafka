@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.RecordConversionStats" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#12"
  , "c1" : "RecordConversionStats"
  , "c2" : "RecordConversionStats(long;int;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#18"
  , "c1" : "RecordConversionStats"
  , "c2" : "RecordConversionStats()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#22"
  , "c1" : "void"
  , "c2" : "add(RecordConversionStats)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#29"
  , "c1" : "long"
  , "c2" : "temporaryMemoryBytes()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#33"
  , "c1" : "int"
  , "c2" : "numRecordsConverted()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#37"
  , "c1" : "long"
  , "c2" : "conversionTimeNanos()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#42"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

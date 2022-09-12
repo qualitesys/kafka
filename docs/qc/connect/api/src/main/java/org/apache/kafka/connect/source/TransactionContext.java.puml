@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.source.TransactionContext
 class org.apache.kafka.connect.source.TransactionContext {
-+  commitTransaction()
-+  commitTransaction(SourceRecord)
-+  abortTransaction()
-+  abortTransaction(SourceRecord)
+commitTransaction() : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/TransactionContext.java.html#8]]]
+commitTransaction(SourceRecord) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/TransactionContext.java.html#11]]]
+abortTransaction() : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/TransactionContext.java.html#14]]]
+abortTransaction(SourceRecord) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/TransactionContext.java.html#17]]]
 } 
 @enduml

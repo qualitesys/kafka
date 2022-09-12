@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.feature.BaseVersionRange
 class org.apache.kafka.common.feature.BaseVersionRange {
-+  BaseVersionRange(String;short;String;short)
-+  min()
-+  max()
-+  toString()
-+  toMap()
-+  mapToString(Map<String,Short>)
-+  equals(Object)
-+  hashCode()
-+  valueOrThrow(String;Map<String,Short>)
+BaseVersionRange(String;short;String;short) : BaseVersionRange [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#26]]]
++ min() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#45]]]
++ max() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#49]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#53]]]
++ toMap() : Map<String,Short> [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#60]]]
+- mapToString(Map<String,Short>) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#64]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#73]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#90]]]
++ valueOrThrow(String;Map<String,Short>) : short [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#94]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.Worker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#114"
  , "c1" : "Worker"
  , "c2" : "Worker(String;Time;Plugins;WorkerConfig;OffsetBackingStore;ConnectorClientConfigOverridePolicy)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#124"
  , "c1" : "Worker"
  , "c2" : "Worker(String;Time;Plugins;WorkerConfig;OffsetBackingStore;ExecutorService;ConnectorClientConfigOverridePolicy)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#154"
  , "c1" : "WorkerConfigTransformer"
  , "c2" : "initConfigTransformer()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00168"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#168"
  , "c1" : "WorkerConfigTransformer"
  , "c2" : "configTransformer()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#172"
  , "c1" : "Herder"
  , "c2" : "herder()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#177"
  , "c1" : "void"
  , "c2" : "start()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#192"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "5"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00237"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#237"
  , "c1" : "void"
  , "c2" : "startConnector(String;Map<String,String>;CloseableConnectorContext;ConnectorStatus.Listener;TargetState;Callback<TargetState>)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00316"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#316"
  , "c1" : "boolean"
  , "c2" : "isSinkConnector(String)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00331"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#331"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "connectorTaskConfigs(String;ConnectorConfig)"
  , "c3" : "5"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00369"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#369"
  , "c1" : "void"
  , "c2" : "stopConnector(String)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00389"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#389"
  , "c1" : "void"
  , "c2" : "stopConnectors(Collection<String>)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00396"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#396"
  , "c1" : "void"
  , "c2" : "awaitStopConnector(String;long)"
  , "c3" : "4"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00417"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#417"
  , "c1" : "void"
  , "c2" : "awaitStopConnectors(Collection<String>)"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00427"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#427"
  , "c1" : "void"
  , "c2" : "stopAndAwaitConnectors()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00432"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#432"
  , "c1" : "void"
  , "c2" : "stopAndAwaitConnectors(Collection<String>)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00438"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#438"
  , "c1" : "void"
  , "c2" : "stopAndAwaitConnector(String)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#444"
  , "c1" : "Set<String>"
  , "c2" : "connectorNames()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00449"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#449"
  , "c1" : "boolean"
  , "c2" : "isRunning(String)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00455"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#455"
  , "c1" : "boolean"
  , "c2" : "startSinkTask(ConnectorTaskId;ClusterConfigState;Map<String,String>;Map<String,String>;TaskStatus.Listener;TargetState)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00468"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#468"
  , "c1" : "boolean"
  , "c2" : "startSourceTask(ConnectorTaskId;ClusterConfigState;Map<String,String>;Map<String,String>;TaskStatus.Listener;TargetState)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00481"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#481"
  , "c1" : "boolean"
  , "c2" : "startExactlyOnceSourceTask(ConnectorTaskId;ClusterConfigState;Map<String,String>;Map<String,String>;TaskStatus.Listener;TargetState;Runnable;Runnable)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00496"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#496"
  , "c1" : "boolean"
  , "c2" : "startTask(ConnectorTaskId;Map<String,String>;Map<String,String>;TaskStatus.Listener;TaskBuilder)"
  , "c3" : "10"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00586"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#586"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "fenceZombies(String;int;Map<String,String>)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00591"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#591"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "fenceZombies(String;int;Map<String,String>;Function<Map<String,Object>,Admin>)"
  , "c3" : "2"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00632"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#632"
  , "c1" : "Map<String,Object>"
  , "c2" : "exactlyOnceSourceTaskProducerConfigs(ConnectorTaskId;WorkerConfig;ConnectorConfig;Class<?extendsConnector>;ConnectorClientConfigOverridePolicy;String)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00653"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#653"
  , "c1" : "Map<String,Object>"
  , "c2" : "baseProducerConfigs(String;String;WorkerConfig;ConnectorConfig;Class<?extendsConnector>;ConnectorClientConfigOverridePolicy;String)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00692"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#692"
  , "c1" : "Map<String,Object>"
  , "c2" : "exactlyOnceSourceOffsetsConsumerConfigs(String;String;WorkerConfig;ConnectorConfig;Class<?extendsConnector>;ConnectorClientConfigOverridePolicy;String)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00710"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#710"
  , "c1" : "Map<String,Object>"
  , "c2" : "regularSourceOffsetsConsumerConfigs(String;String;WorkerConfig;ConnectorConfig;Class<?extendsConnector>;ConnectorClientConfigOverridePolicy;String)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00727"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#727"
  , "c1" : "Map<String,Object>"
  , "c2" : "baseConsumerConfigs(String;String;WorkerConfig;ConnectorConfig;Class<?extendsConnector>;ConnectorClientConfigOverridePolicy;String;ConnectorType)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00760"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#760"
  , "c1" : "Map<String,Object>"
  , "c2" : "adminConfigs(String;String;WorkerConfig;ConnectorConfig;Class<?extendsConnector>;ConnectorClientConfigOverridePolicy;String;ConnectorType)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00799"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#799"
  , "c1" : "Map<String,Object>"
  , "c2" : "connectorClientConfigOverrides(String;ConnectorConfig;Class<?extendsConnector>;String;ConnectorType;ConnectorClientConfigRequest.ClientType;ConnectorClientConfigOverridePolicy)"
  , "c3" : "2"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00824"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#824"
  , "c1" : "String"
  , "c2" : "taskTransactionalId(ConnectorTaskId)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#829"
  , "c1" : "String"
  , "c2" : "taskTransactionalId(String;String;int)"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00833"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#833"
  , "c1" : "ErrorHandlingMetrics"
  , "c2" : "errorHandlingMetrics(ConnectorTaskId)"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00837"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#837"
  , "c1" : "List<ErrorReporter>"
  , "c2" : "sinkTaskReporters(ConnectorTaskId;SinkConnectorConfig;ErrorHandlingMetrics;Class<?extendsConnector>)"
  , "c3" : "2"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00858"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#858"
  , "c1" : "List<ErrorReporter>"
  , "c2" : "sourceTaskReporters(ConnectorTaskId;ConnectorConfig;ErrorHandlingMetrics)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00867"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#867"
  , "c1" : "WorkerErrantRecordReporter"
  , "c2" : "createWorkerErrantRecordReporter(SinkConnectorConfig;RetryWithToleranceOperator;Converter;Converter;HeaderConverter)"
  , "c3" : "2"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00881"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#881"
  , "c1" : "void"
  , "c2" : "stopTask(ConnectorTaskId)"
  , "c3" : "3"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00903"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#903"
  , "c1" : "void"
  , "c2" : "stopTasks(Collection<ConnectorTaskId>)"
  , "c3" : "2"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00911"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#911"
  , "c1" : "void"
  , "c2" : "awaitStopTask(ConnectorTaskId;long)"
  , "c3" : "4"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00934"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#934"
  , "c1" : "void"
  , "c2" : "awaitStopTasks(Collection<ConnectorTaskId>)"
  , "c3" : "2"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00944"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#944"
  , "c1" : "void"
  , "c2" : "stopAndAwaitTasks()"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00949"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#949"
  , "c1" : "void"
  , "c2" : "stopAndAwaitTasks(Collection<ConnectorTaskId>)"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00955"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#955"
  , "c1" : "void"
  , "c2" : "stopAndAwaitTask(ConnectorTaskId)"
  , "c3" : "1"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00961"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#961"
  , "c1" : "Set<ConnectorTaskId>"
  , "c2" : "taskIds()"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00965"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#965"
  , "c1" : "Converter"
  , "c2" : "getInternalKeyConverter()"
  , "c3" : "1"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00969"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#969"
  , "c1" : "Converter"
  , "c2" : "getInternalValueConverter()"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00973"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#973"
  , "c1" : "Plugins"
  , "c2" : "getPlugins()"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00977"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#977"
  , "c1" : "String"
  , "c2" : "workerId()"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00982"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#982"
  , "c1" : "boolean"
  , "c2" : "isTopicCreationEnabled()"
  , "c3" : "1"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00987"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#987"
  , "c1" : "ConnectMetrics"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00991"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#991"
  , "c1" : "void"
  , "c2" : "setTargetState(String;TargetState;Callback<TargetState>)"
  , "c3" : "4"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01011"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1011"
  , "c1" : "void"
  , "c2" : "executeStateTransition(Runnable;ClassLoader)"
  , "c3" : "1"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01021"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1021"
  , "c1" : "ConnectorStatusMetricsGroup"
  , "c2" : "connectorStatusMetricsGroup()"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01025"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1025"
  , "c1" : "WorkerMetricsGroup"
  , "c2" : "workerMetricsGroup()"
  , "c3" : "1"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01288"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1288"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "offsetStoreForRegularSourceConnector(SourceConnectorConfig;String;Connector)"
  , "c3" : "5"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01352"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1352"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "offsetStoreForExactlyOnceSourceConnector(SourceConnectorConfig;String;Connector)"
  , "c3" : "3"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01402"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1402"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "offsetStoreForRegularSourceTask(ConnectorTaskId;SourceConnectorConfig;Class<?extendsConnector>;Producer<byte[],byte[]>;Map<String,Object>;TopicAdmin)"
  , "c3" : "5"
@@ -431,6 +549,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01458"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1458"
  , "c1" : "ConnectorOffsetBackingStore"
  , "c2" : "offsetStoreForExactlyOnceSourceTask(ConnectorTaskId;SourceConnectorConfig;Class<?extendsConnector>;Producer<byte[],byte[]>;Map<String,Object>;TopicAdmin)"
  , "c3" : "3"
@@ -438,6 +558,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01505"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1505"
  , "c1" : "boolean"
  , "c2" : "sameOffsetTopicAsWorker(String;Map<String,Object>)"
  , "c3" : "1"
@@ -445,6 +567,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01528"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1528"
  , "c1" : "boolean"
  , "c2" : "regularSourceTaskUsesConnectorSpecificOffsetsStore(SourceConnectorConfig)"
  , "c3" : "1"
@@ -452,6 +576,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01535"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1535"
  , "c1" : "boolean"
  , "c2" : "sourceConnectorTopicCreationEnabled(SourceConnectorConfig)"
  , "c3" : "1"

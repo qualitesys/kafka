@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.StreamJoined" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#24"
  , "c1" : "StreamJoined"
  , "c2" : "StreamJoined(StreamJoined<K,V1,V2>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#36"
  , "c1" : "StreamJoined"
  , "c2" : "StreamJoined(Serde<K>;Serde<V1>;Serde<V2>;WindowBytesStoreSupplier;WindowBytesStoreSupplier;String;String;boolean;Map<String,String>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#108"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withName(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#123"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withStoreName(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#138"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withKeySerde(Serde<K>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00153"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#153"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withValueSerde(Serde<V1>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00168"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#168"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withOtherValueSerde(Serde<V2>)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#183"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withThisStoreSupplier(WindowBytesStoreSupplier)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#198"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withOtherStoreSupplier(WindowBytesStoreSupplier)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00213"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#213"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withLoggingEnabled(Map<String,String>)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00229"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#229"
  , "c1" : "StreamJoined<K,V1,V2>"
  , "c2" : "withLoggingDisabled()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00244"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#244"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

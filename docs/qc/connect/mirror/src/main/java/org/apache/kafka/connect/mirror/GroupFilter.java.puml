@@ -2,8 +2,8 @@
 !pragma layout smetana
 Configurable <|-- org.apache.kafka.connect.mirror.GroupFilter
 class org.apache.kafka.connect.mirror.GroupFilter {
-+  shouldReplicateGroup(String)
-+  close()
-+  configure(Map<String,?>)
+shouldReplicateGroup(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.html#13]]]
+close() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.html#15]]]
+configure(Map<String,?>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.html#19]]]
 } 
 @enduml

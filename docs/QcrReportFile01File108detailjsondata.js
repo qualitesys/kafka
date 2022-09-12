@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#19"
  , "c1" : "ListConsumerGroupsResult"
  , "c2" : "ListConsumerGroupsResult(KafkaFuture<Collection<Object>>)"
  , "c3" : "6"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#48"
  , "c1" : "KafkaFuture<Collection<ConsumerGroupListing>>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#53"
  , "c1" : "KafkaFuture<Collection<ConsumerGroupListing>>"
  , "c2" : "valid()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#58"
  , "c1" : "KafkaFuture<Collection<Throwable>>"
  , "c2" : "errors()"
  , "c3" : "1"

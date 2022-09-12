@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ClusterDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#26"
  , "c1" : "ClusterDelta"
  , "c2" : "ClusterDelta(ClusterImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#30"
  , "c1" : "HashMap<Integer,Optional<BrokerRegistration>>"
  , "c2" : "changedBrokers()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#34"
  , "c1" : "BrokerRegistration"
  , "c2" : "broker(int)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#42"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#50"
  , "c1" : "void"
  , "c2" : "handleMetadataVersionChange(MetadataVersion)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#54"
  , "c1" : "void"
  , "c2" : "replay(RegisterBrokerRecord)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#59"
  , "c1" : "void"
  , "c2" : "replay(UnregisterBrokerRecord)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#63"
  , "c1" : "BrokerRegistration"
  , "c2" : "getBrokerOrThrow(int;long;String)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#77"
  , "c1" : "void"
  , "c2" : "replay(FenceBrokerRecord)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#85"
  , "c1" : "void"
  , "c2" : "replay(UnfenceBrokerRecord)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#93"
  , "c1" : "void"
  , "c2" : "replay(BrokerRegistrationChangeRecord)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#113"
  , "c1" : "ClusterImage"
  , "c2" : "apply()"
  , "c3" : "8"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#137"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

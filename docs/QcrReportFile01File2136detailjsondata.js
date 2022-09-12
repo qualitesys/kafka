@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.coordinator.TaskManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#81"
  , "c1" : "TaskManager"
  , "c2" : "TaskManager(Platform;Scheduler;long)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#228"
  , "c1" : "void"
  , "c2" : "createTask(String;TaskSpec)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00332"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#332"
  , "c1" : "void"
  , "c2" : "stopTask(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00398"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#398"
  , "c1" : "void"
  , "c2" : "destroyTask(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00438"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#438"
  , "c1" : "void"
  , "c2" : "updateWorkerState(String;long;WorkerState)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00481"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#481"
  , "c1" : "void"
  , "c2" : "handleWorkerCompletion(ManagedTask;String;WorkerDone)"
  , "c3" : "7"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00508"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#508"
  , "c1" : "TasksResponse"
  , "c2" : "tasks(TasksRequest)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00533"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#533"
  , "c1" : "TaskState"
  , "c2" : "task(TaskRequest)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00557"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#557"
  , "c1" : "void"
  , "c2" : "beginShutdown(boolean)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00564"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#564"
  , "c1" : "void"
  , "c2" : "waitForShutdown()"
  , "c3" : "2"

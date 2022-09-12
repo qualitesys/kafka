@@ -2,30 +2,30 @@
 !pragma layout smetana
 WrappedStateStore_KeyValueStore_Bytes,byte[]_,K,V_KeyValueStore_K,V_ <|-- org.apache.kafka.streams.state.internals.MeteredKeyValueStore
 class org.apache.kafka.streams.state.internals.MeteredKeyValueStore {
-+  MeteredKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<V>)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  registerMetrics()
-+  prepareValueSerdeForStore(Serde<V>;SerdeGetter)
-+  initStoreSerde(ProcessorContext)
-+  initStoreSerde(StateStoreContext)
-+  setFlushListener(CacheFlushListener<K,V>;boolean)
-+  getPosition()
-+  get(K)
-+  put(K;V)
-+  putIfAbsent(K;V)
-+  putAll(List<KeyValue<K,V>>)
-+  delete(K)
-+  range(K;K)
-+  reverseRange(K;K)
-+  all()
-+  reverseAll()
-+  flush()
-+  approximateNumEntries()
-+  close()
-+  outerValue(byte[])
-+  keyBytes(K)
-+  innerEntries(List<KeyValue<K,V>>)
-+  maybeRecordE2ELatency()
+MeteredKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<V>) : MeteredKeyValueStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#85]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#99]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#115]]]
+- registerMetrics() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#130]]]
+prepareValueSerdeForStore(Serde<V>;SerdeGetter) : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#143]]]
+- initStoreSerde(ProcessorContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#149]]]
+- initStoreSerde(StateStoreContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#159]]]
++ setFlushListener(CacheFlushListener<K,V>;boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#171]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#221]]]
++ get(K) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#292]]]
++ put(K;V) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#303]]]
++ putIfAbsent(K;V) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#316]]]
++ putAll(List<KeyValue<K,V>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#329]]]
++ delete(K) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#335]]]
++ range(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#353]]]
++ reverseRange(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#364]]]
++ all() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#375]]]
++ reverseAll() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#380]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#385]]]
++ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#390]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#395]]]
+outerValue(byte[]) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#403]]]
+keyBytes(K) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#407]]]
+- innerEntries(List<KeyValue<K,V>>) : List<KeyValue<Bytes,byte[]>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#411]]]
+- maybeRecordE2ELatency() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#419]]]
 } 
 @enduml

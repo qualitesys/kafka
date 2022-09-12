@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.mirror.MirrorMaker
 class org.apache.kafka.connect.mirror.MirrorMaker {
-+  MirrorMaker(MirrorMakerConfig;List<String>;Time)
-+  MirrorMaker(Map<String,String>;List<String>;Time)
-+  MirrorMaker(Map<String,String>;List<String>)
-+  MirrorMaker(Map<String,String>)
-+  start()
-+  stop()
-+  awaitStop()
-+  configureConnector(SourceAndTarget;Class<?>)
-+  checkHerder(SourceAndTarget)
-+  configureConnectors(SourceAndTarget)
-+  addHerder(SourceAndTarget)
-+  main(String[])
++ MirrorMaker(MirrorMakerConfig;List<String>;Time) : MirrorMaker [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#266]]]
++ MirrorMaker(Map<String,String>;List<String>;Time) : MirrorMaker [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#266]]]
++ MirrorMaker(Map<String,String>;List<String>) : MirrorMaker [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
++ MirrorMaker(Map<String,String>) : MirrorMaker [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
++ start() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
++ stop() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
++ awaitStop() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
+- configureConnector(SourceAndTarget;Class<?>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
+- checkHerder(SourceAndTarget) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
+- configureConnectors(SourceAndTarget) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
+- addHerder(SourceAndTarget) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
++ main(String[]) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1]]]
 } 
 @enduml

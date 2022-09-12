@@ -2,9 +2,9 @@
 !pragma layout smetana
 AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler
 class org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler {
-+  configure(Map<String,?>;String;List<AppConfigurationEntry>)
-+  handle(Callback[])
-+  authenticate(String;char[])
-+  close()
++ configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#27]]]
++ handle(Callback[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#32]]]
+authenticate(String;char[]) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#46]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#58]]]
 } 
 @enduml

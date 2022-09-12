@@ -2,7 +2,7 @@
 !pragma layout smetana
 ConfigDef.Validator <|-- org.apache.kafka.connect.transforms.util.RegexValidator
 class org.apache.kafka.connect.transforms.util.RegexValidator {
-+  ensureValid(String;Object)
-+  toString()
++ ensureValid(String;Object) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.html#12]]]
++ toString() : String [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.html#21]]]
 } 
 @enduml

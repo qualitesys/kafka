@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.internals.IntGaugeSuite" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#96"
  , "c1" : "IntGaugeSuite"
  , "c2" : "IntGaugeSuite(Logger;String;Metrics;Function<K,MetricName>;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#115"
  , "c1" : "void"
  , "c2" : "increment(K)"
  , "c3" : "6"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#156"
  , "c1" : "void"
  , "c2" : "performPendingMetricsOperations()"
  , "c3" : "6"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#181"
  , "c1" : "void"
  , "c2" : "decrement(K)"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#202"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00219"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#219"
  , "c1" : "int"
  , "c2" : "maxEntries()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00224"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#224"
  , "c1" : "Metrics"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00229"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#229"
  , "c1" : "Map<K,Integer>"
  , "c2" : "values()"
  , "c3" : "2"

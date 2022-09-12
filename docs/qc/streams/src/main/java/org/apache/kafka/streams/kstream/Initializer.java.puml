@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.Initializer
 class org.apache.kafka.streams.kstream.Initializer {
-+  apply()
+apply() : VA [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java.html#9]]]
 } 
 @enduml

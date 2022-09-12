@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.tools.ThroughputThrottler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
  , "c1" : "ThroughputThrottler"
  , "c2" : "ThroughputThrottler(long;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
  , "c1" : "boolean"
  , "c2" : "shouldThrottle(long;long)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
  , "c1" : "void"
  , "c2" : "throttle()"
  , "c3" : "6"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.html#94"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"

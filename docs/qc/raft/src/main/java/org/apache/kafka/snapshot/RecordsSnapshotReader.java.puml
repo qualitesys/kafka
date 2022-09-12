@@ -2,14 +2,14 @@
 !pragma layout smetana
 SnapshotReader_T_ <|-- org.apache.kafka.snapshot.RecordsSnapshotReader
 class org.apache.kafka.snapshot.RecordsSnapshotReader {
-+  RecordsSnapshotReader(OffsetAndEpoch;RecordsIterator<T>)
-+  snapshotId()
-+  lastContainedLogOffset()
-+  lastContainedLogEpoch()
-+  lastContainedLogTimestamp()
-+  hasNext()
-+  next()
-+  close()
-+  nextBatch()
+- RecordsSnapshotReader(OffsetAndEpoch;RecordsIterator<T>) : RecordsSnapshotReader [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#22]]]
++ snapshotId() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#31]]]
++ lastContainedLogOffset() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#36]]]
++ lastContainedLogEpoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#41]]]
++ lastContainedLogTimestamp() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#46]]]
++ hasNext() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#63]]]
++ next() : Batch<T> [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#72]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#84]]]
+- nextBatch() : Optional<Batch<T>> [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#101]]]
 } 
 @enduml

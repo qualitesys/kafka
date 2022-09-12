@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.sink.SinkConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkConnector.java.html#13"
  , "c1" : "SinkConnectorContext"
  , "c2" : "context()"
  , "c3" : "1"

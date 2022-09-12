@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DeleteRecordsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteRecordsResult.java.html#17"
  , "c1" : "DeleteRecordsResult"
  , "c2" : "DeleteRecordsResult(Map<TopicPartition,KafkaFuture<DeletedRecords>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteRecordsResult.java.html#22"
  , "c1" : "Map<TopicPartition,KafkaFuture<DeletedRecords>>"
  , "c2" : "lowWatermarks()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteRecordsResult.java.html#27"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "1"

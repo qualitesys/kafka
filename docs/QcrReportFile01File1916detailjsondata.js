@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.metrics.TopicMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#29"
  , "c1" : "Sensor"
  , "c2" : "consumedSensor(String;String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#53"
  , "c1" : "Sensor"
  , "c2" : "producedSensor(String;String;String;String;StreamsMetricsImpl)"
  , "c3" : "1"

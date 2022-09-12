@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.FenceProducersOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersOptions.java.html#14"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

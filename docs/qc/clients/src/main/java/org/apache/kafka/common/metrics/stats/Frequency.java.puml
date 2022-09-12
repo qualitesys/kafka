@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.metrics.stats.Frequency
 class org.apache.kafka.common.metrics.stats.Frequency {
-+  Frequency(MetricName;double)
-+  name()
-+  centerValue()
-+  toString()
++ Frequency(MetricName;double) : Frequency [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#14]]]
++ name() : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#20]]]
++ centerValue() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#25]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#30]]]
 } 
 @enduml

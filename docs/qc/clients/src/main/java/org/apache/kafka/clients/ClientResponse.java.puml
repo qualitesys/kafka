@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.ClientResponse
 class org.apache.kafka.clients.ClientResponse {
-+  ClientResponse(RequestHeader;RequestCompletionHandler;String;long;long;boolean;UnsupportedVersionException;AuthenticationException;AbstractResponse)
-+  receivedTimeMs()
-+  wasDisconnected()
-+  versionMismatch()
-+  authenticationException()
-+  requestHeader()
-+  destination()
-+  responseBody()
-+  hasResponse()
-+  requestLatencyMs()
-+  onComplete()
-+  toString()
++ ClientResponse(RequestHeader;RequestCompletionHandler;String;long;long;boolean;UnsupportedVersionException;AuthenticationException;AbstractResponse) : ClientResponse [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#23]]]
++ receivedTimeMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#43]]]
++ wasDisconnected() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#47]]]
++ versionMismatch() : UnsupportedVersionException [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#51]]]
++ authenticationException() : AuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#55]]]
++ requestHeader() : RequestHeader [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#59]]]
++ destination() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#63]]]
++ responseBody() : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#67]]]
++ hasResponse() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#71]]]
++ requestLatencyMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#75]]]
++ onComplete() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#79]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#85]]]
 } 
 @enduml

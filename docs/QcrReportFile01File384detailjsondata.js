@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NotCoordinatorException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotCoordinatorException.java.html#9"
  , "c1" : "NotCoordinatorException"
  , "c2" : "NotCoordinatorException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotCoordinatorException.java.html#13"
  , "c1" : "NotCoordinatorException"
  , "c2" : "NotCoordinatorException(String;Throwable)"
  , "c3" : "1"

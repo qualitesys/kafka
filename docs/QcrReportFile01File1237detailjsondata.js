@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.server.builders.ReplicaManagerBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#48"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setConfig(KafkaConfig)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#53"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setMetrics(Metrics)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#58"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setTime(Time)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#63"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setScheduler(Scheduler)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#68"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setLogManager(LogManager)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#73"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setQuotaManagers(QuotaManagers)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#78"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setMetadataCache(MetadataCache)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#83"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setLogDirFailureChannel(LogDirFailureChannel)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#88"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setAlterPartitionManager(AlterPartitionManager)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#93"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setBrokerTopicStats(BrokerTopicStats)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#98"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setIsShuttingDown(AtomicBoolean)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#103"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setZkClient(KafkaZkClient)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#108"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setDelayedProducePurgatory(DelayedOperationPurgatory<DelayedProduce>)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#113"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setDelayedFetchPurgatory(DelayedOperationPurgatory<DelayedFetch>)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#118"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setDelayedDeleteRecordsPurgatory(DelayedOperationPurgatory<DelayedDeleteRecords>)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#123"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setDelayedElectLeaderPurgatoryParam(DelayedOperationPurgatory<DelayedElectLeader>)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#128"
  , "c1" : "ReplicaManagerBuilder"
  , "c2" : "setThreadNamePrefix(String)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#133"
  , "c1" : "ReplicaManager"
  , "c2" : "build()"
  , "c3" : "7"

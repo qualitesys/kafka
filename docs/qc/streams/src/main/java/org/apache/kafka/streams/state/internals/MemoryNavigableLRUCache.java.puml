@@ -2,12 +2,12 @@
 !pragma layout smetana
 MemoryLRUCache <|-- org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache
 class org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache {
-+  MemoryNavigableLRUCache(String;int)
-+  range(Bytes;Bytes)
-+  reverseRange(Bytes;Bytes)
-+  getIterator(TreeMap<Bytes,byte[]>;Bytes;Bytes;boolean)
-+  all()
-+  reverseAll()
-+  toTreeMap()
++ MemoryNavigableLRUCache(String;int) : MemoryNavigableLRUCache [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#24]]]
++ range(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29]]]
++ reverseRange(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45]]]
+- getIterator(TreeMap<Bytes,byte[]>;Bytes;Bytes;boolean) : Iterator<Bytes> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60]]]
++ all() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#87]]]
++ reverseAll() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#92]]]
+- toTreeMap() : TreeMap<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#96]]]
 } 
 @enduml

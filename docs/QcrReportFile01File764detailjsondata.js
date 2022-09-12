@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.authenticator.DefaultLogin" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#7"
  , "c1" : "String"
  , "c2" : "serviceName()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#12"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

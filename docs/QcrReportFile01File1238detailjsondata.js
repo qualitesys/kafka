@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.tools.StreamsResetter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#99"
  , "c1" : "int"
  , "c2" : "run(String[])"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#103"
  , "c1" : "int"
  , "c2" : "run(String[];Properties)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#147"
  , "c1" : "void"
  , "c2" : "maybeDeleteActiveConsumers(String;Admin)"
  , "c3" : "4"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#169"
  , "c1" : "void"
  , "c2" : "parseArguments(String[])"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00272"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#272"
  , "c1" : "int"
  , "c2" : "maybeResetInputAndSeekToEndIntermediateTopicOffsets(Map<Object,Object>;boolean)"
  , "c3" : "22"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00383"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#383"
  , "c1" : "void"
  , "c2" : "maybeSeekToEnd(String;Consumer<byte[],byte[]>;Set<TopicPartition>)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00397"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#397"
  , "c1" : "void"
  , "c2" : "maybeReset(String;Consumer<byte[],byte[]>;Set<TopicPartition>)"
  , "c3" : "17"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00435"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#435"
  , "c1" : "void"
  , "c2" : "resetOffsetsFromResetPlan(Consumer<byte[],byte[]>;Set<TopicPartition>;Map<TopicPartition,Long>)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00449"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#449"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "getTopicPartitionOffsetFromResetPlan(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00456"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#456"
  , "c1" : "void"
  , "c2" : "resetByDuration(Consumer<byte[],byte[]>;Set<TopicPartition>;Duration)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00463"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#463"
  , "c1" : "void"
  , "c2" : "resetToDatetime(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)"
  , "c3" : "5"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00488"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#488"
  , "c1" : "void"
  , "c2" : "shiftOffsetsBy(Consumer<byte[],byte[]>;Set<TopicPartition>;long)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00510"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#510"
  , "c1" : "void"
  , "c2" : "resetOffsetsTo(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00530"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#530"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "parseResetPlan(String)"
  , "c3" : "4"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00553"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#553"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "checkOffsetRange(Map<TopicPartition,Long>;Map<TopicPartition,Long>;Map<TopicPartition,Long>)"
  , "c3" : "6"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00576"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#576"
  , "c1" : "boolean"
  , "c2" : "isInputTopic(String)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00580"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#580"
  , "c1" : "boolean"
  , "c2" : "isIntermediateTopic(String)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00584"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#584"
  , "c1" : "int"
  , "c2" : "maybeDeleteInternalTopics(Admin;boolean)"
  , "c3" : "5"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00616"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#616"
  , "c1" : "void"
  , "c2" : "doDelete(List<String>;Admin)"
  , "c3" : "3"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00636"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#636"
  , "c1" : "boolean"
  , "c2" : "isInferredInternalTopic(String)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00646"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#646"
  , "c1" : "boolean"
  , "c2" : "matchesInternalTopicFormat(String)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00654"
+ , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#654"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

@@ -2,7 +2,7 @@
 !pragma layout smetana
 KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.Segment
 class org.apache.kafka.streams.state.internals.Segment {
-+  destroy()
-+  deleteRange(Bytes;Bytes)
+destroy() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segment.java.html#11]]]
+deleteRange(Bytes;Bytes) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segment.java.html#13]]]
 } 
 @enduml

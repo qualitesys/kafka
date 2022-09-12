@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.TopicsImage
 class org.apache.kafka.image.TopicsImage {
-+  TopicsImage(Map<Uuid,TopicImage>;Map<String,TopicImage>)
-+  isEmpty()
-+  topicsById()
-+  topicsByName()
-+  getPartition(Uuid;int)
-+  getTopic(Uuid)
-+  getTopic(String)
-+  write(Consumer<List<ApiMessageAndVersion>>)
-+  equals(Object)
-+  hashCode()
-+  topicNameToIdView()
-+  topicIdToNameView()
-+  toString()
++ TopicsImage(Map<Uuid,TopicImage>;Map<String,TopicImage>) : TopicsImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#26]]]
++ isEmpty() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#32]]]
++ topicsById() : Map<Uuid,TopicImage> [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#36]]]
++ topicsByName() : Map<String,TopicImage> [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#40]]]
++ getPartition(Uuid;int) : PartitionRegistration [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#44]]]
++ getTopic(Uuid) : TopicImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#50]]]
++ getTopic(String) : TopicImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#54]]]
++ write(Consumer<List<ApiMessageAndVersion>>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#58]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#65]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#73]]]
++ topicNameToIdView() : Map<String,Uuid> [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#78]]]
++ topicIdToNameView() : Map<Uuid,String> [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#83]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#88]]]
 } 
 @enduml

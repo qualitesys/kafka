@@ -2,33 +2,33 @@
 !pragma layout smetana
 Authenticator <|-- org.apache.kafka.common.security.authenticator.SaslServerAuthenticator
 class org.apache.kafka.common.security.authenticator.SaslServerAuthenticator {
-+  SaslServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;Map<String,Subject>;KerberosShortNamer;ListenerName;SecurityProtocol;TransportLayer;Map<String,Long>;ChannelMetadataRegistry;Time;Supplier<ApiVersionsResponse>)
-+  createSaslServer(String)
-+  createSaslKerberosServer(AuthenticateCallbackHandler;Map<String,?>;Subject)
-+  authenticate()
-+  principal()
-+  principalSerde()
-+  complete()
-+  handleAuthenticationFailure()
-+  close()
-+  reauthenticate(ReauthenticationContext)
-+  serverSessionExpirationTimeNanos()
-+  reauthenticationLatencyMs()
-+  connectedClientSupportsReauthentication()
-+  setSaslState(SaslState)
-+  setSaslState(SaslState;AuthenticationException)
-+  flushNetOutBufferAndUpdateInterestOps()
-+  flushNetOutBuffer()
-+  serverAddress()
-+  clientAddress()
-+  handleSaslToken(byte[])
-+  handleKafkaRequest(byte[])
-+  handleHandshakeRequest(RequestContext;SaslHandshakeRequest)
-+  enableKafkaSaslAuthenticateHeaders(boolean)
-+  handleApiVersionsRequest(RequestContext;ApiVersionsRequest)
-+  buildResponseOnAuthenticateFailure(RequestContext;AbstractResponse)
-+  sendAuthenticationFailureResponse()
-+  sendKafkaResponse(RequestContext;AbstractResponse)
-+  sendKafkaResponse(Send)
++ SaslServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;Map<String,Subject>;KerberosShortNamer;ListenerName;SecurityProtocol;TransportLayer;Map<String,Long>;ChannelMetadataRegistry;Time;Supplier<ApiVersionsResponse>) : SaslServerAuthenticator [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#123]]]
+- createSaslServer(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#168]]]
+- createSaslKerberosServer(AuthenticateCallbackHandler;Map<String,?>;Subject) : SaslServer [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#187]]]
++ authenticate() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#212]]]
++ principal() : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#269]]]
++ principalSerde() : Optional<KafkaPrincipalSerde> [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#282]]]
++ complete() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#287]]]
++ handleAuthenticationFailure() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#292]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#297]]]
++ reauthenticate(ReauthenticationContext) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#305]]]
++ serverSessionExpirationTimeNanos() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#322]]]
++ reauthenticationLatencyMs() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#327]]]
++ connectedClientSupportsReauthentication() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#332]]]
+- setSaslState(SaslState) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#336]]]
+- setSaslState(SaslState;AuthenticationException) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#340]]]
+- flushNetOutBufferAndUpdateInterestOps() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#354]]]
+- flushNetOutBuffer() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#365]]]
+- serverAddress() : InetAddress [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#371]]]
+- clientAddress() : InetAddress [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#375]]]
+- handleSaslToken(byte[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#379]]]
+- handleKafkaRequest(byte[]) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#456]]]
+- handleHandshakeRequest(RequestContext;SaslHandshakeRequest) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#515]]]
+enableKafkaSaslAuthenticateHeaders(boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#534]]]
+- handleApiVersionsRequest(RequestContext;ApiVersionsRequest) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#538]]]
+- buildResponseOnAuthenticateFailure(RequestContext;AbstractResponse) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#555]]]
+- sendAuthenticationFailureResponse() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#560]]]
+- sendKafkaResponse(RequestContext;AbstractResponse) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#567]]]
+- sendKafkaResponse(Send) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#571]]]
 } 
 @enduml

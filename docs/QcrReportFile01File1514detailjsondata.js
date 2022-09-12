@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataUpdateTransform" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataUpdateTransform.java.html#14"
  , "c1" : "ApiMessageAndVersion"
  , "c2" : "toApiMessageAndVersion(RemoteLogSegmentMetadataUpdate)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataUpdateTransform.java.html#24"
  , "c1" : "RemoteLogSegmentMetadataUpdate"
  , "c2" : "fromApiMessageAndVersion(ApiMessageAndVersion)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataUpdateTransform.java.html#34"
  , "c1" : "RemoteLogSegmentMetadataUpdateRecord.RemoteLogSegmentIdEntry"
  , "c2" : "createRemoteLogSegmentIdEntry(RemoteLogSegmentMetadataUpdate)"
  , "c3" : "1"

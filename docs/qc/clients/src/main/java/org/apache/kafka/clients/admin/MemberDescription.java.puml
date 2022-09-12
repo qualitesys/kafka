@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.MemberDescription
 class org.apache.kafka.clients.admin.MemberDescription {
-+  MemberDescription(String;Optional<String>;String;String;MemberAssignment)
-+  MemberDescription(String;String;String;MemberAssignment)
-+  equals(Object)
-+  hashCode()
-+  consumerId()
-+  groupInstanceId()
-+  clientId()
-+  host()
-+  assignment()
-+  toString()
++ MemberDescription(String;Optional<String>;String;String;MemberAssignment) : MemberDescription [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#16]]]
++ MemberDescription(String;String;String;MemberAssignment) : MemberDescription [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#29]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#37]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#49]]]
++ consumerId() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#54]]]
++ groupInstanceId() : Optional<String> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#59]]]
++ clientId() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#64]]]
++ host() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#69]]]
++ assignment() : MemberAssignment [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#74]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#79]]]
 } 
 @enduml

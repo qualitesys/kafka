@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.common.CheckpointFile" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32"
  , "c1" : "CheckpointFile"
  , "c2" : "CheckpointFile(File;int;EntryFormatter<T>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47"
  , "c1" : "void"
  , "c2" : "write(Collection<T>)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#74"
  , "c1" : "List<T>"
  , "c2" : "read()"
  , "c3" : "1"

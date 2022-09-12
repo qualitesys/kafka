@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.errors.ConnectException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.html#9"
  , "c1" : "ConnectException"
  , "c2" : "ConnectException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.html#13"
  , "c1" : "ConnectException"
  , "c2" : "ConnectException(String;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.html#17"
  , "c1" : "ConnectException"
  , "c2" : "ConnectException(Throwable)"
  , "c3" : "1"

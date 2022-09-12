@@ -2,8 +2,8 @@
 !pragma layout smetana
 StreamsException <|-- org.apache.kafka.streams.errors.TaskAssignmentException
 class org.apache.kafka.streams.errors.TaskAssignmentException {
-+  TaskAssignmentException(String)
-+  TaskAssignmentException(String;Throwable)
-+  TaskAssignmentException(Throwable)
++ TaskAssignmentException(String) : TaskAssignmentException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#9]]]
++ TaskAssignmentException(String;Throwable) : TaskAssignmentException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#13]]]
++ TaskAssignmentException(Throwable) : TaskAssignmentException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#17]]]
 } 
 @enduml

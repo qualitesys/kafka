@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.VoteResponse
 class org.apache.kafka.common.requests.VoteResponse {
-+  VoteResponse(VoteResponseData)
-+  singletonResponse(Errors;TopicPartition;Errors;int;int;boolean)
-+  errorCounts()
-+  data()
-+  throttleTimeMs()
-+  parse(ByteBuffer;short)
++ VoteResponse(VoteResponseData) : VoteResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#20]]]
++ singletonResponse(Errors;TopicPartition;Errors;int;int;boolean) : VoteResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#25]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#45]]]
++ data() : VoteResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#59]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#64]]]
++ parse(ByteBuffer;short) : VoteResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#68]]]
 } 
 @enduml

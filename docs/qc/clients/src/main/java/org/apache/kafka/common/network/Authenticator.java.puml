@@ -2,16 +2,16 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.common.network.Authenticator
 class org.apache.kafka.common.network.Authenticator {
-+  authenticate()
-+  handleAuthenticationFailure()
-+  principal()
-+  principalSerde()
-+  complete()
-+  reauthenticate(ReauthenticationContext)
-+  serverSessionExpirationTimeNanos()
-+  clientSessionReauthenticationTimeNanos()
-+  reauthenticationLatencyMs()
-+  pollResponseReceivedDuringReauthentication()
-+  connectedClientSupportsReauthentication()
+authenticate() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#15]]]
+handleAuthenticationFailure() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#18]]]
+principal() : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#22]]]
+principalSerde() : Optional<KafkaPrincipalSerde> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#25]]]
+complete() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#28]]]
+reauthenticate(ReauthenticationContext) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#31]]]
+serverSessionExpirationTimeNanos() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#36]]]
+clientSessionReauthenticationTimeNanos() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#41]]]
+reauthenticationLatencyMs() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#46]]]
+pollResponseReceivedDuringReauthentication() : Optional<NetworkReceive> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#51]]]
+connectedClientSupportsReauthentication() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Authenticator.java.html#56]]]
 } 
 @enduml

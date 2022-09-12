@@ -2,20 +2,20 @@
 !pragma layout smetana
 WrappedStateStore_KeyValueStore_Bytes,byte[]_,byte[],byte[]_KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore
 class org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore {
-+  ChangeLoggingKeyValueBytesStore(KeyValueStore<Bytes,byte[]>)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  maybeSetEvictionListener()
-+  approximateNumEntries()
-+  put(Bytes;byte[])
-+  putIfAbsent(Bytes;byte[])
-+  putAll(List<KeyValue<Bytes,byte[]>>)
-+  delete(Bytes)
-+  get(Bytes)
-+  range(Bytes;Bytes)
-+  reverseRange(Bytes;Bytes)
-+  all()
-+  reverseAll()
-+  log(Bytes;byte[])
+ChangeLoggingKeyValueBytesStore(KeyValueStore<Bytes,byte[]>) : ChangeLoggingKeyValueBytesStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#24]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#30]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#38]]]
+- maybeSetEvictionListener() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#45]]]
++ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#56]]]
++ put(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#61]]]
++ putIfAbsent(Bytes;byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#68]]]
++ putAll(List<KeyValue<Bytes,byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#79]]]
++ delete(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#93]]]
++ get(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#100]]]
++ range(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#105]]]
++ reverseRange(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#111]]]
++ all() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#117]]]
++ reverseAll() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#122]]]
+log(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingKeyValueBytesStore.java.html#126]]]
 } 
 @enduml

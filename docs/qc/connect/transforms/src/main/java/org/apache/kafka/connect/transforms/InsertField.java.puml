@@ -2,15 +2,15 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.InsertField
 class org.apache.kafka.connect.transforms.InsertField {
-+  configure(Map<String,?>)
-+  apply(R)
-+  applySchemaless(R)
-+  applyWithSchema(R)
-+  makeUpdatedSchema(Schema)
-+  close()
-+  config()
-+  operatingSchema(R)
-+  operatingValue(R)
-+  newRecord(R;Schema;Object)
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#93]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#114]]]
+- applySchemaless(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#124]]]
+- applyWithSchema(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#148]]]
+- makeUpdatedSchema(Schema) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#182]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#209]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#214]]]
+operatingSchema(R) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#218]]]
+operatingValue(R) : Object [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#220]]]
+newRecord(R;Schema;Object) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#222]]]
 } 
 @enduml

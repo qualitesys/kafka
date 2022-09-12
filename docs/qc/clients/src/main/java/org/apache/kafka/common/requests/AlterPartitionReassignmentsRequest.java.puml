@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest
 class org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest {
-+  AlterPartitionReassignmentsRequest(AlterPartitionReassignmentsRequestData;short)
-+  parse(ByteBuffer;short)
-+  data()
-+  getErrorResponse(int;Throwable)
+- AlterPartitionReassignmentsRequest(AlterPartitionReassignmentsRequestData;short) : AlterPartitionReassignmentsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsRequest.java.html#41]]]
++ parse(ByteBuffer;short) : AlterPartitionReassignmentsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsRequest.java.html#46]]]
++ data() : AlterPartitionReassignmentsRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsRequest.java.html#51]]]
++ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionReassignmentsRequest.java.html#56]]]
 } 
 @enduml

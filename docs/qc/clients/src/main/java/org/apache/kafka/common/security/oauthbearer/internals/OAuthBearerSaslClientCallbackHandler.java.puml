@@ -2,11 +2,11 @@
 !pragma layout smetana
 AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler
 class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler {
-+  configured()
-+  configure(Map<String,?>;String;List<AppConfigurationEntry>)
-+  handle(Callback[])
-+  close()
-+  handleCallback(OAuthBearerTokenCallback)
-+  handleCallback(SaslExtensionsCallback;Subject)
++ configured() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#35]]]
++ configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#40]]]
++ handle(Callback[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#47]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#61]]]
+- handleCallback(OAuthBearerTokenCallback) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#65]]]
+- handleCallback(SaslExtensionsCallback;Subject) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#96]]]
 } 
 @enduml

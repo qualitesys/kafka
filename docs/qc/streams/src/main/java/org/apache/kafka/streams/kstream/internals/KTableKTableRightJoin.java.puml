@@ -2,8 +2,8 @@
 !pragma layout smetana
 KTableKTableAbstractJoin_K,V1,V2,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KTableKTableRightJoin
 class org.apache.kafka.streams.kstream.internals.KTableKTableRightJoin {
-+  KTableKTableRightJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>)
-+  get()
-+  view()
+KTableKTableRightJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>) : KTableKTableRightJoin [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableRightJoin.java.html#22]]]
++ get() : Processor<K,Change<V1>,K,Change<VOut>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableRightJoin.java.html#29]]]
++ view() : KTableValueGetterSupplier<K,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableRightJoin.java.html#34]]]
 } 
 @enduml

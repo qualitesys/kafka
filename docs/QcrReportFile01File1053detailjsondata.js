@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.IntegerConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#13"
  , "c1" : "IntegerConverter"
  , "c2" : "IntegerConverter()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.CollectionUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#17"
  , "c1" : "CollectionUtils"
  , "c2" : "CollectionUtils()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#39"
  , "c1" : "Map<String,List<Integer>>"
  , "c2" : "groupPartitionsByTopic(Collection<TopicPartition>)"
  , "c3" : "1"

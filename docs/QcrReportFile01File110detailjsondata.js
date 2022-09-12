@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListOffsetsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#19"
  , "c1" : "ListOffsetsResult"
  , "c2" : "ListOffsetsResult(Map<TopicPartition,KafkaFuture<ListOffsetsResultInfo>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#24"
  , "c1" : "KafkaFuture<ListOffsetsResultInfo>"
  , "c2" : "partitionResult(TopicPartition)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#34"
  , "c1" : "KafkaFuture<Map<TopicPartition,ListOffsetsResultInfo>>"
  , "c2" : "all()"
  , "c3" : "2"

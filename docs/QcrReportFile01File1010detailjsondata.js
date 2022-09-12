@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.json.JsonSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#19"
  , "c1" : "JsonSerializer"
  , "c2" : "JsonSerializer()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#24"
  , "c1" : "JsonSerializer"
  , "c2" : "JsonSerializer(Set<SerializationFeature>;JsonNodeFactory)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#33"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;JsonNode)"
  , "c3" : "2"

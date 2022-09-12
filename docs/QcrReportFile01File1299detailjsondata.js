@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.BrokerControlStates" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#12"
  , "c1" : "BrokerControlStates"
  , "c2" : "BrokerControlStates(BrokerControlState;BrokerControlState)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#17"
  , "c1" : "BrokerControlState"
  , "c2" : "current()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#21"
  , "c1" : "BrokerControlState"
  , "c2" : "next()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#26"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#31"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#38"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

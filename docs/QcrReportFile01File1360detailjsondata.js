@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.OptionalStringComparator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.html#13"
  , "c1" : "int"
  , "c2" : "compare(Optional<String>;Optional<String>)"
  , "c3" : "6"

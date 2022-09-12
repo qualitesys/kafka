@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.connector.Connector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#20"
  , "c1" : "void"
  , "c2" : "initialize(ConnectorContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#25"
  , "c1" : "void"
  , "c2" : "initialize(ConnectorContext;List<Map<String,String>>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#32"
  , "c1" : "ConnectorContext"
  , "c2" : "context()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#37"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#40"
  , "c1" : "void"
  , "c2" : "reconfigure(Map<String,String>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#46"
  , "c1" : "Class<?extendsTask>"
  , "c2" : "taskClass()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#49"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "taskConfigs(int)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#52"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#55"
  , "c1" : "Config"
  , "c2" : "validate(Map<String,String>)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#67"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"

@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.examples.pipe.PipeDemo
 class org.apache.kafka.streams.examples.pipe.PipeDemo {
-+  main(String[])
++ main(String[]) : void [[[././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#16]]]
 } 
 @enduml

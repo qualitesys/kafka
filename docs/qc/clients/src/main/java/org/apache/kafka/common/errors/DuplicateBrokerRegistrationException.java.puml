@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.DuplicateBrokerRegistrationException
 class org.apache.kafka.common.errors.DuplicateBrokerRegistrationException {
-+  DuplicateBrokerRegistrationException(String)
-+  DuplicateBrokerRegistrationException(String;Throwable)
++ DuplicateBrokerRegistrationException(String) : DuplicateBrokerRegistrationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.html#6]]]
++ DuplicateBrokerRegistrationException(String;Throwable) : DuplicateBrokerRegistrationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.html#10]]]
 } 
 @enduml

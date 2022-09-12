@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:1036px;height:136px;background:#000000;" version="1.1" viewBox="0 0 1036 136" width="1036px" zoomAndPan="magnify"><defs/><g><rect fill="#201B27" height="1" style="stroke:#201B27;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="1024" x="5" y="111.1563">WrappedStateStore_SegmentedBytesStore,Object,Object_SessionStore_Bytes,byte[]_ &lt;|-- org.apache.kafka.streams.state.inter ...</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[f9ea8b2658ddc85f8a56ef33bf374b1a]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:1036px;height:136px;background:#000000;" version="1.1" viewBox="0 0 1036 136" width="1036px" zoomAndPan="magnify"><defs/><g><rect fill="#27240A" height="1" style="stroke:#27240A;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="1024" x="5" y="111.1563">WrappedStateStore_SegmentedBytesStore,Object,Object_SessionStore_Bytes,byte[]_ &lt;|-- org.apache.kafka.streams.state.inter ...</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[80b643388615433aaa288568dead6d90]
 @startuml
 !pragma layout smetana
 WrappedStateStore_SegmentedBytesStore,Object,Object_SessionStore_Bytes,byte[]_ <|- - org.apache.kafka.streams.state.internals.RocksDBSessionStore
 class org.apache.kafka.streams.state.internals.RocksDBSessionStore {
-+  RocksDBSessionStore(SegmentedBytesStore)
-+  init(StateStoreContext;StateStore)
-+  findSessions(Bytes;long;long)
-+  backwardFindSessions(Bytes;long;long)
-+  findSessions(Bytes;Bytes;long;long)
-+  backwardFindSessions(Bytes;Bytes;long;long)
-+  fetchSession(Bytes;long;long)
-+  fetch(Bytes)
-+  backwardFetch(Bytes)
-+  fetch(Bytes;Bytes)
-+  backwardFetch(Bytes;Bytes)
-+  remove(Windowed<Bytes>)
-+  put(Windowed<Bytes>;byte[])
+RocksDBSessionStore(SegmentedBytesStore) : RocksDBSessionStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#22]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#27]]]
++ findSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#48]]]
++ backwardFindSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#60]]]
++ findSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#72]]]
++ backwardFindSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#86]]]
++ fetchSession(Bytes;long;long) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#100]]]
++ fetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#111]]]
++ backwardFetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#116]]]
++ fetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#121]]]
++ backwardFetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#126]]]
++ remove(Windowed<Bytes>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#131]]]
++ put(Windowed<Bytes>;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.html#136]]]
 } 
 @enduml
 

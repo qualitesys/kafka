@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.InternalTopicManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#65"
  , "c1" : "InternalTopicManager"
  , "c2" : "InternalTopicManager(Time;Admin;StreamsConfig)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#119"
  , "c1" : "ValidationResult"
  , "c2" : "validate(Map<String,InternalTopicConfig>)"
  , "c3" : "8"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00230"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#230"
  , "c1" : "void"
  , "c2" : "validatePartitionCount(ValidationResult;InternalTopicConfig;TopicDescription)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#247"
  , "c1" : "void"
  , "c2" : "validateCleanupPolicy(ValidationResult;InternalTopicConfig;Config)"
  , "c3" : "7"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00261"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#261"
  , "c1" : "void"
  , "c2" : "validateCleanupPolicyForUnwindowedChangelogs(ValidationResult;InternalTopicConfig;Config)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00276"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#276"
  , "c1" : "void"
  , "c2" : "validateCleanupPolicyForWindowedChangelogs(ValidationResult;InternalTopicConfig;Config)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00306"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#306"
  , "c1" : "void"
  , "c2" : "validateCleanupPolicyForRepartitionTopic(ValidationResult;InternalTopicConfig;Config)"
  , "c3" : "6"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00339"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#339"
  , "c1" : "String"
  , "c2" : "getBrokerSideConfigValue(Config;String;String)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00351"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#351"
  , "c1" : "Set<String>"
  , "c2" : "makeReady(Map<String,InternalTopicConfig>)"
  , "c3" : "14"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00474"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#474"
  , "c1" : "Map<String,Integer>"
  , "c2" : "getNumPartitions(Set<String>;Set<String>)"
  , "c3" : "6"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00518"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#518"
  , "c1" : "Set<String>"
  , "c2" : "validateTopics(Set<String>;Map<String,InternalTopicConfig>;Set<String>)"
  , "c3" : "7"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00553"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#553"
  , "c1" : "void"
  , "c2" : "setup(Map<String,InternalTopicConfig>)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00586"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#586"
  , "c1" : "void"
  , "c2" : "processCreateTopicResults(CreateTopicsResult;Set<String>;Set<String>;long)"
  , "c3" : "10"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00644"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#644"
  , "c1" : "void"
  , "c2" : "cleanUpCreatedTopics(Set<String>)"
  , "c3" : "13"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00715"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#715"
  , "c1" : "void"
  , "c2" : "maybeThrowTimeoutException(List<Set<String>>;long;String)"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00727"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#727"
  , "c1" : "void"
  , "c2" : "maybeThrowTimeoutExceptionDuringSetup(Set<String>;Set<String>;Map<String,Throwable>;long)"
  , "c3" : "3"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00745"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#745"
  , "c1" : "void"
  , "c2" : "maybeSleep(List<Set<String>>;long;String)"
  , "c3" : "2"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.internals.metrics.ClientMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#19"
  , "c1" : "ClientMetrics"
  , "c2" : "ClientMetrics()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#55"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#59"
  , "c1" : "String"
  , "c2" : "commitId()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#63"
  , "c1" : "void"
  , "c2" : "addVersionMetric(StreamsMetricsImpl)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#72"
  , "c1" : "void"
  , "c2" : "addCommitIdMetric(StreamsMetricsImpl)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#81"
  , "c1" : "void"
  , "c2" : "addApplicationIdMetric(StreamsMetricsImpl;String)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#90"
  , "c1" : "void"
  , "c2" : "addTopologyDescriptionMetric(StreamsMetricsImpl;Gauge<String>)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#100"
  , "c1" : "void"
  , "c2" : "addStateMetric(StreamsMetricsImpl;Gauge<State>)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#110"
  , "c1" : "void"
  , "c2" : "addNumAliveStreamThreadMetric(StreamsMetricsImpl;Gauge<Integer>)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
  , "c1" : "Sensor"
  , "c2" : "failedStreamThreadSensor(StreamsMetricsImpl)"
  , "c3" : "1"

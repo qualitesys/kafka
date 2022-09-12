@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.CreateDelegationTokenResult
 class org.apache.kafka.clients.admin.CreateDelegationTokenResult {
-+  CreateDelegationTokenResult(KafkaFuture<DelegationToken>)
-+  delegationToken()
+CreateDelegationTokenResult(KafkaFuture<DelegationToken>) : CreateDelegationTokenResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.html#14]]]
++ delegationToken() : KafkaFuture<DelegationToken> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.html#19]]]
 } 
 @enduml

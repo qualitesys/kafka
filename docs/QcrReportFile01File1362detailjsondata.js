@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.Replicas" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#17"
  , "c1" : "List<Integer>"
  , "c2" : "toList(int[])"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#27"
  , "c1" : "int[]"
  , "c2" : "toArray(List<Integer>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#37"
  , "c1" : "int[]"
  , "c2" : "clone(int[])"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#44"
  , "c1" : "boolean"
  , "c2" : "validate(int[])"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#59"
  , "c1" : "boolean"
  , "c2" : "validateIsr(int[];int[])"
  , "c3" : "9"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#83"
  , "c1" : "boolean"
  , "c2" : "contains(int[];int)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#91"
  , "c1" : "boolean"
  , "c2" : "contains(List<Integer>;int[])"
  , "c3" : "6"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#109"
  , "c1" : "int[]"
  , "c2" : "copyWithout(int[];int)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#128"
  , "c1" : "int[]"
  , "c2" : "copyWithout(int[];int[])"
  , "c3" : "5"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#147"
  , "c1" : "int[]"
  , "c2" : "copyWith(int[];int)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00155"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#155"
  , "c1" : "Set<Integer>"
  , "c2" : "toSet(int[])"
  , "c3" : "2"

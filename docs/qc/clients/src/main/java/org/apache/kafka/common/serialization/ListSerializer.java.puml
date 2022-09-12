@@ -2,12 +2,12 @@
 !pragma layout smetana
 Serializer_List_Inner__ <|-- org.apache.kafka.common.serialization.ListSerializer
 class org.apache.kafka.common.serialization.ListSerializer {
-+  ListSerializer()
-+  ListSerializer(Serializer<Inner>)
-+  getInnerSerializer()
-+  configure(Map<String,?>;boolean)
-+  serializeNullIndexList(DataOutputStream;List<Inner>)
-+  serialize(String;List<Inner>)
-+  close()
++ ListSerializer() : ListSerializer [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#37]]]
++ ListSerializer(Serializer<Inner>) : ListSerializer [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#39]]]
++ getInnerSerializer() : Serializer<Inner> [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#47]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#53]]]
+- serializeNullIndexList(DataOutputStream;List<Inner>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#78]]]
++ serialize(String;List<Inner>) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#93]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#128]]]
 } 
 @enduml

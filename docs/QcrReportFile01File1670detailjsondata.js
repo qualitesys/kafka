@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamTransformValues" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamTransformValues.java.html#21"
  , "c1" : "KStreamTransformValues"
  , "c2" : "KStreamTransformValues(ValueTransformerWithKeySupplier<KIn,VIn,VOut>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamTransformValues.java.html#26"
  , "c1" : "Processor<KIn,VIn,KIn,VOut>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamTransformValues.java.html#31"
  , "c1" : "Set<StoreBuilder<?>>"
  , "c2" : "stores()"
  , "c3" : "1"

@@ -2,11 +2,11 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.runtime.TransformationChain
 class org.apache.kafka.connect.runtime.TransformationChain {
-+  TransformationChain(List<Transformation<R>>;RetryWithToleranceOperator)
-+  apply(R)
-+  close()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ TransformationChain(List<Transformation<R>>;RetryWithToleranceOperator) : TransformationChain [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#21]]]
++ apply(R) : R [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#26]]]
++ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#44]]]
++ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#51]]]
++ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#59]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#63]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.RaftRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#13"
  , "c1" : "RaftRequest"
  , "c2" : "RaftRequest(int;ApiMessage;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#20"
  , "c1" : "int"
  , "c2" : "correlationId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#25"
  , "c1" : "ApiMessage"
  , "c2" : "data()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#29"
  , "c1" : "long"
  , "c2" : "createdTimeMs()"
  , "c3" : "1"

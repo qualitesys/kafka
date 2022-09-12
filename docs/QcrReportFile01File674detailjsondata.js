@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.FetchResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#40"
  , "c1" : "FetchResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#45"
  , "c1" : "FetchResponse"
  , "c2" : "FetchResponse(FetchResponseData)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#50"
  , "c1" : "Errors"
  , "c2" : "error()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#54"
  , "c1" : "LinkedHashMap<TopicPartition,FetchResponseData.PartitionData>"
  , "c2" : "responseData(Map<Uuid,String>;short)"
  , "c3" : "6"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#82"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#86"
  , "c1" : "int"
  , "c2" : "sessionId()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#91"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#101"
  , "c1" : "FetchResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#107"
  , "c1" : "Set<Uuid>"
  , "c2" : "topicIds()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#112"
  , "c1" : "int"
  , "c2" : "sizeOf(short;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#123"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#127"
  , "c1" : "Optional<FetchResponseData.EpochEndOffset>"
  , "c2" : "divergingEpoch(FetchResponseData.PartitionData)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#132"
  , "c1" : "boolean"
  , "c2" : "isDivergingEpoch(FetchResponseData.PartitionData)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#136"
  , "c1" : "Optional<Integer>"
  , "c2" : "preferredReadReplica(FetchResponseData.PartitionData)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#141"
  , "c1" : "boolean"
  , "c2" : "isPreferredReplica(FetchResponseData.PartitionData)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#145"
  , "c1" : "FetchResponseData.PartitionData"
  , "c2" : "partitionResponse(TopicIdPartition;Errors)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00149"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#149"
  , "c1" : "FetchResponseData.PartitionData"
  , "c2" : "partitionResponse(int;Errors)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#157"
  , "c1" : "Records"
  , "c2" : "recordsOrFail(FetchResponseData.PartitionData)"
  , "c3" : "3"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#165"
  , "c1" : "int"
  , "c2" : "recordsSize(FetchResponseData.PartitionData)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#170"
  , "c1" : "FetchResponse"
  , "c2" : "of(Errors;int;int;LinkedHashMap<TopicIdPartition,FetchResponseData.PartitionData>)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#177"
  , "c1" : "boolean"
  , "c2" : "matchingTopic(FetchResponseData.FetchableTopicResponse;TopicIdPartition)"
  , "c3" : "4"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00187"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#187"
  , "c1" : "FetchResponseData"
  , "c2" : "toMessage(Errors;int;int;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)"
  , "c3" : "4"

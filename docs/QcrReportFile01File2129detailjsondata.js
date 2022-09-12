@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.StringFormatter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#15"
  , "c1" : "String"
  , "c2" : "dateString(long;ZoneOffset)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#22"
  , "c1" : "String"
  , "c2" : "durationString(long)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43"
  , "c1" : "String"
  , "c2" : "prettyPrintGrid(List<List<String>>)"
  , "c3" : "10"

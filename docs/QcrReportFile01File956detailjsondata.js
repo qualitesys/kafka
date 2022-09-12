@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.errors.NotFoundException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00006"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#6"
  , "c1" : "NotFoundException"
  , "c2" : "NotFoundException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#10"
  , "c1" : "NotFoundException"
  , "c2" : "NotFoundException(String;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#14"
  , "c1" : "NotFoundException"
  , "c2" : "NotFoundException(Throwable)"
  , "c3" : "1"

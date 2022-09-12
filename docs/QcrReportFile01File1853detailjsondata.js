@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.RestoringTasks" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RestoringTasks.java.html#8"
  , "c1" : "StreamTask"
  , "c2" : "restoringTaskFor(TopicPartition)"
  , "c3" : "1"

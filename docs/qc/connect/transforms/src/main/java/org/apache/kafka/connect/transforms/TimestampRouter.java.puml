@@ -2,9 +2,9 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.TimestampRouter
 class org.apache.kafka.connect.transforms.TimestampRouter {
-+  configure(Map<String,?>)
-+  apply(R)
-+  close()
-+  config()
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#43]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#57]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#75]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#80]]]
 } 
 @enduml

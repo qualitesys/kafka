@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.ControlledShutdownRequest
 class org.apache.kafka.common.requests.ControlledShutdownRequest {
-+  ControlledShutdownRequest(ControlledShutdownRequestData;short)
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
-+  data()
+- ControlledShutdownRequest(ControlledShutdownRequestData;short) : ControlledShutdownRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownRequest.java.html#36]]]
++ getErrorResponse(int;Throwable) : ControlledShutdownResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownRequest.java.html#42]]]
++ parse(ByteBuffer;short) : ControlledShutdownRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownRequest.java.html#48]]]
++ data() : ControlledShutdownRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownRequest.java.html#54]]]
 } 
 @enduml

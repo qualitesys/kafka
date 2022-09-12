@@ -2,9 +2,9 @@
 !pragma layout smetana
 Grouped_K,V_ <|-- org.apache.kafka.streams.kstream.internals.GroupedInternal
 class org.apache.kafka.streams.kstream.internals.GroupedInternal {
-+  GroupedInternal(Grouped<K,V>)
-+  keySerde()
-+  valueSerde()
-+  name()
++ GroupedInternal(Grouped<K,V>) : GroupedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedInternal.java.html#10]]]
++ keySerde() : Serde<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedInternal.java.html#14]]]
++ valueSerde() : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedInternal.java.html#18]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedInternal.java.html#22]]]
 } 
 @enduml

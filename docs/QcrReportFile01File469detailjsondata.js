@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.internals.MetricsUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#12"
  , "c1" : "double"
  , "c2" : "convert(long;TimeUnit)"
  , "c3" : "8"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#34"
  , "c1" : "Map<String,String>"
  , "c2" : "getTags(String...)"
  , "c3" : "3"

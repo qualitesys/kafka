@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.SnapshotPath" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#13"
  , "c1" : "SnapshotPath"
  , "c2" : "SnapshotPath(Path;OffsetAndEpoch;boolean;boolean)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#21"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

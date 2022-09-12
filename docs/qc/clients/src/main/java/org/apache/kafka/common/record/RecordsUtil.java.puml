@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.record.RecordsUtil
 class org.apache.kafka.common.record.RecordsUtil {
-+  downConvert(Iterable<?extendsRecordBatch>;byte;long;Time)
-+  convertRecordBatch(byte;ByteBuffer;RecordBatchAndRecords)
+downConvert(Iterable<?extendsRecordBatch>;byte;long;Time) : ConvertedRecords<MemoryRecords> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#14]]]
+- convertRecordBatch(byte;ByteBuffer;RecordBatchAndRecords) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#77]]]
 } 
 @enduml

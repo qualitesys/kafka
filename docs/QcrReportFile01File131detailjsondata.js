@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#12"
  , "c1" : "RenewDelegationTokenOptions"
  , "c2" : "renewTimePeriodMs(long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#17"
  , "c1" : "long"
  , "c2" : "renewTimePeriodMs()"
  , "c3" : "1"

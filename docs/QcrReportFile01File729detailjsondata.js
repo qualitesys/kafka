@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.UnregisterBrokerRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#30"
  , "c1" : "UnregisterBrokerRequest"
  , "c2" : "UnregisterBrokerRequest(UnregisterBrokerRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#36"
  , "c1" : "UnregisterBrokerRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#41"
  , "c1" : "UnregisterBrokerResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerRequest.java.html#48"
  , "c1" : "UnregisterBrokerRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

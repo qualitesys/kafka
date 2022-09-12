@@ -2,9 +2,9 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.UnknownMemberIdException
 class org.apache.kafka.common.errors.UnknownMemberIdException {
-+  UnknownMemberIdException()
-+  UnknownMemberIdException(String;Throwable)
-+  UnknownMemberIdException(String)
-+  UnknownMemberIdException(Throwable)
++ UnknownMemberIdException() : UnknownMemberIdException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#7]]]
++ UnknownMemberIdException(String;Throwable) : UnknownMemberIdException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#11]]]
++ UnknownMemberIdException(String) : UnknownMemberIdException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#15]]]
++ UnknownMemberIdException(Throwable) : UnknownMemberIdException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#19]]]
 } 
 @enduml

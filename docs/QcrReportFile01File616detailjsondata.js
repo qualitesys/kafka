@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.BeginQuorumEpochResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#20"
  , "c1" : "BeginQuorumEpochResponse"
  , "c2" : "BeginQuorumEpochResponse(BeginQuorumEpochResponseData)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#25"
  , "c1" : "BeginQuorumEpochResponseData"
  , "c2" : "singletonResponse(Errors;TopicPartition;Errors;int;int)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#47"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#62"
  , "c1" : "BeginQuorumEpochResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#67"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#71"
  , "c1" : "BeginQuorumEpochResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

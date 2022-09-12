@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.ChannelState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#31"
  , "c1" : "ChannelState"
  , "c2" : "ChannelState(State)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#35"
  , "c1" : "ChannelState"
  , "c2" : "ChannelState(State;String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#39"
  , "c1" : "ChannelState"
  , "c2" : "ChannelState(State;AuthenticationException;String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#45"
  , "c1" : "State"
  , "c2" : "state()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#49"
  , "c1" : "AuthenticationException"
  , "c2" : "exception()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#53"
  , "c1" : "String"
  , "c2" : "remoteAddress()"
  , "c3" : "1"

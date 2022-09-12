@@ -2,8 +2,8 @@
 !pragma layout smetana
 ConnectRestExtensionContext <|-- org.apache.kafka.connect.runtime.rest.ConnectRestExtensionContextImpl
 class org.apache.kafka.connect.runtime.rest.ConnectRestExtensionContextImpl {
-+  ConnectRestExtensionContextImpl(Configurable<?extendsConfigurable<?>>;ConnectClusterState)
-+  configurable()
-+  clusterState()
++ ConnectRestExtensionContextImpl(Configurable<?extendsConfigurable<?>>;ConnectClusterState) : ConnectRestExtensionContextImpl [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.html#15]]]
++ configurable() : Configurable<?extendsConfigurable<?>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.html#24]]]
++ clusterState() : ConnectClusterState [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.html#29]]]
 } 
 @enduml

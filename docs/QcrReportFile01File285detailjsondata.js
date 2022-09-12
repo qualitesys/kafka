@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.cache.LRUCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#11"
  , "c1" : "LRUCache"
  , "c2" : "LRUCache(int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#21"
  , "c1" : "V"
  , "c2" : "get(K)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#26"
  , "c1" : "void"
  , "c2" : "put(K;V)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#31"
  , "c1" : "boolean"
  , "c2" : "remove(K)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#36"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"

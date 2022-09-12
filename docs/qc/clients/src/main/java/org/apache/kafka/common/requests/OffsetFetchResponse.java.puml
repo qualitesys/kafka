@@ -2,23 +2,23 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.OffsetFetchResponse
 class org.apache.kafka.common.requests.OffsetFetchResponse {
-+  OffsetFetchResponse(OffsetFetchResponseData)
-+  OffsetFetchResponse(Errors;Map<TopicPartition,PartitionData>)
-+  OffsetFetchResponse(int;Errors;Map<TopicPartition,PartitionData>)
-+  OffsetFetchResponse(int;Map<String,Errors>;Map<String,Map<TopicPartition,PartitionData>>)
-+  OffsetFetchResponse(OffsetFetchResponseData;short)
-+  topLevelError(OffsetFetchResponseData)
-+  throttleTimeMs()
-+  hasError()
-+  groupHasError(String)
-+  error()
-+  groupLevelError(String)
-+  errorCounts()
-+  responseDataV0ToV7()
-+  buildResponseData(String)
-+  partitionDataMap(String)
-+  parse(ByteBuffer;short)
-+  data()
-+  shouldClientThrottle(short)
++ OffsetFetchResponse(OffsetFetchResponseData) : OffsetFetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#94]]]
++ OffsetFetchResponse(Errors;Map<TopicPartition,PartitionData>) : OffsetFetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#101]]]
++ OffsetFetchResponse(int;Errors;Map<TopicPartition,PartitionData>) : OffsetFetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#106]]]
++ OffsetFetchResponse(int;Map<String,Errors>;Map<String,Map<TopicPartition,PartitionData>>) : OffsetFetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#133]]]
++ OffsetFetchResponse(OffsetFetchResponseData;short) : OffsetFetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#169]]]
+- topLevelError(OffsetFetchResponseData) : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#189]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#202]]]
++ hasError() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#206]]]
++ groupHasError(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#210]]]
++ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#214]]]
++ groupLevelError(String) : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#218]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#226]]]
+responseDataV0ToV7() : Map<TopicPartition,PartitionData> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#249]]]
+- buildResponseData(String) : Map<TopicPartition,PartitionData> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#264]]]
++ partitionDataMap(String) : Map<TopicPartition,PartitionData> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#285]]]
++ parse(ByteBuffer;short) : OffsetFetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#292]]]
++ data() : OffsetFetchResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#297]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#302]]]
 } 
 @enduml

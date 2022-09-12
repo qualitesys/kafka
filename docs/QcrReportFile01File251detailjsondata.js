@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.TxnPartitionMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#18"
  , "c1" : "TxnPartitionEntry"
  , "c2" : "get(TopicPartition)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#27"
  , "c1" : "TxnPartitionEntry"
  , "c2" : "getOrCreate(TopicPartition)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#31"
  , "c1" : "boolean"
  , "c2" : "contains(TopicPartition)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#35"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#39"
  , "c1" : "OptionalLong"
  , "c2" : "lastAckedOffset(TopicPartition)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#48"
  , "c1" : "OptionalInt"
  , "c2" : "lastAckedSequence(TopicPartition)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#57"
  , "c1" : "void"
  , "c2" : "startSequencesAtBeginning(TopicPartition;ProducerIdAndEpoch)"
  , "c3" : "1"

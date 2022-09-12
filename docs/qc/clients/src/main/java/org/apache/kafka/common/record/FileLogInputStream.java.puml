@@ -2,7 +2,7 @@
 !pragma layout smetana
 LogInputStream_FileLogInputStream.FileChannelRecordBatch_ <|-- org.apache.kafka.common.record.FileLogInputStream
 class org.apache.kafka.common.record.FileLogInputStream {
-+  FileLogInputStream(FileRecords;int;int)
-+  nextBatch()
+FileLogInputStream(FileRecords;int;int) : FileLogInputStream [[[././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#32]]]
++ nextBatch() : FileChannelRecordBatch [[[././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#41]]]
 } 
 @enduml

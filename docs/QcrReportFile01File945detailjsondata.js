@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.SchemaAndValue" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#12"
  , "c1" : "SchemaAndValue"
  , "c2" : "SchemaAndValue(Schema;Object)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#17"
  , "c1" : "Schema"
  , "c2" : "schema()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#21"
  , "c1" : "Object"
  , "c2" : "value()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#26"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#35"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#40"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

@@ -2,24 +2,24 @@
 !pragma layout smetana
 java.lang.Object <|-- kafka.server.builders.LogManagerBuilder
 class kafka.server.builders.LogManagerBuilder {
-+  setLogDirs(List<File>)
-+  setInitialOfflineDirs(List<File>)
-+  setConfigRepository(ConfigRepository)
-+  setInitialDefaultConfig(LogConfig)
-+  setCleanerConfig(CleanerConfig)
-+  setRecoveryThreadsPerDataDir(int)
-+  setFlushCheckMs(long)
-+  setFlushRecoveryOffsetCheckpointMs(long)
-+  setFlushStartOffsetCheckpointMs(long)
-+  setRetentionCheckMs(long)
-+  setMaxTransactionTimeoutMs(int)
-+  setMaxPidExpirationMs(int)
-+  setInterBrokerProtocolVersion(MetadataVersion)
-+  setScheduler(Scheduler)
-+  setBrokerTopicStats(BrokerTopicStats)
-+  setLogDirFailureChannel(LogDirFailureChannel)
-+  setTime(Time)
-+  setKeepPartitionMetadataFile(boolean)
-+  build()
++ setLogDirs(List<File>) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#41]]]
++ setInitialOfflineDirs(List<File>) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#46]]]
++ setConfigRepository(ConfigRepository) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#51]]]
++ setInitialDefaultConfig(LogConfig) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#56]]]
++ setCleanerConfig(CleanerConfig) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#61]]]
++ setRecoveryThreadsPerDataDir(int) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#66]]]
++ setFlushCheckMs(long) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#71]]]
++ setFlushRecoveryOffsetCheckpointMs(long) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#76]]]
++ setFlushStartOffsetCheckpointMs(long) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#81]]]
++ setRetentionCheckMs(long) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#86]]]
++ setMaxTransactionTimeoutMs(int) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#91]]]
++ setMaxPidExpirationMs(int) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#96]]]
++ setInterBrokerProtocolVersion(MetadataVersion) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#101]]]
++ setScheduler(Scheduler) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#106]]]
++ setBrokerTopicStats(BrokerTopicStats) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#111]]]
++ setLogDirFailureChannel(LogDirFailureChannel) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#116]]]
++ setTime(Time) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#121]]]
++ setKeepPartitionMetadataFile(boolean) : LogManagerBuilder [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#126]]]
++ build() : LogManager [[[././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#131]]]
 } 
 @enduml

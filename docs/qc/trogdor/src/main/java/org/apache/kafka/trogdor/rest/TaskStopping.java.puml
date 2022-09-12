@@ -2,8 +2,8 @@
 !pragma layout smetana
 TaskState <|-- org.apache.kafka.trogdor.rest.TaskStopping
 class org.apache.kafka.trogdor.rest.TaskStopping {
-+  TaskStopping(TaskSpec;long;JsonNode)
-+  startedMs()
-+  stateType()
++ TaskStopping(TaskSpec;long;JsonNode) : TaskStopping [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskStopping.java.html#16]]]
++ startedMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskStopping.java.html#24]]]
++ stateType() : TaskStateType [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskStopping.java.html#29]]]
 } 
 @enduml

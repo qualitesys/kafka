@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.BatchMemoryPool" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#20"
  , "c1" : "BatchMemoryPool"
  , "c2" : "BatchMemoryPool(int;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#28"
  , "c1" : "ByteBuffer"
  , "c2" : "tryAllocate(int)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48"
  , "c1" : "void"
  , "c2" : "release(ByteBuffer)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#65"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#75"
  , "c1" : "long"
  , "c2" : "availableMemory()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#86"
  , "c1" : "boolean"
  , "c2" : "isOutOfMemory()"
  , "c3" : "1"

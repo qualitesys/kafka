@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.RecordConverters" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RecordConverters.java.html#35"
  , "c1" : "RecordConverters"
  , "c2" : "RecordConverters()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RecordConverters.java.html#37"
  , "c1" : "RecordConverter"
  , "c2" : "rawValueToTimestampedValue()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RecordConverters.java.html#41"
  , "c1" : "RecordConverter"
  , "c2" : "identity()"
  , "c3" : "1"

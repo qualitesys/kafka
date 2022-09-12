@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.TopicCollection" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#11"
  , "c1" : "TopicCollection"
  , "c2" : "TopicCollection()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#14"
  , "c1" : "TopicIdCollection"
  , "c2" : "ofTopicIds(Collection<Uuid>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#19"
  , "c1" : "TopicNameCollection"
  , "c2" : "ofTopicNames(Collection<String>)"
  , "c3" : "1"

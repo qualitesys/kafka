@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.feature.SupportedVersionRange" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#14"
  , "c1" : "SupportedVersionRange"
  , "c2" : "SupportedVersionRange(short;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#18"
  , "c1" : "SupportedVersionRange"
  , "c2" : "SupportedVersionRange(short)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#22"
  , "c1" : "SupportedVersionRange"
  , "c2" : "fromMap(Map<String,Short>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#29"
  , "c1" : "boolean"
  , "c2" : "isIncompatibleWith(short)"
  , "c3" : "1"

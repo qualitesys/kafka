@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter
 class org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter {
-+  SourceTaskOffsetCommitter(WorkerConfig;ScheduledExecutorService;ConcurrentMap<ConnectorTaskId,ScheduledFuture<?>>)
-+  SourceTaskOffsetCommitter(WorkerConfig)
-+  close(long)
-+  schedule(ConnectorTaskId;WorkerSourceTask)
-+  remove(ConnectorTaskId)
-+  commit(WorkerSourceTask)
+SourceTaskOffsetCommitter(WorkerConfig;ScheduledExecutorService;ConcurrentMap<ConnectorTaskId,ScheduledFuture<?>>) : SourceTaskOffsetCommitter [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#29]]]
++ SourceTaskOffsetCommitter(WorkerConfig) : SourceTaskOffsetCommitter [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#37]]]
++ close(long) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#43]]]
++ schedule(ConnectorTaskId;WorkerSourceTask) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#54]]]
++ remove(ConnectorTaskId) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#64]]]
+- commit(WorkerSourceTask) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#81]]]
 } 
 @enduml

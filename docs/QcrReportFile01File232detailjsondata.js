@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.BufferPool" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#38"
  , "c1" : "BufferPool"
  , "c2" : "BufferPool(long;int;Metrics;Time;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#69"
  , "c1" : "ByteBuffer"
  , "c2" : "allocate(int;long)"
  , "c3" : "14"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#172"
  , "c1" : "void"
  , "c2" : "recordWaitTime(long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#177"
  , "c1" : "ByteBuffer"
  , "c2" : "safeAllocateByteBuffer(int)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#198"
  , "c1" : "ByteBuffer"
  , "c2" : "allocateByteBuffer(int)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#203"
  , "c1" : "void"
  , "c2" : "freeUp(int)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#209"
  , "c1" : "void"
  , "c2" : "deallocate(ByteBuffer;int)"
  , "c3" : "4"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#226"
  , "c1" : "void"
  , "c2" : "deallocate(ByteBuffer)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00232"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#232"
  , "c1" : "long"
  , "c2" : "availableMemory()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00242"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#242"
  , "c1" : "int"
  , "c2" : "freeSize()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#247"
  , "c1" : "long"
  , "c2" : "unallocatedMemory()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00257"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#257"
  , "c1" : "int"
  , "c2" : "queued()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00267"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#267"
  , "c1" : "int"
  , "c2" : "poolableSize()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00272"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#272"
  , "c1" : "long"
  , "c2" : "totalMemory()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00277"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#277"
  , "c1" : "Deque<Condition>"
  , "c2" : "waiters()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00282"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#282"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"

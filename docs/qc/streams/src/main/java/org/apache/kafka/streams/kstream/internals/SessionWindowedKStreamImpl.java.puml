@@ -2,18 +2,18 @@
 !pragma layout smetana
 AbstractStream_K,V_SessionWindowedKStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.SessionWindowedKStreamImpl
 class org.apache.kafka.streams.kstream.internals.SessionWindowedKStreamImpl {
-+  SessionWindowedKStreamImpl(SessionWindows;InternalStreamsBuilder;Set<String>;String;Serde<K>;Serde<V>;GroupedStreamAggregateBuilder<K,V>;GraphNode)
-+  count()
-+  count(Named)
-+  count(Materialized<K,Long,SessionStore<Bytes,byte[]>>)
-+  count(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)
-+  emitStrategy(EmitStrategy)
-+  doCount(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>)
-+  reduce(Reducer<V>)
-+  reduce(Reducer<V>;Named)
-+  reduce(Reducer<V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)
-+  reduce(Reducer<V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)
-+  mergerForAggregator(Aggregator<K,V,V>)
-+  aggregatorForReducer(Reducer<V>)
+SessionWindowedKStreamImpl(SessionWindows;InternalStreamsBuilder;Set<String>;String;Serde<K>;Serde<V>;GroupedStreamAggregateBuilder<K,V>;GraphNode) : SessionWindowedKStreamImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#40]]]
++ count() : KTable<Windowed<K>,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#55]]]
++ count(Named) : KTable<Windowed<K>,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#60]]]
++ count(Materialized<K,Long,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#65]]]
++ count(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#70]]]
++ emitStrategy(EmitStrategy) : SessionWindowedKStream<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#83]]]
+- doCount(Named;Materialized<K,Long,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#88]]]
++ reduce(Reducer<V>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#117]]]
++ reduce(Reducer<V>;Named) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#122]]]
++ reduce(Reducer<V>;Materialized<K,V,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#127]]]
++ reduce(Reducer<V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#133]]]
+- mergerForAggregator(Aggregator<K,V,V>) : Merger<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#281]]]
+- aggregatorForReducer(Reducer<V>) : Aggregator<K,V,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#285]]]
 } 
 @enduml

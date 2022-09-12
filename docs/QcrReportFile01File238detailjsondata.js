@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.KafkaProducerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#34"
  , "c1" : "KafkaProducerMetrics"
  , "c2" : "KafkaProducerMetrics(Metrics)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#68"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#78"
  , "c1" : "void"
  , "c2" : "recordFlush(long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#82"
  , "c1" : "void"
  , "c2" : "recordInit(long)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#86"
  , "c1" : "void"
  , "c2" : "recordBeginTxn(long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#90"
  , "c1" : "void"
  , "c2" : "recordSendOffsets(long)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#94"
  , "c1" : "void"
  , "c2" : "recordCommitTxn(long)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#98"
  , "c1" : "void"
  , "c2" : "recordAbortTxn(long)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#102"
  , "c1" : "void"
  , "c2" : "recordMetadataWait(long)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#106"
  , "c1" : "Sensor"
  , "c2" : "newLatencySensor(String;String)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#112"
  , "c1" : "MetricName"
  , "c2" : "metricName(String;String)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#116"
  , "c1" : "void"
  , "c2" : "removeMetric(String)"
  , "c3" : "1"

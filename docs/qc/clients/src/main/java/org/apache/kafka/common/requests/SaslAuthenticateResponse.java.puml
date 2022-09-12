@@ -2,14 +2,14 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.SaslAuthenticateResponse
 class org.apache.kafka.common.requests.SaslAuthenticateResponse {
-+  SaslAuthenticateResponse(SaslAuthenticateResponseData)
-+  error()
-+  errorCounts()
-+  errorMessage()
-+  sessionLifetimeMs()
-+  saslAuthBytes()
-+  throttleTimeMs()
-+  data()
-+  parse(ByteBuffer;short)
++ SaslAuthenticateResponse(SaslAuthenticateResponseData) : SaslAuthenticateResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#17]]]
++ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#23]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#28]]]
++ errorMessage() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#32]]]
++ sessionLifetimeMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#36]]]
++ saslAuthBytes() : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#40]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#45]]]
++ data() : SaslAuthenticateResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#50]]]
++ parse(ByteBuffer;short) : SaslAuthenticateResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#54]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.FlattenedIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#13"
  , "c1" : "FlattenedIterator"
  , "c2" : "FlattenedIterator(Iterator<O>;Function<O,Iterator<I>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#19"
  , "c1" : "I"
  , "c2" : "makeNext()"
  , "c3" : "4"

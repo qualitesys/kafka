@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.TransactionManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00182"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#182"
  , "c1" : "TransactionManager"
  , "c2" : "TransactionManager(LogContext;String;int;long;ApiVersions)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00205"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#205"
  , "c1" : "TransactionalRequestResult"
  , "c2" : "initializeTransactions()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#209"
  , "c1" : "TransactionalRequestResult"
  , "c2" : "initializeTransactions(ProducerIdAndEpoch)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00233"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#233"
  , "c1" : "void"
  , "c2" : "beginTransaction()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00240"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#240"
  , "c1" : "TransactionalRequestResult"
  , "c2" : "beginCommit()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00248"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#248"
  , "c1" : "TransactionalRequestResult"
  , "c2" : "beginAbort()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00260"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#260"
  , "c1" : "TransactionalRequestResult"
  , "c2" : "beginCompletingTransaction(TransactionResult)"
  , "c3" : "4"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#285"
  , "c1" : "TransactionalRequestResult"
  , "c2" : "sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00310"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
  , "c1" : "void"
  , "c2" : "maybeAddPartition(TopicPartition)"
  , "c3" : "8"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00331"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#331"
  , "c1" : "RuntimeException"
  , "c2" : "lastError()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00335"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#335"
  , "c1" : "boolean"
  , "c2" : "isSendToPartitionAllowed(TopicPartition)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00341"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#341"
  , "c1" : "String"
  , "c2" : "transactionalId()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00345"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#345"
  , "c1" : "boolean"
  , "c2" : "hasProducerId()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00349"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#349"
  , "c1" : "boolean"
  , "c2" : "isTransactional()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00353"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#353"
  , "c1" : "boolean"
  , "c2" : "hasPartitionsToAdd()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00357"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#357"
  , "c1" : "boolean"
  , "c2" : "isCompleting()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00361"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#361"
  , "c1" : "boolean"
  , "c2" : "hasError()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00365"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#365"
  , "c1" : "boolean"
  , "c2" : "isAborting()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00369"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#369"
  , "c1" : "void"
  , "c2" : "transitionToAbortableError(RuntimeException)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00380"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#380"
  , "c1" : "void"
  , "c2" : "transitionToFatalError(RuntimeException)"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00390"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#390"
  , "c1" : "boolean"
  , "c2" : "isPartitionAdded(TopicPartition)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00395"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#395"
  , "c1" : "boolean"
  , "c2" : "isPartitionPendingAdd(TopicPartition)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00400"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#400"
  , "c1" : "ProducerIdAndEpoch"
  , "c2" : "producerIdAndEpoch()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00404"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#404"
  , "c1" : "void"
  , "c2" : "maybeUpdateProducerIdAndEpoch(TopicPartition)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00415"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#415"
  , "c1" : "void"
  , "c2" : "setProducerIdAndEpoch(ProducerIdAndEpoch)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00421"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#421"
  , "c1" : "void"
  , "c2" : "resetIdempotentProducerId()"
  , "c3" : "2"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00430"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#430"
  , "c1" : "void"
  , "c2" : "resetSequenceForPartition(TopicPartition)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00435"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#435"
  , "c1" : "void"
  , "c2" : "resetSequenceNumbers()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00440"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#440"
  , "c1" : "void"
  , "c2" : "requestEpochBumpForPartition(TopicPartition)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00445"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#445"
  , "c1" : "void"
  , "c2" : "bumpIdempotentProducerEpoch()"
  , "c3" : "4"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00463"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#463"
  , "c1" : "void"
  , "c2" : "bumpIdempotentEpochAndResetIdIfNeeded()"
  , "c3" : "4"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00480"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#480"
  , "c1" : "Integer"
  , "c2" : "sequenceNumber(TopicPartition)"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00485"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#485"
  , "c1" : "ProducerIdAndEpoch"
  , "c2" : "producerIdAndEpoch(TopicPartition)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00489"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#489"
  , "c1" : "void"
  , "c2" : "incrementSequenceNumber(TopicPartition;int)"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00496"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#496"
  , "c1" : "void"
  , "c2" : "addInFlightBatch(ProducerBatch)"
  , "c3" : "2"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00503"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#503"
  , "c1" : "int"
  , "c2" : "firstInFlightSequence(TopicPartition)"
  , "c3" : "4"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00514"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#514"
  , "c1" : "ProducerBatch"
  , "c2" : "nextBatchBySequence(TopicPartition)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00519"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#519"
  , "c1" : "void"
  , "c2" : "removeInFlightBatch(ProducerBatch)"
  , "c3" : "2"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00525"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#525"
  , "c1" : "int"
  , "c2" : "maybeUpdateLastAckedSequence(TopicPartition;int)"
  , "c3" : "2"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00535"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#535"
  , "c1" : "OptionalInt"
  , "c2" : "lastAckedSequence(TopicPartition)"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00539"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#539"
  , "c1" : "OptionalLong"
  , "c2" : "lastAckedOffset(TopicPartition)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00543"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#543"
  , "c1" : "void"
  , "c2" : "updateLastAckedOffset(ProduceResponse.PartitionResponse;ProducerBatch)"
  , "c3" : "5"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00561"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#561"
  , "c1" : "void"
  , "c2" : "handleCompletedBatch(ProducerBatch;ProduceResponse.PartitionResponse)"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00572"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#572"
  , "c1" : "void"
  , "c2" : "maybeTransitionToErrorState(RuntimeException)"
  , "c3" : "5"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00586"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#586"
  , "c1" : "void"
  , "c2" : "handleFailedBatch(ProducerBatch;RuntimeException;boolean)"
  , "c3" : "9"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00627"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#627"
  , "c1" : "void"
  , "c2" : "adjustSequencesDueToFailedBatch(ProducerBatch)"
  , "c3" : "5"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00654"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#654"
  , "c1" : "boolean"
  , "c2" : "hasInflightBatches(TopicPartition)"
  , "c3" : "1"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00658"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#658"
  , "c1" : "boolean"
  , "c2" : "hasStaleProducerIdAndEpoch(TopicPartition)"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00662"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#662"
  , "c1" : "boolean"
  , "c2" : "hasUnresolvedSequences()"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00666"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#666"
  , "c1" : "boolean"
  , "c2" : "hasUnresolvedSequence(TopicPartition)"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00670"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#670"
  , "c1" : "void"
  , "c2" : "markSequenceUnresolved(ProducerBatch)"
  , "c3" : "1"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00680"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#680"
  , "c1" : "void"
  , "c2" : "maybeResolveSequences()"
  , "c3" : "9"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00719"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#719"
  , "c1" : "boolean"
  , "c2" : "isNextSequence(TopicPartition;int)"
  , "c3" : "1"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00723"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#723"
  , "c1" : "void"
  , "c2" : "setNextSequence(TopicPartition;int)"
  , "c3" : "1"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00727"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#727"
  , "c1" : "boolean"
  , "c2" : "isNextSequenceForUnresolvedPartition(TopicPartition;int)"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00732"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#732"
  , "c1" : "TxnRequestHandler"
  , "c2" : "nextRequest(boolean)"
  , "c3" : "8"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00767"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#767"
  , "c1" : "void"
  , "c2" : "retry(TxnRequestHandler)"
  , "c3" : "1"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00772"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#772"
  , "c1" : "void"
  , "c2" : "authenticationFailed(AuthenticationException)"
  , "c3" : "2"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00777"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#777"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -431,6 +549,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00786"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#786"
  , "c1" : "Node"
  , "c2" : "coordinator(FindCoordinatorRequest.CoordinatorType)"
  , "c3" : "3"
@@ -438,6 +558,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00797"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#797"
  , "c1" : "void"
  , "c2" : "lookupCoordinator(TxnRequestHandler)"
  , "c3" : "1"
@@ -445,6 +567,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00801"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#801"
  , "c1" : "void"
  , "c2" : "setInFlightCorrelationId(int)"
  , "c3" : "1"
@@ -452,6 +576,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00805"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#805"
  , "c1" : "void"
  , "c2" : "clearInFlightCorrelationId()"
  , "c3" : "1"
@@ -459,6 +585,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00809"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#809"
  , "c1" : "boolean"
  , "c2" : "hasInFlightRequest()"
  , "c3" : "1"
@@ -466,6 +594,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00814"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#814"
  , "c1" : "boolean"
  , "c2" : "hasFatalError()"
  , "c3" : "1"
@@ -473,6 +603,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00819"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#819"
  , "c1" : "boolean"
  , "c2" : "hasAbortableError()"
  , "c3" : "1"
@@ -480,6 +612,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00824"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#824"
  , "c1" : "boolean"
  , "c2" : "transactionContainsPartition(TopicPartition)"
  , "c3" : "1"
@@ -487,6 +621,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#829"
  , "c1" : "boolean"
  , "c2" : "hasPendingOffsetCommits()"
  , "c3" : "1"
@@ -494,6 +630,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00833"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#833"
  , "c1" : "boolean"
  , "c2" : "hasPendingRequests()"
  , "c3" : "1"
@@ -501,6 +639,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00838"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#838"
  , "c1" : "boolean"
  , "c2" : "hasOngoingTransaction()"
  , "c3" : "1"
@@ -508,6 +648,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00843"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#843"
  , "c1" : "boolean"
  , "c2" : "canRetry(ProduceResponse.PartitionResponse;ProducerBatch)"
  , "c3" : "15"
@@ -515,6 +657,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00913"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#913"
  , "c1" : "boolean"
  , "c2" : "isReady()"
  , "c3" : "1"
@@ -522,6 +666,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00917"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#917"
  , "c1" : "void"
  , "c2" : "handleCoordinatorReady()"
  , "c3" : "1"
@@ -529,6 +675,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00928"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#928"
  , "c1" : "void"
  , "c2" : "transitionTo(State)"
  , "c3" : "1"
@@ -536,6 +684,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00932"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#932"
  , "c1" : "void"
  , "c2" : "transitionTo(State;RuntimeException)"
  , "c3" : "7"
@@ -543,6 +693,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00955"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#955"
  , "c1" : "void"
  , "c2" : "ensureTransactional()"
  , "c3" : "2"
@@ -550,6 +702,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00960"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#960"
  , "c1" : "void"
  , "c2" : "maybeFailWithError()"
  , "c3" : "6"
@@ -557,6 +711,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00977"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#977"
  , "c1" : "boolean"
  , "c2" : "maybeTerminateRequestWithError(TxnRequestHandler)"
  , "c3" : "3"
@@ -564,6 +720,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00989"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#989"
  , "c1" : "void"
  , "c2" : "enqueueRequest(TxnRequestHandler)"
  , "c3" : "1"
@@ -571,6 +729,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00994"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#994"
  , "c1" : "void"
  , "c2" : "lookupCoordinator(FindCoordinatorRequest.CoordinatorType;String)"
  , "c3" : "3"
@@ -578,6 +738,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1013"
  , "c1" : "TxnRequestHandler"
  , "c2" : "addPartitionsToTransactionHandler()"
  , "c3" : "1"
@@ -585,6 +747,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1024"
  , "c1" : "TxnOffsetCommitHandler"
  , "c2" : "txnOffsetCommitHandler(TransactionalRequestResult;Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)"
  , "c3" : "2"
@@ -592,6 +756,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1047"
  , "c1" : "void"
  , "c2" : "throwIfPendingState(String)"
  , "c3" : "4"
@@ -599,6 +765,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1059"
  , "c1" : "TransactionalRequestResult"
  , "c2" : "handleCachedTransactionRequestResult(Supplier<TransactionalRequestResult>;State;String)"
  , "c3" : "6"
@@ -606,6 +774,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1084"
  , "c1" : "boolean"
  , "c2" : "canBumpEpoch()"
  , "c3" : "2"
@@ -613,6 +783,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1092"
  , "c1" : "void"
  , "c2" : "completeTransaction()"
  , "c3" : "3"
@@ -620,6 +792,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01640"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1640"
  , "c1" : "boolean"
  , "c2" : "isFatalException(Errors)"
  , "c3" : "1"

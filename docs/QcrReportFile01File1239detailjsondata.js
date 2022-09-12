@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.examples.Consumer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Consumer.java.html#24"
  , "c1" : "Consumer"
  , "c2" : "Consumer(String;String;Optional<String>;boolean;int;CountDownLatch)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Consumer.java.html#53"
  , "c1" : "KafkaConsumer<Integer,String>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Consumer.java.html#58"
  , "c1" : "void"
  , "c2" : "doWork()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Consumer.java.html#72"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Consumer.java.html#77"
  , "c1" : "boolean"
  , "c2" : "isInterruptible()"
  , "c3" : "1"

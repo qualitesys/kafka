@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ClientUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#52"
  , "c1" : "String"
  , "c2" : "getSharedAdminClientId(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#56"
  , "c1" : "String"
  , "c2" : "getConsumerClientId(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#60"
  , "c1" : "String"
  , "c2" : "getRestoreConsumerClientId(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#64"
  , "c1" : "String"
  , "c2" : "getThreadProducerClientId(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#68"
  , "c1" : "String"
  , "c2" : "getTaskProducerClientId(String;TaskId)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#72"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "consumerMetrics(Consumer<byte[],byte[]>;Consumer<byte[],byte[]>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#82"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "adminClientMetrics(Admin)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "producerMetrics(Collection<StreamsProducer>)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#99"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "fetchCommittedOffsets(Set<TopicPartition>;Consumer<byte[],byte[]>)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#121"
  , "c1" : "KafkaFuture<Map<TopicPartition,ListOffsetsResultInfo>>"
  , "c2" : "fetchEndOffsetsFuture(Collection<TopicPartition>;Admin)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#129"
  , "c1" : "Map<TopicPartition,ListOffsetsResultInfo>"
  , "c2" : "getEndOffsets(KafkaFuture<Map<TopicPartition,ListOffsetsResultInfo>>)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#139"
  , "c1" : "Map<TopicPartition,ListOffsetsResultInfo>"
  , "c2" : "fetchEndOffsets(Collection<TopicPartition>;Admin)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#147"
  , "c1" : "String"
  , "c2" : "extractThreadId(String)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#152"
  , "c1" : "long"
  , "c2" : "producerRecordSizeInBytes(ProducerRecord<byte[],byte[]>)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00161"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#161"
  , "c1" : "long"
  , "c2" : "consumerRecordSizeInBytes(ConsumerRecord<byte[],byte[]>)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
  , "c1" : "long"
  , "c2" : "recordSizeInBytes(long;long;String;Headers)"
  , "c3" : "4"

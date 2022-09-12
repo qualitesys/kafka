@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.common.serialization.BytesApiMessageSerde
 class org.apache.kafka.server.common.serialization.BytesApiMessageSerde {
-+  serialize(ApiMessageAndVersion)
-+  deserialize(byte[])
-+  apiMessageFor(short)
++ serialize(ApiMessageAndVersion) : byte[] [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#22]]]
++ deserialize(byte[]) : ApiMessageAndVersion [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#31]]]
++ apiMessageFor(short) : ApiMessage [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#38]]]
 } 
 @enduml

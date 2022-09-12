@@ -2,28 +2,28 @@
 !pragma layout smetana
 Schema <|-- org.apache.kafka.connect.data.ConnectSchema
 class org.apache.kafka.connect.data.ConnectSchema {
-+  ConnectSchema(Type;boolean;Object;String;Integer;String;Map<String,String>;List<Field>;Schema;Schema)
-+  ConnectSchema(Type;boolean;Object;String;Integer;String)
-+  ConnectSchema(Type)
-+  type()
-+  isOptional()
-+  defaultValue()
-+  name()
-+  version()
-+  doc()
-+  parameters()
-+  fields()
-+  field(String)
-+  keySchema()
-+  valueSchema()
-+  validateValue(Schema;Object)
-+  validateValue(String;Schema;Object)
-+  expectedClassesFor(Schema)
-+  validateValue(Object)
-+  schema()
-+  equals(Object)
-+  hashCode()
-+  toString()
-+  schemaType(Class<?>)
++ ConnectSchema(Type;boolean;Object;String;Integer;String;Map<String,String>;List<Field>;Schema;Schema) : ConnectSchema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#80]]]
++ ConnectSchema(Type;boolean;Object;String;Integer;String) : ConnectSchema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#104]]]
++ ConnectSchema(Type) : ConnectSchema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#109]]]
++ type() : Type [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#114]]]
++ isOptional() : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#119]]]
++ defaultValue() : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#124]]]
++ name() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#129]]]
++ version() : Integer [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#134]]]
++ doc() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#139]]]
++ parameters() : Map<String,String> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#144]]]
++ fields() : List<Field> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#149]]]
++ field(String) : Field [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#156]]]
++ keySchema() : Schema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#163]]]
++ valueSchema() : Schema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#170]]]
++ validateValue(Schema;Object) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#179]]]
++ validateValue(String;Schema;Object) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#183]]]
+- expectedClassesFor(Schema) : List<Class<?>> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#234]]]
++ validateValue(Object) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#242]]]
++ schema() : ConnectSchema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#247]]]
++ equals(Object) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#253]]]
++ hashCode() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#270]]]
++ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#279]]]
++ schemaType(Class<?>) : Type [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#288]]]
 } 
 @enduml

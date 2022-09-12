@@ -2,13 +2,13 @@
 !pragma layout smetana
 AdminApiHandler.Batched_TopicPartition,Void_ <|-- org.apache.kafka.clients.admin.internals.AbortTransactionHandler
 class org.apache.kafka.clients.admin.internals.AbortTransactionHandler {
-+  AbortTransactionHandler(AbortTransactionSpec;LogContext)
-+  newFuture(Set<TopicPartition>)
-+  apiName()
-+  lookupStrategy()
-+  buildBatchedRequest(int;Set<TopicPartition>)
-+  handleResponse(Node;Set<TopicPartition>;AbstractResponse)
-+  handleError(Errors)
-+  validateTopicPartitions(Set<TopicPartition>)
++ AbortTransactionHandler(AbortTransactionSpec;LogContext) : AbortTransactionHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#31]]]
++ newFuture(Set<TopicPartition>) : AdminApiFuture.SimpleAdminApiFuture<TopicPartition,Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#40]]]
++ apiName() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#47]]]
++ lookupStrategy() : AdminApiLookupStrategy<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#52]]]
++ buildBatchedRequest(int;Set<TopicPartition>) : WriteTxnMarkersRequest.Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#57]]]
++ handleResponse(Node;Set<TopicPartition>;AbstractResponse) : ApiResult<TopicPartition,Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#81]]]
+- handleError(Errors) : ApiResult<TopicPartition,Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#127]]]
+- validateTopicPartitions(Set<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#165]]]
 } 
 @enduml

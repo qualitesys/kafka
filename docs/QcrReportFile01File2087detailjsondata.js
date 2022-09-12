@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ValueAndTimestampSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.html#11"
  , "c1" : "ValueAndTimestampSerde"
  , "c2" : "ValueAndTimestampSerde(Serde<V>)"
  , "c3" : "1"

@@ -2,10 +2,10 @@
 !pragma layout smetana
 KStreamAggProcessorSupplier_KIn,VIn,Windowed_KIn_,VAgg_ <|-- org.apache.kafka.streams.kstream.internals.KStreamWindowAggregate
 class org.apache.kafka.streams.kstream.internals.KStreamWindowAggregate {
-+  KStreamWindowAggregate(Windows<W>;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)
-+  get()
-+  windows()
-+  enableSendingOldValues()
-+  view()
++ KStreamWindowAggregate(Windows<W>;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamWindowAggregate [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#37]]]
++ get() : Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#57]]]
++ windows() : Windows<W> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#61]]]
++ enableSendingOldValues() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#66]]]
++ view() : KTableValueGetterSupplier<Windowed<KIn>,VAgg> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#169]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractStream_K,V_TimeWindowedCogroupedKStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl
 class org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl {
-+  TimeWindowedCogroupedKStreamImpl(Windows<W>;InternalStreamsBuilder;Set<String>;String;CogroupedStreamAggregateBuilder<K,V>;GraphNode;Map<KGroupedStreamImpl<K,?>,Aggregator<?superK,?superObject,V>>)
-+  aggregate(Initializer<V>)
-+  aggregate(Initializer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>)
-+  aggregate(Initializer<V>;Named)
-+  aggregate(Initializer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>)
-+  materialize(MaterializedInternal<K,V,WindowStore<Bytes,byte[]>>)
+TimeWindowedCogroupedKStreamImpl(Windows<W>;InternalStreamsBuilder;Set<String>;String;CogroupedStreamAggregateBuilder<K,V>;GraphNode;Map<KGroupedStreamImpl<K,?>,Aggregator<?superK,?superObject,V>>) : TimeWindowedCogroupedKStreamImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#34]]]
++ aggregate(Initializer<V>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#50]]]
++ aggregate(Initializer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#55]]]
++ aggregate(Initializer<V>;Named) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#61]]]
++ aggregate(Initializer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#67]]]
+- materialize(MaterializedInternal<K,V,WindowStore<Bytes,byte[]>>) : StoreBuilder<TimestampedWindowStore<K,V>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#90]]]
 } 
 @enduml

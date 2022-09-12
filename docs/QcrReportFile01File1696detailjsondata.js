@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.PassThrough" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PassThrough.java.html#12"
  , "c1" : "Processor<K,V,K,V>"
  , "c2" : "get()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.file.FileStreamSinkTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#28"
  , "c1" : "FileStreamSinkTask"
  , "c2" : "FileStreamSinkTask()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#32"
  , "c1" : "FileStreamSinkTask"
  , "c2" : "FileStreamSinkTask(PrintStream)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#38"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#43"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#60"
  , "c1" : "void"
  , "c2" : "put(Collection<SinkRecord>)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#68"
  , "c1" : "void"
  , "c2" : "flush(Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#74"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#79"
  , "c1" : "String"
  , "c2" : "logFilename()"
  , "c3" : "1"

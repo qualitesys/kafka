@@ -2,14 +2,14 @@
 !pragma layout smetana
 ConnectResource <|-- org.apache.kafka.connect.runtime.rest.resources.LoggingResource
 class org.apache.kafka.connect.runtime.rest.resources.LoggingResource {
-+  requestTimeout(long)
-+  listLoggers()
-+  getLogger(String)
-+  setLevel(String;Map<String,String>)
-+  lookupLogger(String)
-+  currentLoggers()
-+  rootLogger()
-+  effectiveLevelToMap(Logger)
-+  levelToMap(Logger)
++ requestTimeout(long) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#38]]]
++ listLoggers() : Response [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#46]]]
++ getLogger(String) : Response [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#66]]]
++ setLevel(String;Map<String,String>) : Response [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#97]]]
+lookupLogger(String) : Logger [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#142]]]
+currentLoggers() : Enumeration<Logger> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#147]]]
+rootLogger() : Logger [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#151]]]
+- effectiveLevelToMap(Logger) : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#156]]]
+- levelToMap(Logger) : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#165]]]
 } 
 @enduml

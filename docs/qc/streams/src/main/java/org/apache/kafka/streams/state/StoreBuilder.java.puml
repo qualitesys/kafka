@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.StoreBuilder
 class org.apache.kafka.streams.state.StoreBuilder {
-+  withCachingEnabled()
-+  withCachingDisabled()
-+  withLoggingEnabled(Map<String,String>)
-+  withLoggingDisabled()
-+  build()
-+  logConfig()
-+  loggingEnabled()
-+  name()
+withCachingEnabled() : StoreBuilder<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#12]]]
+withCachingDisabled() : StoreBuilder<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#15]]]
+withLoggingEnabled(Map<String,String>) : StoreBuilder<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#18]]]
+withLoggingDisabled() : StoreBuilder<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#21]]]
+build() : T [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#24]]]
+logConfig() : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#27]]]
+loggingEnabled() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#30]]]
+name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#33]]]
 } 
 @enduml

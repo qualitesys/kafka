@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.RecordBatchIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#15"
  , "c1" : "RecordBatchIterator"
  , "c2" : "RecordBatchIterator(LogInputStream<T>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#20"
  , "c1" : "T"
  , "c2" : "makeNext()"
  , "c3" : "2"

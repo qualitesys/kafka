@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.sink.SinkTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#23"
  , "c1" : "void"
  , "c2" : "initialize(SinkTaskContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#29"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#32"
  , "c1" : "void"
  , "c2" : "put(Collection<SinkRecord>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#35"
  , "c1" : "void"
  , "c2" : "flush(Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#39"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "preCommit(Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#45"
  , "c1" : "void"
  , "c2" : "open(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#51"
  , "c1" : "void"
  , "c2" : "onPartitionsAssigned(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#55"
  , "c1" : "void"
  , "c2" : "close(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#61"
  , "c1" : "void"
  , "c2" : "onPartitionsRevoked(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#66"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"

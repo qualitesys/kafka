@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnsupportedForMessageFormatException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedForMessageFormatException.java.html#8"
  , "c1" : "UnsupportedForMessageFormatException"
  , "c2" : "UnsupportedForMessageFormatException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedForMessageFormatException.java.html#12"
  , "c1" : "UnsupportedForMessageFormatException"
  , "c2" : "UnsupportedForMessageFormatException(String;Throwable)"
  , "c3" : "1"

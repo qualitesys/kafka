@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.OffsetOutOfRangeException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#15"
  , "c1" : "OffsetOutOfRangeException"
  , "c2" : "OffsetOutOfRangeException(Map<TopicPartition,Long>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#20"
  , "c1" : "OffsetOutOfRangeException"
  , "c2" : "OffsetOutOfRangeException(String;Map<TopicPartition,Long>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#26"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "offsetOutOfRangePartitions()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#31"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitions()"
  , "c3" : "1"

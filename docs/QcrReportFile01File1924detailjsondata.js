@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.KeyQuery" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#15"
  , "c1" : "KeyQuery"
  , "c2" : "KeyQuery(K;boolean)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#26"
  , "c1" : "KeyQuery<K,V>"
  , "c2" : "skipCache()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#31"
  , "c1" : "K"
  , "c2" : "getKey()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#36"
  , "c1" : "boolean"
  , "c2" : "isSkipCache()"
  , "c3" : "1"

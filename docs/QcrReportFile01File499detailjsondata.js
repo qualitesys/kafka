@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.KafkaChannel" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#63"
  , "c1" : "KafkaChannel"
  , "c2" : "KafkaChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#78"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#84"
  , "c1" : "KafkaPrincipal"
  , "c2" : "principal()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#88"
  , "c1" : "Optional<KafkaPrincipalSerde>"
  , "c2" : "principalSerde()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#93"
  , "c1" : "void"
  , "c2" : "prepare()"
  , "c3" : "5"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#119"
  , "c1" : "void"
  , "c2" : "disconnect()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#128"
  , "c1" : "void"
  , "c2" : "state(ChannelState)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#132"
  , "c1" : "ChannelState"
  , "c2" : "state()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#136"
  , "c1" : "boolean"
  , "c2" : "finishConnect()"
  , "c3" : "7"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#156"
  , "c1" : "boolean"
  , "c2" : "isConnected()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00160"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#160"
  , "c1" : "String"
  , "c2" : "id()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00164"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#164"
  , "c1" : "SelectionKey"
  , "c2" : "selectionKey()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#169"
  , "c1" : "void"
  , "c2" : "mute()"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#177"
  , "c1" : "boolean"
  , "c2" : "maybeUnmute()"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00186"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#186"
  , "c1" : "void"
  , "c2" : "handleChannelMuteEvent(ChannelMuteEvent)"
  , "c3" : "12"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#226"
  , "c1" : "ChannelMuteState"
  , "c2" : "muteState()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00231"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#231"
  , "c1" : "void"
  , "c2" : "delayCloseOnAuthenticationFailure()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00236"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#236"
  , "c1" : "void"
  , "c2" : "completeCloseOnAuthenticationFailure()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00243"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#243"
  , "c1" : "boolean"
  , "c2" : "isMuted()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#247"
  , "c1" : "boolean"
  , "c2" : "isInMutableState()"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00258"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#258"
  , "c1" : "boolean"
  , "c2" : "ready()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00262"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#262"
  , "c1" : "boolean"
  , "c2" : "hasSend()"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00267"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#267"
  , "c1" : "InetAddress"
  , "c2" : "socketAddress()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00271"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#271"
  , "c1" : "String"
  , "c2" : "socketDescription()"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00278"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#278"
  , "c1" : "void"
  , "c2" : "setSend(NetworkSend)"
  , "c3" : "2"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#285"
  , "c1" : "NetworkSend"
  , "c2" : "maybeCompleteSend()"
  , "c3" : "2"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00296"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#296"
  , "c1" : "long"
  , "c2" : "read()"
  , "c3" : "3"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00310"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#310"
  , "c1" : "NetworkReceive"
  , "c2" : "currentReceive()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00314"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#314"
  , "c1" : "NetworkReceive"
  , "c2" : "maybeCompleteReceive()"
  , "c3" : "2"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00324"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#324"
  , "c1" : "long"
  , "c2" : "write()"
  , "c3" : "2"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00333"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#333"
  , "c1" : "void"
  , "c2" : "addNetworkThreadTimeNanos(long)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00338"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#338"
  , "c1" : "long"
  , "c2" : "getAndResetNetworkThreadTimeNanos()"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00344"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#344"
  , "c1" : "long"
  , "c2" : "receive(NetworkReceive)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00357"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#357"
  , "c1" : "boolean"
  , "c2" : "hasBytesBuffered()"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00362"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#362"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00374"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#374"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00379"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#379"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00384"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#384"
  , "c1" : "int"
  , "c2" : "successfulAuthentications()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00389"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#389"
  , "c1" : "boolean"
  , "c2" : "maybeBeginServerReauthentication(NetworkReceive;Supplier<Long>)"
  , "c3" : "4"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00410"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#410"
  , "c1" : "boolean"
  , "c2" : "maybeBeginClientReauthentication(Supplier<Long>)"
  , "c3" : "4"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00428"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#428"
  , "c1" : "Long"
  , "c2" : "reauthenticationLatencyMs()"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00433"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#433"
  , "c1" : "boolean"
  , "c2" : "serverAuthenticationSessionExpired(long)"
  , "c3" : "1"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00439"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#439"
  , "c1" : "Optional<NetworkReceive>"
  , "c2" : "pollResponseReceivedDuringReauthentication()"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#444"
  , "c1" : "boolean"
  , "c2" : "connectedClientSupportsReauthentication()"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00448"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#448"
  , "c1" : "void"
  , "c2" : "swapAuthenticatorsAndBeginReauthentication(ReauthenticationContext)"
  , "c3" : "1"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00456"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#456"
  , "c1" : "ChannelMetadataRegistry"
  , "c2" : "channelMetadataRegistry()"
  , "c3" : "1"

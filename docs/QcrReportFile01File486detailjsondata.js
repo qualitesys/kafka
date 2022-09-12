@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.WindowedCount" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#9"
  , "c1" : "void"
  , "c2" : "update(Sample;MetricConfig;double;long)"
  , "c3" : "1"

@@ -2,25 +2,25 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.runtime.errors.ProcessingContext
 class org.apache.kafka.connect.runtime.errors.ProcessingContext {
-+  reset()
-+  consumerRecord(ConsumerRecord<byte[],byte[]>)
-+  consumerRecord()
-+  sourceRecord()
-+  sourceRecord(SourceRecord)
-+  position(Stage)
-+  stage()
-+  executingClass()
-+  executingClass(Class<?>)
-+  currentContext(Stage;Class<?>)
-+  report()
-+  toString()
-+  toString(boolean)
-+  attempt(int)
-+  attempt()
-+  error()
-+  error(Throwable)
-+  failed()
-+  reporters(Collection<ErrorReporter>)
-+  close()
+- reset() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#35]]]
++ consumerRecord(ConsumerRecord<byte[],byte[]>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#43]]]
++ consumerRecord() : ConsumerRecord<byte[],byte[]> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#49]]]
++ sourceRecord() : SourceRecord [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#54]]]
++ sourceRecord(SourceRecord) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#59]]]
++ position(Stage) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#65]]]
++ stage() : Stage [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#70]]]
++ executingClass() : Class<?> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#75]]]
++ executingClass(Class<?>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#80]]]
++ currentContext(Stage;Class<?>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#85]]]
++ report() : Future<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#91]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#107]]]
++ toString(boolean) : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#111]]]
++ attempt(int) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#138]]]
++ attempt() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#143]]]
++ error() : Throwable [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#148]]]
++ error(Throwable) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#153]]]
++ failed() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#158]]]
++ reporters(Collection<ErrorReporter>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#163]]]
++ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#169]]]
 } 
 @enduml

@@ -2,21 +2,21 @@
 !pragma layout smetana
 RocksDBSegmentedBytesStore.KeySchema <|-- org.apache.kafka.streams.state.internals.WindowKeySchema
 class org.apache.kafka.streams.state.internals.WindowKeySchema {
-+  upperRange(Bytes;long)
-+  lowerRange(Bytes;long)
-+  lowerRangeFixedSize(Bytes;long)
-+  upperRangeFixedSize(Bytes;long)
-+  segmentTimestamp(Bytes)
-+  hasNextCondition(Bytes;Bytes;long;long;boolean)
-+  timeWindowForSize(long;long)
-+  extractWindow(byte[];long)
-+  toStoreKeyBinary(Bytes;long;int)
-+  toStoreKeyBinary(Windowed<Bytes>;int)
-+  toStoreKeyBinary(byte[];long;int)
-+  extractStoreKeyBytes(byte[])
-+  extractStoreTimestamp(byte[])
-+  extractStoreSequence(byte[])
-+  fromStoreBytesKey(byte[];long)
-+  extractStoreWindow(byte[];long)
++ upperRange(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#28]]]
++ lowerRange(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#41]]]
++ lowerRangeFixedSize(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#49]]]
++ upperRangeFixedSize(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#54]]]
++ segmentTimestamp(Bytes) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#59]]]
++ hasNextCondition(Bytes;Bytes;long;long;boolean) : HasNextCondition [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#64]]]
+timeWindowForSize(long;long) : TimeWindow [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#95]]]
+- extractWindow(byte[];long) : Window [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#130]]]
++ toStoreKeyBinary(Bytes;long;int) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#139]]]
++ toStoreKeyBinary(Windowed<Bytes>;int) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#154]]]
+toStoreKeyBinary(byte[];long;int) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#168]]]
+extractStoreKeyBytes(byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#179]]]
+extractStoreTimestamp(byte[]) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#192]]]
+extractStoreSequence(byte[]) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#196]]]
++ fromStoreBytesKey(byte[];long) : Windowed<Bytes> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#216]]]
+extractStoreWindow(byte[];long) : Window [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#223]]]
 } 
 @enduml

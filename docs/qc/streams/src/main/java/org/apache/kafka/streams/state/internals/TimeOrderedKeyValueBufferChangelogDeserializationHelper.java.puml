@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper
 class org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper {
-+  TimeOrderedKeyValueBufferChangelogDeserializationHelper()
-+  deserializeV0(ConsumerRecord<byte[],byte[]>;Bytes;byte[])
-+  deserializeV1(ConsumerRecord<byte[],byte[]>;Bytes;byte[])
-+  duckTypeV2(ConsumerRecord<byte[],byte[]>;Bytes)
-+  deserializeV2(ConsumerRecord<byte[],byte[]>;Bytes)
-+  deserializeV3(ConsumerRecord<byte[],byte[]>;Bytes)
+- TimeOrderedKeyValueBufferChangelogDeserializationHelper() : TimeOrderedKeyValueBufferChangelogDeserializationHelper [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#16]]]
+deserializeV0(ConsumerRecord<byte[],byte[]>;Bytes;byte[]) : DeserializationResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#42]]]
+deserializeV1(ConsumerRecord<byte[],byte[]>;Bytes;byte[]) : DeserializationResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#73]]]
+duckTypeV2(ConsumerRecord<byte[],byte[]>;Bytes) : DeserializationResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#96]]]
+- deserializeV2(ConsumerRecord<byte[],byte[]>;Bytes) : DeserializationResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#126]]]
+deserializeV3(ConsumerRecord<byte[],byte[]>;Bytes) : DeserializationResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#137]]]
 } 
 @enduml

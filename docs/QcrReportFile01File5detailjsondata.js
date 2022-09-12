@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.ClientUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#29"
  , "c1" : "ClientUtils"
  , "c2" : "ClientUtils()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#32"
  , "c1" : "List<InetSocketAddress>"
  , "c2" : "parseAndValidateAddresses(List<String>;String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#36"
  , "c1" : "List<InetSocketAddress>"
  , "c2" : "parseAndValidateAddresses(List<String>;ClientDnsLookup)"
  , "c3" : "12"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#79"
  , "c1" : "ChannelBuilder"
  , "c2" : "createChannelBuilder(AbstractConfig;Time;LogContext)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#86"
  , "c1" : "List<InetAddress>"
  , "c2" : "resolve(String;HostResolver)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#95"
  , "c1" : "List<InetAddress>"
  , "c2" : "filterPreferredAddresses(InetAddress[])"
  , "c3" : "4"

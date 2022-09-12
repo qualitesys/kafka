@@ -2,15 +2,15 @@
 !pragma layout smetana
 WrappedStateStore_KeyValueStore_Bytes,byte[]_,Bytes,byte[]_KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.ListValueStore
 class org.apache.kafka.streams.state.internals.ListValueStore {
-+  ListValueStore(KeyValueStore<Bytes,byte[]>)
-+  put(Bytes;byte[])
-+  putIfAbsent(Bytes;byte[])
-+  putInternal(Bytes;byte[];byte[])
-+  putAll(List<KeyValue<Bytes,byte[]>>)
-+  delete(Bytes)
-+  get(Bytes)
-+  range(Bytes;Bytes)
-+  all()
-+  approximateNumEntries()
+ListValueStore(KeyValueStore<Bytes,byte[]>) : ListValueStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#25]]]
++ put(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#30]]]
++ putIfAbsent(Bytes;byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#41]]]
+- putInternal(Bytes;byte[];byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#60]]]
++ putAll(List<KeyValue<Bytes,byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#72]]]
++ delete(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#77]]]
++ get(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#84]]]
++ range(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#89]]]
++ all() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94]]]
++ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#99]]]
 } 
 @enduml

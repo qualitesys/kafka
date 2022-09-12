@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.ConfigSynonym
 class org.apache.kafka.metadata.ConfigSynonym {
-+  valueToInt(String;int;String)
-+  ConfigSynonym(String;Function<String,String>)
-+  ConfigSynonym(String)
-+  name()
-+  converter()
+- valueToInt(String;int;String) : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#25]]]
++ ConfigSynonym(String;Function<String,String>) : ConfigSynonym [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#42]]]
++ ConfigSynonym(String) : ConfigSynonym [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#47]]]
++ name() : String [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#51]]]
++ converter() : Function<String,String> [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#55]]]
 } 
 @enduml

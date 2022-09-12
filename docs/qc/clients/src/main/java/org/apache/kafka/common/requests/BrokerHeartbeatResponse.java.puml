@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.BrokerHeartbeatResponse
 class org.apache.kafka.common.requests.BrokerHeartbeatResponse {
-+  BrokerHeartbeatResponse(BrokerHeartbeatResponseData)
-+  data()
-+  throttleTimeMs()
-+  errorCounts()
-+  parse(ByteBuffer;short)
-+  shouldClientThrottle(short)
++ BrokerHeartbeatResponse(BrokerHeartbeatResponseData) : BrokerHeartbeatResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#17]]]
++ data() : BrokerHeartbeatResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#23]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#28]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#33]]]
++ parse(ByteBuffer;short) : BrokerHeartbeatResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#39]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#44]]]
 } 
 @enduml

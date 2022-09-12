@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.FileLogInputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#32"
  , "c1" : "FileLogInputStream"
  , "c2" : "FileLogInputStream(FileRecords;int;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#41"
  , "c1" : "FileChannelRecordBatch"
  , "c2" : "nextBatch()"
  , "c3" : "6"

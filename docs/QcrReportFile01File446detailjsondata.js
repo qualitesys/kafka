@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.internals.KafkaFutureImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#21"
  , "c1" : "KafkaFutureImpl"
  , "c2" : "KafkaFutureImpl()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#25"
  , "c1" : "KafkaFutureImpl"
  , "c2" : "KafkaFutureImpl(boolean;KafkaCompletableFuture<T>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#31"
  , "c1" : "CompletionStage<T>"
  , "c2" : "toCompletionStage()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#81"
  , "c1" : "KafkaFuture<T>"
  , "c2" : "whenComplete(BiConsumer<?superT,?superThrowable>)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#98"
  , "c1" : "boolean"
  , "c2" : "complete(T)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#103"
  , "c1" : "boolean"
  , "c2" : "completeExceptionally(Throwable)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#113"
  , "c1" : "boolean"
  , "c2" : "cancel(boolean)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#118"
  , "c1" : "void"
  , "c2" : "maybeThrowCancellationException(Throwable)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#126"
  , "c1" : "T"
  , "c2" : "get()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#137"
  , "c1" : "T"
  , "c2" : "get(long;TimeUnit)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00149"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#149"
  , "c1" : "T"
  , "c2" : "getNow(T)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00163"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#163"
  , "c1" : "boolean"
  , "c2" : "isCancelled()"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00185"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#185"
  , "c1" : "boolean"
  , "c2" : "isCompletedExceptionally()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00191"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#191"
  , "c1" : "boolean"
  , "c2" : "isDone()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#196"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.sink.ErrantRecordReporter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java.html#11"
  , "c1" : "Future<Void>"
  , "c2" : "report(SinkRecord;Throwable)"
  , "c3" : "1"

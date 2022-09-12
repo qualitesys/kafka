@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeTopicsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#22"
  , "c1" : "DescribeTopicsResult"
  , "c2" : "DescribeTopicsResult(Map<String,KafkaFuture<TopicDescription>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#27"
  , "c1" : "DescribeTopicsResult"
  , "c2" : "DescribeTopicsResult(Map<Uuid,KafkaFuture<TopicDescription>>;Map<String,KafkaFuture<TopicDescription>>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#36"
  , "c1" : "DescribeTopicsResult"
  , "c2" : "ofTopicIds(Map<Uuid,KafkaFuture<TopicDescription>>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#40"
  , "c1" : "DescribeTopicsResult"
  , "c2" : "ofTopicNames(Map<String,KafkaFuture<TopicDescription>>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#45"
  , "c1" : "Map<Uuid,KafkaFuture<TopicDescription>>"
  , "c2" : "topicIdValues()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#50"
  , "c1" : "Map<String,KafkaFuture<TopicDescription>>"
  , "c2" : "topicNameValues()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#56"
  , "c1" : "Map<String,KafkaFuture<TopicDescription>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#62"
  , "c1" : "KafkaFuture<Map<String,TopicDescription>>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#67"
  , "c1" : "KafkaFuture<Map<String,TopicDescription>>"
  , "c2" : "allTopicNames()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#72"
  , "c1" : "KafkaFuture<Map<Uuid,TopicDescription>>"
  , "c2" : "allTopicIds()"
  , "c3" : "1"

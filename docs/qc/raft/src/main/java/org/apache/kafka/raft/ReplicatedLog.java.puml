@@ -2,33 +2,33 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.raft.ReplicatedLog
 class org.apache.kafka.raft.ReplicatedLog {
-+  appendAsLeader(Records;int)
-+  appendAsFollower(Records)
-+  read(long;Isolation)
-+  lastFetchedEpoch()
-+  validateOffsetAndEpoch(long;int)
-+  endOffsetForEpoch(int)
-+  endOffset()
-+  highWatermark()
-+  startOffset()
-+  initializeLeaderEpoch(int)
-+  truncateTo(long)
-+  truncateToLatestSnapshot()
-+  updateHighWatermark(LogOffsetMetadata)
-+  deleteBeforeSnapshot(OffsetAndEpoch)
-+  flush(boolean)
-+  maybeClean()
-+  lastFlushedOffset()
-+  topicPartition()
-+  topicId()
-+  truncateToEndOffset(OffsetAndEpoch)
-+  createNewSnapshot(OffsetAndEpoch)
-+  storeSnapshot(OffsetAndEpoch)
-+  readSnapshot(OffsetAndEpoch)
-+  latestSnapshot()
-+  latestSnapshotId()
-+  earliestSnapshotId()
-+  onSnapshotFrozen(OffsetAndEpoch)
-+  close()
+appendAsLeader(Records;int) : LogAppendInfo [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#15]]]
+appendAsFollower(Records) : LogAppendInfo [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#18]]]
+read(long;Isolation) : LogFetchInfo [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#21]]]
+lastFetchedEpoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#24]]]
+validateOffsetAndEpoch(long;int) : ValidOffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#27]]]
+endOffsetForEpoch(int) : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#59]]]
+endOffset() : LogOffsetMetadata [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#62]]]
+highWatermark() : LogOffsetMetadata [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#65]]]
+startOffset() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#68]]]
+initializeLeaderEpoch(int) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#71]]]
+truncateTo(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#74]]]
+truncateToLatestSnapshot() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#77]]]
+updateHighWatermark(LogOffsetMetadata) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#80]]]
+deleteBeforeSnapshot(OffsetAndEpoch) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#83]]]
+flush(boolean) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#86]]]
+maybeClean() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#89]]]
+lastFlushedOffset() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#92]]]
+topicPartition() : TopicPartition [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#95]]]
+topicId() : Uuid [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#98]]]
+truncateToEndOffset(OffsetAndEpoch) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#101]]]
+createNewSnapshot(OffsetAndEpoch) : Optional<RawSnapshotWriter> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#120]]]
+storeSnapshot(OffsetAndEpoch) : Optional<RawSnapshotWriter> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#123]]]
+readSnapshot(OffsetAndEpoch) : Optional<RawSnapshotReader> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#126]]]
+latestSnapshot() : Optional<RawSnapshotReader> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#129]]]
+latestSnapshotId() : Optional<OffsetAndEpoch> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#132]]]
+earliestSnapshotId() : Optional<OffsetAndEpoch> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#135]]]
+onSnapshotFrozen(OffsetAndEpoch) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#138]]]
+close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#140]]]
 } 
 @enduml

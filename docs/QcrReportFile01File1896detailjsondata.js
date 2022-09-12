@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#27"
  , "c1" : "boolean"
  , "c2" : "assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignorConfiguration.AssignmentConfigs)"
  , "c3" : "5"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#81"
  , "c1" : "void"
  , "c2" : "assignPendingStandbyTasksToLeastLoadedClients(Map<UUID,ClientState>;int;ConstrainedPrioritySet;Map<TaskId,Integer>)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#103"
  , "c1" : "boolean"
  , "c2" : "isAllowedTaskMovement(ClientState;ClientState)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#117"
  , "c1" : "void"
  , "c2" : "fillClientsTagStatistics(Map<UUID,ClientState>;Map<TagEntry,Set<UUID>>;Map<String,Set<String>>)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#132"
  , "c1" : "void"
  , "c2" : "assignStandbyTasksToClientsWithDifferentTags(int;ConstrainedPrioritySet;TaskId;UUID;Set<String>;Map<UUID,ClientState>;Map<TaskId,Integer>;Map<String,Set<String>>;Map<TagEntry,Set<UUID>>;Map<TaskId,UUID>)"
  , "c3" : "6"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00201"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#201"
  , "c1" : "boolean"
  , "c2" : "isClientUsedOnAnyOfTheTagEntries(UUID;Map<TagEntry,Set<UUID>>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#206"
  , "c1" : "void"
  , "c2" : "updateClientsOnAlreadyUsedTagEntries(UUID;int;Set<String>;Map<UUID,ClientState>;Map<TagEntry,Set<UUID>>;Map<String,Set<String>>;Map<TagEntry,Set<UUID>>)"
  , "c3" : "5"

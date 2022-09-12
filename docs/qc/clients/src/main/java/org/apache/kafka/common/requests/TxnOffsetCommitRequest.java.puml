@@ -2,12 +2,12 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.TxnOffsetCommitRequest
 class org.apache.kafka.common.requests.TxnOffsetCommitRequest {
-+  TxnOffsetCommitRequest(TxnOffsetCommitRequestData;short)
-+  offsets()
-+  getTopics(Map<TopicPartition,CommittedOffset>)
-+  data()
-+  getErrorResponseTopics(List<TxnOffsetCommitRequestTopic>;Errors)
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
++ TxnOffsetCommitRequest(TxnOffsetCommitRequestData;short) : TxnOffsetCommitRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#91]]]
++ offsets() : Map<TopicPartition,CommittedOffset> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#96]]]
+getTopics(Map<TopicPartition,CommittedOffset>) : List<TxnOffsetCommitRequestTopic> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#111]]]
++ data() : TxnOffsetCommitRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#135]]]
+getErrorResponseTopics(List<TxnOffsetCommitRequestTopic>;Errors) : List<TxnOffsetCommitResponseTopic> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#139]]]
++ getErrorResponse(int;Throwable) : TxnOffsetCommitResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#158]]]
++ parse(ByteBuffer;short) : TxnOffsetCommitRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#167]]]
 } 
 @enduml

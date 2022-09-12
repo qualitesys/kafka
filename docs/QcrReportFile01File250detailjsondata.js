@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#43"
  , "c1" : "TxnPartitionEntry"
  , "c2" : "TxnPartitionEntry()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#51"
  , "c1" : "void"
  , "c2" : "resetSequenceNumbers(Consumer<ProducerBatch>)"
  , "c3" : "2"

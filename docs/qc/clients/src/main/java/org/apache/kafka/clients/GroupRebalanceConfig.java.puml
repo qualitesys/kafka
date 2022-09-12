@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.GroupRebalanceConfig
 class org.apache.kafka.clients.GroupRebalanceConfig {
-+  GroupRebalanceConfig(AbstractConfig;ProtocolType)
-+  GroupRebalanceConfig(int;int;int;String;Optional<String>;long;boolean)
++ GroupRebalanceConfig(AbstractConfig;ProtocolType) : GroupRebalanceConfig [[[././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#31]]]
++ GroupRebalanceConfig(int;int;int;String;Optional<String>;long;boolean) : GroupRebalanceConfig [[[././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#68]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DeleteAclsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#49"
  , "c1" : "DeleteAclsRequest"
  , "c2" : "DeleteAclsRequest(DeleteAclsRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#55"
  , "c1" : "void"
  , "c2" : "normalizeAndValidate()"
  , "c3" : "7"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#83"
  , "c1" : "List<AclBindingFilter>"
  , "c2" : "filters()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#88"
  , "c1" : "DeleteAclsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#93"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#104"
  , "c1" : "DeleteAclsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#108"
  , "c1" : "DeleteAclsFilter"
  , "c2" : "deleteAclsFilter(AclBindingFilter)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#119"
  , "c1" : "AclBindingFilter"
  , "c2" : "aclBindingFilter(DeleteAclsFilter)"
  , "c3" : "1"

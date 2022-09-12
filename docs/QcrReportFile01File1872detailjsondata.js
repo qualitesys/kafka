@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#42"
  , "c1" : "StreamsMetadataState"
  , "c2" : "StreamsMetadataState(TopologyMetadata;HostInfo;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#52"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#56"
  , "c1" : "String"
  , "c2" : "toString(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#67"
  , "c1" : "StreamsMetadata"
  , "c2" : "getLocalMetadata()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#72"
  , "c1" : "Collection<StreamsMetadata>"
  , "c2" : "getAllMetadata()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#77"
  , "c1" : "Collection<StreamsMetadata>"
  , "c2" : "getAllMetadataForStore(String)"
  , "c3" : "7"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#108"
  , "c1" : "Collection<StreamsMetadata>"
  , "c2" : "getAllMetadataForStore(String;String)"
  , "c3" : "5"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#132"
  , "c1" : "Collection<StreamsMetadata>"
  , "c2" : "getAllMetadataForTopology(String)"
  , "c3" : "4"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00232"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#232"
  , "c1" : "void"
  , "c2" : "onChange(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Cluster)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#239"
  , "c1" : "boolean"
  , "c2" : "hasPartitionsForAnyTopics(List<String>;Set<TopicPartition>)"
  , "c3" : "3"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00248"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#248"
  , "c1" : "Set<String>"
  , "c2" : "getStoresOnHost(Map<String,List<String>>;Set<TopicPartition>)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00260"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#260"
  , "c1" : "void"
  , "c2" : "rebuildMetadata(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00279"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#279"
  , "c1" : "List<StreamsMetadata>"
  , "c2" : "rebuildMetadataForNamedTopologies(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)"
  , "c3" : "7"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00350"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#350"
  , "c1" : "List<StreamsMetadata>"
  , "c2" : "rebuildMetadataForSingleTopology(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>)"
  , "c3" : "4"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00460"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#460"
  , "c1" : "SourceTopicsInfo"
  , "c2" : "getSourceTopicsInfo(String)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00464"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#464"
  , "c1" : "SourceTopicsInfo"
  , "c2" : "getSourceTopicsInfo(String;String)"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00473"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#473"
  , "c1" : "boolean"
  , "c2" : "isInitialized()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00477"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#477"
  , "c1" : "String"
  , "c2" : "getStoreForChangelogTopic(String)"
  , "c3" : "1"

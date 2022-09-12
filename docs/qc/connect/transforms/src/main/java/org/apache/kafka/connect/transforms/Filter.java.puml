@@ -2,9 +2,9 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.Filter
 class org.apache.kafka.connect.transforms.Filter {
-+  apply(R)
-+  config()
-+  close()
-+  configure(Map<String,?>)
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#18]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#23]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#28]]]
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#33]]]
 } 
 @enduml

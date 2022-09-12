@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.FeatureControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#90"
  , "c1" : "FeatureControlManager"
  , "c2" : "FeatureControlManager(LogContext;QuorumFeatures;SnapshotRegistry;MetadataVersion)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#103"
  , "c1" : "ControllerResult<Map<String,ApiError>>"
  , "c2" : "updateFeatures(Map<String,Short>;Map<String,FeatureUpdate.UpgradeType>;Map<Integer,Map<String,VersionRange>>;boolean)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#123"
  , "c1" : "MetadataVersion"
  , "c2" : "metadataVersion()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#127"
  , "c1" : "ApiError"
  , "c2" : "updateFeature(String;short;FeatureUpdate.UpgradeType;Map<Integer,Map<String,VersionRange>>;List<ApiMessageAndVersion>)"
  , "c3" : "14"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00189"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#189"
  , "c1" : "ApiError"
  , "c2" : "invalidUpdateVersion(String;short;String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#196"
  , "c1" : "ApiError"
  , "c2" : "updateMetadataVersion(short;boolean;Consumer<ApiMessageAndVersion>)"
  , "c3" : "7"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00232"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#232"
  , "c1" : "ApiError"
  , "c2" : "invalidMetadataVersion(short;String)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00238"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#238"
  , "c1" : "FinalizedControllerFeatures"
  , "c2" : "finalizedFeatures(long)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00248"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#248"
  , "c1" : "boolean"
  , "c2" : "sawMetadataVersion()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#252"
  , "c1" : "void"
  , "c2" : "replay(FeatureLevelRecord)"
  , "c3" : "6"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00306"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#306"
  , "c1" : "FeatureControlIterator"
  , "c2" : "iterator(long)"
  , "c3" : "1"

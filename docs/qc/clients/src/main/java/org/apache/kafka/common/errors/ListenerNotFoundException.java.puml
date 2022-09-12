@@ -2,7 +2,7 @@
 !pragma layout smetana
 InvalidMetadataException <|-- org.apache.kafka.common.errors.ListenerNotFoundException
 class org.apache.kafka.common.errors.ListenerNotFoundException {
-+  ListenerNotFoundException(String)
-+  ListenerNotFoundException(String;Throwable)
++ ListenerNotFoundException(String) : ListenerNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ListenerNotFoundException.java.html#9]]]
++ ListenerNotFoundException(String;Throwable) : ListenerNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ListenerNotFoundException.java.html#13]]]
 } 
 @enduml

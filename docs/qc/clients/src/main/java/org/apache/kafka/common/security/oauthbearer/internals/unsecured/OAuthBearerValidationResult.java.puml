@@ -2,14 +2,14 @@
 !pragma layout smetana
 Serializable <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult
 class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult {
-+  newSuccess()
-+  newFailure(String)
-+  newFailure(String;String;String)
-+  OAuthBearerValidationResult(boolean;String;String;String)
-+  success()
-+  failureDescription()
-+  failureScope()
-+  failureOpenIdConfig()
-+  throwExceptionIfFailed()
++ newSuccess() : OAuthBearerValidationResult [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#15]]]
++ newFailure(String) : OAuthBearerValidationResult [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#20]]]
++ newFailure(String;String;String) : OAuthBearerValidationResult [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#25]]]
+- OAuthBearerValidationResult(boolean;String;String;String) : OAuthBearerValidationResult [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#30]]]
++ success() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#41]]]
++ failureDescription() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#46]]]
++ failureScope() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#51]]]
++ failureOpenIdConfig() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#56]]]
++ throwExceptionIfFailed() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#61]]]
 } 
 @enduml

@@ -2,16 +2,16 @@
 !pragma layout smetana
 Revertable <|-- org.apache.kafka.timeline.TimelineLong
 class org.apache.kafka.timeline.TimelineLong {
-+  TimelineLong(SnapshotRegistry)
-+  get()
-+  get(long)
-+  set(long)
-+  increment()
-+  decrement()
-+  executeRevert(long;Delta)
-+  reset()
-+  hashCode()
-+  equals(Object)
-+  toString()
++ TimelineLong(SnapshotRegistry) : TimelineLong [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#32]]]
++ get() : long [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#39]]]
++ get(long) : long [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#43]]]
++ set(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#54]]]
++ increment() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#68]]]
++ decrement() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#72]]]
++ executeRevert(long;Delta) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#78]]]
++ reset() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#84]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#89]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#94]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#101]]]
 } 
 @enduml

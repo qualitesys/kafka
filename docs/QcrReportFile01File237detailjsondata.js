@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.IncompleteBatches" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#13"
  , "c1" : "IncompleteBatches"
  , "c2" : "IncompleteBatches()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#17"
  , "c1" : "void"
  , "c2" : "add(ProducerBatch)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#23"
  , "c1" : "void"
  , "c2" : "remove(ProducerBatch)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#31"
  , "c1" : "Iterable<ProducerBatch>"
  , "c2" : "copyAll()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#37"
  , "c1" : "Iterable<ProduceRequestResult>"
  , "c2" : "requestResults()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#43"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"

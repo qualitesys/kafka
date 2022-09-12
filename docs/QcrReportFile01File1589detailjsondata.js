@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.Materialized" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#41"
  , "c1" : "Materialized"
  , "c2" : "Materialized(StoreSupplier<S>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#45"
  , "c1" : "Materialized"
  , "c2" : "Materialized(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#49"
  , "c1" : "Materialized"
  , "c2" : "Materialized(StoreType)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#54"
  , "c1" : "Materialized"
  , "c2" : "Materialized(Materialized<K,V,S>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#103"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withValueSerde(Serde<V>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#109"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withKeySerde(Serde<K>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#115"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withLoggingEnabled(Map<String,String>)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#122"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withLoggingDisabled()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#129"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withCachingEnabled()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#135"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withCachingDisabled()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#141"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withRetention(Duration)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00153"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#153"
  , "c1" : "Materialized<K,V,S>"
  , "c2" : "withStoreType(StoreType)"
  , "c3" : "2"

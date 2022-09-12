@@ -2,12 +2,12 @@
 !pragma layout smetana
 AbstractMergedSortedCacheStoreIterator_Windowed_Bytes_,Windowed_Bytes_,byte[],byte[]_ <|-- org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator
 class org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator {
-+  MergedSortedCacheWindowStoreKeyValueIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;StateSerdes<Bytes,byte[]>;long;SegmentedCacheFunction;boolean)
-+  MergedSortedCacheWindowStoreKeyValueIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;StateSerdes<Bytes,byte[]>;long;SegmentedCacheFunction;boolean;StoreKeyToWindowKey;WindowKeyToBytes)
-+  deserializeStoreKey(Windowed<Bytes>)
-+  deserializeStorePair(KeyValue<Windowed<Bytes>,byte[]>)
-+  deserializeCacheKey(Bytes)
-+  deserializeCacheValue(LRUCacheEntry)
-+  compare(Bytes;Windowed<Bytes>)
+MergedSortedCacheWindowStoreKeyValueIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;StateSerdes<Bytes,byte[]>;long;SegmentedCacheFunction;boolean) : MergedSortedCacheWindowStoreKeyValueIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#21]]]
+MergedSortedCacheWindowStoreKeyValueIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Windowed<Bytes>,byte[]>;StateSerdes<Bytes,byte[]>;long;SegmentedCacheFunction;boolean;StoreKeyToWindowKey;WindowKeyToBytes) : MergedSortedCacheWindowStoreKeyValueIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#33]]]
+deserializeStoreKey(Windowed<Bytes>) : Windowed<Bytes> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#52]]]
+deserializeStorePair(KeyValue<Windowed<Bytes>,byte[]>) : KeyValue<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#57]]]
+deserializeCacheKey(Bytes) : Windowed<Bytes> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#62]]]
+deserializeCacheValue(LRUCacheEntry) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#68]]]
+compare(Bytes;Windowed<Bytes>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreKeyValueIterator.java.html#73]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 Query_KeyValueIterator_K,V__ <|-- org.apache.kafka.streams.query.RangeQuery
 class org.apache.kafka.streams.query.RangeQuery {
-+  RangeQuery(Optional<K>;Optional<K>)
-+  getLowerBound()
-+  getUpperBound()
+- RangeQuery(Optional<K>;Optional<K>) : RangeQuery [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html#22]]]
++ getLowerBound() : Optional<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html#48]]]
++ getUpperBound() : Optional<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html#53]]]
 } 
 @enduml

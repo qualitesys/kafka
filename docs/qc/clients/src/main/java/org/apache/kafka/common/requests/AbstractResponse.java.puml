@@ -2,21 +2,21 @@
 !pragma layout smetana
 AbstractRequestResponse <|-- org.apache.kafka.common.requests.AbstractResponse
 class org.apache.kafka.common.requests.AbstractResponse {
-+  AbstractResponse(ApiKeys)
-+  toSend(ResponseHeader;short)
-+  serializeWithHeader(ResponseHeader;short)
-+  serialize(short)
-+  errorCounts()
-+  errorCounts(Errors)
-+  errorCounts(Stream<Errors>)
-+  errorCounts(Collection<Errors>)
-+  apiErrorCounts(Map<?,ApiError>)
-+  updateErrorCounts(Map<Errors,Integer>;Errors)
-+  parseResponse(ByteBuffer;RequestHeader)
-+  parseResponse(ApiKeys;ByteBuffer;short)
-+  shouldClientThrottle(short)
-+  apiKey()
-+  throttleTimeMs()
-+  toString()
+AbstractResponse(ApiKeys) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#23]]]
++ toSend(ResponseHeader;short) : Send [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#27]]]
+serializeWithHeader(ResponseHeader;short) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#32]]]
+serialize(short) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#37]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#42]]]
+errorCounts(Errors) : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#44]]]
+errorCounts(Stream<Errors>) : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#48]]]
+errorCounts(Collection<Errors>) : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#52]]]
+apiErrorCounts(Map<?,ApiError>) : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#59]]]
+updateErrorCounts(Map<Errors,Integer>;Errors) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#66]]]
++ parseResponse(ByteBuffer;RequestHeader) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#72]]]
++ parseResponse(ApiKeys;ByteBuffer;short) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#88]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#233]]]
++ apiKey() : ApiKeys [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#237]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#241]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#243]]]
 } 
 @enduml

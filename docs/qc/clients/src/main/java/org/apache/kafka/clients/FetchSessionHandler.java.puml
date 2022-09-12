@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.FetchSessionHandler
 class org.apache.kafka.clients.FetchSessionHandler {
-+  FetchSessionHandler(LogContext;int)
-+  sessionTopicNames()
-+  newBuilder()
-+  newBuilder(int;boolean)
-+  topicPartitionsToLogString(Collection<TopicPartition>)
-+  topicIdPartitionsToLogString(Collection<TopicIdPartition>)
-+  verifyFullFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)
-+  verifyIncrementalFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)
-+  responseDataToLogString(Set<TopicPartition>)
-+  handleResponse(FetchResponse;short)
-+  handleError(Throwable)
++ FetchSessionHandler(LogContext;int) : FetchSessionHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#40]]]
++ sessionTopicNames() : Map<Uuid,String> [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#52]]]
++ newBuilder() : Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#301]]]
++ newBuilder(int;boolean) : Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#307]]]
+- topicPartitionsToLogString(Collection<TopicPartition>) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#311]]]
+- topicIdPartitionsToLogString(Collection<TopicIdPartition>) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#318]]]
+verifyFullFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#337]]]
+verifyIncrementalFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#364]]]
+- responseDataToLogString(Set<TopicPartition>) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#384]]]
++ handleResponse(FetchResponse;short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#414]]]
++ handleError(Throwable) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#487]]]
 } 
 @enduml

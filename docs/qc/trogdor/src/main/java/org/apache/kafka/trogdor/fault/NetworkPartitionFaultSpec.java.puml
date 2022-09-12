@@ -2,10 +2,10 @@
 !pragma layout smetana
 TaskSpec <|-- org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec
 class org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec {
-+  NetworkPartitionFaultSpec(long;long;List<List<String>>)
-+  partitions()
-+  newController(String)
-+  newTaskWorker(String)
-+  partitionSets()
++ NetworkPartitionFaultSpec(long;long;List<List<String>>) : NetworkPartitionFaultSpec [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#21]]]
++ partitions() : List<List<String>> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#29]]]
++ newController(String) : TaskController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#34]]]
++ newTaskWorker(String) : TaskWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#39]]]
+- partitionSets() : List<Set<String>> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#43]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.ListSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#37"
  , "c1" : "ListSerializer"
  , "c2" : "ListSerializer()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#39"
  , "c1" : "ListSerializer"
  , "c2" : "ListSerializer(Serializer<Inner>)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#47"
  , "c1" : "Serializer<Inner>"
  , "c2" : "getInnerSerializer()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#53"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "7"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#78"
  , "c1" : "void"
  , "c2" : "serializeNullIndexList(DataOutputStream;List<Inner>)"
  , "c3" : "4"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#93"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;List<Inner>)"
  , "c3" : "8"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#128"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"

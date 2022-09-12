@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.auth.SaslExtensionsCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#14"
  , "c1" : "SaslExtensions"
  , "c2" : "extensions()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#19"
  , "c1" : "void"
  , "c2" : "extensions(SaslExtensions)"
  , "c3" : "1"

@@ -2,18 +2,18 @@
 !pragma layout smetana
 AbstractConfig <|-- org.apache.kafka.connect.mirror.MirrorMakerConfig
 class org.apache.kafka.connect.mirror.MirrorMakerConfig {
-+  MirrorMakerConfig(Map<?,?>)
-+  clusters()
-+  clusterPairs()
-+  clientConfig(String)
-+  clusterProps(String)
-+  workerConfig(SourceAndTarget)
-+  connectorBaseConfig(SourceAndTarget;Class<?>)
-+  configProviders()
-+  transform(Map<String,String>)
-+  stringsWithPrefixStripped(String)
-+  stringsWithPrefix(String)
-+  clusterConfigsWithPrefix(String;Map<String,String>)
-+  clientConfigsWithPrefix(String;Map<String,String>)
++ MirrorMakerConfig(Map<?,?>) : MirrorMakerConfig [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#56]]]
++ clusters() : Set<String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#61]]]
++ clusterPairs() : List<SourceAndTarget> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#65]]]
++ clientConfig(String) : MirrorClientConfig [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#99]]]
+clusterProps(String) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#107]]]
++ workerConfig(SourceAndTarget) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#136]]]
++ connectorBaseConfig(SourceAndTarget;Class<?>) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#173]]]
+configProviders() : List<String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#208]]]
+transform(Map<String,String>) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#212]]]
+- stringsWithPrefixStripped(String) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#243]]]
+- stringsWithPrefix(String) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#249]]]
+clusterConfigsWithPrefix(String;Map<String,String>) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#255]]]
+clientConfigsWithPrefix(String;Map<String,String>) : Map<String,String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#261]]]
 } 
 @enduml

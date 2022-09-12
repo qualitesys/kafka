@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.AbstractRecordBatch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#7"
  , "c1" : "boolean"
  , "c2" : "hasProducerId()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#12"
  , "c1" : "long"
  , "c2" : "nextOffset()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#17"
  , "c1" : "boolean"
  , "c2" : "isCompressed()"
  , "c3" : "1"

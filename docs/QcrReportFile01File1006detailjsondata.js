@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.json.JsonConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00213"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#213"
  , "c1" : "JsonConverter"
  , "c2" : "JsonConverter()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00230"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#230"
  , "c1" : "long"
  , "c2" : "sizeOfFromConnectSchemaCache()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00235"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#235"
  , "c1" : "long"
  , "c2" : "sizeOfToConnectSchemaCache()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00240"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#240"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00245"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#245"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00256"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#256"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>;boolean)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00263"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#263"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00268"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#268"
  , "c1" : "byte[]"
  , "c2" : "fromConnectHeader(String;String;Schema;Object)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00273"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#273"
  , "c1" : "SchemaAndValue"
  , "c2" : "toConnectHeader(String;String;byte[])"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00278"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#278"
  , "c1" : "byte[]"
  , "c2" : "fromConnectData(String;Schema;Object)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00292"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#292"
  , "c1" : "SchemaAndValue"
  , "c2" : "toConnectData(String;byte[])"
  , "c3" : "4"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00326"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#326"
  , "c1" : "ObjectNode"
  , "c2" : "asJsonSchema(Schema)"
  , "c3" : "22"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00407"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#407"
  , "c1" : "Schema"
  , "c2" : "asConnectSchema(JsonNode)"
  , "c3" : "31"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00522"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#522"
  , "c1" : "JsonNode"
  , "c2" : "convertToJsonWithEnvelope(Schema;Object)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00526"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#526"
  , "c1" : "JsonNode"
  , "c2" : "convertToJsonWithoutEnvelope(Schema;Object)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00531"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#531"
  , "c1" : "JsonNode"
  , "c2" : "convertToJson(Schema;Object)"
  , "c3" : "38"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00646"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#646"
  , "c1" : "Object"
  , "c2" : "convertToConnect(Schema;JsonNode)"
  , "c3" : "20"

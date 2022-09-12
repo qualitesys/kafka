@@ -2,11 +2,11 @@
 !pragma layout smetana
 InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.RepartitionTopicConfig
 class org.apache.kafka.streams.processor.internals.RepartitionTopicConfig {
-+  RepartitionTopicConfig(String;Map<String,String>)
-+  RepartitionTopicConfig(String;Map<String,String>;int;boolean)
-+  getProperties(Map<String,String>;long)
-+  equals(Object)
-+  hashCode()
-+  toString()
+RepartitionTopicConfig(String;Map<String,String>) : RepartitionTopicConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#23]]]
+RepartitionTopicConfig(String;Map<String,String>;int;boolean) : RepartitionTopicConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#27]]]
++ getProperties(Map<String,String>;long) : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#36]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#48]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#62]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#67]]]
 } 
 @enduml

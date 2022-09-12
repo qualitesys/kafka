@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.authenticator.SaslInternalConfigs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslInternalConfigs.java.html#10"
  , "c1" : "SaslInternalConfigs"
  , "c2" : "SaslInternalConfigs()"
  , "c3" : "1"

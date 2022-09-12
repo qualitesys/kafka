@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.token.delegation.TokenInformation" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#23"
  , "c1" : "TokenInformation"
  , "c2" : "TokenInformation(String;KafkaPrincipal;Collection<KafkaPrincipal>;long;long;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#28"
  , "c1" : "TokenInformation"
  , "c2" : "TokenInformation(String;KafkaPrincipal;KafkaPrincipal;Collection<KafkaPrincipal>;long;long;long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#39"
  , "c1" : "KafkaPrincipal"
  , "c2" : "owner()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#43"
  , "c1" : "KafkaPrincipal"
  , "c2" : "tokenRequester()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#47"
  , "c1" : "String"
  , "c2" : "ownerAsString()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#51"
  , "c1" : "Collection<KafkaPrincipal>"
  , "c2" : "renewers()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#55"
  , "c1" : "Collection<String>"
  , "c2" : "renewersAsString()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#63"
  , "c1" : "long"
  , "c2" : "issueTimestamp()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#67"
  , "c1" : "long"
  , "c2" : "expiryTimestamp()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#71"
  , "c1" : "void"
  , "c2" : "setExpiryTimestamp(long)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#75"
  , "c1" : "String"
  , "c2" : "tokenId()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#79"
  , "c1" : "long"
  , "c2" : "maxTimestamp()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#83"
  , "c1" : "boolean"
  , "c2" : "ownerOrRenewer(KafkaPrincipal)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#88"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#101"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#120"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

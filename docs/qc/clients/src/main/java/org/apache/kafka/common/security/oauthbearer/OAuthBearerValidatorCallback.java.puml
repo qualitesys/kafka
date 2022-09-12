@@ -2,13 +2,13 @@
 !pragma layout smetana
 Callback <|-- org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback
 class org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback {
-+  OAuthBearerValidatorCallback(String)
-+  tokenValue()
-+  token()
-+  errorStatus()
-+  errorScope()
-+  errorOpenIDConfiguration()
-+  token(OAuthBearerToken)
-+  error(String;String;String)
++ OAuthBearerValidatorCallback(String) : OAuthBearerValidatorCallback [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#20]]]
++ tokenValue() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#27]]]
++ token() : OAuthBearerToken [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#32]]]
++ errorStatus() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#37]]]
++ errorScope() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#42]]]
++ errorOpenIDConfiguration() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#47]]]
++ token(OAuthBearerToken) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#52]]]
++ error(String;String;String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#60]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ConfigurationValidator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationValidator.java.html#20"
  , "c1" : "void"
  , "c2" : "validate(ConfigResource)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationValidator.java.html#23"
  , "c1" : "void"
  , "c2" : "validate(ConfigResource;Map<String,String>)"
  , "c3" : "1"

@@ -2,16 +2,16 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.raft.internals.KafkaRaftMetrics
 class org.apache.kafka.raft.internals.KafkaRaftMetrics {
-+  KafkaRaftMetrics(Metrics;String;QuorumState)
-+  updatePollStart(long)
-+  updatePollEnd(long)
-+  updateLogEnd(OffsetAndEpoch)
-+  updateNumUnknownVoterConnections(int)
-+  updateAppendRecords(long)
-+  updateFetchedRecords(long)
-+  updateCommitLatency(double;long)
-+  updateElectionStartMs(long)
-+  maybeUpdateElectionLatency(long)
-+  close()
++ KafkaRaftMetrics(Metrics;String;QuorumState) : KafkaRaftMetrics [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#43]]]
++ updatePollStart(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#127]]]
++ updatePollEnd(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#138]]]
++ updateLogEnd(OffsetAndEpoch) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#142]]]
++ updateNumUnknownVoterConnections(int) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#146]]]
++ updateAppendRecords(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#150]]]
++ updateFetchedRecords(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#154]]]
++ updateCommitLatency(double;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#158]]]
++ updateElectionStartMs(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#162]]]
++ maybeUpdateElectionLatency(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#166]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#174]]]
 } 
 @enduml

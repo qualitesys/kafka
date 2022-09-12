@@ -2,14 +2,14 @@
 !pragma layout smetana
 AdminApiHandler.Batched_CoordinatorKey,Map_TopicPartition,OffsetAndMetadata__ <|-- org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler
 class org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler {
-+  ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;LogContext)
-+  ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;boolean;LogContext)
-+  newFuture(String)
-+  apiName()
-+  lookupStrategy()
-+  validateKeys(Set<CoordinatorKey>)
-+  buildBatchedRequest(int;Set<CoordinatorKey>)
-+  handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)
-+  handleGroupError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)
++ ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;LogContext) : ListConsumerGroupOffsetsHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#32]]]
++ ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;boolean;LogContext) : ListConsumerGroupOffsetsHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#40]]]
++ newFuture(String) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<TopicPartition,OffsetAndMetadata>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#53]]]
++ apiName() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#60]]]
++ lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#65]]]
+- validateKeys(Set<CoordinatorKey>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#69]]]
++ buildBatchedRequest(int;Set<CoordinatorKey>) : OffsetFetchRequest.Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#77]]]
++ handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,Map<TopicPartition,OffsetAndMetadata>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#83]]]
+- handleGroupError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#125]]]
 } 
 @enduml

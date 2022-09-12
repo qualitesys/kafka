@@ -2,27 +2,27 @@
 !pragma layout smetana
 SnapshottableHashTable_TimelineHashMap.TimelineHashMapEntry_K,V__Map_K,V_ <|-- org.apache.kafka.timeline.TimelineHashMap
 class org.apache.kafka.timeline.TimelineHashMap {
-+  TimelineHashMap(SnapshotRegistry;int)
-+  size()
-+  size(long)
-+  isEmpty()
-+  isEmpty(long)
-+  containsKey(Object)
-+  containsKey(Object;long)
-+  containsValue(Object)
-+  get(Object)
-+  get(Object;long)
-+  put(K;V)
-+  remove(Object)
-+  putAll(Map<?extendsK,?extendsV>)
-+  clear()
-+  keySet()
-+  keySet(long)
-+  values()
-+  values(long)
-+  entrySet()
-+  entrySet(long)
-+  hashCode()
-+  equals(Object)
++ TimelineHashMap(SnapshotRegistry;int) : TimelineHashMap [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#73]]]
++ size() : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#78]]]
++ size(long) : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#82]]]
++ isEmpty() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#87]]]
++ isEmpty(long) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#91]]]
++ containsKey(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#96]]]
++ containsKey(Object;long) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#100]]]
++ containsValue(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#105]]]
++ get(Object) : V [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#117]]]
++ get(Object;long) : V [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#121]]]
++ put(K;V) : V [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#131]]]
++ remove(Object) : V [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#143]]]
++ putAll(Map<?extendsK,?extendsV>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#150]]]
++ clear() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#157]]]
++ keySet() : Set<K> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#220]]]
++ keySet(long) : Set<K> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#224]]]
++ values() : Collection<V> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#280]]]
++ values(long) : Collection<V> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#284]]]
++ entrySet() : Set<Entry<K,V>> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#346]]]
++ entrySet(long) : Set<Entry<K,V>> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#350]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#355]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#365]]]
 } 
 @enduml

@@ -2,64 +2,64 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.ClientState
 class org.apache.kafka.streams.processor.internals.assignment.ClientState {
-+  ClientState()
-+  ClientState(Map<String,String>)
-+  ClientState(int)
-+  ClientState(int;Map<String,String>)
-+  ClientState(Set<TaskId>;Set<TaskId>;Map<TaskId,Long>;Map<String,String>;int)
-+  capacity()
-+  incrementCapacity()
-+  reachedCapacity()
-+  activeTasks()
-+  activeTaskCount()
-+  activeTaskLoad()
-+  assignActiveTasks(Collection<TaskId>)
-+  assignActiveToConsumer(TaskId;String)
-+  assignStandbyToConsumer(TaskId;String)
-+  revokeActiveFromConsumer(TaskId;String)
-+  prevOwnedActiveTasksByConsumer()
-+  prevOwnedStandbyByConsumer()
-+  prevOwnedStatefulTasksByConsumer(String)
-+  assignedActiveTasksByConsumer()
-+  revokingActiveTasksByConsumer()
-+  assignedStandbyTasksByConsumer()
-+  assignActive(TaskId)
-+  unassignActive(TaskId)
-+  standbyTasks()
-+  hasStandbyTask(TaskId)
-+  standbyTaskCount()
-+  assignStandby(TaskId)
-+  unassignStandby(TaskId)
-+  assignedTasks()
-+  assignedTaskCount()
-+  assignedTaskLoad()
-+  hasAssignedTask(TaskId)
-+  prevActiveTasks()
-+  addPreviousActiveTask(TaskId)
-+  addPreviousActiveTasks(Set<TaskId>)
-+  prevStandbyTasks()
-+  addPreviousStandbyTask(TaskId)
-+  addPreviousStandbyTasks(Set<TaskId>)
-+  previousAssignedTasks()
-+  previousOwnerForPartition(TopicPartition)
-+  clientTags()
-+  addOwnedPartitions(Collection<TopicPartition>;String)
-+  addPreviousTasksAndOffsetSums(String;Map<TaskId,Long>)
-+  initializePrevTasks(Map<TopicPartition,TaskId>;boolean)
-+  maybeFilterUnknownPrevTasksAndPartitions(Map<TopicPartition,TaskId>;boolean)
-+  computeTaskLags(UUID;Map<TaskId,Long>)
-+  lagFor(TaskId)
-+  prevTasksByLag(String)
-+  statefulActiveTasks()
-+  statelessActiveTasks()
-+  hasUnfulfilledQuota(int)
-+  hasMoreAvailableCapacityThan(ClientState)
-+  consumers()
-+  currentAssignment()
-+  toString()
-+  isStateful(TaskId)
-+  initializePrevActiveTasksFromOwnedPartitions(Map<TopicPartition,TaskId>)
-+  initializeRemainingPrevTasksFromTaskOffsetSums()
-+  assertNotAssigned(TaskId)
++ ClientState() : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#48]]]
++ ClientState(Map<String,String>) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#52]]]
+ClientState(int) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#56]]]
+ClientState(int;Map<String,String>) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#60]]]
++ ClientState(Set<TaskId>;Set<TaskId>;Map<TaskId,Long>;Map<String,String>;int) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#70]]]
+capacity() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#83]]]
++ incrementCapacity() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#87]]]
+reachedCapacity() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#91]]]
++ activeTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#95]]]
++ activeTaskCount() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#99]]]
+activeTaskLoad() : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#103]]]
++ assignActiveTasks(Collection<TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#107]]]
++ assignActiveToConsumer(TaskId;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#111]]]
++ assignStandbyToConsumer(TaskId;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#119]]]
++ revokeActiveFromConsumer(TaskId;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#123]]]
++ prevOwnedActiveTasksByConsumer() : Map<String,Set<TaskId>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#127]]]
++ prevOwnedStandbyByConsumer() : Map<String,Set<TaskId>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#131]]]
++ prevOwnedStatefulTasksByConsumer(String) : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#147]]]
++ assignedActiveTasksByConsumer() : Map<String,Set<TaskId>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#151]]]
++ revokingActiveTasksByConsumer() : Map<String,Set<TaskId>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#155]]]
++ assignedStandbyTasksByConsumer() : Map<String,Set<TaskId>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#159]]]
++ assignActive(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#163]]]
++ unassignActive(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#168]]]
++ standbyTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#176]]]
+hasStandbyTask(TaskId) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#180]]]
+standbyTaskCount() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#184]]]
++ assignStandby(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#188]]]
+unassignStandby(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#193]]]
+assignedTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#201]]]
++ assignedTaskCount() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#216]]]
+assignedTaskLoad() : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#220]]]
+hasAssignedTask(TaskId) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#224]]]
+prevActiveTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#228]]]
+- addPreviousActiveTask(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#232]]]
+addPreviousActiveTasks(Set<TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#236]]]
+prevStandbyTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#240]]]
+- addPreviousStandbyTask(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#244]]]
+addPreviousStandbyTasks(Set<TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#248]]]
+previousAssignedTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#252]]]
++ previousOwnerForPartition(TopicPartition) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#261]]]
++ clientTags() : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#265]]]
++ addOwnedPartitions(Collection<TopicPartition>;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#269]]]
++ addPreviousTasksAndOffsetSums(String;Map<TaskId,Long>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#275]]]
++ initializePrevTasks(Map<TopicPartition,TaskId>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#280]]]
+- maybeFilterUnknownPrevTasksAndPartitions(Map<TopicPartition,TaskId>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#291]]]
++ computeTaskLags(UUID;Map<TaskId,Long>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#304]]]
++ lagFor(TaskId) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#332]]]
++ prevTasksByLag(String) : SortedSet<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#341]]]
++ statefulActiveTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#353]]]
++ statelessActiveTasks() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#357]]]
+hasUnfulfilledQuota(int) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#361]]]
+hasMoreAvailableCapacityThan(ClientState) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#365]]]
++ consumers() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#386]]]
++ currentAssignment() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#390]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#396]]]
+- isStateful(TaskId) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#409]]]
+- initializePrevActiveTasksFromOwnedPartitions(Map<TopicPartition,TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#413]]]
+- initializeRemainingPrevTasksFromTaskOffsetSums() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#430]]]
+- assertNotAssigned(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#449]]]
 } 
 @enduml

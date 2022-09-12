@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.LogDirDescription" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#20"
  , "c1" : "LogDirDescription"
  , "c2" : "LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#24"
  , "c1" : "LogDirDescription"
  , "c2" : "LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>;long;long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#32"
  , "c1" : "ApiException"
  , "c2" : "error()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#37"
  , "c1" : "Map<TopicPartition,ReplicaInfo>"
  , "c2" : "replicaInfos()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#42"
  , "c1" : "OptionalLong"
  , "c2" : "totalBytes()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#47"
  , "c1" : "OptionalLong"
  , "c2" : "usableBytes()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#52"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

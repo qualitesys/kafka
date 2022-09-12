@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.BrokerHeartbeatReply
 class org.apache.kafka.metadata.BrokerHeartbeatReply {
-+  BrokerHeartbeatReply(boolean;boolean;boolean;boolean)
-+  isCaughtUp()
-+  isFenced()
-+  inControlledShutdown()
-+  shouldShutDown()
-+  hashCode()
-+  equals(Object)
-+  toString()
++ BrokerHeartbeatReply(boolean;boolean;boolean;boolean) : BrokerHeartbeatReply [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#21]]]
++ isCaughtUp() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#31]]]
++ isFenced() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#35]]]
++ inControlledShutdown() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#39]]]
++ shouldShutDown() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#43]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#48]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#53]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerHeartbeatReply.java.html#63]]]
 } 
 @enduml

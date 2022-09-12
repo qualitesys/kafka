@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.ClientQuotasImage
 class org.apache.kafka.image.ClientQuotasImage {
-+  ClientQuotasImage(Map<ClientQuotaEntity,ClientQuotaImage>)
-+  isEmpty()
-+  entities()
-+  write(Consumer<List<ApiMessageAndVersion>>)
-+  describe(DescribeClientQuotasRequestData)
-+  matches(ClientQuotaEntity;Map<String,String>;Set<String>;boolean)
-+  toDescribeEntry(ClientQuotaEntity;ClientQuotaImage)
-+  equals(Object)
-+  hashCode()
-+  toString()
++ ClientQuotasImage(Map<ClientQuotaEntity,ClientQuotaImage>) : ClientQuotasImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#39]]]
++ isEmpty() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#43]]]
+entities() : Map<ClientQuotaEntity,ClientQuotaImage> [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#47]]]
++ write(Consumer<List<ApiMessageAndVersion>>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#51]]]
++ describe(DescribeClientQuotasRequestData) : DescribeClientQuotasResponseData [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#59]]]
+- matches(ClientQuotaEntity;Map<String,String>;Set<String>;boolean) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#121]]]
+- toDescribeEntry(ClientQuotaEntity;ClientQuotaImage) : EntryData [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#146]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#159]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#166]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#171]]]
 } 
 @enduml

@@ -2,29 +2,29 @@
 !pragma layout smetana
 Readable <|-- org.apache.kafka.common.protocol.ByteBufferAccessor
 class org.apache.kafka.common.protocol.ByteBufferAccessor {
-+  ByteBufferAccessor(ByteBuffer)
-+  readByte()
-+  readShort()
-+  readInt()
-+  readLong()
-+  readDouble()
-+  readArray(byte[])
-+  readUnsignedVarint()
-+  readByteBuffer(int)
-+  writeByte(byte)
-+  writeShort(short)
-+  writeInt(int)
-+  writeLong(long)
-+  writeDouble(double)
-+  writeByteArray(byte[])
-+  writeUnsignedVarint(int)
-+  writeByteBuffer(ByteBuffer)
-+  writeVarint(int)
-+  writeVarlong(long)
-+  readVarint()
-+  readVarlong()
-+  remaining()
-+  flip()
-+  buffer()
++ ByteBufferAccessor(ByteBuffer) : ByteBufferAccessor [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#12]]]
++ readByte() : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#17]]]
++ readShort() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#22]]]
++ readInt() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#27]]]
++ readLong() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#32]]]
++ readDouble() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#37]]]
++ readArray(byte[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#42]]]
++ readUnsignedVarint() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#47]]]
++ readByteBuffer(int) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#52]]]
++ writeByte(byte) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#62]]]
++ writeShort(short) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#67]]]
++ writeInt(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#72]]]
++ writeLong(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#77]]]
++ writeDouble(double) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#82]]]
++ writeByteArray(byte[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#87]]]
++ writeUnsignedVarint(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#92]]]
++ writeByteBuffer(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#97]]]
++ writeVarint(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#102]]]
++ writeVarlong(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#107]]]
++ readVarint() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#112]]]
++ readVarlong() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#117]]]
++ remaining() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#122]]]
++ flip() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#126]]]
++ buffer() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#130]]]
 } 
 @enduml

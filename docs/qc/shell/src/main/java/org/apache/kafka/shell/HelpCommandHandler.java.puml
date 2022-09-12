@@ -2,8 +2,8 @@
 !pragma layout smetana
 Commands.Handler <|-- org.apache.kafka.shell.HelpCommandHandler
 class org.apache.kafka.shell.HelpCommandHandler {
-+  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
-+  hashCode()
-+  equals(Object)
++ run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54]]]
++ hashCode() : int [[[././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#62]]]
++ equals(Object) : boolean [[[././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#67]]]
 } 
 @enduml

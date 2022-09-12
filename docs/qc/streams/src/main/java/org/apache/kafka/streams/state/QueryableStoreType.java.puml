@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.QueryableStoreType
 class org.apache.kafka.streams.state.QueryableStoreType {
-+  accepts(StateStore)
-+  create(StateStoreProvider;String)
+accepts(StateStore) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreType.java.html#12]]]
+create(StateStoreProvider;String) : T [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreType.java.html#15]]]
 } 
 @enduml

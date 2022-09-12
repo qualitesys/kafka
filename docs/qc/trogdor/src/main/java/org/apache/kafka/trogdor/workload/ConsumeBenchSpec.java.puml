@@ -2,21 +2,21 @@
 !pragma layout smetana
 TaskSpec <|-- org.apache.kafka.trogdor.workload.ConsumeBenchSpec
 class org.apache.kafka.trogdor.workload.ConsumeBenchSpec {
-+  ConsumeBenchSpec(long;long;String;String;int;long;String;Map<String,String>;Map<String,String>;Map<String,String>;Integer;Optional<RecordProcessor>;List<String>)
-+  consumerNode()
-+  consumerGroup()
-+  bootstrapServers()
-+  targetMessagesPerSec()
-+  maxMessages()
-+  threadsPerWorker()
-+  recordProcessor()
-+  consumerConf()
-+  commonClientConf()
-+  adminClientConf()
-+  activeTopics()
-+  newController(String)
-+  newTaskWorker(String)
-+  materializeTopics()
-+  expandTopicName(String)
++ ConsumeBenchSpec(long;long;String;String;int;long;String;Map<String,String>;Map<String,String>;Map<String,String>;Integer;Optional<RecordProcessor>;List<String>) : ConsumeBenchSpec [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#42]]]
++ consumerNode() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#70]]]
++ consumerGroup() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#75]]]
++ bootstrapServers() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#80]]]
++ targetMessagesPerSec() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#85]]]
++ maxMessages() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#90]]]
++ threadsPerWorker() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#95]]]
++ recordProcessor() : Optional<RecordProcessor> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#100]]]
++ consumerConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#105]]]
++ commonClientConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#110]]]
++ adminClientConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#115]]]
++ activeTopics() : List<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#120]]]
++ newController(String) : TaskController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#125]]]
++ newTaskWorker(String) : TaskWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#130]]]
+materializeTopics() : Map<String,List<TopicPartition>> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#135]]]
+- expandTopicName(String) : Set<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#163]]]
 } 
 @enduml

@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.ClusterDelta
 class org.apache.kafka.image.ClusterDelta {
-+  ClusterDelta(ClusterImage)
-+  changedBrokers()
-+  broker(int)
-+  finishSnapshot()
-+  handleMetadataVersionChange(MetadataVersion)
-+  replay(RegisterBrokerRecord)
-+  replay(UnregisterBrokerRecord)
-+  getBrokerOrThrow(int;long;String)
-+  replay(FenceBrokerRecord)
-+  replay(UnfenceBrokerRecord)
-+  replay(BrokerRegistrationChangeRecord)
-+  apply()
-+  toString()
++ ClusterDelta(ClusterImage) : ClusterDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#26]]]
++ changedBrokers() : HashMap<Integer,Optional<BrokerRegistration>> [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#30]]]
++ broker(int) : BrokerRegistration [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#34]]]
++ finishSnapshot() : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#42]]]
++ handleMetadataVersionChange(MetadataVersion) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#50]]]
++ replay(RegisterBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#54]]]
++ replay(UnregisterBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#59]]]
+- getBrokerOrThrow(int;long;String) : BrokerRegistration [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#63]]]
++ replay(FenceBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#77]]]
++ replay(UnfenceBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#85]]]
++ replay(BrokerRegistrationChangeRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#93]]]
++ apply() : ClusterImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#113]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#137]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#181"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00210"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#210"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00215"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#215"
  , "c1" : "List<RebalanceProtocol>"
  , "c2" : "supportedProtocols()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00225"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#225"
  , "c1" : "ByteBuffer"
  , "c2" : "subscriptionUserData(Set<String>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00253"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#253"
  , "c1" : "Map<String,Assignment>"
  , "c2" : "errorAssignment(Map<UUID,ClientMetadata>;int)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00274"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#274"
  , "c1" : "GroupAssignment"
  , "c2" : "assign(Cluster;GroupSubscription)"
  , "c3" : "12"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00422"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#422"
  , "c1" : "boolean"
  , "c2" : "checkMetadataVersions(int;int;int)"
  , "c3" : "7"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00458"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#458"
  , "c1" : "RepartitionTopics"
  , "c2" : "prepareRepartitionTopics(Cluster)"
  , "c3" : "4"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00480"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#480"
  , "c1" : "void"
  , "c2" : "populateTasksForMaps(Map<TopicPartition,TaskId>;Map<Subtopology,Set<TaskId>>;Set<String>;Map<TaskId,Set<TopicPartition>>;Cluster)"
  , "c3" : "4"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00506"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#506"
  , "c1" : "void"
  , "c2" : "checkAllPartitions(Set<String>;Map<TaskId,Set<TopicPartition>>;Set<TopicPartition>;Cluster)"
  , "c3" : "6"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00532"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#532"
  , "c1" : "boolean"
  , "c2" : "assignTasksToClients(Cluster;Set<String>;Map<Subtopology,TopicsInfo>;Map<UUID,ClientMetadata>;Map<TaskId,Set<TopicPartition>>;Set<TaskId>)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00584"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#584"
  , "c1" : "TaskAssignor"
  , "c2" : "createTaskAssignor(boolean)"
  , "c3" : "5"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00600"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#600"
  , "c1" : "boolean"
  , "c2" : "populateClientStatesMap(Map<UUID,ClientState>;Map<UUID,ClientMetadata>;Map<TopicPartition,TaskId>;ChangelogTopics)"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00641"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#641"
  , "c1" : "Map<TaskId,Long>"
  , "c2" : "computeEndOffsetSumsByTask(Map<TopicPartition,ListOffsetsResultInfo>;Map<TopicPartition,Long>;ChangelogTopics)"
  , "c3" : "9"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00671"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#671"
  , "c1" : "void"
  , "c2" : "populatePartitionsByHostMaps(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>;Map<UUID,ClientMetadata>)"
  , "c3" : "5"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00699"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#699"
  , "c1" : "Map<String,Assignment>"
  , "c2" : "computeNewAssignment(Set<TaskId>;Map<UUID,ClientMetadata>;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Set<TopicPartition>;int;int;boolean;boolean)"
  , "c3" : "6"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00802"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#802"
  , "c1" : "boolean"
  , "c2" : "addClientAssignments(Set<TaskId>;Map<String,Assignment>;ClientMetadata;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Set<TopicPartition>;Map<String,List<TaskId>>;Map<String,List<TaskId>>;int;int;boolean)"
  , "c3" : "5"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00883"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#883"
  , "c1" : "Set<TaskId>"
  , "c2" : "populateActiveTaskAndPartitionsLists(List<TopicPartition>;List<TaskId>;String;ClientState;List<TaskId>;Map<TaskId,Set<TopicPartition>>;Set<TopicPartition>)"
  , "c3" : "6"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00941"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#941"
  , "c1" : "Map<TaskId,Set<TopicPartition>>"
  , "c2" : "buildStandbyTaskMap(String;Iterable<TaskId>;Iterable<TaskId>;Set<TaskId>;Map<TaskId,Set<TopicPartition>>;ClientState)"
  , "c3" : "4"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00971"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#971"
  , "c1" : "Map<String,List<TaskId>>"
  , "c2" : "assignTasksToThreads(Collection<TaskId>;boolean;SortedSet<String>;ClientState;Map<String,Integer>)"
  , "c3" : "21"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1074"
  , "c1" : "void"
  , "c2" : "validateMetadataVersions(int;int)"
  , "c3" : "3"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01095"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1095"
  , "c1" : "boolean"
  , "c2" : "maybeUpdateSubscriptionVersion(int;int)"
  , "c3" : "5"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01138"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1138"
  , "c1" : "void"
  , "c2" : "onAssignment(Assignment;ConsumerGroupMetadata)"
  , "c3" : "13"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01228"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1228"
  , "c1" : "void"
  , "c2" : "maybeScheduleFollowupRebalance(long;int;int;Set<HostInfo>)"
  , "c3" : "9"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01251"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1251"
  , "c1" : "boolean"
  , "c2" : "verifyHostInfo(Set<HostInfo>)"
  , "c3" : "3"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01262"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1262"
  , "c1" : "Map<TaskId,Set<TopicPartition>>"
  , "c2" : "getActiveTasks(List<TopicPartition>;AssignmentInfo)"
  , "c3" : "2"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01272"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1272"
  , "c1" : "Map<TopicPartition,PartitionInfo>"
  , "c2" : "getTopicPartitionInfo(Map<HostInfo,Set<TopicPartition>>)"
  , "c3" : "3"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01291"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1291"
  , "c1" : "void"
  , "c2" : "validateActiveTaskEncoding(List<TopicPartition>;AssignmentInfo;String)"
  , "c3" : "2"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01306"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1306"
  , "c1" : "int"
  , "c2" : "updateMinReceivedVersion(int;int)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01310"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1310"
  , "c1" : "int"
  , "c2" : "updateMinSupportedVersion(int;int)"
  , "c3" : "3"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01323"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1323"
  , "c1" : "void"
  , "c2" : "setInternalTopicManager(InternalTopicManager)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01327"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1327"
  , "c1" : "RebalanceProtocol"
  , "c2" : "rebalanceProtocol()"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01331"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1331"
  , "c1" : "String"
  , "c2" : "userEndPoint()"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01335"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1335"
  , "c1" : "TaskManager"
  , "c2" : "taskManager()"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01339"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1339"
  , "c1" : "byte"
  , "c2" : "uniqueField()"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01343"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1343"
  , "c1" : "Map<String,String>"
  , "c2" : "clientTags()"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01347"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1347"
  , "c1" : "void"
  , "c2" : "handleRebalanceStart(Set<String>)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01351"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1351"
  , "c1" : "long"
  , "c2" : "acceptableRecoveryLag()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01355"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1355"
  , "c1" : "int"
  , "c2" : "maxWarmupReplicas()"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01359"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1359"
  , "c1" : "int"
  , "c2" : "numStandbyReplicas()"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01363"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1363"
  , "c1" : "long"
  , "c2" : "probingRebalanceIntervalMs()"
  , "c3" : "1"

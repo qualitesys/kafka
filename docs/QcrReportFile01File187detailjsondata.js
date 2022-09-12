@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.NoOffsetForPartitionException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#18"
  , "c1" : "NoOffsetForPartitionException"
  , "c2" : "NoOffsetForPartitionException(TopicPartition)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#23"
  , "c1" : "NoOffsetForPartitionException"
  , "c2" : "NoOffsetForPartitionException(Collection<TopicPartition>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#29"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitions()"
  , "c3" : "1"

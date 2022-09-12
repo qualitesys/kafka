@@ -2,11 +2,11 @@
 !pragma layout smetana
 SessionBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier
 class org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier {
-+  InMemorySessionBytesStoreSupplier(String;long)
-+  name()
-+  get()
-+  metricsScope()
-+  segmentIntervalMs()
-+  retentionPeriod()
++ InMemorySessionBytesStoreSupplier(String;long) : InMemorySessionBytesStoreSupplier [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#12]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#19]]]
++ get() : SessionStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#24]]]
++ metricsScope() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#29]]]
++ segmentIntervalMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#35]]]
++ retentionPeriod() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#40]]]
 } 
 @enduml

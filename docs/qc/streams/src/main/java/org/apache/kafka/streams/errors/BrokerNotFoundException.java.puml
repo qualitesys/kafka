@@ -2,8 +2,8 @@
 !pragma layout smetana
 StreamsException <|-- org.apache.kafka.streams.errors.BrokerNotFoundException
 class org.apache.kafka.streams.errors.BrokerNotFoundException {
-+  BrokerNotFoundException(String)
-+  BrokerNotFoundException(String;Throwable)
-+  BrokerNotFoundException(Throwable)
++ BrokerNotFoundException(String) : BrokerNotFoundException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#10]]]
++ BrokerNotFoundException(String;Throwable) : BrokerNotFoundException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#14]]]
++ BrokerNotFoundException(Throwable) : BrokerNotFoundException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#18]]]
 } 
 @enduml

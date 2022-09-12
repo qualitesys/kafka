@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.PartitionGroup" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#54"
  , "c1" : "PartitionGroup"
  , "c2" : "PartitionGroup(LogContext;Map<TopicPartition,RecordQueue>;Function<TopicPartition,OptionalLong>;Sensor;Sensor;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#72"
  , "c1" : "boolean"
  , "c2" : "readyToProcess(long)"
  , "c3" : "20"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#174"
  , "c1" : "long"
  , "c2" : "partitionTimestamp(TopicPartition)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#183"
  , "c1" : "void"
  , "c2" : "updatePartitions(Set<TopicPartition>;Function<TopicPartition,RecordQueue>)"
  , "c3" : "4"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#204"
  , "c1" : "void"
  , "c2" : "setPartitionTime(TopicPartition;long)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00216"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#216"
  , "c1" : "StampedRecord"
  , "c2" : "nextRecord(RecordInfo;long)"
  , "c3" : "7"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00250"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#250"
  , "c1" : "int"
  , "c2" : "addRawRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "4"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00277"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#277"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitions()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00282"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#282"
  , "c1" : "long"
  , "c2" : "streamTime()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00286"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#286"
  , "c1" : "Long"
  , "c2" : "headRecordOffset(TopicPartition)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00297"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#297"
  , "c1" : "int"
  , "c2" : "numBuffered(TopicPartition)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00307"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#307"
  , "c1" : "int"
  , "c2" : "numBuffered()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00311"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#311"
  , "c1" : "boolean"
  , "c2" : "allPartitionsBufferedLocally()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00315"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#315"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00324"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#324"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"

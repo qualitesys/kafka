@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.placement.StripedReplicaPlacer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00234"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#234"
  , "c1" : "void"
  , "c2" : "throwInvalidReplicationFactorIfNonPositive(int)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00241"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#241"
  , "c1" : "void"
  , "c2" : "throwInvalidReplicationFactorIfZero(int)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#247"
  , "c1" : "void"
  , "c2" : "throwInvalidReplicationFactorIfTooFewBrokers(int;int)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00257"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#257"
  , "c1" : "StripedReplicaPlacer"
  , "c2" : "StripedReplicaPlacer(Random)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00262"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#262"
  , "c1" : "List<List<Integer>>"
  , "c2" : "place(PlacementSpec;ClusterDescriber)"
  , "c3" : "2"

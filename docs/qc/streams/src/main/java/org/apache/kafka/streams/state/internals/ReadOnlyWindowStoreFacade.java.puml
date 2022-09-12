@@ -2,15 +2,15 @@
 !pragma layout smetana
 ReadOnlyWindowStore_K,V_ <|-- org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade
 class org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade {
-+  ReadOnlyWindowStoreFacade(TimestampedWindowStore<K,V>)
-+  fetch(K;long)
-+  fetch(K;Instant;Instant)
-+  backwardFetch(K;Instant;Instant)
-+  fetch(K;K;Instant;Instant)
-+  backwardFetch(K;K;Instant;Instant)
-+  fetchAll(Instant;Instant)
-+  backwardFetchAll(Instant;Instant)
-+  all()
-+  backwardAll()
+ReadOnlyWindowStoreFacade(TimestampedWindowStore<K,V>) : ReadOnlyWindowStoreFacade [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#19]]]
++ fetch(K;long) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#24]]]
++ fetch(K;Instant;Instant) : WindowStoreIterator<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#30]]]
++ backwardFetch(K;Instant;Instant) : WindowStoreIterator<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#37]]]
++ fetch(K;K;Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#44]]]
++ backwardFetch(K;K;Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#52]]]
++ fetchAll(Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#60]]]
++ backwardFetchAll(Instant;Instant) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#66]]]
++ all() : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#72]]]
++ backwardAll() : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#77]]]
 } 
 @enduml

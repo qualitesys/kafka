@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.PartitionReassignment" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#15"
  , "c1" : "PartitionReassignment"
  , "c2" : "PartitionReassignment(List<Integer>;List<Integer>;List<Integer>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#22"
  , "c1" : "List<Integer>"
  , "c2" : "replicas()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#27"
  , "c1" : "List<Integer>"
  , "c2" : "addingReplicas()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#32"
  , "c1" : "List<Integer>"
  , "c2" : "removingReplicas()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/PartitionReassignment.java.html#37"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

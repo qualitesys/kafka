@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.rest.ErrorResponse
 class org.apache.kafka.trogdor.rest.ErrorResponse {
-+  ErrorResponse(int;String)
-+  code()
-+  message()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ ErrorResponse(int;String) : ErrorResponse [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#17]]]
++ code() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#24]]]
++ message() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#29]]]
++ equals(Object) : boolean [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#34]]]
++ hashCode() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#43]]]
++ toString() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#48]]]
 } 
 @enduml

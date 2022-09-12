@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.DuplicateResourceException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#12"
  , "c1" : "DuplicateResourceException"
  , "c2" : "DuplicateResourceException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#17"
  , "c1" : "DuplicateResourceException"
  , "c2" : "DuplicateResourceException(String;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#22"
  , "c1" : "DuplicateResourceException"
  , "c2" : "DuplicateResourceException(String;String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#28"
  , "c1" : "DuplicateResourceException"
  , "c2" : "DuplicateResourceException(String;String;Throwable)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#34"
  , "c1" : "String"
  , "c2" : "resource()"
  , "c3" : "1"

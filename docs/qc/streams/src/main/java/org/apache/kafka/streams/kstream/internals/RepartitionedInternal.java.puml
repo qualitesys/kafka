@@ -2,12 +2,12 @@
 !pragma layout smetana
 Repartitioned_K,V_ <|-- org.apache.kafka.streams.kstream.internals.RepartitionedInternal
 class org.apache.kafka.streams.kstream.internals.RepartitionedInternal {
-+  RepartitionedInternal(Repartitioned<K,V>)
-+  toInternalTopicProperties()
-+  name()
-+  keySerde()
-+  valueSerde()
-+  streamPartitioner()
-+  numberOfPartitions()
++ RepartitionedInternal(Repartitioned<K,V>) : RepartitionedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.html#11]]]
+toInternalTopicProperties() : InternalTopicProperties [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.html#15]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.html#19]]]
++ keySerde() : Serde<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.html#23]]]
++ valueSerde() : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.html#27]]]
++ streamPartitioner() : StreamPartitioner<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.html#31]]]
++ numberOfPartitions() : Integer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/RepartitionedInternal.java.html#35]]]
 } 
 @enduml

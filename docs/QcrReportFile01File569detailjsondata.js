@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.MutableRecordBatch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#12"
  , "c1" : "void"
  , "c2" : "setLastOffset(long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#15"
  , "c1" : "void"
  , "c2" : "setMaxTimestamp(TimestampType;long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#18"
  , "c1" : "void"
  , "c2" : "setPartitionLeaderEpoch(int)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#21"
  , "c1" : "void"
  , "c2" : "writeTo(ByteBufferOutputStream)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#24"
  , "c1" : "CloseableIterator<Record>"
  , "c2" : "skipKeyValueIterator(BufferSupplier)"
  , "c3" : "1"

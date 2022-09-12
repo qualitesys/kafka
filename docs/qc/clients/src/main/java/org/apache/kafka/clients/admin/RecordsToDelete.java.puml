@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.RecordsToDelete
 class org.apache.kafka.clients.admin.RecordsToDelete {
-+  RecordsToDelete(long)
-+  beforeOffset(long)
-+  beforeOffset()
-+  equals(Object)
-+  hashCode()
-+  toString()
+- RecordsToDelete(long) : RecordsToDelete [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#15]]]
++ beforeOffset(long) : RecordsToDelete [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#20]]]
++ beforeOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#25]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#30]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#40]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RecordsToDelete.java.html#45]]]
 } 
 @enduml

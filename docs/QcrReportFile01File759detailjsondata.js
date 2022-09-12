@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.auth.SslAuthenticationContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#12"
  , "c1" : "SslAuthenticationContext"
  , "c2" : "SslAuthenticationContext(SSLSession;InetAddress;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#18"
  , "c1" : "SSLSession"
  , "c2" : "session()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#23"
  , "c1" : "SecurityProtocol"
  , "c2" : "securityProtocol()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#28"
  , "c1" : "InetAddress"
  , "c2" : "clientAddress()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslAuthenticationContext.java.html#33"
  , "c1" : "String"
  , "c2" : "listenerName()"
  , "c3" : "1"

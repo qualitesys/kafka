@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:718px;height:136px;background:#000000;" version="1.1" viewBox="0 0 718 136" width="718px" zoomAndPan="magnify"><defs/><g><rect fill="#111E25" height="1" style="stroke:#111E25;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="706" x="5" y="111.1563">KeyValueStore_Bytes,byte[]_ &lt;|-- org.apache.kafka.streams.state.internals.RocksDBStore</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[8a47a964c5ce898a4fb976c7d7fb4bc8]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:718px;height:136px;background:#000000;" version="1.1" viewBox="0 0 718 136" width="718px" zoomAndPan="magnify"><defs/><g><rect fill="#061415" height="1" style="stroke:#061415;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="706" x="5" y="111.1563">KeyValueStore_Bytes,byte[]_ &lt;|-- org.apache.kafka.streams.state.internals.RocksDBStore</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[51a11b7a7de408d29ab54533ef13001b]
 @startuml
 !pragma layout smetana
 KeyValueStore_Bytes,byte[]_ <|- - org.apache.kafka.streams.state.internals.RocksDBStore
 class org.apache.kafka.streams.state.internals.RocksDBStore {
-+  RocksDBStore(String;String)
-+  RocksDBStore(String;String;RocksDBMetricsRecorder)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  openDB(Map<String,Object>;File)
-+  maybeSetUpStatistics(Map<String,Object>)
-+  addValueProvidersToMetricsRecorder()
-+  openRocksDB(DBOptions;ColumnFamilyOptions)
-+  name()
-+  persistent()
-+  isOpen()
-+  validateStoreOpen()
-+  put(Bytes;byte[])
-+  putIfAbsent(Bytes;byte[])
-+  putAll(List<KeyValue<Bytes,byte[]>>)
-+  get(Bytes)
-+  delete(Bytes)
-+  deleteRange(Bytes;Bytes)
-+  range(Bytes;Bytes)
-+  reverseRange(Bytes;Bytes)
-+  range(Bytes;Bytes;boolean)
-+  all()
-+  reverseAll()
-+  all(boolean)
-+  approximateNumEntries()
-+  isOverflowing(long)
-+  flush()
-+  addToBatch(KeyValue<byte[],byte[]>;WriteBatch)
-+  write(WriteBatch)
-+  close()
-+  closeOpenIterators()
-+  restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>)
-+  getOptions()
-+  getPosition()
++ RocksDBStore(String;String) : RocksDBStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#106]]]
+RocksDBStore(String;String;RocksDBMetricsRecorder) : RocksDBStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#111]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#121]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#133]]]
+openDB(Map<String,Object>;File) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#158]]]
+- maybeSetUpStatistics(Map<String,Object>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#223]]]
+- addValueProvidersToMetricsRecorder() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#236]]]
+openRocksDB(DBOptions;ColumnFamilyOptions) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#252]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#267]]]
++ persistent() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#272]]]
++ isOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#277]]]
+- validateStoreOpen() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#281]]]
++ put(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#288]]]
++ putIfAbsent(Bytes;byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#298]]]
++ putAll(List<KeyValue<Bytes,byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#309]]]
++ get(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#350]]]
++ delete(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#361]]]
+deleteRange(Bytes;Bytes) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#374]]]
++ range(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#385]]]
++ reverseRange(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#391]]]
+range(Bytes;Bytes;boolean) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#396]]]
++ all() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#416]]]
++ reverseAll() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#421]]]
+all(boolean) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#425]]]
++ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#434]]]
+- isOverflowing(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#448]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#455]]]
++ addToBatch(KeyValue<byte[],byte[]>;WriteBatch) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#467]]]
++ write(WriteBatch) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#473]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#478]]]
+- closeOpenIterators() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#512]]]
+restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#695]]]
++ getOptions() : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#716]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#721]]]
 } 
 @enduml
 

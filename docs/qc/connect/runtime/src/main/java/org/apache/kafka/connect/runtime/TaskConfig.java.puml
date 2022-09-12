@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractConfig <|-- org.apache.kafka.connect.runtime.TaskConfig
 class org.apache.kafka.connect.runtime.TaskConfig {
-+  TaskConfig()
-+  TaskConfig(Map<String,?>)
++ TaskConfig() : TaskConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.html#26]]]
++ TaskConfig(Map<String,?>) : TaskConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.html#30]]]
 } 
 @enduml

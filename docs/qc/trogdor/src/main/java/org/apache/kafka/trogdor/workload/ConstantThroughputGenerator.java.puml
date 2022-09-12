@@ -2,10 +2,10 @@
 !pragma layout smetana
 ThroughputGenerator <|-- org.apache.kafka.trogdor.workload.ConstantThroughputGenerator
 class org.apache.kafka.trogdor.workload.ConstantThroughputGenerator {
-+  ConstantThroughputGenerator(int;long)
-+  windowSizeMs()
-+  messagesPerWindow()
-+  calculateNextWindow()
-+  throttle()
++ ConstantThroughputGenerator(int;long) : ConstantThroughputGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#18]]]
++ windowSizeMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#30]]]
++ messagesPerWindow() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#35]]]
+- calculateNextWindow() : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#39]]]
++ throttle() : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#55]]]
 } 
 @enduml

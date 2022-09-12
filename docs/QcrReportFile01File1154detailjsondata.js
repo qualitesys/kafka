@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.rest.errors.BadRequestException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/BadRequestException.java.html#8"
  , "c1" : "BadRequestException"
  , "c2" : "BadRequestException(String)"
  , "c3" : "1"

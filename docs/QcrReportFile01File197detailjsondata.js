@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#109"
  , "c1" : "AbstractCoordinator"
  , "c2" : "AbstractCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;Metrics;String;Time)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#126"
  , "c1" : "String"
  , "c2" : "protocolType()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#129"
  , "c1" : "JoinGroupRequestData.JoinGroupRequestProtocolCollection"
  , "c2" : "metadata()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#132"
  , "c1" : "boolean"
  , "c2" : "onJoinPrepare(int;String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#135"
  , "c1" : "Map<String,ByteBuffer>"
  , "c2" : "onLeaderElected(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;boolean)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#141"
  , "c1" : "void"
  , "c2" : "onJoinComplete(int;String;String;ByteBuffer)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#147"
  , "c1" : "void"
  , "c2" : "onLeavePrepare()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#150"
  , "c1" : "boolean"
  , "c2" : "ensureCoordinatorReady(Timer)"
  , "c3" : "12"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00193"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#193"
  , "c1" : "RequestFuture<Void>"
  , "c2" : "lookupCoordinator()"
  , "c3" : "4"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00207"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#207"
  , "c1" : "void"
  , "c2" : "clearFindCoordinatorFuture()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00212"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#212"
  , "c1" : "boolean"
  , "c2" : "rejoinNeededOrPending()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#218"
  , "c1" : "void"
  , "c2" : "pollHeartbeat(long)"
  , "c3" : "4"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00235"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#235"
  , "c1" : "long"
  , "c2" : "timeToNextHeartbeat(long)"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00244"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#244"
  , "c1" : "void"
  , "c2" : "ensureActiveGroup()"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00251"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#251"
  , "c1" : "boolean"
  , "c2" : "ensureActiveGroup(Timer)"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00262"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#262"
  , "c1" : "void"
  , "c2" : "startHeartbeatThreadIfNeeded()"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00269"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#269"
  , "c1" : "void"
  , "c2" : "closeHeartbeatThread()"
  , "c3" : "2"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00287"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#287"
  , "c1" : "boolean"
  , "c2" : "joinGroupIfNeeded(Timer)"
  , "c3" : "13"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00377"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#377"
  , "c1" : "void"
  , "c2" : "resetJoinGroupFuture()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00381"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#381"
  , "c1" : "RequestFuture<ByteBuffer>"
  , "c2" : "initiateJoinGroup()"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#413"
  , "c1" : "RequestFuture<ByteBuffer>"
  , "c2" : "sendJoinGroupRequest()"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00558"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#558"
  , "c1" : "RequestFuture<ByteBuffer>"
  , "c2" : "onJoinFollower()"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00575"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#575"
  , "c1" : "RequestFuture<ByteBuffer>"
  , "c2" : "onLeaderElected(JoinGroupResponse)"
  , "c3" : "2"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00611"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#611"
  , "c1" : "RequestFuture<ByteBuffer>"
  , "c2" : "sendSyncGroupRequest(SyncGroupRequest.Builder)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00618"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#618"
  , "c1" : "boolean"
  , "c2" : "hasGenerationReset(Generation)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00714"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#714"
  , "c1" : "RequestFuture<Void>"
  , "c2" : "sendFindCoordinatorRequest(Node)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00775"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#775"
  , "c1" : "boolean"
  , "c2" : "coordinatorUnknown()"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00780"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#780"
  , "c1" : "Node"
  , "c2" : "checkAndGetCoordinator()"
  , "c3" : "2"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00788"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#788"
  , "c1" : "Node"
  , "c2" : "coordinator()"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00793"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#793"
  , "c1" : "void"
  , "c2" : "markCoordinatorUnknown(Errors)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00797"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#797"
  , "c1" : "void"
  , "c2" : "markCoordinatorUnknown(String)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00801"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#801"
  , "c1" : "void"
  , "c2" : "markCoordinatorUnknown(boolean;String)"
  , "c3" : "5"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#829"
  , "c1" : "Generation"
  , "c2" : "generation()"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#834"
  , "c1" : "Generation"
  , "c2" : "generationIfStable()"
  , "c3" : "2"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#840"
  , "c1" : "boolean"
  , "c2" : "rebalanceInProgress()"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00844"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#844"
  , "c1" : "String"
  , "c2" : "memberId()"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00848"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#848"
  , "c1" : "void"
  , "c2" : "resetStateAndGeneration(String;boolean)"
  , "c3" : "3"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00861"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#861"
  , "c1" : "void"
  , "c2" : "resetStateAndRejoin(String;boolean)"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00867"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#867"
  , "c1" : "void"
  , "c2" : "resetStateOnResponseError(ApiKeys;Errors;boolean)"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00872"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#872"
  , "c1" : "void"
  , "c2" : "resetGenerationOnLeaveGroup()"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00876"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#876"
  , "c1" : "void"
  , "c2" : "requestRejoinIfNecessary(String;String)"
  , "c3" : "2"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00883"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#883"
  , "c1" : "void"
  , "c2" : "requestRejoin(String)"
  , "c3" : "1"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00888"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#888"
  , "c1" : "void"
  , "c2" : "requestRejoin(String;String)"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00895"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#895"
  , "c1" : "boolean"
  , "c2" : "isProtocolTypeInconsistent(String)"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00901"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#901"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00906"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#906"
  , "c1" : "void"
  , "c2" : "close(Timer)"
  , "c3" : "3"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00931"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#931"
  , "c1" : "RequestFuture<Void>"
  , "c2" : "maybeLeaveGroup(String)"
  , "c3" : "2"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00957"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#957"
  , "c1" : "boolean"
  , "c2" : "isDynamicMember()"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00986"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#986"
  , "c1" : "RequestFuture<Void>"
  , "c2" : "sendHeartbeatRequest()"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1092"
  , "c1" : "Meter"
  , "c2" : "createMeter(Metrics;String;String;String)"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01409"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1409"
  , "c1" : "Heartbeat"
  , "c2" : "heartbeat()"
  , "c3" : "1"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01413"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1413"
  , "c1" : "String"
  , "c2" : "rejoinReason()"
  , "c3" : "1"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01417"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1417"
  , "c1" : "void"
  , "c2" : "setLastRebalanceTime(long)"
  , "c3" : "1"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01422"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1422"
  , "c1" : "boolean"
  , "c2" : "hasMatchingGenerationId(int)"
  , "c3" : "1"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01426"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1426"
  , "c1" : "boolean"
  , "c2" : "hasUnknownGeneration()"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01431"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1431"
  , "c1" : "boolean"
  , "c2" : "hasValidMemberId()"
  , "c3" : "1"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01435"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1435"
  , "c1" : "void"
  , "c2" : "setNewGeneration(Generation)"
  , "c3" : "1"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01439"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1439"
  , "c1" : "void"
  , "c2" : "setNewState(MemberState)"
  , "c3" : "1"

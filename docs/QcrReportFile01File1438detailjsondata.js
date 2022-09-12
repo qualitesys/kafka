@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.FileRawSnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#17"
  , "c1" : "FileRawSnapshotReader"
  , "c2" : "FileRawSnapshotReader(FileRecords;OffsetAndEpoch)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#23"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "snapshotId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#28"
  , "c1" : "long"
  , "c2" : "sizeInBytes()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#33"
  , "c1" : "UnalignedRecords"
  , "c2" : "slice(long;int)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#38"
  , "c1" : "Records"
  , "c2" : "records()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#43"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55"
  , "c1" : "FileRawSnapshotReader"
  , "c2" : "open(Path;OffsetAndEpoch)"
  , "c3" : "1"

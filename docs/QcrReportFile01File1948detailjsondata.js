@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.RocksDBConfigSetter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.html#17"
  , "c1" : "void"
  , "c2" : "setConfig(String;Options;Map<String,Object>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.html#20"
  , "c1" : "void"
  , "c2" : "close(String;Options)"
  , "c3" : "1"

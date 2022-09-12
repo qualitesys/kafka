@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.queue.EventQueue" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#94"
  , "c1" : "void"
  , "c2" : "prepend(Event)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#99"
  , "c1" : "void"
  , "c2" : "append(Event)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#104"
  , "c1" : "void"
  , "c2" : "appendWithDeadline(long;Event)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#109"
  , "c1" : "void"
  , "c2" : "scheduleDeferred(String;Function<OptionalLong,OptionalLong>;Event)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#116"
  , "c1" : "void"
  , "c2" : "cancelDeferred(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#125"
  , "c1" : "void"
  , "c2" : "enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#131"
  , "c1" : "void"
  , "c2" : "beginShutdown(String)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#136"
  , "c1" : "void"
  , "c2" : "beginShutdown(String;Event)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#141"
  , "c1" : "void"
  , "c2" : "beginShutdown(String;Event;long;TimeUnit)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#144"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#147"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

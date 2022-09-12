@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.SnapshotNotFoundException
 class org.apache.kafka.common.errors.SnapshotNotFoundException {
-+  SnapshotNotFoundException(String)
-+  SnapshotNotFoundException(String;Throwable)
++ SnapshotNotFoundException(String) : SnapshotNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/SnapshotNotFoundException.java.html#8]]]
++ SnapshotNotFoundException(String;Throwable) : SnapshotNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/SnapshotNotFoundException.java.html#12]]]
 } 
 @enduml

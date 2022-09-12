@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.common.serialization.AbstractApiMessageSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#16"
  , "c1" : "short"
  , "c2" : "unsignedIntToShort(Readable;String)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#30"
  , "c1" : "int"
  , "c2" : "recordSize(ApiMessageAndVersion;ObjectSerializationCache)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#40"
  , "c1" : "void"
  , "c2" : "write(ApiMessageAndVersion;ObjectSerializationCache;Writable)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#50"
  , "c1" : "ApiMessageAndVersion"
  , "c2" : "read(Readable;int)"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#83"
  , "c1" : "ApiMessage"
  , "c2" : "apiMessageFor(short)"
  , "c3" : "1"

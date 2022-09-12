@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListTransactionsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#21"
  , "c1" : "ListTransactionsResult"
  , "c2" : "ListTransactionsResult(KafkaFuture<Map<Integer,KafkaFutureImpl<Collection<TransactionListing>>>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#26"
  , "c1" : "KafkaFuture<Collection<TransactionListing>>"
  , "c2" : "all()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#37"
  , "c1" : "KafkaFuture<Map<Integer,KafkaFuture<Collection<TransactionListing>>>>"
  , "c2" : "byBrokerId()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#53"
  , "c1" : "KafkaFuture<Map<Integer,Collection<TransactionListing>>>"
  , "c2" : "allByBrokerId()"
  , "c3" : "6"

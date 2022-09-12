@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.LoggingContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#45"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#50"
  , "c1" : "LoggingContext"
  , "c2" : "forConnector(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#58"
  , "c1" : "LoggingContext"
  , "c2" : "forValidation(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#65"
  , "c1" : "LoggingContext"
  , "c2" : "forTask(ConnectorTaskId)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#73"
  , "c1" : "LoggingContext"
  , "c2" : "forOffsets(ConnectorTaskId)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#81"
  , "c1" : "String"
  , "c2" : "prefixFor(String;Scope;Integer)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#103"
  , "c1" : "LoggingContext"
  , "c2" : "LoggingContext()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#109"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "4"

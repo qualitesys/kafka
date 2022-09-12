@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.internals.FailedQueryResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#17"
  , "c1" : "FailedQueryResult"
  , "c2" : "FailedQueryResult(FailureReason;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#23"
  , "c1" : "boolean"
  , "c2" : "isSuccess()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#29"
  , "c1" : "boolean"
  , "c2" : "isFailure()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#34"
  , "c1" : "FailureReason"
  , "c2" : "getFailureReason()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#39"
  , "c1" : "String"
  , "c2" : "getFailureMessage()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#44"
  , "c1" : "R"
  , "c2" : "getResult()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/FailedQueryResult.java.html#51"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

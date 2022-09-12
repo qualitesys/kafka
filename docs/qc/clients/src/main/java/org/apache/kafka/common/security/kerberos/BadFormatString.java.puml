@@ -2,7 +2,7 @@
 !pragma layout smetana
 IOException <|-- org.apache.kafka.common.security.kerberos.BadFormatString
 class org.apache.kafka.common.security.kerberos.BadFormatString {
-+  BadFormatString(String)
-+  BadFormatString(String;Throwable)
+BadFormatString(String) : BadFormatString [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/BadFormatString.java.html#7]]]
+BadFormatString(String;Throwable) : BadFormatString [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/BadFormatString.java.html#10]]]
 } 
 @enduml

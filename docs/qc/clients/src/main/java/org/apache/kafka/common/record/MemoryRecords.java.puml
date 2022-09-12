@@ -2,57 +2,57 @@
 !pragma layout smetana
 AbstractRecords <|-- org.apache.kafka.common.record.MemoryRecords
 class org.apache.kafka.common.record.MemoryRecords {
-+  MemoryRecords(ByteBuffer)
-+  sizeInBytes()
-+  writeTo(TransferableChannel;long;int)
-+  writeFullyTo(GatheringByteChannel)
-+  validBytes()
-+  downConvert(byte;long;Time)
-+  batchIterator()
-+  firstBatchSize()
-+  filterTo(TopicPartition;RecordFilter;ByteBuffer;int;BufferSupplier)
-+  filterTo(TopicPartition;Iterable<MutableRecordBatch>;RecordFilter;ByteBuffer;int;BufferSupplier)
-+  filterBatch(RecordBatch;BufferSupplier;FilterResult;RecordFilter;byte;boolean;List<Record>)
-+  buildRetainedRecordsInto(RecordBatch;List<Record>;ByteBufferOutputStream;long)
-+  buffer()
-+  batches()
-+  toString()
-+  equals(Object)
-+  hashCode()
-+  readableRecords(ByteBuffer)
-+  builder(ByteBuffer;CompressionType;TimestampType;long)
-+  builder(ByteBuffer;CompressionType;TimestampType;long;int)
-+  idempotentBuilder(ByteBuffer;CompressionType;long;long;short;int)
-+  builder(ByteBuffer;byte;CompressionType;TimestampType;long;long)
-+  builder(ByteBuffer;byte;CompressionType;TimestampType;long)
-+  builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;int)
-+  builder(ByteBuffer;CompressionType;long;long;short;int;boolean)
-+  builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int)
-+  builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;int)
-+  builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int)
-+  withRecords(CompressionType;SimpleRecord...)
-+  withRecords(CompressionType;int;SimpleRecord...)
-+  withRecords(byte;CompressionType;SimpleRecord...)
-+  withRecords(long;CompressionType;SimpleRecord...)
-+  withRecords(byte;long;CompressionType;SimpleRecord...)
-+  withRecords(long;CompressionType;Integer;SimpleRecord...)
-+  withIdempotentRecords(CompressionType;long;short;int;SimpleRecord...)
-+  withIdempotentRecords(byte;long;CompressionType;long;short;int;int;SimpleRecord...)
-+  withIdempotentRecords(long;CompressionType;long;short;int;int;SimpleRecord...)
-+  withTransactionalRecords(CompressionType;long;short;int;SimpleRecord...)
-+  withTransactionalRecords(byte;long;CompressionType;long;short;int;int;SimpleRecord...)
-+  withTransactionalRecords(long;CompressionType;long;short;int;int;SimpleRecord...)
-+  withRecords(byte;long;CompressionType;TimestampType;SimpleRecord...)
-+  withRecords(byte;long;CompressionType;TimestampType;long;short;int;int;boolean;SimpleRecord...)
-+  withEndTransactionMarker(long;short;EndTransactionMarker)
-+  withEndTransactionMarker(long;long;short;EndTransactionMarker)
-+  withEndTransactionMarker(long;long;int;long;short;EndTransactionMarker)
-+  writeEndTransactionalMarker(ByteBuffer;long;long;int;long;short;EndTransactionMarker)
-+  withLeaderChangeMessage(long;long;int;ByteBuffer;LeaderChangeMessage)
-+  writeLeaderChangeMessage(ByteBuffer;long;long;int;LeaderChangeMessage)
-+  withSnapshotHeaderRecord(long;long;int;ByteBuffer;SnapshotHeaderRecord)
-+  writeSnapshotHeaderRecord(ByteBuffer;long;long;int;SnapshotHeaderRecord)
-+  withSnapshotFooterRecord(long;long;int;ByteBuffer;SnapshotFooterRecord)
-+  writeSnapshotFooterRecord(ByteBuffer;long;long;int;SnapshotFooterRecord)
+- MemoryRecords(ByteBuffer) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#42]]]
++ sizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#48]]]
++ writeTo(TransferableChannel;long;int) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#53]]]
++ writeFullyTo(GatheringByteChannel) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#64]]]
++ validBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#74]]]
++ downConvert(byte;long;Time) : ConvertedRecords<MemoryRecords> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#87]]]
++ batchIterator() : AbstractIterator<MutableRecordBatch> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#92]]]
++ firstBatchSize() : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#97]]]
++ filterTo(TopicPartition;RecordFilter;ByteBuffer;int;BufferSupplier) : FilterResult [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#104]]]
+- filterTo(TopicPartition;Iterable<MutableRecordBatch>;RecordFilter;ByteBuffer;int;BufferSupplier) : FilterResult [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#110]]]
+- filterBatch(RecordBatch;BufferSupplier;FilterResult;RecordFilter;byte;boolean;List<Record>) : BatchFilterResult [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#192]]]
+- buildRetainedRecordsInto(RecordBatch;List<Record>;ByteBufferOutputStream;long) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#241]]]
++ buffer() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#270]]]
++ batches() : Iterable<MutableRecordBatch> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#275]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#280]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#287]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#299]]]
++ readableRecords(ByteBuffer) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#409]]]
++ builder(ByteBuffer;CompressionType;TimestampType;long) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#413]]]
++ builder(ByteBuffer;CompressionType;TimestampType;long;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#420]]]
++ idempotentBuilder(ByteBuffer;CompressionType;long;long;short;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#434]]]
++ builder(ByteBuffer;byte;CompressionType;TimestampType;long;long) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#444]]]
++ builder(ByteBuffer;byte;CompressionType;TimestampType;long) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#455]]]
++ builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#468]]]
++ builder(ByteBuffer;CompressionType;long;long;short;int;boolean) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#479]]]
++ builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#491]]]
++ builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#504]]]
++ builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#519]]]
++ withRecords(CompressionType;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#536]]]
++ withRecords(CompressionType;int;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#540]]]
++ withRecords(byte;CompressionType;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#546]]]
++ withRecords(long;CompressionType;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#550]]]
++ withRecords(byte;long;CompressionType;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#555]]]
++ withRecords(long;CompressionType;Integer;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#559]]]
++ withIdempotentRecords(CompressionType;long;short;int;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#564]]]
++ withIdempotentRecords(byte;long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#570]]]
++ withIdempotentRecords(long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#577]]]
++ withTransactionalRecords(CompressionType;long;short;int;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#584]]]
++ withTransactionalRecords(byte;long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#590]]]
++ withTransactionalRecords(long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#597]]]
++ withRecords(byte;long;CompressionType;TimestampType;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#604]]]
++ withRecords(byte;long;CompressionType;TimestampType;long;short;int;int;boolean;SimpleRecord...) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#611]]]
++ withEndTransactionMarker(long;short;EndTransactionMarker) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#630]]]
++ withEndTransactionMarker(long;long;short;EndTransactionMarker) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#635]]]
++ withEndTransactionMarker(long;long;int;long;short;EndTransactionMarker) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#641]]]
++ writeEndTransactionalMarker(ByteBuffer;long;long;int;long;short;EndTransactionMarker) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#653]]]
++ withLeaderChangeMessage(long;long;int;ByteBuffer;LeaderChangeMessage) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#666]]]
+- writeLeaderChangeMessage(ByteBuffer;long;long;int;LeaderChangeMessage) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#678]]]
++ withSnapshotHeaderRecord(long;long;int;ByteBuffer;SnapshotHeaderRecord) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#693]]]
+- writeSnapshotHeaderRecord(ByteBuffer;long;long;int;SnapshotHeaderRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#705]]]
++ withSnapshotFooterRecord(long;long;int;ByteBuffer;SnapshotFooterRecord) : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#721]]]
+- writeSnapshotFooterRecord(ByteBuffer;long;long;int;SnapshotFooterRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#733]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#13"
  , "c1" : "boolean"
  , "c2" : "dryRun()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#17"
  , "c1" : "boolean"
  , "c2" : "validateOnly()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#22"
  , "c1" : "UpdateFeaturesOptions"
  , "c2" : "dryRun(boolean)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#26"
  , "c1" : "UpdateFeaturesOptions"
  , "c2" : "validateOnly(boolean)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.ClusterConnectionStates" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#33"
  , "c1" : "ClusterConnectionStates"
  , "c2" : "ClusterConnectionStates(long;long;long;long;LogContext;HostResolver)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#53"
  , "c1" : "boolean"
  , "c2" : "canConnect(String;long)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#63"
  , "c1" : "boolean"
  , "c2" : "isBlackedOut(String;long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#71"
  , "c1" : "long"
  , "c2" : "connectionDelay(String;long)"
  , "c3" : "6"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#88"
  , "c1" : "boolean"
  , "c2" : "isConnecting(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#94"
  , "c1" : "boolean"
  , "c2" : "isPreparingConnection(String)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#101"
  , "c1" : "void"
  , "c2" : "connecting(String;long;String)"
  , "c3" : "4"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#122"
  , "c1" : "InetAddress"
  , "c2" : "currentAddress(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#127"
  , "c1" : "void"
  , "c2" : "disconnected(String;long)"
  , "c3" : "4"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00146"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#146"
  , "c1" : "void"
  , "c2" : "throttle(String;long)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00155"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#155"
  , "c1" : "long"
  , "c2" : "throttleDelayMs(String;long)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#165"
  , "c1" : "long"
  , "c2" : "pollDelayMs(String;long)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#175"
  , "c1" : "void"
  , "c2" : "checkingApiVersions(String)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#183"
  , "c1" : "void"
  , "c2" : "ready(String)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00193"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#193"
  , "c1" : "void"
  , "c2" : "authenticationFailed(String;long;AuthenticationException)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#202"
  , "c1" : "boolean"
  , "c2" : "isReady(String;long)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#206"
  , "c1" : "boolean"
  , "c2" : "isReady(NodeConnectionState;long)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00211"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#211"
  , "c1" : "boolean"
  , "c2" : "hasReadyNodes(long)"
  , "c3" : "3"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#221"
  , "c1" : "boolean"
  , "c2" : "isConnected(String)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00227"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#227"
  , "c1" : "boolean"
  , "c2" : "isDisconnected(String)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00233"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#233"
  , "c1" : "AuthenticationException"
  , "c2" : "authenticationException(String)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#239"
  , "c1" : "void"
  , "c2" : "resetReconnectBackoff(NodeConnectionState)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00245"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#245"
  , "c1" : "void"
  , "c2" : "resetConnectionSetupTimeout(NodeConnectionState)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00251"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#251"
  , "c1" : "void"
  , "c2" : "updateReconnectBackoff(NodeConnectionState)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00257"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#257"
  , "c1" : "void"
  , "c2" : "updateConnectionSetupTimeout(NodeConnectionState)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00263"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#263"
  , "c1" : "void"
  , "c2" : "remove(String)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00269"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#269"
  , "c1" : "ConnectionState"
  , "c2" : "connectionState(String)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00274"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#274"
  , "c1" : "NodeConnectionState"
  , "c2" : "nodeState(String)"
  , "c3" : "2"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00283"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#283"
  , "c1" : "Set<String>"
  , "c2" : "connectingNodes()"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00288"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#288"
  , "c1" : "long"
  , "c2" : "lastConnectAttemptMs(String)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00294"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#294"
  , "c1" : "long"
  , "c2" : "connectionSetupTimeoutMs(String)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00300"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#300"
  , "c1" : "boolean"
  , "c2" : "isConnectionSetupTimeout(String;long)"
  , "c3" : "2"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00308"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#308"
  , "c1" : "List<String>"
  , "c2" : "nodesWithConnectionSetupTimeout(long)"
  , "c3" : "1"

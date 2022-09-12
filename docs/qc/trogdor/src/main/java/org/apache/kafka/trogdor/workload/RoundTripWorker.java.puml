@@ -2,8 +2,8 @@
 !pragma layout smetana
 TaskWorker <|-- org.apache.kafka.trogdor.workload.RoundTripWorker
 class org.apache.kafka.trogdor.workload.RoundTripWorker {
-+  RoundTripWorker(String;RoundTripWorkloadSpec)
-+  start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)
-+  stop(Platform)
++ RoundTripWorker(String;RoundTripWorkloadSpec) : RoundTripWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#90]]]
++ start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#96]]]
++ stop(Platform) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#426]]]
 } 
 @enduml

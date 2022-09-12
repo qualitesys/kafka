@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.ConnectUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#31"
  , "c1" : "Long"
  , "c2" : "checkAndConvertTimestamp(Long)"
  , "c3" : "5"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#40"
  , "c1" : "String"
  , "c2" : "lookupKafkaClusterId(WorkerConfig)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#47"
  , "c1" : "String"
  , "c2" : "lookupKafkaClusterId(Admin)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#68"
  , "c1" : "void"
  , "c2" : "ensureProperty(Map<String,?superString>;String;String;String;boolean)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#80"
  , "c1" : "Optional<String>"
  , "c2" : "ensurePropertyAndGetWarning(Map<String,?superString>;String;String;String;boolean)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#111"
  , "c1" : "void"
  , "c2" : "addMetricsContextProperties(Map<String,Object>;WorkerConfig;String)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#122"
  , "c1" : "boolean"
  , "c2" : "isSinkConnector(Connector)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#126"
  , "c1" : "boolean"
  , "c2" : "isSourceConnector(Connector)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#156"
  , "c1" : "ConnectException"
  , "c2" : "maybeWrap(Throwable;String)"
  , "c3" : "3"

@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.timeline.Snapshot
 class org.apache.kafka.timeline.Snapshot {
-+  Snapshot(long)
-+  epoch()
-+  setDelta(Revertable;Delta)
-+  handleRevert()
-+  mergeFrom(Snapshot)
-+  prev()
-+  next()
-+  appendNext(Snapshot)
-+  erase()
+Snapshot(long) : Snapshot [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#15]]]
+epoch() : long [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#19]]]
+setDelta(Revertable;Delta) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#28]]]
+handleRevert() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#32]]]
+mergeFrom(Snapshot) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#38]]]
+prev() : Snapshot [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#55]]]
+next() : Snapshot [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#59]]]
+appendNext(Snapshot) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#63]]]
+erase() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#70]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.ClauseGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java.html#7"
  , "c1" : "void"
  , "c2" : "generate(Versions)"
  , "c3" : "1"

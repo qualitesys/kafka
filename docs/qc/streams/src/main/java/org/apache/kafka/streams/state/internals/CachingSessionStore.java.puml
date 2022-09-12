@@ -2,25 +2,25 @@
 !pragma layout smetana
 WrappedStateStore_SessionStore_Bytes,byte[]_,byte[],byte[]_SessionStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.CachingSessionStore
 class org.apache.kafka.streams.state.internals.CachingSessionStore {
-+  CachingSessionStore(SessionStore<Bytes,byte[]>;long)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  initInternal(InternalProcessorContext<?,?>)
-+  putAndMaybeForward(ThreadCache.DirtyEntry;InternalProcessorContext<?,?>)
-+  setFlushListener(CacheFlushListener<byte[],byte[]>;boolean)
-+  put(Windowed<Bytes>;byte[])
-+  remove(Windowed<Bytes>)
-+  findSessions(Bytes;long;long)
-+  backwardFindSessions(Bytes;long;long)
-+  findSessions(Bytes;Bytes;long;long)
-+  backwardFindSessions(Bytes;Bytes;long;long)
-+  fetchSession(Bytes;long;long)
-+  fetch(Bytes)
-+  backwardFetch(Bytes)
-+  fetch(Bytes;Bytes)
-+  backwardFetch(Bytes;Bytes)
-+  flush()
-+  flushCache()
-+  close()
+CachingSessionStore(SessionStore<Bytes,byte[]>;long) : CachingSessionStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#49]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#59]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#65]]]
+- initInternal(InternalProcessorContext<?,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#70]]]
+- putAndMaybeForward(ThreadCache.DirtyEntry;InternalProcessorContext<?,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#81]]]
++ setFlushListener(CacheFlushListener<byte[],byte[]>;boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#120]]]
++ put(Windowed<Bytes>;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#129]]]
++ remove(Windowed<Bytes>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#147]]]
++ findSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#153]]]
++ backwardFindSessions(Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#179]]]
++ findSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#211]]]
++ backwardFindSessions(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#240]]]
++ fetchSession(Bytes;long;long) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#270]]]
++ fetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#289]]]
++ backwardFetch(Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#295]]]
++ fetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#301]]]
++ backwardFetch(Bytes;Bytes) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#307]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#312]]]
++ flushCache() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#318]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#322]]]
 } 
 @enduml

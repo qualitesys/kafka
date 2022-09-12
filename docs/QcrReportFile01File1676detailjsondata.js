@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#12"
  , "c1" : "KTableKTableAbstractJoinValueGetterSupplier"
  , "c2" : "KTableKTableAbstractJoinValueGetterSupplier(KTableValueGetterSupplier<K,V1>;KTableValueGetterSupplier<K,V2>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#19"
  , "c1" : "String[]"
  , "c2" : "storeNames()"
  , "c3" : "1"

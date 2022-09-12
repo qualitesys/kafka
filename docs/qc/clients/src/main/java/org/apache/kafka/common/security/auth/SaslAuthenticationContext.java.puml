@@ -2,12 +2,12 @@
 !pragma layout smetana
 AuthenticationContext <|-- org.apache.kafka.common.security.auth.SaslAuthenticationContext
 class org.apache.kafka.common.security.auth.SaslAuthenticationContext {
-+  SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String)
-+  SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional<SSLSession>)
-+  server()
-+  sslSession()
-+  securityProtocol()
-+  clientAddress()
-+  listenerName()
++ SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String) : SaslAuthenticationContext [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#17]]]
++ SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional<SSLSession>) : SaslAuthenticationContext [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#21]]]
++ server() : SaslServer [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#32]]]
++ sslSession() : Optional<SSLSession> [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#37]]]
++ securityProtocol() : SecurityProtocol [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#42]]]
++ clientAddress() : InetAddress [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#47]]]
++ listenerName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#52]]]
 } 
 @enduml

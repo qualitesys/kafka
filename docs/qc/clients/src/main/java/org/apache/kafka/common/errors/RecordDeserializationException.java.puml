@@ -2,8 +2,8 @@
 !pragma layout smetana
 SerializationException <|-- org.apache.kafka.common.errors.RecordDeserializationException
 class org.apache.kafka.common.errors.RecordDeserializationException {
-+  RecordDeserializationException(TopicPartition;long;String;Throwable)
-+  topicPartition()
-+  offset()
++ RecordDeserializationException(TopicPartition;long;String;Throwable) : RecordDeserializationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordDeserializationException.java.html#13]]]
++ topicPartition() : TopicPartition [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordDeserializationException.java.html#19]]]
++ offset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordDeserializationException.java.html#23]]]
 } 
 @enduml

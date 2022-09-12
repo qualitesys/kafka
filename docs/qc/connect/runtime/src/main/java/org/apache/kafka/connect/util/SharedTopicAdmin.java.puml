@@ -2,14 +2,14 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.util.SharedTopicAdmin
 class org.apache.kafka.connect.util.SharedTopicAdmin {
-+  SharedTopicAdmin(Map<String,Object>)
-+  SharedTopicAdmin(Map<String,Object>;Function<Map<String,Object>,TopicAdmin>)
-+  get()
-+  topicAdmin()
-+  bootstrapServers()
-+  close()
-+  close(Duration)
-+  toString()
-+  createAdmin(TopicAdmin)
++ SharedTopicAdmin(Map<String,Object>) : SharedTopicAdmin [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#27]]]
+SharedTopicAdmin(Map<String,Object>;Function<Map<String,Object>,TopicAdmin>) : SharedTopicAdmin [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#32]]]
++ get() : TopicAdmin [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#39]]]
++ topicAdmin() : TopicAdmin [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#44]]]
++ bootstrapServers() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#49]]]
++ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#55]]]
++ close(Duration) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#60]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#71]]]
+createAdmin(TopicAdmin) : TopicAdmin [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#76]]]
 } 
 @enduml

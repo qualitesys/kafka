@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.CreateAclsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.html#15"
  , "c1" : "CreateAclsOptions"
  , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.ProducerInterceptor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerInterceptor.java.html#9"
  , "c1" : "ProducerRecord<K,V>"
  , "c2" : "onSend(ProducerRecord<K,V>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerInterceptor.java.html#12"
  , "c1" : "void"
  , "c2" : "onAcknowledgement(RecordMetadata;Exception)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerInterceptor.java.html#15"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

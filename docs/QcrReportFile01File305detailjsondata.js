@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.SslConfigs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/SslConfigs.java.html#116"
  , "c1" : "void"
  , "c2" : "addClientSslSupport(ConfigDef)"
  , "c3" : "1"

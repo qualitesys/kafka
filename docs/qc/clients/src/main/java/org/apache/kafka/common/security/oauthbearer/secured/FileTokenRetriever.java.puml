@@ -2,8 +2,8 @@
 !pragma layout smetana
 AccessTokenRetriever <|-- org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever
 class org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever {
-+  FileTokenRetriever(Path)
-+  init()
-+  retrieve()
++ FileTokenRetriever(Path) : FileTokenRetriever [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#17]]]
++ init() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#22]]]
++ retrieve() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html#27]]]
 } 
 @enduml

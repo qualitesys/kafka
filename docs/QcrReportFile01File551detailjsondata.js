@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.CompressionRatioEstimator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18"
  , "c1" : "float"
  , "c2" : "updateEstimation(String;CompressionType;float)"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32"
  , "c1" : "float"
  , "c2" : "estimation(String;CompressionType)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38"
  , "c1" : "void"
  , "c2" : "resetEstimation(String)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#48"
  , "c1" : "void"
  , "c2" : "removeEstimation(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53"
  , "c1" : "void"
  , "c2" : "setEstimation(String;CompressionType;float)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#60"
  , "c1" : "float[]"
  , "c2" : "getAndCreateEstimationIfAbsent(String)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#72"
  , "c1" : "float[]"
  , "c2" : "initialCompressionRatio()"
  , "c3" : "2"

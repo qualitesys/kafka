@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.Timer
 class org.apache.kafka.common.utils.Timer {
-+  Timer(Time;long)
-+  isExpired()
-+  notExpired()
-+  updateAndReset(long)
-+  reset(long)
-+  resetDeadline(long)
-+  update()
-+  update(long)
-+  remainingMs()
-+  currentTimeMs()
-+  elapsedMs()
-+  timeoutMs()
-+  sleep(long)
+Timer(Time;long) : Timer [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#13]]]
++ isExpired() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#20]]]
++ notExpired() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#25]]]
++ updateAndReset(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#30]]]
++ reset(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#36]]]
++ resetDeadline(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#50]]]
++ update() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#60]]]
++ update(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#65]]]
++ remainingMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#70]]]
++ currentTimeMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#75]]]
++ elapsedMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#80]]]
++ timeoutMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#85]]]
++ sleep(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#90]]]
 } 
 @enduml

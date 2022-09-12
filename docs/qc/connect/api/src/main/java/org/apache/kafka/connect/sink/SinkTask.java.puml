@@ -2,15 +2,15 @@
 !pragma layout smetana
 Task <|-- org.apache.kafka.connect.sink.SinkTask
 class org.apache.kafka.connect.sink.SinkTask {
-+  initialize(SinkTaskContext)
-+  start(Map<String,String>)
-+  put(Collection<SinkRecord>)
-+  flush(Map<TopicPartition,OffsetAndMetadata>)
-+  preCommit(Map<TopicPartition,OffsetAndMetadata>)
-+  open(Collection<TopicPartition>)
-+  onPartitionsAssigned(Collection<TopicPartition>)
-+  close(Collection<TopicPartition>)
-+  onPartitionsRevoked(Collection<TopicPartition>)
-+  stop()
++ initialize(SinkTaskContext) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#23]]]
++ start(Map<String,String>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#29]]]
++ put(Collection<SinkRecord>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#32]]]
++ flush(Map<TopicPartition,OffsetAndMetadata>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#35]]]
++ preCommit(Map<TopicPartition,OffsetAndMetadata>) : Map<TopicPartition,OffsetAndMetadata> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#39]]]
++ open(Collection<TopicPartition>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#45]]]
++ onPartitionsAssigned(Collection<TopicPartition>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#51]]]
++ close(Collection<TopicPartition>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#55]]]
++ onPartitionsRevoked(Collection<TopicPartition>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#61]]]
++ stop() : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#66]]]
 } 
 @enduml

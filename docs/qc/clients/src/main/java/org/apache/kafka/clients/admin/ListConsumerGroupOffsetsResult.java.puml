@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult
 class org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult {
-+  ListConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>)
-+  partitionsToOffsetAndMetadata()
+ListConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>) : ListConsumerGroupOffsetsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#18]]]
++ partitionsToOffsetAndMetadata() : KafkaFuture<Map<TopicPartition,OffsetAndMetadata>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#23]]]
 } 
 @enduml

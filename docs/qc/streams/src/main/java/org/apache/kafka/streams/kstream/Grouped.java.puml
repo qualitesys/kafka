@@ -2,10 +2,10 @@
 !pragma layout smetana
 NamedOperation_Grouped_K,V__ <|-- org.apache.kafka.streams.kstream.Grouped
 class org.apache.kafka.streams.kstream.Grouped {
-+  Grouped(String;Serde<K>;Serde<V>)
-+  Grouped(Grouped<K,V>)
-+  withName(String)
-+  withKeySerde(Serde<K>)
-+  withValueSerde(Serde<V>)
+- Grouped(String;Serde<K>;Serde<V>) : Grouped [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#13]]]
+Grouped(Grouped<K,V>) : Grouped [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#21]]]
++ withName(String) : Grouped<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#58]]]
++ withKeySerde(Serde<K>) : Grouped<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#63]]]
++ withValueSerde(Serde<V>) : Grouped<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.html#68]]]
 } 
 @enduml

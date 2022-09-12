@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.ProduceRequestResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#23"
  , "c1" : "ProduceRequestResult"
  , "c2" : "ProduceRequestResult(TopicPartition)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#28"
  , "c1" : "void"
  , "c2" : "set(long;long;Function<Integer,RuntimeException>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#35"
  , "c1" : "void"
  , "c2" : "done()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#42"
  , "c1" : "void"
  , "c2" : "await()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#47"
  , "c1" : "boolean"
  , "c2" : "await(long;TimeUnit)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#52"
  , "c1" : "long"
  , "c2" : "baseOffset()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57"
  , "c1" : "boolean"
  , "c2" : "hasLogAppendTime()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#62"
  , "c1" : "long"
  , "c2" : "logAppendTime()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#67"
  , "c1" : "RuntimeException"
  , "c2" : "error(int)"
  , "c3" : "3"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#76"
  , "c1" : "TopicPartition"
  , "c2" : "topicPartition()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#81"
  , "c1" : "boolean"
  , "c2" : "completed()"
  , "c3" : "1"

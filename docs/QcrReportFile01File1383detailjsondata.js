@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.timeline.SnapshottableHashTable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00164"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#164"
  , "c1" : "SnapshottableHashTable"
  , "c2" : "SnapshottableHashTable(SnapshotRegistry;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#170"
  , "c1" : "int"
  , "c2" : "snapshottableSize(long)"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00186"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#186"
  , "c1" : "T"
  , "c2" : "snapshottableGet(Object;long)"
  , "c3" : "8"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00212"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#212"
  , "c1" : "boolean"
  , "c2" : "snapshottableAddUnlessPresent(T)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00224"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#224"
  , "c1" : "T"
  , "c2" : "snapshottableAddOrReplace(T)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00236"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#236"
  , "c1" : "T"
  , "c2" : "snapshottableRemove(Object)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#246"
  , "c1" : "void"
  , "c2" : "updateTierData(int)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00258"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#258"
  , "c1" : "void"
  , "c2" : "updateTierData(T;int)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00278"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#278"
  , "c1" : "Iterator<T>"
  , "c2" : "snapshottableIterator(long)"
  , "c3" : "3"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00286"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#286"
  , "c1" : "String"
  , "c2" : "snapshottableToDebugString()"
  , "c3" : "6"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00319"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#319"
  , "c1" : "void"
  , "c2" : "executeRevert(long;Delta)"
  , "c3" : "6"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00342"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#342"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "2"

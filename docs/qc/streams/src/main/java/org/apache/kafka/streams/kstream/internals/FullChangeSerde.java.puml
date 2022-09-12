@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.FullChangeSerde
 class org.apache.kafka.streams.kstream.internals.FullChangeSerde {
-+  FullChangeSerde(Serde<T>)
-+  innerSerde()
-+  serializeParts(String;Change<T>)
-+  deserializeParts(String;Change<byte[]>)
-+  decomposeLegacyFormattedArrayIntoChangeArrays(byte[])
+- FullChangeSerde(Serde<T>) : FullChangeSerde [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#24]]]
++ innerSerde() : Serde<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#28]]]
++ serializeParts(String;Change<T>) : Change<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#32]]]
++ deserializeParts(String;Change<byte[]>) : Change<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#43]]]
++ decomposeLegacyFormattedArrayIntoChangeArrays(byte[]) : Change<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58]]]
 } 
 @enduml

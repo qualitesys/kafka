@@ -2,17 +2,17 @@
 !pragma layout smetana
 AbstractControlRequest <|-- org.apache.kafka.common.requests.UpdateMetadataRequest
 class org.apache.kafka.common.requests.UpdateMetadataRequest {
-+  UpdateMetadataRequest(UpdateMetadataRequestData;short)
-+  normalize()
-+  listenerNameFromSecurityProtocol(UpdateMetadataEndpoint)
-+  controllerId()
-+  controllerEpoch()
-+  brokerEpoch()
-+  getErrorResponse(int;Throwable)
-+  partitionStates()
-+  topicStates()
-+  liveBrokers()
-+  data()
-+  parse(ByteBuffer;short)
+UpdateMetadataRequest(UpdateMetadataRequestData;short) : UpdateMetadataRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#116]]]
+- normalize() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#123]]]
+- listenerNameFromSecurityProtocol(UpdateMetadataEndpoint) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#158]]]
++ controllerId() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#164]]]
++ controllerEpoch() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#169]]]
++ brokerEpoch() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#174]]]
++ getErrorResponse(int;Throwable) : UpdateMetadataResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#179]]]
++ partitionStates() : Iterable<UpdateMetadataPartitionState> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#185]]]
++ topicStates() : List<UpdateMetadataTopicState> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#193]]]
++ liveBrokers() : List<UpdateMetadataBroker> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#200]]]
++ data() : UpdateMetadataRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#205]]]
++ parse(ByteBuffer;short) : UpdateMetadataRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#209]]]
 } 
 @enduml

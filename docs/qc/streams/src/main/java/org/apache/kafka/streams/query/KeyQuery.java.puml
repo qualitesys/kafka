@@ -2,9 +2,9 @@
 !pragma layout smetana
 Query_V_ <|-- org.apache.kafka.streams.query.KeyQuery
 class org.apache.kafka.streams.query.KeyQuery {
-+  KeyQuery(K;boolean)
-+  skipCache()
-+  getKey()
-+  isSkipCache()
+- KeyQuery(K;boolean) : KeyQuery [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#15]]]
++ skipCache() : KeyQuery<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#26]]]
++ getKey() : K [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#31]]]
++ isSkipCache() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#36]]]
 } 
 @enduml

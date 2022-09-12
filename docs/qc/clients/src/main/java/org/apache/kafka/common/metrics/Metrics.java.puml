@@ -2,46 +2,46 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.common.metrics.Metrics
 class org.apache.kafka.common.metrics.Metrics {
-+  Metrics()
-+  Metrics(Time)
-+  Metrics(MetricConfig;Time)
-+  Metrics(MetricConfig)
-+  Metrics(MetricConfig;List<MetricsReporter>;Time)
-+  Metrics(MetricConfig;List<MetricsReporter>;Time;MetricsContext)
-+  Metrics(MetricConfig;List<MetricsReporter>;Time;boolean)
-+  Metrics(MetricConfig;List<MetricsReporter>;Time;boolean;MetricsContext)
-+  metricName(String;String;String;Map<String,String>)
-+  metricName(String;String;String)
-+  metricName(String;String)
-+  metricName(String;String;String;String...)
-+  metricName(String;String;Map<String,String>)
-+  toHtmlTable(String;Iterable<MetricNameTemplate>)
-+  config()
-+  getSensor(String)
-+  sensor(String)
-+  sensor(String;Sensor.RecordingLevel)
-+  sensor(String;Sensor...)
-+  sensor(String;Sensor.RecordingLevel;Sensor...)
-+  sensor(String;MetricConfig;Sensor...)
-+  sensor(String;MetricConfig;Sensor.RecordingLevel;Sensor...)
-+  sensor(String;MetricConfig;long;Sensor.RecordingLevel;Sensor...)
-+  sensor(String;MetricConfig;long;Sensor...)
-+  removeSensor(String)
-+  addMetric(MetricName;Measurable)
-+  addMetric(MetricName;MetricConfig;Measurable)
-+  addMetric(MetricName;MetricConfig;MetricValueProvider<?>)
-+  addMetric(MetricName;MetricValueProvider<?>)
-+  addMetricIfAbsent(MetricName;MetricConfig;MetricValueProvider<?>)
-+  removeMetric(MetricName)
-+  addReporter(MetricsReporter)
-+  removeReporter(MetricsReporter)
-+  registerMetric(KafkaMetric)
-+  metrics()
-+  reporters()
-+  metric(MetricName)
-+  childrenSensors()
-+  metricInstance(MetricNameTemplate;String...)
-+  metricInstance(MetricNameTemplate;Map<String,String>)
-+  close()
++ Metrics() : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#44]]]
++ Metrics(Time) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#49]]]
++ Metrics(MetricConfig;Time) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#54]]]
++ Metrics(MetricConfig) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#60]]]
++ Metrics(MetricConfig;List<MetricsReporter>;Time) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#65]]]
++ Metrics(MetricConfig;List<MetricsReporter>;Time;MetricsContext) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#70]]]
++ Metrics(MetricConfig;List<MetricsReporter>;Time;boolean) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#75]]]
++ Metrics(MetricConfig;List<MetricsReporter>;Time;boolean;MetricsContext) : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#80]]]
++ metricName(String;String;String;Map<String,String>) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#108]]]
++ metricName(String;String;String) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#115]]]
++ metricName(String;String) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#120]]]
++ metricName(String;String;String;String...) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#125]]]
++ metricName(String;String;Map<String,String>) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#130]]]
++ toHtmlTable(String;Iterable<MetricNameTemplate>) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#135]]]
++ config() : MetricConfig [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#194]]]
++ getSensor(String) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#199]]]
++ sensor(String) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#204]]]
++ sensor(String;Sensor.RecordingLevel) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#209]]]
++ sensor(String;Sensor...) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#215]]]
++ sensor(String;Sensor.RecordingLevel;Sensor...) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#220]]]
++ sensor(String;MetricConfig;Sensor...) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#225]]]
++ sensor(String;MetricConfig;Sensor.RecordingLevel;Sensor...) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#231]]]
++ sensor(String;MetricConfig;long;Sensor.RecordingLevel;Sensor...) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#236]]]
++ sensor(String;MetricConfig;long;Sensor...) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#253]]]
++ removeSensor(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#258]]]
++ addMetric(MetricName;Measurable) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#283]]]
++ addMetric(MetricName;MetricConfig;Measurable) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#288]]]
++ addMetric(MetricName;MetricConfig;MetricValueProvider<?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#293]]]
++ addMetric(MetricName;MetricValueProvider<?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#306]]]
++ addMetricIfAbsent(MetricName;MetricConfig;MetricValueProvider<?>) : KafkaMetric [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#311]]]
++ removeMetric(MetricName) : KafkaMetric [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#323]]]
++ addReporter(MetricsReporter) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#339]]]
++ removeReporter(MetricsReporter) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#345]]]
+registerMetric(KafkaMetric) : KafkaMetric [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#352]]]
++ metrics() : Map<MetricName,KafkaMetric> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#371]]]
++ reporters() : List<MetricsReporter> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#375]]]
++ metric(MetricName) : KafkaMetric [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#379]]]
+childrenSensors() : Map<Sensor,List<Sensor>> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#406]]]
++ metricInstance(MetricNameTemplate;String...) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#410]]]
++ metricInstance(MetricNameTemplate;Map<String,String>) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#414]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#431]]]
 } 
 @enduml

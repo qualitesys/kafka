@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.memory.MemoryPool" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#42"
  , "c1" : "ByteBuffer"
  , "c2" : "tryAllocate(int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#45"
  , "c1" : "void"
  , "c2" : "release(ByteBuffer)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#48"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#51"
  , "c1" : "long"
  , "c2" : "availableMemory()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#54"
  , "c1" : "boolean"
  , "c2" : "isOutOfMemory()"
  , "c3" : "1"

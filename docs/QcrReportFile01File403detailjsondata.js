@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.RecordTooLargeException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#14"
  , "c1" : "RecordTooLargeException"
  , "c2" : "RecordTooLargeException()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#18"
  , "c1" : "RecordTooLargeException"
  , "c2" : "RecordTooLargeException(String;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#22"
  , "c1" : "RecordTooLargeException"
  , "c2" : "RecordTooLargeException(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#26"
  , "c1" : "RecordTooLargeException"
  , "c2" : "RecordTooLargeException(Throwable)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#30"
  , "c1" : "RecordTooLargeException"
  , "c2" : "RecordTooLargeException(String;Map<TopicPartition,Long>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#35"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "recordTooLargePartitions()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.standalone.StandaloneConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneConfig.java.html#24"
  , "c1" : "StandaloneConfig"
  , "c2" : "StandaloneConfig(Map<String,String>)"
  , "c3" : "1"

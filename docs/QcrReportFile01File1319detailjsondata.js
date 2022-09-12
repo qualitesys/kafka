@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.QuorumControllerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#69"
  , "c1" : "QuorumControllerMetrics"
  , "c2" : "QuorumControllerMetrics(MetricsRegistry;Time)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#152"
  , "c1" : "void"
  , "c2" : "setActive(boolean)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#157"
  , "c1" : "boolean"
  , "c2" : "active()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00162"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#162"
  , "c1" : "void"
  , "c2" : "updateEventQueueTime(long)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00167"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#167"
  , "c1" : "void"
  , "c2" : "updateEventQueueProcessingTime(long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#172"
  , "c1" : "void"
  , "c2" : "setFencedBrokerCount(int)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#177"
  , "c1" : "int"
  , "c2" : "fencedBrokerCount()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#181"
  , "c1" : "void"
  , "c2" : "setActiveBrokerCount(int)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00186"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#186"
  , "c1" : "int"
  , "c2" : "activeBrokerCount()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00191"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#191"
  , "c1" : "void"
  , "c2" : "setGlobalTopicsCount(int)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#196"
  , "c1" : "int"
  , "c2" : "globalTopicsCount()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00201"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#201"
  , "c1" : "void"
  , "c2" : "setGlobalPartitionCount(int)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#206"
  , "c1" : "int"
  , "c2" : "globalPartitionCount()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00211"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#211"
  , "c1" : "void"
  , "c2" : "setOfflinePartitionCount(int)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00216"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#216"
  , "c1" : "int"
  , "c2" : "offlinePartitionCount()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#221"
  , "c1" : "void"
  , "c2" : "setPreferredReplicaImbalanceCount(int)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#226"
  , "c1" : "int"
  , "c2" : "preferredReplicaImbalanceCount()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00231"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#231"
  , "c1" : "void"
  , "c2" : "setLastAppliedRecordOffset(long)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00236"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#236"
  , "c1" : "long"
  , "c2" : "lastAppliedRecordOffset()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00241"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#241"
  , "c1" : "void"
  , "c2" : "setLastCommittedRecordOffset(long)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#246"
  , "c1" : "long"
  , "c2" : "lastCommittedRecordOffset()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00251"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#251"
  , "c1" : "void"
  , "c2" : "setLastAppliedRecordTimestamp(long)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00256"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#256"
  , "c1" : "long"
  , "c2" : "lastAppliedRecordTimestamp()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00261"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#261"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00277"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#277"
  , "c1" : "MetricName"
  , "c2" : "getMetricName(String;String)"
  , "c3" : "1"

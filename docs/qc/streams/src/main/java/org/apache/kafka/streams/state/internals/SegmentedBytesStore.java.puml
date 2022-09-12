@@ -2,17 +2,17 @@
 !pragma layout smetana
 StateStore <|-- org.apache.kafka.streams.state.internals.SegmentedBytesStore
 class org.apache.kafka.streams.state.internals.SegmentedBytesStore {
-+  fetch(Bytes;long;long)
-+  backwardFetch(Bytes;long;long)
-+  fetch(Bytes;Bytes;long;long)
-+  backwardFetch(Bytes;Bytes;long;long)
-+  all()
-+  backwardAll()
-+  fetchAll(long;long)
-+  backwardFetchAll(long;long)
-+  remove(Bytes)
-+  remove(Bytes;long)
-+  put(Bytes;byte[])
-+  get(Bytes)
+fetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#15]]]
+backwardFetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#18]]]
+fetch(Bytes;Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#21]]]
+backwardFetch(Bytes;Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#24]]]
+all() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#27]]]
+backwardAll() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#30]]]
+fetchAll(long;long) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#33]]]
+backwardFetchAll(long;long) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#35]]]
+remove(Bytes) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#38]]]
+remove(Bytes;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#41]]]
+put(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#44]]]
+get(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#47]]]
 } 
 @enduml

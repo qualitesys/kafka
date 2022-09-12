@@ -2,9 +2,9 @@
 !pragma layout smetana
 RemoteLogMetadataCache <|-- org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache
 class org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache {
-+  FileBasedRemoteLogMetadataCache(TopicIdPartition;Path)
-+  loadRemoteLogSegmentMetadata(RemoteLogMetadataSnapshotFile.Snapshot)
-+  createRemoteLogSegmentMetadata(RemoteLogSegmentMetadataSnapshot)
-+  flushToFile(int;Long)
++ FileBasedRemoteLogMetadataCache(TopicIdPartition;Path) : FileBasedRemoteLogMetadataCache [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#22]]]
+loadRemoteLogSegmentMetadata(RemoteLogMetadataSnapshotFile.Snapshot) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38]]]
+- createRemoteLogSegmentMetadata(RemoteLogSegmentMetadataSnapshot) : RemoteLogSegmentMetadata [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#58]]]
++ flushToFile(int;Long) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#65]]]
 } 
 @enduml

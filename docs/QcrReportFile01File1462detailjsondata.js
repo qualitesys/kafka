@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.util.TranslatedValueMapView" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#68"
  , "c1" : "TranslatedValueMapView"
  , "c2" : "TranslatedValueMapView(Map<K,B>;Function<B,V>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#76"
  , "c1" : "boolean"
  , "c2" : "containsKey(Object)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#81"
  , "c1" : "V"
  , "c2" : "get(Object)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#88"
  , "c1" : "Set<Entry<K,V>>"
  , "c2" : "entrySet()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#93"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"

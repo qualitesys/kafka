@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.ErrorLoggingCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#19"
  , "c1" : "ErrorLoggingCallback"
  , "c2" : "ErrorLoggingCallback(String;byte[];byte[];boolean)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#31"
  , "c1" : "void"
  , "c2" : "onCompletion(RecordMetadata;Exception)"
  , "c3" : "2"

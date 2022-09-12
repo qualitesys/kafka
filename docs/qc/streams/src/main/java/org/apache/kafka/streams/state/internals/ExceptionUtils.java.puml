@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.ExceptionUtils
 class org.apache.kafka.streams.state.internals.ExceptionUtils {
-+  ExceptionUtils()
-+  executeAll(Runnable...)
-+  throwSuppressed(String;LinkedList<RuntimeException>)
+- ExceptionUtils() : ExceptionUtils [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#7]]]
+executeAll(Runnable...) : LinkedList<RuntimeException> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#9]]]
+throwSuppressed(String;LinkedList<RuntimeException>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#21]]]
 } 
 @enduml

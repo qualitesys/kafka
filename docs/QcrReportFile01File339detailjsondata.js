@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.html#8"
  , "c1" : "FetchSessionIdNotFoundException"
  , "c2" : "FetchSessionIdNotFoundException()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.html#11"
  , "c1" : "FetchSessionIdNotFoundException"
  , "c2" : "FetchSessionIdNotFoundException(String)"
  , "c3" : "1"

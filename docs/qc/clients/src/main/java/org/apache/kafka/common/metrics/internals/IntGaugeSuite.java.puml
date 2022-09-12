@@ -2,13 +2,13 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.common.metrics.internals.IntGaugeSuite
 class org.apache.kafka.common.metrics.internals.IntGaugeSuite {
-+  IntGaugeSuite(Logger;String;Metrics;Function<K,MetricName>;int)
-+  increment(K)
-+  performPendingMetricsOperations()
-+  decrement(K)
-+  close()
-+  maxEntries()
-+  metrics()
-+  values()
++ IntGaugeSuite(Logger;String;Metrics;Function<K,MetricName>;int) : IntGaugeSuite [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#96]]]
++ increment(K) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#115]]]
+- performPendingMetricsOperations() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#156]]]
++ decrement(K) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#181]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#202]]]
++ maxEntries() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#219]]]
+metrics() : Metrics [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#224]]]
+values() : Map<K,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#229]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.FetchSnapshotResponse
 class org.apache.kafka.common.requests.FetchSnapshotResponse {
-+  FetchSnapshotResponse(FetchSnapshotResponseData)
-+  errorCounts()
-+  throttleTimeMs()
-+  data()
-+  withTopLevelError(Errors)
-+  singleton(TopicPartition;UnaryOperator<FetchSnapshotResponseData.PartitionSnapshot>)
-+  forTopicPartition(FetchSnapshotResponseData;TopicPartition)
-+  parse(ByteBuffer;short)
++ FetchSnapshotResponse(FetchSnapshotResponseData) : FetchSnapshotResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#20]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#26]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#45]]]
++ data() : FetchSnapshotResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#50]]]
++ withTopLevelError(Errors) : FetchSnapshotResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#55]]]
++ singleton(TopicPartition;UnaryOperator<FetchSnapshotResponseData.PartitionSnapshot>) : FetchSnapshotResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#60]]]
++ forTopicPartition(FetchSnapshotResponseData;TopicPartition) : Optional<FetchSnapshotResponseData.PartitionSnapshot> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#79]]]
++ parse(ByteBuffer;short) : FetchSnapshotResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#92]]]
 } 
 @enduml

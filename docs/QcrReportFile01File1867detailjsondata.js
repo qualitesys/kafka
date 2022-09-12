@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StoreChangelogReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#192"
  , "c1" : "StoreChangelogReader"
  , "c2" : "StoreChangelogReader(Time;StreamsConfig;LogContext;Admin;Consumer<byte[],byte[]>;StateRestoreListener)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00214"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#214"
  , "c1" : "String"
  , "c2" : "recordEndOffset(Long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#218"
  , "c1" : "boolean"
  , "c2" : "hasRestoredToEnd(ChangelogMetadata)"
  , "c3" : "7"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00266"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#266"
  , "c1" : "void"
  , "c2" : "enforceRestoreActive()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00286"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#286"
  , "c1" : "void"
  , "c2" : "transitToUpdateStandby()"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00304"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#304"
  , "c1" : "void"
  , "c2" : "register(TopicPartition;ProcessorStateManager)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00324"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#324"
  , "c1" : "ChangelogMetadata"
  , "c2" : "restoringChangelogByPartition(TopicPartition)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00338"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#338"
  , "c1" : "Set<ChangelogMetadata>"
  , "c2" : "registeredChangelogs()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00344"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#344"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "restoringChangelogs()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00351"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#351"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "activeRestoringChangelogs()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00359"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#359"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "standbyRestoringChangelogs()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00368"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#368"
  , "c1" : "boolean"
  , "c2" : "allChangelogsCompleted()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00374"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#374"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "completedChangelogs()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00385"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#385"
  , "c1" : "void"
  , "c2" : "restore(Map<TaskId,Task>)"
  , "c3" : "8"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00457"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#457"
  , "c1" : "void"
  , "c2" : "pauseResumePartitions(Map<TaskId,Task>;Set<TopicPartition>)"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00467"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#467"
  , "c1" : "void"
  , "c2" : "updatePartitionsByType(Map<TaskId,Task>;Set<TopicPartition>;TaskType)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00478"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#478"
  , "c1" : "boolean"
  , "c2" : "shouldResume(Map<TaskId,Task>;TopicPartition;TaskType)"
  , "c3" : "2"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00488"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#488"
  , "c1" : "boolean"
  , "c2" : "shouldPause(Map<TaskId,Task>;TopicPartition;TaskType)"
  , "c3" : "2"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00498"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#498"
  , "c1" : "void"
  , "c2" : "maybeLogRestorationProgress()"
  , "c3" : "6"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00528"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#528"
  , "c1" : "String"
  , "c2" : "getPositionString(TopicPartition;ChangelogMetadata)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00535"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#535"
  , "c1" : "void"
  , "c2" : "maybeUpdateLimitOffsetsForStandbyChangelogs(Map<TaskId,Task>)"
  , "c3" : "4"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00561"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#561"
  , "c1" : "void"
  , "c2" : "bufferChangelogRecords(ChangelogMetadata;List<ConsumerRecord<byte[],byte[]>>)"
  , "c3" : "5"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00579"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#579"
  , "c1" : "boolean"
  , "c2" : "restoreChangelog(ChangelogMetadata)"
  , "c3" : "6"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00640"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#640"
  , "c1" : "Set<Task>"
  , "c2" : "getTasksFromPartitions(Map<TaskId,Task>;Set<TopicPartition>)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00649"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#649"
  , "c1" : "void"
  , "c2" : "clearTaskTimeout(Set<Task>)"
  , "c3" : "2"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00657"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#657"
  , "c1" : "void"
  , "c2" : "maybeInitTaskTimeoutOrThrow(Set<Task>;Exception)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00663"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#663"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "committedOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>)"
  , "c3" : "2"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00690"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#690"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "endOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>)"
  , "c3" : "2"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00717"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#717"
  , "c1" : "void"
  , "c2" : "updateLimitOffsetsForStandbyChangelogs(Map<TopicPartition,Long>)"
  , "c3" : "5"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00742"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#742"
  , "c1" : "void"
  , "c2" : "initializeChangelogs(Map<TaskId,Task>;Set<ChangelogMetadata>)"
  , "c3" : "12"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00820"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#820"
  , "c1" : "void"
  , "c2" : "addChangelogsToRestoreConsumer(Set<TopicPartition>)"
  , "c3" : "2"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00834"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#834"
  , "c1" : "void"
  , "c2" : "pauseChangelogsFromRestoreConsumer(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00847"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#847"
  , "c1" : "void"
  , "c2" : "removeChangelogsFromRestoreConsumer(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00859"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#859"
  , "c1" : "void"
  , "c2" : "resumeChangelogsFromRestoreConsumer(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00872"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#872"
  , "c1" : "void"
  , "c2" : "prepareChangelogs(Set<ChangelogMetadata>)"
  , "c3" : "7"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00933"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#933"
  , "c1" : "void"
  , "c2" : "unregister(Collection<TopicPartition>)"
  , "c3" : "5"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00956"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#956"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "2"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00970"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#970"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00975"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#975"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00980"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#980"
  , "c1" : "ChangelogMetadata"
  , "c2" : "changelogMetadata(TopicPartition)"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00984"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#984"
  , "c1" : "ChangelogReaderState"
  , "c2" : "state()"
  , "c3" : "1"

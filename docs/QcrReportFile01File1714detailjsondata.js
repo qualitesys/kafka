@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#18"
  , "c1" : "TimestampedTupleForwarder"
  , "c2" : "TimestampedTupleForwarder(StateStore;ProcessorContext<K,Change<V>>;CacheFlushListener<K,?>;boolean)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#27"
  , "c1" : "TimestampedTupleForwarder"
  , "c2" : "TimestampedTupleForwarder(ProcessorContext<K,Change<V>>;boolean)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#34"
  , "c1" : "void"
  , "c2" : "maybeForward(Record<K,Change<V>>)"
  , "c3" : "4"

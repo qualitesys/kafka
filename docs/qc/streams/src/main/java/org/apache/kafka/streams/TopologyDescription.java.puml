@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.TopologyDescription
 class org.apache.kafka.streams.TopologyDescription {
-+  subtopologies()
-+  globalStores()
+subtopologies() : Set<Subtopology> [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.html#70]]]
+globalStores() : Set<GlobalStore> [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.html#73]]]
 } 
 @enduml

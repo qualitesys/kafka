@@ -2,36 +2,36 @@
 !pragma layout smetana
 Runnable <|-- org.apache.kafka.clients.producer.internals.Sender
 class org.apache.kafka.clients.producer.internals.Sender {
-+  Sender(LogContext;KafkaClient;ProducerMetadata;RecordAccumulator;boolean;int;short;int;SenderMetricsRegistry;Time;int;long;TransactionManager;ApiVersions)
-+  inFlightBatches(TopicPartition)
-+  maybeRemoveFromInflightBatches(ProducerBatch)
-+  maybeRemoveAndDeallocateBatch(ProducerBatch)
-+  getExpiredInflightBatches(long)
-+  addToInflightBatches(List<ProducerBatch>)
-+  addToInflightBatches(Map<Integer,List<ProducerBatch>>)
-+  hasPendingTransactionalRequests()
-+  run()
-+  runOnce()
-+  sendProducerData(long)
-+  maybeSendAndPollTransactionalRequest()
-+  maybeFindCoordinatorAndRetry(TransactionManager.TxnRequestHandler)
-+  maybeAbortBatches(RuntimeException)
-+  initiateClose()
-+  forceClose()
-+  isRunning()
-+  awaitNodeReady(Node;FindCoordinatorRequest.CoordinatorType)
-+  handleProduceResponse(ClientResponse;Map<TopicPartition,ProducerBatch>;long)
-+  completeBatch(ProducerBatch;ProduceResponse.PartitionResponse;long;long)
-+  formatErrMsg(ProduceResponse.PartitionResponse)
-+  reenqueueBatch(ProducerBatch;long)
-+  completeBatch(ProducerBatch;ProduceResponse.PartitionResponse)
-+  failBatch(ProducerBatch;ProduceResponse.PartitionResponse;boolean)
-+  failBatch(ProducerBatch;RuntimeException;boolean)
-+  failBatch(ProducerBatch;RuntimeException;Function<Integer,RuntimeException>;boolean)
-+  canRetry(ProducerBatch;ProduceResponse.PartitionResponse;long)
-+  sendProduceRequests(Map<Integer,List<ProducerBatch>>;long)
-+  sendProduceRequest(long;int;short;int;List<ProducerBatch>)
-+  wakeup()
-+  throttleTimeSensor(SenderMetricsRegistry)
++ Sender(LogContext;KafkaClient;ProducerMetadata;RecordAccumulator;boolean;int;short;int;SenderMetricsRegistry;Time;int;long;TransactionManager;ApiVersions) : Sender [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#106]]]
++ inFlightBatches(TopicPartition) : List<ProducerBatch> [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#138]]]
+- maybeRemoveFromInflightBatches(ProducerBatch) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#142]]]
+- maybeRemoveAndDeallocateBatch(ProducerBatch) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#152]]]
+- getExpiredInflightBatches(long) : List<ProducerBatch> [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#158]]]
+- addToInflightBatches(List<ProducerBatch>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#192]]]
++ addToInflightBatches(Map<Integer,List<ProducerBatch>>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#203]]]
+- hasPendingTransactionalRequests() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#209]]]
++ run() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#215]]]
+runOnce() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#273]]]
+- sendProducerData(long) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#306]]]
+- maybeSendAndPollTransactionalRequest() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#396]]]
+- maybeFindCoordinatorAndRetry(TransactionManager.TxnRequestHandler) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#464]]]
+- maybeAbortBatches(RuntimeException) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#476]]]
++ initiateClose() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#484]]]
++ forceClose() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#493]]]
++ isRunning() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#498]]]
+- awaitNodeReady(Node;FindCoordinatorRequest.CoordinatorType) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#502]]]
+- handleProduceResponse(ClientResponse;Map<TopicPartition,ProducerBatch>;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#516]]]
+- completeBatch(ProducerBatch;ProduceResponse.PartitionResponse;long;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#563]]]
+- formatErrMsg(ProduceResponse.PartitionResponse) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#626]]]
+- reenqueueBatch(ProducerBatch;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#632]]]
+- completeBatch(ProducerBatch;ProduceResponse.PartitionResponse) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#638]]]
+- failBatch(ProducerBatch;ProduceResponse.PartitionResponse;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#648]]]
+- failBatch(ProducerBatch;RuntimeException;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#703]]]
+- failBatch(ProducerBatch;RuntimeException;Function<Integer,RuntimeException>;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#711]]]
+- canRetry(ProducerBatch;ProduceResponse.PartitionResponse;long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#729]]]
+- sendProduceRequests(Map<Integer,List<ProducerBatch>>;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#739]]]
+- sendProduceRequest(long;int;short;int;List<ProducerBatch>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#745]]]
++ wakeup() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#803]]]
++ throttleTimeSensor(SenderMetricsRegistry) : Sensor [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#807]]]
 } 
 @enduml

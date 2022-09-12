@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.mirror.OffsetSync
 class org.apache.kafka.connect.mirror.OffsetSync {
-+  OffsetSync(TopicPartition;long;long)
-+  topicPartition()
-+  upstreamOffset()
-+  downstreamOffset()
-+  toString()
-+  serializeValue()
-+  serializeKey()
-+  deserializeRecord(ConsumerRecord<byte[],byte[]>)
-+  valueStruct()
-+  keyStruct()
-+  recordKey()
-+  recordValue()
++ OffsetSync(TopicPartition;long;long) : OffsetSync [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#31]]]
++ topicPartition() : TopicPartition [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#37]]]
++ upstreamOffset() : long [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#41]]]
++ downstreamOffset() : long [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#45]]]
++ toString() : String [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#50]]]
+serializeValue() : ByteBuffer [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#55]]]
+serializeKey() : ByteBuffer [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#63]]]
++ deserializeRecord(ConsumerRecord<byte[],byte[]>) : OffsetSync [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#71]]]
+- valueStruct() : Struct [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#83]]]
+- keyStruct() : Struct [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#90]]]
+recordKey() : byte[] [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#97]]]
+recordValue() : byte[] [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#101]]]
 } 
 @enduml

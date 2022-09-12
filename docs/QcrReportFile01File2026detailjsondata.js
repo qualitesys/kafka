@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredTimestampedWindowStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedWindowStore.java.html#17"
  , "c1" : "MeteredTimestampedWindowStore"
  , "c2" : "MeteredTimestampedWindowStore(WindowStore<Bytes,byte[]>;long;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedWindowStore.java.html#28"
  , "c1" : "Serde<ValueAndTimestamp<V>>"
  , "c2" : "prepareValueSerde(Serde<ValueAndTimestamp<V>>;SerdeGetter)"
  , "c3" : "3"

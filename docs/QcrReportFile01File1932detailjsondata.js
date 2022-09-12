@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.StateQueryResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#19"
  , "c1" : "void"
  , "c2" : "setGlobalResult(QueryResult<R>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#24"
  , "c1" : "void"
  , "c2" : "addResult(int;QueryResult<R>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#30"
  , "c1" : "Map<Integer,QueryResult<R>>"
  , "c2" : "getPartitionResults()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#35"
  , "c1" : "QueryResult<R>"
  , "c2" : "getOnlyPartitionResult()"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#53"
  , "c1" : "QueryResult<R>"
  , "c2" : "getGlobalResult()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#58"
  , "c1" : "Position"
  , "c2" : "getPosition()"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#71"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

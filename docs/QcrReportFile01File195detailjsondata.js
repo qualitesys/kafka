@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.RoundRobinAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#21"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#42"
  , "c1" : "List<TopicPartition>"
  , "c2" : "allPartitionsSorted(Map<String,Integer>;Map<String,Subscription>)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#58"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"

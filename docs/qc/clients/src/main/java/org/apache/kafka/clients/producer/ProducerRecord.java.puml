@@ -2,20 +2,20 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.producer.ProducerRecord
 class org.apache.kafka.clients.producer.ProducerRecord {
-+  ProducerRecord(String;Integer;Long;K;V;Iterable<Header>)
-+  ProducerRecord(String;Integer;Long;K;V)
-+  ProducerRecord(String;Integer;K;V;Iterable<Header>)
-+  ProducerRecord(String;Integer;K;V)
-+  ProducerRecord(String;K;V)
-+  ProducerRecord(String;V)
-+  topic()
-+  headers()
-+  key()
-+  value()
-+  timestamp()
-+  partition()
-+  toString()
-+  equals(Object)
-+  hashCode()
++ ProducerRecord(String;Integer;Long;K;V;Iterable<Header>) : ProducerRecord [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#21]]]
++ ProducerRecord(String;Integer;Long;K;V) : ProducerRecord [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#39]]]
++ ProducerRecord(String;Integer;K;V;Iterable<Header>) : ProducerRecord [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#44]]]
++ ProducerRecord(String;Integer;K;V) : ProducerRecord [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#49]]]
++ ProducerRecord(String;K;V) : ProducerRecord [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#54]]]
++ ProducerRecord(String;V) : ProducerRecord [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#59]]]
++ topic() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#64]]]
++ headers() : Headers [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#69]]]
++ key() : K [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#74]]]
++ value() : V [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#79]]]
++ timestamp() : Long [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#84]]]
++ partition() : Integer [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#89]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#94]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#104]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#121]]]
 } 
 @enduml

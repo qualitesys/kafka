@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.FetchSnapshotRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#19"
  , "c1" : "FetchSnapshotRequest"
  , "c2" : "FetchSnapshotRequest(FetchSnapshotRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#25"
  , "c1" : "FetchSnapshotResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#34"
  , "c1" : "FetchSnapshotRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#39"
  , "c1" : "FetchSnapshotRequestData"
  , "c2" : "singleton(String;TopicPartition;UnaryOperator<FetchSnapshotRequestData.PartitionSnapshot>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#60"
  , "c1" : "Optional<FetchSnapshotRequestData.PartitionSnapshot>"
  , "c2" : "forTopicPartition(FetchSnapshotRequestData;TopicPartition)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#73"
  , "c1" : "FetchSnapshotRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

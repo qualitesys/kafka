@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.WorkerUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#40"
  , "c1" : "void"
  , "c2" : "abort(Logger;String;Throwable;KafkaFutureImpl<String>)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#52"
  , "c1" : "int"
  , "c2" : "perSecToPerPeriod(float;long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#60"
  , "c1" : "void"
  , "c2" : "addConfigsToProperties(Properties;Map<String,String>;Map<String,String>)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#77"
  , "c1" : "void"
  , "c2" : "createTopics(Logger;String;Map<String,String>;Map<String,String>;Map<String,NewTopic>;boolean)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#94"
  , "c1" : "void"
  , "c2" : "createTopics(Logger;Admin;Map<String,NewTopic>;boolean)"
  , "c3" : "5"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
  , "c1" : "Collection<String>"
  , "c2" : "createTopics(Logger;Admin;Collection<NewTopic>)"
  , "c3" : "12"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#174"
  , "c1" : "void"
  , "c2" : "verifyTopics(Logger;Admin;Collection<String>;Map<String,NewTopic>;int;long)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00195"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#195"
  , "c1" : "Map<String,TopicDescription>"
  , "c2" : "topicDescriptions(Collection<String>;Admin;int;long)"
  , "c3" : "4"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
  , "c1" : "Collection<TopicPartition>"
  , "c2" : "getMatchingTopicPartitions(Admin;String;int;int)"
  , "c3" : "6"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00251"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#251"
  , "c1" : "Admin"
  , "c2" : "createAdminClient(String;Map<String,String>;Map<String,String>)"
  , "c3" : "1"

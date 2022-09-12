@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.authorizer.AclCreateResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#16"
  , "c1" : "AclCreateResult"
  , "c2" : "AclCreateResult()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#20"
  , "c1" : "AclCreateResult"
  , "c2" : "AclCreateResult(ApiException)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#25"
  , "c1" : "Optional<ApiException>"
  , "c2" : "exception()"
  , "c3" : "1"

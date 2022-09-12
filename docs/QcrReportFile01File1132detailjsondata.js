@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.isolation.PluginScanResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#31"
  , "c1" : "PluginScanResult"
  , "c2" : "PluginScanResult(Collection<PluginDesc<SinkConnector>>;Collection<PluginDesc<SourceConnector>>;Collection<PluginDesc<Converter>>;Collection<PluginDesc<HeaderConverter>>;Collection<PluginDesc<Transformation<?>>>;Collection<PluginDesc<Predicate<?>>>;Collection<PluginDesc<ConfigProvider>>;Collection<PluginDesc<ConnectRestExtension>>;Collection<PluginDesc<ConnectorClientConfigOverridePolicy>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#56"
  , "c1" : "Collection<PluginDesc<SinkConnector>>"
  , "c2" : "sinkConnectors()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#60"
  , "c1" : "Collection<PluginDesc<SourceConnector>>"
  , "c2" : "sourceConnectors()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#64"
  , "c1" : "Collection<PluginDesc<Converter>>"
  , "c2" : "converters()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#68"
  , "c1" : "Collection<PluginDesc<HeaderConverter>>"
  , "c2" : "headerConverters()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#72"
  , "c1" : "Collection<PluginDesc<Transformation<?>>>"
  , "c2" : "transformations()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#76"
  , "c1" : "Collection<PluginDesc<Predicate<?>>>"
  , "c2" : "predicates()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#80"
  , "c1" : "Collection<PluginDesc<ConfigProvider>>"
  , "c2" : "configProviders()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#84"
  , "c1" : "Collection<PluginDesc<ConnectRestExtension>>"
  , "c2" : "restExtensions()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#88"
  , "c1" : "Collection<PluginDesc<ConnectorClientConfigOverridePolicy>>"
  , "c2" : "connectorClientConfigPolicies()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#92"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "2"

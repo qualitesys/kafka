@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.UpdateFeaturesRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#66"
  , "c1" : "UpdateFeaturesRequest"
  , "c2" : "UpdateFeaturesRequest(UpdateFeaturesRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#71"
  , "c1" : "FeatureUpdateItem"
  , "c2" : "getFeature(String)"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#84"
  , "c1" : "Collection<FeatureUpdateItem>"
  , "c2" : "featureUpdates()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#91"
  , "c1" : "UpdateFeaturesResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#100"
  , "c1" : "UpdateFeaturesRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#104"
  , "c1" : "UpdateFeaturesRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

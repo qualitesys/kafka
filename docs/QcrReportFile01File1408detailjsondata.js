@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.QuorumStateStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#11"
  , "c1" : "ElectionState"
  , "c2" : "readElectionState()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#14"
  , "c1" : "void"
  , "c2" : "writeElectionState(ElectionState)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#17"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"

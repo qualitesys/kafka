@@ -2,20 +2,20 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.tools.VerifiableConsumer
 class org.apache.kafka.tools.VerifiableConsumer {
-+  VerifiableConsumer(KafkaConsumer<String,String>;PrintStream;String;int;boolean;boolean;boolean)
-+  addKafkaSerializerModule()
-+  hasMessageLimit()
-+  isFinished()
-+  onRecordsReceived(ConsumerRecords<String,String>)
-+  onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception)
-+  onPartitionsAssigned(Collection<TopicPartition>)
-+  onPartitionsRevoked(Collection<TopicPartition>)
-+  printJson(Object)
-+  commitSync(Map<TopicPartition,OffsetAndMetadata>)
-+  run()
-+  close()
-+  argParser()
-+  createFromArgs(ArgumentParser;String[])
-+  main(String[])
++ VerifiableConsumer(KafkaConsumer<String,String>;PrintStream;String;int;boolean;boolean;boolean) : VerifiableConsumer [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#68]]]
+- addKafkaSerializerModule() : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#85]]]
+- hasMessageLimit() : boolean [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#99]]]
+- isFinished() : boolean [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#103]]]
+- onRecordsReceived(ConsumerRecords<String,String>) : Map<TopicPartition,OffsetAndMetadata> [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#107]]]
++ onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#143]]]
++ onPartitionsAssigned(Collection<TopicPartition>) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#160]]]
++ onPartitionsRevoked(Collection<TopicPartition>) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#165]]]
+- printJson(Object) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#169]]]
++ commitSync(Map<TopicPartition,OffsetAndMetadata>) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#177]]]
++ run() : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#192]]]
++ close() : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#221]]]
+- argParser() : ArgumentParser [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#468]]]
++ createFromArgs(ArgumentParser;String[]) : VerifiableConsumer [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#571]]]
++ main(String[]) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#628]]]
 } 
 @enduml

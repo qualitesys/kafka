@@ -2,17 +2,17 @@
 !pragma layout smetana
 OffsetBackingStore <|-- org.apache.kafka.connect.storage.KafkaOffsetBackingStore
 class org.apache.kafka.connect.storage.KafkaOffsetBackingStore {
-+  forTask(String;Producer<byte[],byte[]>;Consumer<byte[],byte[]>;TopicAdmin)
-+  forConnector(String;Consumer<byte[],byte[]>;TopicAdmin)
-+  KafkaOffsetBackingStore()
-+  KafkaOffsetBackingStore(Supplier<TopicAdmin>)
-+  configure(WorkerConfig)
-+  createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<byte[],byte[]>>;NewTopic;Supplier<TopicAdmin>)
-+  newTopicDescription(String;WorkerConfig)
-+  initialize(String;NewTopic)
-+  start()
-+  stop()
-+  get(Collection<ByteBuffer>)
-+  set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)
++ forTask(String;Producer<byte[],byte[]>;Consumer<byte[],byte[]>;TopicAdmin) : KafkaOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#50]]]
++ forConnector(String;Consumer<byte[],byte[]>;TopicAdmin) : KafkaOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#74]]]
++ KafkaOffsetBackingStore() : KafkaOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#104]]]
++ KafkaOffsetBackingStore(Supplier<TopicAdmin>) : KafkaOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#109]]]
++ configure(WorkerConfig) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#115]]]
+- createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<byte[],byte[]>>;NewTopic;Supplier<TopicAdmin>) : KafkaBasedLog<byte[],byte[]> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#164]]]
+newTopicDescription(String;WorkerConfig) : NewTopic [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#172]]]
+initialize(String;NewTopic) : java.util.function.Consumer<TopicAdmin> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#184]]]
++ start() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#199]]]
++ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#222]]]
++ get(Collection<ByteBuffer>) : Future<Map<ByteBuffer,ByteBuffer>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#235]]]
++ set(Map<ByteBuffer,ByteBuffer>;Callback<Void>) : Future<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#254]]]
 } 
 @enduml

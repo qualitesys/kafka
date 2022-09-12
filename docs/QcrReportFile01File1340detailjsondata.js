@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.MetadataDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#53"
  , "c1" : "MetadataDelta"
  , "c2" : "MetadataDelta(MetadataImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#59"
  , "c1" : "MetadataImage"
  , "c2" : "image()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#63"
  , "c1" : "FeaturesDelta"
  , "c2" : "featuresDelta()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#67"
  , "c1" : "FeaturesDelta"
  , "c2" : "getOrCreateFeaturesDelta()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#72"
  , "c1" : "ClusterDelta"
  , "c2" : "clusterDelta()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#76"
  , "c1" : "ClusterDelta"
  , "c2" : "getOrCreateClusterDelta()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#81"
  , "c1" : "TopicsDelta"
  , "c2" : "topicsDelta()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#85"
  , "c1" : "TopicsDelta"
  , "c2" : "getOrCreateTopicsDelta()"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#90"
  , "c1" : "ConfigurationsDelta"
  , "c2" : "configsDelta()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#94"
  , "c1" : "ConfigurationsDelta"
  , "c2" : "getOrCreateConfigsDelta()"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#99"
  , "c1" : "ClientQuotasDelta"
  , "c2" : "clientQuotasDelta()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#103"
  , "c1" : "ClientQuotasDelta"
  , "c2" : "getOrCreateClientQuotasDelta()"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#108"
  , "c1" : "ProducerIdsDelta"
  , "c2" : "producerIdsDelta()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#112"
  , "c1" : "ProducerIdsDelta"
  , "c2" : "getOrCreateProducerIdsDelta()"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#119"
  , "c1" : "AclsDelta"
  , "c2" : "aclsDelta()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#123"
  , "c1" : "AclsDelta"
  , "c2" : "getOrCreateAclsDelta()"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#128"
  , "c1" : "Optional<MetadataVersion>"
  , "c2" : "metadataVersionChanged()"
  , "c3" : "3"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#136"
  , "c1" : "void"
  , "c2" : "read(long;int;Iterator<List<ApiMessageAndVersion>>)"
  , "c3" : "3"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#145"
  , "c1" : "void"
  , "c2" : "replay(long;int;ApiMessage)"
  , "c3" : "17"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#204"
  , "c1" : "void"
  , "c2" : "replay(RegisterBrokerRecord)"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#209"
  , "c1" : "void"
  , "c2" : "replay(UnregisterBrokerRecord)"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00214"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#214"
  , "c1" : "void"
  , "c2" : "replay(TopicRecord)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#218"
  , "c1" : "void"
  , "c2" : "replay(PartitionRecord)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00222"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#222"
  , "c1" : "void"
  , "c2" : "replay(ConfigRecord)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#226"
  , "c1" : "void"
  , "c2" : "replay(PartitionChangeRecord)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00230"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#230"
  , "c1" : "void"
  , "c2" : "replay(FenceBrokerRecord)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00234"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#234"
  , "c1" : "void"
  , "c2" : "replay(UnfenceBrokerRecord)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00238"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#238"
  , "c1" : "void"
  , "c2" : "replay(RemoveTopicRecord)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00244"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#244"
  , "c1" : "void"
  , "c2" : "replay(FeatureLevelRecord)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00257"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#257"
  , "c1" : "void"
  , "c2" : "replay(BrokerRegistrationChangeRecord)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00261"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#261"
  , "c1" : "void"
  , "c2" : "replay(ClientQuotaRecord)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00265"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#265"
  , "c1" : "void"
  , "c2" : "replay(ProducerIdsRecord)"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00269"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#269"
  , "c1" : "void"
  , "c2" : "replay(AccessControlEntryRecord)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00273"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#273"
  , "c1" : "void"
  , "c2" : "replay(RemoveAccessControlEntryRecord)"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00278"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#278"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00288"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#288"
  , "c1" : "MetadataImage"
  , "c2" : "apply()"
  , "c3" : "15"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00344"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#344"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.health.ConnectorState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorState.java.html#9"
  , "c1" : "ConnectorState"
  , "c2" : "ConnectorState(String;String;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorState.java.html#14"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

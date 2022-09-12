@@ -2,16 +2,16 @@
 !pragma layout smetana
 RecordCollector <|-- org.apache.kafka.streams.processor.internals.RecordCollectorImpl
 class org.apache.kafka.streams.processor.internals.RecordCollectorImpl {
-+  RecordCollectorImpl(LogContext;TaskId;StreamsProducer;ProductionExceptionHandler;StreamsMetricsImpl;ProcessorTopology)
-+  initialize()
-+  recordSendError(String;Exception;ProducerRecord<byte[],byte[]>)
-+  isFatalException(Exception)
-+  flush()
-+  closeClean()
-+  closeDirty()
-+  removeAllProducedSensors()
-+  offsets()
-+  checkForException()
-+  producer()
++ RecordCollectorImpl(LogContext;TaskId;StreamsProducer;ProductionExceptionHandler;StreamsMetricsImpl;ProcessorTopology) : RecordCollectorImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#63]]]
++ initialize() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#95]]]
+- recordSendError(String;Exception;ProducerRecord<byte[],byte[]>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#232]]]
+- isFatalException(Exception) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#265]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#281]]]
++ closeClean() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#289]]]
++ closeDirty() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#303]]]
+- removeAllProducedSensors() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#314]]]
++ offsets() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#323]]]
+- checkForException() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#327]]]
+producer() : Producer<byte[],byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#337]]]
 } 
 @enduml

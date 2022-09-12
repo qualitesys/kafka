@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.OffsetCommitRequest
 class org.apache.kafka.common.requests.OffsetCommitRequest {
-+  OffsetCommitRequest(OffsetCommitRequestData;short)
-+  data()
-+  offsets()
-+  getErrorResponseTopics(List<OffsetCommitRequestTopic>;Errors)
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
++ OffsetCommitRequest(OffsetCommitRequestData;short) : OffsetCommitRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#56]]]
++ data() : OffsetCommitRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#62]]]
++ offsets() : Map<TopicPartition,Long> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#66]]]
++ getErrorResponseTopics(List<OffsetCommitRequestTopic>;Errors) : List<OffsetCommitResponseTopic> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#77]]]
++ getErrorResponse(int;Throwable) : OffsetCommitResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#98]]]
++ parse(ByteBuffer;short) : OffsetCommitRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#106]]]
 } 
 @enduml

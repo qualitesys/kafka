@@ -2,12 +2,12 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.mirror.OffsetSyncStore
 class org.apache.kafka.connect.mirror.OffsetSyncStore {
-+  OffsetSyncStore(MirrorConnectorConfig)
-+  OffsetSyncStore(KafkaConsumer<byte[],byte[]>;TopicPartition)
-+  translateDownstream(TopicPartition;long)
-+  update(Duration)
-+  close()
-+  handleRecord(ConsumerRecord<byte[],byte[]>)
-+  latestOffsetSync(TopicPartition)
+OffsetSyncStore(MirrorConnectorConfig) : OffsetSyncStore [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#24]]]
+OffsetSyncStore(KafkaConsumer<byte[],byte[]>;TopicPartition) : OffsetSyncStore [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#32]]]
+translateDownstream(TopicPartition;long) : OptionalLong [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#37]]]
+update(Duration) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#52]]]
++ close() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#60]]]
+handleRecord(ConsumerRecord<byte[],byte[]>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#65]]]
+- latestOffsetSync(TopicPartition) : Optional<OffsetSync> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#71]]]
 } 
 @enduml

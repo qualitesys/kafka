@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#58"
  , "c1" : "void"
  , "c2" : "setUp()"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#96"
  , "c1" : "void"
  , "c2" : "incrementalFetchSessionBuild()"
  , "c3" : "4"

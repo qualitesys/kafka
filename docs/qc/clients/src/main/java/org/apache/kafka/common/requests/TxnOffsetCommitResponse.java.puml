@@ -2,14 +2,14 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.TxnOffsetCommitResponse
 class org.apache.kafka.common.requests.TxnOffsetCommitResponse {
-+  TxnOffsetCommitResponse(TxnOffsetCommitResponseData)
-+  TxnOffsetCommitResponse(int;Map<TopicPartition,Errors>)
-+  data()
-+  throttleTimeMs()
-+  errorCounts()
-+  errors()
-+  parse(ByteBuffer;short)
-+  toString()
-+  shouldClientThrottle(short)
++ TxnOffsetCommitResponse(TxnOffsetCommitResponseData) : TxnOffsetCommitResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#22]]]
++ TxnOffsetCommitResponse(int;Map<TopicPartition,Errors>) : TxnOffsetCommitResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#27]]]
++ data() : TxnOffsetCommitResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#51]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#56]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#61]]]
++ errors() : Map<TopicPartition,Errors> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#67]]]
++ parse(ByteBuffer;short) : TxnOffsetCommitResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#78]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#83]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitResponse.java.html#88]]]
 } 
 @enduml

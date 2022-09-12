@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.Table" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#12"
  , "c1" : "V"
  , "c2" : "put(R;C;V)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#17"
  , "c1" : "V"
  , "c2" : "get(R;C)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#24"
  , "c1" : "Map<C,V>"
  , "c2" : "remove(R)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#28"
  , "c1" : "V"
  , "c2" : "remove(R;C)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#39"
  , "c1" : "Map<C,V>"
  , "c2" : "row(R)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#46"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.internals.InternalQueryResultUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#11"
  , "c1" : "InternalQueryResultUtil"
  , "c2" : "InternalQueryResultUtil()"
  , "c3" : "1"

@@ -2,14 +2,14 @@
 !pragma layout smetana
 Converter <|-- org.apache.kafka.connect.storage.StringConverter
 class org.apache.kafka.connect.storage.StringConverter {
-+  StringConverter()
-+  config()
-+  configure(Map<String,?>)
-+  configure(Map<String,?>;boolean)
-+  fromConnectData(String;Schema;Object)
-+  toConnectData(String;byte[])
-+  fromConnectHeader(String;String;Schema;Object)
-+  toConnectHeader(String;String;byte[])
-+  close()
++ StringConverter() : StringConverter [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#21]]]
++ config() : ConfigDef [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#25]]]
++ configure(Map<String,?>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#30]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#45]]]
++ fromConnectData(String;Schema;Object) : byte[] [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#52]]]
++ toConnectData(String;byte[]) : SchemaAndValue [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#61]]]
++ fromConnectHeader(String;String;Schema;Object) : byte[] [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#70]]]
++ toConnectHeader(String;String;byte[]) : SchemaAndValue [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#75]]]
++ close() : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#80]]]
 } 
 @enduml

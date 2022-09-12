@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.StreamsMetrics
 class org.apache.kafka.streams.StreamsMetrics {
-+  metrics()
-+  addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)
-+  addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)
-+  addSensor(String;Sensor.RecordingLevel)
-+  addSensor(String;Sensor.RecordingLevel;Sensor...)
-+  removeSensor(Sensor)
+metrics() : Map<MetricName,?extendsMetric> [[[././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#14]]]
+addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#17]]]
+addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#24]]]
+addSensor(String;Sensor.RecordingLevel) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#31]]]
+addSensor(String;Sensor.RecordingLevel;Sensor...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#35]]]
+removeSensor(Sensor) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#40]]]
 } 
 @enduml

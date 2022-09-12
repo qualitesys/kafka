@@ -2,15 +2,15 @@
 !pragma layout smetana
 Stamped_ProcessorNode_ <|-- org.apache.kafka.streams.processor.internals.PunctuationSchedule
 class org.apache.kafka.streams.processor.internals.PunctuationSchedule {
-+  PunctuationSchedule(ProcessorNode;long;long;Punctuator)
-+  PunctuationSchedule(ProcessorNode;long;long;Punctuator;RepointableCancellable)
-+  node()
-+  punctuator()
-+  cancellable()
-+  markCancelled()
-+  isCancelled()
-+  next(long)
-+  equals(Object)
-+  hashCode()
+PunctuationSchedule(ProcessorNode;long;long;Punctuator) : PunctuationSchedule [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#15]]]
+- PunctuationSchedule(ProcessorNode;long;long;Punctuator;RepointableCancellable) : PunctuationSchedule [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#23]]]
++ node() : ProcessorNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#34]]]
++ punctuator() : Punctuator [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#38]]]
++ cancellable() : Cancellable [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#42]]]
+markCancelled() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#46]]]
+isCancelled() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#50]]]
++ next(long) : PunctuationSchedule [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#54]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#74]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationSchedule.java.html#79]]]
 } 
 @enduml

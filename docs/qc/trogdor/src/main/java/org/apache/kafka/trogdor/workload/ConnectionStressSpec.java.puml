@@ -2,14 +2,14 @@
 !pragma layout smetana
 TaskSpec <|-- org.apache.kafka.trogdor.workload.ConnectionStressSpec
 class org.apache.kafka.trogdor.workload.ConnectionStressSpec {
-+  ConnectionStressSpec(long;long;List<String>;String;Map<String,String>;int;int;ConnectionStressAction)
-+  clientNode()
-+  bootstrapServers()
-+  commonClientConf()
-+  targetConnectionsPerSec()
-+  numThreads()
-+  action()
-+  newController(String)
-+  newTaskWorker(String)
++ ConnectionStressSpec(long;long;List<String>;String;Map<String,String>;int;int;ConnectionStressAction) : ConnectionStressSpec [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#32]]]
++ clientNode() : List<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#51]]]
++ bootstrapServers() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#56]]]
++ commonClientConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#61]]]
++ targetConnectionsPerSec() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#66]]]
++ numThreads() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#71]]]
++ action() : ConnectionStressAction [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#76]]]
++ newController(String) : TaskController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#80]]]
++ newTaskWorker(String) : TaskWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#85]]]
 } 
 @enduml

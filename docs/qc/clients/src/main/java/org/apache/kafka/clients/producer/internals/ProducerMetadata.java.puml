@@ -2,18 +2,18 @@
 !pragma layout smetana
 Metadata <|-- org.apache.kafka.clients.producer.internals.ProducerMetadata
 class org.apache.kafka.clients.producer.internals.ProducerMetadata {
-+  ProducerMetadata(long;long;long;LogContext;ClusterResourceListeners;Time)
-+  newMetadataRequestBuilder()
-+  newMetadataRequestBuilderForNewTopics()
-+  add(String;long)
-+  requestUpdateForTopic(String)
-+  topics()
-+  newTopics()
-+  containsTopic(String)
-+  retainTopic(String;boolean;long)
-+  awaitUpdate(int;long)
-+  update(int;MetadataResponse;boolean;long)
-+  fatalError(KafkaException)
-+  close()
++ ProducerMetadata(long;long;long;LogContext;ClusterResourceListeners;Time) : ProducerMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#30]]]
++ newMetadataRequestBuilder() : MetadataRequest.Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#43]]]
++ newMetadataRequestBuilderForNewTopics() : MetadataRequest.Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#48]]]
++ add(String;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#52]]]
++ requestUpdateForTopic(String) : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#60]]]
+topics() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#69]]]
+newTopics() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#74]]]
++ containsTopic(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#78]]]
++ retainTopic(String;boolean;long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#83]]]
++ awaitUpdate(int;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#99]]]
++ update(int;MetadataResponse;boolean;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#113]]]
++ fatalError(KafkaException) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#128]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#135]]]
 } 
 @enduml

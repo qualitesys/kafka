@@ -2,10 +2,10 @@
 !pragma layout smetana
 ErrantRecordReporter <|-- org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter
 class org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter {
-+  WorkerErrantRecordReporter(RetryWithToleranceOperator;Converter;Converter;HeaderConverter)
-+  report(SinkRecord;Throwable)
-+  awaitFutures(Collection<TopicPartition>)
-+  cancelFutures(Collection<TopicPartition>)
-+  futuresFor(Collection<TopicPartition>)
++ WorkerErrantRecordReporter(RetryWithToleranceOperator;Converter;Converter;HeaderConverter) : WorkerErrantRecordReporter [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#45]]]
++ report(SinkRecord;Throwable) : Future<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#59]]]
++ awaitFutures(Collection<TopicPartition>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#104]]]
++ cancelFutures(Collection<TopicPartition>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#116]]]
+- futuresFor(Collection<TopicPartition>) : Collection<Future<Void>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#128]]]
 } 
 @enduml

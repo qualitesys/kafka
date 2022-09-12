@@ -2,69 +2,69 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.common.record.MemoryRecordsBuilder
 class org.apache.kafka.common.record.MemoryRecordsBuilder {
-+  MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int;long)
-+  MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int)
-+  MemoryRecordsBuilder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int)
-+  buffer()
-+  initialCapacity()
-+  compressionRatio()
-+  compressionType()
-+  isControlBatch()
-+  isTransactional()
-+  hasDeleteHorizonMs()
-+  build()
-+  info()
-+  numRecords()
-+  uncompressedBytesWritten()
-+  setProducerState(long;short;int;boolean)
-+  overrideLastOffset(long)
-+  closeForRecordAppends()
-+  abort()
-+  reopenAndRewriteProducerState(long;short;int;boolean)
-+  close()
-+  validateProducerState()
-+  writeDefaultBatchHeader()
-+  writeLegacyCompressedWrapperHeader()
-+  appendWithOffset(long;boolean;long;ByteBuffer;ByteBuffer;Header[])
-+  appendWithOffset(long;long;byte[];byte[];Header[])
-+  appendWithOffset(long;long;ByteBuffer;ByteBuffer;Header[])
-+  appendWithOffset(long;long;byte[];byte[])
-+  appendWithOffset(long;long;ByteBuffer;ByteBuffer)
-+  appendWithOffset(long;SimpleRecord)
-+  appendControlRecordWithOffset(long;SimpleRecord)
-+  append(long;ByteBuffer;ByteBuffer)
-+  append(long;ByteBuffer;ByteBuffer;Header[])
-+  append(long;byte[];byte[])
-+  append(long;byte[];byte[];Header[])
-+  append(SimpleRecord)
-+  appendControlRecord(long;ControlRecordType;ByteBuffer)
-+  appendEndTxnMarker(long;EndTransactionMarker)
-+  appendLeaderChangeMessage(long;LeaderChangeMessage)
-+  appendSnapshotHeaderMessage(long;SnapshotHeaderRecord)
-+  appendSnapshotFooterMessage(long;SnapshotFooterRecord)
-+  appendUncheckedWithOffset(long;LegacyRecord)
-+  appendUncheckedWithOffset(long;SimpleRecord)
-+  append(Record)
-+  appendWithOffset(long;Record)
-+  appendWithOffset(long;LegacyRecord)
-+  append(LegacyRecord)
-+  appendDefaultRecord(long;long;ByteBuffer;ByteBuffer;Header[])
-+  appendLegacyRecord(long;long;ByteBuffer;ByteBuffer;byte)
-+  toInnerOffset(long)
-+  recordWritten(long;long;int)
-+  ensureOpenForRecordAppend()
-+  ensureOpenForRecordBatchWrite()
-+  estimatedBytesWritten()
-+  setEstimatedCompressionRatio(float)
-+  hasRoomFor(long;byte[];byte[];Header[])
-+  hasRoomFor(long;ByteBuffer;ByteBuffer;Header[])
-+  isClosed()
-+  isFull()
-+  estimatedSizeInBytes()
-+  magic()
-+  nextSequentialOffset()
-+  producerId()
-+  producerEpoch()
-+  baseSequence()
++ MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int;long) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#68]]]
++ MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#124]]]
++ MemoryRecordsBuilder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int) : MemoryRecordsBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#143]]]
++ buffer() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#161]]]
++ initialCapacity() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#165]]]
++ compressionRatio() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#169]]]
++ compressionType() : CompressionType [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#173]]]
++ isControlBatch() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#177]]]
++ isTransactional() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#181]]]
++ hasDeleteHorizonMs() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#185]]]
++ build() : MemoryRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#190]]]
++ info() : RecordsInfo [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#199]]]
++ numRecords() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#221]]]
++ uncompressedBytesWritten() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#226]]]
++ setProducerState(long;short;int;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#230]]]
++ overrideLastOffset(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#244]]]
++ closeForRecordAppends() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#251]]]
++ abort() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#263]]]
++ reopenAndRewriteProducerState(long;short;int;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#269]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#280]]]
+- validateProducerState() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#307]]]
+- writeDefaultBatchHeader() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#324]]]
+- writeLegacyCompressedWrapperHeader() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#348]]]
+- appendWithOffset(long;boolean;long;ByteBuffer;ByteBuffer;Header[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#366]]]
++ appendWithOffset(long;long;byte[];byte[];Header[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#396]]]
++ appendWithOffset(long;long;ByteBuffer;ByteBuffer;Header[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#401]]]
++ appendWithOffset(long;long;byte[];byte[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#406]]]
++ appendWithOffset(long;long;ByteBuffer;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#411]]]
++ appendWithOffset(long;SimpleRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#416]]]
++ appendControlRecordWithOffset(long;SimpleRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#421]]]
++ append(long;ByteBuffer;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#432]]]
++ append(long;ByteBuffer;ByteBuffer;Header[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#437]]]
++ append(long;byte[];byte[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#442]]]
++ append(long;byte[];byte[];Header[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#447]]]
++ append(SimpleRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#452]]]
+- appendControlRecord(long;ControlRecordType;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#457]]]
++ appendEndTxnMarker(long;EndTransactionMarker) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#465]]]
++ appendLeaderChangeMessage(long;LeaderChangeMessage) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#474]]]
++ appendSnapshotHeaderMessage(long;SnapshotHeaderRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#482]]]
++ appendSnapshotFooterMessage(long;SnapshotFooterRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#487]]]
++ appendUncheckedWithOffset(long;LegacyRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#493]]]
++ appendUncheckedWithOffset(long;SimpleRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#509]]]
++ append(Record) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#533]]]
++ appendWithOffset(long;Record) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#538]]]
++ appendWithOffset(long;LegacyRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#543]]]
++ append(LegacyRecord) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#548]]]
+- appendDefaultRecord(long;long;ByteBuffer;ByteBuffer;Header[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#552]]]
+- appendLegacyRecord(long;long;ByteBuffer;ByteBuffer;byte) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#561]]]
+- toInnerOffset(long) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#576]]]
+- recordWritten(long;long;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#583]]]
+- ensureOpenForRecordAppend() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#600]]]
+- ensureOpenForRecordBatchWrite() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#605]]]
+- estimatedBytesWritten() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#613]]]
++ setEstimatedCompressionRatio(float) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#623]]]
++ hasRoomFor(long;byte[];byte[];Header[]) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#628]]]
++ hasRoomFor(long;ByteBuffer;ByteBuffer;Header[]) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#633]]]
++ isClosed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#654]]]
++ isFull() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#658]]]
++ estimatedSizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#665]]]
++ magic() : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#669]]]
+- nextSequentialOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#673]]]
++ producerId() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#689]]]
++ producerEpoch() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#693]]]
++ baseSequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#697]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.agent.AgentRestResource
 class org.apache.kafka.trogdor.agent.AgentRestResource {
-+  setAgent(Agent)
-+  getStatus()
-+  uptime()
-+  createWorker(CreateWorkerRequest)
-+  stopWorker(StopWorkerRequest)
-+  destroyWorker(long)
-+  shutdown()
-+  agent()
++ setAgent(Agent) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#34]]]
++ getStatus() : AgentStatusResponse [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#40]]]
++ uptime() : UptimeResponse [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#46]]]
++ createWorker(CreateWorkerRequest) : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#52]]]
++ stopWorker(StopWorkerRequest) : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#59]]]
++ destroyWorker(long) : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#66]]]
++ shutdown() : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#73]]]
+- agent() : Agent [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#78]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ClusterControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00199"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#199"
  , "c1" : "ClusterControlManager"
  , "c2" : "ClusterControlManager(LogContext;String;Time;SnapshotRegistry;long;ReplicaPlacer;ControllerMetrics;FeatureControlManager)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00222"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#222"
  , "c1" : "ReplicaPlacer"
  , "c2" : "replicaPlacer()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00227"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#227"
  , "c1" : "void"
  , "c2" : "activate()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00235"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#235"
  , "c1" : "void"
  , "c2" : "deactivate()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#239"
  , "c1" : "Map<Integer,BrokerRegistration>"
  , "c2" : "brokerRegistrations()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00243"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#243"
  , "c1" : "Map<Integer,Map<String,VersionRange>>"
  , "c2" : "brokerSupportedVersions()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00250"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#250"
  , "c1" : "Set<Integer>"
  , "c2" : "fencedBrokerIds()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00259"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#259"
  , "c1" : "ControllerResult<BrokerRegistrationReply>"
  , "c2" : "registerBroker(BrokerRegistrationRequestData;long;FinalizedControllerFeatures)"
  , "c3" : "13"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00321"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#321"
  , "c1" : "void"
  , "c2" : "replay(RegisterBrokerRecord)"
  , "c3" : "9"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00355"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#355"
  , "c1" : "void"
  , "c2" : "replay(UnregisterBrokerRecord)"
  , "c3" : "6"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00372"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#372"
  , "c1" : "void"
  , "c2" : "replay(FenceBrokerRecord)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00382"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#382"
  , "c1" : "void"
  , "c2" : "replay(UnfenceBrokerRecord)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00392"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#392"
  , "c1" : "void"
  , "c2" : "replay(BrokerRegistrationChangeRecord)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00410"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#410"
  , "c1" : "void"
  , "c2" : "replayRegistrationChange(ApiMessage;int;long;Optional<Boolean>;Optional<Boolean>)"
  , "c3" : "10"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00445"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#445"
  , "c1" : "void"
  , "c2" : "updateMetrics(BrokerRegistration;BrokerRegistration)"
  , "c3" : "12"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00474"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#474"
  , "c1" : "Iterator<UsableBroker>"
  , "c2" : "usableBrokers()"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00483"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#483"
  , "c1" : "boolean"
  , "c2" : "unfenced(int)"
  , "c3" : "2"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00490"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#490"
  , "c1" : "BrokerRegistration"
  , "c2" : "registration(int)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00495"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#495"
  , "c1" : "boolean"
  , "c2" : "inControlledShutdown(int)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00502"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#502"
  , "c1" : "boolean"
  , "c2" : "active(int)"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00508"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#508"
  , "c1" : "BrokerHeartbeatManager"
  , "c2" : "heartbeatManager()"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00515"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#515"
  , "c1" : "void"
  , "c2" : "checkBrokerEpoch(int;long)"
  , "c3" : "3"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00527"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#527"
  , "c1" : "void"
  , "c2" : "addReadyBrokersFuture(CompletableFuture<Void>;int)"
  , "c3" : "2"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00584"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#584"
  , "c1" : "ClusterControlIterator"
  , "c2" : "iterator(long)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ConfigurationDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#18"
  , "c1" : "ConfigurationDelta"
  , "c2" : "ConfigurationDelta(ConfigurationImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#22"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#30"
  , "c1" : "void"
  , "c2" : "replay(ConfigRecord)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#34"
  , "c1" : "void"
  , "c2" : "deleteAll()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#41"
  , "c1" : "ConfigurationImage"
  , "c2" : "apply()"
  , "c3" : "8"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#62"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

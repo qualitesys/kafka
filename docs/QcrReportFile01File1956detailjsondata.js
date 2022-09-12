@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.TimestampedBytesStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/TimestampedBytesStore.java.html#9"
  , "c1" : "byte[]"
  , "c2" : "convertToTimestampedFormat(byte[])"
  , "c3" : "2"

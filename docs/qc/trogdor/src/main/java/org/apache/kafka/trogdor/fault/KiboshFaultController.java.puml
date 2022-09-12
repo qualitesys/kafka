@@ -2,7 +2,7 @@
 !pragma layout smetana
 TaskController <|-- org.apache.kafka.trogdor.fault.KiboshFaultController
 class org.apache.kafka.trogdor.fault.KiboshFaultController {
-+  KiboshFaultController(Set<String>)
-+  targetNodes(Topology)
++ KiboshFaultController(Set<String>) : KiboshFaultController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultController.java.html#13]]]
++ targetNodes(Topology) : Set<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultController.java.html#18]]]
 } 
 @enduml

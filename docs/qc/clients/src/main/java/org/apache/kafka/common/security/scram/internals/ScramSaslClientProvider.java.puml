@@ -2,7 +2,7 @@
 !pragma layout smetana
 Provider <|-- org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider
 class org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider {
-+  ScramSaslClientProvider()
-+  initialize()
+ScramSaslClientProvider() : ScramSaslClientProvider [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClientProvider.java.html#14]]]
++ initialize() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClientProvider.java.html#20]]]
 } 
 @enduml

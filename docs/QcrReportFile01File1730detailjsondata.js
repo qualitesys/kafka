@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#28"
  , "c1" : "SubscriptionResolverJoinProcessorSupplier"
  , "c2" : "SubscriptionResolverJoinProcessorSupplier(KTableValueGetterSupplier<K,V>;Serializer<V>;Supplier<String>;ValueJoiner<V,VO,VR>;boolean)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#41"
  , "c1" : "Processor<K,SubscriptionResponseWrapper<VO>,K,VR>"
  , "c2" : "get()"
  , "c3" : "6"

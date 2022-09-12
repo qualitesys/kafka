@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.TokenBucket" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#17"
  , "c1" : "TokenBucket"
  , "c2" : "TokenBucket()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#21"
  , "c1" : "TokenBucket"
  , "c2" : "TokenBucket(TimeUnit)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#28"
  , "c1" : "double"
  , "c2" : "measure(MetricConfig;long)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#38"
  , "c1" : "void"
  , "c2" : "record(MetricConfig;double;long)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#47"
  , "c1" : "void"
  , "c2" : "refill(double;double;long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#52"
  , "c1" : "double"
  , "c2" : "burst(MetricConfig)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#57"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

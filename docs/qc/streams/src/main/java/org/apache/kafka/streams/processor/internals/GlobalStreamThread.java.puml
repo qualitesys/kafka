@@ -2,20 +2,20 @@
 !pragma layout smetana
 Thread <|-- org.apache.kafka.streams.processor.internals.GlobalStreamThread
 class org.apache.kafka.streams.processor.internals.GlobalStreamThread {
-+  setStateListener(StreamThread.StateListener)
-+  state()
-+  setState(State)
-+  stillRunning()
-+  inErrorState()
-+  stillInitializing()
-+  GlobalStreamThread(ProcessorTopology;StreamsConfig;Consumer<byte[],byte[]>;StateDirectory;long;StreamsMetricsImpl;Time;String;StateRestoreListener;java.util.function.Consumer<Throwable>)
-+  run()
-+  setUncaughtExceptionHandler(java.util.function.Consumer<Throwable>)
-+  resize(long)
-+  initialize()
-+  closeStateConsumer(StateConsumer;boolean)
-+  start()
-+  shutdown()
-+  consumerMetrics()
++ setStateListener(StreamThread.StateListener) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#83]]]
++ state() : State [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#88]]]
+- setState(State) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#94]]]
++ stillRunning() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#121]]]
++ inErrorState() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#127]]]
++ stillInitializing() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#133]]]
++ GlobalStreamThread(ProcessorTopology;StreamsConfig;Consumer<byte[],byte[]>;StateDirectory;long;StreamsMetricsImpl;Time;String;StateRestoreListener;java.util.function.Consumer<Throwable>) : GlobalStreamThread [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#139]]]
++ run() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#225]]]
++ setUncaughtExceptionHandler(java.util.function.Consumer<Throwable>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#291]]]
++ resize(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#295]]]
+- initialize() : StateConsumer [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#299]]]
+- closeStateConsumer(StateConsumer;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#363]]]
++ start() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#374]]]
++ shutdown() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#388]]]
++ consumerMetrics() : Map<MetricName,Metric> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#394]]]
 } 
 @enduml

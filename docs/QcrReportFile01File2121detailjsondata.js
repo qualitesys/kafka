@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.agent.WorkerManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#115"
  , "c1" : "WorkerManager"
  , "c2" : "WorkerManager(Platform;Scheduler)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#246"
  , "c1" : "KafkaFuture<String>"
  , "c2" : "createWorker(long;String;TaskSpec)"
  , "c3" : "8"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00447"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#447"
  , "c1" : "void"
  , "c2" : "stopWorker(long;boolean)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00531"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#531"
  , "c1" : "TreeMap<Long,WorkerState>"
  , "c2" : "workerStates()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00548"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#548"
  , "c1" : "void"
  , "c2" : "beginShutdown()"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00554"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#554"
  , "c1" : "void"
  , "c2" : "waitForShutdown()"
  , "c3" : "2"

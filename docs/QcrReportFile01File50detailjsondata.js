@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#19"
  , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "renewers(List<KafkaPrincipal>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#24"
  , "c1" : "List<KafkaPrincipal>"
  , "c2" : "renewers()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#28"
  , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "owner(KafkaPrincipal)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#33"
  , "c1" : "Optional<KafkaPrincipal>"
  , "c2" : "owner()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#37"
  , "c1" : "CreateDelegationTokenOptions"
  , "c2" : "maxlifeTimeMs(long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#42"
  , "c1" : "long"
  , "c2" : "maxlifeTimeMs()"
  , "c3" : "1"

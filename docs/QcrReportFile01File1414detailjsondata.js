@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.RaftResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#10"
  , "c1" : "RaftResponse"
  , "c2" : "RaftResponse(int;ApiMessage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#16"
  , "c1" : "int"
  , "c2" : "correlationId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftResponse.java.html#21"
  , "c1" : "ApiMessage"
  , "c2" : "data()"
  , "c3" : "1"

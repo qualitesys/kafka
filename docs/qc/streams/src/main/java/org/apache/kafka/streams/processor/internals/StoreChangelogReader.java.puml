@@ -2,46 +2,46 @@
 !pragma layout smetana
 ChangelogReader <|-- org.apache.kafka.streams.processor.internals.StoreChangelogReader
 class org.apache.kafka.streams.processor.internals.StoreChangelogReader {
-+  StoreChangelogReader(Time;StreamsConfig;LogContext;Admin;Consumer<byte[],byte[]>;StateRestoreListener)
-+  recordEndOffset(Long)
-+  hasRestoredToEnd(ChangelogMetadata)
-+  enforceRestoreActive()
-+  transitToUpdateStandby()
-+  register(TopicPartition;ProcessorStateManager)
-+  restoringChangelogByPartition(TopicPartition)
-+  registeredChangelogs()
-+  restoringChangelogs()
-+  activeRestoringChangelogs()
-+  standbyRestoringChangelogs()
-+  allChangelogsCompleted()
-+  completedChangelogs()
-+  restore(Map<TaskId,Task>)
-+  pauseResumePartitions(Map<TaskId,Task>;Set<TopicPartition>)
-+  updatePartitionsByType(Map<TaskId,Task>;Set<TopicPartition>;TaskType)
-+  shouldResume(Map<TaskId,Task>;TopicPartition;TaskType)
-+  shouldPause(Map<TaskId,Task>;TopicPartition;TaskType)
-+  maybeLogRestorationProgress()
-+  getPositionString(TopicPartition;ChangelogMetadata)
-+  maybeUpdateLimitOffsetsForStandbyChangelogs(Map<TaskId,Task>)
-+  bufferChangelogRecords(ChangelogMetadata;List<ConsumerRecord<byte[],byte[]>>)
-+  restoreChangelog(ChangelogMetadata)
-+  getTasksFromPartitions(Map<TaskId,Task>;Set<TopicPartition>)
-+  clearTaskTimeout(Set<Task>)
-+  maybeInitTaskTimeoutOrThrow(Set<Task>;Exception)
-+  committedOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>)
-+  endOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>)
-+  updateLimitOffsetsForStandbyChangelogs(Map<TopicPartition,Long>)
-+  initializeChangelogs(Map<TaskId,Task>;Set<ChangelogMetadata>)
-+  addChangelogsToRestoreConsumer(Set<TopicPartition>)
-+  pauseChangelogsFromRestoreConsumer(Collection<TopicPartition>)
-+  removeChangelogsFromRestoreConsumer(Collection<TopicPartition>)
-+  resumeChangelogsFromRestoreConsumer(Collection<TopicPartition>)
-+  prepareChangelogs(Set<ChangelogMetadata>)
-+  unregister(Collection<TopicPartition>)
-+  clear()
-+  isEmpty()
-+  toString()
-+  changelogMetadata(TopicPartition)
-+  state()
++ StoreChangelogReader(Time;StreamsConfig;LogContext;Admin;Consumer<byte[],byte[]>;StateRestoreListener) : StoreChangelogReader [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#192]]]
+- recordEndOffset(Long) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#214]]]
+- hasRestoredToEnd(ChangelogMetadata) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#218]]]
++ enforceRestoreActive() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#266]]]
++ transitToUpdateStandby() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#286]]]
++ register(TopicPartition;ProcessorStateManager) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#304]]]
+- restoringChangelogByPartition(TopicPartition) : ChangelogMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#324]]]
+- registeredChangelogs() : Set<ChangelogMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#338]]]
+- restoringChangelogs() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#344]]]
+- activeRestoringChangelogs() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#351]]]
+- standbyRestoringChangelogs() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#359]]]
++ allChangelogsCompleted() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#368]]]
++ completedChangelogs() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#374]]]
++ restore(Map<TaskId,Task>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#385]]]
+- pauseResumePartitions(Map<TaskId,Task>;Set<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#457]]]
+- updatePartitionsByType(Map<TaskId,Task>;Set<TopicPartition>;TaskType) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#467]]]
+- shouldResume(Map<TaskId,Task>;TopicPartition;TaskType) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#478]]]
+- shouldPause(Map<TaskId,Task>;TopicPartition;TaskType) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#488]]]
+- maybeLogRestorationProgress() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#498]]]
+- getPositionString(TopicPartition;ChangelogMetadata) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#528]]]
+- maybeUpdateLimitOffsetsForStandbyChangelogs(Map<TaskId,Task>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#535]]]
+- bufferChangelogRecords(ChangelogMetadata;List<ConsumerRecord<byte[],byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#561]]]
+- restoreChangelog(ChangelogMetadata) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#579]]]
+- getTasksFromPartitions(Map<TaskId,Task>;Set<TopicPartition>) : Set<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#640]]]
+- clearTaskTimeout(Set<Task>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#649]]]
+- maybeInitTaskTimeoutOrThrow(Set<Task>;Exception) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#657]]]
+- committedOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>) : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#663]]]
+- endOffsetForChangelogs(Map<TaskId,Task>;Set<TopicPartition>) : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#690]]]
+- updateLimitOffsetsForStandbyChangelogs(Map<TopicPartition,Long>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#717]]]
+- initializeChangelogs(Map<TaskId,Task>;Set<ChangelogMetadata>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#742]]]
+- addChangelogsToRestoreConsumer(Set<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#820]]]
+- pauseChangelogsFromRestoreConsumer(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#834]]]
+- removeChangelogsFromRestoreConsumer(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#847]]]
+- resumeChangelogsFromRestoreConsumer(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#859]]]
+- prepareChangelogs(Set<ChangelogMetadata>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#872]]]
++ unregister(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#933]]]
++ clear() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#956]]]
++ isEmpty() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#970]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#975]]]
+changelogMetadata(TopicPartition) : ChangelogMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#980]]]
+state() : ChangelogReaderState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#984]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.LongConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/LongConverter.java.html#13"
  , "c1" : "LongConverter"
  , "c2" : "LongConverter()"
  , "c3" : "1"

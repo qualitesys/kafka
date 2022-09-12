@@ -2,12 +2,12 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.HoistField
 class org.apache.kafka.connect.transforms.HoistField {
-+  configure(Map<String,?>)
-+  apply(R)
-+  close()
-+  config()
-+  operatingSchema(R)
-+  operatingValue(R)
-+  newRecord(R;Schema;Object)
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#35]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#42]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#62]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#67]]]
+operatingSchema(R) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#71]]]
+operatingValue(R) : Object [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#73]]]
+newRecord(R;Schema;Object) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#75]]]
 } 
 @enduml

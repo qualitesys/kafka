@@ -2,10 +2,10 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.DuplicateResourceException
 class org.apache.kafka.common.errors.DuplicateResourceException {
-+  DuplicateResourceException(String)
-+  DuplicateResourceException(String;Throwable)
-+  DuplicateResourceException(String;String)
-+  DuplicateResourceException(String;String;Throwable)
-+  resource()
++ DuplicateResourceException(String) : DuplicateResourceException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#12]]]
++ DuplicateResourceException(String;Throwable) : DuplicateResourceException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#17]]]
++ DuplicateResourceException(String;String) : DuplicateResourceException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#22]]]
++ DuplicateResourceException(String;String;Throwable) : DuplicateResourceException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#28]]]
++ resource() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#34]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 ControllerResult_T_ <|-- org.apache.kafka.controller.ControllerResultAndOffset
 class org.apache.kafka.controller.ControllerResultAndOffset {
-+  ControllerResultAndOffset(long;ControllerResult<T>)
-+  offset()
-+  equals(Object)
-+  hashCode()
-+  toString()
+- ControllerResultAndOffset(long;ControllerResult<T>) : ControllerResultAndOffset [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#14]]]
++ offset() : long [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#19]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#24]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#36]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#41]]]
 } 
 @enduml

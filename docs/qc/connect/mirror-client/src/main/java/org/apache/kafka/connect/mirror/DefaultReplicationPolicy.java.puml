@@ -2,15 +2,15 @@
 !pragma layout smetana
 ReplicationPolicy <|-- org.apache.kafka.connect.mirror.DefaultReplicationPolicy
 class org.apache.kafka.connect.mirror.DefaultReplicationPolicy {
-+  configure(Map<String,?>)
-+  formatRemoteTopic(String;String)
-+  topicSource(String)
-+  upstreamTopic(String)
-+  internalSuffix()
-+  checkpointsTopicSuffix()
-+  offsetSyncsTopic(String)
-+  checkpointsTopic(String)
-+  isCheckpointsTopic(String)
-+  isMM2InternalTopic(String)
++ configure(Map<String,?>) : void [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#25]]]
++ formatRemoteTopic(String;String) : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#34]]]
++ topicSource(String) : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#39]]]
++ upstreamTopic(String) : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#50]]]
+- internalSuffix() : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#59]]]
+- checkpointsTopicSuffix() : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#63]]]
++ offsetSyncsTopic(String) : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#68]]]
++ checkpointsTopic(String) : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#73]]]
++ isCheckpointsTopic(String) : boolean [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#78]]]
++ isMM2InternalTopic(String) : boolean [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#83]]]
 } 
 @enduml

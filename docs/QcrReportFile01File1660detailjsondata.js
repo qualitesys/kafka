@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamKStreamJoin" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoin.java.html#48"
  , "c1" : "KStreamKStreamJoin"
  , "c2" : "KStreamKStreamJoin(boolean;String;JoinWindowsInternal;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVOut>;boolean;Optional<String>;TimeTracker)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoin.java.html#75"
  , "c1" : "Processor<K,V1,K,VOut>"
  , "c2" : "get()"
  , "c3" : "1"

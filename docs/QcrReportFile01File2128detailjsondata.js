@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.common.StringExpander" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#14"
  , "c1" : "HashSet<String>"
  , "c2" : "expand(String)"
  , "c3" : "4"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#20"
  , "c1" : "DeleteConsumerGroupOffsetsResult"
  , "c2" : "DeleteConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>;Set<TopicPartition>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#26"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "partitionResult(TopicPartition)"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#43"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "5"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#61"
  , "c1" : "boolean"
  , "c2" : "maybeCompleteExceptionally(Map<TopicPartition,Errors>;TopicPartition;KafkaFutureImpl<Void>)"
  , "c3" : "3"

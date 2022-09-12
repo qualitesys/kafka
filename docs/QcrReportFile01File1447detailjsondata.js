@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.Snapshots" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#36"
  , "c1" : "Path"
  , "c2" : "snapshotDir(Path)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#40"
  , "c1" : "String"
  , "c2" : "filenameFromSnapshotId(OffsetAndEpoch)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#44"
  , "c1" : "Path"
  , "c2" : "moveRename(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#48"
  , "c1" : "Path"
  , "c2" : "deleteRename(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#52"
  , "c1" : "Path"
  , "c2" : "snapshotPath(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#56"
  , "c1" : "Path"
  , "c2" : "createTempFile(Path;OffsetAndEpoch)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
  , "c1" : "Optional<SnapshotPath>"
  , "c2" : "parse(Path)"
  , "c3" : "7"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#98"
  , "c1" : "boolean"
  , "c2" : "deleteIfExists(Path;OffsetAndEpoch)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#116"
  , "c1" : "void"
  , "c2" : "markForDelete(Path;OffsetAndEpoch)"
  , "c3" : "1"

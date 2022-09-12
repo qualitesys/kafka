@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.SerdeGetter
 class org.apache.kafka.streams.processor.internals.SerdeGetter {
-+  SerdeGetter(org.apache.kafka.streams.processor.ProcessorContext)
-+  SerdeGetter(org.apache.kafka.streams.processor.api.ProcessorContext)
-+  SerdeGetter(StateStoreContext)
-+  keySerde()
-+  valueSerde()
++ SerdeGetter(org.apache.kafka.streams.processor.ProcessorContext) : SerdeGetter [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#13]]]
++ SerdeGetter(org.apache.kafka.streams.processor.api.ProcessorContext) : SerdeGetter [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#18]]]
++ SerdeGetter(StateStoreContext) : SerdeGetter [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#23]]]
++ keySerde() : Serde [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#28]]]
++ valueSerde() : Serde [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SerdeGetter.java.html#32]]]
 } 
 @enduml

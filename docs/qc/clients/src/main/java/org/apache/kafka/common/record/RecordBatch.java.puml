@@ -2,29 +2,29 @@
 !pragma layout smetana
 Iterable_Record_ <|-- org.apache.kafka.common.record.RecordBatch
 class org.apache.kafka.common.record.RecordBatch {
-+  isValid()
-+  ensureValid()
-+  checksum()
-+  maxTimestamp()
-+  timestampType()
-+  baseOffset()
-+  lastOffset()
-+  nextOffset()
-+  magic()
-+  producerId()
-+  producerEpoch()
-+  hasProducerId()
-+  baseSequence()
-+  lastSequence()
-+  compressionType()
-+  sizeInBytes()
-+  countOrNull()
-+  isCompressed()
-+  writeTo(ByteBuffer)
-+  isTransactional()
-+  deleteHorizonMs()
-+  partitionLeaderEpoch()
-+  streamingIterator(BufferSupplier)
-+  isControlBatch()
+isValid() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#34]]]
+ensureValid() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#37]]]
+checksum() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#40]]]
+maxTimestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#43]]]
+timestampType() : TimestampType [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#46]]]
+baseOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#49]]]
+lastOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#52]]]
+nextOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#55]]]
+magic() : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#58]]]
+producerId() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#61]]]
+producerEpoch() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#64]]]
+hasProducerId() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#67]]]
+baseSequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#70]]]
+lastSequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#73]]]
+compressionType() : CompressionType [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#76]]]
+sizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#79]]]
+countOrNull() : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#82]]]
+isCompressed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#85]]]
+writeTo(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#88]]]
+isTransactional() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#91]]]
+deleteHorizonMs() : OptionalLong [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#94]]]
+partitionLeaderEpoch() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#97]]]
+streamingIterator(BufferSupplier) : CloseableIterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#100]]]
+isControlBatch() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#103]]]
 } 
 @enduml

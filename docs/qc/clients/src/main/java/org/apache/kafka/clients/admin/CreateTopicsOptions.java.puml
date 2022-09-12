@@ -2,10 +2,10 @@
 !pragma layout smetana
 AbstractOptions_CreateTopicsOptions_ <|-- org.apache.kafka.clients.admin.CreateTopicsOptions
 class org.apache.kafka.clients.admin.CreateTopicsOptions {
-+  timeoutMs(Integer)
-+  validateOnly(boolean)
-+  shouldValidateOnly()
-+  retryOnQuotaViolation(boolean)
-+  shouldRetryOnQuotaViolation()
++ timeoutMs(Integer) : CreateTopicsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#18]]]
++ validateOnly(boolean) : CreateTopicsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#24]]]
++ shouldValidateOnly() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#30]]]
++ retryOnQuotaViolation(boolean) : CreateTopicsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#36]]]
++ shouldRetryOnQuotaViolation() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#42]]]
 } 
 @enduml

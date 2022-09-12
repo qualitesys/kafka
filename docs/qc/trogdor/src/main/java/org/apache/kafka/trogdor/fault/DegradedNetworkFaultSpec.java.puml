@@ -2,9 +2,9 @@
 !pragma layout smetana
 TaskSpec <|-- org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec
 class org.apache.kafka.trogdor.fault.DegradedNetworkFaultSpec {
-+  DegradedNetworkFaultSpec(long;long;Map<String,NodeDegradeSpec>)
-+  newController(String)
-+  newTaskWorker(String)
-+  nodeSpecs()
++ DegradedNetworkFaultSpec(long;long;Map<String,NodeDegradeSpec>) : DegradedNetworkFaultSpec [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#58]]]
++ newController(String) : TaskController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#66]]]
++ newTaskWorker(String) : TaskWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#71]]]
++ nodeSpecs() : Map<String,NodeDegradeSpec> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultSpec.java.html#76]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.runtime.PredicatedTransformation
 class org.apache.kafka.connect.runtime.PredicatedTransformation {
-+  PredicatedTransformation(Predicate<R>;boolean;Transformation<R>)
-+  configure(Map<String,?>)
-+  apply(R)
-+  config()
-+  close()
-+  toString()
+PredicatedTransformation(Predicate<R>;boolean;Transformation<R>) : PredicatedTransformation [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#22]]]
++ configure(Map<String,?>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#29]]]
++ apply(R) : R [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#35]]]
++ config() : ConfigDef [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#43]]]
++ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#49]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#55]]]
 } 
 @enduml

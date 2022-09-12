@@ -2,9 +2,9 @@
 !pragma layout smetana
 PayloadGenerator <|-- org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator
 class org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator {
-+  RandomComponentPayloadGenerator(long;List<RandomComponent>)
-+  seed()
-+  components()
-+  generate(long)
++ RandomComponentPayloadGenerator(long;List<RandomComponent>) : RandomComponentPayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#20]]]
++ seed() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#40]]]
++ components() : List<RandomComponent> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#45]]]
++ generate(long) : byte[] [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.html#50]]]
 } 
 @enduml

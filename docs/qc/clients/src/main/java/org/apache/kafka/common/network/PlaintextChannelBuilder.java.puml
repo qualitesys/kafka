@@ -2,11 +2,11 @@
 !pragma layout smetana
 ChannelBuilder <|-- org.apache.kafka.common.network.PlaintextChannelBuilder
 class org.apache.kafka.common.network.PlaintextChannelBuilder {
-+  PlaintextChannelBuilder(ListenerName)
-+  configure(Map<String,?>)
-+  buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)
-+  buildChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)
-+  buildTransportLayer(SelectionKey)
-+  close()
++ PlaintextChannelBuilder(ListenerName) : PlaintextChannelBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#28]]]
++ configure(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#32]]]
++ buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry) : KafkaChannel [[[././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#37]]]
+buildChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry) : KafkaChannel [[[././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#51]]]
+buildTransportLayer(SelectionKey) : PlaintextTransportLayer [[[././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#56]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61]]]
 } 
 @enduml

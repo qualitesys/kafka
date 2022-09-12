@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.FeatureMetadata
 class org.apache.kafka.clients.admin.FeatureMetadata {
-+  FeatureMetadata(Map<String,FinalizedVersionRange>;Optional<Long>;Map<String,SupportedVersionRange>)
-+  finalizedFeatures()
-+  finalizedFeaturesEpoch()
-+  supportedFeatures()
-+  equals(Object)
-+  hashCode()
-+  toString()
+FeatureMetadata(Map<String,FinalizedVersionRange>;Optional<Long>;Map<String,SupportedVersionRange>) : FeatureMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#20]]]
++ finalizedFeatures() : Map<String,FinalizedVersionRange> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#29]]]
++ finalizedFeaturesEpoch() : Optional<Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#34]]]
++ supportedFeatures() : Map<String,SupportedVersionRange> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#39]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#44]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#59]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#75]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#20"
  , "c1" : "AlterConsumerGroupOffsetsResult"
  , "c2" : "AlterConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#25"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "partitionResult(TopicPartition)"
  , "c3" : "7"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.html#48"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "3"

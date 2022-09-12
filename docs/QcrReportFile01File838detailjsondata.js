@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.scram.internals.ScramFormatter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#34"
  , "c1" : "ScramFormatter"
  , "c2" : "ScramFormatter(ScramMechanism)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#40"
  , "c1" : "byte[]"
  , "c2" : "hmac(byte[];byte[])"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#45"
  , "c1" : "byte[]"
  , "c2" : "hash(byte[])"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#49"
  , "c1" : "byte[]"
  , "c2" : "xor(byte[];byte[])"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#58"
  , "c1" : "byte[]"
  , "c2" : "hi(byte[];byte[];int)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#72"
  , "c1" : "byte[]"
  , "c2" : "normalize(String)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#76"
  , "c1" : "byte[]"
  , "c2" : "saltedPassword(String;byte[];int)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#80"
  , "c1" : "byte[]"
  , "c2" : "clientKey(byte[])"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#84"
  , "c1" : "byte[]"
  , "c2" : "storedKey(byte[])"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#88"
  , "c1" : "String"
  , "c2" : "saslName(String)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#93"
  , "c1" : "String"
  , "c2" : "username(String)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#101"
  , "c1" : "String"
  , "c2" : "authMessage(String;String;String)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#105"
  , "c1" : "byte[]"
  , "c2" : "clientSignature(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#110"
  , "c1" : "byte[]"
  , "c2" : "clientProof(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#117"
  , "c1" : "byte[]"
  , "c2" : "authMessage(ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#123"
  , "c1" : "byte[]"
  , "c2" : "storedKey(byte[];byte[])"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#127"
  , "c1" : "byte[]"
  , "c2" : "serverKey(byte[])"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#131"
  , "c1" : "byte[]"
  , "c2" : "serverSignature(byte[];ClientFirstMessage;ServerFirstMessage;ClientFinalMessage)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#136"
  , "c1" : "String"
  , "c2" : "secureRandomString()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00140"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#140"
  , "c1" : "String"
  , "c2" : "secureRandomString(SecureRandom)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#144"
  , "c1" : "byte[]"
  , "c2" : "secureRandomBytes()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#148"
  , "c1" : "byte[]"
  , "c2" : "secureRandomBytes(SecureRandom)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#152"
  , "c1" : "byte[]"
  , "c2" : "toBytes(String)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#156"
  , "c1" : "ScramCredential"
  , "c2" : "generateCredential(String;int)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#166"
  , "c1" : "ScramCredential"
  , "c2" : "generateCredential(byte[];byte[];int)"
  , "c3" : "1"

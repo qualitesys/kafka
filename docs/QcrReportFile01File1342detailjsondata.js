@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ProducerIdsDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#12"
  , "c1" : "ProducerIdsDelta"
  , "c2" : "ProducerIdsDelta(ProducerIdsImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#16"
  , "c1" : "void"
  , "c2" : "setNextProducerId(long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#20"
  , "c1" : "long"
  , "c2" : "nextProducerId()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#24"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#28"
  , "c1" : "void"
  , "c2" : "handleMetadataVersionChange(MetadataVersion)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#32"
  , "c1" : "void"
  , "c2" : "replay(ProducerIdsRecord)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#36"
  , "c1" : "ProducerIdsImage"
  , "c2" : "apply()"
  , "c3" : "1"

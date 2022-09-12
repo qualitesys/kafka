@@ -2,109 +2,109 @@
 !pragma layout smetana
 RaftClient_T_ <|-- org.apache.kafka.raft.KafkaRaftClient
 class org.apache.kafka.raft.KafkaRaftClient {
-+  KafkaRaftClient(RecordSerde<T>;NetworkChannel;ReplicatedLog;QuorumStateStore;Time;Metrics;ExpirationService;LogContext;String;OptionalInt;RaftConfig)
-+  KafkaRaftClient(RecordSerde<T>;NetworkChannel;RaftMessageQueue;ReplicatedLog;QuorumStateStore;MemoryPool;Time;Metrics;ExpirationService;int;String;OptionalInt;LogContext;Random;RaftConfig)
-+  updateFollowerHighWatermark(FollowerState;OptionalLong)
-+  updateLeaderEndOffsetAndTimestamp(LeaderState<T>;long)
-+  onUpdateLeaderHighWatermark(LeaderState<T>;long)
-+  updateListenersProgress(long)
-+  latestSnapshot()
-+  maybeFireHandleCommit(long;int;long;int;List<T>)
-+  maybeFireLeaderChange(LeaderState<T>)
-+  maybeFireLeaderChange()
-+  initialize()
-+  register(Listener<T>)
-+  unregister(Listener<T>)
-+  leaderAndEpoch()
-+  nodeId()
-+  endOffset()
-+  resetConnections()
-+  onBecomeLeader(long)
-+  flushLeaderLog(LeaderState<T>;long)
-+  maybeTransitionToLeader(CandidateState;long)
-+  onBecomeCandidate(long)
-+  transitionToCandidate(long)
-+  transitionToUnattached(int)
-+  transitionToResigned(List<Integer>)
-+  transitionToVoted(int;int)
-+  onBecomeFollower(long)
-+  transitionToFollower(int;int;long)
-+  buildVoteResponse(Errors;boolean)
-+  handleVoteRequest(RaftRequest.Inbound)
-+  handleVoteResponse(RaftResponse.Inbound;long)
-+  binaryExponentialElectionBackoffMs(int)
-+  strictExponentialElectionBackoffMs(int;int)
-+  buildBeginQuorumEpochResponse(Errors)
-+  handleBeginQuorumEpochRequest(RaftRequest.Inbound;long)
-+  handleBeginQuorumEpochResponse(RaftResponse.Inbound;long)
-+  buildEndQuorumEpochResponse(Errors)
-+  handleEndQuorumEpochRequest(RaftRequest.Inbound;long)
-+  endEpochElectionBackoff(List<Integer>)
-+  handleEndQuorumEpochResponse(RaftResponse.Inbound;long)
-+  buildFetchResponse(Errors;Records;ValidOffsetAndEpoch;Optional<LogOffsetMetadata>)
-+  buildEmptyFetchResponse(Errors;Optional<LogOffsetMetadata>)
-+  hasValidClusterId(String)
-+  handleFetchRequest(RaftRequest.Inbound;long)
-+  tryCompleteFetchRequest(int;FetchRequestData.FetchPartition;long)
-+  optionalLeaderId(int)
-+  listenerName(Listener<?>)
-+  handleFetchResponse(RaftResponse.Inbound;long)
-+  appendAsFollower(Records)
-+  appendAsLeader(Records)
-+  handleDescribeQuorumRequest(RaftRequest.Inbound;long)
-+  handleFetchSnapshotRequest(RaftRequest.Inbound)
-+  handleFetchSnapshotResponse(RaftResponse.Inbound;long)
-+  convertToReplicaStates(Map<Integer,Long>)
-+  hasConsistentLeader(int;OptionalInt)
-+  maybeHandleCommonResponse(Errors;OptionalInt;int;long)
-+  maybeTransition(OptionalInt;int;long)
-+  handleTopLevelError(Errors;RaftResponse.Inbound)
-+  handleUnexpectedError(Errors;RaftResponse.Inbound)
-+  handleResponse(RaftResponse.Inbound;long)
-+  validateVoterOnlyRequest(int;int)
-+  validateLeaderOnlyRequest(int)
-+  handleRequest(RaftRequest.Inbound;long)
-+  handleInboundMessage(RaftMessage;long)
-+  maybeSendRequest(long;int;Supplier<ApiMessage>)
-+  buildEndQuorumEpochRequest(ResignedState)
-+  maybeSendRequests(long;Set<Integer>;Supplier<ApiMessage>)
-+  buildBeginQuorumEpochRequest()
-+  buildVoteRequest()
-+  buildFetchRequest()
-+  maybeSendAnyVoterFetch(long)
-+  buildFetchSnapshotRequest(OffsetAndEpoch;long)
-+  addQuorumLeader(FetchSnapshotResponseData.PartitionSnapshot)
-+  isRunning()
-+  isShuttingDown()
-+  appendBatch(LeaderState<T>;BatchAccumulator.CompletedBatch<T>;long)
-+  maybeAppendBatches(LeaderState<T>;long)
-+  pollResigned(long)
-+  pollLeader(long)
-+  maybeSendVoteRequests(CandidateState;long)
-+  pollCandidate(long)
-+  pollFollower(long)
-+  pollFollowerAsVoter(FollowerState;long)
-+  pollFollowerAsObserver(FollowerState;long)
-+  maybeSendFetchOrFetchSnapshot(FollowerState;long)
-+  pollVoted(long)
-+  pollUnattached(long)
-+  pollUnattachedAsVoter(UnattachedState;long)
-+  pollUnattachedAsObserver(UnattachedState;long)
-+  pollCurrentState(long)
-+  pollListeners()
-+  processRegistration(Registration<T>)
-+  maybeCompleteShutdown(long)
-+  wakeup()
-+  handle(RaftRequest.Inbound)
-+  poll()
-+  scheduleAppend(int;List<T>)
-+  scheduleAtomicAppend(int;List<T>)
-+  append(int;List<T>;boolean)
-+  shutdown(int)
-+  resign(int)
-+  createSnapshot(long;int;long)
-+  close()
-+  quorum()
-+  highWatermark()
++ KafkaRaftClient(RecordSerde<T>;NetworkChannel;ReplicatedLog;QuorumStateStore;Time;Metrics;ExpirationService;LogContext;String;OptionalInt;RaftConfig) : KafkaRaftClient [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#118]]]
+KafkaRaftClient(RecordSerde<T>;NetworkChannel;RaftMessageQueue;ReplicatedLog;QuorumStateStore;MemoryPool;Time;Metrics;ExpirationService;int;String;OptionalInt;LogContext;Random;RaftConfig) : KafkaRaftClient [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#148]]]
+- updateFollowerHighWatermark(FollowerState;OptionalLong) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#201]]]
+- updateLeaderEndOffsetAndTimestamp(LeaderState<T>;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#215]]]
+- onUpdateLeaderHighWatermark(LeaderState<T>;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#228]]]
+- updateListenersProgress(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#248]]]
+- latestSnapshot() : Optional<SnapshotReader<T>> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#275]]]
+- maybeFireHandleCommit(long;int;long;int;List<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#281]]]
+- maybeFireLeaderChange(LeaderState<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#291]]]
+- maybeFireLeaderChange() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#297]]]
++ initialize() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#304]]]
++ register(Listener<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#326]]]
++ unregister(Listener<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#332]]]
++ leaderAndEpoch() : LeaderAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#339]]]
++ nodeId() : OptionalInt [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#344]]]
+- endOffset() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#348]]]
+- resetConnections() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#352]]]
+- onBecomeLeader(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#356]]]
+- flushLeaderLog(LeaderState<T>;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#384]]]
+- maybeTransitionToLeader(CandidateState;long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#390]]]
+- onBecomeCandidate(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#399]]]
+- transitionToCandidate(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#407]]]
+- transitionToUnattached(int) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#413]]]
+- transitionToResigned(List<Integer>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#419]]]
+- transitionToVoted(int;int) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#427]]]
+- onBecomeFollower(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#433]]]
+- transitionToFollower(int;int;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#448]]]
+- buildVoteResponse(Errors;boolean) : VoteResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#458]]]
+- handleVoteRequest(RaftRequest.Inbound) : VoteResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#469]]]
+- handleVoteResponse(RaftResponse.Inbound;long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#515]]]
+- binaryExponentialElectionBackoffMs(int) : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#576]]]
+- strictExponentialElectionBackoffMs(int;int) : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#585]]]
+- buildBeginQuorumEpochResponse(Errors) : BeginQuorumEpochResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#595]]]
+- handleBeginQuorumEpochRequest(RaftRequest.Inbound;long) : BeginQuorumEpochResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#605]]]
+- handleBeginQuorumEpochResponse(RaftResponse.Inbound;long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#635]]]
+- buildEndQuorumEpochResponse(Errors) : EndQuorumEpochResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#675]]]
+- handleEndQuorumEpochRequest(RaftRequest.Inbound;long) : EndQuorumEpochResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#685]]]
+- endEpochElectionBackoff(List<Integer>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#726]]]
+- handleEndQuorumEpochResponse(RaftResponse.Inbound;long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#739]]]
+- buildFetchResponse(Errors;Records;ValidOffsetAndEpoch;Optional<LogOffsetMetadata>) : FetchResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#773]]]
+- buildEmptyFetchResponse(Errors;Optional<LogOffsetMetadata>) : FetchResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#808]]]
+- hasValidClusterId(String) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#820]]]
+- handleFetchRequest(RaftRequest.Inbound;long) : CompletableFuture<FetchResponseData> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#829]]]
+- tryCompleteFetchRequest(int;FetchRequestData.FetchPartition;long) : FetchResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#893]]]
+- optionalLeaderId(int) : OptionalInt [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#929]]]
+- listenerName(Listener<?>) : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#935]]]
+- handleFetchResponse(RaftResponse.Inbound;long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#939]]]
+- appendAsFollower(Records) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1034]]]
+- appendAsLeader(Records) : LogAppendInfo [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1046]]]
+- handleDescribeQuorumRequest(RaftRequest.Inbound;long) : DescribeQuorumResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1057]]]
+- handleFetchSnapshotRequest(RaftRequest.Inbound) : FetchSnapshotResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1082]]]
+- handleFetchSnapshotResponse(RaftResponse.Inbound;long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1182]]]
+convertToReplicaStates(Map<Integer,Long>) : List<ReplicaState> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1299]]]
+- hasConsistentLeader(int;OptionalInt) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1307]]]
+- maybeHandleCommonResponse(Errors;OptionalInt;int;long) : Optional<Boolean> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1322]]]
+- maybeTransition(OptionalInt;int;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1369]]]
+- handleTopLevelError(Errors;RaftResponse.Inbound) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1391]]]
+- handleUnexpectedError(Errors;RaftResponse.Inbound) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1401]]]
+- handleResponse(RaftResponse.Inbound;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1407]]]
+- validateVoterOnlyRequest(int;int) : Optional<Errors> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1446]]]
+- validateLeaderOnlyRequest(int) : Optional<Errors> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1459]]]
+- handleRequest(RaftRequest.Inbound;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1476]]]
+- handleInboundMessage(RaftMessage;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1523]]]
+- maybeSendRequest(long;int;Supplier<ApiMessage>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1543]]]
+- buildEndQuorumEpochRequest(ResignedState) : EndQuorumEpochRequestData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1592]]]
+- maybeSendRequests(long;Set<Integer>;Supplier<ApiMessage>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1604]]]
+- buildBeginQuorumEpochRequest() : BeginQuorumEpochRequestData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1619]]]
+- buildVoteRequest() : VoteRequestData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1628]]]
+- buildFetchRequest() : FetchRequestData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1640]]]
+- maybeSendAnyVoterFetch(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1654]]]
+- buildFetchSnapshotRequest(OffsetAndEpoch;long) : FetchSnapshotRequestData [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1667]]]
+- addQuorumLeader(FetchSnapshotResponseData.PartitionSnapshot) : FetchSnapshotResponseData.PartitionSnapshot [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1686]]]
++ isRunning() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1696]]]
++ isShuttingDown() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1701]]]
+- appendBatch(LeaderState<T>;BatchAccumulator.CompletedBatch<T>;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1706]]]
+- maybeAppendBatches(LeaderState<T>;long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1736]]]
+- pollResigned(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1761]]]
+- pollLeader(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1785]]]
+- maybeSendVoteRequests(CandidateState;long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1808]]]
+- pollCandidate(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1823]]]
+- pollFollower(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1854]]]
+- pollFollowerAsVoter(FollowerState;long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1863]]]
+- pollFollowerAsObserver(FollowerState;long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1880]]]
+- maybeSendFetchOrFetchSnapshot(FollowerState;long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1903]]]
+- pollVoted(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1918]]]
+- pollUnattached(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1934]]]
+- pollUnattachedAsVoter(UnattachedState;long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1943]]]
+- pollUnattachedAsObserver(UnattachedState;long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1957]]]
+- pollCurrentState(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1962]]]
+- pollListeners() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1980]]]
+- processRegistration(Registration<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1997]]]
+- maybeCompleteShutdown(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2016]]]
+- wakeup() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2067]]]
++ handle(RaftRequest.Inbound) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2072]]]
++ poll() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2077]]]
++ scheduleAppend(int;List<T>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2102]]]
++ scheduleAtomicAppend(int;List<T>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2107]]]
+- append(int;List<T>;boolean) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2111]]]
++ shutdown(int) : CompletableFuture<Void> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2137]]]
++ resign(int) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2146]]]
++ createSnapshot(long;int;long) : Optional<SnapshotWriter<T>> [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2195]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2212]]]
+quorum() : QuorumState [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2219]]]
++ highWatermark() : OptionalLong [[[././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2223]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.WindowStoreBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#20"
  , "c1" : "WindowStoreBuilder"
  , "c2" : "WindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#35"
  , "c1" : "WindowStore<K,V>"
  , "c2" : "build()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#50"
  , "c1" : "WindowStore<Bytes,byte[]>"
  , "c2" : "maybeWrapCaching(WindowStore<Bytes,byte[]>)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#60"
  , "c1" : "WindowStore<Bytes,byte[]>"
  , "c2" : "maybeWrapLogging(WindowStore<Bytes,byte[]>)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#71"
  , "c1" : "long"
  , "c2" : "retentionPeriod()"
  , "c3" : "1"

@@ -2,7 +2,7 @@
 !pragma layout smetana
 InvalidStateStoreException <|-- org.apache.kafka.streams.errors.StateStoreMigratedException
 class org.apache.kafka.streams.errors.StateStoreMigratedException {
-+  StateStoreMigratedException(String)
-+  StateStoreMigratedException(String;Throwable)
++ StateStoreMigratedException(String) : StateStoreMigratedException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.html#9]]]
++ StateStoreMigratedException(String;Throwable) : StateStoreMigratedException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.html#13]]]
 } 
 @enduml

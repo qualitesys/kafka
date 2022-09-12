@@ -2,28 +2,28 @@
 !pragma layout smetana
 WrappedStateStore_WindowStore_Bytes,byte[]_,Windowed_K_,V_WindowStore_K,V_ <|-- org.apache.kafka.streams.state.internals.MeteredWindowStore
 class org.apache.kafka.streams.state.internals.MeteredWindowStore {
-+  MeteredWindowStore(WindowStore<Bytes,byte[]>;long;String;Time;Serde<K>;Serde<V>)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  prepareValueSerde(Serde<V>;SerdeGetter)
-+  registerMetrics()
-+  initStoreSerde(ProcessorContext)
-+  initStoreSerde(StateStoreContext)
-+  setFlushListener(CacheFlushListener<Windowed<K>,V>;boolean)
-+  put(K;V;long)
-+  fetch(K;long)
-+  fetch(K;long;long)
-+  backwardFetch(K;long;long)
-+  fetch(K;K;long;long)
-+  backwardFetch(K;K;long;long)
-+  fetchAll(long;long)
-+  backwardFetchAll(long;long)
-+  all()
-+  backwardAll()
-+  flush()
-+  close()
-+  keyBytes(K)
-+  outerValue(byte[])
-+  maybeRecordE2ELatency()
+MeteredWindowStore(WindowStore<Bytes,byte[]>;long;String;Time;Serde<K>;Serde<V>) : MeteredWindowStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#83]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#99]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#115]]]
+prepareValueSerde(Serde<V>;SerdeGetter) : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#129]]]
+- registerMetrics() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#133]]]
+- initStoreSerde(ProcessorContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#141]]]
+- initStoreSerde(StateStoreContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#150]]]
++ setFlushListener(CacheFlushListener<Windowed<K>,V>;boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#161]]]
++ put(K;V;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#179]]]
++ fetch(K;long) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#197]]]
++ fetch(K;long;long) : WindowStoreIterator<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#214]]]
++ backwardFetch(K;long;long) : WindowStoreIterator<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#228]]]
++ fetch(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#242]]]
++ backwardFetch(K;K;long;long) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#260]]]
++ fetchAll(long;long) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#278]]]
++ backwardFetchAll(long;long) : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#290]]]
++ all() : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#302]]]
++ backwardAll() : KeyValueIterator<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#314]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#326]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#331]]]
+- keyBytes(K) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#468]]]
+outerValue(byte[]) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#472]]]
+- maybeRecordE2ELatency() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#476]]]
 } 
 @enduml

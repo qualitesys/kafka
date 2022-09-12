@@ -2,21 +2,21 @@
 !pragma layout smetana
 SegmentedBytesStore.KeySchema <|-- org.apache.kafka.streams.state.internals.SessionKeySchema
 class org.apache.kafka.streams.state.internals.SessionKeySchema {
-+  keyByteLength(Bytes)
-+  upperRangeFixedSize(Bytes;long)
-+  lowerRangeFixedSize(Bytes;long)
-+  upperRange(Bytes;long)
-+  lowerRange(Bytes;long)
-+  segmentTimestamp(Bytes)
-+  hasNextCondition(Bytes;Bytes;long;long;boolean)
-+  extractKeyBytes(byte[])
-+  extractEndTimestamp(byte[])
-+  extractStartTimestamp(byte[])
-+  extractWindow(byte[])
-+  from(Bytes)
-+  toBinary(Windowed<Bytes>)
-+  toBinary(Bytes;long;long)
-+  writeBinary(ByteBuffer;Windowed<Bytes>)
-+  writeBinary(ByteBuffer;Bytes;long;long)
++ keyByteLength(Bytes) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#22]]]
++ upperRangeFixedSize(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#27]]]
++ lowerRangeFixedSize(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#37]]]
++ upperRange(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#47]]]
++ lowerRange(Bytes;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#61]]]
++ segmentTimestamp(Bytes) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#69]]]
++ hasNextCondition(Bytes;Bytes;long;long;boolean) : HasNextCondition [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#74]]]
+extractKeyBytes(byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#105]]]
+extractEndTimestamp(byte[]) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#111]]]
+extractStartTimestamp(byte[]) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#115]]]
+extractWindow(byte[]) : Window [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#119]]]
++ from(Bytes) : Windowed<Bytes> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#134]]]
++ toBinary(Windowed<Bytes>) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#154]]]
++ toBinary(Bytes;long;long) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#158]]]
++ writeBinary(ByteBuffer;Windowed<Bytes>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#166]]]
++ writeBinary(ByteBuffer;Bytes;long;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#170]]]
 } 
 @enduml

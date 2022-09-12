@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ConsumerGroupDescription" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#26"
  , "c1" : "ConsumerGroupDescription"
  , "c2" : "ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#35"
  , "c1" : "ConsumerGroupDescription"
  , "c2" : "ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node;Set<AclOperation>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#53"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#67"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#72"
  , "c1" : "String"
  , "c2" : "groupId()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#77"
  , "c1" : "boolean"
  , "c2" : "isSimpleConsumerGroup()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#82"
  , "c1" : "Collection<MemberDescription>"
  , "c2" : "members()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#87"
  , "c1" : "String"
  , "c2" : "partitionAssignor()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#92"
  , "c1" : "ConsumerGroupState"
  , "c2" : "state()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#97"
  , "c1" : "Node"
  , "c2" : "coordinator()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#102"
  , "c1" : "Set<AclOperation>"
  , "c2" : "authorizedOperations()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#107"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

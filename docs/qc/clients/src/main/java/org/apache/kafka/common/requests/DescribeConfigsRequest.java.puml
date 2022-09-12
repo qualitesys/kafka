@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.DescribeConfigsRequest
 class org.apache.kafka.common.requests.DescribeConfigsRequest {
-+  DescribeConfigsRequest(DescribeConfigsRequestData;short)
-+  data()
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
++ DescribeConfigsRequest(DescribeConfigsRequestData;short) : DescribeConfigsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#31]]]
++ data() : DescribeConfigsRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#37]]]
++ getErrorResponse(int;Throwable) : DescribeConfigsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#42]]]
++ parse(ByteBuffer;short) : DescribeConfigsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#55]]]
 } 
 @enduml

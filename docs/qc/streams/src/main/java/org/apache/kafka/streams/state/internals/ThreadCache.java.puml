@@ -2,33 +2,33 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.ThreadCache
 class org.apache.kafka.streams.state.internals.ThreadCache {
-+  ThreadCache(LogContext;long;StreamsMetricsImpl)
-+  puts()
-+  gets()
-+  evicts()
-+  flushes()
-+  resize(long)
-+  nameSpaceFromTaskIdAndStore(String;String)
-+  taskIDfromCacheName(String)
-+  underlyingStoreNamefromCacheName(String)
-+  addDirtyEntryFlushListener(String;DirtyEntryFlushListener)
-+  flush(String)
-+  get(String;Bytes)
-+  put(String;Bytes;LRUCacheEntry)
-+  putIfAbsent(String;Bytes;LRUCacheEntry)
-+  putAll(String;List<KeyValue<Bytes,LRUCacheEntry>>)
-+  delete(String;Bytes)
-+  range(String;Bytes;Bytes)
-+  range(String;Bytes;Bytes;boolean)
-+  reverseRange(String;Bytes;Bytes)
-+  all(String)
-+  reverseAll(String)
-+  size()
-+  isOverflowing(long)
-+  sizeBytes()
-+  close(String)
-+  maybeEvict(String)
-+  getCache(String)
-+  getOrCreateCache(String)
++ ThreadCache(LogContext;long;StreamsMetricsImpl) : ThreadCache [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#35]]]
++ puts() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#41]]]
++ gets() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#45]]]
++ evicts() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#49]]]
++ flushes() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#53]]]
++ resize(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#57]]]
++ nameSpaceFromTaskIdAndStore(String;String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#77]]]
++ taskIDfromCacheName(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#82]]]
++ underlyingStoreNamefromCacheName(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#88]]]
++ addDirtyEntryFlushListener(String;DirtyEntryFlushListener) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#95]]]
++ flush(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#100]]]
++ get(String;Bytes) : LRUCacheEntry [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#114]]]
++ put(String;Bytes;LRUCacheEntry) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#128]]]
++ putIfAbsent(String;Bytes;LRUCacheEntry) : LRUCacheEntry [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#136]]]
++ putAll(String;List<KeyValue<Bytes,LRUCacheEntry>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#148]]]
++ delete(String;Bytes) : LRUCacheEntry [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#154]]]
++ range(String;Bytes;Bytes) : MemoryLRUCacheBytesIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#163]]]
++ range(String;Bytes;Bytes;boolean) : MemoryLRUCacheBytesIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#167]]]
++ reverseRange(String;Bytes;Bytes) : MemoryLRUCacheBytesIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#175]]]
++ all(String) : MemoryLRUCacheBytesIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#183]]]
++ reverseAll(String) : MemoryLRUCacheBytesIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#191]]]
++ size() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#199]]]
+- isOverflowing(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#210]]]
+sizeBytes() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#214]]]
+close(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#225]]]
+- maybeEvict(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#232]]]
+- getCache(String) : NamedCache [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#252]]]
+- getOrCreateCache(String) : NamedCache [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#256]]]
 } 
 @enduml

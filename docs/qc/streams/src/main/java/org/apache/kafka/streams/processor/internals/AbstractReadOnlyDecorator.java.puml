@@ -2,11 +2,11 @@
 !pragma layout smetana
 WrappedStateStore_T,K,V_ <|-- org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator
 class org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator {
-+  AbstractReadOnlyDecorator(T)
-+  flush()
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  close()
-+  getReadOnlyStore(StateStore)
+- AbstractReadOnlyDecorator(T) : AbstractReadOnlyDecorator [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#26]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#31]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#37]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#43]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#49]]]
+getReadOnlyStore(StateStore) : StateStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#53]]]
 } 
 @enduml

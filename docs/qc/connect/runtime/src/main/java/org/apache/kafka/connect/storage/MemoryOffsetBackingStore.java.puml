@@ -2,12 +2,12 @@
 !pragma layout smetana
 OffsetBackingStore <|-- org.apache.kafka.connect.storage.MemoryOffsetBackingStore
 class org.apache.kafka.connect.storage.MemoryOffsetBackingStore {
-+  MemoryOffsetBackingStore()
-+  configure(WorkerConfig)
-+  start()
-+  stop()
-+  get(Collection<ByteBuffer>)
-+  set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)
-+  save()
++ MemoryOffsetBackingStore() : MemoryOffsetBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#27]]]
++ configure(WorkerConfig) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#32]]]
++ start() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#36]]]
++ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#42]]]
++ get(Collection<ByteBuffer>) : Future<Map<ByteBuffer,ByteBuffer>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#60]]]
++ set(Map<ByteBuffer,ByteBuffer>;Callback<Void>) : Future<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#71]]]
+save() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#83]]]
 } 
 @enduml

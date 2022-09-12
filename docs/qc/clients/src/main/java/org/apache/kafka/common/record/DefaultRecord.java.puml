@@ -2,43 +2,43 @@
 !pragma layout smetana
 Record <|-- org.apache.kafka.common.record.DefaultRecord
 class org.apache.kafka.common.record.DefaultRecord {
-+  DefaultRecord(int;byte;long;long;int;ByteBuffer;ByteBuffer;Header[])
-+  offset()
-+  sequence()
-+  sizeInBytes()
-+  timestamp()
-+  attributes()
-+  ensureValid()
-+  keySize()
-+  valueSize()
-+  hasKey()
-+  key()
-+  hasValue()
-+  value()
-+  headers()
-+  writeTo(DataOutputStream;int;long;ByteBuffer;ByteBuffer;Header[])
-+  hasMagic(byte)
-+  isCompressed()
-+  hasTimestampType(TimestampType)
-+  toString()
-+  equals(Object)
-+  hashCode()
-+  readFrom(DataInput;long;long;int;Long)
-+  readFrom(ByteBuffer;long;long;int;Long)
-+  readFrom(ByteBuffer;int;int;long;long;int;Long)
-+  readPartiallyFrom(DataInput;byte[];long;long;int;Long)
-+  readPartiallyFrom(DataInput;byte[];int;int;long;long;int;Long)
-+  readByte(ByteBuffer;DataInput;IntRef)
-+  readVarLong(ByteBuffer;DataInput;IntRef)
-+  readVarInt(ByteBuffer;DataInput;IntRef)
-+  skipLengthDelimitedField(ByteBuffer;DataInput;IntRef)
-+  readMore(ByteBuffer;DataInput;IntRef)
-+  readHeaders(ByteBuffer;int)
-+  sizeInBytes(int;long;ByteBuffer;ByteBuffer;Header[])
-+  sizeInBytes(int;long;int;int;Header[])
-+  sizeOfBodyInBytes(int;long;ByteBuffer;ByteBuffer;Header[])
-+  sizeOfBodyInBytes(int;long;int;int;Header[])
-+  sizeOf(int;int;Header[])
-+  recordSizeUpperBound(ByteBuffer;ByteBuffer;Header[])
+DefaultRecord(int;byte;long;long;int;ByteBuffer;ByteBuffer;Header[]) : DefaultRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#39]]]
++ offset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#58]]]
++ sequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#63]]]
++ sizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#68]]]
++ timestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#73]]]
++ attributes() : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#77]]]
++ ensureValid() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#82]]]
++ keySize() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#85]]]
++ valueSize() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#90]]]
++ hasKey() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#95]]]
++ key() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#100]]]
++ hasValue() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#105]]]
++ value() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#110]]]
++ headers() : Header[] [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#115]]]
++ writeTo(DataOutputStream;int;long;ByteBuffer;ByteBuffer;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#120]]]
++ hasMagic(byte) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#178]]]
++ isCompressed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#183]]]
++ hasTimestampType(TimestampType) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#188]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#193]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#202]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#220]]]
++ readFrom(DataInput;long;long;int;Long) : DefaultRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#232]]]
++ readFrom(ByteBuffer;long;long;int;Long) : DefaultRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#245]]]
+- readFrom(ByteBuffer;int;int;long;long;int;Long) : DefaultRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#261]]]
++ readPartiallyFrom(DataInput;byte[];long;long;int;Long) : PartialDefaultRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#319]]]
+- readPartiallyFrom(DataInput;byte[];int;int;long;long;int;Long) : PartialDefaultRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#332]]]
+- readByte(ByteBuffer;DataInput;IntRef) : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#390]]]
+- readVarLong(ByteBuffer;DataInput;IntRef) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#398]]]
+- readVarInt(ByteBuffer;DataInput;IntRef) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#406]]]
+- skipLengthDelimitedField(ByteBuffer;DataInput;IntRef) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#414]]]
+- readMore(ByteBuffer;DataInput;IntRef) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#449]]]
+- readHeaders(ByteBuffer;int) : Header[] [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#474]]]
++ sizeInBytes(int;long;ByteBuffer;ByteBuffer;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#499]]]
++ sizeInBytes(int;long;int;int;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#508]]]
+- sizeOfBodyInBytes(int;long;ByteBuffer;ByteBuffer;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#517]]]
++ sizeOfBodyInBytes(int;long;int;int;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#527]]]
+- sizeOf(int;int;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#539]]]
+recordSizeUpperBound(ByteBuffer;ByteBuffer;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#573]]]
 } 
 @enduml

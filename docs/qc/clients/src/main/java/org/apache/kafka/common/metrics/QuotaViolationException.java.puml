@@ -2,11 +2,11 @@
 !pragma layout smetana
 KafkaException <|-- org.apache.kafka.common.metrics.QuotaViolationException
 class org.apache.kafka.common.metrics.QuotaViolationException {
-+  QuotaViolationException(KafkaMetric;double;double)
-+  metric()
-+  value()
-+  bound()
-+  toString()
-+  fillInStackTrace()
++ QuotaViolationException(KafkaMetric;double;double) : QuotaViolationException [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#14]]]
++ metric() : KafkaMetric [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#20]]]
++ value() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#24]]]
++ bound() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#28]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#33]]]
++ fillInStackTrace() : Throwable [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#45]]]
 } 
 @enduml

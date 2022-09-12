@@ -2,27 +2,27 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.raft.internals.BatchAccumulator
 class org.apache.kafka.raft.internals.BatchAccumulator {
-+  BatchAccumulator(int;long;int;int;MemoryPool;Time;CompressionType;RecordSerde<T>)
-+  append(int;List<T>)
-+  appendAtomic(int;List<T>)
-+  append(int;List<T>;boolean)
-+  maybeResetLinger()
-+  maybeAllocateBatch(Collection<T>;ObjectSerializationCache)
-+  completeCurrentBatch()
-+  appendControlMessage(Function<ByteBuffer,MemoryRecords>)
-+  appendLeaderChangeMessage(LeaderChangeMessage;long)
-+  appendSnapshotHeaderMessage(SnapshotHeaderRecord;long)
-+  appendSnapshotFooterMessage(SnapshotFooterRecord;long)
-+  forceDrain()
-+  maybeCompleteDrain()
-+  startNewBatch()
-+  needsDrain(long)
-+  timeUntilDrain(long)
-+  epoch()
-+  drain()
-+  drainCompleted()
-+  isEmpty()
-+  numCompletedBatches()
-+  close()
++ BatchAccumulator(int;long;int;int;MemoryPool;Time;CompressionType;RecordSerde<T>) : BatchAccumulator [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#53]]]
++ append(int;List<T>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#78]]]
++ appendAtomic(int;List<T>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#83]]]
+- append(int;List<T>;boolean) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#87]]]
+- maybeResetLinger() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#128]]]
+- maybeAllocateBatch(Collection<T>;ObjectSerializationCache) : BatchBuilder<T> [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#134]]]
+- completeCurrentBatch() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#161]]]
+- appendControlMessage(Function<ByteBuffer,MemoryRecords>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#174]]]
++ appendLeaderChangeMessage(LeaderChangeMessage;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#205]]]
++ appendSnapshotHeaderMessage(SnapshotHeaderRecord;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#222]]]
++ appendSnapshotFooterMessage(SnapshotFooterRecord;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#238]]]
++ forceDrain() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#253]]]
+- maybeCompleteDrain() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#263]]]
+- startNewBatch() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#275]]]
++ needsDrain(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#292]]]
++ timeUntilDrain(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#297]]]
++ epoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#306]]]
++ drain() : List<CompletedBatch<T>> [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#311]]]
+- drainCompleted() : List<CompletedBatch<T>> [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#335]]]
++ isEmpty() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#347]]]
++ numCompletedBatches() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#355]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#360]]]
 } 
 @enduml

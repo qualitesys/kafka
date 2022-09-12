@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.StreamsStoppedException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsStoppedException.java.html#11"
  , "c1" : "StreamsStoppedException"
  , "c2" : "StreamsStoppedException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsStoppedException.java.html#15"
  , "c1" : "StreamsStoppedException"
  , "c2" : "StreamsStoppedException(String;Throwable)"
  , "c3" : "1"

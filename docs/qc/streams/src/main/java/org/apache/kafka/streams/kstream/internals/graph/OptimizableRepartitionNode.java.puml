@@ -2,11 +2,11 @@
 !pragma layout smetana
 BaseRepartitionNode_K,V_ <|-- org.apache.kafka.streams.kstream.internals.graph.OptimizableRepartitionNode
 class org.apache.kafka.streams.kstream.internals.graph.OptimizableRepartitionNode {
-+  OptimizableRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>)
-+  keySerde()
-+  valueSerde()
-+  repartitionTopic()
-+  toString()
-+  writeToTopology(InternalTopologyBuilder)
+- OptimizableRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>) : OptimizableRepartitionNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/OptimizableRepartitionNode.java.html#13]]]
++ keySerde() : Serde<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/OptimizableRepartitionNode.java.html#34]]]
++ valueSerde() : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/OptimizableRepartitionNode.java.html#38]]]
++ repartitionTopic() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/OptimizableRepartitionNode.java.html#42]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/OptimizableRepartitionNode.java.html#47]]]
++ writeToTopology(InternalTopologyBuilder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/OptimizableRepartitionNode.java.html#52]]]
 } 
 @enduml

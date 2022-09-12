@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.AuthorizationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00006"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/AuthorizationException.java.html#6"
  , "c1" : "AuthorizationException"
  , "c2" : "AuthorizationException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/AuthorizationException.java.html#10"
  , "c1" : "AuthorizationException"
  , "c2" : "AuthorizationException(String;Throwable)"
  , "c3" : "1"

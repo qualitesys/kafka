@@ -2,8 +2,8 @@
 !pragma layout smetana
 StreamsException <|-- org.apache.kafka.streams.errors.LockException
 class org.apache.kafka.streams.errors.LockException {
-+  LockException(String)
-+  LockException(String;Throwable)
-+  LockException(Throwable)
++ LockException(String) : LockException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.html#10]]]
++ LockException(String;Throwable) : LockException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.html#14]]]
++ LockException(Throwable) : LockException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.html#18]]]
 } 
 @enduml

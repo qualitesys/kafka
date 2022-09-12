@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- kafka.examples.KafkaConsumerProducerDemo
 class kafka.examples.KafkaConsumerProducerDemo {
-+  main(String[])
++ main(String[]) : void [[[././qc/examples/src/main/java/kafka/examples/KafkaConsumerProducerDemo.java.html#11]]]
 } 
 @enduml

@@ -2,46 +2,46 @@
 !pragma layout smetana
 AbstractCoordinator <|-- org.apache.kafka.clients.consumer.internals.ConsumerCoordinator
 class org.apache.kafka.clients.consumer.internals.ConsumerCoordinator {
-+  ConsumerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;List<ConsumerPartitionAssignor>;ConsumerMetadata;SubscriptionState;Metrics;String;Time;boolean;int;ConsumerInterceptors<?,?>;boolean)
-+  isLeader()
-+  subscriptionState()
-+  protocolType()
-+  metadata()
-+  updatePatternSubscription(Cluster)
-+  lookupAssignor(String)
-+  maybeUpdateJoinedSubscription(Set<TopicPartition>)
-+  invokeOnAssignment(ConsumerPartitionAssignor;Assignment)
-+  invokePartitionsAssigned(SortedSet<TopicPartition>)
-+  invokePartitionsRevoked(SortedSet<TopicPartition>)
-+  invokePartitionsLost(SortedSet<TopicPartition>)
-+  onJoinComplete(int;String;String;ByteBuffer)
-+  maybeUpdateSubscriptionMetadata()
-+  coordinatorUnknownAndUnready(Timer)
-+  poll(Timer;boolean)
-+  timeToNextPoll(long)
-+  updateGroupSubscription(Set<String>)
-+  isAssignFromSubscribedTopicsAssignor(String)
-+  maybeUpdateGroupSubscription(String;Map<String,Assignment>;Set<String>)
-+  onLeaderElected(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;boolean)
-+  validateCooperativeAssignment(Map<String,List<TopicPartition>>;Map<String,Assignment>)
-+  onJoinPrepare(int;String)
-+  onLeavePrepare()
-+  rejoinNeededOrPending()
-+  refreshCommittedOffsetsIfNeeded(Timer)
-+  fetchCommittedOffsets(Set<TopicPartition>;Timer)
-+  groupMetadata()
-+  close(Timer)
-+  invokeCompletedOffsetCommitCallbacks()
-+  commitOffsetsAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback)
-+  doCommitOffsetsAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback)
-+  commitOffsetsSync(Map<TopicPartition,OffsetAndMetadata>;Timer)
-+  maybeAutoCommitOffsetsSync(Timer)
-+  maybeAutoCommitOffsetsAsync(long)
-+  autoCommitOffsetsAsync()
-+  maybeAutoCommitOffsetsAsync()
-+  sendOffsetCommitRequest(Map<TopicPartition,OffsetAndMetadata>)
-+  sendOffsetFetchRequest(Set<TopicPartition>)
-+  getProtocol()
-+  poll(Timer)
++ ConsumerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;List<ConsumerPartitionAssignor>;ConsumerMetadata;SubscriptionState;Metrics;String;Time;boolean;int;ConsumerInterceptors<?,?>;boolean) : ConsumerCoordinator [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#129]]]
+isLeader() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#199]]]
+subscriptionState() : SubscriptionState [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#204]]]
++ protocolType() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#209]]]
+metadata() : JoinGroupRequestData.JoinGroupRequestProtocolCollection [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#214]]]
++ updatePatternSubscription(Cluster) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#233]]]
+- lookupAssignor(String) : ConsumerPartitionAssignor [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#241]]]
+- maybeUpdateJoinedSubscription(Set<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#249]]]
+- invokeOnAssignment(ConsumerPartitionAssignor;Assignment) : Exception [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#275]]]
+- invokePartitionsAssigned(SortedSet<TopicPartition>) : Exception [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#287]]]
+- invokePartitionsRevoked(SortedSet<TopicPartition>) : Exception [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#306]]]
+- invokePartitionsLost(SortedSet<TopicPartition>) : Exception [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#329]]]
+onJoinComplete(int;String;String;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#353]]]
+maybeUpdateSubscriptionMetadata() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#453]]]
+- coordinatorUnknownAndUnready(Timer) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#467]]]
++ poll(Timer;boolean) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#472]]]
++ timeToNextPoll(long) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#541]]]
+- updateGroupSubscription(Set<String>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#548]]]
+- isAssignFromSubscribedTopicsAssignor(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#562]]]
+- maybeUpdateGroupSubscription(String;Map<String,Assignment>;Set<String>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#567]]]
+onLeaderElected(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;boolean) : Map<String,ByteBuffer> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#596]]]
+- validateCooperativeAssignment(Map<String,List<TopicPartition>>;Map<String,Assignment>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#660]]]
+onJoinPrepare(int;String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#688]]]
++ onLeavePrepare() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#765]]]
++ rejoinNeededOrPending() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#795]]]
++ refreshCommittedOffsetsIfNeeded(Timer) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#820]]]
++ fetchCommittedOffsets(Set<TopicPartition>;Timer) : Map<TopicPartition,OffsetAndMetadata> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#854]]]
++ groupMetadata() : ConsumerGroupMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#896]]]
++ close(Timer) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#901]]]
+invokeCompletedOffsetCommitCallbacks() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#917]]]
++ commitOffsetsAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback) : RequestFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#932]]]
+- doCommitOffsetsAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback) : RequestFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#983]]]
++ commitOffsetsSync(Map<TopicPartition,OffsetAndMetadata>;Timer) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1011]]]
+- maybeAutoCommitOffsetsSync(Timer) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1045]]]
++ maybeAutoCommitOffsetsAsync(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1063]]]
+- autoCommitOffsetsAsync() : RequestFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1073]]]
+- maybeAutoCommitOffsetsAsync() : RequestFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1092]]]
+sendOffsetCommitRequest(Map<TopicPartition,OffsetAndMetadata>) : RequestFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1107]]]
+- sendOffsetFetchRequest(Set<TopicPartition>) : RequestFuture<Map<TopicPartition,OffsetAndMetadata>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1294]]]
+getProtocol() : RebalanceProtocol [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1481]]]
+poll(Timer) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1485]]]
 } 
 @enduml

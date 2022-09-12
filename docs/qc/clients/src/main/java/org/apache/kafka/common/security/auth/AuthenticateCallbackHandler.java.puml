@@ -2,7 +2,7 @@
 !pragma layout smetana
 CallbackHandler <|-- org.apache.kafka.common.security.auth.AuthenticateCallbackHandler
 class org.apache.kafka.common.security.auth.AuthenticateCallbackHandler {
-+  configure(Map<String,?>;String;List<AppConfigurationEntry>)
-+  close()
+configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticateCallbackHandler.java.html#15]]]
+close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticateCallbackHandler.java.html#18]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 MirrorConnectorConfig <|-- org.apache.kafka.connect.mirror.MirrorTaskConfig
 class org.apache.kafka.connect.mirror.MirrorTaskConfig {
-+  MirrorTaskConfig(Map<String,String>)
-+  taskTopicPartitions()
-+  taskConsumerGroups()
-+  metrics()
++ MirrorTaskConfig(Map<String,String>) : MirrorTaskConfig [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#19]]]
+taskTopicPartitions() : Set<TopicPartition> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#23]]]
+taskConsumerGroups() : Set<String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#33]]]
+metrics() : MirrorMetrics [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#41]]]
 } 
 @enduml

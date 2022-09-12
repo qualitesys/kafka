@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.ProduceRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#29"
  , "c1" : "Builder"
  , "c2" : "forMagic(byte;ProduceRequestData)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#46"
  , "c1" : "Builder"
  , "c2" : "forCurrentMagic(ProduceRequestData)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#104"
  , "c1" : "ProduceRequest"
  , "c2" : "ProduceRequest(ProduceRequestData;short)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#113"
  , "c1" : "Map<TopicPartition,Integer>"
  , "c2" : "partitionSizes()"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#134"
  , "c1" : "ProduceRequestData"
  , "c2" : "data()"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#143"
  , "c1" : "String"
  , "c2" : "toString(boolean)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00159"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#159"
  , "c1" : "ProduceResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#183"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts(Throwable)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00188"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#188"
  , "c1" : "short"
  , "c2" : "acks()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#192"
  , "c1" : "int"
  , "c2" : "timeout()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#196"
  , "c1" : "String"
  , "c2" : "transactionalId()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00200"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#200"
  , "c1" : "void"
  , "c2" : "clearPartitionRecords()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#206"
  , "c1" : "void"
  , "c2" : "validateRecords(short;BaseRecords)"
  , "c3" : "7"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00235"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#235"
  , "c1" : "ProduceRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#239"
  , "c1" : "byte"
  , "c2" : "requiredMagicForVersion(short)"
  , "c3" : "5"

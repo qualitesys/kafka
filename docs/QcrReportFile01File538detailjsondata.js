@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.SchemaException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/SchemaException.java.html#11"
  , "c1" : "SchemaException"
  , "c2" : "SchemaException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/SchemaException.java.html#15"
  , "c1" : "SchemaException"
  , "c2" : "SchemaException(String;Throwable)"
  , "c3" : "1"

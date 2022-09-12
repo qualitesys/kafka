@@ -2,13 +2,13 @@
 !pragma layout smetana
 AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerLoginCallbackHandler
 class org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerLoginCallbackHandler {
-+  configure(Map<String,?>;String;List<AppConfigurationEntry>)
-+  init(AccessTokenRetriever;AccessTokenValidator)
-+  getAccessTokenRetriever()
-+  close()
-+  handle(Callback[])
-+  handleTokenCallback(OAuthBearerTokenCallback)
-+  handleExtensionsCallback(SaslExtensionsCallback)
-+  checkInitialized()
++ configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#67]]]
+init(AccessTokenRetriever;AccessTokenValidator) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#76]]]
+getAccessTokenRetriever() : AccessTokenRetriever [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#91]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#96]]]
++ handle(Callback[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#107]]]
+- handleTokenCallback(OAuthBearerTokenCallback) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#121]]]
+- handleExtensionsCallback(SaslExtensionsCallback) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#134]]]
+- checkInitialized() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#167]]]
 } 
 @enduml

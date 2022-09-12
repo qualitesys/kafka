@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.SessionKeySchema" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#22"
  , "c1" : "int"
  , "c2" : "keyByteLength(Bytes)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#27"
  , "c1" : "Bytes"
  , "c2" : "upperRangeFixedSize(Bytes;long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#37"
  , "c1" : "Bytes"
  , "c2" : "lowerRangeFixedSize(Bytes;long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#47"
  , "c1" : "Bytes"
  , "c2" : "upperRange(Bytes;long)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#61"
  , "c1" : "Bytes"
  , "c2" : "lowerRange(Bytes;long)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#69"
  , "c1" : "long"
  , "c2" : "segmentTimestamp(Bytes)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#74"
  , "c1" : "HasNextCondition"
  , "c2" : "hasNextCondition(Bytes;Bytes;long;long;boolean)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#105"
  , "c1" : "byte[]"
  , "c2" : "extractKeyBytes(byte[])"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#111"
  , "c1" : "long"
  , "c2" : "extractEndTimestamp(byte[])"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#115"
  , "c1" : "long"
  , "c2" : "extractStartTimestamp(byte[])"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#119"
  , "c1" : "Window"
  , "c2" : "extractWindow(byte[])"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#134"
  , "c1" : "Windowed<Bytes>"
  , "c2" : "from(Bytes)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#154"
  , "c1" : "Bytes"
  , "c2" : "toBinary(Windowed<Bytes>)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00158"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#158"
  , "c1" : "Bytes"
  , "c2" : "toBinary(Bytes;long;long)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#166"
  , "c1" : "void"
  , "c2" : "writeBinary(ByteBuffer;Windowed<Bytes>)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#170"
  , "c1" : "void"
  , "c2" : "writeBinary(ByteBuffer;Bytes;long;long)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.components.Versioned" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/components/Versioned.java.html#8"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"

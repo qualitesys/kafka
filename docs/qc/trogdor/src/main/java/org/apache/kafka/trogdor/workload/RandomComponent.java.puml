@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.workload.RandomComponent
 class org.apache.kafka.trogdor.workload.RandomComponent {
-+  RandomComponent(int;PayloadGenerator)
-+  percent()
-+  component()
++ RandomComponent(int;PayloadGenerator) : RandomComponent [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponent.java.html#15]]]
++ percent() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponent.java.html#22]]]
++ component() : PayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponent.java.html#27]]]
 } 
 @enduml

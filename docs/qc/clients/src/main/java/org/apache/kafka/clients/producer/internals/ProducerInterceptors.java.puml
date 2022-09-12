@@ -2,10 +2,10 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.clients.producer.internals.ProducerInterceptors
 class org.apache.kafka.clients.producer.internals.ProducerInterceptors {
-+  ProducerInterceptors(List<ProducerInterceptor<K,V>>)
-+  onSend(ProducerRecord<K,V>)
-+  onAcknowledgement(RecordMetadata;Exception)
-+  onSendError(ProducerRecord<K,V>;TopicPartition;Exception)
-+  close()
++ ProducerInterceptors(List<ProducerInterceptor<K,V>>) : ProducerInterceptors [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#21]]]
++ onSend(ProducerRecord<K,V>) : ProducerRecord<K,V> [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#26]]]
++ onAcknowledgement(RecordMetadata;Exception) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#44]]]
++ onSendError(ProducerRecord<K,V>;TopicPartition;Exception) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#56]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#81]]]
 } 
 @enduml

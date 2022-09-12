@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.AclControlManager
 class org.apache.kafka.controller.AclControlManager {
-+  AclControlManager(SnapshotRegistry;Optional<ClusterMetadataAuthorizer>)
-+  createAcls(List<AclBinding>)
-+  newAclId()
-+  validateNewAcl(AclBinding)
-+  deleteAcls(List<AclBindingFilter>)
-+  deleteAclsForFilter(AclBindingFilter;Set<ApiMessageAndVersion>)
-+  validateFilter(AclBindingFilter)
-+  replay(AccessControlEntryRecord;Optional<OffsetAndEpoch>)
-+  replay(RemoveAccessControlEntryRecord;Optional<OffsetAndEpoch>)
-+  idToAcl()
-+  iterator(long)
+AclControlManager(SnapshotRegistry;Optional<ClusterMetadataAuthorizer>) : AclControlManager [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#45]]]
+createAcls(List<AclBinding>) : ControllerResult<List<AclCreateResult>> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#52]]]
+newAclId() : Uuid [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#75]]]
+validateNewAcl(AclBinding) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#83]]]
+deleteAcls(List<AclBindingFilter>) : ControllerResult<List<AclDeleteResult>> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#118]]]
+deleteAclsForFilter(AclBindingFilter;Set<ApiMessageAndVersion>) : AclDeleteResult [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#133]]]
+validateFilter(AclBindingFilter) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#149]]]
++ replay(AccessControlEntryRecord;Optional<OffsetAndEpoch>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#158]]]
++ replay(RemoveAccessControlEntryRecord;Optional<OffsetAndEpoch>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#170]]]
+idToAcl() : Map<Uuid,StandardAcl> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#188]]]
+iterator(long) : Iterator<List<ApiMessageAndVersion>> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#192]]]
 } 
 @enduml

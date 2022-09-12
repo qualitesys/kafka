@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.TxnOffsetCommitRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#91"
  , "c1" : "TxnOffsetCommitRequest"
  , "c2" : "TxnOffsetCommitRequest(TxnOffsetCommitRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#96"
  , "c1" : "Map<TopicPartition,CommittedOffset>"
  , "c2" : "offsets()"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#111"
  , "c1" : "List<TxnOffsetCommitRequestTopic>"
  , "c2" : "getTopics(Map<TopicPartition,CommittedOffset>)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#135"
  , "c1" : "TxnOffsetCommitRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#139"
  , "c1" : "List<TxnOffsetCommitResponseTopic>"
  , "c2" : "getErrorResponseTopics(List<TxnOffsetCommitRequestTopic>;Errors)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00158"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#158"
  , "c1" : "TxnOffsetCommitResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00167"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#167"
  , "c1" : "TxnOffsetCommitRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

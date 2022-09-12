@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.producer.internals.TxnPartitionEntry
 class org.apache.kafka.clients.producer.internals.TxnPartitionEntry {
-+  TxnPartitionEntry()
-+  resetSequenceNumbers(Consumer<ProducerBatch>)
+TxnPartitionEntry() : TxnPartitionEntry [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#43]]]
+resetSequenceNumbers(Consumer<ProducerBatch>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#51]]]
 } 
 @enduml

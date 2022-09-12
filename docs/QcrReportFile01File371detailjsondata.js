@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.InvalidTopicException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#14"
  , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#19"
  , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(String;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#24"
  , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#29"
  , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(Throwable)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#34"
  , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(Set<String>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#39"
  , "c1" : "InvalidTopicException"
  , "c2" : "InvalidTopicException(String;Set<String>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#44"
  , "c1" : "Set<String>"
  , "c2" : "invalidTopics()"
  , "c3" : "1"

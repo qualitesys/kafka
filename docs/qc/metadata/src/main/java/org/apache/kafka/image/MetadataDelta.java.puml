@@ -2,42 +2,42 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.MetadataDelta
 class org.apache.kafka.image.MetadataDelta {
-+  MetadataDelta(MetadataImage)
-+  image()
-+  featuresDelta()
-+  getOrCreateFeaturesDelta()
-+  clusterDelta()
-+  getOrCreateClusterDelta()
-+  topicsDelta()
-+  getOrCreateTopicsDelta()
-+  configsDelta()
-+  getOrCreateConfigsDelta()
-+  clientQuotasDelta()
-+  getOrCreateClientQuotasDelta()
-+  producerIdsDelta()
-+  getOrCreateProducerIdsDelta()
-+  aclsDelta()
-+  getOrCreateAclsDelta()
-+  metadataVersionChanged()
-+  read(long;int;Iterator<List<ApiMessageAndVersion>>)
-+  replay(long;int;ApiMessage)
-+  replay(RegisterBrokerRecord)
-+  replay(UnregisterBrokerRecord)
-+  replay(TopicRecord)
-+  replay(PartitionRecord)
-+  replay(ConfigRecord)
-+  replay(PartitionChangeRecord)
-+  replay(FenceBrokerRecord)
-+  replay(UnfenceBrokerRecord)
-+  replay(RemoveTopicRecord)
-+  replay(FeatureLevelRecord)
-+  replay(BrokerRegistrationChangeRecord)
-+  replay(ClientQuotaRecord)
-+  replay(ProducerIdsRecord)
-+  replay(AccessControlEntryRecord)
-+  replay(RemoveAccessControlEntryRecord)
-+  finishSnapshot()
-+  apply()
-+  toString()
++ MetadataDelta(MetadataImage) : MetadataDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#53]]]
++ image() : MetadataImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#59]]]
++ featuresDelta() : FeaturesDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#63]]]
++ getOrCreateFeaturesDelta() : FeaturesDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#67]]]
++ clusterDelta() : ClusterDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#72]]]
++ getOrCreateClusterDelta() : ClusterDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#76]]]
++ topicsDelta() : TopicsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#81]]]
++ getOrCreateTopicsDelta() : TopicsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#85]]]
++ configsDelta() : ConfigurationsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#90]]]
++ getOrCreateConfigsDelta() : ConfigurationsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#94]]]
++ clientQuotasDelta() : ClientQuotasDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#99]]]
++ getOrCreateClientQuotasDelta() : ClientQuotasDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#103]]]
++ producerIdsDelta() : ProducerIdsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#108]]]
++ getOrCreateProducerIdsDelta() : ProducerIdsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#112]]]
++ aclsDelta() : AclsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#119]]]
++ getOrCreateAclsDelta() : AclsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#123]]]
++ metadataVersionChanged() : Optional<MetadataVersion> [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#128]]]
++ read(long;int;Iterator<List<ApiMessageAndVersion>>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#136]]]
++ replay(long;int;ApiMessage) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#145]]]
++ replay(RegisterBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#204]]]
++ replay(UnregisterBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#209]]]
++ replay(TopicRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#214]]]
++ replay(PartitionRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#218]]]
++ replay(ConfigRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#222]]]
++ replay(PartitionChangeRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#226]]]
++ replay(FenceBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#230]]]
++ replay(UnfenceBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#234]]]
++ replay(RemoveTopicRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#238]]]
++ replay(FeatureLevelRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#244]]]
++ replay(BrokerRegistrationChangeRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#257]]]
++ replay(ClientQuotaRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#261]]]
++ replay(ProducerIdsRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#265]]]
++ replay(AccessControlEntryRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#269]]]
++ replay(RemoveAccessControlEntryRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#273]]]
++ finishSnapshot() : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#278]]]
++ apply() : MetadataImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#288]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#344]]]
 } 
 @enduml

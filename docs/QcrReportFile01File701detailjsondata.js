@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.OffsetCommitRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#56"
  , "c1" : "OffsetCommitRequest"
  , "c2" : "OffsetCommitRequest(OffsetCommitRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#62"
  , "c1" : "OffsetCommitRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#66"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "offsets()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#77"
  , "c1" : "List<OffsetCommitResponseTopic>"
  , "c2" : "getErrorResponseTopics(List<OffsetCommitRequestTopic>;Errors)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#98"
  , "c1" : "OffsetCommitResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#106"
  , "c1" : "OffsetCommitRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

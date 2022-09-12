@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.LeftOrRightValueSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#8"
  , "c1" : "LeftOrRightValueSerde"
  , "c2" : "LeftOrRightValueSerde(Serde<V1>;Serde<V2>)"
  , "c3" : "1"

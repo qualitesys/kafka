@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.Branched" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#15"
  , "c1" : "Branched"
  , "c2" : "Branched(String;Function<?superKStream<K,V>,?extendsKStream<K,V>>;Consumer<?superKStream<K,V>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#57"
  , "c1" : "Branched"
  , "c2" : "Branched(Branched<K,V>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#63"
  , "c1" : "Branched<K,V>"
  , "c2" : "withName(String)"
  , "c3" : "1"

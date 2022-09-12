@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.LogAppendInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.html#10"
  , "c1" : "LogAppendInfo"
  , "c2" : "LogAppendInfo(long;long)"
  , "c3" : "1"

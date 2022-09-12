@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.DistributedHerder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#178"
  , "c1" : "DistributedHerder"
  , "c2" : "DistributedHerder(DistributedConfig;Time;Worker;String;StatusBackingStore;ConfigBackingStore;String;ConnectorClientConfigOverridePolicy;AutoCloseable...)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00193"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#193"
  , "c1" : "DistributedHerder"
  , "c2" : "DistributedHerder(DistributedConfig;Worker;String;String;StatusBackingStore;ConfigBackingStore;WorkerGroupMember;String;ConnectMetrics;Time;ConnectorClientConfigOverridePolicy;AutoCloseable...)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00273"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#273"
  , "c1" : "void"
  , "c2" : "start()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00278"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#278"
  , "c1" : "void"
  , "c2" : "run()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00305"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#305"
  , "c1" : "void"
  , "c2" : "tick()"
  , "c3" : "25"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00463"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#463"
  , "c1" : "boolean"
  , "c2" : "checkForKeyRotation(long)"
  , "c3" : "9"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00497"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#497"
  , "c1" : "boolean"
  , "c2" : "updateConfigsWithEager(AtomicReference<Set<String>>;AtomicReference<Set<String>>)"
  , "c3" : "7"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00545"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#545"
  , "c1" : "boolean"
  , "c2" : "updateConfigsWithIncrementalCooperative(AtomicReference<Set<String>>;AtomicReference<Set<String>>;AtomicReference<Set<ConnectorTaskId>>)"
  , "c3" : "7"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00596"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#596"
  , "c1" : "void"
  , "c2" : "processConnectorConfigUpdates(Set<String>)"
  , "c3" : "5"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00625"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#625"
  , "c1" : "void"
  , "c2" : "processTargetStateChanges(Set<String>)"
  , "c3" : "5"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00652"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#652"
  , "c1" : "void"
  , "c2" : "processTaskConfigUpdatesWithIncrementalCooperative(Set<ConnectorTaskId>)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00664"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#664"
  , "c1" : "void"
  , "c2" : "stopReconfiguredTasks(Set<String>)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00685"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#685"
  , "c1" : "void"
  , "c2" : "halt()"
  , "c3" : "4"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00713"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#713"
  , "c1" : "void"
  , "c2" : "stopServices()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00722"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#722"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "4"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00748"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#748"
  , "c1" : "void"
  , "c2" : "connectors(Callback<Collection<String>>)"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00762"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#762"
  , "c1" : "void"
  , "c2" : "connectorInfo(String;Callback<ConnectorInfo>)"
  , "c3" : "4"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00783"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#783"
  , "c1" : "void"
  , "c2" : "tasksConfig(String;Callback<Map<ConnectorTaskId,Map<String,String>>>)"
  , "c3" : "4"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00803"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#803"
  , "c1" : "Map<String,String>"
  , "c2" : "rawConfig(String)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00808"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#808"
  , "c1" : "void"
  , "c2" : "connectorConfig(String;Callback<Map<String,String>>)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00814"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#814"
  , "c1" : "void"
  , "c2" : "deleteConnectorConfig(String;Callback<Created<ConnectorInfo>>)"
  , "c3" : "4"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00837"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#837"
  , "c1" : "Map<String,ConfigValue>"
  , "c2" : "validateSinkConnectorConfig(SinkConnector;ConfigDef;Map<String,String>)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00844"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#844"
  , "c1" : "Map<String,ConfigValue>"
  , "c2" : "validateSourceConnectorConfig(SourceConnector;ConfigDef;Map<String,String>)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00852"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#852"
  , "c1" : "void"
  , "c2" : "validateSinkConnectorGroupId(Map<String,ConfigValue>)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00861"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#861"
  , "c1" : "void"
  , "c2" : "validateSourceConnectorExactlyOnceSupport(Map<String,String>;Map<String,ConfigValue>;SourceConnector)"
  , "c3" : "11"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00908"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#908"
  , "c1" : "void"
  , "c2" : "validateSourceConnectorTransactionBoundary(Map<String,String>;Map<String,ConfigValue>;SourceConnector)"
  , "c3" : "8"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00947"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#947"
  , "c1" : "boolean"
  , "c2" : "connectorUsesAdmin(org.apache.kafka.connect.health.ConnectorType;Map<String,String>)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00953"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#953"
  , "c1" : "boolean"
  , "c2" : "connectorUsesConsumer(org.apache.kafka.connect.health.ConnectorType;Map<String,String>)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00958"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#958"
  , "c1" : "boolean"
  , "c2" : "connectorUsesSeparateOffsetsTopicClients(org.apache.kafka.connect.health.ConnectorType;Map<String,String>)"
  , "c3" : "2"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00967"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#967"
  , "c1" : "void"
  , "c2" : "putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>)"
  , "c3" : "5"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01019"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1019"
  , "c1" : "void"
  , "c2" : "requestTaskReconfiguration(String)"
  , "c3" : "2"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01037"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1037"
  , "c1" : "void"
  , "c2" : "taskConfigs(String;Callback<List<TaskInfo>>)"
  , "c3" : "5"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01062"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1062"
  , "c1" : "void"
  , "c2" : "putTaskConfigs(String;List<Map<String,String>>;Callback<Void>;InternalRequestSignature)"
  , "c3" : "6"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01086"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1086"
  , "c1" : "void"
  , "c2" : "fenceZombieSourceTasks(String;Callback<Void>;InternalRequestSignature)"
  , "c3" : "2"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01096"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1096"
  , "c1" : "void"
  , "c2" : "fenceZombieSourceTasks(ConnectorTaskId;Callback<Void>)"
  , "c3" : "5"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01120"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1120"
  , "c1" : "void"
  , "c2" : "fenceZombieSourceTasks(String;Callback<Void>)"
  , "c3" : "16"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01192"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1192"
  , "c1" : "void"
  , "c2" : "restartConnector(String;Callback<Void>)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01197"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1197"
  , "c1" : "HerderRequest"
  , "c2" : "restartConnector(long;String;Callback<Void>)"
  , "c3" : "7"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01227"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1227"
  , "c1" : "void"
  , "c2" : "restartTask(ConnectorTaskId;Callback<Void>)"
  , "c3" : "10"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01264"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1264"
  , "c1" : "int"
  , "c2" : "generation()"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01269"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1269"
  , "c1" : "void"
  , "c2" : "restartConnectorAndTasks(RestartRequest;Callback<ConnectorStateInfo>)"
  , "c3" : "7"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01300"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1300"
  , "c1" : "void"
  , "c2" : "processRestartRequests()"
  , "c3" : "2"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01320"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1320"
  , "c1" : "void"
  , "c2" : "doRestartConnectorAndTasks(RestartRequest)"
  , "c3" : "10"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01381"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1381"
  , "c1" : "boolean"
  , "c2" : "isLeader()"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01386"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1386"
  , "c1" : "String"
  , "c2" : "leaderUrl()"
  , "c3" : "2"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01393"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1393"
  , "c1" : "void"
  , "c2" : "writeToConfigTopicAsLeader(Runnable)"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01404"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1404"
  , "c1" : "boolean"
  , "c2" : "handleRebalanceCompleted()"
  , "c3" : "16"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01495"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1495"
  , "c1" : "boolean"
  , "c2" : "readConfigToEnd(long)"
  , "c3" : "5"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01514"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1514"
  , "c1" : "boolean"
  , "c2" : "refreshConfigSnapshot(long)"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01527"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1527"
  , "c1" : "void"
  , "c2" : "backoff(long)"
  , "c3" : "3"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01552"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1552"
  , "c1" : "void"
  , "c2" : "startAndStop(Collection<Callable<Void>>)"
  , "c3" : "1"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01560"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1560"
  , "c1" : "void"
  , "c2" : "startWork()"
  , "c3" : "3"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01609"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1609"
  , "c1" : "boolean"
  , "c2" : "startTask(ConnectorTaskId)"
  , "c3" : "5"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01663"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1663"
  , "c1" : "Callable<Void>"
  , "c2" : "getTaskStartingCallable(ConnectorTaskId)"
  , "c3" : "1"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01676"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1676"
  , "c1" : "Callable<Void>"
  , "c2" : "getTaskStoppingCallable(ConnectorTaskId)"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01686"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1686"
  , "c1" : "void"
  , "c2" : "startConnector(String;Callback<Void>)"
  , "c3" : "4"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01717"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1717"
  , "c1" : "Callable<Void>"
  , "c2" : "getConnectorStartingCallable(String)"
  , "c3" : "2"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01733"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1733"
  , "c1" : "Callable<Void>"
  , "c2" : "getConnectorStoppingCallable(String)"
  , "c3" : "1"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01744"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1744"
  , "c1" : "void"
  , "c2" : "reconfigureConnectorTasksWithRetry(long;String)"
  , "c3" : "5"
@@ -431,6 +549,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01771"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1771"
  , "c1" : "boolean"
  , "c2" : "isPossibleExpiredKeyException(long;Throwable)"
  , "c3" : "2"
@@ -438,6 +558,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01782"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1782"
  , "c1" : "void"
  , "c2" : "reconfigureConnector(String;Callback<Void>)"
  , "c3" : "12"
@@ -445,6 +567,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01855"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1855"
  , "c1" : "void"
  , "c2" : "verifyTaskGenerationAndOwnership(ConnectorTaskId;int)"
  , "c3" : "2"
@@ -452,6 +576,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01879"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1879"
  , "c1" : "Void"
  , "c2" : "verifyTaskGenerationAndOwnership(ConnectorTaskId;int;Callback<Void>)"
  , "c3" : "3"
@@ -459,6 +585,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01895"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1895"
  , "c1" : "boolean"
  , "c2" : "checkRebalanceNeeded(Callback<?>)"
  , "c3" : "2"
@@ -466,6 +594,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01906"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1906"
  , "c1" : "DistributedHerderRequest"
  , "c2" : "runOnTickThread(Callable<Void>;Callback<Void>)"
  , "c3" : "3"
@@ -473,6 +603,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01915"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1915"
  , "c1" : "DistributedHerderRequest"
  , "c2" : "addRequest(Callable<Void>;Callback<Void>)"
  , "c3" : "1"
@@ -480,6 +612,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01919"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1919"
  , "c1" : "DistributedHerderRequest"
  , "c2" : "addRequest(long;Callable<Void>;Callback<Void>)"
  , "c3" : "2"
@@ -487,6 +621,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01927"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1927"
  , "c1" : "void"
  , "c2" : "runRequest(Callable<Void>;Callback<Void>)"
  , "c3" : "1"
@@ -494,6 +630,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01936"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1936"
  , "c1" : "boolean"
  , "c2" : "internalRequestValidationEnabled()"
  , "c3" : "1"
@@ -501,6 +639,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01940"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1940"
  , "c1" : "boolean"
  , "c2" : "internalRequestValidationEnabled(short)"
  , "c3" : "1"
@@ -508,6 +648,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01944"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1944"
  , "c1" : "DistributedHerderRequest"
  , "c2" : "peekWithoutException()"
  , "c3" : "1"
@@ -515,6 +657,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02110"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2110"
  , "c1" : "Callback<Void>"
  , "c2" : "forwardErrorCallback(Callback<?>)"
  , "c3" : "2"
@@ -522,6 +666,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02117"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2117"
  , "c1" : "void"
  , "c2" : "updateDeletedConnectorStatus()"
  , "c3" : "3"
@@ -529,6 +675,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02128"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2128"
  , "c1" : "void"
  , "c2" : "updateDeletedTaskStatus()"
  , "c3" : "2"
@@ -536,6 +684,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02140"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2140"
  , "c1" : "HerderMetrics"
  , "c2" : "herderMetrics()"
  , "c3" : "1"
@@ -543,6 +693,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02283"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2283"
  , "c1" : "boolean"
  , "c2" : "isSourceConnector(String)"
  , "c3" : "1"
@@ -550,6 +702,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02288"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2288"
  , "c1" : "boolean"
  , "c2" : "requestNotSignedProperly(InternalRequestSignature;Callback<?>)"
  , "c3" : "8"

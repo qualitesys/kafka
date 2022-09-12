@@ -2,9 +2,9 @@
 !pragma layout smetana
 KTableProcessorSupplier_K,V,K,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KTableTransformValues
 class org.apache.kafka.streams.kstream.internals.KTableTransformValues {
-+  KTableTransformValues(KTableImpl<K,?,V>;ValueTransformerWithKeySupplier<?superK,?superV,?extendsVOut>;String)
-+  get()
-+  view()
-+  enableSendingOldValues(boolean)
+KTableTransformValues(KTableImpl<K,?,V>;ValueTransformerWithKeySupplier<?superK,?superV,?extendsVOut>;String) : KTableTransformValues [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#28]]]
++ get() : Processor<K,Change<V>,K,Change<VOut>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#37]]]
++ view() : KTableValueGetterSupplier<K,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#42]]]
++ enableSendingOldValues(boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#64]]]
 } 
 @enduml

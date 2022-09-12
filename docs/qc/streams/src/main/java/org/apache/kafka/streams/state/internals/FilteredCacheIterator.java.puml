@@ -2,11 +2,11 @@
 !pragma layout smetana
 PeekingKeyValueIterator_Bytes,LRUCacheEntry_ <|-- org.apache.kafka.streams.state.internals.FilteredCacheIterator
 class org.apache.kafka.streams.state.internals.FilteredCacheIterator {
-+  FilteredCacheIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;HasNextCondition;CacheFunction)
-+  close()
-+  peekNextKey()
-+  hasNext()
-+  next()
-+  peekNext()
+FilteredCacheIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;HasNextCondition;CacheFunction) : FilteredCacheIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#14]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#53]]]
++ peekNextKey() : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#58]]]
++ hasNext() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#66]]]
++ next() : KeyValue<Bytes,LRUCacheEntry> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#71]]]
++ peekNext() : KeyValue<Bytes,LRUCacheEntry> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#80]]]
 } 
 @enduml

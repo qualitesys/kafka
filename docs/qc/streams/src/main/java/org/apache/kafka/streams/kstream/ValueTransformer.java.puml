@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.ValueTransformer
 class org.apache.kafka.streams.kstream.ValueTransformer {
-+  init(ProcessorContext)
-+  transform(V)
-+  close()
+init(ProcessorContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformer.java.html#17]]]
+transform(V) : VR [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformer.java.html#20]]]
+close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformer.java.html#23]]]
 } 
 @enduml

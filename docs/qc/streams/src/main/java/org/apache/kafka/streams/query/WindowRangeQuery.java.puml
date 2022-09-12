@@ -2,10 +2,10 @@
 !pragma layout smetana
 Query_KeyValueIterator_Windowed_K_,V__ <|-- org.apache.kafka.streams.query.WindowRangeQuery
 class org.apache.kafka.streams.query.WindowRangeQuery {
-+  WindowRangeQuery(Optional<K>;Optional<Instant>;Optional<Instant>)
-+  getKey()
-+  getTimeFrom()
-+  getTimeTo()
-+  toString()
+- WindowRangeQuery(Optional<K>;Optional<Instant>;Optional<Instant>) : WindowRangeQuery [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#17]]]
++ getKey() : Optional<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#34]]]
++ getTimeFrom() : Optional<Instant> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#38]]]
++ getTimeTo() : Optional<Instant> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#42]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowRangeQuery.java.html#47]]]
 } 
 @enduml

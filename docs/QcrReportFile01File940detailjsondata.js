@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.ConnectSchema" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#80"
  , "c1" : "ConnectSchema"
  , "c2" : "ConnectSchema(Type;boolean;Object;String;Integer;String;Map<String,String>;List<Field>;Schema;Schema)"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#104"
  , "c1" : "ConnectSchema"
  , "c2" : "ConnectSchema(Type;boolean;Object;String;Integer;String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#109"
  , "c1" : "ConnectSchema"
  , "c2" : "ConnectSchema(Type)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#114"
  , "c1" : "Type"
  , "c2" : "type()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#119"
  , "c1" : "boolean"
  , "c2" : "isOptional()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#124"
  , "c1" : "Object"
  , "c2" : "defaultValue()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#129"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#134"
  , "c1" : "Integer"
  , "c2" : "version()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#139"
  , "c1" : "String"
  , "c2" : "doc()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#144"
  , "c1" : "Map<String,String>"
  , "c2" : "parameters()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00149"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#149"
  , "c1" : "List<Field>"
  , "c2" : "fields()"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#156"
  , "c1" : "Field"
  , "c2" : "field(String)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00163"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#163"
  , "c1" : "Schema"
  , "c2" : "keySchema()"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#170"
  , "c1" : "Schema"
  , "c2" : "valueSchema()"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00179"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#179"
  , "c1" : "void"
  , "c2" : "validateValue(Schema;Object)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#183"
  , "c1" : "void"
  , "c2" : "validateValue(String;Schema;Object)"
  , "c3" : "14"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00234"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#234"
  , "c1" : "List<Class<?>>"
  , "c2" : "expectedClassesFor(Schema)"
  , "c3" : "2"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00242"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#242"
  , "c1" : "void"
  , "c2" : "validateValue(Object)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#247"
  , "c1" : "ConnectSchema"
  , "c2" : "schema()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00253"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#253"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00270"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#270"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00279"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#279"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "3"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00288"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#288"
  , "c1" : "Type"
  , "c2" : "schemaType(Class<?>)"
  , "c3" : "3"

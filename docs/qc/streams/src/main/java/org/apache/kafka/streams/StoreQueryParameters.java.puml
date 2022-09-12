@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.StoreQueryParameters
 class org.apache.kafka.streams.StoreQueryParameters {
-+  StoreQueryParameters(String;QueryableStoreType<T>;Integer;boolean)
-+  withPartition(Integer)
-+  enableStaleStores()
-+  storeName()
-+  queryableStoreType()
-+  partition()
-+  staleStoresEnabled()
-+  equals(Object)
-+  toString()
-+  hashCode()
+StoreQueryParameters(String;QueryableStoreType<T>;Integer;boolean) : StoreQueryParameters [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#16]]]
++ withPartition(Integer) : StoreQueryParameters<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#29]]]
++ enableStaleStores() : StoreQueryParameters<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#34]]]
++ storeName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#39]]]
++ queryableStoreType() : QueryableStoreType<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#44]]]
++ partition() : Integer [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#49]]]
++ staleStoresEnabled() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#54]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#59]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#71]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#81]]]
 } 
 @enduml

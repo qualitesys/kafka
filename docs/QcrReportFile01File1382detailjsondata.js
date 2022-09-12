@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.timeline.SnapshotRegistry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#82"
  , "c1" : "SnapshotRegistry"
  , "c2" : "SnapshotRegistry(LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#87"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "iterator()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#92"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "iterator(long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#97"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "iterator(Snapshot)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#102"
  , "c1" : "Iterator<Snapshot>"
  , "c2" : "reverseIterator()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#107"
  , "c1" : "List<Long>"
  , "c2" : "epochsList()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#115"
  , "c1" : "boolean"
  , "c2" : "hasSnapshot(long)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#120"
  , "c1" : "Snapshot"
  , "c2" : "getSnapshot(long)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#131"
  , "c1" : "Snapshot"
  , "c2" : "getOrCreateSnapshot(long)"
  , "c3" : "4"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#147"
  , "c1" : "void"
  , "c2" : "revertToSnapshot(long)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00161"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#161"
  , "c1" : "void"
  , "c2" : "deleteSnapshot(long)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#166"
  , "c1" : "void"
  , "c2" : "deleteSnapshot(Snapshot)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#178"
  , "c1" : "void"
  , "c2" : "deleteSnapshotsUpTo(long)"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00190"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#190"
  , "c1" : "long"
  , "c2" : "latestEpoch()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00195"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#195"
  , "c1" : "void"
  , "c2" : "register(Revertable)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00200"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#200"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "2"

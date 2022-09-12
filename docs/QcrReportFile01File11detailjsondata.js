@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.GroupRebalanceConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#31"
  , "c1" : "GroupRebalanceConfig"
  , "c2" : "GroupRebalanceConfig(AbstractConfig;ProtocolType)"
  , "c3" : "9"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/GroupRebalanceConfig.java.html#68"
  , "c1" : "GroupRebalanceConfig"
  , "c2" : "GroupRebalanceConfig(int;int;int;String;Optional<String>;long;boolean)"
  , "c3" : "1"

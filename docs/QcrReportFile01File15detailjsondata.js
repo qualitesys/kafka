@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.ManualMetadataUpdater" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#18"
  , "c1" : "ManualMetadataUpdater"
  , "c2" : "ManualMetadataUpdater()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#22"
  , "c1" : "ManualMetadataUpdater"
  , "c2" : "ManualMetadataUpdater(List<Node>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#26"
  , "c1" : "void"
  , "c2" : "setNodes(List<Node>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#31"
  , "c1" : "List<Node>"
  , "c2" : "fetchNodes()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#36"
  , "c1" : "boolean"
  , "c2" : "isUpdateDue(long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#41"
  , "c1" : "long"
  , "c2" : "maybeUpdate(long)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46"
  , "c1" : "void"
  , "c2" : "handleServerDisconnect(long;String;Optional<AuthenticationException>)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#52"
  , "c1" : "void"
  , "c2" : "handleFailedRequest(long;Optional<KafkaException>)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#57"
  , "c1" : "void"
  , "c2" : "handleSuccessfulResponse(RequestHeader;long;MetadataResponse)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#62"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -2,28 +2,28 @@
 !pragma layout smetana
 KafkaStreams <|-- org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper
 class org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper {
-+  KafkaStreamsNamedTopologyWrapper(Properties)
-+  KafkaStreamsNamedTopologyWrapper(Properties;KafkaClientSupplier)
-+  KafkaStreamsNamedTopologyWrapper(StreamsConfig;KafkaClientSupplier)
-+  start(NamedTopology)
-+  start(Collection<NamedTopology>)
-+  newNamedTopologyBuilder(String;Properties)
-+  newNamedTopologyBuilder(String)
-+  getTopologyByName(String)
-+  getAllTopologies()
-+  addNamedTopology(NamedTopology)
-+  removeNamedTopology(String;boolean)
-+  pauseNamedTopology(String)
-+  isNamedTopologyPaused(String)
-+  resumeNamedTopology(String)
-+  maybeCompleteFutureIfStillInCREATED(KafkaFutureImpl<Void>;String)
-+  resetOffsets(Set<TopicPartition>)
-+  removeNamedTopology(String)
-+  cleanUpNamedTopology(String)
-+  getFullTopologyDescription()
-+  verifyTopologyStateStore(String;String)
-+  streamsMetadataForStore(String;String)
-+  allStreamsClientsMetadataForTopology(String)
-+  allLocalStorePartitionLagsForTopology(String)
++ KafkaStreamsNamedTopologyWrapper(Properties) : KafkaStreamsNamedTopologyWrapper [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#52]]]
++ KafkaStreamsNamedTopologyWrapper(Properties;KafkaClientSupplier) : KafkaStreamsNamedTopologyWrapper [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#56]]]
+- KafkaStreamsNamedTopologyWrapper(StreamsConfig;KafkaClientSupplier) : KafkaStreamsNamedTopologyWrapper [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#60]]]
++ start(NamedTopology) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#67]]]
++ start(Collection<NamedTopology>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#72]]]
++ newNamedTopologyBuilder(String;Properties) : NamedTopologyBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#86]]]
++ newNamedTopologyBuilder(String) : NamedTopologyBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#94]]]
++ getTopologyByName(String) : Optional<NamedTopology> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#99]]]
++ getAllTopologies() : Collection<NamedTopology> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#103]]]
++ addNamedTopology(NamedTopology) : AddNamedTopologyResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#108]]]
++ removeNamedTopology(String;boolean) : RemoveNamedTopologyResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#130]]]
++ pauseNamedTopology(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#183]]]
++ isNamedTopologyPaused(String) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#188]]]
++ resumeNamedTopology(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#193]]]
+- maybeCompleteFutureIfStillInCREATED(KafkaFutureImpl<Void>;String) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#198]]]
+- resetOffsets(Set<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#209]]]
++ removeNamedTopology(String) : RemoveNamedTopologyResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#252]]]
++ cleanUpNamedTopology(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#257]]]
++ getFullTopologyDescription() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#264]]]
+- verifyTopologyStateStore(String;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#268]]]
++ streamsMetadataForStore(String;String) : Collection<StreamsMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#289]]]
++ allStreamsClientsMetadataForTopology(String) : Collection<StreamsMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#296]]]
++ allLocalStorePartitionLagsForTopology(String) : Map<String,Map<Integer,LagInfo>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#312]]]
 } 
 @enduml

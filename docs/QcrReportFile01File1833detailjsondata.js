@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.PartitionGrouper" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26"
  , "c1" : "Map<TaskId,Set<TopicPartition>>"
  , "c2" : "partitionGroups(Map<Subtopology,Set<String>>;Cluster)"
  , "c3" : "5"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52"
  , "c1" : "int"
  , "c2" : "maxNumPartitions(Cluster;Set<String>)"
  , "c3" : "4"

@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.StateStoreContext
 class org.apache.kafka.streams.processor.StateStoreContext {
-+  applicationId()
-+  taskId()
-+  recordMetadata()
-+  keySerde()
-+  valueSerde()
-+  stateDir()
-+  metrics()
-+  register(StateStore;StateRestoreCallback)
-+  register(StateStore;StateRestoreCallback;CommitCallback)
-+  appConfigs()
-+  appConfigsWithPrefix(String)
+applicationId() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#18]]]
+taskId() : TaskId [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#21]]]
+recordMetadata() : Optional<RecordMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#24]]]
+keySerde() : Serde<?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#27]]]
+valueSerde() : Serde<?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#30]]]
+stateDir() : File [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#33]]]
+metrics() : StreamsMetrics [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#36]]]
+register(StateStore;StateRestoreCallback) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#39]]]
+register(StateStore;StateRestoreCallback;CommitCallback) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#44]]]
+appConfigs() : Map<String,Object> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#49]]]
+appConfigsWithPrefix(String) : Map<String,Object> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#52]]]
 } 
 @enduml

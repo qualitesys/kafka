@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ThreadCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#35"
  , "c1" : "ThreadCache"
  , "c2" : "ThreadCache(LogContext;long;StreamsMetricsImpl)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#41"
  , "c1" : "long"
  , "c2" : "puts()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#45"
  , "c1" : "long"
  , "c2" : "gets()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#49"
  , "c1" : "long"
  , "c2" : "evicts()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#53"
  , "c1" : "long"
  , "c2" : "flushes()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#57"
  , "c1" : "void"
  , "c2" : "resize(long)"
  , "c3" : "5"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#77"
  , "c1" : "String"
  , "c2" : "nameSpaceFromTaskIdAndStore(String;String)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#82"
  , "c1" : "String"
  , "c2" : "taskIDfromCacheName(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#88"
  , "c1" : "String"
  , "c2" : "underlyingStoreNamefromCacheName(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#95"
  , "c1" : "void"
  , "c2" : "addDirtyEntryFlushListener(String;DirtyEntryFlushListener)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#100"
  , "c1" : "void"
  , "c2" : "flush(String)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#114"
  , "c1" : "LRUCacheEntry"
  , "c2" : "get(String;Bytes)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#128"
  , "c1" : "void"
  , "c2" : "put(String;Bytes;LRUCacheEntry)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#136"
  , "c1" : "LRUCacheEntry"
  , "c2" : "putIfAbsent(String;Bytes;LRUCacheEntry)"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#148"
  , "c1" : "void"
  , "c2" : "putAll(String;List<KeyValue<Bytes,LRUCacheEntry>>)"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#154"
  , "c1" : "LRUCacheEntry"
  , "c2" : "delete(String;Bytes)"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00163"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#163"
  , "c1" : "MemoryLRUCacheBytesIterator"
  , "c2" : "range(String;Bytes;Bytes)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00167"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#167"
  , "c1" : "MemoryLRUCacheBytesIterator"
  , "c2" : "range(String;Bytes;Bytes;boolean)"
  , "c3" : "2"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#175"
  , "c1" : "MemoryLRUCacheBytesIterator"
  , "c2" : "reverseRange(String;Bytes;Bytes)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#183"
  , "c1" : "MemoryLRUCacheBytesIterator"
  , "c2" : "all(String)"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00191"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#191"
  , "c1" : "MemoryLRUCacheBytesIterator"
  , "c2" : "reverseAll(String)"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00199"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#199"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "3"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00210"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#210"
  , "c1" : "boolean"
  , "c2" : "isOverflowing(long)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00214"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#214"
  , "c1" : "long"
  , "c2" : "sizeBytes()"
  , "c3" : "3"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00225"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#225"
  , "c1" : "void"
  , "c2" : "close(String)"
  , "c3" : "2"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00232"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#232"
  , "c1" : "void"
  , "c2" : "maybeEvict(String)"
  , "c3" : "4"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#252"
  , "c1" : "NamedCache"
  , "c2" : "getCache(String)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00256"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#256"
  , "c1" : "NamedCache"
  , "c2" : "getOrCreateCache(String)"
  , "c3" : "2"

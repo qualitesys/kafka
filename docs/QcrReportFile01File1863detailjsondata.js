@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StateManagerUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#29"
  , "c1" : "StateManagerUtil"
  , "c2" : "StateManagerUtil()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#31"
  , "c1" : "RecordConverter"
  , "c2" : "converterForStore(StateStore)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#35"
  , "c1" : "boolean"
  , "c2" : "checkpointNeeded(boolean;Map<TopicPartition,Long>;Map<TopicPartition,Long>)"
  , "c3" : "4"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#59"
  , "c1" : "void"
  , "c2" : "registerStateStores(Logger;String;ProcessorTopology;ProcessorStateManager;StateDirectory;InternalProcessorContext)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#88"
  , "c1" : "void"
  , "c2" : "closeStateManager(Logger;String;boolean;boolean;ProcessorStateManager;StateDirectory;TaskType)"
  , "c3" : "4"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#136"
  , "c1" : "TaskId"
  , "c2" : "parseTaskDirectoryName(String;String)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00153"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#153"
  , "c1" : "String"
  , "c2" : "toTaskDirString(TaskId)"
  , "c3" : "1"

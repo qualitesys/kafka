@@ -2,7 +2,7 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.runtime.isolation.LoaderSwap
 class org.apache.kafka.connect.runtime.isolation.LoaderSwap {
-+  LoaderSwap(ClassLoader)
-+  close()
++ LoaderSwap(ClassLoader) : LoaderSwap [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/LoaderSwap.java.html#9]]]
++ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/LoaderSwap.java.html#14]]]
 } 
 @enduml

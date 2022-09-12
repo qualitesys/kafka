@@ -2,21 +2,21 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.internals.BatchBuilder
 class org.apache.kafka.raft.internals.BatchBuilder {
-+  BatchBuilder(ByteBuffer;RecordSerde<T>;CompressionType;long;long;boolean;int;int)
-+  appendRecord(T;ObjectSerializationCache)
-+  bytesNeeded(Collection<T>;ObjectSerializationCache)
-+  flushedSizeInBytes()
-+  approximateSizeInBytes()
-+  baseOffset()
-+  lastOffset()
-+  numRecords()
-+  nonEmpty()
-+  initialBuffer()
-+  records()
-+  writeDefaultBatchHeader()
-+  build()
-+  writeRecord(long;T;ObjectSerializationCache)
-+  batchHeaderSizeInBytes()
-+  bytesNeededForRecords(Collection<T>;ObjectSerializationCache)
++ BatchBuilder(ByteBuffer;RecordSerde<T>;CompressionType;long;long;boolean;int;int) : BatchBuilder [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#44]]]
++ appendRecord(T;ObjectSerializationCache) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#76]]]
++ bytesNeeded(Collection<T>;ObjectSerializationCache) : OptionalInt [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#98]]]
+- flushedSizeInBytes() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#123]]]
++ approximateSizeInBytes() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#128]]]
++ baseOffset() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#133]]]
++ lastOffset() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#138]]]
++ numRecords() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#143]]]
++ nonEmpty() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#148]]]
++ initialBuffer() : ByteBuffer [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#153]]]
++ records() : List<T> [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#158]]]
+- writeDefaultBatchHeader() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#162]]]
++ build() : MemoryRecords [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#193]]]
++ writeRecord(long;T;ObjectSerializationCache) : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#203]]]
+- batchHeaderSizeInBytes() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#240]]]
+- bytesNeededForRecords(Collection<T>;ObjectSerializationCache) : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#247]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.NextIteratorFunction" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NextIteratorFunction.java.html#8"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "apply(StoreType)"
  , "c3" : "1"

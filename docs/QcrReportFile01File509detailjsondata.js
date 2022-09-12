@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.SaslChannelBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#87"
  , "c1" : "SaslChannelBuilder"
  , "c2" : "SaslChannelBuilder(Mode;Map<String,JaasContext>;SecurityProtocol;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;String;Time;LogContext;Supplier<ApiVersionsResponse>)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#126"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "9"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#174"
  , "c1" : "Set<String>"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00179"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#179"
  , "c1" : "void"
  , "c2" : "validateReconfiguration(Map<String,?>)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00185"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#185"
  , "c1" : "void"
  , "c2" : "reconfigure(Map<String,?>)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00191"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#191"
  , "c1" : "ListenerName"
  , "c2" : "listenerName()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#196"
  , "c1" : "KafkaChannel"
  , "c2" : "buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00230"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#230"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "4"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00240"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#240"
  , "c1" : "TransportLayer"
  , "c2" : "buildTransportLayer(String;SelectionKey;SocketChannel;ChannelMetadataRegistry)"
  , "c3" : "3"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#252"
  , "c1" : "SaslServerAuthenticator"
  , "c2" : "buildServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;TransportLayer;Map<String,Subject>;Map<String,Long>;ChannelMetadataRegistry)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00265"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#265"
  , "c1" : "SaslClientAuthenticator"
  , "c2" : "buildClientAuthenticator(Map<String,?>;AuthenticateCallbackHandler;String;String;String;TransportLayer;Subject)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00276"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#276"
  , "c1" : "Map<String,LoginManager>"
  , "c2" : "loginManagers()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00280"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#280"
  , "c1" : "String"
  , "c2" : "defaultKerberosRealm()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#285"
  , "c1" : "void"
  , "c2" : "createClientCallbackHandler(Map<String,?>)"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00294"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#294"
  , "c1" : "void"
  , "c2" : "createServerCallbackHandlers(Map<String,?>)"
  , "c3" : "10"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00315"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#315"
  , "c1" : "void"
  , "c2" : "createConnectionsMaxReauthMsMap(Map<String,?>)"
  , "c3" : "4"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00326"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#326"
  , "c1" : "Class<?extendsLogin>"
  , "c2" : "defaultLoginClass()"
  , "c3" : "3"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00334"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#334"
  , "c1" : "Class<?extendsAuthenticateCallbackHandler>"
  , "c2" : "clientCallbackHandlerClass()"
  , "c3" : "3"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00351"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#351"
  , "c1" : "void"
  , "c2" : "maybeAddNativeGssapiCredentials(Subject)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00382"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#382"
  , "c1" : "GSSManager"
  , "c2" : "gssManager()"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00387"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#387"
  , "c1" : "Subject"
  , "c2" : "subject(String)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.MetadataImage" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#42"
  , "c1" : "MetadataImage"
  , "c2" : "MetadataImage(OffsetAndEpoch;FeaturesImage;ClusterImage;TopicsImage;ConfigurationsImage;ClientQuotasImage;ProducerIdsImage;AclsImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#62"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#72"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "highestOffsetAndEpoch()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#76"
  , "c1" : "FeaturesImage"
  , "c2" : "features()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#80"
  , "c1" : "ClusterImage"
  , "c2" : "cluster()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#84"
  , "c1" : "TopicsImage"
  , "c2" : "topics()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#88"
  , "c1" : "ConfigurationsImage"
  , "c2" : "configs()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#92"
  , "c1" : "ClientQuotasImage"
  , "c2" : "clientQuotas()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#96"
  , "c1" : "ProducerIdsImage"
  , "c2" : "producerIds()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#100"
  , "c1" : "AclsImage"
  , "c2" : "acls()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#104"
  , "c1" : "void"
  , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#118"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#132"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#144"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

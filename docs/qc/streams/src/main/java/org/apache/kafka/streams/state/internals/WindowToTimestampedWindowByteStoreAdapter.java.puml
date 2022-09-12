@@ -2,30 +2,30 @@
 !pragma layout smetana
 WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter
 class org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter {
-+  WindowToTimestampedWindowByteStoreAdapter(WindowStore<Bytes,byte[]>)
-+  put(Bytes;byte[];long)
-+  fetch(Bytes;long)
-+  fetch(Bytes;long;long)
-+  fetch(Bytes;Instant;Instant)
-+  backwardFetch(Bytes;long;long)
-+  backwardFetch(Bytes;Instant;Instant)
-+  fetch(Bytes;Bytes;long;long)
-+  backwardFetch(Bytes;Bytes;Instant;Instant)
-+  fetch(Bytes;Bytes;Instant;Instant)
-+  backwardFetch(Bytes;Bytes;long;long)
-+  all()
-+  backwardAll()
-+  fetchAll(long;long)
-+  fetchAll(Instant;Instant)
-+  backwardFetchAll(long;long)
-+  backwardFetchAll(Instant;Instant)
-+  name()
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  flush()
-+  close()
-+  persistent()
-+  isOpen()
-+  getPosition()
+WindowToTimestampedWindowByteStoreAdapter(WindowStore<Bytes,byte[]>) : WindowToTimestampedWindowByteStoreAdapter [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#26]]]
++ put(Bytes;byte[];long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#34]]]
++ fetch(Bytes;long) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#41]]]
++ fetch(Bytes;long;long) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#47]]]
++ fetch(Bytes;Instant;Instant) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#54]]]
++ backwardFetch(Bytes;long;long) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#61]]]
++ backwardFetch(Bytes;Instant;Instant) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#68]]]
++ fetch(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#75]]]
++ backwardFetch(Bytes;Bytes;Instant;Instant) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#83]]]
++ fetch(Bytes;Bytes;Instant;Instant) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#91]]]
++ backwardFetch(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#99]]]
++ all() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#107]]]
++ backwardAll() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#112]]]
++ fetchAll(long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#117]]]
++ fetchAll(Instant;Instant) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#123]]]
++ backwardFetchAll(long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#129]]]
++ backwardFetchAll(Instant;Instant) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#134]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#140]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#146]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#152]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#157]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#162]]]
++ persistent() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#167]]]
++ isOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#172]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#194]]]
 } 
 @enduml

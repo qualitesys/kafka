@@ -2,22 +2,22 @@
 !pragma layout smetana
 Headers <|-- org.apache.kafka.common.header.internals.RecordHeaders
 class org.apache.kafka.common.header.internals.RecordHeaders {
-+  RecordHeaders()
-+  RecordHeaders(Header[])
-+  RecordHeaders(Iterable<Header>)
-+  add(Header)
-+  add(String;byte[])
-+  remove(String)
-+  lastHeader(String)
-+  headers(String)
-+  iterator()
-+  setReadOnly()
-+  toArray()
-+  checkKey(String)
-+  canWrite()
-+  closeAware(Iterator<Header>)
-+  equals(Object)
-+  hashCode()
-+  toString()
++ RecordHeaders() : RecordHeaders [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#20]]]
++ RecordHeaders(Header[]) : RecordHeaders [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#24]]]
++ RecordHeaders(Iterable<Header>) : RecordHeaders [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#28]]]
++ add(Header) : Headers [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#44]]]
++ add(String;byte[]) : Headers [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#52]]]
++ remove(String) : Headers [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#57]]]
++ lastHeader(String) : Header [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#70]]]
++ headers(String) : Iterable<Header> [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#82]]]
++ iterator() : Iterator<Header> [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#88]]]
++ setReadOnly() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#92]]]
++ toArray() : Header[] [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#96]]]
+- checkKey(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#100]]]
+- canWrite() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#105]]]
+- closeAware(Iterator<Header>) : Iterator<Header> [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#110]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#130]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#144]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#149]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.CommonClientConfigs
 class org.apache.kafka.clients.CommonClientConfigs {
-+  postProcessReconnectBackoffConfigs(AbstractConfig;Map<String,Object>)
-+  postValidateSaslMechanismConfig(AbstractConfig)
++ postProcessReconnectBackoffConfigs(AbstractConfig;Map<String,Object>) : Map<String,Object> [[[././qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#169]]]
++ postValidateSaslMechanismConfig(AbstractConfig) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/CommonClientConfigs.java.html#182]]]
 } 
 @enduml

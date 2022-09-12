@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.TopicImage
 class org.apache.kafka.image.TopicImage {
-+  TopicImage(String;Uuid;Map<Integer,PartitionRegistration>)
-+  name()
-+  id()
-+  partitions()
-+  write(Consumer<List<ApiMessageAndVersion>>)
-+  equals(Object)
-+  hashCode()
-+  toString()
++ TopicImage(String;Uuid;Map<Integer,PartitionRegistration>) : TopicImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#29]]]
++ name() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#37]]]
++ id() : Uuid [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#41]]]
++ partitions() : Map<Integer,PartitionRegistration> [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#45]]]
++ write(Consumer<List<ApiMessageAndVersion>>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#49]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#63]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#72]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#77]]]
 } 
 @enduml

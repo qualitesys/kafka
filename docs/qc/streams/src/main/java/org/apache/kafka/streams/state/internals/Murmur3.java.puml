@@ -2,25 +2,25 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.Murmur3
 class org.apache.kafka.streams.state.internals.Murmur3 {
-+  hash32(long;long)
-+  hash32(long)
-+  hash32(long;int)
-+  hash32(long;long;int)
-+  hash32(byte[])
-+  hash32(byte[];int)
-+  hash32(byte[];int;int)
-+  hash32(byte[];int;int;int)
-+  mix32(int;int)
-+  fmix32(int;int)
-+  hash64(byte[])
-+  hash64(long)
-+  hash64(int)
-+  hash64(short)
-+  hash64(byte[];int;int)
-+  hash64(byte[];int;int;int)
-+  hash128(byte[])
-+  hash128(byte[];int;int;int)
-+  fmix64(long)
-+  orBytes(byte;byte;byte;byte)
++ hash32(long;long) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463]]]
++ hash32(long) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463]]]
++ hash32(long;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463]]]
++ hash32(long;long;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463]]]
++ hash32(byte[]) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash32(byte[];int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash32(byte[];int;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash32(byte[];int;int;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
+- mix32(int;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
+- fmix32(int;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash64(byte[]) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash64(long) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash64(int) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash64(short) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash64(byte[];int;int) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash64(byte[];int;int;int) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash128(byte[]) : long[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
++ hash128(byte[];int;int;int) : long[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
+- fmix64(long) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
+- orBytes(byte;byte;byte;byte) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1]]]
 } 
 @enduml

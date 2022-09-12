@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.ReplicatedCounter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#29"
  , "c1" : "ReplicatedCounter"
  , "c2" : "ReplicatedCounter(int;RaftClient<Integer>;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#39"
  , "c1" : "boolean"
  , "c2" : "isWritable()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#43"
  , "c1" : "void"
  , "c2" : "increment()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#61"
  , "c1" : "void"
  , "c2" : "handleCommit(BatchReader<Integer>)"
  , "c3" : "7"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#124"
  , "c1" : "void"
  , "c2" : "handleSnapshot(SnapshotReader<Integer>)"
  , "c3" : "4"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#154"
  , "c1" : "void"
  , "c2" : "handleLeaderChange(LeaderAndEpoch)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#169"
  , "c1" : "int"
  , "c2" : "handleSnapshotCalls()"
  , "c3" : "1"

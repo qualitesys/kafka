@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.CompoundStat" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/CompoundStat.java.html#11"
  , "c1" : "List<NamedMeasurable>"
  , "c2" : "stats()"
  , "c3" : "1"

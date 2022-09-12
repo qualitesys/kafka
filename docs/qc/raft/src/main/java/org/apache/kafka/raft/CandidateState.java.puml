@@ -2,32 +2,32 @@
 !pragma layout smetana
 EpochState <|-- org.apache.kafka.raft.CandidateState
 class org.apache.kafka.raft.CandidateState {
-+  CandidateState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;int;LogContext)
-+  localId()
-+  majoritySize()
-+  numGranted()
-+  numUnrecorded()
-+  isBackingOff()
-+  retries()
-+  isVoteGranted()
-+  isVoteRejected()
-+  recordGrantedVote(int)
-+  recordRejectedVote(int)
-+  startBackingOff(long;long)
-+  unrecordedVoters()
-+  grantingVoters()
-+  rejectingVoters()
-+  votersInState(State)
-+  hasElectionTimeoutExpired(long)
-+  isBackoffComplete(long)
-+  remainingBackoffMs(long)
-+  remainingElectionTimeMs(long)
-+  election()
-+  epoch()
-+  highWatermark()
-+  canGrantVote(int;boolean)
-+  toString()
-+  name()
-+  close()
+CandidateState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;int;LogContext) : CandidateState [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#29]]]
++ localId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#55]]]
++ majoritySize() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#59]]]
+- numGranted() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#63]]]
+- numUnrecorded() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#67]]]
++ isBackingOff() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#72]]]
++ retries() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#76]]]
++ isVoteGranted() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#81]]]
++ isVoteRejected() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#86]]]
++ recordGrantedVote(int) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#91]]]
++ recordRejectedVote(int) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#103]]]
++ startBackingOff(long;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#116]]]
++ unrecordedVoters() : Set<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#123]]]
++ grantingVoters() : Set<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#128]]]
++ rejectingVoters() : Set<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#133]]]
+- votersInState(State) : Set<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#137]]]
++ hasElectionTimeoutExpired(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#144]]]
++ isBackoffComplete(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#149]]]
++ remainingBackoffMs(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#154]]]
++ remainingElectionTimeMs(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#162]]]
++ election() : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#168]]]
++ epoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#173]]]
++ highWatermark() : Optional<LogOffsetMetadata> [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#178]]]
++ canGrantVote(int;boolean) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#183]]]
++ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#192]]]
++ name() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#202]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#207]]]
 } 
 @enduml

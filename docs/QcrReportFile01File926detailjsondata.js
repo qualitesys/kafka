@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.authorizer.Authorizer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#34"
  , "c1" : "Map<Endpoint,?extendsCompletionStage<Void>>"
  , "c2" : "start(AuthorizerServerInfo)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#37"
  , "c1" : "List<AuthorizationResult>"
  , "c2" : "authorize(AuthorizableRequestContext;List<Action>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#40"
  , "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
  , "c2" : "createAcls(AuthorizableRequestContext;List<AclBinding>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#43"
  , "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
  , "c2" : "deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#46"
  , "c1" : "Iterable<AclBinding>"
  , "c2" : "acls(AclBindingFilter)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#49"
  , "c1" : "int"
  , "c2" : "aclCount()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#54"
  , "c1" : "AuthorizationResult"
  , "c2" : "authorizeByResourceType(AuthorizableRequestContext;AclOperation;ResourceType)"
  , "c3" : "21"

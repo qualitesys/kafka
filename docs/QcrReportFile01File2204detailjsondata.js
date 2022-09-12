@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.Histogram" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#18"
  , "c1" : "Histogram"
  , "c2" : "Histogram(int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#23"
  , "c1" : "void"
  , "c2" : "add(int)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#39"
  , "c1" : "void"
  , "c2" : "add(long)"
  , "c3" : "5"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#100"
  , "c1" : "Summary"
  , "c2" : "summarize()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#104"
  , "c1" : "Summary"
  , "c2" : "summarize(float[])"
  , "c3" : "5"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#136"
  , "c1" : "List<PercentileSummary>"
  , "c2" : "summarizePercentiles(int[];float[];long)"
  , "c3" : "7"

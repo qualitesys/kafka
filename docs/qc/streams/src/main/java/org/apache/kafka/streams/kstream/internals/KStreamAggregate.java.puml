@@ -2,9 +2,9 @@
 !pragma layout smetana
 KStreamAggProcessorSupplier_KIn,VIn,KIn,VAgg_ <|-- org.apache.kafka.streams.kstream.internals.KStreamAggregate
 class org.apache.kafka.streams.kstream.internals.KStreamAggregate {
-+  KStreamAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)
-+  get()
-+  enableSendingOldValues()
-+  view()
+KStreamAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamAggregate [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#31]]]
++ get() : Processor<KIn,VIn,KIn,Change<VAgg>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#40]]]
++ enableSendingOldValues() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#45]]]
++ view() : KTableValueGetterSupplier<KIn,VAgg> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#114]]]
 } 
 @enduml

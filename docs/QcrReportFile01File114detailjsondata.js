@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListTopicsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#17"
  , "c1" : "ListTopicsResult"
  , "c2" : "ListTopicsResult(KafkaFuture<Map<String,TopicListing>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#22"
  , "c1" : "KafkaFuture<Map<String,TopicListing>>"
  , "c2" : "namesToListings()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#27"
  , "c1" : "KafkaFuture<Collection<TopicListing>>"
  , "c2" : "listings()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#32"
  , "c1" : "KafkaFuture<Set<String>>"
  , "c2" : "names()"
  , "c3" : "1"

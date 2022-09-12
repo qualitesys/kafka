@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.VoidDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00006"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#6"
  , "c1" : "Void"
  , "c2" : "deserialize(String;byte[])"
  , "c3" : "2"

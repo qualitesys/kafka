@@ -2,41 +2,41 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.Task
 class org.apache.kafka.streams.processor.internals.Task {
-+  initializeIfNeeded()
-+  addPartitionsForOffsetReset(Set<TopicPartition>)
-+  completeRestoration(java.util.function.Consumer<Set<TopicPartition>>)
-+  suspend()
-+  resume()
-+  closeDirty()
-+  closeClean()
-+  updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)
-+  maybeCheckpoint(boolean)
-+  markChangelogAsCorrupted(Collection<TopicPartition>)
-+  revive()
-+  closeCleanAndRecycleState()
-+  addRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)
-+  process(long)
-+  recordProcessBatchTime(long)
-+  recordProcessTimeRatioAndBufferSize(long;long)
-+  maybePunctuateStreamTime()
-+  maybePunctuateSystemTime()
-+  prepareCommit()
-+  postCommit(boolean)
-+  purgeableOffsets()
-+  maybeInitTaskTimeoutOrThrow(long;Exception)
-+  clearTaskTimeout()
-+  id()
-+  isActive()
-+  inputPartitions()
-+  changelogPartitions()
-+  state()
-+  needsInitializationOrRestoration()
-+  commitNeeded()
-+  commitRequested()
-+  getStore(String)
-+  changelogOffsets()
-+  committedOffsets()
-+  highWaterMark()
-+  timeCurrentIdlingStarted()
+initializeIfNeeded() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#64]]]
+addPartitionsForOffsetReset(Set<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#66]]]
+completeRestoration(java.util.function.Consumer<Set<TopicPartition>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#71]]]
+suspend() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#73]]]
+resume() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#76]]]
+closeDirty() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#79]]]
+closeClean() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#82]]]
+updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#88]]]
+maybeCheckpoint(boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#91]]]
+markChangelogAsCorrupted(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#93]]]
+revive() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#96]]]
+closeCleanAndRecycleState() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#99]]]
+addRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#104]]]
+process(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#106]]]
+recordProcessBatchTime(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#110]]]
+recordProcessTimeRatioAndBufferSize(long;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#113]]]
+maybePunctuateStreamTime() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#116]]]
+maybePunctuateSystemTime() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#120]]]
+prepareCommit() : Map<TopicPartition,OffsetAndMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#125]]]
+postCommit(boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#127]]]
+purgeableOffsets() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#129]]]
+maybeInitTaskTimeoutOrThrow(long;Exception) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#134]]]
+clearTaskTimeout() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#137]]]
+id() : TaskId [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#141]]]
+isActive() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#143]]]
+inputPartitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#145]]]
+changelogPartitions() : Collection<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#148]]]
+state() : State [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#150]]]
+needsInitializationOrRestoration() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#152]]]
+commitNeeded() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#156]]]
+commitRequested() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#158]]]
+getStore(String) : StateStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#165]]]
+changelogOffsets() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#168]]]
+committedOffsets() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#171]]]
+highWaterMark() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#174]]]
+timeCurrentIdlingStarted() : Optional<Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#177]]]
 } 
 @enduml

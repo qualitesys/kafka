@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions
 class org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions {
-+  TimeDefinitions()
+- TimeDefinitions() : TimeDefinitions [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#8]]]
 } 
 @enduml

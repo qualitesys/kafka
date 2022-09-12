@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.Callback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/Callback.java.html#8"
  , "c1" : "void"
  , "c2" : "onCompletion(RecordMetadata;Exception)"
  , "c3" : "1"

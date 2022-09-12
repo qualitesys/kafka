@@ -2,9 +2,9 @@
 !pragma layout smetana
 PayloadGenerator <|-- org.apache.kafka.trogdor.workload.SequentialPayloadGenerator
 class org.apache.kafka.trogdor.workload.SequentialPayloadGenerator {
-+  SequentialPayloadGenerator(int;long)
-+  size()
-+  startOffset()
-+  generate(long)
++ SequentialPayloadGenerator(int;long) : SequentialPayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#17]]]
++ size() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#28]]]
++ startOffset() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#33]]]
++ generate(long) : byte[] [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#38]]]
 } 
 @enduml

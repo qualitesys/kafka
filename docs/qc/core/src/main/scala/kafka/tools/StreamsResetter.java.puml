@@ -2,27 +2,27 @@
 !pragma layout smetana
 java.lang.Object <|-- kafka.tools.StreamsResetter
 class kafka.tools.StreamsResetter {
-+  run(String[])
-+  run(String[];Properties)
-+  maybeDeleteActiveConsumers(String;Admin)
-+  parseArguments(String[])
-+  maybeResetInputAndSeekToEndIntermediateTopicOffsets(Map<Object,Object>;boolean)
-+  maybeSeekToEnd(String;Consumer<byte[],byte[]>;Set<TopicPartition>)
-+  maybeReset(String;Consumer<byte[],byte[]>;Set<TopicPartition>)
-+  resetOffsetsFromResetPlan(Consumer<byte[],byte[]>;Set<TopicPartition>;Map<TopicPartition,Long>)
-+  getTopicPartitionOffsetFromResetPlan(String)
-+  resetByDuration(Consumer<byte[],byte[]>;Set<TopicPartition>;Duration)
-+  resetToDatetime(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)
-+  shiftOffsetsBy(Consumer<byte[],byte[]>;Set<TopicPartition>;long)
-+  resetOffsetsTo(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)
-+  parseResetPlan(String)
-+  checkOffsetRange(Map<TopicPartition,Long>;Map<TopicPartition,Long>;Map<TopicPartition,Long>)
-+  isInputTopic(String)
-+  isIntermediateTopic(String)
-+  maybeDeleteInternalTopics(Admin;boolean)
-+  doDelete(List<String>;Admin)
-+  isInferredInternalTopic(String)
-+  matchesInternalTopicFormat(String)
-+  main(String[])
++ run(String[]) : int [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#99]]]
++ run(String[];Properties) : int [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#103]]]
+- maybeDeleteActiveConsumers(String;Admin) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#147]]]
+- parseArguments(String[]) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#169]]]
+- maybeResetInputAndSeekToEndIntermediateTopicOffsets(Map<Object,Object>;boolean) : int [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#272]]]
++ maybeSeekToEnd(String;Consumer<byte[],byte[]>;Set<TopicPartition>) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#383]]]
+- maybeReset(String;Consumer<byte[],byte[]>;Set<TopicPartition>) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#397]]]
++ resetOffsetsFromResetPlan(Consumer<byte[],byte[]>;Set<TopicPartition>;Map<TopicPartition,Long>) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#435]]]
+- getTopicPartitionOffsetFromResetPlan(String) : Map<TopicPartition,Long> [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#449]]]
+- resetByDuration(Consumer<byte[],byte[]>;Set<TopicPartition>;Duration) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#456]]]
++ resetToDatetime(Consumer<byte[],byte[]>;Set<TopicPartition>;Long) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#463]]]
++ shiftOffsetsBy(Consumer<byte[],byte[]>;Set<TopicPartition>;long) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#488]]]
++ resetOffsetsTo(Consumer<byte[],byte[]>;Set<TopicPartition>;Long) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#510]]]
+- parseResetPlan(String) : Map<TopicPartition,Long> [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#530]]]
+- checkOffsetRange(Map<TopicPartition,Long>;Map<TopicPartition,Long>;Map<TopicPartition,Long>) : Map<TopicPartition,Long> [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#553]]]
+- isInputTopic(String) : boolean [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#576]]]
+- isIntermediateTopic(String) : boolean [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#580]]]
+- maybeDeleteInternalTopics(Admin;boolean) : int [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#584]]]
++ doDelete(List<String>;Admin) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#616]]]
+- isInferredInternalTopic(String) : boolean [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#636]]]
++ matchesInternalTopicFormat(String) : boolean [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#646]]]
++ main(String[]) : void [[[././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#654]]]
 } 
 @enduml

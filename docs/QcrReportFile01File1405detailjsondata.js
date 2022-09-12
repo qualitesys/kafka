@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.OffsetAndEpoch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#8"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "OffsetAndEpoch(long;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#14"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#25"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#32"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#40"
  , "c1" : "int"
  , "c2" : "compareTo(OffsetAndEpoch)"
  , "c3" : "2"

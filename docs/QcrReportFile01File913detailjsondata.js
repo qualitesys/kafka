@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.SecurityUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#50"
  , "c1" : "KafkaPrincipal"
  , "c2" : "parseKafkaPrincipal(String)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#64"
  , "c1" : "void"
  , "c2" : "addConfiguredSecurityProviders(Map<String,?>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#87"
  , "c1" : "ResourceType"
  , "c2" : "resourceType(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#91"
  , "c1" : "AclOperation"
  , "c2" : "operation(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#95"
  , "c1" : "AclPermissionType"
  , "c2" : "permissionType(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#110"
  , "c1" : "String"
  , "c2" : "resourceTypeName(ResourceType)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#114"
  , "c1" : "String"
  , "c2" : "operationName(AclOperation)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#118"
  , "c1" : "String"
  , "c2" : "permissionTypeName(AclPermissionType)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#122"
  , "c1" : "String"
  , "c2" : "toPascalCase(String)"
  , "c3" : "6"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#137"
  , "c1" : "void"
  , "c2" : "authorizeByResourceTypeCheckArgs(AclOperation;ResourceType)"
  , "c3" : "5"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00160"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#160"
  , "c1" : "boolean"
  , "c2" : "denyAll(ResourcePattern)"
  , "c3" : "1"

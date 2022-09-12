@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#15"
  , "c1" : "StandbyTaskAssignmentUtils"
  , "c2" : "StandbyTaskAssignmentUtils()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#17"
  , "c1" : "ConstrainedPrioritySet"
  , "c2" : "createLeastLoadedPrioritySetConstrainedByAssignedTask(Map<UUID,ClientState>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#22"
  , "c1" : "void"
  , "c2" : "pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks(int;Map<UUID,ClientState>;Map<TaskId,Integer>;ConstrainedPrioritySet;TaskId;Logger)"
  , "c3" : "4"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#49"
  , "c1" : "Map<TaskId,Integer>"
  , "c2" : "computeTasksToRemainingStandbys(int;Set<TaskId>)"
  , "c3" : "1"

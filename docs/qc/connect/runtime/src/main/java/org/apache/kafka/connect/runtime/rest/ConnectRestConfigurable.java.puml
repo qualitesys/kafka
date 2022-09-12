@@ -2,18 +2,18 @@
 !pragma layout smetana
 Configurable_ResourceConfig_ <|-- org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable
 class org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable {
-+  ConnectRestConfigurable(ResourceConfig)
-+  getConfiguration()
-+  property(String;Object)
-+  register(Object)
-+  register(Object;int)
-+  register(Object;Map<Class<?>,Integer>)
-+  register(Object;Class<?>...)
-+  register(Class<?>;Map<Class<?>,Integer>)
-+  register(Class<?>;Class<?>...)
-+  register(Class<?>;int)
-+  register(Class<?>)
-+  allowedToRegister(Object)
-+  allowedToRegister(Class<?>)
++ ConnectRestConfigurable(ResourceConfig) : ConnectRestConfigurable [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#25]]]
++ getConfiguration() : Configuration [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#32]]]
++ property(String;Object) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#37]]]
++ register(Object) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#42]]]
++ register(Object;int) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#50]]]
++ register(Object;Map<Class<?>,Integer>) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#58]]]
++ register(Object;Class<?>...) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#66]]]
++ register(Class<?>;Map<Class<?>,Integer>) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#74]]]
++ register(Class<?>;Class<?>...) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#82]]]
++ register(Class<?>;int) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#90]]]
++ register(Class<?>) : ResourceConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#98]]]
+- allowedToRegister(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#105]]]
+- allowedToRegister(Class<?>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#113]]]
 } 
 @enduml

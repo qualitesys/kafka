@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.MemoryRecordsBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#68"
  , "c1" : "MemoryRecordsBuilder"
  , "c2" : "MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int;long)"
  , "c3" : "8"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#124"
  , "c1" : "MemoryRecordsBuilder"
  , "c2" : "MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#143"
  , "c1" : "MemoryRecordsBuilder"
  , "c2" : "MemoryRecordsBuilder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00161"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#161"
  , "c1" : "ByteBuffer"
  , "c2" : "buffer()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#165"
  , "c1" : "int"
  , "c2" : "initialCapacity()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#169"
  , "c1" : "double"
  , "c2" : "compressionRatio()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#173"
  , "c1" : "CompressionType"
  , "c2" : "compressionType()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#177"
  , "c1" : "boolean"
  , "c2" : "isControlBatch()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#181"
  , "c1" : "boolean"
  , "c2" : "isTransactional()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00185"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#185"
  , "c1" : "boolean"
  , "c2" : "hasDeleteHorizonMs()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00190"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#190"
  , "c1" : "MemoryRecords"
  , "c2" : "build()"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00199"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#199"
  , "c1" : "RecordsInfo"
  , "c2" : "info()"
  , "c3" : "9"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#221"
  , "c1" : "int"
  , "c2" : "numRecords()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#226"
  , "c1" : "int"
  , "c2" : "uncompressedBytesWritten()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00230"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#230"
  , "c1" : "void"
  , "c2" : "setProducerState(long;short;int;boolean)"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00244"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#244"
  , "c1" : "void"
  , "c2" : "overrideLastOffset(long)"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00251"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#251"
  , "c1" : "void"
  , "c2" : "closeForRecordAppends()"
  , "c3" : "2"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00263"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#263"
  , "c1" : "void"
  , "c2" : "abort()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00269"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#269"
  , "c1" : "void"
  , "c2" : "reopenAndRewriteProducerState(long;short;int;boolean)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00280"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#280"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "8"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00307"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#307"
  , "c1" : "void"
  , "c2" : "validateProducerState()"
  , "c3" : "6"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00324"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#324"
  , "c1" : "int"
  , "c2" : "writeDefaultBatchHeader()"
  , "c3" : "3"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00348"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#348"
  , "c1" : "int"
  , "c2" : "writeLegacyCompressedWrapperHeader()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00366"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#366"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;boolean;long;ByteBuffer;ByteBuffer;Header[])"
  , "c3" : "8"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00396"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#396"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;long;byte[];byte[];Header[])"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00401"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#401"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;long;ByteBuffer;ByteBuffer;Header[])"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#406"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;long;byte[];byte[])"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00411"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#411"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;long;ByteBuffer;ByteBuffer)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00416"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#416"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;SimpleRecord)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00421"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#421"
  , "c1" : "void"
  , "c2" : "appendControlRecordWithOffset(long;SimpleRecord)"
  , "c3" : "2"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00432"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#432"
  , "c1" : "void"
  , "c2" : "append(long;ByteBuffer;ByteBuffer)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00437"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#437"
  , "c1" : "void"
  , "c2" : "append(long;ByteBuffer;ByteBuffer;Header[])"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00442"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#442"
  , "c1" : "void"
  , "c2" : "append(long;byte[];byte[])"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00447"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#447"
  , "c1" : "void"
  , "c2" : "append(long;byte[];byte[];Header[])"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00452"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#452"
  , "c1" : "void"
  , "c2" : "append(SimpleRecord)"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00457"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#457"
  , "c1" : "void"
  , "c2" : "appendControlRecord(long;ControlRecordType;ByteBuffer)"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00465"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#465"
  , "c1" : "void"
  , "c2" : "appendEndTxnMarker(long;EndTransactionMarker)"
  , "c3" : "3"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00474"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#474"
  , "c1" : "void"
  , "c2" : "appendLeaderChangeMessage(long;LeaderChangeMessage)"
  , "c3" : "2"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00482"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#482"
  , "c1" : "void"
  , "c2" : "appendSnapshotHeaderMessage(long;SnapshotHeaderRecord)"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00487"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#487"
  , "c1" : "void"
  , "c2" : "appendSnapshotFooterMessage(long;SnapshotFooterRecord)"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00493"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#493"
  , "c1" : "void"
  , "c2" : "appendUncheckedWithOffset(long;LegacyRecord)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00509"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#509"
  , "c1" : "void"
  , "c2" : "appendUncheckedWithOffset(long;SimpleRecord)"
  , "c3" : "4"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00533"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#533"
  , "c1" : "void"
  , "c2" : "append(Record)"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00538"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#538"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;Record)"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00543"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#543"
  , "c1" : "void"
  , "c2" : "appendWithOffset(long;LegacyRecord)"
  , "c3" : "1"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00548"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#548"
  , "c1" : "void"
  , "c2" : "append(LegacyRecord)"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00552"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#552"
  , "c1" : "void"
  , "c2" : "appendDefaultRecord(long;long;ByteBuffer;ByteBuffer;Header[])"
  , "c3" : "1"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00561"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#561"
  , "c1" : "long"
  , "c2" : "appendLegacyRecord(long;long;ByteBuffer;ByteBuffer;byte)"
  , "c3" : "3"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00576"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#576"
  , "c1" : "long"
  , "c2" : "toInnerOffset(long)"
  , "c3" : "2"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00583"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#583"
  , "c1" : "void"
  , "c2" : "recordWritten(long;long;int)"
  , "c3" : "4"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00600"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#600"
  , "c1" : "void"
  , "c2" : "ensureOpenForRecordAppend()"
  , "c3" : "2"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00605"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#605"
  , "c1" : "void"
  , "c2" : "ensureOpenForRecordBatchWrite()"
  , "c3" : "3"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00613"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#613"
  , "c1" : "int"
  , "c2" : "estimatedBytesWritten()"
  , "c3" : "3"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00623"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#623"
  , "c1" : "void"
  , "c2" : "setEstimatedCompressionRatio(float)"
  , "c3" : "1"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00628"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#628"
  , "c1" : "boolean"
  , "c2" : "hasRoomFor(long;byte[];byte[];Header[])"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00633"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#633"
  , "c1" : "boolean"
  , "c2" : "hasRoomFor(long;ByteBuffer;ByteBuffer;Header[])"
  , "c3" : "5"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00654"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#654"
  , "c1" : "boolean"
  , "c2" : "isClosed()"
  , "c3" : "1"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00658"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#658"
  , "c1" : "boolean"
  , "c2" : "isFull()"
  , "c3" : "1"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00665"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#665"
  , "c1" : "int"
  , "c2" : "estimatedSizeInBytes()"
  , "c3" : "1"
@@ -431,6 +549,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00669"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#669"
  , "c1" : "byte"
  , "c2" : "magic()"
  , "c3" : "1"
@@ -438,6 +558,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00673"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#673"
  , "c1" : "long"
  , "c2" : "nextSequentialOffset()"
  , "c3" : "1"
@@ -445,6 +567,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00689"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#689"
  , "c1" : "long"
  , "c2" : "producerId()"
  , "c3" : "1"
@@ -452,6 +576,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00693"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#693"
  , "c1" : "short"
  , "c2" : "producerEpoch()"
  , "c3" : "1"
@@ -459,6 +585,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00697"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#697"
  , "c1" : "int"
  , "c2" : "baseSequence()"
  , "c3" : "1"

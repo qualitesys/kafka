@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaFilterComponent
 class org.apache.kafka.common.quota.ClientQuotaFilterComponent {
-+  ClientQuotaFilterComponent(String;Optional<String>)
-+  ofEntity(String;String)
-+  ofDefaultEntity(String)
-+  ofEntityType(String)
-+  entityType()
-+  match()
-+  equals(Object)
-+  hashCode()
-+  toString()
+- ClientQuotaFilterComponent(String;Optional<String>) : ClientQuotaFilterComponent [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#15]]]
++ ofEntity(String;String) : ClientQuotaFilterComponent [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#21]]]
++ ofDefaultEntity(String) : ClientQuotaFilterComponent [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#26]]]
++ ofEntityType(String) : ClientQuotaFilterComponent [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#31]]]
++ entityType() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#36]]]
++ match() : Optional<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#41]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#46]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#54]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#59]]]
 } 
 @enduml

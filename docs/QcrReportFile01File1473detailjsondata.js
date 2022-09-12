@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.HistoryCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#62"
  , "c1" : "HistoryCommandHandler"
  , "c2" : "HistoryCommandHandler(int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#67"
  , "c1" : "void"
  , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#81"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#86"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"

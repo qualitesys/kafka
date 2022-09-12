@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.BrokerHeartbeatManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#181"
  , "c1" : "BrokerHeartbeatManager"
  , "c2" : "BrokerHeartbeatManager(LogContext;Time;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00193"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#193"
  , "c1" : "Time"
  , "c2" : "time()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#198"
  , "c1" : "BrokerHeartbeatStateList"
  , "c2" : "unfenced()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#203"
  , "c1" : "Collection<BrokerHeartbeatState>"
  , "c2" : "brokers()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00208"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#208"
  , "c1" : "void"
  , "c2" : "fence(int)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00216"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#216"
  , "c1" : "void"
  , "c2" : "remove(int)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00224"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#224"
  , "c1" : "void"
  , "c2" : "untrack(BrokerHeartbeatState)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00234"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#234"
  , "c1" : "boolean"
  , "c2" : "hasValidSession(int)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00241"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#241"
  , "c1" : "boolean"
  , "c2" : "hasValidSession(BrokerHeartbeatState)"
  , "c3" : "3"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00250"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#250"
  , "c1" : "void"
  , "c2" : "register(int;boolean)"
  , "c3" : "4"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00260"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#260"
  , "c1" : "void"
  , "c2" : "touch(int;boolean;long)"
  , "c3" : "6"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#285"
  , "c1" : "long"
  , "c2" : "lowestActiveOffset()"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00295"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#295"
  , "c1" : "void"
  , "c2" : "updateControlledShutdownOffset(int;long)"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00310"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#310"
  , "c1" : "long"
  , "c2" : "nextCheckTimeNs()"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00320"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#320"
  , "c1" : "Optional<Integer>"
  , "c2" : "findOneStaleBroker()"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00333"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#333"
  , "c1" : "Iterator<UsableBroker>"
  , "c2" : "usableBrokers(Function<Integer,Optional<String>>)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00380"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#380"
  , "c1" : "BrokerControlState"
  , "c2" : "currentBrokerState(BrokerHeartbeatState)"
  , "c3" : "5"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00391"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#391"
  , "c1" : "BrokerControlStates"
  , "c2" : "calculateNextBrokerState(int;BrokerHeartbeatRequestData;long;Supplier<Boolean>)"
  , "c3" : "19"

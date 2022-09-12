@@ -2,24 +2,24 @@
 !pragma layout smetana
 WrappedStateStore_WindowStore_Bytes,byte[]_,byte[],byte[]_WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.CachingWindowStore
 class org.apache.kafka.streams.state.internals.CachingWindowStore {
-+  CachingWindowStore(WindowStore<Bytes,byte[]>;long;long)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  initInternal(InternalProcessorContext<?,?>;String)
-+  putAndMaybeForward(ThreadCache.DirtyEntry;InternalProcessorContext<?,?>)
-+  setFlushListener(CacheFlushListener<byte[],byte[]>;boolean)
-+  put(Bytes;byte[];long)
-+  fetch(Bytes;long)
-+  fetch(Bytes;long;long)
-+  backwardFetch(Bytes;long;long)
-+  fetch(Bytes;Bytes;long;long)
-+  backwardFetch(Bytes;Bytes;long;long)
-+  fetchAll(long;long)
-+  backwardFetchAll(long;long)
-+  all()
-+  backwardAll()
-+  flush()
-+  flushCache()
-+  close()
+CachingWindowStore(WindowStore<Bytes,byte[]>;long;long) : CachingWindowStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#50]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#61]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#68]]]
+- initInternal(InternalProcessorContext<?,?>;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#74]]]
+- putAndMaybeForward(ThreadCache.DirtyEntry;InternalProcessorContext<?,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#89]]]
++ setFlushListener(CacheFlushListener<byte[],byte[]>;boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#131]]]
++ put(Bytes;byte[];long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#141]]]
++ fetch(Bytes;long) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#164]]]
++ fetch(Bytes;long;long) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#181]]]
++ backwardFetch(Bytes;long;long) : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#209]]]
++ fetch(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#237]]]
++ backwardFetch(Bytes;Bytes;long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#282]]]
++ fetchAll(long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#326]]]
++ backwardFetchAll(long;long) : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#347]]]
++ all() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#369]]]
++ backwardAll() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#386]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#403]]]
++ flushCache() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#409]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#414]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.producer.internals.TxnPartitionMap
 class org.apache.kafka.clients.producer.internals.TxnPartitionMap {
-+  get(TopicPartition)
-+  getOrCreate(TopicPartition)
-+  contains(TopicPartition)
-+  reset()
-+  lastAckedOffset(TopicPartition)
-+  lastAckedSequence(TopicPartition)
-+  startSequencesAtBeginning(TopicPartition;ProducerIdAndEpoch)
+get(TopicPartition) : TxnPartitionEntry [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#18]]]
+getOrCreate(TopicPartition) : TxnPartitionEntry [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#27]]]
+contains(TopicPartition) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#31]]]
+reset() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#35]]]
+lastAckedOffset(TopicPartition) : OptionalLong [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#39]]]
+lastAckedSequence(TopicPartition) : OptionalInt [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#48]]]
+startSequencesAtBeginning(TopicPartition;ProducerIdAndEpoch) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#57]]]
 } 
 @enduml

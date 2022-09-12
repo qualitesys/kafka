@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.mirror.SourceAndTarget
 class org.apache.kafka.connect.mirror.SourceAndTarget {
-+  SourceAndTarget(String;String)
-+  source()
-+  target()
-+  toString()
-+  hashCode()
-+  equals(Object)
++ SourceAndTarget(String;String) : SourceAndTarget [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#9]]]
++ source() : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#14]]]
++ target() : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#18]]]
++ toString() : String [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#23]]]
++ hashCode() : int [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#28]]]
++ equals(Object) : boolean [[[././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#33]]]
 } 
 @enduml

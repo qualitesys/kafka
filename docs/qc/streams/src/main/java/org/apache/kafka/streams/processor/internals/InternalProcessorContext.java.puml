@@ -2,24 +2,24 @@
 !pragma layout smetana
 ProcessorContext <|-- org.apache.kafka.streams.processor.internals.InternalProcessorContext
 class org.apache.kafka.streams.processor.internals.InternalProcessorContext {
-+  metrics()
-+  setSystemTimeMs(long)
-+  recordContext()
-+  setRecordContext(ProcessorRecordContext)
-+  setCurrentNode(ProcessorNode<?,?,?,?>)
-+  currentNode()
-+  cache()
-+  initialize()
-+  uninitialize()
-+  taskType()
-+  transitionToActive(StreamTask;RecordCollector;ThreadCache)
-+  transitionToStandby(ThreadCache)
-+  registerCacheFlushListener(String;DirtyEntryFlushListener)
-+  logChange(String;Bytes;byte[];long;Position)
-+  changelogFor(String)
-+  addProcessorMetadataKeyValue(String;long)
-+  processorMetadataForKey(String)
-+  setProcessorMetadata(ProcessorMetadata)
-+  getProcessorMetadata()
+metrics() : StreamsMetricsImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#29]]]
+setSystemTimeMs(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#32]]]
+recordContext() : ProcessorRecordContext [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#35]]]
+setRecordContext(ProcessorRecordContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#38]]]
+setCurrentNode(ProcessorNode<?,?,?,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#41]]]
+currentNode() : ProcessorNode<?,?,?,?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#44]]]
+cache() : ThreadCache [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#47]]]
+initialize() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#50]]]
+uninitialize() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#53]]]
+taskType() : TaskType [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+transitionToActive(StreamTask;RecordCollector;ThreadCache) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+transitionToStandby(ThreadCache) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+registerCacheFlushListener(String;DirtyEntryFlushListener) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+logChange(String;Bytes;byte[];long;Position) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+changelogFor(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+addProcessorMetadataKeyValue(String;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+processorMetadataForKey(String) : Long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+setProcessorMetadata(ProcessorMetadata) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
+getProcessorMetadata() : ProcessorMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#90]]]
 } 
 @enduml

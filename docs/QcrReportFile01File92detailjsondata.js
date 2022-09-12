@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeTransactionsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#17"
  , "c1" : "DescribeTransactionsResult"
  , "c2" : "DescribeTransactionsResult(Map<CoordinatorKey,KafkaFuture<TransactionDescription>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#22"
  , "c1" : "KafkaFuture<TransactionDescription>"
  , "c2" : "description(String)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#32"
  , "c1" : "KafkaFuture<Map<String,TransactionDescription>>"
  , "c2" : "all()"
  , "c3" : "2"

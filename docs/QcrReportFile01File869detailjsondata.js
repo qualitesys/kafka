@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.LongSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00005"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/LongSerializer.java.html#5"
  , "c1" : "byte[]"
  , "c2" : "serialize(String;Long)"
  , "c3" : "2"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.CandidateState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#29"
  , "c1" : "CandidateState"
  , "c2" : "CandidateState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;int;LogContext)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#55"
  , "c1" : "int"
  , "c2" : "localId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#59"
  , "c1" : "int"
  , "c2" : "majoritySize()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#63"
  , "c1" : "long"
  , "c2" : "numGranted()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#67"
  , "c1" : "long"
  , "c2" : "numUnrecorded()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#72"
  , "c1" : "boolean"
  , "c2" : "isBackingOff()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#76"
  , "c1" : "int"
  , "c2" : "retries()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#81"
  , "c1" : "boolean"
  , "c2" : "isVoteGranted()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#86"
  , "c1" : "boolean"
  , "c2" : "isVoteRejected()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#91"
  , "c1" : "boolean"
  , "c2" : "recordGrantedVote(int)"
  , "c3" : "4"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#103"
  , "c1" : "boolean"
  , "c2" : "recordRejectedVote(int)"
  , "c3" : "4"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#116"
  , "c1" : "void"
  , "c2" : "startBackingOff(long;long)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#123"
  , "c1" : "Set<Integer>"
  , "c2" : "unrecordedVoters()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#128"
  , "c1" : "Set<Integer>"
  , "c2" : "grantingVoters()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#133"
  , "c1" : "Set<Integer>"
  , "c2" : "rejectingVoters()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#137"
  , "c1" : "Set<Integer>"
  , "c2" : "votersInState(State)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#144"
  , "c1" : "boolean"
  , "c2" : "hasElectionTimeoutExpired(long)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00149"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#149"
  , "c1" : "boolean"
  , "c2" : "isBackoffComplete(long)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#154"
  , "c1" : "long"
  , "c2" : "remainingBackoffMs(long)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00162"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#162"
  , "c1" : "long"
  , "c2" : "remainingElectionTimeMs(long)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00168"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#168"
  , "c1" : "ElectionState"
  , "c2" : "election()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00173"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#173"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#178"
  , "c1" : "Optional<LogOffsetMetadata>"
  , "c2" : "highWatermark()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#183"
  , "c1" : "boolean"
  , "c2" : "canGrantVote(int;boolean)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#192"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#202"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00207"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#207"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

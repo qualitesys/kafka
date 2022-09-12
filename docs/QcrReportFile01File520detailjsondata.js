@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.DataInputStreamReadable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#14"
  , "c1" : "DataInputStreamReadable"
  , "c2" : "DataInputStreamReadable(DataInputStream)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#19"
  , "c1" : "byte"
  , "c2" : "readByte()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#28"
  , "c1" : "short"
  , "c2" : "readShort()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#37"
  , "c1" : "int"
  , "c2" : "readInt()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#46"
  , "c1" : "long"
  , "c2" : "readLong()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#55"
  , "c1" : "double"
  , "c2" : "readDouble()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#64"
  , "c1" : "void"
  , "c2" : "readArray(byte[])"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#73"
  , "c1" : "int"
  , "c2" : "readUnsignedVarint()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#82"
  , "c1" : "ByteBuffer"
  , "c2" : "readByteBuffer(int)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#89"
  , "c1" : "int"
  , "c2" : "readVarint()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#98"
  , "c1" : "long"
  , "c2" : "readVarlong()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#107"
  , "c1" : "int"
  , "c2" : "remaining()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#116"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractStatus_String_ <|-- org.apache.kafka.connect.runtime.ConnectorStatus
 class org.apache.kafka.connect.runtime.ConnectorStatus {
-+  ConnectorStatus(String;State;String;String;int)
-+  ConnectorStatus(String;State;String;int)
++ ConnectorStatus(String;State;String;String;int) : ConnectorStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#7]]]
++ ConnectorStatus(String;State;String;int) : ConnectorStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#11]]]
 } 
 @enduml

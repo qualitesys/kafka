@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.ProducerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#18"
  , "c1" : "ProducerMetrics"
  , "c2" : "ProducerMetrics(Metrics)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#23"
  , "c1" : "List<MetricNameTemplate>"
  , "c2" : "getAllTemplates()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#28"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

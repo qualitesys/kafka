@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.transforms.predicates.Predicate" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html#12"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html#15"
  , "c1" : "boolean"
  , "c2" : "test(R)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html#18"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

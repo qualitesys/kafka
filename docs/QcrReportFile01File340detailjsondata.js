@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.FetchSessionTopicIdException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionTopicIdException.java.html#7"
  , "c1" : "FetchSessionTopicIdException"
  , "c2" : "FetchSessionTopicIdException(String)"
  , "c3" : "1"

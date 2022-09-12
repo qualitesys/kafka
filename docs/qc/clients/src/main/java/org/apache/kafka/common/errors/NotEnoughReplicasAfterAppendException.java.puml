@@ -2,6 +2,6 @@
 !pragma layout smetana
 RetriableException <|-- org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException
 class org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException {
-+  NotEnoughReplicasAfterAppendException(String)
++ NotEnoughReplicasAfterAppendException(String) : NotEnoughReplicasAfterAppendException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java.html#8]]]
 } 
 @enduml

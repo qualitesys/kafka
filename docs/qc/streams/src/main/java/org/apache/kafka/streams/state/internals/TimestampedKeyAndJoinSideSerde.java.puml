@@ -2,6 +2,6 @@
 !pragma layout smetana
 WrappingNullableSerde_TimestampedKeyAndJoinSide_K_,K,Void_ <|-- org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde
 class org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde {
-+  TimestampedKeyAndJoinSideSerde(Serde<K>)
++ TimestampedKeyAndJoinSideSerde(Serde<K>) : TimestampedKeyAndJoinSideSerde [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.html#9]]]
 } 
 @enduml

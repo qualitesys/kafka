@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.TaskAssignmentException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#9"
  , "c1" : "TaskAssignmentException"
  , "c2" : "TaskAssignmentException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#13"
  , "c1" : "TaskAssignmentException"
  , "c2" : "TaskAssignmentException(String;Throwable)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#17"
  , "c1" : "TaskAssignmentException"
  , "c2" : "TaskAssignmentException(Throwable)"
  , "c3" : "1"

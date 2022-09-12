@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.policy.AlterConfigPolicy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#56"
  , "c1" : "void"
  , "c2" : "validate(RequestMetadata)"
  , "c3" : "1"

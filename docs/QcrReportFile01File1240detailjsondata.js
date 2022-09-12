@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.examples.ExactlyOnceMessageProcessor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#41"
  , "c1" : "ExactlyOnceMessageProcessor"
  , "c2" : "ExactlyOnceMessageProcessor(String;String;int;CountDownLatch)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#61"
  , "c1" : "void"
  , "c2" : "run()"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#125"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "consumerOffsets()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#133"
  , "c1" : "void"
  , "c2" : "printWithTxnId(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#137"
  , "c1" : "ProducerRecord<Integer,String>"
  , "c2" : "transform(ConsumerRecord<Integer,String>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#142"
  , "c1" : "long"
  , "c2" : "messagesRemaining(KafkaConsumer<Integer,String>)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00159"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#159"
  , "c1" : "void"
  , "c2" : "resetToLastCommittedPositions(KafkaConsumer<Integer,String>)"
  , "c3" : "3"

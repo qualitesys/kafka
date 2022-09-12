@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.auth.KafkaPrincipalSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.html#10"
  , "c1" : "byte[]"
  , "c2" : "serialize(KafkaPrincipal)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.html#13"
  , "c1" : "KafkaPrincipal"
  , "c2" : "deserialize(byte[])"
  , "c3" : "1"

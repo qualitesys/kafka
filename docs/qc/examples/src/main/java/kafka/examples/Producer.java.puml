@@ -3,10 +3,10 @@
 Thread <|-- kafka.examples.Producer
 Callback <|-- kafka.examples.DemoCallBack
 class kafka.examples.DemoCallBack {
-+  Producer(String;Boolean;String;boolean;int;int;CountDownLatch)
-+  get()
-+  run()
-+  DemoCallBack(long;int;String)
-+  onCompletion(RecordMetadata;Exception)
++ Producer(String;Boolean;String;boolean;int;int;CountDownLatch) : Producer [[[././qc/examples/src/main/java/kafka/examples/Producer.java.html#23]]]
+get() : KafkaProducer<Integer,String> [[[././qc/examples/src/main/java/kafka/examples/Producer.java.html#50]]]
++ run() : void [[[././qc/examples/src/main/java/kafka/examples/Producer.java.html#55]]]
++ DemoCallBack(long;int;String) : DemoCallBack [[[././qc/examples/src/main/java/kafka/examples/Producer.java.html#89]]]
++ onCompletion(RecordMetadata;Exception) : void [[[././qc/examples/src/main/java/kafka/examples/Producer.java.html#96]]]
 } 
 @enduml

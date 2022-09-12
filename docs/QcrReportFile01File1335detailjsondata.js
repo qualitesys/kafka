@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.ConfigurationsDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#21"
  , "c1" : "ConfigurationsDelta"
  , "c2" : "ConfigurationsDelta(ConfigurationsImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#25"
  , "c1" : "Map<ConfigResource,ConfigurationDelta>"
  , "c2" : "changes()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#29"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#39"
  , "c1" : "void"
  , "c2" : "handleMetadataVersionChange(MetadataVersion)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#43"
  , "c1" : "void"
  , "c2" : "replay(ConfigRecord)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#53"
  , "c1" : "void"
  , "c2" : "replay(RemoveTopicRecord;String)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#63"
  , "c1" : "ConfigurationsImage"
  , "c2" : "apply()"
  , "c3" : "8"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#89"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

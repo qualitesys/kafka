@@ -2,7 +2,7 @@
 !pragma layout smetana
 StateStoreProvider <|-- org.apache.kafka.streams.state.internals.WrappingStoreProvider
 class org.apache.kafka.streams.state.internals.WrappingStoreProvider {
-+  WrappingStoreProvider(Collection<StreamThreadStateStoreProvider>;StoreQueryParameters)
-+  setStoreQueryParameters(StoreQueryParameters)
+WrappingStoreProvider(Collection<StreamThreadStateStoreProvider>;StoreQueryParameters) : WrappingStoreProvider [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#19]]]
++ setStoreQueryParameters(StoreQueryParameters) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#26]]]
 } 
 @enduml

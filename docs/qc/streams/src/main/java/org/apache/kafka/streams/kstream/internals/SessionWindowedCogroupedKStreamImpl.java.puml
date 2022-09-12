@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractStream_K,V_SessionWindowedCogroupedKStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.SessionWindowedCogroupedKStreamImpl
 class org.apache.kafka.streams.kstream.internals.SessionWindowedCogroupedKStreamImpl {
-+  SessionWindowedCogroupedKStreamImpl(SessionWindows;InternalStreamsBuilder;Set<String>;String;CogroupedStreamAggregateBuilder<K,V>;GraphNode;Map<KGroupedStreamImpl<K,?>,Aggregator<?superK,?superObject,V>>)
-+  aggregate(Initializer<V>;Merger<?superK,V>)
-+  aggregate(Initializer<V>;Merger<?superK,V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)
-+  aggregate(Initializer<V>;Merger<?superK,V>;Named)
-+  aggregate(Initializer<V>;Merger<?superK,V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)
-+  materialize(MaterializedInternal<K,V,SessionStore<Bytes,byte[]>>)
+SessionWindowedCogroupedKStreamImpl(SessionWindows;InternalStreamsBuilder;Set<String>;String;CogroupedStreamAggregateBuilder<K,V>;GraphNode;Map<KGroupedStreamImpl<K,?>,Aggregator<?superK,?superObject,V>>) : SessionWindowedCogroupedKStreamImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#34]]]
++ aggregate(Initializer<V>;Merger<?superK,V>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#49]]]
++ aggregate(Initializer<V>;Merger<?superK,V>;Materialized<K,V,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#55]]]
++ aggregate(Initializer<V>;Merger<?superK,V>;Named) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#62]]]
++ aggregate(Initializer<V>;Merger<?superK,V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#68]]]
+- materialize(MaterializedInternal<K,V,SessionStore<Bytes,byte[]>>) : StoreBuilder<SessionStore<K,V>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#94]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#20"
  , "c1" : "MeteredTimestampedKeyValueStore"
  , "c2" : "MeteredTimestampedKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#31"
  , "c1" : "Serde<ValueAndTimestamp<V>>"
  , "c2" : "prepareValueSerdeForStore(Serde<ValueAndTimestamp<V>>;SerdeGetter)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#40"
  , "c1" : "RawAndDeserializedValue<V>"
  , "c2" : "getWithBinary(K)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#52"
  , "c1" : "boolean"
  , "c2" : "putIfDifferentValues(K;ValueAndTimestamp<V>;byte[])"
  , "c3" : "3"

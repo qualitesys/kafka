@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeProducersResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#19"
  , "c1" : "DescribeProducersResult"
  , "c2" : "DescribeProducersResult(Map<TopicPartition,KafkaFuture<PartitionProducerState>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#23"
  , "c1" : "KafkaFuture<PartitionProducerState>"
  , "c2" : "partitionResult(TopicPartition)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersResult.java.html#32"
  , "c1" : "KafkaFuture<Map<TopicPartition,PartitionProducerState>>"
  , "c2" : "all()"
  , "c3" : "2"

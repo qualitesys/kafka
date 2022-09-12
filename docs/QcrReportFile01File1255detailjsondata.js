@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.MessageDataGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#22"
  , "c1" : "MessageDataGenerator"
  , "c2" : "MessageDataGenerator(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#30"
  , "c1" : "String"
  , "c2" : "outputName(MessageSpec)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#35"
  , "c1" : "void"
  , "c2" : "generateAndWrite(MessageSpec;BufferedWriter)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#40"
  , "c1" : "void"
  , "c2" : "generate(MessageSpec)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#55"
  , "c1" : "void"
  , "c2" : "write(BufferedWriter)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#60"
  , "c1" : "void"
  , "c2" : "generateClass(Optional<MessageSpec>;String;StructSpec;Versions)"
  , "c3" : "7"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#125"
  , "c1" : "void"
  , "c2" : "generateClassHeader(String;boolean;boolean)"
  , "c3" : "5"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#150"
  , "c1" : "void"
  , "c2" : "generateSubclasses(String;StructSpec;Versions;boolean)"
  , "c3" : "8"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#175"
  , "c1" : "void"
  , "c2" : "generateHashSet(String;StructSpec)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#196"
  , "c1" : "void"
  , "c2" : "generateHashSetZeroArgConstructor(String)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#204"
  , "c1" : "void"
  , "c2" : "generateHashSetSizeArgConstructor(String)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00213"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#213"
  , "c1" : "void"
  , "c2" : "generateHashSetIteratorConstructor(String)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00223"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#223"
  , "c1" : "void"
  , "c2" : "generateHashSetFindMethod(String;StructSpec)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00235"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#235"
  , "c1" : "void"
  , "c2" : "generateHashSetFindAllMethod(String;StructSpec)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#247"
  , "c1" : "void"
  , "c2" : "generateKeyElement(String;StructSpec)"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00258"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#258"
  , "c1" : "String"
  , "c2" : "commaSeparatedHashSetFieldAndTypes(StructSpec)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00266"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#266"
  , "c1" : "void"
  , "c2" : "generateCollectionDuplicateMethod(String)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00282"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#282"
  , "c1" : "void"
  , "c2" : "generateFieldDeclarations(StructSpec;boolean)"
  , "c3" : "3"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00295"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#295"
  , "c1" : "void"
  , "c2" : "generateFieldDeclaration(FieldSpec)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00301"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#301"
  , "c1" : "void"
  , "c2" : "generateFieldAccessors(StructSpec;boolean)"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00316"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#316"
  , "c1" : "void"
  , "c2" : "generateUnknownTaggedFieldsAccessor()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00336"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#336"
  , "c1" : "void"
  , "c2" : "generateFieldMutators(StructSpec;String;boolean)"
  , "c3" : "3"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00352"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#352"
  , "c1" : "void"
  , "c2" : "generateClassConstructors(String;StructSpec;boolean)"
  , "c3" : "2"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00374"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#374"
  , "c1" : "void"
  , "c2" : "generateConstructorEpilogue(boolean)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00382"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#382"
  , "c1" : "void"
  , "c2" : "generateShortAccessor(String;short)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00391"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#391"
  , "c1" : "void"
  , "c2" : "generateClassReader(String;StructSpec;Versions)"
  , "c3" : "12"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00518"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#518"
  , "c1" : "String"
  , "c2" : "primitiveReadExpression(FieldType)"
  , "c3" : "21"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00544"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#544"
  , "c1" : "void"
  , "c2" : "generateVariableLengthReader(Versions;String;FieldType;Versions;Versions;String;String;boolean;boolean)"
  , "c3" : "22"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00647"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#647"
  , "c1" : "void"
  , "c2" : "generateClassWriter(String;StructSpec;Versions)"
  , "c3" : "24"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00817"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#817"
  , "c1" : "void"
  , "c2" : "generateCheckForUnsupportedNumTaggedFields(String)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00827"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#827"
  , "c1" : "String"
  , "c2" : "primitiveWriteExpression(FieldType;String)"
  , "c3" : "21"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00853"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#853"
  , "c1" : "void"
  , "c2" : "generateVariableLengthWriter(Versions;String;FieldType;Versions;Versions;boolean)"
  , "c3" : "28"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00961"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#961"
  , "c1" : "void"
  , "c2" : "generateClassMessageSize(String;StructSpec;Versions)"
  , "c3" : "2"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01021"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1021"
  , "c1" : "void"
  , "c2" : "generateVariableLengthArrayElementSize(Versions;String;FieldType;Versions)"
  , "c3" : "7"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01057"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1057"
  , "c1" : "void"
  , "c2" : "generateFieldSize(FieldSpec;Versions;boolean)"
  , "c3" : "3"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01067"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1067"
  , "c1" : "void"
  , "c2" : "generateFixedLengthFieldSize(FieldSpec;boolean)"
  , "c3" : "3"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01089"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1089"
  , "c1" : "void"
  , "c2" : "generateVariableLengthFieldSize(FieldSpec;Versions;boolean)"
  , "c3" : "35"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01260"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1260"
  , "c1" : "void"
  , "c2" : "generateStringToBytes(String)"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01272"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1272"
  , "c1" : "void"
  , "c2" : "generateClassEquals(String;StructSpec;boolean)"
  , "c3" : "6"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01298"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1298"
  , "c1" : "void"
  , "c2" : "generateFieldEquals(FieldSpec)"
  , "c3" : "11"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01334"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1334"
  , "c1" : "void"
  , "c2" : "generateClassHashCode(StructSpec;boolean)"
  , "c3" : "3"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01349"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1349"
  , "c1" : "void"
  , "c2" : "generateFieldHashCode(FieldSpec)"
  , "c3" : "19"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01393"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1393"
  , "c1" : "void"
  , "c2" : "generateClassDuplicate(String;StructSpec)"
  , "c3" : "2"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01409"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1409"
  , "c1" : "void"
  , "c2" : "generateFieldDuplicate(Target)"
  , "c3" : "15"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01480"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1480"
  , "c1" : "void"
  , "c2" : "generateClassToString(String;StructSpec)"
  , "c3" : "2"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01497"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1497"
  , "c1" : "void"
  , "c2" : "generateFieldToString(String;FieldSpec)"
  , "c3" : "19"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01543"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1543"
  , "c1" : "void"
  , "c2" : "generateFieldAccessor(FieldSpec)"
  , "c3" : "1"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01550"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1550"
  , "c1" : "void"
  , "c2" : "generateAccessor(String;String;String)"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01558"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1558"
  , "c1" : "void"
  , "c2" : "generateFieldMutator(String;FieldSpec)"
  , "c3" : "3"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01587"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1587"
  , "c1" : "void"
  , "c2" : "generateSetter(String;String;String)"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01595"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1595"
  , "c1" : "Versions"
  , "c2" : "fieldFlexibleVersions(FieldSpec)"
  , "c3" : "4"

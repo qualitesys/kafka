@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#12"
  , "c1" : "ChangeLoggingTimestampedKeyValueBytesStore"
  , "c2" : "ChangeLoggingTimestampedKeyValueBytesStore(KeyValueStore<Bytes,byte[]>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedKeyValueBytesStore.java.html#17"
  , "c1" : "void"
  , "c2" : "log(Bytes;byte[])"
  , "c3" : "3"

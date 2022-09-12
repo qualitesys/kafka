@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#8"
  , "c1" : "JoinWindowsInternal"
  , "c2" : "JoinWindowsInternal(JoinWindows)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#12"
  , "c1" : "boolean"
  , "c2" : "spuriousResultFixEnabled()"
  , "c3" : "1"

@@ -2,21 +2,21 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder
 class org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder {
-+  RocksDBMetricsRecorder(String;String)
-+  storeName()
-+  taskId()
-+  init(StreamsMetricsImpl;TaskId)
-+  addValueProviders(String;RocksDB;Cache;Statistics)
-+  verifyDbAndCacheAndStatistics(String;RocksDB;Cache;Statistics)
-+  verifyConsistencyOfValueProvidersAcrossSegments(String;Object;Object;String)
-+  initSensors(StreamsMetricsImpl;RocksDBMetricContext)
-+  initGauges(StreamsMetricsImpl;RocksDBMetricContext)
-+  gaugeToComputeSumOfProperties(String)
-+  gaugeToComputeBlockCacheMetrics(String)
-+  longToBytes(long)
-+  removeValueProviders(String)
-+  record(long)
-+  computeHitRatio(long;long)
-+  computeAvg(long;long)
++ RocksDBMetricsRecorder(String;String) : RocksDBMetricsRecorder [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#106]]]
++ storeName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#114]]]
++ taskId() : TaskId [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#118]]]
++ init(StreamsMetricsImpl;TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#123]]]
++ addValueProviders(String;RocksDB;Cache;Statistics) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#144]]]
+- verifyDbAndCacheAndStatistics(String;RocksDB;Cache;Statistics) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#161]]]
+- verifyConsistencyOfValueProvidersAcrossSegments(String;Object;Object;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#183]]]
+- initSensors(StreamsMetricsImpl;RocksDBMetricContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#202]]]
+- initGauges(StreamsMetricsImpl;RocksDBMetricContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#224]]]
+- gaugeToComputeSumOfProperties(String) : Gauge<BigInteger> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#338]]]
+- gaugeToComputeBlockCacheMetrics(String) : Gauge<BigInteger> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#356]]]
+- longToBytes(long) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#383]]]
++ removeValueProviders(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#389]]]
++ record(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#408]]]
+- computeHitRatio(long;long) : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#490]]]
+- computeAvg(long;long) : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#497]]]
 } 
 @enduml

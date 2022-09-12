@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.internals.QuotaConfigs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36"
  , "c1" : "void"
  , "c2" : "buildUserClientQuotaConfigDef(ConfigDef)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#52"
  , "c1" : "boolean"
  , "c2" : "isClientOrUserConfig(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#56"
  , "c1" : "ConfigDef"
  , "c2" : "userConfigs()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#66"
  , "c1" : "ConfigDef"
  , "c2" : "clientConfigs()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#72"
  , "c1" : "ConfigDef"
  , "c2" : "ipConfigs()"
  , "c3" : "1"

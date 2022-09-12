@@ -2,9 +2,9 @@
 !pragma layout smetana
 BaseVersionRange <|-- org.apache.kafka.common.feature.SupportedVersionRange
 class org.apache.kafka.common.feature.SupportedVersionRange {
-+  SupportedVersionRange(short;short)
-+  SupportedVersionRange(short)
-+  fromMap(Map<String,Short>)
-+  isIncompatibleWith(short)
++ SupportedVersionRange(short;short) : SupportedVersionRange [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#14]]]
++ SupportedVersionRange(short) : SupportedVersionRange [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#18]]]
++ fromMap(Map<String,Short>) : SupportedVersionRange [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#22]]]
++ isIncompatibleWith(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#29]]]
 } 
 @enduml

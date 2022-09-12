@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TopicPartitionMetadata
 class org.apache.kafka.streams.processor.internals.TopicPartitionMetadata {
-+  TopicPartitionMetadata(long;ProcessorMetadata)
-+  partitionTime()
-+  processorMetadata()
-+  encode()
-+  decode(String)
-+  hashCode()
-+  equals(Object)
++ TopicPartitionMetadata(long;ProcessorMetadata) : TopicPartitionMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#21]]]
++ partitionTime() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#27]]]
++ processorMetadata() : ProcessorMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#31]]]
++ encode() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#35]]]
++ decode(String) : TopicPartitionMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#45]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#79]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#84]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.DelegationTokenNotFoundException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenNotFoundException.java.html#8"
  , "c1" : "DelegationTokenNotFoundException"
  , "c2" : "DelegationTokenNotFoundException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenNotFoundException.java.html#12"
  , "c1" : "DelegationTokenNotFoundException"
  , "c2" : "DelegationTokenNotFoundException(String;Throwable)"
  , "c3" : "1"

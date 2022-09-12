@@ -2,12 +2,12 @@
 !pragma layout smetana
 GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.BaseJoinProcessorNode
 class org.apache.kafka.streams.kstream.internals.graph.BaseJoinProcessorNode {
-+  BaseJoinProcessorNode(String;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVR>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;ProcessorParameters<K,VR,?,?>;String;String)
-+  thisProcessorParameters()
-+  otherProcessorParameters()
-+  mergeProcessorParameters()
-+  thisJoinSideNodeName()
-+  otherJoinSideNodeName()
-+  toString()
+BaseJoinProcessorNode(String;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVR>;ProcessorParameters<K,V1,?,?>;ProcessorParameters<K,V2,?,?>;ProcessorParameters<K,VR,?,?>;String;String) : BaseJoinProcessorNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.html#18]]]
+thisProcessorParameters() : ProcessorParameters<K,V1,?,?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.html#36]]]
+otherProcessorParameters() : ProcessorParameters<K,V2,?,?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.html#40]]]
+mergeProcessorParameters() : ProcessorParameters<K,VR,?,?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.html#44]]]
+thisJoinSideNodeName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.html#48]]]
+otherJoinSideNodeName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.html#52]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.html#57]]]
 } 
 @enduml

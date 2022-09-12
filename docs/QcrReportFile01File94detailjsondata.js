@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#25"
  , "c1" : "DescribeUserScramCredentialsResult"
  , "c2" : "DescribeUserScramCredentialsResult(KafkaFuture<DescribeUserScramCredentialsResponseData>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#30"
  , "c1" : "KafkaFuture<Map<String,UserScramCredentialsDescription>>"
  , "c2" : "all()"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#55"
  , "c1" : "KafkaFuture<List<String>>"
  , "c2" : "users()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#70"
  , "c1" : "KafkaFuture<UserScramCredentialsDescription>"
  , "c2" : "description(String)"
  , "c3" : "7"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#96"
  , "c1" : "List<ScramCredentialInfo>"
  , "c2" : "getScramCredentialInfosFor(DescribeUserScramCredentialsResponseData.DescribeUserScramCredentialsResult)"
  , "c3" : "1"

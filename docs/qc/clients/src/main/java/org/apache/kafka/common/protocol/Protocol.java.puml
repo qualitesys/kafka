@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.protocol.Protocol
 class org.apache.kafka.common.protocol.Protocol {
-+  indentString(int)
-+  schemaToBnfHtml(Schema;StringBuilder;int)
-+  populateSchemaFields(Schema;Set<BoundField>)
-+  schemaToFieldTableHtml(Schema;StringBuilder)
-+  toHtml()
-+  main(String[])
+- indentString(int) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#18]]]
+- schemaToBnfHtml(Schema;StringBuilder;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#25]]]
+- populateSchemaFields(Schema;Set<BoundField>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#69]]]
+- schemaToFieldTableHtml(Schema;StringBuilder) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#81]]]
++ toHtml() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#103]]]
++ main(String[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#175]]]
 } 
 @enduml

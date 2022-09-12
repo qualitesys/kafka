@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.Cluster" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#36"
  , "c1" : "Cluster"
  , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#45"
  , "c1" : "Cluster"
  , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Node)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#55"
  , "c1" : "Cluster"
  , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#66"
  , "c1" : "Cluster"
  , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#77"
  , "c1" : "Cluster"
  , "c2" : "Cluster(String;boolean;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)"
  , "c3" : "10"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#166"
  , "c1" : "Cluster"
  , "c2" : "empty()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#172"
  , "c1" : "Cluster"
  , "c2" : "bootstrap(List<InetSocketAddress>)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00182"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#182"
  , "c1" : "Cluster"
  , "c2" : "withPartitions(Map<TopicPartition,PartitionInfo>)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00191"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#191"
  , "c1" : "List<Node>"
  , "c2" : "nodes()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#196"
  , "c1" : "Node"
  , "c2" : "nodeById(int)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00201"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#201"
  , "c1" : "Optional<Node>"
  , "c2" : "nodeIfOnline(TopicPartition;int)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00211"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#211"
  , "c1" : "Node"
  , "c2" : "leaderFor(TopicPartition)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00220"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#220"
  , "c1" : "PartitionInfo"
  , "c2" : "partition(TopicPartition)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00225"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#225"
  , "c1" : "List<PartitionInfo>"
  , "c2" : "partitionsForTopic(String)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00230"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#230"
  , "c1" : "Integer"
  , "c2" : "partitionCountForTopic(String)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00236"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#236"
  , "c1" : "List<PartitionInfo>"
  , "c2" : "availablePartitionsForTopic(String)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00241"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#241"
  , "c1" : "List<PartitionInfo>"
  , "c2" : "partitionsForNode(int)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#246"
  , "c1" : "Set<String>"
  , "c2" : "topics()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00250"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#250"
  , "c1" : "Set<String>"
  , "c2" : "unauthorizedTopics()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00254"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#254"
  , "c1" : "Set<String>"
  , "c2" : "invalidTopics()"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00258"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#258"
  , "c1" : "Set<String>"
  , "c2" : "internalTopics()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00262"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#262"
  , "c1" : "boolean"
  , "c2" : "isBootstrapConfigured()"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00266"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#266"
  , "c1" : "ClusterResource"
  , "c2" : "clusterResource()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00270"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#270"
  , "c1" : "Node"
  , "c2" : "controller()"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00274"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#274"
  , "c1" : "Collection<Uuid>"
  , "c2" : "topicIds()"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00278"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#278"
  , "c1" : "Uuid"
  , "c2" : "topicId(String)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00282"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#282"
  , "c1" : "String"
  , "c2" : "topicName(Uuid)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00287"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#287"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00293"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#293"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00308"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#308"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

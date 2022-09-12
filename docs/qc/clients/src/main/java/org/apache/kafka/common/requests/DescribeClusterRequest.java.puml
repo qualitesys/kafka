@@ -2,10 +2,10 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.DescribeClusterRequest
 class org.apache.kafka.common.requests.DescribeClusterRequest {
-+  DescribeClusterRequest(DescribeClusterRequestData;short)
-+  data()
-+  getErrorResponse(int;Throwable)
-+  toString(boolean)
-+  parse(ByteBuffer;short)
++ DescribeClusterRequest(DescribeClusterRequestData;short) : DescribeClusterRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClusterRequest.java.html#35]]]
++ data() : DescribeClusterRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClusterRequest.java.html#41]]]
++ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClusterRequest.java.html#46]]]
++ toString(boolean) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClusterRequest.java.html#54]]]
++ parse(ByteBuffer;short) : DescribeClusterRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClusterRequest.java.html#58]]]
 } 
 @enduml

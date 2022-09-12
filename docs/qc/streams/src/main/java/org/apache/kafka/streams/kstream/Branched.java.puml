@@ -2,8 +2,8 @@
 !pragma layout smetana
 NamedOperation_Branched_K,V__ <|-- org.apache.kafka.streams.kstream.Branched
 class org.apache.kafka.streams.kstream.Branched {
-+  Branched(String;Function<?superKStream<K,V>,?extendsKStream<K,V>>;Consumer<?superKStream<K,V>>)
-+  Branched(Branched<K,V>)
-+  withName(String)
+Branched(String;Function<?superKStream<K,V>,?extendsKStream<K,V>>;Consumer<?superKStream<K,V>>) : Branched [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#15]]]
+Branched(Branched<K,V>) : Branched [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#57]]]
++ withName(String) : Branched<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#63]]]
 } 
 @enduml

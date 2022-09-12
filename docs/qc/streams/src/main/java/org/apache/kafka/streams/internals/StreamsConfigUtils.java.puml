@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.internals.StreamsConfigUtils
 class org.apache.kafka.streams.internals.StreamsConfigUtils {
-+  processingMode(StreamsConfig)
-+  processingModeString(ProcessingMode)
-+  eosEnabled(StreamsConfig)
-+  eosEnabled(ProcessingMode)
++ processingMode(StreamsConfig) : ProcessingMode [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23]]]
++ processingModeString(ProcessingMode) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#36]]]
++ eosEnabled(StreamsConfig) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#46]]]
++ eosEnabled(ProcessingMode) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#50]]]
 } 
 @enduml

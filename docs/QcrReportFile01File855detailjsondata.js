@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.ByteBufferDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferDeserializer.java.html#7"
  , "c1" : "ByteBuffer"
  , "c2" : "deserialize(String;byte[])"
  , "c3" : "2"

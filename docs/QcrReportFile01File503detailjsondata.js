@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.NetworkReceive" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#29"
  , "c1" : "NetworkReceive"
  , "c2" : "NetworkReceive(String;ByteBuffer)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#37"
  , "c1" : "NetworkReceive"
  , "c2" : "NetworkReceive(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#45"
  , "c1" : "NetworkReceive"
  , "c2" : "NetworkReceive(int;String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#53"
  , "c1" : "NetworkReceive"
  , "c2" : "NetworkReceive(int;String;MemoryPool)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#61"
  , "c1" : "NetworkReceive"
  , "c2" : "NetworkReceive()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#66"
  , "c1" : "String"
  , "c2" : "source()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#71"
  , "c1" : "boolean"
  , "c2" : "complete()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#75"
  , "c1" : "long"
  , "c2" : "readFrom(ScatteringByteChannel)"
  , "c3" : "11"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#111"
  , "c1" : "boolean"
  , "c2" : "requiredMemoryAmountKnown()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#116"
  , "c1" : "boolean"
  , "c2" : "memoryAllocated()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#122"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#129"
  , "c1" : "ByteBuffer"
  , "c2" : "payload()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#133"
  , "c1" : "int"
  , "c2" : "bytesRead()"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00140"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#140"
  , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"

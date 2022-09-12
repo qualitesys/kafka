@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.ConfigTransformerResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java.html#15"
  , "c1" : "ConfigTransformerResult"
  , "c2" : "ConfigTransformerResult(Map<String,String>;Map<String,Long>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java.html#21"
  , "c1" : "Map<String,String>"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformerResult.java.html#26"
  , "c1" : "Map<String,Long>"
  , "c2" : "ttls()"
  , "c3" : "1"

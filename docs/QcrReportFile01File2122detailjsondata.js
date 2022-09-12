@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.basic.BasicNode" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#22"
  , "c1" : "BasicNode"
  , "c2" : "BasicNode(String;String;Map<String,String>;Set<String>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#30"
  , "c1" : "BasicNode"
  , "c2" : "BasicNode(String;JsonNode)"
  , "c3" : "8"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#62"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#67"
  , "c1" : "String"
  , "c2" : "hostname()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#72"
  , "c1" : "String"
  , "c2" : "getConfig(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#77"
  , "c1" : "Set<String>"
  , "c2" : "tags()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#82"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#87"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"

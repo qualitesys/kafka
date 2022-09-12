@@ -2,9 +2,9 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.common.utils.BufferSupplier
 class org.apache.kafka.common.utils.BufferSupplier {
-+  create()
-+  get(int)
-+  release(ByteBuffer)
-+  close()
++ create() : BufferSupplier [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#27]]]
++ get(int) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#32]]]
++ release(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#35]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/BufferSupplier.java.html#38]]]
 } 
 @enduml

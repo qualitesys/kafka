@@ -2,13 +2,13 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.SetSchemaMetadata
 class org.apache.kafka.connect.transforms.SetSchemaMetadata {
-+  configure(Map<String,?>)
-+  apply(R)
-+  config()
-+  close()
-+  operatingSchema(R)
-+  operatingValue(R)
-+  newRecord(R;Schema)
-+  updateSchemaIn(Object;Schema)
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#39]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#50]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#77]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#82]]]
+operatingSchema(R) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#85]]]
+operatingValue(R) : Object [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#87]]]
+newRecord(R;Schema) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#89]]]
+updateSchemaIn(Object;Schema) : Object [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#130]]]
 } 
 @enduml

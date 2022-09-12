@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.KafkaStreams" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00188"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#188"
  , "c1" : "boolean"
  , "c2" : "waitOnState(State;long)"
  , "c3" : "5"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00222"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#222"
  , "c1" : "boolean"
  , "c2" : "setState(State)"
  , "c3" : "14"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00264"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#264"
  , "c1" : "State"
  , "c2" : "state()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00268"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#268"
  , "c1" : "boolean"
  , "c2" : "isRunningOrRebalancing()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00274"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#274"
  , "c1" : "boolean"
  , "c2" : "hasStartedOrFinishedShuttingDown()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00280"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#280"
  , "c1" : "void"
  , "c2" : "validateIsRunningOrRebalancing()"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00299"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#299"
  , "c1" : "void"
  , "c2" : "setStateListener(KafkaStreams.StateListener)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00311"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#311"
  , "c1" : "void"
  , "c2" : "setUncaughtExceptionHandler(Thread.UncaughtExceptionHandler)"
  , "c3" : "4"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00328"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#328"
  , "c1" : "void"
  , "c2" : "setUncaughtExceptionHandler(StreamsUncaughtExceptionHandler)"
  , "c3" : "4"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00348"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#348"
  , "c1" : "void"
  , "c2" : "defaultStreamsUncaughtExceptionHandler(Throwable;boolean)"
  , "c3" : "7"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00363"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#363"
  , "c1" : "void"
  , "c2" : "replaceStreamThread(Throwable)"
  , "c3" : "6"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00382"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#382"
  , "c1" : "boolean"
  , "c2" : "wrappedExceptionIsIn(Throwable;Set<Class<?extendsThrowable>>)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00386"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#386"
  , "c1" : "StreamsUncaughtExceptionHandler.StreamThreadExceptionResponse"
  , "c2" : "getActionForThrowable(Throwable;StreamsUncaughtExceptionHandler)"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00397"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#397"
  , "c1" : "void"
  , "c2" : "handleStreamsUncaughtException(Throwable;StreamsUncaughtExceptionHandler;boolean)"
  , "c3" : "10"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00445"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#445"
  , "c1" : "void"
  , "c2" : "setGlobalStateRestoreListener(StateRestoreListener)"
  , "c3" : "3"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00457"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#457"
  , "c1" : "Map<MetricName,?extendsMetric>"
  , "c2" : "metrics()"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00595"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#595"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;Properties)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00601"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#601"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;Properties;KafkaClientSupplier)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00608"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#608"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;Properties;Time)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00615"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#615"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;Properties;KafkaClientSupplier;Time)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00623"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#623"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;StreamsConfig)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00629"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#629"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;StreamsConfig;KafkaClientSupplier)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00636"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#636"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;StreamsConfig;Time)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00642"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#642"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(Topology;StreamsConfig;KafkaClientSupplier;Time)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00649"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#649"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(TopologyMetadata;StreamsConfig;KafkaClientSupplier)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00655"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#655"
  , "c1" : "KafkaStreams"
  , "c2" : "KafkaStreams(TopologyMetadata;StreamsConfig;KafkaClientSupplier;Time)"
  , "c3" : "6"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00759"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#759"
  , "c1" : "StreamThread"
  , "c2" : "createAndAddStreamThread(long;int)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00784"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#784"
  , "c1" : "Metrics"
  , "c2" : "getMetrics(StreamsConfig;Time;String)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00801"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#801"
  , "c1" : "Optional<String>"
  , "c2" : "addStreamThread()"
  , "c3" : "5"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00837"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#837"
  , "c1" : "Optional<String>"
  , "c2" : "removeStreamThread()"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00842"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#842"
  , "c1" : "Optional<String>"
  , "c2" : "removeStreamThread(Duration)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00848"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#848"
  , "c1" : "Optional<String>"
  , "c2" : "removeStreamThread(long)"
  , "c3" : "11"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00925"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#925"
  , "c1" : "int"
  , "c2" : "getNumLiveStreamThreads()"
  , "c3" : "5"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00944"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#944"
  , "c1" : "int"
  , "c2" : "getNextThreadIndex()"
  , "c3" : "6"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00976"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#976"
  , "c1" : "long"
  , "c2" : "getCacheSizePerThread(int)"
  , "c3" : "2"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00983"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#983"
  , "c1" : "void"
  , "c2" : "resizeThreadCache(long)"
  , "c3" : "2"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00990"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#990"
  , "c1" : "ScheduledExecutorService"
  , "c2" : "setupStateDirCleaner()"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00998"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#998"
  , "c1" : "ScheduledExecutorService"
  , "c2" : "maybeCreateRocksDBMetricsRecordingService(String;StreamsConfig)"
  , "c3" : "2"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1010"
  , "c1" : "HostInfo"
  , "c2" : "parseHostInfo(String)"
  , "c3" : "3"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1020"
  , "c1" : "void"
  , "c2" : "start()"
  , "c3" : "6"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1072"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01076"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1076"
  , "c1" : "Thread"
  , "c2" : "shutdownHelper(boolean)"
  , "c3" : "7"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01142"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1142"
  , "c1" : "boolean"
  , "c2" : "close(long)"
  , "c3" : "11"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01182"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1182"
  , "c1" : "void"
  , "c2" : "closeToError()"
  , "c3" : "3"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01194"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1194"
  , "c1" : "boolean"
  , "c2" : "close(Duration)"
  , "c3" : "2"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01207"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1207"
  , "c1" : "boolean"
  , "c2" : "close(CloseOptions)"
  , "c3" : "3"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01253"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1253"
  , "c1" : "void"
  , "c2" : "cleanUp()"
  , "c3" : "2"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01262"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1262"
  , "c1" : "Collection<org.apache.kafka.streams.state.StreamsMetadata>"
  , "c2" : "allMetadata()"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01274"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1274"
  , "c1" : "Collection<StreamsMetadata>"
  , "c2" : "metadataForAllStreamsClients()"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01281"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1281"
  , "c1" : "Collection<org.apache.kafka.streams.state.StreamsMetadata>"
  , "c2" : "allMetadataForStore(String)"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01293"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1293"
  , "c1" : "Collection<StreamsMetadata>"
  , "c2" : "streamsMetadataForStore(String)"
  , "c3" : "1"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01327"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1327"
  , "c1" : "void"
  , "c2" : "pause()"
  , "c3" : "4"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01338"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1338"
  , "c1" : "boolean"
  , "c2" : "isPaused()"
  , "c3" : "3"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01349"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1349"
  , "c1" : "void"
  , "c2" : "resume()"
  , "c3" : "4"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01360"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1360"
  , "c1" : "int"
  , "c2" : "processStreamThread(Consumer<StreamThread>)"
  , "c3" : "2"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01370"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1370"
  , "c1" : "Set<org.apache.kafka.streams.processor.ThreadMetadata>"
  , "c2" : "localThreadsMetadata()"
  , "c3" : "1"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01396"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1396"
  , "c1" : "Set<ThreadMetadata>"
  , "c2" : "metadataForLocalThreads()"
  , "c3" : "2"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01409"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1409"
  , "c1" : "Map<String,Map<Integer,LagInfo>>"
  , "c2" : "allLocalStorePartitionLags()"
  , "c3" : "1"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01415"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1415"
  , "c1" : "Map<String,Map<Integer,LagInfo>>"
  , "c2" : "allLocalStorePartitionLags(List<Task>)"
  , "c3" : "3"

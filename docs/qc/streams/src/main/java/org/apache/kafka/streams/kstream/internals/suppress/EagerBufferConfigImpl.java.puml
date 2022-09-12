@@ -2,18 +2,18 @@
 !pragma layout smetana
 BufferConfigInternal_Suppressed.EagerBufferConfig_Suppressed.EagerBufferConfig <|-- org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl
 class org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl {
-+  EagerBufferConfigImpl(long;long;Map<String,String>)
-+  withMaxRecords(long)
-+  withMaxBytes(long)
-+  maxRecords()
-+  maxBytes()
-+  bufferFullStrategy()
-+  withLoggingDisabled()
-+  withLoggingEnabled(Map<String,String>)
-+  isLoggingEnabled()
-+  getLogConfig()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ EagerBufferConfigImpl(long;long;Map<String,String>) : EagerBufferConfigImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#16]]]
++ withMaxRecords(long) : Suppressed.EagerBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#25]]]
++ withMaxBytes(long) : Suppressed.EagerBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#30]]]
++ maxRecords() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#35]]]
++ maxBytes() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#40]]]
++ bufferFullStrategy() : BufferFullStrategy [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#45]]]
++ withLoggingDisabled() : Suppressed.EagerBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#50]]]
++ withLoggingEnabled(Map<String,String>) : Suppressed.EagerBufferConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#55]]]
++ isLoggingEnabled() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#60]]]
++ getLogConfig() : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#65]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#70]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#84]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#89]]]
 } 
 @enduml

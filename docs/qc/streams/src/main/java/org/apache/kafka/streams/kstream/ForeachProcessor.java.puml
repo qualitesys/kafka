@@ -2,7 +2,7 @@
 !pragma layout smetana
 Processor_K,V,Void,Void_ <|-- org.apache.kafka.streams.kstream.ForeachProcessor
 class org.apache.kafka.streams.kstream.ForeachProcessor {
-+  ForeachProcessor(ForeachAction<K,V>)
-+  process(Record<K,V>)
++ ForeachProcessor(ForeachAction<K,V>) : ForeachProcessor [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#11]]]
++ process(Record<K,V>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#16]]]
 } 
 @enduml

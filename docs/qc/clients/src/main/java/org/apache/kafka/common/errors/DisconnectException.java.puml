@@ -2,9 +2,9 @@
 !pragma layout smetana
 RetriableException <|-- org.apache.kafka.common.errors.DisconnectException
 class org.apache.kafka.common.errors.DisconnectException {
-+  DisconnectException()
-+  DisconnectException(String;Throwable)
-+  DisconnectException(String)
-+  DisconnectException(Throwable)
++ DisconnectException() : DisconnectException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#11]]]
++ DisconnectException(String;Throwable) : DisconnectException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#15]]]
++ DisconnectException(String) : DisconnectException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#19]]]
++ DisconnectException(Throwable) : DisconnectException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#23]]]
 } 
 @enduml

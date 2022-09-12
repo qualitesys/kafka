@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ChangelogTopics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#33"
  , "c1" : "ChangelogTopics"
  , "c2" : "ChangelogTopics(InternalTopicManager;Map<Subtopology,TopicsInfo>;Map<Subtopology,Set<TaskId>>;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#44"
  , "c1" : "void"
  , "c2" : "setup()"
  , "c3" : "14"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#101"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "preExistingNonSourceTopicBasedPartitions()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#105"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "preExistingPartitionsFor(TaskId)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#112"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "preExistingSourceTopicBasedPartitions()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#116"
  , "c1" : "Set<TaskId>"
  , "c2" : "statefulTaskIds()"
  , "c3" : "1"

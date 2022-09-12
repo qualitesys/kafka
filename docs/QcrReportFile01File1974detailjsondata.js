@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.CacheFunction" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CacheFunction.java.html#8"
  , "c1" : "Bytes"
  , "c2" : "key(Bytes)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CacheFunction.java.html#9"
  , "c1" : "Bytes"
  , "c2" : "cacheKey(Bytes)"
  , "c3" : "1"

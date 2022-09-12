@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.scram.internals.ScramSaslServerProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServerProvider.java.html#14"
  , "c1" : "ScramSaslServerProvider"
  , "c2" : "ScramSaslServerProvider()"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServerProvider.java.html#20"
  , "c1" : "void"
  , "c2" : "initialize()"
  , "c3" : "1"

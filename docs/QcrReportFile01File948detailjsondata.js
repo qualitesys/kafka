@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Struct" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#19"
  , "c1" : "Struct"
  , "c2" : "Struct(Schema)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#27"
  , "c1" : "Schema"
  , "c2" : "schema()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#32"
  , "c1" : "Object"
  , "c2" : "get(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#38"
  , "c1" : "Object"
  , "c2" : "get(Field)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#47"
  , "c1" : "Object"
  , "c2" : "getWithoutDefault(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#55"
  , "c1" : "Byte"
  , "c2" : "getInt8(String)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#60"
  , "c1" : "Short"
  , "c2" : "getInt16(String)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#65"
  , "c1" : "Integer"
  , "c2" : "getInt32(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#70"
  , "c1" : "Long"
  , "c2" : "getInt64(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#75"
  , "c1" : "Float"
  , "c2" : "getFloat32(String)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#80"
  , "c1" : "Double"
  , "c2" : "getFloat64(String)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#85"
  , "c1" : "Boolean"
  , "c2" : "getBoolean(String)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#90"
  , "c1" : "String"
  , "c2" : "getString(String)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#95"
  , "c1" : "byte[]"
  , "c2" : "getBytes(String)"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#115"
  , "c1" : "Struct"
  , "c2" : "getStruct(String)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#120"
  , "c1" : "Struct"
  , "c2" : "put(String;Object)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#126"
  , "c1" : "Struct"
  , "c2" : "put(Field;Object)"
  , "c3" : "2"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#136"
  , "c1" : "void"
  , "c2" : "validate()"
  , "c3" : "3"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#147"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#156"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00160"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#160"
  , "c1" : "Field"
  , "c2" : "lookupField(String)"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#169"
  , "c1" : "Object"
  , "c2" : "getCheckType(String;Schema.Type)"
  , "c3" : "2"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#177"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "5"

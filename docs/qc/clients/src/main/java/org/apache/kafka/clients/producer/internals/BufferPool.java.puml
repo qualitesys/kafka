@@ -2,21 +2,21 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.producer.internals.BufferPool
 class org.apache.kafka.clients.producer.internals.BufferPool {
-+  BufferPool(long;int;Metrics;Time;String)
-+  allocate(int;long)
-+  recordWaitTime(long)
-+  safeAllocateByteBuffer(int)
-+  allocateByteBuffer(int)
-+  freeUp(int)
-+  deallocate(ByteBuffer;int)
-+  deallocate(ByteBuffer)
-+  availableMemory()
-+  freeSize()
-+  unallocatedMemory()
-+  queued()
-+  poolableSize()
-+  totalMemory()
-+  waiters()
-+  close()
++ BufferPool(long;int;Metrics;Time;String) : BufferPool [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#38]]]
++ allocate(int;long) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#69]]]
+recordWaitTime(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#172]]]
+- safeAllocateByteBuffer(int) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#177]]]
+allocateByteBuffer(int) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#198]]]
+- freeUp(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#203]]]
++ deallocate(ByteBuffer;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#209]]]
++ deallocate(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#226]]]
++ availableMemory() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#232]]]
+freeSize() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#242]]]
++ unallocatedMemory() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#247]]]
++ queued() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#257]]]
++ poolableSize() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#267]]]
++ totalMemory() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#272]]]
+waiters() : Deque<Condition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#277]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#282]]]
 } 
 @enduml

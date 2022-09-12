@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.common.ApiMessageAndVersion
 class org.apache.kafka.server.common.ApiMessageAndVersion {
-+  ApiMessageAndVersion(ApiMessage;short)
-+  message()
-+  version()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ ApiMessageAndVersion(ApiMessage;short) : ApiMessageAndVersion [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#14]]]
++ message() : ApiMessage [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#19]]]
++ version() : short [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#23]]]
++ equals(Object) : boolean [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#28]]]
++ hashCode() : int [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#37]]]
++ toString() : String [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#42]]]
 } 
 @enduml

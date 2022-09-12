@@ -2,29 +2,29 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.ClusterControlManager
 class org.apache.kafka.controller.ClusterControlManager {
-+  ClusterControlManager(LogContext;String;Time;SnapshotRegistry;long;ReplicaPlacer;ControllerMetrics;FeatureControlManager)
-+  replicaPlacer()
-+  activate()
-+  deactivate()
-+  brokerRegistrations()
-+  brokerSupportedVersions()
-+  fencedBrokerIds()
-+  registerBroker(BrokerRegistrationRequestData;long;FinalizedControllerFeatures)
-+  replay(RegisterBrokerRecord)
-+  replay(UnregisterBrokerRecord)
-+  replay(FenceBrokerRecord)
-+  replay(UnfenceBrokerRecord)
-+  replay(BrokerRegistrationChangeRecord)
-+  replayRegistrationChange(ApiMessage;int;long;Optional<Boolean>;Optional<Boolean>)
-+  updateMetrics(BrokerRegistration;BrokerRegistration)
-+  usableBrokers()
-+  unfenced(int)
-+  registration(int)
-+  inControlledShutdown(int)
-+  active(int)
-+  heartbeatManager()
-+  checkBrokerEpoch(int;long)
-+  addReadyBrokersFuture(CompletableFuture<Void>;int)
-+  iterator(long)
+- ClusterControlManager(LogContext;String;Time;SnapshotRegistry;long;ReplicaPlacer;ControllerMetrics;FeatureControlManager) : ClusterControlManager [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#199]]]
+replicaPlacer() : ReplicaPlacer [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#222]]]
++ activate() : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#227]]]
++ deactivate() : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#235]]]
+brokerRegistrations() : Map<Integer,BrokerRegistration> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#239]]]
+brokerSupportedVersions() : Map<Integer,Map<String,VersionRange>> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#243]]]
+fencedBrokerIds() : Set<Integer> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#250]]]
++ registerBroker(BrokerRegistrationRequestData;long;FinalizedControllerFeatures) : ControllerResult<BrokerRegistrationReply> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#259]]]
++ replay(RegisterBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#321]]]
++ replay(UnregisterBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#355]]]
++ replay(FenceBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#372]]]
++ replay(UnfenceBrokerRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#382]]]
++ replay(BrokerRegistrationChangeRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#392]]]
+- replayRegistrationChange(ApiMessage;int;long;Optional<Boolean>;Optional<Boolean>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#410]]]
+- updateMetrics(BrokerRegistration;BrokerRegistration) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#445]]]
+usableBrokers() : Iterator<UsableBroker> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#474]]]
++ unfenced(int) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#483]]]
++ registration(int) : BrokerRegistration [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#490]]]
++ inControlledShutdown(int) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#495]]]
++ active(int) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#502]]]
+heartbeatManager() : BrokerHeartbeatManager [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#508]]]
++ checkBrokerEpoch(int;long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#515]]]
++ addReadyBrokersFuture(CompletableFuture<Void>;int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#527]]]
+iterator(long) : ClusterControlIterator [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#584]]]
 } 
 @enduml

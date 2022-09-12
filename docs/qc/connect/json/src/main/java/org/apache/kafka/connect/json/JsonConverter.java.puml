@@ -2,22 +2,22 @@
 !pragma layout smetana
 Converter <|-- org.apache.kafka.connect.json.JsonConverter
 class org.apache.kafka.connect.json.JsonConverter {
-+  JsonConverter()
-+  sizeOfFromConnectSchemaCache()
-+  sizeOfToConnectSchemaCache()
-+  config()
-+  configure(Map<String,?>)
-+  configure(Map<String,?>;boolean)
-+  close()
-+  fromConnectHeader(String;String;Schema;Object)
-+  toConnectHeader(String;String;byte[])
-+  fromConnectData(String;Schema;Object)
-+  toConnectData(String;byte[])
-+  asJsonSchema(Schema)
-+  asConnectSchema(JsonNode)
-+  convertToJsonWithEnvelope(Schema;Object)
-+  convertToJsonWithoutEnvelope(Schema;Object)
-+  convertToJson(Schema;Object)
-+  convertToConnect(Schema;JsonNode)
++ JsonConverter() : JsonConverter [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#213]]]
+sizeOfFromConnectSchemaCache() : long [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#230]]]
+sizeOfToConnectSchemaCache() : long [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#235]]]
++ config() : ConfigDef [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#240]]]
++ configure(Map<String,?>) : void [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#245]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#256]]]
++ close() : void [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#263]]]
++ fromConnectHeader(String;String;Schema;Object) : byte[] [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#268]]]
++ toConnectHeader(String;String;byte[]) : SchemaAndValue [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#273]]]
++ fromConnectData(String;Schema;Object) : byte[] [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#278]]]
++ toConnectData(String;byte[]) : SchemaAndValue [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#292]]]
++ asJsonSchema(Schema) : ObjectNode [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#326]]]
++ asConnectSchema(JsonNode) : Schema [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#407]]]
+- convertToJsonWithEnvelope(Schema;Object) : JsonNode [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#522]]]
+- convertToJsonWithoutEnvelope(Schema;Object) : JsonNode [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#526]]]
+- convertToJson(Schema;Object) : JsonNode [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#531]]]
+- convertToConnect(Schema;JsonNode) : Object [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#646]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.shell.MetadataShell
 class org.apache.kafka.shell.MetadataShell {
-+  MetadataShell(KafkaRaftManager<ApiMessageAndVersion>;SnapshotFileReader;MetadataNodeManager)
-+  run(List<String>)
-+  close()
-+  main(String[])
-+  waitUntilCaughtUp()
++ MetadataShell(KafkaRaftManager<ApiMessageAndVersion>;SnapshotFileReader;MetadataNodeManager) : MetadataShell [[[././qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#69]]]
++ run(List<String>) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#77]]]
++ close() : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#108]]]
++ main(String[]) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#118]]]
+waitUntilCaughtUp() : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#161]]]
 } 
 @enduml

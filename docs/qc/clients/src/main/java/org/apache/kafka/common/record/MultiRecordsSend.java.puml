@@ -2,14 +2,14 @@
 !pragma layout smetana
 Send <|-- org.apache.kafka.common.record.MultiRecordsSend
 class org.apache.kafka.common.record.MultiRecordsSend {
-+  MultiRecordsSend(Queue<Send>)
-+  MultiRecordsSend(Queue<Send>;long)
-+  size()
-+  completed()
-+  numResidentSends()
-+  writeTo(TransferableChannel)
-+  recordConversionStats()
-+  toString()
-+  updateRecordConversionStats(Send)
++ MultiRecordsSend(Queue<Send>) : MultiRecordsSend [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#29]]]
++ MultiRecordsSend(Queue<Send>;long) : MultiRecordsSend [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#40]]]
++ size() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#47]]]
++ completed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#52]]]
+numResidentSends() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#57]]]
++ writeTo(TransferableChannel) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#66]]]
++ recordConversionStats() : Map<TopicPartition,RecordConversionStats> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#94]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#99]]]
+- updateRecordConversionStats(Send) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#106]]]
 } 
 @enduml

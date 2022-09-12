@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.InternalNameProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00005"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalNameProvider.java.html#5"
  , "c1" : "String"
  , "c2" : "newProcessorName(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalNameProvider.java.html#7"
  , "c1" : "String"
  , "c2" : "newStoreName(String)"
  , "c3" : "1"

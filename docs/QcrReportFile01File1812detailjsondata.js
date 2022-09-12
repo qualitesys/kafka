@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.ChangelogRecordDeserializationHelper" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java.html#24"
  , "c1" : "void"
  , "c2" : "applyChecksAndUpdatePosition(ConsumerRecord<byte[],byte[]>;boolean;Position)"
  , "c3" : "6"

@@ -2,10 +2,10 @@
 !pragma layout smetana
 WrappingNullableSerializer_LeftOrRightValue_V1,V2_,Void,Object_ <|-- org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer
 class org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer {
-+  LeftOrRightValueSerializer(Serializer<V1>;Serializer<V2>)
-+  setIfUnset(SerdeGetter)
-+  configure(Map<String,?>;boolean)
-+  serialize(String;LeftOrRightValue<V1,V2>)
-+  close()
++ LeftOrRightValueSerializer(Serializer<V1>;Serializer<V2>) : LeftOrRightValueSerializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#18]]]
++ setIfUnset(SerdeGetter) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#25]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#39]]]
++ serialize(String;LeftOrRightValue<V1,V2>) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#45]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#66]]]
 } 
 @enduml

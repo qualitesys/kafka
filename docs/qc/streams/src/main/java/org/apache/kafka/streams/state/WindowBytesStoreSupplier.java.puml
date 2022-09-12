@@ -2,9 +2,9 @@
 !pragma layout smetana
 StoreSupplier_WindowStore_Bytes,byte[]__ <|-- org.apache.kafka.streams.state.WindowBytesStoreSupplier
 class org.apache.kafka.streams.state.WindowBytesStoreSupplier {
-+  segmentIntervalMs()
-+  windowSize()
-+  retainDuplicates()
-+  retentionPeriod()
+segmentIntervalMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#10]]]
+windowSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#13]]]
+retainDuplicates() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#16]]]
+retentionPeriod() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#19]]]
 } 
 @enduml

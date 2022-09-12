@@ -2,11 +2,11 @@
 !pragma layout smetana
 StoreQueryParameters_T_ <|-- org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters
 class org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters {
-+  NamedTopologyStoreQueryParameters(String;String;QueryableStoreType<T>;Integer;boolean)
-+  withPartition(Integer)
-+  enableStaleStores()
-+  topologyName()
-+  equals(Object)
-+  hashCode()
+- NamedTopologyStoreQueryParameters(String;String;QueryableStoreType<T>;Integer;boolean) : NamedTopologyStoreQueryParameters [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#13]]]
++ withPartition(Integer) : NamedTopologyStoreQueryParameters<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#29]]]
++ enableStaleStores() : NamedTopologyStoreQueryParameters<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#34]]]
++ topologyName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#38]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#43]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#60]]]
 } 
 @enduml

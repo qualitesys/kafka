@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.compress.SnappyFactory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#17"
  , "c1" : "SnappyFactory"
  , "c2" : "SnappyFactory()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#19"
  , "c1" : "OutputStream"
  , "c2" : "wrapForOutput(ByteBufferOutputStream)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#27"
  , "c1" : "InputStream"
  , "c2" : "wrapForInput(ByteBuffer)"
  , "c3" : "1"

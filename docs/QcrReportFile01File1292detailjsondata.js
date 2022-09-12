@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.jmh.server.PartitionCreationBench" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#88"
  , "c1" : "void"
  , "c2" : "setup()"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#157"
  , "c1" : "void"
  , "c2" : "tearDown()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#169"
  , "c1" : "LogConfig"
  , "c2" : "createLogConfig()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00187"
+ , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#187"
  , "c1" : "void"
  , "c2" : "makeFollower()"
  , "c3" : "3"

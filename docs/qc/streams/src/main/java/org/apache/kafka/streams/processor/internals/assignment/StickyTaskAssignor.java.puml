@@ -2,22 +2,22 @@
 !pragma layout smetana
 TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor
 class org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor {
-+  StickyTaskAssignor()
-+  StickyTaskAssignor(boolean)
-+  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)
-+  assignStandby(int)
-+  assignActive()
-+  allocateTaskWithClientCandidates(TaskId;Set<UUID>;boolean)
-+  assignTaskToClient(Set<TaskId>;TaskId;ClientState)
-+  findClientsWithoutAssignedTask(TaskId)
-+  findClient(TaskId;Set<UUID>)
-+  shouldBalanceLoad(ClientState)
-+  hasClientsWithMoreAvailableCapacity(ClientState)
-+  findClientsWithPreviousAssignedTask(TaskId;Set<UUID>)
-+  findLeastLoadedClientWithPreviousStandByTask(TaskId;Set<UUID>)
-+  leastLoaded(TaskId;Set<UUID>)
-+  findLeastLoaded(TaskId;Set<UUID>;boolean)
-+  mapPreviousTaskAssignment(Map<UUID,ClientState>)
-+  sumCapacity(Collection<ClientState>)
++ StickyTaskAssignor() : StickyTaskAssignor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#33]]]
+StickyTaskAssignor(boolean) : StickyTaskAssignor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#37]]]
++ assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#42]]]
+- assignStandby(int) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#59]]]
+- assignActive() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#77]]]
+- allocateTaskWithClientCandidates(TaskId;Set<UUID>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#122]]]
+- assignTaskToClient(Set<TaskId>;TaskId;ClientState) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#132]]]
+- findClientsWithoutAssignedTask(TaskId) : Set<UUID> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#138]]]
+- findClient(TaskId;Set<UUID>) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#149]]]
+- shouldBalanceLoad(ClientState) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#172]]]
+- hasClientsWithMoreAvailableCapacity(ClientState) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#176]]]
+- findClientsWithPreviousAssignedTask(TaskId;Set<UUID>) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#185]]]
+- findLeastLoadedClientWithPreviousStandByTask(TaskId;Set<UUID>) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#193]]]
+- leastLoaded(TaskId;Set<UUID>) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#203]]]
+- findLeastLoaded(TaskId;Set<UUID>;boolean) : ClientState [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#211]]]
+- mapPreviousTaskAssignment(Map<UUID,ClientState>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#234]]]
+- sumCapacity(Collection<ClientState>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#248]]]
 } 
 @enduml

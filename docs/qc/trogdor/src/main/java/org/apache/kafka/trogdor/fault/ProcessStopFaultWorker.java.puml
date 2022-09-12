@@ -2,9 +2,9 @@
 !pragma layout smetana
 TaskWorker <|-- org.apache.kafka.trogdor.fault.ProcessStopFaultWorker
 class org.apache.kafka.trogdor.fault.ProcessStopFaultWorker {
-+  ProcessStopFaultWorker(String;String)
-+  start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)
-+  stop(Platform)
-+  sendSignals(Platform;String)
++ ProcessStopFaultWorker(String;String) : ProcessStopFaultWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#26]]]
++ start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#32]]]
++ stop(Platform) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#42]]]
+- sendSignals(Platform;String) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#49]]]
 } 
 @enduml

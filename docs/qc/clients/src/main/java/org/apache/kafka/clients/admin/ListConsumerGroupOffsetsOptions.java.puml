@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractOptions_ListConsumerGroupOffsetsOptions_ <|-- org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions
 class org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions {
-+  topicPartitions(List<TopicPartition>)
-+  requireStable(boolean)
-+  topicPartitions()
-+  requireStable()
++ topicPartitions(List<TopicPartition>) : ListConsumerGroupOffsetsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#18]]]
++ requireStable(boolean) : ListConsumerGroupOffsetsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#24]]]
++ topicPartitions() : List<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#30]]]
++ requireStable() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#34]]]
 } 
 @enduml

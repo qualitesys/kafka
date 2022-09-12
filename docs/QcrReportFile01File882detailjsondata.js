@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.AppInfoParser" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#37"
  , "c1" : "String"
  , "c2" : "getVersion()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#41"
  , "c1" : "String"
  , "c2" : "getCommitId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#45"
  , "c1" : "void"
  , "c2" : "registerAppInfo(String;String;Metrics;long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#57"
  , "c1" : "void"
  , "c2" : "unregisterAppInfo(String;String;Metrics)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72"
  , "c1" : "MetricName"
  , "c2" : "metricName(Metrics;String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#76"
  , "c1" : "void"
  , "c2" : "registerMetrics(Metrics;AppInfo)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#84"
  , "c1" : "void"
  , "c2" : "unregisterMetrics(Metrics)"
  , "c3" : "2"

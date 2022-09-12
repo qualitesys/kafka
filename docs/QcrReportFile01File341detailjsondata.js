@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.GroupAuthorizationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#7"
  , "c1" : "GroupAuthorizationException"
  , "c2" : "GroupAuthorizationException(String;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#12"
  , "c1" : "GroupAuthorizationException"
  , "c2" : "GroupAuthorizationException(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#17"
  , "c1" : "String"
  , "c2" : "groupId()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#21"
  , "c1" : "GroupAuthorizationException"
  , "c2" : "forGroupId(String)"
  , "c3" : "1"

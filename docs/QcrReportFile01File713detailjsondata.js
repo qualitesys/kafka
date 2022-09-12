@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.RequestAndSize" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestAndSize.java.html#8"
  , "c1" : "RequestAndSize"
  , "c2" : "RequestAndSize(AbstractRequest;int)"
  , "c3" : "1"

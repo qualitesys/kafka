@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.Checksums
 class org.apache.kafka.common.utils.Checksums {
-+  Checksums()
-+  update(Checksum;ByteBuffer;int)
-+  update(Checksum;ByteBuffer;int;int)
-+  updateInt(Checksum;int)
-+  updateLong(Checksum;long)
+- Checksums() : Checksums [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#10]]]
++ update(Checksum;ByteBuffer;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#13]]]
++ update(Checksum;ByteBuffer;int;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#17]]]
++ updateInt(Checksum;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#27]]]
++ updateLong(Checksum;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#34]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractStatus_ConnectorTaskId_ <|-- org.apache.kafka.connect.runtime.TaskStatus
 class org.apache.kafka.connect.runtime.TaskStatus {
-+  TaskStatus(ConnectorTaskId;State;String;int;String)
-+  TaskStatus(ConnectorTaskId;State;String;int)
++ TaskStatus(ConnectorTaskId;State;String;int;String) : TaskStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#8]]]
++ TaskStatus(ConnectorTaskId;State;String;int) : TaskStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#12]]]
 } 
 @enduml

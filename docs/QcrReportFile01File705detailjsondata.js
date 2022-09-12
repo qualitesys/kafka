@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.OffsetFetchRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00191"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#191"
  , "c1" : "List<TopicPartition>"
  , "c2" : "partitions()"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#204"
  , "c1" : "String"
  , "c2" : "groupId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00208"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#208"
  , "c1" : "boolean"
  , "c2" : "requireStable()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00212"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#212"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "groupIdsToPartitions()"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00229"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#229"
  , "c1" : "Map<String,List<OffsetFetchRequestTopics>>"
  , "c2" : "groupIdsToTopics()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00236"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#236"
  , "c1" : "List<String>"
  , "c2" : "groupIds()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00243"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#243"
  , "c1" : "OffsetFetchRequest"
  , "c2" : "OffsetFetchRequest(OffsetFetchRequestData;short)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00248"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#248"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "getErrorResponse(Errors)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#252"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "getErrorResponse(int;Errors)"
  , "c3" : "7"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00287"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#287"
  , "c1" : "OffsetFetchResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00291"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#291"
  , "c1" : "OffsetFetchRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00295"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#295"
  , "c1" : "boolean"
  , "c2" : "isAllPartitions()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00299"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#299"
  , "c1" : "boolean"
  , "c2" : "isAllPartitionsForGroup(String)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00310"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#310"
  , "c1" : "OffsetFetchRequestData"
  , "c2" : "data()"
  , "c3" : "1"

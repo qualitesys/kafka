@@ -2,10 +2,10 @@
 !pragma layout smetana
 Predicate_R_ <|-- org.apache.kafka.connect.transforms.predicates.RecordIsTombstone
 class org.apache.kafka.connect.transforms.predicates.RecordIsTombstone {
-+  config()
-+  test(R)
-+  close()
-+  configure(Map<String,?>)
-+  toString()
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#16]]]
++ test(R) : boolean [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#21]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#26]]]
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#31]]]
++ toString() : String [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#36]]]
 } 
 @enduml

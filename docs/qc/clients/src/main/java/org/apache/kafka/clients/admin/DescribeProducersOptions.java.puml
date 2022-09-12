@@ -2,10 +2,10 @@
 !pragma layout smetana
 AbstractOptions_DescribeProducersOptions_ <|-- org.apache.kafka.clients.admin.DescribeProducersOptions
 class org.apache.kafka.clients.admin.DescribeProducersOptions {
-+  brokerId(int)
-+  brokerId()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ brokerId(int) : DescribeProducersOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#15]]]
++ brokerId() : OptionalInt [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#20]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#25]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#34]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeProducersOptions.java.html#39]]]
 } 
 @enduml

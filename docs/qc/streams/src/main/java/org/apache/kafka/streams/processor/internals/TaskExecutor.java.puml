@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskExecutor
 class org.apache.kafka.streams.processor.internals.TaskExecutor {
-+  TaskExecutor(Tasks;TaskExecutionMetadata;ProcessingMode;boolean;LogContext)
-+  process(int;Time)
-+  processTask(Task;int;long;Time)
-+  commitTasksAndMaybeUpdateCommittableOffsets(Collection<Task>;Map<Task,Map<TopicPartition,OffsetAndMetadata>>)
-+  commitOffsetsOrTransaction(Map<Task,Map<TopicPartition,OffsetAndMetadata>>)
-+  updateTaskCommitMetadata(Map<TopicPartition,OffsetAndMetadata>)
-+  commitSuccessfullyProcessedTasks()
-+  punctuate()
++ TaskExecutor(Tasks;TaskExecutionMetadata;ProcessingMode;boolean;LogContext) : TaskExecutor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#39]]]
+process(int;Time) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#52]]]
+- processTask(Task;int;long;Time) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#74]]]
+commitTasksAndMaybeUpdateCommittableOffsets(Collection<Task>;Map<Task,Map<TopicPartition,OffsetAndMetadata>>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#117]]]
+commitOffsetsOrTransaction(Map<Task,Map<TopicPartition,OffsetAndMetadata>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#143]]]
+- updateTaskCommitMetadata(Map<TopicPartition,OffsetAndMetadata>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#216]]]
+- commitSuccessfullyProcessedTasks() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#228]]]
+punctuate() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#239]]]
 } 
 @enduml

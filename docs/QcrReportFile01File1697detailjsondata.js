@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.PrintForeachAction" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#20"
  , "c1" : "PrintForeachAction"
  , "c2" : "PrintForeachAction(OutputStream;KeyValueMapper<?superK,?superV,String>;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#30"
  , "c1" : "void"
  , "c2" : "apply(K;V)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#38"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.ByteBufferInputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#11"
  , "c1" : "ByteBufferInputStream"
  , "c2" : "ByteBufferInputStream(ByteBuffer)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#15"
  , "c1" : "int"
  , "c2" : "read()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#22"
  , "c1" : "int"
  , "c2" : "read(byte[];int;int)"
  , "c3" : "3"

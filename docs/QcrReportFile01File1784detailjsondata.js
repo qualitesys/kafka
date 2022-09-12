@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.StreamPartitioner" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StreamPartitioner.java.html#10"
  , "c1" : "Integer"
  , "c2" : "partition(String;K;V;int)"
  , "c3" : "1"

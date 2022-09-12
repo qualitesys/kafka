@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.metrics.stats.Percentile
 class org.apache.kafka.common.metrics.stats.Percentile {
-+  Percentile(MetricName;double)
-+  name()
-+  percentile()
++ Percentile(MetricName;double) : Percentile [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentile.java.html#11]]]
++ name() : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentile.java.html#17]]]
++ percentile() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentile.java.html#21]]]
 } 
 @enduml

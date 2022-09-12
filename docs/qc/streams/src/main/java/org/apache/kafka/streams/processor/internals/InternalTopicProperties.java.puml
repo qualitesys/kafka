@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.InternalTopicProperties
 class org.apache.kafka.streams.processor.internals.InternalTopicProperties {
-+  InternalTopicProperties(Integer)
-+  getNumberOfPartitions()
-+  empty()
-+  toString()
++ InternalTopicProperties(Integer) : InternalTopicProperties [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicProperties.java.html#9]]]
++ getNumberOfPartitions() : Optional<Integer> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicProperties.java.html#13]]]
++ empty() : InternalTopicProperties [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicProperties.java.html#17]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicProperties.java.html#22]]]
 } 
 @enduml

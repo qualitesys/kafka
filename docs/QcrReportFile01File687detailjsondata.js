@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.LeaderAndIsrRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#100"
  , "c1" : "LeaderAndIsrRequest"
  , "c2" : "LeaderAndIsrRequest(LeaderAndIsrRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#107"
  , "c1" : "void"
  , "c2" : "normalize()"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#119"
  , "c1" : "LeaderAndIsrResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "6"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#152"
  , "c1" : "int"
  , "c2" : "controllerId()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#157"
  , "c1" : "int"
  , "c2" : "controllerEpoch()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00162"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#162"
  , "c1" : "long"
  , "c2" : "brokerEpoch()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#166"
  , "c1" : "Iterable<LeaderAndIsrPartitionState>"
  , "c2" : "partitionStates()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00173"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#173"
  , "c1" : "Map<String,Uuid>"
  , "c2" : "topicIds()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#178"
  , "c1" : "List<LeaderAndIsrLiveLeader>"
  , "c2" : "liveLeaders()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00183"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#183"
  , "c1" : "LeaderAndIsrRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00187"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#187"
  , "c1" : "LeaderAndIsrRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

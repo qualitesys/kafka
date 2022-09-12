@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.KafkaProducer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#109"
  , "c1" : "KafkaProducer"
  , "c2" : "KafkaProducer(Map<String,Object>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#114"
  , "c1" : "KafkaProducer"
  , "c2" : "KafkaProducer(Map<String,Object>;Serializer<K>;Serializer<V>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#120"
  , "c1" : "KafkaProducer"
  , "c2" : "KafkaProducer(Properties)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#125"
  , "c1" : "KafkaProducer"
  , "c2" : "KafkaProducer(Properties;Serializer<K>;Serializer<V>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#131"
  , "c1" : "void"
  , "c2" : "warnIfPartitionerDeprecated()"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00146"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#146"
  , "c1" : "KafkaProducer"
  , "c2" : "KafkaProducer(ProducerConfig;Serializer<K>;Serializer<V>;ProducerMetadata;KafkaClient;ProducerInterceptors<K,V>;Time)"
  , "c3" : "11"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00279"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#279"
  , "c1" : "KafkaProducer"
  , "c2" : "KafkaProducer(ProducerConfig;LogContext;Metrics;Serializer<K>;Serializer<V>;ProducerMetadata;RecordAccumulator;TransactionManager;Sender;ProducerInterceptors<K,V>;Partitioner;Time;KafkaThread)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00317"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#317"
  , "c1" : "Sender"
  , "c2" : "newSender(LogContext;KafkaClient;ProducerMetadata)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00359"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#359"
  , "c1" : "int"
  , "c2" : "lingerMs(ProducerConfig)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00363"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#363"
  , "c1" : "int"
  , "c2" : "configureDeliveryTimeout(ProducerConfig;Logger)"
  , "c3" : "4"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00386"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#386"
  , "c1" : "TransactionManager"
  , "c2" : "configureTransactionState(ProducerConfig;LogContext)"
  , "c3" : "5"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00414"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#414"
  , "c1" : "void"
  , "c2" : "initTransactions()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00425"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#425"
  , "c1" : "void"
  , "c2" : "beginTransaction()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00435"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#435"
  , "c1" : "void"
  , "c2" : "sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;String)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#441"
  , "c1" : "void"
  , "c2" : "sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00457"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#457"
  , "c1" : "void"
  , "c2" : "commitTransaction()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00468"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#468"
  , "c1" : "void"
  , "c2" : "abortTransaction()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00481"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#481"
  , "c1" : "Future<RecordMetadata>"
  , "c2" : "send(ProducerRecord<K,V>)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00487"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#487"
  , "c1" : "Future<RecordMetadata>"
  , "c2" : "send(ProducerRecord<K,V>;Callback)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00495"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#495"
  , "c1" : "void"
  , "c2" : "throwIfProducerClosed()"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00502"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#502"
  , "c1" : "void"
  , "c2" : "onNewBatch(String;Cluster;int)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00508"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#508"
  , "c1" : "Future<RecordMetadata>"
  , "c2" : "doSend(ProducerRecord<K,V>;Callback)"
  , "c3" : "8"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00624"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#624"
  , "c1" : "void"
  , "c2" : "setReadOnly(Headers)"
  , "c3" : "2"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00631"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#631"
  , "c1" : "ClusterAndWaitTime"
  , "c2" : "waitOnMetadata(String;Integer;long;long)"
  , "c3" : "8"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00689"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#689"
  , "c1" : "void"
  , "c2" : "ensureValidRecordSize(int)"
  , "c3" : "3"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00703"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#703"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00720"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#720"
  , "c1" : "List<PartitionInfo>"
  , "c2" : "partitionsFor(String)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00731"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#731"
  , "c1" : "Map<MetricName,?extendsMetric>"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00737"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#737"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00743"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#743"
  , "c1" : "void"
  , "c2" : "close(Duration)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00747"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#747"
  , "c1" : "void"
  , "c2" : "close(Duration;boolean)"
  , "c3" : "11"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00807"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#807"
  , "c1" : "ClusterResourceListeners"
  , "c2" : "configureClusterResourceListeners(Serializer<K>;Serializer<V>;List<?>...)"
  , "c3" : "2"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00818"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#818"
  , "c1" : "int"
  , "c2" : "partition(ProducerRecord<K,V>;byte[];byte[];Cluster)"
  , "c3" : "6"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00840"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#840"
  , "c1" : "void"
  , "c2" : "throwIfInvalidGroupMetadata(ConsumerGroupMetadata)"
  , "c3" : "4"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00849"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#849"
  , "c1" : "void"
  , "c2" : "throwIfNoTransactionManager()"
  , "c3" : "2"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00856"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#856"
  , "c1" : "String"
  , "c2" : "getClientId()"
  , "c3" : "1"

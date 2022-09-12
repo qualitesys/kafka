@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.metrics.FilteringJmxReporter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#16"
  , "c1" : "FilteringJmxReporter"
  , "c2" : "FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22"
  , "c1" : "void"
  , "c2" : "onMetricAdded(MetricName;Metric)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#28"
  , "c1" : "void"
  , "c2" : "updatePredicate(Predicate<MetricName>)"
  , "c3" : "3"

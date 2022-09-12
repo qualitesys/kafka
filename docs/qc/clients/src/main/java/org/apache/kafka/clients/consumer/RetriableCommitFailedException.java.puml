@@ -2,8 +2,8 @@
 !pragma layout smetana
 RetriableException <|-- org.apache.kafka.clients.consumer.RetriableCommitFailedException
 class org.apache.kafka.clients.consumer.RetriableCommitFailedException {
-+  RetriableCommitFailedException(Throwable)
-+  RetriableCommitFailedException(String)
-+  RetriableCommitFailedException(String;Throwable)
++ RetriableCommitFailedException(Throwable) : RetriableCommitFailedException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#10]]]
++ RetriableCommitFailedException(String) : RetriableCommitFailedException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#15]]]
++ RetriableCommitFailedException(String;Throwable) : RetriableCommitFailedException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#19]]]
 } 
 @enduml

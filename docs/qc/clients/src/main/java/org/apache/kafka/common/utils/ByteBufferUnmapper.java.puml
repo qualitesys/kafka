@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.ByteBufferUnmapper
 class org.apache.kafka.common.utils.ByteBufferUnmapper {
-+  ByteBufferUnmapper()
-+  unmap(String;ByteBuffer)
-+  lookupUnmapMethodHandle()
-+  unmapJava7Or8(MethodHandles.Lookup)
-+  unmapJava9(MethodHandles.Lookup)
-+  nonNull(Object)
+- ByteBufferUnmapper() : ByteBufferUnmapper [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#45]]]
++ unmap(String;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#48]]]
+- lookupUnmapMethodHandle() : MethodHandle [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#61]]]
+- unmapJava7Or8(MethodHandles.Lookup) : MethodHandle [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#74]]]
+- unmapJava9(MethodHandles.Lookup) : MethodHandle [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#90]]]
+- nonNull(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.RecordsUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#14"
  , "c1" : "ConvertedRecords<MemoryRecords>"
  , "c2" : "downConvert(Iterable<?extendsRecordBatch>;byte;long;Time)"
  , "c3" : "15"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#77"
  , "c1" : "MemoryRecordsBuilder"
  , "c2" : "convertRecordBatch(byte;ByteBuffer;RecordBatchAndRecords)"
  , "c3" : "4"

@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeLogDirsResult
 class org.apache.kafka.clients.admin.DescribeLogDirsResult {
-+  DescribeLogDirsResult(Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>)
-+  values()
-+  convertMapValues(Map<String,LogDirDescription>)
-+  descriptions()
-+  all()
-+  allDescriptions()
+DescribeLogDirsResult(Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>) : DescribeLogDirsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#23]]]
++ values() : Map<Integer,KafkaFuture<Map<String,DescribeLogDirsResponse.LogDirInfo>>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#30]]]
+- convertMapValues(Map<String,LogDirDescription>) : Map<String,DescribeLogDirsResponse.LogDirInfo> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#38]]]
++ descriptions() : Map<Integer,KafkaFuture<Map<String,LogDirDescription>>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#56]]]
++ all() : KafkaFuture<Map<Integer,Map<String,DescribeLogDirsResponse.LogDirInfo>>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#63]]]
++ allDescriptions() : KafkaFuture<Map<Integer,Map<String,LogDirDescription>>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#71]]]
 } 
 @enduml

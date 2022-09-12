@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.shell.Commands
 class org.apache.kafka.shell.Commands {
-+  Commands(boolean)
-+  parser()
-+  parseCommand(List<String>)
++ Commands(boolean) : Commands [[[././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#67]]]
+parser() : ArgumentParser [[[././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#79]]]
++ parseCommand(List<String>) : Handler [[[././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#84]]]
 } 
 @enduml

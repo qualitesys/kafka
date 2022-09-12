@@ -2,44 +2,44 @@
 !pragma layout smetana
 AbstractRecordBatchRecord <|-- org.apache.kafka.common.record.AbstractLegacyRecordBatch
 class org.apache.kafka.common.record.AbstractLegacyRecordBatch {
-+  outerRecord()
-+  lastOffset()
-+  isValid()
-+  ensureValid()
-+  keySize()
-+  hasKey()
-+  key()
-+  valueSize()
-+  hasValue()
-+  value()
-+  headers()
-+  hasMagic(byte)
-+  hasTimestampType(TimestampType)
-+  checksum()
-+  maxTimestamp()
-+  timestamp()
-+  timestampType()
-+  baseOffset()
-+  magic()
-+  compressionType()
-+  sizeInBytes()
-+  countOrNull()
-+  toString()
-+  writeTo(ByteBuffer)
-+  producerId()
-+  producerEpoch()
-+  hasProducerId()
-+  sequence()
-+  baseSequence()
-+  lastSequence()
-+  isTransactional()
-+  partitionLeaderEpoch()
-+  isControlBatch()
-+  deleteHorizonMs()
-+  iterator()
-+  iterator(BufferSupplier)
-+  streamingIterator(BufferSupplier)
-+  writeHeader(ByteBuffer;long;int)
-+  writeHeader(DataOutputStream;long;int)
++ outerRecord() : LegacyRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#31]]]
++ lastOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#34]]]
++ isValid() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#39]]]
++ ensureValid() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#44]]]
++ keySize() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#49]]]
++ hasKey() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#54]]]
++ key() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#59]]]
++ valueSize() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#64]]]
++ hasValue() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#69]]]
++ value() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#74]]]
++ headers() : Header[] [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#79]]]
++ hasMagic(byte) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#84]]]
++ hasTimestampType(TimestampType) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#89]]]
++ checksum() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#94]]]
++ maxTimestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#99]]]
++ timestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#104]]]
++ timestampType() : TimestampType [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#109]]]
++ baseOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#114]]]
++ magic() : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#119]]]
++ compressionType() : CompressionType [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#124]]]
++ sizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#129]]]
++ countOrNull() : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#134]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#139]]]
++ writeTo(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#144]]]
++ producerId() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#150]]]
++ producerEpoch() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#155]]]
++ hasProducerId() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#160]]]
++ sequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#165]]]
++ baseSequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#170]]]
++ lastSequence() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#175]]]
++ isTransactional() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#180]]]
++ partitionLeaderEpoch() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#185]]]
++ isControlBatch() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#190]]]
++ deleteHorizonMs() : OptionalLong [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#195]]]
++ iterator() : Iterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#201]]]
+iterator(BufferSupplier) : CloseableIterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#205]]]
++ streamingIterator(BufferSupplier) : CloseableIterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#236]]]
+writeHeader(ByteBuffer;long;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#241]]]
+writeHeader(DataOutputStream;long;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#246]]]
 } 
 @enduml

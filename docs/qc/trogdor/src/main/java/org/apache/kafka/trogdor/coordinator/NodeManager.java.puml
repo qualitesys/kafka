@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.coordinator.NodeManager
 class org.apache.kafka.trogdor.coordinator.NodeManager {
-+  NodeManager(Node;TaskManager)
-+  rescheduleNextHeartbeat(long)
-+  createWorker(long;String;TaskSpec)
-+  stopWorker(long)
-+  destroyWorker(long)
-+  beginShutdown(boolean)
-+  waitForShutdown()
+NodeManager(Node;TaskManager) : NodeManager [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#98]]]
+rescheduleNextHeartbeat(long) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#114]]]
++ createWorker(long;String;TaskSpec) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#197]]]
++ stopWorker(long) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#230]]]
++ destroyWorker(long) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#262]]]
++ beginShutdown(boolean) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#286]]]
++ waitForShutdown() : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#297]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 StampedRecord <|-- org.apache.kafka.streams.processor.internals.CorruptedRecord
 class org.apache.kafka.streams.processor.internals.CorruptedRecord {
-+  CorruptedRecord(ConsumerRecord<byte[],byte[]>)
-+  toString()
-+  equals(Object)
-+  hashCode()
+CorruptedRecord(ConsumerRecord<byte[],byte[]>) : CorruptedRecord [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#10]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#15]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#22]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#37]]]
 } 
 @enduml

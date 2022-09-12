@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.BatchAccumulator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#53"
  , "c1" : "BatchAccumulator"
  , "c2" : "BatchAccumulator(int;long;int;int;MemoryPool;Time;CompressionType;RecordSerde<T>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#78"
  , "c1" : "long"
  , "c2" : "append(int;List<T>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#83"
  , "c1" : "long"
  , "c2" : "appendAtomic(int;List<T>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#87"
  , "c1" : "long"
  , "c2" : "append(int;List<T>;boolean)"
  , "c3" : "8"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#128"
  , "c1" : "void"
  , "c2" : "maybeResetLinger()"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#134"
  , "c1" : "BatchBuilder<T>"
  , "c2" : "maybeAllocateBatch(Collection<T>;ObjectSerializationCache)"
  , "c3" : "6"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00161"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#161"
  , "c1" : "void"
  , "c2" : "completeCurrentBatch()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#174"
  , "c1" : "void"
  , "c2" : "appendControlMessage(Function<ByteBuffer,MemoryRecords>)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00205"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#205"
  , "c1" : "void"
  , "c2" : "appendLeaderChangeMessage(LeaderChangeMessage;long)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00222"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#222"
  , "c1" : "void"
  , "c2" : "appendSnapshotHeaderMessage(SnapshotHeaderRecord;long)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00238"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#238"
  , "c1" : "void"
  , "c2" : "appendSnapshotFooterMessage(SnapshotFooterRecord;long)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00253"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#253"
  , "c1" : "void"
  , "c2" : "forceDrain()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00263"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#263"
  , "c1" : "void"
  , "c2" : "maybeCompleteDrain()"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00275"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#275"
  , "c1" : "void"
  , "c2" : "startNewBatch()"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00292"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#292"
  , "c1" : "boolean"
  , "c2" : "needsDrain(long)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00297"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#297"
  , "c1" : "long"
  , "c2" : "timeUntilDrain(long)"
  , "c3" : "3"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00306"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#306"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00311"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#311"
  , "c1" : "List<CompletedBatch<T>>"
  , "c2" : "drain()"
  , "c3" : "5"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00335"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#335"
  , "c1" : "List<CompletedBatch<T>>"
  , "c2" : "drainCompleted()"
  , "c3" : "4"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00347"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#347"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00355"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#355"
  , "c1" : "int"
  , "c2" : "numCompletedBatches()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00360"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#360"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

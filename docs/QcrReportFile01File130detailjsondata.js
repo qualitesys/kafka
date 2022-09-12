@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#19"
  , "c1" : "RemoveMembersFromConsumerGroupResult"
  , "c2" : "RemoveMembersFromConsumerGroupResult(KafkaFuture<Map<MemberIdentity,Errors>>;Set<MemberToRemove>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#26"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "9"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#56"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "memberResult(MemberToRemove)"
  , "c3" : "6"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#75"
  , "c1" : "boolean"
  , "c2" : "maybeCompleteExceptionally(Map<MemberIdentity,Errors>;MemberIdentity;KafkaFutureImpl<Void>)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#88"
  , "c1" : "boolean"
  , "c2" : "removeAll()"
  , "c3" : "1"

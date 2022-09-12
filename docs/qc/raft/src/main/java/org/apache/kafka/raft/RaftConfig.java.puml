@@ -2,19 +2,19 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.RaftConfig
 class org.apache.kafka.raft.RaftConfig {
-+  RaftConfig(AbstractConfig)
-+  RaftConfig(Map<Integer,AddressSpec>;int;int;int;int;int;int)
-+  requestTimeoutMs()
-+  retryBackoffMs()
-+  electionTimeoutMs()
-+  electionBackoffMaxMs()
-+  fetchTimeoutMs()
-+  appendLingerMs()
-+  quorumVoterIds()
-+  quorumVoterConnections()
-+  parseVoterId(String)
-+  parseVoterConnections(List<String>)
-+  quorumVoterStringsToNodes(List<String>)
-+  voterConnectionsToNodes(Map<Integer,RaftConfig.AddressSpec>)
++ RaftConfig(AbstractConfig) : RaftConfig [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#112]]]
++ RaftConfig(Map<Integer,AddressSpec>;int;int;int;int;int;int) : RaftConfig [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#122]]]
++ requestTimeoutMs() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#140]]]
++ retryBackoffMs() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#144]]]
++ electionTimeoutMs() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#148]]]
++ electionBackoffMaxMs() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#152]]]
++ fetchTimeoutMs() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#156]]]
++ appendLingerMs() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#160]]]
++ quorumVoterIds() : Set<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#164]]]
++ quorumVoterConnections() : Map<Integer,AddressSpec> [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#168]]]
+- parseVoterId(String) : Integer [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#172]]]
++ parseVoterConnections(List<String>) : Map<Integer,AddressSpec> [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#180]]]
++ quorumVoterStringsToNodes(List<String>) : List<Node> [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#215]]]
++ voterConnectionsToNodes(Map<Integer,RaftConfig.AddressSpec>) : List<Node> [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#219]]]
 } 
 @enduml

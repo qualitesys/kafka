@@ -2,7 +2,7 @@
 !pragma layout smetana
 TaskController <|-- org.apache.kafka.trogdor.task.NoOpTaskController
 class org.apache.kafka.trogdor.task.NoOpTaskController {
-+  NoOpTaskController()
-+  targetNodes(Topology)
++ NoOpTaskController() : NoOpTaskController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#14]]]
++ targetNodes(Topology) : Set<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#18]]]
 } 
 @enduml

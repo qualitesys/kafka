@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.kerberos.BadFormatString" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/BadFormatString.java.html#7"
  , "c1" : "BadFormatString"
  , "c2" : "BadFormatString(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/BadFormatString.java.html#10"
  , "c1" : "BadFormatString"
  , "c2" : "BadFormatString(String;Throwable)"
  , "c3" : "1"

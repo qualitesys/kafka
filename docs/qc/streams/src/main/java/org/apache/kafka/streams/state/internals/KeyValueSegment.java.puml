@@ -2,13 +2,13 @@
 !pragma layout smetana
 RocksDBStoreComparable_KeyValueSegment_ <|-- org.apache.kafka.streams.state.internals.KeyValueSegment
 class org.apache.kafka.streams.state.internals.KeyValueSegment {
-+  KeyValueSegment(String;String;long;RocksDBMetricsRecorder)
-+  destroy()
-+  deleteRange(Bytes;Bytes)
-+  compareTo(KeyValueSegment)
-+  openDB(Map<String,Object>;File)
-+  toString()
-+  equals(Object)
-+  hashCode()
+KeyValueSegment(String;String;long;RocksDBMetricsRecorder) : KeyValueSegment [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#16]]]
++ destroy() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#25]]]
++ deleteRange(Bytes;Bytes) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#30]]]
++ compareTo(KeyValueSegment) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#35]]]
++ openDB(Map<String,Object>;File) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#40]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#46]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#51]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#60]]]
 } 
 @enduml

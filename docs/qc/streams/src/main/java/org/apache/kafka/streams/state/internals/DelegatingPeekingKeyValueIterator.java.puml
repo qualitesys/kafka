@@ -2,11 +2,11 @@
 !pragma layout smetana
 KeyValueIterator_K,V_ <|-- org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator
 class org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator {
-+  DelegatingPeekingKeyValueIterator(String;KeyValueIterator<K,V>)
-+  peekNextKey()
-+  close()
-+  hasNext()
-+  next()
-+  peekNext()
++ DelegatingPeekingKeyValueIterator(String;KeyValueIterator<K,V>) : DelegatingPeekingKeyValueIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#18]]]
++ peekNextKey() : K [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#24]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#32]]]
++ hasNext() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#38]]]
++ next() : KeyValue<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#55]]]
++ peekNext() : KeyValue<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#65]]]
 } 
 @enduml

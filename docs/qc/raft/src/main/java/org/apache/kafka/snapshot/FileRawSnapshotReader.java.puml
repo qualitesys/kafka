@@ -2,12 +2,12 @@
 !pragma layout smetana
 RawSnapshotReader <|-- org.apache.kafka.snapshot.FileRawSnapshotReader
 class org.apache.kafka.snapshot.FileRawSnapshotReader {
-+  FileRawSnapshotReader(FileRecords;OffsetAndEpoch)
-+  snapshotId()
-+  sizeInBytes()
-+  slice(long;int)
-+  records()
-+  close()
-+  open(Path;OffsetAndEpoch)
+- FileRawSnapshotReader(FileRecords;OffsetAndEpoch) : FileRawSnapshotReader [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#17]]]
++ snapshotId() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#23]]]
++ sizeInBytes() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#28]]]
++ slice(long;int) : UnalignedRecords [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#33]]]
++ records() : Records [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#38]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#43]]]
++ open(Path;OffsetAndEpoch) : FileRawSnapshotReader [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55]]]
 } 
 @enduml

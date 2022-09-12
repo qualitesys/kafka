@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.StructRegistry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#38"
  , "c1" : "StructRegistry"
  , "c2" : "StructRegistry()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#44"
  , "c1" : "void"
  , "c2" : "register(MessageSpec)"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#62"
  , "c1" : "void"
  , "c2" : "addStructSpecs(Versions;List<FieldSpec>)"
  , "c3" : "11"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#99"
  , "c1" : "StructSpec"
  , "c2" : "findStruct(FieldSpec)"
  , "c3" : "6"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#121"
  , "c1" : "boolean"
  , "c2" : "isStructArrayWithKeys(FieldSpec)"
  , "c3" : "4"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#137"
  , "c1" : "Set<String>"
  , "c2" : "commonStructNames()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#142"
  , "c1" : "Iterator<StructSpec>"
  , "c2" : "commonStructs()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00158"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#158"
  , "c1" : "Iterator<StructInfo>"
  , "c2" : "structs()"
  , "c3" : "1"

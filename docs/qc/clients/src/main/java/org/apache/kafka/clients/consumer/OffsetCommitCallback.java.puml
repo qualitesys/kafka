@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.consumer.OffsetCommitCallback
 class org.apache.kafka.clients.consumer.OffsetCommitCallback {
-+  onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception)
+onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetCommitCallback.java.html#14]]]
 } 
 @enduml

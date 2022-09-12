@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.TaskStatus" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#8"
  , "c1" : "TaskStatus"
  , "c2" : "TaskStatus(ConnectorTaskId;State;String;int;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#12"
  , "c1" : "TaskStatus"
  , "c2" : "TaskStatus(ConnectorTaskId;State;String;int)"
  , "c3" : "1"

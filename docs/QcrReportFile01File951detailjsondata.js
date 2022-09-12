@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Values" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#77"
  , "c1" : "Boolean"
  , "c2" : "convertToBoolean(Schema;Object)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#82"
  , "c1" : "Byte"
  , "c2" : "convertToByte(Schema;Object)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#87"
  , "c1" : "Short"
  , "c2" : "convertToShort(Schema;Object)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#92"
  , "c1" : "Integer"
  , "c2" : "convertToInteger(Schema;Object)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#97"
  , "c1" : "Long"
  , "c2" : "convertToLong(Schema;Object)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#102"
  , "c1" : "Float"
  , "c2" : "convertToFloat(Schema;Object)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#107"
  , "c1" : "Double"
  , "c2" : "convertToDouble(Schema;Object)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#112"
  , "c1" : "String"
  , "c2" : "convertToString(Schema;Object)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#117"
  , "c1" : "List<?>"
  , "c2" : "convertToList(Schema;Object)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#122"
  , "c1" : "Map<?,?>"
  , "c2" : "convertToMap(Schema;Object)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#127"
  , "c1" : "Struct"
  , "c2" : "convertToStruct(Schema;Object)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#132"
  , "c1" : "java.util.Date"
  , "c2" : "convertToTime(Schema;Object)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#137"
  , "c1" : "java.util.Date"
  , "c2" : "convertToDate(Schema;Object)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#142"
  , "c1" : "java.util.Date"
  , "c2" : "convertToTimestamp(Schema;Object)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#147"
  , "c1" : "BigDecimal"
  , "c2" : "convertToDecimal(Schema;Object;int)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#152"
  , "c1" : "Schema"
  , "c2" : "inferSchema(Object)"
  , "c3" : "19"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00215"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#215"
  , "c1" : "SchemaAndValue"
  , "c2" : "parseString(String)"
  , "c3" : "3"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00227"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#227"
  , "c1" : "Object"
  , "c2" : "convertTo(Schema;Schema;Object)"
  , "c3" : "60"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00420"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#420"
  , "c1" : "long"
  , "c2" : "asLong(Object;Schema;Throwable)"
  , "c3" : "8"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00452"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#452"
  , "c1" : "double"
  , "c2" : "asDouble(Object;Schema;Throwable)"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00468"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#468"
  , "c1" : "void"
  , "c2" : "append(StringBuilder;Object;boolean)"
  , "c3" : "30"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00532"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#532"
  , "c1" : "void"
  , "c2" : "appendIterable(StringBuilder;Iterator<?>)"
  , "c3" : "3"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00542"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#542"
  , "c1" : "String"
  , "c2" : "escape(String)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00547"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#547"
  , "c1" : "DateFormat"
  , "c2" : "dateFormatFor(java.util.Date)"
  , "c3" : "3"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00557"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#557"
  , "c1" : "boolean"
  , "c2" : "canParseSingleTokenLiteral(Parser;boolean;String)"
  , "c3" : "3"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00576"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#576"
  , "c1" : "SchemaAndValue"
  , "c2" : "parse(Parser;boolean)"
  , "c3" : "40"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00778"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#778"
  , "c1" : "SchemaAndValue"
  , "c2" : "parseAsTemporal(String)"
  , "c3" : "7"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00807"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#807"
  , "c1" : "Schema"
  , "c2" : "commonSchemaFor(Schema;SchemaAndValue)"
  , "c3" : "22"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00876"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#876"
  , "c1" : "List<Object>"
  , "c2" : "alignListEntriesWithSchema(Schema;List<Object>)"
  , "c3" : "2"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00886"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#886"
  , "c1" : "Map<Object,Object>"
  , "c2" : "alignMapKeysAndValuesWithSchema(Schema;Map<Object,Object>)"
  , "c3" : "2"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00898"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#898"
  , "c1" : "Map<Object,Object>"
  , "c2" : "alignMapKeysWithSchema(Schema;Map<Object,Object>)"
  , "c3" : "2"

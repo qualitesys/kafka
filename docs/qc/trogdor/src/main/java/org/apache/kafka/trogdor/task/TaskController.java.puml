@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.task.TaskController
 class org.apache.kafka.trogdor.task.TaskController {
-+  targetNodes(Topology)
+targetNodes(Topology) : Set<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskController.java.html#12]]]
 } 
 @enduml

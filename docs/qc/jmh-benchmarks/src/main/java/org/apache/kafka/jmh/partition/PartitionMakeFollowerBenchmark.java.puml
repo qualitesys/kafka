@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark
 class org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark {
-+  setup()
-+  tearDown()
-+  testMakeFollower()
-+  createLogConfig()
++ setup() : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#77]]]
++ tearDown() : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#131]]]
++ testMakeFollower() : boolean [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#139]]]
+- createLogConfig() : LogConfig [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.html#151]]]
 } 
 @enduml

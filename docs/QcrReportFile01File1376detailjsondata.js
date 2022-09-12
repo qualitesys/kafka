@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.util.SnapshotFileReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#45"
  , "c1" : "SnapshotFileReader"
  , "c2" : "SnapshotFileReader(String;RaftClient.Listener<ApiMessageAndVersion>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#53"
  , "c1" : "void"
  , "c2" : "startup()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#73"
  , "c1" : "void"
  , "c2" : "handleNextBatch()"
  , "c3" : "4"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#87"
  , "c1" : "void"
  , "c2" : "scheduleHandleNextBatch()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#102"
  , "c1" : "void"
  , "c2" : "handleControlBatch(FileChannelRecordBatch)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#127"
  , "c1" : "void"
  , "c2" : "handleMetadataBatch(FileChannelRecordBatch)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#154"
  , "c1" : "void"
  , "c2" : "beginShutdown(String)"
  , "c3" : "4"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00179"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#179"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00184"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#184"
  , "c1" : "CompletableFuture<Void>"
  , "c2" : "caughtUpFuture()"
  , "c3" : "1"

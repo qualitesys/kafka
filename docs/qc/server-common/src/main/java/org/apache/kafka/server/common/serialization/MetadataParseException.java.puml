@@ -2,8 +2,8 @@
 !pragma layout smetana
 RuntimeException <|-- org.apache.kafka.server.common.serialization.MetadataParseException
 class org.apache.kafka.server.common.serialization.MetadataParseException {
-+  MetadataParseException(String)
-+  MetadataParseException(Throwable)
-+  MetadataParseException(String;Throwable)
++ MetadataParseException(String) : MetadataParseException [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.html#8]]]
++ MetadataParseException(Throwable) : MetadataParseException [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.html#12]]]
++ MetadataParseException(String;Throwable) : MetadataParseException [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.html#16]]]
 } 
 @enduml

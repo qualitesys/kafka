@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.DoubleConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/DoubleConverter.java.html#13"
  , "c1" : "DoubleConverter"
  , "c2" : "DoubleConverter()"
  , "c3" : "1"

@@ -2,10 +2,10 @@
 !pragma layout smetana
 InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig
 class org.apache.kafka.streams.processor.internals.UnwindowedChangelogTopicConfig {
-+  UnwindowedChangelogTopicConfig(String;Map<String,String>)
-+  getProperties(Map<String,String>;long)
-+  equals(Object)
-+  hashCode()
-+  toString()
+UnwindowedChangelogTopicConfig(String;Map<String,String>) : UnwindowedChangelogTopicConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#20]]]
++ getProperties(Map<String,String>;long) : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#26]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#38]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#52]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/UnwindowedChangelogTopicConfig.java.html#57]]]
 } 
 @enduml

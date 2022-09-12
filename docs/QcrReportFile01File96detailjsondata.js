@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ElectLeadersResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#21"
  , "c1" : "ElectLeadersResult"
  , "c2" : "ElectLeadersResult(KafkaFuture<Map<TopicPartition,Optional<Throwable>>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#26"
  , "c1" : "KafkaFuture<Map<TopicPartition,Optional<Throwable>>>"
  , "c2" : "partitions()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#31"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "all()"
  , "c3" : "5"

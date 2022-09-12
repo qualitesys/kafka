@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.acl.AccessControlEntry
 class org.apache.kafka.common.acl.AccessControlEntry {
-+  AccessControlEntry(String;String;AclOperation;AclPermissionType)
-+  principal()
-+  host()
-+  operation()
-+  permissionType()
-+  toFilter()
-+  toString()
-+  isUnknown()
-+  equals(Object)
-+  hashCode()
++ AccessControlEntry(String;String;AclOperation;AclPermissionType) : AccessControlEntry [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#15]]]
++ principal() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#28]]]
++ host() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#33]]]
++ operation() : AclOperation [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#38]]]
++ permissionType() : AclPermissionType [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#43]]]
++ toFilter() : AccessControlEntryFilter [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#48]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#53]]]
++ isUnknown() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#58]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#63]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.html#71]]]
 } 
 @enduml

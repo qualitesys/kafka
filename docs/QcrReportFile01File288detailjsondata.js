@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#41"
  , "c1" : "KafkaLZ4BlockOutputStream"
  , "c2" : "KafkaLZ4BlockOutputStream(OutputStream;int;boolean;boolean)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#57"
  , "c1" : "KafkaLZ4BlockOutputStream"
  , "c2" : "KafkaLZ4BlockOutputStream(OutputStream;int;boolean)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#62"
  , "c1" : "KafkaLZ4BlockOutputStream"
  , "c2" : "KafkaLZ4BlockOutputStream(OutputStream;int)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#67"
  , "c1" : "KafkaLZ4BlockOutputStream"
  , "c2" : "KafkaLZ4BlockOutputStream(OutputStream)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#71"
  , "c1" : "KafkaLZ4BlockOutputStream"
  , "c2" : "KafkaLZ4BlockOutputStream(OutputStream;boolean)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#76"
  , "c1" : "boolean"
  , "c2" : "useBrokenFlagDescriptorChecksum()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#81"
  , "c1" : "void"
  , "c2" : "writeHeader()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#104"
  , "c1" : "void"
  , "c2" : "writeBlock()"
  , "c3" : "4"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#133"
  , "c1" : "void"
  , "c2" : "writeEndMark()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#139"
  , "c1" : "void"
  , "c2" : "write(int)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#148"
  , "c1" : "void"
  , "c2" : "write(byte[];int;int)"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#170"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00180"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#180"
  , "c1" : "void"
  , "c2" : "ensureNotFinished()"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00187"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#187"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.Selector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#90"
  , "c1" : "Selector"
  , "c2" : "Selector(int;long;int;Metrics;Time;String;Map<String,String>;boolean;boolean;ChannelBuilder;MemoryPool;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#131"
  , "c1" : "Selector"
  , "c2" : "Selector(int;long;Metrics;Time;String;Map<String,String>;boolean;boolean;ChannelBuilder;MemoryPool;LogContext)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00146"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#146"
  , "c1" : "Selector"
  , "c2" : "Selector(int;long;int;Metrics;Time;String;Map<String,String>;boolean;ChannelBuilder;LogContext)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00159"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#159"
  , "c1" : "Selector"
  , "c2" : "Selector(int;long;Metrics;Time;String;Map<String,String>;boolean;ChannelBuilder;LogContext)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00171"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#171"
  , "c1" : "Selector"
  , "c2" : "Selector(long;Metrics;Time;String;ChannelBuilder;LogContext)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#175"
  , "c1" : "Selector"
  , "c2" : "Selector(long;int;Metrics;Time;String;ChannelBuilder;LogContext)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#181"
  , "c1" : "void"
  , "c2" : "connect(String;InetSocketAddress;int;int)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00207"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#207"
  , "c1" : "boolean"
  , "c2" : "doConnect(SocketChannel;InetSocketAddress)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00215"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#215"
  , "c1" : "void"
  , "c2" : "configureSocketChannel(SocketChannel;int;int)"
  , "c3" : "3"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#228"
  , "c1" : "void"
  , "c2" : "register(String;SocketChannel)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#239"
  , "c1" : "void"
  , "c2" : "ensureNotRegistered(String)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#246"
  , "c1" : "SelectionKey"
  , "c2" : "registerChannel(String;SocketChannel;int)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00255"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#255"
  , "c1" : "KafkaChannel"
  , "c2" : "buildAndAttachKafkaChannel(SocketChannel;String;SelectionKey)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00273"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#273"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00279"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#279"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00298"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#298"
  , "c1" : "void"
  , "c2" : "send(NetworkSend)"
  , "c3" : "4"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00324"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#324"
  , "c1" : "void"
  , "c2" : "poll(long)"
  , "c3" : "9"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00388"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#388"
  , "c1" : "void"
  , "c2" : "pollSelectionKeys(Set<SelectionKey>;boolean;long)"
  , "c3" : "26"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00511"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#511"
  , "c1" : "void"
  , "c2" : "attemptWrite(SelectionKey;KafkaChannel;long)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00521"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#521"
  , "c1" : "void"
  , "c2" : "write(KafkaChannel)"
  , "c3" : "4"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00538"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#538"
  , "c1" : "Collection<SelectionKey>"
  , "c2" : "determineHandlingOrder(Set<SelectionKey>)"
  , "c3" : "3"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00550"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#550"
  , "c1" : "void"
  , "c2" : "attemptRead(KafkaChannel)"
  , "c3" : "5"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00571"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#571"
  , "c1" : "boolean"
  , "c2" : "maybeReadFromClosingChannel(KafkaChannel)"
  , "c3" : "5"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00590"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#590"
  , "c1" : "void"
  , "c2" : "maybeRecordTimePerConnection(KafkaChannel;long)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00596"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#596"
  , "c1" : "List<NetworkSend>"
  , "c2" : "completedSends()"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00601"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#601"
  , "c1" : "Collection<NetworkReceive>"
  , "c2" : "completedReceives()"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00606"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#606"
  , "c1" : "Map<String,ChannelState>"
  , "c2" : "disconnected()"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00611"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#611"
  , "c1" : "List<String>"
  , "c2" : "connected()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00616"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#616"
  , "c1" : "void"
  , "c2" : "mute(String)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00621"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#621"
  , "c1" : "void"
  , "c2" : "mute(KafkaChannel)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00628"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#628"
  , "c1" : "void"
  , "c2" : "unmute(String)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00633"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#633"
  , "c1" : "void"
  , "c2" : "unmute(KafkaChannel)"
  , "c3" : "3"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00644"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#644"
  , "c1" : "void"
  , "c2" : "muteAll()"
  , "c3" : "2"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00650"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#650"
  , "c1" : "void"
  , "c2" : "unmuteAll()"
  , "c3" : "2"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00656"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#656"
  , "c1" : "void"
  , "c2" : "completeDelayedChannelClose(long)"
  , "c3" : "4"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00667"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#667"
  , "c1" : "void"
  , "c2" : "maybeCloseOldestConnection(long)"
  , "c3" : "5"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00686"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#686"
  , "c1" : "void"
  , "c2" : "clearCompletedReceives()"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00691"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#691"
  , "c1" : "void"
  , "c2" : "clearCompletedSends()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00696"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#696"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "5"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00722"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#722"
  , "c1" : "int"
  , "c2" : "select(long)"
  , "c3" : "4"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00733"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#733"
  , "c1" : "void"
  , "c2" : "close(String)"
  , "c3" : "4"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00748"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#748"
  , "c1" : "void"
  , "c2" : "maybeDelayCloseOnAuthenticationFailure(KafkaChannel)"
  , "c3" : "3"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00756"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#756"
  , "c1" : "void"
  , "c2" : "handleCloseOnAuthenticationFailure(KafkaChannel)"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00767"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#767"
  , "c1" : "void"
  , "c2" : "close(KafkaChannel;CloseMode)"
  , "c3" : "5"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00795"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#795"
  , "c1" : "void"
  , "c2" : "doClose(KafkaChannel;boolean)"
  , "c3" : "2"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00816"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#816"
  , "c1" : "boolean"
  , "c2" : "isChannelReady(String)"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00821"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#821"
  , "c1" : "KafkaChannel"
  , "c2" : "openOrClosingChannelOrFail(String)"
  , "c3" : "3"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00831"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#831"
  , "c1" : "List<KafkaChannel>"
  , "c2" : "channels()"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00836"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#836"
  , "c1" : "KafkaChannel"
  , "c2" : "channel(String)"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00841"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#841"
  , "c1" : "KafkaChannel"
  , "c2" : "closingChannel(String)"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00846"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#846"
  , "c1" : "KafkaChannel"
  , "c2" : "lowestPriorityChannel()"
  , "c3" : "6"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00860"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#860"
  , "c1" : "KafkaChannel"
  , "c2" : "channel(SelectionKey)"
  , "c3" : "1"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00865"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#865"
  , "c1" : "boolean"
  , "c2" : "hasCompletedReceive(KafkaChannel)"
  , "c3" : "1"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00870"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#870"
  , "c1" : "void"
  , "c2" : "addToCompletedReceives(KafkaChannel;NetworkReceive;long)"
  , "c3" : "2"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00879"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#879"
  , "c1" : "Set<SelectionKey>"
  , "c2" : "keys()"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01284"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1284"
  , "c1" : "boolean"
  , "c2" : "isOutOfMemory()"
  , "c3" : "1"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01289"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1289"
  , "c1" : "boolean"
  , "c2" : "isMadeReadProgressLastPoll()"
  , "c3" : "1"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01294"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1294"
  , "c1" : "Map<?,?>"
  , "c2" : "delayedClosingChannels()"
  , "c3" : "1"

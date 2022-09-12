@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.NetworkClient" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#109"
  , "c1" : "NetworkClient"
  , "c2" : "NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#142"
  , "c1" : "NetworkClient"
  , "c2" : "NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;Sensor;LogContext)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#178"
  , "c1" : "NetworkClient"
  , "c2" : "NetworkClient(Selectable;MetadataUpdater;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;LogContext)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00213"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#213"
  , "c1" : "NetworkClient"
  , "c2" : "NetworkClient(MetadataUpdater;Metadata;Selectable;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;Sensor;LogContext;HostResolver)"
  , "c3" : "4"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00261"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#261"
  , "c1" : "boolean"
  , "c2" : "ready(Node;long)"
  , "c3" : "4"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00276"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#276"
  , "c1" : "boolean"
  , "c2" : "canConnect(Node;long)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00282"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#282"
  , "c1" : "void"
  , "c2" : "disconnect(String)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00295"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#295"
  , "c1" : "void"
  , "c2" : "cancelInFlightRequests(String;long;Collection<ClientResponse>)"
  , "c3" : "8"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00323"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#323"
  , "c1" : "void"
  , "c2" : "close(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00333"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#333"
  , "c1" : "long"
  , "c2" : "connectionDelay(Node;long)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00339"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#339"
  , "c1" : "long"
  , "c2" : "throttleDelayMs(Node;long)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00345"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#345"
  , "c1" : "long"
  , "c2" : "pollDelayMs(Node;long)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00351"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#351"
  , "c1" : "boolean"
  , "c2" : "connectionFailed(Node)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00357"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#357"
  , "c1" : "AuthenticationException"
  , "c2" : "authenticationException(Node)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00363"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#363"
  , "c1" : "boolean"
  , "c2" : "isReady(Node;long)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00370"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#370"
  , "c1" : "boolean"
  , "c2" : "canSendRequest(String;long)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00377"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#377"
  , "c1" : "void"
  , "c2" : "send(ClientRequest;long)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00382"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#382"
  , "c1" : "void"
  , "c2" : "sendInternalMetadataRequest(MetadataRequest.Builder;String;long)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00387"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#387"
  , "c1" : "void"
  , "c2" : "doSend(ClientRequest;boolean;long)"
  , "c3" : "9"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00435"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#435"
  , "c1" : "void"
  , "c2" : "doSend(ClientRequest;boolean;long;AbstractRequest)"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00456"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#456"
  , "c1" : "List<ClientResponse>"
  , "c2" : "poll(long;long)"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00490"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#490"
  , "c1" : "void"
  , "c2" : "completeResponses(List<ClientResponse>)"
  , "c3" : "2"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00502"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#502"
  , "c1" : "int"
  , "c2" : "inFlightRequestCount()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00507"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#507"
  , "c1" : "boolean"
  , "c2" : "hasInFlightRequests()"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00513"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#513"
  , "c1" : "int"
  , "c2" : "inFlightRequestCount(String)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00518"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#518"
  , "c1" : "boolean"
  , "c2" : "hasInFlightRequests(String)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00523"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#523"
  , "c1" : "boolean"
  , "c2" : "hasReadyNodes(long)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00529"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#529"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00534"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#534"
  , "c1" : "void"
  , "c2" : "initiateClose()"
  , "c3" : "2"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00541"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#541"
  , "c1" : "boolean"
  , "c2" : "active()"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00545"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#545"
  , "c1" : "void"
  , "c2" : "ensureActive()"
  , "c3" : "2"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00552"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#552"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00564"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#564"
  , "c1" : "Node"
  , "c2" : "leastLoadedNode(long)"
  , "c3" : "19"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00620"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#620"
  , "c1" : "AbstractResponse"
  , "c2" : "parseResponse(ByteBuffer;RequestHeader)"
  , "c3" : "3"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00639"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#639"
  , "c1" : "void"
  , "c2" : "processDisconnection(List<ClientResponse>;String;long;ChannelState)"
  , "c3" : "4"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00672"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#672"
  , "c1" : "void"
  , "c2" : "handleTimedOutRequests(List<ClientResponse>;long)"
  , "c3" : "2"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00682"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#682"
  , "c1" : "void"
  , "c2" : "handleAbortedSends(List<ClientResponse>)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00688"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#688"
  , "c1" : "void"
  , "c2" : "handleTimedOutConnections(List<ClientResponse>;long)"
  , "c3" : "2"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00702"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#702"
  , "c1" : "void"
  , "c2" : "handleCompletedSends(List<ClientResponse>;long)"
  , "c3" : "3"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00714"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#714"
  , "c1" : "void"
  , "c2" : "maybeThrottle(AbstractResponse;short;String;long)"
  , "c3" : "2"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00724"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#724"
  , "c1" : "void"
  , "c2" : "handleCompletedReceives(List<ClientResponse>;long)"
  , "c3" : "8"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00749"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#749"
  , "c1" : "void"
  , "c2" : "handleApiVersionsResponse(List<ClientResponse>;InFlightRequest;long;ApiVersionsResponse)"
  , "c3" : "6"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00784"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#784"
  , "c1" : "void"
  , "c2" : "handleDisconnections(List<ClientResponse>;long)"
  , "c3" : "2"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00793"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#793"
  , "c1" : "void"
  , "c2" : "handleConnections()"
  , "c3" : "4"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00809"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#809"
  , "c1" : "void"
  , "c2" : "handleInitiateApiVersionRequests(long)"
  , "c3" : "3"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00830"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#830"
  , "c1" : "void"
  , "c2" : "initiateConnect(Node;long)"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1026"
  , "c1" : "ClientRequest"
  , "c2" : "newClientRequest(String;AbstractRequest.Builder<?>;long;boolean)"
  , "c3" : "1"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1034"
  , "c1" : "int"
  , "c2" : "nextCorrelationId()"
  , "c3" : "2"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1043"
  , "c1" : "ClientRequest"
  , "c2" : "newClientRequest(String;AbstractRequest.Builder<?>;long;boolean;int;RequestCompletionHandler)"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1053"
  , "c1" : "boolean"
  , "c2" : "discoverBrokerVersions()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.timeline.Snapshot" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#15"
  , "c1" : "Snapshot"
  , "c2" : "Snapshot(long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#19"
  , "c1" : "long"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#28"
  , "c1" : "void"
  , "c2" : "setDelta(Revertable;Delta)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#32"
  , "c1" : "void"
  , "c2" : "handleRevert()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#38"
  , "c1" : "void"
  , "c2" : "mergeFrom(Snapshot)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#55"
  , "c1" : "Snapshot"
  , "c2" : "prev()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#59"
  , "c1" : "Snapshot"
  , "c2" : "next()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#63"
  , "c1" : "void"
  , "c2" : "appendNext(Snapshot)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/Snapshot.java.html#70"
  , "c1" : "void"
  , "c2" : "erase()"
  , "c3" : "1"

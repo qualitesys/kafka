@@ -2,12 +2,12 @@
 !pragma layout smetana
 WindowedSerializer_T_ <|-- org.apache.kafka.streams.kstream.TimeWindowedSerializer
 class org.apache.kafka.streams.kstream.TimeWindowedSerializer {
-+  TimeWindowedSerializer()
-+  TimeWindowedSerializer(Serializer<T>)
-+  configure(Map<String,?>;boolean)
-+  serialize(String;Windowed<T>)
-+  close()
-+  serializeBaseKey(String;Windowed<T>)
-+  innerSerializer()
++ TimeWindowedSerializer() : TimeWindowedSerializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#20]]]
++ TimeWindowedSerializer(Serializer<T>) : TimeWindowedSerializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#22]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#28]]]
++ serialize(String;Windowed<T>) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#55]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#66]]]
++ serializeBaseKey(String;Windowed<T>) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#73]]]
+innerSerializer() : Serializer<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#80]]]
 } 
 @enduml

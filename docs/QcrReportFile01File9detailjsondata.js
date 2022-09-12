@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.DefaultHostResolver" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/DefaultHostResolver.java.html#11"
  , "c1" : "InetAddress[]"
  , "c2" : "resolve(String)"
  , "c3" : "1"

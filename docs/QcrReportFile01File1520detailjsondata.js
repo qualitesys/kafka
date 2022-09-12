@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.examples.pipe.PipeDemo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java.html#16"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

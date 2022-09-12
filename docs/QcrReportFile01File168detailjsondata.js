@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.ListTransactionsHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#28"
  , "c1" : "ListTransactionsHandler"
  , "c2" : "ListTransactionsHandler(ListTransactionsOptions;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#37"
  , "c1" : "AllBrokersStrategy.AllBrokersFuture<Collection<TransactionListing>>"
  , "c2" : "newFuture()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#42"
  , "c1" : "String"
  , "c2" : "apiName()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#47"
  , "c1" : "AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey>"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#52"
  , "c1" : "ListTransactionsRequest.Builder"
  , "c2" : "buildBatchedRequest(int;Set<AllBrokersStrategy.BrokerKey>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#65"
  , "c1" : "ApiResult<AllBrokersStrategy.BrokerKey,Collection<TransactionListing>>"
  , "c2" : "handleResponse(Node;Set<AllBrokersStrategy.BrokerKey>;AbstractResponse)"
  , "c3" : "7"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#101"
  , "c1" : "AllBrokersStrategy.BrokerKey"
  , "c2" : "requireSingleton(Set<AllBrokersStrategy.BrokerKey>;int)"
  , "c3" : "3"

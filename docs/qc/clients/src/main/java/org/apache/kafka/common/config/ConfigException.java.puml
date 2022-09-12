@@ -2,8 +2,8 @@
 !pragma layout smetana
 KafkaException <|-- org.apache.kafka.common.config.ConfigException
 class org.apache.kafka.common.config.ConfigException {
-+  ConfigException(String)
-+  ConfigException(String;Object)
-+  ConfigException(String;Object;String)
++ ConfigException(String) : ConfigException [[[././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#11]]]
++ ConfigException(String;Object) : ConfigException [[[././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#15]]]
++ ConfigException(String;Object;String) : ConfigException [[[././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigException.java.html#19]]]
 } 
 @enduml

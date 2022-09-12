@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.NullPayloadGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#9"
  , "c1" : "NullPayloadGenerator"
  , "c2" : "NullPayloadGenerator()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#13"
  , "c1" : "byte[]"
  , "c2" : "generate(long)"
  , "c3" : "1"

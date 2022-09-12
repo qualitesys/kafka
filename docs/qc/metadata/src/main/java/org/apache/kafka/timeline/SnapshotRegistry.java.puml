@@ -2,21 +2,21 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.timeline.SnapshotRegistry
 class org.apache.kafka.timeline.SnapshotRegistry {
-+  SnapshotRegistry(LogContext)
-+  iterator()
-+  iterator(long)
-+  iterator(Snapshot)
-+  reverseIterator()
-+  epochsList()
-+  hasSnapshot(long)
-+  getSnapshot(long)
-+  getOrCreateSnapshot(long)
-+  revertToSnapshot(long)
-+  deleteSnapshot(long)
-+  deleteSnapshot(Snapshot)
-+  deleteSnapshotsUpTo(long)
-+  latestEpoch()
-+  register(Revertable)
-+  reset()
++ SnapshotRegistry(LogContext) : SnapshotRegistry [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#82]]]
++ iterator() : Iterator<Snapshot> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#87]]]
++ iterator(long) : Iterator<Snapshot> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#92]]]
++ iterator(Snapshot) : Iterator<Snapshot> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#97]]]
++ reverseIterator() : Iterator<Snapshot> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#102]]]
++ epochsList() : List<Long> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#107]]]
++ hasSnapshot(long) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#115]]]
++ getSnapshot(long) : Snapshot [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#120]]]
++ getOrCreateSnapshot(long) : Snapshot [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#131]]]
++ revertToSnapshot(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#147]]]
++ deleteSnapshot(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#161]]]
++ deleteSnapshot(Snapshot) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#166]]]
++ deleteSnapshotsUpTo(long) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#178]]]
++ latestEpoch() : long [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#190]]]
++ register(Revertable) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#195]]]
++ reset() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#200]]]
 } 
 @enduml

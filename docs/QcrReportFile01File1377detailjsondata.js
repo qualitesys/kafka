@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.util.SnapshotFileWriter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#28"
  , "c1" : "SnapshotFileWriter"
  , "c2" : "SnapshotFileWriter(FileChannel;BatchAccumulator<ApiMessageAndVersion>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#33"
  , "c1" : "void"
  , "c2" : "append(ApiMessageAndVersion)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#37"
  , "c1" : "void"
  , "c2" : "append(List<ApiMessageAndVersion>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#41"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#48"
  , "c1" : "SnapshotFileWriter"
  , "c2" : "open(Path)"
  , "c3" : "1"

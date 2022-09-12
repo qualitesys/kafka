@@ -2,6 +2,6 @@
 !pragma layout smetana
 EmitStrategy <|-- org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy
 class org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy {
-+  type()
++ type() : StrategyType [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.html#10]]]
 } 
 @enduml

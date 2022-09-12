@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.ReadOnlyKeyValueStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#11"
  , "c1" : "V"
  , "c2" : "get(K)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#14"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "range(K;K)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#17"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "reverseRange(K;K)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#22"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#25"
  , "c1" : "KeyValueIterator<K,V>"
  , "c2" : "reverseAll()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#35"
  , "c1" : "long"
  , "c2" : "approximateNumEntries()"
  , "c3" : "1"

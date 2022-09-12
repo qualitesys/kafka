@@ -2,7 +2,7 @@
 !pragma layout smetana
 ProcessorSupplier_KO,Change_VO_,K,SubscriptionResponseWrapper_VO__ <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionProcessorSupplier
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionProcessorSupplier {
-+  ForeignJoinSubscriptionProcessorSupplier(StoreBuilder<TimestampedKeyValueStore<Bytes,SubscriptionWrapper<K>>>;CombinedKeySchema<KO,K>)
-+  get()
++ ForeignJoinSubscriptionProcessorSupplier(StoreBuilder<TimestampedKeyValueStore<Bytes,SubscriptionWrapper<K>>>;CombinedKeySchema<KO,K>) : ForeignJoinSubscriptionProcessorSupplier [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#32]]]
++ get() : Processor<KO,Change<VO>,K,SubscriptionResponseWrapper<VO>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#41]]]
 } 
 @enduml

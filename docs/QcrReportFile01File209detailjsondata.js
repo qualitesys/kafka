@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#44"
  , "c1" : "FetcherMetricsRegistry"
  , "c2" : "FetcherMetricsRegistry()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#48"
  , "c1" : "FetcherMetricsRegistry"
  , "c2" : "FetcherMetricsRegistry(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#52"
  , "c1" : "FetcherMetricsRegistry"
  , "c2" : "FetcherMetricsRegistry(Set<String>;String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#133"
  , "c1" : "List<MetricNameTemplate>"
  , "c2" : "getAllTemplates()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.ExponentialBackoff" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#14"
  , "c1" : "ExponentialBackoff"
  , "c2" : "ExponentialBackoff(long;int;long;double)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#22"
  , "c1" : "long"
  , "c2" : "backoff(long)"
  , "c3" : "2"

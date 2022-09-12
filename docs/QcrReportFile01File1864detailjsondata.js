@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.StateRestoreCallbackAdapter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateRestoreCallbackAdapter.java.html#15"
  , "c1" : "StateRestoreCallbackAdapter"
  , "c2" : "StateRestoreCallbackAdapter()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateRestoreCallbackAdapter.java.html#17"
  , "c1" : "RecordBatchingStateRestoreCallback"
  , "c2" : "adapt(StateRestoreCallback)"
  , "c3" : "7"

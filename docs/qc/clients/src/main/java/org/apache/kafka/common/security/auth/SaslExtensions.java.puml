@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.security.auth.SaslExtensions
 class org.apache.kafka.common.security.auth.SaslExtensions {
-+  SaslExtensions(Map<String,String>)
-+  map()
-+  equals(Object)
-+  toString()
-+  hashCode()
++ SaslExtensions(Map<String,String>) : SaslExtensions [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#14]]]
++ map() : Map<String,String> [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#19]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#24]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#31]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#36]]]
 } 
 @enduml

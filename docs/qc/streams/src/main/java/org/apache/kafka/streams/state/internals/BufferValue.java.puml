@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.BufferValue
 class org.apache.kafka.streams.state.internals.BufferValue {
-+  BufferValue(byte[];byte[];byte[];ProcessorRecordContext)
-+  priorValue()
-+  oldValue()
-+  newValue()
-+  context()
-+  deserialize(ByteBuffer)
-+  serialize(int)
-+  addValue(ByteBuffer;byte[])
-+  residentMemorySizeEstimate()
-+  equals(Object)
-+  hashCode()
-+  toString()
+BufferValue(byte[];byte[];byte[];ProcessorRecordContext) : BufferValue [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#21]]]
+priorValue() : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#39]]]
+oldValue() : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#43]]]
+newValue() : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#47]]]
+context() : ProcessorRecordContext [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#51]]]
+deserialize(ByteBuffer) : BufferValue [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#55]]]
+serialize(int) : ByteBuffer [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#73]]]
+- addValue(ByteBuffer;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#109]]]
+residentMemorySizeEstimate() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#118]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#126]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#137]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#146]]]
 } 
 @enduml

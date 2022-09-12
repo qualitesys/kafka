@@ -2,22 +2,22 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.internals.PartitionStates
 class org.apache.kafka.common.internals.PartitionStates {
-+  PartitionStates()
-+  moveToEnd(TopicPartition)
-+  updateAndMoveToEnd(TopicPartition;S)
-+  update(TopicPartition;S)
-+  remove(TopicPartition)
-+  partitionSet()
-+  clear()
-+  contains(TopicPartition)
-+  stateIterator()
-+  forEach(BiConsumer<TopicPartition,S>)
-+  partitionStateMap()
-+  partitionStateValues()
-+  stateValue(TopicPartition)
-+  size()
-+  set(Map<TopicPartition,S>)
-+  updateSize()
-+  update(Map<TopicPartition,S>)
++ PartitionStates() : PartitionStates [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#25]]]
++ moveToEnd(TopicPartition) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#27]]]
++ updateAndMoveToEnd(TopicPartition;S) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#33]]]
++ update(TopicPartition;S) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#39]]]
++ remove(TopicPartition) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#44]]]
++ partitionSet() : Set<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#50]]]
++ clear() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#54]]]
++ contains(TopicPartition) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#59]]]
++ stateIterator() : Iterator<S> [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#63]]]
++ forEach(BiConsumer<TopicPartition,S>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#67]]]
++ partitionStateMap() : Map<TopicPartition,S> [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#71]]]
++ partitionStateValues() : List<S> [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#76]]]
++ stateValue(TopicPartition) : S [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#80]]]
++ size() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#85]]]
++ set(Map<TopicPartition,S>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#90]]]
+- updateSize() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#96]]]
+- update(Map<TopicPartition,S>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#100]]]
 } 
 @enduml

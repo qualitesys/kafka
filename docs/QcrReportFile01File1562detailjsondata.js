@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.TaskCorruptedException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#14"
  , "c1" : "TaskCorruptedException"
  , "c2" : "TaskCorruptedException(Set<TaskId>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#19"
  , "c1" : "TaskCorruptedException"
  , "c2" : "TaskCorruptedException(Set<TaskId>;InvalidOffsetException)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#25"
  , "c1" : "Set<TaskId>"
  , "c2" : "corruptedTasks()"
  , "c3" : "1"

@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.workload.RecordProcessor
 class org.apache.kafka.trogdor.workload.RecordProcessor {
-+  processRecords(ConsumerRecords<byte[],byte[]>)
-+  processorStatus()
+processRecords(ConsumerRecords<byte[],byte[]>) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.html#18]]]
+processorStatus() : JsonNode [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.html#19]]]
 } 
 @enduml

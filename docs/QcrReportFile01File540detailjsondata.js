@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.TaggedFields" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#21"
  , "c1" : "TaggedFields"
  , "c2" : "of(Object...)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#35"
  , "c1" : "TaggedFields"
  , "c2" : "TaggedFields(Map<Integer,Field>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#40"
  , "c1" : "boolean"
  , "c2" : "isNullable()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#46"
  , "c1" : "void"
  , "c2" : "write(ByteBuffer;Object)"
  , "c3" : "4"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#66"
  , "c1" : "NavigableMap<Integer,Object>"
  , "c2" : "read(ByteBuffer)"
  , "c3" : "6"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#94"
  , "c1" : "int"
  , "c2" : "sizeOf(Object)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#114"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#128"
  , "c1" : "Map<Integer,Object>"
  , "c2" : "validate(Object)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#150"
  , "c1" : "String"
  , "c2" : "typeName()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00155"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#155"
  , "c1" : "String"
  , "c2" : "documentation()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00160"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#160"
  , "c1" : "int"
  , "c2" : "numFields()"
  , "c3" : "1"

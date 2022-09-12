@@ -2,17 +2,17 @@
 !pragma layout smetana
 Comparable_RestartRequest_ <|-- org.apache.kafka.connect.runtime.RestartRequest
 class org.apache.kafka.connect.runtime.RestartRequest {
-+  RestartRequest(String;boolean;boolean)
-+  connectorName()
-+  onlyFailed()
-+  includeTasks()
-+  shouldRestartConnector(ConnectorStatus)
-+  forceRestartConnectorOnly()
-+  shouldRestartTask(TaskStatus)
-+  compareTo(RestartRequest)
-+  impactRank()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ RestartRequest(String;boolean;boolean) : RestartRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#17]]]
++ connectorName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#24]]]
++ onlyFailed() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#29]]]
++ includeTasks() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#34]]]
++ shouldRestartConnector(ConnectorStatus) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#39]]]
++ forceRestartConnectorOnly() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#44]]]
++ shouldRestartTask(TaskStatus) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#49]]]
++ compareTo(RestartRequest) : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#54]]]
+- impactRank() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#59]]]
++ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#72]]]
++ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#84]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#89]]]
 } 
 @enduml

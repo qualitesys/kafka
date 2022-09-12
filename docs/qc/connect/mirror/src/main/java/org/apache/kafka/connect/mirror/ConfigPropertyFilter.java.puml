@@ -2,8 +2,8 @@
 !pragma layout smetana
 Configurable <|-- org.apache.kafka.connect.mirror.ConfigPropertyFilter
 class org.apache.kafka.connect.mirror.ConfigPropertyFilter {
-+  shouldReplicateConfigProperty(String)
-+  close()
-+  configure(Map<String,?>)
+shouldReplicateConfigProperty(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/ConfigPropertyFilter.java.html#13]]]
+close() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/ConfigPropertyFilter.java.html#15]]]
+configure(Map<String,?>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/ConfigPropertyFilter.java.html#19]]]
 } 
 @enduml

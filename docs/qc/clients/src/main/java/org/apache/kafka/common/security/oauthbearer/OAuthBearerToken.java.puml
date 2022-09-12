@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.OAuthBearerToken
 class org.apache.kafka.common.security.oauthbearer.OAuthBearerToken {
-+  value()
-+  scope()
-+  lifetimeMs()
-+  principalName()
-+  startTimeMs()
+value() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#12]]]
+scope() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#15]]]
+lifetimeMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#18]]]
+principalName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#21]]]
+startTimeMs() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerToken.java.html#24]]]
 } 
 @enduml

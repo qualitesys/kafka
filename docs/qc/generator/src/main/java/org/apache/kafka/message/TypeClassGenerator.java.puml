@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.TypeClassGenerator
 class org.apache.kafka.message.TypeClassGenerator {
-+  outputName()
-+  registerMessageType(MessageSpec)
-+  generateAndWrite(BufferedWriter)
+outputName() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/TypeClassGenerator.java.html#10]]]
+registerMessageType(MessageSpec) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/TypeClassGenerator.java.html#13]]]
+generateAndWrite(BufferedWriter) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/TypeClassGenerator.java.html#16]]]
 } 
 @enduml

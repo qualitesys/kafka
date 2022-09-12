@@ -2,44 +2,44 @@
 !pragma layout smetana
 StatusBackingStore <|-- org.apache.kafka.connect.storage.KafkaStatusBackingStore
 class org.apache.kafka.connect.storage.KafkaStatusBackingStore {
-+  KafkaStatusBackingStore(Time;Converter)
-+  KafkaStatusBackingStore(Time;Converter;Supplier<TopicAdmin>)
-+  KafkaStatusBackingStore(Time;Converter;String;KafkaBasedLog<String,byte[]>)
-+  configure(WorkerConfig)
-+  createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<String,byte[]>>;NewTopic;Supplier<TopicAdmin>)
-+  start()
-+  stop()
-+  put(ConnectorStatus)
-+  putSafe(ConnectorStatus)
-+  put(TaskStatus)
-+  putSafe(TaskStatus)
-+  put(TopicStatus)
-+  flush()
-+  sendConnectorStatus(ConnectorStatus;boolean)
-+  sendTaskStatus(TaskStatus;boolean)
-+  sendTopicStatus(String;String;TopicStatus)
-+  getOrAdd(String)
-+  remove(String)
-+  getOrAdd(ConnectorTaskId)
-+  remove(ConnectorTaskId)
-+  removeTopic(String;String)
-+  get(ConnectorTaskId)
-+  get(String)
-+  getAll(String)
-+  getTopic(String;String)
-+  getAllTopics(String)
-+  deleteTopic(String;String)
-+  connectors()
-+  parseConnectorStatus(String;byte[])
-+  parseTaskStatus(ConnectorTaskId;byte[])
-+  parseTopicStatus(byte[])
-+  serialize(AbstractStatus<?>)
-+  serializeTopicStatus(TopicStatus)
-+  parseConnectorStatusKey(String)
-+  parseConnectorTaskId(String)
-+  readConnectorStatus(String;byte[])
-+  readTaskStatus(String;byte[])
-+  readTopicStatus(String;byte[])
-+  read(ConsumerRecord<String,byte[]>)
++ KafkaStatusBackingStore(Time;Converter) : KafkaStatusBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#105]]]
++ KafkaStatusBackingStore(Time;Converter;Supplier<TopicAdmin>) : KafkaStatusBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#109]]]
+KafkaStatusBackingStore(Time;Converter;String;KafkaBasedLog<String,byte[]>) : KafkaStatusBackingStore [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#119]]]
++ configure(WorkerConfig) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#126]]]
+- createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<String,byte[]>>;NewTopic;Supplier<TopicAdmin>) : KafkaBasedLog<String,byte[]> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#175]]]
++ start() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#194]]]
++ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#202]]]
++ put(ConnectorStatus) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#213]]]
++ putSafe(ConnectorStatus) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#218]]]
++ put(TaskStatus) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#223]]]
++ putSafe(TaskStatus) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#228]]]
++ put(TopicStatus) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#233]]]
++ flush() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#238]]]
+- sendConnectorStatus(ConnectorStatus;boolean) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#242]]]
+- sendTaskStatus(TaskStatus;boolean) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#249]]]
+- sendTopicStatus(String;String;TopicStatus) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#256]]]
+- getOrAdd(String) : CacheEntry<ConnectorStatus> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#308]]]
+- remove(String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#317]]]
+- getOrAdd(ConnectorTaskId) : CacheEntry<TaskStatus> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#329]]]
+- remove(ConnectorTaskId) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#338]]]
+- removeTopic(String;String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#344]]]
++ get(ConnectorTaskId) : TaskStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#353]]]
++ get(String) : ConnectorStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#359]]]
++ getAll(String) : Collection<TaskStatus> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#365]]]
++ getTopic(String;String) : TopicStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#376]]]
++ getAllTopics(String) : Collection<TopicStatus> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#382]]]
++ deleteTopic(String;String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#390]]]
++ connectors() : Set<String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#395]]]
+- parseConnectorStatus(String;byte[]) : ConnectorStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#399]]]
+- parseTaskStatus(ConnectorTaskId;byte[]) : TaskStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#420]]]
+parseTopicStatus(byte[]) : TopicStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#440]]]
+- serialize(AbstractStatus<?>) : byte[] [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#465]]]
+serializeTopicStatus(TopicStatus) : byte[] [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#476]]]
+- parseConnectorStatusKey(String) : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#492]]]
+- parseConnectorTaskId(String) : ConnectorTaskId [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#496]]]
+- readConnectorStatus(String;byte[]) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#510]]]
+- readTaskStatus(String;byte[]) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#534]]]
+- readTopicStatus(String;byte[]) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#560]]]
+read(ConsumerRecord<String,byte[]>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#605]]]
 } 
 @enduml

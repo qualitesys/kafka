@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.KafkaRaftMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#43"
  , "c1" : "KafkaRaftMetrics"
  , "c2" : "KafkaRaftMetrics(Metrics;String;QuorumState)"
  , "c3" : "13"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#127"
  , "c1" : "void"
  , "c2" : "updatePollStart(long)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#138"
  , "c1" : "void"
  , "c2" : "updatePollEnd(long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#142"
  , "c1" : "void"
  , "c2" : "updateLogEnd(OffsetAndEpoch)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00146"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#146"
  , "c1" : "void"
  , "c2" : "updateNumUnknownVoterConnections(int)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#150"
  , "c1" : "void"
  , "c2" : "updateAppendRecords(long)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00154"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#154"
  , "c1" : "void"
  , "c2" : "updateFetchedRecords(long)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00158"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#158"
  , "c1" : "void"
  , "c2" : "updateCommitLatency(double;long)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00162"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#162"
  , "c1" : "void"
  , "c2" : "updateElectionStartMs(long)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#166"
  , "c1" : "void"
  , "c2" : "maybeUpdateElectionLatency(long)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#174"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

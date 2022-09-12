@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.InFlightRequests" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#21"
  , "c1" : "InFlightRequests"
  , "c2" : "InFlightRequests(int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#26"
  , "c1" : "void"
  , "c2" : "add(NetworkClient.InFlightRequest)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#38"
  , "c1" : "Deque<NetworkClient.InFlightRequest>"
  , "c2" : "requestQueue(String)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#46"
  , "c1" : "NetworkClient.InFlightRequest"
  , "c2" : "completeNext(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#53"
  , "c1" : "NetworkClient.InFlightRequest"
  , "c2" : "lastSent(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#58"
  , "c1" : "NetworkClient.InFlightRequest"
  , "c2" : "completeLastSent(String)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#65"
  , "c1" : "boolean"
  , "c2" : "canSendMore(String)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#72"
  , "c1" : "int"
  , "c2" : "count(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#78"
  , "c1" : "boolean"
  , "c2" : "isEmpty(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#84"
  , "c1" : "int"
  , "c2" : "count()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#89"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#98"
  , "c1" : "Iterable<NetworkClient.InFlightRequest>"
  , "c2" : "clearAll(String)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#109"
  , "c1" : "Boolean"
  , "c2" : "hasExpiredRequest(long;Deque<NetworkClient.InFlightRequest>)"
  , "c3" : "3"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#118"
  , "c1" : "List<String>"
  , "c2" : "nodesWithTimedOutRequests(long)"
  , "c3" : "3"

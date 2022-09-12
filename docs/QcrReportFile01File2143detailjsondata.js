@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultController" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.html#15"
  , "c1" : "NetworkPartitionFaultController"
  , "c2" : "NetworkPartitionFaultController(List<Set<String>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.html#20"
  , "c1" : "Set<String>"
  , "c2" : "targetNodes(Topology)"
  , "c3" : "2"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.BatchReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/BatchReader.java.html#11"
  , "c1" : "long"
  , "c2" : "baseOffset()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/BatchReader.java.html#14"
  , "c1" : "OptionalLong"
  , "c2" : "lastOffset()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/BatchReader.java.html#18"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

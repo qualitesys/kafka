@@ -2,7 +2,7 @@
 !pragma layout smetana
 InvalidMetadataException <|-- org.apache.kafka.common.errors.ElectionNotNeededException
 class org.apache.kafka.common.errors.ElectionNotNeededException {
-+  ElectionNotNeededException(String)
-+  ElectionNotNeededException(String;Throwable)
++ ElectionNotNeededException(String) : ElectionNotNeededException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ElectionNotNeededException.java.html#6]]]
++ ElectionNotNeededException(String;Throwable) : ElectionNotNeededException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ElectionNotNeededException.java.html#10]]]
 } 
 @enduml

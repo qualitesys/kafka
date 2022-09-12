@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.snapshot.RecordsSnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#22"
  , "c1" : "RecordsSnapshotReader"
  , "c2" : "RecordsSnapshotReader(OffsetAndEpoch;RecordsIterator<T>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#31"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "snapshotId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#36"
  , "c1" : "long"
  , "c2" : "lastContainedLogOffset()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#41"
  , "c1" : "int"
  , "c2" : "lastContainedLogEpoch()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#46"
  , "c1" : "long"
  , "c2" : "lastContainedLogTimestamp()"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#63"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#72"
  , "c1" : "Batch<T>"
  , "c2" : "next()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#84"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#101"
  , "c1" : "Optional<Batch<T>>"
  , "c2" : "nextBatch()"
  , "c3" : "4"

@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.protocol.ObjectSerializationCache
 class org.apache.kafka.common.protocol.ObjectSerializationCache {
-+  ObjectSerializationCache()
-+  setArraySizeInBytes(Object;Integer)
-+  getArraySizeInBytes(Object)
-+  cacheSerializedValue(Object;byte[])
-+  getSerializedValue(Object)
++ ObjectSerializationCache() : ObjectSerializationCache [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#11]]]
++ setArraySizeInBytes(Object;Integer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#15]]]
++ getArraySizeInBytes(Object) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#19]]]
++ cacheSerializedValue(Object;byte[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#23]]]
++ getSerializedValue(Object) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#27]]]
 } 
 @enduml

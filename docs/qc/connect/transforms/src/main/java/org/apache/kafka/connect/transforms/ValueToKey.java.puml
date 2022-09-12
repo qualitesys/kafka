@@ -2,11 +2,11 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.ValueToKey
 class org.apache.kafka.connect.transforms.ValueToKey {
-+  configure(Map<String,?>)
-+  apply(R)
-+  applySchemaless(R)
-+  applyWithSchema(R)
-+  config()
-+  close()
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#41]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#48]]]
+- applySchemaless(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#56]]]
+- applyWithSchema(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#65]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#91]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ValueToKey.java.html#96]]]
 } 
 @enduml

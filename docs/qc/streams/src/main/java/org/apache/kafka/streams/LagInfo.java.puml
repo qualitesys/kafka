@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.LagInfo
 class org.apache.kafka.streams.LagInfo {
-+  LagInfo(long;long)
-+  currentOffsetPosition()
-+  endOffsetPosition()
-+  offsetLag()
-+  equals(Object)
-+  hashCode()
-+  toString()
+LagInfo(long;long) : LagInfo [[[././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#15]]]
++ currentOffsetPosition() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#22]]]
++ endOffsetPosition() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#27]]]
++ offsetLag() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#32]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#37]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#48]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#53]]]
 } 
 @enduml

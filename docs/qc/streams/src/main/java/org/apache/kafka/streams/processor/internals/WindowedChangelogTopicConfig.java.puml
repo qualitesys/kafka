@@ -2,11 +2,11 @@
 !pragma layout smetana
 InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig
 class org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig {
-+  WindowedChangelogTopicConfig(String;Map<String,String>)
-+  getProperties(Map<String,String>;long)
-+  setRetentionMs(long)
-+  equals(Object)
-+  hashCode()
-+  toString()
+WindowedChangelogTopicConfig(String;Map<String,String>) : WindowedChangelogTopicConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#22]]]
++ getProperties(Map<String,String>;long) : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#28]]]
+setRetentionMs(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#49]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#56]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#71]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#76]]]
 } 
 @enduml

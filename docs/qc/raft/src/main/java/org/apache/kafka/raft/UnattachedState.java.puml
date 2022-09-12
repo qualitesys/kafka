@@ -2,16 +2,16 @@
 !pragma layout smetana
 EpochState <|-- org.apache.kafka.raft.UnattachedState
 class org.apache.kafka.raft.UnattachedState {
-+  UnattachedState(Time;int;Set<Integer>;Optional<LogOffsetMetadata>;long;LogContext)
-+  election()
-+  epoch()
-+  name()
-+  electionTimeoutMs()
-+  remainingElectionTimeMs(long)
-+  hasElectionTimeoutExpired(long)
-+  highWatermark()
-+  canGrantVote(int;boolean)
-+  toString()
-+  close()
++ UnattachedState(Time;int;Set<Integer>;Optional<LogOffsetMetadata>;long;LogContext) : UnattachedState [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#22]]]
++ election() : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#39]]]
++ epoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#49]]]
++ name() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#54]]]
++ electionTimeoutMs() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#58]]]
++ remainingElectionTimeMs(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#62]]]
++ hasElectionTimeoutExpired(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#67]]]
++ highWatermark() : Optional<LogOffsetMetadata> [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#73]]]
++ canGrantVote(int;boolean) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#78]]]
++ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#87]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#96]]]
 } 
 @enduml

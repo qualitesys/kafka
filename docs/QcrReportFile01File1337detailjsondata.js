@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.FeaturesDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#22"
  , "c1" : "FeaturesDelta"
  , "c2" : "FeaturesDelta(FeaturesImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#26"
  , "c1" : "Map<String,Optional<Short>>"
  , "c2" : "changes()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#30"
  , "c1" : "Optional<MetadataVersion>"
  , "c2" : "metadataVersionChange()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#34"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#42"
  , "c1" : "void"
  , "c2" : "replay(FeatureLevelRecord)"
  , "c3" : "5"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#54"
  , "c1" : "FeaturesImage"
  , "c2" : "apply()"
  , "c3" : "10"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#86"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

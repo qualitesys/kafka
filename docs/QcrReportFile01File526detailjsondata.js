@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.ObjectSerializationCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#11"
  , "c1" : "ObjectSerializationCache"
  , "c2" : "ObjectSerializationCache()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#15"
  , "c1" : "void"
  , "c2" : "setArraySizeInBytes(Object;Integer)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#19"
  , "c1" : "Integer"
  , "c2" : "getArraySizeInBytes(Object)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#23"
  , "c1" : "void"
  , "c2" : "cacheSerializedValue(Object;byte[])"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#27"
  , "c1" : "byte[]"
  , "c2" : "getSerializedValue(Object)"
  , "c3" : "1"

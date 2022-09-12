@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler
 class org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler {
-+  handleRemoteLogMetadata(RemoteLogMetadata)
-+  handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)
-+  handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate)
-+  handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)
-+  syncLogMetadataSnapshot(TopicIdPartition;int;Long)
-+  clearTopicPartition(TopicIdPartition)
++ handleRemoteLogMetadata(RemoteLogMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#14]]]
+handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#26]]]
+handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#28]]]
+handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#30]]]
++ syncLogMetadataSnapshot(TopicIdPartition;int;Long) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#32]]]
++ clearTopicPartition(TopicIdPartition) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#36]]]
 } 
 @enduml

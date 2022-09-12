@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.SchemaGenerator
 class org.apache.kafka.message.SchemaGenerator {
-+  SchemaGenerator(HeaderGenerator;StructRegistry)
-+  generateSchemas(MessageSpec)
-+  generateSchemas(String;StructSpec;Versions)
-+  generateSchemaForVersion(StructSpec;short;CodeBuffer)
-+  generateTaggedFieldsSchemaForVersion(StructSpec;short;CodeBuffer)
-+  fieldTypeToSchemaType(FieldSpec;short;Versions)
-+  fieldTypeToSchemaType(FieldType;boolean;short;Versions;boolean)
-+  floorVersion(String;short)
-+  writeSchema(String;CodeBuffer)
+SchemaGenerator(HeaderGenerator;StructRegistry) : SchemaGenerator [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#38]]]
+generateSchemas(MessageSpec) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#44]]]
+generateSchemas(String;StructSpec;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#59]]]
+- generateSchemaForVersion(StructSpec;short;CodeBuffer) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#90]]]
+- generateTaggedFieldsSchemaForVersion(StructSpec;short;CodeBuffer) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#136]]]
+- fieldTypeToSchemaType(FieldSpec;short;Versions) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#176]]]
+- fieldTypeToSchemaType(FieldType;boolean;short;Versions;boolean) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#186]]]
+- floorVersion(String;short) : short [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#293]]]
+writeSchema(String;CodeBuffer) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#299]]]
 } 
 @enduml

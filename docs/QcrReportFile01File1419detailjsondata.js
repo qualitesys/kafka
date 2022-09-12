@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.ResignedState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#24"
  , "c1" : "ResignedState"
  , "c2" : "ResignedState(Time;int;int;Set<Integer>;long;List<Integer>;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#45"
  , "c1" : "ElectionState"
  , "c2" : "election()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#50"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#55"
  , "c1" : "Set<Integer>"
  , "c2" : "unackedVoters()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#60"
  , "c1" : "void"
  , "c2" : "acknowledgeResignation(int)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#69"
  , "c1" : "boolean"
  , "c2" : "hasElectionTimeoutExpired(long)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#75"
  , "c1" : "long"
  , "c2" : "remainingElectionTimeMs(long)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#80"
  , "c1" : "List<Integer>"
  , "c2" : "preferredSuccessors()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#85"
  , "c1" : "boolean"
  , "c2" : "canGrantVote(int;boolean)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#92"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#97"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#109"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

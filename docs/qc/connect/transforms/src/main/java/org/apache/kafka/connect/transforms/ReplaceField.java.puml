@@ -2,20 +2,20 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.ReplaceField
 class org.apache.kafka.connect.transforms.ReplaceField {
-+  configure(Map<String,?>)
-+  parseRenameMappings(List<String>)
-+  invert(Map<String,String>)
-+  filter(String)
-+  renamed(String)
-+  reverseRenamed(String)
-+  apply(R)
-+  applySchemaless(R)
-+  applyWithSchema(R)
-+  makeUpdatedSchema(Schema)
-+  config()
-+  close()
-+  operatingSchema(R)
-+  operatingValue(R)
-+  newRecord(R;Schema;Object)
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#76]]]
+parseRenameMappings(List<String>) : Map<String,String> [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#90]]]
+invert(Map<String,String>) : Map<String,String> [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#102]]]
+filter(String) : boolean [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#110]]]
+renamed(String) : String [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#114]]]
+reverseRenamed(String) : String [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#119]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#125]]]
+- applySchemaless(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#135]]]
+- applyWithSchema(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#151]]]
+- makeUpdatedSchema(Schema) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#170]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#181]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#186]]]
+operatingSchema(R) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#190]]]
+operatingValue(R) : Object [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#192]]]
+newRecord(R;Schema;Object) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#194]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.converters.FloatConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.html#13"
  , "c1" : "FloatConverter"
  , "c2" : "FloatConverter()"
  , "c3" : "1"

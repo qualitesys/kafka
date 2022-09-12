@@ -2,7 +2,7 @@
 !pragma layout smetana
 AuthenticationException <|-- org.apache.kafka.common.errors.UnsupportedSaslMechanismException
 class org.apache.kafka.common.errors.UnsupportedSaslMechanismException {
-+  UnsupportedSaslMechanismException(String)
-+  UnsupportedSaslMechanismException(String;Throwable)
++ UnsupportedSaslMechanismException(String) : UnsupportedSaslMechanismException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedSaslMechanismException.java.html#9]]]
++ UnsupportedSaslMechanismException(String;Throwable) : UnsupportedSaslMechanismException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedSaslMechanismException.java.html#13]]]
 } 
 @enduml

@@ -2,18 +2,18 @@
 !pragma layout smetana
 Task <|-- org.apache.kafka.streams.processor.internals.AbstractTask
 class org.apache.kafka.streams.processor.internals.AbstractTask {
-+  AbstractTask(TaskId;ProcessorTopology;StateDirectory;ProcessorStateManager;Set<TopicPartition>;long;String;Class<?extendsAbstractTask>)
-+  maybeCheckpoint(boolean)
-+  id()
-+  inputPartitions()
-+  changelogPartitions()
-+  markChangelogAsCorrupted(Collection<TopicPartition>)
-+  getStore(String)
-+  state()
-+  revive()
-+  transitionTo(Task.State)
-+  updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)
-+  maybeInitTaskTimeoutOrThrow(long;Exception)
-+  clearTaskTimeout()
+AbstractTask(TaskId;ProcessorTopology;StateDirectory;ProcessorStateManager;Set<TopicPartition>;long;String;Class<?extendsAbstractTask>) : AbstractTask [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#43]]]
++ maybeCheckpoint(boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#66]]]
++ id() : TaskId [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#77]]]
++ inputPartitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#82]]]
++ changelogPartitions() : Collection<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#87]]]
++ markChangelogAsCorrupted(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#92]]]
++ getStore(String) : StateStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#97]]]
++ state() : Task.State [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#102]]]
++ revive() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#107]]]
+transitionTo(Task.State) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#116]]]
++ updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#127]]]
++ maybeInitTaskTimeoutOrThrow(long;Exception) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#133]]]
++ clearTaskTimeout() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#170]]]
 } 
 @enduml

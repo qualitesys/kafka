@@ -2,28 +2,28 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.data.Struct
 class org.apache.kafka.connect.data.Struct {
-+  Struct(Schema)
-+  schema()
-+  get(String)
-+  get(Field)
-+  getWithoutDefault(String)
-+  getInt8(String)
-+  getInt16(String)
-+  getInt32(String)
-+  getInt64(String)
-+  getFloat32(String)
-+  getFloat64(String)
-+  getBoolean(String)
-+  getString(String)
-+  getBytes(String)
-+  getStruct(String)
-+  put(String;Object)
-+  put(Field;Object)
-+  validate()
-+  equals(Object)
-+  hashCode()
-+  lookupField(String)
-+  getCheckType(String;Schema.Type)
-+  toString()
++ Struct(Schema) : Struct [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#19]]]
++ schema() : Schema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#27]]]
++ get(String) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#32]]]
++ get(Field) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#38]]]
++ getWithoutDefault(String) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#47]]]
++ getInt8(String) : Byte [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#55]]]
++ getInt16(String) : Short [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#60]]]
++ getInt32(String) : Integer [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#65]]]
++ getInt64(String) : Long [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#70]]]
++ getFloat32(String) : Float [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#75]]]
++ getFloat64(String) : Double [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#80]]]
++ getBoolean(String) : Boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#85]]]
++ getString(String) : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#90]]]
++ getBytes(String) : byte[] [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#95]]]
++ getStruct(String) : Struct [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#115]]]
++ put(String;Object) : Struct [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#120]]]
++ put(Field;Object) : Struct [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#126]]]
++ validate() : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#136]]]
++ equals(Object) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#147]]]
++ hashCode() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#156]]]
+- lookupField(String) : Field [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#160]]]
+- getCheckType(String;Schema.Type) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#169]]]
++ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#177]]]
 } 
 @enduml

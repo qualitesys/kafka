@@ -2,11 +2,11 @@
 !pragma layout smetana
 QueryResult_R_ <|-- org.apache.kafka.streams.query.internals.AbstractQueryResult
 class org.apache.kafka.streams.query.internals.AbstractQueryResult {
-+  AbstractQueryResult()
-+  AbstractQueryResult(List<String>;Position)
-+  addExecutionInfo(String)
-+  setPosition(Position)
-+  getExecutionInfo()
-+  getPosition()
++ AbstractQueryResult() : AbstractQueryResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#19]]]
++ AbstractQueryResult(List<String>;Position) : AbstractQueryResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#23]]]
++ addExecutionInfo(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#29]]]
++ setPosition(Position) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#34]]]
++ getExecutionInfo() : List<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#39]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.html#44]]]
 } 
 @enduml

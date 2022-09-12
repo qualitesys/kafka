@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaFilter
 class org.apache.kafka.common.quota.ClientQuotaFilter {
-+  ClientQuotaFilter(Collection<ClientQuotaFilterComponent>;boolean)
-+  contains(Collection<ClientQuotaFilterComponent>)
-+  containsOnly(Collection<ClientQuotaFilterComponent>)
-+  all()
-+  components()
-+  strict()
-+  equals(Object)
-+  hashCode()
-+  toString()
+- ClientQuotaFilter(Collection<ClientQuotaFilterComponent>;boolean) : ClientQuotaFilter [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#16]]]
++ contains(Collection<ClientQuotaFilterComponent>) : ClientQuotaFilter [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#22]]]
++ containsOnly(Collection<ClientQuotaFilterComponent>) : ClientQuotaFilter [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#27]]]
++ all() : ClientQuotaFilter [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#32]]]
++ components() : Collection<ClientQuotaFilterComponent> [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#37]]]
++ strict() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#42]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#47]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#55]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#60]]]
 } 
 @enduml

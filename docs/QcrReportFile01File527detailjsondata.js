@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.Protocol" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#18"
  , "c1" : "String"
  , "c2" : "indentString(int)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#25"
  , "c1" : "void"
  , "c2" : "schemaToBnfHtml(Schema;StringBuilder;int)"
  , "c3" : "11"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#69"
  , "c1" : "void"
  , "c2" : "populateSchemaFields(Schema;Set<BoundField>)"
  , "c3" : "6"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#81"
  , "c1" : "void"
  , "c2" : "schemaToFieldTableHtml(Schema;StringBuilder)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#103"
  , "c1" : "String"
  , "c2" : "toHtml()"
  , "c3" : "8"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00175"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#175"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

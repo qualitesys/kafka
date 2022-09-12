@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedCacheFlushListener.java.html#20"
  , "c1" : "TimestampedCacheFlushListener"
  , "c2" : "TimestampedCacheFlushListener(ProcessorContext<KOut,Change<VOut>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedCacheFlushListener.java.html#26"
  , "c1" : "void"
  , "c2" : "apply(Record<KOut,Change<ValueAndTimestamp<VOut>>>)"
  , "c3" : "1"

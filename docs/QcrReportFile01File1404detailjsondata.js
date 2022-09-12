@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.NetworkChannel" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#10"
  , "c1" : "int"
  , "c2" : "newCorrelationId()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#13"
  , "c1" : "void"
  , "c2" : "send(RaftRequest.Outbound)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#16"
  , "c1" : "void"
  , "c2" : "updateEndpoint(int;RaftConfig.InetAddressSpec)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#18"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

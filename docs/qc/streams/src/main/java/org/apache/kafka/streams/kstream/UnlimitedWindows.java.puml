@@ -2,14 +2,14 @@
 !pragma layout smetana
 Windows_UnlimitedWindow_ <|-- org.apache.kafka.streams.kstream.UnlimitedWindows
 class org.apache.kafka.streams.kstream.UnlimitedWindows {
-+  UnlimitedWindows(long)
-+  of()
-+  startOn(Instant)
-+  windowsFor(long)
-+  size()
-+  gracePeriodMs()
-+  equals(Object)
-+  hashCode()
-+  toString()
+- UnlimitedWindows(long) : UnlimitedWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#24]]]
++ of() : UnlimitedWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#29]]]
++ startOn(Instant) : UnlimitedWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#34]]]
++ windowsFor(long) : Map<Long,UnlimitedWindow> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#44]]]
++ size() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#57]]]
++ gracePeriodMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#62]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#67]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#79]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#84]]]
 } 
 @enduml

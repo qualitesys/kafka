@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.BrokerRegistration" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#27"
  , "c1" : "Map<String,Endpoint>"
  , "c2" : "listenersToMap(Collection<Endpoint>)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#44"
  , "c1" : "BrokerRegistration"
  , "c2" : "BrokerRegistration(int;long;Uuid;List<Endpoint>;Map<String,VersionRange>;Optional<String>;boolean;boolean)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#56"
  , "c1" : "BrokerRegistration"
  , "c2" : "BrokerRegistration(int;long;Uuid;Map<String,Endpoint>;Map<String,VersionRange>;Optional<String>;boolean;boolean)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#83"
  , "c1" : "BrokerRegistration"
  , "c2" : "fromRecord(RegisterBrokerRecord)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#106"
  , "c1" : "int"
  , "c2" : "id()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#110"
  , "c1" : "long"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#114"
  , "c1" : "Uuid"
  , "c2" : "incarnationId()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#118"
  , "c1" : "Map<String,Endpoint>"
  , "c2" : "listeners()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#122"
  , "c1" : "Optional<Node>"
  , "c2" : "node(String)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#130"
  , "c1" : "Map<String,VersionRange>"
  , "c2" : "supportedFeatures()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#134"
  , "c1" : "Optional<String>"
  , "c2" : "rack()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#138"
  , "c1" : "boolean"
  , "c2" : "fenced()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#142"
  , "c1" : "boolean"
  , "c2" : "inControlledShutdown()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00146"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#146"
  , "c1" : "ApiMessageAndVersion"
  , "c2" : "toRecord(MetadataVersion)"
  , "c3" : "4"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00179"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#179"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00185"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#185"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00199"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#199"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00220"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#220"
  , "c1" : "BrokerRegistration"
  , "c2" : "cloneWith(Optional<Boolean>;Optional<Boolean>)"
  , "c3" : "2"

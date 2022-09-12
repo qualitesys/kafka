@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.HasNextCondition" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/HasNextCondition.java.html#8"
  , "c1" : "boolean"
  , "c2" : "hasNext(KeyValueIterator<Bytes,?>)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConfigsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#20"
  , "c1" : "DescribeConfigsResult"
  , "c2" : "DescribeConfigsResult(Map<ConfigResource,KafkaFuture<Config>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#25"
  , "c1" : "Map<ConfigResource,KafkaFuture<Config>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsResult.java.html#30"
  , "c1" : "KafkaFuture<Map<ConfigResource,Config>>"
  , "c2" : "all()"
  , "c3" : "2"

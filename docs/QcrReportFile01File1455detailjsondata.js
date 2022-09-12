@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.common.ProducerIdsBlock" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#17"
  , "c1" : "ProducerIdsBlock"
  , "c2" : "ProducerIdsBlock(int;long;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#24"
  , "c1" : "int"
  , "c2" : "assignedBrokerId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#29"
  , "c1" : "long"
  , "c2" : "firstProducerId()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#34"
  , "c1" : "int"
  , "c2" : "size()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#39"
  , "c1" : "long"
  , "c2" : "lastProducerId()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#44"
  , "c1" : "long"
  , "c2" : "nextBlockFirstId()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#49"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#66"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

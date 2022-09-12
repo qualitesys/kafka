@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.QuorumFeatures" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#34"
  , "c1" : "QuorumFeatures"
  , "c2" : "QuorumFeatures(int;ApiVersions;Map<String,VersionRange>;List<Integer>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#46"
  , "c1" : "QuorumFeatures"
  , "c2" : "create(int;ApiVersions;Map<String,VersionRange>;Collection<Node>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#56"
  , "c1" : "Map<String,VersionRange>"
  , "c2" : "defaultFeatureMap()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#65"
  , "c1" : "Optional<String>"
  , "c2" : "reasonNotSupported(String;short)"
  , "c3" : "11"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#101"
  , "c1" : "VersionRange"
  , "c2" : "localSupportedFeature(String)"
  , "c3" : "1"

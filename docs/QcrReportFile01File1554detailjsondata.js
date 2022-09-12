@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.errors.StateStoreMigratedException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.html#9"
  , "c1" : "StateStoreMigratedException"
  , "c2" : "StateStoreMigratedException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.html#13"
  , "c1" : "StateStoreMigratedException"
  , "c2" : "StateStoreMigratedException(String;Throwable)"
  , "c3" : "1"

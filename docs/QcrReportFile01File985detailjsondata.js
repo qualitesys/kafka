@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.source.SourceTaskContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTaskContext.java.html#11"
  , "c1" : "Map<String,String>"
  , "c2" : "configs()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTaskContext.java.html#14"
  , "c1" : "OffsetStorageReader"
  , "c2" : "offsetStorageReader()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTaskContext.java.html#17"
  , "c1" : "TransactionContext"
  , "c2" : "transactionContext()"
  , "c3" : "1"

@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.TaskMetadata
 class org.apache.kafka.streams.processor.TaskMetadata {
-+  TaskMetadata(String;Set<TopicPartition>;Map<TopicPartition,Long>;Map<TopicPartition,Long>;Optional<Long>)
-+  taskId()
-+  topicPartitions()
-+  committedOffsets()
-+  endOffsets()
-+  timeCurrentIdlingStarted()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ TaskMetadata(String;Set<TopicPartition>;Map<TopicPartition,Long>;Map<TopicPartition,Long>;Optional<Long>) : TaskMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#27]]]
++ taskId() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#40]]]
++ topicPartitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#44]]]
++ committedOffsets() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#49]]]
++ endOffsets() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#54]]]
++ timeCurrentIdlingStarted() : Optional<Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#59]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#64]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#77]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskMetadata.java.html#82]]]
 } 
 @enduml

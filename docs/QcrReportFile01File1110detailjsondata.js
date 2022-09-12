@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.NotLeaderException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/NotLeaderException.java.html#7"
  , "c1" : "NotLeaderException"
  , "c2" : "NotLeaderException(String;String)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.StoreQueryUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#79"
  , "c1" : "StoreQueryUtils"
  , "c2" : "StoreQueryUtils()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
  , "c1" : "void"
  , "c2" : "updatePosition(Position;StateStoreContext)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
  , "c1" : "boolean"
  , "c2" : "isPermitted(Position;PositionBound;int)"
  , "c3" : "7"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00330"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330"
  , "c1" : "void"
  , "c2" : "checkpointPosition(OffsetCheckpoint;Position)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00339"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339"
  , "c1" : "Position"
  , "c2" : "readPositionFromCheckpoint(OffsetCheckpoint)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00347"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "positionToTopicPartitionMap(Position)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00360"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360"
  , "c1" : "Position"
  , "c2" : "topicPartitionMapToPosition(Map<TopicPartition,Long>)"
  , "c3" : "2"

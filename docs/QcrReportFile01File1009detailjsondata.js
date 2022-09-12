@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.json.JsonSchema" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#46"
  , "c1" : "ObjectNode"
  , "c2" : "envelope(JsonNode;JsonNode)"
  , "c3" : "1"

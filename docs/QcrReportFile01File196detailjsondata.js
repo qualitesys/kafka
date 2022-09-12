@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.StickyAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#44"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#49"
  , "c1" : "void"
  , "c2" : "onAssignment(Assignment;ConsumerGroupMetadata)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#55"
  , "c1" : "ByteBuffer"
  , "c2" : "subscriptionUserData(Set<String>)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#63"
  , "c1" : "MemberData"
  , "c2" : "memberData(Subscription)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#72"
  , "c1" : "ByteBuffer"
  , "c2" : "serializeTopicPartitionAssignment(MemberData)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#90"
  , "c1" : "MemberData"
  , "c2" : "deserializeTopicPartitionAssignment(ByteBuffer)"
  , "c3" : "3"

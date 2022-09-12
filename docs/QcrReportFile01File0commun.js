@@ -105,11 +105,13 @@ function genererBloc02() {
          var mesMeth = monBloc.methodes;
          for (var liIndJ=0; liIndJ<mesMeth.length; liIndJ++) {
             if (0==(liIndJ%2)) lsStr+='<tr class="b">';
-
             if (1==(liIndJ%2)) lsStr+='<tr class="a">';
-
             lsStr+='<td>'+mesMeth[liIndJ].ligne.c1+'</td>';
-            lsStr+='<td>'+mesMeth[liIndJ].ligne.c2+'</td>';
+            if (mesMeth[liIndJ].ligne.c5link) {
+               lsStr+='<td><a href ="'+calculerUrl('link',mesMeth[liIndJ].ligne.c5link)+'">'+mesMeth[liIndJ].ligne.c2+'</a></td>';
+            } else {
+               lsStr+='<td>'+mesMeth[liIndJ].ligne.c2+'</td>';
+            }
             lsStr+='<td align="right">'+mesMeth[liIndJ].ligne.c3+'</td>';
             lsStr+='<td align="right">'+mesMeth[liIndJ].ligne.c4+'</td>';
             lsStr+='</tr>';
@@ -136,7 +138,7 @@ function genererBloc03() {
 
       } else {
 
-         lsStr+='<img src="'+maDataBlocs.data03[0].ligneplantuml+'" alt = "Hardcopy image">';
+         lsStr+='<object data="'+maDataBlocs.data03[0].ligneplantuml+'" alt = "Hardcopy image">';
 
       }
 

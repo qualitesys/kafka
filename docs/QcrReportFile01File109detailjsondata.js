@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.ListOffsetsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#15"
  , "c1" : "ListOffsetsOptions"
  , "c2" : "ListOffsetsOptions()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#19"
  , "c1" : "ListOffsetsOptions"
  , "c2" : "ListOffsetsOptions(IsolationLevel)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#23"
  , "c1" : "IsolationLevel"
  , "c2" : "isolationLevel()"
  , "c3" : "1"

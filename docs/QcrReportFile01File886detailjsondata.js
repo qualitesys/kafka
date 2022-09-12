@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.ByteBufferUnmapper" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#45"
  , "c1" : "ByteBufferUnmapper"
  , "c2" : "ByteBufferUnmapper()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#48"
  , "c1" : "void"
  , "c2" : "unmap(String;ByteBuffer)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#61"
  , "c1" : "MethodHandle"
  , "c2" : "lookupUnmapMethodHandle()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#74"
  , "c1" : "MethodHandle"
  , "c2" : "unmapJava7Or8(MethodHandles.Lookup)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#90"
  , "c1" : "MethodHandle"
  , "c2" : "unmapJava9(MethodHandles.Lookup)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
  , "c1" : "boolean"
  , "c2" : "nonNull(Object)"
  , "c3" : "1"

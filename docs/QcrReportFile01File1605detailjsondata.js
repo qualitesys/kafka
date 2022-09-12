@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.Suppressed" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Suppressed.java.html#64"
  , "c1" : "Suppressed<Windowed>"
  , "c2" : "untilWindowCloses(StrictBufferConfig)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Suppressed.java.html#75"
  , "c1" : "Suppressed<K>"
  , "c2" : "withName(String)"
  , "c3" : "1"

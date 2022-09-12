@@ -2,9 +2,9 @@
 !pragma layout smetana
 ConnectException <|-- org.apache.kafka.connect.runtime.distributed.RequestTargetException
 class org.apache.kafka.connect.runtime.distributed.RequestTargetException {
-+  RequestTargetException(String;String)
-+  RequestTargetException(String;Throwable;String)
-+  RequestTargetException(Throwable;String)
-+  forwardUrl()
++ RequestTargetException(String;String) : RequestTargetException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.html#10]]]
++ RequestTargetException(String;Throwable;String) : RequestTargetException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.html#15]]]
++ RequestTargetException(Throwable;String) : RequestTargetException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.html#20]]]
++ forwardUrl() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.html#25]]]
 } 
 @enduml

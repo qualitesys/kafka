@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#16"
  , "c1" : "StickyPartitionCache"
  , "c2" : "StickyPartitionCache()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#20"
  , "c1" : "int"
  , "c2" : "partition(String;Cluster)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#28"
  , "c1" : "int"
  , "c2" : "nextPartition(String;Cluster;int)"
  , "c3" : "9"

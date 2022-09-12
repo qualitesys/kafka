@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.jmh.common.TopicBenchmark
 class org.apache.kafka.jmh.common.TopicBenchmark {
-+  testValidate(BenchState)
++ testValidate(BenchState) : BenchState [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/TopicBenchmark.java.html#33]]]
 } 
 @enduml

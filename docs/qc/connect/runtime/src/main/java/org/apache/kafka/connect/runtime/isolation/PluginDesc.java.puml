@@ -2,16 +2,16 @@
 !pragma layout smetana
 Comparable_PluginDesc_T__ <|-- org.apache.kafka.connect.runtime.isolation.PluginDesc
 class org.apache.kafka.connect.runtime.isolation.PluginDesc {
-+  PluginDesc(Class<?extendsT>;String;ClassLoader)
-+  toString()
-+  pluginClass()
-+  className()
-+  version()
-+  type()
-+  typeName()
-+  location()
-+  equals(Object)
-+  hashCode()
-+  compareTo(PluginDesc<T>)
++ PluginDesc(Class<?extendsT>;String;ClassLoader) : PluginDesc [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#18]]]
++ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#31]]]
++ pluginClass() : Class<?extendsT> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#43]]]
++ className() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#48]]]
++ version() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#53]]]
++ type() : PluginType [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#57]]]
++ typeName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#62]]]
++ location() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#67]]]
++ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#72]]]
++ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#86]]]
++ compareTo(PluginDesc<T>) : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#91]]]
 } 
 @enduml

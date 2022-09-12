@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.AddOffsetsToTxnRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#35"
  , "c1" : "AddOffsetsToTxnRequest"
  , "c2" : "AddOffsetsToTxnRequest(AddOffsetsToTxnRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#41"
  , "c1" : "AddOffsetsToTxnRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#46"
  , "c1" : "AddOffsetsToTxnResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnRequest.java.html#52"
  , "c1" : "AddOffsetsToTxnRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

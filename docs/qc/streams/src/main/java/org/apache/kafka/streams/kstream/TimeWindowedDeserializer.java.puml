@@ -2,14 +2,14 @@
 !pragma layout smetana
 Deserializer_Windowed_T__ <|-- org.apache.kafka.streams.kstream.TimeWindowedDeserializer
 class org.apache.kafka.streams.kstream.TimeWindowedDeserializer {
-+  TimeWindowedDeserializer()
-+  TimeWindowedDeserializer(Deserializer<T>)
-+  TimeWindowedDeserializer(Deserializer<T>;Long)
-+  getWindowSize()
-+  configure(Map<String,?>;boolean)
-+  deserialize(String;byte[])
-+  close()
-+  setIsChangelogTopic(boolean)
-+  innerDeserializer()
++ TimeWindowedDeserializer() : TimeWindowedDeserializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#21]]]
++ TimeWindowedDeserializer(Deserializer<T>) : TimeWindowedDeserializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#26]]]
++ TimeWindowedDeserializer(Deserializer<T>;Long) : TimeWindowedDeserializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#30]]]
++ getWindowSize() : Long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#36]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#42]]]
++ deserialize(String;byte[]) : Windowed<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#87]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#104]]]
++ setIsChangelogTopic(boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#110]]]
+innerDeserializer() : Deserializer<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#115]]]
 } 
 @enduml

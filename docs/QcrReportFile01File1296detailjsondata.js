@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.AclControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#45"
  , "c1" : "AclControlManager"
  , "c2" : "AclControlManager(SnapshotRegistry;Optional<ClusterMetadataAuthorizer>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#52"
  , "c1" : "ControllerResult<List<AclCreateResult>>"
  , "c2" : "createAcls(List<AclBinding>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#75"
  , "c1" : "Uuid"
  , "c2" : "newAclId()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#83"
  , "c1" : "void"
  , "c2" : "validateNewAcl(AclBinding)"
  , "c3" : "9"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#118"
  , "c1" : "ControllerResult<List<AclDeleteResult>>"
  , "c2" : "deleteAcls(List<AclBindingFilter>)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#133"
  , "c1" : "AclDeleteResult"
  , "c2" : "deleteAclsForFilter(AclBindingFilter;Set<ApiMessageAndVersion>)"
  , "c3" : "3"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00149"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#149"
  , "c1" : "void"
  , "c2" : "validateFilter(AclBindingFilter)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00158"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#158"
  , "c1" : "void"
  , "c2" : "replay(AccessControlEntryRecord;Optional<OffsetAndEpoch>)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#170"
  , "c1" : "void"
  , "c2" : "replay(RemoveAccessControlEntryRecord;Optional<OffsetAndEpoch>)"
  , "c3" : "4"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00188"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#188"
  , "c1" : "Map<Uuid,StandardAcl>"
  , "c2" : "idToAcl()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#192"
  , "c1" : "Iterator<List<ApiMessageAndVersion>>"
  , "c2" : "iterator(long)"
  , "c3" : "1"

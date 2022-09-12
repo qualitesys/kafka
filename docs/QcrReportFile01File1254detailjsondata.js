@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.MessageClassGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageClassGenerator.java.html#9"
  , "c1" : "String"
  , "c2" : "outputName(MessageSpec)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageClassGenerator.java.html#12"
  , "c1" : "void"
  , "c2" : "generateAndWrite(MessageSpec;BufferedWriter)"
  , "c3" : "1"

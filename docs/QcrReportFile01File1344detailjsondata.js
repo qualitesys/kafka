@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.TopicDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#23"
  , "c1" : "TopicDelta"
  , "c2" : "TopicDelta(TopicImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#27"
  , "c1" : "TopicImage"
  , "c2" : "image()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#31"
  , "c1" : "Map<Integer,PartitionRegistration>"
  , "c2" : "partitionChanges()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#35"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#39"
  , "c1" : "Uuid"
  , "c2" : "id()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#43"
  , "c1" : "void"
  , "c2" : "replay(PartitionRecord)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#47"
  , "c1" : "void"
  , "c2" : "replay(PartitionChangeRecord)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#59"
  , "c1" : "TopicImage"
  , "c2" : "apply()"
  , "c3" : "6"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#79"
  , "c1" : "LocalReplicaChanges"
  , "c2" : "localChanges(int)"
  , "c3" : "10"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#116"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

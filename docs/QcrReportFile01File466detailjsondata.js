@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.Sensor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#118"
  , "c1" : "Sensor"
  , "c2" : "Sensor(Metrics;String;Sensor[];MetricConfig;Time;long;RecordingLevel)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#136"
  , "c1" : "void"
  , "c2" : "checkForest(Set<Sensor>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#144"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#148"
  , "c1" : "List<Sensor>"
  , "c2" : "parents()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00153"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#153"
  , "c1" : "boolean"
  , "c2" : "shouldRecord()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00158"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#158"
  , "c1" : "void"
  , "c2" : "record()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#165"
  , "c1" : "void"
  , "c2" : "record(double)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#172"
  , "c1" : "void"
  , "c2" : "record(double;long)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00179"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#179"
  , "c1" : "void"
  , "c2" : "record(double;long;boolean)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00185"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#185"
  , "c1" : "void"
  , "c2" : "recordInternal(double;long;boolean)"
  , "c3" : "4"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#202"
  , "c1" : "void"
  , "c2" : "checkQuotas()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#206"
  , "c1" : "void"
  , "c2" : "checkQuotas(long)"
  , "c3" : "8"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#228"
  , "c1" : "boolean"
  , "c2" : "add(CompoundStat)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00233"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#233"
  , "c1" : "boolean"
  , "c2" : "add(CompoundStat;MetricConfig)"
  , "c3" : "5"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00254"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#254"
  , "c1" : "boolean"
  , "c2" : "add(MetricName;MeasurableStat)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00259"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#259"
  , "c1" : "boolean"
  , "c2" : "add(MetricName;MeasurableStat;MetricConfig)"
  , "c3" : "6"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00284"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#284"
  , "c1" : "boolean"
  , "c2" : "hasMetrics()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00289"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#289"
  , "c1" : "boolean"
  , "c2" : "hasExpired()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00293"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#293"
  , "c1" : "List<KafkaMetric>"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00298"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#298"
  , "c1" : "Object"
  , "c2" : "metricLock()"
  , "c3" : "1"

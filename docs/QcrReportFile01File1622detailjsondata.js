@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.ValueTransformerWithKeySupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerWithKeySupplier.java.html#12"
  , "c1" : "ValueTransformerWithKey<K,V,VR>"
  , "c2" : "get()"
  , "c3" : "1"

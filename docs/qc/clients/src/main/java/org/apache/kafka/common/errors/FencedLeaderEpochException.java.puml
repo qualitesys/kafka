@@ -2,7 +2,7 @@
 !pragma layout smetana
 InvalidMetadataException <|-- org.apache.kafka.common.errors.FencedLeaderEpochException
 class org.apache.kafka.common.errors.FencedLeaderEpochException {
-+  FencedLeaderEpochException(String)
-+  FencedLeaderEpochException(String;Throwable)
++ FencedLeaderEpochException(String) : FencedLeaderEpochException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.html#8]]]
++ FencedLeaderEpochException(String;Throwable) : FencedLeaderEpochException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.html#12]]]
 } 
 @enduml

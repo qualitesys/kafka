@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.compress.ZstdFactory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#22"
  , "c1" : "ZstdFactory"
  , "c2" : "ZstdFactory()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#24"
  , "c1" : "OutputStream"
  , "c2" : "wrapForOutput(ByteBufferOutputStream)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#34"
  , "c1" : "InputStream"
  , "c2" : "wrapForInput(ByteBuffer;byte;BufferSupplier)"
  , "c3" : "1"

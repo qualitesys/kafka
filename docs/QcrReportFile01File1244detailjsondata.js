@@ -23,6 +23,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.examples.Producer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Producer.java.html#23"
  , "c1" : "Producer"
  , "c2" : "Producer(String;Boolean;String;boolean;int;int;CountDownLatch)"
  , "c3" : "3"
@@ -30,6 +32,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Producer.java.html#50"
  , "c1" : "KafkaProducer<Integer,String>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -37,6 +41,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Producer.java.html#55"
  , "c1" : "void"
  , "c2" : "run()"
  , "c3" : "4"
@@ -44,6 +50,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Producer.java.html#89"
  , "c1" : "DemoCallBack"
  , "c2" : "DemoCallBack(long;int;String)"
  , "c3" : "1"
@@ -51,6 +59,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/Producer.java.html#96"
  , "c1" : "void"
  , "c2" : "onCompletion(RecordMetadata;Exception)"
  , "c3" : "3"

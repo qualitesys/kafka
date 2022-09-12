@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.source.SourceConnectorContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.html#11"
  , "c1" : "OffsetStorageReader"
  , "c2" : "offsetStorageReader()"
  , "c3" : "1"

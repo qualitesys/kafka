@@ -2,10 +2,10 @@
 !pragma layout smetana
 Configurable <|-- org.apache.kafka.common.config.provider.ConfigProvider
 class org.apache.kafka.common.config.provider.ConfigProvider {
-+  get(String)
-+  get(String;Set<String>)
-+  subscribe(String;Set<String>;ConfigChangeCallback)
-+  unsubscribe(String;Set<String>;ConfigChangeCallback)
-+  unsubscribeAll()
+get(String) : ConfigData [[[././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#15]]]
+get(String;Set<String>) : ConfigData [[[././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#18]]]
+subscribe(String;Set<String>;ConfigChangeCallback) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#21]]]
+unsubscribe(String;Set<String>;ConfigChangeCallback) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#26]]]
+unsubscribeAll() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#31]]]
 } 
 @enduml

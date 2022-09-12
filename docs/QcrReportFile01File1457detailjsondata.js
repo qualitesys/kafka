@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#22"
  , "c1" : "byte[]"
  , "c2" : "serialize(ApiMessageAndVersion)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#31"
  , "c1" : "ApiMessageAndVersion"
  , "c2" : "deserialize(byte[])"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#38"
  , "c1" : "ApiMessage"
  , "c2" : "apiMessageFor(short)"
  , "c3" : "1"

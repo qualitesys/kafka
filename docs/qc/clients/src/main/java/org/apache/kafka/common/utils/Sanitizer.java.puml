@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.Sanitizer
 class org.apache.kafka.common.utils.Sanitizer {
-+  sanitize(String)
-+  desanitize(String)
-+  jmxSanitize(String)
++ sanitize(String) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#21]]]
++ desanitize(String) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#43]]]
++ jmxSanitize(String) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#52]]]
 } 
 @enduml

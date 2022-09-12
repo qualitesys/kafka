@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.Fetcher" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#130"
  , "c1" : "Fetcher"
  , "c2" : "Fetcher(LogContext;ConsumerNetworkClient;int;int;int;int;int;boolean;String;Deserializer<K>;Deserializer<V>;ConsumerMetadata;SubscriptionState;Metrics;FetcherMetricsRegistry;Time;long;long;IsolationLevel;ApiVersions)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00190"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#190"
  , "c1" : "boolean"
  , "c2" : "hasCompletedFetches()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00195"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#195"
  , "c1" : "boolean"
  , "c2" : "hasAvailableFetches()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00200"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#200"
  , "c1" : "int"
  , "c2" : "sendFetches()"
  , "c3" : "14"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00314"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#314"
  , "c1" : "Map<String,List<PartitionInfo>>"
  , "c2" : "getAllTopicMetadata(Timer)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00319"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#319"
  , "c1" : "Map<String,List<PartitionInfo>>"
  , "c2" : "getTopicMetadata(MetadataRequest.Builder;Timer)"
  , "c3" : "17"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00380"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#380"
  , "c1" : "RequestFuture<ClientResponse>"
  , "c2" : "sendMetadataRequest(MetadataRequest.Builder)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00388"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#388"
  , "c1" : "Long"
  , "c2" : "offsetResetStrategyTimestamp(TopicPartition)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00398"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#398"
  , "c1" : "OffsetResetStrategy"
  , "c2" : "timestampToOffsetResetStrategy(long)"
  , "c3" : "5"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00408"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#408"
  , "c1" : "void"
  , "c2" : "resetOffsetsIfNeeded()"
  , "c3" : "5"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00429"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#429"
  , "c1" : "void"
  , "c2" : "validateOffsetsIfNeeded()"
  , "c3" : "2"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00448"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#448"
  , "c1" : "Map<TopicPartition,OffsetAndTimestamp>"
  , "c2" : "offsetsForTimes(Map<TopicPartition,Long>;Timer)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00474"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#474"
  , "c1" : "ListOffsetResult"
  , "c2" : "fetchOffsetsByTimes(Map<TopicPartition,Long>;Timer;boolean)"
  , "c3" : "14"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00541"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#541"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "beginningOffsets(Collection<TopicPartition>;Timer)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00545"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#545"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "endOffsets(Collection<TopicPartition>;Timer)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00549"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#549"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "beginningOrEndOffset(Collection<TopicPartition>;long;Timer)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00568"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#568"
  , "c1" : "Fetch<K,V>"
  , "c2" : "collectFetch()"
  , "c3" : "11"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00622"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#622"
  , "c1" : "Fetch<K,V>"
  , "c2" : "fetchRecords(CompletedFetch;int)"
  , "c3" : "11"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00682"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#682"
  , "c1" : "void"
  , "c2" : "resetOffsetIfNeeded(TopicPartition;OffsetResetStrategy;ListOffsetData)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00691"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#691"
  , "c1" : "void"
  , "c2" : "resetOffsetsAsync(Map<TopicPartition,Long>)"
  , "c3" : "5"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00728"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#728"
  , "c1" : "boolean"
  , "c2" : "hasUsableOffsetForLeaderEpochVersion(NodeApiVersions)"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00737"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#737"
  , "c1" : "void"
  , "c2" : "validateOffsetsAsync(Map<TopicPartition,FetchPosition>)"
  , "c3" : "8"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00809"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#809"
  , "c1" : "LogTruncationException"
  , "c2" : "buildLogTruncationException(List<SubscriptionState.LogTruncation>)"
  , "c3" : "2"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00821"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#821"
  , "c1" : "void"
  , "c2" : "maybeSetOffsetForLeaderException(RuntimeException)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00828"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#828"
  , "c1" : "RequestFuture<ListOffsetResult>"
  , "c2" : "sendListOffsetsRequests(Map<TopicPartition,Long>;boolean)"
  , "c3" : "5"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00869"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#869"
  , "c1" : "Map<Node,Map<TopicPartition,ListOffsetsPartition>>"
  , "c2" : "groupListOffsetRequests(Map<TopicPartition,Long>;Set<TopicPartition>)"
  , "c3" : "6"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00906"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#906"
  , "c1" : "RequestFuture<ListOffsetResult>"
  , "c2" : "sendListOffsetRequest(Node;Map<TopicPartition,ListOffsetsPartition>;boolean)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00926"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#926"
  , "c1" : "void"
  , "c2" : "handleListOffsetResponse(ListOffsetsResponse;RequestFuture<ListOffsetResult>)"
  , "c3" : "22"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1022"
  , "c1" : "List<TopicPartition>"
  , "c2" : "fetchablePartitions()"
  , "c3" : "3"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1034"
  , "c1" : "Node"
  , "c2" : "selectReadReplica(TopicPartition;Node;long)"
  , "c3" : "5"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1052"
  , "c1" : "void"
  , "c2" : "validatePositionsOnMetadataChange()"
  , "c3" : "2"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1063"
  , "c1" : "Map<Node,FetchSessionHandler.FetchRequestData>"
  , "c2" : "prepareFetchRequests()"
  , "c3" : "11"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1124"
  , "c1" : "Map<Node,Map<TopicPartition,FetchPosition>>"
  , "c2" : "regroupFetchPositionsByLeader(Map<TopicPartition,FetchPosition>)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01141"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1141"
  , "c1" : "CompletedFetch"
  , "c2" : "initializeCompletedFetch(CompletedFetch)"
  , "c3" : "37"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01275"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1275"
  , "c1" : "void"
  , "c2" : "handleOffsetOutOfRange(FetchPosition;TopicPartition)"
  , "c3" : "3"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01288"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1288"
  , "c1" : "ConsumerRecord<K,V>"
  , "c2" : "parseRecord(TopicPartition;RecordBatch;Record)"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01315"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1315"
  , "c1" : "Optional<Integer>"
  , "c2" : "maybeLeaderEpoch(int)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01320"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1320"
  , "c1" : "void"
  , "c2" : "clearBufferedDataForUnassignedPartitions(Collection<TopicPartition>)"
  , "c3" : "4"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01338"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1338"
  , "c1" : "void"
  , "c2" : "clearBufferedDataForUnassignedTopics(Collection<String>)"
  , "c3" : "3"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01349"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1349"
  , "c1" : "FetchSessionHandler"
  , "c2" : "sessionHandler(int)"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01353"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1353"
  , "c1" : "Sensor"
  , "c2" : "throttleTimeSensor(Metrics;FetcherMetricsRegistry)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01798"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1798"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01804"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1804"
  , "c1" : "Set<String>"
  , "c2" : "topicsForPartitions(Collection<TopicPartition>)"
  , "c3" : "1"

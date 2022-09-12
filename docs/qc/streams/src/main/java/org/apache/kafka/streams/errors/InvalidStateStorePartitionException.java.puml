@@ -2,7 +2,7 @@
 !pragma layout smetana
 InvalidStateStoreException <|-- org.apache.kafka.streams.errors.InvalidStateStorePartitionException
 class org.apache.kafka.streams.errors.InvalidStateStorePartitionException {
-+  InvalidStateStorePartitionException(String)
-+  InvalidStateStorePartitionException(String;Throwable)
++ InvalidStateStorePartitionException(String) : InvalidStateStorePartitionException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html#11]]]
++ InvalidStateStorePartitionException(String;Throwable) : InvalidStateStorePartitionException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html#15]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractState <|-- org.apache.kafka.connect.health.ConnectorState
 class org.apache.kafka.connect.health.ConnectorState {
-+  ConnectorState(String;String;String)
-+  toString()
++ ConnectorState(String;String;String) : ConnectorState [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorState.java.html#9]]]
++ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorState.java.html#14]]]
 } 
 @enduml

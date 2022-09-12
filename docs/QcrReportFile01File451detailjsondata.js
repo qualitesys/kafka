@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.memory.SimpleMemoryPool" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#24"
  , "c1" : "SimpleMemoryPool"
  , "c2" : "SimpleMemoryPool(long;int;boolean;Sensor)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#36"
  , "c1" : "ByteBuffer"
  , "c2" : "tryAllocate(int)"
  , "c3" : "8"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#70"
  , "c1" : "void"
  , "c2" : "release(ByteBuffer)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#80"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#85"
  , "c1" : "long"
  , "c2" : "availableMemory()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#90"
  , "c1" : "boolean"
  , "c2" : "isOutOfMemory()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#95"
  , "c1" : "void"
  , "c2" : "bufferToBeReturned(ByteBuffer)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#100"
  , "c1" : "void"
  , "c2" : "bufferToBeReleased(ByteBuffer)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#105"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#110"
  , "c1" : "void"
  , "c2" : "maybeRecordEndOfDrySpell()"
  , "c3" : "3"

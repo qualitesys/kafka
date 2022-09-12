@@ -2,26 +2,26 @@
 !pragma layout smetana
 ChannelBuilder <|-- org.apache.kafka.common.network.SaslChannelBuilder
 class org.apache.kafka.common.network.SaslChannelBuilder {
-+  SaslChannelBuilder(Mode;Map<String,JaasContext>;SecurityProtocol;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;String;Time;LogContext;Supplier<ApiVersionsResponse>)
-+  configure(Map<String,?>)
-+  reconfigurableConfigs()
-+  validateReconfiguration(Map<String,?>)
-+  reconfigure(Map<String,?>)
-+  listenerName()
-+  buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)
-+  close()
-+  buildTransportLayer(String;SelectionKey;SocketChannel;ChannelMetadataRegistry)
-+  buildServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;TransportLayer;Map<String,Subject>;Map<String,Long>;ChannelMetadataRegistry)
-+  buildClientAuthenticator(Map<String,?>;AuthenticateCallbackHandler;String;String;String;TransportLayer;Subject)
-+  loginManagers()
-+  defaultKerberosRealm()
-+  createClientCallbackHandler(Map<String,?>)
-+  createServerCallbackHandlers(Map<String,?>)
-+  createConnectionsMaxReauthMsMap(Map<String,?>)
-+  defaultLoginClass()
-+  clientCallbackHandlerClass()
-+  maybeAddNativeGssapiCredentials(Subject)
-+  gssManager()
-+  subject(String)
++ SaslChannelBuilder(Mode;Map<String,JaasContext>;SecurityProtocol;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;String;Time;LogContext;Supplier<ApiVersionsResponse>) : SaslChannelBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#87]]]
++ configure(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#126]]]
++ reconfigurableConfigs() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#174]]]
++ validateReconfiguration(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#179]]]
++ reconfigure(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#185]]]
++ listenerName() : ListenerName [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#191]]]
++ buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry) : KafkaChannel [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#196]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#230]]]
+buildTransportLayer(String;SelectionKey;SocketChannel;ChannelMetadataRegistry) : TransportLayer [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#240]]]
+buildServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;TransportLayer;Map<String,Subject>;Map<String,Long>;ChannelMetadataRegistry) : SaslServerAuthenticator [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#252]]]
+buildClientAuthenticator(Map<String,?>;AuthenticateCallbackHandler;String;String;String;TransportLayer;Subject) : SaslClientAuthenticator [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#265]]]
+loginManagers() : Map<String,LoginManager> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#276]]]
+- defaultKerberosRealm() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#280]]]
+- createClientCallbackHandler(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#285]]]
+- createServerCallbackHandlers(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#294]]]
+- createConnectionsMaxReauthMsMap(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#315]]]
+defaultLoginClass() : Class<?extendsLogin> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#326]]]
+- clientCallbackHandlerClass() : Class<?extendsAuthenticateCallbackHandler> [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#334]]]
+- maybeAddNativeGssapiCredentials(Subject) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#351]]]
+gssManager() : GSSManager [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#382]]]
+subject(String) : Subject [[[././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#387]]]
 } 
 @enduml

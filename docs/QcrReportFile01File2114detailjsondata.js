@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.tools.TransactionsCommand" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#60"
  , "c1" : "TransactionsCommand"
  , "c2" : "TransactionsCommand(Time)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#65"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#68"
  , "c1" : "void"
  , "c2" : "addSubparser(Subparsers)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#71"
  , "c1" : "void"
  , "c2" : "execute(Admin;Namespace;PrintStream)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00885"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#885"
  , "c1" : "void"
  , "c2" : "appendColumnValue(StringBuilder;String;int)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00896"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#896"
  , "c1" : "void"
  , "c2" : "printRow(List<Integer>;String[];PrintStream)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00911"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#911"
  , "c1" : "void"
  , "c2" : "prettyPrintTable(String[];List<String[]>;PrintStream)"
  , "c3" : "3"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00930"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#930"
  , "c1" : "void"
  , "c2" : "printErrorAndExit(String;Throwable)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00939"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#939"
  , "c1" : "void"
  , "c2" : "printErrorAndExit(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00944"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#944"
  , "c1" : "Admin"
  , "c2" : "buildAdminClient(Namespace)"
  , "c3" : "3"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00965"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#965"
  , "c1" : "ArgumentParser"
  , "c2" : "buildBaseParser()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00994"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#994"
  , "c1" : "void"
  , "c2" : "execute(String[];Function<Namespace,Admin>;PrintStream;Time)"
  , "c3" : "2"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01041"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1041"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

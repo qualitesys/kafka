@@ -2,35 +2,35 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.ByteUtils
 class org.apache.kafka.common.utils.ByteUtils {
-+  ByteUtils()
-+  readUnsignedInt(ByteBuffer)
-+  readUnsignedInt(ByteBuffer;int)
-+  readUnsignedIntLE(InputStream)
-+  readUnsignedIntLE(byte[];int)
-+  writeUnsignedInt(ByteBuffer;int;long)
-+  writeUnsignedInt(ByteBuffer;long)
-+  writeUnsignedIntLE(OutputStream;int)
-+  writeUnsignedIntLE(byte[];int;int)
-+  readUnsignedVarint(ByteBuffer)
-+  readUnsignedVarint(DataInput)
-+  readVarint(ByteBuffer)
-+  readVarint(DataInput)
-+  readVarlong(DataInput)
-+  readVarlong(ByteBuffer)
-+  readDouble(DataInput)
-+  readDouble(ByteBuffer)
-+  writeUnsignedVarint(int;ByteBuffer)
-+  writeUnsignedVarint(int;DataOutput)
-+  writeVarint(int;DataOutput)
-+  writeVarint(int;ByteBuffer)
-+  writeVarlong(long;DataOutput)
-+  writeVarlong(long;ByteBuffer)
-+  writeDouble(double;DataOutput)
-+  writeDouble(double;ByteBuffer)
-+  sizeOfUnsignedVarint(int)
-+  sizeOfVarint(int)
-+  sizeOfVarlong(long)
-+  illegalVarintException(int)
-+  illegalVarlongException(long)
+- ByteUtils() : ByteUtils [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#16]]]
++ readUnsignedInt(ByteBuffer) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#19]]]
++ readUnsignedInt(ByteBuffer;int) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#24]]]
++ readUnsignedIntLE(InputStream) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#29]]]
++ readUnsignedIntLE(byte[];int) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#37]]]
++ writeUnsignedInt(ByteBuffer;int;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#45]]]
++ writeUnsignedInt(ByteBuffer;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#50]]]
++ writeUnsignedIntLE(OutputStream;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#55]]]
++ writeUnsignedIntLE(byte[];int;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#63]]]
++ readUnsignedVarint(ByteBuffer) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#71]]]
++ readUnsignedVarint(DataInput) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#86]]]
++ readVarint(ByteBuffer) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#101]]]
++ readVarint(DataInput) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#107]]]
++ readVarlong(DataInput) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#113]]]
++ readVarlong(ByteBuffer) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#128]]]
++ readDouble(DataInput) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#143]]]
++ readDouble(ByteBuffer) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#148]]]
++ writeUnsignedVarint(int;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#153]]]
++ writeUnsignedVarint(int;DataOutput) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#163]]]
++ writeVarint(int;DataOutput) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#173]]]
++ writeVarint(int;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#178]]]
++ writeVarlong(long;DataOutput) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#183]]]
++ writeVarlong(long;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#193]]]
++ writeDouble(double;DataOutput) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#204]]]
++ writeDouble(double;ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#209]]]
++ sizeOfUnsignedVarint(int) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#214]]]
++ sizeOfVarint(int) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#233]]]
++ sizeOfVarlong(long) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#238]]]
+- illegalVarintException(int) : IllegalArgumentException [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#250]]]
+- illegalVarlongException(long) : IllegalArgumentException [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#255]]]
 } 
 @enduml

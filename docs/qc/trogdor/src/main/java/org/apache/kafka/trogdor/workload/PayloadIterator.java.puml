@@ -2,11 +2,11 @@
 !pragma layout smetana
 Iterator_byte[]_ <|-- org.apache.kafka.trogdor.workload.PayloadIterator
 class org.apache.kafka.trogdor.workload.PayloadIterator {
-+  PayloadIterator(PayloadGenerator)
-+  hasNext()
-+  next()
-+  remove()
-+  seek(long)
-+  position()
++ PayloadIterator(PayloadGenerator) : PayloadIterator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#12]]]
++ hasNext() : boolean [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#17]]]
++ next() : byte[] [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#22]]]
++ remove() : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#27]]]
++ seek(long) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#31]]]
++ position() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#35]]]
 } 
 @enduml

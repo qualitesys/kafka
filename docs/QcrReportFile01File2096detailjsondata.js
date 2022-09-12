@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.NamedCacheMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#11"
  , "c1" : "NamedCacheMetrics"
  , "c2" : "NamedCacheMetrics()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#19"
  , "c1" : "Sensor"
  , "c2" : "hitRatioSensor(StreamsMetricsImpl;String;String;String)"
  , "c3" : "1"

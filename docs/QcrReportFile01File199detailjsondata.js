@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#54"
  , "c1" : "MemberData"
  , "c2" : "memberData(Subscription)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#57"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#76"
  , "c1" : "boolean"
  , "c2" : "allSubscriptionsEqual(Set<String>;Map<String,Subscription>;Map<String,List<TopicPartition>>;Set<TopicPartition>)"
  , "c3" : "12"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#147"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "constrainedAssign(Map<String,Integer>;Map<String,List<TopicPartition>>;Set<TopicPartition>)"
  , "c3" : "32"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00318"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#318"
  , "c1" : "List<TopicPartition>"
  , "c2" : "getAllTopicPartitions(Map<String,Integer>;List<String>;int)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00333"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#333"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "generalAssign(Map<String,Integer>;Map<String,Subscription>;Map<String,List<TopicPartition>>)"
  , "c3" : "16"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00438"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#438"
  , "c1" : "List<TopicPartition>"
  , "c2" : "getUnassignedPartitions(List<TopicPartition>;List<TopicPartition>;Map<String,List<String>>)"
  , "c3" : "7"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00470"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#470"
  , "c1" : "List<TopicPartition>"
  , "c2" : "getUnassignedPartitions(int;Map<String,Integer>;List<TopicPartition>)"
  , "c3" : "8"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00511"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#511"
  , "c1" : "void"
  , "c2" : "updatePrevAssignment(Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;String;int)"
  , "c3" : "5"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00528"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#528"
  , "c1" : "void"
  , "c2" : "prepopulateCurrentAssignments(Map<String,Subscription>;Map<TopicPartition,ConsumerGenerationPair>)"
  , "c3" : "6"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00556"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#556"
  , "c1" : "boolean"
  , "c2" : "isBalanced(Map<String,List<TopicPartition>>;TreeSet<String>;Map<String,List<String>>;Map<String,Integer>;int)"
  , "c3" : "11"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00613"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#613"
  , "c1" : "int"
  , "c2" : "getMaxAssignmentSize(int;List<String>;Map<String,Integer>)"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00626"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#626"
  , "c1" : "int"
  , "c2" : "getBalanceScore(Map<String,List<TopicPartition>>)"
  , "c3" : "4"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00646"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#646"
  , "c1" : "void"
  , "c2" : "assignPartition(TopicPartition;TreeSet<String>;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<TopicPartition,String>)"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00662"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#662"
  , "c1" : "boolean"
  , "c2" : "canParticipateInReassignment(String;Map<String,List<String>>)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00668"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#668"
  , "c1" : "boolean"
  , "c2" : "canParticipateInReassignment(String;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<String,List<String>>;Map<String,Integer>;int)"
  , "c3" : "5"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00696"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#696"
  , "c1" : "void"
  , "c2" : "balance(Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;List<TopicPartition>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;boolean;Map<String,Integer>;int)"
  , "c3" : "11"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00770"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#770"
  , "c1" : "boolean"
  , "c2" : "performReassignments(List<TopicPartition>;Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;Map<String,Integer>;int)"
  , "c3" : "9"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00824"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#824"
  , "c1" : "void"
  , "c2" : "reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;Map<String,List<String>>)"
  , "c3" : "3"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00843"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#843"
  , "c1" : "void"
  , "c2" : "reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;String)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00854"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#854"
  , "c1" : "void"
  , "c2" : "processPartitionMovement(TopicPartition;String;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00873"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#873"
  , "c1" : "boolean"
  , "c2" : "isSticky()"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00877"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#877"
  , "c1" : "void"
  , "c2" : "deepCopy(Map<String,List<TopicPartition>>;Map<String,List<TopicPartition>>)"
  , "c3" : "2"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00883"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#883"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "deepCopy(Map<String,List<TopicPartition>>)"
  , "c3" : "1"

@@ -2,8 +2,8 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.AuthenticationException
 class org.apache.kafka.common.errors.AuthenticationException {
-+  AuthenticationException(String)
-+  AuthenticationException(Throwable)
-+  AuthenticationException(String;Throwable)
++ AuthenticationException(String) : AuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/AuthenticationException.java.html#11]]]
++ AuthenticationException(Throwable) : AuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/AuthenticationException.java.html#15]]]
++ AuthenticationException(String;Throwable) : AuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/AuthenticationException.java.html#19]]]
 } 
 @enduml

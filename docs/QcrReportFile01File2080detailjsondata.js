@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerde.java.html#9"
  , "c1" : "TimestampedKeyAndJoinSideSerde"
  , "c2" : "TimestampedKeyAndJoinSideSerde(Serde<K>)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.queue.KafkaEventQueue" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00303"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#303"
  , "c1" : "KafkaEventQueue"
  , "c2" : "KafkaEventQueue(Time;LogContext;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00318"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#318"
  , "c1" : "void"
  , "c2" : "enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00330"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#330"
  , "c1" : "void"
  , "c2" : "cancelDeferred(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00335"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#335"
  , "c1" : "void"
  , "c2" : "beginShutdown(String;Event;long;TimeUnit)"
  , "c3" : "4"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00360"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#360"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00365"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#365"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.server.builders.LogManagerBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#41"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setLogDirs(List<File>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#46"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setInitialOfflineDirs(List<File>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#51"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setConfigRepository(ConfigRepository)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#56"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setInitialDefaultConfig(LogConfig)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#61"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setCleanerConfig(CleanerConfig)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#66"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setRecoveryThreadsPerDataDir(int)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#71"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setFlushCheckMs(long)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#76"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setFlushRecoveryOffsetCheckpointMs(long)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#81"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setFlushStartOffsetCheckpointMs(long)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#86"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setRetentionCheckMs(long)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#91"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setMaxTransactionTimeoutMs(int)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#96"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setMaxPidExpirationMs(int)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#101"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setInterBrokerProtocolVersion(MetadataVersion)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#106"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setScheduler(Scheduler)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#111"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setBrokerTopicStats(BrokerTopicStats)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#116"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setLogDirFailureChannel(LogDirFailureChannel)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#121"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setTime(Time)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#126"
  , "c1" : "LogManagerBuilder"
  , "c2" : "setKeepPartitionMetadataFile(boolean)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#131"
  , "c1" : "LogManager"
  , "c2" : "build()"
  , "c3" : "8"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignorFactory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00005"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignorFactory.java.html#5"
  , "c1" : "StandbyTaskAssignorFactory"
  , "c2" : "StandbyTaskAssignorFactory()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignorFactory.java.html#7"
  , "c1" : "StandbyTaskAssignor"
  , "c2" : "create(AssignorConfiguration.AssignmentConfigs)"
  , "c3" : "3"

@@ -2,8 +2,8 @@
 !pragma layout smetana
 UnalignedRecords <|-- org.apache.kafka.common.record.UnalignedFileRecords
 class org.apache.kafka.common.record.UnalignedFileRecords {
-+  UnalignedFileRecords(FileChannel;long;int)
-+  sizeInBytes()
-+  writeTo(TransferableChannel;long;int)
++ UnalignedFileRecords(FileChannel;long;int) : UnalignedFileRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#16]]]
++ sizeInBytes() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#23]]]
++ writeTo(TransferableChannel;long;int) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedFileRecords.java.html#28]]]
 } 
 @enduml

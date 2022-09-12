@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ChangelogRegister
 class org.apache.kafka.streams.processor.internals.ChangelogRegister {
-+  register(TopicPartition;ProcessorStateManager)
-+  unregister(Collection<TopicPartition>)
+register(TopicPartition;ProcessorStateManager) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRegister.java.html#10]]]
+unregister(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRegister.java.html#13]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.raft.NetworkChannel
 class org.apache.kafka.raft.NetworkChannel {
-+  newCorrelationId()
-+  send(RaftRequest.Outbound)
-+  updateEndpoint(int;RaftConfig.InetAddressSpec)
-+  close()
+newCorrelationId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#10]]]
+send(RaftRequest.Outbound) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#13]]]
+updateEndpoint(int;RaftConfig.InetAddressSpec) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#16]]]
+close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/NetworkChannel.java.html#18]]]
 } 
 @enduml

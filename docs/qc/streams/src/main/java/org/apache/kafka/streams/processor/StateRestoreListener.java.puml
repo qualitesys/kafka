@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.StateRestoreListener
 class org.apache.kafka.streams.processor.StateRestoreListener {
-+  onRestoreStart(TopicPartition;String;long;long)
-+  onBatchRestored(TopicPartition;String;long;long)
-+  onRestoreEnd(TopicPartition;String;long)
+onRestoreStart(TopicPartition;String;long;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#11]]]
+onBatchRestored(TopicPartition;String;long;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#17]]]
+onRestoreEnd(TopicPartition;String;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#23]]]
 } 
 @enduml

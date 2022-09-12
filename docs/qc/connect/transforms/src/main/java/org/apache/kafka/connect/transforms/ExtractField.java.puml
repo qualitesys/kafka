@@ -2,12 +2,12 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.ExtractField
 class org.apache.kafka.connect.transforms.ExtractField {
-+  configure(Map<String,?>)
-+  apply(R)
-+  close()
-+  config()
-+  operatingSchema(R)
-+  operatingValue(R)
-+  newRecord(R;Schema;Object)
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#34]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#40]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#58]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#62]]]
+operatingSchema(R) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#66]]]
+operatingValue(R) : Object [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#68]]]
+newRecord(R;Schema;Object) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#70]]]
 } 
 @enduml

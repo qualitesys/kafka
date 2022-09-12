@@ -2,21 +2,21 @@
 !pragma layout smetana
 AuthorizableRequestContext <|-- org.apache.kafka.common.requests.RequestContext
 class org.apache.kafka.common.requests.RequestContext {
-+  RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean)
-+  RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean;Optional<KafkaPrincipalSerde>)
-+  parseRequest(ByteBuffer)
-+  buildResponseSend(AbstractResponse)
-+  buildResponseEnvelopePayload(AbstractResponse)
-+  isUnsupportedApiVersionsRequest()
-+  apiVersion()
-+  listenerName()
-+  securityProtocol()
-+  principal()
-+  clientAddress()
-+  requestType()
-+  requestVersion()
-+  clientId()
-+  correlationId()
-+  toString()
++ RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean) : RequestContext [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#32]]]
++ RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean;Optional<KafkaPrincipalSerde>) : RequestContext [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#51]]]
++ parseRequest(ByteBuffer) : RequestAndSize [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#71]]]
++ buildResponseSend(AbstractResponse) : Send [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#92]]]
++ buildResponseEnvelopePayload(AbstractResponse) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#97]]]
+- isUnsupportedApiVersionsRequest() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#101]]]
++ apiVersion() : short [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#105]]]
++ listenerName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#113]]]
++ securityProtocol() : SecurityProtocol [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#118]]]
++ principal() : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#123]]]
++ clientAddress() : InetAddress [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#128]]]
++ requestType() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#133]]]
++ requestVersion() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#138]]]
++ clientId() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#143]]]
++ correlationId() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#148]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#153]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.ExpireDelegationTokenResult
 class org.apache.kafka.clients.admin.ExpireDelegationTokenResult {
-+  ExpireDelegationTokenResult(KafkaFuture<Long>)
-+  expiryTimestamp()
+ExpireDelegationTokenResult(KafkaFuture<Long>) : ExpireDelegationTokenResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenResult.java.html#13]]]
++ expiryTimestamp() : KafkaFuture<Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenResult.java.html#18]]]
 } 
 @enduml

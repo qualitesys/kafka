@@ -2,10 +2,10 @@
 !pragma layout smetana
 AbstractState <|-- org.apache.kafka.connect.health.TaskState
 class org.apache.kafka.connect.health.TaskState {
-+  TaskState(int;String;String;String)
-+  taskId()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ TaskState(int;String;String;String) : TaskState [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#13]]]
++ taskId() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#19]]]
++ equals(Object) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#24]]]
++ hashCode() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#36]]]
++ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.html#41]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 MeteredKeyValueStore_K,ValueAndTimestamp_V__TimestampedKeyValueStore_K,V_ <|-- org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore
 class org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore {
-+  MeteredTimestampedKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)
-+  prepareValueSerdeForStore(Serde<ValueAndTimestamp<V>>;SerdeGetter)
-+  getWithBinary(K)
-+  putIfDifferentValues(K;ValueAndTimestamp<V>;byte[])
+MeteredTimestampedKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>) : MeteredTimestampedKeyValueStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#20]]]
+prepareValueSerdeForStore(Serde<ValueAndTimestamp<V>>;SerdeGetter) : Serde<ValueAndTimestamp<V>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#31]]]
++ getWithBinary(K) : RawAndDeserializedValue<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#40]]]
++ putIfDifferentValues(K;ValueAndTimestamp<V>;byte[]) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#52]]]
 } 
 @enduml

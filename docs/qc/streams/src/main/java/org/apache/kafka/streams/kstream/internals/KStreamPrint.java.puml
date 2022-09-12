@@ -2,7 +2,7 @@
 !pragma layout smetana
 ProcessorSupplier_K,V,Void,Void_ <|-- org.apache.kafka.streams.kstream.internals.KStreamPrint
 class org.apache.kafka.streams.kstream.internals.KStreamPrint {
-+  KStreamPrint(ForeachAction<K,V>)
-+  get()
++ KStreamPrint(ForeachAction<K,V>) : KStreamPrint [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPrint.java.html#13]]]
++ get() : Processor<K,V,Void,Void> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPrint.java.html#18]]]
 } 
 @enduml

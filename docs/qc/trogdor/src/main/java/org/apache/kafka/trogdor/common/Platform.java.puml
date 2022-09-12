@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.common.Platform
 class org.apache.kafka.trogdor.common.Platform {
-+  name()
-+  curNode()
-+  topology()
-+  scheduler()
-+  runCommand(String[])
+name() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.html#41]]]
+curNode() : Node [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.html#44]]]
+topology() : Topology [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.html#47]]]
+scheduler() : Scheduler [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.html#50]]]
+runCommand(String[]) : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.html#53]]]
 } 
 @enduml

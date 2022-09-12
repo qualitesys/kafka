@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.memory.MemoryPool
 class org.apache.kafka.common.memory.MemoryPool {
-+  tryAllocate(int)
-+  release(ByteBuffer)
-+  size()
-+  availableMemory()
-+  isOutOfMemory()
+tryAllocate(int) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#42]]]
+release(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#45]]]
+size() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#48]]]
+availableMemory() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#51]]]
+isOutOfMemory() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#54]]]
 } 
 @enduml

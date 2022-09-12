@@ -2,90 +2,90 @@
 !pragma layout smetana
 AdminClient <|-- org.apache.kafka.clients.admin.KafkaAdminClient
 class org.apache.kafka.clients.admin.KafkaAdminClient {
-+  calcTimeoutMsRemainingAsInt(long;long)
-+  generateClientId(AdminClientConfig)
-+  calcDeadlineMs(long;Integer)
-+  prettyPrintException(Throwable)
-+  createInternal(AdminClientConfig;TimeoutProcessorFactory)
-+  createInternal(AdminClientConfig;TimeoutProcessorFactory;HostResolver)
-+  createInternal(AdminClientConfig;AdminMetadataManager;KafkaClient;Time)
-+  createLogContext(String)
-+  KafkaAdminClient(AdminClientConfig;String;Time;AdminMetadataManager;Metrics;KafkaClient;TimeoutProcessorFactory;LogContext)
-+  configureDefaultApiTimeoutMs(AdminClientConfig)
-+  close(Duration)
-+  topicNameIsUnrepresentable(String)
-+  topicIdIsUnrepresentable(Uuid)
-+  numPendingCalls()
-+  createTopics(Collection<NewTopic>;CreateTopicsOptions)
-+  getCreateTopicsCall(CreateTopicsOptions;Map<String,KafkaFutureImpl<TopicMetadataAndConfig>>;CreatableTopicCollection;Map<String,ThrottlingQuotaExceededException>;long;long)
-+  deleteTopics(TopicCollection;DeleteTopicsOptions)
-+  handleDeleteTopicsUsingNames(Collection<String>;DeleteTopicsOptions)
-+  handleDeleteTopicsUsingIds(Collection<Uuid>;DeleteTopicsOptions)
-+  getDeleteTopicsCall(DeleteTopicsOptions;Map<String,KafkaFutureImpl<Void>>;List<String>;Map<String,ThrottlingQuotaExceededException>;long;long)
-+  getDeleteTopicsWithIdsCall(DeleteTopicsOptions;Map<Uuid,KafkaFutureImpl<Void>>;List<Uuid>;Map<Uuid,ThrottlingQuotaExceededException>;long;long)
-+  listTopics(ListTopicsOptions)
-+  describeTopics(TopicCollection;DescribeTopicsOptions)
-+  handleDescribeTopicsByNames(Collection<String>;DescribeTopicsOptions)
-+  handleDescribeTopicsByIds(Collection<Uuid>;DescribeTopicsOptions)
-+  getTopicDescriptionFromCluster(Cluster;String;Uuid;Integer)
-+  leader(PartitionInfo)
-+  describeCluster(DescribeClusterOptions)
-+  describeAcls(AclBindingFilter;DescribeAclsOptions)
-+  createAcls(Collection<AclBinding>;CreateAclsOptions)
-+  deleteAcls(Collection<AclBindingFilter>;DeleteAclsOptions)
-+  describeConfigs(Collection<ConfigResource>;DescribeConfigsOptions)
-+  describeConfigResult(DescribeConfigsResponseData.DescribeConfigsResult)
-+  configSource(DescribeConfigsResponse.ConfigSource)
-+  alterConfigs(Map<ConfigResource,Config>;AlterConfigsOptions)
-+  alterConfigs(Map<ConfigResource,Config>;AlterConfigsOptions;Collection<ConfigResource>;NodeProvider)
-+  incrementalAlterConfigs(Map<ConfigResource,Collection<AlterConfigOp>>;AlterConfigsOptions)
-+  incrementalAlterConfigs(Map<ConfigResource,Collection<AlterConfigOp>>;AlterConfigsOptions;Collection<ConfigResource>;NodeProvider)
-+  alterReplicaLogDirs(Map<TopicPartitionReplica,String>;AlterReplicaLogDirsOptions)
-+  describeLogDirs(Collection<Integer>;DescribeLogDirsOptions)
-+  logDirDescriptions(DescribeLogDirsResponse)
-+  describeReplicaLogDirs(Collection<TopicPartitionReplica>;DescribeReplicaLogDirsOptions)
-+  createPartitions(Map<String,NewPartitions>;CreatePartitionsOptions)
-+  getCreatePartitionsCall(CreatePartitionsOptions;Map<String,KafkaFutureImpl<Void>>;CreatePartitionsTopicCollection;Map<String,ThrottlingQuotaExceededException>;long;long)
-+  deleteRecords(Map<TopicPartition,RecordsToDelete>;DeleteRecordsOptions)
-+  createDelegationToken(CreateDelegationTokenOptions)
-+  renewDelegationToken(byte[];RenewDelegationTokenOptions)
-+  expireDelegationToken(byte[];ExpireDelegationTokenOptions)
-+  describeDelegationToken(DescribeDelegationTokenOptions)
-+  rescheduleMetadataTask(MetadataOperationContext<?,?>;Supplier<List<Call>>)
-+  describeConsumerGroups(Collection<String>;DescribeConsumerGroupsOptions)
-+  validAclOperations(int)
-+  listConsumerGroups(ListConsumerGroupsOptions)
-+  listConsumerGroupOffsets(String;ListConsumerGroupOffsetsOptions)
-+  deleteConsumerGroups(Collection<String>;DeleteConsumerGroupsOptions)
-+  deleteConsumerGroupOffsets(String;Set<TopicPartition>;DeleteConsumerGroupOffsetsOptions)
-+  metrics()
-+  electLeaders(ElectionType;Set<TopicPartition>;ElectLeadersOptions)
-+  alterPartitionReassignments(Map<TopicPartition,Optional<NewPartitionReassignment>>;AlterPartitionReassignmentsOptions)
-+  listPartitionReassignments(Optional<Set<TopicPartition>>;ListPartitionReassignmentsOptions)
-+  handleNotControllerError(AbstractResponse)
-+  handleNotControllerError(Errors)
-+  nodeFor(ConfigResource)
-+  getMembersFromGroup(String;String)
-+  removeMembersFromConsumerGroup(String;RemoveMembersFromConsumerGroupOptions)
-+  alterConsumerGroupOffsets(String;Map<TopicPartition,OffsetAndMetadata>;AlterConsumerGroupOffsetsOptions)
-+  listOffsets(Map<TopicPartition,OffsetSpec>;ListOffsetsOptions)
-+  getListOffsetsCalls(MetadataOperationContext<ListOffsetsResultInfo,ListOffsetsOptions>;Map<TopicPartition,OffsetSpec>;Map<TopicPartition,KafkaFutureImpl<ListOffsetsResultInfo>>)
-+  describeClientQuotas(ClientQuotaFilter;DescribeClientQuotasOptions)
-+  alterClientQuotas(Collection<ClientQuotaAlteration>;AlterClientQuotasOptions)
-+  describeUserScramCredentials(List<String>;DescribeUserScramCredentialsOptions)
-+  alterUserScramCredentials(List<UserScramCredentialAlteration>;AlterUserScramCredentialsOptions)
-+  getScramCredentialUpsertion(UserScramCredentialUpsertion)
-+  getScramCredentialDeletion(UserScramCredentialDeletion)
-+  getSaltedPasword(ScramMechanism;byte[];byte[];int)
-+  describeFeatures(DescribeFeaturesOptions)
-+  updateFeatures(Map<String,FeatureUpdate>;UpdateFeaturesOptions)
-+  describeMetadataQuorum(DescribeMetadataQuorumOptions)
-+  unregisterBroker(int;UnregisterBrokerOptions)
-+  describeProducers(Collection<TopicPartition>;DescribeProducersOptions)
-+  describeTransactions(Collection<String>;DescribeTransactionsOptions)
-+  abortTransaction(AbortTransactionSpec;AbortTransactionOptions)
-+  listTransactions(ListTransactionsOptions)
-+  fenceProducers(Collection<String>;FenceProducersOptions)
-+  getOffsetFromOffsetSpec(OffsetSpec)
+calcTimeoutMsRemainingAsInt(long;long) : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#348]]]
+generateClientId(AdminClientConfig) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#358]]]
+- calcDeadlineMs(long;Integer) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#366]]]
+prettyPrintException(Throwable) : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#373]]]
+createInternal(AdminClientConfig;TimeoutProcessorFactory) : KafkaAdminClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#382]]]
+createInternal(AdminClientConfig;TimeoutProcessorFactory;HostResolver) : KafkaAdminClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#386]]]
+createInternal(AdminClientConfig;AdminMetadataManager;KafkaClient;Time) : KafkaAdminClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#455]]]
+createLogContext(String) : LogContext [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#473]]]
+- KafkaAdminClient(AdminClientConfig;String;Time;AdminMetadataManager;Metrics;KafkaClient;TimeoutProcessorFactory;LogContext) : KafkaAdminClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#477]]]
+- configureDefaultApiTimeoutMs(AdminClientConfig) : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#508]]]
++ close(Duration) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#527]]]
+- topicNameIsUnrepresentable(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1258]]]
+- topicIdIsUnrepresentable(Uuid) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1262]]]
+numPendingCalls() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1267]]]
++ createTopics(Collection<NewTopic>;CreateTopicsOptions) : CreateTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1295]]]
+- getCreateTopicsCall(CreateTopicsOptions;Map<String,KafkaFutureImpl<TopicMetadataAndConfig>>;CreatableTopicCollection;Map<String,ThrottlingQuotaExceededException>;long;long) : Call [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1320]]]
++ deleteTopics(TopicCollection;DeleteTopicsOptions) : DeleteTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1422]]]
+- handleDeleteTopicsUsingNames(Collection<String>;DeleteTopicsOptions) : Map<String,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1432]]]
+- handleDeleteTopicsUsingIds(Collection<Uuid>;DeleteTopicsOptions) : Map<Uuid,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1457]]]
+- getDeleteTopicsCall(DeleteTopicsOptions;Map<String,KafkaFutureImpl<Void>>;List<String>;Map<String,ThrottlingQuotaExceededException>;long;long) : Call [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1482]]]
+- getDeleteTopicsWithIdsCall(DeleteTopicsOptions;Map<Uuid,KafkaFutureImpl<Void>>;List<Uuid>;Map<Uuid,ThrottlingQuotaExceededException>;long;long) : Call [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1554]]]
++ listTopics(ListTopicsOptions) : ListTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1628]]]
++ describeTopics(TopicCollection;DescribeTopicsOptions) : DescribeTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1661]]]
+- handleDescribeTopicsByNames(Collection<String>;DescribeTopicsOptions) : Map<String,KafkaFuture<TopicDescription>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1670]]]
+- handleDescribeTopicsByIds(Collection<Uuid>;DescribeTopicsOptions) : Map<Uuid,KafkaFuture<TopicDescription>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1746]]]
+- getTopicDescriptionFromCluster(Cluster;String;Uuid;Integer) : TopicDescription [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1811]]]
+- leader(PartitionInfo) : Node [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1826]]]
++ describeCluster(DescribeClusterOptions) : DescribeClusterResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1833]]]
++ describeAcls(AclBindingFilter;DescribeAclsOptions) : DescribeAclsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1921]]]
++ createAcls(Collection<AclBinding>;CreateAclsOptions) : CreateAclsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1957]]]
++ deleteAcls(Collection<AclBindingFilter>;DeleteAclsOptions) : DeleteAclsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2016]]]
++ describeConfigs(Collection<ConfigResource>;DescribeConfigsOptions) : DescribeConfigsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2075]]]
+- describeConfigResult(DescribeConfigsResponseData.DescribeConfigsResult) : Config [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2154]]]
+- configSource(DescribeConfigsResponse.ConfigSource) : ConfigEntry.ConfigSource [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2168]]]
++ alterConfigs(Map<ConfigResource,Config>;AlterConfigsOptions) : AlterConfigsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2197]]]
+- alterConfigs(Map<ConfigResource,Config>;AlterConfigsOptions;Collection<ConfigResource>;NodeProvider) : Map<ConfigResource,KafkaFutureImpl<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2217]]]
++ incrementalAlterConfigs(Map<ConfigResource,Collection<AlterConfigOp>>;AlterConfigsOptions) : AlterConfigsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2262]]]
+- incrementalAlterConfigs(Map<ConfigResource,Collection<AlterConfigOp>>;AlterConfigsOptions;Collection<ConfigResource>;NodeProvider) : Map<ConfigResource,KafkaFutureImpl<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2284]]]
++ alterReplicaLogDirs(Map<TopicPartitionReplica,String>;AlterReplicaLogDirsOptions) : AlterReplicaLogDirsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2324]]]
++ describeLogDirs(Collection<Integer>;DescribeLogDirsOptions) : DescribeLogDirsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2405]]]
+- logDirDescriptions(DescribeLogDirsResponse) : Map<String,LogDirDescription> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2446]]]
++ describeReplicaLogDirs(Collection<TopicPartitionReplica>;DescribeReplicaLogDirsOptions) : DescribeReplicaLogDirsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2467]]]
++ createPartitions(Map<String,NewPartitions>;CreatePartitionsOptions) : CreatePartitionsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2562]]]
+- getCreatePartitionsCall(CreatePartitionsOptions;Map<String,KafkaFutureImpl<Void>>;CreatePartitionsTopicCollection;Map<String,ThrottlingQuotaExceededException>;long;long) : Call [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2590]]]
++ deleteRecords(Map<TopicPartition,RecordsToDelete>;DeleteRecordsOptions) : DeleteRecordsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2664]]]
++ createDelegationToken(CreateDelegationTokenOptions) : CreateDelegationTokenResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2786]]]
++ renewDelegationToken(byte[];RenewDelegationTokenOptions) : RenewDelegationTokenResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2835]]]
++ expireDelegationToken(byte[];ExpireDelegationTokenOptions) : ExpireDelegationTokenResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2869]]]
++ describeDelegationToken(DescribeDelegationTokenOptions) : DescribeDelegationTokenResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2903]]]
+- rescheduleMetadataTask(MetadataOperationContext<?,?>;Supplier<List<Call>>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2933]]]
++ describeConsumerGroups(Collection<String>;DescribeConsumerGroupsOptions) : DescribeConsumerGroupsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2942]]]
+- validAclOperations(int) : Set<AclOperation> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2984]]]
++ listConsumerGroups(ListConsumerGroupsOptions) : ListConsumerGroupsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3040]]]
++ listConsumerGroupOffsets(String;ListConsumerGroupOffsetsOptions) : ListConsumerGroupOffsetsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3126]]]
++ deleteConsumerGroups(Collection<String>;DeleteConsumerGroupsOptions) : DeleteConsumerGroupsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3136]]]
++ deleteConsumerGroupOffsets(String;Set<TopicPartition>;DeleteConsumerGroupOffsetsOptions) : DeleteConsumerGroupOffsetsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3146]]]
++ metrics() : Map<MetricName,?extendsMetric> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3158]]]
++ electLeaders(ElectionType;Set<TopicPartition>;ElectLeadersOptions) : ElectLeadersResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3163]]]
++ alterPartitionReassignments(Map<TopicPartition,Optional<NewPartitionReassignment>>;AlterPartitionReassignmentsOptions) : AlterPartitionReassignmentsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3202]]]
++ listPartitionReassignments(Optional<Set<TopicPartition>>;ListPartitionReassignmentsOptions) : ListPartitionReassignmentsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3350]]]
+- handleNotControllerError(AbstractResponse) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3430]]]
+- handleNotControllerError(Errors) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3436]]]
+- nodeFor(ConfigResource) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3443]]]
+- getMembersFromGroup(String;String) : List<MemberIdentity> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3452]]]
++ removeMembersFromConsumerGroup(String;RemoveMembersFromConsumerGroupOptions) : RemoveMembersFromConsumerGroupResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3476]]]
++ alterConsumerGroupOffsets(String;Map<TopicPartition,OffsetAndMetadata>;AlterConsumerGroupOffsetsOptions) : AlterConsumerGroupOffsetsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3498]]]
++ listOffsets(Map<TopicPartition,OffsetSpec>;ListOffsetsOptions) : ListOffsetsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3511]]]
+getListOffsetsCalls(MetadataOperationContext<ListOffsetsResultInfo,ListOffsetsOptions>;Map<TopicPartition,OffsetSpec>;Map<TopicPartition,KafkaFutureImpl<ListOffsetsResultInfo>>) : List<Call> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3536]]]
++ describeClientQuotas(ClientQuotaFilter;DescribeClientQuotasOptions) : DescribeClientQuotasResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3674]]]
++ alterClientQuotas(Collection<ClientQuotaAlteration>;AlterClientQuotasOptions) : AlterClientQuotasResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3702]]]
++ describeUserScramCredentials(List<String>;DescribeUserScramCredentialsOptions) : DescribeUserScramCredentialsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3733]]]
++ alterUserScramCredentials(List<UserScramCredentialAlteration>;AlterUserScramCredentialsOptions) : AlterUserScramCredentialsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3779]]]
+- getScramCredentialUpsertion(UserScramCredentialUpsertion) : AlterUserScramCredentialsRequestData.ScramCredentialUpsertion [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3898]]]
+- getScramCredentialDeletion(UserScramCredentialDeletion) : AlterUserScramCredentialsRequestData.ScramCredentialDeletion [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3907]]]
+- getSaltedPasword(ScramMechanism;byte[];byte[];int) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3911]]]
++ describeFeatures(DescribeFeaturesOptions) : DescribeFeaturesResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3917]]]
++ updateFeatures(Map<String,FeatureUpdate>;UpdateFeaturesOptions) : UpdateFeaturesResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3970]]]
++ describeMetadataQuorum(DescribeMetadataQuorumOptions) : DescribeMetadataQuorumResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4057]]]
++ unregisterBroker(int;UnregisterBrokerOptions) : UnregisterBrokerResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4135]]]
++ describeProducers(Collection<TopicPartition>;DescribeProducersOptions) : DescribeProducersResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4177]]]
++ describeTransactions(Collection<String>;DescribeTransactionsOptions) : DescribeTransactionsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4186]]]
++ abortTransaction(AbortTransactionSpec;AbortTransactionOptions) : AbortTransactionResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4195]]]
++ listTransactions(ListTransactionsOptions) : ListTransactionsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4204]]]
++ fenceProducers(Collection<String>;FenceProducersOptions) : FenceProducersResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4213]]]
+- getOffsetFromOffsetSpec(OffsetSpec) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4287]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 RecordSerde_ApiMessageAndVersion_ <|-- org.apache.kafka.server.common.serialization.AbstractApiMessageSerde
 class org.apache.kafka.server.common.serialization.AbstractApiMessageSerde {
-+  unsignedIntToShort(Readable;String)
-+  recordSize(ApiMessageAndVersion;ObjectSerializationCache)
-+  write(ApiMessageAndVersion;ObjectSerializationCache;Writable)
-+  read(Readable;int)
-+  apiMessageFor(short)
+- unsignedIntToShort(Readable;String) : short [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#16]]]
++ recordSize(ApiMessageAndVersion;ObjectSerializationCache) : int [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#30]]]
++ write(ApiMessageAndVersion;ObjectSerializationCache;Writable) : void [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#40]]]
++ read(Readable;int) : ApiMessageAndVersion [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#50]]]
++ apiMessageFor(short) : ApiMessage [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.html#83]]]
 } 
 @enduml

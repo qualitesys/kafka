@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.RecordProcessor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.html#18"
  , "c1" : "void"
  , "c2" : "processRecords(ConsumerRecords<byte[],byte[]>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.html#19"
  , "c1" : "JsonNode"
  , "c2" : "processorStatus()"
  , "c3" : "1"

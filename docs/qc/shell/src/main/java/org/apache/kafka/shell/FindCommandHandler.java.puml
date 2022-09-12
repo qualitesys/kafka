@@ -2,10 +2,10 @@
 !pragma layout smetana
 Commands.Handler <|-- org.apache.kafka.shell.FindCommandHandler
 class org.apache.kafka.shell.FindCommandHandler {
-+  FindCommandHandler(List<String>)
-+  run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)
-+  find(PrintWriter;String;MetadataNode)
-+  hashCode()
-+  equals(Object)
++ FindCommandHandler(List<String>) : FindCommandHandler [[[././qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#61]]]
++ run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#66]]]
+- find(PrintWriter;String;MetadataNode) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#80]]]
++ hashCode() : int [[[././qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#93]]]
++ equals(Object) : boolean [[[././qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#98]]]
 } 
 @enduml

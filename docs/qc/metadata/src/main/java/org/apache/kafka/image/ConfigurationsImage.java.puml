@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.ConfigurationsImage
 class org.apache.kafka.image.ConfigurationsImage {
-+  ConfigurationsImage(Map<ConfigResource,ConfigurationImage>)
-+  isEmpty()
-+  resourceData()
-+  configProperties(ConfigResource)
-+  write(Consumer<List<ApiMessageAndVersion>>)
-+  equals(Object)
-+  hashCode()
-+  toString()
++ ConfigurationsImage(Map<ConfigResource,ConfigurationImage>) : ConfigurationsImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#25]]]
++ isEmpty() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#29]]]
+resourceData() : Map<ConfigResource,ConfigurationImage> [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#33]]]
++ configProperties(ConfigResource) : Properties [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#37]]]
++ write(Consumer<List<ApiMessageAndVersion>>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#46]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#55]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#62]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#67]]]
 } 
 @enduml

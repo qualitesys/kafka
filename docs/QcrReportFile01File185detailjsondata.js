@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.LogTruncationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/LogTruncationException.java.html#14"
  , "c1" : "LogTruncationException"
  , "c2" : "LogTruncationException(String;Map<TopicPartition,Long>;Map<TopicPartition,OffsetAndMetadata>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/LogTruncationException.java.html#22"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "divergentOffsets()"
  , "c3" : "1"

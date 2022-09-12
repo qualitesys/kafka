@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#22"
  , "c1" : "TopicsSpec"
  , "c2" : "TopicsSpec()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#26"
  , "c1" : "TopicsSpec"
  , "c2" : "TopicsSpec(Map<String,PartitionsSpec>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#31"
  , "c1" : "Map<String,PartitionsSpec>"
  , "c2" : "get()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#36"
  , "c1" : "void"
  , "c2" : "set(String;PartitionsSpec)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#40"
  , "c1" : "TopicsSpec"
  , "c2" : "immutableCopy()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#47"
  , "c1" : "Map<String,PartitionsSpec>"
  , "c2" : "materialize()"
  , "c3" : "3"

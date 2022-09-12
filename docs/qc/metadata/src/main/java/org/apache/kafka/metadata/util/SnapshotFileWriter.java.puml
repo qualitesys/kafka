@@ -2,10 +2,10 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.metadata.util.SnapshotFileWriter
 class org.apache.kafka.metadata.util.SnapshotFileWriter {
-+  SnapshotFileWriter(FileChannel;BatchAccumulator<ApiMessageAndVersion>)
-+  append(ApiMessageAndVersion)
-+  append(List<ApiMessageAndVersion>)
-+  close()
-+  open(Path)
+SnapshotFileWriter(FileChannel;BatchAccumulator<ApiMessageAndVersion>) : SnapshotFileWriter [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#28]]]
++ append(ApiMessageAndVersion) : void [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#33]]]
++ append(List<ApiMessageAndVersion>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#37]]]
++ close() : void [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#41]]]
++ open(Path) : SnapshotFileWriter [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#48]]]
 } 
 @enduml

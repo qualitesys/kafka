@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractOptions_ExpireDelegationTokenOptions_ <|-- org.apache.kafka.clients.admin.ExpireDelegationTokenOptions
 class org.apache.kafka.clients.admin.ExpireDelegationTokenOptions {
-+  expiryTimePeriodMs(long)
-+  expiryTimePeriodMs()
++ expiryTimePeriodMs(long) : ExpireDelegationTokenOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#12]]]
++ expiryTimePeriodMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#17]]]
 } 
 @enduml

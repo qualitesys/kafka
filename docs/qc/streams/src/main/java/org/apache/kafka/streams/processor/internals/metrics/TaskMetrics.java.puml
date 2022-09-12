@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.TaskMetrics
 class org.apache.kafka.streams.processor.internals.metrics.TaskMetrics {
-+  TaskMetrics()
-+  processLatencySensor(String;String;StreamsMetricsImpl)
-+  activeProcessRatioSensor(String;String;StreamsMetricsImpl)
-+  activeBufferedRecordsSensor(String;String;StreamsMetricsImpl)
-+  punctuateSensor(String;String;StreamsMetricsImpl)
-+  commitSensor(String;String;StreamsMetricsImpl;Sensor...)
-+  enforcedProcessingSensor(String;String;StreamsMetricsImpl;Sensor...)
-+  recordLatenessSensor(String;String;StreamsMetricsImpl)
-+  droppedRecordsSensor(String;String;StreamsMetricsImpl)
-+  invocationRateAndCountSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)
-+  avgAndMaxSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)
-+  invocationRateAndCountAndAvgAndMaxLatencySensor(String;String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)
+- TaskMetrics() : TaskMetrics [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#18]]]
++ processLatencySensor(String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#72]]]
++ activeProcessRatioSensor(String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#86]]]
++ activeBufferedRecordsSensor(String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#101]]]
++ punctuateSensor(String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#116]]]
++ commitSensor(String;String;StreamsMetricsImpl;Sensor...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#132]]]
++ enforcedProcessingSensor(String;String;StreamsMetricsImpl;Sensor...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#148]]]
++ recordLatenessSensor(String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#164]]]
++ droppedRecordsSensor(String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#178]]]
+- invocationRateAndCountSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#192]]]
+- avgAndMaxSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#212]]]
+- invocationRateAndCountAndAvgAndMaxLatencySensor(String;String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#233]]]
 } 
 @enduml

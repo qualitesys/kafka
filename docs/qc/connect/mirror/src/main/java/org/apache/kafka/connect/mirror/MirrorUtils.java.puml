@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.mirror.MirrorUtils
 class org.apache.kafka.connect.mirror.MirrorUtils {
-+  MirrorUtils()
-+  newProducer(Map<String,Object>)
-+  newConsumer(Map<String,Object>)
-+  encodeTopicPartition(TopicPartition)
-+  wrapPartition(TopicPartition;String)
-+  wrapOffset(long)
-+  unwrapPartition(Map<String,?>)
-+  unwrapOffset(Map<String,?>)
-+  decodeTopicPartition(String)
-+  compilePatternList(List<String>)
-+  compilePatternList(String)
-+  createCompactedTopic(String;short;short;Map<String,Object>)
-+  createSinglePartitionCompactedTopic(String;short;Map<String,Object>)
+- MirrorUtils() : MirrorUtils [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#23]]]
+newProducer(Map<String,Object>) : KafkaProducer<byte[],byte[]> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#25]]]
+newConsumer(Map<String,Object>) : KafkaConsumer<byte[],byte[]> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#29]]]
+encodeTopicPartition(TopicPartition) : String [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#33]]]
+wrapPartition(TopicPartition;String) : Map<String,Object> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#37]]]
+wrapOffset(long) : Map<String,Object> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#45]]]
+unwrapPartition(Map<String,?>) : TopicPartition [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#49]]]
+unwrapOffset(Map<String,?>) : Long [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#55]]]
+decodeTopicPartition(String) : TopicPartition [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#62]]]
+compilePatternList(List<String>) : Pattern [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#71]]]
+compilePatternList(String) : Pattern [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#82]]]
+createCompactedTopic(String;short;short;Map<String,Object>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#86]]]
+createSinglePartitionCompactedTopic(String;short;Map<String,Object>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#98]]]
 } 
 @enduml

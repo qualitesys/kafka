@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.ByteBufferAccessor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#12"
  , "c1" : "ByteBufferAccessor"
  , "c2" : "ByteBufferAccessor(ByteBuffer)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#17"
  , "c1" : "byte"
  , "c2" : "readByte()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#22"
  , "c1" : "short"
  , "c2" : "readShort()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#27"
  , "c1" : "int"
  , "c2" : "readInt()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#32"
  , "c1" : "long"
  , "c2" : "readLong()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#37"
  , "c1" : "double"
  , "c2" : "readDouble()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#42"
  , "c1" : "void"
  , "c2" : "readArray(byte[])"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#47"
  , "c1" : "int"
  , "c2" : "readUnsignedVarint()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#52"
  , "c1" : "ByteBuffer"
  , "c2" : "readByteBuffer(int)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#62"
  , "c1" : "void"
  , "c2" : "writeByte(byte)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#67"
  , "c1" : "void"
  , "c2" : "writeShort(short)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#72"
  , "c1" : "void"
  , "c2" : "writeInt(int)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#77"
  , "c1" : "void"
  , "c2" : "writeLong(long)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#82"
  , "c1" : "void"
  , "c2" : "writeDouble(double)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#87"
  , "c1" : "void"
  , "c2" : "writeByteArray(byte[])"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#92"
  , "c1" : "void"
  , "c2" : "writeUnsignedVarint(int)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#97"
  , "c1" : "void"
  , "c2" : "writeByteBuffer(ByteBuffer)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#102"
  , "c1" : "void"
  , "c2" : "writeVarint(int)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#107"
  , "c1" : "void"
  , "c2" : "writeVarlong(long)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#112"
  , "c1" : "int"
  , "c2" : "readVarint()"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#117"
  , "c1" : "long"
  , "c2" : "readVarlong()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#122"
  , "c1" : "int"
  , "c2" : "remaining()"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#126"
  , "c1" : "void"
  , "c2" : "flip()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#130"
  , "c1" : "ByteBuffer"
  , "c2" : "buffer()"
  , "c3" : "1"

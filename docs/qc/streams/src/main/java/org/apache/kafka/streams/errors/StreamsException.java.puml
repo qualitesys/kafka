@@ -2,13 +2,13 @@
 !pragma layout smetana
 KafkaException <|-- org.apache.kafka.streams.errors.StreamsException
 class org.apache.kafka.streams.errors.StreamsException {
-+  StreamsException(String)
-+  StreamsException(String;TaskId)
-+  StreamsException(String;Throwable)
-+  StreamsException(String;Throwable;TaskId)
-+  StreamsException(Throwable)
-+  StreamsException(Throwable;TaskId)
-+  taskId()
-+  setTaskId(TaskId)
++ StreamsException(String) : StreamsException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#16]]]
++ StreamsException(String;TaskId) : StreamsException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#20]]]
++ StreamsException(String;Throwable) : StreamsException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#25]]]
++ StreamsException(String;Throwable;TaskId) : StreamsException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#29]]]
++ StreamsException(Throwable) : StreamsException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#34]]]
++ StreamsException(Throwable;TaskId) : StreamsException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#38]]]
++ taskId() : Optional<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#44]]]
++ setTaskId(TaskId) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#48]]]
 } 
 @enduml

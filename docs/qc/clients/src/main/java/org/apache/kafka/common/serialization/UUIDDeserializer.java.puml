@@ -2,7 +2,7 @@
 !pragma layout smetana
 Deserializer_UUID_ <|-- org.apache.kafka.common.serialization.UUIDDeserializer
 class org.apache.kafka.common.serialization.UUIDDeserializer {
-+  configure(Map<String,?>;boolean)
-+  deserialize(String;byte[])
++ configure(Map<String,?>;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDDeserializer.java.html#16]]]
++ deserialize(String;byte[]) : UUID [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDDeserializer.java.html#26]]]
 } 
 @enduml

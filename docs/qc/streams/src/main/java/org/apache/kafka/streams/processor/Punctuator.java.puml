@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.Punctuator
 class org.apache.kafka.streams.processor.Punctuator {
-+  punctuate(long)
+punctuate(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/Punctuator.java.html#11]]]
 } 
 @enduml

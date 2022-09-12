@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.SessionWindows
 class org.apache.kafka.streams.kstream.SessionWindows {
-+  SessionWindows(long;long;boolean)
-+  ofInactivityGapWithNoGrace(Duration)
-+  ofInactivityGapAndGrace(Duration;Duration)
-+  with(Duration)
-+  grace(Duration)
-+  gracePeriodMs()
-+  inactivityGap()
-+  equals(Object)
-+  hashCode()
-+  toString()
+- SessionWindows(long;long;boolean) : SessionWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#25]]]
++ ofInactivityGapWithNoGrace(Duration) : SessionWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#40]]]
++ ofInactivityGapAndGrace(Duration;Duration) : SessionWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#45]]]
++ with(Duration) : SessionWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#57]]]
++ grace(Duration) : SessionWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#66]]]
++ gracePeriodMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#78]]]
++ inactivityGap() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#83]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#88]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#101]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#106]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.FencedLeaderEpochException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.html#8"
  , "c1" : "FencedLeaderEpochException"
  , "c2" : "FencedLeaderEpochException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.html#12"
  , "c1" : "FencedLeaderEpochException"
  , "c2" : "FencedLeaderEpochException(String;Throwable)"
  , "c3" : "1"

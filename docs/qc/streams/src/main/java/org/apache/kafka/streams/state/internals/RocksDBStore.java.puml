@@ -2,39 +2,39 @@
 !pragma layout smetana
 KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.RocksDBStore
 class org.apache.kafka.streams.state.internals.RocksDBStore {
-+  RocksDBStore(String;String)
-+  RocksDBStore(String;String;RocksDBMetricsRecorder)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  openDB(Map<String,Object>;File)
-+  maybeSetUpStatistics(Map<String,Object>)
-+  addValueProvidersToMetricsRecorder()
-+  openRocksDB(DBOptions;ColumnFamilyOptions)
-+  name()
-+  persistent()
-+  isOpen()
-+  validateStoreOpen()
-+  put(Bytes;byte[])
-+  putIfAbsent(Bytes;byte[])
-+  putAll(List<KeyValue<Bytes,byte[]>>)
-+  get(Bytes)
-+  delete(Bytes)
-+  deleteRange(Bytes;Bytes)
-+  range(Bytes;Bytes)
-+  reverseRange(Bytes;Bytes)
-+  range(Bytes;Bytes;boolean)
-+  all()
-+  reverseAll()
-+  all(boolean)
-+  approximateNumEntries()
-+  isOverflowing(long)
-+  flush()
-+  addToBatch(KeyValue<byte[],byte[]>;WriteBatch)
-+  write(WriteBatch)
-+  close()
-+  closeOpenIterators()
-+  restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>)
-+  getOptions()
-+  getPosition()
++ RocksDBStore(String;String) : RocksDBStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#106]]]
+RocksDBStore(String;String;RocksDBMetricsRecorder) : RocksDBStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#111]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#121]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#133]]]
+openDB(Map<String,Object>;File) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#158]]]
+- maybeSetUpStatistics(Map<String,Object>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#223]]]
+- addValueProvidersToMetricsRecorder() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#236]]]
+openRocksDB(DBOptions;ColumnFamilyOptions) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#252]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#267]]]
++ persistent() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#272]]]
++ isOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#277]]]
+- validateStoreOpen() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#281]]]
++ put(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#288]]]
++ putIfAbsent(Bytes;byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#298]]]
++ putAll(List<KeyValue<Bytes,byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#309]]]
++ get(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#350]]]
++ delete(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#361]]]
+deleteRange(Bytes;Bytes) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#374]]]
++ range(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#385]]]
++ reverseRange(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#391]]]
+range(Bytes;Bytes;boolean) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#396]]]
++ all() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#416]]]
++ reverseAll() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#421]]]
+all(boolean) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#425]]]
++ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#434]]]
+- isOverflowing(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#448]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#455]]]
++ addToBatch(KeyValue<byte[],byte[]>;WriteBatch) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#467]]]
++ write(WriteBatch) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#473]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#478]]]
+- closeOpenIterators() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#512]]]
+restoreBatch(Collection<ConsumerRecord<byte[],byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#695]]]
++ getOptions() : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#716]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#721]]]
 } 
 @enduml

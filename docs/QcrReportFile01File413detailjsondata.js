@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.ThrottlingQuotaExceededException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.html#8"
  , "c1" : "ThrottlingQuotaExceededException"
  , "c2" : "ThrottlingQuotaExceededException(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.html#12"
  , "c1" : "ThrottlingQuotaExceededException"
  , "c2" : "ThrottlingQuotaExceededException(int;String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ThrottlingQuotaExceededException.java.html#17"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"

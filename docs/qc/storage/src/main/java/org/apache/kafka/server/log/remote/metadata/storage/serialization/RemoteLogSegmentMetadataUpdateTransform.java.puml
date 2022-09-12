@@ -2,8 +2,8 @@
 !pragma layout smetana
 RemoteLogMetadataTransform_RemoteLogSegmentMetadataUpdate_ <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataUpdateTransform
 class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataUpdateTransform {
-+  toApiMessageAndVersion(RemoteLogSegmentMetadataUpdate)
-+  fromApiMessageAndVersion(ApiMessageAndVersion)
-+  createRemoteLogSegmentIdEntry(RemoteLogSegmentMetadataUpdate)
++ toApiMessageAndVersion(RemoteLogSegmentMetadataUpdate) : ApiMessageAndVersion [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataUpdateTransform.java.html#14]]]
++ fromApiMessageAndVersion(ApiMessageAndVersion) : RemoteLogSegmentMetadataUpdate [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataUpdateTransform.java.html#24]]]
+- createRemoteLogSegmentIdEntry(RemoteLogSegmentMetadataUpdate) : RemoteLogSegmentMetadataUpdateRecord.RemoteLogSegmentIdEntry [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataUpdateTransform.java.html#34]]]
 } 
 @enduml

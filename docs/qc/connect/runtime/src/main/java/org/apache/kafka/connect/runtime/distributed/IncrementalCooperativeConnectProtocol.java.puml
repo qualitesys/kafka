@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol
 class org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol {
-+  serializeMetadata(ExtendedWorkerState;boolean)
-+  metadataRequest(ExtendedWorkerState;boolean)
-+  deserializeMetadata(ByteBuffer)
-+  serializeAssignment(ExtendedAssignment;boolean)
-+  deserializeAssignment(ByteBuffer)
-+  checkVersionCompatibility(short)
++ serializeMetadata(ExtendedWorkerState;boolean) : ByteBuffer [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#165]]]
++ metadataRequest(ExtendedWorkerState;boolean) : JoinGroupRequestProtocolCollection [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1]]]
++ deserializeMetadata(ByteBuffer) : ExtendedWorkerState [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1]]]
++ serializeAssignment(ExtendedAssignment;boolean) : ByteBuffer [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1]]]
++ deserializeAssignment(ByteBuffer) : ExtendedAssignment [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1]]]
+- checkVersionCompatibility(short) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1]]]
 } 
 @enduml

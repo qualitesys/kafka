@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.Target
 class org.apache.kafka.message.Target {
-+  Target(FieldSpec;String;String;Function<String,String>)
-+  assignmentStatement(String)
-+  nonNullableCopy()
-+  arrayElementTarget(Function<String,String>)
-+  field()
-+  sourceVariable()
-+  humanReadableName()
+Target(FieldSpec;String;String;Function<String,String>) : Target [[[././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#14]]]
++ assignmentStatement(String) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#22]]]
++ nonNullableCopy() : Target [[[././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#26]]]
++ arrayElementTarget(Function<String,String>) : Target [[[././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#44]]]
++ field() : FieldSpec [[[././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#67]]]
++ sourceVariable() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#71]]]
++ humanReadableName() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#75]]]
 } 
 @enduml

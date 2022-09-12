@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.RangeAssignor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#18"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#22"
  , "c1" : "Map<String,List<MemberInfo>>"
  , "c2" : "consumersPerTopic(Map<String,Subscription>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#35"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
  , "c3" : "5"

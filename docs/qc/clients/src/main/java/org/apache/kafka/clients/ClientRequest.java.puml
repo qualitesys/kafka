@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.ClientRequest
 class org.apache.kafka.clients.ClientRequest {
-+  ClientRequest(String;AbstractRequest.Builder<?>;int;String;long;boolean;int;RequestCompletionHandler)
-+  toString()
-+  expectResponse()
-+  apiKey()
-+  makeHeader(short)
-+  requestBuilder()
-+  destination()
-+  callback()
-+  createdTimeMs()
-+  correlationId()
-+  requestTimeoutMs()
++ ClientRequest(String;AbstractRequest.Builder<?>;int;String;long;boolean;int;RequestCompletionHandler) : ClientRequest [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#22]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#41]]]
++ expectResponse() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#52]]]
++ apiKey() : ApiKeys [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#56]]]
++ makeHeader(short) : RequestHeader [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#60]]]
++ requestBuilder() : AbstractRequest.Builder<?> [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#71]]]
++ destination() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#75]]]
++ callback() : RequestCompletionHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#79]]]
++ createdTimeMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#83]]]
++ correlationId() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#87]]]
++ requestTimeoutMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#91]]]
 } 
 @enduml

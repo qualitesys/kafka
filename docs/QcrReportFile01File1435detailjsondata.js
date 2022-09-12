@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.RecordsIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#38"
  , "c1" : "RecordsIterator"
  , "c2" : "RecordsIterator(Records;RecordSerde<T>;BufferSupplier;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#51"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#62"
  , "c1" : "Batch<T>"
  , "c2" : "next()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#74"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#80"
  , "c1" : "void"
  , "c2" : "ensureOpen()"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#86"
  , "c1" : "MemoryRecords"
  , "c2" : "readFileRecords(FileRecords;ByteBuffer)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#98"
  , "c1" : "MemoryRecords"
  , "c2" : "createMemoryRecords(FileRecords)"
  , "c3" : "5"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#125"
  , "c1" : "Iterator<MutableRecordBatch>"
  , "c2" : "nextBatches()"
  , "c3" : "6"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#144"
  , "c1" : "Optional<Batch<T>>"
  , "c2" : "nextBatch()"
  , "c3" : "4"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00167"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#167"
  , "c1" : "Batch<T>"
  , "c2" : "readBatch(DefaultRecordBatch)"
  , "c3" : "5"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#203"
  , "c1" : "T"
  , "c2" : "readRecord(Readable)"
  , "c3" : "5"

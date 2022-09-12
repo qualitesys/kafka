@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.AclsDelta" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#26"
  , "c1" : "AclsDelta"
  , "c2" : "AclsDelta(AclsImage)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#31"
  , "c1" : "Map<Uuid,Optional<StandardAcl>>"
  , "c2" : "changes()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#35"
  , "c1" : "void"
  , "c2" : "finishSnapshot()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#39"
  , "c1" : "void"
  , "c2" : "handleMetadataVersionChange(MetadataVersion)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#43"
  , "c1" : "boolean"
  , "c2" : "isSnapshotDelta()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#47"
  , "c1" : "void"
  , "c2" : "replay(AccessControlEntryRecord)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#53"
  , "c1" : "void"
  , "c2" : "replay(RemoveAccessControlEntryRecord)"
  , "c3" : "5"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#63"
  , "c1" : "AclsImage"
  , "c2" : "apply()"
  , "c3" : "9"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#86"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

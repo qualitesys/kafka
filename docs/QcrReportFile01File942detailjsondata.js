@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Decimal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#15"
  , "c1" : "SchemaBuilder"
  , "c2" : "builder(int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#22"
  , "c1" : "Schema"
  , "c2" : "schema(int)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#27"
  , "c1" : "byte[]"
  , "c2" : "fromLogical(Schema;BigDecimal)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#39"
  , "c1" : "BigDecimal"
  , "c2" : "toLogical(Schema;byte[])"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#43"
  , "c1" : "int"
  , "c2" : "scale(Schema)"
  , "c3" : "2"

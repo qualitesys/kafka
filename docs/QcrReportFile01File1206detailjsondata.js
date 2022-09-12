@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.SinkUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00006"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#6"
  , "c1" : "SinkUtils"
  , "c2" : "SinkUtils()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#8"
  , "c1" : "String"
  , "c2" : "consumerGroupId(String)"
  , "c3" : "1"

@@ -2,17 +2,17 @@
 !pragma layout smetana
 SaslClient <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient
 class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient {
-+  OAuthBearerSaslClient(AuthenticateCallbackHandler)
-+  callbackHandler()
-+  getMechanismName()
-+  hasInitialResponse()
-+  evaluateChallenge(byte[])
-+  isComplete()
-+  unwrap(byte[];int;int)
-+  wrap(byte[];int;int)
-+  getNegotiatedProperty(String)
-+  dispose()
-+  setState(State)
-+  retrieveCustomExtensions()
++ OAuthBearerSaslClient(AuthenticateCallbackHandler) : OAuthBearerSaslClient [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#39]]]
++ callbackHandler() : CallbackHandler [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#44]]]
++ getMechanismName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#49]]]
++ hasInitialResponse() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#54]]]
++ evaluateChallenge(byte[]) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#59]]]
++ isComplete() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#99]]]
++ unwrap(byte[];int;int) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#104]]]
++ wrap(byte[];int;int) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#111]]]
++ getNegotiatedProperty(String) : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#118]]]
++ dispose() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#125]]]
+- setState(State) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#128]]]
+- retrieveCustomExtensions() : SaslExtensions [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#133]]]
 } 
 @enduml

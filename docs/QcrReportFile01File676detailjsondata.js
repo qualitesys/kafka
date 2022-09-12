@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.FetchSnapshotResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#20"
  , "c1" : "FetchSnapshotResponse"
  , "c2" : "FetchSnapshotResponse(FetchSnapshotResponseData)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#26"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "4"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#45"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#50"
  , "c1" : "FetchSnapshotResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#55"
  , "c1" : "FetchSnapshotResponseData"
  , "c2" : "withTopLevelError(Errors)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#60"
  , "c1" : "FetchSnapshotResponseData"
  , "c2" : "singleton(TopicPartition;UnaryOperator<FetchSnapshotResponseData.PartitionSnapshot>)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#79"
  , "c1" : "Optional<FetchSnapshotResponseData.PartitionSnapshot>"
  , "c2" : "forTopicPartition(FetchSnapshotResponseData;TopicPartition)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#92"
  , "c1" : "FetchSnapshotResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

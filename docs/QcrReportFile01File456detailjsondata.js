@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.KafkaMetricsContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#14"
  , "c1" : "KafkaMetricsContext"
  , "c2" : "KafkaMetricsContext(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#19"
  , "c1" : "KafkaMetricsContext"
  , "c2" : "KafkaMetricsContext(String;Map<String,?>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#25"
  , "c1" : "Map<String,String>"
  , "c2" : "contextLabels()"
  , "c3" : "1"

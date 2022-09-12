@@ -2,12 +2,12 @@
 !pragma layout smetana
 OAuthBearerToken <|-- org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken
 class org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken {
-+  BasicOAuthBearerToken(String;Set<String>;long;String;Long)
-+  value()
-+  scope()
-+  lifetimeMs()
-+  principalName()
-+  startTimeMs()
-+  toString()
++ BasicOAuthBearerToken(String;Set<String>;long;String;Long) : BasicOAuthBearerToken [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#25]]]
++ value() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#40]]]
++ scope() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#47]]]
++ lifetimeMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#56]]]
++ principalName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#63]]]
++ startTimeMs() : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#70]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#75]]]
 } 
 @enduml

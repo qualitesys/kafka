@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.ApiRequestScope" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ApiRequestScope.java.html#10"
  , "c1" : "OptionalInt"
  , "c2" : "destinationBrokerId()"
  , "c3" : "1"

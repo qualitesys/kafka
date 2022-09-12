@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.HeaderGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#40"
  , "c1" : "HeaderGenerator"
  , "c2" : "HeaderGenerator(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#47"
  , "c1" : "void"
  , "c2" : "addImport(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#51"
  , "c1" : "void"
  , "c2" : "addStaticImport(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#55"
  , "c1" : "void"
  , "c2" : "generate()"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#74"
  , "c1" : "CodeBuffer"
  , "c2" : "buffer()"
  , "c3" : "1"

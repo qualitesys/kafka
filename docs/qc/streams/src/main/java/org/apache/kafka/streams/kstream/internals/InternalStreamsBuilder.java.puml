@@ -2,23 +2,23 @@
 !pragma layout smetana
 InternalNameProvider <|-- org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder
 class org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder {
-+  InternalStreamsBuilder(InternalTopologyBuilder)
-+  newProcessorName(String)
-+  newStoreName(String)
-+  addStateStore(StoreBuilder<?>)
-+  addGraphNode(GraphNode;GraphNode)
-+  addGraphNode(Collection<GraphNode>;GraphNode)
-+  maybeAddNodeForOptimizationMetadata(GraphNode)
-+  buildAndOptimizeTopology()
-+  buildAndOptimizeTopology(boolean)
-+  mergeDuplicateSourceNodes()
-+  optimizeKTableSourceTopics()
-+  maybeOptimizeRepartitionOperations()
-+  maybeUpdateKeyChangingRepartitionNodeMap()
-+  mergeNodeHasRepartitionChildren(GraphNode;LinkedHashSet<OptimizableRepartitionNode<?,?>>)
-+  getKeyChangingParentNode(GraphNode)
-+  getFirstRepartitionTopicName(Collection<OptimizableRepartitionNode<?,?>>)
-+  findParentNodeMatching(GraphNode;Predicate<GraphNode>)
-+  root()
++ InternalStreamsBuilder(InternalTopologyBuilder) : InternalStreamsBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#65]]]
++ newProcessorName(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#175]]]
++ newStoreName(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#180]]]
++ addStateStore(StoreBuilder<?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#184]]]
+addGraphNode(GraphNode;GraphNode) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#211]]]
+addGraphNode(Collection<GraphNode>;GraphNode) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#219]]]
+- maybeAddNodeForOptimizationMetadata(GraphNode) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#233]]]
++ buildAndOptimizeTopology() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#257]]]
++ buildAndOptimizeTopology(boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#261]]]
+- mergeDuplicateSourceNodes() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#293]]]
+- optimizeKTableSourceTopics() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#344]]]
+- maybeOptimizeRepartitionOperations() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#349]]]
+- maybeUpdateKeyChangingRepartitionNodeMap() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#420]]]
+- mergeNodeHasRepartitionChildren(GraphNode;LinkedHashSet<OptimizableRepartitionNode<?,?>>) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#452]]]
+- getKeyChangingParentNode(GraphNode) : GraphNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#481]]]
+- getFirstRepartitionTopicName(Collection<OptimizableRepartitionNode<?,?>>) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#491]]]
+- findParentNodeMatching(GraphNode;Predicate<GraphNode>) : GraphNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#517]]]
++ root() : GraphNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#533]]]
 } 
 @enduml

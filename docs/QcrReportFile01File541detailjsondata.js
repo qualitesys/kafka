@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.types.Type" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#17"
  , "c1" : "void"
  , "c2" : "write(ByteBuffer;Object)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#20"
  , "c1" : "Object"
  , "c2" : "read(ByteBuffer)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#23"
  , "c1" : "Object"
  , "c2" : "validate(Object)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#26"
  , "c1" : "int"
  , "c2" : "sizeOf(Object)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#29"
  , "c1" : "boolean"
  , "c2" : "isNullable()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#34"
  , "c1" : "Optional<Type>"
  , "c2" : "arrayElementType()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#39"
  , "c1" : "boolean"
  , "c2" : "isArray()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1047"
  , "c1" : "String"
  , "c2" : "toHtml()"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1074"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

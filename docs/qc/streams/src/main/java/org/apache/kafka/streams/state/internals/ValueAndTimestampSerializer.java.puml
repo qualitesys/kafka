@@ -2,15 +2,15 @@
 !pragma layout smetana
 WrappingNullableSerializer_ValueAndTimestamp_V_,Void,V_ <|-- org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer
 class org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer {
-+  ValueAndTimestampSerializer(Serializer<V>)
-+  valuesAreSameAndTimeIsIncreasing(byte[];byte[])
-+  configure(Map<String,?>;boolean)
-+  serialize(String;ValueAndTimestamp<V>)
-+  serialize(String;V;long)
-+  close()
-+  timeIsDecreasing(byte[];byte[])
-+  extractTimestamp(byte[])
-+  valuesAreSame(byte[];byte[])
-+  setIfUnset(SerdeGetter)
+ValueAndTimestampSerializer(Serializer<V>) : ValueAndTimestampSerializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#20]]]
++ valuesAreSameAndTimeIsIncreasing(byte[];byte[]) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#26]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#47]]]
++ serialize(String;ValueAndTimestamp<V>) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#54]]]
++ serialize(String;V;long) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#62]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#88]]]
+- timeIsDecreasing(byte[];byte[]) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#93]]]
+- extractTimestamp(byte[]) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#97]]]
+- valuesAreSame(byte[];byte[]) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#103]]]
++ setIfUnset(SerdeGetter) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#113]]]
 } 
 @enduml

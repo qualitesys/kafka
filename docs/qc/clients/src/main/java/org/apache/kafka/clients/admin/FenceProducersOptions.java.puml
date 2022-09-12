@@ -2,6 +2,6 @@
 !pragma layout smetana
 AbstractOptions_FenceProducersOptions_ <|-- org.apache.kafka.clients.admin.FenceProducersOptions
 class org.apache.kafka.clients.admin.FenceProducersOptions {
-+  toString()
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersOptions.java.html#14]]]
 } 
 @enduml

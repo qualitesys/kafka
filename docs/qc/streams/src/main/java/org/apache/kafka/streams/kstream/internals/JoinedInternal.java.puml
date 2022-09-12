@@ -2,10 +2,10 @@
 !pragma layout smetana
 Joined_K,V,VO_ <|-- org.apache.kafka.streams.kstream.internals.JoinedInternal
 class org.apache.kafka.streams.kstream.internals.JoinedInternal {
-+  JoinedInternal(Joined<K,V,VO>)
-+  keySerde()
-+  valueSerde()
-+  otherValueSerde()
-+  name()
+JoinedInternal(Joined<K,V,VO>) : JoinedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#9]]]
++ keySerde() : Serde<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#13]]]
++ valueSerde() : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#17]]]
++ otherValueSerde() : Serde<VO> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#21]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#25]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 AbstractQueryResult_R_QueryResult_R_ <|-- org.apache.kafka.streams.query.internals.SucceededQueryResult
 class org.apache.kafka.streams.query.internals.SucceededQueryResult {
-+  SucceededQueryResult(R)
-+  SucceededQueryResult(R;List<String>;Position)
-+  isSuccess()
-+  isFailure()
-+  getFailureReason()
-+  getFailureMessage()
-+  getResult()
-+  toString()
++ SucceededQueryResult(R) : SucceededQueryResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#19]]]
+SucceededQueryResult(R;List<String>;Position) : SucceededQueryResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#24]]]
++ isSuccess() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#32]]]
++ isFailure() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#38]]]
++ getFailureReason() : FailureReason [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#43]]]
++ getFailureMessage() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#50]]]
++ getResult() : R [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#57]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#62]]]
 } 
 @enduml

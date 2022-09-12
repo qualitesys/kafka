@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.Heartbeat" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#24"
  , "c1" : "Heartbeat"
  , "c2" : "Heartbeat(GroupRebalanceConfig;Time)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#39"
  , "c1" : "void"
  , "c2" : "update(long)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#45"
  , "c1" : "void"
  , "c2" : "poll(long)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#50"
  , "c1" : "boolean"
  , "c2" : "hasInflight()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#54"
  , "c1" : "void"
  , "c2" : "sentHeartbeat(long)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#65"
  , "c1" : "void"
  , "c2" : "failHeartbeat()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#73"
  , "c1" : "void"
  , "c2" : "receiveHeartbeat()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#79"
  , "c1" : "boolean"
  , "c2" : "shouldHeartbeat(long)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#84"
  , "c1" : "long"
  , "c2" : "lastHeartbeatSend()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#88"
  , "c1" : "long"
  , "c2" : "timeToNextHeartbeat(long)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#93"
  , "c1" : "boolean"
  , "c2" : "sessionTimeoutExpired(long)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#98"
  , "c1" : "void"
  , "c2" : "resetTimeouts()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#105"
  , "c1" : "void"
  , "c2" : "resetSessionTimeout()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#110"
  , "c1" : "boolean"
  , "c2" : "pollTimeoutExpired(long)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#115"
  , "c1" : "long"
  , "c2" : "lastPollTime()"
  , "c3" : "1"

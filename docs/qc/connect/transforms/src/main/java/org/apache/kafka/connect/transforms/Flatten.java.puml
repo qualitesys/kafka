@@ -2,19 +2,19 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.Flatten
 class org.apache.kafka.connect.transforms.Flatten {
-+  configure(Map<String,?>)
-+  apply(R)
-+  close()
-+  config()
-+  operatingSchema(R)
-+  operatingValue(R)
-+  newRecord(R;Schema;Object)
-+  applySchemaless(R)
-+  applySchemaless(Map<String,Object>;String;Map<String,Object>)
-+  applyWithSchema(R)
-+  buildUpdatedSchema(Schema;String;SchemaBuilder;boolean;Struct)
-+  convertFieldSchema(Schema;boolean;Object)
-+  buildWithSchema(Struct;String;Struct)
-+  fieldName(String;String)
++ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#49]]]
++ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#56]]]
++ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#67]]]
++ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#71]]]
+operatingSchema(R) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#75]]]
+operatingValue(R) : Object [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#77]]]
+newRecord(R;Schema;Object) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#79]]]
+- applySchemaless(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#81]]]
+- applySchemaless(Map<String,Object>;String;Map<String,Object>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#88]]]
+- applyWithSchema(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#126]]]
+- buildUpdatedSchema(Schema;String;SchemaBuilder;boolean;Struct) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#148]]]
+- convertFieldSchema(Schema;boolean;Object) : Schema [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#182]]]
+- buildWithSchema(Struct;String;Struct) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#194]]]
+- fieldName(String;String) : String [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#223]]]
 } 
 @enduml

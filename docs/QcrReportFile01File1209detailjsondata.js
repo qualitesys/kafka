@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.TopicCreation" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#27"
  , "c1" : "TopicCreation"
  , "c2" : "TopicCreation(boolean;TopicCreationGroup;Map<String,TopicCreationGroup>;Set<String>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#37"
  , "c1" : "TopicCreation"
  , "c2" : "newTopicCreation(WorkerConfig;Map<String,TopicCreationGroup>)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#48"
  , "c1" : "TopicCreation"
  , "c2" : "empty()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#53"
  , "c1" : "boolean"
  , "c2" : "isTopicCreationEnabled()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#58"
  , "c1" : "boolean"
  , "c2" : "isTopicCreationRequired(String)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#63"
  , "c1" : "TopicCreationGroup"
  , "c2" : "defaultTopicGroup()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#68"
  , "c1" : "Map<String,TopicCreationGroup>"
  , "c2" : "topicGroups()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#73"
  , "c1" : "void"
  , "c2" : "addTopic(String)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#80"
  , "c1" : "TopicCreationGroup"
  , "c2" : "findFirstGroup(String)"
  , "c3" : "1"

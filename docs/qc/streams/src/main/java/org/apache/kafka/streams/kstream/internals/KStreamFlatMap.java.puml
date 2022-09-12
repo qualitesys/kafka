@@ -2,7 +2,7 @@
 !pragma layout smetana
 ProcessorSupplier_KIn,VIn,KOut,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KStreamFlatMap
 class org.apache.kafka.streams.kstream.internals.KStreamFlatMap {
-+  KStreamFlatMap(KeyValueMapper<?superKIn,?superVIn,?extendsIterable<?extendsKeyValue<?extendsKOut,?extendsVOut>>>)
-+  get()
+KStreamFlatMap(KeyValueMapper<?superKIn,?superVIn,?extendsIterable<?extendsKeyValue<?extendsKOut,?extendsVOut>>>) : KStreamFlatMap [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#17]]]
++ get() : Processor<KIn,VIn,KOut,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMap.java.html#22]]]
 } 
 @enduml

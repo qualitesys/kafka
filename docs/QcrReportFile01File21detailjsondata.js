@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.NodeApiVersions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#35"
  , "c1" : "NodeApiVersions"
  , "c2" : "create()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#40"
  , "c1" : "NodeApiVersions"
  , "c2" : "create(Collection<ApiVersion>)"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#57"
  , "c1" : "NodeApiVersions"
  , "c2" : "create(short;short;short)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#64"
  , "c1" : "NodeApiVersions"
  , "c2" : "NodeApiVersions(Collection<ApiVersion>;Collection<SupportedFeatureKey>)"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#84"
  , "c1" : "short"
  , "c2" : "latestUsableVersion(ApiKeys)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#89"
  , "c1" : "short"
  , "c2" : "latestUsableVersion(ApiKeys;short;short)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#109"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00114"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#114"
  , "c1" : "String"
  , "c2" : "toString(boolean)"
  , "c3" : "7"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00146"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#146"
  , "c1" : "String"
  , "c2" : "apiVersionToText(ApiVersion)"
  , "c3" : "10"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#177"
  , "c1" : "ApiVersion"
  , "c2" : "apiVersion(ApiKeys)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#181"
  , "c1" : "Map<ApiKeys,ApiVersion>"
  , "c2" : "allSupportedApiVersions()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00185"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#185"
  , "c1" : "Map<String,SupportedVersionRange>"
  , "c2" : "supportedFeatures()"
  , "c3" : "1"

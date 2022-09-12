@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.image.LocalReplicaChanges" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#17"
  , "c1" : "LocalReplicaChanges"
  , "c2" : "LocalReplicaChanges(Set<TopicPartition>;Map<TopicPartition,PartitionInfo>;Map<TopicPartition,PartitionInfo>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#27"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "deletes()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#31"
  , "c1" : "Map<TopicPartition,PartitionInfo>"
  , "c2" : "leaders()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#35"
  , "c1" : "Map<TopicPartition,PartitionInfo>"
  , "c2" : "followers()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#40"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

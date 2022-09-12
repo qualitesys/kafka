@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.OutOfOrderSequenceException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/OutOfOrderSequenceException.java.html#7"
  , "c1" : "OutOfOrderSequenceException"
  , "c2" : "OutOfOrderSequenceException(String)"
  , "c3" : "1"

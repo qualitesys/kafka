@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.connector.ConnectRecord" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#22"
  , "c1" : "ConnectRecord"
  , "c2" : "ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#29"
  , "c1" : "ConnectRecord"
  , "c2" : "ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#47"
  , "c1" : "String"
  , "c2" : "topic()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#51"
  , "c1" : "Integer"
  , "c2" : "kafkaPartition()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#55"
  , "c1" : "Object"
  , "c2" : "key()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#59"
  , "c1" : "Schema"
  , "c2" : "keySchema()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#63"
  , "c1" : "Object"
  , "c2" : "value()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#67"
  , "c1" : "Schema"
  , "c2" : "valueSchema()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#71"
  , "c1" : "Long"
  , "c2" : "timestamp()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#76"
  , "c1" : "Headers"
  , "c2" : "headers()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#81"
  , "c1" : "R"
  , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#84"
  , "c1" : "R"
  , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#87"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#101"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#120"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"

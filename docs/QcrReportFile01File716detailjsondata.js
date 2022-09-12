@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.RequestUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#18"
  , "c1" : "RequestUtils"
  , "c2" : "RequestUtils()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#20"
  , "c1" : "Optional<Integer>"
  , "c2" : "getLeaderEpoch(int)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#25"
  , "c1" : "boolean"
  , "c2" : "hasTransactionalRecords(ProduceRequest)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#30"
  , "c1" : "boolean"
  , "c2" : "flag(ProduceRequest;Predicate<RecordBatch>)"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42"
  , "c1" : "ByteBuffer"
  , "c2" : "serialize(Message;short;Message;short)"
  , "c3" : "1"

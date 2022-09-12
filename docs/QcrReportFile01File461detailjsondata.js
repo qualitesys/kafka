@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.Metrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#44"
  , "c1" : "Metrics"
  , "c2" : "Metrics()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#49"
  , "c1" : "Metrics"
  , "c2" : "Metrics(Time)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#54"
  , "c1" : "Metrics"
  , "c2" : "Metrics(MetricConfig;Time)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#60"
  , "c1" : "Metrics"
  , "c2" : "Metrics(MetricConfig)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#65"
  , "c1" : "Metrics"
  , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#70"
  , "c1" : "Metrics"
  , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time;MetricsContext)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#75"
  , "c1" : "Metrics"
  , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time;boolean)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#80"
  , "c1" : "Metrics"
  , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time;boolean;MetricsContext)"
  , "c3" : "4"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#108"
  , "c1" : "MetricName"
  , "c2" : "metricName(String;String;String;Map<String,String>)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#115"
  , "c1" : "MetricName"
  , "c2" : "metricName(String;String;String)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#120"
  , "c1" : "MetricName"
  , "c2" : "metricName(String;String)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#125"
  , "c1" : "MetricName"
  , "c2" : "metricName(String;String;String;String...)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#130"
  , "c1" : "MetricName"
  , "c2" : "metricName(String;String;Map<String,String>)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#135"
  , "c1" : "String"
  , "c2" : "toHtmlTable(String;Iterable<MetricNameTemplate>)"
  , "c3" : "8"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00194"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#194"
  , "c1" : "MetricConfig"
  , "c2" : "config()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00199"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#199"
  , "c1" : "Sensor"
  , "c2" : "getSensor(String)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#204"
  , "c1" : "Sensor"
  , "c2" : "sensor(String)"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#209"
  , "c1" : "Sensor"
  , "c2" : "sensor(String;Sensor.RecordingLevel)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00215"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#215"
  , "c1" : "Sensor"
  , "c2" : "sensor(String;Sensor...)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00220"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#220"
  , "c1" : "Sensor"
  , "c2" : "sensor(String;Sensor.RecordingLevel;Sensor...)"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00225"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#225"
  , "c1" : "Sensor"
  , "c2" : "sensor(String;MetricConfig;Sensor...)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00231"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#231"
  , "c1" : "Sensor"
  , "c2" : "sensor(String;MetricConfig;Sensor.RecordingLevel;Sensor...)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00236"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#236"
  , "c1" : "Sensor"
  , "c2" : "sensor(String;MetricConfig;long;Sensor.RecordingLevel;Sensor...)"
  , "c3" : "4"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00253"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#253"
  , "c1" : "Sensor"
  , "c2" : "sensor(String;MetricConfig;long;Sensor...)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00258"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#258"
  , "c1" : "void"
  , "c2" : "removeSensor(String)"
  , "c3" : "7"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00283"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#283"
  , "c1" : "void"
  , "c2" : "addMetric(MetricName;Measurable)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00288"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#288"
  , "c1" : "void"
  , "c2" : "addMetric(MetricName;MetricConfig;Measurable)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00293"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#293"
  , "c1" : "void"
  , "c2" : "addMetric(MetricName;MetricConfig;MetricValueProvider<?>)"
  , "c3" : "2"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00306"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#306"
  , "c1" : "void"
  , "c2" : "addMetric(MetricName;MetricValueProvider<?>)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00311"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#311"
  , "c1" : "KafkaMetric"
  , "c2" : "addMetricIfAbsent(MetricName;MetricConfig;MetricValueProvider<?>)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00323"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#323"
  , "c1" : "KafkaMetric"
  , "c2" : "removeMetric(MetricName)"
  , "c3" : "3"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00339"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#339"
  , "c1" : "void"
  , "c2" : "addReporter(MetricsReporter)"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00345"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#345"
  , "c1" : "void"
  , "c2" : "removeReporter(MetricsReporter)"
  , "c3" : "2"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00352"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#352"
  , "c1" : "KafkaMetric"
  , "c2" : "registerMetric(KafkaMetric)"
  , "c3" : "3"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00371"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#371"
  , "c1" : "Map<MetricName,KafkaMetric>"
  , "c2" : "metrics()"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00375"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#375"
  , "c1" : "List<MetricsReporter>"
  , "c2" : "reporters()"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00379"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#379"
  , "c1" : "KafkaMetric"
  , "c2" : "metric(MetricName)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#406"
  , "c1" : "Map<Sensor,List<Sensor>>"
  , "c2" : "childrenSensors()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00410"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#410"
  , "c1" : "MetricName"
  , "c2" : "metricInstance(MetricNameTemplate;String...)"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00414"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#414"
  , "c1" : "MetricName"
  , "c2" : "metricInstance(MetricNameTemplate;Map<String,String>)"
  , "c3" : "2"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00431"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#431"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "3"

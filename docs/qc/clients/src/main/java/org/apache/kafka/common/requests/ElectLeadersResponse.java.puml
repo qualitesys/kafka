@@ -2,13 +2,13 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.ElectLeadersResponse
 class org.apache.kafka.common.requests.ElectLeadersResponse {
-+  ElectLeadersResponse(ElectLeadersResponseData)
-+  ElectLeadersResponse(int;short;List<ReplicaElectionResult>;short)
-+  data()
-+  throttleTimeMs()
-+  errorCounts()
-+  parse(ByteBuffer;short)
-+  shouldClientThrottle(short)
-+  electLeadersResult(ElectLeadersResponseData)
++ ElectLeadersResponse(ElectLeadersResponseData) : ElectLeadersResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#22]]]
++ ElectLeadersResponse(int;short;List<ReplicaElectionResult>;short) : ElectLeadersResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#27]]]
++ data() : ElectLeadersResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#41]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#46]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#51]]]
++ parse(ByteBuffer;short) : ElectLeadersResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#62]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#67]]]
++ electLeadersResult(ElectLeadersResponseData) : Map<TopicPartition,Optional<Throwable>> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersResponse.java.html#71]]]
 } 
 @enduml

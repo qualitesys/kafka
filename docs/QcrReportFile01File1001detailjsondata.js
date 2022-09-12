@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.file.FileStreamSinkConnector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#27"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#32"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#38"
  , "c1" : "Class<?extendsTask>"
  , "c2" : "taskClass()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#43"
  , "c1" : "List<Map<String,String>>"
  , "c2" : "taskConfigs(int)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#55"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#60"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeFeaturesResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeFeaturesResult.java.html#11"
  , "c1" : "DescribeFeaturesResult"
  , "c2" : "DescribeFeaturesResult(KafkaFuture<FeatureMetadata>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeFeaturesResult.java.html#15"
  , "c1" : "KafkaFuture<FeatureMetadata>"
  , "c2" : "featureMetadata()"
  , "c3" : "1"

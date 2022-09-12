@@ -2,7 +2,7 @@
 !pragma layout smetana
 ProcessorSupplier_K,V1,K,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KStreamKTableJoin
 class org.apache.kafka.streams.kstream.internals.KStreamKTableJoin {
-+  KStreamKTableJoin(KTableValueGetterSupplier<K,V2>;ValueJoinerWithKey<?superK,?superV1,?superV2,VOut>;boolean)
-+  get()
+KStreamKTableJoin(KTableValueGetterSupplier<K,V2>;ValueJoinerWithKey<?superK,?superV1,?superV2,VOut>;boolean) : KStreamKTableJoin [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKTableJoin.java.html#16]]]
++ get() : Processor<K,V1,K,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKTableJoin.java.html#25]]]
 } 
 @enduml

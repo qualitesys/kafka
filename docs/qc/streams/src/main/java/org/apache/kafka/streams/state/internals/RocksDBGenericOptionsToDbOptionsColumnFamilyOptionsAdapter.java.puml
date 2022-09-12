@@ -2,311 +2,311 @@
 !pragma layout smetana
 Options <|-- org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter
 class org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter {
-+  RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter(DBOptions;ColumnFamilyOptions)
-+  setIncreaseParallelism(int)
-+  setCreateIfMissing(boolean)
-+  setCreateMissingColumnFamilies(boolean)
-+  setEnv(Env)
-+  getEnv()
-+  prepareForBulkLoad()
-+  createIfMissing()
-+  createMissingColumnFamilies()
-+  optimizeForSmallDb()
-+  optimizeForPointLookup(long)
-+  optimizeLevelStyleCompaction()
-+  optimizeLevelStyleCompaction(long)
-+  optimizeUniversalStyleCompaction()
-+  optimizeUniversalStyleCompaction(long)
-+  setComparator(BuiltinComparator)
-+  setComparator(AbstractComparator)
-+  setMergeOperatorName(String)
-+  setMergeOperator(MergeOperator)
-+  setWriteBufferSize(long)
-+  writeBufferSize()
-+  setMaxWriteBufferNumber(int)
-+  maxWriteBufferNumber()
-+  errorIfExists()
-+  setErrorIfExists(boolean)
-+  paranoidChecks()
-+  setParanoidChecks(boolean)
-+  maxOpenFiles()
-+  setMaxFileOpeningThreads(int)
-+  maxFileOpeningThreads()
-+  setMaxTotalWalSize(long)
-+  maxTotalWalSize()
-+  setMaxOpenFiles(int)
-+  useFsync()
-+  setUseFsync(boolean)
-+  setDbPaths(Collection<DbPath>)
-+  dbPaths()
-+  dbLogDir()
-+  setDbLogDir(String)
-+  walDir()
-+  setWalDir(String)
-+  deleteObsoleteFilesPeriodMicros()
-+  setDeleteObsoleteFilesPeriodMicros(long)
-+  maxBackgroundCompactions()
-+  setStatistics(Statistics)
-+  statistics()
-+  setBaseBackgroundCompactions(int)
-+  baseBackgroundCompactions()
-+  setMaxBackgroundCompactions(int)
-+  setMaxSubcompactions(int)
-+  maxSubcompactions()
-+  maxBackgroundFlushes()
-+  setMaxBackgroundFlushes(int)
-+  maxBackgroundJobs()
-+  setMaxBackgroundJobs(int)
-+  maxLogFileSize()
-+  setMaxLogFileSize(long)
-+  logFileTimeToRoll()
-+  setLogFileTimeToRoll(long)
-+  keepLogFileNum()
-+  setKeepLogFileNum(long)
-+  setRecycleLogFileNum(long)
-+  recycleLogFileNum()
-+  maxManifestFileSize()
-+  setMaxManifestFileSize(long)
-+  setMaxTableFilesSizeFIFO(long)
-+  maxTableFilesSizeFIFO()
-+  tableCacheNumshardbits()
-+  setTableCacheNumshardbits(int)
-+  walTtlSeconds()
-+  setWalTtlSeconds(long)
-+  walSizeLimitMB()
-+  setWalSizeLimitMB(long)
-+  manifestPreallocationSize()
-+  setManifestPreallocationSize(long)
-+  setUseDirectReads(boolean)
-+  useDirectReads()
-+  setUseDirectIoForFlushAndCompaction(boolean)
-+  useDirectIoForFlushAndCompaction()
-+  setAllowFAllocate(boolean)
-+  allowFAllocate()
-+  allowMmapReads()
-+  setAllowMmapReads(boolean)
-+  allowMmapWrites()
-+  setAllowMmapWrites(boolean)
-+  isFdCloseOnExec()
-+  setIsFdCloseOnExec(boolean)
-+  statsDumpPeriodSec()
-+  setStatsDumpPeriodSec(int)
-+  adviseRandomOnOpen()
-+  setAdviseRandomOnOpen(boolean)
-+  setDbWriteBufferSize(long)
-+  dbWriteBufferSize()
-+  setAccessHintOnCompactionStart(AccessHint)
-+  accessHintOnCompactionStart()
-+  setNewTableReaderForCompactionInputs(boolean)
-+  newTableReaderForCompactionInputs()
-+  setCompactionReadaheadSize(long)
-+  compactionReadaheadSize()
-+  setRandomAccessMaxBufferSize(long)
-+  randomAccessMaxBufferSize()
-+  setWritableFileMaxBufferSize(long)
-+  writableFileMaxBufferSize()
-+  useAdaptiveMutex()
-+  setUseAdaptiveMutex(boolean)
-+  bytesPerSync()
-+  setBytesPerSync(long)
-+  setWalBytesPerSync(long)
-+  walBytesPerSync()
-+  setEnableThreadTracking(boolean)
-+  enableThreadTracking()
-+  setDelayedWriteRate(long)
-+  delayedWriteRate()
-+  setAllowConcurrentMemtableWrite(boolean)
-+  allowConcurrentMemtableWrite()
-+  setEnableWriteThreadAdaptiveYield(boolean)
-+  enableWriteThreadAdaptiveYield()
-+  setWriteThreadMaxYieldUsec(long)
-+  writeThreadMaxYieldUsec()
-+  setWriteThreadSlowYieldUsec(long)
-+  writeThreadSlowYieldUsec()
-+  setSkipStatsUpdateOnDbOpen(boolean)
-+  skipStatsUpdateOnDbOpen()
-+  setWalRecoveryMode(WALRecoveryMode)
-+  walRecoveryMode()
-+  setAllow2pc(boolean)
-+  allow2pc()
-+  setRowCache(Cache)
-+  rowCache()
-+  setFailIfOptionsFileError(boolean)
-+  failIfOptionsFileError()
-+  setDumpMallocStats(boolean)
-+  dumpMallocStats()
-+  setAvoidFlushDuringRecovery(boolean)
-+  avoidFlushDuringRecovery()
-+  setAvoidFlushDuringShutdown(boolean)
-+  avoidFlushDuringShutdown()
-+  memTableConfig()
-+  setMemTableConfig(MemTableConfig)
-+  setRateLimiter(RateLimiter)
-+  setSstFileManager(SstFileManager)
-+  setLogger(org.rocksdb.Logger)
-+  setInfoLogLevel(InfoLogLevel)
-+  infoLogLevel()
-+  memTableFactoryName()
-+  tableFormatConfig()
-+  setTableFormatConfig(TableFormatConfig)
-+  tableFactoryName()
-+  useFixedLengthPrefixExtractor(int)
-+  useCappedPrefixExtractor(int)
-+  compressionType()
-+  setCompressionPerLevel(List<CompressionType>)
-+  compressionPerLevel()
-+  setCompressionType(CompressionType)
-+  setBottommostCompressionType(CompressionType)
-+  bottommostCompressionType()
-+  setCompressionOptions(CompressionOptions)
-+  compressionOptions()
-+  compactionStyle()
-+  setCompactionStyle(CompactionStyle)
-+  numLevels()
-+  setNumLevels(int)
-+  levelZeroFileNumCompactionTrigger()
-+  setLevelZeroFileNumCompactionTrigger(int)
-+  levelZeroSlowdownWritesTrigger()
-+  setLevelZeroSlowdownWritesTrigger(int)
-+  levelZeroStopWritesTrigger()
-+  setLevelZeroStopWritesTrigger(int)
-+  targetFileSizeBase()
-+  setTargetFileSizeBase(long)
-+  targetFileSizeMultiplier()
-+  setTargetFileSizeMultiplier(int)
-+  setMaxBytesForLevelBase(long)
-+  maxBytesForLevelBase()
-+  setLevelCompactionDynamicLevelBytes(boolean)
-+  levelCompactionDynamicLevelBytes()
-+  maxBytesForLevelMultiplier()
-+  setMaxBytesForLevelMultiplier(double)
-+  maxCompactionBytes()
-+  setMaxCompactionBytes(long)
-+  arenaBlockSize()
-+  setArenaBlockSize(long)
-+  disableAutoCompactions()
-+  setDisableAutoCompactions(boolean)
-+  maxSequentialSkipInIterations()
-+  setMaxSequentialSkipInIterations(long)
-+  inplaceUpdateSupport()
-+  setInplaceUpdateSupport(boolean)
-+  inplaceUpdateNumLocks()
-+  setInplaceUpdateNumLocks(long)
-+  memtablePrefixBloomSizeRatio()
-+  setMemtablePrefixBloomSizeRatio(double)
-+  bloomLocality()
-+  setBloomLocality(int)
-+  maxSuccessiveMerges()
-+  setMaxSuccessiveMerges(long)
-+  minWriteBufferNumberToMerge()
-+  setMinWriteBufferNumberToMerge(int)
-+  setOptimizeFiltersForHits(boolean)
-+  optimizeFiltersForHits()
-+  setMemtableHugePageSize(long)
-+  memtableHugePageSize()
-+  setSoftPendingCompactionBytesLimit(long)
-+  softPendingCompactionBytesLimit()
-+  setHardPendingCompactionBytesLimit(long)
-+  hardPendingCompactionBytesLimit()
-+  setLevel0FileNumCompactionTrigger(int)
-+  level0FileNumCompactionTrigger()
-+  setLevel0SlowdownWritesTrigger(int)
-+  level0SlowdownWritesTrigger()
-+  setLevel0StopWritesTrigger(int)
-+  level0StopWritesTrigger()
-+  setMaxBytesForLevelMultiplierAdditional(int[])
-+  maxBytesForLevelMultiplierAdditional()
-+  setParanoidFileChecks(boolean)
-+  paranoidFileChecks()
-+  setMaxWriteBufferNumberToMaintain(int)
-+  maxWriteBufferNumberToMaintain()
-+  setCompactionPriority(CompactionPriority)
-+  compactionPriority()
-+  setReportBgIoStats(boolean)
-+  reportBgIoStats()
-+  setCompactionOptionsUniversal(CompactionOptionsUniversal)
-+  compactionOptionsUniversal()
-+  setCompactionOptionsFIFO(CompactionOptionsFIFO)
-+  compactionOptionsFIFO()
-+  setForceConsistencyChecks(boolean)
-+  forceConsistencyChecks()
-+  setWriteBufferManager(WriteBufferManager)
-+  writeBufferManager()
-+  setMaxWriteBatchGroupSizeBytes(long)
-+  maxWriteBatchGroupSizeBytes()
-+  oldDefaults(int;int)
-+  optimizeForSmallDb(Cache)
-+  compactionFilter()
-+  compactionFilterFactory()
-+  setStatsPersistPeriodSec(int)
-+  statsPersistPeriodSec()
-+  setStatsHistoryBufferSize(long)
-+  statsHistoryBufferSize()
-+  setStrictBytesPerSync(boolean)
-+  strictBytesPerSync()
-+  setListeners(List<AbstractEventListener>)
-+  listeners()
-+  setEnablePipelinedWrite(boolean)
-+  enablePipelinedWrite()
-+  setUnorderedWrite(boolean)
-+  unorderedWrite()
-+  setSkipCheckingSstFileSizesOnDbOpen(boolean)
-+  skipCheckingSstFileSizesOnDbOpen()
-+  setWalFilter(AbstractWalFilter)
-+  walFilter()
-+  setAllowIngestBehind(boolean)
-+  allowIngestBehind()
-+  setPreserveDeletes(boolean)
-+  preserveDeletes()
-+  setTwoWriteQueues(boolean)
-+  twoWriteQueues()
-+  setManualWalFlush(boolean)
-+  manualWalFlush()
-+  setCfPaths(Collection<DbPath>)
-+  cfPaths()
-+  setBottommostCompressionOptions(CompressionOptions)
-+  bottommostCompressionOptions()
-+  setTtl(long)
-+  ttl()
-+  setPeriodicCompactionSeconds(long)
-+  periodicCompactionSeconds()
-+  setAtomicFlush(boolean)
-+  atomicFlush()
-+  setAvoidUnnecessaryBlockingIO(boolean)
-+  avoidUnnecessaryBlockingIO()
-+  setPersistStatsToDisk(boolean)
-+  persistStatsToDisk()
-+  setWriteDbidToManifest(boolean)
-+  writeDbidToManifest()
-+  setLogReadaheadSize(long)
-+  logReadaheadSize()
-+  setBestEffortsRecovery(boolean)
-+  bestEffortsRecovery()
-+  setMaxBgErrorResumeCount(int)
-+  maxBgerrorResumeCount()
-+  setBgerrorResumeRetryInterval(long)
-+  bgerrorResumeRetryInterval()
-+  setSstPartitionerFactory(SstPartitionerFactory)
-+  sstPartitionerFactory()
-+  setCompactionThreadLimiter(ConcurrentTaskLimiter)
-+  compactionThreadLimiter()
-+  setCompactionFilter(AbstractCompactionFilter<?extendsAbstractSlice<?>>)
-+  setCompactionFilterFactory(AbstractCompactionFilterFactory<?extendsAbstractCompactionFilter<?>>)
-+  setEnableBlobFiles(boolean)
-+  enableBlobFiles()
-+  setMinBlobSize(long)
-+  minBlobSize()
-+  setBlobFileSize(long)
-+  blobFileSize()
-+  setBlobCompressionType(CompressionType)
-+  blobCompressionType()
-+  setEnableBlobGarbageCollection(boolean)
-+  enableBlobGarbageCollection()
-+  setBlobGarbageCollectionAgeCutoff(double)
-+  blobGarbageCollectionAgeCutoff()
-+  setBlobGarbageCollectionForceThreshold(double)
-+  blobGarbageCollectionForceThreshold()
-+  close()
-+  logIgnoreWalOption(String)
+RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter(DBOptions;ColumnFamilyOptions) : RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#50]]]
++ setIncreaseParallelism(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#57]]]
++ setCreateIfMissing(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#63]]]
++ setCreateMissingColumnFamilies(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#69]]]
++ setEnv(Env) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#75]]]
++ getEnv() : Env [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#81]]]
++ prepareForBulkLoad() : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#86]]]
++ createIfMissing() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#92]]]
++ createMissingColumnFamilies() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#97]]]
++ optimizeForSmallDb() : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#102]]]
++ optimizeForPointLookup(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#109]]]
++ optimizeLevelStyleCompaction() : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#115]]]
++ optimizeLevelStyleCompaction(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#121]]]
++ optimizeUniversalStyleCompaction() : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#127]]]
++ optimizeUniversalStyleCompaction(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#133]]]
++ setComparator(BuiltinComparator) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#139]]]
++ setComparator(AbstractComparator) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#145]]]
++ setMergeOperatorName(String) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#151]]]
++ setMergeOperator(MergeOperator) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#157]]]
++ setWriteBufferSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#163]]]
++ writeBufferSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#169]]]
++ setMaxWriteBufferNumber(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#174]]]
++ maxWriteBufferNumber() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#180]]]
++ errorIfExists() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#185]]]
++ setErrorIfExists(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#190]]]
++ paranoidChecks() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#196]]]
++ setParanoidChecks(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#208]]]
++ maxOpenFiles() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#215]]]
++ setMaxFileOpeningThreads(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#220]]]
++ maxFileOpeningThreads() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#226]]]
++ setMaxTotalWalSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#231]]]
++ maxTotalWalSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#237]]]
++ setMaxOpenFiles(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#242]]]
++ useFsync() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#248]]]
++ setUseFsync(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#253]]]
++ setDbPaths(Collection<DbPath>) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#259]]]
++ dbPaths() : List<DbPath> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#265]]]
++ dbLogDir() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#270]]]
++ setDbLogDir(String) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#275]]]
++ walDir() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#281]]]
++ setWalDir(String) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#286]]]
++ deleteObsoleteFilesPeriodMicros() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#292]]]
++ setDeleteObsoleteFilesPeriodMicros(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#297]]]
++ maxBackgroundCompactions() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#304]]]
++ setStatistics(Statistics) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#309]]]
++ statistics() : Statistics [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#315]]]
++ setBaseBackgroundCompactions(int) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#321]]]
++ baseBackgroundCompactions() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#326]]]
++ setMaxBackgroundCompactions(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#332]]]
++ setMaxSubcompactions(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#338]]]
++ maxSubcompactions() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#344]]]
++ maxBackgroundFlushes() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#350]]]
++ setMaxBackgroundFlushes(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#356]]]
++ maxBackgroundJobs() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#362]]]
++ setMaxBackgroundJobs(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#367]]]
++ maxLogFileSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#373]]]
++ setMaxLogFileSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#378]]]
++ logFileTimeToRoll() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#384]]]
++ setLogFileTimeToRoll(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#389]]]
++ keepLogFileNum() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#395]]]
++ setKeepLogFileNum(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#400]]]
++ setRecycleLogFileNum(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#406]]]
++ recycleLogFileNum() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#412]]]
++ maxManifestFileSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#417]]]
++ setMaxManifestFileSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#422]]]
++ setMaxTableFilesSizeFIFO(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#428]]]
++ maxTableFilesSizeFIFO() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#434]]]
++ tableCacheNumshardbits() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#439]]]
++ setTableCacheNumshardbits(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#444]]]
++ walTtlSeconds() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#450]]]
++ setWalTtlSeconds(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#455]]]
++ walSizeLimitMB() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#461]]]
++ setWalSizeLimitMB(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#466]]]
++ manifestPreallocationSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#472]]]
++ setManifestPreallocationSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#477]]]
++ setUseDirectReads(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#483]]]
++ useDirectReads() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#489]]]
++ setUseDirectIoForFlushAndCompaction(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#494]]]
++ useDirectIoForFlushAndCompaction() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#500]]]
++ setAllowFAllocate(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#505]]]
++ allowFAllocate() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#511]]]
++ allowMmapReads() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#516]]]
++ setAllowMmapReads(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#521]]]
++ allowMmapWrites() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#527]]]
++ setAllowMmapWrites(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#532]]]
++ isFdCloseOnExec() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#538]]]
++ setIsFdCloseOnExec(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#543]]]
++ statsDumpPeriodSec() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#549]]]
++ setStatsDumpPeriodSec(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#554]]]
++ adviseRandomOnOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#560]]]
++ setAdviseRandomOnOpen(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#565]]]
++ setDbWriteBufferSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#571]]]
++ dbWriteBufferSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#577]]]
++ setAccessHintOnCompactionStart(AccessHint) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#582]]]
++ accessHintOnCompactionStart() : AccessHint [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#588]]]
++ setNewTableReaderForCompactionInputs(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#593]]]
++ newTableReaderForCompactionInputs() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#599]]]
++ setCompactionReadaheadSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#604]]]
++ compactionReadaheadSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#610]]]
++ setRandomAccessMaxBufferSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#615]]]
++ randomAccessMaxBufferSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#621]]]
++ setWritableFileMaxBufferSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#626]]]
++ writableFileMaxBufferSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#632]]]
++ useAdaptiveMutex() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#637]]]
++ setUseAdaptiveMutex(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#642]]]
++ bytesPerSync() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#648]]]
++ setBytesPerSync(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#653]]]
++ setWalBytesPerSync(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#659]]]
++ walBytesPerSync() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#665]]]
++ setEnableThreadTracking(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#670]]]
++ enableThreadTracking() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#676]]]
++ setDelayedWriteRate(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#681]]]
++ delayedWriteRate() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#687]]]
++ setAllowConcurrentMemtableWrite(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#692]]]
++ allowConcurrentMemtableWrite() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#698]]]
++ setEnableWriteThreadAdaptiveYield(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#703]]]
++ enableWriteThreadAdaptiveYield() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#709]]]
++ setWriteThreadMaxYieldUsec(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#714]]]
++ writeThreadMaxYieldUsec() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#720]]]
++ setWriteThreadSlowYieldUsec(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#725]]]
++ writeThreadSlowYieldUsec() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#731]]]
++ setSkipStatsUpdateOnDbOpen(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#736]]]
++ skipStatsUpdateOnDbOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#742]]]
++ setWalRecoveryMode(WALRecoveryMode) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#747]]]
++ walRecoveryMode() : WALRecoveryMode [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#753]]]
++ setAllow2pc(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#758]]]
++ allow2pc() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#764]]]
++ setRowCache(Cache) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#769]]]
++ rowCache() : Cache [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#775]]]
++ setFailIfOptionsFileError(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#780]]]
++ failIfOptionsFileError() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#786]]]
++ setDumpMallocStats(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#791]]]
++ dumpMallocStats() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#797]]]
++ setAvoidFlushDuringRecovery(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#802]]]
++ avoidFlushDuringRecovery() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#808]]]
++ setAvoidFlushDuringShutdown(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#813]]]
++ avoidFlushDuringShutdown() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#819]]]
++ memTableConfig() : MemTableConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#824]]]
++ setMemTableConfig(MemTableConfig) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#829]]]
++ setRateLimiter(RateLimiter) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#835]]]
++ setSstFileManager(SstFileManager) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#841]]]
++ setLogger(org.rocksdb.Logger) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#847]]]
++ setInfoLogLevel(InfoLogLevel) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#853]]]
++ infoLogLevel() : InfoLogLevel [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#859]]]
++ memTableFactoryName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#864]]]
++ tableFormatConfig() : TableFormatConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#869]]]
++ setTableFormatConfig(TableFormatConfig) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#874]]]
++ tableFactoryName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#880]]]
++ useFixedLengthPrefixExtractor(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#885]]]
++ useCappedPrefixExtractor(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#891]]]
++ compressionType() : CompressionType [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#897]]]
++ setCompressionPerLevel(List<CompressionType>) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#902]]]
++ compressionPerLevel() : List<CompressionType> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#908]]]
++ setCompressionType(CompressionType) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#913]]]
++ setBottommostCompressionType(CompressionType) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#920]]]
++ bottommostCompressionType() : CompressionType [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#926]]]
++ setCompressionOptions(CompressionOptions) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#931]]]
++ compressionOptions() : CompressionOptions [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#937]]]
++ compactionStyle() : CompactionStyle [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#942]]]
++ setCompactionStyle(CompactionStyle) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#947]]]
++ numLevels() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#953]]]
++ setNumLevels(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#958]]]
++ levelZeroFileNumCompactionTrigger() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#964]]]
++ setLevelZeroFileNumCompactionTrigger(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#969]]]
++ levelZeroSlowdownWritesTrigger() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#975]]]
++ setLevelZeroSlowdownWritesTrigger(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#980]]]
++ levelZeroStopWritesTrigger() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#986]]]
++ setLevelZeroStopWritesTrigger(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#991]]]
++ targetFileSizeBase() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#997]]]
++ setTargetFileSizeBase(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1002]]]
++ targetFileSizeMultiplier() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1008]]]
++ setTargetFileSizeMultiplier(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1013]]]
++ setMaxBytesForLevelBase(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1019]]]
++ maxBytesForLevelBase() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1025]]]
++ setLevelCompactionDynamicLevelBytes(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1030]]]
++ levelCompactionDynamicLevelBytes() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1036]]]
++ maxBytesForLevelMultiplier() : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1041]]]
++ setMaxBytesForLevelMultiplier(double) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1046]]]
++ maxCompactionBytes() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1052]]]
++ setMaxCompactionBytes(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1057]]]
++ arenaBlockSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1063]]]
++ setArenaBlockSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1068]]]
++ disableAutoCompactions() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1074]]]
++ setDisableAutoCompactions(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1079]]]
++ maxSequentialSkipInIterations() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1085]]]
++ setMaxSequentialSkipInIterations(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1090]]]
++ inplaceUpdateSupport() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1096]]]
++ setInplaceUpdateSupport(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1101]]]
++ inplaceUpdateNumLocks() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1107]]]
++ setInplaceUpdateNumLocks(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1112]]]
++ memtablePrefixBloomSizeRatio() : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1118]]]
++ setMemtablePrefixBloomSizeRatio(double) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1123]]]
++ bloomLocality() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1129]]]
++ setBloomLocality(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1134]]]
++ maxSuccessiveMerges() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1140]]]
++ setMaxSuccessiveMerges(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1145]]]
++ minWriteBufferNumberToMerge() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1151]]]
++ setMinWriteBufferNumberToMerge(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1156]]]
++ setOptimizeFiltersForHits(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1162]]]
++ optimizeFiltersForHits() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1168]]]
++ setMemtableHugePageSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1173]]]
++ memtableHugePageSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1179]]]
++ setSoftPendingCompactionBytesLimit(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1184]]]
++ softPendingCompactionBytesLimit() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1190]]]
++ setHardPendingCompactionBytesLimit(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1195]]]
++ hardPendingCompactionBytesLimit() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1201]]]
++ setLevel0FileNumCompactionTrigger(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1206]]]
++ level0FileNumCompactionTrigger() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1212]]]
++ setLevel0SlowdownWritesTrigger(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1217]]]
++ level0SlowdownWritesTrigger() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1223]]]
++ setLevel0StopWritesTrigger(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1228]]]
++ level0StopWritesTrigger() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1234]]]
++ setMaxBytesForLevelMultiplierAdditional(int[]) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1239]]]
++ maxBytesForLevelMultiplierAdditional() : int[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1245]]]
++ setParanoidFileChecks(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1250]]]
++ paranoidFileChecks() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1256]]]
++ setMaxWriteBufferNumberToMaintain(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1261]]]
++ maxWriteBufferNumberToMaintain() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1267]]]
++ setCompactionPriority(CompactionPriority) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1272]]]
++ compactionPriority() : CompactionPriority [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1278]]]
++ setReportBgIoStats(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1283]]]
++ reportBgIoStats() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1289]]]
++ setCompactionOptionsUniversal(CompactionOptionsUniversal) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1294]]]
++ compactionOptionsUniversal() : CompactionOptionsUniversal [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1300]]]
++ setCompactionOptionsFIFO(CompactionOptionsFIFO) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1305]]]
++ compactionOptionsFIFO() : CompactionOptionsFIFO [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1311]]]
++ setForceConsistencyChecks(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1316]]]
++ forceConsistencyChecks() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1322]]]
++ setWriteBufferManager(WriteBufferManager) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1327]]]
++ writeBufferManager() : WriteBufferManager [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1333]]]
++ setMaxWriteBatchGroupSizeBytes(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1338]]]
++ maxWriteBatchGroupSizeBytes() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1344]]]
++ oldDefaults(int;int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1349]]]
++ optimizeForSmallDb(Cache) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1355]]]
++ compactionFilter() : AbstractCompactionFilter<?extendsAbstractSlice<?>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1360]]]
++ compactionFilterFactory() : AbstractCompactionFilterFactory<?extendsAbstractCompactionFilter<?>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1365]]]
++ setStatsPersistPeriodSec(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1370]]]
++ statsPersistPeriodSec() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1376]]]
++ setStatsHistoryBufferSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1381]]]
++ statsHistoryBufferSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1387]]]
++ setStrictBytesPerSync(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1392]]]
++ strictBytesPerSync() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1398]]]
++ setListeners(List<AbstractEventListener>) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1403]]]
++ listeners() : List<AbstractEventListener> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1409]]]
++ setEnablePipelinedWrite(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1414]]]
++ enablePipelinedWrite() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1420]]]
++ setUnorderedWrite(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1425]]]
++ unorderedWrite() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1431]]]
++ setSkipCheckingSstFileSizesOnDbOpen(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1436]]]
++ skipCheckingSstFileSizesOnDbOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1442]]]
++ setWalFilter(AbstractWalFilter) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1447]]]
++ walFilter() : WalFilter [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1453]]]
++ setAllowIngestBehind(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1458]]]
++ allowIngestBehind() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1464]]]
++ setPreserveDeletes(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1469]]]
++ preserveDeletes() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1475]]]
++ setTwoWriteQueues(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1480]]]
++ twoWriteQueues() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1486]]]
++ setManualWalFlush(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1491]]]
++ manualWalFlush() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1497]]]
++ setCfPaths(Collection<DbPath>) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1502]]]
++ cfPaths() : List<DbPath> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1508]]]
++ setBottommostCompressionOptions(CompressionOptions) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1513]]]
++ bottommostCompressionOptions() : CompressionOptions [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1519]]]
++ setTtl(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1524]]]
++ ttl() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1530]]]
++ setPeriodicCompactionSeconds(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1535]]]
++ periodicCompactionSeconds() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1541]]]
++ setAtomicFlush(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1546]]]
++ atomicFlush() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1552]]]
++ setAvoidUnnecessaryBlockingIO(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1557]]]
++ avoidUnnecessaryBlockingIO() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1563]]]
++ setPersistStatsToDisk(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1568]]]
++ persistStatsToDisk() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1574]]]
++ setWriteDbidToManifest(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1579]]]
++ writeDbidToManifest() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1585]]]
++ setLogReadaheadSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1590]]]
++ logReadaheadSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1596]]]
++ setBestEffortsRecovery(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1601]]]
++ bestEffortsRecovery() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1607]]]
++ setMaxBgErrorResumeCount(int) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1612]]]
++ maxBgerrorResumeCount() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1618]]]
++ setBgerrorResumeRetryInterval(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1623]]]
++ bgerrorResumeRetryInterval() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1629]]]
++ setSstPartitionerFactory(SstPartitionerFactory) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1634]]]
++ sstPartitionerFactory() : SstPartitionerFactory [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1640]]]
++ setCompactionThreadLimiter(ConcurrentTaskLimiter) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1645]]]
++ compactionThreadLimiter() : ConcurrentTaskLimiter [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1651]]]
++ setCompactionFilter(AbstractCompactionFilter<?extendsAbstractSlice<?>>) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1656]]]
++ setCompactionFilterFactory(AbstractCompactionFilterFactory<?extendsAbstractCompactionFilter<?>>) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1662]]]
++ setEnableBlobFiles(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1672]]]
++ enableBlobFiles() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1678]]]
++ setMinBlobSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1683]]]
++ minBlobSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1689]]]
++ setBlobFileSize(long) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1694]]]
++ blobFileSize() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1700]]]
++ setBlobCompressionType(CompressionType) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1705]]]
++ blobCompressionType() : CompressionType [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1711]]]
++ setEnableBlobGarbageCollection(boolean) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1716]]]
++ enableBlobGarbageCollection() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1722]]]
++ setBlobGarbageCollectionAgeCutoff(double) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1727]]]
++ blobGarbageCollectionAgeCutoff() : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1733]]]
++ setBlobGarbageCollectionForceThreshold(double) : Options [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1738]]]
++ blobGarbageCollectionForceThreshold() : double [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1744]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1753]]]
+- logIgnoreWalOption(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1761]]]
 } 
 @enduml

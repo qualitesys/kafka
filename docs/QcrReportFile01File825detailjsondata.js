@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#37"
  , "c1" : "ValidatorAccessTokenValidator"
  , "c2" : "ValidatorAccessTokenValidator(Integer;Set<String>;String;VerificationKeyResolver;String;String)"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#68"
  , "c1" : "OAuthBearerToken"
  , "c2" : "validate(String)"
  , "c3" : "5"

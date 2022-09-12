@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.KeyQueryMetadata
 class org.apache.kafka.streams.KeyQueryMetadata {
-+  KeyQueryMetadata(HostInfo;Set<HostInfo>;int)
-+  getActiveHost()
-+  getStandbyHosts()
-+  getPartition()
-+  activeHost()
-+  standbyHosts()
-+  partition()
-+  equals(Object)
-+  toString()
-+  hashCode()
++ KeyQueryMetadata(HostInfo;Set<HostInfo>;int) : KeyQueryMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#22]]]
++ getActiveHost() : HostInfo [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#30]]]
++ getStandbyHosts() : Set<HostInfo> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#36]]]
++ getPartition() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#42]]]
++ activeHost() : HostInfo [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#47]]]
++ standbyHosts() : Set<HostInfo> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#52]]]
++ partition() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#57]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#62]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#73]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#82]]]
 } 
 @enduml

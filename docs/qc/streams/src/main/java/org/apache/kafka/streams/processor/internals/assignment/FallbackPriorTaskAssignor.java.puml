@@ -2,7 +2,7 @@
 !pragma layout smetana
 TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor
 class org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor {
-+  FallbackPriorTaskAssignor()
-+  assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs)
++ FallbackPriorTaskAssignor() : FallbackPriorTaskAssignor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.html#15]]]
++ assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.html#20]]]
 } 
 @enduml

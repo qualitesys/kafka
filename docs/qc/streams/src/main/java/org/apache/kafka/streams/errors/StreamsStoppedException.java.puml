@@ -2,7 +2,7 @@
 !pragma layout smetana
 InvalidStateStoreException <|-- org.apache.kafka.streams.errors.StreamsStoppedException
 class org.apache.kafka.streams.errors.StreamsStoppedException {
-+  StreamsStoppedException(String)
-+  StreamsStoppedException(String;Throwable)
++ StreamsStoppedException(String) : StreamsStoppedException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsStoppedException.java.html#11]]]
++ StreamsStoppedException(String;Throwable) : StreamsStoppedException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsStoppedException.java.html#15]]]
 } 
 @enduml

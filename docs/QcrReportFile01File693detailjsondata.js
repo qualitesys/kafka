@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.ListOffsetsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#81"
  , "c1" : "ListOffsetsRequest"
  , "c2" : "ListOffsetsRequest(ListOffsetsRequestData;short)"
  , "c3" : "4"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#97"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#127"
  , "c1" : "ListOffsetsRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#131"
  , "c1" : "int"
  , "c2" : "replicaId()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#135"
  , "c1" : "IsolationLevel"
  , "c2" : "isolationLevel()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#139"
  , "c1" : "List<ListOffsetsTopic>"
  , "c2" : "topics()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#143"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "duplicatePartitions()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#147"
  , "c1" : "ListOffsetsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00151"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#151"
  , "c1" : "List<ListOffsetsTopic>"
  , "c2" : "toListOffsetsTopics(Map<TopicPartition,ListOffsetsPartition>)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00161"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#161"
  , "c1" : "ListOffsetsTopic"
  , "c2" : "singletonRequestData(String;int;long;int)"
  , "c3" : "1"

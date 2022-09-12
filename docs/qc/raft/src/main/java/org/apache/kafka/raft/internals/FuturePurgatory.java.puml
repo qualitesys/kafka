@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.internals.FuturePurgatory
 class org.apache.kafka.raft.internals.FuturePurgatory {
-+  await(T;long)
-+  maybeComplete(T;long)
-+  completeAll(long)
-+  completeAllExceptionally(Throwable)
-+  numWaiting()
+await(T;long) : CompletableFuture<Long> [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#10]]]
+maybeComplete(T;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#13]]]
+completeAll(long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#16]]]
+completeAllExceptionally(Throwable) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#19]]]
+numWaiting() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#22]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.ValidOffsetAndEpoch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#10"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "ValidOffsetAndEpoch(Kind;OffsetAndEpoch)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#15"
  , "c1" : "Kind"
  , "c2" : "kind()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#19"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "offsetAndEpoch()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "diverging(OffsetAndEpoch)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "snapshot(OffsetAndEpoch)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "valid(OffsetAndEpoch)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39"
  , "c1" : "ValidOffsetAndEpoch"
  , "c2" : "valid()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#53"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#58"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

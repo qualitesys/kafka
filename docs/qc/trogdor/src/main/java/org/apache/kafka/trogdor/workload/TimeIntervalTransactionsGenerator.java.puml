@@ -2,9 +2,9 @@
 !pragma layout smetana
 TransactionGenerator <|-- org.apache.kafka.trogdor.workload.TimeIntervalTransactionsGenerator
 class org.apache.kafka.trogdor.workload.TimeIntervalTransactionsGenerator {
-+  TimeIntervalTransactionsGenerator(int)
-+  TimeIntervalTransactionsGenerator(int;Time)
-+  transactionIntervalMs()
-+  nextAction()
++ TimeIntervalTransactionsGenerator(int) : TimeIntervalTransactionsGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimeIntervalTransactionsGenerator.java.html#19]]]
+TimeIntervalTransactionsGenerator(int;Time) : TimeIntervalTransactionsGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimeIntervalTransactionsGenerator.java.html#23]]]
++ transactionIntervalMs() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimeIntervalTransactionsGenerator.java.html#33]]]
++ nextAction() : TransactionAction [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimeIntervalTransactionsGenerator.java.html#38]]]
 } 
 @enduml

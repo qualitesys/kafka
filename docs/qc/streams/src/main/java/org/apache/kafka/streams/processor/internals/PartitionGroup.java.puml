@@ -2,20 +2,20 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.PartitionGroup
 class org.apache.kafka.streams.processor.internals.PartitionGroup {
-+  PartitionGroup(LogContext;Map<TopicPartition,RecordQueue>;Function<TopicPartition,OptionalLong>;Sensor;Sensor;long)
-+  readyToProcess(long)
-+  partitionTimestamp(TopicPartition)
-+  updatePartitions(Set<TopicPartition>;Function<TopicPartition,RecordQueue>)
-+  setPartitionTime(TopicPartition;long)
-+  nextRecord(RecordInfo;long)
-+  addRawRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)
-+  partitions()
-+  streamTime()
-+  headRecordOffset(TopicPartition)
-+  numBuffered(TopicPartition)
-+  numBuffered()
-+  allPartitionsBufferedLocally()
-+  clear()
-+  close()
+PartitionGroup(LogContext;Map<TopicPartition,RecordQueue>;Function<TopicPartition,OptionalLong>;Sensor;Sensor;long) : PartitionGroup [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#54]]]
++ readyToProcess(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#72]]]
+partitionTimestamp(TopicPartition) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#174]]]
+updatePartitions(Set<TopicPartition>;Function<TopicPartition,RecordQueue>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#183]]]
+setPartitionTime(TopicPartition;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#204]]]
+nextRecord(RecordInfo;long) : StampedRecord [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#216]]]
+addRawRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#250]]]
+partitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#277]]]
+streamTime() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#282]]]
+headRecordOffset(TopicPartition) : Long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#286]]]
+numBuffered(TopicPartition) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#297]]]
+numBuffered() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#307]]]
+allPartitionsBufferedLocally() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#311]]]
+clear() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#315]]]
+close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#324]]]
 } 
 @enduml

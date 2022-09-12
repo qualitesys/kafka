@@ -2,27 +2,27 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.FetchResponse
 class org.apache.kafka.common.requests.FetchResponse {
-+  data()
-+  FetchResponse(FetchResponseData)
-+  error()
-+  responseData(Map<Uuid,String>;short)
-+  throttleTimeMs()
-+  sessionId()
-+  errorCounts()
-+  parse(ByteBuffer;short)
-+  topicIds()
-+  sizeOf(short;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)
-+  shouldClientThrottle(short)
-+  divergingEpoch(FetchResponseData.PartitionData)
-+  isDivergingEpoch(FetchResponseData.PartitionData)
-+  preferredReadReplica(FetchResponseData.PartitionData)
-+  isPreferredReplica(FetchResponseData.PartitionData)
-+  partitionResponse(TopicIdPartition;Errors)
-+  partitionResponse(int;Errors)
-+  recordsOrFail(FetchResponseData.PartitionData)
-+  recordsSize(FetchResponseData.PartitionData)
-+  of(Errors;int;int;LinkedHashMap<TopicIdPartition,FetchResponseData.PartitionData>)
-+  matchingTopic(FetchResponseData.FetchableTopicResponse;TopicIdPartition)
-+  toMessage(Errors;int;int;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)
++ data() : FetchResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#40]]]
++ FetchResponse(FetchResponseData) : FetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#45]]]
++ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#50]]]
++ responseData(Map<Uuid,String>;short) : LinkedHashMap<TopicPartition,FetchResponseData.PartitionData> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#54]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#82]]]
++ sessionId() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#86]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#91]]]
++ parse(ByteBuffer;short) : FetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#101]]]
++ topicIds() : Set<Uuid> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#107]]]
++ sizeOf(short;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#112]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#123]]]
++ divergingEpoch(FetchResponseData.PartitionData) : Optional<FetchResponseData.EpochEndOffset> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#127]]]
++ isDivergingEpoch(FetchResponseData.PartitionData) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#132]]]
++ preferredReadReplica(FetchResponseData.PartitionData) : Optional<Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#136]]]
++ isPreferredReplica(FetchResponseData.PartitionData) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#141]]]
++ partitionResponse(TopicIdPartition;Errors) : FetchResponseData.PartitionData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#145]]]
++ partitionResponse(int;Errors) : FetchResponseData.PartitionData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#149]]]
++ recordsOrFail(FetchResponseData.PartitionData) : Records [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#157]]]
++ recordsSize(FetchResponseData.PartitionData) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#165]]]
++ of(Errors;int;int;LinkedHashMap<TopicIdPartition,FetchResponseData.PartitionData>) : FetchResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#170]]]
+- matchingTopic(FetchResponseData.FetchableTopicResponse;TopicIdPartition) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#177]]]
+- toMessage(Errors;int;int;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>) : FetchResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#187]]]
 } 
 @enduml

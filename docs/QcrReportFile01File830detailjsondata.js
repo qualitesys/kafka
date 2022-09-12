@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServerProvider.java.html#14"
  , "c1" : "PlainSaslServerProvider"
  , "c2" : "PlainSaslServerProvider()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServerProvider.java.html#19"
  , "c1" : "void"
  , "c2" : "initialize()"
  , "c3" : "1"

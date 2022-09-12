@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.Tasks" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#52"
  , "c1" : "Tasks"
  , "c2" : "Tasks(LogContext;TopologyMetadata;ActiveTaskCreator;StandbyTaskCreator)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#64"
  , "c1" : "void"
  , "c2" : "setMainConsumer(Consumer<byte[],byte[]>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#68"
  , "c1" : "void"
  , "c2" : "handleNewAssignmentAndCreateTasks(Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>;Set<TaskId>;Set<TaskId>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#77"
  , "c1" : "void"
  , "c2" : "maybeCreateTasksFromNewTopologies(Set<String>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#84"
  , "c1" : "double"
  , "c2" : "totalProducerBlockedTime()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#88"
  , "c1" : "void"
  , "c2" : "createTasks(Map<TaskId,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>)"
  , "c3" : "10"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#128"
  , "c1" : "void"
  , "c2" : "convertActiveToStandby(StreamTask;Set<TopicPartition>;Map<TaskId,RuntimeException>)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#147"
  , "c1" : "void"
  , "c2" : "convertStandbyToActive(StandbyTask;Set<TopicPartition>)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00160"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#160"
  , "c1" : "void"
  , "c2" : "updateInputPartitionsAndResume(Task;Set<TopicPartition>)"
  , "c3" : "5"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#177"
  , "c1" : "void"
  , "c2" : "cleanUpTaskProducerAndRemoveTask(TaskId;Map<TaskId,RuntimeException>)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00189"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#189"
  , "c1" : "void"
  , "c2" : "reInitializeThreadProducer()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00193"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#193"
  , "c1" : "void"
  , "c2" : "closeThreadProducerIfNeeded()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#198"
  , "c1" : "void"
  , "c2" : "closeAndRemoveTaskProducerIfNeeded(Task)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#202"
  , "c1" : "void"
  , "c2" : "removeTaskBeforeClosing(TaskId)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00213"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#213"
  , "c1" : "void"
  , "c2" : "clear()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#221"
  , "c1" : "Task"
  , "c2" : "activeTasksForInputPartition(TopicPartition)"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#226"
  , "c1" : "Task"
  , "c2" : "standbyTask(TaskId)"
  , "c3" : "2"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00233"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#233"
  , "c1" : "Task"
  , "c2" : "task(TaskId)"
  , "c3" : "2"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00240"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#240"
  , "c1" : "Collection<Task>"
  , "c2" : "tasks(Collection<TaskId>)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00249"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#249"
  , "c1" : "Collection<Task>"
  , "c2" : "activeTasks()"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00253"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#253"
  , "c1" : "Collection<Task>"
  , "c2" : "allTasks()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00257"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#257"
  , "c1" : "Collection<Task>"
  , "c2" : "notPausedActiveTasks()"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00264"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#264"
  , "c1" : "Collection<Task>"
  , "c2" : "notPausedTasks()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00271"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#271"
  , "c1" : "Set<TaskId>"
  , "c2" : "activeTaskIds()"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00275"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#275"
  , "c1" : "Set<TaskId>"
  , "c2" : "standbyTaskIds()"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00280"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#280"
  , "c1" : "Map<TaskId,Task>"
  , "c2" : "activeTaskMap()"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#285"
  , "c1" : "Map<TaskId,Task>"
  , "c2" : "standbyTaskMap()"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00289"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#289"
  , "c1" : "Map<TaskId,Task>"
  , "c2" : "tasksPerId()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00293"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#293"
  , "c1" : "boolean"
  , "c2" : "owned(TaskId)"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00297"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#297"
  , "c1" : "StreamsProducer"
  , "c2" : "streamsProducerForTask(TaskId)"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00301"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#301"
  , "c1" : "StreamsProducer"
  , "c2" : "threadProducer()"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00305"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#305"
  , "c1" : "Map<MetricName,Metric>"
  , "c2" : "producerMetrics()"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00309"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#309"
  , "c1" : "Set<String>"
  , "c2" : "producerClientIds()"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00313"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#313"
  , "c1" : "Consumer<byte[],byte[]>"
  , "c2" : "mainConsumer()"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00317"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#317"
  , "c1" : "Collection<Task>"
  , "c2" : "successfullyProcessed()"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00321"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#321"
  , "c1" : "void"
  , "c2" : "addToSuccessfullyProcessed(Task)"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00325"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#325"
  , "c1" : "void"
  , "c2" : "removeTaskFromCuccessfullyProcessedBeforeClosing(Task)"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00329"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#329"
  , "c1" : "void"
  , "c2" : "clearSuccessfullyProcessed()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00334"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#334"
  , "c1" : "void"
  , "c2" : "addTask(Task)"
  , "c3" : "3"

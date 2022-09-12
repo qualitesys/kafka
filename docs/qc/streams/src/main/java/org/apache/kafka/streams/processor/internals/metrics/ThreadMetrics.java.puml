@@ -2,25 +2,25 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics
 class org.apache.kafka.streams.processor.internals.metrics.ThreadMetrics {
-+  ThreadMetrics()
-+  createTaskSensor(String;StreamsMetricsImpl)
-+  closeTaskSensor(String;StreamsMetricsImpl)
-+  skipRecordSensor(String;StreamsMetricsImpl)
-+  commitSensor(String;StreamsMetricsImpl)
-+  pollSensor(String;StreamsMetricsImpl)
-+  processLatencySensor(String;StreamsMetricsImpl)
-+  pollRecordsSensor(String;StreamsMetricsImpl)
-+  processRecordsSensor(String;StreamsMetricsImpl)
-+  processRateSensor(String;StreamsMetricsImpl)
-+  punctuateSensor(String;StreamsMetricsImpl)
-+  commitOverTasksSensor(String;StreamsMetricsImpl)
-+  processRatioSensor(String;StreamsMetricsImpl)
-+  punctuateRatioSensor(String;StreamsMetricsImpl)
-+  pollRatioSensor(String;StreamsMetricsImpl)
-+  commitRatioSensor(String;StreamsMetricsImpl)
-+  addThreadStartTimeMetric(String;StreamsMetricsImpl;long)
-+  addThreadBlockedTimeMetric(String;StreamThreadTotalBlockedTime;StreamsMetricsImpl)
-+  invocationRateAndCountSensor(String;String;String;String;RecordingLevel;StreamsMetricsImpl)
-+  invocationRateAndCountAndAvgAndMaxLatencySensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)
+- ThreadMetrics() : ThreadMetrics [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#25]]]
++ createTaskSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#87]]]
++ closeTaskSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#99]]]
++ skipRecordSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#111]]]
++ commitSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#123]]]
++ pollSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#137]]]
++ processLatencySensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#151]]]
++ pollRecordsSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#167]]]
++ processRecordsSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#183]]]
++ processRateSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#199]]]
++ punctuateSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#215]]]
++ commitOverTasksSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#229]]]
++ processRatioSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#245]]]
++ punctuateRatioSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#260]]]
++ pollRatioSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#275]]]
++ commitRatioSensor(String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#290]]]
++ addThreadStartTimeMetric(String;StreamsMetricsImpl;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#305]]]
++ addThreadBlockedTimeMetric(String;StreamThreadTotalBlockedTime;StreamsMetricsImpl) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#316]]]
+- invocationRateAndCountSensor(String;String;String;String;RecordingLevel;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#327]]]
+- invocationRateAndCountAndAvgAndMaxLatencySensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ThreadMetrics.java.html#345]]]
 } 
 @enduml

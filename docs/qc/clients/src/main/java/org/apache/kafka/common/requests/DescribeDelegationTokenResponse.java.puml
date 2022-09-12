@@ -2,16 +2,16 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.DescribeDelegationTokenResponse
 class org.apache.kafka.common.requests.DescribeDelegationTokenResponse {
-+  DescribeDelegationTokenResponse(int;int;Errors;List<DelegationToken>)
-+  DescribeDelegationTokenResponse(int;int;Errors)
-+  DescribeDelegationTokenResponse(DescribeDelegationTokenResponseData)
-+  parse(ByteBuffer;short)
-+  errorCounts()
-+  data()
-+  throttleTimeMs()
-+  error()
-+  tokens()
-+  hasError()
-+  shouldClientThrottle(short)
++ DescribeDelegationTokenResponse(int;int;Errors;List<DelegationToken>) : DescribeDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#24]]]
++ DescribeDelegationTokenResponse(int;int;Errors) : DescribeDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#55]]]
++ DescribeDelegationTokenResponse(DescribeDelegationTokenResponseData) : DescribeDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#59]]]
++ parse(ByteBuffer;short) : DescribeDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#64]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#70]]]
++ data() : DescribeDelegationTokenResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#75]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#80]]]
++ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#84]]]
++ tokens() : List<DelegationToken> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#88]]]
++ hasError() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#103]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#108]]]
 } 
 @enduml

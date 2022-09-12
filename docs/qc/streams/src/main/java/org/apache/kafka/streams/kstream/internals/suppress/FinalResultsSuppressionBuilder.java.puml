@@ -2,12 +2,12 @@
 !pragma layout smetana
 Suppressed_K_ <|-- org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder
 class org.apache.kafka.streams.kstream.internals.suppress.FinalResultsSuppressionBuilder {
-+  FinalResultsSuppressionBuilder(String;Suppressed.StrictBufferConfig)
-+  buildFinalResultsSuppression(Duration)
-+  withName(String)
-+  equals(Object)
-+  name()
-+  hashCode()
-+  toString()
++ FinalResultsSuppressionBuilder(String;Suppressed.StrictBufferConfig) : FinalResultsSuppressionBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#14]]]
++ buildFinalResultsSuppression(Duration) : SuppressedInternal<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#19]]]
++ withName(String) : Suppressed<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#30]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#35]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#48]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#53]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/FinalResultsSuppressionBuilder.java.html#58]]]
 } 
 @enduml

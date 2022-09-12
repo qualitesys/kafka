@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.RecordsBatchReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#24"
  , "c1" : "RecordsBatchReader"
  , "c2" : "RecordsBatchReader(long;RecordsIterator<T>;CloseListener<BatchReader<T>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#36"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#47"
  , "c1" : "Batch<T>"
  , "c2" : "next()"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#60"
  , "c1" : "long"
  , "c2" : "baseOffset()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#64"
  , "c1" : "OptionalLong"
  , "c2" : "lastOffset()"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#73"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#97"
  , "c1" : "void"
  , "c2" : "ensureOpen()"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#103"
  , "c1" : "Optional<Batch<T>>"
  , "c2" : "nextBatch()"
  , "c3" : "4"

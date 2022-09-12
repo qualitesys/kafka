@@ -2,7 +2,7 @@
 !pragma layout smetana
 RetriableException <|-- org.apache.kafka.common.errors.CoordinatorLoadInProgressException
 class org.apache.kafka.common.errors.CoordinatorLoadInProgressException {
-+  CoordinatorLoadInProgressException(String)
-+  CoordinatorLoadInProgressException(String;Throwable)
++ CoordinatorLoadInProgressException(String) : CoordinatorLoadInProgressException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.html#9]]]
++ CoordinatorLoadInProgressException(String;Throwable) : CoordinatorLoadInProgressException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.html#13]]]
 } 
 @enduml

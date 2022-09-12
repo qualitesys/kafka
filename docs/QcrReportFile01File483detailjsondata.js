@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.metrics.stats.SimpleRate" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SimpleRate.java.html#10"
  , "c1" : "long"
  , "c2" : "windowSize(MetricConfig;long)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.internals.BlockingMessageQueue" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#31"
  , "c1" : "RaftMessage"
  , "c2" : "poll(long)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#46"
  , "c1" : "void"
  , "c2" : "add(RaftMessage)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#52"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#57"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"

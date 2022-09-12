@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#8"
  , "c1" : "TimeDefinitions"
  , "c2" : "TimeDefinitions()"
  , "c3" : "1"

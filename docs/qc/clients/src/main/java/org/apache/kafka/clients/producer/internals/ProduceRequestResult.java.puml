@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.producer.internals.ProduceRequestResult
 class org.apache.kafka.clients.producer.internals.ProduceRequestResult {
-+  ProduceRequestResult(TopicPartition)
-+  set(long;long;Function<Integer,RuntimeException>)
-+  done()
-+  await()
-+  await(long;TimeUnit)
-+  baseOffset()
-+  hasLogAppendTime()
-+  logAppendTime()
-+  error(int)
-+  topicPartition()
-+  completed()
++ ProduceRequestResult(TopicPartition) : ProduceRequestResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#23]]]
++ set(long;long;Function<Integer,RuntimeException>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#28]]]
++ done() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#35]]]
++ await() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#42]]]
++ await(long;TimeUnit) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#47]]]
++ baseOffset() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#52]]]
++ hasLogAppendTime() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57]]]
++ logAppendTime() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#62]]]
++ error(int) : RuntimeException [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#67]]]
++ topicPartition() : TopicPartition [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#76]]]
++ completed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#81]]]
 } 
 @enduml

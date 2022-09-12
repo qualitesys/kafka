@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.VersionRange
 class org.apache.kafka.metadata.VersionRange {
-+  VersionRange(short;short)
-+  of(short;short)
-+  of(int;int)
-+  min()
-+  max()
-+  contains(short)
-+  intersects(VersionRange)
-+  hashCode()
-+  equals(Object)
-+  toString()
+- VersionRange(short;short) : VersionRange [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#14]]]
++ of(short;short) : VersionRange [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#19]]]
++ of(int;int) : VersionRange [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#23]]]
++ min() : short [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#27]]]
++ max() : short [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#31]]]
++ contains(short) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#36]]]
++ intersects(VersionRange) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#41]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#46]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#51]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#58]]]
 } 
 @enduml

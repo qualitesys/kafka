@@ -2,64 +2,64 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.streams.KafkaStreams
 class org.apache.kafka.streams.KafkaStreams {
-+  waitOnState(State;long)
-+  setState(State)
-+  state()
-+  isRunningOrRebalancing()
-+  hasStartedOrFinishedShuttingDown()
-+  validateIsRunningOrRebalancing()
-+  setStateListener(KafkaStreams.StateListener)
-+  setUncaughtExceptionHandler(Thread.UncaughtExceptionHandler)
-+  setUncaughtExceptionHandler(StreamsUncaughtExceptionHandler)
-+  defaultStreamsUncaughtExceptionHandler(Throwable;boolean)
-+  replaceStreamThread(Throwable)
-+  wrappedExceptionIsIn(Throwable;Set<Class<?extendsThrowable>>)
-+  getActionForThrowable(Throwable;StreamsUncaughtExceptionHandler)
-+  handleStreamsUncaughtException(Throwable;StreamsUncaughtExceptionHandler;boolean)
-+  setGlobalStateRestoreListener(StateRestoreListener)
-+  metrics()
-+  KafkaStreams(Topology;Properties)
-+  KafkaStreams(Topology;Properties;KafkaClientSupplier)
-+  KafkaStreams(Topology;Properties;Time)
-+  KafkaStreams(Topology;Properties;KafkaClientSupplier;Time)
-+  KafkaStreams(Topology;StreamsConfig)
-+  KafkaStreams(Topology;StreamsConfig;KafkaClientSupplier)
-+  KafkaStreams(Topology;StreamsConfig;Time)
-+  KafkaStreams(Topology;StreamsConfig;KafkaClientSupplier;Time)
-+  KafkaStreams(TopologyMetadata;StreamsConfig;KafkaClientSupplier)
-+  KafkaStreams(TopologyMetadata;StreamsConfig;KafkaClientSupplier;Time)
-+  createAndAddStreamThread(long;int)
-+  getMetrics(StreamsConfig;Time;String)
-+  addStreamThread()
-+  removeStreamThread()
-+  removeStreamThread(Duration)
-+  removeStreamThread(long)
-+  getNumLiveStreamThreads()
-+  getNextThreadIndex()
-+  getCacheSizePerThread(int)
-+  resizeThreadCache(long)
-+  setupStateDirCleaner()
-+  maybeCreateRocksDBMetricsRecordingService(String;StreamsConfig)
-+  parseHostInfo(String)
-+  start()
-+  close()
-+  shutdownHelper(boolean)
-+  close(long)
-+  closeToError()
-+  close(Duration)
-+  close(CloseOptions)
-+  cleanUp()
-+  allMetadata()
-+  metadataForAllStreamsClients()
-+  allMetadataForStore(String)
-+  streamsMetadataForStore(String)
-+  pause()
-+  isPaused()
-+  resume()
-+  processStreamThread(Consumer<StreamThread>)
-+  localThreadsMetadata()
-+  metadataForLocalThreads()
-+  allLocalStorePartitionLags()
-+  allLocalStorePartitionLags(List<Task>)
+- waitOnState(State;long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#188]]]
+- setState(State) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#222]]]
++ state() : State [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#264]]]
+isRunningOrRebalancing() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#268]]]
+hasStartedOrFinishedShuttingDown() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#274]]]
+validateIsRunningOrRebalancing() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#280]]]
++ setStateListener(KafkaStreams.StateListener) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#299]]]
++ setUncaughtExceptionHandler(Thread.UncaughtExceptionHandler) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#311]]]
++ setUncaughtExceptionHandler(StreamsUncaughtExceptionHandler) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#328]]]
+- defaultStreamsUncaughtExceptionHandler(Throwable;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#348]]]
+- replaceStreamThread(Throwable) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#363]]]
+- wrappedExceptionIsIn(Throwable;Set<Class<?extendsThrowable>>) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#382]]]
+- getActionForThrowable(Throwable;StreamsUncaughtExceptionHandler) : StreamsUncaughtExceptionHandler.StreamThreadExceptionResponse [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#386]]]
+- handleStreamsUncaughtException(Throwable;StreamsUncaughtExceptionHandler;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#397]]]
++ setGlobalStateRestoreListener(StateRestoreListener) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#445]]]
++ metrics() : Map<MetricName,?extendsMetric> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#457]]]
++ KafkaStreams(Topology;Properties) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#595]]]
++ KafkaStreams(Topology;Properties;KafkaClientSupplier) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#601]]]
++ KafkaStreams(Topology;Properties;Time) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#608]]]
++ KafkaStreams(Topology;Properties;KafkaClientSupplier;Time) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#615]]]
++ KafkaStreams(Topology;StreamsConfig) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#623]]]
++ KafkaStreams(Topology;StreamsConfig;KafkaClientSupplier) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#629]]]
++ KafkaStreams(Topology;StreamsConfig;Time) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#636]]]
+- KafkaStreams(Topology;StreamsConfig;KafkaClientSupplier;Time) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#642]]]
+KafkaStreams(TopologyMetadata;StreamsConfig;KafkaClientSupplier) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#649]]]
+- KafkaStreams(TopologyMetadata;StreamsConfig;KafkaClientSupplier;Time) : KafkaStreams [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#655]]]
+- createAndAddStreamThread(long;int) : StreamThread [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#759]]]
+- getMetrics(StreamsConfig;Time;String) : Metrics [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#784]]]
++ addStreamThread() : Optional<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#801]]]
++ removeStreamThread() : Optional<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#837]]]
++ removeStreamThread(Duration) : Optional<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#842]]]
+- removeStreamThread(long) : Optional<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#848]]]
+- getNumLiveStreamThreads() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#925]]]
+- getNextThreadIndex() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#944]]]
+- getCacheSizePerThread(int) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#976]]]
+- resizeThreadCache(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#983]]]
+- setupStateDirCleaner() : ScheduledExecutorService [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#990]]]
+- maybeCreateRocksDBMetricsRecordingService(String;StreamsConfig) : ScheduledExecutorService [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#998]]]
+- parseHostInfo(String) : HostInfo [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1010]]]
++ start() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1020]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1072]]]
+- shutdownHelper(boolean) : Thread [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1076]]]
+- close(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1142]]]
+- closeToError() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1182]]]
++ close(Duration) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1194]]]
++ close(CloseOptions) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1207]]]
++ cleanUp() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1253]]]
++ allMetadata() : Collection<org.apache.kafka.streams.state.StreamsMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1262]]]
++ metadataForAllStreamsClients() : Collection<StreamsMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1274]]]
++ allMetadataForStore(String) : Collection<org.apache.kafka.streams.state.StreamsMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1281]]]
++ streamsMetadataForStore(String) : Collection<StreamsMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1293]]]
++ pause() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1327]]]
++ isPaused() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1338]]]
++ resume() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1349]]]
+processStreamThread(Consumer<StreamThread>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1360]]]
++ localThreadsMetadata() : Set<org.apache.kafka.streams.processor.ThreadMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1370]]]
++ metadataForLocalThreads() : Set<ThreadMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1396]]]
++ allLocalStorePartitionLags() : Map<String,Map<Integer,LagInfo>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1409]]]
+allLocalStorePartitionLags(List<Task>) : Map<String,Map<Integer,LagInfo>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1415]]]
 } 
 @enduml

@@ -2,15 +2,15 @@
 !pragma layout smetana
 Thread <|-- org.apache.kafka.connect.util.ShutdownableThread
 class org.apache.kafka.connect.util.ShutdownableThread {
-+  ShutdownableThread(String)
-+  ShutdownableThread(String;boolean)
-+  execute()
-+  getRunning()
-+  run()
-+  shutdown(long;TimeUnit)
-+  gracefulShutdown(long;TimeUnit)
-+  startGracefulShutdown()
-+  awaitShutdown(long;TimeUnit)
-+  forceShutdown()
++ ShutdownableThread(String) : ShutdownableThread [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#21]]]
++ ShutdownableThread(String;boolean) : ShutdownableThread [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#28]]]
++ execute() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#36]]]
++ getRunning() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#39]]]
++ run() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#44]]]
++ shutdown(long;TimeUnit) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#56]]]
++ gracefulShutdown(long;TimeUnit) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#64]]]
++ startGracefulShutdown() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#70]]]
++ awaitShutdown(long;TimeUnit) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#76]]]
++ forceShutdown() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#81]]]
 } 
 @enduml

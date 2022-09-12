@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.storage.OffsetStorageWriter
 class org.apache.kafka.connect.storage.OffsetStorageWriter {
-+  OffsetStorageWriter(OffsetBackingStore;String;Converter;Converter)
-+  offset(Map<String,?>;Map<String,?>)
-+  flushing()
-+  beginFlush()
-+  willFlush()
-+  doFlush(Callback<Void>)
-+  cancelFlush()
-+  handleFinishWrite(long;Throwable;Void)
++ OffsetStorageWriter(OffsetBackingStore;String;Converter;Converter) : OffsetStorageWriter [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#30]]]
++ offset(Map<String,?>;Map<String,?>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#40]]]
+- flushing() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#44]]]
++ beginFlush() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#49]]]
++ willFlush() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#65]]]
++ doFlush(Callback<Void>) : Future<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#70]]]
++ cancelFlush() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#117]]]
+- handleFinishWrite(long;Throwable;Void) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#130]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 MemoryPool <|-- org.apache.kafka.raft.internals.BatchMemoryPool
 class org.apache.kafka.raft.internals.BatchMemoryPool {
-+  BatchMemoryPool(int;int)
-+  tryAllocate(int)
-+  release(ByteBuffer)
-+  size()
-+  availableMemory()
-+  isOutOfMemory()
++ BatchMemoryPool(int;int) : BatchMemoryPool [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#20]]]
++ tryAllocate(int) : ByteBuffer [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#28]]]
++ release(ByteBuffer) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48]]]
++ size() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#65]]]
++ availableMemory() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#75]]]
++ isOutOfMemory() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#86]]]
 } 
 @enduml

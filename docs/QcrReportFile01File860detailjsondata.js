@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.serialization.DoubleDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#9"
  , "c1" : "Double"
  , "c2" : "deserialize(String;byte[])"
  , "c3" : "4"

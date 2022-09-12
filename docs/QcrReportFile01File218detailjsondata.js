@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.SubscriptionState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#74"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#84"
  , "c1" : "String"
  , "c2" : "prettyString()"
  , "c3" : "5"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#99"
  , "c1" : "SubscriptionState"
  , "c2" : "SubscriptionState(LogContext;OffsetResetStrategy)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#110"
  , "c1" : "int"
  , "c2" : "assignmentId()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#115"
  , "c1" : "void"
  , "c2" : "setSubscriptionType(SubscriptionType)"
  , "c3" : "4"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#122"
  , "c1" : "boolean"
  , "c2" : "subscribe(Set<String>;ConsumerRebalanceListener)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#128"
  , "c1" : "void"
  , "c2" : "subscribe(Pattern;ConsumerRebalanceListener)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#134"
  , "c1" : "boolean"
  , "c2" : "subscribeFromPattern(Set<String>)"
  , "c3" : "2"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#142"
  , "c1" : "boolean"
  , "c2" : "changeSubscription(Set<String>)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00151"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#151"
  , "c1" : "boolean"
  , "c2" : "groupSubscribe(Collection<String>)"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00159"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#159"
  , "c1" : "void"
  , "c2" : "resetGroupSubscription()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00164"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#164"
  , "c1" : "boolean"
  , "c2" : "assignFromUser(Set<TopicPartition>)"
  , "c3" : "4"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00189"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#189"
  , "c1" : "boolean"
  , "c2" : "checkAssignmentMatchedSubscription(Collection<TopicPartition>)"
  , "c3" : "6"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00212"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#212"
  , "c1" : "void"
  , "c2" : "assignFromSubscribed(Collection<TopicPartition>)"
  , "c3" : "4"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#228"
  , "c1" : "void"
  , "c2" : "registerRebalanceListener(ConsumerRebalanceListener)"
  , "c3" : "2"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00235"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#235"
  , "c1" : "boolean"
  , "c2" : "hasPatternSubscription()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#239"
  , "c1" : "boolean"
  , "c2" : "hasNoSubscriptionOrUserAssignment()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00243"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#243"
  , "c1" : "void"
  , "c2" : "unsubscribe()"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00253"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#253"
  , "c1" : "boolean"
  , "c2" : "matchesSubscribedPattern(String)"
  , "c3" : "2"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00260"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#260"
  , "c1" : "Set<String>"
  , "c2" : "subscription()"
  , "c3" : "2"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00266"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#266"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "pausedPartitions()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00271"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#271"
  , "c1" : "Set<String>"
  , "c2" : "metadataTopics()"
  , "c3" : "5"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00285"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#285"
  , "c1" : "boolean"
  , "c2" : "needsMetadata(String)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00289"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#289"
  , "c1" : "TopicPartitionState"
  , "c2" : "assignedState(TopicPartition)"
  , "c3" : "2"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00296"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#296"
  , "c1" : "TopicPartitionState"
  , "c2" : "assignedStateOrNull(TopicPartition)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00300"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#300"
  , "c1" : "void"
  , "c2" : "seekValidated(TopicPartition;FetchPosition)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00304"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#304"
  , "c1" : "void"
  , "c2" : "seek(TopicPartition;long)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00308"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#308"
  , "c1" : "void"
  , "c2" : "seekUnvalidated(TopicPartition;FetchPosition)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00312"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#312"
  , "c1" : "void"
  , "c2" : "maybeSeekUnvalidated(TopicPartition;FetchPosition;OffsetResetStrategy)"
  , "c3" : "7"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00327"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#327"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "assignedPartitions()"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00332"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#332"
  , "c1" : "List<TopicPartition>"
  , "c2" : "assignedPartitionsList()"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00337"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#337"
  , "c1" : "int"
  , "c2" : "numAssignedPartitions()"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00342"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#342"
  , "c1" : "List<TopicPartition>"
  , "c2" : "fetchablePartitions(Predicate<TopicPartition>)"
  , "c3" : "2"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00354"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#354"
  , "c1" : "boolean"
  , "c2" : "hasAutoAssignedPartitions()"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00358"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#358"
  , "c1" : "void"
  , "c2" : "position(TopicPartition;FetchPosition)"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00363"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#363"
  , "c1" : "boolean"
  , "c2" : "maybeValidatePositionForCurrentLeader(ApiVersions;TopicPartition;Metadata.LeaderAndEpoch)"
  , "c3" : "5"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00381"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#381"
  , "c1" : "Optional<LogTruncation>"
  , "c2" : "maybeCompleteValidation(TopicPartition;FetchPosition;EpochEndOffset)"
  , "c3" : "15"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00429"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#429"
  , "c1" : "boolean"
  , "c2" : "awaitingValidation(TopicPartition)"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00433"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#433"
  , "c1" : "void"
  , "c2" : "completeValidation(TopicPartition)"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00437"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#437"
  , "c1" : "FetchPosition"
  , "c2" : "validPosition(TopicPartition)"
  , "c3" : "1"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00441"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#441"
  , "c1" : "FetchPosition"
  , "c2" : "position(TopicPartition)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00445"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#445"
  , "c1" : "Long"
  , "c2" : "partitionLag(TopicPartition;IsolationLevel)"
  , "c3" : "5"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00456"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#456"
  , "c1" : "Long"
  , "c2" : "partitionEndOffset(TopicPartition;IsolationLevel)"
  , "c3" : "3"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00465"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#465"
  , "c1" : "void"
  , "c2" : "requestPartitionEndOffset(TopicPartition)"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00470"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#470"
  , "c1" : "boolean"
  , "c2" : "partitionEndOffsetRequested(TopicPartition)"
  , "c3" : "1"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00475"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#475"
  , "c1" : "Long"
  , "c2" : "partitionLead(TopicPartition)"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00480"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#480"
  , "c1" : "void"
  , "c2" : "updateHighWatermark(TopicPartition;long)"
  , "c3" : "1"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00484"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#484"
  , "c1" : "void"
  , "c2" : "updateLogStartOffset(TopicPartition;long)"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00488"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#488"
  , "c1" : "void"
  , "c2" : "updateLastStableOffset(TopicPartition;long)"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00493"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#493"
  , "c1" : "void"
  , "c2" : "updatePreferredReadReplica(TopicPartition;int;LongSupplier)"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00498"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#498"
  , "c1" : "Optional<Integer>"
  , "c2" : "preferredReadReplica(TopicPartition;long)"
  , "c3" : "3"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00508"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#508"
  , "c1" : "Optional<Integer>"
  , "c2" : "clearPreferredReadReplica(TopicPartition)"
  , "c3" : "1"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00512"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#512"
  , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
  , "c2" : "allConsumed()"
  , "c3" : "2"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00522"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#522"
  , "c1" : "void"
  , "c2" : "requestOffsetReset(TopicPartition;OffsetResetStrategy)"
  , "c3" : "1"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00526"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#526"
  , "c1" : "void"
  , "c2" : "requestOffsetReset(Collection<TopicPartition>;OffsetResetStrategy)"
  , "c3" : "1"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00533"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#533"
  , "c1" : "void"
  , "c2" : "requestOffsetReset(TopicPartition)"
  , "c3" : "1"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00537"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#537"
  , "c1" : "void"
  , "c2" : "setNextAllowedRetry(Set<TopicPartition>;long)"
  , "c3" : "2"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00543"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#543"
  , "c1" : "boolean"
  , "c2" : "hasDefaultOffsetResetPolicy()"
  , "c3" : "1"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00547"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#547"
  , "c1" : "boolean"
  , "c2" : "isOffsetResetNeeded(TopicPartition)"
  , "c3" : "1"
@@ -431,6 +549,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00551"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#551"
  , "c1" : "OffsetResetStrategy"
  , "c2" : "resetStrategy(TopicPartition)"
  , "c3" : "1"
@@ -438,6 +558,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00555"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#555"
  , "c1" : "boolean"
  , "c2" : "hasAllFetchPositions()"
  , "c3" : "3"
@@ -445,6 +567,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00566"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#566"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "initializingPartitions()"
  , "c3" : "1"
@@ -452,6 +576,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00570"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#570"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "collectPartitions(Predicate<TopicPartitionState>)"
  , "c3" : "2"
@@ -459,6 +585,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00581"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#581"
  , "c1" : "void"
  , "c2" : "resetInitializingPositions()"
  , "c3" : "5"
@@ -466,6 +594,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00596"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#596"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitionsNeedingReset(long)"
  , "c3" : "1"
@@ -473,6 +603,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00600"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#600"
  , "c1" : "Set<TopicPartition>"
  , "c2" : "partitionsNeedingValidation(long)"
  , "c3" : "1"
@@ -480,6 +612,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00604"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#604"
  , "c1" : "boolean"
  , "c2" : "isAssigned(TopicPartition)"
  , "c3" : "1"
@@ -487,6 +621,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00608"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#608"
  , "c1" : "boolean"
  , "c2" : "isPaused(TopicPartition)"
  , "c3" : "1"
@@ -494,6 +630,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00613"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#613"
  , "c1" : "boolean"
  , "c2" : "isFetchable(TopicPartition)"
  , "c3" : "1"
@@ -501,6 +639,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00618"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#618"
  , "c1" : "boolean"
  , "c2" : "hasValidPosition(TopicPartition)"
  , "c3" : "1"
@@ -508,6 +648,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00623"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#623"
  , "c1" : "void"
  , "c2" : "pause(TopicPartition)"
  , "c3" : "1"
@@ -515,6 +657,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00627"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#627"
  , "c1" : "void"
  , "c2" : "resume(TopicPartition)"
  , "c3" : "1"
@@ -522,6 +666,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00631"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#631"
  , "c1" : "void"
  , "c2" : "requestFailed(Set<TopicPartition>;long)"
  , "c3" : "3"
@@ -529,6 +675,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00641"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#641"
  , "c1" : "void"
  , "c2" : "movePartitionToEnd(TopicPartition)"
  , "c3" : "1"
@@ -536,6 +684,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00645"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#645"
  , "c1" : "ConsumerRebalanceListener"
  , "c2" : "rebalanceListener()"
  , "c3" : "1"

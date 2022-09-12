@@ -2,13 +2,13 @@
 !pragma layout smetana
 WrappingNullableDeserializer_ValueAndTimestamp_V_,Void,V_ <|-- org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer
 class org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer {
-+  ValueAndTimestampDeserializer(Deserializer<V>)
-+  configure(Map<String,?>;boolean)
-+  deserialize(String;byte[])
-+  close()
-+  rawValue(byte[])
-+  rawTimestamp(byte[])
-+  timestamp(byte[])
-+  setIfUnset(SerdeGetter)
+ValueAndTimestampDeserializer(Deserializer<V>) : ValueAndTimestampDeserializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#22]]]
++ configure(Map<String,?>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#29]]]
++ deserialize(String;byte[]) : ValueAndTimestamp<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#36]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#48]]]
+rawValue(byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#53]]]
+- rawTimestamp(byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#61]]]
+timestamp(byte[]) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#68]]]
++ setIfUnset(SerdeGetter) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampDeserializer.java.html#73]]]
 } 
 @enduml

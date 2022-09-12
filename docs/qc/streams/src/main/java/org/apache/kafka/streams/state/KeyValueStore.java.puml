@@ -2,9 +2,9 @@
 !pragma layout smetana
 StateStore <|-- org.apache.kafka.streams.state.KeyValueStore
 class org.apache.kafka.streams.state.KeyValueStore {
-+  put(K;V)
-+  putIfAbsent(K;V)
-+  putAll(List<KeyValue<K,V>>)
-+  delete(K)
+put(K;V) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueStore.java.html#23]]]
+putIfAbsent(K;V) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueStore.java.html#23]]]
+putAll(List<KeyValue<K,V>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueStore.java.html#23]]]
+delete(K) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueStore.java.html#23]]]
 } 
 @enduml

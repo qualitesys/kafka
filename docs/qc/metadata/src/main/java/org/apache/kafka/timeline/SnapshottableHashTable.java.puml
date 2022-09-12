@@ -2,17 +2,17 @@
 !pragma layout smetana
 BaseHashTable_T_Revertable <|-- org.apache.kafka.timeline.SnapshottableHashTable
 class org.apache.kafka.timeline.SnapshottableHashTable {
-+  SnapshottableHashTable(SnapshotRegistry;int)
-+  snapshottableSize(long)
-+  snapshottableGet(Object;long)
-+  snapshottableAddUnlessPresent(T)
-+  snapshottableAddOrReplace(T)
-+  snapshottableRemove(Object)
-+  updateTierData(int)
-+  updateTierData(T;int)
-+  snapshottableIterator(long)
-+  snapshottableToDebugString()
-+  executeRevert(long;Delta)
-+  reset()
+SnapshottableHashTable(SnapshotRegistry;int) : SnapshottableHashTable [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#164]]]
+snapshottableSize(long) : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#170]]]
+snapshottableGet(Object;long) : T [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#186]]]
+snapshottableAddUnlessPresent(T) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#212]]]
+snapshottableAddOrReplace(T) : T [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#224]]]
+snapshottableRemove(Object) : T [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#236]]]
+- updateTierData(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#246]]]
+- updateTierData(T;int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#258]]]
+snapshottableIterator(long) : Iterator<T> [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#278]]]
+snapshottableToDebugString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#286]]]
++ executeRevert(long;Delta) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#319]]]
++ reset() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#342]]]
 } 
 @enduml

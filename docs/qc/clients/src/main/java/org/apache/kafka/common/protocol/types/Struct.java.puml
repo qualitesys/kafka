@@ -2,98 +2,98 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.protocol.types.Struct
 class org.apache.kafka.common.protocol.types.Struct {
-+  Struct(Schema;Object[])
-+  Struct(Schema)
-+  schema()
-+  getFieldOrDefault(BoundField)
-+  get(BoundField)
-+  get(Field.Int8)
-+  get(Field.Int32)
-+  get(Field.Int64)
-+  get(Field.UUID)
-+  get(Field.Uint16)
-+  get(Field.Uint32)
-+  get(Field.Int16)
-+  get(Field.Float64)
-+  get(Field.Str)
-+  get(Field.NullableStr)
-+  get(Field.Bool)
-+  get(Field.Array)
-+  get(Field.ComplexArray)
-+  getOrElse(Field.Int64;long)
-+  getOrElse(Field.UUID;Uuid)
-+  getOrElse(Field.Int16;short)
-+  getOrElse(Field.Int8;byte)
-+  getOrElse(Field.Int32;int)
-+  getOrElse(Field.Float64;double)
-+  getOrElse(Field.NullableStr;String)
-+  getOrElse(Field.Str;String)
-+  getOrElse(Field.Bool;boolean)
-+  getOrEmpty(Field.Array)
-+  getOrEmpty(Field.ComplexArray)
-+  get(String)
-+  hasField(String)
-+  hasField(Field)
-+  hasField(Field.ComplexArray)
-+  getStruct(BoundField)
-+  getStruct(String)
-+  getByte(BoundField)
-+  getByte(String)
-+  getRecords(String)
-+  getShort(BoundField)
-+  getShort(String)
-+  getUnsignedShort(BoundField)
-+  getUnsignedShort(String)
-+  getInt(BoundField)
-+  getInt(String)
-+  getUnsignedInt(String)
-+  getUnsignedInt(BoundField)
-+  getLong(BoundField)
-+  getLong(String)
-+  getUuid(BoundField)
-+  getUuid(String)
-+  getDouble(BoundField)
-+  getDouble(String)
-+  getArray(BoundField)
-+  getArray(String)
-+  getString(BoundField)
-+  getString(String)
-+  getBoolean(BoundField)
-+  getBoolean(String)
-+  getBytes(BoundField)
-+  getBytes(String)
-+  getByteArray(String)
-+  set(BoundField;Object)
-+  set(String;Object)
-+  set(Field.Str;String)
-+  set(Field.NullableStr;String)
-+  set(Field.Int8;byte)
-+  set(Field.Int32;int)
-+  set(Field.Int64;long)
-+  set(Field.UUID;Uuid)
-+  set(Field.Int16;short)
-+  set(Field.Uint16;int)
-+  set(Field.Uint32;long)
-+  set(Field.Float64;double)
-+  set(Field.Bool;boolean)
-+  set(Field.Array;Object[])
-+  set(Field.ComplexArray;Object[])
-+  setByteArray(String;byte[])
-+  setIfExists(Field.Array;Object[])
-+  setIfExists(Field.ComplexArray;Object[])
-+  setIfExists(Field;Object)
-+  setIfExists(String;Object)
-+  instance(BoundField)
-+  instance(String)
-+  instance(Field)
-+  instance(Field.ComplexArray)
-+  clear()
-+  sizeOf()
-+  writeTo(ByteBuffer)
-+  validateField(BoundField)
-+  validate()
-+  toString()
-+  hashCode()
-+  equals(Object)
+Struct(Schema;Object[]) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#19]]]
++ Struct(Schema) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#24]]]
++ schema() : Schema [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#30]]]
+- getFieldOrDefault(BoundField) : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#35]]]
++ get(BoundField) : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#48]]]
++ get(Field.Int8) : Byte [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#53]]]
++ get(Field.Int32) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#57]]]
++ get(Field.Int64) : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#61]]]
++ get(Field.UUID) : Uuid [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#65]]]
++ get(Field.Uint16) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#69]]]
++ get(Field.Uint32) : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#73]]]
++ get(Field.Int16) : Short [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#77]]]
++ get(Field.Float64) : Double [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#81]]]
++ get(Field.Str) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#85]]]
++ get(Field.NullableStr) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#89]]]
++ get(Field.Bool) : Boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#93]]]
++ get(Field.Array) : Object[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#97]]]
++ get(Field.ComplexArray) : Object[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#101]]]
++ getOrElse(Field.Int64;long) : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#105]]]
++ getOrElse(Field.UUID;Uuid) : Uuid [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#111]]]
++ getOrElse(Field.Int16;short) : Short [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#117]]]
++ getOrElse(Field.Int8;byte) : Byte [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#123]]]
++ getOrElse(Field.Int32;int) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#129]]]
++ getOrElse(Field.Float64;double) : Double [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#135]]]
++ getOrElse(Field.NullableStr;String) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#141]]]
++ getOrElse(Field.Str;String) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#147]]]
++ getOrElse(Field.Bool;boolean) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#153]]]
++ getOrEmpty(Field.Array) : Object[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#159]]]
++ getOrEmpty(Field.ComplexArray) : Object[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#165]]]
++ get(String) : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#172]]]
++ hasField(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#180]]]
++ hasField(Field) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#184]]]
++ hasField(Field.ComplexArray) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#188]]]
++ getStruct(BoundField) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#192]]]
++ getStruct(String) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#196]]]
++ getByte(BoundField) : Byte [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#200]]]
++ getByte(String) : byte [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#204]]]
++ getRecords(String) : BaseRecords [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#208]]]
++ getShort(BoundField) : Short [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#212]]]
++ getShort(String) : Short [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#216]]]
++ getUnsignedShort(BoundField) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#220]]]
++ getUnsignedShort(String) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#224]]]
++ getInt(BoundField) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#228]]]
++ getInt(String) : Integer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#232]]]
++ getUnsignedInt(String) : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#236]]]
++ getUnsignedInt(BoundField) : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#240]]]
++ getLong(BoundField) : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#244]]]
++ getLong(String) : Long [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#248]]]
++ getUuid(BoundField) : Uuid [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#252]]]
++ getUuid(String) : Uuid [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#256]]]
++ getDouble(BoundField) : Double [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#260]]]
++ getDouble(String) : Double [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#264]]]
++ getArray(BoundField) : Object[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#268]]]
++ getArray(String) : Object[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#272]]]
++ getString(BoundField) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#276]]]
++ getString(String) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#280]]]
++ getBoolean(BoundField) : Boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#284]]]
++ getBoolean(String) : Boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#288]]]
++ getBytes(BoundField) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#292]]]
++ getBytes(String) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#299]]]
++ getByteArray(String) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#306]]]
++ set(BoundField;Object) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#318]]]
++ set(String;Object) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#325]]]
++ set(Field.Str;String) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#333]]]
++ set(Field.NullableStr;String) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#337]]]
++ set(Field.Int8;byte) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#341]]]
++ set(Field.Int32;int) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#345]]]
++ set(Field.Int64;long) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#349]]]
++ set(Field.UUID;Uuid) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#353]]]
++ set(Field.Int16;short) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#357]]]
++ set(Field.Uint16;int) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#361]]]
++ set(Field.Uint32;long) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#369]]]
++ set(Field.Float64;double) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#377]]]
++ set(Field.Bool;boolean) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#381]]]
++ set(Field.Array;Object[]) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#385]]]
++ set(Field.ComplexArray;Object[]) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#389]]]
++ setByteArray(String;byte[]) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#393]]]
++ setIfExists(Field.Array;Object[]) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#398]]]
++ setIfExists(Field.ComplexArray;Object[]) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#402]]]
++ setIfExists(Field;Object) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#406]]]
++ setIfExists(String;Object) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#410]]]
++ instance(BoundField) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#418]]]
++ instance(String) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#430]]]
++ instance(Field) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#434]]]
++ instance(Field.ComplexArray) : Struct [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#438]]]
++ clear() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#443]]]
++ sizeOf() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#448]]]
++ writeTo(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#453]]]
+- validateField(BoundField) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#458]]]
++ validate() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#467]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#472]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#498]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#520]]]
 } 
 @enduml

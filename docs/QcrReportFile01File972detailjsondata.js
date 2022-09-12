@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.rest.ConnectRestExtensionContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtensionContext.java.html#13"
  , "c1" : "Configurable<?extendsConfigurable<?>>"
  , "c2" : "configurable()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtensionContext.java.html#16"
  , "c1" : "ConnectClusterState"
  , "c2" : "clusterState()"
  , "c3" : "1"

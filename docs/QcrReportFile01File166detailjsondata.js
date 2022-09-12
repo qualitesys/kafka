@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.internals.FenceProducersHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#27"
  , "c1" : "FenceProducersHandler"
  , "c2" : "FenceProducersHandler(LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#34"
  , "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ProducerIdAndEpoch>"
  , "c2" : "newFuture(Collection<String>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#40"
  , "c1" : "Set<CoordinatorKey>"
  , "c2" : "buildKeySet(Collection<String>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#47"
  , "c1" : "String"
  , "c2" : "apiName()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#52"
  , "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#57"
  , "c1" : "InitProducerIdRequest.Builder"
  , "c2" : "buildSingleRequest(int;CoordinatorKey)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#77"
  , "c1" : "ApiResult<CoordinatorKey,ProducerIdAndEpoch>"
  , "c2" : "handleSingleResponse(Node;CoordinatorKey;AbstractResponse)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#97"
  , "c1" : "ApiResult<CoordinatorKey,ProducerIdAndEpoch>"
  , "c2" : "handleError(CoordinatorKey;Errors)"
  , "c3" : "6"

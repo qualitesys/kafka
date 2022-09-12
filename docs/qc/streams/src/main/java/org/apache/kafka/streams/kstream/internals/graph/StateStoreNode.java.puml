@@ -2,8 +2,8 @@
 !pragma layout smetana
 GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.StateStoreNode
 class org.apache.kafka.streams.kstream.internals.graph.StateStoreNode {
-+  StateStoreNode(StoreBuilder<S>)
-+  writeToTopology(InternalTopologyBuilder)
-+  toString()
++ StateStoreNode(StoreBuilder<S>) : StateStoreNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#12]]]
++ writeToTopology(InternalTopologyBuilder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#19]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StateStoreNode.java.html#25]]]
 } 
 @enduml

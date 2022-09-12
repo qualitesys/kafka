@@ -2,10 +2,10 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.raft.EpochState
 class org.apache.kafka.raft.EpochState {
-+  highWatermark()
-+  canGrantVote(int;boolean)
-+  election()
-+  epoch()
-+  name()
+highWatermark() : Optional<LogOffsetMetadata> [[[././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#9]]]
+canGrantVote(int;boolean) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#14]]]
+election() : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#17]]]
+epoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#20]]]
+name() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#23]]]
 } 
 @enduml

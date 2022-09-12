@@ -2,7 +2,7 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.runtime.errors.ErrorReporter
 class org.apache.kafka.connect.runtime.errors.ErrorReporter {
-+  report(ProcessingContext)
-+  close()
+report(ProcessingContext) : Future<RecordMetadata> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorReporter.java.html#12]]]
+close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorReporter.java.html#15]]]
 } 
 @enduml

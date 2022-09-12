@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState
 class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState {
-+  listAllRemoteLogSegments(Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>)
-+  collectConvertedIdToMetadata(Collection<RemoteLogSegmentId>;Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>;Collection<RemoteLogSegmentMetadata>)
-+  handleSegmentWithCopySegmentStartedState(RemoteLogSegmentId)
-+  handleSegmentWithCopySegmentFinishedState(Long;RemoteLogSegmentId;Long)
-+  handleSegmentWithDeleteSegmentStartedState(Long;RemoteLogSegmentId)
-+  handleSegmentWithDeleteSegmentFinishedState(RemoteLogSegmentId)
-+  highestLogOffset()
-+  floorEntry(long)
-+  unreferencedSegmentIds()
-+  referencedSegmentIds()
+listAllRemoteLogSegments(Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>) : Iterator<RemoteLogSegmentMetadata> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#32]]]
+- collectConvertedIdToMetadata(Collection<RemoteLogSegmentId>;Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>;Collection<RemoteLogSegmentMetadata>) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#53]]]
+handleSegmentWithCopySegmentStartedState(RemoteLogSegmentId) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#65]]]
+handleSegmentWithCopySegmentFinishedState(Long;RemoteLogSegmentId;Long) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#70]]]
+handleSegmentWithDeleteSegmentStartedState(Long;RemoteLogSegmentId) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#89]]]
+handleSegmentWithDeleteSegmentFinishedState(RemoteLogSegmentId) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#98]]]
+highestLogOffset() : Long [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#103]]]
+floorEntry(long) : RemoteLogSegmentId [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#108]]]
+unreferencedSegmentIds() : Collection<RemoteLogSegmentId> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#114]]]
+referencedSegmentIds() : Collection<RemoteLogSegmentId> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#118]]]
 } 
 @enduml

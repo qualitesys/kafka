@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.header.ConnectHeader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#18"
  , "c1" : "ConnectHeader"
  , "c2" : "ConnectHeader(String;SchemaAndValue)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#25"
  , "c1" : "String"
  , "c2" : "key()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#30"
  , "c1" : "Object"
  , "c2" : "value()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#35"
  , "c1" : "Schema"
  , "c2" : "schema()"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#44"
  , "c1" : "Header"
  , "c2" : "rename(String)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#53"
  , "c1" : "Header"
  , "c2" : "with(Schema;Object)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#58"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#63"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#76"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

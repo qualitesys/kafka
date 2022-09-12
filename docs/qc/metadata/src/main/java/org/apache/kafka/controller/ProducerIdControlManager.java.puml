@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.ProducerIdControlManager
 class org.apache.kafka.controller.ProducerIdControlManager {
-+  ProducerIdControlManager(ClusterControlManager;SnapshotRegistry)
-+  generateNextProducerId(int;long)
-+  replay(ProducerIdsRecord)
-+  iterator(long)
+ProducerIdControlManager(ClusterControlManager;SnapshotRegistry) : ProducerIdControlManager [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#25]]]
+generateNextProducerId(int;long) : ControllerResult<ProducerIdsBlock> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#31]]]
+replay(ProducerIdsRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#50]]]
+iterator(long) : Iterator<List<ApiMessageAndVersion>> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#61]]]
 } 
 @enduml

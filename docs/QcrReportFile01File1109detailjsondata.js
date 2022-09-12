@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.runtime.distributed.NotAssignedException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00007"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/NotAssignedException.java.html#7"
  , "c1" : "NotAssignedException"
  , "c2" : "NotAssignedException(String;String)"
  , "c3" : "1"

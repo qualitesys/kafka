@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.network.CipherInformation
 class org.apache.kafka.common.network.CipherInformation {
-+  CipherInformation(String;String)
-+  cipher()
-+  protocol()
-+  toString()
-+  hashCode()
-+  equals(Object)
++ CipherInformation(String;String) : CipherInformation [[[././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#10]]]
++ cipher() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#15]]]
++ protocol() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#19]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#24]]]
++ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#30]]]
++ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#35]]]
 } 
 @enduml

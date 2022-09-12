@@ -2,11 +2,11 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.runtime.WorkerConfigTransformer
 class org.apache.kafka.connect.runtime.WorkerConfigTransformer {
-+  WorkerConfigTransformer(Worker;Map<String,ConfigProvider>)
-+  transform(Map<String,String>)
-+  transform(String;Map<String,String>)
-+  scheduleReload(String;Map<String,Long>)
-+  scheduleReload(String;String;long)
-+  close()
++ WorkerConfigTransformer(Worker;Map<String,ConfigProvider>) : WorkerConfigTransformer [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#28]]]
++ transform(Map<String,String>) : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#34]]]
++ transform(String;Map<String,String>) : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#38]]]
+- scheduleReload(String;Map<String,Long>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#56]]]
+- scheduleReload(String;String;long) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#62]]]
++ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#85]]]
 } 
 @enduml

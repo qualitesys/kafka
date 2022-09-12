@@ -2,19 +2,19 @@
 !pragma layout smetana
 Receive <|-- org.apache.kafka.common.network.NetworkReceive
 class org.apache.kafka.common.network.NetworkReceive {
-+  NetworkReceive(String;ByteBuffer)
-+  NetworkReceive(String)
-+  NetworkReceive(int;String)
-+  NetworkReceive(int;String;MemoryPool)
-+  NetworkReceive()
-+  source()
-+  complete()
-+  readFrom(ScatteringByteChannel)
-+  requiredMemoryAmountKnown()
-+  memoryAllocated()
-+  close()
-+  payload()
-+  bytesRead()
-+  size()
++ NetworkReceive(String;ByteBuffer) : NetworkReceive [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#29]]]
++ NetworkReceive(String) : NetworkReceive [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#37]]]
++ NetworkReceive(int;String) : NetworkReceive [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#45]]]
++ NetworkReceive(int;String;MemoryPool) : NetworkReceive [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#53]]]
++ NetworkReceive() : NetworkReceive [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#61]]]
++ source() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#66]]]
++ complete() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#71]]]
++ readFrom(ScatteringByteChannel) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#75]]]
++ requiredMemoryAmountKnown() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#111]]]
++ memoryAllocated() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#116]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#122]]]
++ payload() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#129]]]
++ bytesRead() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#133]]]
++ size() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#140]]]
 } 
 @enduml

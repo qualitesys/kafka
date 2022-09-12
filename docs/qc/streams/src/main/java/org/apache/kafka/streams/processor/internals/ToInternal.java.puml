@@ -2,11 +2,11 @@
 !pragma layout smetana
 To <|-- org.apache.kafka.streams.processor.internals.ToInternal
 class org.apache.kafka.streams.processor.internals.ToInternal {
-+  ToInternal()
-+  ToInternal(To)
-+  update(To)
-+  hasTimestamp()
-+  timestamp()
-+  child()
++ ToInternal() : ToInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#7]]]
++ ToInternal(To) : ToInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#11]]]
++ update(To) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#15]]]
++ hasTimestamp() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#19]]]
++ timestamp() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#23]]]
++ child() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#27]]]
 } 
 @enduml

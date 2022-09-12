@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.StoreQueryUtils
 class org.apache.kafka.streams.state.internals.StoreQueryUtils {
-+  StoreQueryUtils()
-+  updatePosition(Position;StateStoreContext)
-+  isPermitted(Position;PositionBound;int)
-+  checkpointPosition(OffsetCheckpoint;Position)
-+  readPositionFromCheckpoint(OffsetCheckpoint)
-+  positionToTopicPartitionMap(Position)
-+  topicPartitionMapToPosition(Map<TopicPartition,Long>)
+- StoreQueryUtils() : StoreQueryUtils [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#79]]]
++ updatePosition(Position;StateStoreContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120]]]
++ isPermitted(Position;PositionBound;int) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132]]]
++ checkpointPosition(OffsetCheckpoint;Position) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330]]]
++ readPositionFromCheckpoint(OffsetCheckpoint) : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339]]]
+- positionToTopicPartitionMap(Position) : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347]]]
+- topicPartitionMapToPosition(Map<TopicPartition,Long>) : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360]]]
 } 
 @enduml

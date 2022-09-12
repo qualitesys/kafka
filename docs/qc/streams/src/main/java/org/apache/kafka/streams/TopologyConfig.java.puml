@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractConfig <|-- org.apache.kafka.streams.TopologyConfig
 class org.apache.kafka.streams.TopologyConfig {
-+  TopologyConfig(StreamsConfig)
-+  TopologyConfig(String;StreamsConfig;Properties)
-+  parseStoreType()
-+  isNamedTopology()
-+  isTopologyOverride(String;Properties)
-+  getTaskConfig()
++ TopologyConfig(StreamsConfig) : TopologyConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#95]]]
++ TopologyConfig(String;StreamsConfig;Properties) : TopologyConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#99]]]
++ parseStoreType() : Materialized.StoreType [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#158]]]
++ isNamedTopology() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#165]]]
+- isTopologyOverride(String;Properties) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#170]]]
++ getTaskConfig() : TaskConfig [[[././qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html#176]]]
 } 
 @enduml

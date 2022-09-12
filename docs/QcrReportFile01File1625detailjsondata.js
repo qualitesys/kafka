@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.WindowedSerdes" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/WindowedSerdes.java.html#62"
  , "c1" : "void"
  , "c2" : "verifyInnerSerializerNotNull(Serializer;Serializer)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/WindowedSerdes.java.html#71"
  , "c1" : "void"
  , "c2" : "verifyInnerDeserializerNotNull(Deserializer;Deserializer)"
  , "c3" : "2"

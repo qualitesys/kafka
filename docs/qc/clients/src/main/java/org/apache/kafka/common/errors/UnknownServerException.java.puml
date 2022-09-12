@@ -2,9 +2,9 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.UnknownServerException
 class org.apache.kafka.common.errors.UnknownServerException {
-+  UnknownServerException()
-+  UnknownServerException(String)
-+  UnknownServerException(Throwable)
-+  UnknownServerException(String;Throwable)
++ UnknownServerException() : UnknownServerException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownServerException.java.html#9]]]
++ UnknownServerException(String) : UnknownServerException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownServerException.java.html#12]]]
++ UnknownServerException(Throwable) : UnknownServerException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownServerException.java.html#16]]]
++ UnknownServerException(String;Throwable) : UnknownServerException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownServerException.java.html#20]]]
 } 
 @enduml

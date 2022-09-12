@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.DescribeConfigsResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00195"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#195"
  , "c1" : "Map<ConfigResource,DescribeConfigsResponseData.DescribeConfigsResult>"
  , "c2" : "resultMap()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00205"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#205"
  , "c1" : "DescribeConfigsResponse"
  , "c2" : "DescribeConfigsResponse(DescribeConfigsResponseData)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00211"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#211"
  , "c1" : "DescribeConfigsResponse"
  , "c2" : "DescribeConfigsResponse(DescribeConfigsResponseData;short)"
  , "c3" : "10"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00234"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#234"
  , "c1" : "DescribeConfigsResponseData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#239"
  , "c1" : "int"
  , "c2" : "throttleTimeMs()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00244"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#244"
  , "c1" : "Map<Errors,Integer>"
  , "c2" : "errorCounts()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#252"
  , "c1" : "DescribeConfigsResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00257"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#257"
  , "c1" : "boolean"
  , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"

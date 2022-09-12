@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.rest.JsonRestServer
 class org.apache.kafka.trogdor.rest.JsonRestServer {
-+  JsonRestServer(int)
-+  start(Object...)
-+  port()
-+  beginShutdown()
-+  waitForShutdown()
++ JsonRestServer(int) : JsonRestServer [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#51]]]
++ start(Object...) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#63]]]
++ port() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#101]]]
++ beginShutdown() : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#106]]]
++ waitForShutdown() : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#126]]]
 } 
 @enduml

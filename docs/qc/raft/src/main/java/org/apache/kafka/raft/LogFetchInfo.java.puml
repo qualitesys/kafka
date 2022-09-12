@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.LogFetchInfo
 class org.apache.kafka.raft.LogFetchInfo {
-+  LogFetchInfo(Records;LogOffsetMetadata)
++ LogFetchInfo(Records;LogOffsetMetadata) : LogFetchInfo [[[././qc/raft/src/main/java/org/apache/kafka/raft/LogFetchInfo.java.html#12]]]
 } 
 @enduml

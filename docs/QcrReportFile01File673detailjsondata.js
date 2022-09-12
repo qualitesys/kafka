@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.FetchRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#107"
  , "c1" : "Optional<Integer>"
  , "c2" : "optionalEpoch(int)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00282"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#282"
  , "c1" : "FetchRequest"
  , "c2" : "FetchRequest(FetchRequestData;short)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00289"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#289"
  , "c1" : "AbstractResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00317"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#317"
  , "c1" : "int"
  , "c2" : "replicaId()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00321"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#321"
  , "c1" : "int"
  , "c2" : "maxWait()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00325"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#325"
  , "c1" : "int"
  , "c2" : "minBytes()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00329"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#329"
  , "c1" : "int"
  , "c2" : "maxBytes()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00335"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#335"
  , "c1" : "Map<TopicIdPartition,PartitionData>"
  , "c2" : "fetchData(Map<Uuid,String>)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00373"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#373"
  , "c1" : "List<TopicIdPartition>"
  , "c2" : "forgottenTopics(Map<Uuid,String>)"
  , "c3" : "5"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00397"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#397"
  , "c1" : "boolean"
  , "c2" : "isFromFollower()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00401"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#401"
  , "c1" : "IsolationLevel"
  , "c2" : "isolationLevel()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00405"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#405"
  , "c1" : "FetchMetadata"
  , "c2" : "metadata()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00409"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#409"
  , "c1" : "String"
  , "c2" : "rackId()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#413"
  , "c1" : "FetchRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00418"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#418"
  , "c1" : "FetchRequestData"
  , "c2" : "data()"
  , "c3" : "1"

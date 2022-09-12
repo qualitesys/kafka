@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.DefaultRecordBatch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#70"
  , "c1" : "DefaultRecordBatch"
  , "c2" : "DefaultRecordBatch(ByteBuffer)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#75"
  , "c1" : "byte"
  , "c2" : "magic()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#80"
  , "c1" : "void"
  , "c2" : "ensureValid()"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#91"
  , "c1" : "long"
  , "c2" : "baseTimestamp()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#96"
  , "c1" : "long"
  , "c2" : "maxTimestamp()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#101"
  , "c1" : "TimestampType"
  , "c2" : "timestampType()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#106"
  , "c1" : "long"
  , "c2" : "baseOffset()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#111"
  , "c1" : "long"
  , "c2" : "lastOffset()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#116"
  , "c1" : "long"
  , "c2" : "producerId()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#121"
  , "c1" : "short"
  , "c2" : "producerEpoch()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#126"
  , "c1" : "int"
  , "c2" : "baseSequence()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#130"
  , "c1" : "int"
  , "c2" : "lastOffsetDelta()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#135"
  , "c1" : "int"
  , "c2" : "lastSequence()"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#143"
  , "c1" : "CompressionType"
  , "c2" : "compressionType()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#148"
  , "c1" : "int"
  , "c2" : "sizeInBytes()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#152"
  , "c1" : "int"
  , "c2" : "count()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#157"
  , "c1" : "Integer"
  , "c2" : "countOrNull()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00162"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#162"
  , "c1" : "void"
  , "c2" : "writeTo(ByteBuffer)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00167"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#167"
  , "c1" : "void"
  , "c2" : "writeTo(ByteBufferOutputStream)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#172"
  , "c1" : "boolean"
  , "c2" : "isTransactional()"
  , "c3" : "1"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00176"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#176"
  , "c1" : "boolean"
  , "c2" : "hasDeleteHorizonMs()"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#181"
  , "c1" : "OptionalLong"
  , "c2" : "deleteHorizonMs()"
  , "c3" : "3"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00189"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#189"
  , "c1" : "boolean"
  , "c2" : "isControlBatch()"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00194"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#194"
  , "c1" : "int"
  , "c2" : "partitionLeaderEpoch()"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#198"
  , "c1" : "DataInputStream"
  , "c2" : "recordInputStream(BufferSupplier)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#204"
  , "c1" : "CloseableIterator<Record>"
  , "c2" : "compressedIterator(BufferSupplier;boolean)"
  , "c3" : "3"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00227"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#227"
  , "c1" : "CloseableIterator<Record>"
  , "c2" : "uncompressedIterator()"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00249"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#249"
  , "c1" : "Iterator<Record>"
  , "c2" : "iterator()"
  , "c3" : "4"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00268"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#268"
  , "c1" : "CloseableIterator<Record>"
  , "c2" : "skipKeyValueIterator(BufferSupplier)"
  , "c3" : "3"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00283"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#283"
  , "c1" : "CloseableIterator<Record>"
  , "c2" : "streamingIterator(BufferSupplier)"
  , "c3" : "3"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00291"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#291"
  , "c1" : "void"
  , "c2" : "setLastOffset(long)"
  , "c3" : "1"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00296"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#296"
  , "c1" : "void"
  , "c2" : "setMaxTimestamp(TimestampType;long)"
  , "c3" : "2"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00310"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#310"
  , "c1" : "void"
  , "c2" : "setPartitionLeaderEpoch(int)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00315"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#315"
  , "c1" : "long"
  , "c2" : "checksum()"
  , "c3" : "1"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00319"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#319"
  , "c1" : "boolean"
  , "c2" : "isValid()"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00323"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#323"
  , "c1" : "long"
  , "c2" : "computeChecksum()"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00327"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#327"
  , "c1" : "byte"
  , "c2" : "attributes()"
  , "c3" : "1"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00333"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#333"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00344"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#344"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00348"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#348"
  , "c1" : "byte"
  , "c2" : "computeAttributes(CompressionType;TimestampType;boolean;boolean;boolean)"
  , "c3" : "6"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00366"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#366"
  , "c1" : "void"
  , "c2" : "writeEmptyHeader(ByteBuffer;byte;long;short;int;long;long;int;TimestampType;long;boolean;boolean)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00384"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#384"
  , "c1" : "void"
  , "c2" : "writeHeader(ByteBuffer;long;int;int;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;boolean;int;int)"
  , "c3" : "3"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00427"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#427"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00434"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#434"
  , "c1" : "int"
  , "c2" : "sizeInBytes(long;Iterable<Record>)"
  , "c3" : "4"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00453"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#453"
  , "c1" : "int"
  , "c2" : "sizeInBytes(Iterable<SimpleRecord>)"
  , "c3" : "4"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00473"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#473"
  , "c1" : "int"
  , "c2" : "estimateBatchSizeUpperBound(ByteBuffer;ByteBuffer;Header[])"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00477"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#477"
  , "c1" : "int"
  , "c2" : "incrementSequence(int;int)"
  , "c3" : "2"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00483"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#483"
  , "c1" : "int"
  , "c2" : "decrementSequence(int;int)"
  , "c3" : "2"

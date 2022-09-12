@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.util.TopicAdmin" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00194"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#194"
  , "c1" : "NewTopicBuilder"
  , "c2" : "defineTopic(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00204"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#204"
  , "c1" : "TopicAdmin"
  , "c2" : "TopicAdmin(Map<String,Object>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#209"
  , "c1" : "TopicAdmin"
  , "c2" : "TopicAdmin(Object;Admin)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00214"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#214"
  , "c1" : "TopicAdmin"
  , "c2" : "TopicAdmin(Object;Admin;boolean)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#221"
  , "c1" : "boolean"
  , "c2" : "createTopic(NewTopic)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#228"
  , "c1" : "Set<String>"
  , "c2" : "createTopics(NewTopic...)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00233"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#233"
  , "c1" : "boolean"
  , "c2" : "createOrFindTopic(NewTopic)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00239"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#239"
  , "c1" : "TopicCreationResponse"
  , "c2" : "createOrFindTopics(NewTopic...)"
  , "c3" : "13"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00309"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#309"
  , "c1" : "Map<String,TopicDescription>"
  , "c2" : "describeTopics(String...)"
  , "c3" : "6"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00354"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#354"
  , "c1" : "boolean"
  , "c2" : "verifyTopicCleanupPolicyOnlyCompact(String;String;String)"
  , "c3" : "3"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00384"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#384"
  , "c1" : "Set<String>"
  , "c2" : "topicCleanupPolicy(String)"
  , "c3" : "3"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00408"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#408"
  , "c1" : "Config"
  , "c2" : "describeTopicConfig(String)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#413"
  , "c1" : "Map<String,Config>"
  , "c2" : "describeTopicConfigs(String...)"
  , "c3" : "11"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#466"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "endOffsets(Set<TopicPartition>)"
  , "c3" : "13"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00511"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#511"
  , "c1" : "Map<TopicPartition,Long>"
  , "c2" : "retryEndOffsets(Set<TopicPartition>;Duration;long)"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00528"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#528"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00532"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#532"
  , "c1" : "void"
  , "c2" : "close(Duration)"
  , "c3" : "1"

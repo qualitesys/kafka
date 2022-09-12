@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractStoreBuilder_K,V,KeyValueStore_K,V__ <|-- org.apache.kafka.streams.state.internals.ListValueStoreBuilder
 class org.apache.kafka.streams.state.internals.ListValueStoreBuilder {
-+  ListValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time)
-+  build()
-+  maybeWrapCaching(KeyValueStore<Bytes,byte[]>)
-+  maybeWrapLogging(KeyValueStore<Bytes,byte[]>)
++ ListValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time) : ListValueStoreBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#15]]]
++ build() : KeyValueStore<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#26]]]
+- maybeWrapCaching(KeyValueStore<Bytes,byte[]>) : KeyValueStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#35]]]
+- maybeWrapLogging(KeyValueStore<Bytes,byte[]>) : KeyValueStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#42]]]
 } 
 @enduml

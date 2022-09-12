@@ -2,11 +2,11 @@
 !pragma layout smetana
 Deserializer_Change_T__ <|-- org.apache.kafka.streams.kstream.internals.ChangedDeserializer
 class org.apache.kafka.streams.kstream.internals.ChangedDeserializer {
-+  ChangedDeserializer(Deserializer<T>)
-+  inner()
-+  setIfUnset(SerdeGetter)
-+  deserialize(String;Headers;byte[])
-+  deserialize(String;byte[])
-+  close()
++ ChangedDeserializer(Deserializer<T>) : ChangedDeserializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#16]]]
++ inner() : Deserializer<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#20]]]
++ setIfUnset(SerdeGetter) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#26]]]
++ deserialize(String;Headers;byte[]) : Change<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#33]]]
++ deserialize(String;byte[]) : Change<T> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#47]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html#52]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 RaftException <|-- org.apache.kafka.raft.errors.NotLeaderException
 class org.apache.kafka.raft.errors.NotLeaderException {
-+  NotLeaderException(String)
-+  NotLeaderException(String;Throwable)
-+  NotLeaderException(Throwable)
++ NotLeaderException(String) : NotLeaderException [[[././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#9]]]
++ NotLeaderException(String;Throwable) : NotLeaderException [[[././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#13]]]
++ NotLeaderException(Throwable) : NotLeaderException [[[././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#17]]]
 } 
 @enduml

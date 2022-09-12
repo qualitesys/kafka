@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.FetchSnapshotRequest
 class org.apache.kafka.common.requests.FetchSnapshotRequest {
-+  FetchSnapshotRequest(FetchSnapshotRequestData;short)
-+  getErrorResponse(int;Throwable)
-+  data()
-+  singleton(String;TopicPartition;UnaryOperator<FetchSnapshotRequestData.PartitionSnapshot>)
-+  forTopicPartition(FetchSnapshotRequestData;TopicPartition)
-+  parse(ByteBuffer;short)
++ FetchSnapshotRequest(FetchSnapshotRequestData;short) : FetchSnapshotRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#19]]]
++ getErrorResponse(int;Throwable) : FetchSnapshotResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#25]]]
++ data() : FetchSnapshotRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#34]]]
++ singleton(String;TopicPartition;UnaryOperator<FetchSnapshotRequestData.PartitionSnapshot>) : FetchSnapshotRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#39]]]
++ forTopicPartition(FetchSnapshotRequestData;TopicPartition) : Optional<FetchSnapshotRequestData.PartitionSnapshot> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#60]]]
++ parse(ByteBuffer;short) : FetchSnapshotRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#73]]]
 } 
 @enduml

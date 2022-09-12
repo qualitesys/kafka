@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.Time" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#18"
  , "c1" : "SchemaBuilder"
  , "c2" : "builder()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#27"
  , "c1" : "int"
  , "c2" : "fromLogical(Schema;java.util.Date)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.html#39"
  , "c1" : "java.util.Date"
  , "c2" : "toLogical(Schema;int)"
  , "c3" : "3"

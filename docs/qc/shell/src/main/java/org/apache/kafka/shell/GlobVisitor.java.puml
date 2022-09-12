@@ -2,8 +2,8 @@
 !pragma layout smetana
 Consumer_MetadataNodeManager.Data_ <|-- org.apache.kafka.shell.GlobVisitor
 class org.apache.kafka.shell.GlobVisitor {
-+  GlobVisitor(String;Consumer<Optional<MetadataNodeInfo>>)
-+  accept(MetadataNodeManager.Data)
-+  accept(List<String>;int;MetadataNode;String[])
++ GlobVisitor(String;Consumer<Optional<MetadataNodeInfo>>) : GlobVisitor [[[././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#17]]]
++ accept(MetadataNodeManager.Data) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#79]]]
+- accept(List<String>;int;MetadataNode;String[]) : boolean [[[././qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#89]]]
 } 
 @enduml

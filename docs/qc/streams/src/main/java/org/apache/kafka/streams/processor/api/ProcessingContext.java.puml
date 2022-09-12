@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.api.ProcessingContext
 class org.apache.kafka.streams.processor.api.ProcessingContext {
-+  applicationId()
-+  taskId()
-+  recordMetadata()
-+  keySerde()
-+  valueSerde()
-+  stateDir()
-+  metrics()
-+  schedule(Duration;PunctuationType;Punctuator)
-+  commit()
-+  appConfigs()
-+  appConfigsWithPrefix(String)
-+  currentSystemTimeMs()
-+  currentStreamTimeMs()
+applicationId() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#24]]]
+taskId() : TaskId [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#27]]]
+recordMetadata() : Optional<RecordMetadata> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#30]]]
+keySerde() : Serde<?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#33]]]
+valueSerde() : Serde<?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#36]]]
+stateDir() : File [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#39]]]
+metrics() : StreamsMetrics [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#42]]]
+schedule(Duration;PunctuationType;Punctuator) : Cancellable [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#48]]]
+commit() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#53]]]
+appConfigs() : Map<String,Object> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#56]]]
+appConfigsWithPrefix(String) : Map<String,Object> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#59]]]
+currentSystemTimeMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#62]]]
+currentStreamTimeMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#65]]]
 } 
 @enduml

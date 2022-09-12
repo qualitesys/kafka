@@ -2,12 +2,12 @@
 !pragma layout smetana
 SampledStatCompoundStat <|-- org.apache.kafka.common.metrics.stats.Percentiles
 class org.apache.kafka.common.metrics.stats.Percentiles {
-+  Percentiles(int;double;BucketSizing;Percentile...)
-+  Percentiles(int;double;double;BucketSizing;Percentile...)
-+  stats()
-+  value(MetricConfig;long;double)
-+  combine(List<Sample>;MetricConfig;long)
-+  newSample(long)
-+  update(Sample;MetricConfig;double;long)
++ Percentiles(int;double;BucketSizing;Percentile...) : Percentiles [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#30]]]
++ Percentiles(int;double;double;BucketSizing;Percentile...) : Percentiles [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#34]]]
++ stats() : List<NamedMeasurable> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#52]]]
++ value(MetricConfig;long;double) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#64]]]
++ combine(List<Sample>;MetricConfig;long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#86]]]
+newSample(long) : HistogramSample [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#91]]]
+update(Sample;MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#96]]]
 } 
 @enduml

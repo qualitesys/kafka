@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.util.TopicCreation
 class org.apache.kafka.connect.util.TopicCreation {
-+  TopicCreation(boolean;TopicCreationGroup;Map<String,TopicCreationGroup>;Set<String>)
-+  newTopicCreation(WorkerConfig;Map<String,TopicCreationGroup>)
-+  empty()
-+  isTopicCreationEnabled()
-+  isTopicCreationRequired(String)
-+  defaultTopicGroup()
-+  topicGroups()
-+  addTopic(String)
-+  findFirstGroup(String)
+TopicCreation(boolean;TopicCreationGroup;Map<String,TopicCreationGroup>;Set<String>) : TopicCreation [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#27]]]
++ newTopicCreation(WorkerConfig;Map<String,TopicCreationGroup>) : TopicCreation [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#37]]]
++ empty() : TopicCreation [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#48]]]
++ isTopicCreationEnabled() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#53]]]
++ isTopicCreationRequired(String) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#58]]]
++ defaultTopicGroup() : TopicCreationGroup [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#63]]]
++ topicGroups() : Map<String,TopicCreationGroup> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#68]]]
++ addTopic(String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#73]]]
++ findFirstGroup(String) : TopicCreationGroup [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#80]]]
 } 
 @enduml

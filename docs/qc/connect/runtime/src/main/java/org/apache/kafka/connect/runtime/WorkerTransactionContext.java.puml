@@ -2,15 +2,15 @@
 !pragma layout smetana
 TransactionContext <|-- org.apache.kafka.connect.runtime.WorkerTransactionContext
 class org.apache.kafka.connect.runtime.WorkerTransactionContext {
-+  commitTransaction()
-+  commitTransaction(SourceRecord)
-+  abortTransaction()
-+  abortTransaction(SourceRecord)
-+  shouldCommitBatch()
-+  shouldAbortBatch()
-+  shouldCommitOn(SourceRecord)
-+  shouldAbortOn(SourceRecord)
-+  checkBatchRequestsConsistency()
-+  checkRecordRequestConsistency(SourceRecord)
++ commitTransaction() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#24]]]
++ commitTransaction(SourceRecord) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#29]]]
++ abortTransaction() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#35]]]
++ abortTransaction(SourceRecord) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#40]]]
++ shouldCommitBatch() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#45]]]
++ shouldAbortBatch() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#52]]]
++ shouldCommitOn(SourceRecord) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#59]]]
++ shouldAbortOn(SourceRecord) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#69]]]
+- checkBatchRequestsConsistency() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#74]]]
+- checkRecordRequestConsistency(SourceRecord) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#80]]]
 } 
 @enduml

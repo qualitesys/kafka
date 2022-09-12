@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.PartitionReassignmentRevert
 class org.apache.kafka.controller.PartitionReassignmentRevert {
-+  PartitionReassignmentRevert(PartitionRegistration)
-+  replicas()
-+  isr()
-+  unclean()
-+  hashCode()
-+  equals(Object)
-+  toString()
+PartitionReassignmentRevert(PartitionRegistration) : PartitionReassignmentRevert [[[././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#20]]]
+replicas() : List<Integer> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#59]]]
+isr() : List<Integer> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#63]]]
+unclean() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#67]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#72]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#77]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#85]]]
 } 
 @enduml

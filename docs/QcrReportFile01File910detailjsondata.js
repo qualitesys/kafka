@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.PureJavaCrc32C" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#15"
  , "c1" : "PureJavaCrc32C"
  , "c2" : "PureJavaCrc32C()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#20"
  , "c1" : "long"
  , "c2" : "getValue()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#26"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#32"
  , "c1" : "void"
  , "c2" : "update(byte[];int;int)"
  , "c3" : "9"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#80"
  , "c1" : "void"
  , "c2" : "update(int)"
  , "c3" : "1"

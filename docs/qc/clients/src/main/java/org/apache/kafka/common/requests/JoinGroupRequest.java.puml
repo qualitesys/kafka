@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.JoinGroupRequest
 class org.apache.kafka.common.requests.JoinGroupRequest {
-+  validateGroupInstanceId(String)
-+  JoinGroupRequest(JoinGroupRequestData;short)
-+  maybeOverrideRebalanceTimeout(short)
-+  data()
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
++ validateGroupInstanceId(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#49]]]
++ JoinGroupRequest(JoinGroupRequestData;short) : JoinGroupRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#55]]]
+- maybeOverrideRebalanceTimeout(short) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#61]]]
++ data() : JoinGroupRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#70]]]
++ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#75]]]
++ parse(ByteBuffer;short) : JoinGroupRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#93]]]
 } 
 @enduml

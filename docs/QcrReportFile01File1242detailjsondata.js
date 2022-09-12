@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.examples.KafkaExactlyOnceDemo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#26"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "6"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#76"
  , "c1" : "void"
  , "c2" : "recreateTopics(int)"
  , "c3" : "7"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#131"
  , "c1" : "void"
  , "c2" : "deleteTopic(Admin;List<String>)"
  , "c3" : "2"

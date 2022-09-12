@@ -2,46 +2,46 @@
 !pragma layout smetana
 ConsumerPartitionAssignor <|-- org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor
 class org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor {
-+  configure(Map<String,?>)
-+  name()
-+  supportedProtocols()
-+  subscriptionUserData(Set<String>)
-+  errorAssignment(Map<UUID,ClientMetadata>;int)
-+  assign(Cluster;GroupSubscription)
-+  checkMetadataVersions(int;int;int)
-+  prepareRepartitionTopics(Cluster)
-+  populateTasksForMaps(Map<TopicPartition,TaskId>;Map<Subtopology,Set<TaskId>>;Set<String>;Map<TaskId,Set<TopicPartition>>;Cluster)
-+  checkAllPartitions(Set<String>;Map<TaskId,Set<TopicPartition>>;Set<TopicPartition>;Cluster)
-+  assignTasksToClients(Cluster;Set<String>;Map<Subtopology,TopicsInfo>;Map<UUID,ClientMetadata>;Map<TaskId,Set<TopicPartition>>;Set<TaskId>)
-+  createTaskAssignor(boolean)
-+  populateClientStatesMap(Map<UUID,ClientState>;Map<UUID,ClientMetadata>;Map<TopicPartition,TaskId>;ChangelogTopics)
-+  computeEndOffsetSumsByTask(Map<TopicPartition,ListOffsetsResultInfo>;Map<TopicPartition,Long>;ChangelogTopics)
-+  populatePartitionsByHostMaps(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>;Map<UUID,ClientMetadata>)
-+  computeNewAssignment(Set<TaskId>;Map<UUID,ClientMetadata>;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Set<TopicPartition>;int;int;boolean;boolean)
-+  addClientAssignments(Set<TaskId>;Map<String,Assignment>;ClientMetadata;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Set<TopicPartition>;Map<String,List<TaskId>>;Map<String,List<TaskId>>;int;int;boolean)
-+  populateActiveTaskAndPartitionsLists(List<TopicPartition>;List<TaskId>;String;ClientState;List<TaskId>;Map<TaskId,Set<TopicPartition>>;Set<TopicPartition>)
-+  buildStandbyTaskMap(String;Iterable<TaskId>;Iterable<TaskId>;Set<TaskId>;Map<TaskId,Set<TopicPartition>>;ClientState)
-+  assignTasksToThreads(Collection<TaskId>;boolean;SortedSet<String>;ClientState;Map<String,Integer>)
-+  validateMetadataVersions(int;int)
-+  maybeUpdateSubscriptionVersion(int;int)
-+  onAssignment(Assignment;ConsumerGroupMetadata)
-+  maybeScheduleFollowupRebalance(long;int;int;Set<HostInfo>)
-+  verifyHostInfo(Set<HostInfo>)
-+  getActiveTasks(List<TopicPartition>;AssignmentInfo)
-+  getTopicPartitionInfo(Map<HostInfo,Set<TopicPartition>>)
-+  validateActiveTaskEncoding(List<TopicPartition>;AssignmentInfo;String)
-+  updateMinReceivedVersion(int;int)
-+  updateMinSupportedVersion(int;int)
-+  setInternalTopicManager(InternalTopicManager)
-+  rebalanceProtocol()
-+  userEndPoint()
-+  taskManager()
-+  uniqueField()
-+  clientTags()
-+  handleRebalanceStart(Set<String>)
-+  acceptableRecoveryLag()
-+  maxWarmupReplicas()
-+  numStandbyReplicas()
-+  probingRebalanceIntervalMs()
++ configure(Map<String,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#181]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#210]]]
++ supportedProtocols() : List<RebalanceProtocol> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#215]]]
++ subscriptionUserData(Set<String>) : ByteBuffer [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#225]]]
+- errorAssignment(Map<UUID,ClientMetadata>;int) : Map<String,Assignment> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#253]]]
++ assign(Cluster;GroupSubscription) : GroupAssignment [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#274]]]
+- checkMetadataVersions(int;int;int) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#422]]]
+- prepareRepartitionTopics(Cluster) : RepartitionTopics [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#458]]]
+- populateTasksForMaps(Map<TopicPartition,TaskId>;Map<Subtopology,Set<TaskId>>;Set<String>;Map<TaskId,Set<TopicPartition>>;Cluster) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#480]]]
+- checkAllPartitions(Set<String>;Map<TaskId,Set<TopicPartition>>;Set<TopicPartition>;Cluster) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#506]]]
+- assignTasksToClients(Cluster;Set<String>;Map<Subtopology,TopicsInfo>;Map<UUID,ClientMetadata>;Map<TaskId,Set<TopicPartition>>;Set<TaskId>) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#532]]]
+- createTaskAssignor(boolean) : TaskAssignor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#584]]]
+- populateClientStatesMap(Map<UUID,ClientState>;Map<UUID,ClientMetadata>;Map<TopicPartition,TaskId>;ChangelogTopics) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#600]]]
+- computeEndOffsetSumsByTask(Map<TopicPartition,ListOffsetsResultInfo>;Map<TopicPartition,Long>;ChangelogTopics) : Map<TaskId,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#641]]]
+- populatePartitionsByHostMaps(Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<TaskId,Set<TopicPartition>>;Map<UUID,ClientMetadata>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#671]]]
+- computeNewAssignment(Set<TaskId>;Map<UUID,ClientMetadata>;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Set<TopicPartition>;int;int;boolean;boolean) : Map<String,Assignment> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#699]]]
+- addClientAssignments(Set<TaskId>;Map<String,Assignment>;ClientMetadata;Map<TaskId,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Map<HostInfo,Set<TopicPartition>>;Set<TopicPartition>;Map<String,List<TaskId>>;Map<String,List<TaskId>>;int;int;boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#802]]]
+- populateActiveTaskAndPartitionsLists(List<TopicPartition>;List<TaskId>;String;ClientState;List<TaskId>;Map<TaskId,Set<TopicPartition>>;Set<TopicPartition>) : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#883]]]
+- buildStandbyTaskMap(String;Iterable<TaskId>;Iterable<TaskId>;Set<TaskId>;Map<TaskId,Set<TopicPartition>>;ClientState) : Map<TaskId,Set<TopicPartition>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#941]]]
+assignTasksToThreads(Collection<TaskId>;boolean;SortedSet<String>;ClientState;Map<String,Integer>) : Map<String,List<TaskId>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#971]]]
+- validateMetadataVersions(int;int) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1074]]]
+maybeUpdateSubscriptionVersion(int;int) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1095]]]
++ onAssignment(Assignment;ConsumerGroupMetadata) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1138]]]
+- maybeScheduleFollowupRebalance(long;int;int;Set<HostInfo>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1228]]]
+- verifyHostInfo(Set<HostInfo>) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1251]]]
+getActiveTasks(List<TopicPartition>;AssignmentInfo) : Map<TaskId,Set<TopicPartition>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1262]]]
+getTopicPartitionInfo(Map<HostInfo,Set<TopicPartition>>) : Map<TopicPartition,PartitionInfo> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1272]]]
+- validateActiveTaskEncoding(List<TopicPartition>;AssignmentInfo;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1291]]]
+- updateMinReceivedVersion(int;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1306]]]
+- updateMinSupportedVersion(int;int) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1310]]]
+setInternalTopicManager(InternalTopicManager) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1323]]]
+rebalanceProtocol() : RebalanceProtocol [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1327]]]
+userEndPoint() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1331]]]
+taskManager() : TaskManager [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1335]]]
+uniqueField() : byte [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1339]]]
+clientTags() : Map<String,String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1343]]]
+handleRebalanceStart(Set<String>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1347]]]
+acceptableRecoveryLag() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1351]]]
+maxWarmupReplicas() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1355]]]
+numStandbyReplicas() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1359]]]
+probingRebalanceIntervalMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1363]]]
 } 
 @enduml

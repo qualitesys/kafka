@@ -2,24 +2,24 @@
 !pragma layout smetana
 KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter
 class org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter {
-+  KeyValueToTimestampedKeyValueByteStoreAdapter(KeyValueStore<Bytes,byte[]>)
-+  put(Bytes;byte[])
-+  putIfAbsent(Bytes;byte[])
-+  putAll(List<KeyValue<Bytes,byte[]>>)
-+  delete(Bytes)
-+  name()
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  flush()
-+  close()
-+  persistent()
-+  isOpen()
-+  getPosition()
-+  get(Bytes)
-+  range(Bytes;Bytes)
-+  reverseRange(Bytes;Bytes)
-+  all()
-+  reverseAll()
-+  approximateNumEntries()
+KeyValueToTimestampedKeyValueByteStoreAdapter(KeyValueStore<Bytes,byte[]>) : KeyValueToTimestampedKeyValueByteStoreAdapter [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#28]]]
++ put(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#36]]]
++ putIfAbsent(Bytes;byte[]) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#42]]]
++ putAll(List<KeyValue<Bytes,byte[]>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#50]]]
++ delete(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#58]]]
++ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#63]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#69]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#75]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#80]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#85]]]
++ persistent() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#90]]]
++ isOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#95]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#118]]]
++ get(Bytes) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#123]]]
++ range(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#128]]]
++ reverseRange(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#134]]]
++ all() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#140]]]
++ reverseAll() : KeyValueIterator<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#145]]]
++ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#156]]]
 } 
 @enduml

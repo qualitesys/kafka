@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.record.ControlRecordUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#18"
  , "c1" : "LeaderChangeMessage"
  , "c2" : "deserializeLeaderChangeMessage(Record)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#27"
  , "c1" : "LeaderChangeMessage"
  , "c2" : "deserializeLeaderChangeMessage(ByteBuffer)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#32"
  , "c1" : "SnapshotHeaderRecord"
  , "c2" : "deserializedSnapshotHeaderRecord(Record)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#41"
  , "c1" : "SnapshotHeaderRecord"
  , "c2" : "deserializedSnapshotHeaderRecord(ByteBuffer)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#46"
  , "c1" : "SnapshotFooterRecord"
  , "c2" : "deserializedSnapshotFooterRecord(Record)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#55"
  , "c1" : "SnapshotFooterRecord"
  , "c2" : "deserializedSnapshotFooterRecord(ByteBuffer)"
  , "c3" : "1"

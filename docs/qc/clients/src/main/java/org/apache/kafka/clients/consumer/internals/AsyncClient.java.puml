@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.AsyncClient
 class org.apache.kafka.clients.consumer.internals.AsyncClient {
-+  AsyncClient(ConsumerNetworkClient;LogContext)
-+  sendAsyncRequest(Node;T1)
-+  logger()
-+  prepareRequest(Node;T1)
-+  handleResponse(Node;T1;Resp)
+AsyncClient(ConsumerNetworkClient;LogContext) : AsyncClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#16]]]
++ sendAsyncRequest(Node;T1) : RequestFuture<T2> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#21]]]
+logger() : Logger [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#53]]]
+prepareRequest(Node;T1) : AbstractRequest.Builder<Req> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#57]]]
+handleResponse(Node;T1;Resp) : T2 [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AsyncClient.java.html#59]]]
 } 
 @enduml

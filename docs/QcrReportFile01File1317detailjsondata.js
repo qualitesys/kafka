@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ProducerIdControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#25"
  , "c1" : "ProducerIdControlManager"
  , "c2" : "ProducerIdControlManager(ClusterControlManager;SnapshotRegistry)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#31"
  , "c1" : "ControllerResult<ProducerIdsBlock>"
  , "c2" : "generateNextProducerId(int;long)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#50"
  , "c1" : "void"
  , "c2" : "replay(ProducerIdsRecord)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#61"
  , "c1" : "Iterator<List<ApiMessageAndVersion>>"
  , "c2" : "iterator(long)"
  , "c3" : "2"

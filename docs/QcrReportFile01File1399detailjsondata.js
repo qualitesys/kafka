@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.LeaderAndEpoch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#12"
  , "c1" : "LeaderAndEpoch"
  , "c2" : "LeaderAndEpoch(OptionalInt;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#17"
  , "c1" : "OptionalInt"
  , "c2" : "leaderId()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#21"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#25"
  , "c1" : "boolean"
  , "c2" : "isLeader(int)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#30"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#39"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#44"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

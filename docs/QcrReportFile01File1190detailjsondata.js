@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.tools.TransformationDoc" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#59"
  , "c1" : "void"
  , "c2" : "printTransformationHtml(PrintStream;DocInfo)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#75"
  , "c1" : "void"
  , "c2" : "printHtml(PrintStream)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#81"
  , "c1" : "void"
  , "c2" : "main(String...)"
  , "c3" : "1"

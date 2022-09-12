@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.LogAppendInfo
 class org.apache.kafka.raft.LogAppendInfo {
-+  LogAppendInfo(long;long)
++ LogAppendInfo(long;long) : LogAppendInfo [[[././qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.html#10]]]
 } 
 @enduml

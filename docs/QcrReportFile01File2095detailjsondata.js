@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.WrappingStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#19"
  , "c1" : "WrappingStoreProvider"
  , "c2" : "WrappingStoreProvider(Collection<StreamThreadStateStoreProvider>;StoreQueryParameters)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappingStoreProvider.java.html#26"
  , "c1" : "void"
  , "c2" : "setStoreQueryParameters(StoreQueryParameters)"
  , "c3" : "1"

@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:1032px;height:136px;background:#000000;" version="1.1" viewBox="0 0 1032 136" width="1032px" zoomAndPan="magnify"><defs/><g><rect fill="#052114" height="1" style="stroke:#052114;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="1020" x="5" y="111.1563">WrappedStateStore_KeyValueStore_Bytes,byte[]_,K,V_KeyValueStore_K,V_ &lt;|-- org.apache.kafka.streams.state.internals.Meter ...</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[5153216f0b4f61d933647c6912d8dc87]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:1032px;height:136px;background:#000000;" version="1.1" viewBox="0 0 1032 136" width="1032px" zoomAndPan="magnify"><defs/><g><rect fill="#220418" height="1" style="stroke:#220418;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="190" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="41.9688">[From string (line 3) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="1020" x="5" y="111.1563">WrappedStateStore_KeyValueStore_Bytes,byte[]_,K,V_KeyValueStore_K,V_ &lt;|-- org.apache.kafka.streams.state.internals.Meter ...</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="127.4531">Syntax Error?</text><!--MD5=[253c23df95ea5866a89b1aa352438f5e]
 @startuml
 !pragma layout smetana
 WrappedStateStore_KeyValueStore_Bytes,byte[]_,K,V_KeyValueStore_K,V_ <|- - org.apache.kafka.streams.state.internals.MeteredKeyValueStore
 class org.apache.kafka.streams.state.internals.MeteredKeyValueStore {
-+  MeteredKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<V>)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  registerMetrics()
-+  prepareValueSerdeForStore(Serde<V>;SerdeGetter)
-+  initStoreSerde(ProcessorContext)
-+  initStoreSerde(StateStoreContext)
-+  setFlushListener(CacheFlushListener<K,V>;boolean)
-+  getPosition()
-+  get(K)
-+  put(K;V)
-+  putIfAbsent(K;V)
-+  putAll(List<KeyValue<K,V>>)
-+  delete(K)
-+  range(K;K)
-+  reverseRange(K;K)
-+  all()
-+  reverseAll()
-+  flush()
-+  approximateNumEntries()
-+  close()
-+  outerValue(byte[])
-+  keyBytes(K)
-+  innerEntries(List<KeyValue<K,V>>)
-+  maybeRecordE2ELatency()
+MeteredKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<V>) : MeteredKeyValueStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#85]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#99]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#115]]]
+- registerMetrics() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#130]]]
+prepareValueSerdeForStore(Serde<V>;SerdeGetter) : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#143]]]
+- initStoreSerde(ProcessorContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#149]]]
+- initStoreSerde(StateStoreContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#159]]]
++ setFlushListener(CacheFlushListener<K,V>;boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#171]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#221]]]
++ get(K) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#292]]]
++ put(K;V) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#303]]]
++ putIfAbsent(K;V) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#316]]]
++ putAll(List<KeyValue<K,V>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#329]]]
++ delete(K) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#335]]]
++ range(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#353]]]
++ reverseRange(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#364]]]
++ all() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#375]]]
++ reverseAll() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#380]]]
++ flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#385]]]
++ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#390]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#395]]]
+outerValue(byte[]) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#403]]]
+keyBytes(K) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#407]]]
+- innerEntries(List<KeyValue<K,V>>) : List<KeyValue<Bytes,byte[]>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#411]]]
+- maybeRecordE2ELatency() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#419]]]
 } 
 @enduml
 

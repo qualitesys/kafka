@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils
 class org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils {
-+  StandbyTaskAssignmentUtils()
-+  createLeastLoadedPrioritySetConstrainedByAssignedTask(Map<UUID,ClientState>)
-+  pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks(int;Map<UUID,ClientState>;Map<TaskId,Integer>;ConstrainedPrioritySet;TaskId;Logger)
-+  computeTasksToRemainingStandbys(int;Set<TaskId>)
+- StandbyTaskAssignmentUtils() : StandbyTaskAssignmentUtils [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#15]]]
+createLeastLoadedPrioritySetConstrainedByAssignedTask(Map<UUID,ClientState>) : ConstrainedPrioritySet [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#17]]]
+pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks(int;Map<UUID,ClientState>;Map<TaskId,Integer>;ConstrainedPrioritySet;TaskId;Logger) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#22]]]
+computeTasksToRemainingStandbys(int;Set<TaskId>) : Map<TaskId,Integer> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#49]]]
 } 
 @enduml

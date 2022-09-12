@@ -2,12 +2,12 @@
 !pragma layout smetana
 CompoundStat <|-- org.apache.kafka.common.metrics.stats.Meter
 class org.apache.kafka.common.metrics.stats.Meter {
-+  Meter(MetricName;MetricName)
-+  Meter(TimeUnit;MetricName;MetricName)
-+  Meter(SampledStat;MetricName;MetricName)
-+  Meter(TimeUnit;SampledStat;MetricName;MetricName)
-+  stats()
-+  record(MetricConfig;double;long)
-+  toString()
++ Meter(MetricName;MetricName) : Meter [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#21]]]
++ Meter(TimeUnit;MetricName;MetricName) : Meter [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#26]]]
++ Meter(SampledStat;MetricName;MetricName) : Meter [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#31]]]
++ Meter(TimeUnit;SampledStat;MetricName;MetricName) : Meter [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#36]]]
++ stats() : List<NamedMeasurable> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#47]]]
++ record(MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#54]]]
++ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#62]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.FetchSessionHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#40"
  , "c1" : "FetchSessionHandler"
  , "c2" : "FetchSessionHandler(LogContext;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#52"
  , "c1" : "Map<Uuid,String>"
  , "c2" : "sessionTopicNames()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00301"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#301"
  , "c1" : "Builder"
  , "c2" : "newBuilder()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00307"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#307"
  , "c1" : "Builder"
  , "c2" : "newBuilder(int;boolean)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00311"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#311"
  , "c1" : "String"
  , "c2" : "topicPartitionsToLogString(Collection<TopicPartition>)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00318"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#318"
  , "c1" : "String"
  , "c2" : "topicIdPartitionsToLogString(Collection<TopicIdPartition>)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00337"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#337"
  , "c1" : "String"
  , "c2" : "verifyFullFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)"
  , "c3" : "6"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00364"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#364"
  , "c1" : "String"
  , "c2" : "verifyIncrementalFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00384"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#384"
  , "c1" : "String"
  , "c2" : "responseDataToLogString(Set<TopicPartition>)"
  , "c3" : "6"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00414"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#414"
  , "c1" : "boolean"
  , "c2" : "handleResponse(FetchResponse;short)"
  , "c3" : "20"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00487"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#487"
  , "c1" : "void"
  , "c2" : "handleError(Throwable)"
  , "c3" : "1"

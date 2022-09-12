@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.tools.ProducerPerformance
 class org.apache.kafka.tools.ProducerPerformance {
-+  main(String[])
-+  start(String[])
-+  createKafkaProducer(Properties)
-+  generateRandomPayload(Integer;List<byte[]>;byte[];Random)
-+  readProps(List<String>;String;String;boolean)
-+  readPayloadFile(String;String)
-+  argParser()
++ main(String[]) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#34]]]
+start(String[]) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#39]]]
+createKafkaProducer(Properties) : KafkaProducer<byte[],byte[]> [[[././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#147]]]
+generateRandomPayload(Integer;List<byte[]>;byte[];Random) : byte[] [[[././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#151]]]
+readProps(List<String>;String;String;boolean) : Properties [[[././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#164]]]
+readPayloadFile(String;String) : List<byte[]> [[[././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#187]]]
+argParser() : ArgumentParser [[[././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#208]]]
 } 
 @enduml

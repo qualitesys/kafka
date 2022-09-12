@@ -2,11 +2,11 @@
 !pragma layout smetana
 TaskState <|-- org.apache.kafka.trogdor.rest.TaskDone
 class org.apache.kafka.trogdor.rest.TaskDone {
-+  TaskDone(TaskSpec;long;long;String;boolean;JsonNode)
-+  startedMs()
-+  doneMs()
-+  error()
-+  cancelled()
-+  stateType()
++ TaskDone(TaskSpec;long;long;String;boolean;JsonNode) : TaskDone [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskDone.java.html#24]]]
++ startedMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskDone.java.html#38]]]
++ doneMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskDone.java.html#43]]]
++ error() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskDone.java.html#48]]]
++ cancelled() : boolean [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskDone.java.html#53]]]
++ stateType() : TaskStateType [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskDone.java.html#58]]]
 } 
 @enduml

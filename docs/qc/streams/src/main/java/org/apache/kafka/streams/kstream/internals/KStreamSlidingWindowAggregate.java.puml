@@ -2,10 +2,10 @@
 !pragma layout smetana
 KStreamAggProcessorSupplier_KIn,VIn,Windowed_KIn_,VAgg_ <|-- org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate
 class org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate {
-+  KStreamSlidingWindowAggregate(SlidingWindows;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>)
-+  get()
-+  windows()
-+  enableSendingOldValues()
-+  view()
++ KStreamSlidingWindowAggregate(SlidingWindows;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamSlidingWindowAggregate [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#38]]]
++ get() : Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#51]]]
++ windows() : SlidingWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#55]]]
++ enableSendingOldValues() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#60]]]
++ view() : KTableValueGetterSupplier<Windowed<KIn>,VAgg> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#450]]]
 } 
 @enduml

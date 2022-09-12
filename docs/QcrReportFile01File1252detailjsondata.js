@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.message.IsNullConditional" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#24"
  , "c1" : "IsNullConditional"
  , "c2" : "forName(String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#28"
  , "c1" : "IsNullConditional"
  , "c2" : "forField(FieldSpec)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#42"
  , "c1" : "IsNullConditional"
  , "c2" : "IsNullConditional(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#46"
  , "c1" : "IsNullConditional"
  , "c2" : "nullableVersions(Versions)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#51"
  , "c1" : "IsNullConditional"
  , "c2" : "possibleVersions(Versions)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#56"
  , "c1" : "IsNullConditional"
  , "c2" : "ifNull(Runnable)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#61"
  , "c1" : "IsNullConditional"
  , "c2" : "ifShouldNotBeNull(Runnable)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#66"
  , "c1" : "IsNullConditional"
  , "c2" : "alwaysEmitBlockScope(boolean)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#71"
  , "c1" : "IsNullConditional"
  , "c2" : "conditionalGenerator(ConditionalGenerator)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#76"
  , "c1" : "void"
  , "c2" : "generate(CodeBuffer)"
  , "c3" : "10"

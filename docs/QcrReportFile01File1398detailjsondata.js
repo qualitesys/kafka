@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.KafkaRaftClient" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#118"
  , "c1" : "KafkaRaftClient"
  , "c2" : "KafkaRaftClient(RecordSerde<T>;NetworkChannel;ReplicatedLog;QuorumStateStore;Time;Metrics;ExpirationService;LogContext;String;OptionalInt;RaftConfig)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#148"
  , "c1" : "KafkaRaftClient"
  , "c2" : "KafkaRaftClient(RecordSerde<T>;NetworkChannel;RaftMessageQueue;ReplicatedLog;QuorumStateStore;MemoryPool;Time;Metrics;ExpirationService;int;String;OptionalInt;LogContext;Random;RaftConfig)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00201"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#201"
  , "c1" : "void"
  , "c2" : "updateFollowerHighWatermark(FollowerState;OptionalLong)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00215"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#215"
  , "c1" : "void"
  , "c2" : "updateLeaderEndOffsetAndTimestamp(LeaderState<T>;long)"
  , "c3" : "2"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#228"
  , "c1" : "void"
  , "c2" : "onUpdateLeaderHighWatermark(LeaderState<T>;long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00248"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#248"
  , "c1" : "void"
  , "c2" : "updateListenersProgress(long)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00275"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#275"
  , "c1" : "Optional<SnapshotReader<T>>"
  , "c2" : "latestSnapshot()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00281"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#281"
  , "c1" : "void"
  , "c2" : "maybeFireHandleCommit(long;int;long;int;List<T>)"
  , "c3" : "3"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00291"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#291"
  , "c1" : "void"
  , "c2" : "maybeFireLeaderChange(LeaderState<T>)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00297"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#297"
  , "c1" : "void"
  , "c2" : "maybeFireLeaderChange()"
  , "c3" : "2"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00304"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#304"
  , "c1" : "void"
  , "c2" : "initialize()"
  , "c3" : "7"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00326"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#326"
  , "c1" : "void"
  , "c2" : "register(Listener<T>)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00332"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#332"
  , "c1" : "void"
  , "c2" : "unregister(Listener<T>)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00339"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#339"
  , "c1" : "LeaderAndEpoch"
  , "c2" : "leaderAndEpoch()"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00344"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#344"
  , "c1" : "OptionalInt"
  , "c2" : "nodeId()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00348"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#348"
  , "c1" : "OffsetAndEpoch"
  , "c2" : "endOffset()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00352"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#352"
  , "c1" : "void"
  , "c2" : "resetConnections()"
  , "c3" : "1"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00356"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#356"
  , "c1" : "void"
  , "c2" : "onBecomeLeader(long)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00384"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#384"
  , "c1" : "void"
  , "c2" : "flushLeaderLog(LeaderState<T>;long)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00390"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#390"
  , "c1" : "boolean"
  , "c2" : "maybeTransitionToLeader(CandidateState;long)"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00399"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#399"
  , "c1" : "void"
  , "c2" : "onBecomeCandidate(long)"
  , "c3" : "2"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00407"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#407"
  , "c1" : "void"
  , "c2" : "transitionToCandidate(long)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00413"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#413"
  , "c1" : "void"
  , "c2" : "transitionToUnattached(int)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00419"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#419"
  , "c1" : "void"
  , "c2" : "transitionToResigned(List<Integer>)"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00427"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#427"
  , "c1" : "void"
  , "c2" : "transitionToVoted(int;int)"
  , "c3" : "1"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00433"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#433"
  , "c1" : "void"
  , "c2" : "onBecomeFollower(long)"
  , "c3" : "1"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00448"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#448"
  , "c1" : "void"
  , "c2" : "transitionToFollower(int;int;long)"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00458"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#458"
  , "c1" : "VoteResponseData"
  , "c2" : "buildVoteResponse(Errors;boolean)"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00469"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#469"
  , "c1" : "VoteResponseData"
  , "c2" : "handleVoteRequest(RaftRequest.Inbound)"
  , "c3" : "7"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00515"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#515"
  , "c1" : "boolean"
  , "c2" : "handleVoteResponse(RaftResponse.Inbound;long)"
  , "c3" : "14"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00576"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#576"
  , "c1" : "int"
  , "c2" : "binaryExponentialElectionBackoffMs(int)"
  , "c3" : "2"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00585"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#585"
  , "c1" : "int"
  , "c2" : "strictExponentialElectionBackoffMs(int;int)"
  , "c3" : "2"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00595"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#595"
  , "c1" : "BeginQuorumEpochResponseData"
  , "c2" : "buildBeginQuorumEpochResponse(Errors)"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00605"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#605"
  , "c1" : "BeginQuorumEpochResponseData"
  , "c2" : "handleBeginQuorumEpochRequest(RaftRequest.Inbound;long)"
  , "c3" : "4"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00635"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#635"
  , "c1" : "boolean"
  , "c2" : "handleBeginQuorumEpochResponse(RaftResponse.Inbound;long)"
  , "c3" : "9"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00675"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#675"
  , "c1" : "EndQuorumEpochResponseData"
  , "c2" : "buildEndQuorumEpochResponse(Errors)"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00685"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#685"
  , "c1" : "EndQuorumEpochResponseData"
  , "c2" : "handleEndQuorumEpochRequest(RaftRequest.Inbound;long)"
  , "c3" : "6"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00726"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#726"
  , "c1" : "long"
  , "c2" : "endEpochElectionBackoff(List<Integer>)"
  , "c3" : "3"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00739"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#739"
  , "c1" : "boolean"
  , "c2" : "handleEndQuorumEpochResponse(RaftResponse.Inbound;long)"
  , "c3" : "7"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00773"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#773"
  , "c1" : "FetchResponseData"
  , "c2" : "buildFetchResponse(Errors;Records;ValidOffsetAndEpoch;Optional<LogOffsetMetadata>)"
  , "c3" : "3"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00808"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#808"
  , "c1" : "FetchResponseData"
  , "c2" : "buildEmptyFetchResponse(Errors;Optional<LogOffsetMetadata>)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00820"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#820"
  , "c1" : "boolean"
  , "c2" : "hasValidClusterId(String)"
  , "c3" : "2"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00829"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#829"
  , "c1" : "CompletableFuture<FetchResponseData>"
  , "c2" : "handleFetchRequest(RaftRequest.Inbound;long)"
  , "c3" : "7"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00893"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#893"
  , "c1" : "FetchResponseData"
  , "c2" : "tryCompleteFetchRequest(int;FetchRequestData.FetchPartition;long)"
  , "c3" : "5"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00929"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#929"
  , "c1" : "OptionalInt"
  , "c2" : "optionalLeaderId(int)"
  , "c3" : "2"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00935"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#935"
  , "c1" : "String"
  , "c2" : "listenerName(Listener<?>)"
  , "c3" : "1"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00939"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#939"
  , "c1" : "boolean"
  , "c2" : "handleFetchResponse(RaftResponse.Inbound;long)"
  , "c3" : "16"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01034"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1034"
  , "c1" : "void"
  , "c2" : "appendAsFollower(Records)"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1046"
  , "c1" : "LogAppendInfo"
  , "c2" : "appendAsLeader(Records)"
  , "c3" : "1"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01057"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1057"
  , "c1" : "DescribeQuorumResponseData"
  , "c2" : "handleDescribeQuorumRequest(RaftRequest.Inbound;long)"
  , "c3" : "3"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01082"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1082"
  , "c1" : "FetchSnapshotResponseData"
  , "c2" : "handleFetchSnapshotRequest(RaftRequest.Inbound)"
  , "c3" : "8"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01182"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1182"
  , "c1" : "boolean"
  , "c2" : "handleFetchSnapshotResponse(RaftResponse.Inbound;long)"
  , "c3" : "17"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01299"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1299"
  , "c1" : "List<ReplicaState>"
  , "c2" : "convertToReplicaStates(Map<Integer,Long>)"
  , "c3" : "1"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01307"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1307"
  , "c1" : "boolean"
  , "c2" : "hasConsistentLeader(int;OptionalInt)"
  , "c3" : "3"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01322"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1322"
  , "c1" : "Optional<Boolean>"
  , "c2" : "maybeHandleCommonResponse(Errors;OptionalInt;int;long)"
  , "c3" : "14"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01369"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1369"
  , "c1" : "void"
  , "c2" : "maybeTransition(OptionalInt;int;long)"
  , "c3" : "8"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01391"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1391"
  , "c1" : "boolean"
  , "c2" : "handleTopLevelError(Errors;RaftResponse.Inbound)"
  , "c3" : "5"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01401"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1401"
  , "c1" : "boolean"
  , "c2" : "handleUnexpectedError(Errors;RaftResponse.Inbound)"
  , "c3" : "1"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01407"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1407"
  , "c1" : "void"
  , "c2" : "handleResponse(RaftResponse.Inbound;long)"
  , "c3" : "8"
@@ -431,6 +549,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01446"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1446"
  , "c1" : "Optional<Errors>"
  , "c2" : "validateVoterOnlyRequest(int;int)"
  , "c3" : "7"
@@ -438,6 +558,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01459"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1459"
  , "c1" : "Optional<Errors>"
  , "c2" : "validateLeaderOnlyRequest(int)"
  , "c3" : "9"
@@ -445,6 +567,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01476"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1476"
  , "c1" : "void"
  , "c2" : "handleRequest(RaftRequest.Inbound;long)"
  , "c3" : "9"
@@ -452,6 +576,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01523"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1523"
  , "c1" : "void"
  , "c2" : "handleInboundMessage(RaftMessage;long)"
  , "c3" : "7"
@@ -459,6 +585,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01543"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1543"
  , "c1" : "long"
  , "c2" : "maybeSendRequest(long;int;Supplier<ApiMessage>)"
  , "c3" : "4"
@@ -466,6 +594,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01592"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1592"
  , "c1" : "EndQuorumEpochRequestData"
  , "c2" : "buildEndQuorumEpochRequest(ResignedState)"
  , "c3" : "1"
@@ -473,6 +603,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01604"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1604"
  , "c1" : "long"
  , "c2" : "maybeSendRequests(long;Set<Integer>;Supplier<ApiMessage>)"
  , "c3" : "3"
@@ -480,6 +612,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01619"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1619"
  , "c1" : "BeginQuorumEpochRequestData"
  , "c2" : "buildBeginQuorumEpochRequest()"
  , "c3" : "1"
@@ -487,6 +621,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01628"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1628"
  , "c1" : "VoteRequestData"
  , "c2" : "buildVoteRequest()"
  , "c3" : "1"
@@ -494,6 +630,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01640"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1640"
  , "c1" : "FetchRequestData"
  , "c2" : "buildFetchRequest()"
  , "c3" : "1"
@@ -501,6 +639,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01654"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1654"
  , "c1" : "long"
  , "c2" : "maybeSendAnyVoterFetch(long)"
  , "c3" : "3"
@@ -508,6 +648,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01667"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1667"
  , "c1" : "FetchSnapshotRequestData"
  , "c2" : "buildFetchSnapshotRequest(OffsetAndEpoch;long)"
  , "c3" : "1"
@@ -515,6 +657,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01686"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1686"
  , "c1" : "FetchSnapshotResponseData.PartitionSnapshot"
  , "c2" : "addQuorumLeader(FetchSnapshotResponseData.PartitionSnapshot)"
  , "c3" : "1"
@@ -522,6 +666,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01696"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1696"
  , "c1" : "boolean"
  , "c2" : "isRunning()"
  , "c3" : "1"
@@ -529,6 +675,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01701"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1701"
  , "c1" : "boolean"
  , "c2" : "isShuttingDown()"
  , "c3" : "1"
@@ -536,6 +684,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01706"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1706"
  , "c1" : "void"
  , "c2" : "appendBatch(LeaderState<T>;BatchAccumulator.CompletedBatch<T>;long)"
  , "c3" : "3"
@@ -543,6 +693,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01736"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1736"
  , "c1" : "long"
  , "c2" : "maybeAppendBatches(LeaderState<T>;long)"
  , "c3" : "4"
@@ -550,6 +702,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01761"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1761"
  , "c1" : "long"
  , "c2" : "pollResigned(long)"
  , "c3" : "5"
@@ -557,6 +711,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01785"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1785"
  , "c1" : "long"
  , "c2" : "pollLeader(long)"
  , "c3" : "2"
@@ -564,6 +720,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01808"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1808"
  , "c1" : "long"
  , "c2" : "maybeSendVoteRequests(CandidateState;long)"
  , "c3" : "2"
@@ -571,6 +729,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01823"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1823"
  , "c1" : "long"
  , "c2" : "pollCandidate(long)"
  , "c3" : "8"
@@ -578,6 +738,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01854"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1854"
  , "c1" : "long"
  , "c2" : "pollFollower(long)"
  , "c3" : "3"
@@ -585,6 +747,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01863"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1863"
  , "c1" : "long"
  , "c2" : "pollFollowerAsVoter(FollowerState;long)"
  , "c3" : "5"
@@ -592,6 +756,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01880"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1880"
  , "c1" : "long"
  , "c2" : "pollFollowerAsObserver(FollowerState;long)"
  , "c3" : "7"
@@ -599,6 +765,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01903"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1903"
  , "c1" : "long"
  , "c2" : "maybeSendFetchOrFetchSnapshot(FollowerState;long)"
  , "c3" : "3"
@@ -606,6 +774,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01918"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1918"
  , "c1" : "long"
  , "c2" : "pollVoted(long)"
  , "c3" : "5"
@@ -613,6 +783,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01934"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1934"
  , "c1" : "long"
  , "c2" : "pollUnattached(long)"
  , "c3" : "3"
@@ -620,6 +792,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01943"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1943"
  , "c1" : "long"
  , "c2" : "pollUnattachedAsVoter(UnattachedState;long)"
  , "c3" : "5"
@@ -627,6 +801,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01957"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1957"
  , "c1" : "long"
  , "c2" : "pollUnattachedAsObserver(UnattachedState;long)"
  , "c3" : "1"
@@ -634,6 +810,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01962"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1962"
  , "c1" : "long"
  , "c2" : "pollCurrentState(long)"
  , "c3" : "13"
@@ -641,6 +819,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01980"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1980"
  , "c1" : "void"
  , "c2" : "pollListeners()"
  , "c3" : "3"
@@ -648,6 +828,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "01997"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1997"
  , "c1" : "void"
  , "c2" : "processRegistration(Registration<T>)"
  , "c3" : "7"
@@ -655,6 +837,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02016"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2016"
  , "c1" : "boolean"
  , "c2" : "maybeCompleteShutdown(long)"
  , "c3" : "4"
@@ -662,6 +846,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02067"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2067"
  , "c1" : "void"
  , "c2" : "wakeup()"
  , "c3" : "1"
@@ -669,6 +855,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02072"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2072"
  , "c1" : "void"
  , "c2" : "handle(RaftRequest.Inbound)"
  , "c3" : "1"
@@ -676,6 +864,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02077"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2077"
  , "c1" : "void"
  , "c2" : "poll()"
  , "c3" : "3"
@@ -683,6 +873,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02102"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2102"
  , "c1" : "long"
  , "c2" : "scheduleAppend(int;List<T>)"
  , "c3" : "1"
@@ -690,6 +882,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02107"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2107"
  , "c1" : "long"
  , "c2" : "scheduleAtomicAppend(int;List<T>)"
  , "c3" : "1"
@@ -697,6 +891,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02111"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2111"
  , "c1" : "long"
  , "c2" : "append(int;List<T>;boolean)"
  , "c3" : "4"
@@ -704,6 +900,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02137"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2137"
  , "c1" : "CompletableFuture<Void>"
  , "c2" : "shutdown(int)"
  , "c3" : "1"
@@ -711,6 +909,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02146"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2146"
  , "c1" : "void"
  , "c2" : "resign(int)"
  , "c3" : "12"
@@ -718,6 +918,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02195"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2195"
  , "c1" : "Optional<SnapshotWriter<T>>"
  , "c2" : "createSnapshot(long;int;long)"
  , "c3" : "1"
@@ -725,6 +927,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02212"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2212"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"
@@ -732,6 +936,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02219"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2219"
  , "c1" : "QuorumState"
  , "c2" : "quorum()"
  , "c3" : "1"
@@ -739,6 +945,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "02223"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2223"
  , "c1" : "OptionalLong"
  , "c2" : "highWatermark()"
  , "c3" : "3"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.RequestManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#21"
  , "c1" : "RequestManager"
  , "c2" : "RequestManager(Set<Integer>;int;int;Random)"
  , "c3" : "2"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37"
  , "c1" : "ConnectionState"
  , "c2" : "getOrCreate(int)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#41"
  , "c1" : "OptionalInt"
  , "c2" : "findReadyVoter(long)"
  , "c3" : "5"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60"
  , "c1" : "long"
  , "c2" : "backoffBeforeAvailableVoter(long)"
  , "c3" : "6"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75"
  , "c1" : "void"
  , "c2" : "resetAll()"
  , "c3" : "2"

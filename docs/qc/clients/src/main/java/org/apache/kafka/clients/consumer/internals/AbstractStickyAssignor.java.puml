@@ -2,29 +2,29 @@
 !pragma layout smetana
 AbstractPartitionAssignor <|-- org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor
 class org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor {
-+  memberData(Subscription)
-+  assign(Map<String,Integer>;Map<String,Subscription>)
-+  allSubscriptionsEqual(Set<String>;Map<String,Subscription>;Map<String,List<TopicPartition>>;Set<TopicPartition>)
-+  constrainedAssign(Map<String,Integer>;Map<String,List<TopicPartition>>;Set<TopicPartition>)
-+  getAllTopicPartitions(Map<String,Integer>;List<String>;int)
-+  generalAssign(Map<String,Integer>;Map<String,Subscription>;Map<String,List<TopicPartition>>)
-+  getUnassignedPartitions(List<TopicPartition>;List<TopicPartition>;Map<String,List<String>>)
-+  getUnassignedPartitions(int;Map<String,Integer>;List<TopicPartition>)
-+  updatePrevAssignment(Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;String;int)
-+  prepopulateCurrentAssignments(Map<String,Subscription>;Map<TopicPartition,ConsumerGenerationPair>)
-+  isBalanced(Map<String,List<TopicPartition>>;TreeSet<String>;Map<String,List<String>>;Map<String,Integer>;int)
-+  getMaxAssignmentSize(int;List<String>;Map<String,Integer>)
-+  getBalanceScore(Map<String,List<TopicPartition>>)
-+  assignPartition(TopicPartition;TreeSet<String>;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<TopicPartition,String>)
-+  canParticipateInReassignment(String;Map<String,List<String>>)
-+  canParticipateInReassignment(String;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<String,List<String>>;Map<String,Integer>;int)
-+  balance(Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;List<TopicPartition>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;boolean;Map<String,Integer>;int)
-+  performReassignments(List<TopicPartition>;Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;Map<String,Integer>;int)
-+  reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;Map<String,List<String>>)
-+  reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;String)
-+  processPartitionMovement(TopicPartition;String;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>)
-+  isSticky()
-+  deepCopy(Map<String,List<TopicPartition>>;Map<String,List<TopicPartition>>)
-+  deepCopy(Map<String,List<TopicPartition>>)
+memberData(Subscription) : MemberData [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#54]]]
++ assign(Map<String,Integer>;Map<String,Subscription>) : Map<String,List<TopicPartition>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#57]]]
+- allSubscriptionsEqual(Set<String>;Map<String,Subscription>;Map<String,List<TopicPartition>>;Set<TopicPartition>) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#76]]]
+- constrainedAssign(Map<String,Integer>;Map<String,List<TopicPartition>>;Set<TopicPartition>) : Map<String,List<TopicPartition>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#147]]]
+- getAllTopicPartitions(Map<String,Integer>;List<String>;int) : List<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#318]]]
+- generalAssign(Map<String,Integer>;Map<String,Subscription>;Map<String,List<TopicPartition>>) : Map<String,List<TopicPartition>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#333]]]
+- getUnassignedPartitions(List<TopicPartition>;List<TopicPartition>;Map<String,List<String>>) : List<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#438]]]
+- getUnassignedPartitions(int;Map<String,Integer>;List<TopicPartition>) : List<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#470]]]
+- updatePrevAssignment(Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;String;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#511]]]
+- prepopulateCurrentAssignments(Map<String,Subscription>;Map<TopicPartition,ConsumerGenerationPair>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#528]]]
+- isBalanced(Map<String,List<TopicPartition>>;TreeSet<String>;Map<String,List<String>>;Map<String,Integer>;int) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#556]]]
+- getMaxAssignmentSize(int;List<String>;Map<String,Integer>) : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#613]]]
+- getBalanceScore(Map<String,List<TopicPartition>>) : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#626]]]
+- assignPartition(TopicPartition;TreeSet<String>;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<TopicPartition,String>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#646]]]
+- canParticipateInReassignment(String;Map<String,List<String>>) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#662]]]
+- canParticipateInReassignment(String;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<String,List<String>>;Map<String,Integer>;int) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#668]]]
+- balance(Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;List<TopicPartition>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;boolean;Map<String,Integer>;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#696]]]
+- performReassignments(List<TopicPartition>;Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;Map<String,Integer>;int) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#770]]]
+- reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;Map<String,List<String>>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#824]]]
+- reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;String) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#843]]]
+- processPartitionMovement(TopicPartition;String;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#854]]]
++ isSticky() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#873]]]
+- deepCopy(Map<String,List<TopicPartition>>;Map<String,List<TopicPartition>>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#877]]]
+- deepCopy(Map<String,List<TopicPartition>>) : Map<String,List<TopicPartition>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#883]]]
 } 
 @enduml

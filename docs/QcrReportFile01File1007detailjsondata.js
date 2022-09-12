@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.json.JsonConverterConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#54"
  , "c1" : "ConfigDef"
  , "c2" : "configDef()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#63"
  , "c1" : "JsonConverterConfig"
  , "c2" : "JsonConverterConfig(Map<String,?>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#71"
  , "c1" : "boolean"
  , "c2" : "schemasEnabled()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#76"
  , "c1" : "int"
  , "c2" : "schemaCacheSize()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#81"
  , "c1" : "DecimalFormat"
  , "c2" : "decimalFormat()"
  , "c3" : "1"

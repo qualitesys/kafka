@@ -2,10 +2,10 @@
 !pragma layout smetana
 WrappedStateStore_T,K,V_ <|-- org.apache.kafka.streams.processor.internals.AbstractReadWriteDecorator
 class org.apache.kafka.streams.processor.internals.AbstractReadWriteDecorator {
-+  AbstractReadWriteDecorator(T)
-+  init(ProcessorContext;StateStore)
-+  init(StateStoreContext;StateStore)
-+  close()
-+  getReadWriteStore(StateStore)
+- AbstractReadWriteDecorator(T) : AbstractReadWriteDecorator [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#25]]]
++ init(ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#31]]]
++ init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#37]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#43]]]
+getReadWriteStore(StateStore) : StateStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#47]]]
 } 
 @enduml

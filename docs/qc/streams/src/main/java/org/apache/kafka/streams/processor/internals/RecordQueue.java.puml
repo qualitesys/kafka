@@ -2,19 +2,19 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.RecordQueue
 class org.apache.kafka.streams.processor.internals.RecordQueue {
-+  RecordQueue(TopicPartition;SourceNode<?,?>;TimestampExtractor;DeserializationExceptionHandler;InternalProcessorContext<?,?>;LogContext)
-+  setPartitionTime(long)
-+  source()
-+  partition()
-+  addRawRecords(Iterable<ConsumerRecord<byte[],byte[]>>)
-+  poll(long)
-+  size()
-+  isEmpty()
-+  headRecordTimestamp()
-+  headRecordOffset()
-+  clear()
-+  close()
-+  updateHead()
-+  partitionTime()
+RecordQueue(TopicPartition;SourceNode<?,?>;TimestampExtractor;DeserializationExceptionHandler;InternalProcessorContext<?,?>;LogContext) : RecordQueue [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#41]]]
+setPartitionTime(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#76]]]
++ source() : SourceNode<?,?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#81]]]
++ partition() : TopicPartition [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#86]]]
+addRawRecords(Iterable<ConsumerRecord<byte[],byte[]>>) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#91]]]
++ poll(long) : StampedRecord [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#102]]]
++ size() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#117]]]
++ isEmpty() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#123]]]
++ headRecordTimestamp() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#128]]]
++ headRecordOffset() : Long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#132]]]
++ clear() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#137]]]
++ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#144]]]
+- updateHead() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#148]]]
+partitionTime() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#195]]]
 } 
 @enduml

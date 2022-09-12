@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00011"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullTimeWindowedSerde.java.html#11"
  , "c1" : "FullTimeWindowedSerde"
  , "c2" : "FullTimeWindowedSerde(Serde<T>;long)"
  , "c3" : "1"

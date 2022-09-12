@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.network.ReauthenticationContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#13"
  , "c1" : "ReauthenticationContext"
  , "c2" : "ReauthenticationContext(Authenticator;NetworkReceive;long)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#20"
  , "c1" : "NetworkReceive"
  , "c2" : "networkReceive()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#25"
  , "c1" : "Authenticator"
  , "c2" : "previousAuthenticator()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#30"
  , "c1" : "long"
  , "c2" : "reauthenticationBeginNanos()"
  , "c3" : "1"

@@ -2,12 +2,12 @@
 !pragma layout smetana
 AbstractMergedSortedCacheStoreIterator_Long,Long,byte[],byte[]_WindowStoreIterator_byte[]_ <|-- org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator
 class org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator {
-+  MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean)
-+  MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean;Function<byte[],Long>)
-+  deserializeStorePair(KeyValue<Long,byte[]>)
-+  deserializeCacheKey(Bytes)
-+  deserializeCacheValue(LRUCacheEntry)
-+  deserializeStoreKey(Long)
-+  compare(Bytes;Long)
+MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean) : MergedSortedCacheWindowStoreIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#17]]]
+MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean;Function<byte[],Long>) : MergedSortedCacheWindowStoreIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#23]]]
++ deserializeStorePair(KeyValue<Long,byte[]>) : KeyValue<Long,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#32]]]
+deserializeCacheKey(Bytes) : Long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#37]]]
+deserializeCacheValue(LRUCacheEntry) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#43]]]
++ deserializeStoreKey(Long) : Long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#48]]]
++ compare(Bytes;Long) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#53]]]
 } 
 @enduml

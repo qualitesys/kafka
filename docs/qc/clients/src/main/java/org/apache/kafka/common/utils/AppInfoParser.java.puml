@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.AppInfoParser
 class org.apache.kafka.common.utils.AppInfoParser {
-+  getVersion()
-+  getCommitId()
-+  registerAppInfo(String;String;Metrics;long)
-+  unregisterAppInfo(String;String;Metrics)
-+  metricName(Metrics;String)
-+  registerMetrics(Metrics;AppInfo)
-+  unregisterMetrics(Metrics)
++ getVersion() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#37]]]
++ getCommitId() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#41]]]
++ registerAppInfo(String;String;Metrics;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#45]]]
++ unregisterAppInfo(String;String;Metrics) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#57]]]
+- metricName(Metrics;String) : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#72]]]
+- registerMetrics(Metrics;AppInfo) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#76]]]
+- unregisterMetrics(Metrics) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#84]]]
 } 
 @enduml

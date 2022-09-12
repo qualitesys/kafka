@@ -2,22 +2,22 @@
 !pragma layout smetana
 TaskSpec <|-- org.apache.kafka.trogdor.workload.SustainedConnectionSpec
 class org.apache.kafka.trogdor.workload.SustainedConnectionSpec {
-+  SustainedConnectionSpec(long;long;String;String;Map<String,String>;Map<String,String>;Map<String,String>;Map<String,String>;PayloadGenerator;PayloadGenerator;int;int;int;String;int;int)
-+  clientNode()
-+  bootstrapServers()
-+  producerConf()
-+  consumerConf()
-+  adminClientConf()
-+  commonClientConf()
-+  keyGenerator()
-+  valueGenerator()
-+  producerConnectionCount()
-+  consumerConnectionCount()
-+  metadataConnectionCount()
-+  topicName()
-+  numThreads()
-+  refreshRateMs()
-+  newController(String)
-+  newTaskWorker(String)
++ SustainedConnectionSpec(long;long;String;String;Map<String,String>;Map<String,String>;Map<String,String>;Map<String,String>;PayloadGenerator;PayloadGenerator;int;int;int;String;int;int) : SustainedConnectionSpec [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#32]]]
++ clientNode() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#67]]]
++ bootstrapServers() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#72]]]
++ producerConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#77]]]
++ consumerConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#82]]]
++ adminClientConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#87]]]
++ commonClientConf() : Map<String,String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#92]]]
++ keyGenerator() : PayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#97]]]
++ valueGenerator() : PayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#102]]]
++ producerConnectionCount() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#107]]]
++ consumerConnectionCount() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#112]]]
++ metadataConnectionCount() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#117]]]
++ topicName() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#122]]]
++ numThreads() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#127]]]
++ refreshRateMs() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#132]]]
++ newController(String) : TaskController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#136]]]
++ newTaskWorker(String) : TaskWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#141]]]
 } 
 @enduml

@@ -2,17 +2,17 @@
 !pragma layout smetana
 AbstractConfig <|-- org.apache.kafka.connect.runtime.ConnectorConfig
 class org.apache.kafka.connect.runtime.ConnectorConfig {
-+  configDef()
-+  aliasValidator(String)
-+  ConnectorConfig(Plugins)
-+  ConnectorConfig(Plugins;Map<String,String>)
-+  ConnectorConfig(Plugins;ConfigDef;Map<String,String>)
-+  get(String)
-+  errorRetryTimeout()
-+  errorMaxDelayInMillis()
-+  errorToleranceType()
-+  enableErrorLog()
-+  includeRecordDetailsInErrorLog()
-+  enrich(Plugins;ConfigDef;Map<String,String>;boolean)
++ configDef() : ConfigDef [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#152]]]
+- aliasValidator(String) : ConfigDef.CompositeValidator [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#180]]]
++ ConnectorConfig(Plugins) : ConnectorConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#198]]]
++ ConnectorConfig(Plugins;Map<String,String>) : ConnectorConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#202]]]
++ ConnectorConfig(Plugins;ConfigDef;Map<String,String>) : ConnectorConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#206]]]
++ get(String) : Object [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#215]]]
++ errorRetryTimeout() : long [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#219]]]
++ errorMaxDelayInMillis() : long [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#223]]]
++ errorToleranceType() : ToleranceType [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#227]]]
++ enableErrorLog() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#237]]]
++ includeRecordDetailsInErrorLog() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#241]]]
++ enrich(Plugins;ConfigDef;Map<String,String>;boolean) : ConfigDef [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#279]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#35"
  , "c1" : "BrokerHeartbeatRequest"
  , "c2" : "BrokerHeartbeatRequest(BrokerHeartbeatRequestData;short)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#41"
  , "c1" : "BrokerHeartbeatRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#46"
  , "c1" : "BrokerHeartbeatResponse"
  , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#53"
  , "c1" : "BrokerHeartbeatRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.data.SchemaProjector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#32"
  , "c1" : "Object"
  , "c2" : "project(Schema;Object;Schema)"
  , "c3" : "9"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#53"
  , "c1" : "Object"
  , "c2" : "projectRequiredSchema(Schema;Object;Schema)"
  , "c3" : "13"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
  , "c1" : "Object"
  , "c2" : "projectStruct(Schema;Struct;Schema)"
  , "c3" : "8"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#100"
  , "c1" : "void"
  , "c2" : "checkMaybeCompatible(Schema;Schema)"
  , "c3" : "6"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#110"
  , "c1" : "Object"
  , "c2" : "projectArray(Schema;Object;Schema)"
  , "c3" : "2"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
  , "c1" : "Object"
  , "c2" : "projectMap(Schema;Object;Schema)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132"
  , "c1" : "Object"
  , "c2" : "projectPrimitive(Schema;Object;Schema)"
  , "c3" : "9"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#166"
  , "c1" : "boolean"
  , "c2" : "isPromotable(Type;Type)"
  , "c3" : "1"

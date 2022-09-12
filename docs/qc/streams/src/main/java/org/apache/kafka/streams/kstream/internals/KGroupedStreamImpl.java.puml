@@ -2,16 +2,16 @@
 !pragma layout smetana
 AbstractStream_K,V_KGroupedStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl
 class org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl {
-+  KGroupedStreamImpl(String;Set<String>;GroupedInternal<K,V>;boolean;GraphNode;InternalStreamsBuilder)
-+  reduce(Reducer<V>)
-+  reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
-+  reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)
-+  count()
-+  count(Named)
-+  count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
-+  count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
-+  doCount(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)
-+  windowedBy(SlidingWindows)
-+  windowedBy(SessionWindows)
+KGroupedStreamImpl(String;Set<String>;GroupedInternal<K,V>;boolean;GraphNode;InternalStreamsBuilder) : KGroupedStreamImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#35]]]
++ reduce(Reducer<V>) : KTable<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#55]]]
++ reduce(Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#60]]]
++ reduce(Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>) : KTable<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#66]]]
++ count() : KTable<K,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#130]]]
++ count(Named) : KTable<K,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#135]]]
++ count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#141]]]
++ count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#146]]]
+- doCount(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>) : KTable<K,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#158]]]
++ windowedBy(SlidingWindows) : TimeWindowedKStream<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#192]]]
++ windowedBy(SessionWindows) : SessionWindowedKStream<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#207]]]
 } 
 @enduml

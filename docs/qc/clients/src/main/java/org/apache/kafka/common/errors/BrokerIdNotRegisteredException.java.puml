@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.BrokerIdNotRegisteredException
 class org.apache.kafka.common.errors.BrokerIdNotRegisteredException {
-+  BrokerIdNotRegisteredException(String)
-+  BrokerIdNotRegisteredException(String;Throwable)
++ BrokerIdNotRegisteredException(String) : BrokerIdNotRegisteredException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java.html#6]]]
++ BrokerIdNotRegisteredException(String;Throwable) : BrokerIdNotRegisteredException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java.html#10]]]
 } 
 @enduml

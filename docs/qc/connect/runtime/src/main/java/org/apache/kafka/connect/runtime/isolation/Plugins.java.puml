@@ -2,27 +2,27 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.isolation.Plugins
 class org.apache.kafka.connect.runtime.isolation.Plugins {
-+  Plugins(Map<String,String>)
-+  newDelegatingClassLoader(List<String>)
-+  compareAndSwapLoaders(ClassLoader)
-+  currentThreadLoader()
-+  compareAndSwapWithDelegatingLoader()
-+  compareAndSwapLoaders(Connector)
-+  withClassLoader(ClassLoader)
-+  delegatingLoader()
-+  sinkConnectors()
-+  sourceConnectors()
-+  converters()
-+  headerConverters()
-+  transformations()
-+  predicates()
-+  newPlugin(String)
-+  newConnector(String)
-+  connectorClass(String)
-+  newTask(Class<?extendsTask>)
-+  newConverter(AbstractConfig;String;ClassLoaderUsage)
-+  newInternalConverter(boolean;String;Map<String,String>)
-+  newHeaderConverter(AbstractConfig;String;ClassLoaderUsage)
-+  newConfigProvider(AbstractConfig;String;ClassLoaderUsage)
++ Plugins(Map<String,String>) : Plugins [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#42]]]
+newDelegatingClassLoader(List<String>) : DelegatingClassLoader [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#48]]]
++ compareAndSwapLoaders(ClassLoader) : ClassLoader [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#108]]]
++ currentThreadLoader() : ClassLoader [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#116]]]
++ compareAndSwapWithDelegatingLoader() : ClassLoader [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#120]]]
++ compareAndSwapLoaders(Connector) : ClassLoader [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#128]]]
++ withClassLoader(ClassLoader) : LoaderSwap [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#133]]]
++ delegatingLoader() : DelegatingClassLoader [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#143]]]
++ sinkConnectors() : Set<PluginDesc<SinkConnector>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#147]]]
++ sourceConnectors() : Set<PluginDesc<SourceConnector>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#151]]]
++ converters() : Set<PluginDesc<Converter>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#155]]]
++ headerConverters() : Set<PluginDesc<HeaderConverter>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#159]]]
++ transformations() : Set<PluginDesc<Transformation<?>>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#163]]]
++ predicates() : Set<PluginDesc<Predicate<?>>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#167]]]
++ newPlugin(String) : Object [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#171]]]
++ newConnector(String) : Connector [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#176]]]
++ connectorClass(String) : Class<?extendsConnector> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#181]]]
++ newTask(Class<?extendsTask>) : Task [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#224]]]
++ newConverter(AbstractConfig;String;ClassLoaderUsage) : Converter [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#229]]]
++ newInternalConverter(boolean;String;Map<String,String>) : Converter [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#282]]]
++ newHeaderConverter(AbstractConfig;String;ClassLoaderUsage) : HeaderConverter [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#302]]]
++ newConfigProvider(AbstractConfig;String;ClassLoaderUsage) : ConfigProvider [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#354]]]
 } 
 @enduml

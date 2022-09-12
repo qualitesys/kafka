@@ -2,8 +2,8 @@
 !pragma layout smetana
 RecordsSend_T_ <|-- org.apache.kafka.common.record.DefaultRecordsSend
 class org.apache.kafka.common.record.DefaultRecordsSend {
-+  DefaultRecordsSend(T)
-+  DefaultRecordsSend(T;int)
-+  writeTo(TransferableChannel;long;int)
++ DefaultRecordsSend(T) : DefaultRecordsSend [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#9]]]
++ DefaultRecordsSend(T;int) : DefaultRecordsSend [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#13]]]
+writeTo(TransferableChannel;long;int) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#18]]]
 } 
 @enduml

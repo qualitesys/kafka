@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.DuplicateSequenceException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00006"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateSequenceException.java.html#6"
  , "c1" : "DuplicateSequenceException"
  , "c2" : "DuplicateSequenceException(String)"
  , "c3" : "1"

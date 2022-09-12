@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.UnattachedState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#22"
  , "c1" : "UnattachedState"
  , "c2" : "UnattachedState(Time;int;Set<Integer>;Optional<LogOffsetMetadata>;long;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#39"
  , "c1" : "ElectionState"
  , "c2" : "election()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#49"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#54"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#58"
  , "c1" : "long"
  , "c2" : "electionTimeoutMs()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#62"
  , "c1" : "long"
  , "c2" : "remainingElectionTimeMs(long)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#67"
  , "c1" : "boolean"
  , "c2" : "hasElectionTimeoutExpired(long)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#73"
  , "c1" : "Optional<LogOffsetMetadata>"
  , "c2" : "highWatermark()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#78"
  , "c1" : "boolean"
  , "c2" : "canGrantVote(int;boolean)"
  , "c3" : "2"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#87"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#96"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

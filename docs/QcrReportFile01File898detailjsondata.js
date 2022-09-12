@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.utils.FixedOrderMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#13"
  , "c1" : "boolean"
  , "c2" : "removeEldestEntry(Map.Entry<K,V>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#19"
  , "c1" : "V"
  , "c2" : "remove(Object)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#25"
  , "c1" : "boolean"
  , "c2" : "remove(Object;Object)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#30"
  , "c1" : "FixedOrderMap<K,V>"
  , "c2" : "clone()"
  , "c3" : "1"

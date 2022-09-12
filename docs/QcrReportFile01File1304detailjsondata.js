@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.ConfigurationControlManager" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#117"
  , "c1" : "ConfigurationControlManager"
  , "c2" : "ConfigurationControlManager(LogContext;SnapshotRegistry;KafkaConfigSchema;Consumer<ConfigResource>;Optional<AlterConfigPolicy>;ConfigurationValidator;Map<String,Object>;int)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#136"
  , "c1" : "SnapshotRegistry"
  , "c2" : "snapshotRegistry()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#141"
  , "c1" : "ControllerResult<Map<ConfigResource,ApiError>>"
  , "c2" : "incrementalAlterConfigs(Map<ConfigResource,Map<String,Entry<OpType,String>>>;boolean)"
  , "c3" : "2"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#157"
  , "c1" : "void"
  , "c2" : "incrementalAlterConfigResource(ConfigResource;Map<String,Entry<OpType,String>>;boolean;List<ApiMessageAndVersion>;Map<ConfigResource,ApiError>)"
  , "c3" : "15"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00221"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#221"
  , "c1" : "ApiError"
  , "c2" : "validateAlterConfig(ConfigResource;List<ApiMessageAndVersion>;boolean)"
  , "c3" : "7"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#252"
  , "c1" : "ControllerResult<Map<ConfigResource,ApiError>>"
  , "c2" : "legacyAlterConfigs(Map<ConfigResource,Map<String,String>>;boolean)"
  , "c3" : "2"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00269"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#269"
  , "c1" : "void"
  , "c2" : "legacyAlterConfigResource(ConfigResource;Map<String,String>;boolean;List<ApiMessageAndVersion>;Map<ConfigResource,ApiError>)"
  , "c3" : "7"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00309"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#309"
  , "c1" : "List<String>"
  , "c2" : "getParts(String;String;ConfigResource)"
  , "c3" : "5"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00327"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#327"
  , "c1" : "void"
  , "c2" : "replay(ConfigRecord)"
  , "c3" : "5"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00347"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#347"
  , "c1" : "Map<String,String>"
  , "c2" : "getConfigs(ConfigResource)"
  , "c3" : "3"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00356"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#356"
  , "c1" : "Map<ConfigResource,ResultOrError<Map<String,String>>>"
  , "c2" : "describeConfigs(long;Map<ConfigResource,Collection<String>>)"
  , "c3" : "8"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00393"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#393"
  , "c1" : "void"
  , "c2" : "deleteTopicConfigs(String)"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00397"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#397"
  , "c1" : "boolean"
  , "c2" : "uncleanLeaderElectionEnabledForTopic(String)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00401"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#401"
  , "c1" : "Map<String,ConfigEntry>"
  , "c2" : "computeEffectiveTopicConfigs(Map<String,String>)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00406"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#406"
  , "c1" : "Map<String,String>"
  , "c2" : "clusterConfig()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00411"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#411"
  , "c1" : "Map<String,String>"
  , "c2" : "currentControllerConfig()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00447"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#447"
  , "c1" : "ConfigurationControlIterator"
  , "c2" : "iterator(long)"
  , "c3" : "1"

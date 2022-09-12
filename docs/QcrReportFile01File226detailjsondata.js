@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.producer.ProducerConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00456"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#456"
  , "c1" : "Map<String,Object>"
  , "c2" : "postProcessParsedConfig(Map<String,Object>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00464"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#464"
  , "c1" : "void"
  , "c2" : "maybeOverrideClientId(Map<String,Object>)"
  , "c3" : "3"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00476"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#476"
  , "c1" : "void"
  , "c2" : "postProcessAndValidateIdempotenceConfigs(Map<String,Object>)"
  , "c3" : "10"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00529"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#529"
  , "c1" : "String"
  , "c2" : "parseAcks(String)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00537"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#537"
  , "c1" : "Map<String,Object>"
  , "c2" : "appendSerializerToConfig(Map<String,Object>;Serializer<?>;Serializer<?>)"
  , "c3" : "7"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00553"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#553"
  , "c1" : "ProducerConfig"
  , "c2" : "ProducerConfig(Properties)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00557"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#557"
  , "c1" : "ProducerConfig"
  , "c2" : "ProducerConfig(Map<String,Object>)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00561"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#561"
  , "c1" : "ProducerConfig"
  , "c2" : "ProducerConfig(Map<?,?>;boolean)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00565"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#565"
  , "c1" : "Set<String>"
  , "c2" : "configNames()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00569"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#569"
  , "c1" : "ConfigDef"
  , "c2" : "configDef()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00573"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#573"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "1"

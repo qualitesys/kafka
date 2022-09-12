@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#18"
  , "c1" : "GlobalStateStoreProvider"
  , "c2" : "GlobalStateStoreProvider(Map<String,StateStore>)"
  , "c3" : "1"

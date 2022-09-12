@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractSegments_KeyValueSegment_ <|-- org.apache.kafka.streams.state.internals.KeyValueSegments
 class org.apache.kafka.streams.state.internals.KeyValueSegments {
-+  KeyValueSegments(String;String;long;long)
-+  getOrCreateSegment(long;ProcessorContext)
-+  openExisting(ProcessorContext;long)
+KeyValueSegments(String;String;long;long) : KeyValueSegments [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegments.java.html#13]]]
++ getOrCreateSegment(long;ProcessorContext) : KeyValueSegment [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegments.java.html#22]]]
++ openExisting(ProcessorContext;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegments.java.html#40]]]
 } 
 @enduml

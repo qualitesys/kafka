@@ -2,13 +2,13 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.DescribeConfigsResponse
 class org.apache.kafka.common.requests.DescribeConfigsResponse {
-+  resultMap()
-+  DescribeConfigsResponse(DescribeConfigsResponseData)
-+  DescribeConfigsResponse(DescribeConfigsResponseData;short)
-+  data()
-+  throttleTimeMs()
-+  errorCounts()
-+  parse(ByteBuffer;short)
-+  shouldClientThrottle(short)
++ resultMap() : Map<ConfigResource,DescribeConfigsResponseData.DescribeConfigsResult> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#195]]]
++ DescribeConfigsResponse(DescribeConfigsResponseData) : DescribeConfigsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#205]]]
+- DescribeConfigsResponse(DescribeConfigsResponseData;short) : DescribeConfigsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#211]]]
++ data() : DescribeConfigsResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#234]]]
++ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#239]]]
++ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#244]]]
++ parse(ByteBuffer;short) : DescribeConfigsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#252]]]
++ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#257]]]
 } 
 @enduml

@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.shell.LsCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#69"
  , "c1" : "LsCommandHandler"
  , "c2" : "LsCommandHandler(List<String>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#84"
  , "c1" : "void"
  , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
  , "c3" : "7"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#115"
  , "c1" : "void"
  , "c2" : "printTargets(PrintWriter;OptionalInt;List<String>;List<TargetDirectory>)"
  , "c3" : "4"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#137"
  , "c1" : "void"
  , "c2" : "printEntries(PrintWriter;String;OptionalInt;List<String>)"
  , "c3" : "8"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#169"
  , "c1" : "ColumnSchema"
  , "c2" : "calculateColumnSchema(OptionalInt;List<String>)"
  , "c3" : "8"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00271"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#271"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00276"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#276"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"

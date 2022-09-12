@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.SecurityDisabledException
 class org.apache.kafka.common.errors.SecurityDisabledException {
-+  SecurityDisabledException(String)
-+  SecurityDisabledException(String;Throwable)
++ SecurityDisabledException(String) : SecurityDisabledException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/SecurityDisabledException.java.html#8]]]
++ SecurityDisabledException(String;Throwable) : SecurityDisabledException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/SecurityDisabledException.java.html#12]]]
 } 
 @enduml

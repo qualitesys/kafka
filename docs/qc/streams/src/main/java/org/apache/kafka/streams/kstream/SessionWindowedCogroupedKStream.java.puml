@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.SessionWindowedCogroupedKStream
 class org.apache.kafka.streams.kstream.SessionWindowedCogroupedKStream {
-+  aggregate(Initializer<V>;Merger<?superK,V>)
-+  aggregate(Initializer<V>;Merger<?superK,V>;Named)
-+  aggregate(Initializer<V>;Merger<?superK,V>;Materialized<K,V,SessionStore<Bytes,byte[]>>)
-+  aggregate(Initializer<V>;Merger<?superK,V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>)
+aggregate(Initializer<V>;Merger<?superK,V>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#18]]]
+aggregate(Initializer<V>;Merger<?superK,V>;Named) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#22]]]
+aggregate(Initializer<V>;Merger<?superK,V>;Materialized<K,V,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#27]]]
+aggregate(Initializer<V>;Merger<?superK,V>;Named;Materialized<K,V,SessionStore<Bytes,byte[]>>) : KTable<Windowed<K>,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedCogroupedKStream.java.html#32]]]
 } 
 @enduml

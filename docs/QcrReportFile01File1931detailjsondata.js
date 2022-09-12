@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.query.StateQueryRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#22"
  , "c1" : "StateQueryRequest"
  , "c2" : "StateQueryRequest(String;PositionBound;Optional<Set<Integer>>;Query<R>;boolean;boolean)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#39"
  , "c1" : "InStore"
  , "c2" : "inStore(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#44"
  , "c1" : "StateQueryRequest<R>"
  , "c2" : "withPositionBound(PositionBound)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#57"
  , "c1" : "StateQueryRequest<R>"
  , "c2" : "withAllPartitions()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#69"
  , "c1" : "StateQueryRequest<R>"
  , "c2" : "withPartitions(Set<Integer>)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#81"
  , "c1" : "StateQueryRequest<R>"
  , "c2" : "enableExecutionInfo()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#93"
  , "c1" : "StateQueryRequest<R>"
  , "c2" : "requireActive()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#105"
  , "c1" : "String"
  , "c2" : "getStoreName()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#110"
  , "c1" : "PositionBound"
  , "c2" : "getPositionBound()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#115"
  , "c1" : "Query<R>"
  , "c2" : "getQuery()"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#120"
  , "c1" : "boolean"
  , "c2" : "isAllPartitions()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#125"
  , "c1" : "Set<Integer>"
  , "c2" : "getPartitions()"
  , "c3" : "3"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#135"
  , "c1" : "boolean"
  , "c2" : "executionInfoEnabled()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00140"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#140"
  , "c1" : "boolean"
  , "c2" : "isRequireActive()"
  , "c3" : "1"

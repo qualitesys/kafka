@@ -2,8 +2,8 @@
 !pragma layout smetana
 TaskSpec <|-- org.apache.kafka.trogdor.task.NoOpTaskSpec
 class org.apache.kafka.trogdor.task.NoOpTaskSpec {
-+  NoOpTaskSpec(long;long)
-+  newController(String)
-+  newTaskWorker(String)
++ NoOpTaskSpec(long;long) : NoOpTaskSpec [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#11]]]
++ newController(String) : TaskController [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#17]]]
++ newTaskWorker(String) : TaskWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#22]]]
 } 
 @enduml

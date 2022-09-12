@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.placement.ClusterDescriber" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/ClusterDescriber.java.html#14"
  , "c1" : "Iterator<UsableBroker>"
  , "c2" : "usableBrokers()"
  , "c3" : "1"

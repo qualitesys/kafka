@@ -2,10 +2,10 @@
 !pragma layout smetana
 ProcessorGraphNode_K,V_ <|-- org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode
 class org.apache.kafka.streams.kstream.internals.graph.StatefulProcessorNode {
-+  StatefulProcessorNode(ProcessorParameters<K,V,?,?>;Set<StoreBuilder<?>>;Set<KTableValueGetterSupplier<?,?>>)
-+  StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;String[])
-+  StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<?>)
-+  toString()
-+  writeToTopology(InternalTopologyBuilder)
++ StatefulProcessorNode(ProcessorParameters<K,V,?,?>;Set<StoreBuilder<?>>;Set<KTableValueGetterSupplier<?,?>>) : StatefulProcessorNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#18]]]
++ StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;String[]) : StatefulProcessorNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#29]]]
++ StatefulProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<?>) : StatefulProcessorNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#40]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#50]]]
++ writeToTopology(InternalTopologyBuilder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StatefulProcessorNode.java.html#58]]]
 } 
 @enduml

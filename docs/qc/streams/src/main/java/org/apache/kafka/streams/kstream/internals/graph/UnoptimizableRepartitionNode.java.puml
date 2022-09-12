@@ -2,8 +2,8 @@
 !pragma layout smetana
 BaseRepartitionNode_K,V_ <|-- org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode
 class org.apache.kafka.streams.kstream.internals.graph.UnoptimizableRepartitionNode {
-+  UnoptimizableRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>;InternalTopicProperties)
-+  writeToTopology(InternalTopologyBuilder)
-+  toString()
+- UnoptimizableRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>;InternalTopicProperties) : UnoptimizableRepartitionNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.html#13]]]
++ writeToTopology(InternalTopologyBuilder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.html#36]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/UnoptimizableRepartitionNode.java.html#61]]]
 } 
 @enduml

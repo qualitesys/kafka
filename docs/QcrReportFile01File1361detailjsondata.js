@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.metadata.PartitionRegistration" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#31"
  , "c1" : "boolean"
  , "c2" : "electionWasClean(int;int[])"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#35"
  , "c1" : "PartitionRegistration"
  , "c2" : "PartitionRegistration(PartitionRecord)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#46"
  , "c1" : "PartitionRegistration"
  , "c2" : "PartitionRegistration(int[];int[];int[];int[];int;LeaderRecoveryState;int;int)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#59"
  , "c1" : "PartitionRegistration"
  , "c2" : "merge(PartitionChangeRecord)"
  , "c3" : "3"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#90"
  , "c1" : "String"
  , "c2" : "diff(PartitionRegistration)"
  , "c3" : "9"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#139"
  , "c1" : "void"
  , "c2" : "maybeLogPartitionChange(Logger;String;PartitionRegistration)"
  , "c3" : "4"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#147"
  , "c1" : "boolean"
  , "c2" : "hasLeader()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00151"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#151"
  , "c1" : "boolean"
  , "c2" : "hasPreferredLeader()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00155"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#155"
  , "c1" : "int"
  , "c2" : "preferredReplica()"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00159"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#159"
  , "c1" : "ApiMessageAndVersion"
  , "c2" : "toRecord(Uuid;int)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00173"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#173"
  , "c1" : "LeaderAndIsrPartitionState"
  , "c2" : "toLeaderAndIsrPartitionState(TopicPartition;boolean)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00191"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#191"
  , "c1" : "boolean"
  , "c2" : "isReassigning()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00196"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#196"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00202"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#202"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00216"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#216"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"

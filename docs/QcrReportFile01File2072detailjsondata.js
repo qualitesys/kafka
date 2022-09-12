@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamThreadStateStoreProvider.java.html#25"
  , "c1" : "StreamThreadStateStoreProvider"
  , "c2" : "StreamThreadStateStoreProvider(StreamThread)"
  , "c3" : "1"

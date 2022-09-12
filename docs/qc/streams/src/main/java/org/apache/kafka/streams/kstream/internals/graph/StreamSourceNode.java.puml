@@ -2,10 +2,10 @@
 !pragma layout smetana
 SourceGraphNode_K,V_ <|-- org.apache.kafka.streams.kstream.internals.graph.StreamSourceNode
 class org.apache.kafka.streams.kstream.internals.graph.StreamSourceNode {
-+  StreamSourceNode(String;Collection<String>;ConsumedInternal<K,V>)
-+  StreamSourceNode(String;Pattern;ConsumedInternal<K,V>)
-+  merge(StreamSourceNode<?,?>)
-+  toString()
-+  writeToTopology(InternalTopologyBuilder)
++ StreamSourceNode(String;Collection<String>;ConsumedInternal<K,V>) : StreamSourceNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSourceNode.java.html#19]]]
++ StreamSourceNode(String;Pattern;ConsumedInternal<K,V>) : StreamSourceNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSourceNode.java.html#25]]]
++ merge(StreamSourceNode<?,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSourceNode.java.html#32]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSourceNode.java.html#48]]]
++ writeToTopology(InternalTopologyBuilder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSourceNode.java.html#57]]]
 } 
 @enduml

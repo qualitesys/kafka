@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.GroupedStreamAggregateBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.html#37"
  , "c1" : "GroupedStreamAggregateBuilder"
  , "c2" : "GroupedStreamAggregateBuilder(InternalStreamsBuilder;GroupedInternal<K,V>;boolean;Set<String>;String;GraphNode)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.html#105"
  , "c1" : "String"
  , "c2" : "createRepartitionSource(String;OptimizableRepartitionNodeBuilder<K,V>)"
  , "c3" : "1"

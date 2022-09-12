@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.controller.BrokersToIsrs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#78"
  , "c1" : "BrokersToIsrs"
  , "c2" : "BrokersToIsrs(SnapshotRegistry)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85"
  , "c1" : "void"
  , "c2" : "update(Uuid;int;int[];int[];int;int)"
  , "c3" : "22"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#150"
  , "c1" : "void"
  , "c2" : "removeTopicEntryForBroker(Uuid;int)"
  , "c3" : "3"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00160"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#160"
  , "c1" : "void"
  , "c2" : "add(int;Uuid;int;boolean)"
  , "c3" : "5"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#181"
  , "c1" : "void"
  , "c2" : "change(int;Uuid;int;boolean;boolean)"
  , "c3" : "6"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#206"
  , "c1" : "void"
  , "c2" : "remove(int;Uuid;int;boolean)"
  , "c3" : "10"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00242"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#242"
  , "c1" : "PartitionsOnReplicaIterator"
  , "c2" : "iterator(int;boolean)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00250"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#250"
  , "c1" : "PartitionsOnReplicaIterator"
  , "c2" : "partitionsWithNoLeader()"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00254"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
  , "c1" : "PartitionsOnReplicaIterator"
  , "c2" : "partitionsLedByBroker(int)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00258"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
  , "c1" : "PartitionsOnReplicaIterator"
  , "c2" : "partitionsWithBrokerInIsr(int)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00262"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262"
  , "c1" : "boolean"
  , "c2" : "hasLeaderships(int)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00266"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#266"
  , "c1" : "int"
  , "c2" : "offlinePartitionCount()"
  , "c3" : "1"

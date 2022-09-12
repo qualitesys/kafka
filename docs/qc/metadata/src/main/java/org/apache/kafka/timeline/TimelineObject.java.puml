@@ -2,14 +2,14 @@
 !pragma layout smetana
 Revertable <|-- org.apache.kafka.timeline.TimelineObject
 class org.apache.kafka.timeline.TimelineObject {
-+  TimelineObject(SnapshotRegistry;T)
-+  get()
-+  get(long)
-+  set(T)
-+  executeRevert(long;Delta)
-+  reset()
-+  hashCode()
-+  equals(Object)
-+  toString()
++ TimelineObject(SnapshotRegistry;T) : TimelineObject [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#36]]]
++ get() : T [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#44]]]
++ get(long) : T [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#48]]]
++ set(T) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#59]]]
++ executeRevert(long;Delta) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#76]]]
++ reset() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#82]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#87]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#92]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#99]]]
 } 
 @enduml

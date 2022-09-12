@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.config.SaslConfigs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00178"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#178"
  , "c1" : "void"
  , "c2" : "addClientSaslSupport(ConfigDef)"
  , "c3" : "1"

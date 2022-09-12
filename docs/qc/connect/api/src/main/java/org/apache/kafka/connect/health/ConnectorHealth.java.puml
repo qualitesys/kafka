@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.health.ConnectorHealth
 class org.apache.kafka.connect.health.ConnectorHealth {
-+  ConnectorHealth(String;ConnectorState;Map<Integer,TaskState>;ConnectorType)
-+  name()
-+  connectorState()
-+  tasksState()
-+  type()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ ConnectorHealth(String;ConnectorState;Map<Integer,TaskState>;ConnectorType) : ConnectorHealth [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#18]]]
++ name() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#35]]]
++ connectorState() : ConnectorState [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#40]]]
++ tasksState() : Map<Integer,TaskState> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#45]]]
++ type() : ConnectorType [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#50]]]
++ equals(Object) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#55]]]
++ hashCode() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#68]]]
++ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#73]]]
 } 
 @enduml

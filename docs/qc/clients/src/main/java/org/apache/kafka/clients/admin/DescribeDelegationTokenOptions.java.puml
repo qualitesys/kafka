@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractOptions_DescribeDelegationTokenOptions_ <|-- org.apache.kafka.clients.admin.DescribeDelegationTokenOptions
 class org.apache.kafka.clients.admin.DescribeDelegationTokenOptions {
-+  owners(List<KafkaPrincipal>)
-+  owners()
++ owners(List<KafkaPrincipal>) : DescribeDelegationTokenOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#16]]]
++ owners() : List<KafkaPrincipal> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#21]]]
 } 
 @enduml

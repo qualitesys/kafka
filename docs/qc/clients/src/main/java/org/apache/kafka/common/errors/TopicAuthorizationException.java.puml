@@ -2,9 +2,9 @@
 !pragma layout smetana
 AuthorizationException <|-- org.apache.kafka.common.errors.TopicAuthorizationException
 class org.apache.kafka.common.errors.TopicAuthorizationException {
-+  TopicAuthorizationException(String;Set<String>)
-+  TopicAuthorizationException(Set<String>)
-+  TopicAuthorizationException(String)
-+  unauthorizedTopics()
++ TopicAuthorizationException(String;Set<String>) : TopicAuthorizationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#10]]]
++ TopicAuthorizationException(Set<String>) : TopicAuthorizationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#15]]]
++ TopicAuthorizationException(String) : TopicAuthorizationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#19]]]
++ unauthorizedTopics() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#24]]]
 } 
 @enduml

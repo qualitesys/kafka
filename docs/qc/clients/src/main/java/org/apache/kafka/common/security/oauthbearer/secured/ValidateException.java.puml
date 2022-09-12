@@ -2,8 +2,8 @@
 !pragma layout smetana
 KafkaException <|-- org.apache.kafka.common.security.oauthbearer.secured.ValidateException
 class org.apache.kafka.common.security.oauthbearer.secured.ValidateException {
-+  ValidateException(String)
-+  ValidateException(Throwable)
-+  ValidateException(String;Throwable)
++ ValidateException(String) : ValidateException [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidateException.java.html#12]]]
++ ValidateException(Throwable) : ValidateException [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidateException.java.html#16]]]
++ ValidateException(String;Throwable) : ValidateException [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidateException.java.html#20]]]
 } 
 @enduml

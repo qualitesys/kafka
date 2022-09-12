@@ -2,17 +2,17 @@
 !pragma layout smetana
 EpochState <|-- org.apache.kafka.raft.VotedState
 class org.apache.kafka.raft.VotedState {
-+  VotedState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)
-+  election()
-+  votedId()
-+  epoch()
-+  name()
-+  remainingElectionTimeMs(long)
-+  hasElectionTimeoutExpired(long)
-+  overrideElectionTimeout(long;long)
-+  canGrantVote(int;boolean)
-+  highWatermark()
-+  toString()
-+  close()
++ VotedState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext) : VotedState [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#23]]]
++ election() : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#42]]]
++ votedId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#51]]]
++ epoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#56]]]
++ name() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#61]]]
++ remainingElectionTimeMs(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#65]]]
++ hasElectionTimeoutExpired(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#70]]]
++ overrideElectionTimeout(long;long) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#75]]]
++ canGrantVote(int;boolean) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#81]]]
++ highWatermark() : Optional<LogOffsetMetadata> [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#92]]]
++ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#97]]]
++ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#107]]]
 } 
 @enduml

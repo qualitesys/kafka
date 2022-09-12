@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.UserScramCredentialUpsertion" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#18"
  , "c1" : "UserScramCredentialUpsertion"
  , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#23"
  , "c1" : "UserScramCredentialUpsertion"
  , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;byte[])"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#28"
  , "c1" : "UserScramCredentialUpsertion"
  , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;byte[];byte[])"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#36"
  , "c1" : "ScramCredentialInfo"
  , "c2" : "credentialInfo()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#41"
  , "c1" : "byte[]"
  , "c2" : "salt()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#46"
  , "c1" : "byte[]"
  , "c2" : "password()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#50"
  , "c1" : "byte[]"
  , "c2" : "generateRandomSalt()"
  , "c3" : "1"

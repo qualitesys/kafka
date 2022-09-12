@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.protocol.DataOutputStreamWritable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#16"
  , "c1" : "DataOutputStreamWritable"
  , "c2" : "DataOutputStreamWritable(DataOutputStream)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#21"
  , "c1" : "void"
  , "c2" : "writeByte(byte)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#30"
  , "c1" : "void"
  , "c2" : "writeShort(short)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#39"
  , "c1" : "void"
  , "c2" : "writeInt(int)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#48"
  , "c1" : "void"
  , "c2" : "writeLong(long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#57"
  , "c1" : "void"
  , "c2" : "writeDouble(double)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#66"
  , "c1" : "void"
  , "c2" : "writeByteArray(byte[])"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#75"
  , "c1" : "void"
  , "c2" : "writeUnsignedVarint(int)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#84"
  , "c1" : "void"
  , "c2" : "writeByteBuffer(ByteBuffer)"
  , "c3" : "3"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#98"
  , "c1" : "void"
  , "c2" : "writeVarint(int)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#107"
  , "c1" : "void"
  , "c2" : "writeVarlong(long)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#115"
  , "c1" : "void"
  , "c2" : "flush()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#124"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"

@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.ElectLeadersRequest
 class org.apache.kafka.common.requests.ElectLeadersRequest {
-+  ElectLeadersRequest(ElectLeadersRequestData;short)
-+  data()
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
+- ElectLeadersRequest(ElectLeadersRequestData;short) : ElectLeadersRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#76]]]
++ data() : ElectLeadersRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#82]]]
++ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#87]]]
++ parse(ByteBuffer;short) : ElectLeadersRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#112]]]
 } 
 @enduml

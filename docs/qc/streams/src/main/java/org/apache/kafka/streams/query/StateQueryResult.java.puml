@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.query.StateQueryResult
 class org.apache.kafka.streams.query.StateQueryResult {
-+  setGlobalResult(QueryResult<R>)
-+  addResult(int;QueryResult<R>)
-+  getPartitionResults()
-+  getOnlyPartitionResult()
-+  getGlobalResult()
-+  getPosition()
-+  toString()
++ setGlobalResult(QueryResult<R>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#19]]]
++ addResult(int;QueryResult<R>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#24]]]
++ getPartitionResults() : Map<Integer,QueryResult<R>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#30]]]
++ getOnlyPartitionResult() : QueryResult<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#35]]]
++ getGlobalResult() : QueryResult<R> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#53]]]
++ getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#58]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#71]]]
 } 
 @enduml

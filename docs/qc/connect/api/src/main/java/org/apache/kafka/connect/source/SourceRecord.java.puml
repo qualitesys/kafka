@@ -2,18 +2,18 @@
 !pragma layout smetana
 ConnectRecord_SourceRecord_ <|-- org.apache.kafka.connect.source.SourceRecord
 class org.apache.kafka.connect.source.SourceRecord {
-+  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object)
-+  SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object)
-+  SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object;Schema;Object)
-+  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object)
-+  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long)
-+  SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
-+  sourcePartition()
-+  sourceOffset()
-+  newRecord(String;Integer;Schema;Object;Schema;Object;Long)
-+  newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)
-+  equals(Object)
-+  hashCode()
-+  toString()
++ SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#16]]]
++ SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#21]]]
++ SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object;Schema;Object) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#26]]]
++ SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#31]]]
++ SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#37]]]
++ SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#45]]]
++ sourcePartition() : Map<String,?> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#55]]]
++ sourceOffset() : Map<String,?> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#59]]]
++ newRecord(String;Integer;Schema;Object;Schema;Object;Long) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#64]]]
++ newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>) : SourceRecord [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#69]]]
++ equals(Object) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#75]]]
++ hashCode() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#90]]]
++ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#98]]]
 } 
 @enduml

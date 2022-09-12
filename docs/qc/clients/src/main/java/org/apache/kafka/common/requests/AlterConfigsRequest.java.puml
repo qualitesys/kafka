@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.AlterConfigsRequest
 class org.apache.kafka.common.requests.AlterConfigsRequest {
-+  AlterConfigsRequest(AlterConfigsRequestData;short)
-+  configs()
-+  validateOnly()
-+  data()
-+  getErrorResponse(int;Throwable)
-+  parse(ByteBuffer;short)
++ AlterConfigsRequest(AlterConfigsRequestData;short) : AlterConfigsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#80]]]
++ configs() : Map<ConfigResource,Config> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#85]]]
++ validateOnly() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#95]]]
++ data() : AlterConfigsRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#100]]]
++ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#105]]]
++ parse(ByteBuffer;short) : AlterConfigsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#120]]]
 } 
 @enduml

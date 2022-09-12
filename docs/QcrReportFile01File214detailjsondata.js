@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#31"
  , "c1" : "OffsetsForLeaderEpochClient"
  , "c2" : "OffsetsForLeaderEpochClient(ConsumerNetworkClient;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#36"
  , "c1" : "AbstractRequest.Builder<OffsetsForLeaderEpochRequest>"
  , "c2" : "prepareRequest(Node;Map<TopicPartition,SubscriptionState.FetchPosition>)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#58"
  , "c1" : "OffsetForEpochResult"
  , "c2" : "handleResponse(Node;Map<TopicPartition,SubscriptionState.FetchPosition>;OffsetsForLeaderEpochResponse)"
  , "c3" : "16"

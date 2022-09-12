@@ -2,10 +2,10 @@
 !pragma layout smetana
 Comparable_OffsetAndEpoch_ <|-- org.apache.kafka.raft.OffsetAndEpoch
 class org.apache.kafka.raft.OffsetAndEpoch {
-+  OffsetAndEpoch(long;int)
-+  equals(Object)
-+  hashCode()
-+  toString()
-+  compareTo(OffsetAndEpoch)
++ OffsetAndEpoch(long;int) : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#8]]]
++ equals(Object) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#14]]]
++ hashCode() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#25]]]
++ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#32]]]
++ compareTo(OffsetAndEpoch) : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#40]]]
 } 
 @enduml

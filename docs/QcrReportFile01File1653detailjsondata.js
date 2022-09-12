@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamFlatMapValues" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMapValues.java.html#14"
  , "c1" : "KStreamFlatMapValues"
  , "c2" : "KStreamFlatMapValues(ValueMapperWithKey<?superKIn,?superVIn,?extendsIterable<?extendsVOut>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatMapValues.java.html#19"
  , "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
  , "c2" : "get()"
  , "c3" : "1"

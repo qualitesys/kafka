@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.clients.admin.DescribeLogDirsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#23"
  , "c1" : "DescribeLogDirsResult"
  , "c2" : "DescribeLogDirsResult(Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#30"
  , "c1" : "Map<Integer,KafkaFuture<Map<String,DescribeLogDirsResponse.LogDirInfo>>>"
  , "c2" : "values()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#38"
  , "c1" : "Map<String,DescribeLogDirsResponse.LogDirInfo>"
  , "c2" : "convertMapValues(Map<String,LogDirDescription>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#56"
  , "c1" : "Map<Integer,KafkaFuture<Map<String,LogDirDescription>>>"
  , "c2" : "descriptions()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#63"
  , "c1" : "KafkaFuture<Map<Integer,Map<String,DescribeLogDirsResponse.LogDirInfo>>>"
  , "c2" : "all()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#71"
  , "c1" : "KafkaFuture<Map<Integer,Map<String,LogDirDescription>>>"
  , "c2" : "allDescriptions()"
  , "c3" : "2"

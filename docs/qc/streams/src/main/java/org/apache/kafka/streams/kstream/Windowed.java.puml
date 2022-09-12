@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.Windowed
 class org.apache.kafka.streams.kstream.Windowed {
-+  Windowed(K;Window)
-+  key()
-+  window()
-+  toString()
-+  equals(Object)
-+  hashCode()
++ Windowed(K;Window) : Windowed [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windowed.java.html#12]]]
++ key() : K [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windowed.java.html#18]]]
++ window() : Window [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windowed.java.html#23]]]
++ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windowed.java.html#28]]]
++ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windowed.java.html#33]]]
++ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windowed.java.html#45]]]
 } 
 @enduml

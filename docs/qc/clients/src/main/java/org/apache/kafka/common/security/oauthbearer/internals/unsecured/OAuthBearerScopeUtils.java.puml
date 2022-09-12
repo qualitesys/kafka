@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils
 class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils {
-+  isValidScopeItem(String)
-+  parseScope(String)
-+  OAuthBearerScopeUtils()
++ isValidScopeItem(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.html#15]]]
++ parseScope(String) : List<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.html#20]]]
+- OAuthBearerScopeUtils() : OAuthBearerScopeUtils [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.html#32]]]
 } 
 @enduml

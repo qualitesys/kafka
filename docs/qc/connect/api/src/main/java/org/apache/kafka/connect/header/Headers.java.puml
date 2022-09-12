@@ -2,35 +2,35 @@
 !pragma layout smetana
 Iterable_Header_ <|-- org.apache.kafka.connect.header.Headers
 class org.apache.kafka.connect.header.Headers {
-+  size()
-+  isEmpty()
-+  allWithName(String)
-+  lastWithName(String)
-+  add(Header)
-+  add(String;SchemaAndValue)
-+  add(String;Object;Schema)
-+  addString(String;String)
-+  addBoolean(String;boolean)
-+  addByte(String;byte)
-+  addShort(String;short)
-+  addInt(String;int)
-+  addLong(String;long)
-+  addFloat(String;float)
-+  addDouble(String;double)
-+  addBytes(String;byte[])
-+  addList(String;List<?>;Schema)
-+  addMap(String;Map<?,?>;Schema)
-+  addStruct(String;Struct)
-+  addDecimal(String;BigDecimal)
-+  addDate(String;java.util.Date)
-+  addTime(String;java.util.Date)
-+  addTimestamp(String;java.util.Date)
-+  remove(String)
-+  retainLatest(String)
-+  retainLatest()
-+  clear()
-+  duplicate()
-+  apply(HeaderTransform)
-+  apply(String;HeaderTransform)
+size() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#18]]]
+isEmpty() : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#21]]]
+allWithName(String) : Iterator<Header> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#24]]]
+lastWithName(String) : Header [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#27]]]
+add(Header) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#30]]]
+add(String;SchemaAndValue) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#33]]]
+add(String;Object;Schema) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#36]]]
+addString(String;String) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#39]]]
+addBoolean(String;boolean) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#42]]]
+addByte(String;byte) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#45]]]
+addShort(String;short) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#48]]]
+addInt(String;int) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#51]]]
+addLong(String;long) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#54]]]
+addFloat(String;float) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#57]]]
+addDouble(String;double) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#60]]]
+addBytes(String;byte[]) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#63]]]
+addList(String;List<?>;Schema) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#66]]]
+addMap(String;Map<?,?>;Schema) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#69]]]
+addStruct(String;Struct) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#72]]]
+addDecimal(String;BigDecimal) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#75]]]
+addDate(String;java.util.Date) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#78]]]
+addTime(String;java.util.Date) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#81]]]
+addTimestamp(String;java.util.Date) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#84]]]
+remove(String) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#87]]]
+retainLatest(String) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#90]]]
+retainLatest() : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#93]]]
+clear() : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#96]]]
+duplicate() : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#99]]]
+apply(HeaderTransform) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#102]]]
+apply(String;HeaderTransform) : Headers [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#105]]]
 } 
 @enduml

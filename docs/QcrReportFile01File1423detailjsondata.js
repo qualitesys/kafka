@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.errors.BufferAllocationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00009"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.html#9"
  , "c1" : "BufferAllocationException"
  , "c2" : "BufferAllocationException(String)"
  , "c3" : "1"

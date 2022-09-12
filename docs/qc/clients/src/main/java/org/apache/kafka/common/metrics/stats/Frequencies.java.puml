@@ -2,13 +2,13 @@
 !pragma layout smetana
 SampledStatCompoundStat <|-- org.apache.kafka.common.metrics.stats.Frequencies
 class org.apache.kafka.common.metrics.stats.Frequencies {
-+  forBooleanValues(MetricName;MetricName)
-+  Frequencies(int;double;double;Frequency...)
-+  stats()
-+  frequency(MetricConfig;long;double)
-+  totalCount()
-+  combine(List<Sample>;MetricConfig;long)
-+  newSample(long)
-+  update(Sample;MetricConfig;double;long)
++ forBooleanValues(MetricName;MetricName) : Frequencies [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#18]]]
++ Frequencies(int;double;double;Frequency...) : Frequencies [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#37]]]
++ stats() : List<NamedMeasurable> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#61]]]
++ frequency(MetricConfig;long;double) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#75]]]
+totalCount() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#96]]]
++ combine(List<Sample>;MetricConfig;long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#105]]]
+newSample(long) : HistogramSample [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#110]]]
+update(Sample;MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#115]]]
 } 
 @enduml

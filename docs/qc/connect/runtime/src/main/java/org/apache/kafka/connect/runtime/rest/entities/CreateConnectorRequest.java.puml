@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.CreateConnectorRequest
 class org.apache.kafka.connect.runtime.rest.entities.CreateConnectorRequest {
-+  CreateConnectorRequest(String;Map<String,String>)
-+  name()
-+  config()
-+  equals(Object)
-+  hashCode()
++ CreateConnectorRequest(String;Map<String,String>) : CreateConnectorRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#15]]]
++ name() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#21]]]
++ config() : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#26]]]
++ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#31]]]
++ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#40]]]
 } 
 @enduml

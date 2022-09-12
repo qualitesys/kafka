@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.health.ConnectClusterState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterState.java.html#12"
  , "c1" : "Collection<String>"
  , "c2" : "connectors()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterState.java.html#15"
  , "c1" : "ConnectorHealth"
  , "c2" : "connectorHealth(String)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterState.java.html#18"
  , "c1" : "Map<String,String>"
  , "c2" : "connectorConfig(String)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterState.java.html#23"
  , "c1" : "ConnectClusterDetails"
  , "c2" : "clusterDetails()"
  , "c3" : "1"

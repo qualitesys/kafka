@@ -2,8 +2,8 @@
 !pragma layout smetana
 Configurable <|-- org.apache.kafka.common.MessageFormatter
 class org.apache.kafka.common.MessageFormatter {
-+  configure(Map<String,?>)
-+  writeTo(ConsumerRecord<byte[],byte[]>;PrintStream)
-+  close()
+configure(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#14]]]
+writeTo(ConsumerRecord<byte[],byte[]>;PrintStream) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#17]]]
+close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#20]]]
 } 
 @enduml

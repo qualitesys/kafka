@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.ResultOrError
 class org.apache.kafka.controller.ResultOrError {
-+  ResultOrError(Errors;String)
-+  ResultOrError(ApiError)
-+  ResultOrError(T)
-+  isError()
-+  isResult()
-+  error()
-+  result()
-+  equals(Object)
-+  hashCode()
-+  toString()
++ ResultOrError(Errors;String) : ResultOrError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#15]]]
++ ResultOrError(ApiError) : ResultOrError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#19]]]
++ ResultOrError(T) : ResultOrError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#25]]]
++ isError() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#38]]]
++ isResult() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#42]]]
++ error() : ApiError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#46]]]
++ result() : T [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#50]]]
++ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#55]]]
++ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#65]]]
++ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#70]]]
 } 
 @enduml

@@ -2,24 +2,24 @@
 !pragma layout smetana
 AbstractProcessorContext_Object,Object_RecordCollector.Supplier <|-- org.apache.kafka.streams.processor.internals.ProcessorContextImpl
 class org.apache.kafka.streams.processor.internals.ProcessorContextImpl {
-+  ProcessorContextImpl(TaskId;StreamsConfig;ProcessorStateManager;StreamsMetricsImpl;ThreadCache)
-+  transitionToActive(StreamTask;RecordCollector;ThreadCache)
-+  transitionToStandby(ThreadCache)
-+  registerCacheFlushListener(String;DirtyEntryFlushListener)
-+  addAllFlushListenersToNewCache()
-+  stateManager()
-+  recordCollector()
-+  logChange(String;Bytes;byte[];long;Position)
-+  commit()
-+  schedule(Duration;PunctuationType;Punctuator)
-+  topic()
-+  partition()
-+  offset()
-+  timestamp()
-+  currentStreamTimeMs()
-+  currentNode()
-+  setRecordContext(ProcessorRecordContext)
-+  recordContext()
-+  throwUnsupportedOperationExceptionIfStandby(String)
++ ProcessorContextImpl(TaskId;StreamsConfig;ProcessorStateManager;StreamsMetricsImpl;ThreadCache) : ProcessorContextImpl [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#47]]]
++ transitionToActive(StreamTask;RecordCollector;ThreadCache) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#61]]]
++ transitionToStandby(ThreadCache) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#73]]]
++ registerCacheFlushListener(String;DirtyEntryFlushListener) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#85]]]
+- addAllFlushListenersToNewCache() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#90]]]
++ stateManager() : ProcessorStateManager [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#97]]]
++ recordCollector() : RecordCollector [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#102]]]
++ logChange(String;Bytes;byte[];long;Position) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#107]]]
++ commit() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#280]]]
++ schedule(Duration;PunctuationType;Punctuator) : Cancellable [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#286]]]
++ topic() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#299]]]
++ partition() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#305]]]
++ offset() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#311]]]
++ timestamp() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#317]]]
++ currentStreamTimeMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#323]]]
++ currentNode() : ProcessorNode<?,?,?,?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#328]]]
++ setRecordContext(ProcessorRecordContext) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#334]]]
++ recordContext() : ProcessorRecordContext [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#340]]]
+- throwUnsupportedOperationExceptionIfStandby(String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#345]]]
 } 
 @enduml

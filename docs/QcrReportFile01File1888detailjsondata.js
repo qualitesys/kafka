@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.TopologyMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#87"
  , "c1" : "TopologyMetadata"
  , "c2" : "TopologyMetadata(InternalTopologyBuilder;StreamsConfig)"
  , "c3" : "3"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#104"
  , "c1" : "TopologyMetadata"
  , "c2" : "TopologyMetadata(ConcurrentNavigableMap<String,InternalTopologyBuilder>;StreamsConfig)"
  , "c3" : "2"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#120"
  , "c1" : "void"
  , "c2" : "setLog(LogContext)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#124"
  , "c1" : "ProcessingMode"
  , "c2" : "processingMode()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#128"
  , "c1" : "long"
  , "c2" : "topologyVersion()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#132"
  , "c1" : "void"
  , "c2" : "lock()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#136"
  , "c1" : "void"
  , "c2" : "unlock()"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00140"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#140"
  , "c1" : "Collection<String>"
  , "c2" : "sourceTopicsForTopology(String)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#144"
  , "c1" : "boolean"
  , "c2" : "needsUpdate(String)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#148"
  , "c1" : "void"
  , "c2" : "registerThread(String)"
  , "c3" : "1"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#152"
  , "c1" : "void"
  , "c2" : "unregisterThread(String)"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00157"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#157"
  , "c1" : "TaskExecutionMetadata"
  , "c2" : "taskExecutionMetadata()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00161"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#161"
  , "c1" : "void"
  , "c2" : "executeTopologyUpdatesAndBumpThreadVersion(Consumer<Set<String>>;Consumer<Set<String>>)"
  , "c3" : "1"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#174"
  , "c1" : "void"
  , "c2" : "maybeNotifyTopologyVersionListeners()"
  , "c3" : "3"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00195"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#195"
  , "c1" : "long"
  , "c2" : "getMinimumThreadVersion()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00200"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#200"
  , "c1" : "void"
  , "c2" : "wakeupThreads()"
  , "c3" : "1"
@@ -130,6 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#209"
  , "c1" : "void"
  , "c2" : "maybeWaitForNonEmptyTopology(Supplier<StreamThread.State>)"
  , "c3" : "3"
@@ -137,6 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00228"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#228"
  , "c1" : "void"
  , "c2" : "registerAndBuildNewTopology(KafkaFutureImpl<Void>;InternalTopologyBuilder)"
  , "c3" : "1"
@@ -144,6 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#247"
  , "c1" : "void"
  , "c2" : "pauseTopology(String)"
  , "c3" : "1"
@@ -151,6 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#252"
  , "c1" : "boolean"
  , "c2" : "isPaused(String)"
  , "c3" : "3"
@@ -158,6 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00261"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#261"
  , "c1" : "void"
  , "c2" : "resumeTopology(String)"
  , "c3" : "1"
@@ -165,6 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00266"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#266"
  , "c1" : "KafkaFuture<Void>"
  , "c2" : "unregisterTopology(KafkaFutureImpl<Void>;String)"
  , "c3" : "1"
@@ -172,6 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00286"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#286"
  , "c1" : "TaskConfig"
  , "c2" : "getTaskConfigFor(TaskId)"
  , "c3" : "1"
@@ -179,6 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00291"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#291"
  , "c1" : "void"
  , "c2" : "buildAndRewriteTopology()"
  , "c3" : "1"
@@ -186,6 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00295"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#295"
  , "c1" : "void"
  , "c2" : "buildAndVerifyTopology(InternalTopologyBuilder)"
  , "c3" : "7"
@@ -193,6 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00334"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#334"
  , "c1" : "int"
  , "c2" : "getNumStreamThreads(StreamsConfig)"
  , "c3" : "6"
@@ -200,6 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00363"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#363"
  , "c1" : "boolean"
  , "c2" : "hasNamedTopologies()"
  , "c3" : "1"
@@ -207,6 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00367"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#367"
  , "c1" : "Set<String>"
  , "c2" : "namedTopologiesView()"
  , "c3" : "1"
@@ -214,6 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00372"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#372"
  , "c1" : "boolean"
  , "c2" : "hasGlobalTopology()"
  , "c3" : "1"
@@ -221,6 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00377"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#377"
  , "c1" : "boolean"
  , "c2" : "hasNoLocalTopology()"
  , "c3" : "1"
@@ -228,6 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00381"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#381"
  , "c1" : "boolean"
  , "c2" : "hasPersistentStores()"
  , "c3" : "2"
@@ -235,6 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00390"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#390"
  , "c1" : "boolean"
  , "c2" : "hasStore(String)"
  , "c3" : "1"
@@ -242,6 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00394"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#394"
  , "c1" : "boolean"
  , "c2" : "hasOffsetResetOverrides()"
  , "c3" : "1"
@@ -249,6 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00399"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#399"
  , "c1" : "OffsetResetStrategy"
  , "c2" : "offsetResetStrategy(String)"
  , "c3" : "3"
@@ -256,6 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00415"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#415"
  , "c1" : "Collection<String>"
  , "c2" : "fullSourceTopicNamesForTopology(String)"
  , "c3" : "1"
@@ -263,6 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00420"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#420"
  , "c1" : "Collection<String>"
  , "c2" : "allFullSourceTopicNames()"
  , "c3" : "1"
@@ -270,6 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00426"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#426"
  , "c1" : "Pattern"
  , "c2" : "sourceTopicPattern()"
  , "c3" : "4"
@@ -277,6 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00444"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#444"
  , "c1" : "boolean"
  , "c2" : "usesPatternSubscription()"
  , "c3" : "1"
@@ -284,6 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00449"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#449"
  , "c1" : "boolean"
  , "c2" : "isEmpty()"
  , "c3" : "1"
@@ -291,6 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00453"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#453"
  , "c1" : "String"
  , "c2" : "topologyDescriptionString()"
  , "c3" : "2"
@@ -298,6 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00465"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#465"
  , "c1" : "ProcessorTopology"
  , "c2" : "buildSubtopology(TaskId)"
  , "c3" : "1"
@@ -305,6 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00470"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#470"
  , "c1" : "ProcessorTopology"
  , "c2" : "globalTaskTopology()"
  , "c3" : "2"
@@ -312,6 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00477"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#477"
  , "c1" : "Map<String,StateStore>"
  , "c2" : "globalStateStores()"
  , "c3" : "1"
@@ -319,6 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00481"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#481"
  , "c1" : "Map<String,List<String>>"
  , "c2" : "stateStoreNameToSourceTopicsForTopology(String)"
  , "c3" : "1"
@@ -326,6 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00485"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#485"
  , "c1" : "Map<String,List<String>>"
  , "c2" : "stateStoreNameToSourceTopics()"
  , "c3" : "1"
@@ -333,6 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00491"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#491"
  , "c1" : "String"
  , "c2" : "getStoreForChangelogTopic(String)"
  , "c3" : "3"
@@ -340,6 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00503"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#503"
  , "c1" : "Collection<String>"
  , "c2" : "sourceTopicsForStore(String;String)"
  , "c3" : "1"
@@ -347,6 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00507"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#507"
  , "c1" : "String"
  , "c2" : "getTopologyNameOrElseUnnamed(String)"
  , "c3" : "1"
@@ -354,6 +450,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00512"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#512"
  , "c1" : "Map<Subtopology,TopicsInfo>"
  , "c2" : "subtopologyTopicsInfoMapExcluding(Set<String>)"
  , "c3" : "2"
@@ -361,6 +459,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00523"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#523"
  , "c1" : "Map<String,Map<Subtopology,TopicsInfo>>"
  , "c2" : "topologyToSubtopologyTopicsInfoMap()"
  , "c3" : "1"
@@ -368,6 +468,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00529"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#529"
  , "c1" : "Map<String,List<String>>"
  , "c2" : "nodeToSourceTopics(TaskId)"
  , "c3" : "1"
@@ -375,6 +477,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00533"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#533"
  , "c1" : "void"
  , "c2" : "addSubscribedTopicsFromMetadata(Set<String>;String)"
  , "c3" : "1"
@@ -382,6 +486,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00537"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#537"
  , "c1" : "void"
  , "c2" : "addSubscribedTopicsFromAssignment(List<TopicPartition>;String)"
  , "c3" : "1"
@@ -389,6 +495,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00541"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#541"
  , "c1" : "Collection<Set<String>>"
  , "c2" : "copartitionGroups()"
  , "c3" : "1"
@@ -396,6 +504,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00548"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#548"
  , "c1" : "InternalTopologyBuilder"
  , "c2" : "lookupBuilderForTask(TaskId)"
  , "c3" : "3"
@@ -403,6 +513,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00559"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#559"
  , "c1" : "Collection<NamedTopology>"
  , "c2" : "getAllNamedTopologies()"
  , "c3" : "1"
@@ -410,6 +522,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00568"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#568"
  , "c1" : "InternalTopologyBuilder"
  , "c2" : "lookupBuilderForNamedTopology(String)"
  , "c3" : "3"
@@ -417,6 +531,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00576"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#576"
  , "c1" : "boolean"
  , "c2" : "evaluateConditionIsTrueForAnyBuilders(Function<InternalTopologyBuilder,Boolean>)"
  , "c3" : "3"
@@ -424,6 +540,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00585"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#585"
  , "c1" : "void"
  , "c2" : "applyToEachBuilder(Consumer<InternalTopologyBuilder>)"
  , "c3" : "2"

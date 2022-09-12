@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.TableJoined" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#15"
  , "c1" : "TableJoined"
  , "c2" : "TableJoined(StreamPartitioner<K,Void>;StreamPartitioner<KO,Void>;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#23"
  , "c1" : "TableJoined"
  , "c2" : "TableJoined(TableJoined<K,KO>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#39"
  , "c1" : "TableJoined<K,KO>"
  , "c2" : "withPartitioner(StreamPartitioner<K,Void>)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#44"
  , "c1" : "TableJoined<K,KO>"
  , "c2" : "withOtherPartitioner(StreamPartitioner<KO,Void>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#50"
  , "c1" : "TableJoined<K,KO>"
  , "c2" : "withName(String)"
  , "c3" : "1"

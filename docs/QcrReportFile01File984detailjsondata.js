@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.connect.source.SourceTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#45"
  , "c1" : "void"
  , "c2" : "initialize(SourceTaskContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#51"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#54"
  , "c1" : "List<SourceRecord>"
  , "c2" : "poll()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#57"
  , "c1" : "void"
  , "c2" : "commit()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#63"
  , "c1" : "void"
  , "c2" : "stop()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#67"
  , "c1" : "void"
  , "c2" : "commitRecord(SourceRecord)"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#72"
  , "c1" : "void"
  , "c2" : "commitRecord(SourceRecord;RecordMetadata)"
  , "c3" : "1"

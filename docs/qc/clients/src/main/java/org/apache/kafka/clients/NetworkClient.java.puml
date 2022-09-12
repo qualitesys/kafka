@@ -2,55 +2,55 @@
 !pragma layout smetana
 KafkaClient <|-- org.apache.kafka.clients.NetworkClient
 class org.apache.kafka.clients.NetworkClient {
-+  NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;LogContext)
-+  NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;Sensor;LogContext)
-+  NetworkClient(Selectable;MetadataUpdater;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;LogContext)
-+  NetworkClient(MetadataUpdater;Metadata;Selectable;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;Sensor;LogContext;HostResolver)
-+  ready(Node;long)
-+  canConnect(Node;long)
-+  disconnect(String)
-+  cancelInFlightRequests(String;long;Collection<ClientResponse>)
-+  close(String)
-+  connectionDelay(Node;long)
-+  throttleDelayMs(Node;long)
-+  pollDelayMs(Node;long)
-+  connectionFailed(Node)
-+  authenticationException(Node)
-+  isReady(Node;long)
-+  canSendRequest(String;long)
-+  send(ClientRequest;long)
-+  sendInternalMetadataRequest(MetadataRequest.Builder;String;long)
-+  doSend(ClientRequest;boolean;long)
-+  doSend(ClientRequest;boolean;long;AbstractRequest)
-+  poll(long;long)
-+  completeResponses(List<ClientResponse>)
-+  inFlightRequestCount()
-+  hasInFlightRequests()
-+  inFlightRequestCount(String)
-+  hasInFlightRequests(String)
-+  hasReadyNodes(long)
-+  wakeup()
-+  initiateClose()
-+  active()
-+  ensureActive()
-+  close()
-+  leastLoadedNode(long)
-+  parseResponse(ByteBuffer;RequestHeader)
-+  processDisconnection(List<ClientResponse>;String;long;ChannelState)
-+  handleTimedOutRequests(List<ClientResponse>;long)
-+  handleAbortedSends(List<ClientResponse>)
-+  handleTimedOutConnections(List<ClientResponse>;long)
-+  handleCompletedSends(List<ClientResponse>;long)
-+  maybeThrottle(AbstractResponse;short;String;long)
-+  handleCompletedReceives(List<ClientResponse>;long)
-+  handleApiVersionsResponse(List<ClientResponse>;InFlightRequest;long;ApiVersionsResponse)
-+  handleDisconnections(List<ClientResponse>;long)
-+  handleConnections()
-+  handleInitiateApiVersionRequests(long)
-+  initiateConnect(Node;long)
-+  newClientRequest(String;AbstractRequest.Builder<?>;long;boolean)
-+  nextCorrelationId()
-+  newClientRequest(String;AbstractRequest.Builder<?>;long;boolean;int;RequestCompletionHandler)
-+  discoverBrokerVersions()
++ NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;LogContext) : NetworkClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#109]]]
++ NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;Sensor;LogContext) : NetworkClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#142]]]
++ NetworkClient(Selectable;MetadataUpdater;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;LogContext) : NetworkClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#178]]]
++ NetworkClient(MetadataUpdater;Metadata;Selectable;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;Sensor;LogContext;HostResolver) : NetworkClient [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#213]]]
++ ready(Node;long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#261]]]
+canConnect(Node;long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#276]]]
++ disconnect(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#282]]]
+- cancelInFlightRequests(String;long;Collection<ClientResponse>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#295]]]
++ close(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#323]]]
++ connectionDelay(Node;long) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#333]]]
++ throttleDelayMs(Node;long) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#339]]]
++ pollDelayMs(Node;long) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#345]]]
++ connectionFailed(Node) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#351]]]
++ authenticationException(Node) : AuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#357]]]
++ isReady(Node;long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#363]]]
+- canSendRequest(String;long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#370]]]
++ send(ClientRequest;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#377]]]
+sendInternalMetadataRequest(MetadataRequest.Builder;String;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#382]]]
+- doSend(ClientRequest;boolean;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#387]]]
+- doSend(ClientRequest;boolean;long;AbstractRequest) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#435]]]
++ poll(long;long) : List<ClientResponse> [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#456]]]
+- completeResponses(List<ClientResponse>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#490]]]
++ inFlightRequestCount() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#502]]]
++ hasInFlightRequests() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#507]]]
++ inFlightRequestCount(String) : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#513]]]
++ hasInFlightRequests(String) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#518]]]
++ hasReadyNodes(long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#523]]]
++ wakeup() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#529]]]
++ initiateClose() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#534]]]
++ active() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#541]]]
+- ensureActive() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#545]]]
++ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#552]]]
++ leastLoadedNode(long) : Node [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#564]]]
++ parseResponse(ByteBuffer;RequestHeader) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#620]]]
+- processDisconnection(List<ClientResponse>;String;long;ChannelState) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#639]]]
+- handleTimedOutRequests(List<ClientResponse>;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#672]]]
+- handleAbortedSends(List<ClientResponse>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#682]]]
+- handleTimedOutConnections(List<ClientResponse>;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#688]]]
+- handleCompletedSends(List<ClientResponse>;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#702]]]
+- maybeThrottle(AbstractResponse;short;String;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#714]]]
+- handleCompletedReceives(List<ClientResponse>;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#724]]]
+- handleApiVersionsResponse(List<ClientResponse>;InFlightRequest;long;ApiVersionsResponse) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#749]]]
+- handleDisconnections(List<ClientResponse>;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#784]]]
+- handleConnections() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#793]]]
+- handleInitiateApiVersionRequests(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#809]]]
+- initiateConnect(Node;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#830]]]
++ newClientRequest(String;AbstractRequest.Builder<?>;long;boolean) : ClientRequest [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1026]]]
+nextCorrelationId() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1034]]]
++ newClientRequest(String;AbstractRequest.Builder<?>;long;boolean;int;RequestCompletionHandler) : ClientRequest [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1043]]]
++ discoverBrokerVersions() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1053]]]
 } 
 @enduml

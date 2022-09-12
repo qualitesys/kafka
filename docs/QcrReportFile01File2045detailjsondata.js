@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDBRangeIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBRangeIterator.java.html#21"
  , "c1" : "RocksDBRangeIterator"
  , "c2" : "RocksDBRangeIterator(String;RocksIterator;Set<KeyValueIterator<Bytes,byte[]>>;Bytes;Bytes;boolean;boolean)"
  , "c3" : "7"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBRangeIterator.java.html#49"
  , "c1" : "KeyValue<Bytes,byte[]>"
  , "c2" : "makeNext()"
  , "c3" : "13"

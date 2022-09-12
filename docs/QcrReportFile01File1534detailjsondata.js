@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.StreamsBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#47"
  , "c1" : "StreamsBuilder"
  , "c2" : "StreamsBuilder()"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#54"
  , "c1" : "StreamsBuilder"
  , "c2" : "StreamsBuilder(TopologyConfig)"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#60"
  , "c1" : "Topology"
  , "c2" : "getNewTopology(TopologyConfig)"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00207"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#207"
  , "c1" : "StreamsBuilder"
  , "c2" : "addStateStore(StoreBuilder<?>)"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#247"
  , "c1" : "Topology"
  , "c2" : "build()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00252"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#252"
  , "c1" : "Topology"
  , "c2" : "build(Properties)"
  , "c3" : "1"

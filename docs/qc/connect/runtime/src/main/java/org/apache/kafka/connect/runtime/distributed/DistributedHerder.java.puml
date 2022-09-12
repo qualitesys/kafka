@@ -2,82 +2,82 @@
 !pragma layout smetana
 AbstractHerderRunnable <|-- org.apache.kafka.connect.runtime.distributed.DistributedHerder
 class org.apache.kafka.connect.runtime.distributed.DistributedHerder {
-+  DistributedHerder(DistributedConfig;Time;Worker;String;StatusBackingStore;ConfigBackingStore;String;ConnectorClientConfigOverridePolicy;AutoCloseable...)
-+  DistributedHerder(DistributedConfig;Worker;String;String;StatusBackingStore;ConfigBackingStore;WorkerGroupMember;String;ConnectMetrics;Time;ConnectorClientConfigOverridePolicy;AutoCloseable...)
-+  start()
-+  run()
-+  tick()
-+  checkForKeyRotation(long)
-+  updateConfigsWithEager(AtomicReference<Set<String>>;AtomicReference<Set<String>>)
-+  updateConfigsWithIncrementalCooperative(AtomicReference<Set<String>>;AtomicReference<Set<String>>;AtomicReference<Set<ConnectorTaskId>>)
-+  processConnectorConfigUpdates(Set<String>)
-+  processTargetStateChanges(Set<String>)
-+  processTaskConfigUpdatesWithIncrementalCooperative(Set<ConnectorTaskId>)
-+  stopReconfiguredTasks(Set<String>)
-+  halt()
-+  stopServices()
-+  stop()
-+  connectors(Callback<Collection<String>>)
-+  connectorInfo(String;Callback<ConnectorInfo>)
-+  tasksConfig(String;Callback<Map<ConnectorTaskId,Map<String,String>>>)
-+  rawConfig(String)
-+  connectorConfig(String;Callback<Map<String,String>>)
-+  deleteConnectorConfig(String;Callback<Created<ConnectorInfo>>)
-+  validateSinkConnectorConfig(SinkConnector;ConfigDef;Map<String,String>)
-+  validateSourceConnectorConfig(SourceConnector;ConfigDef;Map<String,String>)
-+  validateSinkConnectorGroupId(Map<String,ConfigValue>)
-+  validateSourceConnectorExactlyOnceSupport(Map<String,String>;Map<String,ConfigValue>;SourceConnector)
-+  validateSourceConnectorTransactionBoundary(Map<String,String>;Map<String,ConfigValue>;SourceConnector)
-+  connectorUsesAdmin(org.apache.kafka.connect.health.ConnectorType;Map<String,String>)
-+  connectorUsesConsumer(org.apache.kafka.connect.health.ConnectorType;Map<String,String>)
-+  connectorUsesSeparateOffsetsTopicClients(org.apache.kafka.connect.health.ConnectorType;Map<String,String>)
-+  putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>)
-+  requestTaskReconfiguration(String)
-+  taskConfigs(String;Callback<List<TaskInfo>>)
-+  putTaskConfigs(String;List<Map<String,String>>;Callback<Void>;InternalRequestSignature)
-+  fenceZombieSourceTasks(String;Callback<Void>;InternalRequestSignature)
-+  fenceZombieSourceTasks(ConnectorTaskId;Callback<Void>)
-+  fenceZombieSourceTasks(String;Callback<Void>)
-+  restartConnector(String;Callback<Void>)
-+  restartConnector(long;String;Callback<Void>)
-+  restartTask(ConnectorTaskId;Callback<Void>)
-+  generation()
-+  restartConnectorAndTasks(RestartRequest;Callback<ConnectorStateInfo>)
-+  processRestartRequests()
-+  doRestartConnectorAndTasks(RestartRequest)
-+  isLeader()
-+  leaderUrl()
-+  writeToConfigTopicAsLeader(Runnable)
-+  handleRebalanceCompleted()
-+  readConfigToEnd(long)
-+  refreshConfigSnapshot(long)
-+  backoff(long)
-+  startAndStop(Collection<Callable<Void>>)
-+  startWork()
-+  startTask(ConnectorTaskId)
-+  getTaskStartingCallable(ConnectorTaskId)
-+  getTaskStoppingCallable(ConnectorTaskId)
-+  startConnector(String;Callback<Void>)
-+  getConnectorStartingCallable(String)
-+  getConnectorStoppingCallable(String)
-+  reconfigureConnectorTasksWithRetry(long;String)
-+  isPossibleExpiredKeyException(long;Throwable)
-+  reconfigureConnector(String;Callback<Void>)
-+  verifyTaskGenerationAndOwnership(ConnectorTaskId;int)
-+  verifyTaskGenerationAndOwnership(ConnectorTaskId;int;Callback<Void>)
-+  checkRebalanceNeeded(Callback<?>)
-+  runOnTickThread(Callable<Void>;Callback<Void>)
-+  addRequest(Callable<Void>;Callback<Void>)
-+  addRequest(long;Callable<Void>;Callback<Void>)
-+  runRequest(Callable<Void>;Callback<Void>)
-+  internalRequestValidationEnabled()
-+  internalRequestValidationEnabled(short)
-+  peekWithoutException()
-+  forwardErrorCallback(Callback<?>)
-+  updateDeletedConnectorStatus()
-+  updateDeletedTaskStatus()
-+  herderMetrics()
-+  isSourceConnector(String)
-+  requestNotSignedProperly(InternalRequestSignature;Callback<?>)
++ DistributedHerder(DistributedConfig;Time;Worker;String;StatusBackingStore;ConfigBackingStore;String;ConnectorClientConfigOverridePolicy;AutoCloseable...) : DistributedHerder [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#178]]]
+DistributedHerder(DistributedConfig;Worker;String;String;StatusBackingStore;ConfigBackingStore;WorkerGroupMember;String;ConnectMetrics;Time;ConnectorClientConfigOverridePolicy;AutoCloseable...) : DistributedHerder [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#193]]]
++ start() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#273]]]
++ run() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#278]]]
++ tick() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#305]]]
+- checkForKeyRotation(long) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#463]]]
+- updateConfigsWithEager(AtomicReference<Set<String>>;AtomicReference<Set<String>>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#497]]]
+- updateConfigsWithIncrementalCooperative(AtomicReference<Set<String>>;AtomicReference<Set<String>>;AtomicReference<Set<ConnectorTaskId>>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#545]]]
+- processConnectorConfigUpdates(Set<String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#596]]]
+- processTargetStateChanges(Set<String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#625]]]
+- processTaskConfigUpdatesWithIncrementalCooperative(Set<ConnectorTaskId>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#652]]]
+- stopReconfiguredTasks(Set<String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#664]]]
++ halt() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#685]]]
+stopServices() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#713]]]
++ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#722]]]
++ connectors(Callback<Collection<String>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#748]]]
++ connectorInfo(String;Callback<ConnectorInfo>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#762]]]
++ tasksConfig(String;Callback<Map<ConnectorTaskId,Map<String,String>>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#783]]]
+rawConfig(String) : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#803]]]
++ connectorConfig(String;Callback<Map<String,String>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#808]]]
++ deleteConnectorConfig(String;Callback<Created<ConnectorInfo>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#814]]]
+validateSinkConnectorConfig(SinkConnector;ConfigDef;Map<String,String>) : Map<String,ConfigValue> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#837]]]
+validateSourceConnectorConfig(SourceConnector;ConfigDef;Map<String,String>) : Map<String,ConfigValue> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#844]]]
+- validateSinkConnectorGroupId(Map<String,ConfigValue>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#852]]]
+- validateSourceConnectorExactlyOnceSupport(Map<String,String>;Map<String,ConfigValue>;SourceConnector) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#861]]]
+- validateSourceConnectorTransactionBoundary(Map<String,String>;Map<String,ConfigValue>;SourceConnector) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#908]]]
+connectorUsesAdmin(org.apache.kafka.connect.health.ConnectorType;Map<String,String>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#947]]]
+connectorUsesConsumer(org.apache.kafka.connect.health.ConnectorType;Map<String,String>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#953]]]
+- connectorUsesSeparateOffsetsTopicClients(org.apache.kafka.connect.health.ConnectorType;Map<String,String>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#958]]]
++ putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#967]]]
++ requestTaskReconfiguration(String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1019]]]
++ taskConfigs(String;Callback<List<TaskInfo>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1037]]]
++ putTaskConfigs(String;List<Map<String,String>>;Callback<Void>;InternalRequestSignature) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1062]]]
++ fenceZombieSourceTasks(String;Callback<Void>;InternalRequestSignature) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1086]]]
+fenceZombieSourceTasks(ConnectorTaskId;Callback<Void>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1096]]]
+fenceZombieSourceTasks(String;Callback<Void>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1120]]]
++ restartConnector(String;Callback<Void>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1192]]]
++ restartConnector(long;String;Callback<Void>) : HerderRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1197]]]
++ restartTask(ConnectorTaskId;Callback<Void>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1227]]]
++ generation() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1264]]]
++ restartConnectorAndTasks(RestartRequest;Callback<ConnectorStateInfo>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1269]]]
+processRestartRequests() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1300]]]
+doRestartConnectorAndTasks(RestartRequest) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1320]]]
+- isLeader() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1381]]]
+- leaderUrl() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1386]]]
+- writeToConfigTopicAsLeader(Runnable) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1393]]]
+- handleRebalanceCompleted() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1404]]]
+- readConfigToEnd(long) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1495]]]
+- refreshConfigSnapshot(long) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1514]]]
+- backoff(long) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1527]]]
+- startAndStop(Collection<Callable<Void>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1552]]]
+- startWork() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1560]]]
+- startTask(ConnectorTaskId) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1609]]]
+- getTaskStartingCallable(ConnectorTaskId) : Callable<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1663]]]
+- getTaskStoppingCallable(ConnectorTaskId) : Callable<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1676]]]
+- startConnector(String;Callback<Void>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1686]]]
+- getConnectorStartingCallable(String) : Callable<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1717]]]
+- getConnectorStoppingCallable(String) : Callable<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1733]]]
+- reconfigureConnectorTasksWithRetry(long;String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1744]]]
+isPossibleExpiredKeyException(long;Throwable) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1771]]]
+- reconfigureConnector(String;Callback<Void>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1782]]]
+- verifyTaskGenerationAndOwnership(ConnectorTaskId;int) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1855]]]
+verifyTaskGenerationAndOwnership(ConnectorTaskId;int;Callback<Void>) : Void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1879]]]
+- checkRebalanceNeeded(Callback<?>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1895]]]
+runOnTickThread(Callable<Void>;Callback<Void>) : DistributedHerderRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1906]]]
+addRequest(Callable<Void>;Callback<Void>) : DistributedHerderRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1915]]]
+addRequest(long;Callable<Void>;Callback<Void>) : DistributedHerderRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1919]]]
+- runRequest(Callable<Void>;Callback<Void>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1927]]]
+- internalRequestValidationEnabled() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1936]]]
+- internalRequestValidationEnabled(short) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1940]]]
+- peekWithoutException() : DistributedHerderRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1944]]]
+- forwardErrorCallback(Callback<?>) : Callback<Void> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2110]]]
+- updateDeletedConnectorStatus() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2117]]]
+- updateDeletedTaskStatus() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2128]]]
+herderMetrics() : HerderMetrics [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2140]]]
+- isSourceConnector(String) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2283]]]
+- requestNotSignedProperly(InternalRequestSignature;Callback<?>) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2288]]]
 } 
 @enduml

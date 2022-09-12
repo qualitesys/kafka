@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.processor.internals.RepartitionTopics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#42"
  , "c1" : "RepartitionTopics"
  , "c2" : "RepartitionTopics(TopologyMetadata;InternalTopicManager;CopartitionedTopicsEnforcer;Cluster;String)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#55"
  , "c1" : "void"
  , "c2" : "setup()"
  , "c3" : "7"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#91"
  , "c1" : "Set<String>"
  , "c2" : "topologiesWithMissingInputTopics()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#98"
  , "c1" : "Queue<StreamsException>"
  , "c2" : "missingSourceTopicExceptions()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#112"
  , "c1" : "Map<TopicPartition,PartitionInfo>"
  , "c2" : "topicPartitionsInfo()"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#117"
  , "c1" : "Map<String,InternalTopicConfig>"
  , "c2" : "computeRepartitionTopicConfig(Cluster)"
  , "c3" : "6"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00164"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#164"
  , "c1" : "void"
  , "c2" : "ensureCopartitioning(Collection<Set<String>>;Map<String,InternalTopicConfig>;Cluster)"
  , "c3" : "2"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#172"
  , "c1" : "Set<String>"
  , "c2" : "computeMissingExternalSourceTopics(TopicsInfo;Cluster)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181"
  , "c1" : "void"
  , "c2" : "setRepartitionSourceTopicPartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster)"
  , "c3" : "9"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00224"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224"
  , "c1" : "Integer"
  , "c2" : "computePartitionCount(Map<String,InternalTopicConfig>;Collection<TopicsInfo>;Cluster;String)"
  , "c3" : "10"

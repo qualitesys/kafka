@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.raft.FollowerState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#28"
  , "c1" : "FollowerState"
  , "c2" : "FollowerState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#48"
  , "c1" : "ElectionState"
  , "c2" : "election()"
  , "c3" : "1"
@@ -32,6 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#58"
  , "c1" : "int"
  , "c2" : "epoch()"
  , "c3" : "1"
@@ -39,6 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#63"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -46,6 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#67"
  , "c1" : "long"
  , "c2" : "remainingFetchTimeMs(long)"
  , "c3" : "1"
@@ -53,6 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#72"
  , "c1" : "int"
  , "c2" : "leaderId()"
  , "c3" : "1"
@@ -60,6 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#76"
  , "c1" : "boolean"
  , "c2" : "hasFetchTimeoutExpired(long)"
  , "c3" : "1"
@@ -67,6 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#81"
  , "c1" : "void"
  , "c2" : "resetFetchTimeout(long)"
  , "c3" : "1"
@@ -74,6 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#86"
  , "c1" : "void"
  , "c2" : "overrideFetchTimeout(long;long)"
  , "c3" : "1"
@@ -81,6 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91"
  , "c1" : "boolean"
  , "c2" : "updateHighWatermark(OptionalLong)"
  , "c3" : "6"
@@ -88,6 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#115"
  , "c1" : "Optional<LogOffsetMetadata>"
  , "c2" : "highWatermark()"
  , "c3" : "1"
@@ -95,6 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#119"
  , "c1" : "Optional<RawSnapshotWriter>"
  , "c2" : "fetchingSnapshot()"
  , "c3" : "1"
@@ -102,6 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#123"
  , "c1" : "void"
  , "c2" : "setFetchingSnapshot(Optional<RawSnapshotWriter>)"
  , "c3" : "2"
@@ -109,6 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#131"
  , "c1" : "boolean"
  , "c2" : "canGrantVote(int;boolean)"
  , "c3" : "1"
@@ -116,6 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#138"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -123,6 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#150"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "2"

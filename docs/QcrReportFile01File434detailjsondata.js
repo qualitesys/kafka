@@ -18,6 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.UnsupportedVersionException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedVersionException.java.html#10"
  , "c1" : "UnsupportedVersionException"
  , "c2" : "UnsupportedVersionException(String;Throwable)"
  , "c3" : "1"
@@ -25,6 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedVersionException.java.html#14"
  , "c1" : "UnsupportedVersionException"
  , "c2" : "UnsupportedVersionException(String)"
  , "c3" : "1"

@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.FeatureControlManager
 class org.apache.kafka.controller.FeatureControlManager {
-+  FeatureControlManager(LogContext;QuorumFeatures;SnapshotRegistry;MetadataVersion)
-+  updateFeatures(Map<String,Short>;Map<String,FeatureUpdate.UpgradeType>;Map<Integer,Map<String,VersionRange>>;boolean)
-+  metadataVersion()
-+  updateFeature(String;short;FeatureUpdate.UpgradeType;Map<Integer,Map<String,VersionRange>>;List<ApiMessageAndVersion>)
-+  invalidUpdateVersion(String;short;String)
-+  updateMetadataVersion(short;boolean;Consumer<ApiMessageAndVersion>)
-+  invalidMetadataVersion(short;String)
-+  finalizedFeatures(long)
-+  sawMetadataVersion()
-+  replay(FeatureLevelRecord)
-+  iterator(long)
+- FeatureControlManager(LogContext;QuorumFeatures;SnapshotRegistry;MetadataVersion) : FeatureControlManager [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#90]]]
+updateFeatures(Map<String,Short>;Map<String,FeatureUpdate.UpgradeType>;Map<Integer,Map<String,VersionRange>>;boolean) : ControllerResult<Map<String,ApiError>> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#103]]]
+metadataVersion() : MetadataVersion [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#123]]]
+- updateFeature(String;short;FeatureUpdate.UpgradeType;Map<Integer,Map<String,VersionRange>>;List<ApiMessageAndVersion>) : ApiError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#127]]]
+- invalidUpdateVersion(String;short;String) : ApiError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#189]]]
+- updateMetadataVersion(short;boolean;Consumer<ApiMessageAndVersion>) : ApiError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#196]]]
+- invalidMetadataVersion(short;String) : ApiError [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#232]]]
+finalizedFeatures(long) : FinalizedControllerFeatures [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#238]]]
+sawMetadataVersion() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#248]]]
++ replay(FeatureLevelRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#252]]]
+iterator(long) : FeatureControlIterator [[[././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#306]]]
 } 
 @enduml
