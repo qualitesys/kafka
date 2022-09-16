@@ -2,8 +2,8 @@
 !pragma layout smetana
 KafkaException <|-- org.apache.kafka.common.security.oauthbearer.secured.UnretryableException
 class org.apache.kafka.common.security.oauthbearer.secured.UnretryableException {
-+ UnretryableException(String) : UnretryableException [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/UnretryableException.java.html#9]]]
-+ UnretryableException(Throwable) : UnretryableException [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/UnretryableException.java.html#13]]]
-+ UnretryableException(String;Throwable) : UnretryableException [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/UnretryableException.java.html#17]]]
++UnretryableException(String) : UnretryableException [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/UnretryableException.java.html#9]]]
++UnretryableException(Throwable) : UnretryableException [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/UnretryableException.java.html#13]]]
++UnretryableException(String;Throwable) : UnretryableException [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/UnretryableException.java.html#17]]]
 } 
 @enduml

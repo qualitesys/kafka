@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.Segments
 class org.apache.kafka.streams.state.internals.Segments {
-segmentId(long) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#10]]]
-segmentName(long) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#12]]]
-getSegmentForTimestamp(long) : S [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#14]]]
-getOrCreateSegmentIfLive(long;ProcessorContext;long) : S [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#16]]]
-getOrCreateSegment(long;ProcessorContext) : S [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#18]]]
-openExisting(ProcessorContext;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#20]]]
-segments(long;long;boolean) : List<S> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#22]]]
-allSegments(boolean) : List<S> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#24]]]
-flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#26]]]
-close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#28]]]
+segmentId(long) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#10]]]
+segmentName(long) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#12]]]
+getSegmentForTimestamp(long) : S [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#14]]]
+getOrCreateSegmentIfLive(long;ProcessorContext;long) : S [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#16]]]
+getOrCreateSegment(long;ProcessorContext) : S [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#18]]]
+openExisting(ProcessorContext;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#20]]]
+segments(long;long;boolean) : List<S> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#22]]]
+allSegments(boolean) : List<S> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#24]]]
+flush() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#26]]]
+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Segments.java.html#28]]]
 } 
 @enduml

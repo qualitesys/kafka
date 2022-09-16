@@ -2,8 +2,8 @@
 !pragma layout smetana
 TransactionGenerator <|-- org.apache.kafka.trogdor.workload.UniformTransactionsGenerator
 class org.apache.kafka.trogdor.workload.UniformTransactionsGenerator {
-+ UniformTransactionsGenerator(int) : UniformTransactionsGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#14]]]
-+ messagesPerTransaction() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#22]]]
-+ nextAction() : TransactionAction [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#27]]]
++UniformTransactionsGenerator(int) : UniformTransactionsGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#14]]]
++messagesPerTransaction() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#22]]]
++nextAction() : TransactionAction [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#27]]]
 } 
 @enduml

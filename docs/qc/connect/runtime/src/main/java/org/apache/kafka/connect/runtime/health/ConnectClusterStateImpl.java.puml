@@ -2,11 +2,11 @@
 !pragma layout smetana
 ConnectClusterState <|-- org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl
 class org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl {
-+ ConnectClusterStateImpl(long;ConnectClusterDetails;Herder) : ConnectClusterStateImpl [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#30]]]
-+ connectors() : Collection<String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#41]]]
-+ connectorHealth(String) : ConnectorHealth [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#52]]]
-+ connectorConfig(String) : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#69]]]
-+ clusterDetails() : ConnectClusterDetails [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#83]]]
-- taskStates(List<ConnectorStateInfo.TaskState>) : Map<Integer,TaskState> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#87]]]
++ConnectClusterStateImpl(long;ConnectClusterDetails;Herder) : ConnectClusterStateImpl [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#30]]]
++connectors() : Collection<String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#41]]]
++connectorHealth(String) : ConnectorHealth [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#52]]]
++connectorConfig(String) : Map<String,String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#69]]]
++clusterDetails() : ConnectClusterDetails [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#83]]]
+-taskStates(List<ConnectorStateInfo.TaskState>) : Map<Integer,TaskState> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#87]]]
 } 
 @enduml

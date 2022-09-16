@@ -2,9 +2,9 @@
 !pragma layout smetana
 ConsumerRebalanceListener <|-- org.apache.kafka.streams.processor.internals.StreamsRebalanceListener
 class org.apache.kafka.streams.processor.internals.StreamsRebalanceListener {
-StreamsRebalanceListener(Time;TaskManager;StreamThread;Logger;AtomicInteger) : StreamsRebalanceListener [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#24]]]
-+ onPartitionsAssigned(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#37]]]
-+ onPartitionsRevoked(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#66]]]
-+ onPartitionsLost(Collection<TopicPartition>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#88]]]
+StreamsRebalanceListener(Time;TaskManager;StreamThread;Logger;AtomicInteger) : StreamsRebalanceListener [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#24]]]
++onPartitionsAssigned(Collection<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#37]]]
++onPartitionsRevoked(Collection<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#66]]]
++onPartitionsLost(Collection<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#88]]]
 } 
 @enduml

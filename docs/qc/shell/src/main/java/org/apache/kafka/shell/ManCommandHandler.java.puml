@@ -2,9 +2,9 @@
 !pragma layout smetana
 Commands.Handler <|-- org.apache.kafka.shell.ManCommandHandler
 class org.apache.kafka.shell.ManCommandHandler {
-+ ManCommandHandler(String) : ManCommandHandler [[[././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#60]]]
-+ run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#65]]]
-+ hashCode() : int [[[././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#81]]]
-+ equals(Object) : boolean [[[././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#86]]]
++ManCommandHandler(String) : ManCommandHandler [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#60]]]
++run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#65]]]
++hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#81]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#86]]]
 } 
 @enduml

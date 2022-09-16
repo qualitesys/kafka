@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.AclsDelta
 class org.apache.kafka.image.AclsDelta {
-+ AclsDelta(AclsImage) : AclsDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#26]]]
-+ changes() : Map<Uuid,Optional<StandardAcl>> [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#31]]]
-finishSnapshot() : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#35]]]
-+ handleMetadataVersionChange(MetadataVersion) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#39]]]
-+ isSnapshotDelta() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#43]]]
-+ replay(AccessControlEntryRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#47]]]
-+ replay(RemoveAccessControlEntryRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#53]]]
-+ apply() : AclsImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#63]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#86]]]
++AclsDelta(AclsImage) : AclsDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#26]]]
++changes() : Map<Uuid,Optional<StandardAcl>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#31]]]
+finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#35]]]
++handleMetadataVersionChange(MetadataVersion) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#39]]]
++isSnapshotDelta() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#43]]]
++replay(AccessControlEntryRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#47]]]
++replay(RemoveAccessControlEntryRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#53]]]
++apply() : AclsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#63]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#86]]]
 } 
 @enduml

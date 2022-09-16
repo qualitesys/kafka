@@ -2,10 +2,10 @@
 !pragma layout smetana
 Login <|-- org.apache.kafka.common.security.authenticator.AbstractLogin
 class org.apache.kafka.common.security.authenticator.AbstractLogin {
-+ configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#33]]]
-+ login() : LoginContext [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#41]]]
-+ subject() : Subject [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#49]]]
-contextName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#53]]]
-configuration() : Configuration [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#57]]]
++configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#33]]]
++login() : LoginContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#41]]]
++subject() : Subject [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#49]]]
+contextName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#53]]]
+configuration() : Configuration [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#57]]]
 } 
 @enduml

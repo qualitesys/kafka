@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.MessageGenerator
 class org.apache.kafka.message.MessageGenerator {
-- createTypeClassGenerators(String;List<String>) : List<TypeClassGenerator> [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#158]]]
-- createMessageClassGenerators(String;List<String>) : List<MessageClassGenerator> [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#180]]]
-+ processDirectories(String;String;String;List<String>;List<String>) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#199]]]
-capitalizeFirst(String) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#254]]]
-lowerCaseFirst(String) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#262]]]
-firstIsCapitalized(String) : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#270]]]
-toSnakeCase(String) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#277]]]
-stripSuffix(String;String) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#296]]]
-sizeOfUnsignedVarint(int) : int [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#306]]]
-+ main(String[]) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#315]]]
+-createTypeClassGenerators(String;List<String>) : List<TypeClassGenerator> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#158]]]
+-createMessageClassGenerators(String;List<String>) : List<MessageClassGenerator> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#180]]]
++processDirectories(String;String;String;List<String>;List<String>) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#199]]]
+capitalizeFirst(String) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#254]]]
+lowerCaseFirst(String) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#262]]]
+firstIsCapitalized(String) : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#270]]]
+toSnakeCase(String) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#277]]]
+stripSuffix(String;String) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#296]]]
+sizeOfUnsignedVarint(int) : int [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#306]]]
++main(String[]) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#315]]]
 } 
 @enduml

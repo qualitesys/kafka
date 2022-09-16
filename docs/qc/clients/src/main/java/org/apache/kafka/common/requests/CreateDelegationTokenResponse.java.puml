@@ -2,15 +2,15 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.CreateDelegationTokenResponse
 class org.apache.kafka.common.requests.CreateDelegationTokenResponse {
-+ CreateDelegationTokenResponse(CreateDelegationTokenResponseData) : CreateDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#17]]]
-+ parse(ByteBuffer;short) : CreateDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#22]]]
-+ prepareResponse(int;int;Errors;KafkaPrincipal;KafkaPrincipal;long;long;long;String;ByteBuffer) : CreateDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#27]]]
-+ prepareResponse(int;int;Errors;KafkaPrincipal;KafkaPrincipal) : CreateDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#54]]]
-+ data() : CreateDelegationTokenResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#60]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#65]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#70]]]
-+ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#74]]]
-+ hasError() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#78]]]
-+ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#83]]]
++CreateDelegationTokenResponse(CreateDelegationTokenResponseData) : CreateDelegationTokenResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#17]]]
++parse(ByteBuffer;short) : CreateDelegationTokenResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#22]]]
++prepareResponse(int;int;Errors;KafkaPrincipal;KafkaPrincipal;long;long;long;String;ByteBuffer) : CreateDelegationTokenResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#27]]]
++prepareResponse(int;int;Errors;KafkaPrincipal;KafkaPrincipal) : CreateDelegationTokenResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#54]]]
++data() : CreateDelegationTokenResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#60]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#65]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#70]]]
++error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#74]]]
++hasError() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#78]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateDelegationTokenResponse.java.html#83]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 Node <|-- org.apache.kafka.trogdor.basic.BasicNode
 class org.apache.kafka.trogdor.basic.BasicNode {
-+ BasicNode(String;String;Map<String,String>;Set<String>) : BasicNode [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#22]]]
-+ BasicNode(String;JsonNode) : BasicNode [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#30]]]
-+ name() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#62]]]
-+ hostname() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#67]]]
-+ getConfig(String) : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#72]]]
-+ tags() : Set<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#77]]]
-+ hashCode() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#82]]]
-+ equals(Object) : boolean [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#87]]]
++BasicNode(String;String;Map<String,String>;Set<String>) : BasicNode [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#22]]]
++BasicNode(String;JsonNode) : BasicNode [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#30]]]
++name() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#62]]]
++hostname() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#67]]]
++getConfig(String) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#72]]]
++tags() : Set<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#77]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#82]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#87]]]
 } 
 @enduml

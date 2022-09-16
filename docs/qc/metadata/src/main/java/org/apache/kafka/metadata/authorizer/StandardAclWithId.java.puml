@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.authorizer.StandardAclWithId
 class org.apache.kafka.metadata.authorizer.StandardAclWithId {
-+ fromRecord(AccessControlEntryRecord) : StandardAclWithId [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#14]]]
-+ StandardAclWithId(Uuid;StandardAcl) : StandardAclWithId [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#21]]]
-+ id() : Uuid [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#27]]]
-+ acl() : StandardAcl [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#31]]]
-+ toRecord() : AccessControlEntryRecord [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#35]]]
-+ toBinding() : AclBinding [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#47]]]
-+ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#52]]]
-+ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#61]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#66]]]
++fromRecord(AccessControlEntryRecord) : StandardAclWithId [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#14]]]
++StandardAclWithId(Uuid;StandardAcl) : StandardAclWithId [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#21]]]
++id() : Uuid [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#27]]]
++acl() : StandardAcl [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#31]]]
++toRecord() : AccessControlEntryRecord [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#35]]]
++toBinding() : AclBinding [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#47]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#52]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#61]]]
++toString() : String [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#66]]]
 } 
 @enduml

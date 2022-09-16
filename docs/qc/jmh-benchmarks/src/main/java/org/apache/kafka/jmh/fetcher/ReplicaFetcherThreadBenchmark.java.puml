@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark
 class org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark {
-+ setup() : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#113]]]
-+ tearDown() : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#247]]]
-+ testFetcher() : long [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#256]]]
-- createLogConfig() : LogConfig [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#273]]]
++setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#113]]]
++tearDown() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#247]]]
++testFetcher() : long [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#256]]]
+-createLogConfig() : LogConfig [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#273]]]
 } 
 @enduml

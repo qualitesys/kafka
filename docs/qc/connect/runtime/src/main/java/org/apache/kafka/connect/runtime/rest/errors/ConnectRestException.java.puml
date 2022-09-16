@@ -2,15 +2,15 @@
 !pragma layout smetana
 ConnectException <|-- org.apache.kafka.connect.runtime.rest.errors.ConnectRestException
 class org.apache.kafka.connect.runtime.rest.errors.ConnectRestException {
-+ ConnectRestException(int;int;String;Throwable) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#12]]]
-+ ConnectRestException(Response.Status;int;String;Throwable) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#18]]]
-+ ConnectRestException(int;int;String) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#22]]]
-+ ConnectRestException(Response.Status;int;String) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#26]]]
-+ ConnectRestException(int;String;Throwable) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#30]]]
-+ ConnectRestException(Response.Status;String;Throwable) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#34]]]
-+ ConnectRestException(int;String) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#38]]]
-+ ConnectRestException(Response.Status;String) : ConnectRestException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#42]]]
-+ statusCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#47]]]
-+ errorCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#51]]]
++ConnectRestException(int;int;String;Throwable) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#12]]]
++ConnectRestException(Response.Status;int;String;Throwable) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#18]]]
++ConnectRestException(int;int;String) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#22]]]
++ConnectRestException(Response.Status;int;String) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#26]]]
++ConnectRestException(int;String;Throwable) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#30]]]
++ConnectRestException(Response.Status;String;Throwable) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#34]]]
++ConnectRestException(int;String) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#38]]]
++ConnectRestException(Response.Status;String) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#42]]]
++statusCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#47]]]
++errorCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#51]]]
 } 
 @enduml

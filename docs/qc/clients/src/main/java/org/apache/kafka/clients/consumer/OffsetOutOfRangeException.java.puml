@@ -2,9 +2,9 @@
 !pragma layout smetana
 InvalidOffsetException <|-- org.apache.kafka.clients.consumer.OffsetOutOfRangeException
 class org.apache.kafka.clients.consumer.OffsetOutOfRangeException {
-+ OffsetOutOfRangeException(Map<TopicPartition,Long>) : OffsetOutOfRangeException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#15]]]
-+ OffsetOutOfRangeException(String;Map<TopicPartition,Long>) : OffsetOutOfRangeException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#20]]]
-+ offsetOutOfRangePartitions() : Map<TopicPartition,Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#26]]]
-+ partitions() : Set<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#31]]]
++OffsetOutOfRangeException(Map<TopicPartition,Long>) : OffsetOutOfRangeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#15]]]
++OffsetOutOfRangeException(String;Map<TopicPartition,Long>) : OffsetOutOfRangeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#20]]]
++offsetOutOfRangePartitions() : Map<TopicPartition,Long> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#26]]]
++partitions() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetOutOfRangeException.java.html#31]]]
 } 
 @enduml

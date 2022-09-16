@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractSegments_TimestampedSegment_ <|-- org.apache.kafka.streams.state.internals.TimestampedSegments
 class org.apache.kafka.streams.state.internals.TimestampedSegments {
-TimestampedSegments(String;String;long;long) : TimestampedSegments [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#13]]]
-+ getOrCreateSegment(long;ProcessorContext) : TimestampedSegment [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#22]]]
-+ openExisting(ProcessorContext;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#40]]]
+TimestampedSegments(String;String;long;long) : TimestampedSegments [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#13]]]
++getOrCreateSegment(long;ProcessorContext) : TimestampedSegment [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#22]]]
++openExisting(ProcessorContext;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#40]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper {
-+ SubscriptionWrapper(long[];Instruction;K;Integer) : SubscriptionWrapper [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#56]]]
-+ SubscriptionWrapper(long[];Instruction;K;byte;Integer) : SubscriptionWrapper [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#60]]]
-+ getInstruction() : Instruction [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#74]]]
-+ getHash() : long[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#78]]]
-+ getPrimaryKey() : K [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#82]]]
-+ getVersion() : byte [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#86]]]
-+ getPrimaryPartition() : Integer [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#90]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#95]]]
++SubscriptionWrapper(long[];Instruction;K;Integer) : SubscriptionWrapper [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#56]]]
++SubscriptionWrapper(long[];Instruction;K;byte;Integer) : SubscriptionWrapper [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#60]]]
++getInstruction() : Instruction [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#74]]]
++getHash() : long[] [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#78]]]
++getPrimaryKey() : K [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#82]]]
++getVersion() : byte [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#86]]]
++getPrimaryPartition() : Integer [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#90]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#95]]]
 } 
 @enduml

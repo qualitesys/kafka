@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.connector.ConnectorContext
 class org.apache.kafka.connect.connector.ConnectorContext {
-requestTaskReconfiguration() : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#7]]]
-raiseError(Exception) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#10]]]
+requestTaskReconfiguration() : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#7]]]
+raiseError(Exception) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectorContext.java.html#10]]]
 } 
 @enduml

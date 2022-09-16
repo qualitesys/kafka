@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.MessageSpec
 class org.apache.kafka.message.MessageSpec {
-+ MessageSpec(String;String;List<FieldSpec>;Short;MessageSpecType;List<StructSpec>;String;List<RequestListenerType>) : MessageSpec [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#28]]]
-+ struct() : StructSpec [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#60]]]
-+ name() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#65]]]
-+ validVersions() : Versions [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#69]]]
-+ validVersionsString() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#74]]]
-+ fields() : List<FieldSpec> [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#79]]]
-+ apiKey() : Optional<Short> [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#84]]]
-+ type() : MessageSpecType [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#89]]]
-+ commonStructs() : List<StructSpec> [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#94]]]
-+ flexibleVersions() : Versions [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#98]]]
-+ flexibleVersionsString() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#103]]]
-+ listeners() : List<RequestListenerType> [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#108]]]
-+ dataClassName() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#112]]]
++MessageSpec(String;String;List<FieldSpec>;Short;MessageSpecType;List<StructSpec>;String;List<RequestListenerType>) : MessageSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#28]]]
++struct() : StructSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#60]]]
++name() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#65]]]
++validVersions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#69]]]
++validVersionsString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#74]]]
++fields() : List<FieldSpec> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#79]]]
++apiKey() : Optional<Short> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#84]]]
++type() : MessageSpecType [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#89]]]
++commonStructs() : List<StructSpec> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#94]]]
++flexibleVersions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#98]]]
++flexibleVersionsString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#103]]]
++listeners() : List<RequestListenerType> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#108]]]
++dataClassName() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#112]]]
 } 
 @enduml

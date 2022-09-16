@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteAclsResult
 class org.apache.kafka.clients.admin.DeleteAclsResult {
-DeleteAclsResult(Map<AclBindingFilter,KafkaFuture<FilterResults>>) : DeleteAclsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#58]]]
-+ values() : Map<AclBindingFilter,KafkaFuture<FilterResults>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#63]]]
-+ all() : KafkaFuture<Collection<AclBinding>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#68]]]
-- getAclBindings(Map<AclBindingFilter,KafkaFuture<FilterResults>>) : List<AclBinding> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#72]]]
+DeleteAclsResult(Map<AclBindingFilter,KafkaFuture<FilterResults>>) : DeleteAclsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#58]]]
++values() : Map<AclBindingFilter,KafkaFuture<FilterResults>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#63]]]
++all() : KafkaFuture<Collection<AclBinding>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#68]]]
+-getAclBindings(Map<AclBindingFilter,KafkaFuture<FilterResults>>) : List<AclBinding> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#72]]]
 } 
 @enduml

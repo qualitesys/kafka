@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.CodeBuffer
 class org.apache.kafka.message.CodeBuffer {
-+ CodeBuffer() : CodeBuffer [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#13]]]
-+ incrementIndent() : void [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#18]]]
-+ decrementIndent() : void [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#22]]]
-+ printf(String;Object...) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#29]]]
-+ write(Writer) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#33]]]
-+ write(CodeBuffer) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#39]]]
-- indentSpaces() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#45]]]
-+ equals(Object) : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#54]]]
-+ hashCode() : int [[[././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#63]]]
++CodeBuffer() : CodeBuffer [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#13]]]
++incrementIndent() : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#18]]]
++decrementIndent() : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#22]]]
++printf(String;Object...) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#29]]]
++write(Writer) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#33]]]
++write(CodeBuffer) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#39]]]
+-indentSpaces() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#45]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#54]]]
++hashCode() : int [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#63]]]
 } 
 @enduml

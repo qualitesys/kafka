@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.ListGroupsResponse
 class org.apache.kafka.common.requests.ListGroupsResponse {
-+ ListGroupsResponse(ListGroupsResponseData) : ListGroupsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#16]]]
-+ data() : ListGroupsResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#22]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#27]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#32]]]
-+ parse(ByteBuffer;short) : ListGroupsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#36]]]
-+ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#41]]]
++ListGroupsResponse(ListGroupsResponseData) : ListGroupsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#16]]]
++data() : ListGroupsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#22]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#27]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#32]]]
++parse(ByteBuffer;short) : ListGroupsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#36]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#41]]]
 } 
 @enduml

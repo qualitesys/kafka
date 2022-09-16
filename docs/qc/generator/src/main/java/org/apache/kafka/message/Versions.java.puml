@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.Versions
 class org.apache.kafka.message.Versions {
-+ parse(String;Versions) : Versions [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#12]]]
-- Versions() : Versions [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#45]]]
-+ Versions(short;short) : Versions [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#50]]]
-+ lowest() : short [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#59]]]
-+ highest() : short [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#63]]]
-+ empty() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#67]]]
-+ toString() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#72]]]
-+ intersect(Versions) : Versions [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#85]]]
-+ subtract(Versions) : Versions [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#95]]]
-+ contains(short) : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#129]]]
-+ contains(Versions) : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#133]]]
-+ hashCode() : int [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#141]]]
-+ equals(Object) : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#146]]]
++parse(String;Versions) : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#12]]]
+-Versions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#45]]]
++Versions(short;short) : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#50]]]
++lowest() : short [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#59]]]
++highest() : short [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#63]]]
++empty() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#67]]]
++toString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#72]]]
++intersect(Versions) : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#85]]]
++subtract(Versions) : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#95]]]
++contains(short) : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#129]]]
++contains(Versions) : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#133]]]
++hashCode() : int [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#141]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#146]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 SinkConnector <|-- org.apache.kafka.connect.file.FileStreamSinkConnector
 class org.apache.kafka.connect.file.FileStreamSinkConnector {
-+ version() : String [[[././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#27]]]
-+ start(Map<String,String>) : void [[[././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#32]]]
-+ taskClass() : Class<?extendsTask> [[[././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#38]]]
-+ taskConfigs(int) : List<Map<String,String>> [[[././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#43]]]
-+ stop() : void [[[././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#55]]]
-+ config() : ConfigDef [[[././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#60]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#27]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#32]]]
++taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#38]]]
++taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#43]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#55]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#60]]]
 } 
 @enduml

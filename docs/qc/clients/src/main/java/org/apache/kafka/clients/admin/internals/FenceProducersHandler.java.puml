@@ -2,13 +2,13 @@
 !pragma layout smetana
 AdminApiHandler.Unbatched_CoordinatorKey,ProducerIdAndEpoch_ <|-- org.apache.kafka.clients.admin.internals.FenceProducersHandler
 class org.apache.kafka.clients.admin.internals.FenceProducersHandler {
-+ FenceProducersHandler(LogContext) : FenceProducersHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#27]]]
-+ newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ProducerIdAndEpoch> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#34]]]
-- buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#40]]]
-+ apiName() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#47]]]
-+ lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#52]]]
-buildSingleRequest(int;CoordinatorKey) : InitProducerIdRequest.Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#57]]]
-+ handleSingleResponse(Node;CoordinatorKey;AbstractResponse) : ApiResult<CoordinatorKey,ProducerIdAndEpoch> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#77]]]
-- handleError(CoordinatorKey;Errors) : ApiResult<CoordinatorKey,ProducerIdAndEpoch> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#97]]]
++FenceProducersHandler(LogContext) : FenceProducersHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#27]]]
++newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ProducerIdAndEpoch> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#34]]]
+-buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#40]]]
++apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#47]]]
++lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#52]]]
+buildSingleRequest(int;CoordinatorKey) : InitProducerIdRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#57]]]
++handleSingleResponse(Node;CoordinatorKey;AbstractResponse) : ApiResult<CoordinatorKey,ProducerIdAndEpoch> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#77]]]
+-handleError(CoordinatorKey;Errors) : ApiResult<CoordinatorKey,ProducerIdAndEpoch> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#97]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 TaskWorker <|-- org.apache.kafka.trogdor.task.NoOpTaskWorker
 class org.apache.kafka.trogdor.task.NoOpTaskWorker {
-+ NoOpTaskWorker(String) : NoOpTaskWorker [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#18]]]
-+ start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23]]]
-+ stop(Platform) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#31]]]
++NoOpTaskWorker(String) : NoOpTaskWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#18]]]
++start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23]]]
++stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#31]]]
 } 
 @enduml

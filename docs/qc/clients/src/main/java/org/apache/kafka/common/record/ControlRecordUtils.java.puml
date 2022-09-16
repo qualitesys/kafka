@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.record.ControlRecordUtils
 class org.apache.kafka.common.record.ControlRecordUtils {
-+ deserializeLeaderChangeMessage(Record) : LeaderChangeMessage [[[././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#18]]]
-+ deserializeLeaderChangeMessage(ByteBuffer) : LeaderChangeMessage [[[././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#27]]]
-+ deserializedSnapshotHeaderRecord(Record) : SnapshotHeaderRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#32]]]
-+ deserializedSnapshotHeaderRecord(ByteBuffer) : SnapshotHeaderRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#41]]]
-+ deserializedSnapshotFooterRecord(Record) : SnapshotFooterRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#46]]]
-+ deserializedSnapshotFooterRecord(ByteBuffer) : SnapshotFooterRecord [[[././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#55]]]
++deserializeLeaderChangeMessage(Record) : LeaderChangeMessage [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#18]]]
++deserializeLeaderChangeMessage(ByteBuffer) : LeaderChangeMessage [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#27]]]
++deserializedSnapshotHeaderRecord(Record) : SnapshotHeaderRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#32]]]
++deserializedSnapshotHeaderRecord(ByteBuffer) : SnapshotHeaderRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#41]]]
++deserializedSnapshotFooterRecord(Record) : SnapshotFooterRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#46]]]
++deserializedSnapshotFooterRecord(ByteBuffer) : SnapshotFooterRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#55]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.HeartbeatResponse
 class org.apache.kafka.common.requests.HeartbeatResponse {
-+ HeartbeatResponse(HeartbeatResponseData) : HeartbeatResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#17]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#23]]]
-+ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#27]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#32]]]
-+ data() : HeartbeatResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#37]]]
-+ parse(ByteBuffer;short) : HeartbeatResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#41]]]
-+ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#46]]]
++HeartbeatResponse(HeartbeatResponseData) : HeartbeatResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#17]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#23]]]
++error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#27]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#32]]]
++data() : HeartbeatResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#37]]]
++parse(ByteBuffer;short) : HeartbeatResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#41]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#46]]]
 } 
 @enduml

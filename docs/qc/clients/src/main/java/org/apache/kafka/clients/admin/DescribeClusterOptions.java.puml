@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractOptions_DescribeClusterOptions_ <|-- org.apache.kafka.clients.admin.DescribeClusterOptions
 class org.apache.kafka.clients.admin.DescribeClusterOptions {
-+ timeoutMs(Integer) : DescribeClusterOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#15]]]
-+ includeAuthorizedOperations(boolean) : DescribeClusterOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#20]]]
-+ includeAuthorizedOperations() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#26]]]
++timeoutMs(Integer) : DescribeClusterOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#15]]]
++includeAuthorizedOperations(boolean) : DescribeClusterOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#20]]]
++includeAuthorizedOperations() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#26]]]
 } 
 @enduml

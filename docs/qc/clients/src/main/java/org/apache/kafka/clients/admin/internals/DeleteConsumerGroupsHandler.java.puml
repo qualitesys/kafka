@@ -2,13 +2,13 @@
 !pragma layout smetana
 AdminApiHandler.Batched_CoordinatorKey,Void_ <|-- org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler
 class org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler {
-+ DeleteConsumerGroupsHandler(LogContext) : DeleteConsumerGroupsHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#29]]]
-+ apiName() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#37]]]
-+ lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#42]]]
-+ newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#46]]]
-- buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#52]]]
-+ buildBatchedRequest(int;Set<CoordinatorKey>) : DeleteGroupsRequest.Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#59]]]
-+ handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#70]]]
-- handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#94]]]
++DeleteConsumerGroupsHandler(LogContext) : DeleteConsumerGroupsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#29]]]
++apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#37]]]
++lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#42]]]
++newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Void> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#46]]]
+-buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#52]]]
++buildBatchedRequest(int;Set<CoordinatorKey>) : DeleteGroupsRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#59]]]
++handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,Void> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#70]]]
+-handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#94]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.Change
 class org.apache.kafka.streams.kstream.internals.Change {
-+ Change(T;T) : Change [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#11]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#17]]]
-+ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#22]]]
-+ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#35]]]
++Change(T;T) : Change [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#11]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#17]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#22]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/Change.java.html#35]]]
 } 
 @enduml

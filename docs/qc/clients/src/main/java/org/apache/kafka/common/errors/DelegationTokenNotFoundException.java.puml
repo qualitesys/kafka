@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.DelegationTokenNotFoundException
 class org.apache.kafka.common.errors.DelegationTokenNotFoundException {
-+ DelegationTokenNotFoundException(String) : DelegationTokenNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenNotFoundException.java.html#8]]]
-+ DelegationTokenNotFoundException(String;Throwable) : DelegationTokenNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenNotFoundException.java.html#12]]]
++DelegationTokenNotFoundException(String) : DelegationTokenNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenNotFoundException.java.html#8]]]
++DelegationTokenNotFoundException(String;Throwable) : DelegationTokenNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenNotFoundException.java.html#12]]]
 } 
 @enduml

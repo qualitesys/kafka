@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.UpdateMetadataResponse
 class org.apache.kafka.common.requests.UpdateMetadataResponse {
-+ UpdateMetadataResponse(UpdateMetadataResponseData) : UpdateMetadataResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#16]]]
-+ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#21]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#26]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#31]]]
-+ parse(ByteBuffer;short) : UpdateMetadataResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#35]]]
-+ data() : UpdateMetadataResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#40]]]
++UpdateMetadataResponse(UpdateMetadataResponseData) : UpdateMetadataResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#16]]]
++error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#21]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#26]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#31]]]
++parse(ByteBuffer;short) : UpdateMetadataResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#35]]]
++data() : UpdateMetadataResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#40]]]
 } 
 @enduml

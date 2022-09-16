@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.ReplicaInfo
 class org.apache.kafka.clients.admin.ReplicaInfo {
-+ ReplicaInfo(long;long;boolean) : ReplicaInfo [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#11]]]
-+ size() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#18]]]
-+ offsetLag() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#23]]]
-+ isFuture() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#28]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#33]]]
++ReplicaInfo(long;long;boolean) : ReplicaInfo [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#11]]]
++size() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#18]]]
++offsetLag() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#23]]]
++isFuture() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#28]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#33]]]
 } 
 @enduml

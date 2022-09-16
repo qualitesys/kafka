@@ -2,8 +2,8 @@
 !pragma layout smetana
 ConnectProtocol.WorkerState <|-- org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState
 class org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState {
-+ ExtendedWorkerState(String;long;ExtendedAssignment) : ExtendedWorkerState [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#8]]]
-+ assignment() : ExtendedAssignment [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#14]]]
-+ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#19]]]
++ExtendedWorkerState(String;long;ExtendedAssignment) : ExtendedWorkerState [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#8]]]
++assignment() : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#14]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#19]]]
 } 
 @enduml

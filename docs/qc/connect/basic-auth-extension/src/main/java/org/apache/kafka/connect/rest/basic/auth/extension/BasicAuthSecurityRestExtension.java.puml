@@ -2,12 +2,12 @@
 !pragma layout smetana
 ConnectRestExtension <|-- org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension
 class org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension {
-initializeConfiguration(Supplier<Configuration>) : Supplier<Configuration> [[[././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#26]]]
-+ BasicAuthSecurityRestExtension() : BasicAuthSecurityRestExtension [[[././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#41]]]
-BasicAuthSecurityRestExtension(Supplier<Configuration>) : BasicAuthSecurityRestExtension [[[././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#46]]]
-+ register(ConnectRestExtensionContext) : void [[[././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#51]]]
-+ close() : void [[[././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#58]]]
-+ configure(Map<String,?>) : void [[[././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#63]]]
-+ version() : String [[[././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#69]]]
+initializeConfiguration(Supplier<Configuration>) : Supplier<Configuration> [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#26]]]
++BasicAuthSecurityRestExtension() : BasicAuthSecurityRestExtension [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#41]]]
+BasicAuthSecurityRestExtension(Supplier<Configuration>) : BasicAuthSecurityRestExtension [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#46]]]
++register(ConnectRestExtensionContext) : void [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#51]]]
++close() : void [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#58]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#63]]]
++version() : String [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#69]]]
 } 
 @enduml

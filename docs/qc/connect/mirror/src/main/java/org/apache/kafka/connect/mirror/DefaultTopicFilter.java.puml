@@ -2,10 +2,10 @@
 !pragma layout smetana
 TopicFilter <|-- org.apache.kafka.connect.mirror.DefaultTopicFilter
 class org.apache.kafka.connect.mirror.DefaultTopicFilter {
-+ configure(Map<String,?>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#29]]]
-+ close() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#36]]]
-- included(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#39]]]
-- excluded(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#43]]]
-+ shouldReplicateTopic(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#48]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#29]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#36]]]
+-included(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#39]]]
+-excluded(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#43]]]
++shouldReplicateTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#48]]]
 } 
 @enduml

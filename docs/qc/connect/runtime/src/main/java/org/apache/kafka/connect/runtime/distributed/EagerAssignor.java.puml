@@ -2,11 +2,11 @@
 !pragma layout smetana
 ConnectAssignor <|-- org.apache.kafka.connect.runtime.distributed.EagerAssignor
 class org.apache.kafka.connect.runtime.distributed.EagerAssignor {
-+ EagerAssignor(LogContext) : EagerAssignor [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#27]]]
-+ performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator) : Map<String,ByteBuffer> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#32]]]
-- ensureLeaderConfig(long;WorkerCoordinator) : Long [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#49]]]
-- performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator) : Map<String,ByteBuffer> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#68]]]
-- fillAssignmentsAndSerialize(Collection<String>;short;String;String;long;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>) : Map<String,ByteBuffer> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#102]]]
-- findMaxMemberConfigOffset(Map<String,ExtendedWorkerState>;WorkerCoordinator) : long [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#128]]]
++EagerAssignor(LogContext) : EagerAssignor [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#27]]]
++performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#32]]]
+-ensureLeaderConfig(long;WorkerCoordinator) : Long [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#49]]]
+-performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#68]]]
+-fillAssignmentsAndSerialize(Collection<String>;short;String;String;long;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#102]]]
+-findMaxMemberConfigOffset(Map<String,ExtendedWorkerState>;WorkerCoordinator) : long [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#128]]]
 } 
 @enduml

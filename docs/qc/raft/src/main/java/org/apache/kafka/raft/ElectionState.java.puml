@@ -2,19 +2,19 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.ElectionState
 class org.apache.kafka.raft.ElectionState {
-ElectionState(int;OptionalInt;OptionalInt;Set<Integer>) : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#14]]]
-+ withVotedCandidate(int;int;Set<Integer>) : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#24]]]
-+ withElectedLeader(int;int;Set<Integer>) : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#32]]]
-+ withUnknownLeader(int;Set<Integer>) : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#40]]]
-+ isLeader(int) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#44]]]
-+ isVotedCandidate(int) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#50]]]
-+ leaderId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#56]]]
-+ votedId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#62]]]
-+ voters() : Set<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#68]]]
-+ hasLeader() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#72]]]
-+ hasVoted() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#76]]]
-+ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#82]]]
-+ equals(Object) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#90]]]
-+ hashCode() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#102]]]
+ElectionState(int;OptionalInt;OptionalInt;Set<Integer>) : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#14]]]
++withVotedCandidate(int;int;Set<Integer>) : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#24]]]
++withElectedLeader(int;int;Set<Integer>) : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#32]]]
++withUnknownLeader(int;Set<Integer>) : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#40]]]
++isLeader(int) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#44]]]
++isVotedCandidate(int) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#50]]]
++leaderId() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#56]]]
++votedId() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#62]]]
++voters() : Set<Integer> [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#68]]]
++hasLeader() : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#72]]]
++hasVoted() : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#76]]]
++toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#82]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#90]]]
++hashCode() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#102]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.RequestManager
 class org.apache.kafka.raft.RequestManager {
-+ RequestManager(Set<Integer>;int;int;Random) : RequestManager [[[././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#21]]]
-+ getOrCreate(int) : ConnectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37]]]
-+ findReadyVoter(long) : OptionalInt [[[././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#41]]]
-+ backoffBeforeAvailableVoter(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60]]]
-+ resetAll() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75]]]
++RequestManager(Set<Integer>;int;int;Random) : RequestManager [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#21]]]
++getOrCreate(int) : ConnectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37]]]
++findReadyVoter(long) : OptionalInt [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#41]]]
++backoffBeforeAvailableVoter(long) : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60]]]
++resetAll() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 RocksDBStoreTimestampedBytesStore <|-- org.apache.kafka.streams.state.internals.RocksDBTimestampedStore
 class org.apache.kafka.streams.state.internals.RocksDBTimestampedStore {
-RocksDBTimestampedStore(String;String) : RocksDBTimestampedStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#38]]]
-RocksDBTimestampedStore(String;String;RocksDBMetricsRecorder) : RocksDBTimestampedStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#43]]]
-openRocksDB(DBOptions;ColumnFamilyOptions) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#50]]]
-- setDbAccessor(ColumnFamilyHandle;ColumnFamilyHandle) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#75]]]
+RocksDBTimestampedStore(String;String) : RocksDBTimestampedStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#38]]]
+RocksDBTimestampedStore(String;String;RocksDBMetricsRecorder) : RocksDBTimestampedStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#43]]]
+openRocksDB(DBOptions;ColumnFamilyOptions) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#50]]]
+-setDbAccessor(ColumnFamilyHandle;ColumnFamilyHandle) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#75]]]
 } 
 @enduml

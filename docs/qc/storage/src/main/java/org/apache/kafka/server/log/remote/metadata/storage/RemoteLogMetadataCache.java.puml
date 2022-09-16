@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache
 class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache {
-+ remoteLogSegmentMetadata(int;long) : Optional<RemoteLogSegmentMetadata> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#37]]]
-+ updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#63]]]
-handleSegmentWithCopySegmentFinishedState(RemoteLogSegmentMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#99]]]
-handleSegmentWithDeleteSegmentStartedState(RemoteLogSegmentMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#113]]]
-- handleSegmentWithDeleteSegmentFinishedState(RemoteLogSegmentMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#124]]]
-- doHandleSegmentStateTransitionForLeaderEpochs(RemoteLogSegmentMetadata;RemoteLogLeaderEpochState.Action) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#136]]]
-- highestOffsetForEpoch(Integer;RemoteLogSegmentMetadata) : long [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#152]]]
-+ listAllRemoteLogSegments() : Iterator<RemoteLogSegmentMetadata> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#161]]]
-+ listRemoteLogSegments(int) : Iterator<RemoteLogSegmentMetadata> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#167]]]
-+ highestOffsetForEpoch(int) : Optional<Long> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#178]]]
-+ addCopyInProgressSegment(RemoteLogSegmentMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#184]]]
-- checkStateTransition(RemoteLogSegmentState;RemoteLogSegmentState) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#209]]]
++remoteLogSegmentMetadata(int;long) : Optional<RemoteLogSegmentMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#37]]]
++updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#63]]]
+handleSegmentWithCopySegmentFinishedState(RemoteLogSegmentMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#99]]]
+handleSegmentWithDeleteSegmentStartedState(RemoteLogSegmentMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#113]]]
+-handleSegmentWithDeleteSegmentFinishedState(RemoteLogSegmentMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#124]]]
+-doHandleSegmentStateTransitionForLeaderEpochs(RemoteLogSegmentMetadata;RemoteLogLeaderEpochState.Action) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#136]]]
+-highestOffsetForEpoch(Integer;RemoteLogSegmentMetadata) : long [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#152]]]
++listAllRemoteLogSegments() : Iterator<RemoteLogSegmentMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#161]]]
++listRemoteLogSegments(int) : Iterator<RemoteLogSegmentMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#167]]]
++highestOffsetForEpoch(int) : Optional<Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#178]]]
++addCopyInProgressSegment(RemoteLogSegmentMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#184]]]
+-checkStateTransition(RemoteLogSegmentState;RemoteLogSegmentState) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#209]]]
 } 
 @enduml

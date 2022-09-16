@@ -2,10 +2,10 @@
 !pragma layout smetana
 HeaderConverter <|-- org.apache.kafka.connect.storage.SimpleHeaderConverter
 class org.apache.kafka.connect.storage.SimpleHeaderConverter {
-+ config() : ConfigDef [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#27]]]
-+ configure(Map<String,?>) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#32]]]
-+ toConnectHeader(String;String;byte[]) : SchemaAndValue [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#37]]]
-+ fromConnectHeader(String;String;Schema;Object) : byte[] [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#56]]]
-+ close() : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#64]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#27]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#32]]]
++toConnectHeader(String;String;byte[]) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#37]]]
++fromConnectHeader(String;String;Schema;Object) : byte[] [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#56]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#64]]]
 } 
 @enduml

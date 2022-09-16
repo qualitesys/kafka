@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.ConstrainedPrioritySet
 class org.apache.kafka.streams.processor.internals.assignment.ConstrainedPrioritySet {
-ConstrainedPrioritySet(BiFunction<UUID,TaskId,Boolean>;Function<UUID,Double>) : ConstrainedPrioritySet [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#22]]]
-poll(TaskId;Function<UUID,Boolean>) : UUID [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#29]]]
-poll(TaskId) : UUID [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#48]]]
-offerAll(Collection<UUID>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#52]]]
-offer(UUID) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#58]]]
-- pollNextClient() : UUID [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#67]]]
+ConstrainedPrioritySet(BiFunction<UUID,TaskId,Boolean>;Function<UUID,Double>) : ConstrainedPrioritySet [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#22]]]
+poll(TaskId;Function<UUID,Boolean>) : UUID [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#29]]]
+poll(TaskId) : UUID [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#48]]]
+offerAll(Collection<UUID>) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#52]]]
+offer(UUID) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#58]]]
+-pollNextClient() : UUID [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#67]]]
 } 
 @enduml

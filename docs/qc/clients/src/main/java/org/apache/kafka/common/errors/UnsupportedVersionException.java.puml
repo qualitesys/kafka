@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.UnsupportedVersionException
 class org.apache.kafka.common.errors.UnsupportedVersionException {
-+ UnsupportedVersionException(String;Throwable) : UnsupportedVersionException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedVersionException.java.html#10]]]
-+ UnsupportedVersionException(String) : UnsupportedVersionException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedVersionException.java.html#14]]]
++UnsupportedVersionException(String;Throwable) : UnsupportedVersionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedVersionException.java.html#10]]]
++UnsupportedVersionException(String) : UnsupportedVersionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedVersionException.java.html#14]]]
 } 
 @enduml

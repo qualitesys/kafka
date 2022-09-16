@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.ProducerIdsImage
 class org.apache.kafka.image.ProducerIdsImage {
-+ ProducerIdsImage(long) : ProducerIdsImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#20]]]
-+ highestSeenProducerId() : long [[[././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#24]]]
-+ write(Consumer<List<ApiMessageAndVersion>>) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#28]]]
-+ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#39]]]
-+ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#46]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#51]]]
-+ isEmpty() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#55]]]
++ProducerIdsImage(long) : ProducerIdsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#20]]]
++highestSeenProducerId() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#24]]]
++write(Consumer<List<ApiMessageAndVersion>>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#28]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#39]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#46]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#51]]]
++isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#55]]]
 } 
 @enduml

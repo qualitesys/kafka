@@ -2,16 +2,16 @@
 !pragma layout smetana
 Revertable <|-- org.apache.kafka.timeline.TimelineInteger
 class org.apache.kafka.timeline.TimelineInteger {
-+ TimelineInteger(SnapshotRegistry) : TimelineInteger [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#32]]]
-+ get() : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#39]]]
-+ get(long) : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#43]]]
-+ set(int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#54]]]
-+ increment() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#68]]]
-+ decrement() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#72]]]
-+ executeRevert(long;Delta) : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#78]]]
-+ reset() : void [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#84]]]
-+ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#89]]]
-+ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#94]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#101]]]
++TimelineInteger(SnapshotRegistry) : TimelineInteger [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#32]]]
++get() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#39]]]
++get(long) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#43]]]
++set(int) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#54]]]
++increment() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#68]]]
++decrement() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#72]]]
++executeRevert(long;Delta) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#78]]]
++reset() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#84]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#89]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#94]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineInteger.java.html#101]]]
 } 
 @enduml

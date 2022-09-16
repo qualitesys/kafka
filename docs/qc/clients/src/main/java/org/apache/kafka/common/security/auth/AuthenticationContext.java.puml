@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.security.auth.AuthenticationContext
 class org.apache.kafka.common.security.auth.AuthenticationContext {
-securityProtocol() : SecurityProtocol [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticationContext.java.html#10]]]
-clientAddress() : InetAddress [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticationContext.java.html#13]]]
-listenerName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticationContext.java.html#16]]]
+securityProtocol() : SecurityProtocol [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticationContext.java.html#10]]]
+clientAddress() : InetAddress [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticationContext.java.html#13]]]
+listenerName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/AuthenticationContext.java.html#16]]]
 } 
 @enduml

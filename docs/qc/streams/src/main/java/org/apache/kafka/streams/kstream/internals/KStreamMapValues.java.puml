@@ -2,7 +2,7 @@
 !pragma layout smetana
 FixedKeyProcessorSupplier_KIn,VIn,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KStreamMapValues
 class org.apache.kafka.streams.kstream.internals.KStreamMapValues {
-+ KStreamMapValues(ValueMapperWithKey<KIn,VIn,VOut>) : KStreamMapValues [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.html#14]]]
-+ get() : FixedKeyProcessor<KIn,VIn,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.html#19]]]
++KStreamMapValues(ValueMapperWithKey<KIn,VIn,VOut>) : KStreamMapValues [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.html#14]]]
++get() : FixedKeyProcessor<KIn,VIn,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.html#19]]]
 } 
 @enduml

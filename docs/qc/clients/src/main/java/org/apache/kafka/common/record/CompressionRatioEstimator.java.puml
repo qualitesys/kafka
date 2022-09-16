@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.record.CompressionRatioEstimator
 class org.apache.kafka.common.record.CompressionRatioEstimator {
-+ updateEstimation(String;CompressionType;float) : float [[[././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18]]]
-+ estimation(String;CompressionType) : float [[[././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32]]]
-+ resetEstimation(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38]]]
-+ removeEstimation(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#48]]]
-+ setEstimation(String;CompressionType;float) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53]]]
-- getAndCreateEstimationIfAbsent(String) : float[] [[[././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#60]]]
-- initialCompressionRatio() : float[] [[[././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#72]]]
++updateEstimation(String;CompressionType;float) : float [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18]]]
++estimation(String;CompressionType) : float [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32]]]
++resetEstimation(String) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#38]]]
++removeEstimation(String) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#48]]]
++setEstimation(String;CompressionType;float) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#53]]]
+-getAndCreateEstimationIfAbsent(String) : float[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#60]]]
+-initialCompressionRatio() : float[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#72]]]
 } 
 @enduml

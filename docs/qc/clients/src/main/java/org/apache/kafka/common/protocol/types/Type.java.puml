@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.protocol.types.Type
 class org.apache.kafka.common.protocol.types.Type {
-+ write(ByteBuffer;Object) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#17]]]
-+ read(ByteBuffer) : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#20]]]
-+ validate(Object) : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#23]]]
-+ sizeOf(Object) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#26]]]
-+ isNullable() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#29]]]
-+ arrayElementType() : Optional<Type> [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#34]]]
-+ isArray() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#39]]]
-- toHtml() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1047]]]
-+ main(String[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1074]]]
++write(ByteBuffer;Object) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#17]]]
++read(ByteBuffer) : Object [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#20]]]
++validate(Object) : Object [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#23]]]
++sizeOf(Object) : int [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#26]]]
++isNullable() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#29]]]
++arrayElementType() : Optional<Type> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#34]]]
++isArray() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#39]]]
+-toHtml() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1047]]]
++main(String[]) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#1074]]]
 } 
 @enduml

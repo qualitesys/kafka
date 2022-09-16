@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractOptions_AlterClientQuotasOptions_ <|-- org.apache.kafka.clients.admin.AlterClientQuotasOptions
 class org.apache.kafka.clients.admin.AlterClientQuotasOptions {
-+ validateOnly() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#14]]]
-+ validateOnly(boolean) : AlterClientQuotasOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#19]]]
++validateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#14]]]
++validateOnly(boolean) : AlterClientQuotasOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#19]]]
 } 
 @enduml

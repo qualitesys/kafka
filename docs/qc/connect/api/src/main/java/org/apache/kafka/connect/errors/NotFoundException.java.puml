@@ -2,8 +2,8 @@
 !pragma layout smetana
 ConnectException <|-- org.apache.kafka.connect.errors.NotFoundException
 class org.apache.kafka.connect.errors.NotFoundException {
-+ NotFoundException(String) : NotFoundException [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#6]]]
-+ NotFoundException(String;Throwable) : NotFoundException [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#10]]]
-+ NotFoundException(Throwable) : NotFoundException [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#14]]]
++NotFoundException(String) : NotFoundException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#6]]]
++NotFoundException(String;Throwable) : NotFoundException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#10]]]
++NotFoundException(Throwable) : NotFoundException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/NotFoundException.java.html#14]]]
 } 
 @enduml

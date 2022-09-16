@@ -2,9 +2,9 @@
 !pragma layout smetana
 Processor_KIn,VIn,KOut,VOut_ <|-- org.apache.kafka.streams.processor.internals.ProcessorAdapter
 class org.apache.kafka.streams.processor.internals.ProcessorAdapter {
-- ProcessorAdapter(org.apache.kafka.streams.processor.Processor<KIn,VIn>) : ProcessorAdapter [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#31]]]
-+ init(ProcessorContext<KOut,VOut>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#36]]]
-+ process(Record<KIn,VIn>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#46]]]
-+ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#63]]]
+-ProcessorAdapter(org.apache.kafka.streams.processor.Processor<KIn,VIn>) : ProcessorAdapter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#31]]]
++init(ProcessorContext<KOut,VOut>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#36]]]
++process(Record<KIn,VIn>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#46]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.html#63]]]
 } 
 @enduml

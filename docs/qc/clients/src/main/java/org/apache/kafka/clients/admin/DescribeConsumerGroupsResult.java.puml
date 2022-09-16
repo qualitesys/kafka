@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeConsumerGroupsResult
 class org.apache.kafka.clients.admin.DescribeConsumerGroupsResult {
-+ DescribeConsumerGroupsResult(Map<String,KafkaFuture<ConsumerGroupDescription>>) : DescribeConsumerGroupsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#19]]]
-+ describedGroups() : Map<String,KafkaFuture<ConsumerGroupDescription>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#24]]]
-+ all() : KafkaFuture<Map<String,ConsumerGroupDescription>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#31]]]
++DescribeConsumerGroupsResult(Map<String,KafkaFuture<ConsumerGroupDescription>>) : DescribeConsumerGroupsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#19]]]
++describedGroups() : Map<String,KafkaFuture<ConsumerGroupDescription>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#24]]]
++all() : KafkaFuture<Map<String,ConsumerGroupDescription>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#31]]]
 } 
 @enduml

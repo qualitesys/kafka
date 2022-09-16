@@ -2,7 +2,7 @@
 !pragma layout smetana
 DeserializationExceptionHandler <|-- org.apache.kafka.streams.errors.LogAndFailExceptionHandler
 class org.apache.kafka.streams.errors.LogAndFailExceptionHandler {
-+ handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception) : DeserializationHandlerResponse [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17]]]
-+ configure(Map<String,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30]]]
++handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception) : DeserializationHandlerResponse [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractStoreBuilder_K,ValueAndTimestamp_V_,TimestampedWindowStore_K,V__ <|-- org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder
 class org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder {
-+ TimestampedWindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time) : TimestampedWindowStoreBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#35]]]
-+ build() : TimestampedWindowStore<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#46]]]
-- maybeWrapCaching(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#69]]]
-- isTimeOrderedStore(StateStore) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#88]]]
-- maybeWrapLogging(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#98]]]
-+ retentionPeriod() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#105]]]
++TimestampedWindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time) : TimestampedWindowStoreBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#35]]]
++build() : TimestampedWindowStore<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#46]]]
+-maybeWrapCaching(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#69]]]
+-isTimeOrderedStore(StateStore) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#88]]]
+-maybeWrapLogging(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#98]]]
++retentionPeriod() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#105]]]
 } 
 @enduml

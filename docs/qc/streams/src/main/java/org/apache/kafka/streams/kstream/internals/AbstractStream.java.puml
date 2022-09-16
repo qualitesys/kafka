@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.AbstractStream
 class org.apache.kafka.streams.kstream.internals.AbstractStream {
-+ AbstractStream(AbstractStream<K,V>) : AbstractStream [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#36]]]
-AbstractStream(String;Serde<K>;Serde<V>;Set<String>;GraphNode;InternalStreamsBuilder) : AbstractStream [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#45]]]
-internalTopologyBuilder() : InternalTopologyBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#65]]]
-ensureCopartitionWith(Collection<?extendsAbstractStream<K,?>>) : Set<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#69]]]
-+ keySerde() : Serde<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#131]]]
-+ valueSerde() : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#135]]]
++AbstractStream(AbstractStream<K,V>) : AbstractStream [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#36]]]
+AbstractStream(String;Serde<K>;Serde<V>;Set<String>;GraphNode;InternalStreamsBuilder) : AbstractStream [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#45]]]
+internalTopologyBuilder() : InternalTopologyBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#65]]]
+ensureCopartitionWith(Collection<?extendsAbstractStream<K,?>>) : Set<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#69]]]
++keySerde() : Serde<K> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#131]]]
++valueSerde() : Serde<V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#135]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 SampledStat <|-- org.apache.kafka.common.metrics.stats.Min
 class org.apache.kafka.common.metrics.stats.Min {
-+ Min() : Min [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Min.java.html#11]]]
-update(Sample;MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Min.java.html#16]]]
-+ combine(List<Sample>;MetricConfig;long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Min.java.html#21]]]
++Min() : Min [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Min.java.html#11]]]
+update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Min.java.html#16]]]
++combine(List<Sample>;MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Min.java.html#21]]]
 } 
 @enduml

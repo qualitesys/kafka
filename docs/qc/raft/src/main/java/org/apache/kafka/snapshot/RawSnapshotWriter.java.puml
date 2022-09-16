@@ -2,12 +2,12 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.snapshot.RawSnapshotWriter
 class org.apache.kafka.snapshot.RawSnapshotWriter {
-snapshotId() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#12]]]
-sizeInBytes() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#15]]]
-append(MemoryRecords) : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#18]]]
-append(UnalignedMemoryRecords) : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#21]]]
-isFrozen() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#24]]]
-freeze() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#27]]]
-close() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#30]]]
+snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#12]]]
+sizeInBytes() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#15]]]
+append(MemoryRecords) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#18]]]
+append(UnalignedMemoryRecords) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#21]]]
+isFrozen() : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#24]]]
+freeze() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#27]]]
+close() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#30]]]
 } 
 @enduml

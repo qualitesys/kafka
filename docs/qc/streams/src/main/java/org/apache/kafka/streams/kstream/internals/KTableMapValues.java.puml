@@ -2,11 +2,11 @@
 !pragma layout smetana
 KTableProcessorSupplier_KIn,VIn,KIn,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KTableMapValues
 class org.apache.kafka.streams.kstream.internals.KTableMapValues {
-KTableMapValues(KTableImpl<KIn,?,VIn>;ValueMapperWithKey<?superKIn,?superVIn,?extendsVOut>;String) : KTableMapValues [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#20]]]
-+ get() : Processor<KIn,Change<VIn>,KIn,Change<VOut>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#29]]]
-+ view() : KTableValueGetterSupplier<KIn,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#34]]]
-+ enableSendingOldValues(boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#56]]]
-- computeValue(KIn;VIn) : VOut [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#69]]]
-- computeValueAndTimestamp(KIn;ValueAndTimestamp<VIn>) : ValueAndTimestamp<VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#79]]]
+KTableMapValues(KTableImpl<KIn,?,VIn>;ValueMapperWithKey<?superKIn,?superVIn,?extendsVOut>;String) : KTableMapValues [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#20]]]
++get() : Processor<KIn,Change<VIn>,KIn,Change<VOut>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#29]]]
++view() : KTableValueGetterSupplier<KIn,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#34]]]
++enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#56]]]
+-computeValue(KIn;VIn) : VOut [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#69]]]
+-computeValueAndTimestamp(KIn;ValueAndTimestamp<VIn>) : ValueAndTimestamp<VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableMapValues.java.html#79]]]
 } 
 @enduml

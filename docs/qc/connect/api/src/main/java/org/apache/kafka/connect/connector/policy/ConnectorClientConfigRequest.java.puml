@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.connector.policy.ConnectorClientConfigRequest
 class org.apache.kafka.connect.connector.policy.ConnectorClientConfigRequest {
-+ ConnectorClientConfigRequest(String;ConnectorType;Class<?extendsConnector>;Map<String,Object>;ClientType) : ConnectorClientConfigRequest [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#18]]]
-+ clientProps() : Map<String,Object> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#32]]]
-+ clientType() : ClientType [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#37]]]
-+ connectorName() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#42]]]
-+ connectorType() : ConnectorType [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#47]]]
-+ connectorClass() : Class<?extendsConnector> [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#52]]]
++ConnectorClientConfigRequest(String;ConnectorType;Class<?extendsConnector>;Map<String,Object>;ClientType) : ConnectorClientConfigRequest [[[./../../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#18]]]
++clientProps() : Map<String,Object> [[[./../../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#32]]]
++clientType() : ClientType [[[./../../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#37]]]
++connectorName() : String [[[./../../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#42]]]
++connectorType() : ConnectorType [[[./../../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#47]]]
++connectorClass() : Class<?extendsConnector> [[[./../../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#52]]]
 } 
 @enduml

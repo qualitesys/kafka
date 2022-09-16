@@ -2,8 +2,8 @@
 !pragma layout smetana
 Printed_K,V_ <|-- org.apache.kafka.streams.kstream.internals.PrintedInternal
 class org.apache.kafka.streams.kstream.internals.PrintedInternal {
-+ PrintedInternal(Printed<K,V>) : PrintedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#8]]]
-+ build(String) : ProcessorSupplier<K,V,Void,Void> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#12]]]
-+ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#16]]]
++PrintedInternal(Printed<K,V>) : PrintedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#8]]]
++build(String) : ProcessorSupplier<K,V,Void,Void> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#12]]]
++name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintedInternal.java.html#16]]]
 } 
 @enduml

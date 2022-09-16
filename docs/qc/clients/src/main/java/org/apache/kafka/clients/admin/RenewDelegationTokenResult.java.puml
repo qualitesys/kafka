@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.RenewDelegationTokenResult
 class org.apache.kafka.clients.admin.RenewDelegationTokenResult {
-RenewDelegationTokenResult(KafkaFuture<Long>) : RenewDelegationTokenResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.html#13]]]
-+ expiryTimestamp() : KafkaFuture<Long> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.html#18]]]
+RenewDelegationTokenResult(KafkaFuture<Long>) : RenewDelegationTokenResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.html#13]]]
++expiryTimestamp() : KafkaFuture<Long> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.html#18]]]
 } 
 @enduml

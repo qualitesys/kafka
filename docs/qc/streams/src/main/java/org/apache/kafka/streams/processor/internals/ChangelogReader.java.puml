@@ -2,12 +2,12 @@
 !pragma layout smetana
 ChangelogRegister <|-- org.apache.kafka.streams.processor.internals.ChangelogReader
 class org.apache.kafka.streams.processor.internals.ChangelogReader {
-restore(Map<TaskId,Task>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#13]]]
-enforceRestoreActive() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#16]]]
-transitToUpdateStandby() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#19]]]
-completedChangelogs() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#22]]]
-allChangelogsCompleted() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#25]]]
-clear() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#28]]]
-isEmpty() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#31]]]
+restore(Map<TaskId,Task>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#13]]]
+enforceRestoreActive() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#16]]]
+transitToUpdateStandby() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#19]]]
+completedChangelogs() : Set<TopicPartition> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#22]]]
+allChangelogsCompleted() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#25]]]
+clear() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#28]]]
+isEmpty() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#31]]]
 } 
 @enduml

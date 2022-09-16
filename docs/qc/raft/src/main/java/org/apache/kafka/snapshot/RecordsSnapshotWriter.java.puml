@@ -2,16 +2,16 @@
 !pragma layout smetana
 SnapshotWriter_T_ <|-- org.apache.kafka.snapshot.RecordsSnapshotWriter
 class org.apache.kafka.snapshot.RecordsSnapshotWriter {
-- RecordsSnapshotWriter(RawSnapshotWriter;int;MemoryPool;Time;long;CompressionType;RecordSerde<T>) : RecordsSnapshotWriter [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#26]]]
-- initializeSnapshotWithHeader() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#52]]]
-- finalizeSnapshotWithFooter() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#69]]]
-+ snapshotId() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#102]]]
-+ lastContainedLogOffset() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#107]]]
-+ lastContainedLogEpoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#112]]]
-+ isFrozen() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#117]]]
-+ append(List<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#122]]]
-+ freeze() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#140]]]
-+ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#148]]]
-- appendBatches(List<CompletedBatch<T>>) : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#153]]]
+-RecordsSnapshotWriter(RawSnapshotWriter;int;MemoryPool;Time;long;CompressionType;RecordSerde<T>) : RecordsSnapshotWriter [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#26]]]
+-initializeSnapshotWithHeader() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#52]]]
+-finalizeSnapshotWithFooter() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#69]]]
++snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#102]]]
++lastContainedLogOffset() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#107]]]
++lastContainedLogEpoch() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#112]]]
++isFrozen() : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#117]]]
++append(List<T>) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#122]]]
++freeze() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#140]]]
++close() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#148]]]
+-appendBatches(List<CompletedBatch<T>>) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#153]]]
 } 
 @enduml

@@ -2,17 +2,17 @@
 !pragma layout smetana
 NamedOperation_StreamJoined_K,V1,V2__ <|-- org.apache.kafka.streams.kstream.StreamJoined
 class org.apache.kafka.streams.kstream.StreamJoined {
-StreamJoined(StreamJoined<K,V1,V2>) : StreamJoined [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#24]]]
-- StreamJoined(Serde<K>;Serde<V1>;Serde<V2>;WindowBytesStoreSupplier;WindowBytesStoreSupplier;String;String;boolean;Map<String,String>) : StreamJoined [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#36]]]
-+ withName(String) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#108]]]
-+ withStoreName(String) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#123]]]
-+ withKeySerde(Serde<K>) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#138]]]
-+ withValueSerde(Serde<V1>) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#153]]]
-+ withOtherValueSerde(Serde<V2>) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#168]]]
-+ withThisStoreSupplier(WindowBytesStoreSupplier) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#183]]]
-+ withOtherStoreSupplier(WindowBytesStoreSupplier) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#198]]]
-+ withLoggingEnabled(Map<String,String>) : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#213]]]
-+ withLoggingDisabled() : StreamJoined<K,V1,V2> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#229]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#244]]]
+StreamJoined(StreamJoined<K,V1,V2>) : StreamJoined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#24]]]
+-StreamJoined(Serde<K>;Serde<V1>;Serde<V2>;WindowBytesStoreSupplier;WindowBytesStoreSupplier;String;String;boolean;Map<String,String>) : StreamJoined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#36]]]
++withName(String) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#108]]]
++withStoreName(String) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#123]]]
++withKeySerde(Serde<K>) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#138]]]
++withValueSerde(Serde<V1>) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#153]]]
++withOtherValueSerde(Serde<V2>) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#168]]]
++withThisStoreSupplier(WindowBytesStoreSupplier) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#183]]]
++withOtherStoreSupplier(WindowBytesStoreSupplier) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#198]]]
++withLoggingEnabled(Map<String,String>) : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#213]]]
++withLoggingDisabled() : StreamJoined<K,V1,V2> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#229]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#244]]]
 } 
 @enduml

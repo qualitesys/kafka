@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.authorizer.AclMutator
 class org.apache.kafka.metadata.authorizer.AclMutator {
-createAcls(ControllerRequestContext;List<AclBinding>) : CompletableFuture<List<AclCreateResult>> [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.html#18]]]
-deleteAcls(ControllerRequestContext;List<AclBindingFilter>) : CompletableFuture<List<AclDeleteResult>> [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.html#24]]]
+createAcls(ControllerRequestContext;List<AclBinding>) : CompletableFuture<List<AclCreateResult>> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.html#18]]]
+deleteAcls(ControllerRequestContext;List<AclBindingFilter>) : CompletableFuture<List<AclDeleteResult>> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.html#24]]]
 } 
 @enduml

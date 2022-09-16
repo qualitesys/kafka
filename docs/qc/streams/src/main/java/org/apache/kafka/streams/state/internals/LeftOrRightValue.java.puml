@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.LeftOrRightValue
 class org.apache.kafka.streams.state.internals.LeftOrRightValue {
-- LeftOrRightValue(V1;V2) : LeftOrRightValue [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#11]]]
-+ getLeftValue() : V1 [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#40]]]
-+ getRightValue() : V2 [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#44]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#49]]]
-+ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#56]]]
-+ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#69]]]
+-LeftOrRightValue(V1;V2) : LeftOrRightValue [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#11]]]
++getLeftValue() : V1 [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#40]]]
++getRightValue() : V2 [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#44]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#49]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#56]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#69]]]
 } 
 @enduml

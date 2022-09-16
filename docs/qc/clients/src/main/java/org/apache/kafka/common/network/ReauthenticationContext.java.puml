@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.network.ReauthenticationContext
 class org.apache.kafka.common.network.ReauthenticationContext {
-+ ReauthenticationContext(Authenticator;NetworkReceive;long) : ReauthenticationContext [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#13]]]
-+ networkReceive() : NetworkReceive [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#20]]]
-+ previousAuthenticator() : Authenticator [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#25]]]
-+ reauthenticationBeginNanos() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#30]]]
++ReauthenticationContext(Authenticator;NetworkReceive;long) : ReauthenticationContext [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#13]]]
++networkReceive() : NetworkReceive [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#20]]]
++previousAuthenticator() : Authenticator [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#25]]]
++reauthenticationBeginNanos() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ReauthenticationContext.java.html#30]]]
 } 
 @enduml

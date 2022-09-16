@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper
 class org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper {
-WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long) : WindowStoreIteratorWrapper [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#19]]]
-WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long;Function<byte[],Long>;BiFunction<byte[],Long,Windowed<Bytes>>) : WindowStoreIteratorWrapper [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#24]]]
-+ valuesIterator() : WindowStoreIterator<byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#34]]]
-+ keyValueIterator() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#38]]]
+WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long) : WindowStoreIteratorWrapper [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#19]]]
+WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long;Function<byte[],Long>;BiFunction<byte[],Long,Windowed<Bytes>>) : WindowStoreIteratorWrapper [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#24]]]
++valuesIterator() : WindowStoreIterator<byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#34]]]
++keyValueIterator() : KeyValueIterator<Windowed<Bytes>,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#38]]]
 } 
 @enduml

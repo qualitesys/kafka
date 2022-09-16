@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.network.ChannelState
 class org.apache.kafka.common.network.ChannelState {
-+ ChannelState(State) : ChannelState [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#31]]]
-+ ChannelState(State;String) : ChannelState [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#35]]]
-+ ChannelState(State;AuthenticationException;String) : ChannelState [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#39]]]
-+ state() : State [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#45]]]
-+ exception() : AuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#49]]]
-+ remoteAddress() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#53]]]
++ChannelState(State) : ChannelState [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#31]]]
++ChannelState(State;String) : ChannelState [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#35]]]
++ChannelState(State;AuthenticationException;String) : ChannelState [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#39]]]
++state() : State [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#45]]]
++exception() : AuthenticationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#49]]]
++remoteAddress() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelState.java.html#53]]]
 } 
 @enduml

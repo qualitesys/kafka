@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.resource.ResourcePatternFilter
 class org.apache.kafka.common.resource.ResourcePatternFilter {
-+ ResourcePatternFilter(ResourceType;String;PatternType) : ResourcePatternFilter [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#22]]]
-+ isUnknown() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#29]]]
-+ resourceType() : ResourceType [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#34]]]
-+ name() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#39]]]
-+ patternType() : PatternType [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#44]]]
-+ matches(ResourcePattern) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#49]]]
-+ matchesAtMostOne() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#79]]]
-+ findIndefiniteField() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#84]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#99]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#104]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#117]]]
++ResourcePatternFilter(ResourceType;String;PatternType) : ResourcePatternFilter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#22]]]
++isUnknown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#29]]]
++resourceType() : ResourceType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#34]]]
++name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#39]]]
++patternType() : PatternType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#44]]]
++matches(ResourcePattern) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#49]]]
++matchesAtMostOne() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#79]]]
++findIndefiniteField() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#84]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#99]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#104]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#117]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.requests.RequestUtils
 class org.apache.kafka.common.requests.RequestUtils {
-- RequestUtils() : RequestUtils [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#18]]]
-+ getLeaderEpoch(int) : Optional<Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#20]]]
-+ hasTransactionalRecords(ProduceRequest) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#25]]]
-flag(ProduceRequest;Predicate<RecordBatch>) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#30]]]
-+ serialize(Message;short;Message;short) : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42]]]
+-RequestUtils() : RequestUtils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#18]]]
++getLeaderEpoch(int) : Optional<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#20]]]
++hasTransactionalRecords(ProduceRequest) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#25]]]
+flag(ProduceRequest;Predicate<RecordBatch>) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#30]]]
++serialize(Message;short;Message;short) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42]]]
 } 
 @enduml

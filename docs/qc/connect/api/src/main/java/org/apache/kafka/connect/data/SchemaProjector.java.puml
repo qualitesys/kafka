@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.data.SchemaProjector
 class org.apache.kafka.connect.data.SchemaProjector {
-+ project(Schema;Object;Schema) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#32]]]
-- projectRequiredSchema(Schema;Object;Schema) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#53]]]
-- projectStruct(Schema;Struct;Schema) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75]]]
-- checkMaybeCompatible(Schema;Schema) : void [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#100]]]
-- projectArray(Schema;Object;Schema) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#110]]]
-- projectMap(Schema;Object;Schema) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119]]]
-- projectPrimitive(Schema;Object;Schema) : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132]]]
-- isPromotable(Type;Type) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#166]]]
++project(Schema;Object;Schema) : Object [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#32]]]
+-projectRequiredSchema(Schema;Object;Schema) : Object [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#53]]]
+-projectStruct(Schema;Struct;Schema) : Object [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75]]]
+-checkMaybeCompatible(Schema;Schema) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#100]]]
+-projectArray(Schema;Object;Schema) : Object [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#110]]]
+-projectMap(Schema;Object;Schema) : Object [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119]]]
+-projectPrimitive(Schema;Object;Schema) : Object [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132]]]
+-isPromotable(Type;Type) : boolean [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#166]]]
 } 
 @enduml

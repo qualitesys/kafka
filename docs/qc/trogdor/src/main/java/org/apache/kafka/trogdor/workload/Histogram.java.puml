@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.workload.Histogram
 class org.apache.kafka.trogdor.workload.Histogram {
-+ Histogram(int) : Histogram [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#18]]]
-+ add(int) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#23]]]
-+ add(long) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#39]]]
-+ summarize() : Summary [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#100]]]
-+ summarize(float[]) : Summary [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#104]]]
-- summarizePercentiles(int[];float[];long) : List<PercentileSummary> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#136]]]
++Histogram(int) : Histogram [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#18]]]
++add(int) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#23]]]
++add(long) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#39]]]
++summarize() : Summary [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#100]]]
++summarize(float[]) : Summary [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#104]]]
+-summarizePercentiles(int[];float[];long) : List<PercentileSummary> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#136]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey {
-CombinedKey(KF;KP) : CombinedKey [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#11]]]
-+ getForeignKey() : KF [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#18]]]
-+ getPrimaryKey() : KP [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#22]]]
-+ equals(KF;KP) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#26]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#31]]]
+CombinedKey(KF;KP) : CombinedKey [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#11]]]
++getForeignKey() : KF [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#18]]]
++getPrimaryKey() : KP [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#22]]]
++equals(KF;KP) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#26]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#31]]]
 } 
 @enduml

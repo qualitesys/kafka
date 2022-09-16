@@ -2,9 +2,9 @@
 !pragma layout smetana
 KeyValueBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier
 class org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier {
-+ RocksDbKeyValueBytesStoreSupplier(String;boolean) : RocksDbKeyValueBytesStoreSupplier [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#13]]]
-+ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#20]]]
-+ get() : KeyValueStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#25]]]
-+ metricsScope() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#32]]]
++RocksDbKeyValueBytesStoreSupplier(String;boolean) : RocksDbKeyValueBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#13]]]
++name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#20]]]
++get() : KeyValueStore<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#25]]]
++metricsScope() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#32]]]
 } 
 @enduml

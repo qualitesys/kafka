@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.DeleteRecordsRequest
 class org.apache.kafka.common.requests.DeleteRecordsRequest {
-- DeleteRecordsRequest(DeleteRecordsRequestData;short) : DeleteRecordsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#40]]]
-+ data() : DeleteRecordsRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#46]]]
-+ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#51]]]
-+ parse(ByteBuffer;short) : DeleteRecordsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#67]]]
+-DeleteRecordsRequest(DeleteRecordsRequestData;short) : DeleteRecordsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#40]]]
++data() : DeleteRecordsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#46]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#51]]]
++parse(ByteBuffer;short) : DeleteRecordsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsRequest.java.html#67]]]
 } 
 @enduml

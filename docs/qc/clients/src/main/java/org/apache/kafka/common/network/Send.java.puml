@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.network.Send
 class org.apache.kafka.common.network.Send {
-completed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#10]]]
-writeTo(TransferableChannel) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#13]]]
-size() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#16]]]
+completed() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#10]]]
+writeTo(TransferableChannel) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#13]]]
+size() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Send.java.html#16]]]
 } 
 @enduml

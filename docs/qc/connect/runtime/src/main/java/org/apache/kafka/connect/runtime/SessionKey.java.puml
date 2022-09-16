@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.SessionKey
 class org.apache.kafka.connect.runtime.SessionKey {
-+ SessionKey(SecretKey;long) : SessionKey [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#14]]]
-+ key() : SecretKey [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#20]]]
-+ creationTimestamp() : long [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#25]]]
-+ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#30]]]
-+ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#41]]]
++SessionKey(SecretKey;long) : SessionKey [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#14]]]
++key() : SecretKey [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#20]]]
++creationTimestamp() : long [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#25]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#30]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#41]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException
 class org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException {
-+ DelegationTokenOwnerMismatchException(String) : DelegationTokenOwnerMismatchException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenOwnerMismatchException.java.html#8]]]
-+ DelegationTokenOwnerMismatchException(String;Throwable) : DelegationTokenOwnerMismatchException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenOwnerMismatchException.java.html#12]]]
++DelegationTokenOwnerMismatchException(String) : DelegationTokenOwnerMismatchException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenOwnerMismatchException.java.html#8]]]
++DelegationTokenOwnerMismatchException(String;Throwable) : DelegationTokenOwnerMismatchException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenOwnerMismatchException.java.html#12]]]
 } 
 @enduml

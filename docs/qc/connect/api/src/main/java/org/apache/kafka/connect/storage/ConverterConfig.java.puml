@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractConfig <|-- org.apache.kafka.connect.storage.ConverterConfig
 class org.apache.kafka.connect.storage.ConverterConfig {
-+ newConfigDef() : ConfigDef [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#20]]]
-ConverterConfig(ConfigDef;Map<String,?>) : ConverterConfig [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#26]]]
-+ type() : ConverterType [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#31]]]
++newConfigDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#20]]]
+ConverterConfig(ConfigDef;Map<String,?>) : ConverterConfig [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#26]]]
++type() : ConverterType [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#31]]]
 } 
 @enduml

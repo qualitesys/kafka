@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.ClientQuotasDelta
 class org.apache.kafka.image.ClientQuotasDelta {
-+ ClientQuotasDelta(ClientQuotasImage) : ClientQuotasDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#18]]]
-+ changes() : Map<ClientQuotaEntity,ClientQuotaDelta> [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#22]]]
-+ finishSnapshot() : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#26]]]
-+ handleMetadataVersionChange(MetadataVersion) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#36]]]
-+ replay(ClientQuotaRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40]]]
-+ apply() : ClientQuotasImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#48]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#76]]]
++ClientQuotasDelta(ClientQuotasImage) : ClientQuotasDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#18]]]
++changes() : Map<ClientQuotaEntity,ClientQuotaDelta> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#22]]]
++finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#26]]]
++handleMetadataVersionChange(MetadataVersion) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#36]]]
++replay(ClientQuotaRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#40]]]
++apply() : ClientQuotasImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#48]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#76]]]
 } 
 @enduml

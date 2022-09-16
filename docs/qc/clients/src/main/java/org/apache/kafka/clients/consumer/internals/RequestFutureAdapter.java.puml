@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.RequestFutureAdapter
 class org.apache.kafka.clients.consumer.internals.RequestFutureAdapter {
-+ onSuccess(F;RequestFuture<T>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#7]]]
-+ onFailure(RuntimeException;RequestFuture<T>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#9]]]
++onSuccess(F;RequestFuture<T>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#7]]]
++onFailure(RuntimeException;RequestFuture<T>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#9]]]
 } 
 @enduml

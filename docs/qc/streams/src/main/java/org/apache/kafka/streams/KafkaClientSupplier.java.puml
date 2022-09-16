@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.KafkaClientSupplier
 class org.apache.kafka.streams.KafkaClientSupplier {
-getAdmin(Map<String,Object>) : Admin [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#15]]]
-getProducer(Map<String,Object>) : Producer<byte[],byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#20]]]
-getConsumer(Map<String,Object>) : Consumer<byte[],byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#23]]]
-getRestoreConsumer(Map<String,Object>) : Consumer<byte[],byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#26]]]
-getGlobalConsumer(Map<String,Object>) : Consumer<byte[],byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#29]]]
+getAdmin(Map<String,Object>) : Admin [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#15]]]
+getProducer(Map<String,Object>) : Producer<byte[],byte[]> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#20]]]
+getConsumer(Map<String,Object>) : Consumer<byte[],byte[]> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#23]]]
+getRestoreConsumer(Map<String,Object>) : Consumer<byte[],byte[]> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#26]]]
+getGlobalConsumer(Map<String,Object>) : Consumer<byte[],byte[]> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#29]]]
 } 
 @enduml

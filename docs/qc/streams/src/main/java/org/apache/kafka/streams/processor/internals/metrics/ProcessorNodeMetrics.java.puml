@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics
 class org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics {
-- ProcessorNodeMetrics() : ProcessorNodeMetrics [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#26]]]
-+ suppressionEmitSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#66]]]
-+ skippedIdempotentUpdatesSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#82]]]
-+ processAtSourceSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98]]]
-+ forwardSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124]]]
-+ e2ELatencySensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150]]]
-+ emitFinalLatencySensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169]]]
-+ emittedRecordsSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187]]]
-- throughputParentSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205]]]
-- throughputSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...) : Sensor [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225]]]
+-ProcessorNodeMetrics() : ProcessorNodeMetrics [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#26]]]
++suppressionEmitSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#66]]]
++skippedIdempotentUpdatesSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#82]]]
++processAtSourceSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98]]]
++forwardSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124]]]
++e2ELatencySensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150]]]
++emitFinalLatencySensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169]]]
++emittedRecordsSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187]]]
+-throughputParentSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205]]]
+-throughputSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225]]]
 } 
 @enduml

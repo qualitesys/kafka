@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.AlterReplicaLogDirsResult
 class org.apache.kafka.clients.admin.AlterReplicaLogDirsResult {
-AlterReplicaLogDirsResult(Map<TopicPartitionReplica,KafkaFuture<Void>>) : AlterReplicaLogDirsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#22]]]
-+ values() : Map<TopicPartitionReplica,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#27]]]
-+ all() : KafkaFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#32]]]
+AlterReplicaLogDirsResult(Map<TopicPartitionReplica,KafkaFuture<Void>>) : AlterReplicaLogDirsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#22]]]
++values() : Map<TopicPartitionReplica,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#27]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#32]]]
 } 
 @enduml

@@ -2,16 +2,16 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.raft.RaftClient
 class org.apache.kafka.raft.RaftClient {
-initialize() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#31]]]
-register(Listener<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#34]]]
-unregister(Listener<T>) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#37]]]
-highWatermark() : OptionalLong [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#40]]]
-leaderAndEpoch() : LeaderAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#43]]]
-nodeId() : OptionalInt [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#46]]]
-scheduleAppend(int;List<T>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#49]]]
-scheduleAtomicAppend(int;List<T>) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#52]]]
-shutdown(int) : CompletableFuture<Void> [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#55]]]
-resign(int) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#58]]]
-createSnapshot(long;int;long) : Optional<SnapshotWriter<T>> [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#61]]]
+initialize() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#31]]]
+register(Listener<T>) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#34]]]
+unregister(Listener<T>) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#37]]]
+highWatermark() : OptionalLong [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#40]]]
+leaderAndEpoch() : LeaderAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#43]]]
+nodeId() : OptionalInt [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#46]]]
+scheduleAppend(int;List<T>) : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#49]]]
+scheduleAtomicAppend(int;List<T>) : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#52]]]
+shutdown(int) : CompletableFuture<Void> [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#55]]]
+resign(int) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#58]]]
+createSnapshot(long;int;long) : Optional<SnapshotWriter<T>> [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#61]]]
 } 
 @enduml

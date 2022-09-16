@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.Exit
 class org.apache.kafka.common.utils.Exit {
-+ exit(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#43]]]
-+ exit(int;String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#47]]]
-+ halt(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#51]]]
-+ halt(int;String) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#55]]]
-+ addShutdownHook(String;Runnable) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#59]]]
-+ setExitProcedure(Procedure) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#63]]]
-+ setHaltProcedure(Procedure) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#67]]]
-+ setShutdownHookAdder(ShutdownHookAdder) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#71]]]
-+ resetExitProcedure() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#75]]]
-+ resetHaltProcedure() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#79]]]
-+ resetShutdownHookAdder() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#83]]]
++exit(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#43]]]
++exit(int;String) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#47]]]
++halt(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#51]]]
++halt(int;String) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#55]]]
++addShutdownHook(String;Runnable) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#59]]]
++setExitProcedure(Procedure) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#63]]]
++setHaltProcedure(Procedure) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#67]]]
++setShutdownHookAdder(ShutdownHookAdder) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#71]]]
++resetExitProcedure() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#75]]]
++resetHaltProcedure() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#79]]]
++resetShutdownHookAdder() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#83]]]
 } 
 @enduml

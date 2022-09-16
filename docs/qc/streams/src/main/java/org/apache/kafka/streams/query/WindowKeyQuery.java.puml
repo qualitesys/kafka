@@ -2,10 +2,10 @@
 !pragma layout smetana
 Query_WindowStoreIterator_V__ <|-- org.apache.kafka.streams.query.WindowKeyQuery
 class org.apache.kafka.streams.query.WindowKeyQuery {
-- WindowKeyQuery(K;Optional<Instant>;Optional<Instant>) : WindowKeyQuery [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#18]]]
-+ getKey() : K [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#32]]]
-+ getTimeFrom() : Optional<Instant> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#36]]]
-+ getTimeTo() : Optional<Instant> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#40]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#45]]]
+-WindowKeyQuery(K;Optional<Instant>;Optional<Instant>) : WindowKeyQuery [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#18]]]
++getKey() : K [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#32]]]
++getTimeFrom() : Optional<Instant> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#36]]]
++getTimeTo() : Optional<Instant> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#40]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#45]]]
 } 
 @enduml

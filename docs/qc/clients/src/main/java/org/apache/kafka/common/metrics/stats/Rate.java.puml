@@ -2,14 +2,14 @@
 !pragma layout smetana
 MeasurableStat <|-- org.apache.kafka.common.metrics.stats.Rate
 class org.apache.kafka.common.metrics.stats.Rate {
-+ Rate() : Rate [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#18]]]
-+ Rate(TimeUnit) : Rate [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#22]]]
-+ Rate(SampledStat) : Rate [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#26]]]
-+ Rate(TimeUnit;SampledStat) : Rate [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#30]]]
-+ unitName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#35]]]
-+ record(MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#40]]]
-+ measure(MetricConfig;long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#45]]]
-+ windowSize(MetricConfig;long) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#50]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#68]]]
++Rate() : Rate [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#18]]]
++Rate(TimeUnit) : Rate [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#22]]]
++Rate(SampledStat) : Rate [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#26]]]
++Rate(TimeUnit;SampledStat) : Rate [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#30]]]
++unitName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#35]]]
++record(MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#40]]]
++measure(MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#45]]]
++windowSize(MetricConfig;long) : long [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#50]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Rate.java.html#68]]]
 } 
 @enduml

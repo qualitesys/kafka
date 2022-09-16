@@ -2,18 +2,18 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.DescribeAclsResponse
 class org.apache.kafka.common.requests.DescribeAclsResponse {
-+ DescribeAclsResponse(DescribeAclsResponseData;short) : DescribeAclsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#36]]]
-DescribeAclsResponse(DescribeAclsResponseData) : DescribeAclsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#43]]]
-+ data() : DescribeAclsResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#50]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#55]]]
-+ error() : ApiError [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#59]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#64]]]
-+ acls() : List<DescribeAclsResource> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#68]]]
-+ parse(ByteBuffer;short) : DescribeAclsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#72]]]
-+ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#77]]]
-- validate(Optional<Short>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#81]]]
-- aclBindings(DescribeAclsResource) : Stream<AclBinding> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#101]]]
-+ aclBindings(List<DescribeAclsResource>) : List<AclBinding> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#116]]]
-+ aclsResources(Collection<AclBinding>) : List<DescribeAclsResource> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#120]]]
++DescribeAclsResponse(DescribeAclsResponseData;short) : DescribeAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#36]]]
+DescribeAclsResponse(DescribeAclsResponseData) : DescribeAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#43]]]
++data() : DescribeAclsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#50]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#55]]]
++error() : ApiError [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#59]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#64]]]
++acls() : List<DescribeAclsResource> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#68]]]
++parse(ByteBuffer;short) : DescribeAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#72]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#77]]]
+-validate(Optional<Short>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#81]]]
+-aclBindings(DescribeAclsResource) : Stream<AclBinding> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#101]]]
++aclBindings(List<DescribeAclsResource>) : List<AclBinding> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#116]]]
++aclsResources(Collection<AclBinding>) : List<DescribeAclsResource> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#120]]]
 } 
 @enduml

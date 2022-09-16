@@ -2,9 +2,9 @@
 !pragma layout smetana
 RaftMessage <|-- org.apache.kafka.raft.RaftRequest
 class org.apache.kafka.raft.RaftRequest {
-+ RaftRequest(int;ApiMessage;long) : RaftRequest [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#13]]]
-+ correlationId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#20]]]
-+ data() : ApiMessage [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#25]]]
-+ createdTimeMs() : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#29]]]
++RaftRequest(int;ApiMessage;long) : RaftRequest [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#13]]]
++correlationId() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#20]]]
++data() : ApiMessage [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#25]]]
++createdTimeMs() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftRequest.java.html#29]]]
 } 
 @enduml

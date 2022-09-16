@@ -2,7 +2,7 @@
 !pragma layout smetana
 AbstractOptions_RenewDelegationTokenOptions_ <|-- org.apache.kafka.clients.admin.RenewDelegationTokenOptions
 class org.apache.kafka.clients.admin.RenewDelegationTokenOptions {
-+ renewTimePeriodMs(long) : RenewDelegationTokenOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#12]]]
-+ renewTimePeriodMs() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#17]]]
++renewTimePeriodMs(long) : RenewDelegationTokenOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#12]]]
++renewTimePeriodMs() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.html#17]]]
 } 
 @enduml

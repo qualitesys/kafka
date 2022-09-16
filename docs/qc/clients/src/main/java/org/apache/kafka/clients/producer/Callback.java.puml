@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.producer.Callback
 class org.apache.kafka.clients.producer.Callback {
-onCompletion(RecordMetadata;Exception) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/Callback.java.html#8]]]
+onCompletion(RecordMetadata;Exception) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/Callback.java.html#8]]]
 } 
 @enduml

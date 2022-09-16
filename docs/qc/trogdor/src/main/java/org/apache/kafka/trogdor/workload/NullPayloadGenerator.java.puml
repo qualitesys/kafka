@@ -2,7 +2,7 @@
 !pragma layout smetana
 PayloadGenerator <|-- org.apache.kafka.trogdor.workload.NullPayloadGenerator
 class org.apache.kafka.trogdor.workload.NullPayloadGenerator {
-+ NullPayloadGenerator() : NullPayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#9]]]
-+ generate(long) : byte[] [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#13]]]
++NullPayloadGenerator() : NullPayloadGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#9]]]
++generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#13]]]
 } 
 @enduml

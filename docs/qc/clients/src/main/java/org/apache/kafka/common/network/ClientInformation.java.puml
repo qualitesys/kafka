@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.network.ClientInformation
 class org.apache.kafka.common.network.ClientInformation {
-+ ClientInformation(String;String) : ClientInformation [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#14]]]
-+ softwareName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#19]]]
-+ softwareVersion() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#23]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#28]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#34]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#39]]]
++ClientInformation(String;String) : ClientInformation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#14]]]
++softwareName() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#19]]]
++softwareVersion() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#23]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#28]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#34]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#39]]]
 } 
 @enduml

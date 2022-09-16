@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.metrics.Quota
 class org.apache.kafka.common.metrics.Quota {
-+ Quota(double;boolean) : Quota [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#10]]]
-+ upperBound(double) : Quota [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#15]]]
-+ lowerBound(double) : Quota [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#19]]]
-+ isUpperBound() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#23]]]
-+ bound() : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#27]]]
-+ acceptable(double) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#31]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#36]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#45]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#55]]]
++Quota(double;boolean) : Quota [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#10]]]
++upperBound(double) : Quota [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#15]]]
++lowerBound(double) : Quota [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#19]]]
++isUpperBound() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#23]]]
++bound() : double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#27]]]
++acceptable(double) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#31]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#36]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#45]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Quota.java.html#55]]]
 } 
 @enduml

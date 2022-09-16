@@ -2,12 +2,12 @@
 !pragma layout smetana
 Serializable <|-- org.apache.kafka.common.TopicPartitionReplica
 class org.apache.kafka.common.TopicPartitionReplica {
-+ TopicPartitionReplica(String;int;int) : TopicPartitionReplica [[[././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#16]]]
-+ topic() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#22]]]
-+ partition() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#26]]]
-+ brokerId() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#30]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#35]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#49]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#61]]]
++TopicPartitionReplica(String;int;int) : TopicPartitionReplica [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#16]]]
++topic() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#22]]]
++partition() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#26]]]
++brokerId() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#30]]]
++hashCode() : int [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#35]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#49]]]
++toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicPartitionReplica.java.html#61]]]
 } 
 @enduml

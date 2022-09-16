@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.util.ConnectUtils
 class org.apache.kafka.connect.util.ConnectUtils {
-+ checkAndConvertTimestamp(Long) : Long [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#31]]]
-+ lookupKafkaClusterId(WorkerConfig) : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#40]]]
-lookupKafkaClusterId(Admin) : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#47]]]
-+ ensureProperty(Map<String,?superString>;String;String;String;boolean) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#68]]]
-ensurePropertyAndGetWarning(Map<String,?superString>;String;String;String;boolean) : Optional<String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#80]]]
-+ addMetricsContextProperties(Map<String,Object>;WorkerConfig;String) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#111]]]
-+ isSinkConnector(Connector) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#122]]]
-+ isSourceConnector(Connector) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#126]]]
-+ maybeWrap(Throwable;String) : ConnectException [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#156]]]
++checkAndConvertTimestamp(Long) : Long [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#31]]]
++lookupKafkaClusterId(WorkerConfig) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#40]]]
+lookupKafkaClusterId(Admin) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#47]]]
++ensureProperty(Map<String,?superString>;String;String;String;boolean) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#68]]]
+ensurePropertyAndGetWarning(Map<String,?superString>;String;String;String;boolean) : Optional<String> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#80]]]
++addMetricsContextProperties(Map<String,Object>;WorkerConfig;String) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#111]]]
++isSinkConnector(Connector) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#122]]]
++isSourceConnector(Connector) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#126]]]
++maybeWrap(Throwable;String) : ConnectException [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#156]]]
 } 
 @enduml

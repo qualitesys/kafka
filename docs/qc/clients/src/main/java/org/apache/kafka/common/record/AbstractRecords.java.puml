@@ -2,16 +2,16 @@
 !pragma layout smetana
 Records <|-- org.apache.kafka.common.record.AbstractRecords
 class org.apache.kafka.common.record.AbstractRecords {
-+ hasMatchingMagic(byte) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#16]]]
-+ firstBatch() : RecordBatch [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#23]]]
-+ records() : Iterable<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#34]]]
-+ toSend() : DefaultRecordsSend<Records> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#39]]]
-- recordsIterator() : Iterator<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#43]]]
-+ estimateSizeInBytes(byte;long;CompressionType;Iterable<Record>) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#63]]]
-+ estimateSizeInBytes(byte;CompressionType;Iterable<SimpleRecord>) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#77]]]
-- estimateCompressedSizeInBytes(int;CompressionType) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#90]]]
-+ estimateSizeInBytesUpperBound(byte;CompressionType;byte[];byte[];Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#95]]]
-+ estimateSizeInBytesUpperBound(byte;CompressionType;ByteBuffer;ByteBuffer;Header[]) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#100]]]
-+ recordBatchHeaderSizeInBytes(byte;CompressionType) : int [[[././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#111]]]
++hasMatchingMagic(byte) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#16]]]
++firstBatch() : RecordBatch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#23]]]
++records() : Iterable<Record> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#34]]]
++toSend() : DefaultRecordsSend<Records> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#39]]]
+-recordsIterator() : Iterator<Record> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#43]]]
++estimateSizeInBytes(byte;long;CompressionType;Iterable<Record>) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#63]]]
++estimateSizeInBytes(byte;CompressionType;Iterable<SimpleRecord>) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#77]]]
+-estimateCompressedSizeInBytes(int;CompressionType) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#90]]]
++estimateSizeInBytesUpperBound(byte;CompressionType;byte[];byte[];Header[]) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#95]]]
++estimateSizeInBytesUpperBound(byte;CompressionType;ByteBuffer;ByteBuffer;Header[]) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#100]]]
++recordBatchHeaderSizeInBytes(byte;CompressionType) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#111]]]
 } 
 @enduml

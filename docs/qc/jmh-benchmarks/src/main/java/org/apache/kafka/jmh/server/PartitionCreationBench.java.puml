@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.jmh.server.PartitionCreationBench
 class org.apache.kafka.jmh.server.PartitionCreationBench {
-+ setup() : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#88]]]
-+ tearDown() : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#157]]]
-- createLogConfig() : LogConfig [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#169]]]
-+ makeFollower() : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#187]]]
++setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#88]]]
++tearDown() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#157]]]
+-createLogConfig() : LogConfig [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#169]]]
++makeFollower() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.html#187]]]
 } 
 @enduml

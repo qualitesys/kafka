@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.transforms.util.Requirements
 class org.apache.kafka.connect.transforms.util.Requirements {
-+ requireSchema(Schema;String) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#14]]]
-+ requireMap(Object;String) : Map<String,Object> [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#21]]]
-+ requireMapOrNull(Object;String) : Map<String,Object> [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#28]]]
-+ requireStruct(Object;String) : Struct [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#35]]]
-+ requireStructOrNull(Object;String) : Struct [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#42]]]
-+ requireSinkRecord(ConnectRecord<?>;String) : SinkRecord [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#49]]]
-- nullSafeClassName(Object) : String [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#56]]]
++requireSchema(Schema;String) : void [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#14]]]
++requireMap(Object;String) : Map<String,Object> [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#21]]]
++requireMapOrNull(Object;String) : Map<String,Object> [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#28]]]
++requireStruct(Object;String) : Struct [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#35]]]
++requireStructOrNull(Object;String) : Struct [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#42]]]
++requireSinkRecord(ConnectRecord<?>;String) : SinkRecord [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#49]]]
+-nullSafeClassName(Object) : String [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#56]]]
 } 
 @enduml

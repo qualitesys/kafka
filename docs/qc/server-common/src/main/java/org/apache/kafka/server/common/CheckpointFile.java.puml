@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.common.CheckpointFile
 class org.apache.kafka.server.common.CheckpointFile {
-+ CheckpointFile(File;int;EntryFormatter<T>) : CheckpointFile [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32]]]
-+ write(Collection<T>) : void [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47]]]
-+ read() : List<T> [[[././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#74]]]
++CheckpointFile(File;int;EntryFormatter<T>) : CheckpointFile [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32]]]
++write(Collection<T>) : void [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47]]]
++read() : List<T> [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#74]]]
 } 
 @enduml

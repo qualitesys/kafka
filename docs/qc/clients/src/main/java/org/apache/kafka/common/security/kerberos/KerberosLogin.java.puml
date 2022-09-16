@@ -2,19 +2,19 @@
 !pragma layout smetana
 AbstractLogin <|-- org.apache.kafka.common.security.kerberos.KerberosLogin
 class org.apache.kafka.common.security.kerberos.KerberosLogin {
-+ configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#65]]]
-+ login() : LoginContext [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#77]]]
-+ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#243]]]
-+ subject() : Subject [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#256]]]
-+ serviceName() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#261]]]
-- getServiceName(Map<String,?>;String;Configuration) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#265]]]
-- getRefreshTime(KerberosTicket) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#284]]]
-- getTGT() : KerberosTicket [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#299]]]
-- hasSufficientTimeElapsed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#312]]]
-reLogin() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#323]]]
-login(LoginContext) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#353]]]
-logout() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#358]]]
-- currentElapsedTime() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#362]]]
-- currentWallTime() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#366]]]
++configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#65]]]
++login() : LoginContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#77]]]
++close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#243]]]
++subject() : Subject [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#256]]]
++serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#261]]]
+-getServiceName(Map<String,?>;String;Configuration) : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#265]]]
+-getRefreshTime(KerberosTicket) : long [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#284]]]
+-getTGT() : KerberosTicket [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#299]]]
+-hasSufficientTimeElapsed() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#312]]]
+reLogin() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#323]]]
+login(LoginContext) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#353]]]
+logout() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#358]]]
+-currentElapsedTime() : long [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#362]]]
+-currentWallTime() : long [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#366]]]
 } 
 @enduml

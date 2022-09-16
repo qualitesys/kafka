@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerRebalanceListener
 class org.apache.kafka.clients.consumer.ConsumerRebalanceListener {
-onPartitionsRevoked(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRebalanceListener.java.html#13]]]
-onPartitionsAssigned(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRebalanceListener.java.html#16]]]
-onPartitionsLost(Collection<TopicPartition>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRebalanceListener.java.html#19]]]
+onPartitionsRevoked(Collection<TopicPartition>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRebalanceListener.java.html#13]]]
+onPartitionsAssigned(Collection<TopicPartition>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRebalanceListener.java.html#16]]]
+onPartitionsLost(Collection<TopicPartition>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRebalanceListener.java.html#19]]]
 } 
 @enduml

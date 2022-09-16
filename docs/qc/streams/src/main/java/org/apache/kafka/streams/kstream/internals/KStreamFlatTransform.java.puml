@@ -2,8 +2,8 @@
 !pragma layout smetana
 ProcessorSupplier_KIn,VIn,KOut,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KStreamFlatTransform
 class org.apache.kafka.streams.kstream.internals.KStreamFlatTransform {
-+ KStreamFlatTransform(TransformerSupplier<?superKIn,?superVIn,Iterable<KeyValue<KOut,VOut>>>) : KStreamFlatTransform [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.html#21]]]
-+ get() : Processor<KIn,VIn,KOut,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.html#26]]]
-+ stores() : Set<StoreBuilder<?>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.html#31]]]
++KStreamFlatTransform(TransformerSupplier<?superKIn,?superVIn,Iterable<KeyValue<KOut,VOut>>>) : KStreamFlatTransform [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.html#21]]]
++get() : Processor<KIn,VIn,KOut,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.html#26]]]
++stores() : Set<StoreBuilder<?>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransform.java.html#31]]]
 } 
 @enduml

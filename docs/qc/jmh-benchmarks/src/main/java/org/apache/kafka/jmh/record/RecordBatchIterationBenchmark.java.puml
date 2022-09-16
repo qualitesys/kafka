@@ -2,9 +2,9 @@
 !pragma layout smetana
 BaseRecordBatchBenchmark <|-- org.apache.kafka.jmh.record.RecordBatchIterationBenchmark
 class org.apache.kafka.jmh.record.RecordBatchIterationBenchmark {
-compressionType() : CompressionType [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#30]]]
-+ measureIteratorForBatchWithSingleMessage(Blackhole) : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#35]]]
-+ measureStreamingIteratorForVariableBatchSize(Blackhole) : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#47]]]
-+ measureSkipIteratorForVariableBatchSize(Blackhole) : void [[[././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#61]]]
+compressionType() : CompressionType [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#30]]]
++measureIteratorForBatchWithSingleMessage(Blackhole) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#35]]]
++measureStreamingIteratorForVariableBatchSize(Blackhole) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#47]]]
++measureSkipIteratorForVariableBatchSize(Blackhole) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#61]]]
 } 
 @enduml

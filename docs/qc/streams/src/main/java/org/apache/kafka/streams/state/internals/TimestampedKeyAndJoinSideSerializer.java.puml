@@ -2,10 +2,10 @@
 !pragma layout smetana
 WrappingNullableSerializer_TimestampedKeyAndJoinSide_K_,K,Void_ <|-- org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerializer
 class org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideSerializer {
-TimestampedKeyAndJoinSideSerializer(Serializer<K>) : TimestampedKeyAndJoinSideSerializer [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#19]]]
-+ setIfUnset(SerdeGetter) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#25]]]
-+ configure(Map<String,?>;boolean) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#34]]]
-+ serialize(String;TimestampedKeyAndJoinSide<K>) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#39]]]
-+ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#53]]]
+TimestampedKeyAndJoinSideSerializer(Serializer<K>) : TimestampedKeyAndJoinSideSerializer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#19]]]
++setIfUnset(SerdeGetter) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#25]]]
++configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#34]]]
++serialize(String;TimestampedKeyAndJoinSide<K>) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#39]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#53]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 ArgumentAction <|-- org.apache.kafka.tools.PrintVersionAndExitAction
 class org.apache.kafka.tools.PrintVersionAndExitAction {
-+ run(ArgumentParser;Argument;Map<String,Object>;String;Object) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html#15]]]
-+ onAttach(Argument) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html#29]]]
-+ consumeArgument() : boolean [[[././qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html#34]]]
++run(ArgumentParser;Argument;Map<String,Object>;String;Object) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html#15]]]
++onAttach(Argument) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html#29]]]
++consumeArgument() : boolean [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html#34]]]
 } 
 @enduml

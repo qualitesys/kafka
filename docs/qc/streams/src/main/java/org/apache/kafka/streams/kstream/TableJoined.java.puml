@@ -2,10 +2,10 @@
 !pragma layout smetana
 NamedOperation_TableJoined_K,KO__ <|-- org.apache.kafka.streams.kstream.TableJoined
 class org.apache.kafka.streams.kstream.TableJoined {
-- TableJoined(StreamPartitioner<K,Void>;StreamPartitioner<KO,Void>;String) : TableJoined [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#15]]]
-TableJoined(TableJoined<K,KO>) : TableJoined [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#23]]]
-+ withPartitioner(StreamPartitioner<K,Void>) : TableJoined<K,KO> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#39]]]
-+ withOtherPartitioner(StreamPartitioner<KO,Void>) : TableJoined<K,KO> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#44]]]
-+ withName(String) : TableJoined<K,KO> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#50]]]
+-TableJoined(StreamPartitioner<K,Void>;StreamPartitioner<KO,Void>;String) : TableJoined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#15]]]
+TableJoined(TableJoined<K,KO>) : TableJoined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#23]]]
++withPartitioner(StreamPartitioner<K,Void>) : TableJoined<K,KO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#39]]]
++withOtherPartitioner(StreamPartitioner<KO,Void>) : TableJoined<K,KO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#44]]]
++withName(String) : TableJoined<K,KO> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#50]]]
 } 
 @enduml

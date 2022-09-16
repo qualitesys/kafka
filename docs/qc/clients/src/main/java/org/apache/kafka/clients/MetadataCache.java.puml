@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.MetadataCache
 class org.apache.kafka.clients.MetadataCache {
-MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>) : MetadataCache [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#39]]]
-- MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;Cluster) : MetadataCache [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#50]]]
-partitionMetadata(TopicPartition) : Optional<PartitionMetadata> [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#79]]]
-topicIds() : Map<String,Uuid> [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#83]]]
-nodeById(int) : Optional<Node> [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#87]]]
-cluster() : Cluster [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#91]]]
-clusterResource() : ClusterResource [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#99]]]
-mergeWith(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;BiPredicate<String,Boolean>) : MetadataCache [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#104]]]
-- computeClusterView() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#159]]]
-bootstrap(List<InetSocketAddress>) : MetadataCache [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#168]]]
-empty() : MetadataCache [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#180]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#186]]]
+MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>) : MetadataCache [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#39]]]
+-MetadataCache(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;Cluster) : MetadataCache [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#50]]]
+partitionMetadata(TopicPartition) : Optional<PartitionMetadata> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#79]]]
+topicIds() : Map<String,Uuid> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#83]]]
+nodeById(int) : Optional<Node> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#87]]]
+cluster() : Cluster [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#91]]]
+clusterResource() : ClusterResource [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#99]]]
+mergeWith(String;Map<Integer,Node>;Collection<PartitionMetadata>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>;BiPredicate<String,Boolean>) : MetadataCache [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#104]]]
+-computeClusterView() : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#159]]]
+bootstrap(List<InetSocketAddress>) : MetadataCache [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#168]]]
+empty() : MetadataCache [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#180]]]
++toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#186]]]
 } 
 @enduml

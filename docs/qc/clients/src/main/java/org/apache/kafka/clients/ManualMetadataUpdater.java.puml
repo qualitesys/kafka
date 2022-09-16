@@ -2,15 +2,15 @@
 !pragma layout smetana
 MetadataUpdater <|-- org.apache.kafka.clients.ManualMetadataUpdater
 class org.apache.kafka.clients.ManualMetadataUpdater {
-+ ManualMetadataUpdater() : ManualMetadataUpdater [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#18]]]
-+ ManualMetadataUpdater(List<Node>) : ManualMetadataUpdater [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#22]]]
-+ setNodes(List<Node>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#26]]]
-+ fetchNodes() : List<Node> [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#31]]]
-+ isUpdateDue(long) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#36]]]
-+ maybeUpdate(long) : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#41]]]
-+ handleServerDisconnect(long;String;Optional<AuthenticationException>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46]]]
-+ handleFailedRequest(long;Optional<KafkaException>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#52]]]
-+ handleSuccessfulResponse(RequestHeader;long;MetadataResponse) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#57]]]
-+ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#62]]]
++ManualMetadataUpdater() : ManualMetadataUpdater [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#18]]]
++ManualMetadataUpdater(List<Node>) : ManualMetadataUpdater [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#22]]]
++setNodes(List<Node>) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#26]]]
++fetchNodes() : List<Node> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#31]]]
++isUpdateDue(long) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#36]]]
++maybeUpdate(long) : long [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#41]]]
++handleServerDisconnect(long;String;Optional<AuthenticationException>) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46]]]
++handleFailedRequest(long;Optional<KafkaException>) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#52]]]
++handleSuccessfulResponse(RequestHeader;long;MetadataResponse) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#57]]]
++close() : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#62]]]
 } 
 @enduml

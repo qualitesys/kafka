@@ -2,10 +2,10 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.shell.InteractiveShell
 class org.apache.kafka.shell.InteractiveShell {
-+ InteractiveShell(MetadataNodeManager) : InteractiveShell [[[././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#70]]]
-+ runMainLoop() : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#88]]]
-+ screenWidth() : int [[[././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#108]]]
-+ history(int) : Iterator<Entry<Integer,String>> [[[././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#112]]]
-+ close() : void [[[././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#152]]]
++InteractiveShell(MetadataNodeManager) : InteractiveShell [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#70]]]
++runMainLoop() : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#88]]]
++screenWidth() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#108]]]
++history(int) : Iterator<Entry<Integer,String>> [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#112]]]
++close() : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#152]]]
 } 
 @enduml

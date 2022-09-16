@@ -2,19 +2,19 @@
 !pragma layout smetana
 SourceConnector <|-- org.apache.kafka.connect.mirror.MirrorCheckpointConnector
 class org.apache.kafka.connect.mirror.MirrorCheckpointConnector {
-+ MirrorCheckpointConnector() : MirrorCheckpointConnector [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#36]]]
-MirrorCheckpointConnector(List<String>;MirrorConnectorConfig) : MirrorCheckpointConnector [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#41]]]
-+ start(Map<String,String>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#47]]]
-+ stop() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#66]]]
-+ taskClass() : Class<?extendsTask> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#76]]]
-+ taskConfigs(int) : List<Map<String,String>> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#82]]]
-+ config() : ConfigDef [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#97]]]
-+ version() : String [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#102]]]
-- refreshConsumerGroups() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#106]]]
-- loadInitialConsumerGroups() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#125]]]
-findConsumerGroups() : List<String> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#130]]]
-listConsumerGroups() : Collection<ConsumerGroupListing> [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#138]]]
-- createInternalTopics() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#143]]]
-shouldReplicate(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#148]]]
++MirrorCheckpointConnector() : MirrorCheckpointConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#36]]]
+MirrorCheckpointConnector(List<String>;MirrorConnectorConfig) : MirrorCheckpointConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#41]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#47]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#66]]]
++taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#76]]]
++taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#82]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#97]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#102]]]
+-refreshConsumerGroups() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#106]]]
+-loadInitialConsumerGroups() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#125]]]
+findConsumerGroups() : List<String> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#130]]]
+listConsumerGroups() : Collection<ConsumerGroupListing> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#138]]]
+-createInternalTopics() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#143]]]
+shouldReplicate(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#148]]]
 } 
 @enduml

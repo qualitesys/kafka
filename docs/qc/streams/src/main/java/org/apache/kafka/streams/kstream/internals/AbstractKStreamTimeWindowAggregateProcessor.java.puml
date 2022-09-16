@@ -2,16 +2,16 @@
 !pragma layout smetana
 ContextualProcessor_KIn,VIn,Windowed_KIn_,Change_VAgg__ <|-- org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor
 class org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor {
-AbstractKStreamTimeWindowAggregateProcessor(String;EmitStrategy;boolean) : AbstractKStreamTimeWindowAggregateProcessor [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#47]]]
-+ init(ProcessorContext<Windowed<KIn>,Change<VAgg>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#56]]]
-maybeForwardUpdate(Record<KIn,VIn>;Window;VAgg;VAgg;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#90]]]
-maybeForwardFinalResult(Record<KIn,VIn>;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#105]]]
-logSkippedRecordForExpiredWindow(Logger;long;long;String) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#121]]]
-updateObservedStreamTime(long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#158]]]
-- shouldEmitFinal(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#162]]]
-- fetchAndEmit(Record<KIn,VIn>;long;long;long) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#182]]]
-emitRangeLowerBound(long) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#210]]]
-emitRangeUpperBound(long) : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#212]]]
-shouldRangeFetch(long;long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#214]]]
+AbstractKStreamTimeWindowAggregateProcessor(String;EmitStrategy;boolean) : AbstractKStreamTimeWindowAggregateProcessor [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#47]]]
++init(ProcessorContext<Windowed<KIn>,Change<VAgg>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#56]]]
+maybeForwardUpdate(Record<KIn,VIn>;Window;VAgg;VAgg;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#90]]]
+maybeForwardFinalResult(Record<KIn,VIn>;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#105]]]
+logSkippedRecordForExpiredWindow(Logger;long;long;String) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#121]]]
+updateObservedStreamTime(long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#158]]]
+-shouldEmitFinal(long) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#162]]]
+-fetchAndEmit(Record<KIn,VIn>;long;long;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#182]]]
+emitRangeLowerBound(long) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#210]]]
+emitRangeUpperBound(long) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#212]]]
+shouldRangeFetch(long;long) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#214]]]
 } 
 @enduml

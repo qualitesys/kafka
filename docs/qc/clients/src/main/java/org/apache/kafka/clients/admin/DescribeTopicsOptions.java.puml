@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractOptions_DescribeTopicsOptions_ <|-- org.apache.kafka.clients.admin.DescribeTopicsOptions
 class org.apache.kafka.clients.admin.DescribeTopicsOptions {
-+ timeoutMs(Integer) : DescribeTopicsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#17]]]
-+ includeAuthorizedOperations(boolean) : DescribeTopicsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#22]]]
-+ includeAuthorizedOperations() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#27]]]
++timeoutMs(Integer) : DescribeTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#17]]]
++includeAuthorizedOperations(boolean) : DescribeTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#22]]]
++includeAuthorizedOperations() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#27]]]
 } 
 @enduml

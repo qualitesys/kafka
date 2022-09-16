@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.DeleteTopicsResponse
 class org.apache.kafka.common.requests.DeleteTopicsResponse {
-+ DeleteTopicsResponse(DeleteTopicsResponseData) : DeleteTopicsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#19]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#25]]]
-+ data() : DeleteTopicsResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#30]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#35]]]
-+ parse(ByteBuffer;short) : DeleteTopicsResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#43]]]
-+ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#48]]]
++DeleteTopicsResponse(DeleteTopicsResponseData) : DeleteTopicsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#19]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#25]]]
++data() : DeleteTopicsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#30]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#35]]]
++parse(ByteBuffer;short) : DeleteTopicsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#43]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#48]]]
 } 
 @enduml

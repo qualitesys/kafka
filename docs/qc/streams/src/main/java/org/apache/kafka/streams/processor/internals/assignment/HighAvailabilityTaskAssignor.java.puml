@@ -2,16 +2,16 @@
 !pragma layout smetana
 TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor
 class org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor {
-+ assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#33]]]
-- assignActiveStatefulTasks(SortedMap<UUID,ClientState>;SortedSet<TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#95]]]
-- assignStandbyReplicaTasks(TreeMap<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#114]]]
-- balanceTasksOverThreads(SortedMap<UUID,ClientState>;Function<ClientState,Set<TaskId>>;BiConsumer<ClientState,TaskId>;BiConsumer<ClientState,TaskId>;BiPredicate<ClientState,ClientState>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#135]]]
-- shouldMoveATask(ClientState;ClientState) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#173]]]
-- assignStatelessActiveTasks(TreeMap<UUID,ClientState>;Iterable<TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#195]]]
-- tasksToCaughtUpClients(Set<TaskId>;Map<UUID,ClientState>;long) : Map<TaskId,SortedSet<UUID>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#211]]]
-- tasksToClientByLag(Set<TaskId>;Map<UUID,ClientState>) : Map<TaskId,SortedSet<UUID>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#231]]]
-- unbounded(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#243]]]
-- acceptable(long;long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#247]]]
-- activeRunning(long) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#251]]]
++assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#33]]]
+-assignActiveStatefulTasks(SortedMap<UUID,ClientState>;SortedSet<TaskId>) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#95]]]
+-assignStandbyReplicaTasks(TreeMap<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignmentConfigs) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#114]]]
+-balanceTasksOverThreads(SortedMap<UUID,ClientState>;Function<ClientState,Set<TaskId>>;BiConsumer<ClientState,TaskId>;BiConsumer<ClientState,TaskId>;BiPredicate<ClientState,ClientState>) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#135]]]
+-shouldMoveATask(ClientState;ClientState) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#173]]]
+-assignStatelessActiveTasks(TreeMap<UUID,ClientState>;Iterable<TaskId>) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#195]]]
+-tasksToCaughtUpClients(Set<TaskId>;Map<UUID,ClientState>;long) : Map<TaskId,SortedSet<UUID>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#211]]]
+-tasksToClientByLag(Set<TaskId>;Map<UUID,ClientState>) : Map<TaskId,SortedSet<UUID>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#231]]]
+-unbounded(long) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#243]]]
+-acceptable(long;long) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#247]]]
+-activeRunning(long) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#251]]]
 } 
 @enduml

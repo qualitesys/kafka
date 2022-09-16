@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.QuorumFeatures
 class org.apache.kafka.controller.QuorumFeatures {
-QuorumFeatures(int;ApiVersions;Map<String,VersionRange>;List<Integer>) : QuorumFeatures [[[././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#34]]]
-+ create(int;ApiVersions;Map<String,VersionRange>;Collection<Node>) : QuorumFeatures [[[././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#46]]]
-+ defaultFeatureMap() : Map<String,VersionRange> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#56]]]
-+ reasonNotSupported(String;short) : Optional<String> [[[././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#65]]]
-localSupportedFeature(String) : VersionRange [[[././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#101]]]
+QuorumFeatures(int;ApiVersions;Map<String,VersionRange>;List<Integer>) : QuorumFeatures [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#34]]]
++create(int;ApiVersions;Map<String,VersionRange>;Collection<Node>) : QuorumFeatures [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#46]]]
++defaultFeatureMap() : Map<String,VersionRange> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#56]]]
++reasonNotSupported(String;short) : Optional<String> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#65]]]
+localSupportedFeature(String) : VersionRange [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#101]]]
 } 
 @enduml

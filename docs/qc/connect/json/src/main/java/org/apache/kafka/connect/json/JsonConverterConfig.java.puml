@@ -2,10 +2,10 @@
 !pragma layout smetana
 ConverterConfig <|-- org.apache.kafka.connect.json.JsonConverterConfig
 class org.apache.kafka.connect.json.JsonConverterConfig {
-+ configDef() : ConfigDef [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#54]]]
-+ JsonConverterConfig(Map<String,?>) : JsonConverterConfig [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#63]]]
-+ schemasEnabled() : boolean [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#71]]]
-+ schemaCacheSize() : int [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#76]]]
-+ decimalFormat() : DecimalFormat [[[././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#81]]]
++configDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#54]]]
++JsonConverterConfig(Map<String,?>) : JsonConverterConfig [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#63]]]
++schemasEnabled() : boolean [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#71]]]
++schemaCacheSize() : int [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#76]]]
++decimalFormat() : DecimalFormat [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#81]]]
 } 
 @enduml

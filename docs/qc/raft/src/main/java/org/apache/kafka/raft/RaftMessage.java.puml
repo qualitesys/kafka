@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.RaftMessage
 class org.apache.kafka.raft.RaftMessage {
-correlationId() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.html#7]]]
-data() : ApiMessage [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.html#9]]]
+correlationId() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.html#7]]]
+data() : ApiMessage [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.html#9]]]
 } 
 @enduml

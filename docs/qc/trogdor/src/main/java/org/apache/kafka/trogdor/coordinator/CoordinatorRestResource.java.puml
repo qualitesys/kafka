@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.coordinator.CoordinatorRestResource
 class org.apache.kafka.trogdor.coordinator.CoordinatorRestResource {
-+ setCoordinator(Coordinator) : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#45]]]
-+ status() : CoordinatorStatusResponse [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#51]]]
-+ uptime() : UptimeResponse [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#57]]]
-+ createTask(CreateTaskRequest) : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#63]]]
-+ stopTask(StopTaskRequest) : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#70]]]
-+ destroyTask(String) : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#77]]]
-+ tasks(List<String>;long;long;long;long;String) : Response [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#84]]]
-+ tasks(String) : TaskState [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#106]]]
-+ beginShutdown(CoordinatorShutdownRequest) : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#116]]]
-- coordinator() : Coordinator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#121]]]
++setCoordinator(Coordinator) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#45]]]
++status() : CoordinatorStatusResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#51]]]
++uptime() : UptimeResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#57]]]
++createTask(CreateTaskRequest) : Empty [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#63]]]
++stopTask(StopTaskRequest) : Empty [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#70]]]
++destroyTask(String) : Empty [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#77]]]
++tasks(List<String>;long;long;long;long;String) : Response [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#84]]]
++tasks(String) : TaskState [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#106]]]
++beginShutdown(CoordinatorShutdownRequest) : Empty [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#116]]]
+-coordinator() : Coordinator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#121]]]
 } 
 @enduml

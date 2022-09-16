@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.Metric
 class org.apache.kafka.common.Metric {
-metricName() : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/Metric.java.html#8]]]
-metricValue() : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/Metric.java.html#11]]]
+metricName() : MetricName [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Metric.java.html#8]]]
+metricValue() : Object [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Metric.java.html#11]]]
 } 
 @enduml

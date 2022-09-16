@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.AlterClientQuotasResult
 class org.apache.kafka.clients.admin.AlterClientQuotasResult {
-+ AlterClientQuotasResult(Map<ClientQuotaEntity,KafkaFuture<Void>>) : AlterClientQuotasResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#18]]]
-+ values() : Map<ClientQuotaEntity,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#23]]]
-+ all() : KafkaFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#28]]]
++AlterClientQuotasResult(Map<ClientQuotaEntity,KafkaFuture<Void>>) : AlterClientQuotasResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#18]]]
++values() : Map<ClientQuotaEntity,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#23]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasResult.java.html#28]]]
 } 
 @enduml

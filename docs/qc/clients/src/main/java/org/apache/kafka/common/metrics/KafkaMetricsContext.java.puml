@@ -2,8 +2,8 @@
 !pragma layout smetana
 MetricsContext <|-- org.apache.kafka.common.metrics.KafkaMetricsContext
 class org.apache.kafka.common.metrics.KafkaMetricsContext {
-+ KafkaMetricsContext(String) : KafkaMetricsContext [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#14]]]
-+ KafkaMetricsContext(String;Map<String,?>) : KafkaMetricsContext [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#19]]]
-+ contextLabels() : Map<String,String> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#25]]]
++KafkaMetricsContext(String) : KafkaMetricsContext [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#14]]]
++KafkaMetricsContext(String;Map<String,?>) : KafkaMetricsContext [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#19]]]
++contextLabels() : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#25]]]
 } 
 @enduml

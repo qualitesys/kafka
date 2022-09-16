@@ -2,10 +2,10 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.snapshot.SnapshotReader
 class org.apache.kafka.snapshot.SnapshotReader {
-snapshotId() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#12]]]
-lastContainedLogOffset() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#15]]]
-lastContainedLogEpoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#18]]]
-lastContainedLogTimestamp() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#21]]]
-close() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#24]]]
+snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#12]]]
+lastContainedLogOffset() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#15]]]
+lastContainedLogEpoch() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#18]]]
+lastContainedLogTimestamp() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#21]]]
+close() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotReader.java.html#24]]]
 } 
 @enduml

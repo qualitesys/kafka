@@ -2,11 +2,11 @@
 !pragma layout smetana
 KeyValueIterator_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.SegmentIterator
 class org.apache.kafka.streams.state.internals.SegmentIterator {
-SegmentIterator(Iterator<S>;HasNextCondition;Bytes;Bytes;boolean) : SegmentIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#24]]]
-+ close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#37]]]
-+ peekNextKey() : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#45]]]
-+ hasNext() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#53]]]
-- hasNextConditionHasNext() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#72]]]
-+ next() : KeyValue<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#83]]]
+SegmentIterator(Iterator<S>;HasNextCondition;Bytes;Bytes;boolean) : SegmentIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#24]]]
++close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#37]]]
++peekNextKey() : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#45]]]
++hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#53]]]
+-hasNextConditionHasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#72]]]
++next() : KeyValue<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentIterator.java.html#83]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 KStreamAggProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.KStreamReduce
 class org.apache.kafka.streams.kstream.internals.KStreamReduce {
-KStreamReduce(String;Reducer<V>) : KStreamReduce [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#29]]]
-+ get() : Processor<K,V,K,Change<V>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#35]]]
-+ enableSendingOldValues() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#40]]]
-+ view() : KTableValueGetterSupplier<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#108]]]
+KStreamReduce(String;Reducer<V>) : KStreamReduce [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#29]]]
++get() : Processor<K,V,K,Change<V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#35]]]
++enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#40]]]
++view() : KTableValueGetterSupplier<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#108]]]
 } 
 @enduml

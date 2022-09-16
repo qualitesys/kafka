@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.tools.TransformationDoc
 class org.apache.kafka.connect.tools.TransformationDoc {
-- printTransformationHtml(PrintStream;DocInfo) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#59]]]
-- printHtml(PrintStream) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#75]]]
-+ main(String...) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#81]]]
+-printTransformationHtml(PrintStream;DocInfo) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#59]]]
+-printHtml(PrintStream) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#75]]]
++main(String...) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#81]]]
 } 
 @enduml

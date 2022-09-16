@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.BrokerRegistrationReply
 class org.apache.kafka.metadata.BrokerRegistrationReply {
-+ BrokerRegistrationReply(long) : BrokerRegistrationReply [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#11]]]
-+ epoch() : long [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#15]]]
-+ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#20]]]
-+ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#25]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#32]]]
++BrokerRegistrationReply(long) : BrokerRegistrationReply [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#11]]]
++epoch() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#15]]]
++hashCode() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#20]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#25]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#32]]]
 } 
 @enduml

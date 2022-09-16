@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.PolicyViolationException
 class org.apache.kafka.common.errors.PolicyViolationException {
-+ PolicyViolationException(String) : PolicyViolationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/PolicyViolationException.java.html#7]]]
-+ PolicyViolationException(String;Throwable) : PolicyViolationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/PolicyViolationException.java.html#11]]]
++PolicyViolationException(String) : PolicyViolationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/PolicyViolationException.java.html#7]]]
++PolicyViolationException(String;Throwable) : PolicyViolationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/PolicyViolationException.java.html#11]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 Transformation_R_ <|-- org.apache.kafka.connect.transforms.DropHeaders
 class org.apache.kafka.connect.transforms.DropHeaders {
-+ apply(R) : R [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34]]]
-+ config() : ConfigDef [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#46]]]
-+ close() : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#51]]]
-+ configure(Map<String,?>) : void [[[././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#55]]]
++apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#46]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#51]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#55]]]
 } 
 @enduml

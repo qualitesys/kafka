@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.StructRegistry
 class org.apache.kafka.message.StructRegistry {
-StructRegistry() : StructRegistry [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#38]]]
-register(MessageSpec) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#44]]]
-- addStructSpecs(Versions;List<FieldSpec>) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#62]]]
-findStruct(FieldSpec) : StructSpec [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#99]]]
-isStructArrayWithKeys(FieldSpec) : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#121]]]
-commonStructNames() : Set<String> [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#137]]]
-commonStructs() : Iterator<StructSpec> [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#142]]]
-structs() : Iterator<StructInfo> [[[././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#158]]]
+StructRegistry() : StructRegistry [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#38]]]
+register(MessageSpec) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#44]]]
+-addStructSpecs(Versions;List<FieldSpec>) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#62]]]
+findStruct(FieldSpec) : StructSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#99]]]
+isStructArrayWithKeys(FieldSpec) : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#121]]]
+commonStructNames() : Set<String> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#137]]]
+commonStructs() : Iterator<StructSpec> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#142]]]
+structs() : Iterator<StructInfo> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#158]]]
 } 
 @enduml

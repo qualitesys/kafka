@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.rest.Empty
 class org.apache.kafka.trogdor.rest.Empty {
-+ Empty() : Empty [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#13]]]
-+ equals(Object) : boolean [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#17]]]
-+ hashCode() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#24]]]
-+ toString() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#29]]]
++Empty() : Empty [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#13]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#17]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#24]]]
++toString() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Empty.java.html#29]]]
 } 
 @enduml

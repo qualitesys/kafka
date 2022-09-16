@@ -2,14 +2,14 @@
 !pragma layout smetana
 MetricsReporter <|-- org.apache.kafka.tools.PushHttpMetricsReporter
 class org.apache.kafka.tools.PushHttpMetricsReporter {
-+ PushHttpMetricsReporter() : PushHttpMetricsReporter [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#77]]]
-PushHttpMetricsReporter(Time;ScheduledExecutorService) : PushHttpMetricsReporter [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#82]]]
-+ configure(Map<String,?>) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#88]]]
-+ init(List<KafkaMetric>) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#113]]]
-+ metricChange(KafkaMetric) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#123]]]
-+ metricRemoval(KafkaMetric) : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#131]]]
-+ close() : void [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#139]]]
-newHttpConnection(URL) : HttpURLConnection [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#205]]]
-readResponse(InputStream) : String [[[././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#210]]]
++PushHttpMetricsReporter() : PushHttpMetricsReporter [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#77]]]
+PushHttpMetricsReporter(Time;ScheduledExecutorService) : PushHttpMetricsReporter [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#82]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#88]]]
++init(List<KafkaMetric>) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#113]]]
++metricChange(KafkaMetric) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#123]]]
++metricRemoval(KafkaMetric) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#131]]]
++close() : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#139]]]
+newHttpConnection(URL) : HttpURLConnection [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#205]]]
+readResponse(InputStream) : String [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#210]]]
 } 
 @enduml

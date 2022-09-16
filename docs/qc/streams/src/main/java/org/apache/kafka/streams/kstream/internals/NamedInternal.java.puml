@@ -2,14 +2,14 @@
 !pragma layout smetana
 Named <|-- org.apache.kafka.streams.kstream.internals.NamedInternal
 class org.apache.kafka.streams.kstream.internals.NamedInternal {
-+ empty() : NamedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#8]]]
-+ with(String) : NamedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#12]]]
-NamedInternal(Named) : NamedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#17]]]
-NamedInternal(String) : NamedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#22]]]
-+ name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#27]]]
-+ withName(String) : NamedInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#32]]]
-suffixWithOrElseGet(String;String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#36]]]
-suffixWithOrElseGet(String;InternalNameProvider;String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#44]]]
-orElseGenerateWithPrefix(InternalNameProvider;String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#60]]]
++empty() : NamedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#8]]]
++with(String) : NamedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#12]]]
+NamedInternal(Named) : NamedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#17]]]
+NamedInternal(String) : NamedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#22]]]
++name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#27]]]
++withName(String) : NamedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#32]]]
+suffixWithOrElseGet(String;String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#36]]]
+suffixWithOrElseGet(String;InternalNameProvider;String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#44]]]
+orElseGenerateWithPrefix(InternalNameProvider;String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#60]]]
 } 
 @enduml

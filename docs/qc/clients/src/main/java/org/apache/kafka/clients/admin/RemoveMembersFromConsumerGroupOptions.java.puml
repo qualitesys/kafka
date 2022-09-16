@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractOptions_RemoveMembersFromConsumerGroupOptions_ <|-- org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions
 class org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions {
-+ RemoveMembersFromConsumerGroupOptions(Collection<MemberToRemove>) : RemoveMembersFromConsumerGroupOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#18]]]
-+ RemoveMembersFromConsumerGroupOptions() : RemoveMembersFromConsumerGroupOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#25]]]
-+ reason(String) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#30]]]
-+ members() : Set<MemberToRemove> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#34]]]
-+ reason() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#38]]]
-+ removeAll() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#42]]]
++RemoveMembersFromConsumerGroupOptions(Collection<MemberToRemove>) : RemoveMembersFromConsumerGroupOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#18]]]
++RemoveMembersFromConsumerGroupOptions() : RemoveMembersFromConsumerGroupOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#25]]]
++reason(String) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#30]]]
++members() : Set<MemberToRemove> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#34]]]
++reason() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#38]]]
++removeAll() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#42]]]
 } 
 @enduml

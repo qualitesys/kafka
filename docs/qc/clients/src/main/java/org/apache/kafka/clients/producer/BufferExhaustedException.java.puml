@@ -2,6 +2,6 @@
 !pragma layout smetana
 TimeoutException <|-- org.apache.kafka.clients.producer.BufferExhaustedException
 class org.apache.kafka.clients.producer.BufferExhaustedException {
-+ BufferExhaustedException(String) : BufferExhaustedException [[[././qc/clients/src/main/java/org/apache/kafka/clients/producer/BufferExhaustedException.java.html#11]]]
++BufferExhaustedException(String) : BufferExhaustedException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/BufferExhaustedException.java.html#11]]]
 } 
 @enduml

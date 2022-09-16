@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.PositionSerde
 class org.apache.kafka.streams.state.internals.PositionSerde {
-+ PositionSerde() : PositionSerde [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#16]]]
-+ deserialize(ByteBuffer) : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#19]]]
-+ serialize(Position) : ByteBuffer [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#47]]]
++PositionSerde() : PositionSerde [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#16]]]
++deserialize(ByteBuffer) : Position [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#19]]]
++serialize(Position) : ByteBuffer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#47]]]
 } 
 @enduml

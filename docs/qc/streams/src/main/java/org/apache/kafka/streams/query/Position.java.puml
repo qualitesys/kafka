@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.query.Position
 class org.apache.kafka.streams.query.Position {
-- Position(ConcurrentHashMap<String,ConcurrentHashMap<Integer,Long>>) : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#20]]]
-+ emptyPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#25]]]
-+ fromMap(Map<String,?extendsMap<Integer,Long>>) : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#30]]]
-+ withComponent(String;int;long) : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#35]]]
-+ copy() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#46]]]
-+ merge(Position) : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#51]]]
-+ getTopics() : Set<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#73]]]
-+ getPartitionPositions(String) : Map<Integer,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#78]]]
-- deepCopy(Map<String,?extendsMap<Integer,Long>>) : ConcurrentHashMap<String,ConcurrentHashMap<Integer,Long>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#83]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#98]]]
-+ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#105]]]
-+ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#117]]]
-+ isEmpty() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#122]]]
+-Position(ConcurrentHashMap<String,ConcurrentHashMap<Integer,Long>>) : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#20]]]
++emptyPosition() : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#25]]]
++fromMap(Map<String,?extendsMap<Integer,Long>>) : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#30]]]
++withComponent(String;int;long) : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#35]]]
++copy() : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#46]]]
++merge(Position) : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#51]]]
++getTopics() : Set<String> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#73]]]
++getPartitionPositions(String) : Map<Integer,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#78]]]
+-deepCopy(Map<String,?extendsMap<Integer,Long>>) : ConcurrentHashMap<String,ConcurrentHashMap<Integer,Long>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#83]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#98]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#105]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#117]]]
++isEmpty() : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#122]]]
 } 
 @enduml

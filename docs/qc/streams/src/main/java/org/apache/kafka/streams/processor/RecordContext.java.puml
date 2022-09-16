@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.RecordContext
 class org.apache.kafka.streams.processor.RecordContext {
-topic() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#11]]]
-partition() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#14]]]
-offset() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#17]]]
-timestamp() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#20]]]
-headers() : Headers [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#23]]]
+topic() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#11]]]
+partition() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#14]]]
+offset() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#17]]]
+timestamp() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#20]]]
+headers() : Headers [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/RecordContext.java.html#23]]]
 } 
 @enduml

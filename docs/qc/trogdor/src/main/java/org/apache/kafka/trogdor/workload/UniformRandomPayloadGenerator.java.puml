@@ -2,10 +2,10 @@
 !pragma layout smetana
 PayloadGenerator <|-- org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator
 class org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator {
-+ UniformRandomPayloadGenerator(int;long;int) : UniformRandomPayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#20]]]
-+ size() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#38]]]
-+ seed() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#43]]]
-+ padding() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#48]]]
-+ generate(long) : byte[] [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#53]]]
++UniformRandomPayloadGenerator(int;long;int) : UniformRandomPayloadGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#20]]]
++size() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#38]]]
++seed() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#43]]]
++padding() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#48]]]
++generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#53]]]
 } 
 @enduml

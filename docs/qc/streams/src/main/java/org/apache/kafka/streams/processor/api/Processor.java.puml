@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.api.Processor
 class org.apache.kafka.streams.processor.api.Processor {
-init(ProcessorContext<KOut,VOut>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#14]]]
-process(Record<KIn,VIn>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#17]]]
-close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#20]]]
+init(ProcessorContext<KOut,VOut>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#14]]]
+process(Record<KIn,VIn>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#17]]]
+close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#20]]]
 } 
 @enduml

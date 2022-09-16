@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde
 class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde {
-+ RemoteLogMetadataSerde() : RemoteLogMetadataSerde [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#32]]]
-newApiMessage(short) : ApiMessage [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#43]]]
-createRemoteLogMetadataTransforms() : Map<Short,RemoteLogMetadataTransform> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#47]]]
-createRemoteLogStorageClassToApiKeyMap() : Map<String,Short> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#56]]]
-+ serialize(RemoteLogMetadata) : byte[] [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65]]]
-+ deserialize(byte[]) : RemoteLogMetadata [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#78]]]
-- remoteLogMetadataTransform(short) : RemoteLogMetadataTransform [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#84]]]
++RemoteLogMetadataSerde() : RemoteLogMetadataSerde [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#32]]]
+newApiMessage(short) : ApiMessage [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#43]]]
+createRemoteLogMetadataTransforms() : Map<Short,RemoteLogMetadataTransform> [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#47]]]
+createRemoteLogStorageClassToApiKeyMap() : Map<String,Short> [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#56]]]
++serialize(RemoteLogMetadata) : byte[] [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65]]]
++deserialize(byte[]) : RemoteLogMetadata [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#78]]]
+-remoteLogMetadataTransform(short) : RemoteLogMetadataTransform [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#84]]]
 } 
 @enduml

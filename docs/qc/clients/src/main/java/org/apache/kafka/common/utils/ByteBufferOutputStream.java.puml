@@ -2,19 +2,19 @@
 !pragma layout smetana
 OutputStream <|-- org.apache.kafka.common.utils.ByteBufferOutputStream
 class org.apache.kafka.common.utils.ByteBufferOutputStream {
-+ ByteBufferOutputStream(ByteBuffer) : ByteBufferOutputStream [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#17]]]
-+ ByteBufferOutputStream(int) : ByteBufferOutputStream [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#23]]]
-+ ByteBufferOutputStream(int;boolean) : ByteBufferOutputStream [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#27]]]
-+ write(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#31]]]
-+ write(byte[];int;int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#36]]]
-+ write(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#41]]]
-+ buffer() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#46]]]
-+ position() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#50]]]
-+ remaining() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#54]]]
-+ limit() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#58]]]
-+ position(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#62]]]
-+ initialCapacity() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#68]]]
-+ ensureRemaining(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#73]]]
-- expandBuffer(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#78]]]
++ByteBufferOutputStream(ByteBuffer) : ByteBufferOutputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#17]]]
++ByteBufferOutputStream(int) : ByteBufferOutputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#23]]]
++ByteBufferOutputStream(int;boolean) : ByteBufferOutputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#27]]]
++write(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#31]]]
++write(byte[];int;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#36]]]
++write(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#41]]]
++buffer() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#46]]]
++position() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#50]]]
++remaining() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#54]]]
++limit() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#58]]]
++position(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#62]]]
++initialCapacity() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#68]]]
++ensureRemaining(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#73]]]
+-expandBuffer(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferOutputStream.java.html#78]]]
 } 
 @enduml

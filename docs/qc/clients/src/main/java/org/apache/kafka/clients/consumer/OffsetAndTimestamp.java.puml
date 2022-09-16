@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.consumer.OffsetAndTimestamp
 class org.apache.kafka.clients.consumer.OffsetAndTimestamp {
-+ OffsetAndTimestamp(long;long) : OffsetAndTimestamp [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#13]]]
-+ OffsetAndTimestamp(long;long;Optional<Integer>) : OffsetAndTimestamp [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#17]]]
-+ timestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#29]]]
-+ offset() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#33]]]
-+ leaderEpoch() : Optional<Integer> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#38]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#43]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#50]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#60]]]
++OffsetAndTimestamp(long;long) : OffsetAndTimestamp [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#13]]]
++OffsetAndTimestamp(long;long;Optional<Integer>) : OffsetAndTimestamp [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#17]]]
++timestamp() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#29]]]
++offset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#33]]]
++leaderEpoch() : Optional<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#38]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#43]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#50]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#60]]]
 } 
 @enduml

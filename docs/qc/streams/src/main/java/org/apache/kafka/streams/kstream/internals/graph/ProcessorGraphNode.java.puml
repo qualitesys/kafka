@@ -2,10 +2,10 @@
 !pragma layout smetana
 GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode
 class org.apache.kafka.streams.kstream.internals.graph.ProcessorGraphNode {
-+ ProcessorGraphNode(ProcessorParameters<K,V,?,?>) : ProcessorGraphNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#12]]]
-+ ProcessorGraphNode(String;ProcessorParameters<K,V,?,?>) : ProcessorGraphNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#19]]]
-+ processorParameters() : ProcessorParameters<K,V,?,?> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#27]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#32]]]
-+ writeToTopology(InternalTopologyBuilder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#39]]]
++ProcessorGraphNode(ProcessorParameters<K,V,?,?>) : ProcessorGraphNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#12]]]
++ProcessorGraphNode(String;ProcessorParameters<K,V,?,?>) : ProcessorGraphNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#19]]]
++processorParameters() : ProcessorParameters<K,V,?,?> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#27]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#32]]]
++writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorGraphNode.java.html#39]]]
 } 
 @enduml

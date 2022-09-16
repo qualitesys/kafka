@@ -2,10 +2,10 @@
 !pragma layout smetana
 AbstractStoreBuilder_K,V,WindowStore_K,V__ <|-- org.apache.kafka.streams.state.internals.WindowStoreBuilder
 class org.apache.kafka.streams.state.internals.WindowStoreBuilder {
-+ WindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time) : WindowStoreBuilder [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#20]]]
-+ build() : WindowStore<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#35]]]
-- maybeWrapCaching(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#50]]]
-- maybeWrapLogging(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#60]]]
-+ retentionPeriod() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#71]]]
++WindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time) : WindowStoreBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#20]]]
++build() : WindowStore<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#35]]]
+-maybeWrapCaching(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#50]]]
+-maybeWrapLogging(WindowStore<Bytes,byte[]>) : WindowStore<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#60]]]
++retentionPeriod() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#71]]]
 } 
 @enduml

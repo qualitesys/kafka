@@ -2,6 +2,6 @@
 !pragma layout smetana
 Reconfigurable <|-- org.apache.kafka.common.network.ListenerReconfigurable
 class org.apache.kafka.common.network.ListenerReconfigurable {
-listenerName() : ListenerName [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerReconfigurable.java.html#10]]]
+listenerName() : ListenerName [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ListenerReconfigurable.java.html#10]]]
 } 
 @enduml

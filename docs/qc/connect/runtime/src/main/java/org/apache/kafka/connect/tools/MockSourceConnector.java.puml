@@ -2,15 +2,15 @@
 !pragma layout smetana
 SourceConnector <|-- org.apache.kafka.connect.tools.MockSourceConnector
 class org.apache.kafka.connect.tools.MockSourceConnector {
-+ initialize(ConnectorContext) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#19]]]
-+ initialize(ConnectorContext;List<Map<String,String>>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#24]]]
-+ reconfigure(Map<String,String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#29]]]
-+ validate(Map<String,String>) : Config [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#34]]]
-+ version() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#39]]]
-+ start(Map<String,String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#44]]]
-+ taskClass() : Class<?extendsTask> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#49]]]
-+ taskConfigs(int) : List<Map<String,String>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#54]]]
-+ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#59]]]
-+ config() : ConfigDef [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#64]]]
++initialize(ConnectorContext) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#19]]]
++initialize(ConnectorContext;List<Map<String,String>>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#24]]]
++reconfigure(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#29]]]
++validate(Map<String,String>) : Config [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#34]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#39]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#44]]]
++taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#49]]]
++taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#54]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#59]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#64]]]
 } 
 @enduml

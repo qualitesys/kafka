@@ -2,13 +2,13 @@
 !pragma layout smetana
 Message <|-- org.apache.kafka.trogdor.rest.TasksRequest
 class org.apache.kafka.trogdor.rest.TasksRequest {
-+ TasksRequest(Collection<String>;long;long;long;long;Optional<TaskStateType>) : TasksRequest [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#35]]]
-+ taskIds() : Collection<String> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#51]]]
-+ firstStartMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#56]]]
-+ lastStartMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#61]]]
-+ firstEndMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#66]]]
-+ lastEndMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#71]]]
-+ state() : Optional<TaskStateType> [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#76]]]
-+ matches(String;long;long;TaskStateType) : boolean [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#81]]]
++TasksRequest(Collection<String>;long;long;long;long;Optional<TaskStateType>) : TasksRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#35]]]
++taskIds() : Collection<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#51]]]
++firstStartMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#56]]]
++lastStartMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#61]]]
++firstEndMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#66]]]
++lastEndMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#71]]]
++state() : Optional<TaskStateType> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#76]]]
++matches(String;long;long;TaskStateType) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TasksRequest.java.html#81]]]
 } 
 @enduml

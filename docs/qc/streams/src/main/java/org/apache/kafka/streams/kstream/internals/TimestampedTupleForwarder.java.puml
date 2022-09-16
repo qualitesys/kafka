@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder
 class org.apache.kafka.streams.kstream.internals.TimestampedTupleForwarder {
-TimestampedTupleForwarder(StateStore;ProcessorContext<K,Change<V>>;CacheFlushListener<K,?>;boolean) : TimestampedTupleForwarder [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#18]]]
-TimestampedTupleForwarder(ProcessorContext<K,Change<V>>;boolean) : TimestampedTupleForwarder [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#27]]]
-+ maybeForward(Record<K,Change<V>>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#34]]]
+TimestampedTupleForwarder(StateStore;ProcessorContext<K,Change<V>>;CacheFlushListener<K,?>;boolean) : TimestampedTupleForwarder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#18]]]
+TimestampedTupleForwarder(ProcessorContext<K,Change<V>>;boolean) : TimestampedTupleForwarder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#27]]]
++maybeForward(Record<K,Change<V>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#34]]]
 } 
 @enduml

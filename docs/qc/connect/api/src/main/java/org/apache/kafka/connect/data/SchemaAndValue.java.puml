@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.data.SchemaAndValue
 class org.apache.kafka.connect.data.SchemaAndValue {
-+ SchemaAndValue(Schema;Object) : SchemaAndValue [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#12]]]
-+ schema() : Schema [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#17]]]
-+ value() : Object [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#21]]]
-+ equals(Object) : boolean [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#26]]]
-+ hashCode() : int [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#35]]]
-+ toString() : String [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#40]]]
++SchemaAndValue(Schema;Object) : SchemaAndValue [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#12]]]
++schema() : Schema [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#17]]]
++value() : Object [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#21]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#26]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#35]]]
++toString() : String [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaAndValue.java.html#40]]]
 } 
 @enduml

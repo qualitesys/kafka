@@ -2,9 +2,9 @@
 !pragma layout smetana
 Comparable <|-- org.apache.kafka.streams.processor.internals.Stamped
 class org.apache.kafka.streams.processor.internals.Stamped {
-Stamped(V;long) : Stamped [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#11]]]
-+ compareTo(Object) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#17]]]
-+ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#29]]]
-+ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#38]]]
+Stamped(V;long) : Stamped [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#11]]]
++compareTo(Object) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#17]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#29]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Stamped.java.html#38]]]
 } 
 @enduml

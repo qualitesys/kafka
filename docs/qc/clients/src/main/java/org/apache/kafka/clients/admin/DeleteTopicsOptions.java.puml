@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractOptions_DeleteTopicsOptions_ <|-- org.apache.kafka.clients.admin.DeleteTopicsOptions
 class org.apache.kafka.clients.admin.DeleteTopicsOptions {
-+ timeoutMs(Integer) : DeleteTopicsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#17]]]
-+ retryOnQuotaViolation(boolean) : DeleteTopicsOptions [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#23]]]
-+ shouldRetryOnQuotaViolation() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#29]]]
++timeoutMs(Integer) : DeleteTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#17]]]
++retryOnQuotaViolation(boolean) : DeleteTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#23]]]
++shouldRetryOnQuotaViolation() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsOptions.java.html#29]]]
 } 
 @enduml

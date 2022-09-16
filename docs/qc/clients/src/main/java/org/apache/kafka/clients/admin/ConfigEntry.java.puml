@@ -2,19 +2,19 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.ConfigEntry
 class org.apache.kafka.clients.admin.ConfigEntry {
-+ ConfigEntry(String;String) : ConfigEntry [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#25]]]
-+ ConfigEntry(String;String;ConfigSource;boolean;boolean;List<ConfigSynonym>;ConfigType;String) : ConfigEntry [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#31]]]
-+ name() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#51]]]
-+ value() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#56]]]
-+ source() : ConfigSource [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#61]]]
-+ isDefault() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#66]]]
-+ isSensitive() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#71]]]
-+ isReadOnly() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#76]]]
-+ synonyms() : List<ConfigSynonym> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#81]]]
-+ type() : ConfigType [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#86]]]
-+ documentation() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#91]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#96]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#115]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#131]]]
++ConfigEntry(String;String) : ConfigEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#25]]]
++ConfigEntry(String;String;ConfigSource;boolean;boolean;List<ConfigSynonym>;ConfigType;String) : ConfigEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#31]]]
++name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#51]]]
++value() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#56]]]
++source() : ConfigSource [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#61]]]
++isDefault() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#66]]]
++isSensitive() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#71]]]
++isReadOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#76]]]
++synonyms() : List<ConfigSynonym> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#81]]]
++type() : ConfigType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#86]]]
++documentation() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#91]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#96]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#115]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#131]]]
 } 
 @enduml

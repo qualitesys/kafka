@@ -2,10 +2,10 @@
 !pragma layout smetana
 GroupFilter <|-- org.apache.kafka.connect.mirror.DefaultGroupFilter
 class org.apache.kafka.connect.mirror.DefaultGroupFilter {
-+ configure(Map<String,?>) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#30]]]
-+ close() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#37]]]
-- included(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#40]]]
-- excluded(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#44]]]
-+ shouldReplicateGroup(String) : boolean [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#49]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#30]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#37]]]
+-included(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#40]]]
+-excluded(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#44]]]
++shouldReplicateGroup(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#49]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.BrokerNotAvailableException
 class org.apache.kafka.common.errors.BrokerNotAvailableException {
-+ BrokerNotAvailableException(String) : BrokerNotAvailableException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerNotAvailableException.java.html#8]]]
-+ BrokerNotAvailableException(String;Throwable) : BrokerNotAvailableException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerNotAvailableException.java.html#12]]]
++BrokerNotAvailableException(String) : BrokerNotAvailableException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerNotAvailableException.java.html#8]]]
++BrokerNotAvailableException(String;Throwable) : BrokerNotAvailableException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerNotAvailableException.java.html#12]]]
 } 
 @enduml

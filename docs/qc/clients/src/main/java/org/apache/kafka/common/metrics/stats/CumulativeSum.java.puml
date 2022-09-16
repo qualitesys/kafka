@@ -2,10 +2,10 @@
 !pragma layout smetana
 MeasurableStat <|-- org.apache.kafka.common.metrics.stats.CumulativeSum
 class org.apache.kafka.common.metrics.stats.CumulativeSum {
-+ CumulativeSum() : CumulativeSum [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#12]]]
-+ CumulativeSum(double) : CumulativeSum [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#16]]]
-+ record(MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#21]]]
-+ measure(MetricConfig;long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#26]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#31]]]
++CumulativeSum() : CumulativeSum [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#12]]]
++CumulativeSum(double) : CumulativeSum [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#16]]]
++record(MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#21]]]
++measure(MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#26]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#31]]]
 } 
 @enduml

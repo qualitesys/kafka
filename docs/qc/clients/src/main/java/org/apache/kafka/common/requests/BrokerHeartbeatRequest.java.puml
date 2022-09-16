@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.BrokerHeartbeatRequest
 class org.apache.kafka.common.requests.BrokerHeartbeatRequest {
-+ BrokerHeartbeatRequest(BrokerHeartbeatRequestData;short) : BrokerHeartbeatRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#35]]]
-+ data() : BrokerHeartbeatRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#41]]]
-+ getErrorResponse(int;Throwable) : BrokerHeartbeatResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#46]]]
-+ parse(ByteBuffer;short) : BrokerHeartbeatRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#53]]]
++BrokerHeartbeatRequest(BrokerHeartbeatRequestData;short) : BrokerHeartbeatRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#35]]]
++data() : BrokerHeartbeatRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#41]]]
++getErrorResponse(int;Throwable) : BrokerHeartbeatResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#46]]]
++parse(ByteBuffer;short) : BrokerHeartbeatRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatRequest.java.html#53]]]
 } 
 @enduml

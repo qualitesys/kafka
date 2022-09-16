@@ -2,10 +2,10 @@
 !pragma layout smetana
 KTableProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger
 class org.apache.kafka.streams.kstream.internals.KTableKTableJoinMerger {
-KTableKTableJoinMerger(KTableProcessorSupplier<K,?,K,V>;KTableProcessorSupplier<K,?,K,V>;String) : KTableKTableJoinMerger [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#22]]]
-+ getQueryableName() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#30]]]
-+ get() : Processor<K,Change<V>,K,Change<V>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#35]]]
-+ view() : KTableValueGetterSupplier<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#40]]]
-+ enableSendingOldValues(boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#66]]]
+KTableKTableJoinMerger(KTableProcessorSupplier<K,?,K,V>;KTableProcessorSupplier<K,?,K,V>;String) : KTableKTableJoinMerger [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#22]]]
++getQueryableName() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#30]]]
++get() : Processor<K,Change<V>,K,Change<V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#35]]]
++view() : KTableValueGetterSupplier<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#40]]]
++enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#66]]]
 } 
 @enduml

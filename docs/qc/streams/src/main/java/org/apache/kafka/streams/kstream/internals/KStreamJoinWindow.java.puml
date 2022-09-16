@@ -2,7 +2,7 @@
 !pragma layout smetana
 ProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.KStreamJoinWindow
 class org.apache.kafka.streams.kstream.internals.KStreamJoinWindow {
-KStreamJoinWindow(String) : KStreamJoinWindow [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#15]]]
-+ get() : Processor<K,V,K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#20]]]
+KStreamJoinWindow(String) : KStreamJoinWindow [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#15]]]
++get() : Processor<K,V,K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#20]]]
 } 
 @enduml

@@ -2,16 +2,16 @@
 !pragma layout smetana
 MessageClassGenerator <|-- org.apache.kafka.message.JsonConverterGenerator
 class org.apache.kafka.message.JsonConverterGenerator {
-JsonConverterGenerator(String) : JsonConverterGenerator [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#16]]]
-+ outputName(MessageSpec) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#24]]]
-+ generateAndWrite(MessageSpec;BufferedWriter) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#29]]]
-- generateConverters(String;StructSpec;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#58]]]
-- generateRead(String;StructSpec;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#66]]]
-- generateTargetFromJson(Target;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#125]]]
-- generateVariableLengthTargetFromJson(Target;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#198]]]
-- generateOverloadWrite(String) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#254]]]
-- generateWrite(String;StructSpec;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#263]]]
-- generateTargetToJson(Target;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#322]]]
-- generateVariableLengthTargetToJson(Target;Versions) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#369]]]
+JsonConverterGenerator(String) : JsonConverterGenerator [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#16]]]
++outputName(MessageSpec) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#24]]]
++generateAndWrite(MessageSpec;BufferedWriter) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#29]]]
+-generateConverters(String;StructSpec;Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#58]]]
+-generateRead(String;StructSpec;Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#66]]]
+-generateTargetFromJson(Target;Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#125]]]
+-generateVariableLengthTargetFromJson(Target;Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#198]]]
+-generateOverloadWrite(String) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#254]]]
+-generateWrite(String;StructSpec;Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#263]]]
+-generateTargetToJson(Target;Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#322]]]
+-generateVariableLengthTargetToJson(Target;Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#369]]]
 } 
 @enduml

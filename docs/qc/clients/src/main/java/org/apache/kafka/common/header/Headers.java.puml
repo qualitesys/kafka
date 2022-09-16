@@ -2,11 +2,11 @@
 !pragma layout smetana
 Iterable_Header_ <|-- org.apache.kafka.common.header.Headers
 class org.apache.kafka.common.header.Headers {
-add(Header) : Headers [[[././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#7]]]
-add(String;byte[]) : Headers [[[././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#10]]]
-remove(String) : Headers [[[././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#13]]]
-lastHeader(String) : Header [[[././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#16]]]
-headers(String) : Iterable<Header> [[[././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#19]]]
-toArray() : Header[] [[[././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#22]]]
+add(Header) : Headers [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#7]]]
+add(String;byte[]) : Headers [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#10]]]
+remove(String) : Headers [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#13]]]
+lastHeader(String) : Header [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#16]]]
+headers(String) : Iterable<Header> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#19]]]
+toArray() : Header[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#22]]]
 } 
 @enduml

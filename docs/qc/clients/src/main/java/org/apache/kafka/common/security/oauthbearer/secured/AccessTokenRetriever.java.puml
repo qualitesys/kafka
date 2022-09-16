@@ -2,7 +2,7 @@
 !pragma layout smetana
 Initable <|-- org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetriever
 class org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetriever {
-retrieve() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetriever.java.html#14]]]
-close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetriever.java.html#18]]]
+retrieve() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetriever.java.html#14]]]
+close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetriever.java.html#18]]]
 } 
 @enduml

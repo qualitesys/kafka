@@ -2,12 +2,12 @@
 !pragma layout smetana
 Metric <|-- org.apache.kafka.common.metrics.KafkaMetric
 class org.apache.kafka.common.metrics.KafkaMetric {
-+ KafkaMetric(Object;MetricName;MetricValueProvider<?>;MetricConfig;Time) : KafkaMetric [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#17]]]
-+ config() : MetricConfig [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#28]]]
-+ metricName() : MetricName [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#33]]]
-+ metricValue() : Object [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#38]]]
-+ measurable() : Measurable [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#50]]]
-measurableValue(long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#57]]]
-+ config(MetricConfig) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#66]]]
++KafkaMetric(Object;MetricName;MetricValueProvider<?>;MetricConfig;Time) : KafkaMetric [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#17]]]
++config() : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#28]]]
++metricName() : MetricName [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#33]]]
++metricValue() : Object [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#38]]]
++measurable() : Measurable [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#50]]]
+measurableValue(long) : double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#57]]]
++config(MetricConfig) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#66]]]
 } 
 @enduml

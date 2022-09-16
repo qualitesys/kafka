@@ -2,8 +2,8 @@
 !pragma layout smetana
 KTableKTableAbstractJoin_K,V1,V2,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KTableKTableInnerJoin
 class org.apache.kafka.streams.kstream.internals.KTableKTableInnerJoin {
-KTableKTableInnerJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>) : KTableKTableInnerJoin [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#25]]]
-+ get() : Processor<K,Change<V1>,K,Change<VOut>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#32]]]
-+ view() : KTableValueGetterSupplier<K,VOut> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#37]]]
+KTableKTableInnerJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>) : KTableKTableInnerJoin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#25]]]
++get() : Processor<K,Change<V1>,K,Change<VOut>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#32]]]
++view() : KTableValueGetterSupplier<K,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#37]]]
 } 
 @enduml

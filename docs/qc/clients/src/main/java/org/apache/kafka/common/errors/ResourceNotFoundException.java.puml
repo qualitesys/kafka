@@ -2,10 +2,10 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.ResourceNotFoundException
 class org.apache.kafka.common.errors.ResourceNotFoundException {
-+ ResourceNotFoundException(String) : ResourceNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#12]]]
-+ ResourceNotFoundException(String;Throwable) : ResourceNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#17]]]
-+ ResourceNotFoundException(String;String) : ResourceNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#22]]]
-+ ResourceNotFoundException(String;String;Throwable) : ResourceNotFoundException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#28]]]
-+ resource() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#34]]]
++ResourceNotFoundException(String) : ResourceNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#12]]]
++ResourceNotFoundException(String;Throwable) : ResourceNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#17]]]
++ResourceNotFoundException(String;String) : ResourceNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#22]]]
++ResourceNotFoundException(String;String;Throwable) : ResourceNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#28]]]
++resource() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#34]]]
 } 
 @enduml

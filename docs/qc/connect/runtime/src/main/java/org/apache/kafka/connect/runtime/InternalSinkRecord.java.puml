@@ -2,12 +2,12 @@
 !pragma layout smetana
 SinkRecord <|-- org.apache.kafka.connect.runtime.InternalSinkRecord
 class org.apache.kafka.connect.runtime.InternalSinkRecord {
-+ InternalSinkRecord(ConsumerRecord<byte[],byte[]>;SinkRecord) : InternalSinkRecord [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#16]]]
-InternalSinkRecord(ConsumerRecord<byte[],byte[]>;String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>) : InternalSinkRecord [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#23]]]
-+ newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>) : SinkRecord [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#32]]]
-+ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#40]]]
-+ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#45]]]
-+ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#50]]]
-+ originalRecord() : ConsumerRecord<byte[],byte[]> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#55]]]
++InternalSinkRecord(ConsumerRecord<byte[],byte[]>;SinkRecord) : InternalSinkRecord [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#16]]]
+InternalSinkRecord(ConsumerRecord<byte[],byte[]>;String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>) : InternalSinkRecord [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#23]]]
++newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>) : SinkRecord [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#32]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#40]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#45]]]
++toString() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#50]]]
++originalRecord() : ConsumerRecord<byte[],byte[]> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#55]]]
 } 
 @enduml

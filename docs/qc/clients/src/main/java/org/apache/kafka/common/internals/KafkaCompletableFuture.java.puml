@@ -2,15 +2,15 @@
 !pragma layout smetana
 CompletableFuture_T_ <|-- org.apache.kafka.common.internals.KafkaCompletableFuture
 class org.apache.kafka.common.internals.KafkaCompletableFuture {
-kafkaComplete(T) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#13]]]
-kafkaCompleteExceptionally(Throwable) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#18]]]
-+ complete(T) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#23]]]
-+ completeExceptionally(Throwable) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#28]]]
-+ obtrudeValue(T) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#33]]]
-+ obtrudeException(Throwable) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#38]]]
-+ completeAsync(Supplier<?extendsT>;Executor) : CompletableFuture<T> [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#48]]]
-+ completeAsync(Supplier<?extendsT>) : CompletableFuture<T> [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#53]]]
-+ completeOnTimeout(T;long;TimeUnit) : CompletableFuture<T> [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#58]]]
-- erroneousCompletionException() : UnsupportedOperationException [[[././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#62]]]
+kafkaComplete(T) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#13]]]
+kafkaCompleteExceptionally(Throwable) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#18]]]
++complete(T) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#23]]]
++completeExceptionally(Throwable) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#28]]]
++obtrudeValue(T) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#33]]]
++obtrudeException(Throwable) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#38]]]
++completeAsync(Supplier<?extendsT>;Executor) : CompletableFuture<T> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#48]]]
++completeAsync(Supplier<?extendsT>) : CompletableFuture<T> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#53]]]
++completeOnTimeout(T;long;TimeUnit) : CompletableFuture<T> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#58]]]
+-erroneousCompletionException() : UnsupportedOperationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#62]]]
 } 
 @enduml

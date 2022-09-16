@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.PluginInfo
 class org.apache.kafka.connect.runtime.rest.entities.PluginInfo {
-+ PluginInfo(String;PluginType;String) : PluginInfo [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#19]]]
-+ PluginInfo(PluginDesc<?>) : PluginInfo [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#29]]]
-+ className() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#34]]]
-+ type() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#39]]]
-+ version() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#45]]]
-+ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#50]]]
-+ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#64]]]
-+ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#69]]]
++PluginInfo(String;PluginType;String) : PluginInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#19]]]
++PluginInfo(PluginDesc<?>) : PluginInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#29]]]
++className() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#34]]]
++type() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#39]]]
++version() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#45]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#50]]]
++hashCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#64]]]
++toString() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#69]]]
 } 
 @enduml

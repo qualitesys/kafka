@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKeySchema
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKeySchema {
-+ CombinedKeySchema(Supplier<String>;Serde<KO>;Supplier<String>;Serde<K>) : CombinedKeySchema [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#24]]]
-+ init(ProcessorContext<?,?>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#37]]]
-toBytes(KO;K) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#46]]]
-+ fromBytes(Bytes) : CombinedKey<KO,K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#65]]]
-prefixBytes(KO) : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#80]]]
++CombinedKeySchema(Supplier<String>;Serde<KO>;Supplier<String>;Serde<K>) : CombinedKeySchema [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#24]]]
++init(ProcessorContext<?,?>) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#37]]]
+toBytes(KO;K) : Bytes [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#46]]]
++fromBytes(Bytes) : CombinedKey<KO,K> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#65]]]
+prefixBytes(KO) : Bytes [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#80]]]
 } 
 @enduml

@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult
 class org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult {
-+ RemoveNamedTopologyResult(KafkaFutureImpl<Void>) : RemoveNamedTopologyResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#17]]]
-+ RemoveNamedTopologyResult(KafkaFutureImpl<Void>;String;Runnable) : RemoveNamedTopologyResult [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#24]]]
-+ removeTopologyFuture() : KafkaFuture<Void> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#32]]]
-+ resetOffsetsFuture() : KafkaFuture<Void> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#36]]]
-+ all() : KafkaFuture<Void> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#41]]]
++RemoveNamedTopologyResult(KafkaFutureImpl<Void>) : RemoveNamedTopologyResult [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#17]]]
++RemoveNamedTopologyResult(KafkaFutureImpl<Void>;String;Runnable) : RemoveNamedTopologyResult [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#24]]]
++removeTopologyFuture() : KafkaFuture<Void> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#32]]]
++resetOffsetsFuture() : KafkaFuture<Void> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#36]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#41]]]
 } 
 @enduml

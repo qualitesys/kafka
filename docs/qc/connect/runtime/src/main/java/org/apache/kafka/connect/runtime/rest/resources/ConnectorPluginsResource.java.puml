@@ -2,11 +2,11 @@
 !pragma layout smetana
 ConnectResource <|-- org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource
 class org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource {
-+ ConnectorPluginsResource(Herder) : ConnectorPluginsResource [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#72]]]
-+ requestTimeout(long) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#94]]]
-+ validateConfigs(String;Map<String,String>) : ConfigInfos [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#101]]]
-+ listConnectorPlugins(boolean) : List<PluginInfo> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#132]]]
-+ getConnectorConfigDef(String) : List<ConfigKeyInfo> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#149]]]
-- normalizedPluginName(String) : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#155]]]
++ConnectorPluginsResource(Herder) : ConnectorPluginsResource [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#72]]]
++requestTimeout(long) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#94]]]
++validateConfigs(String;Map<String,String>) : ConfigInfos [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#101]]]
++listConnectorPlugins(boolean) : List<PluginInfo> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#132]]]
++getConnectorConfigDef(String) : List<ConfigKeyInfo> [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#149]]]
+-normalizedPluginName(String) : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#155]]]
 } 
 @enduml

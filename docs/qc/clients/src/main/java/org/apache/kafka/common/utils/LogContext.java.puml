@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.utils.LogContext
 class org.apache.kafka.common.utils.LogContext {
-+ LogContext(String) : LogContext [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#16]]]
-+ LogContext() : LogContext [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#20]]]
-+ logger(Class<?>) : Logger [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#24]]]
-+ logPrefix() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#33]]]
++LogContext(String) : LogContext [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#16]]]
++LogContext() : LogContext [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#20]]]
++logger(Class<?>) : Logger [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#24]]]
++logPrefix() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#33]]]
 } 
 @enduml

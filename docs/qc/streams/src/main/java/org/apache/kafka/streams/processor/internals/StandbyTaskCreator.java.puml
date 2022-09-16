@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StandbyTaskCreator
 class org.apache.kafka.streams.processor.internals.StandbyTaskCreator {
-StandbyTaskCreator(TopologyMetadata;StreamsConfig;StreamsMetricsImpl;StateDirectory;ChangelogReader;String;Logger) : StandbyTaskCreator [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#38]]]
-removeRevokedUnknownTasks(Set<TaskId>) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#61]]]
-uncreatedTasksForTopologies(Set<String>) : Map<TaskId,Set<TopicPartition>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#65]]]
-createTasks(Map<TaskId,Set<TopicPartition>>) : Collection<Task> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#70]]]
-createStandbyTaskFromActive(StreamTask;Set<TopicPartition>) : StandbyTask [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#124]]]
-createStandbyTask(TaskId;Set<TopicPartition>;ProcessorTopology;ProcessorStateManager;InternalProcessorContext) : StandbyTask [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#141]]]
-- getLogContext(TaskId) : LogContext [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#163]]]
+StandbyTaskCreator(TopologyMetadata;StreamsConfig;StreamsMetricsImpl;StateDirectory;ChangelogReader;String;Logger) : StandbyTaskCreator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#38]]]
+removeRevokedUnknownTasks(Set<TaskId>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#61]]]
+uncreatedTasksForTopologies(Set<String>) : Map<TaskId,Set<TopicPartition>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#65]]]
+createTasks(Map<TaskId,Set<TopicPartition>>) : Collection<Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#70]]]
+createStandbyTaskFromActive(StreamTask;Set<TopicPartition>) : StandbyTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#124]]]
+createStandbyTask(TaskId;Set<TopicPartition>;ProcessorTopology;ProcessorStateManager;InternalProcessorContext) : StandbyTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#141]]]
+-getLogContext(TaskId) : LogContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#163]]]
 } 
 @enduml

@@ -2,13 +2,13 @@
 !pragma layout smetana
 Send <|-- org.apache.kafka.common.network.ByteBufferSend
 class org.apache.kafka.common.network.ByteBufferSend {
-+ ByteBufferSend(ByteBuffer...) : ByteBufferSend [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#16]]]
-+ ByteBufferSend(ByteBuffer[];long) : ByteBufferSend [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#23]]]
-+ completed() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#30]]]
-+ size() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#35]]]
-+ writeTo(TransferableChannel) : long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40]]]
-+ remaining() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#49]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#54]]]
-+ sizePrefixed(ByteBuffer) : ByteBufferSend [[[././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#62]]]
++ByteBufferSend(ByteBuffer...) : ByteBufferSend [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#16]]]
++ByteBufferSend(ByteBuffer[];long) : ByteBufferSend [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#23]]]
++completed() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#30]]]
++size() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#35]]]
++writeTo(TransferableChannel) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#40]]]
++remaining() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#49]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#54]]]
++sizePrefixed(ByteBuffer) : ByteBufferSend [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#62]]]
 } 
 @enduml

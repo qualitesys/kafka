@@ -2,7 +2,7 @@
 !pragma layout smetana
 RocksDbIterator <|-- org.apache.kafka.streams.state.internals.RocksDBRangeIterator
 class org.apache.kafka.streams.state.internals.RocksDBRangeIterator {
-RocksDBRangeIterator(String;RocksIterator;Set<KeyValueIterator<Bytes,byte[]>>;Bytes;Bytes;boolean;boolean) : RocksDBRangeIterator [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBRangeIterator.java.html#21]]]
-+ makeNext() : KeyValue<Bytes,byte[]> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBRangeIterator.java.html#49]]]
+RocksDBRangeIterator(String;RocksIterator;Set<KeyValueIterator<Bytes,byte[]>>;Bytes;Bytes;boolean;boolean) : RocksDBRangeIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBRangeIterator.java.html#21]]]
++makeNext() : KeyValue<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBRangeIterator.java.html#49]]]
 } 
 @enduml

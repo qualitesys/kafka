@@ -2,9 +2,9 @@
 !pragma layout smetana
 RaftMessageQueue <|-- org.apache.kafka.raft.internals.BlockingMessageQueue
 class org.apache.kafka.raft.internals.BlockingMessageQueue {
-+ poll(long) : RaftMessage [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#31]]]
-+ add(RaftMessage) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#46]]]
-+ isEmpty() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#52]]]
-+ wakeup() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#57]]]
++poll(long) : RaftMessage [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#31]]]
++add(RaftMessage) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#46]]]
++isEmpty() : boolean [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#52]]]
++wakeup() : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#57]]]
 } 
 @enduml

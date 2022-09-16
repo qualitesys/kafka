@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.TopicStatus
 class org.apache.kafka.connect.runtime.TopicStatus {
-+ TopicStatus(String;ConnectorTaskId;long) : TopicStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#15]]]
-+ TopicStatus(String;String;int;long) : TopicStatus [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#19]]]
-+ topic() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#27]]]
-+ connector() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#32]]]
-+ task() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#37]]]
-+ discoverTimestamp() : long [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#42]]]
-+ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#47]]]
-+ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#57]]]
-+ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#72]]]
++TopicStatus(String;ConnectorTaskId;long) : TopicStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#15]]]
++TopicStatus(String;String;int;long) : TopicStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#19]]]
++topic() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#27]]]
++connector() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#32]]]
++task() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#37]]]
++discoverTimestamp() : long [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#42]]]
++toString() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#47]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#57]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#72]]]
 } 
 @enduml

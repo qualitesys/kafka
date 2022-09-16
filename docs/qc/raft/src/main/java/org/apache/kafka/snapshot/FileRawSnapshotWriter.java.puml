@@ -2,16 +2,16 @@
 !pragma layout smetana
 RawSnapshotWriter <|-- org.apache.kafka.snapshot.FileRawSnapshotWriter
 class org.apache.kafka.snapshot.FileRawSnapshotWriter {
-- FileRawSnapshotWriter(Path;FileChannel;OffsetAndEpoch;Optional<ReplicatedLog>) : FileRawSnapshotWriter [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#25]]]
-+ snapshotId() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#38]]]
-+ sizeInBytes() : long [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#43]]]
-+ append(UnalignedMemoryRecords) : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#58]]]
-+ append(MemoryRecords) : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#72]]]
-+ isFrozen() : boolean [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#86]]]
-+ freeze() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#91]]]
-+ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#116]]]
-+ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#131]]]
-checkIfFrozen(String) : void [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#140]]]
-+ create(Path;OffsetAndEpoch;Optional<ReplicatedLog>) : FileRawSnapshotWriter [[[././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#154]]]
+-FileRawSnapshotWriter(Path;FileChannel;OffsetAndEpoch;Optional<ReplicatedLog>) : FileRawSnapshotWriter [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#25]]]
++snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#38]]]
++sizeInBytes() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#43]]]
++append(UnalignedMemoryRecords) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#58]]]
++append(MemoryRecords) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#72]]]
++isFrozen() : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#86]]]
++freeze() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#91]]]
++close() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#116]]]
++toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#131]]]
+checkIfFrozen(String) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#140]]]
++create(Path;OffsetAndEpoch;Optional<ReplicatedLog>) : FileRawSnapshotWriter [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#154]]]
 } 
 @enduml

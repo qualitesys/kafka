@@ -2,8 +2,8 @@
 !pragma layout smetana
 AbstractConnectorClientConfigOverridePolicy <|-- org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy
 class org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy {
-policyName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#16]]]
-isAllowed(ConfigValue) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#21]]]
-+ configure(Map<String,?>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#26]]]
+policyName() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#16]]]
+isAllowed(ConfigValue) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#21]]]
++configure(Map<String,?>) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#26]]]
 } 
 @enduml

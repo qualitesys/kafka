@@ -2,7 +2,7 @@
 !pragma layout smetana
 InvalidStateStoreException <|-- org.apache.kafka.streams.errors.UnknownStateStoreException
 class org.apache.kafka.streams.errors.UnknownStateStoreException {
-+ UnknownStateStoreException(String) : UnknownStateStoreException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownStateStoreException.java.html#9]]]
-+ UnknownStateStoreException(String;Throwable) : UnknownStateStoreException [[[././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownStateStoreException.java.html#13]]]
++UnknownStateStoreException(String) : UnknownStateStoreException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownStateStoreException.java.html#9]]]
++UnknownStateStoreException(String;Throwable) : UnknownStateStoreException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownStateStoreException.java.html#13]]]
 } 
 @enduml

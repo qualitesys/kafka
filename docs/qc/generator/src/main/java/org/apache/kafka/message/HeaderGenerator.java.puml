@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.HeaderGenerator
 class org.apache.kafka.message.HeaderGenerator {
-+ HeaderGenerator(String) : HeaderGenerator [[[././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#40]]]
-+ addImport(String) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#47]]]
-+ addStaticImport(String) : void [[[././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#51]]]
-+ generate() : void [[[././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#55]]]
-+ buffer() : CodeBuffer [[[././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#74]]]
++HeaderGenerator(String) : HeaderGenerator [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#40]]]
++addImport(String) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#47]]]
++addStaticImport(String) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#51]]]
++generate() : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#55]]]
++buffer() : CodeBuffer [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html#74]]]
 } 
 @enduml

@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.ValidOffsetAndEpoch
 class org.apache.kafka.raft.ValidOffsetAndEpoch {
-- ValidOffsetAndEpoch(Kind;OffsetAndEpoch) : ValidOffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#10]]]
-+ kind() : Kind [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#15]]]
-+ offsetAndEpoch() : OffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#19]]]
-+ diverging(OffsetAndEpoch) : ValidOffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27]]]
-+ snapshot(OffsetAndEpoch) : ValidOffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31]]]
-+ valid(OffsetAndEpoch) : ValidOffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35]]]
-+ valid() : ValidOffsetAndEpoch [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39]]]
-+ equals(Object) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44]]]
-+ hashCode() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#53]]]
-+ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#58]]]
+-ValidOffsetAndEpoch(Kind;OffsetAndEpoch) : ValidOffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#10]]]
++kind() : Kind [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#15]]]
++offsetAndEpoch() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#19]]]
++diverging(OffsetAndEpoch) : ValidOffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27]]]
++snapshot(OffsetAndEpoch) : ValidOffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31]]]
++valid(OffsetAndEpoch) : ValidOffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35]]]
++valid() : ValidOffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39]]]
++equals(Object) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44]]]
++hashCode() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#53]]]
++toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#58]]]
 } 
 @enduml

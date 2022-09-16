@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.security.kerberos.KerberosRule
 class org.apache.kafka.common.security.kerberos.KerberosRule {
-KerberosRule(String) : KerberosRule [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#29]]]
-KerberosRule(String;int;String;String;String;String;boolean;boolean;boolean) : KerberosRule [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#42]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#58]]]
-replaceParameters(String;String[]) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#94]]]
-replaceSubstitution(String;Pattern;String;boolean) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#123]]]
-apply(String[]) : String [[[././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#134]]]
+KerberosRule(String) : KerberosRule [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#29]]]
+KerberosRule(String;int;String;String;String;String;boolean;boolean;boolean) : KerberosRule [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#42]]]
++toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#58]]]
+replaceParameters(String;String[]) : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#94]]]
+replaceSubstitution(String;Pattern;String;boolean) : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#123]]]
+apply(String[]) : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#134]]]
 } 
 @enduml

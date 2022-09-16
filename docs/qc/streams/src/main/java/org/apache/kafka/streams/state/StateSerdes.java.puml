@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.StateSerdes
 class org.apache.kafka.streams.state.StateSerdes {
-+ StateSerdes(String;Serde<K>;Serde<V>) : StateSerdes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#32]]]
-+ keySerde() : Serde<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#45]]]
-+ valueSerde() : Serde<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#50]]]
-+ keyDeserializer() : Deserializer<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#55]]]
-+ keySerializer() : Serializer<K> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#60]]]
-+ valueDeserializer() : Deserializer<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#65]]]
-+ valueSerializer() : Serializer<V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#70]]]
-+ topic() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#75]]]
-+ keyFrom(byte[]) : K [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#80]]]
-+ valueFrom(byte[]) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#85]]]
-+ rawKey(K) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#90]]]
-+ rawValue(V) : byte[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#106]]]
++StateSerdes(String;Serde<K>;Serde<V>) : StateSerdes [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#32]]]
++keySerde() : Serde<K> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#45]]]
++valueSerde() : Serde<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#50]]]
++keyDeserializer() : Deserializer<K> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#55]]]
++keySerializer() : Serializer<K> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#60]]]
++valueDeserializer() : Deserializer<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#65]]]
++valueSerializer() : Serializer<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#70]]]
++topic() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#75]]]
++keyFrom(byte[]) : K [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#80]]]
++valueFrom(byte[]) : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#85]]]
++rawKey(K) : byte[] [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#90]]]
++rawValue(V) : byte[] [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#106]]]
 } 
 @enduml

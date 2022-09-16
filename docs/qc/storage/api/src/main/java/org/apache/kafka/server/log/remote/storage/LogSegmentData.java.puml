@@ -2,15 +2,15 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.server.log.remote.storage.LogSegmentData
 class org.apache.kafka.server.log.remote.storage.LogSegmentData {
-+ LogSegmentData(Path;Path;Path;Optional<Path>;Path;ByteBuffer) : LogSegmentData [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#23]]]
-+ logSegment() : Path [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#38]]]
-+ offsetIndex() : Path [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#43]]]
-+ timeIndex() : Path [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#48]]]
-+ transactionIndex() : Optional<Path> [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#53]]]
-+ producerSnapshotIndex() : Path [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#58]]]
-+ leaderEpochIndex() : ByteBuffer [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#63]]]
-+ equals(Object) : boolean [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#68]]]
-+ hashCode() : int [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#85]]]
-+ toString() : String [[[././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#90]]]
++LogSegmentData(Path;Path;Path;Optional<Path>;Path;ByteBuffer) : LogSegmentData [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#23]]]
++logSegment() : Path [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#38]]]
++offsetIndex() : Path [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#43]]]
++timeIndex() : Path [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#48]]]
++transactionIndex() : Optional<Path> [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#53]]]
++producerSnapshotIndex() : Path [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#58]]]
++leaderEpochIndex() : ByteBuffer [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#63]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#68]]]
++hashCode() : int [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#85]]]
++toString() : String [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#90]]]
 } 
 @enduml

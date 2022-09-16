@@ -2,13 +2,13 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.DeleteTopicsRequest
 class org.apache.kafka.common.requests.DeleteTopicsRequest {
-- DeleteTopicsRequest(DeleteTopicsRequestData;short) : DeleteTopicsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#52]]]
-+ data() : DeleteTopicsRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#58]]]
-+ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#63]]]
-+ topicNames() : List<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#78]]]
-+ numberOfTopics() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#84]]]
-+ topicIds() : List<Uuid> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#90]]]
-+ topics() : List<DeleteTopicState> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#96]]]
-+ parse(ByteBuffer;short) : DeleteTopicsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#102]]]
+-DeleteTopicsRequest(DeleteTopicsRequestData;short) : DeleteTopicsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#52]]]
++data() : DeleteTopicsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#58]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#63]]]
++topicNames() : List<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#78]]]
++numberOfTopics() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#84]]]
++topicIds() : List<Uuid> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#90]]]
++topics() : List<DeleteTopicState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#96]]]
++parse(ByteBuffer;short) : DeleteTopicsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#102]]]
 } 
 @enduml

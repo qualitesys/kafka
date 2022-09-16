@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ErrorMessage
 class org.apache.kafka.connect.runtime.rest.entities.ErrorMessage {
-+ ErrorMessage(int;String) : ErrorMessage [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#15]]]
-+ errorCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#21]]]
-+ message() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#26]]]
-+ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#31]]]
-+ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#40]]]
++ErrorMessage(int;String) : ErrorMessage [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#15]]]
++errorCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#21]]]
++message() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#26]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#31]]]
++hashCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ErrorMessage.java.html#40]]]
 } 
 @enduml

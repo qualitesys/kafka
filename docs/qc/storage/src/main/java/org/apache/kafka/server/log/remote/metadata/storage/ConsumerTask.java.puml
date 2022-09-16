@@ -2,19 +2,19 @@
 !pragma layout smetana
 Runnable <|-- org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask
 class org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask {
-+ ConsumerTask(KafkaConsumer<byte[],byte[]>;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Path;Time;long) : ConsumerTask [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#73]]]
-- initializeConsumerAssignment(Path) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#88]]]
-+ run() : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#125]]]
-- processConsumerRecord(ConsumerRecord<byte[],byte[]>) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#149]]]
-- maybeSyncCommittedDataAndOffsets(boolean) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#164]]]
-- closeConsumer() : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#199]]]
-- maybeWaitForPartitionsAssignment() : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#208]]]
-- executeReassignment(Set<Integer>) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#249]]]
-+ addAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#258]]]
-+ removeAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#262]]]
-- updateAssignmentsForPartitions(Set<TopicIdPartition>;Set<TopicIdPartition>) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#266]]]
-+ receivedOffsetForPartition(int) : Optional<Long> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#306]]]
-+ isPartitionAssigned(int) : boolean [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#310]]]
-+ close() : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#314]]]
++ConsumerTask(KafkaConsumer<byte[],byte[]>;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Path;Time;long) : ConsumerTask [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#73]]]
+-initializeConsumerAssignment(Path) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#88]]]
++run() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#125]]]
+-processConsumerRecord(ConsumerRecord<byte[],byte[]>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#149]]]
+-maybeSyncCommittedDataAndOffsets(boolean) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#164]]]
+-closeConsumer() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#199]]]
+-maybeWaitForPartitionsAssignment() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#208]]]
+-executeReassignment(Set<Integer>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#249]]]
++addAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#258]]]
++removeAssignmentsForPartitions(Set<TopicIdPartition>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#262]]]
+-updateAssignmentsForPartitions(Set<TopicIdPartition>;Set<TopicIdPartition>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#266]]]
++receivedOffsetForPartition(int) : Optional<Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#306]]]
++isPartitionAssigned(int) : boolean [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#310]]]
++close() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#314]]]
 } 
 @enduml

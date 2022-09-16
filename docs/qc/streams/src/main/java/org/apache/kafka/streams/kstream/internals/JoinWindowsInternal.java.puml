@@ -2,7 +2,7 @@
 !pragma layout smetana
 JoinWindows <|-- org.apache.kafka.streams.kstream.internals.JoinWindowsInternal
 class org.apache.kafka.streams.kstream.internals.JoinWindowsInternal {
-+ JoinWindowsInternal(JoinWindows) : JoinWindowsInternal [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#8]]]
-+ spuriousResultFixEnabled() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#12]]]
++JoinWindowsInternal(JoinWindows) : JoinWindowsInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#8]]]
++spuriousResultFixEnabled() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#12]]]
 } 
 @enduml

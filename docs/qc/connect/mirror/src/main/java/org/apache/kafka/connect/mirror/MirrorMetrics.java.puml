@@ -2,14 +2,14 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.mirror.MirrorMetrics
 class org.apache.kafka.connect.mirror.MirrorMetrics {
-MirrorMetrics(MirrorTaskConfig) : MirrorMetrics [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#89]]]
-+ close() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#108]]]
-countRecord(TopicPartition) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#112]]]
-recordAge(TopicPartition;long) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#116]]]
-replicationLatency(TopicPartition;long) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#120]]]
-recordBytes(TopicPartition;long) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#124]]]
-checkpointLatency(TopicPartition;String;long) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#128]]]
-group(TopicPartition;String) : GroupMetrics [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#132]]]
-addReporter(MetricsReporter) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#137]]]
+MirrorMetrics(MirrorTaskConfig) : MirrorMetrics [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#89]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#108]]]
+countRecord(TopicPartition) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#112]]]
+recordAge(TopicPartition;long) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#116]]]
+replicationLatency(TopicPartition;long) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#120]]]
+recordBytes(TopicPartition;long) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#124]]]
+checkpointLatency(TopicPartition;String;long) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#128]]]
+group(TopicPartition;String) : GroupMetrics [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#132]]]
+addReporter(MetricsReporter) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#137]]]
 } 
 @enduml

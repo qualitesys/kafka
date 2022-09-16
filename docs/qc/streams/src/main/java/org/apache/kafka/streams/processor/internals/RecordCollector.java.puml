@@ -2,10 +2,10 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.RecordCollector
 class org.apache.kafka.streams.processor.internals.RecordCollector {
-initialize() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#37]]]
-flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#40]]]
-closeClean() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#43]]]
-closeDirty() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#46]]]
-offsets() : Map<TopicPartition,Long> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#49]]]
+initialize() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#37]]]
+flush() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#40]]]
+closeClean() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#43]]]
+closeDirty() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#46]]]
+offsets() : Map<TopicPartition,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#49]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteTopicsResult
 class org.apache.kafka.clients.admin.DeleteTopicsResult {
-DeleteTopicsResult(Map<Uuid,KafkaFuture<Void>>;Map<String,KafkaFuture<Void>>) : DeleteTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#19]]]
-ofTopicIds(Map<Uuid,KafkaFuture<Void>>) : DeleteTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#28]]]
-ofTopicNames(Map<String,KafkaFuture<Void>>) : DeleteTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#32]]]
-+ topicIdValues() : Map<Uuid,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#37]]]
-+ topicNameValues() : Map<String,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#42]]]
-+ values() : Map<String,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#48]]]
-+ all() : KafkaFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#53]]]
+DeleteTopicsResult(Map<Uuid,KafkaFuture<Void>>;Map<String,KafkaFuture<Void>>) : DeleteTopicsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#19]]]
+ofTopicIds(Map<Uuid,KafkaFuture<Void>>) : DeleteTopicsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#28]]]
+ofTopicNames(Map<String,KafkaFuture<Void>>) : DeleteTopicsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#32]]]
++topicIdValues() : Map<Uuid,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#37]]]
++topicNameValues() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#42]]]
++values() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#48]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#53]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.InternalNameProvider
 class org.apache.kafka.streams.kstream.internals.InternalNameProvider {
-newProcessorName(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalNameProvider.java.html#5]]]
-newStoreName(String) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalNameProvider.java.html#7]]]
+newProcessorName(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalNameProvider.java.html#5]]]
+newStoreName(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalNameProvider.java.html#7]]]
 } 
 @enduml

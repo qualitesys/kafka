@@ -2,7 +2,7 @@
 !pragma layout smetana
 Window <|-- org.apache.kafka.streams.kstream.internals.UnlimitedWindow
 class org.apache.kafka.streams.kstream.internals.UnlimitedWindow {
-+ UnlimitedWindow(long) : UnlimitedWindow [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#10]]]
-+ overlap(Window) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#16]]]
++UnlimitedWindow(long) : UnlimitedWindow [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#10]]]
++overlap(Window) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#16]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ConfigInfo
 class org.apache.kafka.connect.runtime.rest.entities.ConfigInfo {
-+ ConfigInfo(ConfigKeyInfo;ConfigValueInfo) : ConfigInfo [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#15]]]
-+ configKey() : ConfigKeyInfo [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#23]]]
-+ configValue() : ConfigValueInfo [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#28]]]
-+ equals(Object) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#33]]]
-+ hashCode() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#42]]]
-+ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#47]]]
++ConfigInfo(ConfigKeyInfo;ConfigValueInfo) : ConfigInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#15]]]
++configKey() : ConfigKeyInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#23]]]
++configValue() : ConfigValueInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#28]]]
++equals(Object) : boolean [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#33]]]
++hashCode() : int [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#42]]]
++toString() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfo.java.html#47]]]
 } 
 @enduml

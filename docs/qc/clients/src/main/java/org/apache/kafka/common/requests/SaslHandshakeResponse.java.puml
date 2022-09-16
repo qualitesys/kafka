@@ -2,12 +2,12 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.SaslHandshakeResponse
 class org.apache.kafka.common.requests.SaslHandshakeResponse {
-+ SaslHandshakeResponse(SaslHandshakeResponseData) : SaslHandshakeResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#18]]]
-+ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#24]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#29]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#34]]]
-+ data() : SaslHandshakeResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#39]]]
-+ enabledMechanisms() : List<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#43]]]
-+ parse(ByteBuffer;short) : SaslHandshakeResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#47]]]
++SaslHandshakeResponse(SaslHandshakeResponseData) : SaslHandshakeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#18]]]
++error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#24]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#29]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#34]]]
++data() : SaslHandshakeResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#39]]]
++enabledMechanisms() : List<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#43]]]
++parse(ByteBuffer;short) : SaslHandshakeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#47]]]
 } 
 @enduml

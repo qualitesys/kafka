@@ -2,14 +2,14 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.RenewDelegationTokenResponse
 class org.apache.kafka.common.requests.RenewDelegationTokenResponse {
-+ RenewDelegationTokenResponse(RenewDelegationTokenResponseData) : RenewDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#16]]]
-+ parse(ByteBuffer;short) : RenewDelegationTokenResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#21]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#27]]]
-+ data() : RenewDelegationTokenResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#32]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#37]]]
-+ error() : Errors [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#41]]]
-+ expiryTimestamp() : long [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#45]]]
-+ hasError() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#49]]]
-+ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#54]]]
++RenewDelegationTokenResponse(RenewDelegationTokenResponseData) : RenewDelegationTokenResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#16]]]
++parse(ByteBuffer;short) : RenewDelegationTokenResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#21]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#27]]]
++data() : RenewDelegationTokenResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#32]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#37]]]
++error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#41]]]
++expiryTimestamp() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#45]]]
++hasError() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#49]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#54]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 SourceConnector <|-- org.apache.kafka.connect.tools.VerifiableSourceConnector
 class org.apache.kafka.connect.tools.VerifiableSourceConnector {
-+ version() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#19]]]
-+ start(Map<String,String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#24]]]
-+ taskClass() : Class<?extendsTask> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#29]]]
-+ taskConfigs(int) : List<Map<String,String>> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#34]]]
-+ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#45]]]
-+ config() : ConfigDef [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#49]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#19]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#24]]]
++taskClass() : Class<?extendsTask> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#29]]]
++taskConfigs(int) : List<Map<String,String>> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#34]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#45]]]
++config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#49]]]
 } 
 @enduml

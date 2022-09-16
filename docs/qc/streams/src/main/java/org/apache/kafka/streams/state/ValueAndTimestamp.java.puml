@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.ValueAndTimestamp
 class org.apache.kafka.streams.state.ValueAndTimestamp {
-- ValueAndTimestamp(V;long) : ValueAndTimestamp [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#13]]]
-+ value() : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#31]]]
-+ timestamp() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#35]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#40]]]
-+ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#45]]]
-+ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#58]]]
+-ValueAndTimestamp(V;long) : ValueAndTimestamp [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#13]]]
++value() : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#31]]]
++timestamp() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#35]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#40]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#45]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#58]]]
 } 
 @enduml

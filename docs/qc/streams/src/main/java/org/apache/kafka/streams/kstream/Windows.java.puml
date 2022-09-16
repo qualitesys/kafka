@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.Windows
 class org.apache.kafka.streams.kstream.Windows {
-Windows() : Windows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#17]]]
-+ windowsFor(long) : Map<Long,W> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#20]]]
-+ size() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#23]]]
-+ gracePeriodMs() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#26]]]
+Windows() : Windows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#17]]]
++windowsFor(long) : Map<Long,W> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#20]]]
++size() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#23]]]
++gracePeriodMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.html#26]]]
 } 
 @enduml

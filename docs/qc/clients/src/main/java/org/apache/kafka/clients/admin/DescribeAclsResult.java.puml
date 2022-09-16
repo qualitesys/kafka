@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeAclsResult
 class org.apache.kafka.clients.admin.DescribeAclsResult {
-DescribeAclsResult(KafkaFuture<Collection<AclBinding>>) : DescribeAclsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#17]]]
-+ values() : KafkaFuture<Collection<AclBinding>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#22]]]
+DescribeAclsResult(KafkaFuture<Collection<AclBinding>>) : DescribeAclsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#17]]]
++values() : KafkaFuture<Collection<AclBinding>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#22]]]
 } 
 @enduml

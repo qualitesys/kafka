@@ -2,9 +2,9 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.AllocateProducerIdsRequest
 class org.apache.kafka.common.requests.AllocateProducerIdsRequest {
-+ AllocateProducerIdsRequest(AllocateProducerIdsRequestData;short) : AllocateProducerIdsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#16]]]
-+ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#22]]]
-+ data() : AllocateProducerIdsRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#29]]]
-+ parse(ByteBuffer;short) : AllocateProducerIdsRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#53]]]
++AllocateProducerIdsRequest(AllocateProducerIdsRequestData;short) : AllocateProducerIdsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#16]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#22]]]
++data() : AllocateProducerIdsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#29]]]
++parse(ByteBuffer;short) : AllocateProducerIdsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsRequest.java.html#53]]]
 } 
 @enduml

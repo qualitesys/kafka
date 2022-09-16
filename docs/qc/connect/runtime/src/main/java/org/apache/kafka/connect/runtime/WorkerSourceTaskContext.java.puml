@@ -2,9 +2,9 @@
 !pragma layout smetana
 SourceTaskContext <|-- org.apache.kafka.connect.runtime.WorkerSourceTaskContext
 class org.apache.kafka.connect.runtime.WorkerSourceTaskContext {
-+ WorkerSourceTaskContext(OffsetStorageReader;ConnectorTaskId;ClusterConfigState;WorkerTransactionContext) : WorkerSourceTaskContext [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#18]]]
-+ configs() : Map<String,String> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#29]]]
-+ offsetStorageReader() : OffsetStorageReader [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#34]]]
-+ transactionContext() : WorkerTransactionContext [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#39]]]
++WorkerSourceTaskContext(OffsetStorageReader;ConnectorTaskId;ClusterConfigState;WorkerTransactionContext) : WorkerSourceTaskContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#18]]]
++configs() : Map<String,String> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#29]]]
++offsetStorageReader() : OffsetStorageReader [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#34]]]
++transactionContext() : WorkerTransactionContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#39]]]
 } 
 @enduml

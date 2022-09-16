@@ -2,8 +2,8 @@
 !pragma layout smetana
 InvalidOffsetException <|-- org.apache.kafka.clients.consumer.NoOffsetForPartitionException
 class org.apache.kafka.clients.consumer.NoOffsetForPartitionException {
-+ NoOffsetForPartitionException(TopicPartition) : NoOffsetForPartitionException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#18]]]
-+ NoOffsetForPartitionException(Collection<TopicPartition>) : NoOffsetForPartitionException [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#23]]]
-+ partitions() : Set<TopicPartition> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#29]]]
++NoOffsetForPartitionException(TopicPartition) : NoOffsetForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#18]]]
++NoOffsetForPartitionException(Collection<TopicPartition>) : NoOffsetForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#23]]]
++partitions() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#29]]]
 } 
 @enduml

@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.RestartPlan
 class org.apache.kafka.connect.runtime.RestartPlan {
-+ RestartPlan(RestartRequest;ConnectorStateInfo) : RestartPlan [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#22]]]
-+ connectorName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#36]]]
-+ restartRequest() : RestartRequest [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#41]]]
-+ restartConnectorStateInfo() : ConnectorStateInfo [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#46]]]
-+ taskIdsToRestart() : Collection<ConnectorTaskId> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#51]]]
-+ shouldRestartConnector() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#56]]]
-+ shouldRestartTasks() : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#61]]]
-+ restartTaskCount() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#66]]]
-+ totalTaskCount() : int [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#71]]]
-- isRestarting(ConnectorStateInfo.AbstractState) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#75]]]
-- isRestarting(String) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#79]]]
-+ toString() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#84]]]
++RestartPlan(RestartRequest;ConnectorStateInfo) : RestartPlan [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#22]]]
++connectorName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#36]]]
++restartRequest() : RestartRequest [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#41]]]
++restartConnectorStateInfo() : ConnectorStateInfo [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#46]]]
++taskIdsToRestart() : Collection<ConnectorTaskId> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#51]]]
++shouldRestartConnector() : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#56]]]
++shouldRestartTasks() : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#61]]]
++restartTaskCount() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#66]]]
++totalTaskCount() : int [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#71]]]
+-isRestarting(ConnectorStateInfo.AbstractState) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#75]]]
+-isRestarting(String) : boolean [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#79]]]
++toString() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#84]]]
 } 
 @enduml

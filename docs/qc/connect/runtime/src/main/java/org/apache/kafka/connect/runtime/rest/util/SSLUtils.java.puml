@@ -2,14 +2,14 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.util.SSLUtils
 class org.apache.kafka.connect.runtime.rest.util.SSLUtils {
-+ createServerSideSslContextFactory(WorkerConfig;String) : SslContextFactory [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#22]]]
-+ createServerSideSslContextFactory(WorkerConfig) : SslContextFactory [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#36]]]
-+ createClientSideSslContextFactory(WorkerConfig) : SslContextFactory [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#41]]]
-configureSslContextFactoryKeyStore(SslContextFactory;Map<String,Object>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#55]]]
-getOrDefault(Map<String,Object>;String;Object) : Object [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#71]]]
-configureSslContextFactoryTrustStore(SslContextFactory;Map<String,Object>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#79]]]
-configureSslContextFactoryAlgorithms(SslContextFactory;Map<String,Object>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#93]]]
-configureSslContextFactoryEndpointIdentification(SslContextFactory;Map<String,Object>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#117]]]
-configureSslContextFactoryAuthentication(SslContextFactory.Server;Map<String,Object>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#124]]]
++createServerSideSslContextFactory(WorkerConfig;String) : SslContextFactory [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#22]]]
++createServerSideSslContextFactory(WorkerConfig) : SslContextFactory [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#36]]]
++createClientSideSslContextFactory(WorkerConfig) : SslContextFactory [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#41]]]
+configureSslContextFactoryKeyStore(SslContextFactory;Map<String,Object>) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#55]]]
+getOrDefault(Map<String,Object>;String;Object) : Object [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#71]]]
+configureSslContextFactoryTrustStore(SslContextFactory;Map<String,Object>) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#79]]]
+configureSslContextFactoryAlgorithms(SslContextFactory;Map<String,Object>) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#93]]]
+configureSslContextFactoryEndpointIdentification(SslContextFactory;Map<String,Object>) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#117]]]
+configureSslContextFactoryAuthentication(SslContextFactory.Server;Map<String,Object>) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#124]]]
 } 
 @enduml

@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.raft.RaftUtil
 class org.apache.kafka.raft.RaftUtil {
-+ errorResponse(ApiKeys;Errors) : ApiMessage [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#26]]]
-+ singletonFetchRequest(TopicPartition;Uuid;Consumer<FetchRequestData.FetchPartition>) : FetchRequestData [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#41]]]
-+ singletonFetchResponse(TopicPartition;Uuid;Errors;Consumer<FetchResponseData.PartitionData>) : FetchResponseData [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#61]]]
-hasValidTopicPartition(FetchRequestData;TopicPartition;Uuid) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#85]]]
-hasValidTopicPartition(FetchResponseData;TopicPartition;Uuid) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#92]]]
-hasValidTopicPartition(VoteResponseData;TopicPartition) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#99]]]
-hasValidTopicPartition(VoteRequestData;TopicPartition) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#106]]]
-hasValidTopicPartition(BeginQuorumEpochRequestData;TopicPartition) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#113]]]
-hasValidTopicPartition(BeginQuorumEpochResponseData;TopicPartition) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#120]]]
-hasValidTopicPartition(EndQuorumEpochRequestData;TopicPartition) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#127]]]
-hasValidTopicPartition(EndQuorumEpochResponseData;TopicPartition) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#134]]]
-hasValidTopicPartition(DescribeQuorumRequestData;TopicPartition) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#141]]]
++errorResponse(ApiKeys;Errors) : ApiMessage [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#26]]]
++singletonFetchRequest(TopicPartition;Uuid;Consumer<FetchRequestData.FetchPartition>) : FetchRequestData [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#41]]]
++singletonFetchResponse(TopicPartition;Uuid;Errors;Consumer<FetchResponseData.PartitionData>) : FetchResponseData [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#61]]]
+hasValidTopicPartition(FetchRequestData;TopicPartition;Uuid) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#85]]]
+hasValidTopicPartition(FetchResponseData;TopicPartition;Uuid) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#92]]]
+hasValidTopicPartition(VoteResponseData;TopicPartition) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#99]]]
+hasValidTopicPartition(VoteRequestData;TopicPartition) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#106]]]
+hasValidTopicPartition(BeginQuorumEpochRequestData;TopicPartition) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#113]]]
+hasValidTopicPartition(BeginQuorumEpochResponseData;TopicPartition) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#120]]]
+hasValidTopicPartition(EndQuorumEpochRequestData;TopicPartition) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#127]]]
+hasValidTopicPartition(EndQuorumEpochResponseData;TopicPartition) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#134]]]
+hasValidTopicPartition(DescribeQuorumRequestData;TopicPartition) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#141]]]
 } 
 @enduml

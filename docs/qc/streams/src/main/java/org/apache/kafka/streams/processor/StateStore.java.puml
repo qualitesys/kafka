@@ -2,13 +2,13 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.StateStore
 class org.apache.kafka.streams.processor.StateStore {
-name() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#19]]]
-init(org.apache.kafka.streams.processor.ProcessorContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#23]]]
-init(StateStoreContext;StateStore) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#26]]]
-flush() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#31]]]
-close() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#34]]]
-persistent() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#37]]]
-isOpen() : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#40]]]
-getPosition() : Position [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#54]]]
+name() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#19]]]
+init(org.apache.kafka.streams.processor.ProcessorContext;StateStore) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#23]]]
+init(StateStoreContext;StateStore) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#26]]]
+flush() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#31]]]
+close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#34]]]
+persistent() : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#37]]]
+isOpen() : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#40]]]
+getPosition() : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#54]]]
 } 
 @enduml

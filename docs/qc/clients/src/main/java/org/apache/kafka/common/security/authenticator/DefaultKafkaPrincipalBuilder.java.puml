@@ -2,11 +2,11 @@
 !pragma layout smetana
 KafkaPrincipalBuilder <|-- org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder
 class org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder {
-+ DefaultKafkaPrincipalBuilder(KerberosShortNamer;SslPrincipalMapper) : DefaultKafkaPrincipalBuilder [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#37]]]
-+ build(AuthenticationContext) : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#43]]]
-- applyKerberosShortNamer(String) : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#64]]]
-- applySslPrincipalMapper(Principal) : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#75]]]
-+ serialize(KafkaPrincipal) : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#89]]]
-+ deserialize(byte[]) : KafkaPrincipal [[[././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#98]]]
++DefaultKafkaPrincipalBuilder(KerberosShortNamer;SslPrincipalMapper) : DefaultKafkaPrincipalBuilder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#37]]]
++build(AuthenticationContext) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#43]]]
+-applyKerberosShortNamer(String) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#64]]]
+-applySslPrincipalMapper(Principal) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#75]]]
++serialize(KafkaPrincipal) : byte[] [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#89]]]
++deserialize(byte[]) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#98]]]
 } 
 @enduml

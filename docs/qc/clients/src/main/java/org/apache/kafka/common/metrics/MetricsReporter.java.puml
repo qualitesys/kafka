@@ -2,13 +2,13 @@
 !pragma layout smetana
 Reconfigurable <|-- org.apache.kafka.common.metrics.MetricsReporter
 class org.apache.kafka.common.metrics.MetricsReporter {
-init(List<KafkaMetric>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#17]]]
-metricChange(KafkaMetric) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#20]]]
-metricRemoval(KafkaMetric) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#23]]]
-close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#26]]]
-reconfigurableConfigs() : Set<String> [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#29]]]
-validateReconfiguration(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#33]]]
-reconfigure(Map<String,?>) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#36]]]
-contextChange(MetricsContext) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#41]]]
+init(List<KafkaMetric>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#17]]]
+metricChange(KafkaMetric) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#20]]]
+metricRemoval(KafkaMetric) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#23]]]
+close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#26]]]
+reconfigurableConfigs() : Set<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#29]]]
+validateReconfiguration(Map<String,?>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#33]]]
+reconfigure(Map<String,?>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#36]]]
+contextChange(MetricsContext) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#41]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.placement.PlacementSpec
 class org.apache.kafka.metadata.placement.PlacementSpec {
-+ PlacementSpec(int;int;short) : PlacementSpec [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#19]]]
-+ startPartition() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#29]]]
-+ numPartitions() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#33]]]
-+ numReplicas() : short [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#37]]]
-+ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#42]]]
-+ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#52]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#59]]]
++PlacementSpec(int;int;short) : PlacementSpec [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#19]]]
++startPartition() : int [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#29]]]
++numPartitions() : int [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#33]]]
++numReplicas() : short [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#37]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#42]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#52]]]
++toString() : String [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#59]]]
 } 
 @enduml

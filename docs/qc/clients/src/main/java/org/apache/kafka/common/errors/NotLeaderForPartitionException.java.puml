@@ -2,9 +2,9 @@
 !pragma layout smetana
 InvalidMetadataException <|-- org.apache.kafka.common.errors.NotLeaderForPartitionException
 class org.apache.kafka.common.errors.NotLeaderForPartitionException {
-+ NotLeaderForPartitionException() : NotLeaderForPartitionException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#10]]]
-+ NotLeaderForPartitionException(String) : NotLeaderForPartitionException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#14]]]
-+ NotLeaderForPartitionException(Throwable) : NotLeaderForPartitionException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#18]]]
-+ NotLeaderForPartitionException(String;Throwable) : NotLeaderForPartitionException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#22]]]
++NotLeaderForPartitionException() : NotLeaderForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#10]]]
++NotLeaderForPartitionException(String) : NotLeaderForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#14]]]
++NotLeaderForPartitionException(Throwable) : NotLeaderForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#18]]]
++NotLeaderForPartitionException(String;Throwable) : NotLeaderForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderForPartitionException.java.html#22]]]
 } 
 @enduml

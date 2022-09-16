@@ -2,9 +2,9 @@
 !pragma layout smetana
 FlushGenerator <|-- org.apache.kafka.trogdor.workload.GaussianFlushGenerator
 class org.apache.kafka.trogdor.workload.GaussianFlushGenerator {
-+ GaussianFlushGenerator(int;double) : GaussianFlushGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#23]]]
-+ messagesPerFlushAverage() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#31]]]
-+ messagesPerFlushDeviation() : double [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#36]]]
-- calculateFlushSize() : void [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#40]]]
++GaussianFlushGenerator(int;double) : GaussianFlushGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#23]]]
++messagesPerFlushAverage() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#31]]]
++messagesPerFlushDeviation() : double [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#36]]]
+-calculateFlushSize() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#40]]]
 } 
 @enduml

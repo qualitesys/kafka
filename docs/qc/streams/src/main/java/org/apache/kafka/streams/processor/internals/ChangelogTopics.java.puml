@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ChangelogTopics
 class org.apache.kafka.streams.processor.internals.ChangelogTopics {
-+ ChangelogTopics(InternalTopicManager;Map<Subtopology,TopicsInfo>;Map<Subtopology,Set<TaskId>>;String) : ChangelogTopics [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#33]]]
-+ setup() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#44]]]
-+ preExistingNonSourceTopicBasedPartitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#101]]]
-+ preExistingPartitionsFor(TaskId) : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#105]]]
-+ preExistingSourceTopicBasedPartitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#112]]]
-+ statefulTaskIds() : Set<TaskId> [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#116]]]
++ChangelogTopics(InternalTopicManager;Map<Subtopology,TopicsInfo>;Map<Subtopology,Set<TaskId>>;String) : ChangelogTopics [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#33]]]
++setup() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#44]]]
++preExistingNonSourceTopicBasedPartitions() : Set<TopicPartition> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#101]]]
++preExistingPartitionsFor(TaskId) : Set<TopicPartition> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#105]]]
++preExistingSourceTopicBasedPartitions() : Set<TopicPartition> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#112]]]
++statefulTaskIds() : Set<TaskId> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#116]]]
 } 
 @enduml

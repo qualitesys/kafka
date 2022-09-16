@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.Replicas
 class org.apache.kafka.metadata.Replicas {
-+ toList(int[]) : List<Integer> [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#17]]]
-+ toArray(List<Integer>) : int[] [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#27]]]
-+ clone(int[]) : int[] [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#37]]]
-+ validate(int[]) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#44]]]
-+ validateIsr(int[];int[]) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#59]]]
-+ contains(int[];int) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#83]]]
-+ contains(List<Integer>;int[]) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#91]]]
-+ copyWithout(int[];int) : int[] [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#109]]]
-+ copyWithout(int[];int[]) : int[] [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#128]]]
-+ copyWith(int[];int) : int[] [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#147]]]
-+ toSet(int[]) : Set<Integer> [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#155]]]
++toList(int[]) : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#17]]]
++toArray(List<Integer>) : int[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#27]]]
++clone(int[]) : int[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#37]]]
++validate(int[]) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#44]]]
++validateIsr(int[];int[]) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#59]]]
++contains(int[];int) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#83]]]
++contains(List<Integer>;int[]) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#91]]]
++copyWithout(int[];int) : int[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#109]]]
++copyWithout(int[];int[]) : int[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#128]]]
++copyWith(int[];int) : int[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#147]]]
++toSet(int[]) : Set<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#155]]]
 } 
 @enduml

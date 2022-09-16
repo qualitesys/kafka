@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.metadata.placement.UsableBroker
 class org.apache.kafka.metadata.placement.UsableBroker {
-+ UsableBroker(int;Optional<String>;boolean) : UsableBroker [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#20]]]
-+ id() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#26]]]
-+ rack() : Optional<String> [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#30]]]
-+ fenced() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#34]]]
-+ equals(Object) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#39]]]
-+ hashCode() : int [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#46]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#53]]]
++UsableBroker(int;Optional<String>;boolean) : UsableBroker [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#20]]]
++id() : int [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#26]]]
++rack() : Optional<String> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#30]]]
++fenced() : boolean [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#34]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#39]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#46]]]
++toString() : String [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#53]]]
 } 
 @enduml

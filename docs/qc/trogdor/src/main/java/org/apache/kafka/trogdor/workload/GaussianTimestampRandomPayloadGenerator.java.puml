@@ -2,11 +2,11 @@
 !pragma layout smetana
 PayloadGenerator <|-- org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator
 class org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator {
-+ GaussianTimestampRandomPayloadGenerator(int;double;int;long) : GaussianTimestampRandomPayloadGenerator [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#28]]]
-+ messageSizeAverage() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#41]]]
-+ messageSizeDeviation() : double [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#46]]]
-+ messagesUntilSizeChange() : int [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#51]]]
-+ seed() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#56]]]
-+ generate(long) : byte[] [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#61]]]
++GaussianTimestampRandomPayloadGenerator(int;double;int;long) : GaussianTimestampRandomPayloadGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#28]]]
++messageSizeAverage() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#41]]]
++messageSizeDeviation() : double [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#46]]]
++messagesUntilSizeChange() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#51]]]
++seed() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#56]]]
++generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#61]]]
 } 
 @enduml

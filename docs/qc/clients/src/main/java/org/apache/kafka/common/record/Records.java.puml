@@ -2,10 +2,10 @@
 !pragma layout smetana
 TransferableRecords <|-- org.apache.kafka.common.record.Records
 class org.apache.kafka.common.record.Records {
-batches() : Iterable<?extendsRecordBatch> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#25]]]
-batchIterator() : AbstractIterator<?extendsRecordBatch> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#28]]]
-hasMatchingMagic(byte) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#31]]]
-downConvert(byte;long;Time) : ConvertedRecords<?extendsRecords> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#34]]]
-records() : Iterable<Record> [[[././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#37]]]
+batches() : Iterable<?extendsRecordBatch> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#25]]]
+batchIterator() : AbstractIterator<?extendsRecordBatch> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#28]]]
+hasMatchingMagic(byte) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#31]]]
+downConvert(byte;long;Time) : ConvertedRecords<?extendsRecords> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#34]]]
+records() : Iterable<Record> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/Records.java.html#37]]]
 } 
 @enduml

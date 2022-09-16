@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry
 class org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry {
-+ FetcherMetricsRegistry() : FetcherMetricsRegistry [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#44]]]
-+ FetcherMetricsRegistry(String) : FetcherMetricsRegistry [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#48]]]
-+ FetcherMetricsRegistry(Set<String>;String) : FetcherMetricsRegistry [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#52]]]
-+ getAllTemplates() : List<MetricNameTemplate> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#133]]]
++FetcherMetricsRegistry() : FetcherMetricsRegistry [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#44]]]
++FetcherMetricsRegistry(String) : FetcherMetricsRegistry [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#48]]]
++FetcherMetricsRegistry(Set<String>;String) : FetcherMetricsRegistry [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#52]]]
++getAllTemplates() : List<MetricNameTemplate> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.html#133]]]
 } 
 @enduml

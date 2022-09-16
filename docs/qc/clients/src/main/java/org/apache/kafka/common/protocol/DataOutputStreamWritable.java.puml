@@ -2,18 +2,18 @@
 !pragma layout smetana
 Writable <|-- org.apache.kafka.common.protocol.DataOutputStreamWritable
 class org.apache.kafka.common.protocol.DataOutputStreamWritable {
-+ DataOutputStreamWritable(DataOutputStream) : DataOutputStreamWritable [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#16]]]
-+ writeByte(byte) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#21]]]
-+ writeShort(short) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#30]]]
-+ writeInt(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#39]]]
-+ writeLong(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#48]]]
-+ writeDouble(double) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#57]]]
-+ writeByteArray(byte[]) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#66]]]
-+ writeUnsignedVarint(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#75]]]
-+ writeByteBuffer(ByteBuffer) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#84]]]
-+ writeVarint(int) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#98]]]
-+ writeVarlong(long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#107]]]
-+ flush() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#115]]]
-+ close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#124]]]
++DataOutputStreamWritable(DataOutputStream) : DataOutputStreamWritable [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#16]]]
++writeByte(byte) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#21]]]
++writeShort(short) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#30]]]
++writeInt(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#39]]]
++writeLong(long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#48]]]
++writeDouble(double) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#57]]]
++writeByteArray(byte[]) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#66]]]
++writeUnsignedVarint(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#75]]]
++writeByteBuffer(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#84]]]
++writeVarint(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#98]]]
++writeVarlong(long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#107]]]
++flush() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#115]]]
++close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#124]]]
 } 
 @enduml

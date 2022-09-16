@@ -2,7 +2,7 @@
 !pragma layout smetana
 ConverterConfig <|-- org.apache.kafka.connect.converters.NumberConverterConfig
 class org.apache.kafka.connect.converters.NumberConverterConfig {
-+ configDef() : ConfigDef [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverterConfig.java.html#14]]]
-+ NumberConverterConfig(Map<String,?>) : NumberConverterConfig [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverterConfig.java.html#18]]]
++configDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverterConfig.java.html#14]]]
++NumberConverterConfig(Map<String,?>) : NumberConverterConfig [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverterConfig.java.html#18]]]
 } 
 @enduml

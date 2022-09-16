@@ -2,13 +2,13 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.connect.mirror.Scheduler
 class org.apache.kafka.connect.mirror.Scheduler {
-Scheduler(String;Duration) : Scheduler [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#22]]]
-Scheduler(Class<?>;Duration) : Scheduler [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#27]]]
-scheduleRepeating(Task;Duration;String) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#31]]]
-scheduleRepeatingDelayed(Task;Duration;String) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#38]]]
-execute(Task;String) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#46]]]
-+ close() : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#58]]]
-- run(Task;String) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#75]]]
-- executeThread(Task;String) : void [[[././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#91]]]
+Scheduler(String;Duration) : Scheduler [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#22]]]
+Scheduler(Class<?>;Duration) : Scheduler [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#27]]]
+scheduleRepeating(Task;Duration;String) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#31]]]
+scheduleRepeatingDelayed(Task;Duration;String) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#38]]]
+execute(Task;String) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#46]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#58]]]
+-run(Task;String) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#75]]]
+-executeThread(Task;String) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#91]]]
 } 
 @enduml

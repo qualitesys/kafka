@@ -2,7 +2,7 @@
 !pragma layout smetana
 AuthenticationException <|-- org.apache.kafka.common.errors.SslAuthenticationException
 class org.apache.kafka.common.errors.SslAuthenticationException {
-+ SslAuthenticationException(String) : SslAuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/SslAuthenticationException.java.html#11]]]
-+ SslAuthenticationException(String;Throwable) : SslAuthenticationException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/SslAuthenticationException.java.html#15]]]
++SslAuthenticationException(String) : SslAuthenticationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SslAuthenticationException.java.html#11]]]
++SslAuthenticationException(String;Throwable) : SslAuthenticationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/SslAuthenticationException.java.html#15]]]
 } 
 @enduml

@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.internals.CachedStateStore
 class org.apache.kafka.streams.state.internals.CachedStateStore {
-setFlushListener(CacheFlushListener<K,V>;boolean) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachedStateStore.java.html#6]]]
-flushCache() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachedStateStore.java.html#10]]]
+setFlushListener(CacheFlushListener<K,V>;boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachedStateStore.java.html#6]]]
+flushCache() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachedStateStore.java.html#10]]]
 } 
 @enduml

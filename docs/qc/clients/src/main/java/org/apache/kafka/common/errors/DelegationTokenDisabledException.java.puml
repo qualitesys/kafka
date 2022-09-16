@@ -2,7 +2,7 @@
 !pragma layout smetana
 ApiException <|-- org.apache.kafka.common.errors.DelegationTokenDisabledException
 class org.apache.kafka.common.errors.DelegationTokenDisabledException {
-+ DelegationTokenDisabledException(String) : DelegationTokenDisabledException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.html#8]]]
-+ DelegationTokenDisabledException(String;Throwable) : DelegationTokenDisabledException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.html#12]]]
++DelegationTokenDisabledException(String) : DelegationTokenDisabledException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.html#8]]]
++DelegationTokenDisabledException(String;Throwable) : DelegationTokenDisabledException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.html#12]]]
 } 
 @enduml

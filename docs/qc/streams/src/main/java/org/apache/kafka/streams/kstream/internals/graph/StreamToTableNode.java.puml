@@ -2,8 +2,8 @@
 !pragma layout smetana
 GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.StreamToTableNode
 class org.apache.kafka.streams.kstream.internals.graph.StreamToTableNode {
-+ StreamToTableNode(String;ProcessorParameters<K,V,?,?>;MaterializedInternal<K,V,?>) : StreamToTableNode [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#20]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#29]]]
-+ writeToTopology(InternalTopologyBuilder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#38]]]
++StreamToTableNode(String;ProcessorParameters<K,V,?,?>;MaterializedInternal<K,V,?>) : StreamToTableNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#20]]]
++toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#29]]]
++writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#38]]]
 } 
 @enduml

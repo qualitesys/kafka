@@ -2,11 +2,11 @@
 !pragma layout smetana
 SinkTask <|-- org.apache.kafka.connect.tools.MockSinkTask
 class org.apache.kafka.connect.tools.MockSinkTask {
-+ version() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#23]]]
-+ start(Map<String,String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#28]]]
-+ put(Collection<SinkRecord>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#45]]]
-+ flush(Map<TopicPartition,OffsetAndMetadata>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#57]]]
-+ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#62]]]
-- setTimeout() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#66]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#23]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#28]]]
++put(Collection<SinkRecord>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#45]]]
++flush(Map<TopicPartition,OffsetAndMetadata>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#57]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#62]]]
+-setTimeout() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.html#66]]]
 } 
 @enduml

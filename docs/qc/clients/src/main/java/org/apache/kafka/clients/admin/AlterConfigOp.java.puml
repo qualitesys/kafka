@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.AlterConfigOp
 class org.apache.kafka.clients.admin.AlterConfigOp {
-+ AlterConfigOp(ConfigEntry;OpType) : AlterConfigOp [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#50]]]
-+ configEntry() : ConfigEntry [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#55]]]
-+ opType() : OpType [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#59]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#64]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#73]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#78]]]
++AlterConfigOp(ConfigEntry;OpType) : AlterConfigOp [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#50]]]
++configEntry() : ConfigEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#55]]]
++opType() : OpType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#59]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#64]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#73]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#78]]]
 } 
 @enduml

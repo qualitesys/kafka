@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.CreatePartitionsResult
 class org.apache.kafka.clients.admin.CreatePartitionsResult {
-CreatePartitionsResult(Map<String,KafkaFuture<Void>>) : CreatePartitionsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#16]]]
-+ values() : Map<String,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#21]]]
-+ all() : KafkaFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#26]]]
+CreatePartitionsResult(Map<String,KafkaFuture<Void>>) : CreatePartitionsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#16]]]
++values() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#21]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#26]]]
 } 
 @enduml

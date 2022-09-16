@@ -2,8 +2,8 @@
 !pragma layout smetana
 Message <|-- org.apache.kafka.trogdor.rest.UptimeResponse
 class org.apache.kafka.trogdor.rest.UptimeResponse {
-+ UptimeResponse(long;long) : UptimeResponse [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/UptimeResponse.java.html#15]]]
-+ serverStartMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/UptimeResponse.java.html#22]]]
-+ nowMs() : long [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/UptimeResponse.java.html#27]]]
++UptimeResponse(long;long) : UptimeResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/UptimeResponse.java.html#15]]]
++serverStartMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/UptimeResponse.java.html#22]]]
++nowMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/UptimeResponse.java.html#27]]]
 } 
 @enduml

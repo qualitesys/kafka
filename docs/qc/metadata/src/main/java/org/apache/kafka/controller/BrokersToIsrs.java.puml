@@ -2,17 +2,17 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.controller.BrokersToIsrs
 class org.apache.kafka.controller.BrokersToIsrs {
-BrokersToIsrs(SnapshotRegistry) : BrokersToIsrs [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#78]]]
-update(Uuid;int;int[];int[];int;int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85]]]
-removeTopicEntryForBroker(Uuid;int) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#150]]]
-- add(int;Uuid;int;boolean) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#160]]]
-- change(int;Uuid;int;boolean;boolean) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#181]]]
-- remove(int;Uuid;int;boolean) : void [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#206]]]
-iterator(int;boolean) : PartitionsOnReplicaIterator [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#242]]]
-partitionsWithNoLeader() : PartitionsOnReplicaIterator [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#250]]]
-partitionsLedByBroker(int) : PartitionsOnReplicaIterator [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254]]]
-partitionsWithBrokerInIsr(int) : PartitionsOnReplicaIterator [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258]]]
-hasLeaderships(int) : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262]]]
-offlinePartitionCount() : int [[[././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#266]]]
+BrokersToIsrs(SnapshotRegistry) : BrokersToIsrs [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#78]]]
+update(Uuid;int;int[];int[];int;int) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85]]]
+removeTopicEntryForBroker(Uuid;int) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#150]]]
+-add(int;Uuid;int;boolean) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#160]]]
+-change(int;Uuid;int;boolean;boolean) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#181]]]
+-remove(int;Uuid;int;boolean) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#206]]]
+iterator(int;boolean) : PartitionsOnReplicaIterator [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#242]]]
+partitionsWithNoLeader() : PartitionsOnReplicaIterator [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#250]]]
+partitionsLedByBroker(int) : PartitionsOnReplicaIterator [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254]]]
+partitionsWithBrokerInIsr(int) : PartitionsOnReplicaIterator [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258]]]
+hasLeaderships(int) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262]]]
+offlinePartitionCount() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#266]]]
 } 
 @enduml

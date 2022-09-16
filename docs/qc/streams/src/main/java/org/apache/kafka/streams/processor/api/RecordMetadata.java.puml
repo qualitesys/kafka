@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.processor.api.RecordMetadata
 class org.apache.kafka.streams.processor.api.RecordMetadata {
-topic() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.html#8]]]
-partition() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.html#11]]]
-offset() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.html#14]]]
+topic() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.html#8]]]
+partition() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.html#11]]]
+offset() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/RecordMetadata.java.html#14]]]
 } 
 @enduml

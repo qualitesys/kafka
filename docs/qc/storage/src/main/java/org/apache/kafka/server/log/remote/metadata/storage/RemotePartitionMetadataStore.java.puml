@@ -2,19 +2,19 @@
 !pragma layout smetana
 RemotePartitionMetadataEventHandlerCloseable <|-- org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore
 class org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore {
-+ RemotePartitionMetadataStore(Path) : RemotePartitionMetadataStore [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#39]]]
-+ handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#44]]]
-- partitionLogDirectory(TopicPartition) : Path [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#59]]]
-+ handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#64]]]
-+ handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#81]]]
-+ syncLogMetadataSnapshot(TopicIdPartition;int;Long) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#96]]]
-+ clearTopicPartition(TopicIdPartition) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#112]]]
-+ listRemoteLogSegments(TopicIdPartition) : Iterator<RemoteLogSegmentMetadata> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#116]]]
-+ listRemoteLogSegments(TopicIdPartition;int) : Iterator<RemoteLogSegmentMetadata> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#123]]]
-- getRemoteLogMetadataCache(TopicIdPartition) : FileBasedRemoteLogMetadataCache [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#130]]]
-+ remoteLogSegmentMetadata(TopicIdPartition;long;int) : Optional<RemoteLogSegmentMetadata> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#140]]]
-+ highestLogOffset(TopicIdPartition;int) : Optional<Long> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#149]]]
-+ close() : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#157]]]
-+ maybeLoadPartition(TopicIdPartition) : void [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#166]]]
++RemotePartitionMetadataStore(Path) : RemotePartitionMetadataStore [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#39]]]
++handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#44]]]
+-partitionLogDirectory(TopicPartition) : Path [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#59]]]
++handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#64]]]
++handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#81]]]
++syncLogMetadataSnapshot(TopicIdPartition;int;Long) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#96]]]
++clearTopicPartition(TopicIdPartition) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#112]]]
++listRemoteLogSegments(TopicIdPartition) : Iterator<RemoteLogSegmentMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#116]]]
++listRemoteLogSegments(TopicIdPartition;int) : Iterator<RemoteLogSegmentMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#123]]]
+-getRemoteLogMetadataCache(TopicIdPartition) : FileBasedRemoteLogMetadataCache [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#130]]]
++remoteLogSegmentMetadata(TopicIdPartition;long;int) : Optional<RemoteLogSegmentMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#140]]]
++highestLogOffset(TopicIdPartition;int) : Optional<Long> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#149]]]
++close() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#157]]]
++maybeLoadPartition(TopicIdPartition) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#166]]]
 } 
 @enduml

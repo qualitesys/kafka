@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeClientQuotasResult
 class org.apache.kafka.clients.admin.DescribeClientQuotasResult {
-+ DescribeClientQuotasResult(KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>>) : DescribeClientQuotasResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#19]]]
-+ entities() : KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#24]]]
++DescribeClientQuotasResult(KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>>) : DescribeClientQuotasResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#19]]]
++entities() : KafkaFuture<Map<ClientQuotaEntity,Map<String,Double>>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClientQuotasResult.java.html#24]]]
 } 
 @enduml

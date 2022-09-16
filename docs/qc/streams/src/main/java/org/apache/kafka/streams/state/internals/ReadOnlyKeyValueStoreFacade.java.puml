@@ -2,12 +2,12 @@
 !pragma layout smetana
 ReadOnlyKeyValueStore_K,V_ <|-- org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade
 class org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade {
-ReadOnlyKeyValueStoreFacade(TimestampedKeyValueStore<K,V>) : ReadOnlyKeyValueStoreFacade [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#14]]]
-+ get(K) : V [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#19]]]
-+ range(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#24]]]
-+ reverseRange(K;K) : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#30]]]
-+ all() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#42]]]
-+ reverseAll() : KeyValueIterator<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#47]]]
-+ approximateNumEntries() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#52]]]
+ReadOnlyKeyValueStoreFacade(TimestampedKeyValueStore<K,V>) : ReadOnlyKeyValueStoreFacade [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#14]]]
++get(K) : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#19]]]
++range(K;K) : KeyValueIterator<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#24]]]
++reverseRange(K;K) : KeyValueIterator<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#30]]]
++all() : KeyValueIterator<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#42]]]
++reverseAll() : KeyValueIterator<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#47]]]
++approximateNumEntries() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#52]]]
 } 
 @enduml

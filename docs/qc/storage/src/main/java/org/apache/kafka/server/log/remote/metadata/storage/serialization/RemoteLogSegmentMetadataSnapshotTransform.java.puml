@@ -2,8 +2,8 @@
 !pragma layout smetana
 RemoteLogMetadataTransform_RemoteLogSegmentMetadataSnapshot_ <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataSnapshotTransform
 class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataSnapshotTransform {
-+ toApiMessageAndVersion(RemoteLogSegmentMetadataSnapshot) : ApiMessageAndVersion [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.html#16]]]
-- createSegmentLeaderEpochsEntry(Map<Integer,Long>) : List<RemoteLogSegmentMetadataSnapshotRecord.SegmentLeaderEpochEntry> [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.html#31]]]
-+ fromApiMessageAndVersion(ApiMessageAndVersion) : RemoteLogSegmentMetadataSnapshot [[[././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.html#40]]]
++toApiMessageAndVersion(RemoteLogSegmentMetadataSnapshot) : ApiMessageAndVersion [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.html#16]]]
+-createSegmentLeaderEpochsEntry(Map<Integer,Long>) : List<RemoteLogSegmentMetadataSnapshotRecord.SegmentLeaderEpochEntry> [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.html#31]]]
++fromApiMessageAndVersion(ApiMessageAndVersion) : RemoteLogSegmentMetadataSnapshot [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.html#40]]]
 } 
 @enduml

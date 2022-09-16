@@ -2,14 +2,14 @@
 !pragma layout smetana
 Serializable <|-- org.apache.kafka.clients.consumer.OffsetAndMetadata
 class org.apache.kafka.clients.consumer.OffsetAndMetadata {
-+ OffsetAndMetadata(long;Optional<Integer>;String) : OffsetAndMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#23]]]
-+ OffsetAndMetadata(long;String) : OffsetAndMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#39]]]
-+ OffsetAndMetadata(long) : OffsetAndMetadata [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#44]]]
-+ offset() : long [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#48]]]
-+ metadata() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#52]]]
-+ leaderEpoch() : Optional<Integer> [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#57]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#64]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#74]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#79]]]
++OffsetAndMetadata(long;Optional<Integer>;String) : OffsetAndMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#23]]]
++OffsetAndMetadata(long;String) : OffsetAndMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#39]]]
++OffsetAndMetadata(long) : OffsetAndMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#44]]]
++offset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#48]]]
++metadata() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#52]]]
++leaderEpoch() : Optional<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#57]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#64]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#74]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#79]]]
 } 
 @enduml

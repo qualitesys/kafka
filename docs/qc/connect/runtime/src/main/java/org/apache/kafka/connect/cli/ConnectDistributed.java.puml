@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.cli.ConnectDistributed
 class org.apache.kafka.connect.cli.ConnectDistributed {
-+ main(String[]) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#41]]]
-+ startConnect(Map<String,String>) : Connect [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#68]]]
++main(String[]) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#41]]]
++startConnect(Map<String,String>) : Connect [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#68]]]
 } 
 @enduml

@@ -2,6 +2,6 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.ValueMapper
 class org.apache.kafka.streams.kstream.ValueMapper {
-apply(V) : VR [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapper.java.html#9]]]
+apply(V) : VR [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapper.java.html#9]]]
 } 
 @enduml

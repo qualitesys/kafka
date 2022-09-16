@@ -2,7 +2,7 @@
 !pragma layout smetana
 CloseableOffsetStorageReader <|-- org.apache.kafka.connect.storage.OffsetStorageReaderImpl
 class org.apache.kafka.connect.storage.OffsetStorageReaderImpl {
-+ OffsetStorageReaderImpl(OffsetBackingStore;String;Converter;Converter) : OffsetStorageReaderImpl [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#32]]]
-+ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#126]]]
++OffsetStorageReaderImpl(OffsetBackingStore;String;Converter;Converter) : OffsetStorageReaderImpl [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#32]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#126]]]
 } 
 @enduml

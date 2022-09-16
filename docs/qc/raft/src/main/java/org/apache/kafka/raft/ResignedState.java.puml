@@ -2,17 +2,17 @@
 !pragma layout smetana
 EpochState <|-- org.apache.kafka.raft.ResignedState
 class org.apache.kafka.raft.ResignedState {
-+ ResignedState(Time;int;int;Set<Integer>;long;List<Integer>;LogContext) : ResignedState [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#24]]]
-+ election() : ElectionState [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#45]]]
-+ epoch() : int [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#50]]]
-+ unackedVoters() : Set<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#55]]]
-+ acknowledgeResignation(int) : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#60]]]
-+ hasElectionTimeoutExpired(long) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#69]]]
-+ remainingElectionTimeMs(long) : long [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#75]]]
-+ preferredSuccessors() : List<Integer> [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#80]]]
-+ canGrantVote(int;boolean) : boolean [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#85]]]
-+ name() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#92]]]
-+ toString() : String [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#97]]]
-+ close() : void [[[././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#109]]]
++ResignedState(Time;int;int;Set<Integer>;long;List<Integer>;LogContext) : ResignedState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#24]]]
++election() : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#45]]]
++epoch() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#50]]]
++unackedVoters() : Set<Integer> [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#55]]]
++acknowledgeResignation(int) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#60]]]
++hasElectionTimeoutExpired(long) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#69]]]
++remainingElectionTimeMs(long) : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#75]]]
++preferredSuccessors() : List<Integer> [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#80]]]
++canGrantVote(int;boolean) : boolean [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#85]]]
++name() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#92]]]
++toString() : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#97]]]
++close() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#109]]]
 } 
 @enduml

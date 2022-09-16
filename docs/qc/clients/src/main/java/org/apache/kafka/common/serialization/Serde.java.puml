@@ -2,9 +2,9 @@
 !pragma layout smetana
 Closeable <|-- org.apache.kafka.common.serialization.Serde
 class org.apache.kafka.common.serialization.Serde {
-configure(Map<String,?>;boolean) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#11]]]
-close() : void [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#17]]]
-serializer() : Serializer<T> [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#21]]]
-deserializer() : Deserializer<T> [[[././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#23]]]
+configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#11]]]
+close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#17]]]
+serializer() : Serializer<T> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#21]]]
+deserializer() : Deserializer<T> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#23]]]
 } 
 @enduml

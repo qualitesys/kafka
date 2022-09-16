@@ -2,12 +2,12 @@
 !pragma layout smetana
 Comparable_BufferKey_ <|-- org.apache.kafka.streams.state.internals.BufferKey
 class org.apache.kafka.streams.state.internals.BufferKey {
-BufferKey(long;Bytes) : BufferKey [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#12]]]
-time() : long [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#17]]]
-key() : Bytes [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#21]]]
-+ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#26]]]
-+ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#39]]]
-+ compareTo(BufferKey) : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#44]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#51]]]
+BufferKey(long;Bytes) : BufferKey [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#12]]]
+time() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#17]]]
+key() : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#21]]]
++equals(Object) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#26]]]
++hashCode() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#39]]]
++compareTo(BufferKey) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#44]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#51]]]
 } 
 @enduml

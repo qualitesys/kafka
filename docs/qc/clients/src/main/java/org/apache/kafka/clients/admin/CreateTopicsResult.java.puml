@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.clients.admin.CreateTopicsResult
 class org.apache.kafka.clients.admin.CreateTopicsResult {
-CreateTopicsResult(Map<String,KafkaFuture<TopicMetadataAndConfig>>) : CreateTopicsResult [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#20]]]
-+ values() : Map<String,KafkaFuture<Void>> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#25]]]
-+ all() : KafkaFuture<Void> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#31]]]
-+ config(String) : KafkaFuture<Config> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#36]]]
-+ topicId(String) : KafkaFuture<Uuid> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#41]]]
-+ numPartitions(String) : KafkaFuture<Integer> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#46]]]
-+ replicationFactor(String) : KafkaFuture<Integer> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#51]]]
+CreateTopicsResult(Map<String,KafkaFuture<TopicMetadataAndConfig>>) : CreateTopicsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#20]]]
++values() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#25]]]
++all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#31]]]
++config(String) : KafkaFuture<Config> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#36]]]
++topicId(String) : KafkaFuture<Uuid> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#41]]]
++numPartitions(String) : KafkaFuture<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#46]]]
++replicationFactor(String) : KafkaFuture<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#51]]]
 } 
 @enduml

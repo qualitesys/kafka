@@ -2,12 +2,12 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.resource.Resource
 class org.apache.kafka.common.resource.Resource {
-+ Resource(ResourceType;String) : Resource [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#22]]]
-+ resourceType() : ResourceType [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#30]]]
-+ name() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#35]]]
-+ toString() : String [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#40]]]
-+ isUnknown() : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#45]]]
-+ equals(Object) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#50]]]
-+ hashCode() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#58]]]
++Resource(ResourceType;String) : Resource [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#22]]]
++resourceType() : ResourceType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#30]]]
++name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#35]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#40]]]
++isUnknown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#45]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#50]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.html#58]]]
 } 
 @enduml

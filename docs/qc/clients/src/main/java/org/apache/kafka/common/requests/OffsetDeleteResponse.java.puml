@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.OffsetDeleteResponse
 class org.apache.kafka.common.requests.OffsetDeleteResponse {
-+ OffsetDeleteResponse(OffsetDeleteResponseData) : OffsetDeleteResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#18]]]
-+ data() : OffsetDeleteResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#24]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#29]]]
-+ parse(ByteBuffer;short) : OffsetDeleteResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#40]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#45]]]
-+ shouldClientThrottle(short) : boolean [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#50]]]
++OffsetDeleteResponse(OffsetDeleteResponseData) : OffsetDeleteResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#18]]]
++data() : OffsetDeleteResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#24]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#29]]]
++parse(ByteBuffer;short) : OffsetDeleteResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#40]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#45]]]
++shouldClientThrottle(short) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteResponse.java.html#50]]]
 } 
 @enduml

@@ -2,12 +2,12 @@
 !pragma layout smetana
 AbstractRequest <|-- org.apache.kafka.common.requests.EnvelopeRequest
 class org.apache.kafka.common.requests.EnvelopeRequest {
-+ EnvelopeRequest(EnvelopeRequestData;short) : EnvelopeRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#41]]]
-+ requestData() : ByteBuffer [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#46]]]
-+ clientAddress() : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#50]]]
-+ requestPrincipal() : byte[] [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#54]]]
-+ getErrorResponse(int;Throwable) : AbstractResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#59]]]
-+ parse(ByteBuffer;short) : EnvelopeRequest [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#64]]]
-+ data() : EnvelopeRequestData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#69]]]
++EnvelopeRequest(EnvelopeRequestData;short) : EnvelopeRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#41]]]
++requestData() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#46]]]
++clientAddress() : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#50]]]
++requestPrincipal() : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#54]]]
++getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#59]]]
++parse(ByteBuffer;short) : EnvelopeRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#64]]]
++data() : EnvelopeRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#69]]]
 } 
 @enduml

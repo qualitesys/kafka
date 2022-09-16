@@ -2,11 +2,11 @@
 !pragma layout smetana
 AbstractResponse <|-- org.apache.kafka.common.requests.EndQuorumEpochResponse
 class org.apache.kafka.common.requests.EndQuorumEpochResponse {
-+ EndQuorumEpochResponse(EndQuorumEpochResponseData) : EndQuorumEpochResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#20]]]
-+ errorCounts() : Map<Errors,Integer> [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#26]]]
-+ data() : EndQuorumEpochResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#40]]]
-+ throttleTimeMs() : int [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#45]]]
-+ singletonResponse(Errors;TopicPartition;Errors;int;int) : EndQuorumEpochResponseData [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#49]]]
-+ parse(ByteBuffer;short) : EndQuorumEpochResponse [[[././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#70]]]
++EndQuorumEpochResponse(EndQuorumEpochResponseData) : EndQuorumEpochResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#20]]]
++errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#26]]]
++data() : EndQuorumEpochResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#40]]]
++throttleTimeMs() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#45]]]
++singletonResponse(Errors;TopicPartition;Errors;int;int) : EndQuorumEpochResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#49]]]
++parse(ByteBuffer;short) : EndQuorumEpochResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochResponse.java.html#70]]]
 } 
 @enduml

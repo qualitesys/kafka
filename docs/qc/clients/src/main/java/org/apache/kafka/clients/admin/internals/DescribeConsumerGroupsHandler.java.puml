@@ -2,14 +2,14 @@
 !pragma layout smetana
 AdminApiHandler.Batched_CoordinatorKey,ConsumerGroupDescription_ <|-- org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler
 class org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler {
-+ DescribeConsumerGroupsHandler(boolean;LogContext) : DescribeConsumerGroupsHandler [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#45]]]
-- buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#54]]]
-+ newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ConsumerGroupDescription> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#60]]]
-+ apiName() : String [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#67]]]
-+ lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#72]]]
-+ buildBatchedRequest(int;Set<CoordinatorKey>) : DescribeGroupsRequest.Builder [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#77]]]
-+ handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,ConsumerGroupDescription> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#92]]]
-- handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>) : void [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#146]]]
-- validAclOperations(int) : Set<AclOperation> [[[././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#179]]]
++DescribeConsumerGroupsHandler(boolean;LogContext) : DescribeConsumerGroupsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#45]]]
+-buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#54]]]
++newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ConsumerGroupDescription> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#60]]]
++apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#67]]]
++lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#72]]]
++buildBatchedRequest(int;Set<CoordinatorKey>) : DescribeGroupsRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#77]]]
++handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,ConsumerGroupDescription> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#92]]]
+-handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#146]]]
+-validAclOperations(int) : Set<AclOperation> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#179]]]
 } 
 @enduml

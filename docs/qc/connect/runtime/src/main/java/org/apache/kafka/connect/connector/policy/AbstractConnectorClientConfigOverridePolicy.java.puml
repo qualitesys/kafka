@@ -2,11 +2,11 @@
 !pragma layout smetana
 ConnectorClientConfigOverridePolicy <|-- org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy
 class org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy {
-+ close() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#15]]]
-+ validate(ConnectorClientConfigRequest) : List<ConfigValue> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20]]]
-configValue(Map.Entry<String,Object>) : ConfigValue [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#25]]]
-validate(ConfigValue) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#32]]]
-policyName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#39]]]
-isAllowed(ConfigValue) : boolean [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#41]]]
++close() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#15]]]
++validate(ConnectorClientConfigRequest) : List<ConfigValue> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20]]]
+configValue(Map.Entry<String,Object>) : ConfigValue [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#25]]]
+validate(ConfigValue) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#32]]]
+policyName() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#39]]]
+isAllowed(ConfigValue) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#41]]]
 } 
 @enduml

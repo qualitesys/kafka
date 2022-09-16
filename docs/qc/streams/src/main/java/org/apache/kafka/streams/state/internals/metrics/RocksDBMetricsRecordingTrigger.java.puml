@@ -2,10 +2,10 @@
 !pragma layout smetana
 Runnable <|-- org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger
 class org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger {
-+ RocksDBMetricsRecordingTrigger(Time) : RocksDBMetricsRecordingTrigger [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#14]]]
-+ addMetricsRecorder(RocksDBMetricsRecorder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#18]]]
-+ removeMetricsRecorder(RocksDBMetricsRecorder) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#28]]]
-- metricsRecorderName(RocksDBMetricsRecorder) : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#38]]]
-+ run() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#43]]]
++RocksDBMetricsRecordingTrigger(Time) : RocksDBMetricsRecordingTrigger [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#14]]]
++addMetricsRecorder(RocksDBMetricsRecorder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#18]]]
++removeMetricsRecorder(RocksDBMetricsRecorder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#28]]]
+-metricsRecorderName(RocksDBMetricsRecorder) : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#38]]]
++run() : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecordingTrigger.java.html#43]]]
 } 
 @enduml

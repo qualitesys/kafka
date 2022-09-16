@@ -2,18 +2,18 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.connect.runtime.ConnectMetricsRegistry
 class org.apache.kafka.connect.runtime.ConnectMetricsRegistry {
-+ ConnectMetricsRegistry() : ConnectMetricsRegistry [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#106]]]
-+ ConnectMetricsRegistry(Set<String>) : ConnectMetricsRegistry [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#110]]]
-- createTemplate(String;String;String;Set<String>) : MetricNameTemplate [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#370]]]
-+ getAllTemplates() : List<MetricNameTemplate> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#376]]]
-+ connectorTagName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#380]]]
-+ taskTagName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#384]]]
-+ connectorGroupName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#388]]]
-+ taskGroupName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#392]]]
-+ sinkTaskGroupName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#396]]]
-+ sourceTaskGroupName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#400]]]
-+ workerGroupName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#404]]]
-+ workerRebalanceGroupName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#408]]]
-+ taskErrorHandlingGroupName() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#412]]]
++ConnectMetricsRegistry() : ConnectMetricsRegistry [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#106]]]
++ConnectMetricsRegistry(Set<String>) : ConnectMetricsRegistry [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#110]]]
+-createTemplate(String;String;String;Set<String>) : MetricNameTemplate [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#370]]]
++getAllTemplates() : List<MetricNameTemplate> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#376]]]
++connectorTagName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#380]]]
++taskTagName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#384]]]
++connectorGroupName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#388]]]
++taskGroupName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#392]]]
++sinkTaskGroupName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#396]]]
++sourceTaskGroupName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#400]]]
++workerGroupName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#404]]]
++workerRebalanceGroupName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#408]]]
++taskErrorHandlingGroupName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#412]]]
 } 
 @enduml

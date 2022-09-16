@@ -2,9 +2,9 @@
 !pragma layout smetana
 Iterator_List_ApiMessageAndVersion__ <|-- org.apache.kafka.metadata.authorizer.StandardAclRecordIterator
 class org.apache.kafka.metadata.authorizer.StandardAclRecordIterator {
-+ StandardAclRecordIterator(Iterator<StandardAclWithId>) : StandardAclRecordIterator [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#20]]]
-+ StandardAclRecordIterator(Iterator<StandardAclWithId>;int) : StandardAclRecordIterator [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#24]]]
-+ hasNext() : boolean [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#30]]]
-+ next() : List<ApiMessageAndVersion> [[[././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#35]]]
++StandardAclRecordIterator(Iterator<StandardAclWithId>) : StandardAclRecordIterator [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#20]]]
++StandardAclRecordIterator(Iterator<StandardAclWithId>;int) : StandardAclRecordIterator [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#24]]]
++hasNext() : boolean [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#30]]]
++next() : List<ApiMessageAndVersion> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#35]]]
 } 
 @enduml

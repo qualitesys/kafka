@@ -2,8 +2,8 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.compress.ZstdFactory
 class org.apache.kafka.common.compress.ZstdFactory {
-- ZstdFactory() : ZstdFactory [[[././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#22]]]
-+ wrapForOutput(ByteBufferOutputStream) : OutputStream [[[././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#24]]]
-+ wrapForInput(ByteBuffer;byte;BufferSupplier) : InputStream [[[././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#34]]]
+-ZstdFactory() : ZstdFactory [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#22]]]
++wrapForOutput(ByteBufferOutputStream) : OutputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#24]]]
++wrapForInput(ByteBuffer;byte;BufferSupplier) : InputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/ZstdFactory.java.html#34]]]
 } 
 @enduml

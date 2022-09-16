@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier
 class org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier {
-get() : KTableValueGetter<K,V> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#6]]]
-storeNames() : String[] [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#8]]]
+get() : KTableValueGetter<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#6]]]
+storeNames() : String[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetterSupplier.java.html#8]]]
 } 
 @enduml

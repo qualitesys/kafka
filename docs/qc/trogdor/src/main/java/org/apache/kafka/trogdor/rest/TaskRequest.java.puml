@@ -2,7 +2,7 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.trogdor.rest.TaskRequest
 class org.apache.kafka.trogdor.rest.TaskRequest {
-+ TaskRequest(String) : TaskRequest [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#13]]]
-+ taskId() : String [[[././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#18]]]
++TaskRequest(String) : TaskRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#13]]]
++taskId() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#18]]]
 } 
 @enduml

@@ -2,11 +2,11 @@
 !pragma layout smetana
 KStreamAggProcessorSupplier_KIn,VIn,Windowed_KIn_,VAgg_ <|-- org.apache.kafka.streams.kstream.internals.KStreamSessionWindowAggregate
 class org.apache.kafka.streams.kstream.internals.KStreamSessionWindowAggregate {
-+ KStreamSessionWindowAggregate(SessionWindows;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>;Merger<?superKIn,VAgg>) : KStreamSessionWindowAggregate [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#49]]]
-+ get() : Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#64]]]
-+ windows() : SessionWindows [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#68]]]
-+ enableSendingOldValues() : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#73]]]
-- mergeSessionWindow(SessionWindow;SessionWindow) : SessionWindow [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#331]]]
-+ view() : KTableValueGetterSupplier<Windowed<KIn>,VAgg> [[[././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#338]]]
++KStreamSessionWindowAggregate(SessionWindows;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>;Merger<?superKIn,VAgg>) : KStreamSessionWindowAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#49]]]
++get() : Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#64]]]
++windows() : SessionWindows [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#68]]]
++enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#73]]]
+-mergeSessionWindow(SessionWindow;SessionWindow) : SessionWindow [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#331]]]
++view() : KTableValueGetterSupplier<Windowed<KIn>,VAgg> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#338]]]
 } 
 @enduml

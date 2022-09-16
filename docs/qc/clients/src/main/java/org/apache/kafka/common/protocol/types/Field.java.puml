@@ -2,9 +2,9 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.common.protocol.types.Field
 class org.apache.kafka.common.protocol.types.Field {
-+ Field(String;Type;String;boolean;Object) : Field [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#11]]]
-+ Field(String;Type;String) : Field [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#22]]]
-+ Field(String;Type;String;Object) : Field [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#26]]]
-+ Field(String;Type) : Field [[[././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#30]]]
++Field(String;Type;String;boolean;Object) : Field [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#11]]]
++Field(String;Type;String) : Field [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#22]]]
++Field(String;Type;String;Object) : Field [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#26]]]
++Field(String;Type) : Field [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Field.java.html#30]]]
 } 
 @enduml

@@ -2,9 +2,9 @@
 !pragma layout smetana
 RetriableException <|-- org.apache.kafka.common.errors.NotEnoughReplicasException
 class org.apache.kafka.common.errors.NotEnoughReplicasException {
-+ NotEnoughReplicasException() : NotEnoughReplicasException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#8]]]
-+ NotEnoughReplicasException(String;Throwable) : NotEnoughReplicasException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#12]]]
-+ NotEnoughReplicasException(String) : NotEnoughReplicasException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#16]]]
-+ NotEnoughReplicasException(Throwable) : NotEnoughReplicasException [[[././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#20]]]
++NotEnoughReplicasException() : NotEnoughReplicasException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#8]]]
++NotEnoughReplicasException(String;Throwable) : NotEnoughReplicasException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#12]]]
++NotEnoughReplicasException(String) : NotEnoughReplicasException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#16]]]
++NotEnoughReplicasException(Throwable) : NotEnoughReplicasException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#20]]]
 } 
 @enduml

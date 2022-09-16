@@ -2,9 +2,9 @@
 !pragma layout smetana
 SourceTask <|-- org.apache.kafka.connect.tools.MockSourceTask
 class org.apache.kafka.connect.tools.MockSourceTask {
-+ version() : String [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#22]]]
-+ start(Map<String,String>) : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#27]]]
-+ poll() : List<SourceRecord> [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#43]]]
-+ stop() : void [[[././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#55]]]
++version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#22]]]
++start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#27]]]
++poll() : List<SourceRecord> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#43]]]
++stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#55]]]
 } 
 @enduml

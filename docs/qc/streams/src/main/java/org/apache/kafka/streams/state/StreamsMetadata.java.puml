@@ -2,16 +2,16 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.streams.state.StreamsMetadata
 class org.apache.kafka.streams.state.StreamsMetadata {
-+ StreamsMetadata(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>) : StreamsMetadata [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#31]]]
-+ hostInfo() : HostInfo [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#45]]]
-+ stateStoreNames() : Set<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#50]]]
-+ topicPartitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#55]]]
-+ standbyTopicPartitions() : Set<TopicPartition> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#60]]]
-+ standbyStateStoreNames() : Set<String> [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#65]]]
-+ host() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#69]]]
-+ port() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#74]]]
-+ equals(Object) : boolean [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#79]]]
-+ hashCode() : int [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#96]]]
-+ toString() : String [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#101]]]
++StreamsMetadata(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>) : StreamsMetadata [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#31]]]
++hostInfo() : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#45]]]
++stateStoreNames() : Set<String> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#50]]]
++topicPartitions() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#55]]]
++standbyTopicPartitions() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#60]]]
++standbyStateStoreNames() : Set<String> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#65]]]
++host() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#69]]]
++port() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#74]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#79]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#96]]]
++toString() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StreamsMetadata.java.html#101]]]
 } 
 @enduml

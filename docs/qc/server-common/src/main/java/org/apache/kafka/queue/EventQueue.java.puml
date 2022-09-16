@@ -2,16 +2,16 @@
 !pragma layout smetana
 AutoCloseable <|-- org.apache.kafka.queue.EventQueue
 class org.apache.kafka.queue.EventQueue {
-prepend(Event) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#94]]]
-append(Event) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#99]]]
-appendWithDeadline(long;Event) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#104]]]
-scheduleDeferred(String;Function<OptionalLong,OptionalLong>;Event) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#109]]]
-cancelDeferred(String) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#116]]]
-enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#125]]]
-beginShutdown(String) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#131]]]
-beginShutdown(String;Event) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#136]]]
-beginShutdown(String;Event;long;TimeUnit) : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#141]]]
-wakeup() : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#144]]]
-close() : void [[[././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#147]]]
+prepend(Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#94]]]
+append(Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#99]]]
+appendWithDeadline(long;Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#104]]]
+scheduleDeferred(String;Function<OptionalLong,OptionalLong>;Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#109]]]
+cancelDeferred(String) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#116]]]
+enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#125]]]
+beginShutdown(String) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#131]]]
+beginShutdown(String;Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#136]]]
+beginShutdown(String;Event;long;TimeUnit) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#141]]]
+wakeup() : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#144]]]
+close() : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#147]]]
 } 
 @enduml

@@ -2,19 +2,19 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.message.FieldType
 class org.apache.kafka.message.FieldType {
-parse(String) : FieldType [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#366]]]
-getBoxedJavaType(HeaderGenerator) : String [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#414]]]
-isArray() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#417]]]
-isStructArray() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#422]]]
-serializationIsDifferentInFlexibleVersions() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#427]]]
-isString() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#432]]]
-isBytes() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#437]]]
-isRecords() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#442]]]
-isFloat() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#447]]]
-isStruct() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#452]]]
-canBeNullable() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#457]]]
-fixedLength() : Optional<Integer> [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#462]]]
-isVariableLength() : boolean [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#466]]]
-toString() : String [[[././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#471]]]
+parse(String) : FieldType [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#366]]]
+getBoxedJavaType(HeaderGenerator) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#414]]]
+isArray() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#417]]]
+isStructArray() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#422]]]
+serializationIsDifferentInFlexibleVersions() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#427]]]
+isString() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#432]]]
+isBytes() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#437]]]
+isRecords() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#442]]]
+isFloat() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#447]]]
+isStruct() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#452]]]
+canBeNullable() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#457]]]
+fixedLength() : Optional<Integer> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#462]]]
+isVariableLength() : boolean [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#466]]]
+toString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#471]]]
 } 
 @enduml

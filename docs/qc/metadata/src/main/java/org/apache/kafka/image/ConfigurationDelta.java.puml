@@ -2,11 +2,11 @@
 !pragma layout smetana
 java.lang.Object <|-- org.apache.kafka.image.ConfigurationDelta
 class org.apache.kafka.image.ConfigurationDelta {
-+ ConfigurationDelta(ConfigurationImage) : ConfigurationDelta [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#18]]]
-+ finishSnapshot() : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#22]]]
-+ replay(ConfigRecord) : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#30]]]
-+ deleteAll() : void [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#34]]]
-+ apply() : ConfigurationImage [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#41]]]
-+ toString() : String [[[././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#62]]]
++ConfigurationDelta(ConfigurationImage) : ConfigurationDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#18]]]
++finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#22]]]
++replay(ConfigRecord) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#30]]]
++deleteAll() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#34]]]
++apply() : ConfigurationImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#41]]]
++toString() : String [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#62]]]
 } 
 @enduml

@@ -2,8 +2,8 @@
 !pragma layout smetana
 SampledStat <|-- org.apache.kafka.common.metrics.stats.WindowedSum
 class org.apache.kafka.common.metrics.stats.WindowedSum {
-+ WindowedSum() : WindowedSum [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#11]]]
-update(Sample;MetricConfig;double;long) : void [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#16]]]
-+ combine(List<Sample>;MetricConfig;long) : double [[[././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#21]]]
++WindowedSum() : WindowedSum [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#11]]]
+update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#16]]]
++combine(List<Sample>;MetricConfig;long) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#21]]]
 } 
 @enduml

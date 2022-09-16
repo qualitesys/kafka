@@ -2,8 +2,8 @@
 !pragma layout smetana
 ConnectException <|-- org.apache.kafka.connect.errors.AlreadyExistsException
 class org.apache.kafka.connect.errors.AlreadyExistsException {
-+ AlreadyExistsException(String) : AlreadyExistsException [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/AlreadyExistsException.java.html#6]]]
-+ AlreadyExistsException(String;Throwable) : AlreadyExistsException [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/AlreadyExistsException.java.html#10]]]
-+ AlreadyExistsException(Throwable) : AlreadyExistsException [[[././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/AlreadyExistsException.java.html#14]]]
++AlreadyExistsException(String) : AlreadyExistsException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/AlreadyExistsException.java.html#6]]]
++AlreadyExistsException(String;Throwable) : AlreadyExistsException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/AlreadyExistsException.java.html#10]]]
++AlreadyExistsException(Throwable) : AlreadyExistsException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/AlreadyExistsException.java.html#14]]]
 } 
 @enduml

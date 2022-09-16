@@ -2,7 +2,7 @@
 !pragma layout smetana
 ChangeLoggingWindowBytesStore <|-- org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore
 class org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore {
-ChangeLoggingTimestampedWindowBytesStore(WindowStore<Bytes,byte[]>;boolean) : ChangeLoggingTimestampedWindowBytesStore [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.html#12]]]
-log(Bytes;byte[]) : void [[[././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.html#18]]]
+ChangeLoggingTimestampedWindowBytesStore(WindowStore<Bytes,byte[]>;boolean) : ChangeLoggingTimestampedWindowBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.html#12]]]
+log(Bytes;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingTimestampedWindowBytesStore.java.html#18]]]
 } 
 @enduml
