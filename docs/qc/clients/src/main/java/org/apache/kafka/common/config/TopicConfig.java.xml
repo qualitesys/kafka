@@ -1016,7 +1016,7 @@
 <leniv><indtoken>1006</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.663631515608E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.663717844611E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.008</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.008</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.008</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -1080,9 +1080,9 @@
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>61</indtoken><temps>0.008</temps><nbappels>6</nbappels><token>)</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>62</indtoken><temps>0.008</temps><nbappels>28</nbappels><token>;</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>63</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>you</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>64</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>may</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>65</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>not</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>66</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>use</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>64</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>may</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>65</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>not</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>66</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>use</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>67</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>this</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>68</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>file</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>69</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>except</token></leniv>
@@ -1267,14 +1267,14 @@
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>248</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>to</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>249</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>set</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>250</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>the</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>251</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>default</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>252</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>broker</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>253</indtoken><temps>0.01</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>254</indtoken><temps>0.01</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>255</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>cleanup</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>256</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>policy</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>257</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>,</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>258</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>one</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>251</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>default</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>252</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>broker</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>253</indtoken><temps>0.009</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>254</indtoken><temps>0.009</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>255</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>cleanup</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>256</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>policy</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>257</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>,</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>258</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>one</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>259</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>would</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>260</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>set</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>261</indtoken><temps>0.01</temps><nbappels>9</nbappels><token>_</token></leniv>
@@ -1472,8 +1472,8 @@
 <leniv><noligne>46</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>453</indtoken><temps>0.011</temps><nbappels>74</nbappels><token>"are using the \"delete\" retention policy. By default there is no size limit only a time limit. "</token></leniv>
 <leniv><noligne>46</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>454</indtoken><temps>0.011</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>47</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>455</indtoken><temps>0.011</temps><nbappels>74</nbappels><token>"Since this limit is enforced at the partition level, multiply it by the number of partitions to compute "</token></leniv>
-<leniv><noligne>47</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>456</indtoken><temps>0.012</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>48</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>457</indtoken><temps>0.012</temps><nbappels>74</nbappels><token>"the topic retention in bytes."</token></leniv>
+<leniv><noligne>47</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>456</indtoken><temps>0.011</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>48</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>457</indtoken><temps>0.011</temps><nbappels>74</nbappels><token>"the topic retention in bytes."</token></leniv>
 <leniv><noligne>48</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>123</profmax><indtoken>458</indtoken><temps>0.012</temps><nbappels>107</nbappels><token>;</token></leniv>
 <leniv><noligne>50</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>459</indtoken><temps>0.012</temps><nbappels>39</nbappels><token>public</token></leniv>
 <leniv><noligne>50</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>460</indtoken><temps>0.012</temps><nbappels>23</nbappels><token>static</token></leniv>
@@ -1555,16 +1555,16 @@
 <leniv><noligne>67</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>536</indtoken><temps>0.012</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>68</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>537</indtoken><temps>0.012</temps><nbappels>74</nbappels><token>"less than or equal to `retention.bytes` value."</token></leniv>
 <leniv><noligne>68</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>113</profmax><indtoken>538</indtoken><temps>0.012</temps><nbappels>93</nbappels><token>;</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>539</indtoken><temps>0.013</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>540</indtoken><temps>0.013</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>541</indtoken><temps>0.013</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>542</indtoken><temps>0.013</temps><nbappels>60</nbappels><token>String</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>543</indtoken><temps>0.013</temps><nbappels>49</nbappels><token>MAX_MESSAGE_BYTES_CONFIG</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>544</indtoken><temps>0.013</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>545</indtoken><temps>0.013</temps><nbappels>88</nbappels><token>"max.message.bytes"</token></leniv>
-<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>546</indtoken><temps>0.013</temps><nbappels>79</nbappels><token>;</token></leniv>
-<leniv><noligne>71</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>547</indtoken><temps>0.013</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>71</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>548</indtoken><temps>0.013</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>539</indtoken><temps>0.012</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>540</indtoken><temps>0.012</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>541</indtoken><temps>0.012</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>542</indtoken><temps>0.012</temps><nbappels>60</nbappels><token>String</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>543</indtoken><temps>0.012</temps><nbappels>49</nbappels><token>MAX_MESSAGE_BYTES_CONFIG</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>544</indtoken><temps>0.012</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>545</indtoken><temps>0.012</temps><nbappels>88</nbappels><token>"max.message.bytes"</token></leniv>
+<leniv><noligne>70</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>546</indtoken><temps>0.012</temps><nbappels>79</nbappels><token>;</token></leniv>
+<leniv><noligne>71</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>547</indtoken><temps>0.012</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>71</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>548</indtoken><temps>0.012</temps><nbappels>23</nbappels><token>static</token></leniv>
 <leniv><noligne>71</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>549</indtoken><temps>0.013</temps><nbappels>27</nbappels><token>final</token></leniv>
 <leniv><noligne>71</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>550</indtoken><temps>0.013</temps><nbappels>60</nbappels><token>String</token></leniv>
 <leniv><noligne>71</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>551</indtoken><temps>0.013</temps><nbappels>49</nbappels><token>MAX_MESSAGE_BYTES_DOC</token></leniv>
@@ -1642,14 +1642,14 @@
 <leniv><noligne>92</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>623</indtoken><temps>0.013</temps><nbappels>74</nbappels><token>"on the time in which a consumer must complete a read if they begin from offset 0 "</token></leniv>
 <leniv><noligne>92</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>624</indtoken><temps>0.013</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>93</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>625</indtoken><temps>0.013</temps><nbappels>74</nbappels><token>"to ensure that they get a valid snapshot of the final stage (otherwise delete "</token></leniv>
-<leniv><noligne>93</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>626</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>94</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>627</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"tombstones may be collected before they complete their scan)."</token></leniv>
-<leniv><noligne>94</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>123</profmax><indtoken>628</indtoken><temps>0.014</temps><nbappels>107</nbappels><token>;</token></leniv>
-<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>629</indtoken><temps>0.014</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>630</indtoken><temps>0.014</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>631</indtoken><temps>0.014</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>632</indtoken><temps>0.014</temps><nbappels>60</nbappels><token>String</token></leniv>
-<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>633</indtoken><temps>0.014</temps><nbappels>49</nbappels><token>MIN_COMPACTION_LAG_MS_CONFIG</token></leniv>
+<leniv><noligne>93</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>626</indtoken><temps>0.013</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>94</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>627</indtoken><temps>0.013</temps><nbappels>74</nbappels><token>"tombstones may be collected before they complete their scan)."</token></leniv>
+<leniv><noligne>94</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>123</profmax><indtoken>628</indtoken><temps>0.013</temps><nbappels>107</nbappels><token>;</token></leniv>
+<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>629</indtoken><temps>0.013</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>630</indtoken><temps>0.013</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>631</indtoken><temps>0.013</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>632</indtoken><temps>0.013</temps><nbappels>60</nbappels><token>String</token></leniv>
+<leniv><noligne>96</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>633</indtoken><temps>0.013</temps><nbappels>49</nbappels><token>MIN_COMPACTION_LAG_MS_CONFIG</token></leniv>
 <leniv><noligne>96</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>634</indtoken><temps>0.014</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>96</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>635</indtoken><temps>0.014</temps><nbappels>88</nbappels><token>"min.compaction.lag.ms"</token></leniv>
 <leniv><noligne>96</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>636</indtoken><temps>0.014</temps><nbappels>79</nbappels><token>;</token></leniv>
@@ -1717,10 +1717,10 @@
 <leniv><noligne>111</noligne><profmin>0</profmin><proffinale>133</proffinale><profmax>158</profmax><indtoken>698</indtoken><temps>0.014</temps><nbappels>203</nbappels><token>+</token></leniv>
 <leniv><noligne>112</noligne><profmin>0</profmin><proffinale>153</proffinale><profmax>153</profmax><indtoken>699</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>" configurations are also specified, then the log compactor considers the log to be eligible for compaction "</token></leniv>
 <leniv><noligne>112</noligne><profmin>0</profmin><proffinale>138</proffinale><profmax>153</profmax><indtoken>700</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>113</noligne><profmin>0</profmin><proffinale>158</proffinale><profmax>158</profmax><indtoken>701</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"as soon as either: (i) the dirty ratio threshold has been met and the log has had dirty (uncompacted) "</token></leniv>
-<leniv><noligne>113</noligne><profmin>0</profmin><proffinale>143</proffinale><profmax>158</profmax><indtoken>702</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>114</noligne><profmin>0</profmin><proffinale>163</proffinale><profmax>163</profmax><indtoken>703</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"records for at least the "</token></leniv>
-<leniv><noligne>114</noligne><profmin>0</profmin><proffinale>148</proffinale><profmax>163</profmax><indtoken>704</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>113</noligne><profmin>0</profmin><proffinale>158</proffinale><profmax>158</profmax><indtoken>701</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"as soon as either: (i) the dirty ratio threshold has been met and the log has had dirty (uncompacted) "</token></leniv>
+<leniv><noligne>113</noligne><profmin>0</profmin><proffinale>143</proffinale><profmax>158</profmax><indtoken>702</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>114</noligne><profmin>0</profmin><proffinale>163</proffinale><profmax>163</profmax><indtoken>703</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"records for at least the "</token></leniv>
+<leniv><noligne>114</noligne><profmin>0</profmin><proffinale>148</proffinale><profmax>163</profmax><indtoken>704</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>114</noligne><profmin>0</profmin><proffinale>166</proffinale><profmax>178</profmax><indtoken>705</indtoken><temps>0.015</temps><nbappels>305</nbappels><token>MIN_COMPACTION_LAG_MS_CONFIG</token></leniv>
 <leniv><noligne>114</noligne><profmin>0</profmin><proffinale>153</proffinale><profmax>178</profmax><indtoken>706</indtoken><temps>0.015</temps><nbappels>203</nbappels><token>+</token></leniv>
 <leniv><noligne>114</noligne><profmin>0</profmin><proffinale>173</proffinale><profmax>173</profmax><indtoken>707</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>" duration, or (ii) if the log has had "</token></leniv>
@@ -1791,14 +1791,14 @@
 <leniv><noligne>129</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>772</indtoken><temps>0.015</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>129</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>773</indtoken><temps>0.015</temps><nbappels>88</nbappels><token>"Indicates whether to enable replicas "</token></leniv>
 <leniv><noligne>129</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>774</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>130</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>775</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"not in the ISR set to be elected as leader as a last resort, even though doing so may result in data "</token></leniv>
-<leniv><noligne>130</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>776</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>131</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>777</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"loss."</token></leniv>
-<leniv><noligne>131</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>113</profmax><indtoken>778</indtoken><temps>0.016</temps><nbappels>93</nbappels><token>;</token></leniv>
-<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>779</indtoken><temps>0.016</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>780</indtoken><temps>0.016</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>781</indtoken><temps>0.016</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>782</indtoken><temps>0.016</temps><nbappels>60</nbappels><token>String</token></leniv>
+<leniv><noligne>130</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>775</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"not in the ISR set to be elected as leader as a last resort, even though doing so may result in data "</token></leniv>
+<leniv><noligne>130</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>776</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>131</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>777</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"loss."</token></leniv>
+<leniv><noligne>131</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>113</profmax><indtoken>778</indtoken><temps>0.015</temps><nbappels>93</nbappels><token>;</token></leniv>
+<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>779</indtoken><temps>0.015</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>780</indtoken><temps>0.015</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>781</indtoken><temps>0.015</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>133</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>782</indtoken><temps>0.015</temps><nbappels>60</nbappels><token>String</token></leniv>
 <leniv><noligne>133</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>783</indtoken><temps>0.016</temps><nbappels>49</nbappels><token>MIN_IN_SYNC_REPLICAS_CONFIG</token></leniv>
 <leniv><noligne>133</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>784</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>133</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>785</indtoken><temps>0.016</temps><nbappels>88</nbappels><token>"min.insync.replicas"</token></leniv>
@@ -1868,30 +1868,30 @@
 <leniv><noligne>152</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>849</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"creating a new log segment."</token></leniv>
 <leniv><noligne>152</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>108</profmax><indtoken>850</indtoken><temps>0.016</temps><nbappels>86</nbappels><token>;</token></leniv>
 <leniv><noligne>154</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>43</profmax><indtoken>851</indtoken><temps>0.016</temps><nbappels>7</nbappels><token>/*</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>852</indtoken><temps>0.017</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>853</indtoken><temps>0.017</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>854</indtoken><temps>0.017</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>855</indtoken><temps>0.017</temps><nbappels>18</nbappels><token>@</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>856</indtoken><temps>0.017</temps><nbappels>28</nbappels><token>deprecated</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>857</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>since</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>858</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>3.0</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>859</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>,</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>860</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>removal</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>861</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>planned</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>862</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>in</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>863</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>4.0.</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>864</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>The</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>865</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>default</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>866</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>value</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>867</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>for</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>868</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>this</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>869</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>config</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>870</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>is</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>871</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>appropriate</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>872</indtoken><temps>0.017</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>873</indtoken><temps>0.017</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>874</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>for</token></leniv>
-<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>875</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>most</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>852</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>853</indtoken><temps>0.016</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>854</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>855</indtoken><temps>0.016</temps><nbappels>18</nbappels><token>@</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>856</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>deprecated</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>857</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>since</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>858</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>3.0</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>859</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>,</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>860</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>removal</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>861</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>planned</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>862</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>in</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>863</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>4.0.</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>864</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>The</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>865</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>default</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>866</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>value</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>867</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>for</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>868</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>this</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>869</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>config</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>870</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>is</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>871</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>appropriate</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>872</indtoken><temps>0.016</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>873</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>874</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>for</token></leniv>
+<leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>875</indtoken><temps>0.016</temps><nbappels>29</nbappels><token>most</token></leniv>
 <leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>876</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>situations</token></leniv>
 <leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>877</indtoken><temps>0.017</temps><nbappels>29</nbappels><token>.</token></leniv>
 <leniv><noligne>154</noligne><profmin>0</profmin><proffinale>46</proffinale><profmax>46</profmax><indtoken>878</indtoken><temps>0.017</temps><nbappels>21</nbappels><token>`</token></leniv>
@@ -1989,18 +1989,18 @@
 <leniv><noligne>173</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>970</indtoken><temps>0.017</temps><nbappels>60</nbappels><token>String</token></leniv>
 <leniv><noligne>173</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>971</indtoken><temps>0.017</temps><nbappels>49</nbappels><token>MESSAGE_TIMESTAMP_DIFFERENCE_MAX_MS_DOC</token></leniv>
 <leniv><noligne>173</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>972</indtoken><temps>0.017</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>973</indtoken><temps>0.018</temps><nbappels>88</nbappels><token>"The maximum difference allowed between "</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>974</indtoken><temps>0.018</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>174</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>975</indtoken><temps>0.018</temps><nbappels>74</nbappels><token>"the timestamp when a broker receives a message and the timestamp specified in the message. If "</token></leniv>
-<leniv><noligne>174</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>976</indtoken><temps>0.018</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>175</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>977</indtoken><temps>0.018</temps><nbappels>74</nbappels><token>"message.timestamp.type=CreateTime, a message will be rejected if the difference in timestamp "</token></leniv>
-<leniv><noligne>175</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>978</indtoken><temps>0.018</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>176</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>979</indtoken><temps>0.018</temps><nbappels>74</nbappels><token>"exceeds this threshold. This configuration is ignored if message.timestamp.type=LogAppendTime."</token></leniv>
-<leniv><noligne>176</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>118</profmax><indtoken>980</indtoken><temps>0.018</temps><nbappels>100</nbappels><token>;</token></leniv>
-<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>981</indtoken><temps>0.018</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>982</indtoken><temps>0.018</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>983</indtoken><temps>0.018</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>984</indtoken><temps>0.018</temps><nbappels>60</nbappels><token>String</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>973</indtoken><temps>0.017</temps><nbappels>88</nbappels><token>"The maximum difference allowed between "</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>974</indtoken><temps>0.017</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>174</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>975</indtoken><temps>0.017</temps><nbappels>74</nbappels><token>"the timestamp when a broker receives a message and the timestamp specified in the message. If "</token></leniv>
+<leniv><noligne>174</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>976</indtoken><temps>0.017</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>175</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>977</indtoken><temps>0.017</temps><nbappels>74</nbappels><token>"message.timestamp.type=CreateTime, a message will be rejected if the difference in timestamp "</token></leniv>
+<leniv><noligne>175</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>978</indtoken><temps>0.017</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>176</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>979</indtoken><temps>0.017</temps><nbappels>74</nbappels><token>"exceeds this threshold. This configuration is ignored if message.timestamp.type=LogAppendTime."</token></leniv>
+<leniv><noligne>176</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>118</profmax><indtoken>980</indtoken><temps>0.017</temps><nbappels>100</nbappels><token>;</token></leniv>
+<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>981</indtoken><temps>0.017</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>982</indtoken><temps>0.017</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>983</indtoken><temps>0.017</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>178</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>984</indtoken><temps>0.017</temps><nbappels>60</nbappels><token>String</token></leniv>
 <leniv><noligne>178</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>985</indtoken><temps>0.018</temps><nbappels>49</nbappels><token>MESSAGE_DOWNCONVERSION_ENABLE_CONFIG</token></leniv>
 <leniv><noligne>178</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>986</indtoken><temps>0.018</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>178</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>987</indtoken><temps>0.018</temps><nbappels>88</nbappels><token>"message.downconversion.enable"</token></leniv>
