@@ -302,7 +302,7 @@
 <leniv><indtoken>292</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.664754816221E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.664841331852E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.001</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.001</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.001</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -354,7 +354,7 @@
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>49</indtoken><temps>0.001</temps><nbappels>29</nbappels><token>under</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>50</indtoken><temps>0.001</temps><nbappels>29</nbappels><token>the</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>51</indtoken><temps>0.001</temps><nbappels>29</nbappels><token>Apache</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>52</indtoken><temps>0.001</temps><nbappels>29</nbappels><token>License</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>52</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>License</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>53</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>,</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>54</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>Version</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>55</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>2.0</token></leniv>
@@ -589,7 +589,7 @@
 <leniv><noligne>33</noligne><profmin>0</profmin><proffinale>120</proffinale><profmax>120</profmax><indtoken>284</indtoken><temps>0.004</temps><nbappels>82</nbappels><token>"BrokerRegistrationReply(epoch="</token></leniv>
 <leniv><noligne>33</noligne><profmin>0</profmin><proffinale>105</proffinale><profmax>120</profmax><indtoken>285</indtoken><temps>0.004</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>33</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>135</profmax><indtoken>286</indtoken><temps>0.004</temps><nbappels>305</nbappels><token>epoch</token></leniv>
-<leniv><noligne>33</noligne><profmin>0</profmin><proffinale>110</proffinale><profmax>135</profmax><indtoken>287</indtoken><temps>0.005</temps><nbappels>203</nbappels><token>+</token></leniv>
+<leniv><noligne>33</noligne><profmin>0</profmin><proffinale>110</proffinale><profmax>135</profmax><indtoken>287</indtoken><temps>0.004</temps><nbappels>203</nbappels><token>+</token></leniv>
 <leniv><noligne>33</noligne><profmin>0</profmin><proffinale>130</proffinale><profmax>130</profmax><indtoken>288</indtoken><temps>0.005</temps><nbappels>74</nbappels><token>")"</token></leniv>
 <leniv><noligne>33</noligne><profmin>0</profmin><proffinale>87</proffinale><profmax>130</profmax><indtoken>289</indtoken><temps>0.005</temps><nbappels>64</nbappels><token>;</token></leniv>
 <leniv><noligne>34</noligne><profmin>0</profmin><proffinale>68</proffinale><profmax>129</profmax><indtoken>290</indtoken><temps>0.005</temps><nbappels>950</nbappels><token>}</token></leniv>
