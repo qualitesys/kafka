@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore_SessionStore_Bytes,byte[]_,Windowed_K_,V_SessionStore_K,V_ <|-- org.apache.kafka.streams.state.internals.MeteredSessionStore
+"WrappedStateStore<SessionStore<Bytes,byte[]>,Windowed<K>,V>SessionStore<K,V>" <|-- "org.apache.kafka.streams.state.internals.MeteredSessionStore"
 class org.apache.kafka.streams.state.internals.MeteredSessionStore {
 MeteredSessionStore(SessionStore<Bytes,byte[]>;String;Serde<K>;Serde<V>;Time) : MeteredSessionStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#68]]]
 +init(ProcessorContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#82]]]

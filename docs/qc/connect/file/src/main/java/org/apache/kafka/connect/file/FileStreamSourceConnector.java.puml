@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceConnector <|-- org.apache.kafka.connect.file.FileStreamSourceConnector
+"SourceConnector" <|-- "org.apache.kafka.connect.file.FileStreamSourceConnector"
 class org.apache.kafka.connect.file.FileStreamSourceConnector {
 +version() : String [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#37]]]
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#42]]]

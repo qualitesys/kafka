@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ScatteringByteChannel <|-- org.apache.kafka.common.network.TransportLayer
+"ScatteringByteChannel" <|-- "org.apache.kafka.common.network.TransportLayer"
 class org.apache.kafka.common.network.TransportLayer {
 ready() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#17]]]
 finishConnect() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/TransportLayer.java.html#20]]]

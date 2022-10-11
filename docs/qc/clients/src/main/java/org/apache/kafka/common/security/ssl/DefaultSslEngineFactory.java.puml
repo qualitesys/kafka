@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SslEngineFactory <|-- org.apache.kafka.common.security.ssl.DefaultSslEngineFactory
+"SslEngineFactory" <|-- "org.apache.kafka.common.security.ssl.DefaultSslEngineFactory"
 class org.apache.kafka.common.security.ssl.DefaultSslEngineFactory {
 +createClientSslEngine(String;int;String) : SSLEngine [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#77]]]
 +createServerSslEngine(String;int) : SSLEngine [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#82]]]

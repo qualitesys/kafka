@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager
+"Configurable" <|-- "org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager"
 class org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager {
 addRemoteLogSegmentMetadata(RemoteLogSegmentMetadata) : CompletableFuture<Void> [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#20]]]
 updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate) : CompletableFuture<Void> [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#23]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AppenderSkeleton <|-- org.apache.kafka.log4jappender.KafkaLog4jAppender
+"AppenderSkeleton" <|-- "org.apache.kafka.log4jappender.KafkaLog4jAppender"
 class org.apache.kafka.log4jappender.KafkaLog4jAppender {
 +getProducer() : Producer<byte[],byte[]> [[[./../../../../../../../../.././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#71]]]
 +getBrokerList() : String [[[./../../../../../../../../.././qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#75]]]

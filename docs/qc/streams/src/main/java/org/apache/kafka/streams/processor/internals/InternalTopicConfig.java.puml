@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.InternalTopicConfig
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.InternalTopicConfig"
 class org.apache.kafka.streams.processor.internals.InternalTopicConfig {
 InternalTopicConfig(String;Map<String,String>) : InternalTopicConfig [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#25]]]
 InternalTopicConfig(String;Map<String,String>;int;boolean) : InternalTopicConfig [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#32]]]

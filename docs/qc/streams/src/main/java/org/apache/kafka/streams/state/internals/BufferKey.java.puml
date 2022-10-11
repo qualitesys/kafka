@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparable_BufferKey_ <|-- org.apache.kafka.streams.state.internals.BufferKey
+"Comparable<BufferKey>" <|-- "org.apache.kafka.streams.state.internals.BufferKey"
 class org.apache.kafka.streams.state.internals.BufferKey {
 BufferKey(long;Bytes) : BufferKey [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#12]]]
 time() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferKey.java.html#17]]]

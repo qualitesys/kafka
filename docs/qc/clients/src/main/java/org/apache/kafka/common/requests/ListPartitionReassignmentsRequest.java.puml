@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.ListPartitionReassignmentsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest"
 class org.apache.kafka.common.requests.ListPartitionReassignmentsRequest {
 -ListPartitionReassignmentsRequest(ListPartitionReassignmentsRequestData;short) : ListPartitionReassignmentsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#41]]]
 +parse(ByteBuffer;short) : ListPartitionReassignmentsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListPartitionReassignmentsRequest.java.html#46]]]

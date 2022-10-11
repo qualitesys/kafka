@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RecordContext <|-- org.apache.kafka.streams.processor.internals.ProcessorRecordContext
+"RecordContext" <|-- "org.apache.kafka.streams.processor.internals.ProcessorRecordContext"
 class org.apache.kafka.streams.processor.internals.ProcessorRecordContext {
 +ProcessorRecordContext(long;long;int;String;Headers) : ProcessorRecordContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#26]]]
 +offset() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#39]]]

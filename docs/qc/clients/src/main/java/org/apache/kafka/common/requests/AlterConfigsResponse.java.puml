@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.AlterConfigsResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.AlterConfigsResponse"
 class org.apache.kafka.common.requests.AlterConfigsResponse {
 +AlterConfigsResponse(AlterConfigsResponseData) : AlterConfigsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsResponse.java.html#19]]]
 +errors() : Map<ConfigResource,ApiError> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsResponse.java.html#24]]]

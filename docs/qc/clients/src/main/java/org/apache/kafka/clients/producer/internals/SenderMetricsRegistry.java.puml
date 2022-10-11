@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.SenderMetricsRegistry
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.SenderMetricsRegistry"
 class org.apache.kafka.clients.producer.internals.SenderMetricsRegistry {
 +SenderMetricsRegistry(Metrics) : SenderMetricsRegistry [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#59]]]
 -createMetricName(String;String) : MetricName [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#140]]]

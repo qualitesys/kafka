@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerRecord
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.ConsumerRecord"
 class org.apache.kafka.clients.consumer.ConsumerRecord {
 +ConsumerRecord(String;int;long;K;V) : ConsumerRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecord.java.html#33]]]
 +ConsumerRecord(String;int;long;long;TimestampType;int;int;K;V;Headers;Optional<Integer>) : ConsumerRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecord.java.html#43]]]

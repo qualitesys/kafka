@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Commands.Handler <|-- org.apache.kafka.shell.ManCommandHandler
+"Commands.Handler" <|-- "org.apache.kafka.shell.ManCommandHandler"
 class org.apache.kafka.shell.ManCommandHandler {
 +ManCommandHandler(String) : ManCommandHandler [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#60]]]
 +run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#65]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.clients.Metadata
+"Closeable" <|-- "org.apache.kafka.clients.Metadata"
 class org.apache.kafka.clients.Metadata {
 +Metadata(long;long;LogContext;ClusterResourceListeners) : Metadata [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#54]]]
 +fetch() : Cluster [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#75]]]

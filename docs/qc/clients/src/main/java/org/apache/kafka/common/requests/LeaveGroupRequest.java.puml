@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.LeaveGroupRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.LeaveGroupRequest"
 class org.apache.kafka.common.requests.LeaveGroupRequest {
 -LeaveGroupRequest(LeaveGroupRequestData;short) : LeaveGroupRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#68]]]
 +data() : LeaveGroupRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#74]]]

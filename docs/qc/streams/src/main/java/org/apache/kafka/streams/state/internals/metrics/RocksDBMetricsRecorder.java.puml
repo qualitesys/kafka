@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"
 class org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder {
 +RocksDBMetricsRecorder(String;String) : RocksDBMetricsRecorder [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#106]]]
 +storeName() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#114]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ControllerRequestContext
+"java.lang.Object" <|-- "org.apache.kafka.controller.ControllerRequestContext"
 class org.apache.kafka.controller.ControllerRequestContext {
 +requestTimeoutMsToDeadlineNs(Time;int) : OptionalLong [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#19]]]
 +ControllerRequestContext(RequestHeaderData;KafkaPrincipal;OptionalLong) : ControllerRequestContext [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#30]]]

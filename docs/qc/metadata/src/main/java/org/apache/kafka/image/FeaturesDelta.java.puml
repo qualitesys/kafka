@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.FeaturesDelta
+"java.lang.Object" <|-- "org.apache.kafka.image.FeaturesDelta"
 class org.apache.kafka.image.FeaturesDelta {
 +FeaturesDelta(FeaturesImage) : FeaturesDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#22]]]
 +changes() : Map<String,Optional<Short>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#26]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Type <|-- org.apache.kafka.common.protocol.types.Schema
+"Type" <|-- "org.apache.kafka.common.protocol.types.Schema"
 class org.apache.kafka.common.protocol.types.Schema {
 +Schema(Field...) : Schema [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#19]]]
 +Schema(boolean;Field...) : Schema [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#24]]]

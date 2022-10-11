@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.BrokerControlStates
+"java.lang.Object" <|-- "org.apache.kafka.controller.BrokerControlStates"
 class org.apache.kafka.controller.BrokerControlStates {
 BrokerControlStates(BrokerControlState;BrokerControlState) : BrokerControlStates [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#12]]]
 current() : BrokerControlState [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerControlStates.java.html#17]]]

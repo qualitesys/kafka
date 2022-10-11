@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.AlterPartitionResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.AlterPartitionResponse"
 class org.apache.kafka.common.requests.AlterPartitionResponse {
 +AlterPartitionResponse(AlterPartitionResponseData) : AlterPartitionResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionResponse.java.html#18]]]
 +data() : AlterPartitionResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionResponse.java.html#24]]]

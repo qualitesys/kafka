@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer_Windowed_T__ <|-- org.apache.kafka.streams.kstream.SessionWindowedDeserializer
+"Deserializer<Windowed<T>>" <|-- "org.apache.kafka.streams.kstream.SessionWindowedDeserializer"
 class org.apache.kafka.streams.kstream.SessionWindowedDeserializer {
 +SessionWindowedDeserializer() : SessionWindowedDeserializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedDeserializer.java.html#18]]]
 +SessionWindowedDeserializer(Deserializer<T>) : SessionWindowedDeserializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedDeserializer.java.html#20]]]

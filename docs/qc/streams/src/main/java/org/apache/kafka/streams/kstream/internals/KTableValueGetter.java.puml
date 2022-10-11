@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.KTableValueGetter
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.KTableValueGetter"
 class org.apache.kafka.streams.kstream.internals.KTableValueGetter {
 init(ProcessorContext<?,?>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetter.java.html#9]]]
 get(K) : ValueAndTimestamp<V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableValueGetter.java.html#11]]]

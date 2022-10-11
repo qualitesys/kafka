@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.examples.wordcount.WordCountDemo
+"java.lang.Object" <|-- "org.apache.kafka.streams.examples.wordcount.WordCountDemo"
 class org.apache.kafka.streams.examples.wordcount.WordCountDemo {
 getStreamsConfig(String[]) : Properties [[[./../../../../../../../../../../../.././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html#26]]]
 createWordCountStream(StreamsBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html#49]]]

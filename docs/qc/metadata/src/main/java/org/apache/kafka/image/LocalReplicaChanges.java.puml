@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.LocalReplicaChanges
+"java.lang.Object" <|-- "org.apache.kafka.image.LocalReplicaChanges"
 class org.apache.kafka.image.LocalReplicaChanges {
 LocalReplicaChanges(Set<TopicPartition>;Map<TopicPartition,PartitionInfo>;Map<TopicPartition,PartitionInfo>) : LocalReplicaChanges [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#17]]]
 +deletes() : Set<TopicPartition> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.html#27]]]

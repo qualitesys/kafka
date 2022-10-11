@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SaslClient <|-- org.apache.kafka.common.security.scram.internals.ScramSaslClient
+"SaslClient" <|-- "org.apache.kafka.common.security.scram.internals.ScramSaslClient"
 class org.apache.kafka.common.security.scram.internals.ScramSaslClient {
 +ScramSaslClient(ScramMechanism;CallbackHandler) : ScramSaslClient [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClient.java.html#52]]]
 +getMechanismName() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClient.java.html#60]]]

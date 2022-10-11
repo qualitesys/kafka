@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.JaasContext
+"java.lang.Object" <|-- "org.apache.kafka.common.security.JaasContext"
 class org.apache.kafka.common.security.JaasContext {
 +loadServerContext(ListenerName;String;Map<String,?>) : JaasContext [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#27]]]
 +loadClientContext(Map<String,?>) : JaasContext [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#40]]]

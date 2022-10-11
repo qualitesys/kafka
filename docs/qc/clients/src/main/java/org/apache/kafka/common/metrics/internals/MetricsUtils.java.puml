@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.metrics.internals.MetricsUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.metrics.internals.MetricsUtils"
 class org.apache.kafka.common.metrics.internals.MetricsUtils {
 +convert(long;TimeUnit) : double [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#12]]]
 +getTags(String...) : Map<String,String> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#34]]]

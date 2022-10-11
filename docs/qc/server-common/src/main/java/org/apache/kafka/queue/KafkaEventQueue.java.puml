@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-EventQueue <|-- org.apache.kafka.queue.KafkaEventQueue
+"EventQueue" <|-- "org.apache.kafka.queue.KafkaEventQueue"
 class org.apache.kafka.queue.KafkaEventQueue {
 +KafkaEventQueue(Time;LogContext;String) : KafkaEventQueue [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#303]]]
 +enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#318]]]

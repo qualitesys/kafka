@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.replica.ReplicaView
+"java.lang.Object" <|-- "org.apache.kafka.common.replica.ReplicaView"
 class org.apache.kafka.common.replica.ReplicaView {
 endpoint() : Node [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#13]]]
 logEndOffset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#16]]]

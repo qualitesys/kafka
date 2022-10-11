@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectorConfig <|-- org.apache.kafka.connect.runtime.SourceConnectorConfig
+"ConnectorConfig" <|-- "org.apache.kafka.connect.runtime.SourceConnectorConfig"
 class org.apache.kafka.connect.runtime.SourceConnectorConfig {
 +configDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#112]]]
 +embedDefaultGroup(ConfigDef) : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#190]]]

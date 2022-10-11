@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig
+"java.lang.Object" <|-- "org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig"
 class org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig {
 +RemoteLogManagerConfig(AbstractConfig) : RemoteLogManagerConfig [[[./../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#219]]]
 +RemoteLogManagerConfig(boolean;String;String;String;String;String;long;int;long;long;long;double;int;int;String;Map<String,Object>;String;Map<String,Object>) : RemoteLogManagerConfig [[[./../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#245]]]

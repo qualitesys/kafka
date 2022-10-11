@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.Window
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Window"
 class org.apache.kafka.streams.kstream.Window {
 +Window(long;long) : Window [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#18]]]
 +start() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#33]]]

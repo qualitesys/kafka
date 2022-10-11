@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractConfig <|-- org.apache.kafka.connect.runtime.ConnectorConfig
+"AbstractConfig" <|-- "org.apache.kafka.connect.runtime.ConnectorConfig"
 class org.apache.kafka.connect.runtime.ConnectorConfig {
 +configDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#152]]]
 -aliasValidator(String) : ConfigDef.CompositeValidator [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#180]]]

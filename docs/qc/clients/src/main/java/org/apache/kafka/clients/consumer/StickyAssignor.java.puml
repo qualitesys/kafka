@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStickyAssignor <|-- org.apache.kafka.clients.consumer.StickyAssignor
+"AbstractStickyAssignor" <|-- "org.apache.kafka.clients.consumer.StickyAssignor"
 class org.apache.kafka.clients.consumer.StickyAssignor {
 +name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#44]]]
 +onAssignment(Assignment;ConsumerGroupMetadata) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#49]]]

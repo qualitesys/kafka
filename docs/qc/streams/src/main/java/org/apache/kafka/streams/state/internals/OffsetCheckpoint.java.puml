@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.OffsetCheckpoint
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.OffsetCheckpoint"
 class org.apache.kafka.streams.state.internals.OffsetCheckpoint {
 +OffsetCheckpoint(File) : OffsetCheckpoint [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#41]]]
 +write(Map<TopicPartition,Long>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#47]]]

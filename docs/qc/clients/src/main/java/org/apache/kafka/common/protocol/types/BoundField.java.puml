@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.types.BoundField
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.types.BoundField"
 class org.apache.kafka.common.protocol.types.BoundField {
 +BoundField(Field;Schema;int) : BoundField [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/BoundField.java.html#10]]]
 +toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/BoundField.java.html#17]]]

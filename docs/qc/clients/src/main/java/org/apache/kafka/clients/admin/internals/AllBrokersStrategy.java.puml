@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiLookupStrategy_AllBrokersStrategy.BrokerKey_ <|-- org.apache.kafka.clients.admin.internals.AllBrokersStrategy
+"AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey>" <|-- "org.apache.kafka.clients.admin.internals.AllBrokersStrategy"
 class org.apache.kafka.clients.admin.internals.AllBrokersStrategy {
 +AllBrokersStrategy(LogContext) : AllBrokersStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#30]]]
 +lookupScope(BrokerKey) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#37]]]

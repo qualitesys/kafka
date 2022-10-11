@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo"
 class org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo {
 +ConfigKeyInfo(String;String;boolean;String;String;String;String;int;String;String;List<String>) : ConfigKeyInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#25]]]
 +name() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#50]]]

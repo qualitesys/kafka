@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.NoReassignmentInProgressException
+"ApiException" <|-- "org.apache.kafka.common.errors.NoReassignmentInProgressException"
 class org.apache.kafka.common.errors.NoReassignmentInProgressException {
 +NoReassignmentInProgressException(String) : NoReassignmentInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NoReassignmentInProgressException.java.html#7]]]
 +NoReassignmentInProgressException(String;Throwable) : NoReassignmentInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NoReassignmentInProgressException.java.html#11]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.KGroupedStream
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.KGroupedStream"
 class org.apache.kafka.streams.kstream.KGroupedStream {
 count() : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#18]]]
 count(Named) : KTable<K,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedStream.java.html#21]]]

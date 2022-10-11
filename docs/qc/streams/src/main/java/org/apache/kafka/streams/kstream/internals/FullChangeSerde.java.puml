@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.FullChangeSerde
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.FullChangeSerde"
 class org.apache.kafka.streams.kstream.internals.FullChangeSerde {
 -FullChangeSerde(Serde<T>) : FullChangeSerde [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#24]]]
 +innerSerde() : Serde<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#28]]]

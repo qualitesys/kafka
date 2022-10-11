@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.server.common.serialization.BytesApiMessageSerde
+"java.lang.Object" <|-- "org.apache.kafka.server.common.serialization.BytesApiMessageSerde"
 class org.apache.kafka.server.common.serialization.BytesApiMessageSerde {
 +serialize(ApiMessageAndVersion) : byte[] [[[./../../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#22]]]
 +deserialize(byte[]) : ApiMessageAndVersion [[[./../../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#31]]]

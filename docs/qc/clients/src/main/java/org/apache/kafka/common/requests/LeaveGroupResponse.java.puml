@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.LeaveGroupResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.LeaveGroupResponse"
 class org.apache.kafka.common.requests.LeaveGroupResponse {
 +LeaveGroupResponse(LeaveGroupResponseData) : LeaveGroupResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#21]]]
 +LeaveGroupResponse(List<MemberResponse>;Errors;int;short) : LeaveGroupResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#26]]]

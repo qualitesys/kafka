@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ClusterMetadataAuthorizer <|-- org.apache.kafka.metadata.authorizer.StandardAuthorizer
+"ClusterMetadataAuthorizer" <|-- "org.apache.kafka.metadata.authorizer.StandardAuthorizer"
 class org.apache.kafka.metadata.authorizer.StandardAuthorizer {
 +setAclMutator(AclMutator) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#45]]]
 +aclMutatorOrException() : AclMutator [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#50]]]

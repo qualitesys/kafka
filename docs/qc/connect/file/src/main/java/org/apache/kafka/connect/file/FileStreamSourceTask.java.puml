@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceTask <|-- org.apache.kafka.connect.file.FileStreamSourceTask
+"SourceTask" <|-- "org.apache.kafka.connect.file.FileStreamSourceTask"
 class org.apache.kafka.connect.file.FileStreamSourceTask {
 +FileStreamSourceTask() : FileStreamSourceTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#41]]]
 FileStreamSourceTask(int) : FileStreamSourceTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#46]]]

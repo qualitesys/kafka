@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer_Void_ <|-- org.apache.kafka.common.serialization.VoidDeserializer
+"Deserializer<Void>" <|-- "org.apache.kafka.common.serialization.VoidDeserializer"
 class org.apache.kafka.common.serialization.VoidDeserializer {
 +deserialize(String;byte[]) : Void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#6]]]
 } 

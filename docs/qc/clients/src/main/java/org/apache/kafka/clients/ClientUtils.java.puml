@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.ClientUtils
+"java.lang.Object" <|-- "org.apache.kafka.clients.ClientUtils"
 class org.apache.kafka.clients.ClientUtils {
 -ClientUtils() : ClientUtils [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#29]]]
 +parseAndValidateAddresses(List<String>;String) : List<InetSocketAddress> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#32]]]

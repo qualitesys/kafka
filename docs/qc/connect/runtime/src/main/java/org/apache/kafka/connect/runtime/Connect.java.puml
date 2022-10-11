@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.Connect
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.Connect"
 class org.apache.kafka.connect.runtime.Connect {
 +Connect(Herder;RestServer) : Connect [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#23]]]
 +start() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#30]]]

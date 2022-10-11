@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ChannelBuilder <|-- org.apache.kafka.common.network.SaslChannelBuilder
+"ChannelBuilder" <|-- "org.apache.kafka.common.network.SaslChannelBuilder"
 class org.apache.kafka.common.network.SaslChannelBuilder {
 +SaslChannelBuilder(Mode;Map<String,JaasContext>;SecurityProtocol;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;String;Time;LogContext;Supplier<ApiVersionsResponse>) : SaslChannelBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#87]]]
 +configure(Map<String,?>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#126]]]

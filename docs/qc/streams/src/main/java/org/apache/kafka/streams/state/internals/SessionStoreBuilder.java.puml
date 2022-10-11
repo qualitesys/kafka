@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStoreBuilder_K,V,SessionStore_K,V__ <|-- org.apache.kafka.streams.state.internals.SessionStoreBuilder
+"AbstractStoreBuilder<K,V,SessionStore<K,V>>" <|-- "org.apache.kafka.streams.state.internals.SessionStoreBuilder"
 class org.apache.kafka.streams.state.internals.SessionStoreBuilder {
 +SessionStoreBuilder(SessionBytesStoreSupplier;Serde<K>;Serde<V>;Time) : SessionStoreBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#17]]]
 +build() : SessionStore<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.html#27]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.tools.ClientCompatibilityTest
+"java.lang.Object" <|-- "org.apache.kafka.tools.ClientCompatibilityTest"
 class org.apache.kafka.tools.ClientCompatibilityTest {
 +main(String[]) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#88]]]
 -toHexString(byte[]) : String [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#191]]]

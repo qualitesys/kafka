@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ControllerPurgatory
+"java.lang.Object" <|-- "org.apache.kafka.controller.ControllerPurgatory"
 class org.apache.kafka.controller.ControllerPurgatory {
 completeUpTo(long) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#18]]]
 failAll(Exception) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#33]]]

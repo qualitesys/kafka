@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation_Printed_K,V__ <|-- org.apache.kafka.streams.kstream.Printed
+"NamedOperation<Printed<K,V>>" <|-- "org.apache.kafka.streams.kstream.Printed"
 class org.apache.kafka.streams.kstream.Printed {
 -Printed(OutputStream) : Printed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#21]]]
 Printed(Printed<K,V>) : Printed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#26]]]

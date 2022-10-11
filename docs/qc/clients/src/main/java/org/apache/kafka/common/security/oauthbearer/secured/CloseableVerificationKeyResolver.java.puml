@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Initable <|-- org.apache.kafka.common.security.oauthbearer.secured.CloseableVerificationKeyResolver
+"Initable" <|-- "org.apache.kafka.common.security.oauthbearer.secured.CloseableVerificationKeyResolver"
 class org.apache.kafka.common.security.oauthbearer.secured.CloseableVerificationKeyResolver {
 close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.html#15]]]
 } 

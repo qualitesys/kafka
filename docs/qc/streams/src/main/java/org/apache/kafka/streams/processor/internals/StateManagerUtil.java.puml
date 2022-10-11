@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateManagerUtil
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StateManagerUtil"
 class org.apache.kafka.streams.processor.internals.StateManagerUtil {
 -StateManagerUtil() : StateManagerUtil [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#29]]]
 converterForStore(StateStore) : RecordConverter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#31]]]

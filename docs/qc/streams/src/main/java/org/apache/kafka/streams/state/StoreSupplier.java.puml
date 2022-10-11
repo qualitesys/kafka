@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.StoreSupplier
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.StoreSupplier"
 class org.apache.kafka.streams.state.StoreSupplier {
 name() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreSupplier.java.html#9]]]
 get() : T [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreSupplier.java.html#12]]]

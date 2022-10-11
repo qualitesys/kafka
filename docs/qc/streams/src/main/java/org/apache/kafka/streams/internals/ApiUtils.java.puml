@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.internals.ApiUtils
+"java.lang.Object" <|-- "org.apache.kafka.streams.internals.ApiUtils"
 class org.apache.kafka.streams.internals.ApiUtils {
 -ApiUtils() : ApiUtils [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#18]]]
 +validateMillisecondDuration(Duration;String) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#22]]]

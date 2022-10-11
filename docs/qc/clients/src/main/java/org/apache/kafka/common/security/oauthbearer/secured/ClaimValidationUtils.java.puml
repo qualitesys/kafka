@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils"
 class org.apache.kafka.common.security.oauthbearer.secured.ClaimValidationUtils {
 +validateScopes(String;Collection<String>) : Set<String> [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#16]]]
 +validateExpiration(String;Long) : long [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#36]]]

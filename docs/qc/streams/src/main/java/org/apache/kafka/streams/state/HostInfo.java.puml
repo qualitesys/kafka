@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.HostInfo
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.HostInfo"
 class org.apache.kafka.streams.state.HostInfo {
 +HostInfo(String;int) : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#17]]]
 +buildFromEndpoint(String) : HostInfo [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#24]]]

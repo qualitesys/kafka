@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.Retry
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.Retry"
 class org.apache.kafka.common.security.oauthbearer.secured.Retry {
 +Retry(long;long) : Retry [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#22]]]
 +Retry(Time;long;long) : Retry [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#26]]]

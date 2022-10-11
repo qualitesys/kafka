@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ForeachAction_K,V_ <|-- org.apache.kafka.streams.kstream.internals.PrintForeachAction
+"ForeachAction<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.PrintForeachAction"
 class org.apache.kafka.streams.kstream.internals.PrintForeachAction {
 PrintForeachAction(OutputStream;KeyValueMapper<?superK,?superV,String>;String) : PrintForeachAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#20]]]
 +apply(K;V) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#30]]]

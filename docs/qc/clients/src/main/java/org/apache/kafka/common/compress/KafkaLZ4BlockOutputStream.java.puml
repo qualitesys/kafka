@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-OutputStream <|-- org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream
+"OutputStream" <|-- "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream"
 class org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream {
 +KafkaLZ4BlockOutputStream(OutputStream;int;boolean;boolean) : KafkaLZ4BlockOutputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#41]]]
 +KafkaLZ4BlockOutputStream(OutputStream;int;boolean) : KafkaLZ4BlockOutputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockOutputStream.java.html#57]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.TopicExistsException
+"ApiException" <|-- "org.apache.kafka.common.errors.TopicExistsException"
 class org.apache.kafka.common.errors.TopicExistsException {
 +TopicExistsException(String) : TopicExistsException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicExistsException.java.html#8]]]
 +TopicExistsException(String;Throwable) : TopicExistsException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicExistsException.java.html#12]]]

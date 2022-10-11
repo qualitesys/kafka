@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult"
 class org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult {
 AlterPartitionReassignmentsResult(Map<TopicPartition,KafkaFuture<Void>>) : AlterPartitionReassignmentsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#16]]]
 +values() : Map<TopicPartition,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#21]]]

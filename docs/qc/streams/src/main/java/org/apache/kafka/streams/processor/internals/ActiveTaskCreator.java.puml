@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ActiveTaskCreator
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ActiveTaskCreator"
 class org.apache.kafka.streams.processor.internals.ActiveTaskCreator {
 ActiveTaskCreator(TopologyMetadata;StreamsConfig;StreamsMetricsImpl;StateDirectory;ChangelogReader;ThreadCache;Time;KafkaClientSupplier;String;UUID;Logger) : ActiveTaskCreator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#61]]]
 +reInitializeThreadProducer() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#107]]]

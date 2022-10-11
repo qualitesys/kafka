@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.placement.ClusterDescriber
+"java.lang.Object" <|-- "org.apache.kafka.metadata.placement.ClusterDescriber"
 class org.apache.kafka.metadata.placement.ClusterDescriber {
 usableBrokers() : Iterator<UsableBroker> [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/ClusterDescriber.java.html#14]]]
 } 

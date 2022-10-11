@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStream_K,V_KGroupedStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl
+"AbstractStream<K,V>KGroupedStream<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl"
 class org.apache.kafka.streams.kstream.internals.KGroupedStreamImpl {
 KGroupedStreamImpl(String;Set<String>;GroupedInternal<K,V>;boolean;GraphNode;InternalStreamsBuilder) : KGroupedStreamImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#35]]]
 +reduce(Reducer<V>) : KTable<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedStreamImpl.java.html#55]]]

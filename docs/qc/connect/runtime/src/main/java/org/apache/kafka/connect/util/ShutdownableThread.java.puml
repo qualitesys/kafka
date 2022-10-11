@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Thread <|-- org.apache.kafka.connect.util.ShutdownableThread
+"Thread" <|-- "org.apache.kafka.connect.util.ShutdownableThread"
 class org.apache.kafka.connect.util.ShutdownableThread {
 +ShutdownableThread(String) : ShutdownableThread [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#21]]]
 +ShutdownableThread(String;boolean) : ShutdownableThread [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#28]]]

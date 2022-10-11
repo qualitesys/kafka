@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.Heartbeat
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.internals.Heartbeat"
 class org.apache.kafka.clients.consumer.internals.Heartbeat {
 +Heartbeat(GroupRebalanceConfig;Time) : Heartbeat [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#24]]]
 -update(long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#39]]]

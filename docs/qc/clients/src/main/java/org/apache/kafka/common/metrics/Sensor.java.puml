@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.metrics.Sensor
+"java.lang.Object" <|-- "org.apache.kafka.common.metrics.Sensor"
 class org.apache.kafka.common.metrics.Sensor {
 Sensor(Metrics;String;Sensor[];MetricConfig;Time;long;RecordingLevel) : Sensor [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#118]]]
 -checkForest(Set<Sensor>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#136]]]

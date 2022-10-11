@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.record.CompressionRatioEstimator
+"java.lang.Object" <|-- "org.apache.kafka.common.record.CompressionRatioEstimator"
 class org.apache.kafka.common.record.CompressionRatioEstimator {
 +updateEstimation(String;CompressionType;float) : float [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#18]]]
 +estimation(String;CompressionType) : float [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#32]]]

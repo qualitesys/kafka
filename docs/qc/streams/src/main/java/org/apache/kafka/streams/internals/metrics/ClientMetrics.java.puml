@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.internals.metrics.ClientMetrics
+"java.lang.Object" <|-- "org.apache.kafka.streams.internals.metrics.ClientMetrics"
 class org.apache.kafka.streams.internals.metrics.ClientMetrics {
 -ClientMetrics() : ClientMetrics [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#19]]]
 +version() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#55]]]

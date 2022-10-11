@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.tools.TransactionsCommand
+"java.lang.Object" <|-- "org.apache.kafka.tools.TransactionsCommand"
 class org.apache.kafka.tools.TransactionsCommand {
 TransactionsCommand(Time) : TransactionsCommand [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#60]]]
 name() : String [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#65]]]

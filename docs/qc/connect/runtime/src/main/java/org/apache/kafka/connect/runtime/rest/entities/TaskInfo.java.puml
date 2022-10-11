@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.TaskInfo
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.TaskInfo"
 class org.apache.kafka.connect.runtime.rest.entities.TaskInfo {
 +TaskInfo(ConnectorTaskId;Map<String,String>) : TaskInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#14]]]
 +id() : ConnectorTaskId [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#20]]]

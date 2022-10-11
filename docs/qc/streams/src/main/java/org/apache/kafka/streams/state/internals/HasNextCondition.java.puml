@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.HasNextCondition
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.HasNextCondition"
 class org.apache.kafka.streams.state.internals.HasNextCondition {
 hasNext(KeyValueIterator<Bytes,?>) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/HasNextCondition.java.html#8]]]
 } 

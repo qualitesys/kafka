@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.record.BaseRecords
+"java.lang.Object" <|-- "org.apache.kafka.common.record.BaseRecords"
 class org.apache.kafka.common.record.BaseRecords {
 sizeInBytes() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/BaseRecords.java.html#7]]]
 toSend() : RecordsSend<?extendsBaseRecords> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/BaseRecords.java.html#10]]]

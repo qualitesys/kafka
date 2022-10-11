@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.RestartPlan
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.RestartPlan"
 class org.apache.kafka.connect.runtime.RestartPlan {
 +RestartPlan(RestartRequest;ConnectorStateInfo) : RestartPlan [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#22]]]
 +connectorName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#36]]]

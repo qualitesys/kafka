@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Producer_K,V_ <|-- org.apache.kafka.clients.producer.MockProducer
+"Producer<K,V>" <|-- "org.apache.kafka.clients.producer.MockProducer"
 class org.apache.kafka.clients.producer.MockProducer {
 +MockProducer(Cluster;boolean;Partitioner;Serializer<K>;Serializer<V>) : MockProducer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#64]]]
 +MockProducer(boolean;Serializer<K>;Serializer<V>) : MockProducer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#85]]]

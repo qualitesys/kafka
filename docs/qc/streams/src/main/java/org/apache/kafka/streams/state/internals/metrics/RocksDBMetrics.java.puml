@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics"
 class org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics {
 -RocksDBMetrics() : RocksDBMetrics [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#24]]]
 +bytesWrittenToDatabaseSensor(StreamsMetricsImpl;RocksDBMetricContext) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#188]]]

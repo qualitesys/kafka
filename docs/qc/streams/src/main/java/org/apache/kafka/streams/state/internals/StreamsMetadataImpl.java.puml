@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StreamsMetadata <|-- org.apache.kafka.streams.state.internals.StreamsMetadataImpl
+"StreamsMetadata" <|-- "org.apache.kafka.streams.state.internals.StreamsMetadataImpl"
 class org.apache.kafka.streams.state.internals.StreamsMetadataImpl {
 +StreamsMetadataImpl(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>) : StreamsMetadataImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#28]]]
 +StreamsMetadataImpl(HostInfo;Set<String>;Set<TopicPartition>;Set<String>;Set<TopicPartition>;String) : StreamsMetadataImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StreamsMetadataImpl.java.html#43]]]

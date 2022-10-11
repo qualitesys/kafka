@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.BufferPool
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.BufferPool"
 class org.apache.kafka.clients.producer.internals.BufferPool {
 +BufferPool(long;int;Metrics;Time;String) : BufferPool [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#38]]]
 +allocate(int;long) : ByteBuffer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#69]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConverterConfig <|-- org.apache.kafka.connect.json.JsonConverterConfig
+"ConverterConfig" <|-- "org.apache.kafka.connect.json.JsonConverterConfig"
 class org.apache.kafka.connect.json.JsonConverterConfig {
 +configDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#54]]]
 +JsonConverterConfig(Map<String,?>) : JsonConverterConfig [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html#63]]]

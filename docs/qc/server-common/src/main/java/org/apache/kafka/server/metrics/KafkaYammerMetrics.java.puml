@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Reconfigurable <|-- org.apache.kafka.server.metrics.KafkaYammerMetrics
+"Reconfigurable" <|-- "org.apache.kafka.server.metrics.KafkaYammerMetrics"
 class org.apache.kafka.server.metrics.KafkaYammerMetrics {
 +defaultRegistry() : MetricsRegistry [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#29]]]
 -KafkaYammerMetrics() : KafkaYammerMetrics [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#37]]]

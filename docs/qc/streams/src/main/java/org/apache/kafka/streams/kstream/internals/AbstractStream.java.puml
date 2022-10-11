@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.AbstractStream
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.AbstractStream"
 class org.apache.kafka.streams.kstream.internals.AbstractStream {
 +AbstractStream(AbstractStream<K,V>) : AbstractStream [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#36]]]
 AbstractStream(String;Serde<K>;Serde<V>;Set<String>;GraphNode;InternalStreamsBuilder) : AbstractStream [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#45]]]

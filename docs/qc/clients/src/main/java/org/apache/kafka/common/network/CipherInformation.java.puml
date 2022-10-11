@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.network.CipherInformation
+"java.lang.Object" <|-- "org.apache.kafka.common.network.CipherInformation"
 class org.apache.kafka.common.network.CipherInformation {
 +CipherInformation(String;String) : CipherInformation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#10]]]
 +cipher() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#15]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.runtime.PredicatedTransformation
+"Transformation<R>" <|-- "org.apache.kafka.connect.runtime.PredicatedTransformation"
 class org.apache.kafka.connect.runtime.PredicatedTransformation {
 PredicatedTransformation(Predicate<R>;boolean;Transformation<R>) : PredicatedTransformation [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#22]]]
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#29]]]

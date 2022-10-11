@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorNode
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ProcessorNode"
 class org.apache.kafka.streams.processor.internals.ProcessorNode {
 +ProcessorNode(String) : ProcessorNode [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#37]]]
 +ProcessorNode(String;Processor<KIn,VIn,KOut,VOut>;Set<String>) : ProcessorNode [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#41]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer_Outer_ <|-- org.apache.kafka.streams.kstream.internals.WrappingNullableDeserializer
+"Deserializer<Outer>" <|-- "org.apache.kafka.streams.kstream.internals.WrappingNullableDeserializer"
 class org.apache.kafka.streams.kstream.internals.WrappingNullableDeserializer {
 setIfUnset(SerdeGetter) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableDeserializer.java.html#8]]]
 } 

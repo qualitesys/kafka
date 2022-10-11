@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RaftMessageQueue <|-- org.apache.kafka.raft.internals.BlockingMessageQueue
+"RaftMessageQueue" <|-- "org.apache.kafka.raft.internals.BlockingMessageQueue"
 class org.apache.kafka.raft.internals.BlockingMessageQueue {
 +poll(long) : RaftMessage [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#31]]]
 +add(RaftMessage) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#46]]]

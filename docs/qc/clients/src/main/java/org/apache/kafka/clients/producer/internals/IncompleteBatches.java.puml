@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.IncompleteBatches
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.IncompleteBatches"
 class org.apache.kafka.clients.producer.internals.IncompleteBatches {
 +IncompleteBatches() : IncompleteBatches [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#13]]]
 +add(ProducerBatch) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/IncompleteBatches.java.html#17]]]

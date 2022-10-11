@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.feature.Features
+"java.lang.Object" <|-- "org.apache.kafka.common.feature.Features"
 class org.apache.kafka.common.feature.Features {
 -Features(Map<String,VersionRangeType>) : Features [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#16]]]
 +supportedFeatures(Map<String,SupportedVersionRange>) : Features<SupportedVersionRange> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#22]]]

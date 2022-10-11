@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractIterator_KeyValue_Bytes,byte[]__KeyValueIterator_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.RocksDbIterator
+"AbstractIterator<KeyValue<Bytes,byte[]>>KeyValueIterator<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.RocksDbIterator"
 class org.apache.kafka.streams.state.internals.RocksDbIterator {
 RocksDbIterator(String;RocksIterator;Set<KeyValueIterator<Bytes,byte[]>>;boolean) : RocksDbIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#26]]]
 +hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#37]]]

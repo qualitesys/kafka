@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.isolation.PluginUtils
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.isolation.PluginUtils"
 class org.apache.kafka.connect.runtime.isolation.PluginUtils {
 +shouldLoadInIsolation(String) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#132]]]
 +isConcrete(Class<?>) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#137]]]

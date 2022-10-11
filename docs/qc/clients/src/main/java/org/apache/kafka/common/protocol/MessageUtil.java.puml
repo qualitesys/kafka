@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.MessageUtil
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.MessageUtil"
 class org.apache.kafka.common.protocol.MessageUtil {
 +byteBufferToArray(ByteBuffer) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#23]]]
 +deepToString(Iterator<?>) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#34]]]

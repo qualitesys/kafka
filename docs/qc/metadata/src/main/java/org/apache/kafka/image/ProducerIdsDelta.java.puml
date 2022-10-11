@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ProducerIdsDelta
+"java.lang.Object" <|-- "org.apache.kafka.image.ProducerIdsDelta"
 class org.apache.kafka.image.ProducerIdsDelta {
 +ProducerIdsDelta(ProducerIdsImage) : ProducerIdsDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#12]]]
 +setNextProducerId(long) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsDelta.java.html#16]]]

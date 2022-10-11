@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparable_PluginDesc_T__ <|-- org.apache.kafka.connect.runtime.isolation.PluginDesc
+"Comparable<PluginDesc<T>>" <|-- "org.apache.kafka.connect.runtime.isolation.PluginDesc"
 class org.apache.kafka.connect.runtime.isolation.PluginDesc {
 +PluginDesc(Class<?extendsT>;String;ClassLoader) : PluginDesc [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#18]]]
 +toString() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#31]]]

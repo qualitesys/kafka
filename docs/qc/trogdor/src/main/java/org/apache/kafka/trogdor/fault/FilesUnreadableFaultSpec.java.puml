@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskSpec <|-- org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec
+"TaskSpec" <|-- "org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec"
 class org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec {
 +FilesUnreadableFaultSpec(long;long;Set<String>;String;String;int) : FilesUnreadableFaultSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#23]]]
 +nodeNames() : Set<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#37]]]

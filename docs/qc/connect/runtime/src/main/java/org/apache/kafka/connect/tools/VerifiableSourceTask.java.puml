@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceTask <|-- org.apache.kafka.connect.tools.VerifiableSourceTask
+"SourceTask" <|-- "org.apache.kafka.connect.tools.VerifiableSourceTask"
 class org.apache.kafka.connect.tools.VerifiableSourceTask {
 +version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#43]]]
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#48]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Rate <|-- org.apache.kafka.common.metrics.stats.SimpleRate
+"Rate" <|-- "org.apache.kafka.common.metrics.stats.SimpleRate"
 class org.apache.kafka.common.metrics.stats.SimpleRate {
 +windowSize(MetricConfig;long) : long [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SimpleRate.java.html#10]]]
 } 

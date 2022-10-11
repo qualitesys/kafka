@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.mirror.OffsetSyncStore
+"AutoCloseable" <|-- "org.apache.kafka.connect.mirror.OffsetSyncStore"
 class org.apache.kafka.connect.mirror.OffsetSyncStore {
 OffsetSyncStore(MirrorConnectorConfig) : OffsetSyncStore [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#24]]]
 OffsetSyncStore(KafkaConsumer<byte[],byte[]>;TopicPartition) : OffsetSyncStore [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#32]]]

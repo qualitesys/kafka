@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ExtractRecordMetadataTimestamp <|-- org.apache.kafka.streams.processor.FailOnInvalidTimestamp
+"ExtractRecordMetadataTimestamp" <|-- "org.apache.kafka.streams.processor.FailOnInvalidTimestamp"
 class org.apache.kafka.streams.processor.FailOnInvalidTimestamp {
 +onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/FailOnInvalidTimestamp.java.html#15]]]
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InternalProcessorContext_KOut,VOut_ <|-- org.apache.kafka.streams.processor.internals.AbstractProcessorContext
+"InternalProcessorContext<KOut,VOut>" <|-- "org.apache.kafka.streams.processor.internals.AbstractProcessorContext"
 class org.apache.kafka.streams.processor.internals.AbstractProcessorContext {
 +AbstractProcessorContext(TaskId;StreamsConfig;StreamsMetricsImpl;ThreadCache) : AbstractProcessorContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractProcessorContext.java.html#38]]]
 stateManager() : StateManager [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractProcessorContext.java.html#52]]]

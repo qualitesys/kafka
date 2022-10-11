@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceTask <|-- org.apache.kafka.connect.tools.SchemaSourceTask
+"SourceTask" <|-- "org.apache.kafka.connect.tools.SchemaSourceTask"
 class org.apache.kafka.connect.tools.SchemaSourceTask {
 +version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#68]]]
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceTask.java.html#73]]]

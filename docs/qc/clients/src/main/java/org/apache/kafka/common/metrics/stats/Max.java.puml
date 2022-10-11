@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SampledStat <|-- org.apache.kafka.common.metrics.stats.Max
+"SampledStat" <|-- "org.apache.kafka.common.metrics.stats.Max"
 class org.apache.kafka.common.metrics.stats.Max {
 +Max() : Max [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.html#11]]]
 update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Max.java.html#16]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.shell.MetadataNodeManager
+"AutoCloseable" <|-- "org.apache.kafka.shell.MetadataNodeManager"
 class org.apache.kafka.shell.MetadataNodeManager {
 +MetadataNodeManager() : MetadataNodeManager [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#124]]]
 +setup() : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#131]]]

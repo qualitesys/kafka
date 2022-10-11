@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceTask <|-- org.apache.kafka.connect.mirror.MirrorCheckpointTask
+"SourceTask" <|-- "org.apache.kafka.connect.mirror.MirrorCheckpointTask"
 class org.apache.kafka.connect.mirror.MirrorCheckpointTask {
 +MirrorCheckpointTask() : MirrorCheckpointTask [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#55]]]
 MirrorCheckpointTask(String;String;ReplicationPolicy;OffsetSyncStore;Map<String,Map<TopicPartition,OffsetAndMetadata>>;Map<String,List<Checkpoint>>) : MirrorCheckpointTask [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#58]]]

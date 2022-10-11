@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KStreamAggProcessorSupplier_KIn,VIn,KIn,VAgg_ <|-- org.apache.kafka.streams.kstream.internals.KStreamAggregate
+"KStreamAggProcessorSupplier<KIn,VIn,KIn,VAgg>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamAggregate"
 class org.apache.kafka.streams.kstream.internals.KStreamAggregate {
 KStreamAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#31]]]
 +get() : Processor<KIn,VIn,KIn,Change<VAgg>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#40]]]

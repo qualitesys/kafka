@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StreamsMetrics <|-- org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl
+"StreamsMetrics" <|-- "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl"
 class org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl {
 +StreamsMetricsImpl(Metrics;String;String;Time) : StreamsMetricsImpl [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#147]]]
 +version() : Version [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#161]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-QuorumStateStore <|-- org.apache.kafka.raft.FileBasedStateStore
+"QuorumStateStore" <|-- "org.apache.kafka.raft.FileBasedStateStore"
 class org.apache.kafka.raft.FileBasedStateStore {
 +FileBasedStateStore(File) : FileBasedStateStore [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#38]]]
 -readStateFromFile(File) : QuorumStateData [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#42]]]

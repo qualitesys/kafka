@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.CreateAclsResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.CreateAclsResponse"
 class org.apache.kafka.common.requests.CreateAclsResponse {
 +CreateAclsResponse(CreateAclsResponseData) : CreateAclsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#16]]]
 +data() : CreateAclsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsResponse.java.html#22]]]

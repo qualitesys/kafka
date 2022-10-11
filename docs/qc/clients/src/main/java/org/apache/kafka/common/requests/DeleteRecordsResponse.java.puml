@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.DeleteRecordsResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.DeleteRecordsResponse"
 class org.apache.kafka.common.requests.DeleteRecordsResponse {
 +DeleteRecordsResponse(DeleteRecordsResponseData) : DeleteRecordsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsResponse.java.html#21]]]
 +data() : DeleteRecordsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteRecordsResponse.java.html#27]]]

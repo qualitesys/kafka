@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.Worker
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.Worker"
 class org.apache.kafka.connect.runtime.Worker {
 +Worker(String;Time;Plugins;WorkerConfig;OffsetBackingStore;ConnectorClientConfigOverridePolicy) : Worker [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#114]]]
 Worker(String;Time;Plugins;WorkerConfig;OffsetBackingStore;ExecutorService;ConnectorClientConfigOverridePolicy) : Worker [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#124]]]

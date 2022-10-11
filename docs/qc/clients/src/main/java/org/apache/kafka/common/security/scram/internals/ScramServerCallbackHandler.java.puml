@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler
+"AuthenticateCallbackHandler" <|-- "org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler"
 class org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler {
 +ScramServerCallbackHandler(CredentialCache.Cache<ScramCredential>;DelegationTokenCache) : ScramServerCallbackHandler [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramServerCallbackHandler.java.html#26]]]
 +configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramServerCallbackHandler.java.html#33]]]

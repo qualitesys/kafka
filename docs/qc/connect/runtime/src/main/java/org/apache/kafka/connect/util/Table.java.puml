@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.util.Table
+"java.lang.Object" <|-- "org.apache.kafka.connect.util.Table"
 class org.apache.kafka.connect.util.Table {
 +put(R;C;V) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#12]]]
 +get(R;C) : V [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Table.java.html#17]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MemoryOffsetBackingStore <|-- org.apache.kafka.connect.storage.FileOffsetBackingStore
+"MemoryOffsetBackingStore" <|-- "org.apache.kafka.connect.storage.FileOffsetBackingStore"
 class org.apache.kafka.connect.storage.FileOffsetBackingStore {
 +FileOffsetBackingStore() : FileOffsetBackingStore [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#27]]]
 +configure(WorkerConfig) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#32]]]

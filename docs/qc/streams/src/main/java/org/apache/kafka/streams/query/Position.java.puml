@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.query.Position
+"java.lang.Object" <|-- "org.apache.kafka.streams.query.Position"
 class org.apache.kafka.streams.query.Position {
 -Position(ConcurrentHashMap<String,ConcurrentHashMap<Integer,Long>>) : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#20]]]
 +emptyPosition() : Position [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#25]]]

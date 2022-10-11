@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteConsumerGroupsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult"
 class org.apache.kafka.clients.admin.DeleteConsumerGroupsResult {
 DeleteConsumerGroupsResult(Map<String,KafkaFuture<Void>>) : DeleteConsumerGroupsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#16]]]
 +deletedGroups() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupsResult.java.html#21]]]

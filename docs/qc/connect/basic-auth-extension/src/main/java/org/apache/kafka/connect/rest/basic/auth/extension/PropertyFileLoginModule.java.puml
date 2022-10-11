@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-LoginModule <|-- org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule
+"LoginModule" <|-- "org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule"
 class org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule {
 +initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>) : void [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#38]]]
 +login() : boolean [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#69]]]

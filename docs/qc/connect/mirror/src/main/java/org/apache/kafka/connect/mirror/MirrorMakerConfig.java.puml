@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractConfig <|-- org.apache.kafka.connect.mirror.MirrorMakerConfig
+"AbstractConfig" <|-- "org.apache.kafka.connect.mirror.MirrorMakerConfig"
 class org.apache.kafka.connect.mirror.MirrorMakerConfig {
 +MirrorMakerConfig(Map<?,?>) : MirrorMakerConfig [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#56]]]
 +clusters() : Set<String> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#61]]]

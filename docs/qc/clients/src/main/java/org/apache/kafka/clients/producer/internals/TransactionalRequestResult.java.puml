@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.TransactionalRequestResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.TransactionalRequestResult"
 class org.apache.kafka.clients.producer.internals.TransactionalRequestResult {
 +TransactionalRequestResult(String) : TransactionalRequestResult [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#17]]]
 -TransactionalRequestResult(CountDownLatch;String) : TransactionalRequestResult [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionalRequestResult.java.html#21]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaClient <|-- org.apache.kafka.clients.NetworkClient
+"KafkaClient" <|-- "org.apache.kafka.clients.NetworkClient"
 class org.apache.kafka.clients.NetworkClient {
 +NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;LogContext) : NetworkClient [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#109]]]
 +NetworkClient(Selectable;Metadata;String;int;long;long;int;int;int;long;long;Time;boolean;ApiVersions;Sensor;LogContext) : NetworkClient [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#142]]]

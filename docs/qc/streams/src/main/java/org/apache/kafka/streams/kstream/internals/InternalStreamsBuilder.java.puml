@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InternalNameProvider <|-- org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder
+"InternalNameProvider" <|-- "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder"
 class org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder {
 +InternalStreamsBuilder(InternalTopologyBuilder) : InternalStreamsBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#65]]]
 +newProcessorName(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#175]]]

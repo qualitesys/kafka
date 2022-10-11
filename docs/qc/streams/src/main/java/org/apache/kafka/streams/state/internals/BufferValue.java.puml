@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.BufferValue
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.BufferValue"
 class org.apache.kafka.streams.state.internals.BufferValue {
 BufferValue(byte[];byte[];byte[];ProcessorRecordContext) : BufferValue [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#21]]]
 priorValue() : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#39]]]

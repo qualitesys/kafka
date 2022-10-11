@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ListTopicsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ListTopicsResult"
 class org.apache.kafka.clients.admin.ListTopicsResult {
 ListTopicsResult(KafkaFuture<Map<String,TopicListing>>) : ListTopicsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#17]]]
 +namesToListings() : KafkaFuture<Map<String,TopicListing>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsResult.java.html#22]]]

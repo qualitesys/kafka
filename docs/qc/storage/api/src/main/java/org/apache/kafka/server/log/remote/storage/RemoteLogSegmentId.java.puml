@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId
+"java.lang.Object" <|-- "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId"
 class org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId {
 +RemoteLogSegmentId(TopicIdPartition;Uuid) : RemoteLogSegmentId [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#17]]]
 +topicIdPartition() : TopicIdPartition [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#23]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.kerberos.KerberosRule
+"java.lang.Object" <|-- "org.apache.kafka.common.security.kerberos.KerberosRule"
 class org.apache.kafka.common.security.kerberos.KerberosRule {
 KerberosRule(String) : KerberosRule [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#29]]]
 KerberosRule(String;int;String;String;String;String;boolean;boolean;boolean) : KerberosRule [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#42]]]

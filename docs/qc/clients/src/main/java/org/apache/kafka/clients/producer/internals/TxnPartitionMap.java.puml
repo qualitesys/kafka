@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.TxnPartitionMap
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.TxnPartitionMap"
 class org.apache.kafka.clients.producer.internals.TxnPartitionMap {
 get(TopicPartition) : TxnPartitionEntry [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#18]]]
 getOrCreate(TopicPartition) : TxnPartitionEntry [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#27]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Record <|-- org.apache.kafka.common.record.DefaultRecord
+"Record" <|-- "org.apache.kafka.common.record.DefaultRecord"
 class org.apache.kafka.common.record.DefaultRecord {
 DefaultRecord(int;byte;long;long;int;ByteBuffer;ByteBuffer;Header[]) : DefaultRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#39]]]
 +offset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#58]]]

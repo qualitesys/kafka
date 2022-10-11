@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.RaftConfig
+"java.lang.Object" <|-- "org.apache.kafka.raft.RaftConfig"
 class org.apache.kafka.raft.RaftConfig {
 +RaftConfig(AbstractConfig) : RaftConfig [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#112]]]
 +RaftConfig(Map<Integer,AddressSpec>;int;int;int;int;int;int) : RaftConfig [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#122]]]

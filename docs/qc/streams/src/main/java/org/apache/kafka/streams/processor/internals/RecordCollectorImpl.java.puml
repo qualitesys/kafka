@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RecordCollector <|-- org.apache.kafka.streams.processor.internals.RecordCollectorImpl
+"RecordCollector" <|-- "org.apache.kafka.streams.processor.internals.RecordCollectorImpl"
 class org.apache.kafka.streams.processor.internals.RecordCollectorImpl {
 +RecordCollectorImpl(LogContext;TaskId;StreamsProducer;ProductionExceptionHandler;StreamsMetricsImpl;ProcessorTopology) : RecordCollectorImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#63]]]
 +initialize() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#95]]]

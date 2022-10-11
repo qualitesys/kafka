@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Produced_K,V_ <|-- org.apache.kafka.streams.kstream.internals.ProducedInternal
+"Produced<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.ProducedInternal"
 class org.apache.kafka.streams.kstream.internals.ProducedInternal {
 +ProducedInternal(Produced<K,V>) : ProducedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ProducedInternal.java.html#10]]]
 +keySerde() : Serde<K> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ProducedInternal.java.html#14]]]

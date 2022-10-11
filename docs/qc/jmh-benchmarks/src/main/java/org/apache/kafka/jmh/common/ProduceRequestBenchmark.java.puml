@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.common.ProduceRequestBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.common.ProduceRequestBenchmark"
 class org.apache.kafka.jmh.common.ProduceRequestBenchmark {
 +setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ProduceRequestBenchmark.java.html#40]]]
 +testRequestToJson() : String [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ProduceRequestBenchmark.java.html#46]]]

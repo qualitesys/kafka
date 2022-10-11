@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ClientQuotaImage
+"java.lang.Object" <|-- "org.apache.kafka.image.ClientQuotaImage"
 class org.apache.kafka.image.ClientQuotaImage {
 +ClientQuotaImage(Map<String,Double>) : ClientQuotaImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#30]]]
 quotas() : Map<String,Double> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#34]]]

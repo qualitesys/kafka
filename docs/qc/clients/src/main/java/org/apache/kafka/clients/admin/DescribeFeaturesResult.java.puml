@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeFeaturesResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DescribeFeaturesResult"
 class org.apache.kafka.clients.admin.DescribeFeaturesResult {
 DescribeFeaturesResult(KafkaFuture<FeatureMetadata>) : DescribeFeaturesResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeFeaturesResult.java.html#11]]]
 +featureMetadata() : KafkaFuture<FeatureMetadata> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeFeaturesResult.java.html#15]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InvalidOffsetException <|-- org.apache.kafka.clients.consumer.NoOffsetForPartitionException
+"InvalidOffsetException" <|-- "org.apache.kafka.clients.consumer.NoOffsetForPartitionException"
 class org.apache.kafka.clients.consumer.NoOffsetForPartitionException {
 +NoOffsetForPartitionException(TopicPartition) : NoOffsetForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#18]]]
 +NoOffsetForPartitionException(Collection<TopicPartition>) : NoOffsetForPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.html#23]]]

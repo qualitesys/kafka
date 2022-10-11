@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_DescribeTopicsOptions_ <|-- org.apache.kafka.clients.admin.DescribeTopicsOptions
+"AbstractOptions<DescribeTopicsOptions>" <|-- "org.apache.kafka.clients.admin.DescribeTopicsOptions"
 class org.apache.kafka.clients.admin.DescribeTopicsOptions {
 +timeoutMs(Integer) : DescribeTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#17]]]
 +includeAuthorizedOperations(boolean) : DescribeTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsOptions.java.html#22]]]

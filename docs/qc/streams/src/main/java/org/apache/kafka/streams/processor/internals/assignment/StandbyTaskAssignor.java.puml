@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor
+"TaskAssignor" <|-- "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor"
 class org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor {
 isAllowedTaskMovement(ClientState;ClientState) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignor.java.html#5]]]
 } 

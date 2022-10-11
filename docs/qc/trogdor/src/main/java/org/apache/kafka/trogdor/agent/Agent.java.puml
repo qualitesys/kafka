@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.agent.Agent
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.agent.Agent"
 class org.apache.kafka.trogdor.agent.Agent {
 +Agent(Platform;Scheduler;JsonRestServer;AgentRestResource) : Agent [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#63]]]
 +port() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#73]]]

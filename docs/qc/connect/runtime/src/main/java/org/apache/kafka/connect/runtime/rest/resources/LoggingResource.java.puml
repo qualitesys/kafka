@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectResource <|-- org.apache.kafka.connect.runtime.rest.resources.LoggingResource
+"ConnectResource" <|-- "org.apache.kafka.connect.runtime.rest.resources.LoggingResource"
 class org.apache.kafka.connect.runtime.rest.resources.LoggingResource {
 +requestTimeout(long) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#38]]]
 +listLoggers() : Response [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#46]]]

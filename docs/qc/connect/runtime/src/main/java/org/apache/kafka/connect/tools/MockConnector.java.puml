@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Connector <|-- org.apache.kafka.connect.tools.MockConnector
+"Connector" <|-- "org.apache.kafka.connect.tools.MockConnector"
 class org.apache.kafka.connect.tools.MockConnector {
 +version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#34]]]
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#39]]]

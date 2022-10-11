@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GlobalStateMaintainer <|-- org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask
+"GlobalStateMaintainer" <|-- "org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask"
 class org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask {
 +GlobalStateUpdateTask(LogContext;ProcessorTopology;InternalProcessorContext;GlobalStateManager;DeserializationExceptionHandler) : GlobalStateUpdateTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#32]]]
 +initialize() : Map<TopicPartition,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#47]]]

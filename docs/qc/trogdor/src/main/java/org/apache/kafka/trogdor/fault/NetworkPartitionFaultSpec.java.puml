@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskSpec <|-- org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec
+"TaskSpec" <|-- "org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec"
 class org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec {
 +NetworkPartitionFaultSpec(long;long;List<List<String>>) : NetworkPartitionFaultSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#21]]]
 +partitions() : List<List<String>> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.html#29]]]

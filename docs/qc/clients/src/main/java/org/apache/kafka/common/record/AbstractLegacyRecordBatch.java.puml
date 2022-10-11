@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRecordBatchRecord <|-- org.apache.kafka.common.record.AbstractLegacyRecordBatch
+"AbstractRecordBatchRecord" <|-- "org.apache.kafka.common.record.AbstractLegacyRecordBatch"
 class org.apache.kafka.common.record.AbstractLegacyRecordBatch {
 +outerRecord() : LegacyRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#31]]]
 +lastOffset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#34]]]

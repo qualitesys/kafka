@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.TopicsDelta
+"java.lang.Object" <|-- "org.apache.kafka.image.TopicsDelta"
 class org.apache.kafka.image.TopicsDelta {
 +TopicsDelta(TopicsImage) : TopicsDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#32]]]
 +image() : TopicsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#36]]]

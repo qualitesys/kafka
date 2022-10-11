@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.PartitionReassignmentRevert
+"java.lang.Object" <|-- "org.apache.kafka.controller.PartitionReassignmentRevert"
 class org.apache.kafka.controller.PartitionReassignmentRevert {
 PartitionReassignmentRevert(PartitionRegistration) : PartitionReassignmentRevert [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#20]]]
 replicas() : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentRevert.java.html#59]]]

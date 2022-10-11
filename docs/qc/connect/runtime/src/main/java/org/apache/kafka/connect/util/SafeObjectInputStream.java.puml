@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ObjectInputStream <|-- org.apache.kafka.connect.util.SafeObjectInputStream
+"ObjectInputStream" <|-- "org.apache.kafka.connect.util.SafeObjectInputStream"
 class org.apache.kafka.connect.util.SafeObjectInputStream {
 +SafeObjectInputStream(InputStream) : SafeObjectInputStream [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#32]]]
 resolveClass(ObjectStreamClass) : Class<?> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.html#37]]]

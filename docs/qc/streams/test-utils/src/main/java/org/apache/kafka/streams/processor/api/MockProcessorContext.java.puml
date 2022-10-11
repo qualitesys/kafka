@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorContext_KForward,VForward_ <|-- org.apache.kafka.streams.processor.api.MockProcessorContext
+"ProcessorContext<KForward,VForward>" <|-- "org.apache.kafka.streams.processor.api.MockProcessorContext"
 class org.apache.kafka.streams.processor.api.MockProcessorContext {
 +MockProcessorContext() : MockProcessorContext [[[./../../../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#173]]]
 +MockProcessorContext(Properties) : MockProcessorContext [[[./../../../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#185]]]

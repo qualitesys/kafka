@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.RecordAccumulator
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.RecordAccumulator"
 class org.apache.kafka.clients.producer.internals.RecordAccumulator {
 +RecordAccumulator(LogContext;int;CompressionType;int;long;int;PartitionerConfig;Metrics;String;Time;ApiVersions;TransactionManager;BufferPool) : RecordAccumulator [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#71]]]
 +RecordAccumulator(LogContext;int;CompressionType;int;long;int;Metrics;String;Time;ApiVersions;TransactionManager;BufferPool) : RecordAccumulator [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#107]]]

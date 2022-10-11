@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorNode_KIn,VIn,Void,Void_ <|-- org.apache.kafka.streams.processor.internals.SinkNode
+"ProcessorNode<KIn,VIn,Void,Void>" <|-- "org.apache.kafka.streams.processor.internals.SinkNode"
 class org.apache.kafka.streams.processor.internals.SinkNode {
 SinkNode(String;TopicNameExtractor<KIn,VIn>;Serializer<KIn>;Serializer<VIn>;StreamPartitioner<?superKIn,?superVIn>) : SinkNode [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#21]]]
 +addChild(ProcessorNode<Void,Void,?,?>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#36]]]

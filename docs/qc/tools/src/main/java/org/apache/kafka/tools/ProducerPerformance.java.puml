@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.tools.ProducerPerformance
+"java.lang.Object" <|-- "org.apache.kafka.tools.ProducerPerformance"
 class org.apache.kafka.tools.ProducerPerformance {
 +main(String[]) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#34]]]
 start(String[]) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#39]]]

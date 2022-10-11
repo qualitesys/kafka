@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation_Named_ <|-- org.apache.kafka.streams.kstream.Named
+"NamedOperation<Named>" <|-- "org.apache.kafka.streams.kstream.Named"
 class org.apache.kafka.streams.kstream.Named {
 Named(Named) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#14]]]
 Named(String) : Named [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#18]]]

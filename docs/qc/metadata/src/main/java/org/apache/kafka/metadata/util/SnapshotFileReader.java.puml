@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.metadata.util.SnapshotFileReader
+"AutoCloseable" <|-- "org.apache.kafka.metadata.util.SnapshotFileReader"
 class org.apache.kafka.metadata.util.SnapshotFileReader {
 +SnapshotFileReader(String;RaftClient.Listener<ApiMessageAndVersion>) : SnapshotFileReader [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#45]]]
 +startup() : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#53]]]

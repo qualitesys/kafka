@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Login <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin
+"Login" <|-- "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin"
 class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin {
 +configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#29]]]
 +close() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#71]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Window <|-- org.apache.kafka.streams.kstream.internals.TimeWindow
+"Window" <|-- "org.apache.kafka.streams.kstream.internals.TimeWindow"
 class org.apache.kafka.streams.kstream.internals.TimeWindow {
 +TimeWindow(long;long) : TimeWindow [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#10]]]
 +overlap(Window) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.html#19]]]

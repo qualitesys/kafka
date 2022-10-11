@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateStore <|-- org.apache.kafka.streams.state.internals.SegmentedBytesStore
+"StateStore" <|-- "org.apache.kafka.streams.state.internals.SegmentedBytesStore"
 class org.apache.kafka.streams.state.internals.SegmentedBytesStore {
 fetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#15]]]
 backwardFetch(Bytes;long;long) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedBytesStore.java.html#18]]]

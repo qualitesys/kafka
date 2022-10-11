@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.memory.MemoryPool
+"java.lang.Object" <|-- "org.apache.kafka.common.memory.MemoryPool"
 class org.apache.kafka.common.memory.MemoryPool {
 tryAllocate(int) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#42]]]
 release(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#45]]]

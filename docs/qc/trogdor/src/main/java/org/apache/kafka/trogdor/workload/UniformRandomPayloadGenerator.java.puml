@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-PayloadGenerator <|-- org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator
+"PayloadGenerator" <|-- "org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator"
 class org.apache.kafka.trogdor.workload.UniformRandomPayloadGenerator {
 +UniformRandomPayloadGenerator(int;long;int) : UniformRandomPayloadGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#20]]]
 +size() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformRandomPayloadGenerator.java.html#38]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.connect.transforms.Transformation
+"Configurable" <|-- "org.apache.kafka.connect.transforms.Transformation"
 class org.apache.kafka.connect.transforms.Transformation {
 apply(R) : R [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/Transformation.java.html#14]]]
 config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/Transformation.java.html#17]]]

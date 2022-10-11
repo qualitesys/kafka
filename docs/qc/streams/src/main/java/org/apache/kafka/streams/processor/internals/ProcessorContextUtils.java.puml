@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorContextUtils
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ProcessorContextUtils"
 class org.apache.kafka.streams.processor.internals.ProcessorContextUtils {
 -ProcessorContextUtils() : ProcessorContextUtils [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#14]]]
 +currentSystemTime(ProcessorContext) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#17]]]

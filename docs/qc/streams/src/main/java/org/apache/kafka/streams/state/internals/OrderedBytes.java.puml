@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.OrderedBytes
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.OrderedBytes"
 class org.apache.kafka.streams.state.internals.OrderedBytes {
 upperRange(Bytes;byte[]) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#13]]]
 lowerRange(Bytes;byte[]) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#45]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.SlidingWindows
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.SlidingWindows"
 class org.apache.kafka.streams.kstream.SlidingWindows {
 -SlidingWindows(long;long) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#24]]]
 +ofTimeDifferenceWithNoGrace(Duration) : SlidingWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#38]]]

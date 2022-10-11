@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.queue.EventQueue
+"AutoCloseable" <|-- "org.apache.kafka.queue.EventQueue"
 class org.apache.kafka.queue.EventQueue {
 prepend(Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#94]]]
 append(Event) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#99]]]

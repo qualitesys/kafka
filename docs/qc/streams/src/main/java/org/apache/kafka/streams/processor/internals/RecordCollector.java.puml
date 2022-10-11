@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.RecordCollector
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.RecordCollector"
 class org.apache.kafka.streams.processor.internals.RecordCollector {
 initialize() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#37]]]
 flush() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollector.java.html#40]]]

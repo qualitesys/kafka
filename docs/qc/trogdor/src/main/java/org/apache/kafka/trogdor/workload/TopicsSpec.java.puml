@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Message <|-- org.apache.kafka.trogdor.workload.TopicsSpec
+"Message" <|-- "org.apache.kafka.trogdor.workload.TopicsSpec"
 class org.apache.kafka.trogdor.workload.TopicsSpec {
 +TopicsSpec() : TopicsSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#22]]]
 -TopicsSpec(Map<String,PartitionsSpec>) : TopicsSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TopicsSpec.java.html#26]]]

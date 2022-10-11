@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Writable <|-- org.apache.kafka.common.protocol.SendBuilder
+"Writable" <|-- "org.apache.kafka.common.protocol.SendBuilder"
 class org.apache.kafka.common.protocol.SendBuilder {
 SendBuilder(int) : SendBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#30]]]
 +writeByte(byte) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.html#36]]]

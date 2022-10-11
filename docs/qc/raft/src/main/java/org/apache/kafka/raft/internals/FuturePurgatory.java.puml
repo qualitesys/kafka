@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.internals.FuturePurgatory
+"java.lang.Object" <|-- "org.apache.kafka.raft.internals.FuturePurgatory"
 class org.apache.kafka.raft.internals.FuturePurgatory {
 await(T;long) : CompletableFuture<Long> [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#10]]]
 maybeComplete(T;long) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#13]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.ClientState
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.ClientState"
 class org.apache.kafka.streams.processor.internals.assignment.ClientState {
 +ClientState() : ClientState [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#48]]]
 +ClientState(Map<String,String>) : ClientState [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#52]]]

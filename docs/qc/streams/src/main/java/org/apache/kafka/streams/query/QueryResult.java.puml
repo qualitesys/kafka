@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.query.QueryResult
+"java.lang.Object" <|-- "org.apache.kafka.streams.query.QueryResult"
 class org.apache.kafka.streams.query.QueryResult {
 addExecutionInfo(String) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#61]]]
 setPosition(Position) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#64]]]

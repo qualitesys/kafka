@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.acl.AclBinding
+"java.lang.Object" <|-- "org.apache.kafka.common.acl.AclBinding"
 class org.apache.kafka.common.acl.AclBinding {
 +AclBinding(ResourcePattern;AccessControlEntry) : AclBinding [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#17]]]
 +isUnknown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AclBinding.java.html#23]]]

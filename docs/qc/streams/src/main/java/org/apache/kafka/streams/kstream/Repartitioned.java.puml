@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation_Repartitioned_K,V__ <|-- org.apache.kafka.streams.kstream.Repartitioned
+"NamedOperation<Repartitioned<K,V>>" <|-- "org.apache.kafka.streams.kstream.Repartitioned"
 class org.apache.kafka.streams.kstream.Repartitioned {
 -Repartitioned(String;Serde<K>;Serde<V>;Integer;StreamPartitioner<K,V>) : Repartitioned [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#18]]]
 Repartitioned(Repartitioned<K,V>) : Repartitioned [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#30]]]

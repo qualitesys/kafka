@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowedSerializer_T_ <|-- org.apache.kafka.streams.kstream.SessionWindowedSerializer
+"WindowedSerializer<T>" <|-- "org.apache.kafka.streams.kstream.SessionWindowedSerializer"
 class org.apache.kafka.streams.kstream.SessionWindowedSerializer {
 +SessionWindowedSerializer() : SessionWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#19]]]
 +SessionWindowedSerializer(Serializer<T>) : SessionWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#21]]]

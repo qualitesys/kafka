@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SinkRecord <|-- org.apache.kafka.connect.runtime.InternalSinkRecord
+"SinkRecord" <|-- "org.apache.kafka.connect.runtime.InternalSinkRecord"
 class org.apache.kafka.connect.runtime.InternalSinkRecord {
 +InternalSinkRecord(ConsumerRecord<byte[],byte[]>;SinkRecord) : InternalSinkRecord [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#16]]]
 InternalSinkRecord(ConsumerRecord<byte[],byte[]>;String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>) : InternalSinkRecord [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#23]]]

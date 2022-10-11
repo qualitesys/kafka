@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.record.ControlRecordUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.record.ControlRecordUtils"
 class org.apache.kafka.common.record.ControlRecordUtils {
 +deserializeLeaderChangeMessage(Record) : LeaderChangeMessage [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#18]]]
 +deserializeLeaderChangeMessage(ByteBuffer) : LeaderChangeMessage [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#27]]]

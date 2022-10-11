@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.RepartitionTopicConfig
+"InternalTopicConfig" <|-- "org.apache.kafka.streams.processor.internals.RepartitionTopicConfig"
 class org.apache.kafka.streams.processor.internals.RepartitionTopicConfig {
 RepartitionTopicConfig(String;Map<String,String>) : RepartitionTopicConfig [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#23]]]
 RepartitionTopicConfig(String;Map<String,String>;int;boolean) : RepartitionTopicConfig [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#27]]]

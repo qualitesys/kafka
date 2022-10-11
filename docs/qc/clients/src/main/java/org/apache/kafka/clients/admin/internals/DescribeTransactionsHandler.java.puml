@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched_CoordinatorKey,TransactionDescription_ <|-- org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler
+"AdminApiHandler.Batched<CoordinatorKey,TransactionDescription>" <|-- "org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler"
 class org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler {
 +DescribeTransactionsHandler(LogContext) : DescribeTransactionsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#35]]]
 +newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,TransactionDescription> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#42]]]

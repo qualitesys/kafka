@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Metric <|-- org.apache.kafka.common.metrics.KafkaMetric
+"Metric" <|-- "org.apache.kafka.common.metrics.KafkaMetric"
 class org.apache.kafka.common.metrics.KafkaMetric {
 +KafkaMetric(Object;MetricName;MetricValueProvider<?>;MetricConfig;Time) : KafkaMetric [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#17]]]
 +config() : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#28]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.PartitionRegistration
+"java.lang.Object" <|-- "org.apache.kafka.metadata.PartitionRegistration"
 class org.apache.kafka.metadata.PartitionRegistration {
 +electionWasClean(int;int[]) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#31]]]
 +PartitionRegistration(PartitionRecord) : PartitionRegistration [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.html#35]]]

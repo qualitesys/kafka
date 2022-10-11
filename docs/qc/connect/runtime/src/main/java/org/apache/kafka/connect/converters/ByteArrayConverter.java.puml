@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Converter <|-- org.apache.kafka.connect.converters.ByteArrayConverter
+"Converter" <|-- "org.apache.kafka.connect.converters.ByteArrayConverter"
 class org.apache.kafka.connect.converters.ByteArrayConverter {
 +config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#21]]]
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#26]]]

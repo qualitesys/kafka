@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.TimeWindowedKStream
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.TimeWindowedKStream"
 class org.apache.kafka.streams.kstream.TimeWindowedKStream {
 count() : KTable<Windowed<K>,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#20]]]
 count(Named) : KTable<Windowed<K>,Long> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#23]]]

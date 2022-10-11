@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier
+"WindowBytesStoreSupplier" <|-- "org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier"
 class org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier {
 +RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;boolean) : RocksDbWindowBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#21]]]
 +RocksDbWindowBytesStoreSupplier(String;long;long;long;boolean;WindowStoreTypes) : RocksDbWindowBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbWindowBytesStoreSupplier.java.html#33]]]

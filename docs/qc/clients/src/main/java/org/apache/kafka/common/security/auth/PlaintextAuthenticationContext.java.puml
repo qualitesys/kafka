@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AuthenticationContext <|-- org.apache.kafka.common.security.auth.PlaintextAuthenticationContext
+"AuthenticationContext" <|-- "org.apache.kafka.common.security.auth.PlaintextAuthenticationContext"
 class org.apache.kafka.common.security.auth.PlaintextAuthenticationContext {
 +PlaintextAuthenticationContext(InetAddress;String) : PlaintextAuthenticationContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/PlaintextAuthenticationContext.java.html#10]]]
 +securityProtocol() : SecurityProtocol [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/PlaintextAuthenticationContext.java.html#16]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.BrokerRegistrationReply
+"java.lang.Object" <|-- "org.apache.kafka.metadata.BrokerRegistrationReply"
 class org.apache.kafka.metadata.BrokerRegistrationReply {
 +BrokerRegistrationReply(long) : BrokerRegistrationReply [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#11]]]
 +epoch() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationReply.java.html#15]]]

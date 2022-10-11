@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.LeaderAndEpoch
+"java.lang.Object" <|-- "org.apache.kafka.raft.LeaderAndEpoch"
 class org.apache.kafka.raft.LeaderAndEpoch {
 +LeaderAndEpoch(OptionalInt;int) : LeaderAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#12]]]
 +leaderId() : OptionalInt [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.html#17]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.util.TopicCreationGroup
+"java.lang.Object" <|-- "org.apache.kafka.connect.util.TopicCreationGroup"
 class org.apache.kafka.connect.util.TopicCreationGroup {
 TopicCreationGroup(String;SourceConnectorConfig) : TopicCreationGroup [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#27]]]
 +configuredGroups(SourceConnectorConfig) : Map<String,TopicCreationGroup> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#37]]]

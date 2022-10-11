@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult"
 class org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult {
 DescribeReplicaLogDirsResult(Map<TopicPartitionReplica,KafkaFuture<ReplicaLogDirInfo>>) : DescribeReplicaLogDirsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#20]]]
 +values() : Map<TopicPartitionReplica,KafkaFuture<ReplicaLogDirInfo>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeReplicaLogDirsResult.java.html#25]]]

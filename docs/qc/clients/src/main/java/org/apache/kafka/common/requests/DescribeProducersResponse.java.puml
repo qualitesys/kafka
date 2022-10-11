@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.DescribeProducersResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.DescribeProducersResponse"
 class org.apache.kafka.common.requests.DescribeProducersResponse {
 +DescribeProducersResponse(DescribeProducersResponseData) : DescribeProducersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersResponse.java.html#18]]]
 +data() : DescribeProducersResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeProducersResponse.java.html#24]]]

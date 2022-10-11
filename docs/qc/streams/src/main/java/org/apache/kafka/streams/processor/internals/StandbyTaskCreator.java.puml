@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StandbyTaskCreator
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StandbyTaskCreator"
 class org.apache.kafka.streams.processor.internals.StandbyTaskCreator {
 StandbyTaskCreator(TopologyMetadata;StreamsConfig;StreamsMetricsImpl;StateDirectory;ChangelogReader;String;Logger) : StandbyTaskCreator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#38]]]
 removeRevokedUnknownTasks(Set<TaskId>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#61]]]

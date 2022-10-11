@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskSpec <|-- org.apache.kafka.trogdor.workload.ConsumeBenchSpec
+"TaskSpec" <|-- "org.apache.kafka.trogdor.workload.ConsumeBenchSpec"
 class org.apache.kafka.trogdor.workload.ConsumeBenchSpec {
 +ConsumeBenchSpec(long;long;String;String;int;long;String;Map<String,String>;Map<String,String>;Map<String,String>;Integer;Optional<RecordProcessor>;List<String>) : ConsumeBenchSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#42]]]
 +consumerNode() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#70]]]

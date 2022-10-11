@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MetricsReporter <|-- org.apache.kafka.common.metrics.JmxReporter
+"MetricsReporter" <|-- "org.apache.kafka.common.metrics.JmxReporter"
 class org.apache.kafka.common.metrics.JmxReporter {
 +JmxReporter() : JmxReporter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#59]]]
 +JmxReporter(String) : JmxReporter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#65]]]

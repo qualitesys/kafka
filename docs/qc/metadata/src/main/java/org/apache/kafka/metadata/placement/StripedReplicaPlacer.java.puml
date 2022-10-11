@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReplicaPlacer <|-- org.apache.kafka.metadata.placement.StripedReplicaPlacer
+"ReplicaPlacer" <|-- "org.apache.kafka.metadata.placement.StripedReplicaPlacer"
 class org.apache.kafka.metadata.placement.StripedReplicaPlacer {
 -throwInvalidReplicationFactorIfNonPositive(int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#234]]]
 -throwInvalidReplicationFactorIfZero(int) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#241]]]

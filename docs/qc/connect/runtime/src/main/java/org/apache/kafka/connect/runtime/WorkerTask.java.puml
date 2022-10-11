@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Runnable <|-- org.apache.kafka.connect.runtime.WorkerTask
+"Runnable" <|-- "org.apache.kafka.connect.runtime.WorkerTask"
 class org.apache.kafka.connect.runtime.WorkerTask {
 +WorkerTask(ConnectorTaskId;TaskStatus.Listener;TargetState;ClassLoader;ConnectMetrics;RetryWithToleranceOperator;Time;StatusBackingStore) : WorkerTask [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#44]]]
 +id() : ConnectorTaskId [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#65]]]

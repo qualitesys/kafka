@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceTask <|-- org.apache.kafka.connect.mirror.MirrorHeartbeatTask
+"SourceTask" <|-- "org.apache.kafka.connect.mirror.MirrorHeartbeatTask"
 class org.apache.kafka.connect.mirror.MirrorHeartbeatTask {
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#25]]]
 +commit() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#35]]]

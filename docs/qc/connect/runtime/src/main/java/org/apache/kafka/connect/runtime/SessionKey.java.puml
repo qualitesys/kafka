@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.SessionKey
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.SessionKey"
 class org.apache.kafka.connect.runtime.SessionKey {
 +SessionKey(SecretKey;long) : SessionKey [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#14]]]
 +key() : SecretKey [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#20]]]

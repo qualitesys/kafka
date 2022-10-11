@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminApiHandler
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.AdminApiHandler"
 class org.apache.kafka.clients.admin.internals.AdminApiHandler {
 apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#18]]]
 buildRequest(int;Set<K>) : Collection<RequestAndKeys<K>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#21]]]

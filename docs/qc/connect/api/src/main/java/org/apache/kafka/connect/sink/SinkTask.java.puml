@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Task <|-- org.apache.kafka.connect.sink.SinkTask
+"Task" <|-- "org.apache.kafka.connect.sink.SinkTask"
 class org.apache.kafka.connect.sink.SinkTask {
 +initialize(SinkTaskContext) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#23]]]
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#29]]]

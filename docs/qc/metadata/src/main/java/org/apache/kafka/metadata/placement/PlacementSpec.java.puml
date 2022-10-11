@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.placement.PlacementSpec
+"java.lang.Object" <|-- "org.apache.kafka.metadata.placement.PlacementSpec"
 class org.apache.kafka.metadata.placement.PlacementSpec {
 +PlacementSpec(int;int;short) : PlacementSpec [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#19]]]
 +startPartition() : int [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/PlacementSpec.java.html#29]]]

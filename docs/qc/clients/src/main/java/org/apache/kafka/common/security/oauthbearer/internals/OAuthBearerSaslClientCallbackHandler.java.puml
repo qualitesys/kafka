@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler
+"AuthenticateCallbackHandler" <|-- "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler"
 class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler {
 +configured() : boolean [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#35]]]
 +configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientCallbackHandler.java.html#40]]]

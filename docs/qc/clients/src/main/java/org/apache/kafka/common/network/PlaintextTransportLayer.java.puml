@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TransportLayer <|-- org.apache.kafka.common.network.PlaintextTransportLayer
+"TransportLayer" <|-- "org.apache.kafka.common.network.PlaintextTransportLayer"
 class org.apache.kafka.common.network.PlaintextTransportLayer {
 +PlaintextTransportLayer(SelectionKey) : PlaintextTransportLayer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#21]]]
 +ready() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#27]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.snapshot.Snapshots
+"java.lang.Object" <|-- "org.apache.kafka.snapshot.Snapshots"
 class org.apache.kafka.snapshot.Snapshots {
 snapshotDir(Path) : Path [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#36]]]
 filenameFromSnapshotId(OffsetAndEpoch) : String [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#40]]]

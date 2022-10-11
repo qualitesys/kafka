@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStoreBuilder_K,ValueAndTimestamp_V_,TimestampedWindowStore_K,V__ <|-- org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder
+"AbstractStoreBuilder<K,ValueAndTimestamp<V>,TimestampedWindowStore<K,V>>" <|-- "org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder"
 class org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder {
 +TimestampedWindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time) : TimestampedWindowStoreBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#35]]]
 +build() : TimestampedWindowStore<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#46]]]

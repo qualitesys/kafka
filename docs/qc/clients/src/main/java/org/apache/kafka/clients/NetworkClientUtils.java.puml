@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.NetworkClientUtils
+"java.lang.Object" <|-- "org.apache.kafka.clients.NetworkClientUtils"
 class org.apache.kafka.clients.NetworkClientUtils {
 -NetworkClientUtils() : NetworkClientUtils [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#15]]]
 +isReady(KafkaClient;Node;long) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#18]]]

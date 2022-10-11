@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ShutdownableThread <|-- kafka.examples.Consumer
+"ShutdownableThread" <|-- "kafka.examples.Consumer"
 class kafka.examples.Consumer {
 +Consumer(String;String;Optional<String>;boolean;int;CountDownLatch) : Consumer [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/Consumer.java.html#24]]]
 get() : KafkaConsumer<Integer,String> [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/Consumer.java.html#53]]]

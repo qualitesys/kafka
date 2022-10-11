@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.UnsupportedForMessageFormatException
+"ApiException" <|-- "org.apache.kafka.common.errors.UnsupportedForMessageFormatException"
 class org.apache.kafka.common.errors.UnsupportedForMessageFormatException {
 +UnsupportedForMessageFormatException(String) : UnsupportedForMessageFormatException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedForMessageFormatException.java.html#8]]]
 +UnsupportedForMessageFormatException(String;Throwable) : UnsupportedForMessageFormatException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnsupportedForMessageFormatException.java.html#12]]]

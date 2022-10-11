@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Processor_KIn,VIn,KOut,VOut_ <|-- org.apache.kafka.streams.processor.api.ContextualProcessor
+"Processor<KIn,VIn,KOut,VOut>" <|-- "org.apache.kafka.streams.processor.api.ContextualProcessor"
 class org.apache.kafka.streams.processor.api.ContextualProcessor {
 ContextualProcessor() : ContextualProcessor [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.html#9]]]
 +init(ProcessorContext<KOut,VOut>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.html#12]]]

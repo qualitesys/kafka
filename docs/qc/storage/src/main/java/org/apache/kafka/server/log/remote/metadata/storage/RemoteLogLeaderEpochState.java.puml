@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState
+"java.lang.Object" <|-- "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState"
 class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState {
 listAllRemoteLogSegments(Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>) : Iterator<RemoteLogSegmentMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#32]]]
 -collectConvertedIdToMetadata(Collection<RemoteLogSegmentId>;Map<RemoteLogSegmentId,RemoteLogSegmentMetadata>;Collection<RemoteLogSegmentMetadata>) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#53]]]

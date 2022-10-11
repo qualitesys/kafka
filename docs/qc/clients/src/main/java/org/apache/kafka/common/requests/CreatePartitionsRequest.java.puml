@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.CreatePartitionsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.CreatePartitionsRequest"
 class org.apache.kafka.common.requests.CreatePartitionsRequest {
 CreatePartitionsRequest(CreatePartitionsRequestData;short) : CreatePartitionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#38]]]
 +data() : CreatePartitionsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/CreatePartitionsRequest.java.html#44]]]

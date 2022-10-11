@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RemoteLogMetadata <|-- org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadata
+"RemoteLogMetadata" <|-- "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadata"
 class org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadata {
 +RemoteLogSegmentMetadata(RemoteLogSegmentId;long;long;long;int;long;int;RemoteLogSegmentState;Map<Integer,Long>) : RemoteLogSegmentMetadata [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentMetadata.java.html#39]]]
 +RemoteLogSegmentMetadata(RemoteLogSegmentId;long;long;long;int;long;int;Map<Integer,Long>) : RemoteLogSegmentMetadata [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentMetadata.java.html#65]]]

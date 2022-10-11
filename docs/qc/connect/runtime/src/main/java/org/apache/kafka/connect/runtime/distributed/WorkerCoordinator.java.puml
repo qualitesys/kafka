@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractCoordinatorCloseable <|-- org.apache.kafka.connect.runtime.distributed.WorkerCoordinator
+"AbstractCoordinatorCloseable" <|-- "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator"
 class org.apache.kafka.connect.runtime.distributed.WorkerCoordinator {
 +WorkerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;Metrics;String;Time;String;ConfigBackingStore;WorkerRebalanceListener;ConnectProtocolCompatibility;int) : WorkerCoordinator [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#52]]]
 +requestRejoin(String) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#85]]]

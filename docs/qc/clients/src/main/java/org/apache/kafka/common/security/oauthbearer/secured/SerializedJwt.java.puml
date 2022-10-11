@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt"
 class org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt {
 +SerializedJwt(String) : SerializedJwt [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#17]]]
 +getToken() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#40]]]

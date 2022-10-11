@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.DeleteGroupsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.DeleteGroupsRequest"
 class org.apache.kafka.common.requests.DeleteGroupsRequest {
 +DeleteGroupsRequest(DeleteGroupsRequestData;short) : DeleteGroupsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#36]]]
 +getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#42]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BaseRecords <|-- org.apache.kafka.common.record.TransferableRecords
+"BaseRecords" <|-- "org.apache.kafka.common.record.TransferableRecords"
 class org.apache.kafka.common.record.TransferableRecords {
 writeTo(TransferableChannel;long;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.html#12]]]
 } 

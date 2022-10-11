@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InvalidMetadataException <|-- org.apache.kafka.common.errors.KafkaStorageException
+"InvalidMetadataException" <|-- "org.apache.kafka.common.errors.KafkaStorageException"
 class org.apache.kafka.common.errors.KafkaStorageException {
 +KafkaStorageException() : KafkaStorageException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/KafkaStorageException.java.html#9]]]
 +KafkaStorageException(String) : KafkaStorageException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/KafkaStorageException.java.html#13]]]

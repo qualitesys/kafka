@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.timeline.SnapshotRegistry
+"java.lang.Object" <|-- "org.apache.kafka.timeline.SnapshotRegistry"
 class org.apache.kafka.timeline.SnapshotRegistry {
 +SnapshotRegistry(LogContext) : SnapshotRegistry [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#82]]]
 +iterator() : Iterator<Snapshot> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#87]]]

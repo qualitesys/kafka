@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StatusBackingStore <|-- org.apache.kafka.connect.storage.KafkaStatusBackingStore
+"StatusBackingStore" <|-- "org.apache.kafka.connect.storage.KafkaStatusBackingStore"
 class org.apache.kafka.connect.storage.KafkaStatusBackingStore {
 +KafkaStatusBackingStore(Time;Converter) : KafkaStatusBackingStore [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#105]]]
 +KafkaStatusBackingStore(Time;Converter;Supplier<TopicAdmin>) : KafkaStatusBackingStore [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#109]]]

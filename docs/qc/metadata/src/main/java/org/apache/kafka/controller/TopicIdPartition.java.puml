@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.TopicIdPartition
+"java.lang.Object" <|-- "org.apache.kafka.controller.TopicIdPartition"
 class org.apache.kafka.controller.TopicIdPartition {
 TopicIdPartition(Uuid;int) : TopicIdPartition [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#12]]]
 +topicId() : Uuid [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/TopicIdPartition.java.html#17]]]

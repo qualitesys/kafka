@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ExceptionMapper_Exception_ <|-- org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper
+"ExceptionMapper<Exception>" <|-- "org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper"
 class org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper {
 +toResponse(Exception) : Response [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectExceptionMapper.java.html#23]]]
 } 

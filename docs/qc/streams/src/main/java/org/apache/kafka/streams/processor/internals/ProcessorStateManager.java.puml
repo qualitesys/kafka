@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateManager <|-- org.apache.kafka.streams.processor.internals.ProcessorStateManager
+"StateManager" <|-- "org.apache.kafka.streams.processor.internals.ProcessorStateManager"
 class org.apache.kafka.streams.processor.internals.ProcessorStateManager {
 +storeChangelogTopic(String;String;String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#146]]]
 +ProcessorStateManager(TaskId;TaskType;boolean;LogContext;StateDirectory;ChangelogRegister;Map<String,String>;Collection<TopicPartition>) : ProcessorStateManager [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#155]]]

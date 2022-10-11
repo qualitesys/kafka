@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InvalidMetadataException <|-- org.apache.kafka.common.errors.EligibleLeadersNotAvailableException
+"InvalidMetadataException" <|-- "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException"
 class org.apache.kafka.common.errors.EligibleLeadersNotAvailableException {
 +EligibleLeadersNotAvailableException(String) : EligibleLeadersNotAvailableException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.html#6]]]
 +EligibleLeadersNotAvailableException(String;Throwable) : EligibleLeadersNotAvailableException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.html#10]]]

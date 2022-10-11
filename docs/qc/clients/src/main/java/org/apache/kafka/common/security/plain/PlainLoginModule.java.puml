@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-LoginModule <|-- org.apache.kafka.common.security.plain.PlainLoginModule
+"LoginModule" <|-- "org.apache.kafka.common.security.plain.PlainLoginModule"
 class org.apache.kafka.common.security.plain.PlainLoginModule {
 +initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#22]]]
 +login() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/plain/PlainLoginModule.java.html#32]]]

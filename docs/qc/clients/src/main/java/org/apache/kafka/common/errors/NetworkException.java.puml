@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InvalidMetadataException <|-- org.apache.kafka.common.errors.NetworkException
+"InvalidMetadataException" <|-- "org.apache.kafka.common.errors.NetworkException"
 class org.apache.kafka.common.errors.NetworkException {
 +NetworkException() : NetworkException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NetworkException.java.html#9]]]
 +NetworkException(String;Throwable) : NetworkException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NetworkException.java.html#13]]]

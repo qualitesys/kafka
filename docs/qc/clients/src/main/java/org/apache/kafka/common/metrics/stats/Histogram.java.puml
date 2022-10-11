@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.metrics.stats.Histogram
+"java.lang.Object" <|-- "org.apache.kafka.common.metrics.stats.Histogram"
 class org.apache.kafka.common.metrics.stats.Histogram {
 +Histogram(BinScheme) : Histogram [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#12]]]
 +record(double) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#18]]]

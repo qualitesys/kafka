@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.NamedCache
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.NamedCache"
 class org.apache.kafka.streams.state.internals.NamedCache {
 NamedCache(String;StreamsMetricsImpl) : NamedCache [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#43]]]
 name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#56]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SaslServer <|-- org.apache.kafka.common.security.scram.internals.ScramSaslServer
+"SaslServer" <|-- "org.apache.kafka.common.security.scram.internals.ScramSaslServer"
 class org.apache.kafka.common.security.scram.internals.ScramSaslServer {
 +ScramSaslServer(ScramMechanism;Map<String,?>;CallbackHandler) : ScramSaslServer [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#60]]]
 +evaluateResponse(byte[]) : byte[] [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#69]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult"
 class org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult {
 +RemoveNamedTopologyResult(KafkaFutureImpl<Void>) : RemoveNamedTopologyResult [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#17]]]
 +RemoveNamedTopologyResult(KafkaFutureImpl<Void>;String;Runnable) : RemoveNamedTopologyResult [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/RemoveNamedTopologyResult.java.html#24]]]

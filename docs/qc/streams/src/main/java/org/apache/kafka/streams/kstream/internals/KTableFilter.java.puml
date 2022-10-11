@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier_KIn,VIn,KIn,VIn_ <|-- org.apache.kafka.streams.kstream.internals.KTableFilter
+"KTableProcessorSupplier<KIn,VIn,KIn,VIn>" <|-- "org.apache.kafka.streams.kstream.internals.KTableFilter"
 class org.apache.kafka.streams.kstream.internals.KTableFilter {
 KTableFilter(KTableImpl<KIn,?,VIn>;Predicate<?superKIn,?superVIn>;boolean;String) : KTableFilter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#20]]]
 +get() : Processor<KIn,Change<VIn>,KIn,Change<VIn>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#33]]]

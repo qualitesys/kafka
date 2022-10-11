@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.server.common.ProducerIdsBlock
+"java.lang.Object" <|-- "org.apache.kafka.server.common.ProducerIdsBlock"
 class org.apache.kafka.server.common.ProducerIdsBlock {
 +ProducerIdsBlock(int;long;int) : ProducerIdsBlock [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#17]]]
 +assignedBrokerId() : int [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#24]]]

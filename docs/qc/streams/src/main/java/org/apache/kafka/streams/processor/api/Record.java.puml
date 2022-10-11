@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.api.Record
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.api.Record"
 class org.apache.kafka.streams.processor.api.Record {
 +Record(K;V;long;Headers) : Record [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#18]]]
 +Record(K;V;long) : Record [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html#32]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MemoryPool <|-- org.apache.kafka.common.memory.SimpleMemoryPool
+"MemoryPool" <|-- "org.apache.kafka.common.memory.SimpleMemoryPool"
 class org.apache.kafka.common.memory.SimpleMemoryPool {
 +SimpleMemoryPool(long;int;boolean;Sensor) : SimpleMemoryPool [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#24]]]
 +tryAllocate(int) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#36]]]

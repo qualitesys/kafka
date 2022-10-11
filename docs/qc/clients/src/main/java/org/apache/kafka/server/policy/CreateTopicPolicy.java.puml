@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.server.policy.CreateTopicPolicy
+"Configurable" <|-- "org.apache.kafka.server.policy.CreateTopicPolicy"
 class org.apache.kafka.server.policy.CreateTopicPolicy {
 validate(RequestMetadata) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#87]]]
 } 

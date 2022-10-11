@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskSpec <|-- org.apache.kafka.trogdor.workload.SustainedConnectionSpec
+"TaskSpec" <|-- "org.apache.kafka.trogdor.workload.SustainedConnectionSpec"
 class org.apache.kafka.trogdor.workload.SustainedConnectionSpec {
 +SustainedConnectionSpec(long;long;String;String;Map<String,String>;Map<String,String>;Map<String,String>;Map<String,String>;PayloadGenerator;PayloadGenerator;int;int;int;String;int;int) : SustainedConnectionSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#32]]]
 +clientNode() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#67]]]

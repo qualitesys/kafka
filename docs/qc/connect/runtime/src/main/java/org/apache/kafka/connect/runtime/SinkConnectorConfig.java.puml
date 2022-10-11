@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectorConfig <|-- org.apache.kafka.connect.runtime.SinkConnectorConfig
+"ConnectorConfig" <|-- "org.apache.kafka.connect.runtime.SinkConnectorConfig"
 class org.apache.kafka.connect.runtime.SinkConnectorConfig {
 +configDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#63]]]
 +SinkConnectorConfig(Plugins;Map<String,String>) : SinkConnectorConfig [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#67]]]

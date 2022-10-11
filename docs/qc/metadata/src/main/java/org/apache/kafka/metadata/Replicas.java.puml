@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.Replicas
+"java.lang.Object" <|-- "org.apache.kafka.metadata.Replicas"
 class org.apache.kafka.metadata.Replicas {
 +toList(int[]) : List<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#17]]]
 +toArray(List<Integer>) : int[] [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#27]]]

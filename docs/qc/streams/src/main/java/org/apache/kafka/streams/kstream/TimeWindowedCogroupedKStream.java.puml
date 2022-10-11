@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.TimeWindowedCogroupedKStream
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.TimeWindowedCogroupedKStream"
 class org.apache.kafka.streams.kstream.TimeWindowedCogroupedKStream {
 aggregate(Initializer<V>) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#20]]]
 aggregate(Initializer<V>;Named) : KTable<Windowed<K>,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedCogroupedKStream.java.html#23]]]

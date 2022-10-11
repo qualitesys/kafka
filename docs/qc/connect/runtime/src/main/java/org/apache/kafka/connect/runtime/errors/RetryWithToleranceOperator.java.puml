@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator
+"AutoCloseable" <|-- "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator"
 class org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator {
 +RetryWithToleranceOperator(long;long;ToleranceType;Time) : RetryWithToleranceOperator [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#45]]]
 RetryWithToleranceOperator(long;long;ToleranceType;Time;ProcessingContext) : RetryWithToleranceOperator [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#50]]]

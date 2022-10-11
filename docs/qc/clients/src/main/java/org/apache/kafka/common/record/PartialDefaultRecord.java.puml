@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-DefaultRecord <|-- org.apache.kafka.common.record.PartialDefaultRecord
+"DefaultRecord" <|-- "org.apache.kafka.common.record.PartialDefaultRecord"
 class org.apache.kafka.common.record.PartialDefaultRecord {
 PartialDefaultRecord(int;byte;long;long;int;int;int) : PartialDefaultRecord [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#13]]]
 +equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#27]]]

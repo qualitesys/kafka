@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.TopicStatus
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.TopicStatus"
 class org.apache.kafka.connect.runtime.TopicStatus {
 +TopicStatus(String;ConnectorTaskId;long) : TopicStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#15]]]
 +TopicStatus(String;String;int;long) : TopicStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicStatus.java.html#19]]]

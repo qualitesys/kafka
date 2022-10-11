@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-URLClassLoader <|-- org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader
+"URLClassLoader" <|-- "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"
 class org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader {
 +DelegatingClassLoader(List<String>;ClassLoader) : DelegatingClassLoader [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#85]]]
 +DelegatingClassLoader(List<String>) : DelegatingClassLoader [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#101]]]

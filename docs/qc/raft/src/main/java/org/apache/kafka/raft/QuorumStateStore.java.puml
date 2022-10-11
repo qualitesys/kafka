@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.QuorumStateStore
+"java.lang.Object" <|-- "org.apache.kafka.raft.QuorumStateStore"
 class org.apache.kafka.raft.QuorumStateStore {
 readElectionState() : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#11]]]
 writeElectionState(ElectionState) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#14]]]

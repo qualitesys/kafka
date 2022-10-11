@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configuration <|-- org.apache.kafka.common.security.JaasConfig
+"Configuration" <|-- "org.apache.kafka.common.security.JaasConfig"
 class org.apache.kafka.common.security.JaasConfig {
 +JaasConfig(String;String) : JaasConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasConfig.java.html#26]]]
 +getAppConfigurationEntry(String) : AppConfigurationEntry[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasConfig.java.html#50]]]

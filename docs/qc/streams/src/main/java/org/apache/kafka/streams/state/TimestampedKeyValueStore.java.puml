@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueStore_K,ValueAndTimestamp_V__ <|-- org.apache.kafka.streams.state.TimestampedKeyValueStore
+"KeyValueStore<K,ValueAndTimestamp<V>>" <|-- "org.apache.kafka.streams.state.TimestampedKeyValueStore"
 class org.apache.kafka.streams.state.TimestampedKeyValueStore {
 } 
 @enduml

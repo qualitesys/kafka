@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.TimestampedBytesStore
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.TimestampedBytesStore"
 class org.apache.kafka.streams.state.TimestampedBytesStore {
 convertToTimestampedFormat(byte[]) : byte[] [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/TimestampedBytesStore.java.html#9]]]
 } 

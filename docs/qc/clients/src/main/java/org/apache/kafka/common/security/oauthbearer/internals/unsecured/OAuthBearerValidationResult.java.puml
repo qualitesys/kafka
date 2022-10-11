@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializable <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult
+"Serializable" <|-- "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult"
 class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult {
 +newSuccess() : OAuthBearerValidationResult [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#15]]]
 +newFailure(String) : OAuthBearerValidationResult [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationResult.java.html#20]]]

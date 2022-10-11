@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SinkTask <|-- org.apache.kafka.connect.tools.VerifiableSinkTask
+"SinkTask" <|-- "org.apache.kafka.connect.tools.VerifiableSinkTask"
 class org.apache.kafka.connect.tools.VerifiableSinkTask {
 +version() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#31]]]
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#36]]]

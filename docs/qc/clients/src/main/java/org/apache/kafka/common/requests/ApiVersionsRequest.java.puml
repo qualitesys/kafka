@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.ApiVersionsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.ApiVersionsRequest"
 class org.apache.kafka.common.requests.ApiVersionsRequest {
 +ApiVersionsRequest(ApiVersionsRequestData;short) : ApiVersionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#49]]]
 +ApiVersionsRequest(ApiVersionsRequestData;short;Short) : ApiVersionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsRequest.java.html#53]]]

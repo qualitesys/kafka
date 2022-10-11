@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.LeftOrRightValue
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.LeftOrRightValue"
 class org.apache.kafka.streams.state.internals.LeftOrRightValue {
 -LeftOrRightValue(V1;V2) : LeftOrRightValue [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#11]]]
 +getLeftValue() : V1 [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.html#40]]]

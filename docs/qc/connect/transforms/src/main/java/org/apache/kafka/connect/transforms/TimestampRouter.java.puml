@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.TimestampRouter
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.TimestampRouter"
 class org.apache.kafka.connect.transforms.TimestampRouter {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#43]]]
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#57]]]

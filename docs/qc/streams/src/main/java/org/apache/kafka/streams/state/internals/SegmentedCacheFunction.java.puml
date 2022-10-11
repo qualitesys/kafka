@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-CacheFunction <|-- org.apache.kafka.streams.state.internals.SegmentedCacheFunction
+"CacheFunction" <|-- "org.apache.kafka.streams.state.internals.SegmentedCacheFunction"
 class org.apache.kafka.streams.state.internals.SegmentedCacheFunction {
 SegmentedCacheFunction(KeySchema;long) : SegmentedCacheFunction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#17]]]
 +key(Bytes) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#23]]]

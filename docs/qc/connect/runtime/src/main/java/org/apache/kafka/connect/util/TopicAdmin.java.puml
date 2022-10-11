@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.util.TopicAdmin
+"AutoCloseable" <|-- "org.apache.kafka.connect.util.TopicAdmin"
 class org.apache.kafka.connect.util.TopicAdmin {
 +defineTopic(String) : NewTopicBuilder [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#194]]]
 +TopicAdmin(Map<String,Object>) : TopicAdmin [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#204]]]

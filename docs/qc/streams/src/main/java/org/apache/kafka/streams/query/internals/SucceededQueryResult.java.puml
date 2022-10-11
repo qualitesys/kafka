@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractQueryResult_R_QueryResult_R_ <|-- org.apache.kafka.streams.query.internals.SucceededQueryResult
+"AbstractQueryResult<R>QueryResult<R>" <|-- "org.apache.kafka.streams.query.internals.SucceededQueryResult"
 class org.apache.kafka.streams.query.internals.SucceededQueryResult {
 +SucceededQueryResult(R) : SucceededQueryResult [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#19]]]
 SucceededQueryResult(R;List<String>;Position) : SucceededQueryResult [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#24]]]

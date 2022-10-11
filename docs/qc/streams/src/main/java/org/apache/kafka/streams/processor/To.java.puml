@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.To
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.To"
 class org.apache.kafka.streams.processor.To {
 -To(String;long) : To [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/To.java.html#11]]]
 To(To) : To [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/To.java.html#17]]]

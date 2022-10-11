@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConfigBackingStore <|-- org.apache.kafka.connect.storage.MemoryConfigBackingStore
+"ConfigBackingStore" <|-- "org.apache.kafka.connect.storage.MemoryConfigBackingStore"
 class org.apache.kafka.connect.storage.MemoryConfigBackingStore {
 +MemoryConfigBackingStore() : MemoryConfigBackingStore [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#24]]]
 +MemoryConfigBackingStore(WorkerConfigTransformer) : MemoryConfigBackingStore [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#27]]]

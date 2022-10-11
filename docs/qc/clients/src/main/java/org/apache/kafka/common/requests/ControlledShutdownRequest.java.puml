@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.ControlledShutdownRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.ControlledShutdownRequest"
 class org.apache.kafka.common.requests.ControlledShutdownRequest {
 -ControlledShutdownRequest(ControlledShutdownRequestData;short) : ControlledShutdownRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownRequest.java.html#36]]]
 +getErrorResponse(int;Throwable) : ControlledShutdownResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownRequest.java.html#42]]]

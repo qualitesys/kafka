@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.agent.AgentRestResource
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.agent.AgentRestResource"
 class org.apache.kafka.trogdor.agent.AgentRestResource {
 +setAgent(Agent) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#34]]]
 +getStatus() : AgentStatusResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.html#40]]]

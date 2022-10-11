@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.config.SecurityConfig
+"java.lang.Object" <|-- "org.apache.kafka.common.config.SecurityConfig"
 class org.apache.kafka.common.config.SecurityConfig {
 } 
 @enduml

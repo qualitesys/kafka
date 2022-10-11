@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReplicationPolicy <|-- org.apache.kafka.connect.mirror.DefaultReplicationPolicy
+"ReplicationPolicy" <|-- "org.apache.kafka.connect.mirror.DefaultReplicationPolicy"
 class org.apache.kafka.connect.mirror.DefaultReplicationPolicy {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#25]]]
 +formatRemoteTopic(String;String) : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#34]]]

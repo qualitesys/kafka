@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaAlteration
+"java.lang.Object" <|-- "org.apache.kafka.common.quota.ClientQuotaAlteration"
 class org.apache.kafka.common.quota.ClientQuotaAlteration {
 +ClientQuotaAlteration(ClientQuotaEntity;Collection<Op>) : ClientQuotaAlteration [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaAlteration.java.html#54]]]
 +entity() : ClientQuotaEntity [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaAlteration.java.html#60]]]

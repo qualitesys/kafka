@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractProcessorContext_Object,Object_RecordCollector.Supplier <|-- org.apache.kafka.streams.processor.internals.ProcessorContextImpl
+"AbstractProcessorContext<Object,Object>RecordCollector.Supplier" <|-- "org.apache.kafka.streams.processor.internals.ProcessorContextImpl"
 class org.apache.kafka.streams.processor.internals.ProcessorContextImpl {
 +ProcessorContextImpl(TaskId;StreamsConfig;ProcessorStateManager;StreamsMetricsImpl;ThreadCache) : ProcessorContextImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#47]]]
 +transitionToActive(StreamTask;RecordCollector;ThreadCache) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#61]]]

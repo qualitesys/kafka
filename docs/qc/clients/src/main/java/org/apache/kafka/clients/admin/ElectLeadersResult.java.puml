@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ElectLeadersResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ElectLeadersResult"
 class org.apache.kafka.clients.admin.ElectLeadersResult {
 ElectLeadersResult(KafkaFuture<Map<TopicPartition,Optional<Throwable>>>) : ElectLeadersResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#21]]]
 +partitions() : KafkaFuture<Map<TopicPartition,Optional<Throwable>>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ElectLeadersResult.java.html#26]]]

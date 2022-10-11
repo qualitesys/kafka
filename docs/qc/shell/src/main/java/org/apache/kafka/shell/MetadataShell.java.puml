@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.shell.MetadataShell
+"java.lang.Object" <|-- "org.apache.kafka.shell.MetadataShell"
 class org.apache.kafka.shell.MetadataShell {
 +MetadataShell(KafkaRaftManager<ApiMessageAndVersion>;SnapshotFileReader;MetadataNodeManager) : MetadataShell [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#69]]]
 +run(List<String>) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#77]]]

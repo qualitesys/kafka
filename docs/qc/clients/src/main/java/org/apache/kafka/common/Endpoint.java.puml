@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.Endpoint
+"java.lang.Object" <|-- "org.apache.kafka.common.Endpoint"
 class org.apache.kafka.common.Endpoint {
 +Endpoint(String;SecurityProtocol;String;int) : Endpoint [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#20]]]
 +listenerName() : Optional<String> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#28]]]

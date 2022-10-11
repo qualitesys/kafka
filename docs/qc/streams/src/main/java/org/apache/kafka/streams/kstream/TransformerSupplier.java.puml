@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectedStoreProvider <|-- org.apache.kafka.streams.kstream.TransformerSupplier
+"ConnectedStoreProvider" <|-- "org.apache.kafka.streams.kstream.TransformerSupplier"
 class org.apache.kafka.streams.kstream.TransformerSupplier {
 get() : Transformer<K,V,R> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TransformerSupplier.java.html#13]]]
 } 

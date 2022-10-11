@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InternalTopicConfig <|-- org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig
+"InternalTopicConfig" <|-- "org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig"
 class org.apache.kafka.streams.processor.internals.WindowedChangelogTopicConfig {
 WindowedChangelogTopicConfig(String;Map<String,String>) : WindowedChangelogTopicConfig [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#22]]]
 +getProperties(Map<String,String>;long) : Map<String,String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/WindowedChangelogTopicConfig.java.html#28]]]

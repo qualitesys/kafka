@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SnapshotReader_T_ <|-- org.apache.kafka.snapshot.RecordsSnapshotReader
+"SnapshotReader<T>" <|-- "org.apache.kafka.snapshot.RecordsSnapshotReader"
 class org.apache.kafka.snapshot.RecordsSnapshotReader {
 -RecordsSnapshotReader(OffsetAndEpoch;RecordsIterator<T>) : RecordsSnapshotReader [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#22]]]
 +snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#31]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Initable <|-- org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks
+"Initable" <|-- "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks"
 class org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks {
 +RefreshingHttpsJwks(Time;HttpsJwks;long;long;long) : RefreshingHttpsJwks [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#74]]]
 +init() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#97]]]

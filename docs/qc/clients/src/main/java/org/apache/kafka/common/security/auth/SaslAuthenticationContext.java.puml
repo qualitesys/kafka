@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AuthenticationContext <|-- org.apache.kafka.common.security.auth.SaslAuthenticationContext
+"AuthenticationContext" <|-- "org.apache.kafka.common.security.auth.SaslAuthenticationContext"
 class org.apache.kafka.common.security.auth.SaslAuthenticationContext {
 +SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String) : SaslAuthenticationContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#17]]]
 +SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional<SSLSession>) : SaslAuthenticationContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#21]]]

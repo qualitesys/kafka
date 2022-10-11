@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.workload.Throttle
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.workload.Throttle"
 class org.apache.kafka.trogdor.workload.Throttle {
 Throttle(int;int) : Throttle [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#14]]]
 +increment() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#22]]]

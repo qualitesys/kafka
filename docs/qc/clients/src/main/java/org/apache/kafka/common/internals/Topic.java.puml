@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.internals.Topic
+"java.lang.Object" <|-- "org.apache.kafka.common.internals.Topic"
 class org.apache.kafka.common.internals.Topic {
 +validate(String) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#25]]]
 +validate(String;String;Consumer<String>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#31]]]

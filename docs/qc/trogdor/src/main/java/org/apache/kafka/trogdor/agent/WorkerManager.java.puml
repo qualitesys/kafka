@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.agent.WorkerManager
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.agent.WorkerManager"
 class org.apache.kafka.trogdor.agent.WorkerManager {
 WorkerManager(Platform;Scheduler) : WorkerManager [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#115]]]
 +createWorker(long;String;TaskSpec) : KafkaFuture<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#246]]]

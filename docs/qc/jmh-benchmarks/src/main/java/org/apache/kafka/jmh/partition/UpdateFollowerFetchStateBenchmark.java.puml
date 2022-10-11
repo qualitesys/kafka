@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark"
 class org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark {
 +setUp() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/UpdateFollowerFetchStateBenchmark.java.html#72]]]
 +tearDown() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/UpdateFollowerFetchStateBenchmark.java.html#135]]]

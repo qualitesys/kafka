@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.ValidOffsetAndEpoch
+"java.lang.Object" <|-- "org.apache.kafka.raft.ValidOffsetAndEpoch"
 class org.apache.kafka.raft.ValidOffsetAndEpoch {
 -ValidOffsetAndEpoch(Kind;OffsetAndEpoch) : ValidOffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#10]]]
 +kind() : Kind [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#15]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.connect.rest.ConnectRestExtension
+"Configurable" <|-- "org.apache.kafka.connect.rest.ConnectRestExtension"
 class org.apache.kafka.connect.rest.ConnectRestExtension {
 register(ConnectRestExtensionContext) : void [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtension.java.html#16]]]
 } 

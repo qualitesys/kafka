@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MetricsReporter <|-- org.apache.kafka.tools.PushHttpMetricsReporter
+"MetricsReporter" <|-- "org.apache.kafka.tools.PushHttpMetricsReporter"
 class org.apache.kafka.tools.PushHttpMetricsReporter {
 +PushHttpMetricsReporter() : PushHttpMetricsReporter [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#77]]]
 PushHttpMetricsReporter(Time;ScheduledExecutorService) : PushHttpMetricsReporter [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#82]]]

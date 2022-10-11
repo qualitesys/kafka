@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ListOffsetsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ListOffsetsResult"
 class org.apache.kafka.clients.admin.ListOffsetsResult {
 +ListOffsetsResult(Map<TopicPartition,KafkaFuture<ListOffsetsResultInfo>>) : ListOffsetsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#19]]]
 +partitionResult(TopicPartition) : KafkaFuture<ListOffsetsResultInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsResult.java.html#24]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Exit
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Exit"
 class org.apache.kafka.common.utils.Exit {
 +exit(int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#43]]]
 +exit(int;String) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Exit.java.html#47]]]

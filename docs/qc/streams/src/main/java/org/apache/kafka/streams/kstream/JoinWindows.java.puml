@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Windows_Window_ <|-- org.apache.kafka.streams.kstream.JoinWindows
+"Windows<Window>" <|-- "org.apache.kafka.streams.kstream.JoinWindows"
 class org.apache.kafka.streams.kstream.JoinWindows {
 JoinWindows(JoinWindows) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#26]]]
 -JoinWindows(long;long;long;boolean) : JoinWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#30]]]

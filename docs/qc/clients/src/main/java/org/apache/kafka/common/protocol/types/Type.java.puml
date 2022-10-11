@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.types.Type
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.types.Type"
 class org.apache.kafka.common.protocol.types.Type {
 +write(ByteBuffer;Object) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#17]]]
 +read(ByteBuffer) : Object [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.html#20]]]

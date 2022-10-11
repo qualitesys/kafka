@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BaseRepartitionNode_K,V_ <|-- org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode
+"BaseRepartitionNode<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode"
 class org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode {
 -GroupedTableOperationRepartitionNode(String;Serde<K>;Serde<V>;String;String;String;ProcessorParameters<K,V,?,?>) : GroupedTableOperationRepartitionNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#17]]]
 valueSerializer() : Serializer<V> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#39]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ChangelogRegister <|-- org.apache.kafka.streams.processor.internals.ChangelogReader
+"ChangelogRegister" <|-- "org.apache.kafka.streams.processor.internals.ChangelogReader"
 class org.apache.kafka.streams.processor.internals.ChangelogReader {
 restore(Map<TaskId,Task>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#13]]]
 enforceRestoreActive() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogReader.java.html#16]]]

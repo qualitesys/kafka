@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer_Windowed_T__ <|-- org.apache.kafka.streams.kstream.TimeWindowedDeserializer
+"Deserializer<Windowed<T>>" <|-- "org.apache.kafka.streams.kstream.TimeWindowedDeserializer"
 class org.apache.kafka.streams.kstream.TimeWindowedDeserializer {
 +TimeWindowedDeserializer() : TimeWindowedDeserializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#21]]]
 +TimeWindowedDeserializer(Deserializer<T>) : TimeWindowedDeserializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#26]]]

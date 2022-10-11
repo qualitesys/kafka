@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractConfig <|-- org.apache.kafka.streams.StreamsConfig
+"AbstractConfig" <|-- "org.apache.kafka.streams.StreamsConfig"
 class org.apache.kafka.streams.StreamsConfig {
 +consumerPrefix(String) : String [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#921]]]
 +mainConsumerPrefix(String) : String [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#927]]]

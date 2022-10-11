@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.transforms.util.Requirements
+"java.lang.Object" <|-- "org.apache.kafka.connect.transforms.util.Requirements"
 class org.apache.kafka.connect.transforms.util.Requirements {
 +requireSchema(Schema;String) : void [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#14]]]
 +requireMap(Object;String) : Map<String,Object> [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#21]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Thread <|-- org.apache.kafka.streams.processor.internals.StreamThread
+"Thread" <|-- "org.apache.kafka.streams.processor.internals.StreamThread"
 class org.apache.kafka.streams.processor.internals.StreamThread {
 +setStateListener(StreamThread.StateListener) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#99]]]
 +state() : State [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#104]]]

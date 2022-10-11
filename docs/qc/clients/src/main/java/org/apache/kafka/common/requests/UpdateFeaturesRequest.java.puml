@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.UpdateFeaturesRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.UpdateFeaturesRequest"
 class org.apache.kafka.common.requests.UpdateFeaturesRequest {
 +UpdateFeaturesRequest(UpdateFeaturesRequestData;short) : UpdateFeaturesRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#66]]]
 +getFeature(String) : FeatureUpdateItem [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#71]]]

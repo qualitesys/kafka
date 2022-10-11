@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.WriteTxnMarkersRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.WriteTxnMarkersRequest"
 class org.apache.kafka.common.requests.WriteTxnMarkersRequest {
 -WriteTxnMarkersRequest(WriteTxnMarkersRequestData;short) : WriteTxnMarkersRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#129]]]
 +data() : WriteTxnMarkersRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#135]]]

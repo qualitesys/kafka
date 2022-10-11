@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier_K,V1,K,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin
+"KTableProcessorSupplier<K,V1,K,VOut>" <|-- "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin"
 class org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoin {
 KTableKTableAbstractJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>) : KTableKTableAbstractJoin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.html#17]]]
 +enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoin.java.html#28]]]

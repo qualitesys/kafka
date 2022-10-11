@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- kafka.tools.StreamsResetter
+"java.lang.Object" <|-- "kafka.tools.StreamsResetter"
 class kafka.tools.StreamsResetter {
 +run(String[]) : int [[[./../../../../../../.././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#99]]]
 +run(String[];Properties) : int [[[./../../../../../../.././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#103]]]

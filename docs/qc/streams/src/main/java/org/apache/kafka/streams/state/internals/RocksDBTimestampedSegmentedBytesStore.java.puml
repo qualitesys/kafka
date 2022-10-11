@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRocksDBSegmentedBytesStore_TimestampedSegment_ <|-- org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore
+"AbstractRocksDBSegmentedBytesStore<TimestampedSegment>" <|-- "org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore"
 class org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore {
 RocksDBTimestampedSegmentedBytesStore(String;String;long;long;KeySchema) : RocksDBTimestampedSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedSegmentedBytesStore.java.html#6]]]
 } 

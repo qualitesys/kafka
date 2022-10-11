@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_CreateDelegationTokenOptions_ <|-- org.apache.kafka.clients.admin.CreateDelegationTokenOptions
+"AbstractOptions<CreateDelegationTokenOptions>" <|-- "org.apache.kafka.clients.admin.CreateDelegationTokenOptions"
 class org.apache.kafka.clients.admin.CreateDelegationTokenOptions {
 +renewers(List<KafkaPrincipal>) : CreateDelegationTokenOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#19]]]
 +renewers() : List<KafkaPrincipal> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#24]]]

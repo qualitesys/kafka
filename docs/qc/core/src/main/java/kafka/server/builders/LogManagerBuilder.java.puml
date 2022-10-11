@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- kafka.server.builders.LogManagerBuilder
+"java.lang.Object" <|-- "kafka.server.builders.LogManagerBuilder"
 class kafka.server.builders.LogManagerBuilder {
 +setLogDirs(List<File>) : LogManagerBuilder [[[./../../../../../../../.././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#41]]]
 +setInitialOfflineDirs(List<File>) : LogManagerBuilder [[[./../../../../../../../.././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#46]]]

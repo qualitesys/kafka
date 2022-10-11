@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.PartitionGrouper
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.PartitionGrouper"
 class org.apache.kafka.streams.processor.internals.PartitionGrouper {
 +partitionGroups(Map<Subtopology,Set<String>>;Cluster) : Map<TaskId,Set<TopicPartition>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#26]]]
 maxNumPartitions(Cluster;Set<String>) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#52]]]

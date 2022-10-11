@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectException <|-- org.apache.kafka.connect.errors.RetriableException
+"ConnectException" <|-- "org.apache.kafka.connect.errors.RetriableException"
 class org.apache.kafka.connect.errors.RetriableException {
 +RetriableException(String) : RetriableException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/RetriableException.java.html#6]]]
 +RetriableException(String;Throwable) : RetriableException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/RetriableException.java.html#10]]]

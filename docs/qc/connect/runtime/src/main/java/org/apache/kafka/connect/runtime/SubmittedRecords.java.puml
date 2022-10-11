@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.SubmittedRecords
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.SubmittedRecords"
 class org.apache.kafka.connect.runtime.SubmittedRecords {
 +SubmittedRecords() : SubmittedRecords [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#28]]]
 +submit(SourceRecord) : SubmittedRecord [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#33]]]

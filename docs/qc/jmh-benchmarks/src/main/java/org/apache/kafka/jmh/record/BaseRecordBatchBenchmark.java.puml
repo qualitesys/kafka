@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.record.BaseRecordBatchBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.record.BaseRecordBatchBenchmark"
 class org.apache.kafka.jmh.record.BaseRecordBatchBenchmark {
 +init() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#66]]]
 -createHeaders() : Header[] [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#88]]]

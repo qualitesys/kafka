@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BaseRecords <|-- org.apache.kafka.common.record.LazyDownConversionRecords
+"BaseRecords" <|-- "org.apache.kafka.common.record.LazyDownConversionRecords"
 class org.apache.kafka.common.record.LazyDownConversionRecords {
 +LazyDownConversionRecords(TopicPartition;Records;byte;long;Time) : LazyDownConversionRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#23]]]
 +sizeInBytes() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#48]]]

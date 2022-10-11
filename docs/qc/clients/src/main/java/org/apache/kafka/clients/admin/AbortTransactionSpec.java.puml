@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.AbortTransactionSpec
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.AbortTransactionSpec"
 class org.apache.kafka.clients.admin.AbortTransactionSpec {
 +AbortTransactionSpec(TopicPartition;long;short;int) : AbortTransactionSpec [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionSpec.java.html#16]]]
 +topicPartition() : TopicPartition [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionSpec.java.html#28]]]

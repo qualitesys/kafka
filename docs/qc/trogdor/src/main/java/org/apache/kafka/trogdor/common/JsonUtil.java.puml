@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.common.JsonUtil
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.common.JsonUtil"
 class org.apache.kafka.trogdor.common.JsonUtil {
 +toJsonString(Object) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#28]]]
 +toPrettyJsonString(Object) : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#36]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Callback <|-- org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback
+"Callback" <|-- "org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback"
 class org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback {
 +OAuthBearerValidatorCallback(String) : OAuthBearerValidatorCallback [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#20]]]
 +tokenValue() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#27]]]

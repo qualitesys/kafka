@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.ApiVersionsResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.ApiVersionsResponse"
 class org.apache.kafka.common.requests.ApiVersionsResponse {
 +ApiVersionsResponse(ApiVersionsResponseData) : ApiVersionsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#34]]]
 +data() : ApiVersionsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#40]]]

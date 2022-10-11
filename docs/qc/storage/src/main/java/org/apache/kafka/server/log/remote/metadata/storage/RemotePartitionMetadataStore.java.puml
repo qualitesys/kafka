@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RemotePartitionMetadataEventHandlerCloseable <|-- org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore
+"RemotePartitionMetadataEventHandlerCloseable" <|-- "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore"
 class org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore {
 +RemotePartitionMetadataStore(Path) : RemotePartitionMetadataStore [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#39]]]
 +handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.html#44]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ChannelMetadataRegistry <|-- org.apache.kafka.common.network.DefaultChannelMetadataRegistry
+"ChannelMetadataRegistry" <|-- "org.apache.kafka.common.network.DefaultChannelMetadataRegistry"
 class org.apache.kafka.common.network.DefaultChannelMetadataRegistry {
 +registerCipherInformation(CipherInformation) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/DefaultChannelMetadataRegistry.java.html#9]]]
 +cipherInformation() : CipherInformation [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/DefaultChannelMetadataRegistry.java.html#16]]]

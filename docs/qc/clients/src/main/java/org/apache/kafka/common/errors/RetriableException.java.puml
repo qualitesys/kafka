@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.RetriableException
+"ApiException" <|-- "org.apache.kafka.common.errors.RetriableException"
 class org.apache.kafka.common.errors.RetriableException {
 +RetriableException(String;Throwable) : RetriableException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.html#9]]]
 +RetriableException(String) : RetriableException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.html#13]]]

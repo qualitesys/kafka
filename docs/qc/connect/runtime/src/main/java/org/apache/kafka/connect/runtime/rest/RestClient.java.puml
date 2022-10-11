@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.RestClient
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.RestClient"
 class org.apache.kafka.connect.runtime.rest.RestClient {
 -addHeadersToRequest(HttpHeaders;Request) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.html#121]]]
 -convertHttpFieldsToMap(HttpFields) : Map<String,String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.html#131]]]

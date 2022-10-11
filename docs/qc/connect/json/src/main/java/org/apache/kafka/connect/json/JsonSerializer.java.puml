@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer_JsonNode_ <|-- org.apache.kafka.connect.json.JsonSerializer
+"Serializer<JsonNode>" <|-- "org.apache.kafka.connect.json.JsonSerializer"
 class org.apache.kafka.connect.json.JsonSerializer {
 +JsonSerializer() : JsonSerializer [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#19]]]
 JsonSerializer(Set<SerializationFeature>;JsonNodeFactory) : JsonSerializer [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#24]]]

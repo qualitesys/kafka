@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowedSerializer_T_ <|-- org.apache.kafka.streams.kstream.TimeWindowedSerializer
+"WindowedSerializer<T>" <|-- "org.apache.kafka.streams.kstream.TimeWindowedSerializer"
 class org.apache.kafka.streams.kstream.TimeWindowedSerializer {
 +TimeWindowedSerializer() : TimeWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#20]]]
 +TimeWindowedSerializer(Serializer<T>) : TimeWindowedSerializer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#22]]]

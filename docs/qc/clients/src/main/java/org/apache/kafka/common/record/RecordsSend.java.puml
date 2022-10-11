@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Send <|-- org.apache.kafka.common.record.RecordsSend
+"Send" <|-- "org.apache.kafka.common.record.RecordsSend"
 class org.apache.kafka.common.record.RecordsSend {
 RecordsSend(T;int) : RecordsSend [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#19]]]
 +completed() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#26]]]

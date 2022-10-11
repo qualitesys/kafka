@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WorkerTask <|-- org.apache.kafka.connect.runtime.AbstractWorkerSourceTask
+"WorkerTask" <|-- "org.apache.kafka.connect.runtime.AbstractWorkerSourceTask"
 class org.apache.kafka.connect.runtime.AbstractWorkerSourceTask {
 prepareToInitializeTask() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#60]]]
 prepareToEnterSendLoop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#63]]]

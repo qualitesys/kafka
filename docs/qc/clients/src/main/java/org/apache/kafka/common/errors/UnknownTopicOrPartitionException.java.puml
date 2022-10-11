@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InvalidMetadataException <|-- org.apache.kafka.common.errors.UnknownTopicOrPartitionException
+"InvalidMetadataException" <|-- "org.apache.kafka.common.errors.UnknownTopicOrPartitionException"
 class org.apache.kafka.common.errors.UnknownTopicOrPartitionException {
 +UnknownTopicOrPartitionException() : UnknownTopicOrPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownTopicOrPartitionException.java.html#9]]]
 +UnknownTopicOrPartitionException(String) : UnknownTopicOrPartitionException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownTopicOrPartitionException.java.html#12]]]

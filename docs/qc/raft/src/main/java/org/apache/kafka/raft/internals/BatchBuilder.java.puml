@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.internals.BatchBuilder
+"java.lang.Object" <|-- "org.apache.kafka.raft.internals.BatchBuilder"
 class org.apache.kafka.raft.internals.BatchBuilder {
 +BatchBuilder(ByteBuffer;RecordSerde<T>;CompressionType;long;long;boolean;int;int) : BatchBuilder [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#44]]]
 +appendRecord(T;ObjectSerializationCache) : long [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#76]]]

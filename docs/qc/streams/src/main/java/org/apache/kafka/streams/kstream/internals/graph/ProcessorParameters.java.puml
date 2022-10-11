@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters"
 class org.apache.kafka.streams.kstream.internals.graph.ProcessorParameters {
 +ProcessorParameters(org.apache.kafka.streams.processor.ProcessorSupplier<KIn,VIn>;String) : ProcessorParameters [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#26]]]
 +ProcessorParameters(ProcessorSupplier<KIn,VIn,KOut,VOut>;String) : ProcessorParameters [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/ProcessorParameters.java.html#34]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ClientQuotasImage
+"java.lang.Object" <|-- "org.apache.kafka.image.ClientQuotasImage"
 class org.apache.kafka.image.ClientQuotasImage {
 +ClientQuotasImage(Map<ClientQuotaEntity,ClientQuotaImage>) : ClientQuotasImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#39]]]
 +isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#43]]]

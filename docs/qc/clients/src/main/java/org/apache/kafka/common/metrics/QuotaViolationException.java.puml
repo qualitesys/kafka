@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaException <|-- org.apache.kafka.common.metrics.QuotaViolationException
+"KafkaException" <|-- "org.apache.kafka.common.metrics.QuotaViolationException"
 class org.apache.kafka.common.metrics.QuotaViolationException {
 +QuotaViolationException(KafkaMetric;double;double) : QuotaViolationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#14]]]
 +metric() : KafkaMetric [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.html#20]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_DescribeConfigsOptions_ <|-- org.apache.kafka.clients.admin.DescribeConfigsOptions
+"AbstractOptions<DescribeConfigsOptions>" <|-- "org.apache.kafka.clients.admin.DescribeConfigsOptions"
 class org.apache.kafka.clients.admin.DescribeConfigsOptions {
 +timeoutMs(Integer) : DescribeConfigsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#18]]]
 +includeSynonyms() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#24]]]

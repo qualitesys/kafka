@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.ProducerBatch
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.ProducerBatch"
 class org.apache.kafka.clients.producer.internals.ProducerBatch {
 +ProducerBatch(TopicPartition;MemoryRecordsBuilder;long) : ProducerBatch [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#63]]]
 +ProducerBatch(TopicPartition;MemoryRecordsBuilder;long;boolean) : ProducerBatch [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#67]]]

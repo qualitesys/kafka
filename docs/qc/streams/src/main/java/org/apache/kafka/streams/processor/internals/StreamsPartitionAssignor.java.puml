@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConsumerPartitionAssignor <|-- org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor
+"ConsumerPartitionAssignor" <|-- "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor"
 class org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#181]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#210]]]

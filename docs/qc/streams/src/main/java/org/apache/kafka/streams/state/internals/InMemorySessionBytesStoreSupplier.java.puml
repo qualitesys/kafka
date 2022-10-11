@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SessionBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier
+"SessionBytesStoreSupplier" <|-- "org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier"
 class org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier {
 +InMemorySessionBytesStoreSupplier(String;long) : InMemorySessionBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#12]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#19]]]

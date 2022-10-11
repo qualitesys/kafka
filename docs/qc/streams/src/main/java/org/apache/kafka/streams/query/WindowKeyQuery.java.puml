@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Query_WindowStoreIterator_V__ <|-- org.apache.kafka.streams.query.WindowKeyQuery
+"Query<WindowStoreIterator<V>>" <|-- "org.apache.kafka.streams.query.WindowKeyQuery"
 class org.apache.kafka.streams.query.WindowKeyQuery {
 -WindowKeyQuery(K;Optional<Instant>;Optional<Instant>) : WindowKeyQuery [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#18]]]
 +getKey() : K [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.html#32]]]

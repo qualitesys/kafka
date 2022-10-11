@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.InMemoryWindowStore
+"WindowStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.InMemoryWindowStore"
 class org.apache.kafka.streams.state.internals.InMemoryWindowStore {
 +InMemoryWindowStore(String;long;long;boolean;String) : InMemoryWindowStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#70]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#84]]]

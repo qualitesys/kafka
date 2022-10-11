@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.mirror.OffsetSync
+"java.lang.Object" <|-- "org.apache.kafka.connect.mirror.OffsetSync"
 class org.apache.kafka.connect.mirror.OffsetSync {
 +OffsetSync(TopicPartition;long;long) : OffsetSync [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#31]]]
 +topicPartition() : TopicPartition [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#37]]]

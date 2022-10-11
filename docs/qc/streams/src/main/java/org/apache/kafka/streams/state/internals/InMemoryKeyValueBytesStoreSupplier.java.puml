@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier
+"KeyValueBytesStoreSupplier" <|-- "org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier"
 class org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier {
 +InMemoryKeyValueBytesStoreSupplier(String) : InMemoryKeyValueBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#12]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueBytesStoreSupplier.java.html#17]]]

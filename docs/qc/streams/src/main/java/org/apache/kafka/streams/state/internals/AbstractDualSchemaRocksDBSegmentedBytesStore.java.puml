@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SegmentedBytesStore <|-- org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore
+"SegmentedBytesStore" <|-- "org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore"
 class org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore {
 AbstractDualSchemaRocksDBSegmentedBytesStore(String;KeySchema;Optional<KeySchema>;AbstractSegments<S>) : AbstractDualSchemaRocksDBSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#51]]]
 +all() : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#62]]]

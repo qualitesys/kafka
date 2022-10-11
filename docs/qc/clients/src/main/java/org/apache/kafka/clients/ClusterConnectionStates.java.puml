@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.ClusterConnectionStates
+"java.lang.Object" <|-- "org.apache.kafka.clients.ClusterConnectionStates"
 class org.apache.kafka.clients.ClusterConnectionStates {
 +ClusterConnectionStates(long;long;long;long;LogContext;HostResolver) : ClusterConnectionStates [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#33]]]
 +canConnect(String;long) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#53]]]

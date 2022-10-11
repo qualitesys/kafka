@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.common.record.MemoryRecordsBuilder
+"AutoCloseable" <|-- "org.apache.kafka.common.record.MemoryRecordsBuilder"
 class org.apache.kafka.common.record.MemoryRecordsBuilder {
 +MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int;long) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#68]]]
 +MemoryRecordsBuilder(ByteBufferOutputStream;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int;int) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#124]]]

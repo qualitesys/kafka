@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult"
 class org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult {
 DeleteConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,Errors>>;Set<TopicPartition>) : DeleteConsumerGroupOffsetsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#20]]]
 +partitionResult(TopicPartition) : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#26]]]

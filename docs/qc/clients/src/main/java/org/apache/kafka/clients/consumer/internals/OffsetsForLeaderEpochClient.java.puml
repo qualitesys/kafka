@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AsyncClient_Map_TopicPartition,SubscriptionState.FetchPosition_,OffsetsForLeaderEpochRequest,OffsetsForLeaderEpochResponse,OffsetsForLeaderEpochClient.OffsetForEpochResult_ <|-- org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient
+"AsyncClient<Map<TopicPartition,SubscriptionState.FetchPosition>,OffsetsForLeaderEpochRequest,OffsetsForLeaderEpochResponse,OffsetsForLeaderEpochClient.OffsetForEpochResult>" <|-- "org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient"
 class org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient {
 OffsetsForLeaderEpochClient(ConsumerNetworkClient;LogContext) : OffsetsForLeaderEpochClient [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#31]]]
 prepareRequest(Node;Map<TopicPartition,SubscriptionState.FetchPosition>) : AbstractRequest.Builder<OffsetsForLeaderEpochRequest> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#36]]]

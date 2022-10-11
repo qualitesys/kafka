@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.shell.MetadataNode
+"java.lang.Object" <|-- "org.apache.kafka.shell.MetadataNode"
 class org.apache.kafka.shell.MetadataNode {
 } 
 @enduml

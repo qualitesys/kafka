@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StoreSupplier_WindowStore_Bytes,byte[]__ <|-- org.apache.kafka.streams.state.WindowBytesStoreSupplier
+"StoreSupplier<WindowStore<Bytes,byte[]>>" <|-- "org.apache.kafka.streams.state.WindowBytesStoreSupplier"
 class org.apache.kafka.streams.state.WindowBytesStoreSupplier {
 segmentIntervalMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#10]]]
 windowSize() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#13]]]

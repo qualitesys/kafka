@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ClientQuotaControlManager
+"java.lang.Object" <|-- "org.apache.kafka.controller.ClientQuotaControlManager"
 class org.apache.kafka.controller.ClientQuotaControlManager {
 ClientQuotaControlManager(SnapshotRegistry) : ClientQuotaControlManager [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#41]]]
 alterClientQuotas(Collection<ClientQuotaAlteration>) : ControllerResult<Map<ClientQuotaEntity,ApiError>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#47]]]

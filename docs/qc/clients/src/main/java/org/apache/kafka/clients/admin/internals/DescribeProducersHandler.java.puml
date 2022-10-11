@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched_TopicPartition,PartitionProducerState_ <|-- org.apache.kafka.clients.admin.internals.DescribeProducersHandler
+"AdminApiHandler.Batched<TopicPartition,PartitionProducerState>" <|-- "org.apache.kafka.clients.admin.internals.DescribeProducersHandler"
 class org.apache.kafka.clients.admin.internals.DescribeProducersHandler {
 +DescribeProducersHandler(DescribeProducersOptions;LogContext) : DescribeProducersHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#39]]]
 +newFuture(Collection<TopicPartition>) : AdminApiFuture.SimpleAdminApiFuture<TopicPartition,PartitionProducerState> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#53]]]

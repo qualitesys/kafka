@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.workload.PayloadGenerator
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.workload.PayloadGenerator"
 class org.apache.kafka.trogdor.workload.PayloadGenerator {
 generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadGenerator.java.html#25]]]
 } 

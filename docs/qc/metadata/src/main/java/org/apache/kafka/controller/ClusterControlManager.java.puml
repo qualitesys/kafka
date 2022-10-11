@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ClusterControlManager
+"java.lang.Object" <|-- "org.apache.kafka.controller.ClusterControlManager"
 class org.apache.kafka.controller.ClusterControlManager {
 -ClusterControlManager(LogContext;String;Time;SnapshotRegistry;long;ReplicaPlacer;ControllerMetrics;FeatureControlManager) : ClusterControlManager [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#199]]]
 replicaPlacer() : ReplicaPlacer [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#222]]]

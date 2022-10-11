@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.InvalidCommitOffsetSizeException
+"ApiException" <|-- "org.apache.kafka.common.errors.InvalidCommitOffsetSizeException"
 class org.apache.kafka.common.errors.InvalidCommitOffsetSizeException {
 +InvalidCommitOffsetSizeException(String;Throwable) : InvalidCommitOffsetSizeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidCommitOffsetSizeException.java.html#7]]]
 +InvalidCommitOffsetSizeException(String) : InvalidCommitOffsetSizeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidCommitOffsetSizeException.java.html#11]]]

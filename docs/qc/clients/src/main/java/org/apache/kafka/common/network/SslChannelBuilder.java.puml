@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ChannelBuilder <|-- org.apache.kafka.common.network.SslChannelBuilder
+"ChannelBuilder" <|-- "org.apache.kafka.common.network.SslChannelBuilder"
 class org.apache.kafka.common.network.SslChannelBuilder {
 +SslChannelBuilder(Mode;ListenerName;boolean;LogContext) : SslChannelBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#38]]]
 +configure(Map<String,?>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#48]]]

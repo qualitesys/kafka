@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.ValueJoiner
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.ValueJoiner"
 class org.apache.kafka.streams.kstream.ValueJoiner {
 apply(V1;V2) : VR [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueJoiner.java.html#9]]]
 } 

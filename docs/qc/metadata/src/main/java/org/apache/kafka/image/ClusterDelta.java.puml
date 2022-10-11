@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ClusterDelta
+"java.lang.Object" <|-- "org.apache.kafka.image.ClusterDelta"
 class org.apache.kafka.image.ClusterDelta {
 +ClusterDelta(ClusterImage) : ClusterDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#26]]]
 +changedBrokers() : HashMap<Integer,Optional<BrokerRegistration>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#30]]]

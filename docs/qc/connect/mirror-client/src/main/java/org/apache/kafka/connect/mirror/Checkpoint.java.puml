@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.mirror.Checkpoint
+"java.lang.Object" <|-- "org.apache.kafka.connect.mirror.Checkpoint"
 class org.apache.kafka.connect.mirror.Checkpoint {
 +Checkpoint(String;TopicPartition;long;long;String) : Checkpoint [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#46]]]
 +consumerGroupId() : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#55]]]

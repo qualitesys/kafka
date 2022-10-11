@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_DeleteAclsOptions_ <|-- org.apache.kafka.clients.admin.DeleteAclsOptions
+"AbstractOptions<DeleteAclsOptions>" <|-- "org.apache.kafka.clients.admin.DeleteAclsOptions"
 class org.apache.kafka.clients.admin.DeleteAclsOptions {
 +timeoutMs(Integer) : DeleteAclsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsOptions.java.html#15]]]
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.DuplicateResourceException
+"ApiException" <|-- "org.apache.kafka.common.errors.DuplicateResourceException"
 class org.apache.kafka.common.errors.DuplicateResourceException {
 +DuplicateResourceException(String) : DuplicateResourceException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#12]]]
 +DuplicateResourceException(String;Throwable) : DuplicateResourceException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#17]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ProducerIdsImage
+"java.lang.Object" <|-- "org.apache.kafka.image.ProducerIdsImage"
 class org.apache.kafka.image.ProducerIdsImage {
 +ProducerIdsImage(long) : ProducerIdsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#20]]]
 +highestSeenProducerId() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#24]]]

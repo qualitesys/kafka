@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TimeOrderedKeyValueBuffer_K,V_ <|-- org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer
+"TimeOrderedKeyValueBuffer<K,V>" <|-- "org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer"
 class org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer {
 -InMemoryTimeOrderedKeyValueBuffer(String;boolean;Serde<K>;Serde<V>) : InMemoryTimeOrderedKeyValueBuffer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#145]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#156]]]

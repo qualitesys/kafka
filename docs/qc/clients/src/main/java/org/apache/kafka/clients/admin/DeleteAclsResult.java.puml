@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteAclsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DeleteAclsResult"
 class org.apache.kafka.clients.admin.DeleteAclsResult {
 DeleteAclsResult(Map<AclBindingFilter,KafkaFuture<FilterResults>>) : DeleteAclsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#58]]]
 +values() : Map<AclBindingFilter,KafkaFuture<FilterResults>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#63]]]

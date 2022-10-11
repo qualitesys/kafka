@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.DescribeClientQuotasResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.DescribeClientQuotasResponse"
 class org.apache.kafka.common.requests.DescribeClientQuotasResponse {
 +DescribeClientQuotasResponse(DescribeClientQuotasResponseData) : DescribeClientQuotasResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#24]]]
 +complete(KafkaFutureImpl<Map<ClientQuotaEntity,Map<String,Double>>>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#29]]]

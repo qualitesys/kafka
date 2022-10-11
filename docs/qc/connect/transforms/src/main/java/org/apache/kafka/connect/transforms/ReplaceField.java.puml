@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.ReplaceField
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.ReplaceField"
 class org.apache.kafka.connect.transforms.ReplaceField {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#76]]]
 parseRenameMappings(List<String>) : Map<String,String> [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#90]]]

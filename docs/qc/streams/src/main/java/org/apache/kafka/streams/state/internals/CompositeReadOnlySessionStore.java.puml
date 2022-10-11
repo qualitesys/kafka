@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReadOnlySessionStore_K,V_ <|-- org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore
+"ReadOnlySessionStore<K,V>" <|-- "org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore"
 class org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore {
 +CompositeReadOnlySessionStore(StateStoreProvider;QueryableStoreType<ReadOnlySessionStore<K,V>>;String) : CompositeReadOnlySessionStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#19]]]
 +findSessions(K;long;long) : KeyValueIterator<Windowed<K>,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#28]]]

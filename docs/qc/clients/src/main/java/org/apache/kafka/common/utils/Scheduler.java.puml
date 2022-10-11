@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Scheduler
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Scheduler"
 class org.apache.kafka.common.utils.Scheduler {
 time() : Time [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Scheduler.java.html#13]]]
 } 

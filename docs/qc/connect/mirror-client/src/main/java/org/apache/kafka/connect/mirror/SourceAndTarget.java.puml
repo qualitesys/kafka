@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.mirror.SourceAndTarget
+"java.lang.Object" <|-- "org.apache.kafka.connect.mirror.SourceAndTarget"
 class org.apache.kafka.connect.mirror.SourceAndTarget {
 +SourceAndTarget(String;String) : SourceAndTarget [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#9]]]
 +source() : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.html#14]]]

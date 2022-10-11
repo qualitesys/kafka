@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.authorizer.StandardAclWithId
+"java.lang.Object" <|-- "org.apache.kafka.metadata.authorizer.StandardAclWithId"
 class org.apache.kafka.metadata.authorizer.StandardAclWithId {
 +fromRecord(AccessControlEntryRecord) : StandardAclWithId [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#14]]]
 +StandardAclWithId(Uuid;StandardAcl) : StandardAclWithId [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#21]]]

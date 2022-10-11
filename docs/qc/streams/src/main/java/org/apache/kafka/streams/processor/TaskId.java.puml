@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparable_TaskId_ <|-- org.apache.kafka.streams.processor.TaskId
+"Comparable<TaskId>" <|-- "org.apache.kafka.streams.processor.TaskId"
 class org.apache.kafka.streams.processor.TaskId {
 +TaskId(int;int) : TaskId [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#35]]]
 +TaskId(int;int;String) : TaskId [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html#39]]]

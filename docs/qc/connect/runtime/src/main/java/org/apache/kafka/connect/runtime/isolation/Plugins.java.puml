@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.isolation.Plugins
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.isolation.Plugins"
 class org.apache.kafka.connect.runtime.isolation.Plugins {
 +Plugins(Map<String,String>) : Plugins [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#42]]]
 newDelegatingClassLoader(List<String>) : DelegatingClassLoader [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#48]]]

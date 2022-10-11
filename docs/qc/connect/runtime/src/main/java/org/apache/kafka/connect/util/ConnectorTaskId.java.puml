@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializable <|-- org.apache.kafka.connect.util.ConnectorTaskId
+"Serializable" <|-- "org.apache.kafka.connect.util.ConnectorTaskId"
 class org.apache.kafka.connect.util.ConnectorTaskId {
 +ConnectorTaskId(String;int) : ConnectorTaskId [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#16]]]
 +connector() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.html#22]]]

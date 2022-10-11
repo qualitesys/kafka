@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.Reducer
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Reducer"
 class org.apache.kafka.streams.kstream.Reducer {
 apply(V;V) : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Reducer.java.html#10]]]
 } 

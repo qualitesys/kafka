@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-CumulativeSum <|-- org.apache.kafka.common.metrics.stats.CumulativeCount
+"CumulativeSum" <|-- "org.apache.kafka.common.metrics.stats.CumulativeCount"
 class org.apache.kafka.common.metrics.stats.CumulativeCount {
 +record(MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeCount.java.html#9]]]
 } 

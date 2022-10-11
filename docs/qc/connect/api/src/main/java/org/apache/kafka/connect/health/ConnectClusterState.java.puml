@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.health.ConnectClusterState
+"java.lang.Object" <|-- "org.apache.kafka.connect.health.ConnectClusterState"
 class org.apache.kafka.connect.health.ConnectClusterState {
 connectors() : Collection<String> [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterState.java.html#12]]]
 connectorHealth(String) : ConnectorHealth [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectClusterState.java.html#15]]]

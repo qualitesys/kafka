@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.TopicCreationConfig
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.TopicCreationConfig"
 class org.apache.kafka.connect.runtime.TopicCreationConfig {
 -validatePartitions(String;int) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#67]]]
 -validateReplicationFactor(String;short) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#74]]]

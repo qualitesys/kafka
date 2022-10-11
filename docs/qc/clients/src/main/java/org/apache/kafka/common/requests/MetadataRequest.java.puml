@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.MetadataRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.MetadataRequest"
 class org.apache.kafka.common.requests.MetadataRequest {
 +MetadataRequest(MetadataRequestData;short) : MetadataRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataRequest.java.html#116]]]
 +data() : MetadataRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataRequest.java.html#122]]]

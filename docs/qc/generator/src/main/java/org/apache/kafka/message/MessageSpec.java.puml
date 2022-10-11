@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.MessageSpec
+"java.lang.Object" <|-- "org.apache.kafka.message.MessageSpec"
 class org.apache.kafka.message.MessageSpec {
 +MessageSpec(String;String;List<FieldSpec>;Short;MessageSpecType;List<StructSpec>;String;List<RequestListenerType>) : MessageSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#28]]]
 +struct() : StructSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#60]]]

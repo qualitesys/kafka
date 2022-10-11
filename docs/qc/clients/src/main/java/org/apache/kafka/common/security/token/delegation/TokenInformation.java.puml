@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.token.delegation.TokenInformation
+"java.lang.Object" <|-- "org.apache.kafka.common.security.token.delegation.TokenInformation"
 class org.apache.kafka.common.security.token.delegation.TokenInformation {
 +TokenInformation(String;KafkaPrincipal;Collection<KafkaPrincipal>;long;long;long) : TokenInformation [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#23]]]
 +TokenInformation(String;KafkaPrincipal;KafkaPrincipal;Collection<KafkaPrincipal>;long;long;long) : TokenInformation [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html#28]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.Tasks
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.Tasks"
 class org.apache.kafka.streams.processor.internals.Tasks {
 Tasks(LogContext;TopologyMetadata;ActiveTaskCreator;StandbyTaskCreator) : Tasks [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#52]]]
 setMainConsumer(Consumer<byte[],byte[]>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#64]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.common.metrics.Metrics
+"Closeable" <|-- "org.apache.kafka.common.metrics.Metrics"
 class org.apache.kafka.common.metrics.Metrics {
 +Metrics() : Metrics [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#44]]]
 +Metrics(Time) : Metrics [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#49]]]

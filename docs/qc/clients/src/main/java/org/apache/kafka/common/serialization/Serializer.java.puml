@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.common.serialization.Serializer
+"Closeable" <|-- "org.apache.kafka.common.serialization.Serializer"
 class org.apache.kafka.common.serialization.Serializer {
 configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serializer.java.html#13]]]
 serialize(String;T) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serializer.java.html#18]]]

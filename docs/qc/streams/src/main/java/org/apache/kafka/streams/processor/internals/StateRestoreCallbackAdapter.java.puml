@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateRestoreCallbackAdapter
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StateRestoreCallbackAdapter"
 class org.apache.kafka.streams.processor.internals.StateRestoreCallbackAdapter {
 -StateRestoreCallbackAdapter() : StateRestoreCallbackAdapter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateRestoreCallbackAdapter.java.html#15]]]
 +adapt(StateRestoreCallback) : RecordBatchingStateRestoreCallback [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateRestoreCallbackAdapter.java.html#17]]]

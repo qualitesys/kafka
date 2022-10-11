@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.LogOffsetMetadata
+"java.lang.Object" <|-- "org.apache.kafka.raft.LogOffsetMetadata"
 class org.apache.kafka.raft.LogOffsetMetadata {
 +LogOffsetMetadata(long) : LogOffsetMetadata [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#13]]]
 +LogOffsetMetadata(long;Optional<OffsetMetadata>) : LogOffsetMetadata [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#17]]]

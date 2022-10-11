@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.StreamsAssignmentProtocolVersions
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.StreamsAssignmentProtocolVersions"
 class org.apache.kafka.streams.processor.internals.assignment.StreamsAssignmentProtocolVersions {
 -StreamsAssignmentProtocolVersions() : StreamsAssignmentProtocolVersions [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StreamsAssignmentProtocolVersions.java.html#11]]]
 } 

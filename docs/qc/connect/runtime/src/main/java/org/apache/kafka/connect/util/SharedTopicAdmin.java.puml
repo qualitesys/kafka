@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.util.SharedTopicAdmin
+"AutoCloseable" <|-- "org.apache.kafka.connect.util.SharedTopicAdmin"
 class org.apache.kafka.connect.util.SharedTopicAdmin {
 +SharedTopicAdmin(Map<String,Object>) : SharedTopicAdmin [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#27]]]
 SharedTopicAdmin(Map<String,Object>;Function<Map<String,Object>,TopicAdmin>) : SharedTopicAdmin [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#32]]]

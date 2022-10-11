@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Converter <|-- org.apache.kafka.connect.converters.NumberConverter
+"Converter" <|-- "org.apache.kafka.connect.converters.NumberConverter"
 class org.apache.kafka.connect.converters.NumberConverter {
 NumberConverter(String;Schema;Serializer<T>;Deserializer<T>) : NumberConverter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#28]]]
 +config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#40]]]

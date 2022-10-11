@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TopicFilter <|-- org.apache.kafka.connect.mirror.DefaultTopicFilter
+"TopicFilter" <|-- "org.apache.kafka.connect.mirror.DefaultTopicFilter"
 class org.apache.kafka.connect.mirror.DefaultTopicFilter {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#29]]]
 +close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#36]]]

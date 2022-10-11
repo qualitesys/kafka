@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.clients.producer.ProducerInterceptor
+"Configurable" <|-- "org.apache.kafka.clients.producer.ProducerInterceptor"
 class org.apache.kafka.clients.producer.ProducerInterceptor {
 onSend(ProducerRecord<K,V>) : ProducerRecord<K,V> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerInterceptor.java.html#9]]]
 onAcknowledgement(RecordMetadata;Exception) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerInterceptor.java.html#12]]]

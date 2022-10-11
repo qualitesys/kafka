@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.ValueAndTimestamp
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.ValueAndTimestamp"
 class org.apache.kafka.streams.state.ValueAndTimestamp {
 -ValueAndTimestamp(V;long) : ValueAndTimestamp [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#13]]]
 +value() : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.html#31]]]

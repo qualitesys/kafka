@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.kerberos.KerberosShortNamer
+"java.lang.Object" <|-- "org.apache.kafka.common.security.kerberos.KerberosShortNamer"
 class org.apache.kafka.common.security.kerberos.KerberosShortNamer {
 +KerberosShortNamer(List<KerberosRule>) : KerberosShortNamer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#20]]]
 +fromUnparsedRules(String;List<String>) : KerberosShortNamer [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#24]]]

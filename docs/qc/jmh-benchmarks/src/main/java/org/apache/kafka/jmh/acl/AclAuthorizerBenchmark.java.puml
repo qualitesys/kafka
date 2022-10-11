@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.acl.AclAuthorizerBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.acl.AclAuthorizerBenchmark"
 class org.apache.kafka.jmh.acl.AclAuthorizerBenchmark {
 +setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#81]]]
 -prepareAclCache() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#99]]]

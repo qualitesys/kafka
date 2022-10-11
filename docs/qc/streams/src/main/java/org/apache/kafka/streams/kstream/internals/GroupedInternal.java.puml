@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Grouped_K,V_ <|-- org.apache.kafka.streams.kstream.internals.GroupedInternal
+"Grouped<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.GroupedInternal"
 class org.apache.kafka.streams.kstream.internals.GroupedInternal {
 +GroupedInternal(Grouped<K,V>) : GroupedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedInternal.java.html#10]]]
 +keySerde() : Serde<K> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedInternal.java.html#14]]]

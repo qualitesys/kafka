@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics"
 class org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics {
 +ErrorHandlingMetrics(ConnectorTaskId;ConnectMetrics) : ErrorHandlingMetrics [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#29]]]
 +recordFailure() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorHandlingMetrics.java.html#63]]]

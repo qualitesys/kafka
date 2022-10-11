@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Runnable <|-- org.apache.kafka.connect.runtime.WorkerConnector
+"Runnable" <|-- "org.apache.kafka.connect.runtime.WorkerConnector"
 class org.apache.kafka.connect.runtime.WorkerConnector {
 +WorkerConnector(String;Connector;ConnectorConfig;CloseableConnectorContext;ConnectMetrics;ConnectorStatus.Listener;CloseableOffsetStorageReader;ConnectorOffsetBackingStore;ClassLoader) : WorkerConnector [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConnector.java.html#57]]]
 +loader() : ClassLoader [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConnector.java.html#83]]]

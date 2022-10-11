@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NumberConverter_Integer_ <|-- org.apache.kafka.connect.converters.IntegerConverter
+"NumberConverter<Integer>" <|-- "org.apache.kafka.connect.converters.IntegerConverter"
 class org.apache.kafka.connect.converters.IntegerConverter {
 +IntegerConverter() : IntegerConverter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#13]]]
 } 

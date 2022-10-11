@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskExecutionMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TaskExecutionMetadata"
 class org.apache.kafka.streams.processor.internals.TaskExecutionMetadata {
 +TaskExecutionMetadata(Set<String>;Set<String>) : TaskExecutionMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#24]]]
 +canProcessTask(Task;long) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#29]]]

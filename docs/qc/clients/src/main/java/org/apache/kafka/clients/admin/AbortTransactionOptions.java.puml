@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_AbortTransactionOptions_ <|-- org.apache.kafka.clients.admin.AbortTransactionOptions
+"AbstractOptions<AbortTransactionOptions>" <|-- "org.apache.kafka.clients.admin.AbortTransactionOptions"
 class org.apache.kafka.clients.admin.AbortTransactionOptions {
 +toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionOptions.java.html#10]]]
 } 

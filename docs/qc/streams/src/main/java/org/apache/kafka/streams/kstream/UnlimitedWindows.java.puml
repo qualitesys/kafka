@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Windows_UnlimitedWindow_ <|-- org.apache.kafka.streams.kstream.UnlimitedWindows
+"Windows<UnlimitedWindow>" <|-- "org.apache.kafka.streams.kstream.UnlimitedWindows"
 class org.apache.kafka.streams.kstream.UnlimitedWindows {
 -UnlimitedWindows(long) : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#24]]]
 +of() : UnlimitedWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#29]]]

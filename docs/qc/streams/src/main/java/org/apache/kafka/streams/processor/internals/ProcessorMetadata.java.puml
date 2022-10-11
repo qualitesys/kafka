@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ProcessorMetadata"
 class org.apache.kafka.streams.processor.internals.ProcessorMetadata {
 +ProcessorMetadata() : ProcessorMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorMetadata.java.html#20]]]
 +ProcessorMetadata(Map<String,Long>) : ProcessorMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorMetadata.java.html#24]]]

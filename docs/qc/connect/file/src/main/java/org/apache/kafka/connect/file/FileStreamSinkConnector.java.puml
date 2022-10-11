@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SinkConnector <|-- org.apache.kafka.connect.file.FileStreamSinkConnector
+"SinkConnector" <|-- "org.apache.kafka.connect.file.FileStreamSinkConnector"
 class org.apache.kafka.connect.file.FileStreamSinkConnector {
 +version() : String [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#27]]]
 +start(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html#32]]]

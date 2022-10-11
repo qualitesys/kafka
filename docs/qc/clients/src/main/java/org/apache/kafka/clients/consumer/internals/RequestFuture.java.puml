@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConsumerNetworkClient.PollCondition <|-- org.apache.kafka.clients.consumer.internals.RequestFuture
+"ConsumerNetworkClient.PollCondition" <|-- "org.apache.kafka.clients.consumer.internals.RequestFuture"
 class org.apache.kafka.clients.consumer.internals.RequestFuture {
 +isDone() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#22]]]
 +awaitDone(long;TimeUnit) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#26]]]

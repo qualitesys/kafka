@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.VoteResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.VoteResponse"
 class org.apache.kafka.common.requests.VoteResponse {
 +VoteResponse(VoteResponseData) : VoteResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#20]]]
 +singletonResponse(Errors;TopicPartition;Errors;int;int;boolean) : VoteResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/VoteResponse.java.html#25]]]

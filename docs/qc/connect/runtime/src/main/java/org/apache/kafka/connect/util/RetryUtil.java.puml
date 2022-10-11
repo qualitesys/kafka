@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.util.RetryUtil
+"java.lang.Object" <|-- "org.apache.kafka.connect.util.RetryUtil"
 class org.apache.kafka.connect.util.RetryUtil {
 } 
 @enduml

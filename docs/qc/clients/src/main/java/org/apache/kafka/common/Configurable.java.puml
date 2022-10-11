@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.Configurable
+"java.lang.Object" <|-- "org.apache.kafka.common.Configurable"
 class org.apache.kafka.common.Configurable {
 configure(Map<String,?>) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Configurable.java.html#10]]]
 } 

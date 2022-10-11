@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.KTable
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.KTable"
 class org.apache.kafka.streams.kstream.KTable {
 filter(Predicate<?superK,?superV>) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#25]]]
 filter(Predicate<?superK,?superV>;Named) : KTable<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KTable.java.html#28]]]

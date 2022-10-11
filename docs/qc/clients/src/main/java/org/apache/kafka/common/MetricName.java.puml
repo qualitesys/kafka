@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.MetricName
+"java.lang.Object" <|-- "org.apache.kafka.common.MetricName"
 class org.apache.kafka.common.MetricName {
 +MetricName(String;String;String;Map<String,String>) : MetricName [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#17]]]
 +name() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#24]]]

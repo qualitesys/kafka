@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractConfig <|-- org.apache.kafka.connect.runtime.WorkerConfig
+"AbstractConfig" <|-- "org.apache.kafka.connect.runtime.WorkerConfig"
 class org.apache.kafka.connect.runtime.WorkerConfig {
 baseConfigDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#211]]]
 -logInternalConverterRemovalWarnings(Map<String,String>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#288]]]

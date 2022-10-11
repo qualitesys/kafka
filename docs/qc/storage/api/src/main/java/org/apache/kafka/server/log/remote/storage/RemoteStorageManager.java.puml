@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.server.log.remote.storage.RemoteStorageManager
+"Configurable" <|-- "org.apache.kafka.server.log.remote.storage.RemoteStorageManager"
 class org.apache.kafka.server.log.remote.storage.RemoteStorageManager {
 copyLogSegmentData(RemoteLogSegmentMetadata;LogSegmentData) : void [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html#33]]]
 fetchLogSegment(RemoteLogSegmentMetadata;int) : InputStream [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.html#38]]]

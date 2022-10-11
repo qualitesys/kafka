@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.runtime.WorkerConfigTransformer
+"AutoCloseable" <|-- "org.apache.kafka.connect.runtime.WorkerConfigTransformer"
 class org.apache.kafka.connect.runtime.WorkerConfigTransformer {
 +WorkerConfigTransformer(Worker;Map<String,ConfigProvider>) : WorkerConfigTransformer [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#28]]]
 +transform(Map<String,String>) : Map<String,String> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#34]]]

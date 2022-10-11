@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateStoreProvider <|-- org.apache.kafka.streams.state.internals.GlobalStateStoreProvider
+"StateStoreProvider" <|-- "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider"
 class org.apache.kafka.streams.state.internals.GlobalStateStoreProvider {
 +GlobalStateStoreProvider(Map<String,StateStore>) : GlobalStateStoreProvider [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/GlobalStateStoreProvider.java.html#18]]]
 } 

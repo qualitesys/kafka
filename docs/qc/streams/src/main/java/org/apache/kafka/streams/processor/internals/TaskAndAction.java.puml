@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskAndAction
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TaskAndAction"
 class org.apache.kafka.streams.processor.internals.TaskAndAction {
 -TaskAndAction(Task;TaskId;Action) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#19]]]
 +createAddTask(Task) : TaskAndAction [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAndAction.java.html#25]]]

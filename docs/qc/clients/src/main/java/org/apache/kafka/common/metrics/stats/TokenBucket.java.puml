@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MeasurableStat <|-- org.apache.kafka.common.metrics.stats.TokenBucket
+"MeasurableStat" <|-- "org.apache.kafka.common.metrics.stats.TokenBucket"
 class org.apache.kafka.common.metrics.stats.TokenBucket {
 +TokenBucket() : TokenBucket [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#17]]]
 +TokenBucket(TimeUnit) : TokenBucket [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#21]]]

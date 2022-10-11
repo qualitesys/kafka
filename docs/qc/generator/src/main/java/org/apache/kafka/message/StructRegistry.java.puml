@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.StructRegistry
+"java.lang.Object" <|-- "org.apache.kafka.message.StructRegistry"
 class org.apache.kafka.message.StructRegistry {
 StructRegistry() : StructRegistry [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#38]]]
 register(MessageSpec) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#44]]]

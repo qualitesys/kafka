@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.OffsetDeleteRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.OffsetDeleteRequest"
 class org.apache.kafka.common.requests.OffsetDeleteRequest {
 +OffsetDeleteRequest(OffsetDeleteRequestData;short) : OffsetDeleteRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#36]]]
 +getErrorResponse(int;Errors) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetDeleteRequest.java.html#41]]]

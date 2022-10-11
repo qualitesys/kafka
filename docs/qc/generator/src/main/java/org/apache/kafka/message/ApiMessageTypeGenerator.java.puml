@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TypeClassGenerator <|-- org.apache.kafka.message.ApiMessageTypeGenerator
+"TypeClassGenerator" <|-- "org.apache.kafka.message.ApiMessageTypeGenerator"
 class org.apache.kafka.message.ApiMessageTypeGenerator {
 +ApiMessageTypeGenerator(String) : ApiMessageTypeGenerator [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#64]]]
 +outputName() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#71]]]

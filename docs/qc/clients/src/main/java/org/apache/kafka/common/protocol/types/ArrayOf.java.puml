@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-DocumentedType <|-- org.apache.kafka.common.protocol.types.ArrayOf
+"DocumentedType" <|-- "org.apache.kafka.common.protocol.types.ArrayOf"
 class org.apache.kafka.common.protocol.types.ArrayOf {
 +ArrayOf(Type) : ArrayOf [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/ArrayOf.java.html#17]]]
 +nullable(Type) : ArrayOf [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/ArrayOf.java.html#21]]]

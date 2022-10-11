@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.RequestManager
+"java.lang.Object" <|-- "org.apache.kafka.raft.RequestManager"
 class org.apache.kafka.raft.RequestManager {
 +RequestManager(Set<Integer>;int;int;Random) : RequestManager [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#21]]]
 +getOrCreate(int) : ConnectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37]]]

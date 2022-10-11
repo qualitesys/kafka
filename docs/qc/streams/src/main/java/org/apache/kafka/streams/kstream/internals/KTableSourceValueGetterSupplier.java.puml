@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableValueGetterSupplier_K,V_ <|-- org.apache.kafka.streams.kstream.internals.KTableSourceValueGetterSupplier
+"KTableValueGetterSupplier<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KTableSourceValueGetterSupplier"
 class org.apache.kafka.streams.kstream.internals.KTableSourceValueGetterSupplier {
 +KTableSourceValueGetterSupplier(String) : KTableSourceValueGetterSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSourceValueGetterSupplier.java.html#12]]]
 +get() : KTableValueGetter<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableSourceValueGetterSupplier.java.html#16]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.query.StateQueryRequest
+"java.lang.Object" <|-- "org.apache.kafka.streams.query.StateQueryRequest"
 class org.apache.kafka.streams.query.StateQueryRequest {
 -StateQueryRequest(String;PositionBound;Optional<Set<Integer>>;Query<R>;boolean;boolean) : StateQueryRequest [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#22]]]
 +inStore(String) : InStore [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#39]]]

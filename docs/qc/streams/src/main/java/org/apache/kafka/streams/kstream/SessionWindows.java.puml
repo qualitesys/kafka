@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.SessionWindows
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.SessionWindows"
 class org.apache.kafka.streams.kstream.SessionWindows {
 -SessionWindows(long;long;boolean) : SessionWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#25]]]
 +ofInactivityGapWithNoGrace(Duration) : SessionWindows [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#40]]]

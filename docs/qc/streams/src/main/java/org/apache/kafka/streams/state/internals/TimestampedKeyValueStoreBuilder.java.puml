@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStoreBuilder_K,ValueAndTimestamp_V_,TimestampedKeyValueStore_K,V__ <|-- org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder
+"AbstractStoreBuilder<K,ValueAndTimestamp<V>,TimestampedKeyValueStore<K,V>>" <|-- "org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder"
 class org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder {
 +TimestampedKeyValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time) : TimestampedKeyValueStoreBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html#32]]]
 +build() : TimestampedKeyValueStore<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html#47]]]

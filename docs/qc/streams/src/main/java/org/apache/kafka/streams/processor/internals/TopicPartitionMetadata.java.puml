@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TopicPartitionMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata"
 class org.apache.kafka.streams.processor.internals.TopicPartitionMetadata {
 +TopicPartitionMetadata(long;ProcessorMetadata) : TopicPartitionMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#21]]]
 +partitionTime() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#27]]]

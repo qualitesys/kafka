@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.internals.StreamsConfigUtils
+"java.lang.Object" <|-- "org.apache.kafka.streams.internals.StreamsConfigUtils"
 class org.apache.kafka.streams.internals.StreamsConfigUtils {
 +processingMode(StreamsConfig) : ProcessingMode [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23]]]
 +processingModeString(ProcessingMode) : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#36]]]

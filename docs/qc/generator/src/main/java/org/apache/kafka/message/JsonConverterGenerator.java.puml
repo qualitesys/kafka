@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MessageClassGenerator <|-- org.apache.kafka.message.JsonConverterGenerator
+"MessageClassGenerator" <|-- "org.apache.kafka.message.JsonConverterGenerator"
 class org.apache.kafka.message.JsonConverterGenerator {
 JsonConverterGenerator(String) : JsonConverterGenerator [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#16]]]
 +outputName(MessageSpec) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#24]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.types.RawTaggedFieldWriter
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.types.RawTaggedFieldWriter"
 class org.apache.kafka.common.protocol.types.RawTaggedFieldWriter {
 +forFields(List<RawTaggedField>) : RawTaggedFieldWriter [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#20]]]
 -RawTaggedFieldWriter(List<RawTaggedField>) : RawTaggedFieldWriter [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#27]]]

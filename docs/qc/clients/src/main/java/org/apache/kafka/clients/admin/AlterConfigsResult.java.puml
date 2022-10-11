@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.AlterConfigsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.AlterConfigsResult"
 class org.apache.kafka.clients.admin.AlterConfigsResult {
 AlterConfigsResult(Map<ConfigResource,KafkaFuture<Void>>) : AlterConfigsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#17]]]
 +values() : Map<ConfigResource,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigsResult.java.html#22]]]

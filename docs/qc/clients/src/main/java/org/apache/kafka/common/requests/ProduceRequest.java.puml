@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.ProduceRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.ProduceRequest"
 class org.apache.kafka.common.requests.ProduceRequest {
 +forMagic(byte;ProduceRequestData) : Builder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#29]]]
 +forCurrentMagic(ProduceRequestData) : Builder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceRequest.java.html#46]]]

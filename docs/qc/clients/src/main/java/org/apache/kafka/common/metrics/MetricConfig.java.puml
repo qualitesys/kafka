@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.metrics.MetricConfig
+"java.lang.Object" <|-- "org.apache.kafka.common.metrics.MetricConfig"
 class org.apache.kafka.common.metrics.MetricConfig {
 +MetricConfig() : MetricConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#18]]]
 +quota() : Quota [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.html#27]]]

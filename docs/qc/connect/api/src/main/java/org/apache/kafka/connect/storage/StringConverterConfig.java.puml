@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConverterConfig <|-- org.apache.kafka.connect.storage.StringConverterConfig
+"ConverterConfig" <|-- "org.apache.kafka.connect.storage.StringConverterConfig"
 class org.apache.kafka.connect.storage.StringConverterConfig {
 +configDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverterConfig.java.html#28]]]
 +StringConverterConfig(Map<String,?>) : StringConverterConfig [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverterConfig.java.html#32]]]

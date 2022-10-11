@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.mirror.MirrorUtils
+"java.lang.Object" <|-- "org.apache.kafka.connect.mirror.MirrorUtils"
 class org.apache.kafka.connect.mirror.MirrorUtils {
 -MirrorUtils() : MirrorUtils [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#23]]]
 newProducer(Map<String,Object>) : KafkaProducer<byte[],byte[]> [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#25]]]

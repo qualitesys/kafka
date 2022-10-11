@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.HeaderFrom
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.HeaderFrom"
 class org.apache.kafka.connect.transforms.HeaderFrom {
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#93]]]
 -applyWithSchema(R;Object;Schema) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#104]]]

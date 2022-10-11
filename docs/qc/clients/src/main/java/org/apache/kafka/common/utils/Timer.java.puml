@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Timer
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Timer"
 class org.apache.kafka.common.utils.Timer {
 Timer(Time;long) : Timer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#13]]]
 +isExpired() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#20]]]

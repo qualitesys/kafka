@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.metrics.TaskMetrics
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.metrics.TaskMetrics"
 class org.apache.kafka.streams.processor.internals.metrics.TaskMetrics {
 -TaskMetrics() : TaskMetrics [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#18]]]
 +processLatencySensor(String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#72]]]

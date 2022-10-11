@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.RebalanceInProgressException
+"ApiException" <|-- "org.apache.kafka.common.errors.RebalanceInProgressException"
 class org.apache.kafka.common.errors.RebalanceInProgressException {
 +RebalanceInProgressException() : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#7]]]
 +RebalanceInProgressException(String;Throwable) : RebalanceInProgressException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RebalanceInProgressException.java.html#11]]]

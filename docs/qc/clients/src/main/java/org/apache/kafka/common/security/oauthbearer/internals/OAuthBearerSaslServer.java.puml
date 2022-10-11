@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SaslServer <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer
+"SaslServer" <|-- "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer"
 class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer {
 +OAuthBearerSaslServer(CallbackHandler) : OAuthBearerSaslServer [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#44]]]
 +evaluateResponse(byte[]) : byte[] [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#53]]]

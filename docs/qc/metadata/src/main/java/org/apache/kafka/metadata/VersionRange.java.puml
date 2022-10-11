@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.VersionRange
+"java.lang.Object" <|-- "org.apache.kafka.metadata.VersionRange"
 class org.apache.kafka.metadata.VersionRange {
 -VersionRange(short;short) : VersionRange [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#14]]]
 +of(short;short) : VersionRange [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/VersionRange.java.html#19]]]

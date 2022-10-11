@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.streams.TopologyTestDriver
+"Closeable" <|-- "org.apache.kafka.streams.TopologyTestDriver"
 class org.apache.kafka.streams.TopologyTestDriver {
 +TopologyTestDriver(Topology) : TopologyTestDriver [[[./../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#150]]]
 +TopologyTestDriver(Topology;Properties) : TopologyTestDriver [[[./../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#155]]]

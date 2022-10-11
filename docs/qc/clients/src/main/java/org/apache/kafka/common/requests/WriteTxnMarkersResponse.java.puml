@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.WriteTxnMarkersResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.WriteTxnMarkersResponse"
 class org.apache.kafka.common.requests.WriteTxnMarkersResponse {
 +WriteTxnMarkersResponse(Map<Long,Map<TopicPartition,Errors>>) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#24]]]
 +WriteTxnMarkersResponse(WriteTxnMarkersResponseData) : WriteTxnMarkersResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#51]]]

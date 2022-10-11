@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.graph.GraphNode
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.graph.GraphNode"
 class org.apache.kafka.streams.kstream.internals.graph.GraphNode {
 +GraphNode(String) : GraphNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#23]]]
 +parentNodes() : Collection<GraphNode> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#27]]]

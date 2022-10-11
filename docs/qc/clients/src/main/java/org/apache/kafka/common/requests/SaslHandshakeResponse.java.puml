@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.SaslHandshakeResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.SaslHandshakeResponse"
 class org.apache.kafka.common.requests.SaslHandshakeResponse {
 +SaslHandshakeResponse(SaslHandshakeResponseData) : SaslHandshakeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#18]]]
 +error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeResponse.java.html#24]]]

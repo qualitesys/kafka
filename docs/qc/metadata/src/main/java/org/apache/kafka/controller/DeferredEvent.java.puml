@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.DeferredEvent
+"java.lang.Object" <|-- "org.apache.kafka.controller.DeferredEvent"
 class org.apache.kafka.controller.DeferredEvent {
 complete(Throwable) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/DeferredEvent.java.html#8]]]
 } 

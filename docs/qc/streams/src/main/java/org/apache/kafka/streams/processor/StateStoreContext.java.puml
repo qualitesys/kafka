@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.StateStoreContext
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.StateStoreContext"
 class org.apache.kafka.streams.processor.StateStoreContext {
 applicationId() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#18]]]
 taskId() : TaskId [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStoreContext.java.html#21]]]

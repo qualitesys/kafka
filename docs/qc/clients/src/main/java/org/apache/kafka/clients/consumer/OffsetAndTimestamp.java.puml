@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.OffsetAndTimestamp
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.OffsetAndTimestamp"
 class org.apache.kafka.clients.consumer.OffsetAndTimestamp {
 +OffsetAndTimestamp(long;long) : OffsetAndTimestamp [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#13]]]
 +OffsetAndTimestamp(long;long;Optional<Integer>) : OffsetAndTimestamp [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#17]]]

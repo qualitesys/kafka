@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.Murmur3
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.Murmur3"
 class org.apache.kafka.streams.state.internals.Murmur3 {
 +hash32(long;long) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463]]]
 +hash32(long) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#463]]]

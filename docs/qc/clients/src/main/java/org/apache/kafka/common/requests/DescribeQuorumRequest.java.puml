@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.DescribeQuorumRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeQuorumRequest"
 class org.apache.kafka.common.requests.DescribeQuorumRequest {
 -DescribeQuorumRequest(DescribeQuorumRequestData;short) : DescribeQuorumRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#39]]]
 +parse(ByteBuffer;short) : DescribeQuorumRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#44]]]

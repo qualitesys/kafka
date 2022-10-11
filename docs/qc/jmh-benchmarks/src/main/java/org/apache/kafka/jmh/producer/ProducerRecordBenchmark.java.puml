@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.producer.ProducerRecordBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.producer.ProducerRecordBenchmark"
 class org.apache.kafka.jmh.producer.ProducerRecordBenchmark {
 +constructorBenchmark() : ProducerRecord<String,String> [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.java.html#28]]]
 } 

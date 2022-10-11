@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiLookupStrategy_CoordinatorKey_ <|-- org.apache.kafka.clients.admin.internals.CoordinatorStrategy
+"AdminApiLookupStrategy<CoordinatorKey>" <|-- "org.apache.kafka.clients.admin.internals.CoordinatorStrategy"
 class org.apache.kafka.clients.admin.internals.CoordinatorStrategy {
 +CoordinatorStrategy(FindCoordinatorRequest.CoordinatorType;LogContext) : CoordinatorStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#34]]]
 +lookupScope(CoordinatorKey) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#43]]]

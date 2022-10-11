@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiLookupStrategy_TopicPartition_ <|-- org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy
+"AdminApiLookupStrategy<TopicPartition>" <|-- "org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy"
 class org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy {
 +PartitionLeaderStrategy(LogContext) : PartitionLeaderStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#29]]]
 +lookupScope(TopicPartition) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#34]]]

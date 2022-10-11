@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.task.TaskSpec
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.task.TaskSpec"
 class org.apache.kafka.trogdor.task.TaskSpec {
 TaskSpec(long;long) : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#28]]]
 +startMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#36]]]

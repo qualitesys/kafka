@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskManager
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TaskManager"
 class org.apache.kafka.streams.processor.internals.TaskManager {
 TaskManager(Time;ChangelogReader;UUID;String;StreamsMetricsImpl;ActiveTaskCreator;StandbyTaskCreator;TopologyMetadata;Admin;StateDirectory) : TaskManager [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#81]]]
 setMainConsumer(Consumer<byte[],byte[]>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#113]]]

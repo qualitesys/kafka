@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.requests.RequestUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.requests.RequestUtils"
 class org.apache.kafka.common.requests.RequestUtils {
 -RequestUtils() : RequestUtils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#18]]]
 +getLeaderEpoch(int) : Optional<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#20]]]

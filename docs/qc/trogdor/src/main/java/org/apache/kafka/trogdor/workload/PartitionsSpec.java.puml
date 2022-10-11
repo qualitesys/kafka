@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Message <|-- org.apache.kafka.trogdor.workload.PartitionsSpec
+"Message" <|-- "org.apache.kafka.trogdor.workload.PartitionsSpec"
 class org.apache.kafka.trogdor.workload.PartitionsSpec {
 +PartitionsSpec(int;short;Map<Integer,List<Integer>>;Map<String,String>) : PartitionsSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#28]]]
 +numPartitions() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#56]]]

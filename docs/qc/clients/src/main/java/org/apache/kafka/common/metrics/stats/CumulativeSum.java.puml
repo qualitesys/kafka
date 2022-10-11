@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MeasurableStat <|-- org.apache.kafka.common.metrics.stats.CumulativeSum
+"MeasurableStat" <|-- "org.apache.kafka.common.metrics.stats.CumulativeSum"
 class org.apache.kafka.common.metrics.stats.CumulativeSum {
 +CumulativeSum() : CumulativeSum [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#12]]]
 +CumulativeSum(double) : CumulativeSum [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#16]]]

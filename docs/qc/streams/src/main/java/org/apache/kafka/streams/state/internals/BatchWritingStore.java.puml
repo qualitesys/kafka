@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.BatchWritingStore
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.BatchWritingStore"
 class org.apache.kafka.streams.state.internals.BatchWritingStore {
 addToBatch(KeyValue<byte[],byte[]>;WriteBatch) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#9]]]
 write(WriteBatch) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#11]]]

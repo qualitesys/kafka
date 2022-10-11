@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RecordSerde_String_ <|-- org.apache.kafka.raft.internals.StringSerde
+"RecordSerde<String>" <|-- "org.apache.kafka.raft.internals.StringSerde"
 class org.apache.kafka.raft.internals.StringSerde {
 +recordSize(String;ObjectSerializationCache) : int [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#13]]]
 +recordSize(String) : int [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#17]]]

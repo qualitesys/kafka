@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Authenticator <|-- org.apache.kafka.common.security.authenticator.SaslClientAuthenticator
+"Authenticator" <|-- "org.apache.kafka.common.security.authenticator.SaslClientAuthenticator"
 class org.apache.kafka.common.security.authenticator.SaslClientAuthenticator {
 +isReserved(int) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#90]]]
 +SaslClientAuthenticator(Map<String,?>;AuthenticateCallbackHandler;String;Subject;String;String;String;boolean;TransportLayer;Time;LogContext) : SaslClientAuthenticator [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#125]]]

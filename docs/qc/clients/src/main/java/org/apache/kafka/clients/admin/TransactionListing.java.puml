@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.TransactionListing
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.TransactionListing"
 class org.apache.kafka.clients.admin.TransactionListing {
 +TransactionListing(String;long;TransactionState) : TransactionListing [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#14]]]
 +transactionalId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#24]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ConfigurationControlManager
+"java.lang.Object" <|-- "org.apache.kafka.controller.ConfigurationControlManager"
 class org.apache.kafka.controller.ConfigurationControlManager {
 -ConfigurationControlManager(LogContext;SnapshotRegistry;KafkaConfigSchema;Consumer<ConfigResource>;Optional<AlterConfigPolicy>;ConfigurationValidator;Map<String,Object>;int) : ConfigurationControlManager [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#117]]]
 snapshotRegistry() : SnapshotRegistry [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#136]]]

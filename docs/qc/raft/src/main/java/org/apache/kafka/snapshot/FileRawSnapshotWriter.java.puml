@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RawSnapshotWriter <|-- org.apache.kafka.snapshot.FileRawSnapshotWriter
+"RawSnapshotWriter" <|-- "org.apache.kafka.snapshot.FileRawSnapshotWriter"
 class org.apache.kafka.snapshot.FileRawSnapshotWriter {
 -FileRawSnapshotWriter(Path;FileChannel;OffsetAndEpoch;Optional<ReplicatedLog>) : FileRawSnapshotWriter [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#25]]]
 +snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#38]]]

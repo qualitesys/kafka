@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.RecordQueue
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.RecordQueue"
 class org.apache.kafka.streams.processor.internals.RecordQueue {
 RecordQueue(TopicPartition;SourceNode<?,?>;TimestampExtractor;DeserializationExceptionHandler;InternalProcessorContext<?,?>;LogContext) : RecordQueue [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#41]]]
 setPartitionTime(long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#76]]]

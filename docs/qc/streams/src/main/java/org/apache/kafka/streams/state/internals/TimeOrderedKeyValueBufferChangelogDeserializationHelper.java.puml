@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper"
 class org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper {
 -TimeOrderedKeyValueBufferChangelogDeserializationHelper() : TimeOrderedKeyValueBufferChangelogDeserializationHelper [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#16]]]
 deserializeV0(ConsumerRecord<byte[],byte[]>;Bytes;byte[]) : DeserializationResult [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#42]]]

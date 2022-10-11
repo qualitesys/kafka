@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RocksDBSegmentedBytesStore.KeySchema <|-- org.apache.kafka.streams.state.internals.WindowKeySchema
+"RocksDBSegmentedBytesStore.KeySchema" <|-- "org.apache.kafka.streams.state.internals.WindowKeySchema"
 class org.apache.kafka.streams.state.internals.WindowKeySchema {
 +upperRange(Bytes;long) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#28]]]
 +lowerRange(Bytes;long) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#41]]]

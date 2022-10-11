@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractSegments_TimestampedSegment_ <|-- org.apache.kafka.streams.state.internals.TimestampedSegments
+"AbstractSegments<TimestampedSegment>" <|-- "org.apache.kafka.streams.state.internals.TimestampedSegments"
 class org.apache.kafka.streams.state.internals.TimestampedSegments {
 TimestampedSegments(String;String;long;long) : TimestampedSegments [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#13]]]
 +getOrCreateSegment(long;ProcessorContext) : TimestampedSegment [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegments.java.html#22]]]

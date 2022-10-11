@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.tools.PredicateDoc
+"java.lang.Object" <|-- "org.apache.kafka.connect.tools.PredicateDoc"
 class org.apache.kafka.connect.tools.PredicateDoc {
 -printPredicateHtml(PrintStream;DocInfo) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#45]]]
 -printHtml(PrintStream) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#61]]]

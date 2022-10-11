@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NumberConverter_Long_ <|-- org.apache.kafka.connect.converters.LongConverter
+"NumberConverter<Long>" <|-- "org.apache.kafka.connect.converters.LongConverter"
 class org.apache.kafka.connect.converters.LongConverter {
 +LongConverter() : LongConverter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/LongConverter.java.html#13]]]
 } 

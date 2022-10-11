@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.RestoringTasks
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.RestoringTasks"
 class org.apache.kafka.streams.processor.internals.RestoringTasks {
 restoringTaskFor(TopicPartition) : StreamTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RestoringTasks.java.html#8]]]
 } 

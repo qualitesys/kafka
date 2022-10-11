@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MeteredKeyValueStore_K,ValueAndTimestamp_V__TimestampedKeyValueStore_K,V_ <|-- org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore
+"MeteredKeyValueStore<K,ValueAndTimestamp<V>>TimestampedKeyValueStore<K,V>" <|-- "org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore"
 class org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore {
 MeteredTimestampedKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>) : MeteredTimestampedKeyValueStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#20]]]
 prepareValueSerdeForStore(Serde<ValueAndTimestamp<V>>;SerdeGetter) : Serde<ValueAndTimestamp<V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#31]]]

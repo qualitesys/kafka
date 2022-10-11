@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeTransactionsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DescribeTransactionsResult"
 class org.apache.kafka.clients.admin.DescribeTransactionsResult {
 DescribeTransactionsResult(Map<CoordinatorKey,KafkaFuture<TransactionDescription>>) : DescribeTransactionsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#17]]]
 +description(String) : KafkaFuture<TransactionDescription> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#22]]]

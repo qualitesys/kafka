@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier
+"WindowBytesStoreSupplier" <|-- "org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier"
 class org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier {
 +create(String;Duration;Duration;boolean;boolean) : RocksDbIndexedTimeOrderedWindowBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#26]]]
 +RocksDbIndexedTimeOrderedWindowBytesStoreSupplier(String;long;long;long;boolean;boolean) : RocksDbIndexedTimeOrderedWindowBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIndexedTimeOrderedWindowBytesStoreSupplier.java.html#58]]]

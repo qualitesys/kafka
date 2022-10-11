@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSide
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSide"
 class org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSide {
 -TimestampedKeyAndJoinSide(boolean;K;long) : TimestampedKeyAndJoinSide [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSide.java.html#14]]]
 +isLeftSide() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSide.java.html#25]]]

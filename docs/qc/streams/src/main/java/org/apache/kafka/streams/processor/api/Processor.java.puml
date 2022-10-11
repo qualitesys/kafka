@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.api.Processor
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.api.Processor"
 class org.apache.kafka.streams.processor.api.Processor {
 init(ProcessorContext<KOut,VOut>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#14]]]
 process(Record<KIn,VIn>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Processor.java.html#17]]]

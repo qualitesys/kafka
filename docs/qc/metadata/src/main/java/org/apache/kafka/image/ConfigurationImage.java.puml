@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ConfigurationImage
+"java.lang.Object" <|-- "org.apache.kafka.image.ConfigurationImage"
 class org.apache.kafka.image.ConfigurationImage {
 +ConfigurationImage(Map<String,String>) : ConfigurationImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#27]]]
 data() : Map<String,String> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#31]]]

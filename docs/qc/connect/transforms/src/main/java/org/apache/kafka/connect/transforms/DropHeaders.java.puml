@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.DropHeaders
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.DropHeaders"
 class org.apache.kafka.connect.transforms.DropHeaders {
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#34]]]
 +config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/DropHeaders.java.html#46]]]

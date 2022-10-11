@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.VersionConditional
+"java.lang.Object" <|-- "org.apache.kafka.message.VersionConditional"
 class org.apache.kafka.message.VersionConditional {
 forVersions(Versions;Versions) : VersionConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#8]]]
 -VersionConditional(Versions;Versions) : VersionConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/VersionConditional.java.html#20]]]

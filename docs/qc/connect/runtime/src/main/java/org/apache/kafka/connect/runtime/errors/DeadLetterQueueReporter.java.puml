@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ErrorReporter <|-- org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter
+"ErrorReporter" <|-- "org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter"
 class org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter {
 +createAndSetup(Map<String,Object>;ConnectorTaskId;SinkConnectorConfig;Map<String,Object>;ErrorHandlingMetrics) : DeadLetterQueueReporter [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#57]]]
 DeadLetterQueueReporter(KafkaProducer<byte[],byte[]>;SinkConnectorConfig;ConnectorTaskId;ErrorHandlingMetrics) : DeadLetterQueueReporter [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#83]]]

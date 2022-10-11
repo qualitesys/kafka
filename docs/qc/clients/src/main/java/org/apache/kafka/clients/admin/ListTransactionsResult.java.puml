@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ListTransactionsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ListTransactionsResult"
 class org.apache.kafka.clients.admin.ListTransactionsResult {
 ListTransactionsResult(KafkaFuture<Map<Integer,KafkaFutureImpl<Collection<TransactionListing>>>>) : ListTransactionsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#21]]]
 +all() : KafkaFuture<Collection<TransactionListing>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsResult.java.html#26]]]

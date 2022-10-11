@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ControllerResult_T_ <|-- org.apache.kafka.controller.ControllerResultAndOffset
+"ControllerResult<T>" <|-- "org.apache.kafka.controller.ControllerResultAndOffset"
 class org.apache.kafka.controller.ControllerResultAndOffset {
 -ControllerResultAndOffset(long;ControllerResult<T>) : ControllerResultAndOffset [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#14]]]
 +offset() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#19]]]

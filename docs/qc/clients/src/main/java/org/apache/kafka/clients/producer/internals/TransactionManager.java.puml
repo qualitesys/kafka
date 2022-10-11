@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.TransactionManager
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.TransactionManager"
 class org.apache.kafka.clients.producer.internals.TransactionManager {
 +TransactionManager(LogContext;String;int;long;ApiVersions) : TransactionManager [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#182]]]
 +initializeTransactions() : TransactionalRequestResult [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#205]]]

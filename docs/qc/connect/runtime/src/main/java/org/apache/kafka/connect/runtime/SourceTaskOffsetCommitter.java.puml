@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter"
 class org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter {
 SourceTaskOffsetCommitter(WorkerConfig;ScheduledExecutorService;ConcurrentMap<ConnectorTaskId,ScheduledFuture<?>>) : SourceTaskOffsetCommitter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#29]]]
 +SourceTaskOffsetCommitter(WorkerConfig) : SourceTaskOffsetCommitter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#37]]]

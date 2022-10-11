@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Task <|-- org.apache.kafka.streams.processor.internals.AbstractTask
+"Task" <|-- "org.apache.kafka.streams.processor.internals.AbstractTask"
 class org.apache.kafka.streams.processor.internals.AbstractTask {
 AbstractTask(TaskId;ProcessorTopology;StateDirectory;ProcessorStateManager;Set<TopicPartition>;long;String;Class<?extendsAbstractTask>) : AbstractTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#43]]]
 +maybeCheckpoint(boolean) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#66]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.util.ConnectUtils
+"java.lang.Object" <|-- "org.apache.kafka.connect.util.ConnectUtils"
 class org.apache.kafka.connect.util.ConnectUtils {
 +checkAndConvertTimestamp(Long) : Long [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#31]]]
 +lookupKafkaClusterId(WorkerConfig) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#40]]]

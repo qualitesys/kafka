@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateStore <|-- org.apache.kafka.streams.state.SessionStore
+"StateStore" <|-- "org.apache.kafka.streams.state.SessionStore"
 class org.apache.kafka.streams.state.SessionStore {
 findSessions(long;long) : KeyValueIterator<Windowed<K>,AGG> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#17]]]
 findSessions(K;Instant;Instant) : KeyValueIterator<Windowed<K>,AGG> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionStore.java.html#24]]]

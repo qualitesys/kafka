@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.common.Reconfigurable
+"Configurable" <|-- "org.apache.kafka.common.Reconfigurable"
 class org.apache.kafka.common.Reconfigurable {
 reconfigurableConfigs() : Set<String> [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#13]]]
 validateReconfiguration(Map<String,?>) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#16]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequestResponse <|-- org.apache.kafka.common.requests.ResponseHeader
+"AbstractRequestResponse" <|-- "org.apache.kafka.common.requests.ResponseHeader"
 class org.apache.kafka.common.requests.ResponseHeader {
 +ResponseHeader(int;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#16]]]
 +ResponseHeader(ResponseHeaderData;short) : ResponseHeader [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#20]]]

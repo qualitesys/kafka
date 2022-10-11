@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.serialization.Serdes
+"java.lang.Object" <|-- "org.apache.kafka.common.serialization.Serdes"
 class org.apache.kafka.common.serialization.Serdes {
 +Long() : Serde<Long> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#193]]]
 +Integer() : Serde<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#198]]]

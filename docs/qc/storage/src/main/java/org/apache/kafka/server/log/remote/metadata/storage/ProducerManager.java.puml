@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.server.log.remote.metadata.storage.ProducerManager
+"Closeable" <|-- "org.apache.kafka.server.log.remote.metadata.storage.ProducerManager"
 class org.apache.kafka.server.log.remote.metadata.storage.ProducerManager {
 +ProducerManager(TopicBasedRemoteLogMetadataManagerConfig;RemoteLogMetadataTopicPartitioner) : ProducerManager [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#28]]]
 +publishMessage(RemoteLogMetadata) : CompletableFuture<RecordMetadata> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ProducerManager.java.html#36]]]

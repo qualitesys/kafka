@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.network.ChannelBuilders
+"java.lang.Object" <|-- "org.apache.kafka.common.network.ChannelBuilders"
 class org.apache.kafka.common.network.ChannelBuilders {
 -ChannelBuilders() : ChannelBuilders [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#34]]]
 +clientChannelBuilder(SecurityProtocol;JaasContext.Type;AbstractConfig;ListenerName;String;Time;boolean;LogContext) : ChannelBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#37]]]

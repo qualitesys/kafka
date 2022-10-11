@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory"
 class org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory {
 -InternalFixedKeyRecordFactory() : InternalFixedKeyRecordFactory [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#6]]]
 } 

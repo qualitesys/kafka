@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.FindCoordinatorRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.FindCoordinatorRequest"
 class org.apache.kafka.common.requests.FindCoordinatorRequest {
 -FindCoordinatorRequest(FindCoordinatorRequestData;short) : FindCoordinatorRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#75]]]
 +getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#81]]]

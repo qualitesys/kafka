@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.server.quota.ClientQuotaCallback
+"Configurable" <|-- "org.apache.kafka.server.quota.ClientQuotaCallback"
 class org.apache.kafka.server.quota.ClientQuotaCallback {
 quotaMetricTags(ClientQuotaType;KafkaPrincipal;String) : Map<String,String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#14]]]
 quotaLimit(ClientQuotaType;Map<String,String>) : Double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#17]]]

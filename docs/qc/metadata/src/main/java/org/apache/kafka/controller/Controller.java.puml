@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AclMutator <|-- org.apache.kafka.controller.Controller
+"AclMutator" <|-- "org.apache.kafka.controller.Controller"
 class org.apache.kafka.controller.Controller {
 alterPartition(ControllerRequestContext;AlterPartitionRequestData) : CompletableFuture<AlterPartitionResponseData> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/Controller.java.html#43]]]
 createTopics(ControllerRequestContext;CreateTopicsRequestData;Set<String>) : CompletableFuture<CreateTopicsResponseData> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/Controller.java.html#49]]]

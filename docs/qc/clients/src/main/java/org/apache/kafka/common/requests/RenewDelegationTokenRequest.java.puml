@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.RenewDelegationTokenRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.RenewDelegationTokenRequest"
 class org.apache.kafka.common.requests.RenewDelegationTokenRequest {
 +RenewDelegationTokenRequest(RenewDelegationTokenRequestData;short) : RenewDelegationTokenRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenRequest.java.html#16]]]
 +parse(ByteBuffer;short) : RenewDelegationTokenRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenRequest.java.html#21]]]

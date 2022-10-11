@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-CloseableConnectorContext <|-- org.apache.kafka.connect.runtime.HerderConnectorContext
+"CloseableConnectorContext" <|-- "org.apache.kafka.connect.runtime.HerderConnectorContext"
 class org.apache.kafka.connect.runtime.HerderConnectorContext {
 +HerderConnectorContext(AbstractHerder;String) : HerderConnectorContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#17]]]
 +requestTaskReconfiguration() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#24]]]

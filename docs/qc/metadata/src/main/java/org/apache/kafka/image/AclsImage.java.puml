@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.AclsImage
+"java.lang.Object" <|-- "org.apache.kafka.image.AclsImage"
 class org.apache.kafka.image.AclsImage {
 +AclsImage(Map<Uuid,StandardAcl>) : AclsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#25]]]
 +isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsImage.java.html#29]]]

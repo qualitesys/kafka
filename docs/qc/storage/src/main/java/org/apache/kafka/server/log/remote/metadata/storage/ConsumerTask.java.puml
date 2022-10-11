@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Runnable <|-- org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask
+"Runnable" <|-- "org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask"
 class org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask {
 +ConsumerTask(KafkaConsumer<byte[],byte[]>;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Path;Time;long) : ConsumerTask [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#73]]]
 -initializeConsumerAssignment(Path) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#88]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.common.FetchResponseBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.common.FetchResponseBenchmark"
 class org.apache.kafka.jmh.common.FetchResponseBenchmark {
 +setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#65]]]
 +testConstructFetchResponse() : int [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#95]]]

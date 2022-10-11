@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.RaftUtil
+"java.lang.Object" <|-- "org.apache.kafka.raft.RaftUtil"
 class org.apache.kafka.raft.RaftUtil {
 +errorResponse(ApiKeys;Errors) : ApiMessage [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#26]]]
 +singletonFetchRequest(TopicPartition;Uuid;Consumer<FetchRequestData.FetchPartition>) : FetchRequestData [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#41]]]

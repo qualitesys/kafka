@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.ObjectSerializationCache
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.ObjectSerializationCache"
 class org.apache.kafka.common.protocol.ObjectSerializationCache {
 +ObjectSerializationCache() : ObjectSerializationCache [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#11]]]
 +setArraySizeInBytes(Object;Integer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/ObjectSerializationCache.java.html#15]]]

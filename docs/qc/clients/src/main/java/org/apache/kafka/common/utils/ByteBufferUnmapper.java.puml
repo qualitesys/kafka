@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.ByteBufferUnmapper
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.ByteBufferUnmapper"
 class org.apache.kafka.common.utils.ByteBufferUnmapper {
 -ByteBufferUnmapper() : ByteBufferUnmapper [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#45]]]
 +unmap(String;ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#48]]]

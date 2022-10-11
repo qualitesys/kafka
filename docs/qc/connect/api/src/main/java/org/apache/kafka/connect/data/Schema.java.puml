@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.data.Schema
+"java.lang.Object" <|-- "org.apache.kafka.connect.data.Schema"
 class org.apache.kafka.connect.data.Schema {
 type() : Type [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Schema.java.html#86]]]
 isOptional() : boolean [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Schema.java.html#89]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.StoreQueryUtils
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.StoreQueryUtils"
 class org.apache.kafka.streams.state.internals.StoreQueryUtils {
 -StoreQueryUtils() : StoreQueryUtils [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#79]]]
 +updatePosition(Position;StateStoreContext) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120]]]

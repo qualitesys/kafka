@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractMergedSortedCacheStoreIterator_Long,Long,byte[],byte[]_WindowStoreIterator_byte[]_ <|-- org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator
+"AbstractMergedSortedCacheStoreIterator<Long,Long,byte[],byte[]>WindowStoreIterator<byte[]>" <|-- "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator"
 class org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator {
 MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean) : MergedSortedCacheWindowStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#17]]]
 MergedSortedCacheWindowStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<Long,byte[]>;boolean;Function<byte[],Long>) : MergedSortedCacheWindowStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#23]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaEntity
+"java.lang.Object" <|-- "org.apache.kafka.common.quota.ClientQuotaEntity"
 class org.apache.kafka.common.quota.ClientQuotaEntity {
 +isValidEntityType(String) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#18]]]
 +ClientQuotaEntity(Map<String,String>) : ClientQuotaEntity [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#25]]]

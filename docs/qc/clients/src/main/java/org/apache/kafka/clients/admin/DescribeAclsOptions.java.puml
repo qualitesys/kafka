@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_DescribeAclsOptions_ <|-- org.apache.kafka.clients.admin.DescribeAclsOptions
+"AbstractOptions<DescribeAclsOptions>" <|-- "org.apache.kafka.clients.admin.DescribeAclsOptions"
 class org.apache.kafka.clients.admin.DescribeAclsOptions {
 +timeoutMs(Integer) : DescribeAclsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java.html#14]]]
 } 

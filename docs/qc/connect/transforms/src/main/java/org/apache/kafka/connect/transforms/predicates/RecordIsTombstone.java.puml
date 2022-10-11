@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Predicate_R_ <|-- org.apache.kafka.connect.transforms.predicates.RecordIsTombstone
+"Predicate<R>" <|-- "org.apache.kafka.connect.transforms.predicates.RecordIsTombstone"
 class org.apache.kafka.connect.transforms.predicates.RecordIsTombstone {
 +config() : ConfigDef [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#16]]]
 +test(R) : boolean [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#21]]]

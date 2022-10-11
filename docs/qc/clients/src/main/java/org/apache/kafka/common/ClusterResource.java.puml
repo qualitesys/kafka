@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.ClusterResource
+"java.lang.Object" <|-- "org.apache.kafka.common.ClusterResource"
 class org.apache.kafka.common.ClusterResource {
 +ClusterResource(String) : ClusterResource [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#13]]]
 +clusterId() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/ClusterResource.java.html#18]]]

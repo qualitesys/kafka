@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.ThreadCache
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.ThreadCache"
 class org.apache.kafka.streams.state.internals.ThreadCache {
 +ThreadCache(LogContext;long;StreamsMetricsImpl) : ThreadCache [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#35]]]
 +puts() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#41]]]

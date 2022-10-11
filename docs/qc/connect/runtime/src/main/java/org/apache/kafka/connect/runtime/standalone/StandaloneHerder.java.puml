@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractHerder <|-- org.apache.kafka.connect.runtime.standalone.StandaloneHerder
+"AbstractHerder" <|-- "org.apache.kafka.connect.runtime.standalone.StandaloneHerder"
 class org.apache.kafka.connect.runtime.standalone.StandaloneHerder {
 +StandaloneHerder(Worker;String;ConnectorClientConfigOverridePolicy) : StandaloneHerder [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#56]]]
 StandaloneHerder(Worker;String;String;StatusBackingStore;MemoryConfigBackingStore;ConnectorClientConfigOverridePolicy) : StandaloneHerder [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#67]]]

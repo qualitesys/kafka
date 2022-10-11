@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerPartitionAssignor
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.ConsumerPartitionAssignor"
 class org.apache.kafka.clients.consumer.ConsumerPartitionAssignor {
 subscriptionUserData(Set<String>) : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#22]]]
 assign(Cluster;GroupSubscription) : GroupAssignment [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#27]]]

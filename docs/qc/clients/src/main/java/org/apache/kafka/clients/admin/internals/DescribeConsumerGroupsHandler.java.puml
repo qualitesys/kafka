@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched_CoordinatorKey,ConsumerGroupDescription_ <|-- org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler
+"AdminApiHandler.Batched<CoordinatorKey,ConsumerGroupDescription>" <|-- "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler"
 class org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler {
 +DescribeConsumerGroupsHandler(boolean;LogContext) : DescribeConsumerGroupsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#45]]]
 -buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#54]]]

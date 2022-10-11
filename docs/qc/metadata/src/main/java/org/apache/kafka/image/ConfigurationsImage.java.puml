@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ConfigurationsImage
+"java.lang.Object" <|-- "org.apache.kafka.image.ConfigurationsImage"
 class org.apache.kafka.image.ConfigurationsImage {
 +ConfigurationsImage(Map<ConfigResource,ConfigurationImage>) : ConfigurationsImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#25]]]
 +isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsImage.java.html#29]]]

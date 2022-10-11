@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.JoinGroupResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.JoinGroupResponse"
 class org.apache.kafka.common.requests.JoinGroupResponse {
 +JoinGroupResponse(JoinGroupResponseData) : JoinGroupResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#16]]]
 +data() : JoinGroupResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#22]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.raft.internals.KafkaRaftMetrics
+"AutoCloseable" <|-- "org.apache.kafka.raft.internals.KafkaRaftMetrics"
 class org.apache.kafka.raft.internals.KafkaRaftMetrics {
 +KafkaRaftMetrics(Metrics;String;QuorumState) : KafkaRaftMetrics [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#43]]]
 +updatePollStart(long) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#127]]]

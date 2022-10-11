@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.authenticator.SaslInternalConfigs
+"java.lang.Object" <|-- "org.apache.kafka.common.security.authenticator.SaslInternalConfigs"
 class org.apache.kafka.common.security.authenticator.SaslInternalConfigs {
 -SaslInternalConfigs() : SaslInternalConfigs [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslInternalConfigs.java.html#10]]]
 } 

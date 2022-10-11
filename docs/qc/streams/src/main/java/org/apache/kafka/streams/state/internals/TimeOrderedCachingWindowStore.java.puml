@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore_WindowStore_Bytes,byte[]_,byte[],byte[]_WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore
+"WrappedStateStore<WindowStore<Bytes,byte[]>,byte[],byte[]>WindowStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"
 class org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore {
 TimeOrderedCachingWindowStore(WindowStore<Bytes,byte[]>;long;long) : TimeOrderedCachingWindowStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#65]]]
 -enforceWrappedStore(WindowStore<Bytes,byte[]>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#76]]]

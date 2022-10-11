@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.StateTracker
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.StateTracker"
 class org.apache.kafka.connect.runtime.StateTracker {
 +changeState(State;long) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#14]]]
 +durationRatio(State;long) : double [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.html#20]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.quota.ClientQuotaFilter
+"java.lang.Object" <|-- "org.apache.kafka.common.quota.ClientQuotaFilter"
 class org.apache.kafka.common.quota.ClientQuotaFilter {
 -ClientQuotaFilter(Collection<ClientQuotaFilterComponent>;boolean) : ClientQuotaFilter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#16]]]
 +contains(Collection<ClientQuotaFilterComponent>) : ClientQuotaFilter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#22]]]

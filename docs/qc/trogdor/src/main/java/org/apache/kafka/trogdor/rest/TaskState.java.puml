@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Message <|-- org.apache.kafka.trogdor.rest.TaskState
+"Message" <|-- "org.apache.kafka.trogdor.rest.TaskState"
 class org.apache.kafka.trogdor.rest.TaskState {
 +TaskState(TaskSpec;JsonNode) : TaskState [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#27]]]
 +spec() : TaskSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#33]]]

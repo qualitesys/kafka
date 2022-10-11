@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.EnvelopeRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.EnvelopeRequest"
 class org.apache.kafka.common.requests.EnvelopeRequest {
 +EnvelopeRequest(EnvelopeRequestData;short) : EnvelopeRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#41]]]
 +requestData() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeRequest.java.html#46]]]

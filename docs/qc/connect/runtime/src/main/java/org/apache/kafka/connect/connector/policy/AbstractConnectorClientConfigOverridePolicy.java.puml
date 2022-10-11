@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectorClientConfigOverridePolicy <|-- org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy
+"ConnectorClientConfigOverridePolicy" <|-- "org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy"
 class org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy {
 +close() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#15]]]
 +validate(ConnectorClientConfigRequest) : List<ConfigValue> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#20]]]

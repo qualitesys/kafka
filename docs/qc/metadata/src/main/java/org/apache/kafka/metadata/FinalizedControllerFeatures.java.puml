@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.FinalizedControllerFeatures
+"java.lang.Object" <|-- "org.apache.kafka.metadata.FinalizedControllerFeatures"
 class org.apache.kafka.metadata.FinalizedControllerFeatures {
 +FinalizedControllerFeatures(Map<String,Short>;long) : FinalizedControllerFeatures [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#17]]]
 +get(String) : Optional<Short> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/FinalizedControllerFeatures.java.html#22]]]

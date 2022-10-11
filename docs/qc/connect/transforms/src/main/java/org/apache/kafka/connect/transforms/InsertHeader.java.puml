@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.InsertHeader
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.InsertHeader"
 class org.apache.kafka.connect.transforms.InsertHeader {
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#38]]]
 +config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#47]]]

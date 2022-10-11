@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorNode_KIn,VIn,KIn,VIn_ <|-- org.apache.kafka.streams.processor.internals.SourceNode
+"ProcessorNode<KIn,VIn,KIn,VIn>" <|-- "org.apache.kafka.streams.processor.internals.SourceNode"
 class org.apache.kafka.streams.processor.internals.SourceNode {
 +SourceNode(String;TimestampExtractor;Deserializer<KIn>;Deserializer<VIn>) : SourceNode [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#22]]]
 +SourceNode(String;Deserializer<KIn>;Deserializer<VIn>) : SourceNode [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#32]]]

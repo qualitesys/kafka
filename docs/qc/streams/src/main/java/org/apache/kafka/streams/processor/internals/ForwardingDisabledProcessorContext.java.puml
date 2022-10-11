@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorContext <|-- org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext
+"ProcessorContext" <|-- "org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext"
 class org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext {
 +ForwardingDisabledProcessorContext(ProcessorContext) : ForwardingDisabledProcessorContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#31]]]
 +applicationId() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ForwardingDisabledProcessorContext.java.html#36]]]

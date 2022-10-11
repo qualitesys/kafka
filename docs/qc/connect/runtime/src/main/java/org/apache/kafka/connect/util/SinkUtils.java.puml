@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.util.SinkUtils
+"java.lang.Object" <|-- "org.apache.kafka.connect.util.SinkUtils"
 class org.apache.kafka.connect.util.SinkUtils {
 -SinkUtils() : SinkUtils [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#6]]]
 +consumerGroupId(String) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#8]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.common.metrics.internals.IntGaugeSuite
+"AutoCloseable" <|-- "org.apache.kafka.common.metrics.internals.IntGaugeSuite"
 class org.apache.kafka.common.metrics.internals.IntGaugeSuite {
 +IntGaugeSuite(Logger;String;Metrics;Function<K,MetricName>;int) : IntGaugeSuite [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#96]]]
 +increment(K) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#115]]]

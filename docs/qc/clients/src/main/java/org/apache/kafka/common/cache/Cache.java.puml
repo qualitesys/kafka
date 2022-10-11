@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.cache.Cache
+"java.lang.Object" <|-- "org.apache.kafka.common.cache.Cache"
 class org.apache.kafka.common.cache.Cache {
 get(K) : V [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.html#8]]]
 put(K;V) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.html#11]]]

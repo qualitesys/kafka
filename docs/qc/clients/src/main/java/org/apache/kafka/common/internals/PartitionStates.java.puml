@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.internals.PartitionStates
+"java.lang.Object" <|-- "org.apache.kafka.common.internals.PartitionStates"
 class org.apache.kafka.common.internals.PartitionStates {
 +PartitionStates() : PartitionStates [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#25]]]
 +moveToEnd(TopicPartition) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#27]]]

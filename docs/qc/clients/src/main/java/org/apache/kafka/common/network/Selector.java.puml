@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Selectable <|-- org.apache.kafka.common.network.Selector
+"Selectable" <|-- "org.apache.kafka.common.network.Selector"
 class org.apache.kafka.common.network.Selector {
 +Selector(int;long;int;Metrics;Time;String;Map<String,String>;boolean;boolean;ChannelBuilder;MemoryPool;LogContext) : Selector [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#90]]]
 +Selector(int;long;Metrics;Time;String;Map<String,String>;boolean;boolean;ChannelBuilder;MemoryPool;LogContext) : Selector [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#131]]]

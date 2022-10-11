@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Time
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Time"
 class org.apache.kafka.common.utils.Time {
 milliseconds() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#14]]]
 hiResClockMs() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#17]]]

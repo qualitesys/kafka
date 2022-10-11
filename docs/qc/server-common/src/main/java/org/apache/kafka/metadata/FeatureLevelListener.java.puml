@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.FeatureLevelListener
+"java.lang.Object" <|-- "org.apache.kafka.metadata.FeatureLevelListener"
 class org.apache.kafka.metadata.FeatureLevelListener {
 handle(String;short) : void [[[./../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/metadata/FeatureLevelListener.java.html#7]]]
 } 

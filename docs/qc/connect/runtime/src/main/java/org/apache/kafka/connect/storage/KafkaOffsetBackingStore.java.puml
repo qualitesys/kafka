@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-OffsetBackingStore <|-- org.apache.kafka.connect.storage.KafkaOffsetBackingStore
+"OffsetBackingStore" <|-- "org.apache.kafka.connect.storage.KafkaOffsetBackingStore"
 class org.apache.kafka.connect.storage.KafkaOffsetBackingStore {
 +forTask(String;Producer<byte[],byte[]>;Consumer<byte[],byte[]>;TopicAdmin) : KafkaOffsetBackingStore [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#50]]]
 +forConnector(String;Consumer<byte[],byte[]>;TopicAdmin) : KafkaOffsetBackingStore [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#74]]]

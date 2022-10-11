@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.InternalRequestSignature
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.InternalRequestSignature"
 class org.apache.kafka.connect.runtime.rest.InternalRequestSignature {
 +addToRequest(SecretKey;byte[];String;Request) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#28]]]
 +fromHeaders(byte[];HttpHeaders) : InternalRequestSignature [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/InternalRequestSignature.java.html#41]]]

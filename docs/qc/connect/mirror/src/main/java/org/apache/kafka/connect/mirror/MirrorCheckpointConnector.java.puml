@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceConnector <|-- org.apache.kafka.connect.mirror.MirrorCheckpointConnector
+"SourceConnector" <|-- "org.apache.kafka.connect.mirror.MirrorCheckpointConnector"
 class org.apache.kafka.connect.mirror.MirrorCheckpointConnector {
 +MirrorCheckpointConnector() : MirrorCheckpointConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#36]]]
 MirrorCheckpointConnector(List<String>;MirrorConnectorConfig) : MirrorCheckpointConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#41]]]

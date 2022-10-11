@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ConfigEntry
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ConfigEntry"
 class org.apache.kafka.clients.admin.ConfigEntry {
 +ConfigEntry(String;String) : ConfigEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#25]]]
 +ConfigEntry(String;String;ConfigSource;boolean;boolean;List<ConfigSynonym>;ConfigType;String) : ConfigEntry [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#31]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskWorker <|-- org.apache.kafka.trogdor.workload.ConsumeBenchWorker
+"TaskWorker" <|-- "org.apache.kafka.trogdor.workload.ConsumeBenchWorker"
 class org.apache.kafka.trogdor.workload.ConsumeBenchWorker {
 +ConsumeBenchWorker(String;ConsumeBenchSpec) : ConsumeBenchWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#62]]]
 +start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#68]]]

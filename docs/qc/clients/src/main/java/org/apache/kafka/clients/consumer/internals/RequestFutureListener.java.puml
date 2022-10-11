@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.RequestFutureListener
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.internals.RequestFutureListener"
 class org.apache.kafka.clients.consumer.internals.RequestFutureListener {
 onSuccess(T) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.html#7]]]
 onFailure(RuntimeException) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.html#9]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowedSum <|-- org.apache.kafka.common.metrics.stats.WindowedCount
+"WindowedSum" <|-- "org.apache.kafka.common.metrics.stats.WindowedCount"
 class org.apache.kafka.common.metrics.stats.WindowedCount {
 update(Sample;MetricConfig;double;long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedCount.java.html#9]]]
 } 

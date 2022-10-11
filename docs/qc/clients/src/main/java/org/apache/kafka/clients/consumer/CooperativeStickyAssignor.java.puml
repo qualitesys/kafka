@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStickyAssignor <|-- org.apache.kafka.clients.consumer.CooperativeStickyAssignor
+"AbstractStickyAssignor" <|-- "org.apache.kafka.clients.consumer.CooperativeStickyAssignor"
 class org.apache.kafka.clients.consumer.CooperativeStickyAssignor {
 +name() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#31]]]
 +supportedProtocols() : List<RebalanceProtocol> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#36]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminMetadataManager
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.AdminMetadataManager"
 class org.apache.kafka.clients.admin.internals.AdminMetadataManager {
 +AdminMetadataManager(LogContext;long;long) : AdminMetadataManager [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#91]]]
 +updater() : AdminMetadataUpdater [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#98]]]

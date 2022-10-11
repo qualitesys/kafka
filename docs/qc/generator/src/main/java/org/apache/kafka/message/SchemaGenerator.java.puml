@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.SchemaGenerator
+"java.lang.Object" <|-- "org.apache.kafka.message.SchemaGenerator"
 class org.apache.kafka.message.SchemaGenerator {
 SchemaGenerator(HeaderGenerator;StructRegistry) : SchemaGenerator [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#38]]]
 generateSchemas(MessageSpec) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#44]]]

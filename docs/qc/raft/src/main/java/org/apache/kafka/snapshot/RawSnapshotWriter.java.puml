@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.snapshot.RawSnapshotWriter
+"AutoCloseable" <|-- "org.apache.kafka.snapshot.RawSnapshotWriter"
 class org.apache.kafka.snapshot.RawSnapshotWriter {
 snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#12]]]
 sizeInBytes() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#15]]]

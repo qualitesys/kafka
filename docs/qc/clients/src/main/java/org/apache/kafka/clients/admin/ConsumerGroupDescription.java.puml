@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ConsumerGroupDescription
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ConsumerGroupDescription"
 class org.apache.kafka.clients.admin.ConsumerGroupDescription {
 +ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node) : ConsumerGroupDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#26]]]
 +ConsumerGroupDescription(String;boolean;Collection<MemberDescription>;String;ConsumerGroupState;Node;Set<AclOperation>) : ConsumerGroupDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConsumerGroupDescription.java.html#35]]]

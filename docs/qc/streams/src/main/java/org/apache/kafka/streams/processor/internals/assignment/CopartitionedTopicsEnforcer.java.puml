@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer"
 class org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer {
 +CopartitionedTopicsEnforcer(String) : CopartitionedTopicsEnforcer [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#23]]]
 +enforce(Set<String>;Map<String,InternalTopicConfig>;Cluster) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#29]]]

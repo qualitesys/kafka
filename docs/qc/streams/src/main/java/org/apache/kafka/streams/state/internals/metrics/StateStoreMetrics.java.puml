@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics"
 class org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics {
 -StateStoreMetrics() : StateStoreMetrics [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#23]]]
 +putSensor(String;String;String;StreamsMetricsImpl) : Sensor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#141]]]

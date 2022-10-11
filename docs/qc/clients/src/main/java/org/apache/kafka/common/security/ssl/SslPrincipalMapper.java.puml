@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.ssl.SslPrincipalMapper
+"java.lang.Object" <|-- "org.apache.kafka.common.security.ssl.SslPrincipalMapper"
 class org.apache.kafka.common.security.ssl.SslPrincipalMapper {
 +SslPrincipalMapper(String) : SslPrincipalMapper [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#21]]]
 +fromRules(String) : SslPrincipalMapper [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#25]]]

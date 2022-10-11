@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.TestInputTopic
+"java.lang.Object" <|-- "org.apache.kafka.streams.TestInputTopic"
 class org.apache.kafka.streams.TestInputTopic {
 TestInputTopic(TopologyTestDriver;String;Serializer<K>;Serializer<V>;Instant;Duration) : TestInputTopic [[[./../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#25]]]
 +advanceTime(Duration) : void [[[./../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#49]]]

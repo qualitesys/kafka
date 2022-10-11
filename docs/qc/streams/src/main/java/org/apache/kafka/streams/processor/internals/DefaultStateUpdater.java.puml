@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateUpdater <|-- org.apache.kafka.streams.processor.internals.DefaultStateUpdater
+"StateUpdater" <|-- "org.apache.kafka.streams.processor.internals.DefaultStateUpdater"
 class org.apache.kafka.streams.processor.internals.DefaultStateUpdater {
 +DefaultStateUpdater(StreamsConfig;ChangelogReader;Time) : DefaultStateUpdater [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#328]]]
 +start() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#336]]]

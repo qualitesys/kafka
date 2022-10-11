@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueIterator_K,V_ <|-- org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator
+"KeyValueIterator<K,V>" <|-- "org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator"
 class org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator {
 AbstractMergedSortedCacheStoreIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;KeyValueIterator<KS,VS>;boolean) : AbstractMergedSortedCacheStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#16]]]
 compare(Bytes;KS) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#24]]]

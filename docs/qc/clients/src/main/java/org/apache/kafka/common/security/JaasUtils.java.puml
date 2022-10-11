@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.JaasUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.security.JaasUtils"
 class org.apache.kafka.common.security.JaasUtils {
 -JaasUtils() : JaasUtils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#22]]]
 +zkSecuritySysConfigString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#24]]]

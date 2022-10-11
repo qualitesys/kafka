@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.internals.ApiRequestScope
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.ApiRequestScope"
 class org.apache.kafka.clients.admin.internals.ApiRequestScope {
 destinationBrokerId() : OptionalInt [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ApiRequestScope.java.html#10]]]
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.SourceGraphNode
+"GraphNode" <|-- "org.apache.kafka.streams.kstream.internals.graph.SourceGraphNode"
 class org.apache.kafka.streams.kstream.internals.graph.SourceGraphNode {
 +SourceGraphNode(String;Collection<String>;ConsumedInternal<K,V>) : SourceGraphNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/SourceGraphNode.java.html#19]]]
 +SourceGraphNode(String;Pattern;ConsumedInternal<K,V>) : SourceGraphNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/SourceGraphNode.java.html#29]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SegmentedBytesStore.KeySchema <|-- org.apache.kafka.streams.state.internals.SessionKeySchema
+"SegmentedBytesStore.KeySchema" <|-- "org.apache.kafka.streams.state.internals.SessionKeySchema"
 class org.apache.kafka.streams.state.internals.SessionKeySchema {
 +keyByteLength(Bytes) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#22]]]
 +upperRangeFixedSize(Bytes;long) : Bytes [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#27]]]

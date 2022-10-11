@@ -1,7 +1,7 @@
 @startuml
 !pragma layout smetana
-Thread <|-- kafka.examples.Producer
-Callback <|-- kafka.examples.DemoCallBack
+"Thread" <|-- "kafka.examples.Producer"
+"Callback" <|-- "kafka.examples.DemoCallBack"
 class kafka.examples.DemoCallBack {
 +Producer(String;Boolean;String;boolean;int;int;CountDownLatch) : Producer [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/Producer.java.html#23]]]
 get() : KafkaProducer<Integer,String> [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/Producer.java.html#50]]]

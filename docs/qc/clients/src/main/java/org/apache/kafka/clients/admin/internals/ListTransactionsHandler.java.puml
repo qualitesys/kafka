@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Batched_AllBrokersStrategy.BrokerKey,Collection_TransactionListing__ <|-- org.apache.kafka.clients.admin.internals.ListTransactionsHandler
+"AdminApiHandler.Batched<AllBrokersStrategy.BrokerKey,Collection<TransactionListing>>" <|-- "org.apache.kafka.clients.admin.internals.ListTransactionsHandler"
 class org.apache.kafka.clients.admin.internals.ListTransactionsHandler {
 +ListTransactionsHandler(ListTransactionsOptions;LogContext) : ListTransactionsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#28]]]
 +newFuture() : AllBrokersStrategy.AllBrokersFuture<Collection<TransactionListing>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#37]]]

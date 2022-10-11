@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRocksDBTimeOrderedSegmentedBytesStore <|-- org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore
+"AbstractRocksDBTimeOrderedSegmentedBytesStore" <|-- "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"
 class org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore {
 RocksDBTimeOrderedWindowSegmentedBytesStore(String;String;long;long;boolean) : RocksDBTimeOrderedWindowSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#36]]]
 +put(Bytes;long;int;byte[]) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#45]]]

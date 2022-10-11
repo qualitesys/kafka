@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Message <|-- org.apache.kafka.trogdor.rest.CoordinatorShutdownRequest
+"Message" <|-- "org.apache.kafka.trogdor.rest.CoordinatorShutdownRequest"
 class org.apache.kafka.trogdor.rest.CoordinatorShutdownRequest {
 +CoordinatorShutdownRequest(boolean) : CoordinatorShutdownRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorShutdownRequest.java.html#13]]]
 +stopAgents() : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorShutdownRequest.java.html#18]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.Task
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.Task"
 class org.apache.kafka.streams.processor.internals.Task {
 initializeIfNeeded() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#64]]]
 addPartitionsForOffsetReset(Set<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#66]]]

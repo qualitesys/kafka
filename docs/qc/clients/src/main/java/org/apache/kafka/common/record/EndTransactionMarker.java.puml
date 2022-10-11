@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.record.EndTransactionMarker
+"java.lang.Object" <|-- "org.apache.kafka.common.record.EndTransactionMarker"
 class org.apache.kafka.common.record.EndTransactionMarker {
 +EndTransactionMarker(ControlRecordType;int) : EndTransactionMarker [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#31]]]
 +coordinatorEpoch() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#37]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorSupplier_KIn,VIn,KAgg,Change_VAgg__ <|-- org.apache.kafka.streams.kstream.internals.KStreamAggProcessorSupplier
+"ProcessorSupplier<KIn,VIn,KAgg,Change<VAgg>>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamAggProcessorSupplier"
 class org.apache.kafka.streams.kstream.internals.KStreamAggProcessorSupplier {
 view() : KTableValueGetterSupplier<KAgg,VAgg> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggProcessorSupplier.java.html#8]]]
 enableSendingOldValues() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggProcessorSupplier.java.html#10]]]

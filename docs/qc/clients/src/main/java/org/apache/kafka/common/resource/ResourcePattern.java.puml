@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.resource.ResourcePattern
+"java.lang.Object" <|-- "org.apache.kafka.common.resource.ResourcePattern"
 class org.apache.kafka.common.resource.ResourcePattern {
 +ResourcePattern(ResourceType;String;PatternType) : ResourcePattern [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePattern.java.html#20]]]
 +resourceType() : ResourceType [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePattern.java.html#35]]]

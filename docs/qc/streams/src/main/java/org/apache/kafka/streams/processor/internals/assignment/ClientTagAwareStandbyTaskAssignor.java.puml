@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StandbyTaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor
+"StandbyTaskAssignor" <|-- "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor"
 class org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor {
 +assign(Map<UUID,ClientState>;Set<TaskId>;Set<TaskId>;AssignorConfiguration.AssignmentConfigs) : boolean [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#27]]]
 -assignPendingStandbyTasksToLeastLoadedClients(Map<UUID,ClientState>;int;ConstrainedPrioritySet;Map<TaskId,Integer>) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#81]]]

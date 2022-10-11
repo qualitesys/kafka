@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Readable <|-- org.apache.kafka.common.protocol.ByteBufferAccessor
+"Readable" <|-- "org.apache.kafka.common.protocol.ByteBufferAccessor"
 class org.apache.kafka.common.protocol.ByteBufferAccessor {
 +ByteBufferAccessor(ByteBuffer) : ByteBufferAccessor [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#12]]]
 +readByte() : byte [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html#17]]]

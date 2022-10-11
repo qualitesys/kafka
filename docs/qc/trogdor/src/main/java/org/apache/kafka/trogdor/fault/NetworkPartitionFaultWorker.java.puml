@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskWorker <|-- org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker
+"TaskWorker" <|-- "org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker"
 class org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker {
 +NetworkPartitionFaultWorker(String;List<Set<String>>) : NetworkPartitionFaultWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#29]]]
 +start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#35]]]

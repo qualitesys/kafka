@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ThreadMetadata <|-- org.apache.kafka.streams.processor.internals.ThreadMetadataImpl
+"ThreadMetadata" <|-- "org.apache.kafka.streams.processor.internals.ThreadMetadataImpl"
 class org.apache.kafka.streams.processor.internals.ThreadMetadataImpl {
 +ThreadMetadataImpl(String;String;String;String;Set<String>;String;Set<TaskMetadata>;Set<TaskMetadata>) : ThreadMetadataImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ThreadMetadataImpl.java.html#33]]]
 +threadState() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ThreadMetadataImpl.java.html#52]]]

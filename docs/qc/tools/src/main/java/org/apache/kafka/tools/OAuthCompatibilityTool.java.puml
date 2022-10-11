@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.tools.OAuthCompatibilityTool
+"java.lang.Object" <|-- "org.apache.kafka.tools.OAuthCompatibilityTool"
 class org.apache.kafka.tools.OAuthCompatibilityTool {
 +main(String[]) : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#104]]]
 } 

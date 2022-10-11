@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.config.AbstractConfig
+"java.lang.Object" <|-- "org.apache.kafka.common.config.AbstractConfig"
 class org.apache.kafka.common.config.AbstractConfig {
 +AbstractConfig(ConfigDef;Map<?,?>;Map<String,?>;boolean) : AbstractConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#44]]]
 +AbstractConfig(ConfigDef;Map<?,?>) : AbstractConfig [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#63]]]

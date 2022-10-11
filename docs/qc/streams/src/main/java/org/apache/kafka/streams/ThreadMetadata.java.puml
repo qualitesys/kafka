@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.ThreadMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.ThreadMetadata"
 class org.apache.kafka.streams.ThreadMetadata {
 threadState() : String [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/ThreadMetadata.java.html#11]]]
 threadName() : String [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/ThreadMetadata.java.html#14]]]

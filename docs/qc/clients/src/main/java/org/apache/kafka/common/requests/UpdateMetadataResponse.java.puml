@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.UpdateMetadataResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.UpdateMetadataResponse"
 class org.apache.kafka.common.requests.UpdateMetadataResponse {
 +UpdateMetadataResponse(UpdateMetadataResponseData) : UpdateMetadataResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#16]]]
 +error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#21]]]

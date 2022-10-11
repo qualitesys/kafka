@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.internals.CloseListener
+"java.lang.Object" <|-- "org.apache.kafka.raft.internals.CloseListener"
 class org.apache.kafka.raft.internals.CloseListener {
 onClose(T) : void [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/CloseListener.java.html#6]]]
 } 

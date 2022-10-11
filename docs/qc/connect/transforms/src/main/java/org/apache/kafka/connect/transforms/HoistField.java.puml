@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.HoistField
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.HoistField"
 class org.apache.kafka.connect.transforms.HoistField {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#35]]]
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#42]]]

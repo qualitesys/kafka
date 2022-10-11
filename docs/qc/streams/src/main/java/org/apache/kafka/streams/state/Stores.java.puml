@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.Stores
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.Stores"
 class org.apache.kafka.streams.state.Stores {
 +persistentKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#30]]]
 +persistentTimestampedKeyValueStore(String) : KeyValueBytesStoreSupplier [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/Stores.java.html#36]]]

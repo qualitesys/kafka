@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.BrokerRegistration
+"java.lang.Object" <|-- "org.apache.kafka.metadata.BrokerRegistration"
 class org.apache.kafka.metadata.BrokerRegistration {
 -listenersToMap(Collection<Endpoint>) : Map<String,Endpoint> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#27]]]
 +BrokerRegistration(int;long;Uuid;List<Endpoint>;Map<String,VersionRange>;Optional<String>;boolean;boolean) : BrokerRegistration [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#44]]]

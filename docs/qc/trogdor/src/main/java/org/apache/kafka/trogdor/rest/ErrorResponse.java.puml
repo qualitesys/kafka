@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.rest.ErrorResponse
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.rest.ErrorResponse"
 class org.apache.kafka.trogdor.rest.ErrorResponse {
 +ErrorResponse(int;String) : ErrorResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#17]]]
 +code() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/ErrorResponse.java.html#24]]]

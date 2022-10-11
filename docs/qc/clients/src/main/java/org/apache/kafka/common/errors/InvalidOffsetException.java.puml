@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.InvalidOffsetException
+"ApiException" <|-- "org.apache.kafka.common.errors.InvalidOffsetException"
 class org.apache.kafka.common.errors.InvalidOffsetException {
 +InvalidOffsetException(String) : InvalidOffsetException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.html#9]]]
 +InvalidOffsetException(String;Throwable) : InvalidOffsetException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.html#13]]]

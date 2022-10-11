@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-OAuthBearerToken <|-- org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken
+"OAuthBearerToken" <|-- "org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken"
 class org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken {
 +BasicOAuthBearerToken(String;Set<String>;long;String;Long) : BasicOAuthBearerToken [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#25]]]
 +value() : String [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#40]]]

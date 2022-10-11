@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.RequestCompletionHandler
+"java.lang.Object" <|-- "org.apache.kafka.clients.RequestCompletionHandler"
 class org.apache.kafka.clients.RequestCompletionHandler {
 onComplete(ClientResponse) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/RequestCompletionHandler.java.html#7]]]
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.producer.internals.ProduceRequestResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.ProduceRequestResult"
 class org.apache.kafka.clients.producer.internals.ProduceRequestResult {
 +ProduceRequestResult(TopicPartition) : ProduceRequestResult [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#23]]]
 +set(long;long;Function<Integer,RuntimeException>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#28]]]

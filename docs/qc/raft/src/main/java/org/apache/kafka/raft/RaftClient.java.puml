@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.raft.RaftClient
+"AutoCloseable" <|-- "org.apache.kafka.raft.RaftClient"
 class org.apache.kafka.raft.RaftClient {
 initialize() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#31]]]
 register(Listener<T>) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#34]]]

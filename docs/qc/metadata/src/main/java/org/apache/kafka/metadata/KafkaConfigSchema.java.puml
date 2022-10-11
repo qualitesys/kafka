@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.KafkaConfigSchema
+"java.lang.Object" <|-- "org.apache.kafka.metadata.KafkaConfigSchema"
 class org.apache.kafka.metadata.KafkaConfigSchema {
 +translateConfigType(ConfigDef.Type) : ConfigEntry.ConfigType [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#30]]]
 +translateConfigSource(ConfigEntry.ConfigSource) : DescribeConfigsResponse.ConfigSource [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#66]]]

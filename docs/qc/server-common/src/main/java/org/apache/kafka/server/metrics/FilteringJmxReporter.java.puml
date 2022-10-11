@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-JmxReporter <|-- org.apache.kafka.server.metrics.FilteringJmxReporter
+"JmxReporter" <|-- "org.apache.kafka.server.metrics.FilteringJmxReporter"
 class org.apache.kafka.server.metrics.FilteringJmxReporter {
 +FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>) : FilteringJmxReporter [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#16]]]
 +onMetricAdded(MetricName;Metric) : void [[[./../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22]]]

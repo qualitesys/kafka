@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InvalidStateStoreException <|-- org.apache.kafka.streams.errors.StateStoreMigratedException
+"InvalidStateStoreException" <|-- "org.apache.kafka.streams.errors.StateStoreMigratedException"
 class org.apache.kafka.streams.errors.StateStoreMigratedException {
 +StateStoreMigratedException(String) : StateStoreMigratedException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.html#9]]]
 +StateStoreMigratedException(String;Throwable) : StateStoreMigratedException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreMigratedException.java.html#13]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.BrokerHeartbeatManager
+"java.lang.Object" <|-- "org.apache.kafka.controller.BrokerHeartbeatManager"
 class org.apache.kafka.controller.BrokerHeartbeatManager {
 BrokerHeartbeatManager(LogContext;Time;long) : BrokerHeartbeatManager [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#181]]]
 time() : Time [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#193]]]

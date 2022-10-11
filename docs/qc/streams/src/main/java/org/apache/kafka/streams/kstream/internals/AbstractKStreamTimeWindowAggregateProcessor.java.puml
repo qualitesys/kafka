@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ContextualProcessor_KIn,VIn,Windowed_KIn_,Change_VAgg__ <|-- org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor
+"ContextualProcessor<KIn,VIn,Windowed<KIn>,Change<VAgg>>" <|-- "org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor"
 class org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor {
 AbstractKStreamTimeWindowAggregateProcessor(String;EmitStrategy;boolean) : AbstractKStreamTimeWindowAggregateProcessor [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#47]]]
 +init(ProcessorContext<Windowed<KIn>,Change<VAgg>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#56]]]

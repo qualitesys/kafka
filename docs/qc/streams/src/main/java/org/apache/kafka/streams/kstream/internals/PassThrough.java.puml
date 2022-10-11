@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.PassThrough
+"ProcessorSupplier<K,V,K,V>" <|-- "org.apache.kafka.streams.kstream.internals.PassThrough"
 class org.apache.kafka.streams.kstream.internals.PassThrough {
 +get() : Processor<K,V,K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PassThrough.java.html#12]]]
 } 

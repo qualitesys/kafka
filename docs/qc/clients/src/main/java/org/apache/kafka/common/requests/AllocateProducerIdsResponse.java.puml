@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.AllocateProducerIdsResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.AllocateProducerIdsResponse"
 class org.apache.kafka.common.requests.AllocateProducerIdsResponse {
 +AllocateProducerIdsResponse(AllocateProducerIdsResponseData) : AllocateProducerIdsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#18]]]
 +data() : AllocateProducerIdsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#24]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Callback <|-- org.apache.kafka.clients.producer.internals.ErrorLoggingCallback
+"Callback" <|-- "org.apache.kafka.clients.producer.internals.ErrorLoggingCallback"
 class org.apache.kafka.clients.producer.internals.ErrorLoggingCallback {
 +ErrorLoggingCallback(String;byte[];byte[];boolean) : ErrorLoggingCallback [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#19]]]
 +onCompletion(RecordMetadata;Exception) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#31]]]

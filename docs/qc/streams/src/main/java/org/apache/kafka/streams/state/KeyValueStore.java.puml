@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateStore <|-- org.apache.kafka.streams.state.KeyValueStore
+"StateStore" <|-- "org.apache.kafka.streams.state.KeyValueStore"
 class org.apache.kafka.streams.state.KeyValueStore {
 put(K;V) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueStore.java.html#23]]]
 putIfAbsent(K;V) : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/KeyValueStore.java.html#23]]]

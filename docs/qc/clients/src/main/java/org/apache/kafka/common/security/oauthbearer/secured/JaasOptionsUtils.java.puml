@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils"
 class org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils {
 +JaasOptionsUtils(Map<String,Object>) : JaasOptionsUtils [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.html#30]]]
 +getOptions(String;List<AppConfigurationEntry>) : Map<String,Object> [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.html#34]]]

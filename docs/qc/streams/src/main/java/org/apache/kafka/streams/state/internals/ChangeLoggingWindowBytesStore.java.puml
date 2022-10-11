@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore_WindowStore_Bytes,byte[]_,byte[],byte[]_WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore
+"WrappedStateStore<WindowStore<Bytes,byte[]>,byte[],byte[]>WindowStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore"
 class org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore {
 ChangeLoggingWindowBytesStore(WindowStore<Bytes,byte[]>;boolean;ChangeLoggingKeySerializer) : ChangeLoggingWindowBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#32]]]
 +init(ProcessorContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#42]]]

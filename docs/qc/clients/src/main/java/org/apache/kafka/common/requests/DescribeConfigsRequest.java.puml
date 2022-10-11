@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.DescribeConfigsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeConfigsRequest"
 class org.apache.kafka.common.requests.DescribeConfigsRequest {
 +DescribeConfigsRequest(DescribeConfigsRequestData;short) : DescribeConfigsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#31]]]
 +data() : DescribeConfigsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsRequest.java.html#37]]]

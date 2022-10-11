@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RemoteLogMetadataManager <|-- org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager
+"RemoteLogMetadataManager" <|-- "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager"
 class org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager {
 +TopicBasedRemoteLogMetadataManager() : TopicBasedRemoteLogMetadataManager [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#72]]]
 +TopicBasedRemoteLogMetadataManager(boolean) : TopicBasedRemoteLogMetadataManager [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#77]]]

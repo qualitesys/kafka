@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.MemberToRemove
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.MemberToRemove"
 class org.apache.kafka.clients.admin.MemberToRemove {
 +MemberToRemove(String) : MemberToRemove [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.html#13]]]
 +equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberToRemove.java.html#18]]]

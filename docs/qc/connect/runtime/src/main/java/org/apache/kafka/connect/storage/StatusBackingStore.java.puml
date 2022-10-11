@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.storage.StatusBackingStore
+"java.lang.Object" <|-- "org.apache.kafka.connect.storage.StatusBackingStore"
 class org.apache.kafka.connect.storage.StatusBackingStore {
 start() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/StatusBackingStore.java.html#16]]]
 stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/StatusBackingStore.java.html#19]]]

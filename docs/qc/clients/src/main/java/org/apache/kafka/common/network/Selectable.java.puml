@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.network.Selectable
+"java.lang.Object" <|-- "org.apache.kafka.common.network.Selectable"
 class org.apache.kafka.common.network.Selectable {
 connect(String;InetSocketAddress;int;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#18]]]
 wakeup() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/Selectable.java.html#21]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.SnapshotGenerator
+"java.lang.Object" <|-- "org.apache.kafka.controller.SnapshotGenerator"
 class org.apache.kafka.controller.SnapshotGenerator {
 SnapshotGenerator(LogContext;SnapshotWriter<ApiMessageAndVersion>;int;List<Section>) : SnapshotGenerator [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#45]]]
 lastContainedLogOffset() : long [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#61]]]

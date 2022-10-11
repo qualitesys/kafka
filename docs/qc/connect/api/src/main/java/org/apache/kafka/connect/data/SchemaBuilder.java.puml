@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Schema <|-- org.apache.kafka.connect.data.SchemaBuilder
+"Schema" <|-- "org.apache.kafka.connect.data.SchemaBuilder"
 class org.apache.kafka.connect.data.SchemaBuilder {
 +SchemaBuilder(Type) : SchemaBuilder [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#38]]]
 +isOptional() : boolean [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#50]]]

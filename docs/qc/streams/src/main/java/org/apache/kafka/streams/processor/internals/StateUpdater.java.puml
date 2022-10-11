@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateUpdater
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StateUpdater"
 class org.apache.kafka.streams.processor.internals.StateUpdater {
 start() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#46]]]
 shutdown(Duration) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#49]]]

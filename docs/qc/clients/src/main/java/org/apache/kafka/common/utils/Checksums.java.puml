@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Checksums
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Checksums"
 class org.apache.kafka.common.utils.Checksums {
 -Checksums() : Checksums [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#10]]]
 +update(Checksum;ByteBuffer;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#13]]]

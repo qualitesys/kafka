@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorSupplier_K,V1,K,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KStreamKStreamJoin
+"ProcessorSupplier<K,V1,K,VOut>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamKStreamJoin"
 class org.apache.kafka.streams.kstream.internals.KStreamKStreamJoin {
 KStreamKStreamJoin(boolean;String;JoinWindowsInternal;ValueJoinerWithKey<?superK,?superV1,?superV2,?extendsVOut>;boolean;Optional<String>;TimeTracker) : KStreamKStreamJoin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoin.java.html#48]]]
 +get() : Processor<K,V1,K,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoin.java.html#75]]]

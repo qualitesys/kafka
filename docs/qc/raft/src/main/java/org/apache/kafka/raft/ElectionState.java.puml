@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.ElectionState
+"java.lang.Object" <|-- "org.apache.kafka.raft.ElectionState"
 class org.apache.kafka.raft.ElectionState {
 ElectionState(int;OptionalInt;OptionalInt;Set<Integer>) : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#14]]]
 +withVotedCandidate(int;int;Set<Integer>) : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#24]]]

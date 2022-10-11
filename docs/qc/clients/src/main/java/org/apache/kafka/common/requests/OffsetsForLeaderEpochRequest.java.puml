@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest"
 class org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest {
 +OffsetsForLeaderEpochRequest(OffsetForLeaderEpochRequestData;short) : OffsetsForLeaderEpochRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#69]]]
 +data() : OffsetForLeaderEpochRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetsForLeaderEpochRequest.java.html#75]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SinkTask <|-- org.apache.kafka.connect.file.FileStreamSinkTask
+"SinkTask" <|-- "org.apache.kafka.connect.file.FileStreamSinkTask"
 class org.apache.kafka.connect.file.FileStreamSinkTask {
 +FileStreamSinkTask() : FileStreamSinkTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#28]]]
 +FileStreamSinkTask(PrintStream) : FileStreamSinkTask [[[./../../../../../../../../../../.././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#32]]]

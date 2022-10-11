@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InputStream <|-- org.apache.kafka.common.compress.KafkaLZ4BlockInputStream
+"InputStream" <|-- "org.apache.kafka.common.compress.KafkaLZ4BlockInputStream"
 class org.apache.kafka.common.compress.KafkaLZ4BlockInputStream {
 +KafkaLZ4BlockInputStream(ByteBuffer;BufferSupplier;boolean) : KafkaLZ4BlockInputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#62]]]
 +ignoreFlagDescriptorChecksum() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#75]]]

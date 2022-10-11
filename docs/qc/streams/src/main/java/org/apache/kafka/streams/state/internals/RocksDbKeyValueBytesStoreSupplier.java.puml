@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier
+"KeyValueBytesStoreSupplier" <|-- "org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier"
 class org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier {
 +RocksDbKeyValueBytesStoreSupplier(String;boolean) : RocksDbKeyValueBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#13]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#20]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Consumer_K,V_ <|-- org.apache.kafka.clients.consumer.MockConsumer
+"Consumer<K,V>" <|-- "org.apache.kafka.clients.consumer.MockConsumer"
 class org.apache.kafka.clients.consumer.MockConsumer {
 +MockConsumer(OffsetResetStrategy) : MockConsumer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#55]]]
 +assignment() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#71]]]

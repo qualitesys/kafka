@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.DescribeGroupsResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.DescribeGroupsResponse"
 class org.apache.kafka.common.requests.DescribeGroupsResponse {
 +DescribeGroupsResponse(DescribeGroupsResponseData) : DescribeGroupsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#27]]]
 +groupMember(String;String;String;String;byte[];byte[]) : DescribedGroupMember [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#32]]]

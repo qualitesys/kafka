@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectAssignor <|-- org.apache.kafka.connect.runtime.distributed.EagerAssignor
+"ConnectAssignor" <|-- "org.apache.kafka.connect.runtime.distributed.EagerAssignor"
 class org.apache.kafka.connect.runtime.distributed.EagerAssignor {
 +EagerAssignor(LogContext) : EagerAssignor [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#27]]]
 +performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#32]]]

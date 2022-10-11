@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.config.ConfigValue
+"java.lang.Object" <|-- "org.apache.kafka.common.config.ConfigValue"
 class org.apache.kafka.common.config.ConfigValue {
 +ConfigValue(String) : ConfigValue [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigValue.java.html#16]]]
 +ConfigValue(String;Object;List<Object>;List<String>) : ConfigValue [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigValue.java.html#20]]]

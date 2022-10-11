@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.StreamSinkNode
+"GraphNode" <|-- "org.apache.kafka.streams.kstream.internals.graph.StreamSinkNode"
 class org.apache.kafka.streams.kstream.internals.graph.StreamSinkNode {
 +StreamSinkNode(String;TopicNameExtractor<K,V>;ProducedInternal<K,V>) : StreamSinkNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSinkNode.java.html#19]]]
 +toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSinkNode.java.html#31]]]

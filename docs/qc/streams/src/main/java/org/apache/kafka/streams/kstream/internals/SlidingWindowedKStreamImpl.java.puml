@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractStream_K,V_TimeWindowedKStream_K,V_ <|-- org.apache.kafka.streams.kstream.internals.SlidingWindowedKStreamImpl
+"AbstractStream<K,V>TimeWindowedKStream<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.SlidingWindowedKStreamImpl"
 class org.apache.kafka.streams.kstream.internals.SlidingWindowedKStreamImpl {
 SlidingWindowedKStreamImpl(SlidingWindows;InternalStreamsBuilder;Set<String>;String;Serde<K>;Serde<V>;GroupedStreamAggregateBuilder<K,V>;GraphNode) : SlidingWindowedKStreamImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SlidingWindowedKStreamImpl.java.html#38]]]
 +count() : KTable<Windowed<K>,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SlidingWindowedKStreamImpl.java.html#52]]]

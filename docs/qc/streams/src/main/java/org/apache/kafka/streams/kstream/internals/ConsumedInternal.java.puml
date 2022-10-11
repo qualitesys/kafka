@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Consumed_K,V_ <|-- org.apache.kafka.streams.kstream.internals.ConsumedInternal
+"Consumed<K,V>" <|-- "org.apache.kafka.streams.kstream.internals.ConsumedInternal"
 class org.apache.kafka.streams.kstream.internals.ConsumedInternal {
 +ConsumedInternal(Consumed<K,V>) : ConsumedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ConsumedInternal.java.html#12]]]
 +ConsumedInternal(Serde<K>;Serde<V>;TimestampExtractor;Topology.AutoOffsetReset) : ConsumedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ConsumedInternal.java.html#17]]]

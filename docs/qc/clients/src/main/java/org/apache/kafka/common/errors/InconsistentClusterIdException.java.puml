@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.InconsistentClusterIdException
+"ApiException" <|-- "org.apache.kafka.common.errors.InconsistentClusterIdException"
 class org.apache.kafka.common.errors.InconsistentClusterIdException {
 +InconsistentClusterIdException(String) : InconsistentClusterIdException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentClusterIdException.java.html#6]]]
 +InconsistentClusterIdException(String;Throwable) : InconsistentClusterIdException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InconsistentClusterIdException.java.html#10]]]

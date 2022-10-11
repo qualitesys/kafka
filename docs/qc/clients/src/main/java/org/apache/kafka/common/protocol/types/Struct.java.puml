@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.types.Struct
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.types.Struct"
 class org.apache.kafka.common.protocol.types.Struct {
 Struct(Schema;Object[]) : Struct [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#19]]]
 +Struct(Schema) : Struct [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#24]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.Versions
+"java.lang.Object" <|-- "org.apache.kafka.message.Versions"
 class org.apache.kafka.message.Versions {
 +parse(String;Versions) : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#12]]]
 -Versions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#45]]]

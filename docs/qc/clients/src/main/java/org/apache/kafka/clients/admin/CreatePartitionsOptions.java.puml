@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_CreatePartitionsOptions_ <|-- org.apache.kafka.clients.admin.CreatePartitionsOptions
+"AbstractOptions<CreatePartitionsOptions>" <|-- "org.apache.kafka.clients.admin.CreatePartitionsOptions"
 class org.apache.kafka.clients.admin.CreatePartitionsOptions {
 +CreatePartitionsOptions() : CreatePartitionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#16]]]
 +validateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#20]]]

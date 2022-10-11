@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.ProducerIdAndEpoch
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.ProducerIdAndEpoch"
 class org.apache.kafka.common.utils.ProducerIdAndEpoch {
 +ProducerIdAndEpoch(long;short) : ProducerIdAndEpoch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#12]]]
 +isValid() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#17]]]

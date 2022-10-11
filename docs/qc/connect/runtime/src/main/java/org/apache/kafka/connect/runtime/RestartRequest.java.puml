@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Comparable_RestartRequest_ <|-- org.apache.kafka.connect.runtime.RestartRequest
+"Comparable<RestartRequest>" <|-- "org.apache.kafka.connect.runtime.RestartRequest"
 class org.apache.kafka.connect.runtime.RestartRequest {
 +RestartRequest(String;boolean;boolean) : RestartRequest [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#17]]]
 +connectorName() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.html#24]]]

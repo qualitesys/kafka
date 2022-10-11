@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaException <|-- org.apache.kafka.raft.errors.RaftException
+"KafkaException" <|-- "org.apache.kafka.raft.errors.RaftException"
 class org.apache.kafka.raft.errors.RaftException {
 +RaftException(String) : RaftException [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/errors/RaftException.java.html#11]]]
 +RaftException(String;Throwable) : RaftException [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/errors/RaftException.java.html#15]]]

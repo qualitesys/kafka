@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.LRUCacheEntry
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.LRUCacheEntry"
 class org.apache.kafka.streams.state.internals.LRUCacheEntry {
 LRUCacheEntry(byte[]) : LRUCacheEntry [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#17]]]
 LRUCacheEntry(byte[];Headers;boolean;long;long;int;String) : LRUCacheEntry [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LRUCacheEntry.java.html#21]]]

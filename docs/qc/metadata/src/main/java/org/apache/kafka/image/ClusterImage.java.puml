@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ClusterImage
+"java.lang.Object" <|-- "org.apache.kafka.image.ClusterImage"
 class org.apache.kafka.image.ClusterImage {
 +ClusterImage(Map<Integer,BrokerRegistration>) : ClusterImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#22]]]
 +isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#26]]]

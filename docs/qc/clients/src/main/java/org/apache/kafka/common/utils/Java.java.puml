@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Java
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Java"
 class org.apache.kafka.common.utils.Java {
 -Java() : Java [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#8]]]
 parseVersion(String) : Version [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#13]]]

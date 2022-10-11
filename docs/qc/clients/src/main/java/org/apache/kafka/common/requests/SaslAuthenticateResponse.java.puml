@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.SaslAuthenticateResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.SaslAuthenticateResponse"
 class org.apache.kafka.common.requests.SaslAuthenticateResponse {
 +SaslAuthenticateResponse(SaslAuthenticateResponseData) : SaslAuthenticateResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#17]]]
 +error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#23]]]

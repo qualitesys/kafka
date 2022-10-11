@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectException <|-- org.apache.kafka.connect.runtime.rest.errors.ConnectRestException
+"ConnectException" <|-- "org.apache.kafka.connect.runtime.rest.errors.ConnectRestException"
 class org.apache.kafka.connect.runtime.rest.errors.ConnectRestException {
 +ConnectRestException(int;int;String;Throwable) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#12]]]
 +ConnectRestException(Response.Status;int;String;Throwable) : ConnectRestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectRestException.java.html#18]]]

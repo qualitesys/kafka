@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractConfig <|-- org.apache.kafka.connect.mirror.MirrorConnectorConfig
+"AbstractConfig" <|-- "org.apache.kafka.connect.mirror.MirrorConnectorConfig"
 class org.apache.kafka.connect.mirror.MirrorConnectorConfig {
 +MirrorConnectorConfig(Map<String,String>) : MirrorConnectorConfig [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#182]]]
 MirrorConnectorConfig(ConfigDef;Map<String,String>) : MirrorConnectorConfig [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#189]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Checksum <|-- org.apache.kafka.common.utils.PureJavaCrc32C
+"Checksum" <|-- "org.apache.kafka.common.utils.PureJavaCrc32C"
 class org.apache.kafka.common.utils.PureJavaCrc32C {
 +PureJavaCrc32C() : PureJavaCrc32C [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#15]]]
 +getValue() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#20]]]

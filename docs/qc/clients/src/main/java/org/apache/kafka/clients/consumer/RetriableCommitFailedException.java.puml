@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RetriableException <|-- org.apache.kafka.clients.consumer.RetriableCommitFailedException
+"RetriableException" <|-- "org.apache.kafka.clients.consumer.RetriableCommitFailedException"
 class org.apache.kafka.clients.consumer.RetriableCommitFailedException {
 +RetriableCommitFailedException(Throwable) : RetriableCommitFailedException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#10]]]
 +RetriableCommitFailedException(String) : RetriableCommitFailedException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#15]]]

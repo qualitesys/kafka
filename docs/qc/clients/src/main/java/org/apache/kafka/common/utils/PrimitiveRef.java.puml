@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.PrimitiveRef
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.PrimitiveRef"
 class org.apache.kafka.common.utils.PrimitiveRef {
 +ofInt(int) : IntRef [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6]]]
 } 

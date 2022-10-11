@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueIterator_K,V_ <|-- org.apache.kafka.streams.state.internals.PeekingKeyValueIterator
+"KeyValueIterator<K,V>" <|-- "org.apache.kafka.streams.state.internals.PeekingKeyValueIterator"
 class org.apache.kafka.streams.state.internals.PeekingKeyValueIterator {
 peekNext() : KeyValue<K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PeekingKeyValueIterator.java.html#9]]]
 } 

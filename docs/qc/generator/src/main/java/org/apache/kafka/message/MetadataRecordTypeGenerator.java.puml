@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TypeClassGenerator <|-- org.apache.kafka.message.MetadataRecordTypeGenerator
+"TypeClassGenerator" <|-- "org.apache.kafka.message.MetadataRecordTypeGenerator"
 class org.apache.kafka.message.MetadataRecordTypeGenerator {
 +MetadataRecordTypeGenerator(String) : MetadataRecordTypeGenerator [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#16]]]
 +outputName() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MetadataRecordTypeGenerator.java.html#23]]]

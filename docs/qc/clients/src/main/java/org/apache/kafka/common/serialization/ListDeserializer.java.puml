@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer_List_Inner__ <|-- org.apache.kafka.common.serialization.ListDeserializer
+"Deserializer<List<Inner>>" <|-- "org.apache.kafka.common.serialization.ListDeserializer"
 class org.apache.kafka.common.serialization.ListDeserializer {
 +ListDeserializer() : ListDeserializer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#43]]]
 +innerDeserializer() : Deserializer<Inner> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#55]]]

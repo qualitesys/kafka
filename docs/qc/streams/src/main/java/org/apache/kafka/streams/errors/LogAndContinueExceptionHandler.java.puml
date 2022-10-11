@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-DeserializationExceptionHandler <|-- org.apache.kafka.streams.errors.LogAndContinueExceptionHandler
+"DeserializationExceptionHandler" <|-- "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler"
 class org.apache.kafka.streams.errors.LogAndContinueExceptionHandler {
 +handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception) : DeserializationHandlerResponse [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#17]]]
 +configure(Map<String,?>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#30]]]

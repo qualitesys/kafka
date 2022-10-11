@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.MaskField
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.MaskField"
 class org.apache.kafka.connect.transforms.MaskField {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#79]]]
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#86]]]

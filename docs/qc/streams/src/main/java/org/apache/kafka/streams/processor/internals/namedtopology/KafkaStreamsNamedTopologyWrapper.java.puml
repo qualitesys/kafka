@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaStreams <|-- org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper
+"KafkaStreams" <|-- "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper"
 class org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper {
 +KafkaStreamsNamedTopologyWrapper(Properties) : KafkaStreamsNamedTopologyWrapper [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#52]]]
 +KafkaStreamsNamedTopologyWrapper(Properties;KafkaClientSupplier) : KafkaStreamsNamedTopologyWrapper [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#56]]]

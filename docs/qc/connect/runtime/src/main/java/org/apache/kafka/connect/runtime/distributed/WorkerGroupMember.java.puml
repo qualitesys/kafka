@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.distributed.WorkerGroupMember
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.distributed.WorkerGroupMember"
 class org.apache.kafka.connect.runtime.distributed.WorkerGroupMember {
 +WorkerGroupMember(DistributedConfig;String;ConfigBackingStore;WorkerRebalanceListener;Time;String;LogContext) : WorkerGroupMember [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#55]]]
 +stop() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#143]]]

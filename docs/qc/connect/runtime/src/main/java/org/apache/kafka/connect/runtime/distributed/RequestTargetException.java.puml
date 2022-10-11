@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectException <|-- org.apache.kafka.connect.runtime.distributed.RequestTargetException
+"ConnectException" <|-- "org.apache.kafka.connect.runtime.distributed.RequestTargetException"
 class org.apache.kafka.connect.runtime.distributed.RequestTargetException {
 +RequestTargetException(String;String) : RequestTargetException [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.html#10]]]
 +RequestTargetException(String;Throwable;String) : RequestTargetException [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/RequestTargetException.java.html#15]]]

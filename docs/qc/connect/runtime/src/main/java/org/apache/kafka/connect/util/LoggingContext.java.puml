@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.util.LoggingContext
+"AutoCloseable" <|-- "org.apache.kafka.connect.util.LoggingContext"
 class org.apache.kafka.connect.util.LoggingContext {
 +clear() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#45]]]
 +forConnector(String) : LoggingContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#50]]]

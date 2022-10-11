@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.MessageGenerator
+"java.lang.Object" <|-- "org.apache.kafka.message.MessageGenerator"
 class org.apache.kafka.message.MessageGenerator {
 -createTypeClassGenerators(String;List<String>) : List<TypeClassGenerator> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#158]]]
 -createMessageClassGenerators(String;List<String>) : List<MessageClassGenerator> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#180]]]

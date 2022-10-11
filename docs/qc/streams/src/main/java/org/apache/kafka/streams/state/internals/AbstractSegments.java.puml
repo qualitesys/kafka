@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Segments_S_ <|-- org.apache.kafka.streams.state.internals.AbstractSegments
+"Segments<S>" <|-- "org.apache.kafka.streams.state.internals.AbstractSegments"
 class org.apache.kafka.streams.state.internals.AbstractSegments {
 AbstractSegments(String;long;long) : AbstractSegments [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#32]]]
 +segmentId(long) : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#42]]]

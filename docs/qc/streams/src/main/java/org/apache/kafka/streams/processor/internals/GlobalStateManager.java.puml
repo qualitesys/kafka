@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateManager <|-- org.apache.kafka.streams.processor.internals.GlobalStateManager
+"StateManager" <|-- "org.apache.kafka.streams.processor.internals.GlobalStateManager"
 class org.apache.kafka.streams.processor.internals.GlobalStateManager {
 setGlobalProcessorContext(InternalProcessorContext) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.html#10]]]
 initialize() : Set<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManager.java.html#13]]]

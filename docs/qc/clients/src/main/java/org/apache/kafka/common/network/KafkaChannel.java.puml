@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.common.network.KafkaChannel
+"AutoCloseable" <|-- "org.apache.kafka.common.network.KafkaChannel"
 class org.apache.kafka.common.network.KafkaChannel {
 +KafkaChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry) : KafkaChannel [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#63]]]
 +close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#78]]]

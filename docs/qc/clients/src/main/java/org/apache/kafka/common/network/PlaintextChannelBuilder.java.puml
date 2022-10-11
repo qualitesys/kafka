@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ChannelBuilder <|-- org.apache.kafka.common.network.PlaintextChannelBuilder
+"ChannelBuilder" <|-- "org.apache.kafka.common.network.PlaintextChannelBuilder"
 class org.apache.kafka.common.network.PlaintextChannelBuilder {
 +PlaintextChannelBuilder(ListenerName) : PlaintextChannelBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#28]]]
 +configure(Map<String,?>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#32]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.internals.ClusterResourceListeners
+"java.lang.Object" <|-- "org.apache.kafka.common.internals.ClusterResourceListeners"
 class org.apache.kafka.common.internals.ClusterResourceListeners {
 +ClusterResourceListeners() : ClusterResourceListeners [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#14]]]
 +maybeAdd(Object) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#19]]]

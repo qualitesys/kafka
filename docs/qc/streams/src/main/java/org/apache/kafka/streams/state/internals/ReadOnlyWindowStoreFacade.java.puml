@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ReadOnlyWindowStore_K,V_ <|-- org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade
+"ReadOnlyWindowStore<K,V>" <|-- "org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade"
 class org.apache.kafka.streams.state.internals.ReadOnlyWindowStoreFacade {
 ReadOnlyWindowStoreFacade(TimestampedWindowStore<K,V>) : ReadOnlyWindowStoreFacade [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#19]]]
 +fetch(K;long) : V [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyWindowStoreFacade.java.html#24]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SinkTaskContext <|-- org.apache.kafka.connect.runtime.WorkerSinkTaskContext
+"SinkTaskContext" <|-- "org.apache.kafka.connect.runtime.WorkerSinkTaskContext"
 class org.apache.kafka.connect.runtime.WorkerSinkTaskContext {
 +WorkerSinkTaskContext(KafkaConsumer<byte[],byte[]>;WorkerSinkTask;ClusterConfigState) : WorkerSinkTaskContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTaskContext.java.html#31]]]
 +configs() : Map<String,String> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTaskContext.java.html#43]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.BaseRepartitionNode
+"GraphNode" <|-- "org.apache.kafka.streams.kstream.internals.graph.BaseRepartitionNode"
 class org.apache.kafka.streams.kstream.internals.graph.BaseRepartitionNode {
 BaseRepartitionNode(String;String;ProcessorParameters<K,V,?,?>;Serde<K>;Serde<V>;String;String;StreamPartitioner<K,V>;InternalTopicProperties) : BaseRepartitionNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseRepartitionNode.java.html#22]]]
 valueSerializer() : Serializer<V> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseRepartitionNode.java.html#44]]]

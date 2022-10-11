@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AuthorizationException <|-- org.apache.kafka.common.errors.GroupAuthorizationException
+"AuthorizationException" <|-- "org.apache.kafka.common.errors.GroupAuthorizationException"
 class org.apache.kafka.common.errors.GroupAuthorizationException {
 +GroupAuthorizationException(String;String) : GroupAuthorizationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#7]]]
 +GroupAuthorizationException(String) : GroupAuthorizationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupAuthorizationException.java.html#12]]]

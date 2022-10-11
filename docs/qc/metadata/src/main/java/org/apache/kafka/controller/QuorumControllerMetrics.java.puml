@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ControllerMetrics <|-- org.apache.kafka.controller.QuorumControllerMetrics
+"ControllerMetrics" <|-- "org.apache.kafka.controller.QuorumControllerMetrics"
 class org.apache.kafka.controller.QuorumControllerMetrics {
 +QuorumControllerMetrics(MetricsRegistry;Time) : QuorumControllerMetrics [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#69]]]
 +setActive(boolean) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#152]]]

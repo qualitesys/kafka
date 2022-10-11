@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Receive <|-- org.apache.kafka.common.network.NetworkReceive
+"Receive" <|-- "org.apache.kafka.common.network.NetworkReceive"
 class org.apache.kafka.common.network.NetworkReceive {
 +NetworkReceive(String;ByteBuffer) : NetworkReceive [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#29]]]
 +NetworkReceive(String) : NetworkReceive [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#37]]]

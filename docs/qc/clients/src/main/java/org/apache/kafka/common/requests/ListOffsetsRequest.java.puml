@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.ListOffsetsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.ListOffsetsRequest"
 class org.apache.kafka.common.requests.ListOffsetsRequest {
 -ListOffsetsRequest(ListOffsetsRequestData;short) : ListOffsetsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#81]]]
 +getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#97]]]

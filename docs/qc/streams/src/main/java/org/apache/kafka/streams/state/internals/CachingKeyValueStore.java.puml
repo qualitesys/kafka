@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore_KeyValueStore_Bytes,byte[]_,byte[],byte[]_KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.CachingKeyValueStore
+"WrappedStateStore<KeyValueStore<Bytes,byte[]>,byte[],byte[]>KeyValueStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.CachingKeyValueStore"
 class org.apache.kafka.streams.state.internals.CachingKeyValueStore {
 CachingKeyValueStore(KeyValueStore<Bytes,byte[]>;boolean) : CachingKeyValueStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#76]]]
 +init(ProcessorContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#85]]]

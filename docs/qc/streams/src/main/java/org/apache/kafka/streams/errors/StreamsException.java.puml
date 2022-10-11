@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaException <|-- org.apache.kafka.streams.errors.StreamsException
+"KafkaException" <|-- "org.apache.kafka.streams.errors.StreamsException"
 class org.apache.kafka.streams.errors.StreamsException {
 +StreamsException(String) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#16]]]
 +StreamsException(String;TaskId) : StreamsException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsException.java.html#20]]]

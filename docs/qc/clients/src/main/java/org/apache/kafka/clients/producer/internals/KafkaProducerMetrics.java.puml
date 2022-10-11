@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.clients.producer.internals.KafkaProducerMetrics
+"AutoCloseable" <|-- "org.apache.kafka.clients.producer.internals.KafkaProducerMetrics"
 class org.apache.kafka.clients.producer.internals.KafkaProducerMetrics {
 +KafkaProducerMetrics(Metrics) : KafkaProducerMetrics [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#34]]]
 +close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.html#68]]]

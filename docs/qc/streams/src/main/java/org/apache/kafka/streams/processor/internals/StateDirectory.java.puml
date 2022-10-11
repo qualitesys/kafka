@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StateDirectory
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StateDirectory"
 class org.apache.kafka.streams.processor.internals.StateDirectory {
 +StateDirectory(StreamsConfig;Time;boolean;boolean) : StateDirectory [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#607]]]
 -configurePermissions(File) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1]]]

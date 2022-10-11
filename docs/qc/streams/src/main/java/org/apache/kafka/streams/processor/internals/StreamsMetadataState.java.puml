@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StreamsMetadataState
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StreamsMetadataState"
 class org.apache.kafka.streams.processor.internals.StreamsMetadataState {
 +StreamsMetadataState(TopologyMetadata;HostInfo;LogContext) : StreamsMetadataState [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#42]]]
 +toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#52]]]

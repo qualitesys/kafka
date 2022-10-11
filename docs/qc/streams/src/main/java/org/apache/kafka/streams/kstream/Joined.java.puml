@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation_Joined_K,V,VO__ <|-- org.apache.kafka.streams.kstream.Joined
+"NamedOperation<Joined<K,V,VO>>" <|-- "org.apache.kafka.streams.kstream.Joined"
 class org.apache.kafka.streams.kstream.Joined {
 -Joined(Serde<K>;Serde<V>;Serde<VO>;String) : Joined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#14]]]
 Joined(Joined<K,V,VO>) : Joined [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#24]]]

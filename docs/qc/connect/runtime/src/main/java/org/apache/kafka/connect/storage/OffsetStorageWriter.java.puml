@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.storage.OffsetStorageWriter
+"java.lang.Object" <|-- "org.apache.kafka.connect.storage.OffsetStorageWriter"
 class org.apache.kafka.connect.storage.OffsetStorageWriter {
 +OffsetStorageWriter(OffsetBackingStore;String;Converter;Converter) : OffsetStorageWriter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#30]]]
 +offset(Map<String,?>;Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#40]]]

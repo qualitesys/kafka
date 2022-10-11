@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.LoggingSignalHandler
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.LoggingSignalHandler"
 class org.apache.kafka.common.utils.LoggingSignalHandler {
 +LoggingSignalHandler() : LoggingSignalHandler [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#30]]]
 +register() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#40]]]

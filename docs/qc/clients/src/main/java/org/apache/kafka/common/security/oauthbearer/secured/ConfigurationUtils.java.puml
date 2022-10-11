@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils"
 class org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils {
 +ConfigurationUtils(Map<String,?>) : ConfigurationUtils [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#23]]]
 +ConfigurationUtils(Map<String,?>;String) : ConfigurationUtils [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#27]]]

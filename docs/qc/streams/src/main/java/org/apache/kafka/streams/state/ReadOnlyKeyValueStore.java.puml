@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.ReadOnlyKeyValueStore
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.ReadOnlyKeyValueStore"
 class org.apache.kafka.streams.state.ReadOnlyKeyValueStore {
 get(K) : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#11]]]
 range(K;K) : KeyValueIterator<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlyKeyValueStore.java.html#14]]]

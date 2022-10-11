@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.CreateConnectorRequest
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.CreateConnectorRequest"
 class org.apache.kafka.connect.runtime.rest.entities.CreateConnectorRequest {
 +CreateConnectorRequest(String;Map<String,String>) : CreateConnectorRequest [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#15]]]
 +name() : String [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#21]]]

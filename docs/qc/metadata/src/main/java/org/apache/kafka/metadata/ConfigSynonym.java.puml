@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.ConfigSynonym
+"java.lang.Object" <|-- "org.apache.kafka.metadata.ConfigSynonym"
 class org.apache.kafka.metadata.ConfigSynonym {
 -valueToInt(String;int;String) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#25]]]
 +ConfigSynonym(String;Function<String,String>) : ConfigSynonym [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#42]]]

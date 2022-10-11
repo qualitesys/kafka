@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.UpdateFeaturesResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.UpdateFeaturesResult"
 class org.apache.kafka.clients.admin.UpdateFeaturesResult {
 UpdateFeaturesResult(Map<String,KafkaFuture<Void>>) : UpdateFeaturesResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#12]]]
 +values() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesResult.java.html#16]]]

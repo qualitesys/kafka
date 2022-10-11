@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.NewPartitionReassignment
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.NewPartitionReassignment"
 class org.apache.kafka.clients.admin.NewPartitionReassignment {
 +NewPartitionReassignment(List<Integer>) : NewPartitionReassignment [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#15]]]
 +targetReplicas() : List<Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#21]]]

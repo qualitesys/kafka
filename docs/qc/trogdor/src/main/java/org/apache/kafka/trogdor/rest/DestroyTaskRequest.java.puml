@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Message <|-- org.apache.kafka.trogdor.rest.DestroyTaskRequest
+"Message" <|-- "org.apache.kafka.trogdor.rest.DestroyTaskRequest"
 class org.apache.kafka.trogdor.rest.DestroyTaskRequest {
 +DestroyTaskRequest(String) : DestroyTaskRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.html#13]]]
 +id() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.html#18]]]

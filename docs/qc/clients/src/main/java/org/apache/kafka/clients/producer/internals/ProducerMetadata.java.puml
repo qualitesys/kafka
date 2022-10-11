@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Metadata <|-- org.apache.kafka.clients.producer.internals.ProducerMetadata
+"Metadata" <|-- "org.apache.kafka.clients.producer.internals.ProducerMetadata"
 class org.apache.kafka.clients.producer.internals.ProducerMetadata {
 +ProducerMetadata(long;long;long;LogContext;ClusterResourceListeners;Time) : ProducerMetadata [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#30]]]
 +newMetadataRequestBuilder() : MetadataRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#43]]]

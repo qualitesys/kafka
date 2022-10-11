@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.Filter
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.Filter"
 class org.apache.kafka.connect.transforms.Filter {
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#18]]]
 +config() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Filter.java.html#23]]]

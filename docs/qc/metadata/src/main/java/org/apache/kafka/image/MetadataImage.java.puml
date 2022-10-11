@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.MetadataImage
+"java.lang.Object" <|-- "org.apache.kafka.image.MetadataImage"
 class org.apache.kafka.image.MetadataImage {
 +MetadataImage(OffsetAndEpoch;FeaturesImage;ClusterImage;TopicsImage;ConfigurationsImage;ClientQuotasImage;ProducerIdsImage;AclsImage) : MetadataImage [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#42]]]
 +isEmpty() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.html#62]]]

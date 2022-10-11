@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.GroupSubscribedToTopicException
+"ApiException" <|-- "org.apache.kafka.common.errors.GroupSubscribedToTopicException"
 class org.apache.kafka.common.errors.GroupSubscribedToTopicException {
 +GroupSubscribedToTopicException(String) : GroupSubscribedToTopicException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/GroupSubscribedToTopicException.java.html#5]]]
 } 

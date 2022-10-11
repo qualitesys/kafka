@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.PluginInfo
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.PluginInfo"
 class org.apache.kafka.connect.runtime.rest.entities.PluginInfo {
 +PluginInfo(String;PluginType;String) : PluginInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#19]]]
 +PluginInfo(PluginDesc<?>) : PluginInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#29]]]

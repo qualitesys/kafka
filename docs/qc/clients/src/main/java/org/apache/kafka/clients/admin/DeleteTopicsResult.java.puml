@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteTopicsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DeleteTopicsResult"
 class org.apache.kafka.clients.admin.DeleteTopicsResult {
 DeleteTopicsResult(Map<Uuid,KafkaFuture<Void>>;Map<String,KafkaFuture<Void>>) : DeleteTopicsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#19]]]
 ofTopicIds(Map<Uuid,KafkaFuture<Void>>) : DeleteTopicsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.html#28]]]

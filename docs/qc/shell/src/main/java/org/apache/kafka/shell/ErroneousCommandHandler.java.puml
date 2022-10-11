@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Commands.Handler <|-- org.apache.kafka.shell.ErroneousCommandHandler
+"Commands.Handler" <|-- "org.apache.kafka.shell.ErroneousCommandHandler"
 class org.apache.kafka.shell.ErroneousCommandHandler {
 +ErroneousCommandHandler(String) : ErroneousCommandHandler [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#13]]]
 +run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#18]]]

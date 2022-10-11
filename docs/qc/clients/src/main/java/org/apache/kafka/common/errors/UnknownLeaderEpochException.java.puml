@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RetriableException <|-- org.apache.kafka.common.errors.UnknownLeaderEpochException
+"RetriableException" <|-- "org.apache.kafka.common.errors.UnknownLeaderEpochException"
 class org.apache.kafka.common.errors.UnknownLeaderEpochException {
 +UnknownLeaderEpochException(String) : UnknownLeaderEpochException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.html#8]]]
 +UnknownLeaderEpochException(String;Throwable) : UnknownLeaderEpochException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.html#12]]]

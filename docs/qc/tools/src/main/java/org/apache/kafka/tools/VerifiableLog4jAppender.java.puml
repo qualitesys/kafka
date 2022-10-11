@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.tools.VerifiableLog4jAppender
+"java.lang.Object" <|-- "org.apache.kafka.tools.VerifiableLog4jAppender"
 class org.apache.kafka.tools.VerifiableLog4jAppender {
 -argParser() : ArgumentParser [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.html#33]]]
 +loadProps(String) : Properties [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.html#133]]]

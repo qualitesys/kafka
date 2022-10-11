@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.secured.VerificationKeyResolverFactory
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.secured.VerificationKeyResolverFactory"
 class org.apache.kafka.common.security.oauthbearer.secured.VerificationKeyResolverFactory {
 +create(Map<String,?>;Map<String,Object>) : CloseableVerificationKeyResolver [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/VerificationKeyResolverFactory.java.html#22]]]
 +create(Map<String,?>;String;Map<String,Object>) : CloseableVerificationKeyResolver [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/VerificationKeyResolverFactory.java.html#27]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_ListPartitionReassignmentsOptions_ <|-- org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions
+"AbstractOptions<ListPartitionReassignmentsOptions>" <|-- "org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions"
 class org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions {
 } 
 @enduml

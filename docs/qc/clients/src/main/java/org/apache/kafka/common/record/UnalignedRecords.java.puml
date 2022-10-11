@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TransferableRecords <|-- org.apache.kafka.common.record.UnalignedRecords
+"TransferableRecords" <|-- "org.apache.kafka.common.record.UnalignedRecords"
 class org.apache.kafka.common.record.UnalignedRecords {
 toSend() : RecordsSend<?extendsBaseRecords> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedRecords.java.html#8]]]
 } 

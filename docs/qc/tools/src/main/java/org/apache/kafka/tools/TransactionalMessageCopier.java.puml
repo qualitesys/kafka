@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.tools.TransactionalMessageCopier
+"java.lang.Object" <|-- "org.apache.kafka.tools.TransactionalMessageCopier"
 class org.apache.kafka.tools.TransactionalMessageCopier {
 -argParser() : ArgumentParser [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#52]]]
 -createProducer(Namespace) : KafkaProducer<String,String> [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#161]]]

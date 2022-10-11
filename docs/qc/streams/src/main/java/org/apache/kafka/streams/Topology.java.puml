@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.Topology
+"java.lang.Object" <|-- "org.apache.kafka.streams.Topology"
 class org.apache.kafka.streams.Topology {
 +Topology() : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#32]]]
 +Topology(TopologyConfig) : Topology [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#36]]]

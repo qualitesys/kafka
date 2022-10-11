@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappingNullableDeserializer_TimestampedKeyAndJoinSide_K_,K,Void_ <|-- org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer
+"WrappingNullableDeserializer<TimestampedKeyAndJoinSide<K>,K,Void>" <|-- "org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer"
 class org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSideDeserializer {
 TimestampedKeyAndJoinSideDeserializer(Deserializer<K>) : TimestampedKeyAndJoinSideDeserializer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#19]]]
 +setIfUnset(SerdeGetter) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideDeserializer.java.html#25]]]

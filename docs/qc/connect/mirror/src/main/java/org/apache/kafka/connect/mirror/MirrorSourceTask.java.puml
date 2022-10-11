@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceTask <|-- org.apache.kafka.connect.mirror.MirrorSourceTask
+"SourceTask" <|-- "org.apache.kafka.connect.mirror.MirrorSourceTask"
 class org.apache.kafka.connect.mirror.MirrorSourceTask {
 +MirrorSourceTask() : MirrorSourceTask [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#53]]]
 MirrorSourceTask(KafkaConsumer<byte[],byte[]>;MirrorMetrics;String;ReplicationPolicy;long) : MirrorSourceTask [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#56]]]

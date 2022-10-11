@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NamedOperation_Consumed_K,V__ <|-- org.apache.kafka.streams.kstream.Consumed
+"NamedOperation<Consumed<K,V>>" <|-- "org.apache.kafka.streams.kstream.Consumed"
 class org.apache.kafka.streams.kstream.Consumed {
 -Consumed(Serde<K>;Serde<V>;TimestampExtractor;Topology.AutoOffsetReset;String) : Consumed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#20]]]
 Consumed(Consumed<K,V>) : Consumed [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#33]]]

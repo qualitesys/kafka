@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.ConsumerGroupMetadata
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.ConsumerGroupMetadata"
 class org.apache.kafka.clients.consumer.ConsumerGroupMetadata {
 +ConsumerGroupMetadata(String;int;String;Optional<String>) : ConsumerGroupMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#16]]]
 +ConsumerGroupMetadata(String) : ConsumerGroupMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#26]]]

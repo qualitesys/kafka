@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-EpochState <|-- org.apache.kafka.raft.ResignedState
+"EpochState" <|-- "org.apache.kafka.raft.ResignedState"
 class org.apache.kafka.raft.ResignedState {
 +ResignedState(Time;int;int;Set<Integer>;long;List<Integer>;LogContext) : ResignedState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#24]]]
 +election() : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html#45]]]

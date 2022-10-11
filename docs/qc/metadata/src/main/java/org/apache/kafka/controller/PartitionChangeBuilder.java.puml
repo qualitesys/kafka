@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.PartitionChangeBuilder
+"java.lang.Object" <|-- "org.apache.kafka.controller.PartitionChangeBuilder"
 class org.apache.kafka.controller.PartitionChangeBuilder {
 +changeRecordIsNoOp(PartitionChangeRecord) : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#28]]]
 +PartitionChangeBuilder(PartitionRegistration;Uuid;int;Function<Integer,Boolean>;boolean) : PartitionChangeBuilder [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#60]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Scheduler <|-- org.apache.kafka.common.utils.SystemScheduler
+"Scheduler" <|-- "org.apache.kafka.common.utils.SystemScheduler"
 class org.apache.kafka.common.utils.SystemScheduler {
 SystemScheduler() : SystemScheduler [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemScheduler.java.html#11]]]
 +time() : Time [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SystemScheduler.java.html#15]]]

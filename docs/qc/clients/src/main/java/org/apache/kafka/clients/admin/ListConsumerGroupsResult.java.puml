@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ListConsumerGroupsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ListConsumerGroupsResult"
 class org.apache.kafka.clients.admin.ListConsumerGroupsResult {
 ListConsumerGroupsResult(KafkaFuture<Collection<Object>>) : ListConsumerGroupsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#19]]]
 +all() : KafkaFuture<Collection<ConsumerGroupListing>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#48]]]

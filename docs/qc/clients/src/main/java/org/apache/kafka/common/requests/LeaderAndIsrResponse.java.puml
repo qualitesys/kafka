@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.LeaderAndIsrResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.LeaderAndIsrResponse"
 class org.apache.kafka.common.requests.LeaderAndIsrResponse {
 +LeaderAndIsrResponse(LeaderAndIsrResponseData;short) : LeaderAndIsrResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#24]]]
 +topics() : LeaderAndIsrTopicErrorCollection [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#30]]]

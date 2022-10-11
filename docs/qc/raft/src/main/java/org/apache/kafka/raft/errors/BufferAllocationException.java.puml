@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RaftException <|-- org.apache.kafka.raft.errors.BufferAllocationException
+"RaftException" <|-- "org.apache.kafka.raft.errors.BufferAllocationException"
 class org.apache.kafka.raft.errors.BufferAllocationException {
 +BufferAllocationException(String) : BufferAllocationException [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.html#9]]]
 } 

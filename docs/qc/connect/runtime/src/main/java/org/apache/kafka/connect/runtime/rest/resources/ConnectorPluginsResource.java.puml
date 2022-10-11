@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectResource <|-- org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource
+"ConnectResource" <|-- "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource"
 class org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource {
 +ConnectorPluginsResource(Herder) : ConnectorPluginsResource [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#72]]]
 +requestTimeout(long) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#94]]]

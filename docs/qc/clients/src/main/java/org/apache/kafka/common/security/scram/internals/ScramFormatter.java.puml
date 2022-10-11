@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.scram.internals.ScramFormatter
+"java.lang.Object" <|-- "org.apache.kafka.common.security.scram.internals.ScramFormatter"
 class org.apache.kafka.common.security.scram.internals.ScramFormatter {
 +ScramFormatter(ScramMechanism) : ScramFormatter [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#34]]]
 +hmac(byte[];byte[]) : byte[] [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramFormatter.java.html#40]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RecordBatch <|-- org.apache.kafka.common.record.MutableRecordBatch
+"RecordBatch" <|-- "org.apache.kafka.common.record.MutableRecordBatch"
 class org.apache.kafka.common.record.MutableRecordBatch {
 setLastOffset(long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#12]]]
 setMaxTimestamp(TimestampType;long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#15]]]

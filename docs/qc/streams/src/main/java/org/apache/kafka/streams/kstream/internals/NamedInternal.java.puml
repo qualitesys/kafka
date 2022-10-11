@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Named <|-- org.apache.kafka.streams.kstream.internals.NamedInternal
+"Named" <|-- "org.apache.kafka.streams.kstream.internals.NamedInternal"
 class org.apache.kafka.streams.kstream.internals.NamedInternal {
 +empty() : NamedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#8]]]
 +with(String) : NamedInternal [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#12]]]

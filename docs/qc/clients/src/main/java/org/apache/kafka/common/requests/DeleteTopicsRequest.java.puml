@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.DeleteTopicsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.DeleteTopicsRequest"
 class org.apache.kafka.common.requests.DeleteTopicsRequest {
 -DeleteTopicsRequest(DeleteTopicsRequestData;short) : DeleteTopicsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#52]]]
 +data() : DeleteTopicsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#58]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.KeyQueryMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.KeyQueryMetadata"
 class org.apache.kafka.streams.KeyQueryMetadata {
 +KeyQueryMetadata(HostInfo;Set<HostInfo>;int) : KeyQueryMetadata [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#22]]]
 +getActiveHost() : HostInfo [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KeyQueryMetadata.java.html#30]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DeleteRecordsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DeleteRecordsResult"
 class org.apache.kafka.clients.admin.DeleteRecordsResult {
 +DeleteRecordsResult(Map<TopicPartition,KafkaFuture<DeletedRecords>>) : DeleteRecordsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteRecordsResult.java.html#17]]]
 +lowWatermarks() : Map<TopicPartition,KafkaFuture<DeletedRecords>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteRecordsResult.java.html#22]]]

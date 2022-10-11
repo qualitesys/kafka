@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.Transformer
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Transformer"
 class org.apache.kafka.streams.kstream.Transformer {
 init(ProcessorContext) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#16]]]
 transform(K;V) : R [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#19]]]

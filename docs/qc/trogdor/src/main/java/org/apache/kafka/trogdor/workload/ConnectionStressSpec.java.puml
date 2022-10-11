@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskSpec <|-- org.apache.kafka.trogdor.workload.ConnectionStressSpec
+"TaskSpec" <|-- "org.apache.kafka.trogdor.workload.ConnectionStressSpec"
 class org.apache.kafka.trogdor.workload.ConnectionStressSpec {
 +ConnectionStressSpec(long;long;List<String>;String;Map<String,String>;int;int;ConnectionStressAction) : ConnectionStressSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#32]]]
 +clientNode() : List<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html#51]]]

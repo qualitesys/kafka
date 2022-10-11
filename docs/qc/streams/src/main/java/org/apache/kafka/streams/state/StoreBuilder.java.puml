@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.StoreBuilder
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.StoreBuilder"
 class org.apache.kafka.streams.state.StoreBuilder {
 withCachingEnabled() : StoreBuilder<T> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#12]]]
 withCachingDisabled() : StoreBuilder<T> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreBuilder.java.html#15]]]

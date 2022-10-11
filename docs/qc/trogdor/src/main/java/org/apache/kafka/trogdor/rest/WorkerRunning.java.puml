@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WorkerState <|-- org.apache.kafka.trogdor.rest.WorkerRunning
+"WorkerState" <|-- "org.apache.kafka.trogdor.rest.WorkerRunning"
 class org.apache.kafka.trogdor.rest.WorkerRunning {
 +WorkerRunning(String;TaskSpec;long;JsonNode) : WorkerRunning [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#20]]]
 +startedMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#31]]]

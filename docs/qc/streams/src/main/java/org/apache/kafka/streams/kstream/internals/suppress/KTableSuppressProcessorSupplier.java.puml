@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier
+"KTableProcessorSupplier<K,V,K,V>" <|-- "org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier"
 class org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier {
 +KTableSuppressProcessorSupplier(SuppressedInternal<K>;String;KTableImpl<K,?,V>) : KTableSuppressProcessorSupplier [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#33]]]
 +get() : Processor<K,Change<V>,K,Change<V>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#44]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SnapshottableHashTable_TimelineHashMap.TimelineHashMapEntry_K,V__Map_K,V_ <|-- org.apache.kafka.timeline.TimelineHashMap
+"SnapshottableHashTable<TimelineHashMap.TimelineHashMapEntry<K,V>>Map<K,V>" <|-- "org.apache.kafka.timeline.TimelineHashMap"
 class org.apache.kafka.timeline.TimelineHashMap {
 +TimelineHashMap(SnapshotRegistry;int) : TimelineHashMap [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#73]]]
 +size() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#78]]]

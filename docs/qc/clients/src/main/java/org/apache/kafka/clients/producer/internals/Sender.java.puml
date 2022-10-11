@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Runnable <|-- org.apache.kafka.clients.producer.internals.Sender
+"Runnable" <|-- "org.apache.kafka.clients.producer.internals.Sender"
 class org.apache.kafka.clients.producer.internals.Sender {
 +Sender(LogContext;KafkaClient;ProducerMetadata;RecordAccumulator;boolean;int;short;int;SenderMetricsRegistry;Time;int;long;TransactionManager;ApiVersions) : Sender [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#106]]]
 +inFlightBatches(TopicPartition) : List<ProducerBatch> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#138]]]

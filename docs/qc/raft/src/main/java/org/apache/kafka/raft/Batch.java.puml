@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Iterable_T_ <|-- org.apache.kafka.raft.Batch
+"Iterable<T>" <|-- "org.apache.kafka.raft.Batch"
 class org.apache.kafka.raft.Batch {
 -Batch(long;int;long;int;long;List<T>) : Batch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#18]]]
 +lastOffset() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#35]]]

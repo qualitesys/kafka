@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.mirror.MirrorClient
+"AutoCloseable" <|-- "org.apache.kafka.connect.mirror.MirrorClient"
 class org.apache.kafka.connect.mirror.MirrorClient {
 +MirrorClient(Map<String,Object>) : MirrorClient [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#38]]]
 +MirrorClient(MirrorClientConfig) : MirrorClient [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#42]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier_KIn,VIn,KIn,VAgg_ <|-- org.apache.kafka.streams.kstream.internals.KTableAggregate
+"KTableProcessorSupplier<KIn,VIn,KIn,VAgg>" <|-- "org.apache.kafka.streams.kstream.internals.KTableAggregate"
 class org.apache.kafka.streams.kstream.internals.KTableAggregate {
 KTableAggregate(String;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KTableAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#25]]]
 +enableSendingOldValues(boolean) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#36]]]

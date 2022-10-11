@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Shell
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Shell"
 class org.apache.kafka.common.utils.Shell {
 execString() : String[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#20]]]
 parseExecResult(BufferedReader) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#23]]]

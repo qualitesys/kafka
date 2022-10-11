@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.Maybe
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.Maybe"
 class org.apache.kafka.streams.state.internals.Maybe {
 -Maybe(T) : Maybe [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#20]]]
 -Maybe() : Maybe [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#25]]]

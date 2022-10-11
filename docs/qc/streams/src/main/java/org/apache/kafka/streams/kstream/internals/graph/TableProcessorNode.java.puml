@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.TableProcessorNode
+"GraphNode" <|-- "org.apache.kafka.streams.kstream.internals.graph.TableProcessorNode"
 class org.apache.kafka.streams.kstream.internals.graph.TableProcessorNode {
 +TableProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<TimestampedKeyValueStore<K,V>>) : TableProcessorNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableProcessorNode.java.html#18]]]
 +TableProcessorNode(String;ProcessorParameters<K,V,?,?>;StoreBuilder<TimestampedKeyValueStore<K,V>>;String[]) : TableProcessorNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableProcessorNode.java.html#24]]]

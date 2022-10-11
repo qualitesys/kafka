@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.requests.AbstractRequestResponse
+"java.lang.Object" <|-- "org.apache.kafka.common.requests.AbstractRequestResponse"
 class org.apache.kafka.common.requests.AbstractRequestResponse {
 data() : ApiMessage [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractRequestResponse.java.html#8]]]
 } 

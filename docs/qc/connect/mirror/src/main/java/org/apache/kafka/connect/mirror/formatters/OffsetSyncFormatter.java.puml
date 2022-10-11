@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MessageFormatter <|-- org.apache.kafka.connect.mirror.formatters.OffsetSyncFormatter
+"MessageFormatter" <|-- "org.apache.kafka.connect.mirror.formatters.OffsetSyncFormatter"
 class org.apache.kafka.connect.mirror.formatters.OffsetSyncFormatter {
 +writeTo(ConsumerRecord<byte[],byte[]>;PrintStream) : void [[[./../../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/formatters/OffsetSyncFormatter.java.html#13]]]
 } 

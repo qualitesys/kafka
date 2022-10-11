@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.StoreQueryParameters
+"java.lang.Object" <|-- "org.apache.kafka.streams.StoreQueryParameters"
 class org.apache.kafka.streams.StoreQueryParameters {
 StoreQueryParameters(String;QueryableStoreType<T>;Integer;boolean) : StoreQueryParameters [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#16]]]
 +withPartition(Integer) : StoreQueryParameters<T> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#29]]]

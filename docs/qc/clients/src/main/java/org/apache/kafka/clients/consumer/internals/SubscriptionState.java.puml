@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.SubscriptionState
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.internals.SubscriptionState"
 class org.apache.kafka.clients.consumer.internals.SubscriptionState {
 +toString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#74]]]
 +prettyString() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#84]]]

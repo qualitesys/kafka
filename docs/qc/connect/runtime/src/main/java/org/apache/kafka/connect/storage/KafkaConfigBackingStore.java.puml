@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConfigBackingStore <|-- org.apache.kafka.connect.storage.KafkaConfigBackingStore
+"ConfigBackingStore" <|-- "org.apache.kafka.connect.storage.KafkaConfigBackingStore"
 class org.apache.kafka.connect.storage.KafkaConfigBackingStore {
 +TARGET_STATE_KEY(String) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#66]]]
 +CONNECTOR_KEY(String) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#72]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractCoordinator <|-- org.apache.kafka.clients.consumer.internals.ConsumerCoordinator
+"AbstractCoordinator" <|-- "org.apache.kafka.clients.consumer.internals.ConsumerCoordinator"
 class org.apache.kafka.clients.consumer.internals.ConsumerCoordinator {
 +ConsumerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;List<ConsumerPartitionAssignor>;ConsumerMetadata;SubscriptionState;Metrics;String;Time;boolean;int;ConsumerInterceptors<?,?>;boolean) : ConsumerCoordinator [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#129]]]
 isLeader() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#199]]]

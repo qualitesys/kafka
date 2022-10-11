@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.Materialized
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Materialized"
 class org.apache.kafka.streams.kstream.Materialized {
 -Materialized(StoreSupplier<S>) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#41]]]
 -Materialized(String) : Materialized [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#45]]]

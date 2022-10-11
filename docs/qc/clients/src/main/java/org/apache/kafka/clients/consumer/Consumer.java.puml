@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.clients.consumer.Consumer
+"Closeable" <|-- "org.apache.kafka.clients.consumer.Consumer"
 class org.apache.kafka.clients.consumer.Consumer {
 assignment() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/Consumer.java.html#22]]]
 subscription() : Set<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/Consumer.java.html#25]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.PartitionInfo
+"java.lang.Object" <|-- "org.apache.kafka.common.PartitionInfo"
 class org.apache.kafka.common.PartitionInfo {
 +PartitionInfo(String;int;Node;Node[];Node[]) : PartitionInfo [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#13]]]
 +PartitionInfo(String;int;Node;Node[];Node[];Node[]) : PartitionInfo [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/PartitionInfo.java.html#17]]]

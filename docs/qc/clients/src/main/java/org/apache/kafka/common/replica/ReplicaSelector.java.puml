@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable <|-- org.apache.kafka.common.replica.ReplicaSelector
+"Configurable" <|-- "org.apache.kafka.common.replica.ReplicaSelector"
 class org.apache.kafka.common.replica.ReplicaSelector {
 select(TopicPartition;ClientMetadata;PartitionView) : Optional<ReplicaView> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaSelector.java.html#16]]]
 close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaSelector.java.html#20]]]

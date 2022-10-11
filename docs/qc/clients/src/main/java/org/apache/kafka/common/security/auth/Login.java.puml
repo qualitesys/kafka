@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.auth.Login
+"java.lang.Object" <|-- "org.apache.kafka.common.security.auth.Login"
 class org.apache.kafka.common.security.auth.Login {
 configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#15]]]
 login() : LoginContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#19]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.IsNullConditional
+"java.lang.Object" <|-- "org.apache.kafka.message.IsNullConditional"
 class org.apache.kafka.message.IsNullConditional {
 forName(String) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#24]]]
 forField(FieldSpec) : IsNullConditional [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#28]]]

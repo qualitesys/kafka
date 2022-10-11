@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics
+"AutoCloseable" <|-- "org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics"
 class org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics {
 +KafkaConsumerMetrics(Metrics;String) : KafkaConsumerMetrics [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#25]]]
 +recordPollStart(long) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#76]]]

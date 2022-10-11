@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.AlterPartitionRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.AlterPartitionRequest"
 class org.apache.kafka.common.requests.AlterPartitionRequest {
 +AlterPartitionRequest(AlterPartitionRequestData;short) : AlterPartitionRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionRequest.java.html#17]]]
 +data() : AlterPartitionRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterPartitionRequest.java.html#23]]]

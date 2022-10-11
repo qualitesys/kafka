@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.ClientRequest
+"java.lang.Object" <|-- "org.apache.kafka.clients.ClientRequest"
 class org.apache.kafka.clients.ClientRequest {
 +ClientRequest(String;AbstractRequest.Builder<?>;int;String;long;boolean;int;RequestCompletionHandler) : ClientRequest [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#22]]]
 +toString() : String [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#41]]]

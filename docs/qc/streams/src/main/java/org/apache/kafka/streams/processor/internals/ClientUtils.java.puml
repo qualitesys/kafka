@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ClientUtils
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ClientUtils"
 class org.apache.kafka.streams.processor.internals.ClientUtils {
 +getSharedAdminClientId(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#52]]]
 +getConsumerClientId(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#56]]]

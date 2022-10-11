@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.ConfigurationDelta
+"java.lang.Object" <|-- "org.apache.kafka.image.ConfigurationDelta"
 class org.apache.kafka.image.ConfigurationDelta {
 +ConfigurationDelta(ConfigurationImage) : ConfigurationDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#18]]]
 +finishSnapshot() : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#22]]]

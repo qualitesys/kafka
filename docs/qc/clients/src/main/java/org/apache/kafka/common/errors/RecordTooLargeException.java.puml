@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.RecordTooLargeException
+"ApiException" <|-- "org.apache.kafka.common.errors.RecordTooLargeException"
 class org.apache.kafka.common.errors.RecordTooLargeException {
 +RecordTooLargeException() : RecordTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#14]]]
 +RecordTooLargeException(String;Throwable) : RecordTooLargeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#18]]]

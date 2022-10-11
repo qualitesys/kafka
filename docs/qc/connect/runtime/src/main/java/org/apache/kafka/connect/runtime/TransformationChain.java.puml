@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.runtime.TransformationChain
+"AutoCloseable" <|-- "org.apache.kafka.connect.runtime.TransformationChain"
 class org.apache.kafka.connect.runtime.TransformationChain {
 +TransformationChain(List<Transformation<R>>;RetryWithToleranceOperator) : TransformationChain [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#21]]]
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#26]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.storage.ClusterConfigState
+"java.lang.Object" <|-- "org.apache.kafka.connect.storage.ClusterConfigState"
 class org.apache.kafka.connect.storage.ClusterConfigState {
 +ClusterConfigState(long;SessionKey;Map<String,Integer>;Map<String,Map<String,String>>;Map<String,TargetState>;Map<ConnectorTaskId,Map<String,String>>;Map<String,Integer>;Map<String,Integer>;Set<String>;Set<String>) : ClusterConfigState [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#45]]]
 +ClusterConfigState(long;SessionKey;Map<String,Integer>;Map<String,Map<String,String>>;Map<String,TargetState>;Map<ConnectorTaskId,Map<String,String>>;Map<String,Integer>;Map<String,Integer>;Set<String>;Set<String>;WorkerConfigTransformer) : ClusterConfigState [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#68]]]

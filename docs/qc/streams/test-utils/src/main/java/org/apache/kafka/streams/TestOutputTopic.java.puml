@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.TestOutputTopic
+"java.lang.Object" <|-- "org.apache.kafka.streams.TestOutputTopic"
 class org.apache.kafka.streams.TestOutputTopic {
 TestOutputTopic(TopologyTestDriver;String;Deserializer<K>;Deserializer<V>) : TestOutputTopic [[[./../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#21]]]
 +readValue() : V [[[./../../../../../../../../../.././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#36]]]

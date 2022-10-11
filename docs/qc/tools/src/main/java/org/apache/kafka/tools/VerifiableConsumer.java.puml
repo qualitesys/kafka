@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.tools.VerifiableConsumer
+"Closeable" <|-- "org.apache.kafka.tools.VerifiableConsumer"
 class org.apache.kafka.tools.VerifiableConsumer {
 +VerifiableConsumer(KafkaConsumer<String,String>;PrintStream;String;int;boolean;boolean;boolean) : VerifiableConsumer [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#68]]]
 -addKafkaSerializerModule() : void [[[./../../../../../../../../.././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#85]]]

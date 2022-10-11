@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Converter <|-- org.apache.kafka.connect.json.JsonConverter
+"Converter" <|-- "org.apache.kafka.connect.json.JsonConverter"
 class org.apache.kafka.connect.json.JsonConverter {
 +JsonConverter() : JsonConverter [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#213]]]
 sizeOfFromConnectSchemaCache() : long [[[./../../../../../../../../../../.././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#230]]]

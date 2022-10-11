@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.TaskMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.TaskMetadata"
 class org.apache.kafka.streams.TaskMetadata {
 taskId() : TaskId [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#16]]]
 topicPartitions() : Set<TopicPartition> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#19]]]

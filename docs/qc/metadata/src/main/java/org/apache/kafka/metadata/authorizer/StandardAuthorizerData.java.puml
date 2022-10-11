@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.metadata.authorizer.StandardAuthorizerData
+"java.lang.Object" <|-- "org.apache.kafka.metadata.authorizer.StandardAuthorizerData"
 class org.apache.kafka.metadata.authorizer.StandardAuthorizerData {
 -createLogger(int) : Logger [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#82]]]
 -auditLogger() : Logger [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#86]]]

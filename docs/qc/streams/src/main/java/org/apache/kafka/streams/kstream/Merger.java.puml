@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.Merger
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Merger"
 class org.apache.kafka.streams.kstream.Merger {
 apply(K;V;V) : V [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Merger.java.html#9]]]
 } 

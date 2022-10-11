@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.clients.consumer.internals.Fetcher
+"Closeable" <|-- "org.apache.kafka.clients.consumer.internals.Fetcher"
 class org.apache.kafka.clients.consumer.internals.Fetcher {
 +Fetcher(LogContext;ConsumerNetworkClient;int;int;int;int;int;boolean;String;Deserializer<K>;Deserializer<V>;ConsumerMetadata;SubscriptionState;Metrics;FetcherMetricsRegistry;Time;long;long;IsolationLevel;ApiVersions) : Fetcher [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#130]]]
 hasCompletedFetches() : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#190]]]

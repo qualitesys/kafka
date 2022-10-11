@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_DeleteConsumerGroupOffsetsOptions_ <|-- org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions
+"AbstractOptions<DeleteConsumerGroupOffsetsOptions>" <|-- "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions"
 class org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions {
 } 
 @enduml

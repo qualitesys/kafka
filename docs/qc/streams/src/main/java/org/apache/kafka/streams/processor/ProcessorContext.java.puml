@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.ProcessorContext
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.ProcessorContext"
 class org.apache.kafka.streams.processor.ProcessorContext {
 applicationId() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/ProcessorContext.java.html#21]]]
 taskId() : TaskId [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/ProcessorContext.java.html#24]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractHerderRunnable <|-- org.apache.kafka.connect.runtime.distributed.DistributedHerder
+"AbstractHerderRunnable" <|-- "org.apache.kafka.connect.runtime.distributed.DistributedHerder"
 class org.apache.kafka.connect.runtime.distributed.DistributedHerder {
 +DistributedHerder(DistributedConfig;Time;Worker;String;StatusBackingStore;ConfigBackingStore;String;ConnectorClientConfigOverridePolicy;AutoCloseable...) : DistributedHerder [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#178]]]
 DistributedHerder(DistributedConfig;Worker;String;String;StatusBackingStore;ConfigBackingStore;WorkerGroupMember;String;ConnectMetrics;Time;ConnectorClientConfigOverridePolicy;AutoCloseable...) : DistributedHerder [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#193]]]

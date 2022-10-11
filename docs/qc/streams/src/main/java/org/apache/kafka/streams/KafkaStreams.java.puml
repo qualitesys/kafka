@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.streams.KafkaStreams
+"AutoCloseable" <|-- "org.apache.kafka.streams.KafkaStreams"
 class org.apache.kafka.streams.KafkaStreams {
 -waitOnState(State;long) : boolean [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#188]]]
 -setState(State) : boolean [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#222]]]

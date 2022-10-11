@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.FieldType
+"java.lang.Object" <|-- "org.apache.kafka.message.FieldType"
 class org.apache.kafka.message.FieldType {
 parse(String) : FieldType [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#366]]]
 getBoxedJavaType(HeaderGenerator) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#414]]]

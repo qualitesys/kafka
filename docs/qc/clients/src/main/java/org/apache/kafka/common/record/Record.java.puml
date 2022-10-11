@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.record.Record
+"java.lang.Object" <|-- "org.apache.kafka.common.record.Record"
 class org.apache.kafka.common.record.Record {
 offset() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/Record.java.html#14]]]
 sequence() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/Record.java.html#17]]]

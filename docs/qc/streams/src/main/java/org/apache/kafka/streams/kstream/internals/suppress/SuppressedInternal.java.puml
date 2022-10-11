@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Suppressed_K_ <|-- org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal
+"Suppressed<K>" <|-- "org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal"
 class org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal {
 +SuppressedInternal(String;Duration;BufferConfig;TimeDefinition<K>;boolean) : SuppressedInternal [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#21]]]
 +withName(String) : Suppressed<K> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/SuppressedInternal.java.html#34]]]

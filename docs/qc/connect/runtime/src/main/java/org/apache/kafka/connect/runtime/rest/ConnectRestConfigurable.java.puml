@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Configurable_ResourceConfig_ <|-- org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable
+"Configurable<ResourceConfig>" <|-- "org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable"
 class org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable {
 +ConnectRestConfigurable(ResourceConfig) : ConnectRestConfigurable [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#25]]]
 +getConfiguration() : Configuration [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#32]]]

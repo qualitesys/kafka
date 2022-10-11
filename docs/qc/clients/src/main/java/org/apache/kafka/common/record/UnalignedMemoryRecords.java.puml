@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-UnalignedRecords <|-- org.apache.kafka.common.record.UnalignedMemoryRecords
+"UnalignedRecords" <|-- "org.apache.kafka.common.record.UnalignedMemoryRecords"
 class org.apache.kafka.common.record.UnalignedMemoryRecords {
 +UnalignedMemoryRecords(ByteBuffer) : UnalignedMemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#16]]]
 +buffer() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#20]]]

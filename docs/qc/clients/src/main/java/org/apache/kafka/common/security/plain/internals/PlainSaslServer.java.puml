@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SaslServer <|-- org.apache.kafka.common.security.plain.internals.PlainSaslServer
+"SaslServer" <|-- "org.apache.kafka.common.security.plain.internals.PlainSaslServer"
 class org.apache.kafka.common.security.plain.internals.PlainSaslServer {
 +PlainSaslServer(CallbackHandler) : PlainSaslServer [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#30]]]
 +evaluateResponse(byte[]) : byte[] [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#36]]]

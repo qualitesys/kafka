@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.query.StateQueryResult
+"java.lang.Object" <|-- "org.apache.kafka.streams.query.StateQueryResult"
 class org.apache.kafka.streams.query.StateQueryResult {
 +setGlobalResult(QueryResult<R>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#19]]]
 +addResult(int;QueryResult<R>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#24]]]

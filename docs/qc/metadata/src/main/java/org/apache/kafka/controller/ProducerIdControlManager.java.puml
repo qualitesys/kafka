@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ProducerIdControlManager
+"java.lang.Object" <|-- "org.apache.kafka.controller.ProducerIdControlManager"
 class org.apache.kafka.controller.ProducerIdControlManager {
 ProducerIdControlManager(ClusterControlManager;SnapshotRegistry) : ProducerIdControlManager [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#25]]]
 generateNextProducerId(int;long) : ControllerResult<ProducerIdsBlock> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#31]]]

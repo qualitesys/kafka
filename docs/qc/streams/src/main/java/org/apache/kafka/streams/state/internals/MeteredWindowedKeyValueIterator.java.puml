@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueIterator_Windowed_K_,V_ <|-- org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator
+"KeyValueIterator<Windowed<K>,V>" <|-- "org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator"
 class org.apache.kafka.streams.state.internals.MeteredWindowedKeyValueIterator {
 MeteredWindowedKeyValueIterator(KeyValueIterator<Windowed<Bytes>,byte[]>;Sensor;StreamsMetrics;Function<byte[],K>;Function<byte[],V>;Time) : MeteredWindowedKeyValueIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#24]]]
 +hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#40]]]

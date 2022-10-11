@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration"
 class org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration {
 +AssignorConfiguration(Map<String,?>) : AssignorConfiguration [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#35]]]
 +referenceContainer() : ReferenceContainer [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#76]]]

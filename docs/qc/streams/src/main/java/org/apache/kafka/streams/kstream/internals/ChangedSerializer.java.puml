@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer_Change_T__ <|-- org.apache.kafka.streams.kstream.internals.ChangedSerializer
+"Serializer<Change<T>>" <|-- "org.apache.kafka.streams.kstream.internals.ChangedSerializer"
 class org.apache.kafka.streams.kstream.internals.ChangedSerializer {
 +ChangedSerializer(Serializer<T>) : ChangedSerializer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#17]]]
 +inner() : Serializer<T> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#21]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.ForeachAction
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.ForeachAction"
 class org.apache.kafka.streams.kstream.ForeachAction {
 apply(K;V) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachAction.java.html#9]]]
 } 

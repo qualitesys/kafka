@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas"
 class org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas {
 -extractPrefix(byte[]) : byte [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#25]]]
 +isTimeFirstSchemaKey(byte[]) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#29]]]

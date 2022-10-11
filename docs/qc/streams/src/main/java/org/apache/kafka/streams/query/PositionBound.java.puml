@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.query.PositionBound
+"java.lang.Object" <|-- "org.apache.kafka.streams.query.PositionBound"
 class org.apache.kafka.streams.query.PositionBound {
 -PositionBound(Position) : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#15]]]
 +unbounded() : PositionBound [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#20]]]

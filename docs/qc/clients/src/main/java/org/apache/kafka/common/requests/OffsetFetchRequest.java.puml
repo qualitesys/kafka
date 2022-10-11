@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.OffsetFetchRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.OffsetFetchRequest"
 class org.apache.kafka.common.requests.OffsetFetchRequest {
 +partitions() : List<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#191]]]
 +groupId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#204]]]

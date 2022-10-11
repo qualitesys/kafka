@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectClusterState <|-- org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl
+"ConnectClusterState" <|-- "org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl"
 class org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl {
 +ConnectClusterStateImpl(long;ConnectClusterDetails;Herder) : ConnectClusterStateImpl [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#30]]]
 +connectors() : Collection<String> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#41]]]

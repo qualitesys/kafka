@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BaseRecordBatchBenchmark <|-- org.apache.kafka.jmh.record.RecordBatchIterationBenchmark
+"BaseRecordBatchBenchmark" <|-- "org.apache.kafka.jmh.record.RecordBatchIterationBenchmark"
 class org.apache.kafka.jmh.record.RecordBatchIterationBenchmark {
 compressionType() : CompressionType [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#30]]]
 +measureIteratorForBatchWithSingleMessage(Blackhole) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.java.html#35]]]

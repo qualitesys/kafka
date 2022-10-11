@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Records <|-- org.apache.kafka.common.record.AbstractRecords
+"Records" <|-- "org.apache.kafka.common.record.AbstractRecords"
 class org.apache.kafka.common.record.AbstractRecords {
 +hasMatchingMagic(byte) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#16]]]
 +firstBatch() : RecordBatch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#23]]]

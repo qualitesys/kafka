@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SnapshottableHashTable_TimelineHashSet.TimelineHashSetEntry_T__Set_T_ <|-- org.apache.kafka.timeline.TimelineHashSet
+"SnapshottableHashTable<TimelineHashSet.TimelineHashSetEntry<T>>Set<T>" <|-- "org.apache.kafka.timeline.TimelineHashSet"
 class org.apache.kafka.timeline.TimelineHashSet {
 +TimelineHashSet(SnapshotRegistry;int) : TimelineHashSet [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#52]]]
 +size() : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#57]]]

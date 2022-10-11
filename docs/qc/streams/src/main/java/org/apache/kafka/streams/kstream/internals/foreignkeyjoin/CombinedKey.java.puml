@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey"
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey {
 CombinedKey(KF;KP) : CombinedKey [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#11]]]
 +getForeignKey() : KF [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKey.java.html#18]]]

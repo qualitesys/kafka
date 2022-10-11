@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.mirror.MirrorMetrics
+"AutoCloseable" <|-- "org.apache.kafka.connect.mirror.MirrorMetrics"
 class org.apache.kafka.connect.mirror.MirrorMetrics {
 MirrorMetrics(MirrorTaskConfig) : MirrorMetrics [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#89]]]
 +close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMetrics.java.html#108]]]

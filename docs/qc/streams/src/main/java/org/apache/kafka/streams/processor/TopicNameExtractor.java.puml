@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.TopicNameExtractor
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.TopicNameExtractor"
 class org.apache.kafka.streams.processor.TopicNameExtractor {
 extract(K;V;RecordContext) : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/TopicNameExtractor.java.html#8]]]
 } 

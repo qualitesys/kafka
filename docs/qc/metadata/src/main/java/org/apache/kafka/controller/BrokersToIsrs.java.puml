@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.BrokersToIsrs
+"java.lang.Object" <|-- "org.apache.kafka.controller.BrokersToIsrs"
 class org.apache.kafka.controller.BrokersToIsrs {
 BrokersToIsrs(SnapshotRegistry) : BrokersToIsrs [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#78]]]
 update(Uuid;int;int[];int[];int;int) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85]]]

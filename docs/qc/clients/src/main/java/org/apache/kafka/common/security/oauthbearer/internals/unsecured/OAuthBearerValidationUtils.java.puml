@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationUtils"
 class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationUtils {
 +validateClaimForExistenceAndType(OAuthBearerUnsecuredJws;boolean;String;Class<?>...) : OAuthBearerValidationResult [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#12]]]
 +validateIssuedAt(OAuthBearerUnsecuredJws;boolean;long;int) : OAuthBearerValidationResult [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#28]]]

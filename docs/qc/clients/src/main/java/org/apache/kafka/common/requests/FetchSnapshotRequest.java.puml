@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.FetchSnapshotRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.FetchSnapshotRequest"
 class org.apache.kafka.common.requests.FetchSnapshotRequest {
 +FetchSnapshotRequest(FetchSnapshotRequestData;short) : FetchSnapshotRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#19]]]
 +getErrorResponse(int;Throwable) : FetchSnapshotResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#25]]]

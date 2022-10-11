@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiHandler.Unbatched_CoordinatorKey,ProducerIdAndEpoch_ <|-- org.apache.kafka.clients.admin.internals.FenceProducersHandler
+"AdminApiHandler.Unbatched<CoordinatorKey,ProducerIdAndEpoch>" <|-- "org.apache.kafka.clients.admin.internals.FenceProducersHandler"
 class org.apache.kafka.clients.admin.internals.FenceProducersHandler {
 +FenceProducersHandler(LogContext) : FenceProducersHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#27]]]
 +newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ProducerIdAndEpoch> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#34]]]

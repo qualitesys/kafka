@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.workload.TransactionGenerator
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.workload.TransactionGenerator"
 class org.apache.kafka.trogdor.workload.TransactionGenerator {
 nextAction() : TransactionAction [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TransactionGenerator.java.html#21]]]
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.EnvelopeResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.EnvelopeResponse"
 class org.apache.kafka.common.requests.EnvelopeResponse {
 +EnvelopeResponse(ByteBuffer;Errors) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#16]]]
 +EnvelopeResponse(Errors) : EnvelopeResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#23]]]

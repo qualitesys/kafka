@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.query.QueryConfig
+"java.lang.Object" <|-- "org.apache.kafka.streams.query.QueryConfig"
 class org.apache.kafka.streams.query.QueryConfig {
 +QueryConfig(boolean) : QueryConfig [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.html#11]]]
 +isCollectExecutionInfo() : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.html#15]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappingNullableSerde_SubscriptionWrapper_K_,K,Void_ <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde
+"WrappingNullableSerde<SubscriptionWrapper<K>,K,Void>" <|-- "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde"
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapperSerde {
 +SubscriptionWrapperSerde(Supplier<String>;Serde<K>) : SubscriptionWrapperSerde [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#19]]]
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.timeline.BaseHashTable
+"java.lang.Object" <|-- "org.apache.kafka.timeline.BaseHashTable"
 class org.apache.kafka.timeline.BaseHashTable {
 BaseHashTable(int) : BaseHashTable [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#23]]]
 expectedSizeToCapacity(int) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/BaseHashTable.java.html#28]]]

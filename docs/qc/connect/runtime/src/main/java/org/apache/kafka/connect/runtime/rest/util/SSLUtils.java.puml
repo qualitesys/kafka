@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.util.SSLUtils
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.util.SSLUtils"
 class org.apache.kafka.connect.runtime.rest.util.SSLUtils {
 +createServerSideSslContextFactory(WorkerConfig;String) : SslContextFactory [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#22]]]
 +createServerSideSslContextFactory(WorkerConfig) : SslContextFactory [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#36]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.FenceProducersResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.FenceProducersResult"
 class org.apache.kafka.clients.admin.FenceProducersResult {
 FenceProducersResult(Map<CoordinatorKey,KafkaFuture<ProducerIdAndEpoch>>) : FenceProducersResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#20]]]
 +fencedProducers() : Map<String,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FenceProducersResult.java.html#25]]]

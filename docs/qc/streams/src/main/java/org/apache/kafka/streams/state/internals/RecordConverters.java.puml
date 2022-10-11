@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.RecordConverters
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.RecordConverters"
 class org.apache.kafka.streams.state.internals.RecordConverters {
 -RecordConverters() : RecordConverters [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RecordConverters.java.html#35]]]
 +rawValueToTimestampedValue() : RecordConverter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RecordConverters.java.html#37]]]

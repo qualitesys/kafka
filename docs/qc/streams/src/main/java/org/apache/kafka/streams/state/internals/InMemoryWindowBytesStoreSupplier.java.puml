@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowBytesStoreSupplier <|-- org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier
+"WindowBytesStoreSupplier" <|-- "org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier"
 class org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier {
 +InMemoryWindowBytesStoreSupplier(String;long;long;boolean) : InMemoryWindowBytesStoreSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#14]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.html#25]]]

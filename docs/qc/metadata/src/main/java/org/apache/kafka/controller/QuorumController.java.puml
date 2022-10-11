@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Controller <|-- org.apache.kafka.controller.QuorumController
+"Controller" <|-- "org.apache.kafka.controller.QuorumController"
 class org.apache.kafka.controller.QuorumController {
 -newNotControllerException() : NotControllerException [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#342]]]
 +exceptionToApparentController(NotControllerException) : int [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#352]]]

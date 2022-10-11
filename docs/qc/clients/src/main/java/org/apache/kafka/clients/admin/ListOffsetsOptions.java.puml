@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_ListOffsetsOptions_ <|-- org.apache.kafka.clients.admin.ListOffsetsOptions
+"AbstractOptions<ListOffsetsOptions>" <|-- "org.apache.kafka.clients.admin.ListOffsetsOptions"
 class org.apache.kafka.clients.admin.ListOffsetsOptions {
 +ListOffsetsOptions() : ListOffsetsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#15]]]
 +ListOffsetsOptions(IsolationLevel) : ListOffsetsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#19]]]

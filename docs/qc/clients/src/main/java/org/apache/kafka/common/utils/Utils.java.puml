@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.Utils
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.Utils"
 class org.apache.kafka.common.utils.Utils {
 -Utils() : Utils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#71]]]
 +utf8(byte[]) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#97]]]

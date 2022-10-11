@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.BootstrapMetadata
+"java.lang.Object" <|-- "org.apache.kafka.controller.BootstrapMetadata"
 class org.apache.kafka.controller.BootstrapMetadata {
 BootstrapMetadata(MetadataVersion;List<ApiMessageAndVersion>) : BootstrapMetadata [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#41]]]
 +metadataVersion() : MetadataVersion [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#46]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectRestExtension <|-- org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension
+"ConnectRestExtension" <|-- "org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension"
 class org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension {
 initializeConfiguration(Supplier<Configuration>) : Supplier<Configuration> [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#26]]]
 +BasicAuthSecurityRestExtension() : BasicAuthSecurityRestExtension [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#41]]]

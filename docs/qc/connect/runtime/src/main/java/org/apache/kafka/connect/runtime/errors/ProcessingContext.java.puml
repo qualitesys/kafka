@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.runtime.errors.ProcessingContext
+"AutoCloseable" <|-- "org.apache.kafka.connect.runtime.errors.ProcessingContext"
 class org.apache.kafka.connect.runtime.errors.ProcessingContext {
 -reset() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#35]]]
 +consumerRecord(ConsumerRecord<byte[],byte[]>) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#43]]]

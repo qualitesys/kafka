@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceTaskContext <|-- org.apache.kafka.connect.runtime.WorkerSourceTaskContext
+"SourceTaskContext" <|-- "org.apache.kafka.connect.runtime.WorkerSourceTaskContext"
 class org.apache.kafka.connect.runtime.WorkerSourceTaskContext {
 +WorkerSourceTaskContext(OffsetStorageReader;ConnectorTaskId;ClusterConfigState;WorkerTransactionContext) : WorkerSourceTaskContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#18]]]
 +configs() : Map<String,String> [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTaskContext.java.html#29]]]

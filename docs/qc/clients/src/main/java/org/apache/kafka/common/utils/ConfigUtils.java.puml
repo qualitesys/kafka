@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.ConfigUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.ConfigUtils"
 class org.apache.kafka.common.utils.ConfigUtils {
 +configMapToRedactedString(Map<String,Object>;ConfigDef) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82]]]
 } 

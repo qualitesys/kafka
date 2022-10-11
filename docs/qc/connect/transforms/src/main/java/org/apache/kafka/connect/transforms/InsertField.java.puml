@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Transformation_R_ <|-- org.apache.kafka.connect.transforms.InsertField
+"Transformation<R>" <|-- "org.apache.kafka.connect.transforms.InsertField"
 class org.apache.kafka.connect.transforms.InsertField {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#93]]]
 +apply(R) : R [[[./../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#114]]]

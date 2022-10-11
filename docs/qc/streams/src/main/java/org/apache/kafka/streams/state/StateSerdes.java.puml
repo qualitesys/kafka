@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.StateSerdes
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.StateSerdes"
 class org.apache.kafka.streams.state.StateSerdes {
 +StateSerdes(String;Serde<K>;Serde<V>) : StateSerdes [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#32]]]
 +keySerde() : Serde<K> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#45]]]

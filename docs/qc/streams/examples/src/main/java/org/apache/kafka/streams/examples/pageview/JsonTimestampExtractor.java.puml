@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TimestampExtractor <|-- org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor
+"TimestampExtractor" <|-- "org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor"
 class org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor {
 +extract(ConsumerRecord<Object,Object>;long) : long [[[./../../../../../../../../../../../.././qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html#12]]]
 } 

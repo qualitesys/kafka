@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.TaskMovement
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.TaskMovement"
 class org.apache.kafka.streams.processor.internals.assignment.TaskMovement {
 -TaskMovement(TaskId;UUID;SortedSet<UUID>) : TaskMovement [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#27]]]
 -task() : TaskId [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#33]]]

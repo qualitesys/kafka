@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.replica.ClientMetadata
+"java.lang.Object" <|-- "org.apache.kafka.common.replica.ClientMetadata"
 class org.apache.kafka.common.replica.ClientMetadata {
 rackId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#13]]]
 clientId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#16]]]

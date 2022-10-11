@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskWorker <|-- org.apache.kafka.trogdor.workload.ConfigurableProducerWorker
+"TaskWorker" <|-- "org.apache.kafka.trogdor.workload.ConfigurableProducerWorker"
 class org.apache.kafka.trogdor.workload.ConfigurableProducerWorker {
 +ConfigurableProducerWorker(String;ConfigurableProducerSpec) : ConfigurableProducerWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#56]]]
 +start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#62]]]

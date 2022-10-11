@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AuthenticateCallbackHandler <|-- org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler
+"AuthenticateCallbackHandler" <|-- "org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler"
 class org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler {
 +configure(Map<String,?>;String;List<AppConfigurationEntry>) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#27]]]
 +handle(Callback[]) : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#32]]]

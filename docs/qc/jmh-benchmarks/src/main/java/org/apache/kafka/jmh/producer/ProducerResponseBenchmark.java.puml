@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.producer.ProducerResponseBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.producer.ProducerResponseBenchmark"
 class org.apache.kafka.jmh.producer.ProducerResponseBenchmark {
 -response() : ProduceResponse [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerResponseBenchmark.java.html#50]]]
 +constructorProduceResponse() : AbstractResponse [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerResponseBenchmark.java.html#58]]]

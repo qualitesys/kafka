@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-InvalidOffsetException <|-- org.apache.kafka.common.errors.OffsetOutOfRangeException
+"InvalidOffsetException" <|-- "org.apache.kafka.common.errors.OffsetOutOfRangeException"
 class org.apache.kafka.common.errors.OffsetOutOfRangeException {
 +OffsetOutOfRangeException(String) : OffsetOutOfRangeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.html#9]]]
 +OffsetOutOfRangeException(String;Throwable) : OffsetOutOfRangeException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.html#13]]]

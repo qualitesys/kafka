@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.TopicDescription
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.TopicDescription"
 class org.apache.kafka.clients.admin.TopicDescription {
 +equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#24]]]
 +hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/TopicDescription.java.html#35]]]

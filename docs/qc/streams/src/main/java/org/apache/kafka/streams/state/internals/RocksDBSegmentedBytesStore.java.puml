@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRocksDBSegmentedBytesStore_KeyValueSegment_ <|-- org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore
+"AbstractRocksDBSegmentedBytesStore<KeyValueSegment>" <|-- "org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore"
 class org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore {
 RocksDBSegmentedBytesStore(String;String;long;long;KeySchema) : RocksDBSegmentedBytesStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSegmentedBytesStore.java.html#6]]]
 } 

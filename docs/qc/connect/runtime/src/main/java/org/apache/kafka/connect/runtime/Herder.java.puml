@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.Herder
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.Herder"
 class org.apache.kafka.connect.runtime.Herder {
 start() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#24]]]
 stop() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#26]]]

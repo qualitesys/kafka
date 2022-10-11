@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.shell.CommandUtils
+"java.lang.Object" <|-- "org.apache.kafka.shell.CommandUtils"
 class org.apache.kafka.shell.CommandUtils {
 +getEffectivePaths(List<String>) : List<String> [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#15]]]
 +completeCommand(String;List<Candidate>) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#29]]]

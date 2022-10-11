@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.InMemoryKeyValueStore
+"KeyValueStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore"
 class org.apache.kafka.streams.state.internals.InMemoryKeyValueStore {
 +InMemoryKeyValueStore(String) : InMemoryKeyValueStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#44]]]
 +name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#49]]]

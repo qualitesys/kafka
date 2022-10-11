@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.BrokerRegistrationResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.BrokerRegistrationResponse"
 class org.apache.kafka.common.requests.BrokerRegistrationResponse {
 +BrokerRegistrationResponse(BrokerRegistrationResponseData) : BrokerRegistrationResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#17]]]
 +data() : BrokerRegistrationResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerRegistrationResponse.java.html#23]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ContainerRequestFilter <|-- org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter
+"ContainerRequestFilter" <|-- "org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter"
 class org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter {
 +JaasBasicAuthFilter(Configuration) : JaasBasicAuthFilter [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#64]]]
 +filter(ContainerRequestContext) : void [[[./../../../../../../../../../../../../../.././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#69]]]

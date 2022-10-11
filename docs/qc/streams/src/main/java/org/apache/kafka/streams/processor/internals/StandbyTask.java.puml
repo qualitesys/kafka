@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractTaskTask <|-- org.apache.kafka.streams.processor.internals.StandbyTask
+"AbstractTaskTask" <|-- "org.apache.kafka.streams.processor.internals.StandbyTask"
 class org.apache.kafka.streams.processor.internals.StandbyTask {
 StandbyTask(TaskId;Set<TopicPartition>;ProcessorTopology;TaskConfig;StreamsMetricsImpl;ProcessorStateManager;StateDirectory;ThreadCache;InternalProcessorContext) : StandbyTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#31]]]
 +isActive() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#59]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.common.serialization.Serde
+"Closeable" <|-- "org.apache.kafka.common.serialization.Serde"
 class org.apache.kafka.common.serialization.Serde {
 configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#11]]]
 close() : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Serde.java.html#17]]]

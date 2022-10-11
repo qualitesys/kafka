@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorSupplier_K1,V1,K1,VOut_ <|-- org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin
+"ProcessorSupplier<K1,V1,K1,VOut>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin"
 class org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin {
 KStreamGlobalKTableJoin(KTableValueGetterSupplier<K2,V2>;ValueJoinerWithKey<?superK1,?superV1,?superV2,?extendsVOut>;KeyValueMapper<?superK1,?superV1,?extendsK2>;boolean) : KStreamGlobalKTableJoin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.html#16]]]
 +get() : Processor<K1,V1,K1,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.html#27]]]

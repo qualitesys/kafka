@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil"
 class org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil {
 -GraphGraceSearchUtil() : GraphGraceSearchUtil [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphGraceSearchUtil.java.html#14]]]
 +findAndVerifyWindowGrace(GraphNode) : long [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphGraceSearchUtil.java.html#16]]]

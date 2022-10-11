@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.mirror.Heartbeat
+"java.lang.Object" <|-- "org.apache.kafka.connect.mirror.Heartbeat"
 class org.apache.kafka.connect.mirror.Heartbeat {
 +Heartbeat(String;String;long) : Heartbeat [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#36]]]
 +sourceClusterAlias() : String [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#42]]]

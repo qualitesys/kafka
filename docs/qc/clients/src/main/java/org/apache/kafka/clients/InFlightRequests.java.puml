@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.InFlightRequests
+"java.lang.Object" <|-- "org.apache.kafka.clients.InFlightRequests"
 class org.apache.kafka.clients.InFlightRequests {
 +InFlightRequests(int) : InFlightRequests [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#21]]]
 +add(NetworkClient.InFlightRequest) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#26]]]

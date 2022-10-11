@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.util.KafkaBasedLog
+"java.lang.Object" <|-- "org.apache.kafka.connect.util.KafkaBasedLog"
 class org.apache.kafka.connect.util.KafkaBasedLog {
 +KafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<K,V>>;Time;Runnable) : KafkaBasedLog [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#73]]]
 +KafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Supplier<TopicAdmin>;Callback<ConsumerRecord<K,V>>;Time;java.util.function.Consumer<TopicAdmin>) : KafkaBasedLog [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#83]]]

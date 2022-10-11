@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.common.Platform
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.common.Platform"
 class org.apache.kafka.trogdor.common.Platform {
 name() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.html#41]]]
 curNode() : Node [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.html#44]]]

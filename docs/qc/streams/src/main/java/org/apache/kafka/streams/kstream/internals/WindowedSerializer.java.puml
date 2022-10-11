@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Serializer_Windowed_T__ <|-- org.apache.kafka.streams.kstream.internals.WindowedSerializer
+"Serializer<Windowed<T>>" <|-- "org.apache.kafka.streams.kstream.internals.WindowedSerializer"
 class org.apache.kafka.streams.kstream.internals.WindowedSerializer {
 serializeBaseKey(String;Windowed<T>) : byte[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java.html#9]]]
 } 

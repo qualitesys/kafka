@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.Target
+"java.lang.Object" <|-- "org.apache.kafka.message.Target"
 class org.apache.kafka.message.Target {
 Target(FieldSpec;String;String;Function<String,String>) : Target [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#14]]]
 +assignmentStatement(String) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#22]]]

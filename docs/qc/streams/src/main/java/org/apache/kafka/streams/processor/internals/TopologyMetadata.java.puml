@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TopologyMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TopologyMetadata"
 class org.apache.kafka.streams.processor.internals.TopologyMetadata {
 +TopologyMetadata(InternalTopologyBuilder;StreamsConfig) : TopologyMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#87]]]
 +TopologyMetadata(ConcurrentNavigableMap<String,InternalTopologyBuilder>;StreamsConfig) : TopologyMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#104]]]

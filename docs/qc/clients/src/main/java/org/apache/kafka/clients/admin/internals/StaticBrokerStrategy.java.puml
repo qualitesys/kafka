@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AdminApiLookupStrategy_K_ <|-- org.apache.kafka.clients.admin.internals.StaticBrokerStrategy
+"AdminApiLookupStrategy<K>" <|-- "org.apache.kafka.clients.admin.internals.StaticBrokerStrategy"
 class org.apache.kafka.clients.admin.internals.StaticBrokerStrategy {
 +StaticBrokerStrategy(int) : StaticBrokerStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#14]]]
 +lookupScope(K) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#19]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo"
 class org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo {
 -validateVersions(int;int) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#57]]]
 +SubscriptionInfo(int;int;UUID;String;Map<TaskId,Long>;byte;int;Map<String,String>) : SubscriptionInfo [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#70]]]

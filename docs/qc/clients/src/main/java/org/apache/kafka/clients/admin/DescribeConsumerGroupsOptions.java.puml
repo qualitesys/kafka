@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_DescribeConsumerGroupsOptions_ <|-- org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions
+"AbstractOptions<DescribeConsumerGroupsOptions>" <|-- "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions"
 class org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions {
 +includeAuthorizedOperations(boolean) : DescribeConsumerGroupsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#14]]]
 +includeAuthorizedOperations() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsOptions.java.html#19]]]

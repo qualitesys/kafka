@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.ListTransactionsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.ListTransactionsRequest"
 class org.apache.kafka.common.requests.ListTransactionsRequest {
 -ListTransactionsRequest(ListTransactionsRequestData;short) : ListTransactionsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsRequest.java.html#34]]]
 +data() : ListTransactionsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ListTransactionsRequest.java.html#39]]]

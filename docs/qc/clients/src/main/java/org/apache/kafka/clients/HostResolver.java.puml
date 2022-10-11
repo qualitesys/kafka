@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.HostResolver
+"java.lang.Object" <|-- "org.apache.kafka.clients.HostResolver"
 class org.apache.kafka.clients.HostResolver {
 resolve(String) : InetAddress[] [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/HostResolver.java.html#10]]]
 } 

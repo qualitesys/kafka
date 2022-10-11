@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.consumer.internals.ConsumerMetrics
+"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.internals.ConsumerMetrics"
 class org.apache.kafka.clients.consumer.internals.ConsumerMetrics {
 +ConsumerMetrics(Set<String>;String) : ConsumerMetrics [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#16]]]
 +ConsumerMetrics(String) : ConsumerMetrics [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#20]]]

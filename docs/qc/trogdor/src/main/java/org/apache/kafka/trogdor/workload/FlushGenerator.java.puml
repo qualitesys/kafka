@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.workload.FlushGenerator
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.workload.FlushGenerator"
 class org.apache.kafka.trogdor.workload.FlushGenerator {
 } 
 @enduml

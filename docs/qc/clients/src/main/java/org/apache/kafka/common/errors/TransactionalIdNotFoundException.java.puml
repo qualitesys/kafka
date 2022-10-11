@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.TransactionalIdNotFoundException
+"ApiException" <|-- "org.apache.kafka.common.errors.TransactionalIdNotFoundException"
 class org.apache.kafka.common.errors.TransactionalIdNotFoundException {
 +TransactionalIdNotFoundException(String) : TransactionalIdNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/TransactionalIdNotFoundException.java.html#6]]]
 } 

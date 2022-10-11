@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WorkerConfig <|-- org.apache.kafka.connect.runtime.distributed.DistributedConfig
+"WorkerConfig" <|-- "org.apache.kafka.connect.runtime.distributed.DistributedConfig"
 class org.apache.kafka.connect.runtime.distributed.DistributedConfig {
 -defaultKeyGenerationAlgorithm() : Object [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#190]]]
 -defaultSignatureAlgorithm() : Object [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#205]]]

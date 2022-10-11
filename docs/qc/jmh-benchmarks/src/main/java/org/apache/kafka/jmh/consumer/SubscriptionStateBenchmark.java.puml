@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark"
 class org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark {
 +setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/consumer/SubscriptionStateBenchmark.java.html#46]]]
 +testHasAllFetchPositions() : boolean [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/consumer/SubscriptionStateBenchmark.java.html#67]]]

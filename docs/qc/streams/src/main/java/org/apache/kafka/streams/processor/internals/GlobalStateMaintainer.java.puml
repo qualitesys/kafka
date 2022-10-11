@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.GlobalStateMaintainer
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.GlobalStateMaintainer"
 class org.apache.kafka.streams.processor.internals.GlobalStateMaintainer {
 initialize() : Map<TopicPartition,Long> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateMaintainer.java.html#13]]]
 flushState() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateMaintainer.java.html#15]]]

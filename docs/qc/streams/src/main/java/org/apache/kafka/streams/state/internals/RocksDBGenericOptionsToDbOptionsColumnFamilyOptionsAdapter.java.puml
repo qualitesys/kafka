@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Options <|-- org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter
+"Options" <|-- "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"
 class org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter {
 RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter(DBOptions;ColumnFamilyOptions) : RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#50]]]
 +setIncreaseParallelism(int) : Options [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#57]]]

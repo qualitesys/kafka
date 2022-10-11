@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Stamped_ConsumerRecord_?,?__ <|-- org.apache.kafka.streams.processor.internals.StampedRecord
+"Stamped<ConsumerRecord<?,?>>" <|-- "org.apache.kafka.streams.processor.internals.StampedRecord"
 class org.apache.kafka.streams.processor.internals.StampedRecord {
 +StampedRecord(ConsumerRecord<?,?>;long) : StampedRecord [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#9]]]
 +topic() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.html#13]]]

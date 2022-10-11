@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.connect.mirror.Scheduler
+"AutoCloseable" <|-- "org.apache.kafka.connect.mirror.Scheduler"
 class org.apache.kafka.connect.mirror.Scheduler {
 Scheduler(String;Duration) : Scheduler [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#22]]]
 Scheduler(Class<?>;Duration) : Scheduler [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#27]]]

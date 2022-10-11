@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.SyncGroupRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.SyncGroupRequest"
 class org.apache.kafka.common.requests.SyncGroupRequest {
 +SyncGroupRequest(SyncGroupRequestData;short) : SyncGroupRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#43]]]
 +getErrorResponse(int;Throwable) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#49]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SimpleMemoryPoolAutoCloseable <|-- org.apache.kafka.common.memory.GarbageCollectedMemoryPool
+"SimpleMemoryPoolAutoCloseable" <|-- "org.apache.kafka.common.memory.GarbageCollectedMemoryPool"
 class org.apache.kafka.common.memory.GarbageCollectedMemoryPool {
 +GarbageCollectedMemoryPool(long;int;boolean;Sensor) : GarbageCollectedMemoryPool [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#25]]]
 bufferToBeReturned(ByteBuffer) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#34]]]

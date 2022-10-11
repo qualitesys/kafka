@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractProcessorContext_Object,Object_ <|-- org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl
+"AbstractProcessorContext<Object,Object>" <|-- "org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl"
 class org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl {
 +GlobalProcessorContextImpl(StreamsConfig;GlobalStateManager;StreamsMetricsImpl;ThreadCache;Time) : GlobalProcessorContextImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#29]]]
 stateManager() : StateManager [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#40]]]

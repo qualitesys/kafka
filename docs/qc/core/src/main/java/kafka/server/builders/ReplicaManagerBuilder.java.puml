@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- kafka.server.builders.ReplicaManagerBuilder
+"java.lang.Object" <|-- "kafka.server.builders.ReplicaManagerBuilder"
 class kafka.server.builders.ReplicaManagerBuilder {
 +setConfig(KafkaConfig) : ReplicaManagerBuilder [[[./../../../../../../../.././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#48]]]
 +setMetrics(Metrics) : ReplicaManagerBuilder [[[./../../../../../../../.././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#53]]]

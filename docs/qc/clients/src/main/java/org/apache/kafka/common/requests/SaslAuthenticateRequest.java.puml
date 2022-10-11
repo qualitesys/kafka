@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.SaslAuthenticateRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.SaslAuthenticateRequest"
 class org.apache.kafka.common.requests.SaslAuthenticateRequest {
 +SaslAuthenticateRequest(SaslAuthenticateRequestData;short) : SaslAuthenticateRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#36]]]
 +data() : SaslAuthenticateRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#42]]]

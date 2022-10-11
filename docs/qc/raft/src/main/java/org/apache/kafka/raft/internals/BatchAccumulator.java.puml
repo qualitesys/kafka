@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.raft.internals.BatchAccumulator
+"Closeable" <|-- "org.apache.kafka.raft.internals.BatchAccumulator"
 class org.apache.kafka.raft.internals.BatchAccumulator {
 +BatchAccumulator(int;long;int;int;MemoryPool;Time;CompressionType;RecordSerde<T>) : BatchAccumulator [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#53]]]
 +append(int;List<T>) : long [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#78]]]

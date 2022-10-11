@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Send <|-- org.apache.kafka.common.network.NetworkSend
+"Send" <|-- "org.apache.kafka.common.network.NetworkSend"
 class org.apache.kafka.common.network.NetworkSend {
 +NetworkSend(String;Send) : NetworkSend [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#10]]]
 +destinationId() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.html#15]]]

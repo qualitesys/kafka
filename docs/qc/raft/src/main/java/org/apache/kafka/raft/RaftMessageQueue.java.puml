@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.RaftMessageQueue
+"java.lang.Object" <|-- "org.apache.kafka.raft.RaftMessageQueue"
 class org.apache.kafka.raft.RaftMessageQueue {
 poll(long) : RaftMessage [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.html#8]]]
 add(RaftMessage) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/RaftMessageQueue.java.html#11]]]

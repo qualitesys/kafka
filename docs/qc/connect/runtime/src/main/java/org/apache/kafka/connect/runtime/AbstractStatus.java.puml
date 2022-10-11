@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.AbstractStatus
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.AbstractStatus"
 class org.apache.kafka.connect.runtime.AbstractStatus {
 +AbstractStatus(T;State;String;int;String) : AbstractStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#23]]]
 +id() : T [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.html#35]]]

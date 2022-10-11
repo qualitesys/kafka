@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.controller.ControllerMetrics
+"AutoCloseable" <|-- "org.apache.kafka.controller.ControllerMetrics"
 class org.apache.kafka.controller.ControllerMetrics {
 setActive(boolean) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#7]]]
 active() : boolean [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html#9]]]

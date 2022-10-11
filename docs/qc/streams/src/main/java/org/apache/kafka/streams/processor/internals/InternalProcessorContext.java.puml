@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorContext <|-- org.apache.kafka.streams.processor.internals.InternalProcessorContext
+"ProcessorContext" <|-- "org.apache.kafka.streams.processor.internals.InternalProcessorContext"
 class org.apache.kafka.streams.processor.internals.InternalProcessorContext {
 metrics() : StreamsMetricsImpl [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#29]]]
 setSystemTimeMs(long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#32]]]

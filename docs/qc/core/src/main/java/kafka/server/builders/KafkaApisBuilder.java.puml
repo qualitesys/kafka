@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- kafka.server.builders.KafkaApisBuilder
+"java.lang.Object" <|-- "kafka.server.builders.KafkaApisBuilder"
 class kafka.server.builders.KafkaApisBuilder {
 +setRequestChannel(RequestChannel) : KafkaApisBuilder [[[./../../../../../../../.././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#50]]]
 +setMetadataSupport(MetadataSupport) : KafkaApisBuilder [[[./../../../../../../../.././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#55]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_ListTopicsOptions_ <|-- org.apache.kafka.clients.admin.ListTopicsOptions
+"AbstractOptions<ListTopicsOptions>" <|-- "org.apache.kafka.clients.admin.ListTopicsOptions"
 class org.apache.kafka.clients.admin.ListTopicsOptions {
 +timeoutMs(Integer) : ListTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#17]]]
 +listInternal(boolean) : ListTopicsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.html#23]]]

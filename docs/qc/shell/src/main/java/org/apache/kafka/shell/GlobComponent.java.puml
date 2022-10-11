@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.shell.GlobComponent
+"java.lang.Object" <|-- "org.apache.kafka.shell.GlobComponent"
 class org.apache.kafka.shell.GlobComponent {
 -isRegularExpressionSpecialCharacter(char) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#15]]]
 -isGlobSpecialCharacter(char) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.html#35]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.ClusterResourceListener
+"java.lang.Object" <|-- "org.apache.kafka.common.ClusterResourceListener"
 class org.apache.kafka.common.ClusterResourceListener {
 onUpdate(ClusterResource) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/ClusterResourceListener.java.html#7]]]
 } 

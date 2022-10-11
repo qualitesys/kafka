@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Consumer_K,V_ <|-- org.apache.kafka.clients.consumer.KafkaConsumer
+"Consumer<K,V>" <|-- "org.apache.kafka.clients.consumer.KafkaConsumer"
 class org.apache.kafka.clients.consumer.KafkaConsumer {
 +KafkaConsumer(Map<String,Object>) : KafkaConsumer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#113]]]
 +KafkaConsumer(Properties) : KafkaConsumer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#118]]]

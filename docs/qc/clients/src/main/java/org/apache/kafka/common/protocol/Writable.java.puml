@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.Writable
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.Writable"
 class org.apache.kafka.common.protocol.Writable {
 writeByte(byte) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/Writable.java.html#12]]]
 writeShort(short) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/Writable.java.html#13]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.AlterClientQuotasRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.AlterClientQuotasRequest"
 class org.apache.kafka.common.requests.AlterClientQuotasRequest {
 +AlterClientQuotasRequest(AlterClientQuotasRequestData;short) : AlterClientQuotasRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#71]]]
 +entries() : List<ClientQuotaAlteration> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#76]]]

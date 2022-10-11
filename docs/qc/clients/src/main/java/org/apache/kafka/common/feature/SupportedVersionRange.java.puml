@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-BaseVersionRange <|-- org.apache.kafka.common.feature.SupportedVersionRange
+"BaseVersionRange" <|-- "org.apache.kafka.common.feature.SupportedVersionRange"
 class org.apache.kafka.common.feature.SupportedVersionRange {
 +SupportedVersionRange(short;short) : SupportedVersionRange [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#14]]]
 +SupportedVersionRange(short) : SupportedVersionRange [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#18]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminApiDriver
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.AdminApiDriver"
 class org.apache.kafka.clients.admin.internals.AdminApiDriver {
 +AdminApiDriver(AdminApiHandler<K,V>;AdminApiFuture<K,V>;long;long;LogContext) : AdminApiDriver [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#39]]]
 -map(K;Integer) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#55]]]

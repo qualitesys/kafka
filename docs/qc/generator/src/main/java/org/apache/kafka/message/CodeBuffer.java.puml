@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.CodeBuffer
+"java.lang.Object" <|-- "org.apache.kafka.message.CodeBuffer"
 class org.apache.kafka.message.CodeBuffer {
 +CodeBuffer() : CodeBuffer [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#13]]]
 +incrementIndent() : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#18]]]

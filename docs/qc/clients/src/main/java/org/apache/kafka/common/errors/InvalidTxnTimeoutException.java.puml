@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.InvalidTxnTimeoutException
+"ApiException" <|-- "org.apache.kafka.common.errors.InvalidTxnTimeoutException"
 class org.apache.kafka.common.errors.InvalidTxnTimeoutException {
 +InvalidTxnTimeoutException(String;Throwable) : InvalidTxnTimeoutException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTxnTimeoutException.java.html#8]]]
 +InvalidTxnTimeoutException(String) : InvalidTxnTimeoutException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTxnTimeoutException.java.html#12]]]

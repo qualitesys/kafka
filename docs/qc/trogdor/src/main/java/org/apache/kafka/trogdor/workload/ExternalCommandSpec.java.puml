@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskSpec <|-- org.apache.kafka.trogdor.workload.ExternalCommandSpec
+"TaskSpec" <|-- "org.apache.kafka.trogdor.workload.ExternalCommandSpec"
 class org.apache.kafka.trogdor.workload.ExternalCommandSpec {
 +ExternalCommandSpec(long;long;String;List<String>;JsonNode;Optional<Integer>) : ExternalCommandSpec [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#27]]]
 +commandNode() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#42]]]

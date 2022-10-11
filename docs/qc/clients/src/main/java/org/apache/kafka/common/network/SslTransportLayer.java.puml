@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TransportLayer <|-- org.apache.kafka.common.network.SslTransportLayer
+"TransportLayer" <|-- "org.apache.kafka.common.network.SslTransportLayer"
 class org.apache.kafka.common.network.SslTransportLayer {
 +create(String;SelectionKey;SSLEngine;ChannelMetadataRegistry) : SslTransportLayer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#69]]]
 SslTransportLayer(String;SelectionKey;SSLEngine;ChannelMetadataRegistry) : SslTransportLayer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#75]]]

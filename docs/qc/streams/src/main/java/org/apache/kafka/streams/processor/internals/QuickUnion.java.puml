@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.QuickUnion
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.QuickUnion"
 class org.apache.kafka.streams.processor.internals.QuickUnion {
 +add(T) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#11]]]
 +exists(T) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/QuickUnion.java.html#15]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore_WindowStore_Bytes,byte[]_,byte[],byte[]_WindowStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.CachingWindowStore
+"WrappedStateStore<WindowStore<Bytes,byte[]>,byte[],byte[]>WindowStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.CachingWindowStore"
 class org.apache.kafka.streams.state.internals.CachingWindowStore {
 CachingWindowStore(WindowStore<Bytes,byte[]>;long;long) : CachingWindowStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#50]]]
 +init(ProcessorContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#61]]]

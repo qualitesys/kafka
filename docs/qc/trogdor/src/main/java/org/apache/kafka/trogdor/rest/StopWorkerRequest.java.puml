@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Message <|-- org.apache.kafka.trogdor.rest.StopWorkerRequest
+"Message" <|-- "org.apache.kafka.trogdor.rest.StopWorkerRequest"
 class org.apache.kafka.trogdor.rest.StopWorkerRequest {
 +StopWorkerRequest(long) : StopWorkerRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.html#13]]]
 +workerId() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.html#18]]]

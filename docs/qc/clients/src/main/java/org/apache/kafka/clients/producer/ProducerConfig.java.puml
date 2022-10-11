@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractConfig <|-- org.apache.kafka.clients.producer.ProducerConfig
+"AbstractConfig" <|-- "org.apache.kafka.clients.producer.ProducerConfig"
 class org.apache.kafka.clients.producer.ProducerConfig {
 postProcessParsedConfig(Map<String,Object>) : Map<String,Object> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#456]]]
 -maybeOverrideClientId(Map<String,Object>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#464]]]

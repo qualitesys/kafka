@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.PartitionReassignmentReplicas
+"java.lang.Object" <|-- "org.apache.kafka.controller.PartitionReassignmentReplicas"
 class org.apache.kafka.controller.PartitionReassignmentReplicas {
 -calculateDifference(List<Integer>;List<Integer>) : Set<Integer> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#17]]]
 PartitionReassignmentReplicas(List<Integer>;List<Integer>) : PartitionReassignmentReplicas [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#23]]]

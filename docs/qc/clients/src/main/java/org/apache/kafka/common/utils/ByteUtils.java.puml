@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.ByteUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.ByteUtils"
 class org.apache.kafka.common.utils.ByteUtils {
 -ByteUtils() : ByteUtils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#16]]]
 +readUnsignedInt(ByteBuffer) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#19]]]

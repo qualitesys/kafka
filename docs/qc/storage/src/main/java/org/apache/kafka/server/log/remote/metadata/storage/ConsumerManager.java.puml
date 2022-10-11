@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager
+"Closeable" <|-- "org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager"
 class org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager {
 +ConsumerManager(TopicBasedRemoteLogMetadataManagerConfig;RemotePartitionMetadataEventHandler;RemoteLogMetadataTopicPartitioner;Time) : ConsumerManager [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#35]]]
 +startConsumerThread() : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#49]]]

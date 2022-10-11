@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-EpochState <|-- org.apache.kafka.raft.CandidateState
+"EpochState" <|-- "org.apache.kafka.raft.CandidateState"
 class org.apache.kafka.raft.CandidateState {
 CandidateState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;int;LogContext) : CandidateState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#29]]]
 +localId() : int [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#55]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.DescribeMetadataQuorumResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult"
 class org.apache.kafka.clients.admin.DescribeMetadataQuorumResult {
 DescribeMetadataQuorumResult(KafkaFuture<QuorumInfo>) : DescribeMetadataQuorumResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.html#11]]]
 +quorumInfo() : KafkaFuture<QuorumInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.html#16]]]

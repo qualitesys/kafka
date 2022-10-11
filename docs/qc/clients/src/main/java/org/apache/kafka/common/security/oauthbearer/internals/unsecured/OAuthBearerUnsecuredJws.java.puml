@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-OAuthBearerToken <|-- org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws
+"OAuthBearerToken" <|-- "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws"
 class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws {
 +OAuthBearerUnsecuredJws(String;String;String) : OAuthBearerUnsecuredJws [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#39]]]
 +value() : String [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#78]]]

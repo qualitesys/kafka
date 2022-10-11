@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.NodeApiVersions
+"java.lang.Object" <|-- "org.apache.kafka.clients.NodeApiVersions"
 class org.apache.kafka.clients.NodeApiVersions {
 +create() : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#35]]]
 +create(Collection<ApiVersion>) : NodeApiVersions [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#40]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.raft.ReplicatedLog
+"AutoCloseable" <|-- "org.apache.kafka.raft.ReplicatedLog"
 class org.apache.kafka.raft.ReplicatedLog {
 appendAsLeader(Records;int) : LogAppendInfo [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#15]]]
 appendAsFollower(Records) : LogAppendInfo [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#18]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateStore <|-- org.apache.kafka.streams.state.WindowStore
+"StateStore" <|-- "org.apache.kafka.streams.state.WindowStore"
 class org.apache.kafka.streams.state.WindowStore {
 put(K;V;long) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#17]]]
 fetch(K;long;long) : WindowStoreIterator<V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#22]]]

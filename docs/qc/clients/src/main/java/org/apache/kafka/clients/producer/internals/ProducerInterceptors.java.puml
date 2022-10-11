@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.clients.producer.internals.ProducerInterceptors
+"Closeable" <|-- "org.apache.kafka.clients.producer.internals.ProducerInterceptors"
 class org.apache.kafka.clients.producer.internals.ProducerInterceptors {
 +ProducerInterceptors(List<ProducerInterceptor<K,V>>) : ProducerInterceptors [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#21]]]
 +onSend(ProducerRecord<K,V>) : ProducerRecord<K,V> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#26]]]

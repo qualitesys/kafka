@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-NumberConverter_Double_ <|-- org.apache.kafka.connect.converters.DoubleConverter
+"NumberConverter<Double>" <|-- "org.apache.kafka.connect.converters.DoubleConverter"
 class org.apache.kafka.connect.converters.DoubleConverter {
 +DoubleConverter() : DoubleConverter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/DoubleConverter.java.html#13]]]
 } 

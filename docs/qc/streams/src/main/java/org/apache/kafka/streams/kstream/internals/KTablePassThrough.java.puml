@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableProcessorSupplier_KIn,VIn,KIn,VIn_ <|-- org.apache.kafka.streams.kstream.internals.KTablePassThrough
+"KTableProcessorSupplier<KIn,VIn,KIn,VIn>" <|-- "org.apache.kafka.streams.kstream.internals.KTablePassThrough"
 class org.apache.kafka.streams.kstream.internals.KTablePassThrough {
 KTablePassThrough(Collection<KStreamAggProcessorSupplier>;String) : KTablePassThrough [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.html#17]]]
 +get() : Processor<KIn,Change<VIn>,KIn,Change<VIn>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.html#23]]]

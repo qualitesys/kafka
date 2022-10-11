@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.TaskExecutor
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TaskExecutor"
 class org.apache.kafka.streams.processor.internals.TaskExecutor {
 +TaskExecutor(Tasks;TaskExecutionMetadata;ProcessingMode;boolean;LogContext) : TaskExecutor [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#39]]]
 process(int;Time) : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#52]]]

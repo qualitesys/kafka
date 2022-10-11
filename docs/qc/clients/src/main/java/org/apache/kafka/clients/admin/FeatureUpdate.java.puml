@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.FeatureUpdate
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.FeatureUpdate"
 class org.apache.kafka.clients.admin.FeatureUpdate {
 +FeatureUpdate(short;boolean) : FeatureUpdate [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#42]]]
 +FeatureUpdate(short;UpgradeType) : FeatureUpdate [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#47]]]

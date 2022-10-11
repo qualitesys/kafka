@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy"
 class org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy {
 lookupScope(T) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#18]]]
 buildRequest(Set<T>) : AbstractRequest.Builder<?> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#21]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.OffsetMetadataTooLarge
+"ApiException" <|-- "org.apache.kafka.common.errors.OffsetMetadataTooLarge"
 class org.apache.kafka.common.errors.OffsetMetadataTooLarge {
 +OffsetMetadataTooLarge() : OffsetMetadataTooLarge [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetMetadataTooLarge.java.html#9]]]
 +OffsetMetadataTooLarge(String) : OffsetMetadataTooLarge [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetMetadataTooLarge.java.html#12]]]

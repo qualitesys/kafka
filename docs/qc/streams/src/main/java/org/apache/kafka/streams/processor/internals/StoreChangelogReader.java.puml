@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ChangelogReader <|-- org.apache.kafka.streams.processor.internals.StoreChangelogReader
+"ChangelogReader" <|-- "org.apache.kafka.streams.processor.internals.StoreChangelogReader"
 class org.apache.kafka.streams.processor.internals.StoreChangelogReader {
 +StoreChangelogReader(Time;StreamsConfig;LogContext;Admin;Consumer<byte[],byte[]>;StateRestoreListener) : StoreChangelogReader [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#192]]]
 -recordEndOffset(Long) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#214]]]

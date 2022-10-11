@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TransactionContext <|-- org.apache.kafka.connect.runtime.WorkerTransactionContext
+"TransactionContext" <|-- "org.apache.kafka.connect.runtime.WorkerTransactionContext"
 class org.apache.kafka.connect.runtime.WorkerTransactionContext {
 +commitTransaction() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#24]]]
 +commitTransaction(SourceRecord) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTransactionContext.java.html#29]]]

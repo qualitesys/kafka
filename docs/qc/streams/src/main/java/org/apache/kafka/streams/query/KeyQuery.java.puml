@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Query_V_ <|-- org.apache.kafka.streams.query.KeyQuery
+"Query<V>" <|-- "org.apache.kafka.streams.query.KeyQuery"
 class org.apache.kafka.streams.query.KeyQuery {
 -KeyQuery(K;boolean) : KeyQuery [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#15]]]
 +skipCache() : KeyQuery<K,V> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#26]]]

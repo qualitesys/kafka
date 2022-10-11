@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Thread <|-- kafka.examples.ExactlyOnceMessageProcessor
+"Thread" <|-- "kafka.examples.ExactlyOnceMessageProcessor"
 class kafka.examples.ExactlyOnceMessageProcessor {
 +ExactlyOnceMessageProcessor(String;String;int;CountDownLatch) : ExactlyOnceMessageProcessor [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#41]]]
 +run() : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#61]]]

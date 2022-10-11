@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RemoteLogMetadataCache <|-- org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache
+"RemoteLogMetadataCache" <|-- "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache"
 class org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache {
 +FileBasedRemoteLogMetadataCache(TopicIdPartition;Path) : FileBasedRemoteLogMetadataCache [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#22]]]
 loadRemoteLogSegmentMetadata(RemoteLogMetadataSnapshotFile.Snapshot) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38]]]

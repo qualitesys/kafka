@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.entities.ServerInfo
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.entities.ServerInfo"
 class org.apache.kafka.connect.runtime.rest.entities.ServerInfo {
 -ServerInfo(String;String;String) : ServerInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ServerInfo.java.html#14]]]
 +ServerInfo(String) : ServerInfo [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ServerInfo.java.html#22]]]

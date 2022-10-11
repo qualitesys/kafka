@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.header.Header
+"java.lang.Object" <|-- "org.apache.kafka.connect.header.Header"
 class org.apache.kafka.connect.header.Header {
 key() : String [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Header.java.html#10]]]
 schema() : Schema [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Header.java.html#13]]]

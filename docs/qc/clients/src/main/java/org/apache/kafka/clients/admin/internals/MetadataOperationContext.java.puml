@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.internals.MetadataOperationContext
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.MetadataOperationContext"
 class org.apache.kafka.clients.admin.internals.MetadataOperationContext {
 +MetadataOperationContext(Collection<String>;O;long;Map<TopicPartition,KafkaFutureImpl<T>>) : MetadataOperationContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#26]]]
 +setResponse(Optional<MetadataResponse>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#37]]]

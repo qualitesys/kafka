@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.AlterReplicaLogDirsRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest"
 class org.apache.kafka.common.requests.AlterReplicaLogDirsRequest {
 +AlterReplicaLogDirsRequest(AlterReplicaLogDirsRequestData;short) : AlterReplicaLogDirsRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#43]]]
 +data() : AlterReplicaLogDirsRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#49]]]

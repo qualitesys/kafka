@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-DocumentedType <|-- org.apache.kafka.common.protocol.types.CompactArrayOf
+"DocumentedType" <|-- "org.apache.kafka.common.protocol.types.CompactArrayOf"
 class org.apache.kafka.common.protocol.types.CompactArrayOf {
 +CompactArrayOf(Type) : CompactArrayOf [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#18]]]
 +nullable(Type) : CompactArrayOf [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#22]]]

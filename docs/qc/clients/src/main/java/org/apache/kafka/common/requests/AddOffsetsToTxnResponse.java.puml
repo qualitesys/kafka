@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.AddOffsetsToTxnResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.AddOffsetsToTxnResponse"
 class org.apache.kafka.common.requests.AddOffsetsToTxnResponse {
 +AddOffsetsToTxnResponse(AddOffsetsToTxnResponseData) : AddOffsetsToTxnResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#17]]]
 +errorCounts() : Map<Errors,Integer> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddOffsetsToTxnResponse.java.html#23]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.DescribeClientQuotasRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeClientQuotasRequest"
 class org.apache.kafka.common.requests.DescribeClientQuotasRequest {
 +DescribeClientQuotasRequest(DescribeClientQuotasRequestData;short) : DescribeClientQuotasRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#62]]]
 +filter() : ClientQuotaFilter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#67]]]

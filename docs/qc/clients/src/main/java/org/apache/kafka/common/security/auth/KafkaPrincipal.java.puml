@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Principal <|-- org.apache.kafka.common.security.auth.KafkaPrincipal
+"Principal" <|-- "org.apache.kafka.common.security.auth.KafkaPrincipal"
 class org.apache.kafka.common.security.auth.KafkaPrincipal {
 +KafkaPrincipal(String;String) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#17]]]
 +KafkaPrincipal(String;String;boolean) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#21]]]

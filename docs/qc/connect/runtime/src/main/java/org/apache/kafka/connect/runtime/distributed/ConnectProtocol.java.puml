@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.distributed.ConnectProtocol
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.distributed.ConnectProtocol"
 class org.apache.kafka.connect.runtime.distributed.ConnectProtocol {
 +serializeMetadata(WorkerState) : ByteBuffer [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#66]]]
 +metadataRequest(WorkerState) : JoinGroupRequestProtocolCollection [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#78]]]

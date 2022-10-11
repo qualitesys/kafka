@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ResultOrError
+"java.lang.Object" <|-- "org.apache.kafka.controller.ResultOrError"
 class org.apache.kafka.controller.ResultOrError {
 +ResultOrError(Errors;String) : ResultOrError [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#15]]]
 +ResultOrError(ApiError) : ResultOrError [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ResultOrError.java.html#19]]]

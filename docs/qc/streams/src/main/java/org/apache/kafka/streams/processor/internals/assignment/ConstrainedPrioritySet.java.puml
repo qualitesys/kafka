@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.assignment.ConstrainedPrioritySet
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.assignment.ConstrainedPrioritySet"
 class org.apache.kafka.streams.processor.internals.assignment.ConstrainedPrioritySet {
 ConstrainedPrioritySet(BiFunction<UUID,TaskId,Boolean>;Function<UUID,Double>) : ConstrainedPrioritySet [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#22]]]
 poll(TaskId;Function<UUID,Boolean>) : UUID [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#29]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_UpdateFeaturesOptions_ <|-- org.apache.kafka.clients.admin.UpdateFeaturesOptions
+"AbstractOptions<UpdateFeaturesOptions>" <|-- "org.apache.kafka.clients.admin.UpdateFeaturesOptions"
 class org.apache.kafka.clients.admin.UpdateFeaturesOptions {
 +dryRun() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#13]]]
 +validateOnly() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/UpdateFeaturesOptions.java.html#17]]]

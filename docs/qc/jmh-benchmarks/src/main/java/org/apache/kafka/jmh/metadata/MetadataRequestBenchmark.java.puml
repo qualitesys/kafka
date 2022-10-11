@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.metadata.MetadataRequestBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.metadata.MetadataRequestBenchmark"
 class org.apache.kafka.jmh.metadata.MetadataRequestBenchmark {
 +setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#113]]]
 -initializeMetadataCache() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#119]]]

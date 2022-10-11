@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GroupFilter <|-- org.apache.kafka.connect.mirror.DefaultGroupFilter
+"GroupFilter" <|-- "org.apache.kafka.connect.mirror.DefaultGroupFilter"
 class org.apache.kafka.connect.mirror.DefaultGroupFilter {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#30]]]
 +close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#37]]]

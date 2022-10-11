@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.common.serialization.Deserializer
+"Closeable" <|-- "org.apache.kafka.common.serialization.Deserializer"
 class org.apache.kafka.common.serialization.Deserializer {
 configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Deserializer.java.html#13]]]
 deserialize(String;byte[]) : T [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/Deserializer.java.html#18]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.Node
+"java.lang.Object" <|-- "org.apache.kafka.common.Node"
 class org.apache.kafka.common.Node {
 +Node(int;String;int) : Node [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Node.java.html#20]]]
 +Node(int;String;int;String) : Node [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/Node.java.html#24]]]

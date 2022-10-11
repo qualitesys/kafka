@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Future_RecordMetadata_ <|-- org.apache.kafka.clients.producer.internals.FutureRecordMetadata
+"Future<RecordMetadata>" <|-- "org.apache.kafka.clients.producer.internals.FutureRecordMetadata"
 class org.apache.kafka.clients.producer.internals.FutureRecordMetadata {
 +FutureRecordMetadata(ProduceRequestResult;int;long;int;int;Time) : FutureRecordMetadata [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#23]]]
 +cancel(boolean) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/FutureRecordMetadata.java.html#34]]]

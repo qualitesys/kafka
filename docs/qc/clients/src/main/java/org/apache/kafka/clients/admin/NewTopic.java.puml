@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.NewTopic
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.NewTopic"
 class org.apache.kafka.clients.admin.NewTopic {
 +NewTopic(String;int;short) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#28]]]
 +NewTopic(String;Optional<Integer>;Optional<Short>) : NewTopic [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#33]]]

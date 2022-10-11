@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractPartitionAssignor <|-- org.apache.kafka.clients.consumer.RoundRobinAssignor
+"AbstractPartitionAssignor" <|-- "org.apache.kafka.clients.consumer.RoundRobinAssignor"
 class org.apache.kafka.clients.consumer.RoundRobinAssignor {
 +assign(Map<String,Integer>;Map<String,Subscription>) : Map<String,List<TopicPartition>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#21]]]
 -allPartitionsSorted(Map<String,Integer>;Map<String,Subscription>) : List<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#42]]]

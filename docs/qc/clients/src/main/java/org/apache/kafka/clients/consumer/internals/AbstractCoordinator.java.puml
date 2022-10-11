@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.clients.consumer.internals.AbstractCoordinator
+"Closeable" <|-- "org.apache.kafka.clients.consumer.internals.AbstractCoordinator"
 class org.apache.kafka.clients.consumer.internals.AbstractCoordinator {
 +AbstractCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;Metrics;String;Time) : AbstractCoordinator [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#109]]]
 protocolType() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#126]]]

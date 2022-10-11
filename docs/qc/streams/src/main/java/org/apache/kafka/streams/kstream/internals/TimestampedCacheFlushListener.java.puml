@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-CacheFlushListener_KOut,ValueAndTimestamp_VOut__ <|-- org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener
+"CacheFlushListener<KOut,ValueAndTimestamp<VOut>>" <|-- "org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener"
 class org.apache.kafka.streams.kstream.internals.TimestampedCacheFlushListener {
 TimestampedCacheFlushListener(ProcessorContext<KOut,Change<VOut>>) : TimestampedCacheFlushListener [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedCacheFlushListener.java.html#20]]]
 +apply(Record<KOut,Change<ValueAndTimestamp<VOut>>>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedCacheFlushListener.java.html#26]]]

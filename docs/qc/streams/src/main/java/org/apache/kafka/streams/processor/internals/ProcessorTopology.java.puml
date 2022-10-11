@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.ProcessorTopology
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ProcessorTopology"
 class org.apache.kafka.streams.processor.internals.ProcessorTopology {
 +ProcessorTopology(List<ProcessorNode<?,?,?,?>>;Map<String,SourceNode<?,?>>;Map<String,SinkNode<?,?>>;List<StateStore>;List<StateStore>;Map<String,String>;Set<String>) : ProcessorTopology [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html#31]]]
 +sourceTopics() : Set<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html#59]]]

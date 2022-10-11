@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MemoryPool <|-- org.apache.kafka.raft.internals.BatchMemoryPool
+"MemoryPool" <|-- "org.apache.kafka.raft.internals.BatchMemoryPool"
 class org.apache.kafka.raft.internals.BatchMemoryPool {
 +BatchMemoryPool(int;int) : BatchMemoryPool [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#20]]]
 +tryAllocate(int) : ByteBuffer [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#28]]]

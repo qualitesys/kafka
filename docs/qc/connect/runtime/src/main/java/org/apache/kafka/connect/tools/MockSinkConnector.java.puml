@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SinkConnector <|-- org.apache.kafka.connect.tools.MockSinkConnector
+"SinkConnector" <|-- "org.apache.kafka.connect.tools.MockSinkConnector"
 class org.apache.kafka.connect.tools.MockSinkConnector {
 +initialize(ConnectorContext) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#19]]]
 +initialize(ConnectorContext;List<Map<String,String>>) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#24]]]

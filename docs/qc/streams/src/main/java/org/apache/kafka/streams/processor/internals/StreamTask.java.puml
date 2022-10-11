@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractTaskProcessorNodePunctuator <|-- org.apache.kafka.streams.processor.internals.StreamTask
+"AbstractTaskProcessorNodePunctuator" <|-- "org.apache.kafka.streams.processor.internals.StreamTask"
 class org.apache.kafka.streams.processor.internals.StreamTask {
 +StreamTask(TaskId;Set<TopicPartition>;ProcessorTopology;Consumer<byte[],byte[]>;TaskConfig;StreamsMetricsImpl;StateDirectory;ThreadCache;Time;ProcessorStateManager;RecordCollector;InternalProcessorContext;LogContext) : StreamTask [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#94]]]
 -createPartitionQueues() : Map<TopicPartition,RecordQueue> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#186]]]

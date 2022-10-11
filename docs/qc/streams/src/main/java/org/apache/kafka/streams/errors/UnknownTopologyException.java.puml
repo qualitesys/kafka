@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StreamsException <|-- org.apache.kafka.streams.errors.UnknownTopologyException
+"StreamsException" <|-- "org.apache.kafka.streams.errors.UnknownTopologyException"
 class org.apache.kafka.streams.errors.UnknownTopologyException {
 +UnknownTopologyException(String;String) : UnknownTopologyException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.html#8]]]
 +UnknownTopologyException(String;Throwable;String) : UnknownTopologyException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.html#12]]]

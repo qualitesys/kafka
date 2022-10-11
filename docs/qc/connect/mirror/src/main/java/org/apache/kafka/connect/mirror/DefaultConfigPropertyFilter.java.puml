@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConfigPropertyFilter <|-- org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter
+"ConfigPropertyFilter" <|-- "org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter"
 class org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter {
 +configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultConfigPropertyFilter.java.html#30]]]
 +close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultConfigPropertyFilter.java.html#36]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.mirror.RemoteClusterUtils
+"java.lang.Object" <|-- "org.apache.kafka.connect.mirror.RemoteClusterUtils"
 class org.apache.kafka.connect.mirror.RemoteClusterUtils {
 -RemoteClusterUtils() : RemoteClusterUtils [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#18]]]
 +replicationHops(Map<String,Object>;String) : int [[[./../../../../../../../../../../.././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21]]]

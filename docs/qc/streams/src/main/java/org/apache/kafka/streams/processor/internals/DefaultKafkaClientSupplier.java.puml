@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaClientSupplier <|-- org.apache.kafka.streams.processor.internals.DefaultKafkaClientSupplier
+"KafkaClientSupplier" <|-- "org.apache.kafka.streams.processor.internals.DefaultKafkaClientSupplier"
 class org.apache.kafka.streams.processor.internals.DefaultKafkaClientSupplier {
 +getAdmin(Map<String,Object>) : Admin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#17]]]
 +getProducer(Map<String,Object>) : Producer<byte[],byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#23]]]

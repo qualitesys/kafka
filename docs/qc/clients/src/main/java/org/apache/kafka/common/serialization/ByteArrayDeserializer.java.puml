@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer_byte[]_ <|-- org.apache.kafka.common.serialization.ByteArrayDeserializer
+"Deserializer<byte[]>" <|-- "org.apache.kafka.common.serialization.ByteArrayDeserializer"
 class org.apache.kafka.common.serialization.ByteArrayDeserializer {
 +deserialize(String;byte[]) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html#7]]]
 } 

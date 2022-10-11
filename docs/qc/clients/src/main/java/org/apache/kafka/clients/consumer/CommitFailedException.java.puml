@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KafkaException <|-- org.apache.kafka.clients.consumer.CommitFailedException
+"KafkaException" <|-- "org.apache.kafka.clients.consumer.CommitFailedException"
 class org.apache.kafka.clients.consumer.CommitFailedException {
 +CommitFailedException(String) : CommitFailedException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CommitFailedException.java.html#11]]]
 +CommitFailedException() : CommitFailedException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CommitFailedException.java.html#15]]]

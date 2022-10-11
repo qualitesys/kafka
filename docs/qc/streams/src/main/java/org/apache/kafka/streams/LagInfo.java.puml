@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.LagInfo
+"java.lang.Object" <|-- "org.apache.kafka.streams.LagInfo"
 class org.apache.kafka.streams.LagInfo {
 LagInfo(long;long) : LagInfo [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#15]]]
 +currentOffsetPosition() : long [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#22]]]

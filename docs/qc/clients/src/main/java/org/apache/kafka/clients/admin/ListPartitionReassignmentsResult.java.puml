@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.ListPartitionReassignmentsResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.ListPartitionReassignmentsResult"
 class org.apache.kafka.clients.admin.ListPartitionReassignmentsResult {
 ListPartitionReassignmentsResult(KafkaFuture<Map<TopicPartition,PartitionReassignment>>) : ListPartitionReassignmentsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.html#14]]]
 +reassignments() : KafkaFuture<Map<TopicPartition,PartitionReassignment>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.html#19]]]

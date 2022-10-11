@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskWorker <|-- org.apache.kafka.trogdor.workload.SustainedConnectionWorker
+"TaskWorker" <|-- "org.apache.kafka.trogdor.workload.SustainedConnectionWorker"
 class org.apache.kafka.trogdor.workload.SustainedConnectionWorker {
 +SustainedConnectionWorker(String;SustainedConnectionSpec) : SustainedConnectionWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#74]]]
 +start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#80]]]

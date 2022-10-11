@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.WorkerInfo
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.WorkerInfo"
 class org.apache.kafka.connect.runtime.WorkerInfo {
 +WorkerInfo() : WorkerInfo [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#29]]]
 +logAll() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerInfo.java.html#37]]]

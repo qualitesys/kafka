@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper
+"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper"
 class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper {
 +SubscriptionWrapper(long[];Instruction;K;Integer) : SubscriptionWrapper [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#56]]]
 +SubscriptionWrapper(long[];Instruction;K;byte;Integer) : SubscriptionWrapper [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapper.java.html#60]]]

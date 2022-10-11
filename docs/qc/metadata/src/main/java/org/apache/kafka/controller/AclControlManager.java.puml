@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.AclControlManager
+"java.lang.Object" <|-- "org.apache.kafka.controller.AclControlManager"
 class org.apache.kafka.controller.AclControlManager {
 AclControlManager(SnapshotRegistry;Optional<ClusterMetadataAuthorizer>) : AclControlManager [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#45]]]
 createAcls(List<AclBinding>) : ControllerResult<List<AclCreateResult>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#52]]]

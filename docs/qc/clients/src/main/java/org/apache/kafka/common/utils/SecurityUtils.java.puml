@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.utils.SecurityUtils
+"java.lang.Object" <|-- "org.apache.kafka.common.utils.SecurityUtils"
 class org.apache.kafka.common.utils.SecurityUtils {
 +parseKafkaPrincipal(String) : KafkaPrincipal [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#50]]]
 +addConfiguredSecurityProviders(Map<String,?>) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#64]]]

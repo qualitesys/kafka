@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.image.AclsDelta
+"java.lang.Object" <|-- "org.apache.kafka.image.AclsDelta"
 class org.apache.kafka.image.AclsDelta {
 +AclsDelta(AclsImage) : AclsDelta [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#26]]]
 +changes() : Map<Uuid,Optional<StandardAcl>> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#31]]]

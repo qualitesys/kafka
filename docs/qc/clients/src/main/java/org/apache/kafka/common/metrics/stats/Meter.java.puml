@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-CompoundStat <|-- org.apache.kafka.common.metrics.stats.Meter
+"CompoundStat" <|-- "org.apache.kafka.common.metrics.stats.Meter"
 class org.apache.kafka.common.metrics.stats.Meter {
 +Meter(MetricName;MetricName) : Meter [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#21]]]
 +Meter(TimeUnit;MetricName;MetricName) : Meter [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Meter.java.html#26]]]

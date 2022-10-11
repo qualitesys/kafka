@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.StreamsProducer
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.StreamsProducer"
 class org.apache.kafka.streams.processor.internals.StreamsProducer {
 +StreamsProducer(StreamsConfig;String;KafkaClientSupplier;TaskId;UUID;LogContext;Time) : StreamsProducer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#59]]]
 -formatException(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#119]]]

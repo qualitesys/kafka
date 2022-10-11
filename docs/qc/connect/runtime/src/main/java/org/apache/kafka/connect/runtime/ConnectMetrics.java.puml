@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.ConnectMetrics
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.ConnectMetrics"
 class org.apache.kafka.connect.runtime.ConnectMetrics {
 +ConnectMetrics(String;WorkerConfig;Time;String) : ConnectMetrics [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#48]]]
 +workerId() : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#79]]]

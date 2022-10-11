@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-GraphNode <|-- org.apache.kafka.streams.kstream.internals.graph.StreamToTableNode
+"GraphNode" <|-- "org.apache.kafka.streams.kstream.internals.graph.StreamToTableNode"
 class org.apache.kafka.streams.kstream.internals.graph.StreamToTableNode {
 +StreamToTableNode(String;ProcessorParameters<K,V,?,?>;MaterializedInternal<K,V,?>) : StreamToTableNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#20]]]
 +toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamToTableNode.java.html#29]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache
+"java.lang.Object" <|-- "org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache"
 class org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache {
 +DelegationTokenCache(Collection<String>) : DelegationTokenCache [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#30]]]
 +credential(String;String) : ScramCredential [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#35]]]

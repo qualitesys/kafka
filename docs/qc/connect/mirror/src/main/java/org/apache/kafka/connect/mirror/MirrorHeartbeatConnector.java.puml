@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-SourceConnector <|-- org.apache.kafka.connect.mirror.MirrorHeartbeatConnector
+"SourceConnector" <|-- "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector"
 class org.apache.kafka.connect.mirror.MirrorHeartbeatConnector {
 +MirrorHeartbeatConnector() : MirrorHeartbeatConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#19]]]
 MirrorHeartbeatConnector(MirrorConnectorConfig) : MirrorHeartbeatConnector [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#24]]]

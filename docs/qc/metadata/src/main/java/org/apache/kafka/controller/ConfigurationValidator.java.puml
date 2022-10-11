@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ConfigurationValidator
+"java.lang.Object" <|-- "org.apache.kafka.controller.ConfigurationValidator"
 class org.apache.kafka.controller.ConfigurationValidator {
 validate(ConfigResource) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationValidator.java.html#20]]]
 validate(ConfigResource;Map<String,String>) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationValidator.java.html#23]]]

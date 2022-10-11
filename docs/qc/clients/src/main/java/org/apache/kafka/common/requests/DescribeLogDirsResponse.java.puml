@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.DescribeLogDirsResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.DescribeLogDirsResponse"
 class org.apache.kafka.common.requests.DescribeLogDirsResponse {
 +DescribeLogDirsResponse(DescribeLogDirsResponseData) : DescribeLogDirsResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsResponse.java.html#23]]]
 +data() : DescribeLogDirsResponseData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsResponse.java.html#29]]]

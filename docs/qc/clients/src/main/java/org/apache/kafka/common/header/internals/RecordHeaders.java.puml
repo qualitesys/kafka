@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Headers <|-- org.apache.kafka.common.header.internals.RecordHeaders
+"Headers" <|-- "org.apache.kafka.common.header.internals.RecordHeaders"
 class org.apache.kafka.common.header.internals.RecordHeaders {
 +RecordHeaders() : RecordHeaders [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#20]]]
 +RecordHeaders(Header[]) : RecordHeaders [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#24]]]

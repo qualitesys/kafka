@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde
+"java.lang.Object" <|-- "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde"
 class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde {
 +RemoteLogMetadataSerde() : RemoteLogMetadataSerde [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#32]]]
 newApiMessage(short) : ApiMessage [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#43]]]

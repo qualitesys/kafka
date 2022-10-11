@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-MemoryLRUCache <|-- org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache
+"MemoryLRUCache" <|-- "org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache"
 class org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache {
 +MemoryNavigableLRUCache(String;int) : MemoryNavigableLRUCache [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#24]]]
 +range(Bytes;Bytes) : KeyValueIterator<Bytes,byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29]]]

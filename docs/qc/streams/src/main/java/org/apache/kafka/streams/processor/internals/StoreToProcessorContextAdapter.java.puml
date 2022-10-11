@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorContext <|-- org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter
+"ProcessorContext" <|-- "org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter"
 class org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter {
 +adapt(StateStoreContext) : ProcessorContext [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#24]]]
 -StoreToProcessorContextAdapter(StateStoreContext) : StoreToProcessorContextAdapter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#32]]]

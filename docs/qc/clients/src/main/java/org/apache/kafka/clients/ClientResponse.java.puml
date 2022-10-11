@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.ClientResponse
+"java.lang.Object" <|-- "org.apache.kafka.clients.ClientResponse"
 class org.apache.kafka.clients.ClientResponse {
 +ClientResponse(RequestHeader;RequestCompletionHandler;String;long;long;boolean;UnsupportedVersionException;AuthenticationException;AbstractResponse) : ClientResponse [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#23]]]
 +receivedTimeMs() : long [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/ClientResponse.java.html#43]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.auth.SaslExtensions
+"java.lang.Object" <|-- "org.apache.kafka.common.security.auth.SaslExtensions"
 class org.apache.kafka.common.security.auth.SaslExtensions {
 +SaslExtensions(Map<String,String>) : SaslExtensions [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#14]]]
 +map() : Map<String,String> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#19]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.connect.runtime.rest.RestServer
+"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.RestServer"
 class org.apache.kafka.connect.runtime.rest.RestServer {
 +RestServer(WorkerConfig) : RestServer [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#80]]]
 +createConnectors(List<String>;List<String>) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#93]]]

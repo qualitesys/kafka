@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.common.Topology
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.common.Topology"
 class org.apache.kafka.trogdor.common.Topology {
 node(String) : Node [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Topology.java.html#26]]]
 nodes() : NavigableMap<String,Node> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Topology.java.html#29]]]

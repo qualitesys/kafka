@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.StreamsMetadata
+"java.lang.Object" <|-- "org.apache.kafka.streams.StreamsMetadata"
 class org.apache.kafka.streams.StreamsMetadata {
 hostInfo() : HostInfo [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetadata.java.html#13]]]
 stateStoreNames() : Set<String> [[[./../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetadata.java.html#16]]]

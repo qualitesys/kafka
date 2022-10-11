@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.requests.FetchMetadata
+"java.lang.Object" <|-- "org.apache.kafka.common.requests.FetchMetadata"
 class org.apache.kafka.common.requests.FetchMetadata {
 +nextEpoch(int) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#29]]]
 +FetchMetadata(int;int) : FetchMetadata [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchMetadata.java.html#46]]]

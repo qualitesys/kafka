@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.snapshot.RawSnapshotReader
+"java.lang.Object" <|-- "org.apache.kafka.snapshot.RawSnapshotReader"
 class org.apache.kafka.snapshot.RawSnapshotReader {
 snapshotId() : OffsetAndEpoch [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotReader.java.html#11]]]
 sizeInBytes() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotReader.java.html#14]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-FixedKeyProcessor_KIn,VIn,VOut_ <|-- org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor
+"FixedKeyProcessor<KIn,VIn,VOut>" <|-- "org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor"
 class org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor {
 ContextualFixedKeyProcessor() : ContextualFixedKeyProcessor [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#9]]]
 +init(FixedKeyProcessorContext<KIn,VOut>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#12]]]

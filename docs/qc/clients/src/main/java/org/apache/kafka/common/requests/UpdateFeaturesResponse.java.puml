@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractResponse <|-- org.apache.kafka.common.requests.UpdateFeaturesResponse
+"AbstractResponse" <|-- "org.apache.kafka.common.requests.UpdateFeaturesResponse"
 class org.apache.kafka.common.requests.UpdateFeaturesResponse {
 +UpdateFeaturesResponse(UpdateFeaturesResponseData) : UpdateFeaturesResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#20]]]
 +topLevelError() : ApiError [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#25]]]

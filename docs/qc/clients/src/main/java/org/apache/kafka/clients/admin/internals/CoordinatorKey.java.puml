@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.internals.CoordinatorKey
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.CoordinatorKey"
 class org.apache.kafka.clients.admin.internals.CoordinatorKey {
 -CoordinatorKey(FindCoordinatorRequest.CoordinatorType;String) : CoordinatorKey [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#12]]]
 +equals(Object) : boolean [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorKey.java.html#18]]]

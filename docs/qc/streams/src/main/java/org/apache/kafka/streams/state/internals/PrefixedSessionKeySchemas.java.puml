@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas"
 class org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas {
 -extractPrefix(byte[]) : byte [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#23]]]
 } 

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConsumerRebalanceListener <|-- org.apache.kafka.streams.processor.internals.StreamsRebalanceListener
+"ConsumerRebalanceListener" <|-- "org.apache.kafka.streams.processor.internals.StreamsRebalanceListener"
 class org.apache.kafka.streams.processor.internals.StreamsRebalanceListener {
 StreamsRebalanceListener(Time;TaskManager;StreamThread;Logger;AtomicInteger) : StreamsRebalanceListener [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#24]]]
 +onPartitionsAssigned(Collection<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#37]]]

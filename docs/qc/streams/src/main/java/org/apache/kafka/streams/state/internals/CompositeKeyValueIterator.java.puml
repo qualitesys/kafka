@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueIterator_K,V_ <|-- org.apache.kafka.streams.state.internals.CompositeKeyValueIterator
+"KeyValueIterator<K,V>" <|-- "org.apache.kafka.streams.state.internals.CompositeKeyValueIterator"
 class org.apache.kafka.streams.state.internals.CompositeKeyValueIterator {
 CompositeKeyValueIterator(Iterator<StoreType>;NextIteratorFunction<K,V,StoreType>) : CompositeKeyValueIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#17]]]
 +close() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#24]]]

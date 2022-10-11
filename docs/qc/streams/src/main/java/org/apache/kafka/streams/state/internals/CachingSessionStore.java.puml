@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WrappedStateStore_SessionStore_Bytes,byte[]_,byte[],byte[]_SessionStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.CachingSessionStore
+"WrappedStateStore<SessionStore<Bytes,byte[]>,byte[],byte[]>SessionStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.CachingSessionStore"
 class org.apache.kafka.streams.state.internals.CachingSessionStore {
 CachingSessionStore(SessionStore<Bytes,byte[]>;long) : CachingSessionStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#49]]]
 +init(ProcessorContext;StateStore) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#59]]]

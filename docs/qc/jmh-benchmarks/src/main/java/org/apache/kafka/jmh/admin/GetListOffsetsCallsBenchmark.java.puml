@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark"
 class org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark {
 +setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#65]]]
 +testGetListOffsetsCalls() : Object [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.html#113]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StateStore <|-- org.apache.kafka.streams.state.internals.WrappedStateStore
+"StateStore" <|-- "org.apache.kafka.streams.state.internals.WrappedStateStore"
 class org.apache.kafka.streams.state.internals.WrappedStateStore {
 +isTimestamped(StateStore) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#18]]]
 +WrappedStateStore(S) : WrappedStateStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#30]]]

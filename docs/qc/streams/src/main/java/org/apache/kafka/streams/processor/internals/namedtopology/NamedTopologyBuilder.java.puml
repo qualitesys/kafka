@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StreamsBuilder <|-- org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder
+"StreamsBuilder" <|-- "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder"
 class org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder {
 NamedTopologyBuilder(String;StreamsConfig;Properties) : NamedTopologyBuilder [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#13]]]
 +build() : NamedTopology [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#19]]]

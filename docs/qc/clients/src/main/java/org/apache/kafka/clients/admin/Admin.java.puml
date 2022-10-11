@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.clients.admin.Admin
+"AutoCloseable" <|-- "org.apache.kafka.clients.admin.Admin"
 class org.apache.kafka.clients.admin.Admin {
 create(Properties) : Admin [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#35]]]
 create(Map<String,Object>) : Admin [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/Admin.java.html#40]]]

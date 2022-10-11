@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KStreamAggProcessorSupplier_KIn,VIn,Windowed_KIn_,VAgg_ <|-- org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate
+"KStreamAggProcessorSupplier<KIn,VIn,Windowed<KIn>,VAgg>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate"
 class org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate {
 +KStreamSlidingWindowAggregate(SlidingWindows;String;EmitStrategy;Initializer<VAgg>;Aggregator<?superKIn,?superVIn,VAgg>) : KStreamSlidingWindowAggregate [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#38]]]
 +get() : Processor<KIn,VIn,Windowed<KIn>,Change<VAgg>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#51]]]

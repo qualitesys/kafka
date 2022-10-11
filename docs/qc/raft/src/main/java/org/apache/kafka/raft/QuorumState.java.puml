@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.raft.QuorumState
+"java.lang.Object" <|-- "org.apache.kafka.raft.QuorumState"
 class org.apache.kafka.raft.QuorumState {
 +QuorumState(OptionalInt;Set<Integer>;int;int;QuorumStateStore;Time;LogContext;Random) : QuorumState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#34]]]
 +initialize(OffsetAndEpoch) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#53]]]

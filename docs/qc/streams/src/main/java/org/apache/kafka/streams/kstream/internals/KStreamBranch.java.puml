@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ProcessorSupplier_K,V,K,V_ <|-- org.apache.kafka.streams.kstream.internals.KStreamBranch
+"ProcessorSupplier<K,V,K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamBranch"
 class org.apache.kafka.streams.kstream.internals.KStreamBranch {
 KStreamBranch(List<Predicate<?superK,?superV>>;List<String>) : KStreamBranch [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#16]]]
 +get() : Processor<K,V,K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#23]]]

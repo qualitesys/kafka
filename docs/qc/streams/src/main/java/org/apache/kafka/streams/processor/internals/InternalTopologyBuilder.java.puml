@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.processor.internals.InternalTopologyBuilder
+"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.InternalTopologyBuilder"
 class org.apache.kafka.streams.processor.internals.InternalTopologyBuilder {
 +InternalTopologyBuilder() : InternalTopologyBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#54]]]
 +InternalTopologyBuilder(TopologyConfig) : InternalTopologyBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#58]]]

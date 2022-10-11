@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectProtocol.Assignment <|-- org.apache.kafka.connect.runtime.distributed.ExtendedAssignment
+"ConnectProtocol.Assignment" <|-- "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment"
 class org.apache.kafka.connect.runtime.distributed.ExtendedAssignment {
 +ExtendedAssignment(short;short;String;String;long;Collection<String>;Collection<ConnectorTaskId>;Collection<String>;Collection<ConnectorTaskId>;int) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#44]]]
 +duplicate(ExtendedAssignment) : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#57]]]

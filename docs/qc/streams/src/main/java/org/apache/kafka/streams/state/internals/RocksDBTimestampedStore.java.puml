@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-RocksDBStoreTimestampedBytesStore <|-- org.apache.kafka.streams.state.internals.RocksDBTimestampedStore
+"RocksDBStoreTimestampedBytesStore" <|-- "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"
 class org.apache.kafka.streams.state.internals.RocksDBTimestampedStore {
 RocksDBTimestampedStore(String;String) : RocksDBTimestampedStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#38]]]
 RocksDBTimestampedStore(String;String;RocksDBMetricsRecorder) : RocksDBTimestampedStore [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#43]]]

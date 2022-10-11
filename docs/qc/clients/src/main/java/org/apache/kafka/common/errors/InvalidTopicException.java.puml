@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ApiException <|-- org.apache.kafka.common.errors.InvalidTopicException
+"ApiException" <|-- "org.apache.kafka.common.errors.InvalidTopicException"
 class org.apache.kafka.common.errors.InvalidTopicException {
 +InvalidTopicException() : InvalidTopicException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#14]]]
 +InvalidTopicException(String;Throwable) : InvalidTopicException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#19]]]

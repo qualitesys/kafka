@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.AddPartitionsToTxnRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.AddPartitionsToTxnRequest"
 class org.apache.kafka.common.requests.AddPartitionsToTxnRequest {
 +AddPartitionsToTxnRequest(AddPartitionsToTxnRequestData;short) : AddPartitionsToTxnRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#86]]]
 +partitions() : List<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#91]]]

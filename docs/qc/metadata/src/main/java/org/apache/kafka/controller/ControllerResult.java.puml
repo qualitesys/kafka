@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ControllerResult
+"java.lang.Object" <|-- "org.apache.kafka.controller.ControllerResult"
 class org.apache.kafka.controller.ControllerResult {
 ControllerResult(List<ApiMessageAndVersion>;T;boolean) : ControllerResult [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#18]]]
 +records() : List<ApiMessageAndVersion> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#25]]]

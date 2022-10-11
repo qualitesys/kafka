@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.controller.ReplicationControlManager
+"java.lang.Object" <|-- "org.apache.kafka.controller.ReplicationControlManager"
 class org.apache.kafka.controller.ReplicationControlManager {
 translateCreationConfigs(CreateableTopicConfigCollection) : Map<String,String> [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#249]]]
 -ReplicationControlManager(SnapshotRegistry;LogContext;short;int;int;ConfigurationControlManager;ClusterControlManager;ControllerMetrics;Optional<CreateTopicPolicy>;FeatureControlManager) : ReplicationControlManager [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#306]]]

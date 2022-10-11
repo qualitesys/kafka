@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.trogdor.coordinator.TaskManager
+"java.lang.Object" <|-- "org.apache.kafka.trogdor.coordinator.TaskManager"
 class org.apache.kafka.trogdor.coordinator.TaskManager {
 TaskManager(Platform;Scheduler;long) : TaskManager [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#81]]]
 +createTask(String;TaskSpec) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#228]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AutoCloseable <|-- org.apache.kafka.metadata.util.SnapshotFileWriter
+"AutoCloseable" <|-- "org.apache.kafka.metadata.util.SnapshotFileWriter"
 class org.apache.kafka.metadata.util.SnapshotFileWriter {
 SnapshotFileWriter(FileChannel;BatchAccumulator<ApiMessageAndVersion>) : SnapshotFileWriter [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#28]]]
 +append(ApiMessageAndVersion) : void [[[./../../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#33]]]

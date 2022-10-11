@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-StoreSupplier_SessionStore_Bytes,byte[]__ <|-- org.apache.kafka.streams.state.SessionBytesStoreSupplier
+"StoreSupplier<SessionStore<Bytes,byte[]>>" <|-- "org.apache.kafka.streams.state.SessionBytesStoreSupplier"
 class org.apache.kafka.streams.state.SessionBytesStoreSupplier {
 segmentIntervalMs() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#10]]]
 retentionPeriod() : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#13]]]

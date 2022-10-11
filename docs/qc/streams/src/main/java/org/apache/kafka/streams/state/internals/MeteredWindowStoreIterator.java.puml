@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-WindowStoreIterator_V_ <|-- org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator
+"WindowStoreIterator<V>" <|-- "org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator"
 class org.apache.kafka.streams.state.internals.MeteredWindowStoreIterator {
 MeteredWindowStoreIterator(WindowStoreIterator<byte[]>;Sensor;StreamsMetrics;Function<byte[],V>;Time) : MeteredWindowStoreIterator [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreIterator.java.html#21]]]
 +hasNext() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStoreIterator.java.html#35]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.clients.admin.AbortTransactionResult
+"java.lang.Object" <|-- "org.apache.kafka.clients.admin.AbortTransactionResult"
 class org.apache.kafka.clients.admin.AbortTransactionResult {
 AbortTransactionResult(Map<TopicPartition,KafkaFuture<Void>>) : AbortTransactionResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.html#15]]]
 +all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.html#20]]]

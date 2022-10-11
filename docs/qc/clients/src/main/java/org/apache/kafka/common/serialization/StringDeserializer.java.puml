@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Deserializer_String_ <|-- org.apache.kafka.common.serialization.StringDeserializer
+"Deserializer<String>" <|-- "org.apache.kafka.common.serialization.StringDeserializer"
 class org.apache.kafka.common.serialization.StringDeserializer {
 +configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#15]]]
 +deserialize(String;byte[]) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.html#25]]]

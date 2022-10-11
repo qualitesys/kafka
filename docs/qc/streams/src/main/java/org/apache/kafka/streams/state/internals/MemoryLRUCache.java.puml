@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KeyValueStore_Bytes,byte[]_ <|-- org.apache.kafka.streams.state.internals.MemoryLRUCache
+"KeyValueStore<Bytes,byte[]>" <|-- "org.apache.kafka.streams.state.internals.MemoryLRUCache"
 class org.apache.kafka.streams.state.internals.MemoryLRUCache {
 MemoryLRUCache(String;int) : MemoryLRUCache [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#44]]]
 setWhenEldestRemoved(EldestEntryRemovalListener) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#62]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-Closeable <|-- org.apache.kafka.clients.consumer.internals.ConsumerInterceptors
+"Closeable" <|-- "org.apache.kafka.clients.consumer.internals.ConsumerInterceptors"
 class org.apache.kafka.clients.consumer.internals.ConsumerInterceptors {
 +ConsumerInterceptors(List<ConsumerInterceptor<K,V>>) : ConsumerInterceptors [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#21]]]
 +onConsume(ConsumerRecords<K,V>) : ConsumerRecords<K,V> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#26]]]

@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequestResponse <|-- org.apache.kafka.common.requests.AbstractResponse
+"AbstractRequestResponse" <|-- "org.apache.kafka.common.requests.AbstractResponse"
 class org.apache.kafka.common.requests.AbstractResponse {
 AbstractResponse(ApiKeys) : AbstractResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#23]]]
 +toSend(ResponseHeader;short) : Send [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#27]]]

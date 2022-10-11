@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.internals.RecordConverter
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.RecordConverter"
 class org.apache.kafka.streams.state.internals.RecordConverter {
 convert(ConsumerRecord<byte[],byte[]>) : ConsumerRecord<byte[],byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RecordConverter.java.html#7]]]
 } 

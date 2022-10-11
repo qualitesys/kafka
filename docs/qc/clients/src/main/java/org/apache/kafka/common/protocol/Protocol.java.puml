@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.protocol.Protocol
+"java.lang.Object" <|-- "org.apache.kafka.common.protocol.Protocol"
 class org.apache.kafka.common.protocol.Protocol {
 -indentString(int) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#18]]]
 -schemaToBnfHtml(Schema;StringBuilder;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#25]]]

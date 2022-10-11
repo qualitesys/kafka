@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.jmh.util.ByteUtilsBenchmark
+"java.lang.Object" <|-- "org.apache.kafka.jmh.util.ByteUtilsBenchmark"
 class org.apache.kafka.jmh.util.ByteUtilsBenchmark {
 +setUp() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#32]]]
 +testSizeOfUnsignedVarint() : int [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/util/ByteUtilsBenchmark.java.html#38]]]

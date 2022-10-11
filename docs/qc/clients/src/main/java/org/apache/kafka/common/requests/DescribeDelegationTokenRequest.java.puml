@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRequest <|-- org.apache.kafka.common.requests.DescribeDelegationTokenRequest
+"AbstractRequest" <|-- "org.apache.kafka.common.requests.DescribeDelegationTokenRequest"
 class org.apache.kafka.common.requests.DescribeDelegationTokenRequest {
 +DescribeDelegationTokenRequest(DescribeDelegationTokenRequestData;short) : DescribeDelegationTokenRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#43]]]
 +data() : DescribeDelegationTokenRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenRequest.java.html#49]]]

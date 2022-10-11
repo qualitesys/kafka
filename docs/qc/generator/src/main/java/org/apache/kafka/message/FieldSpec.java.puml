@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.message.FieldSpec
+"java.lang.Object" <|-- "org.apache.kafka.message.FieldSpec"
 class org.apache.kafka.message.FieldSpec {
 +FieldSpec(String;String;List<FieldSpec>;String;boolean;String;String;boolean;EntityType;String;String;String;Integer;boolean) : FieldSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#49]]]
 -checkTagInvariants() : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/FieldSpec.java.html#123]]]

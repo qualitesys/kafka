@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.resource.ResourcePatternFilter
+"java.lang.Object" <|-- "org.apache.kafka.common.resource.ResourcePatternFilter"
 class org.apache.kafka.common.resource.ResourcePatternFilter {
 +ResourcePatternFilter(ResourceType;String;PatternType) : ResourcePatternFilter [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#22]]]
 +isUnknown() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#29]]]

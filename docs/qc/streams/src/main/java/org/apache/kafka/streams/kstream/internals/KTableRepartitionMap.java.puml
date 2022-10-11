@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-KTableRepartitionMapSupplier_K,V,KeyValue_K1,V1_,K1,V1_ <|-- org.apache.kafka.streams.kstream.internals.KTableRepartitionMap
+"KTableRepartitionMapSupplier<K,V,KeyValue<K1,V1>,K1,V1>" <|-- "org.apache.kafka.streams.kstream.internals.KTableRepartitionMap"
 class org.apache.kafka.streams.kstream.internals.KTableRepartitionMap {
 KTableRepartitionMap(KTableImpl<K,?,V>;KeyValueMapper<?superK,?superV,KeyValue<K1,V1>>) : KTableRepartitionMap [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#22]]]
 +get() : Processor<K,Change<V>,K1,Change<V1>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#28]]]

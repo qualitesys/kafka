@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractOptions_ListTransactionsOptions_ <|-- org.apache.kafka.clients.admin.ListTransactionsOptions
+"AbstractOptions<ListTransactionsOptions>" <|-- "org.apache.kafka.clients.admin.ListTransactionsOptions"
 class org.apache.kafka.clients.admin.ListTransactionsOptions {
 +filterStates(Collection<TransactionState>) : ListTransactionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#20]]]
 +filterProducerIds(Collection<Long>) : ListTransactionsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#26]]]

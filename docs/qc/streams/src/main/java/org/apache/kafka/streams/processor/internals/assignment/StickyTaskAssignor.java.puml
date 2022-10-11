@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-TaskAssignor <|-- org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor
+"TaskAssignor" <|-- "org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor"
 class org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor {
 +StickyTaskAssignor() : StickyTaskAssignor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#33]]]
 StickyTaskAssignor(boolean) : StickyTaskAssignor [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#37]]]

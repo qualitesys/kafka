@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-AbstractRecordBatchMutableRecordBatch <|-- org.apache.kafka.common.record.DefaultRecordBatch
+"AbstractRecordBatchMutableRecordBatch" <|-- "org.apache.kafka.common.record.DefaultRecordBatch"
 class org.apache.kafka.common.record.DefaultRecordBatch {
 DefaultRecordBatch(ByteBuffer) : DefaultRecordBatch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#70]]]
 +magic() : byte [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#75]]]

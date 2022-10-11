@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.streams.state.ReadOnlySessionStore
+"java.lang.Object" <|-- "org.apache.kafka.streams.state.ReadOnlySessionStore"
 class org.apache.kafka.streams.state.ReadOnlySessionStore {
 findSessions(K;long;long) : KeyValueIterator<Windowed<K>,AGG> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlySessionStore.java.html#13]]]
 findSessions(K;Instant;Instant) : KeyValueIterator<Windowed<K>,AGG> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/ReadOnlySessionStore.java.html#21]]]

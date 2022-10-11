@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectAssignor <|-- org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor
+"ConnectAssignor" <|-- "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor"
 class org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor {
 +IncrementalCooperativeAssignor(LogContext;Time;int) : IncrementalCooperativeAssignor [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#834]]]
 +performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator) : Map<String,ByteBuffer> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#834]]]

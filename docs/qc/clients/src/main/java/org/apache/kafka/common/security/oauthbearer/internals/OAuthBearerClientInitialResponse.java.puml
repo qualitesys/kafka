@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse
+"java.lang.Object" <|-- "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse"
 class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse {
 +OAuthBearerClientInitialResponse(byte[]) : OAuthBearerClientInitialResponse [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#34]]]
 +OAuthBearerClientInitialResponse(String;SaslExtensions) : OAuthBearerClientInitialResponse [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#63]]]

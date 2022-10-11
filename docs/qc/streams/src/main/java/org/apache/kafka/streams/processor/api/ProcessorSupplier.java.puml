@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-ConnectedStoreProvider <|-- org.apache.kafka.streams.processor.api.ProcessorSupplier
+"ConnectedStoreProvider" <|-- "org.apache.kafka.streams.processor.api.ProcessorSupplier"
 class org.apache.kafka.streams.processor.api.ProcessorSupplier {
 get() : Processor<KIn,VIn,KOut,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessorSupplier.java.html#14]]]
 } 

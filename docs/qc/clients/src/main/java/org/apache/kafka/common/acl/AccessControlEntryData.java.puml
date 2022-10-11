@@ -1,6 +1,6 @@
 @startuml
 !pragma layout smetana
-java.lang.Object <|-- org.apache.kafka.common.acl.AccessControlEntryData
+"java.lang.Object" <|-- "org.apache.kafka.common.acl.AccessControlEntryData"
 class org.apache.kafka.common.acl.AccessControlEntryData {
 AccessControlEntryData(String;String;AclOperation;AclPermissionType) : AccessControlEntryData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#14]]]
 principal() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#21]]]
