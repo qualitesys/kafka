@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html" 
- , "texte" : "File streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java 1 rule violations " 
- , "fic2"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.xml" 
+   "fic1"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/Pipe.java.html" 
+ , "texte" : "File streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/Pipe.java 1 rule violations " 
+ , "fic2"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/Pipe.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -53,9 +53,9 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00002"
- , "c1link" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html#2"
+ , "c1link" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/Pipe.java.html#2"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "
+ , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/Pipe.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "
 }} 
 ]
 };

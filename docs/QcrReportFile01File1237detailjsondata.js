@@ -1,191 +1,200 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html" 
- , "texte" : "File core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java 28 rule violations " 
- , "fic2"  : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.xml" 
+   "fic1"  : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html" 
+ , "texte" : "File core/src/main/java/kafka/server/builders/LogManagerBuilder.java 33 rule violations " 
+ , "fic2"  : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "kafka.server.builders.ReplicaManagerBuilder"
+ , "c2" : "kafka.server.builders.LogManagerBuilder"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "kafka.server.builders.ReplicaManagerBuilder" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "kafka.server.builders.LogManagerBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#48"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setConfig(KafkaConfig)"
+ , "c5" : "00041"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#41"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setLogDirs(List<File>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#53"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setMetrics(Metrics)"
+ , "c5" : "00046"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#46"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setInitialOfflineDirs(List<File>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#58"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setTime(Time)"
+ , "c5" : "00051"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#51"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setConfigRepository(ConfigRepository)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#63"
- , "c1" : "ReplicaManagerBuilder"
+ , "c5" : "00056"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#56"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setInitialDefaultConfig(LogConfig)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#61"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setCleanerConfig(CleanerConfig)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#66"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setRecoveryThreadsPerDataDir(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#71"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setFlushCheckMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#76"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setFlushRecoveryOffsetCheckpointMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#81"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setFlushStartOffsetCheckpointMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#86"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setRetentionCheckMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#91"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setMaxTransactionTimeoutMs(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#96"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setMaxPidExpirationMs(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#101"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setInterBrokerProtocolVersion(MetadataVersion)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#106"
+ , "c1" : "LogManagerBuilder"
  , "c2" : "setScheduler(Scheduler)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#68"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setLogManager(LogManager)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#73"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setQuotaManagers(QuotaManagers)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#78"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setMetadataCache(MetadataCache)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#83"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setLogDirFailureChannel(LogDirFailureChannel)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#88"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setAlterPartitionManager(AlterPartitionManager)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#93"
- , "c1" : "ReplicaManagerBuilder"
+ , "c5" : "00111"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#111"
+ , "c1" : "LogManagerBuilder"
  , "c2" : "setBrokerTopicStats(BrokerTopicStats)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#98"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setIsShuttingDown(AtomicBoolean)"
+ , "c5" : "00116"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#116"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setLogDirFailureChannel(LogDirFailureChannel)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#103"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setZkClient(KafkaZkClient)"
+ , "c5" : "00121"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#121"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setTime(Time)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#108"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedProducePurgatory(DelayedOperationPurgatory<DelayedProduce>)"
+ , "c5" : "00126"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#126"
+ , "c1" : "LogManagerBuilder"
+ , "c2" : "setKeepPartitionMetadataFile(boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#113"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedFetchPurgatory(DelayedOperationPurgatory<DelayedFetch>)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#118"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedDeleteRecordsPurgatory(DelayedOperationPurgatory<DelayedDeleteRecords>)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#123"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedElectLeaderPurgatoryParam(DelayedOperationPurgatory<DelayedElectLeader>)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#128"
- , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setThreadNamePrefix(String)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00133"
- , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#133"
- , "c1" : "ReplicaManager"
+ , "c5" : "00131"
+ , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#131"
+ , "c1" : "LogManager"
  , "c2" : "build()"
- , "c3" : "7"
- , "c4" : "7"
+ , "c3" : "8"
+ , "c4" : "8"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.png" 
+   {"ligne" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.png" 
 
- , "ligneplantuml" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.svg" }
+ , "ligneplantuml" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.svg" }
 
 ] 
 , 
@@ -222,212 +231,247 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "17"
+ , "c4" : "18"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#29"
+ , "c1" : "00021"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00029] The class ReplicaManagerBuilder contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00021] The class LogManagerBuilder contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#48"
+ , "c1" : "00041"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method setConfig arguments KafkaConfig  config"
+ , "c3" : "QC-JAV000006[00041] For method setLogDirs arguments List&lt;File &gt;  logDirs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#53"
+ , "c1" : "00046"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method setMetrics arguments Metrics  metrics"
+ , "c3" : "QC-JAV000006[00046] For method setInitialOfflineDirs arguments List&lt;File &gt;  initialOfflineDirs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#58"
+ , "c1" : "00051"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method setTime arguments Time  time"
+ , "c3" : "QC-JAV000006[00051] For method setConfigRepository arguments ConfigRepository  configRepository"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#63"
+ , "c1" : "00056"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method setScheduler arguments Scheduler  scheduler"
+ , "c3" : "QC-JAV000006[00056] For method setInitialDefaultConfig arguments LogConfig  initialDefaultConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#68"
+ , "c1" : "00061"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method setLogManager arguments LogManager  logManager"
+ , "c3" : "QC-JAV000006[00061] For method setCleanerConfig arguments CleanerConfig  cleanerConfig"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#73"
+ , "c1" : "00066"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method setQuotaManagers arguments QuotaManagers  quotaManagers"
+ , "c3" : "QC-JAV000006[00066] For method setRecoveryThreadsPerDataDir arguments int  recoveryThreadsPerDataDir"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#78"
+ , "c1" : "00071"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method setMetadataCache arguments MetadataCache  metadataCache"
+ , "c3" : "QC-JAV000006[00071] For method setFlushCheckMs arguments long  flushCheckMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#83"
+ , "c1" : "00076"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method setLogDirFailureChannel arguments LogDirFailureChannel  logDirFailureChannel"
+ , "c3" : "QC-JAV000006[00076] For method setFlushRecoveryOffsetCheckpointMs arguments long  flushRecoveryOffsetCheckpointMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#88"
+ , "c1" : "00081"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method setAlterPartitionManager arguments AlterPartitionManager  alterPartitionManager"
+ , "c3" : "QC-JAV000006[00081] For method setFlushStartOffsetCheckpointMs arguments long  flushStartOffsetCheckpointMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#93"
+ , "c1" : "00086"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method setBrokerTopicStats arguments BrokerTopicStats  brokerTopicStats"
+ , "c3" : "QC-JAV000006[00086] For method setRetentionCheckMs arguments long  retentionCheckMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#98"
+ , "c1" : "00091"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method setIsShuttingDown arguments AtomicBoolean  isShuttingDown"
+ , "c3" : "QC-JAV000006[00091] For method setMaxTransactionTimeoutMs arguments int  maxTransactionTimeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#103"
+ , "c1" : "00096"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method setZkClient arguments KafkaZkClient  zkClient"
+ , "c3" : "QC-JAV000006[00096] For method setMaxPidExpirationMs arguments int  maxPidExpirationMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#108"
+ , "c1" : "00101"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method setDelayedProducePurgatory arguments DelayedOperationPurgatory&lt;DelayedProduce &gt;  delayedProducePurgatory"
+ , "c3" : "QC-JAV000006[00101] For method setInterBrokerProtocolVersion arguments MetadataVersion  interBrokerProtocolVersion"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#113"
+ , "c1" : "00106"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method setDelayedFetchPurgatory arguments DelayedOperationPurgatory&lt;DelayedFetch &gt;  delayedFetchPurgatory"
+ , "c3" : "QC-JAV000006[00106] For method setScheduler arguments Scheduler  scheduler"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#118"
+ , "c1" : "00111"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#111"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00118] For method setDelayedDeleteRecordsPurgatory arguments DelayedOperationPurgatory&lt;DelayedDeleteRecords &gt;  delayedDeleteRecordsPurgatory"
+ , "c3" : "QC-JAV000006[00111] For method setBrokerTopicStats arguments BrokerTopicStats  brokerTopicStats"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#123"
+ , "c1" : "00116"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method setDelayedElectLeaderPurgatoryParam arguments DelayedOperationPurgatory&lt;DelayedElectLeader &gt;  delayedElectLeaderPurgatory"
+ , "c3" : "QC-JAV000006[00116] For method setLogDirFailureChannel arguments LogDirFailureChannel  logDirFailureChannel"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#128"
+ , "c1" : "00121"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method setThreadNamePrefix arguments String  threadNamePrefix"
+ , "c3" : "QC-JAV000006[00121] For method setTime arguments Time  time"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#126"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00126] For method setKeepPartitionMetadataFile arguments boolean  keepPartitionMetadataFile"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set logDirs' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set configRepository' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#134"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set initialDefaultConfig' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#135"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set cleanerConfig' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#136"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#136"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  'You must set logManager' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set scheduler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#137"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#137"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  'You must set metadataCache' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set brokerTopicStats' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#138"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#138"
+ , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  'You must set logDirFailureChannel' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  'You must set alterIsrManager' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set logDirFailureChannel' should be converted to const"
 }} 
 ]
 };

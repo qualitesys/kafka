@@ -1,45 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/TopicCollection.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/Reconfigurable.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.TopicCollection"
+ , "c1" : "Configurable"
+ , "c2" : "org.apache.kafka.common.Reconfigurable"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.TopicCollection" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.Reconfigurable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#11"
- , "c1" : "TopicCollection"
- , "c2" : "TopicCollection()"
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#13"
+ , "c1" : "Set<String>"
+ , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#14"
- , "c1" : "TopicIdCollection"
- , "c2" : "ofTopicIds(Collection<Uuid>)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#16"
+ , "c1" : "void"
+ , "c2" : "validateReconfiguration(Map<String,?>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#19"
- , "c1" : "TopicNameCollection"
- , "c2" : "ofTopicNames(Collection<String>)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#19"
+ , "c1" : "void"
+ , "c2" : "reconfigure(Map<String,?>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.svg" }
 
 ] 
 , 
@@ -75,43 +75,5 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#9"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class TopicCollection contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#14"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method ofTopicIds arguments Collection&lt;Uuid &gt;  topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#19"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method ofTopicNames arguments Collection&lt;String &gt;  topics"
-}} 
-]
 };
 console.log('leListeStr 99 main end');

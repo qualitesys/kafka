@@ -1,74 +1,281 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 36 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java 1 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.raft.RequestManager"
+ , "c1" : "AutoCloseable"
+ , "c2" : "org.apache.kafka.raft.ReplicatedLog"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.RequestManager" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.ReplicatedLog" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#21"
- , "c1" : "RequestManager"
- , "c2" : "RequestManager(Set<Integer>;int;int;Random)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37"
- , "c1" : "ConnectionState"
- , "c2" : "getOrCreate(int)"
+ , "c5" : "00015"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#15"
+ , "c1" : "LogAppendInfo"
+ , "c2" : "appendAsLeader(Records;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#41"
- , "c1" : "OptionalInt"
- , "c2" : "findReadyVoter(long)"
- , "c3" : "5"
- , "c4" : "12"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60"
- , "c1" : "long"
- , "c2" : "backoffBeforeAvailableVoter(long)"
- , "c3" : "6"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75"
- , "c1" : "void"
- , "c2" : "resetAll()"
- , "c3" : "2"
+ , "c5" : "00018"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#18"
+ , "c1" : "LogAppendInfo"
+ , "c2" : "appendAsFollower(Records)"
+ , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#21"
+ , "c1" : "LogFetchInfo"
+ , "c2" : "read(long;Isolation)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#24"
+ , "c1" : "int"
+ , "c2" : "lastFetchedEpoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#27"
+ , "c1" : "ValidOffsetAndEpoch"
+ , "c2" : "validateOffsetAndEpoch(long;int)"
+ , "c3" : "6"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#59"
+ , "c1" : "OffsetAndEpoch"
+ , "c2" : "endOffsetForEpoch(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#62"
+ , "c1" : "LogOffsetMetadata"
+ , "c2" : "endOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#65"
+ , "c1" : "LogOffsetMetadata"
+ , "c2" : "highWatermark()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#68"
+ , "c1" : "long"
+ , "c2" : "startOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#71"
+ , "c1" : "void"
+ , "c2" : "initializeLeaderEpoch(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#74"
+ , "c1" : "void"
+ , "c2" : "truncateTo(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#77"
+ , "c1" : "boolean"
+ , "c2" : "truncateToLatestSnapshot()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#80"
+ , "c1" : "void"
+ , "c2" : "updateHighWatermark(LogOffsetMetadata)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#83"
+ , "c1" : "boolean"
+ , "c2" : "deleteBeforeSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#86"
+ , "c1" : "void"
+ , "c2" : "flush(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#89"
+ , "c1" : "boolean"
+ , "c2" : "maybeClean()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#92"
+ , "c1" : "long"
+ , "c2" : "lastFlushedOffset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#95"
+ , "c1" : "TopicPartition"
+ , "c2" : "topicPartition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#98"
+ , "c1" : "Uuid"
+ , "c2" : "topicId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#101"
+ , "c1" : "long"
+ , "c2" : "truncateToEndOffset(OffsetAndEpoch)"
+ , "c3" : "5"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#120"
+ , "c1" : "Optional<RawSnapshotWriter>"
+ , "c2" : "createNewSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#123"
+ , "c1" : "Optional<RawSnapshotWriter>"
+ , "c2" : "storeSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00126"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#126"
+ , "c1" : "Optional<RawSnapshotReader>"
+ , "c2" : "readSnapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#129"
+ , "c1" : "Optional<RawSnapshotReader>"
+ , "c2" : "latestSnapshot()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#132"
+ , "c1" : "Optional<OffsetAndEpoch>"
+ , "c2" : "latestSnapshotId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00135"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#135"
+ , "c1" : "Optional<OffsetAndEpoch>"
+ , "c2" : "earliestSnapshotId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#138"
+ , "c1" : "void"
+ , "c2" : "onSnapshotFrozen(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00140"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#140"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.svg" }
 
 ] 
 , 
@@ -95,292 +302,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "14"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class RequestManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00032] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method getOrCreate arguments int  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method findReadyVoter arguments long  currentTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00046] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN165830 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method backoffBeforeAvailableVoter arguments long  currentTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00063] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#65"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN167044 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00086] The class ConnectionState contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method isBackoffComplete arguments long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00101"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method hasRequestTimedOut arguments long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#109"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method isReady arguments long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method isBackingOff arguments long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.raft.RequestManager.ConnectionState.isBackingOff@POLYN169473 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method hasInflightRequest arguments long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.raft.RequestManager.ConnectionState.hasInflightRequest@POLYN169752 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method remainingRequestTimeMs arguments long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingRequestTimeMs@POLYN170031 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#140"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method remainingBackoffMs arguments long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingBackoffMs@POLYN170315 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method isResponseExpected arguments long  correlationId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method onResponseError arguments long  correlationId|long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method onResponseReceived arguments long  correlationId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#171"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method onRequestSent arguments long  correlationId|long  timeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN172206 the MagicNumber/String  'ConnectionState(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN172206 the MagicNumber/String  'id=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN172206 the MagicNumber/String  ', state=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN172206 the MagicNumber/String  ', lastSendTimeMs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN172206 the MagicNumber/String  ', lastFailTimeMs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#190"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN172206 the MagicNumber/String  ', inFlightCorrelationId=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN172206 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00037] Public method getOrCreate is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#60"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00060] Public method backoffBeforeAvailableVoter is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#75"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00075] Public method resetAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedLog.java.html#101"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00101] The argument endOffset is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 };

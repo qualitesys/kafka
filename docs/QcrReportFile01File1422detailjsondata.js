@@ -1,137 +1,119 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/VotedState.java 20 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java 13 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "EpochState"
- , "c2" : "org.apache.kafka.raft.VotedState"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.raft.ValidOffsetAndEpoch"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.VotedState" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.ValidOffsetAndEpoch" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#23"
- , "c1" : "VotedState"
- , "c2" : "VotedState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)"
- , "c3" : "1"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#42"
- , "c1" : "ElectionState"
- , "c2" : "election()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#51"
- , "c1" : "int"
- , "c2" : "votedId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#56"
- , "c1" : "int"
- , "c2" : "epoch()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#61"
- , "c1" : "String"
- , "c2" : "name()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#65"
- , "c1" : "long"
- , "c2" : "remainingElectionTimeMs(long)"
+ , "c5" : "00010"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#10"
+ , "c1" : "ValidOffsetAndEpoch"
+ , "c2" : "ValidOffsetAndEpoch(Kind;OffsetAndEpoch)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#70"
+ , "c5" : "00015"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#15"
+ , "c1" : "Kind"
+ , "c2" : "kind()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#19"
+ , "c1" : "OffsetAndEpoch"
+ , "c2" : "offsetAndEpoch()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27"
+ , "c1" : "ValidOffsetAndEpoch"
+ , "c2" : "diverging(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31"
+ , "c1" : "ValidOffsetAndEpoch"
+ , "c2" : "snapshot(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35"
+ , "c1" : "ValidOffsetAndEpoch"
+ , "c2" : "valid(OffsetAndEpoch)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39"
+ , "c1" : "ValidOffsetAndEpoch"
+ , "c2" : "valid()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44"
  , "c1" : "boolean"
- , "c2" : "hasElectionTimeoutExpired(long)"
- , "c3" : "1"
- , "c4" : "2"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#75"
- , "c1" : "void"
- , "c2" : "overrideElectionTimeout(long;long)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#81"
- , "c1" : "boolean"
- , "c2" : "canGrantVote(int;boolean)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#92"
- , "c1" : "Optional<LogOffsetMetadata>"
- , "c2" : "highWatermark()"
+ , "c5" : "00053"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#53"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#97"
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#58"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#107"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "1"
- , "c4" : "0"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.svg" }
 
 ] 
 , 
@@ -159,23 +141,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -189,7 +157,14 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "11"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -202,143 +177,94 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#14"
+ , "c1" : "00006"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#6"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class VotedState contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00006] The class ValidOffsetAndEpoch contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#24"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00024] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#30"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00030] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.raft.VotedState.name@POLYN154626 the MagicNumber/String  'Voted' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#65"
+ , "c1" : "00027"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method remainingElectionTimeMs arguments long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00027] For method diverging arguments OffsetAndEpoch  offsetAndEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#70"
+ , "c1" : "00031"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method hasElectionTimeoutExpired arguments long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00031] For method snapshot arguments OffsetAndEpoch  offsetAndEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#75"
+ , "c1" : "00035"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method overrideElectionTimeout arguments long  currentTimeMs|long  timeoutMs"
+ , "c3" : "QC-JAV000006[00035] For method valid arguments OffsetAndEpoch  offsetAndEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#81"
+ , "c1" : "00040"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#40"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147435 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#40"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.raft.ValidOffsetAndEpoch.valid@POLYN147435 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method canGrantVote arguments int  candidateId|boolean  isLogUpToDate"
+ , "c3" : "QC-JAV000006[00044] For method equals arguments Object  obj"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#83"
+ , "c1" : "00046"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN155356 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000021[00046] The same method call obj.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#86"
+ , "c1" : "00045"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN155356 the MagicNumber/String  'Rejecting vote request from candidate {} since we already have voted for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#87"
+ , "c1" : "00046"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN155356 the MagicNumber/String  'another candidate {} in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#88"
+ , "c1" : "00046"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.raft.VotedState.canGrantVote@POLYN155356 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.ValidOffsetAndEpoch.equals@POLYN147648 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#98"
+ , "c1" : "00060"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.raft.VotedState.toString@POLYN155922 the MagicNumber/String  'Voted(' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ValidOffsetAndEpoch.toString@POLYN148362 the MagicNumber/String  'ValidOffsetAndEpoch(kind=%s, offsetAndEpoch=%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.VotedState.toString@POLYN155922 the MagicNumber/String  'epoch=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.VotedState.toString@POLYN155922 the MagicNumber/String  ', votedId=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.VotedState.toString@POLYN155922 the MagicNumber/String  ', voters=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.raft.VotedState.toString@POLYN155922 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.VotedState.toString@POLYN155922 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#107"
+ , "c1" : "00039"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ValidOffsetAndEpoch.java.html#39"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00107] Void method close is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00107] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000003[00039] Public method valid is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

@@ -1,36 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "InvalidStateStoreException"
- , "c2" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException"
+ , "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.InvalidStateStoreException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.InvalidStateStoreException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html#11"
- , "c1" : "InvalidStateStorePartitionException"
- , "c2" : "InvalidStateStorePartitionException(String)"
+ , "c5" : "00010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html#10"
+ , "c1" : "InvalidStateStoreException"
+ , "c2" : "InvalidStateStoreException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html#15"
- , "c1" : "InvalidStateStorePartitionException"
- , "c2" : "InvalidStateStorePartitionException(String;Throwable)"
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html#14"
+ , "c1" : "InvalidStateStoreException"
+ , "c2" : "InvalidStateStoreException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html#18"
+ , "c1" : "InvalidStateStoreException"
+ , "c2" : "InvalidStateStoreException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.svg" }
 
 ] 
 , 

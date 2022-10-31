@@ -1,72 +1,99 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java 5 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractRequest"
- , "c2" : "org.apache.kafka.common.requests.ExpireDelegationTokenRequest"
+ , "c1" : "AbstractResponse"
+ , "c2" : "org.apache.kafka.common.requests.EnvelopeResponse"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.ExpireDelegationTokenRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.EnvelopeResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#16"
- , "c1" : "ExpireDelegationTokenRequest"
- , "c2" : "ExpireDelegationTokenRequest(ExpireDelegationTokenRequestData;short)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#16"
+ , "c1" : "EnvelopeResponse"
+ , "c2" : "EnvelopeResponse(ByteBuffer;Errors)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#21"
- , "c1" : "ExpireDelegationTokenRequest"
- , "c2" : "parse(ByteBuffer;short)"
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#23"
+ , "c1" : "EnvelopeResponse"
+ , "c2" : "EnvelopeResponse(Errors)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#27"
- , "c1" : "ExpireDelegationTokenRequestData"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#27"
+ , "c1" : "EnvelopeResponse"
+ , "c2" : "EnvelopeResponse(EnvelopeResponseData)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#32"
+ , "c1" : "ByteBuffer"
+ , "c2" : "responseData()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#37"
+ , "c1" : "Map<Errors,Integer>"
+ , "c2" : "errorCounts()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#41"
+ , "c1" : "Errors"
+ , "c2" : "error()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#46"
+ , "c1" : "EnvelopeResponseData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#32"
- , "c1" : "AbstractResponse"
- , "c2" : "getErrorResponse(int;Throwable)"
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#51"
+ , "c1" : "int"
+ , "c2" : "throttleTimeMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#39"
- , "c1" : "ByteBuffer"
- , "c2" : "hmac()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#43"
- , "c1" : "long"
- , "c2" : "expiryTimePeriod()"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#55"
+ , "c1" : "EnvelopeResponse"
+ , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.svg" }
 
 ] 
 , 
@@ -114,8 +141,22 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
@@ -123,37 +164,44 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#21"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#16"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00016] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c1" : "00024"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.requests.EnvelopeResponse.EnvelopeResponse@POLYN146981 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#56"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00055] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ExpireDelegationTokenRequest.java.html#1"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ExpireDelegationTokenRequest.expiryTimePeriod@POLYN148823"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EnvelopeResponse.errorCounts@POLYN147483"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EnvelopeResponse.responseData@POLYN147326"
 }} 
 ]
 };

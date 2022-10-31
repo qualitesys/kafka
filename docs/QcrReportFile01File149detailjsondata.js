@@ -1,72 +1,81 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java 11 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.UserScramCredentialsDescription"
+ , "c1" : "UserScramCredentialAlteration"
+ , "c2" : "org.apache.kafka.clients.admin.UserScramCredentialUpsertion"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.UserScramCredentialsDescription" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.UserScramCredentialUpsertion" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#16"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#18"
+ , "c1" : "UserScramCredentialUpsertion"
+ , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#23"
+ , "c1" : "UserScramCredentialUpsertion"
+ , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#28"
+ , "c1" : "UserScramCredentialUpsertion"
+ , "c2" : "UserScramCredentialUpsertion(String;ScramCredentialInfo;byte[];byte[])"
+ , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#25"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#36"
+ , "c1" : "ScramCredentialInfo"
+ , "c2" : "credentialInfo()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#30"
- , "c1" : "String"
- , "c2" : "toString()"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#41"
+ , "c1" : "byte[]"
+ , "c2" : "salt()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#38"
- , "c1" : "UserScramCredentialsDescription"
- , "c2" : "UserScramCredentialsDescription(String;List<ScramCredentialInfo>)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#44"
- , "c1" : "String"
- , "c2" : "name()"
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#46"
+ , "c1" : "byte[]"
+ , "c2" : "password()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#49"
- , "c1" : "List<ScramCredentialInfo>"
- , "c2" : "credentialInfos()"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#50"
+ , "c1" : "byte[]"
+ , "c2" : "generateRandomSalt()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +84,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.svg" }
 
 ] 
 , 
@@ -104,110 +113,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#11"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class UserScramCredentialsDescription contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#16"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00018] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN148859 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN148859 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN148859 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN149590 the MagicNumber/String  'UserScramCredentialsDescription{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN149590 the MagicNumber/String  'name='' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN149590 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN149590 the MagicNumber/String  ', credentialInfos=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN149590 the MagicNumber/String  '}' should be converted to const"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.html#18"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00018] The argument password is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 };

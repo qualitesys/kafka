@@ -1,54 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.UnknownMemberIdException"
+ , "c1" : "RetriableException"
+ , "c2" : "org.apache.kafka.common.errors.UnknownLeaderEpochException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.UnknownMemberIdException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.UnknownLeaderEpochException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#7"
- , "c1" : "UnknownMemberIdException"
- , "c2" : "UnknownMemberIdException()"
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.html#8"
+ , "c1" : "UnknownLeaderEpochException"
+ , "c2" : "UnknownLeaderEpochException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#11"
- , "c1" : "UnknownMemberIdException"
- , "c2" : "UnknownMemberIdException(String;Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#15"
- , "c1" : "UnknownMemberIdException"
- , "c2" : "UnknownMemberIdException(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.html#19"
- , "c1" : "UnknownMemberIdException"
- , "c2" : "UnknownMemberIdException(Throwable)"
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.html#12"
+ , "c1" : "UnknownLeaderEpochException"
+ , "c2" : "UnknownLeaderEpochException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownMemberIdException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/UnknownLeaderEpochException.java.svg" }
 
 ] 
 , 

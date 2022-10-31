@@ -1,27 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.OperationNotAttemptedException"
+ , "c1" : "InvalidOffsetException"
+ , "c2" : "org.apache.kafka.common.errors.OffsetOutOfRangeException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.OperationNotAttemptedException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.OffsetOutOfRangeException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java.html#6"
- , "c1" : "OperationNotAttemptedException"
- , "c2" : "OperationNotAttemptedException(String)"
+ , "c5" : "00009"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.html#9"
+ , "c1" : "OffsetOutOfRangeException"
+ , "c2" : "OffsetOutOfRangeException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.html#13"
+ , "c1" : "OffsetOutOfRangeException"
+ , "c2" : "OffsetOutOfRangeException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OperationNotAttemptedException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetOutOfRangeException.java.svg" }
 
 ] 
 , 

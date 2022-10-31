@@ -1,45 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java 0 rule violation " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "RaftException"
- , "c2" : "org.apache.kafka.raft.errors.NotLeaderException"
+ , "c2" : "org.apache.kafka.raft.errors.BufferAllocationException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.errors.NotLeaderException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.errors.BufferAllocationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00009"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#9"
- , "c1" : "NotLeaderException"
- , "c2" : "NotLeaderException(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#13"
- , "c1" : "NotLeaderException"
- , "c2" : "NotLeaderException(String;Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#17"
- , "c1" : "NotLeaderException"
- , "c2" : "NotLeaderException(Throwable)"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.html#9"
+ , "c1" : "BufferAllocationException"
+ , "c2" : "BufferAllocationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.svg" }
 
 ] 
 , 

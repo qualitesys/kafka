@@ -1,47 +1,74 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java 21 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java 11 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Callback"
- , "c2" : "org.apache.kafka.clients.producer.internals.ErrorLoggingCallback"
+ , "c1" : "Partitioner"
+ , "c2" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.producer.internals.ErrorLoggingCallback" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#19"
- , "c1" : "ErrorLoggingCallback"
- , "c2" : "ErrorLoggingCallback(String;byte[];byte[];boolean)"
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
+ , "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#18"
+ , "c1" : "int"
+ , "c2" : "partition(String;Object;byte[];Object;byte[];Cluster)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#23"
+ , "c1" : "int"
+ , "c2" : "partition(String;Object;byte[];Object;byte[];Cluster;int)"
  , "c3" : "2"
- , "c4" : "5"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#31"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#31"
  , "c1" : "void"
- , "c2" : "onCompletion(RecordMetadata;Exception)"
- , "c3" : "2"
- , "c4" : "3"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#35"
+ , "c1" : "void"
+ , "c2" : "onNewBatch(String;Cluster;int)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.svg" }
 
 ] 
 , 
@@ -66,27 +93,25 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
@@ -101,163 +126,93 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#11"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class ErrorLoggingCallback contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00011] The class DefaultPartitioner contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.ErrorLoggingCallback@POLYN146885 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00015] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#27"
+ , "c1" : "00018"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#18"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00018] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#18"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00018] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#23"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00023] For method partition arguments String  topic|Object  key|byte[]  keyBytes|Object  value|byte[]  valueBytes|Cluster  cluster|int  numPartitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.ErrorLoggingCallback@POLYN146885 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.clients.producer.internals.DefaultPartitioner.partition@POLYN155751 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#35"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00035] For method onNewBatch arguments String  topic|Cluster  cluster|int  prevPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00015] Void method configure is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#15"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00015] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method onCompletion arguments RecordMetadata  metadata|Exception  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  'null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#34"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  ' bytes' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  'null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  ' bytes' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String  'Error when sending message to topic {} with key: {}, value: {} with error:' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#32"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000005[00031] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#33"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String 'null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#33"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#34"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String ' bytes' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#35"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String 'null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#35"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#36"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String ' bytes' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ErrorLoggingCallback.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.clients.producer.internals.ErrorLoggingCallback.onCompletion@POLYN147494 the MagicNumber/String 'Error when sending message to topic {} with key: {}, value: {} with error:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000004[00031] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 };

@@ -1,72 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/Headers.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/Header.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterable<Header>"
- , "c2" : "org.apache.kafka.common.header.Headers"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.header.Header"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.header.Headers" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.header.Header" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#7"
- , "c1" : "Headers"
- , "c2" : "add(Header)"
+ , "c5" : "00006"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#6"
+ , "c1" : "String"
+ , "c2" : "key()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#10"
- , "c1" : "Headers"
- , "c2" : "add(String;byte[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#13"
- , "c1" : "Headers"
- , "c2" : "remove(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#16"
- , "c1" : "Header"
- , "c2" : "lastHeader(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#19"
- , "c1" : "Iterable<Header>"
- , "c2" : "headers(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#22"
- , "c1" : "Header[]"
- , "c2" : "toArray()"
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#8"
+ , "c1" : "byte[]"
+ , "c2" : "value()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.svg" }
 
 ] 
 , 

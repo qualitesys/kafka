@@ -1,47 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.DescribeAclsResult"
+ , "c1" : "AbstractOptions<DescribeAclsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeAclsOptions"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.DescribeAclsResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeAclsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#17"
- , "c1" : "DescribeAclsResult"
- , "c2" : "DescribeAclsResult(KafkaFuture<Collection<AclBinding>>)"
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java.html#14"
+ , "c1" : "DescribeAclsOptions"
+ , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#22"
- , "c1" : "KafkaFuture<Collection<AclBinding>>"
- , "c2" : "values()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java.svg" }
 
 ] 
 , 
@@ -68,9 +59,9 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
  ] 
@@ -78,9 +69,9 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class DescribeAclsResult contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsOptions.java.html#14"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00014] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ]
 };

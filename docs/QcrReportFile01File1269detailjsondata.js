@@ -1,119 +1,146 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java 60 rule violations " 
- , "fic2"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.xml" 
+   "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html" 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/Versions.java 34 rule violations " 
+ , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.jmh.acl.AclAuthorizerBenchmark"
+ , "c2" : "org.apache.kafka.message.Versions"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.jmh.acl.AclAuthorizerBenchmark" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.message.Versions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#81"
- , "c1" : "void"
- , "c2" : "setup()"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#99"
- , "c1" : "void"
- , "c2" : "prepareAclCache()"
- , "c3" : "10"
- , "c4" : "31"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00171"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#171"
- , "c1" : "void"
- , "c2" : "prepareAclToUpdate()"
- , "c3" : "3"
+ , "c5" : "00012"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#12"
+ , "c1" : "Versions"
+ , "c2" : "parse(String;Versions)"
+ , "c3" : "7"
  , "c4" : "9"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00186"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#186"
+ , "c5" : "00045"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#45"
+ , "c1" : "Versions"
+ , "c2" : "Versions()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#50"
+ , "c1" : "Versions"
+ , "c2" : "Versions(short;short)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#59"
+ , "c1" : "short"
+ , "c2" : "lowest()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#63"
+ , "c1" : "short"
+ , "c2" : "highest()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#67"
+ , "c1" : "boolean"
+ , "c2" : "empty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#72"
  , "c1" : "String"
- , "c2" : "randomResourceName(String)"
+ , "c2" : "toString()"
+ , "c3" : "7"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#85"
+ , "c1" : "Versions"
+ , "c2" : "intersect(Versions)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#95"
+ , "c1" : "Versions"
+ , "c2" : "subtract(Versions)"
+ , "c3" : "13"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#129"
+ , "c1" : "boolean"
+ , "c2" : "contains(short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00190"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#190"
- , "c1" : "Boolean"
- , "c2" : "shouldDeny()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#195"
- , "c1" : "void"
- , "c2" : "tearDown()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00200"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#200"
- , "c1" : "void"
- , "c2" : "testAclsIterator()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#205"
- , "c1" : "void"
- , "c2" : "testAuthorizer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00210"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#210"
- , "c1" : "void"
- , "c2" : "testAuthorizeByResourceType()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00215"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#215"
- , "c1" : "void"
- , "c2" : "testUpdateCache()"
+ , "c5" : "00133"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#133"
+ , "c1" : "boolean"
+ , "c2" : "contains(Versions)"
  , "c3" : "2"
  , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#141"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00146"
+ , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#146"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.png" 
+   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.png" 
 
- , "ligneplantuml" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.svg" }
+ , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.svg" }
 
 ] 
 , 
@@ -143,14 +170,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "14"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -164,443 +191,254 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "40"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#56"
+ , "c1" : "00008"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00056] The class AclAuthorizerBenchmark contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class Versions contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  95 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  'someclient' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  '1' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  '127.0.0.1' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  'listener' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  'someclient' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  '1' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  'listener' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.setup@POLYN186414 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#99"
+ , "c1" : "00012"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#12"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00099] For method prepareAclCache list of called methods Object monObjet|String principal_toStringN189104"
+ , "c3" : "QC-JAV000006[00012] For method parse arguments String  input|Versions  defaultVersions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#102"
+ , "c1" : "00013"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#107"
+ , "c1" : "00017"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00107] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#111"
+ , "c1" : "00023"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00111] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  '+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#113"
+ , "c1" : "00025"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00113] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#120"
+ , "c1" : "00025"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00120] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#111"
+ , "c1" : "00028"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00111] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#113"
+ , "c1" : "00029"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00113] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#120"
+ , "c1" : "00034"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00120] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#131"
+ , "c1" : "00035"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00131] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.message.Versions.parse@POLYN166283 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#137"
+ , "c1" : "00046"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00137] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.message.Versions.Versions@POLYN168162 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#148"
+ , "c1" : "00047"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.Versions.Versions@POLYN168162 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#155"
+ , "c1" : "00051"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00155] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.message.Versions.Versions@POLYN168341 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#159"
+ , "c1" : "00051"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00159] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.message.Versions.Versions@POLYN168341 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#101"
+ , "c1" : "00052"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.message.Versions.Versions@POLYN168341 the MagicNumber/String  'Invalid version range ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#103"
+ , "c1" : "00053"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.message.Versions.Versions@POLYN168341 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#103"
+ , "c1" : "00078"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.message.Versions.toString@POLYN169166 the MagicNumber/String  '%d+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#105"
+ , "c1" : "00080"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.message.Versions.toString@POLYN169166 the MagicNumber/String  '%d-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00085"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method intersect arguments Versions  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00085] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#95"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00095] For method subtract arguments Versions  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#95"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00095] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#109"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.message.Versions.subtract@POLYN170797 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#112"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.Versions.subtract@POLYN170797 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#112"
+ , "c1" : "00113"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.message.Versions.subtract@POLYN170797 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#114"
+ , "c1" : "00125"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  '*' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.message.Versions.subtract@POLYN170797 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  '*' should be converted to const"
+ , "c1" : "00129"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#129"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00129] For method contains arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00133"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#133"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00133] For method contains arguments Versions  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  '127.0.0.' should be converted to const"
+ , "c1" : "00133"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#133"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00133] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#137"
+ , "c1" : "00135"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  '127.0.0.' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.message.Versions.contains@POLYN172130 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  10 should be converted to const"
+ , "c1" : "00146"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#146"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00146] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#148"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  '127.0.0' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.message.Versions.equals@POLYN172677 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#167"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclCache@POLYN187958 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00174] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#173"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclToUpdate@POLYN193007 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclToUpdate@POLYN193007 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#177"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.prepareAclToUpdate@POLYN193007 the MagicNumber/String  '127.0.0' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#186"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method randomResourceName arguments String  prefix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.randomResourceName@POLYN194327 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.randomResourceName@POLYN194327 the MagicNumber/String  5 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#191"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.jmh.acl.AclAuthorizerBenchmark.shouldDeny@POLYN194562 the MagicNumber/String  100.0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#195"
+ , "c1" : "00012"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#12"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00195] Public method tearDown is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00200] Public method testAclsIterator is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#215"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00215] Public method testUpdateCache is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00012] Public method parse is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 };

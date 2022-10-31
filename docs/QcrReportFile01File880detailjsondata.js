@@ -1,38 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java 5 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serializer<Void>"
- , "c2" : "org.apache.kafka.common.serialization.VoidSerializer"
+ , "c1" : "Deserializer<Void>"
+ , "c2" : "org.apache.kafka.common.serialization.VoidDeserializer"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.serialization.VoidSerializer" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.serialization.VoidDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00006"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#6"
- , "c1" : "byte[]"
- , "c2" : "serialize(String;Void)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#6"
+ , "c1" : "Void"
+ , "c2" : "deserialize(String;byte[])"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.svg" }
 
 ] 
 , 
@@ -69,7 +69,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -83,23 +83,37 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00004"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#4"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#4"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00004] The class VoidSerializer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00004] The class VoidDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#6"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#6"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00006] For method serialize arguments String  topic|Void  data"
+ , "c3" : "QC-JAV000006[00006] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00007"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#7"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#7"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN140523 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.VoidDeserializer.deserialize@POLYN140841 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00008"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#8"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00008] In method org.apache.kafka.common.serialization.VoidDeserializer.deserialize@POLYN140841 the MagicNumber/String  'Data should be null for a VoidDeserializer.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidDeserializer.java.html#10"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.serialization.VoidDeserializer.deserialize@POLYN140841 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 };

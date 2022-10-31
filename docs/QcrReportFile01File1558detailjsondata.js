@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsRebalancingException.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/StreamsRebalancingException.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsRebalancingException.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsNotStartedException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/StreamsNotStartedException.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsNotStartedException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "InvalidStateStoreException"
- , "c2" : "org.apache.kafka.streams.errors.StreamsRebalancingException"
+ , "c2" : "org.apache.kafka.streams.errors.StreamsNotStartedException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.StreamsRebalancingException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.StreamsNotStartedException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsRebalancingException.java.html#9"
- , "c1" : "StreamsRebalancingException"
- , "c2" : "StreamsRebalancingException(String)"
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsNotStartedException.java.html#12"
+ , "c1" : "StreamsNotStartedException"
+ , "c2" : "StreamsNotStartedException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsRebalancingException.java.html#13"
- , "c1" : "StreamsRebalancingException"
- , "c2" : "StreamsRebalancingException(String;Throwable)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsNotStartedException.java.html#16"
+ , "c1" : "StreamsNotStartedException"
+ , "c2" : "StreamsNotStartedException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsRebalancingException.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsNotStartedException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsRebalancingException.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsNotStartedException.java.svg" }
 
 ] 
 , 

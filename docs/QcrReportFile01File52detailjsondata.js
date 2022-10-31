@@ -1,63 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractOptions<CreatePartitionsOptions>"
- , "c2" : "org.apache.kafka.clients.admin.CreatePartitionsOptions"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.CreateDelegationTokenResult"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.CreatePartitionsOptions" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.CreateDelegationTokenResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#16"
- , "c1" : "CreatePartitionsOptions"
- , "c2" : "CreatePartitionsOptions()"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#20"
- , "c1" : "boolean"
- , "c2" : "validateOnly()"
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.html#14"
+ , "c1" : "CreateDelegationTokenResult"
+ , "c2" : "CreateDelegationTokenResult(KafkaFuture<DelegationToken>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#25"
- , "c1" : "CreatePartitionsOptions"
- , "c2" : "validateOnly(boolean)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#31"
- , "c1" : "CreatePartitionsOptions"
- , "c2" : "retryOnQuotaViolation(boolean)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#37"
- , "c1" : "boolean"
- , "c2" : "shouldRetryOnQuotaViolation()"
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.html#19"
+ , "c1" : "KafkaFuture<DelegationToken>"
+ , "c2" : "delegationToken()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.svg" }
 
 ] 
 , 
@@ -95,26 +68,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#25"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method validateOnly arguments boolean  validateOnly"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
+ , "c1" : "00011"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenResult.java.html#11"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00011] The class CreateDelegationTokenResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
 };

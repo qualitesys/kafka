@@ -1,74 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java 12 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java 4 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.utils.ProducerIdAndEpoch"
+ , "c2" : "org.apache.kafka.common.utils.PrimitiveRef"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.utils.ProducerIdAndEpoch" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.utils.PrimitiveRef" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#12"
- , "c1" : "ProducerIdAndEpoch"
- , "c2" : "ProducerIdAndEpoch(long;short)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#17"
- , "c1" : "boolean"
- , "c2" : "isValid()"
+ , "c5" : "00006"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6"
+ , "c1" : "IntRef"
+ , "c2" : "ofInt(int)"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#22"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#27"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "4"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#38"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.svg" }
 
 ] 
 , 
@@ -96,23 +60,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-JAVCWE493"
+ , "c3" : "Critical public variable without final modifier"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -125,87 +82,31 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
+ , "c1" : "00005"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#5"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00005] The class PrimitiveRef contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#6"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class ProducerIdAndEpoch contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN145528 the MagicNumber/String  'ProducerIdAndEpoch(producerId=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN145528 the MagicNumber/String  ', epoch=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.toString@POLYN145528 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#27"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00006] For method ofInt arguments int  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#29"
+ , "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00029] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000008[00010] The class IntRef contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#28"
+ , "c1" : "00011"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN145722 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN145722 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN145722 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.equals@POLYN145722 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.hashCode@POLYN146305 the MagicNumber/String  32 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ProducerIdAndEpoch.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.utils.ProducerIdAndEpoch.hashCode@POLYN146305 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAVCWE493[00011] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ]
 };

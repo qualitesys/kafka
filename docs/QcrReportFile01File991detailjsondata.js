@@ -1,30 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReader.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReader.java 0 rule violation " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReader.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java 0 rule violation " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.connect.storage.OffsetStorageReader"
+ , "c1" : "Configurable"
+ , "c2" : "org.apache.kafka.connect.storage.HeaderConverter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.storage.OffsetStorageReader" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.storage.HeaderConverter" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java.html#15"
+ , "c1" : "SchemaAndValue"
+ , "c2" : "toConnectHeader(String;String;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java.html#18"
+ , "c1" : "byte[]"
+ , "c2" : "fromConnectHeader(String;String;Schema;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java.html#21"
+ , "c1" : "ConfigDef"
+ , "c2" : "config()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReader.java.png" 
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java.png" 
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReader.java.svg" }
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/HeaderConverter.java.svg" }
 
 ] 
 , 

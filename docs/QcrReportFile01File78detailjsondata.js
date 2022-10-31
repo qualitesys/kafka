@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.DescribeDelegationTokenResult"
+ , "c1" : "AbstractOptions<DescribeDelegationTokenOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.DescribeDelegationTokenResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.html#16"
- , "c1" : "DescribeDelegationTokenResult"
- , "c2" : "DescribeDelegationTokenResult(KafkaFuture<List<DelegationToken>>)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#16"
+ , "c1" : "DescribeDelegationTokenOptions"
+ , "c2" : "owners(List<KafkaPrincipal>)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.html#21"
- , "c1" : "KafkaFuture<List<DelegationToken>>"
- , "c2" : "delegationTokens()"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#21"
+ , "c1" : "List<KafkaPrincipal>"
+ , "c2" : "owners()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.svg" }
 
 ] 
 , 
@@ -68,19 +68,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenResult.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class DescribeDelegationTokenResult contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#16"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00016] For method owners arguments List&lt;KafkaPrincipal &gt;  owners"
 }} 
 ]
 };

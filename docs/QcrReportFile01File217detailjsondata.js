@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java 4 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.consumer.internals.RequestFutureListener"
+ , "c2" : "org.apache.kafka.clients.consumer.internals.RequestFutureAdapter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.consumer.internals.RequestFutureListener" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.consumer.internals.RequestFutureAdapter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00007"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.html#7"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#7"
  , "c1" : "void"
- , "c2" : "onSuccess(T)"
+ , "c2" : "onSuccess(F;RequestFuture<T>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.html#9"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#9"
  , "c1" : "void"
- , "c2" : "onFailure(RuntimeException)"
+ , "c2" : "onFailure(RuntimeException;RequestFuture<T>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureListener.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.svg" }
 
 ] 
 , 
@@ -66,5 +66,57 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00005"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#5"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00005] The class RequestFutureAdapter contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00007"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#7"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00007] For method onSuccess arguments F  value|RequestFuture&lt;T &gt;  future"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#9"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00009] For method onFailure arguments RuntimeException  e|RequestFuture&lt;T &gt;  future"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00009"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#9"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00009] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+]
 };
 console.log('leListeStr 99 main end');

@@ -1,155 +1,137 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java 117 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java 114 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.trogdor.agent.AgentClient"
+ , "c2" : "org.apache.kafka.trogdor.agent.Agent"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.agent.AgentClient" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.agent.Agent" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#63"
+ , "c1" : "Agent"
+ , "c2" : "Agent(Platform;Scheduler;JsonRestServer;AgentRestResource)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#73"
+ , "c1" : "int"
+ , "c2" : "port()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#77"
+ , "c1" : "void"
+ , "c2" : "beginShutdown()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#82"
+ , "c1" : "void"
+ , "c2" : "waitForShutdown()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
 { "ligne" : { "" : ""
  , "c5" : "00087"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#87"
- , "c1" : "AgentClient"
- , "c2" : "AgentClient(Logger;int;String)"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#87"
+ , "c1" : "AgentStatusResponse"
+ , "c2" : "status()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#91"
+ , "c1" : "UptimeResponse"
+ , "c2" : "uptime()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#95"
+ , "c1" : "void"
+ , "c2" : "createWorker(CreateWorkerRequest)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#99"
+ , "c1" : "void"
+ , "c2" : "stopWorker(StopWorkerRequest)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#103"
+ , "c1" : "void"
+ , "c2" : "destroyWorker(DestroyWorkerRequest)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#108"
+ , "c1" : "TaskSpec"
+ , "c2" : "rebaseTaskSpecTime(TaskSpec)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#93"
- , "c1" : "String"
- , "c2" : "target()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00115"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#115"
+ , "c1" : "boolean"
+ , "c2" : "exec(TaskSpec;PrintStream)"
+ , "c3" : "4"
+ , "c4" : "19"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#97"
- , "c1" : "int"
- , "c2" : "maxTries()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#101"
- , "c1" : "String"
- , "c2" : "url(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#105"
- , "c1" : "AgentStatusResponse"
- , "c2" : "status()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#112"
- , "c1" : "UptimeResponse"
- , "c2" : "uptime()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#119"
- , "c1" : "void"
- , "c2" : "createWorker(CreateWorkerRequest)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00127"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#127"
- , "c1" : "void"
- , "c2" : "stopWorker(StopWorkerRequest)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#135"
- , "c1" : "void"
- , "c2" : "destroyWorker(DestroyWorkerRequest)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#144"
- , "c1" : "void"
- , "c2" : "invokeShutdown()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#152"
- , "c1" : "void"
- , "c2" : "addTargetArgument(ArgumentParser)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#162"
- , "c1" : "void"
- , "c2" : "addJsonArgument(ArgumentParser)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#170"
- , "c1" : "void"
- , "c2" : "addWorkerIdArgument(ArgumentParser;String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00179"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#179"
+ , "c5" : "00153"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#153"
  , "c1" : "void"
  , "c2" : "main(String[])"
- , "c3" : "12"
- , "c4" : "67"
+ , "c3" : "4"
+ , "c4" : "32"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.svg" }
 
 ] 
 , 
@@ -174,47 +156,56 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "38"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "4"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE484"
- , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "1"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "96"
+ , "c4" : "57"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "12"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -227,822 +218,801 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#42"
+ , "c1" : "00036"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00042] The class AgentClient contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00036] The class Agent contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00051] The class Builder contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method log arguments Logger  log"
+ , "c1" : "00063"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#63"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00063] The argument scheduler is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#64"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#64"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00064] The argument resource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method maxTries arguments int  maxTries"
+ , "c3" : "QC-JAV000006[00095] For method createWorker arguments CreateWorkerRequest  req"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#69"
+ , "c1" : "00095"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#95"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00095] The argument req is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method target arguments String  target"
+ , "c3" : "QC-JAV000006[00099] For method stopWorker arguments StopWorkerRequest  req"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#74"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#99"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00099] The argument req is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.trogdor.agent.Agent.stopWorker@POLYN186155 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method target arguments String  host|int  port"
+ , "c3" : "QC-JAV000006[00103] For method destroyWorker arguments DestroyWorkerRequest  req"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#75"
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#103"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00103] The argument req is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.agent.AgentClient.Builder.target@POLYN193098 the MagicNumber/String  '%s:%d' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.agent.AgentClient.Builder.build@POLYN193378 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.agent.AgentClient.Builder.build@POLYN193378 the MagicNumber/String  'You must specify a target.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method url arguments String  suffix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.agent.AgentClient.url@POLYN194172 the MagicNumber/String  'http://%s%s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.agent.AgentClient.status@POLYN194365 the MagicNumber/String  '/agent/status' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.trogdor.agent.AgentClient.status@POLYN194365 the MagicNumber/String  'GET' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.agent.Agent.destroyWorker@POLYN186345 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.trogdor.agent.AgentClient.status@POLYN194365 the MagicNumber/String  null should be converted to const"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#108"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00108] For method rebaseTaskSpecTime arguments TaskSpec  spec"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.trogdor.agent.AgentClient.uptime@POLYN194794 the MagicNumber/String  '/agent/uptime' should be converted to const"
+ , "c1" : "00108"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#108"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00108] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#114"
+ , "c1" : "00110"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.trogdor.agent.AgentClient.uptime@POLYN194794 the MagicNumber/String  'GET' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.trogdor.agent.Agent.rebaseTaskSpecTime@POLYN186684 the MagicNumber/String  'startMs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.agent.AgentClient.uptime@POLYN194794 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#119"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00119] For method createWorker arguments CreateWorkerRequest  request"
+ , "c3" : "QC-JAV000006[00115] For method exec arguments TaskSpec  spec|PrintStream  out"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00115] For method exec list of called methods Object monObjet|boolean controller_targetNodesN187942"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#115"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00115] The argument spec is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#115"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00115] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  'Unable to create the task controller.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#122"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.agent.AgentClient.createWorker@POLYN195190 the MagicNumber/String  '/agent/worker/create' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#122"
+ , "c1" : "00126"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.agent.AgentClient.createWorker@POLYN195190 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  'This task is not configured to run on this node.  It runs on node(s): ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#127"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00127] For method stopWorker arguments StopWorkerRequest  request"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#130"
+ , "c1" : "00127"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.agent.AgentClient.stopWorker@POLYN195626 the MagicNumber/String  '/agent/worker/stop' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  ', whereas this node is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#130"
+ , "c1" : "00129"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.agent.AgentClient.stopWorker@POLYN195626 the MagicNumber/String  'PUT' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#135"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method destroyWorker arguments DestroyWorkerRequest  request"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#135"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00135] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#136"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.trogdor.agent.AgentClient.destroyWorker@POLYN196062 the MagicNumber/String  '/agent/worker' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  'createWorker failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#137"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.trogdor.agent.AgentClient.destroyWorker@POLYN196062 the MagicNumber/String  'workerId' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#139"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.trogdor.agent.AgentClient.destroyWorker@POLYN196062 the MagicNumber/String  'DELETE' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  'Waiting for completion of task:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#140"
+ , "c1" : "00141"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.trogdor.agent.AgentClient.destroyWorker@POLYN196062 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#147"
+ , "c1" : "00142"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.trogdor.agent.AgentClient.invokeShutdown@POLYN196749 the MagicNumber/String  '/agent/shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  'Task succeeded with status ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#147"
+ , "c1" : "00144"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.trogdor.agent.AgentClient.invokeShutdown@POLYN196749 the MagicNumber/String  'PUT' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  'Task failed with status ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#148"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.agent.AgentClient.invokeShutdown@POLYN196749 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  ' and error ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#152"
+ , "c1" : "00149"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.trogdor.agent.Agent.exec@POLYN187390 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00153"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method addTargetArgument arguments ArgumentParser  parser"
+ , "c3" : "QC-JAV000006[00153] For method main arguments String[]  args"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#152"
+ , "c1" : "00153"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#153"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00152] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.trogdor.agent.AgentClient.addTargetArgument@POLYN197170 the MagicNumber/String  '--target' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.trogdor.agent.AgentClient.addTargetArgument@POLYN197170 the MagicNumber/String  '-t' should be converted to const"
+ , "c3" : "QC-JAVCWE476[00153] The argument args is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#155"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.agent.AgentClient.addTargetArgument@POLYN197170 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'trogdor-agent' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#157"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.trogdor.agent.AgentClient.addTargetArgument@POLYN197170 the MagicNumber/String  'target' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'The Trogdor fault injection agent' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#158"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.trogdor.agent.AgentClient.addTargetArgument@POLYN197170 the MagicNumber/String  'TARGET' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  '--agent.config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#159"
+ , "c1" : "00158"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.trogdor.agent.AgentClient.addTargetArgument@POLYN197170 the MagicNumber/String  'A colon-separated host and port pair.  For example, example.com:8888' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  '-c' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method addJsonArgument arguments ArgumentParser  parser"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#162"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00162] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#163"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.trogdor.agent.AgentClient.addJsonArgument@POLYN197599 the MagicNumber/String  '--json' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'CONFIG' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'The configuration file to use.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#165"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.agent.AgentClient.addJsonArgument@POLYN197599 the MagicNumber/String  'json' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  '--node-name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#166"
+ , "c1" : "00165"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.trogdor.agent.AgentClient.addJsonArgument@POLYN197599 the MagicNumber/String  'JSON' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  '-n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#167"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.trogdor.agent.AgentClient.addJsonArgument@POLYN197599 the MagicNumber/String  'Show the full response as JSON.' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'node_name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method addWorkerIdArgument arguments ArgumentParser  parser|String  help"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#170"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00170] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'NODE_NAME' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#171"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.trogdor.agent.AgentClient.addWorkerIdArgument@POLYN197914 the MagicNumber/String  '--workerId' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'The name of this node.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#174"
+ , "c1" : "00172"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.trogdor.agent.AgentClient.addWorkerIdArgument@POLYN197914 the MagicNumber/String  'workerId' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  '--exec' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  '-e' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#175"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.trogdor.agent.AgentClient.addWorkerIdArgument@POLYN197914 the MagicNumber/String  'WORKER_ID' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'task_spec' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#179"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#179"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00179] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.rest.UptimeResponse client_uptimeN201586|org.apache.kafka.trogdor.rest.AgentStatusResponse client_statusN202611"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#260"
+ , "c1" : "00176"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00260] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'TASK_SPEC' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#299"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE484[00299] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#181"
+ , "c1" : "00177"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'trogdor-agent-client' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'Execute a single task spec and then exit.  The argument is the task spec to load when starting up, or a path to it.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#182"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#183"
+ , "c1" : "00184"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'The Trogdor agent client.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'command' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'uptime' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#187"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Get the agent uptime.' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#190"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'status' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#191"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Get the agent status.' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'node_name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#194"
+ , "c1" : "00192"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'createWorker' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Create a new worker.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'The worker ID to create.' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'task_spec' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#198"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  '--taskId' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'Starting agent process.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#200"
+ , "c1" : "00201"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'agent-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#202"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'taskId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#203"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'TASK_ID' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'The task ID to create.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#205"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  '--spec' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#205"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  '-s' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'Running agent shutdown hook.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#207"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#209"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'taskSpec' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'Got exception while running agent shutdown hook.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#210"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'TASK_SPEC' should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'The task spec to create, or a path to a file containing the task spec.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'stopWorker' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Stop a worker.' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#215"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'The worker ID to stop.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'destroyWorker' should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  'Unable to parse the supplied task spec.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#217"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Destroy a worker.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'The worker ID to destroy.' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#220"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#221"
+ , "c1" : "00220"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Shut down the agent.' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#225"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'target' should be converted to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.Agent.main@POLYN189800"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#227"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  3 should be converted to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.Agent.rebaseTaskSpecTime@POLYN186684"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#231"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'command' should be converted to const"
+ , "c1" : "00155"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'trogdor-agent' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#232"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'uptime' should be converted to const"
+ , "c1" : "00156"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#156"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#234"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'json' should be converted to const"
+ , "c1" : "00157"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'The Trogdor fault injection agent' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#237"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Agent is running at %s.%n' should be converted to const"
+ , "c1" : "00158"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String '--agent.config' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#238"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  '\tStart time: %s%n' should be converted to const"
+ , "c1" : "00158"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String '-c' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#240"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  '\tCurrent server time: %s%n' should be converted to const"
+ , "c1" : "00160"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#160"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#242"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  '\tUptime: %s%n' should be converted to const"
+ , "c1" : "00162"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'config' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#247"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'status' should be converted to const"
+ , "c1" : "00163"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'CONFIG' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#249"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'json' should be converted to const"
+ , "c1" : "00164"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#164"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'The configuration file to use.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#252"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Agent is running at %s.%n' should be converted to const"
+ , "c1" : "00165"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String '--node-name' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#253"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  '\tStart time: %s%n' should be converted to const"
+ , "c1" : "00165"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String '-n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'WORKER_ID' should be converted to const"
+ , "c1" : "00167"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'TASK_ID' should be converted to const"
+ , "c1" : "00169"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'node_name' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'STATE' should be converted to const"
+ , "c1" : "00170"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'NODE_NAME' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'TASK_TYPE' should be converted to const"
+ , "c1" : "00171"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'The name of this node.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#271"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'createWorker' should be converted to const"
+ , "c1" : "00172"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String '--exec' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#272"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'workerId' should be converted to const"
+ , "c1" : "00172"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String '-e' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#273"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'taskId' should be converted to const"
+ , "c1" : "00175"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'task_spec' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#275"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'taskSpec' should be converted to const"
+ , "c1" : "00176"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#176"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'TASK_SPEC' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#279"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Sent CreateWorkerRequest for worker %d%n.' should be converted to const"
+ , "c1" : "00177"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'Execute a single task spec and then exit.  The argument is the task spec to load when starting up, or a path to it.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'stopWorker' should be converted to const"
+ , "c1" : "00178"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#283"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'workerId' should be converted to const"
+ , "c1" : "00182"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#285"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Sent StopWorkerRequest for worker %d%n.' should be converted to const"
+ , "c1" : "00184"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#184"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#288"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'destroyWorker' should be converted to const"
+ , "c1" : "00187"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#289"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'workerId' should be converted to const"
+ , "c1" : "00190"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'config' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#291"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Sent DestroyWorkerRequest for worker %d%n.' should be converted to const"
+ , "c1" : "00191"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'node_name' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00294"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#294"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'shutdown' should be converted to const"
+ , "c1" : "00192"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#192"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'task_spec' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#296"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'Sent ShutdownRequest.' should be converted to const"
+ , "c1" : "00198"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#198"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'Starting agent process.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#300"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  'You must choose an action. Type --help for help.' should be converted to const"
+ , "c1" : "00201"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#201"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'agent-shutdown-hook' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#301"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.trogdor.agent.AgentClient.main@POLYN198301 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00202"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#202"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'Running agent shutdown hook.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#207"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'Got exception while running agent shutdown hook.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#210"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00215] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 'Unable to parse the supplied task spec.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN189800 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.trogdor.agent.Agent.rebaseTaskSpecTime@POLYN186684 the MagicNumber/String 'startMs' MUST BE CONVERTED to const"
 }} 
 ]
 };

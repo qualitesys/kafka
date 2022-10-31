@@ -1,63 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java 6 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java 9 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KafkaClientSupplier"
- , "c2" : "org.apache.kafka.streams.processor.internals.DefaultKafkaClientSupplier"
+ , "c1" : "StampedRecord"
+ , "c2" : "org.apache.kafka.streams.processor.internals.CorruptedRecord"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.DefaultKafkaClientSupplier" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.CorruptedRecord" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#17"
- , "c1" : "Admin"
- , "c2" : "getAdmin(Map<String,Object>)"
+ , "c5" : "00010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#10"
+ , "c1" : "CorruptedRecord"
+ , "c2" : "CorruptedRecord(ConsumerRecord<byte[],byte[]>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#23"
- , "c1" : "Producer<byte[],byte[]>"
- , "c2" : "getProducer(Map<String,Object>)"
+ , "c5" : "00015"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#15"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#28"
- , "c1" : "Consumer<byte[],byte[]>"
- , "c2" : "getConsumer(Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#22"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "4"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#33"
- , "c1" : "Consumer<byte[],byte[]>"
- , "c2" : "getRestoreConsumer(Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#38"
- , "c1" : "Consumer<byte[],byte[]>"
- , "c2" : "getGlobalConsumer(Map<String,Object>)"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#37"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.svg" }
 
 ] 
 , 
@@ -96,8 +87,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
@@ -105,51 +103,72 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#15"
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class DefaultKafkaClientSupplier contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.processor.internals.CorruptedRecord.toString@POLYN145755 the MagicNumber/String  'CorruptedRecord(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#17"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method getAdmin arguments Map&lt;String ,Object &gt;  config"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#17"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.processor.internals.CorruptedRecord.toString@POLYN145755 the MagicNumber/String  'value = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#23"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method getProducer arguments Map&lt;String ,Object &gt;  config"
+ , "c1" : "00018"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#18"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.processor.internals.CorruptedRecord.toString@POLYN145755 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#28"
+ , "c1" : "00022"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method getConsumer arguments Map&lt;String ,Object &gt;  config"
+ , "c3" : "QC-JAV000006[00022] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method getRestoreConsumer arguments Map&lt;String ,Object &gt;  config"
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#26"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00026] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method getGlobalConsumer arguments Map&lt;String ,Object &gt;  config"
+ , "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.processor.internals.CorruptedRecord.equals@POLYN145927 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#26"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.processor.internals.CorruptedRecord.equals@POLYN145927 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.processor.internals.CorruptedRecord.equals@POLYN145927 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/CorruptedRecord.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.CorruptedRecord.equals@POLYN145927 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 };

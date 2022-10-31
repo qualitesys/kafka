@@ -1,72 +1,288 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java 8 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java 0 rule violation " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.connect.health.AbstractState"
+ , "c1" : "Iterable<Header>"
+ , "c2" : "org.apache.kafka.connect.header.Headers"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.health.AbstractState" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.header.Headers" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#17"
- , "c1" : "AbstractState"
- , "c2" : "AbstractState(String;String;String)"
- , "c3" : "3"
- , "c4" : "5"
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#18"
+ , "c1" : "int"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#21"
+ , "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#24"
+ , "c1" : "Iterator<Header>"
+ , "c2" : "allWithName(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#27"
+ , "c1" : "Header"
+ , "c2" : "lastWithName(String)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00030"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#30"
- , "c1" : "String"
- , "c2" : "state()"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#30"
+ , "c1" : "Headers"
+ , "c2" : "add(Header)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#35"
- , "c1" : "String"
- , "c2" : "workerId()"
+ , "c5" : "00033"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#33"
+ , "c1" : "Headers"
+ , "c2" : "add(String;SchemaAndValue)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#40"
- , "c1" : "String"
- , "c2" : "traceMessage()"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#36"
+ , "c1" : "Headers"
+ , "c2" : "add(String;Object;Schema)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#39"
+ , "c1" : "Headers"
+ , "c2" : "addString(String;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#42"
+ , "c1" : "Headers"
+ , "c2" : "addBoolean(String;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00045"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#45"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#45"
+ , "c1" : "Headers"
+ , "c2" : "addByte(String;byte)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#48"
+ , "c1" : "Headers"
+ , "c2" : "addShort(String;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#51"
+ , "c1" : "Headers"
+ , "c2" : "addInt(String;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#54"
+ , "c1" : "Headers"
+ , "c2" : "addLong(String;long)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00057"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#57"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#57"
+ , "c1" : "Headers"
+ , "c2" : "addFloat(String;float)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#60"
+ , "c1" : "Headers"
+ , "c2" : "addDouble(String;double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#63"
+ , "c1" : "Headers"
+ , "c2" : "addBytes(String;byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#66"
+ , "c1" : "Headers"
+ , "c2" : "addList(String;List<?>;Schema)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#69"
+ , "c1" : "Headers"
+ , "c2" : "addMap(String;Map<?,?>;Schema)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#72"
+ , "c1" : "Headers"
+ , "c2" : "addStruct(String;Struct)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#75"
+ , "c1" : "Headers"
+ , "c2" : "addDecimal(String;BigDecimal)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#78"
+ , "c1" : "Headers"
+ , "c2" : "addDate(String;java.util.Date)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#81"
+ , "c1" : "Headers"
+ , "c2" : "addTime(String;java.util.Date)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#84"
+ , "c1" : "Headers"
+ , "c2" : "addTimestamp(String;java.util.Date)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#87"
+ , "c1" : "Headers"
+ , "c2" : "remove(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#90"
+ , "c1" : "Headers"
+ , "c2" : "retainLatest(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#93"
+ , "c1" : "Headers"
+ , "c2" : "retainLatest()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#96"
+ , "c1" : "Headers"
+ , "c2" : "clear()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#99"
+ , "c1" : "Headers"
+ , "c2" : "duplicate()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#102"
+ , "c1" : "Headers"
+ , "c2" : "apply(HeaderTransform)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#105"
+ , "c1" : "Headers"
+ , "c2" : "apply(String;HeaderTransform)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +291,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.png" 
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.png" 
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.svg" }
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.svg" }
 
 ] 
 , 
@@ -102,92 +318,5 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#10"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class AbstractState contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#19"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.connect.health.AbstractState.AbstractState@POLYN150961 the MagicNumber/String  'State must not be null or empty' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.health.AbstractState.AbstractState@POLYN150961 the MagicNumber/String  'Worker ID must not be null or empty' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00048] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.health.AbstractState.equals@POLYN152186 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.health.AbstractState.equals@POLYN152186 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/AbstractState.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.connect.health.AbstractState.equals@POLYN152186 the MagicNumber/String  false should be converted to const"
-}} 
-]
 };
 console.log('leListeStr 99 main end');

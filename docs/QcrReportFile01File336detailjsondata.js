@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.FeatureUpdateFailedException"
+ , "c1" : "InvalidMetadataException"
+ , "c2" : "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.FeatureUpdateFailedException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.html#7"
- , "c1" : "FeatureUpdateFailedException"
- , "c2" : "FeatureUpdateFailedException(String)"
+ , "c5" : "00006"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.html#6"
+ , "c1" : "EligibleLeadersNotAvailableException"
+ , "c2" : "EligibleLeadersNotAvailableException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.html#11"
- , "c1" : "FeatureUpdateFailedException"
- , "c2" : "FeatureUpdateFailedException(String;Throwable)"
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.html#10"
+ , "c1" : "EligibleLeadersNotAvailableException"
+ , "c2" : "EligibleLeadersNotAvailableException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FeatureUpdateFailedException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/EligibleLeadersNotAvailableException.java.svg" }
 
 ] 
 , 

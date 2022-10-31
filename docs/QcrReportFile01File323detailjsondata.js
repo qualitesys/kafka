@@ -1,45 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "RetriableException"
- , "c2" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException"
+ , "c2" : "org.apache.kafka.common.errors.CoordinatorLoadInProgressException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.CoordinatorLoadInProgressException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html#10"
- , "c1" : "CoordinatorNotAvailableException"
- , "c2" : "CoordinatorNotAvailableException()"
+ , "c5" : "00009"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.html#9"
+ , "c1" : "CoordinatorLoadInProgressException"
+ , "c2" : "CoordinatorLoadInProgressException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html#14"
- , "c1" : "CoordinatorNotAvailableException"
- , "c2" : "CoordinatorNotAvailableException(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html#18"
- , "c1" : "CoordinatorNotAvailableException"
- , "c2" : "CoordinatorNotAvailableException(String;Throwable)"
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.html#13"
+ , "c1" : "CoordinatorLoadInProgressException"
+ , "c2" : "CoordinatorLoadInProgressException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorLoadInProgressException.java.svg" }
 
 ] 
 , 
