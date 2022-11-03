@@ -682,5 +682,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN199468 the MagicNumber/String 'Sleeping for {} millis' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

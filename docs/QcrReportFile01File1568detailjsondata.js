@@ -90,5 +90,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.errors.UnknownTopologyException.UnknownTopologyException@POLYN142688 the MagicNumber/String  ' due to being unable to locate a Topology named ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

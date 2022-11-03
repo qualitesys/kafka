@@ -225,5 +225,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.MetricNameTemplate.toString@POLYN162700 the MagicNumber/String  'name=%s, group=%s, tags=%s' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

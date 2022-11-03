@@ -156,5 +156,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00030] For method reverseRange arguments K  from|K  to"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

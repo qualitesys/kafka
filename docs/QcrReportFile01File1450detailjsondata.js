@@ -290,5 +290,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00089] Void method run is empty or contains only a return. Interface segregation"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

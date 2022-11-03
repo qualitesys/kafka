@@ -287,5 +287,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.suppress.EagerBufferConfigImpl.toString@POLYN153554 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

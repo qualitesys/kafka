@@ -271,5 +271,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00066] Public method restartTaskCount is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

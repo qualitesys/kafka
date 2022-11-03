@@ -155,5 +155,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN148565 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

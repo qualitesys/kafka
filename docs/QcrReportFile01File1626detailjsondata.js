@@ -230,5 +230,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.WindowedSerdes.verifyInnerDeserializerNotNull@POLYN157661 the MagicNumber/String  'instead of the no-arg constructor.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/WindowedSerdes.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

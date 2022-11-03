@@ -332,5 +332,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.TimelineLong.equals@POLYN155129 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

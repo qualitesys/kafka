@@ -1889,5 +1889,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00433] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN264365 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

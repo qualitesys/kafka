@@ -233,5 +233,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.util.ConnectorTaskId.compareTo@POLYN149599 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectorTaskId.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

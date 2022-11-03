@@ -226,5 +226,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.Target.arrayElementTarget@POLYN151535 the MagicNumber/String  ' element' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/Target.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

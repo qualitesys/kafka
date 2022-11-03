@@ -159,5 +159,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.trogdor.common.Platform.Config.parse@POLYN148613 the MagicNumber/String  'in the root JSON configuration object' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Platform.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

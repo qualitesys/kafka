@@ -423,5 +423,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.filter@POLYN165311 the MagicNumber/String 'User cannot access the resource.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

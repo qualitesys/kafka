@@ -148,5 +148,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.metrics.stats.Avg.combine@POLYN143988 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Avg.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

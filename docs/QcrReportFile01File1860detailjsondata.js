@@ -337,7 +337,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method completeRestoration arguments java.util.function.Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00088] For method completeRestoration arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -893,5 +893,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.streams.processor.internals.StandbyTask.suspend@POLYN184321 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

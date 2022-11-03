@@ -512,5 +512,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN174742 the MagicNumber/String 'n,%s,%sauth=Bearer %s%s%s%s' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

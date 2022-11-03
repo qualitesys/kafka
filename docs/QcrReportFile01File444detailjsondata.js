@@ -143,5 +143,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00026] Public method maybeAddAll is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -5623,5 +5623,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[02459] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceSucceeded@POLYN625766 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

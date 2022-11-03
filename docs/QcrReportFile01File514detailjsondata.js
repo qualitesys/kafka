@@ -379,5 +379,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.common.network.SslChannelBuilder.buildChannel@POLYN169172 the MagicNumber/String 'Failed to create channel due to ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

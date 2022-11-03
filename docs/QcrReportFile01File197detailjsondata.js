@@ -301,5 +301,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

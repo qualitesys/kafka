@@ -104,5 +104,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider.PlainSaslServerProvider@POLYN142663 the MagicNumber/String  'SaslServerFactory.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServerProvider.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

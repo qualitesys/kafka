@@ -272,5 +272,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.generate@POLYN155775 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponentPayloadGenerator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

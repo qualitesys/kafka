@@ -728,5 +728,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

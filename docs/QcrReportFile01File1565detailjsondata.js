@@ -90,5 +90,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.errors.TaskMigratedException.TaskMigratedException@POLYN142944 the MagicNumber/String  '; it means all tasks belonging to this thread should be migrated.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

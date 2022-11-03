@@ -244,5 +244,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String 'could not find group ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

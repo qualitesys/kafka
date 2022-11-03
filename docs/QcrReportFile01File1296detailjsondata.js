@@ -1055,5 +1055,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00355] In the recursive method org.apache.kafka.log4jappender.KafkaLog4jAppender.close@POLYN200592 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

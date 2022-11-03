@@ -705,5 +705,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00525] In the recursive method org.apache.kafka.clients.producer.ProducerConfig.postProcessAndValidateIdempotenceConfigs@POLYN236474 the MagicNumber/String 'Cannot set a ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -1654,5 +1654,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00451] In the recursive method org.apache.kafka.common.metrics.Metrics.close@POLYN304793 the MagicNumber/String 'Metrics reporters closed' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

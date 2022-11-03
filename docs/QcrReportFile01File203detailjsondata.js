@@ -178,5 +178,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.close@POLYN158024 the MagicNumber/String  'Failed to close consumer interceptor ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

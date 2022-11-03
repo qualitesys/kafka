@@ -229,5 +229,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.health.TaskState.toString@POLYN149779 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/TaskState.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

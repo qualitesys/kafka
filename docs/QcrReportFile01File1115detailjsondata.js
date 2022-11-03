@@ -557,5 +557,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN186878 the MagicNumber/String 'Timeout must not be negative' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

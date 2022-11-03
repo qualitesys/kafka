@@ -97,5 +97,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000007[00040] For method setup list of called methods Object monObjet|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forCurrentMagicN149365"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ProduceRequestBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

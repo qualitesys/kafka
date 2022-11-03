@@ -314,5 +314,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.basic.BasicNode.getConfig@POLYN157472"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

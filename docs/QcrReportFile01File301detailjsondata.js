@@ -331,5 +331,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.config.ConfigValue.toString@POLYN154672 the MagicNumber/String  ']' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigValue.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

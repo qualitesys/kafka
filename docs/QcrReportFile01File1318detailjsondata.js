@@ -320,5 +320,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.controller.ProducerIdControlManager.replay@POLYN154406 the MagicNumber/String '-' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -58,5 +58,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformer.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . config ; "
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

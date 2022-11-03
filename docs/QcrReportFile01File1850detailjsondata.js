@@ -276,5 +276,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.streams.processor.internals.RecordDeserializer.deserialize@POLYN154314 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

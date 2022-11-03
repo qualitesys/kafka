@@ -326,5 +326,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN202326 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

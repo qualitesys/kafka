@@ -129,5 +129,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTaskContext.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

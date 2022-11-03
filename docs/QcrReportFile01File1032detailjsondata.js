@@ -695,5 +695,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00226] In the recursive method org.apache.kafka.connect.mirror.MirrorMakerConfig.transform@POLYN203191 the MagicNumber/String 'config provider' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

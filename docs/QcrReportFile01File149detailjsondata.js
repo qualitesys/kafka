@@ -128,5 +128,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAVCWE476[00018] The argument password is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialUpsertion.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

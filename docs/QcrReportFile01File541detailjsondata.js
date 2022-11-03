@@ -542,5 +542,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.protocol.types.TaggedFields.documentation@POLYN177112 the MagicNumber/String  'Represents a series of tagged fields.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -490,5 +490,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme.toBin@POLYN179823 the MagicNumber/String  8.0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

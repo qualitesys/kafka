@@ -213,5 +213,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.internals.AdminApiHandler.Unbatched.handleResponse@POLYN177984 the MagicNumber/String  'Unbatched admin handler should only be required to handle responses for a single key at a time' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

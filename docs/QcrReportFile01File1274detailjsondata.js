@@ -297,5 +297,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000007[00106] For method testSerializeFetchResponse list of called methods Object monObjet|org.apache.kafka.common.network.Send fetchResponse_toSendN168925"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

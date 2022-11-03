@@ -190,5 +190,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00054] For method taskConfigs arguments int  maxTasks"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -916,5 +916,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN232277 the MagicNumber/String 'Could not instantiate plugins in: {}. Ignoring.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

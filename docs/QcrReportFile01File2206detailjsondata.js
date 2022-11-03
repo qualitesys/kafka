@@ -111,5 +111,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.workload.NullPayloadGenerator.generate@POLYN141348 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

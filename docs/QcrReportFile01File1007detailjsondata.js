@@ -1410,5 +1410,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN286630 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

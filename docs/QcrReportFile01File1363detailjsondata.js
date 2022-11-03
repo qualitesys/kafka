@@ -619,5 +619,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00155] For method toSet arguments int[]  replicas"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

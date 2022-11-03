@@ -1421,5 +1421,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN249820 the MagicNumber/String  ' to be supported, but it was.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

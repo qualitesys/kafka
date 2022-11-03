@@ -454,5 +454,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN169360 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

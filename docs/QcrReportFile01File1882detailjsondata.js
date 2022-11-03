@@ -1190,7 +1190,7 @@ var maDataBlocs = {
  , "c1" : "00420"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#420"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00420] For method tryToCompleteRestoration arguments long  now|java.util.function.Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00420] For method tryToCompleteRestoration arguments long  now|java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2289,7 +2289,7 @@ var maDataBlocs = {
  , "c1" : "01188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01188] For method executeAndMaybeSwallow arguments boolean  clean|Runnable  runnable|java.util.function.Consumer&lt;RuntimeException &gt;  actionIfClean|java.util.function.Consumer&lt;RuntimeException &gt;  actionIfNotClean"
+ , "c3" : "QC-JAV000006[01188] For method executeAndMaybeSwallow arguments boolean  clean|Runnable  runnable|java.util.function .Consumer&lt;RuntimeException &gt;  actionIfClean|java.util.function .Consumer&lt;RuntimeException &gt;  actionIfNotClean"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2754,5 +2754,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00467] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryToCompleteRestoration@POLYN355914 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

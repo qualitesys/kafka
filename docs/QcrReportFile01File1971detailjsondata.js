@@ -83,5 +83,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00012] For method setBlockCache arguments Cache  cache"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BlockBasedTableConfigWithAccessibleCache.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -216,5 +216,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier.toString@POLYN147753 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowBytesStoreSupplier.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -136,5 +136,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00033] The class SingleBrokerScope contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

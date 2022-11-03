@@ -488,5 +488,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.trogdor.fault.ProcessStopFaultWorker.stop@POLYN153692 the MagicNumber/String 'resumed ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

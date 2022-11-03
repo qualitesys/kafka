@@ -132,5 +132,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150142 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

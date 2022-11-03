@@ -218,5 +218,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN147182 the MagicNumber/String  true should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

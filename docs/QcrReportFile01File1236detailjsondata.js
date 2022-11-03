@@ -574,5 +574,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00160] In method kafka.server.builders.KafkaApisBuilder.build@POLYN167217 the MagicNumber/String  'You must set apiVersionManager' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -416,5 +416,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00115] For method setContents arguments String  contents"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

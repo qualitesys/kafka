@@ -389,5 +389,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationUtils.doesNotExistResult@POLYN180957 the MagicNumber/String  'Required claim missing: %s' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

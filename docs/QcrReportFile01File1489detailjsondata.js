@@ -380,5 +380,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadata.toString@POLYN183859 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentMetadata.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

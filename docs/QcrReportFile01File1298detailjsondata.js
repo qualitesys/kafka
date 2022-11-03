@@ -493,5 +493,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN175871 the MagicNumber/String 'Expected a metadata.version to exist in the snapshot ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

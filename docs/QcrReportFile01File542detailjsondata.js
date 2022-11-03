@@ -286,5 +286,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[01074] For method main arguments String[]  args"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Type.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

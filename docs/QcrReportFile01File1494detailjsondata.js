@@ -92,5 +92,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException.RemoteResourceNotFoundException@POLYN143101 the MagicNumber/String  'Requested remote resource was not found' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

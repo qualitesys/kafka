@@ -125,5 +125,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.transforms.util.NonEmptyListValidator.toString@POLYN142783 the MagicNumber/String  'non-empty list' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/NonEmptyListValidator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

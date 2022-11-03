@@ -97,5 +97,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00013] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbstractOptions.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

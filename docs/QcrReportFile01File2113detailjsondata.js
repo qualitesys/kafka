@@ -214,5 +214,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  'Value' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

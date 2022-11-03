@@ -191,5 +191,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.kstream.internals.graph.BaseJoinProcessorNode.toString@POLYN151214 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseJoinProcessorNode.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

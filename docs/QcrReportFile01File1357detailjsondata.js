@@ -477,5 +477,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00092] Public method isSensitive is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

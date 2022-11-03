@@ -150,5 +150,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN145703 the MagicNumber/String  ', buffer.limit(): ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

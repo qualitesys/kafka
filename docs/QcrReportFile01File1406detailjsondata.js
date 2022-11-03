@@ -222,5 +222,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00040] For method compareTo arguments OffsetAndEpoch  o"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

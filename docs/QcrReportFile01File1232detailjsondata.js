@@ -118,5 +118,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.transforms.util.RegexValidator.toString@POLYN143060 the MagicNumber/String  'valid regex' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/RegexValidator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

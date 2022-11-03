@@ -225,5 +225,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.common.serialization.UUIDSerializer.serialize@POLYN147207 the MagicNumber/String 'Error when serializing UUID to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

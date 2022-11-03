@@ -430,5 +430,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00139] In method kafka.server.builders.ReplicaManagerBuilder.build@POLYN166110 the MagicNumber/String  'You must set alterIsrManager' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

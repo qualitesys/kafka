@@ -109,5 +109,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAVCWE493[00011] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

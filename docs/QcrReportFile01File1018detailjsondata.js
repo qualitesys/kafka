@@ -161,5 +161,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00053] For method translateOffsets arguments Map&lt;String ,Object &gt;  properties|String  remoteClusterAlias|String  consumerGroupId|Duration  timeout"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

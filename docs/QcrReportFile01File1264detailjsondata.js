@@ -468,5 +468,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.message.StructRegistry.addStructSpecs@POLYN167296 the MagicNumber/String ' was specified twice.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

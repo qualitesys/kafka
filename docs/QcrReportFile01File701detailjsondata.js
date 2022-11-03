@@ -999,5 +999,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.common.requests.MetadataResponse.topicAuthorizedOperations@POLYN221831 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

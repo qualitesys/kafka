@@ -309,5 +309,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.kstream.internals.KTableKTableOuterJoin.KTableKTableOuterJoinValueGetter.get@POLYN175667 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

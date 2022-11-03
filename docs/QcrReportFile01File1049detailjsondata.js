@@ -164,5 +164,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN144212 the MagicNumber/String 'Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

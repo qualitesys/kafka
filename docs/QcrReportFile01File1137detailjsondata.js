@@ -294,5 +294,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN158613 the MagicNumber/String  'The resource {} is already registered' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -188,5 +188,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StampedRecord.value@POLYN144727"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StampedRecord.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

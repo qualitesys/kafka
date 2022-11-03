@@ -1438,5 +1438,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.controller.ClusterControlManager.registerBroker@POLYN250512 the MagicNumber/String 'Broker registered with feature {} that is unknown to the controller' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

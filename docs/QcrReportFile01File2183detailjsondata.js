@@ -99,5 +99,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00022] For method newTaskWorker arguments String  id"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

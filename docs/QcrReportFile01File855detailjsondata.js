@@ -88,5 +88,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00006] For method serialize arguments String  topic|byte[]  data"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArraySerializer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

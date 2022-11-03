@@ -106,5 +106,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.internals.FatalExitError.FatalExitError@POLYN144511 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/FatalExitError.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -584,5 +584,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.connect.runtime.WorkerSinkTaskContext.resume@POLYN165032 the MagicNumber/String 'SinkTasks may not resume partitions that are not currently assigned to them.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTaskContext.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -600,5 +600,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredValidatorCallbackHandler.handleCallback@POLYN185492 the MagicNumber/String 'Successfully validated token with principal {}: {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

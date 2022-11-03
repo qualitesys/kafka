@@ -482,7 +482,7 @@ var maDataBlocs = {
  , "c1" : "00291"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#291"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00291] For method setUncaughtExceptionHandler arguments java.util.function.Consumer&lt;Throwable &gt;  streamsUncaughtExceptionHandler"
+ , "c3" : "QC-JAV000006[00291] For method setUncaughtExceptionHandler arguments java.util.function .Consumer&lt;Throwable &gt;  streamsUncaughtExceptionHandler"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -842,5 +842,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00384] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN215200 the MagicNumber/String 'Initialization for the global stream thread failed' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

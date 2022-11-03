@@ -707,5 +707,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN170238 the MagicNumber/String 'Got exception while running coordinator shutdown hook.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

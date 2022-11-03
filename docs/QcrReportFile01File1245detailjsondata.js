@@ -332,5 +332,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00102] In method kafka.examples.DemoCallBack.onCompletion@POLYN163933 the MagicNumber/String  ' ms' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/examples/src/main/java/kafka/examples/Producer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

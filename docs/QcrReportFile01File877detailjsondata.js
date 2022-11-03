@@ -225,5 +225,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.common.serialization.StringSerializer.serialize@POLYN146665 the MagicNumber/String 'Error when serializing string to byte[] due to unsupported encoding ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -176,5 +176,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.fault.KiboshFaultWorker.stop@POLYN149716 the MagicNumber/String  'Removed fault ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

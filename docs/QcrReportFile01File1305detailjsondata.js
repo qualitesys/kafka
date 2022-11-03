@@ -983,5 +983,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.controller.ConfigurationControlManager.replay@POLYN239662 the MagicNumber/String '{}: set configuration {} to {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

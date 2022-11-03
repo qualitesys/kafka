@@ -128,5 +128,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.errors.InvalidTopicException.InvalidTopicException@POLYN147069 the MagicNumber/String  'Invalid topics: ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

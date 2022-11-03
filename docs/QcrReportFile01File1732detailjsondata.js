@@ -191,5 +191,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper.toString@POLYN147284 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapper.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

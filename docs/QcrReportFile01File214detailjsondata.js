@@ -146,5 +146,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00015] Void method onPartitionsRevoked is empty or contains only a return. Interface segregation"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

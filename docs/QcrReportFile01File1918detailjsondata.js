@@ -171,5 +171,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult.exceptionNow@POLYN146878 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/AddNamedTopologyResult.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

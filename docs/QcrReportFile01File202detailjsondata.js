@@ -3733,5 +3733,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned@POLYN385673 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

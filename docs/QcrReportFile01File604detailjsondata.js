@@ -172,5 +172,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterConfigsResponse.throttleTimeMs@POLYN148497"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsResponse.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

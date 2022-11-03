@@ -178,5 +178,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00033] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

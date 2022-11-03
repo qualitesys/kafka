@@ -385,5 +385,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.KafkaProducerMetrics.recordSendOffsets@POLYN156338"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/KafkaProducerMetrics.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

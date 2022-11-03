@@ -374,5 +374,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.connect.storage.FileOffsetBackingStore.stop@POLYN157310 the MagicNumber/String 'Stopped FileOffsetBackingStore' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

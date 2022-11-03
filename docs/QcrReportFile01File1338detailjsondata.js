@@ -333,5 +333,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.image.FeaturesDelta.replay@POLYN154879 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -166,5 +166,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00060] For method maybeWrapLogging arguments WindowStore&lt;Bytes ,byte[] &gt;  inner"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

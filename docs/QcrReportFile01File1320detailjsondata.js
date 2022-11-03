@@ -500,5 +500,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN184136 the MagicNumber/String  'kafka.controller' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

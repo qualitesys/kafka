@@ -183,5 +183,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

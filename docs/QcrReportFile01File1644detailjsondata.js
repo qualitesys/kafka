@@ -1111,5 +1111,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00522] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN253045 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

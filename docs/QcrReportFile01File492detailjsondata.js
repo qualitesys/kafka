@@ -543,5 +543,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.common.network.ChannelBuilders.channelBuilderConfigs@POLYN187470 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -359,5 +359,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN150267 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

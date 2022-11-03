@@ -92,5 +92,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00006] The class Percentile contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentile.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

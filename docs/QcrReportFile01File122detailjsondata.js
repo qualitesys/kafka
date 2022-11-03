@@ -111,5 +111,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.clients.admin.NewPartitionReassignment.NewPartitionReassignment@POLYN143619 the MagicNumber/String  'Cannot create a new partition reassignment without any replicas' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

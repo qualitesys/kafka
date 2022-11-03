@@ -267,5 +267,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.security.oauthbearer.secured.Retry.execute@POLYN152589 the MagicNumber/String  'Exhausted all retry attempts but no attempt returned value or encountered exception' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

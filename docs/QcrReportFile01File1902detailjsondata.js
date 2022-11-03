@@ -118,5 +118,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.assign@POLYN145294 the MagicNumber/String  true should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

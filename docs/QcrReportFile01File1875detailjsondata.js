@@ -1181,5 +1181,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.initTransaction@POLYN194642 the MagicNumber/String 'Error encountered trying to initialize transactions' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

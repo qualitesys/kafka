@@ -196,5 +196,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.FinalizedVersionRange.toString@POLYN149050 the MagicNumber/String  'FinalizedVersionRange[min_version_level:%d, max_version_level:%d]' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

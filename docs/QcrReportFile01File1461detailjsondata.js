@@ -99,5 +99,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00028] For method updatePredicate arguments Predicate&lt;MetricName &gt;  predicate"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

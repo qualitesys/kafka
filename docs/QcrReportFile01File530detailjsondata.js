@@ -485,5 +485,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.protocol.SendBuilder.buildSend@POLYN174604 the MagicNumber/String  4 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/SendBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

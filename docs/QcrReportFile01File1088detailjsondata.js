@@ -3315,5 +3315,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00311] In the recursive method org.apache.kafka.connect.runtime.Worker.startConnector@POLYN421507 the MagicNumber/String 'Finished creating connector {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

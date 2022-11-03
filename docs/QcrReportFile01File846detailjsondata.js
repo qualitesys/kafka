@@ -299,5 +299,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler.handle@POLYN151645 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramServerCallbackHandler.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

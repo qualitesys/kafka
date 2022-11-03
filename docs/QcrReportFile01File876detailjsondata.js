@@ -174,5 +174,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.serialization.StringDeserializer.deserialize@POLYN146683 the MagicNumber/String  'Error when deserializing byte[] to string due to unsupported encoding ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringDeserializer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

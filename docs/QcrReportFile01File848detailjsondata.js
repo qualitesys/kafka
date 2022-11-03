@@ -1178,5 +1178,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.common.security.ssl.SslFactory.reconfigure@POLYN222060 the MagicNumber/String 'Created new {} SSL engine builder with keystore {} truststore {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

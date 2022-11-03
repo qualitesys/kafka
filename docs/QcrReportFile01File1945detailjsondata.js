@@ -157,5 +157,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00132] For method create arguments StateStoreProvider  storeProvider|String  storeName"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/QueryableStoreTypes.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

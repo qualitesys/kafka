@@ -303,5 +303,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.internals.ListTransactionsHandler.requireSingleton@POLYN163275 the MagicNumber/String  'Unexpected broker key: ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -115,5 +115,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00048] For method build arguments short  version"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

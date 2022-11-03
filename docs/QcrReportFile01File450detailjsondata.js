@@ -546,5 +546,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN161237 the MagicNumber/String 'allocated buffer of size {} and identity {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

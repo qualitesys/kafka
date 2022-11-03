@@ -505,5 +505,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00208] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -178,5 +178,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00020] In the recursive method org.apache.kafka.streams.state.internals.ChangeLoggingListValueBytesStore.put@POLYN144248 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingListValueBytesStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

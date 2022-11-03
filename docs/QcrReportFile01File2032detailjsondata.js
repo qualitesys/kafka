@@ -1302,5 +1302,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.streams.state.internals.NamedCache.close@POLYN202054 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

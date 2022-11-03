@@ -83,5 +83,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00012] For method renewTimePeriodMs arguments long  renewTimePeriodMs"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenOptions.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

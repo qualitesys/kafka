@@ -375,5 +375,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils.createSSLSocketFactory@POLYN157608 the MagicNumber/String 'Created SSLSocketFactory: {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

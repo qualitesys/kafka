@@ -759,5 +759,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry.FetcherMetricsRegistry@POLYN161709 the MagicNumber/String  'The current read replica for the partition, or -1 if reading from leader' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/FetcherMetricsRegistry.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

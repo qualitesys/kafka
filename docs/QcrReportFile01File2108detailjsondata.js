@@ -333,5 +333,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddStringList@POLYN231509 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

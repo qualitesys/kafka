@@ -74,5 +74,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00005] The class LogAppendInfo contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

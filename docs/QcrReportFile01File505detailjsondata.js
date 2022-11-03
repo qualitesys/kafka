@@ -124,5 +124,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00025] For method writeTo arguments TransferableChannel  channel"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkSend.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -101,5 +101,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.common.errors.TopicAuthorizationException.TopicAuthorizationException@POLYN143878 the MagicNumber/String  'Not authorized to access topics: ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

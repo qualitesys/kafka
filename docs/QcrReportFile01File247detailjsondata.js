@@ -806,5 +806,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00201] For method createTemplate arguments String  name|String  group|String  description|Set&lt;String &gt;  tags"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

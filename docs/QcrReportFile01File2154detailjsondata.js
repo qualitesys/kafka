@@ -84,5 +84,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

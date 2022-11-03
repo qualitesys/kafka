@@ -108,5 +108,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.security.scram.internals.ScramExtensions.ScramExtensions@POLYN143743 the MagicNumber/String  ',' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

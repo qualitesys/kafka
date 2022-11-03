@@ -185,5 +185,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver.init@POLYN159740 the MagicNumber/String 'Starting creation of new VerificationKeyResolver from {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -1317,5 +1317,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00437] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN239383 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

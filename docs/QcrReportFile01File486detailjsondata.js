@@ -104,5 +104,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00017] For method record arguments MetricConfig  config|double  value|long  timeMs"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

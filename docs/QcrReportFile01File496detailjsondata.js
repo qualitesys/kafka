@@ -203,5 +203,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.network.ClientInformation.equals@POLYN146215 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

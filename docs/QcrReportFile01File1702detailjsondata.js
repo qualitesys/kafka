@@ -132,5 +132,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener.apply@POLYN147331 the MagicNumber/String  'rawtypes' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -122,5 +122,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.query.KeyQuery.skipCache@POLYN148625 the MagicNumber/String  true should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

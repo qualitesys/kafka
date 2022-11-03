@@ -623,5 +623,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN190658 the MagicNumber/String 'REST server listening at ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

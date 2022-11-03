@@ -219,5 +219,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.LeaderAndEpoch.toString@POLYN146916 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderAndEpoch.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

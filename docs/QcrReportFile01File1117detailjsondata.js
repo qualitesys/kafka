@@ -505,5 +505,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.createAndSetup@POLYN181365 the MagicNumber/String 'Could not initialize dead letter queue with topic=' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

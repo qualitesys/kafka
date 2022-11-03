@@ -291,5 +291,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.metrics.KafkaMetric.metricValue@POLYN150342 the MagicNumber/String 'Not a valid metric: ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

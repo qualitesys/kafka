@@ -589,5 +589,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.admin.internals.CoordinatorStrategy.buildRequest@POLYN169620 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

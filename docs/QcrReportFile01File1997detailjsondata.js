@@ -804,5 +804,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.putInternal@POLYN182217 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

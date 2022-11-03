@@ -1051,5 +1051,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.reverseRange@POLYN234507 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

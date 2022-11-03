@@ -191,5 +191,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.record.RecordConversionStats.toString@POLYN148382 the MagicNumber/String  'RecordConversionStats(temporaryMemoryBytes=%d, numRecordsConverted=%d, conversionTimeNanos=%d)' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -273,5 +273,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.LeftOrRightValue.equals@POLYN159587 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValue.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

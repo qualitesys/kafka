@@ -592,5 +592,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN189941 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

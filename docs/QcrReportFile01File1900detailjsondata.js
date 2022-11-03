@@ -452,5 +452,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer.enforce@POLYN164391 the MagicNumber/String 'doesn't match number of partitions [%s] of the source topic.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

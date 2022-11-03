@@ -232,5 +232,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00081] For method main arguments String  ...args"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

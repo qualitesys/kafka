@@ -83,5 +83,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.rest.WorkerStarting.status@POLYN143474 the MagicNumber/String  'starting' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

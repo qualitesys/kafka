@@ -313,5 +313,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00083] For method apiMessageFor arguments short  apiKey"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/AbstractApiMessageSerde.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

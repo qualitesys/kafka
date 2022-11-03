@@ -167,5 +167,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -289,5 +289,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.image.MetadataImage.toString@POLYN160372 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataImage.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

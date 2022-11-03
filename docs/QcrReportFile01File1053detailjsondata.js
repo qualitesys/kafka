@@ -74,5 +74,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.FloatConverter.FloatConverter@POLYN144597 the MagicNumber/String  'float' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

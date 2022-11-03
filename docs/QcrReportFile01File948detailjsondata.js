@@ -832,5 +832,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

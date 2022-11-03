@@ -289,5 +289,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask.close@POLYN165625 the MagicNumber/String 'Failed to delete global task directory after detecting corruption.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

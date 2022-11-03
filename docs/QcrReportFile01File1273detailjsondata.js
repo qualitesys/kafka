@@ -317,5 +317,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000007[00113] For method testSerializeFetchRequestForReplica list of called methods Object monObjet|org.apache.kafka.common.network.Send replicaRequest_toSendN168110"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -106,5 +106,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN141406 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

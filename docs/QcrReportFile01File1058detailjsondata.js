@@ -74,5 +74,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.ShortConverter.ShortConverter@POLYN144597 the MagicNumber/String  'short' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ShortConverter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

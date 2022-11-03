@@ -755,5 +755,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.raft.LeaderState.name@POLYN202915 the MagicNumber/String  'Leader' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

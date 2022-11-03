@@ -542,5 +542,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157114 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

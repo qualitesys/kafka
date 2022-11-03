@@ -129,5 +129,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000007[00053] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN152191|Errors apiError_errorN152285|String apiError_messageN152380"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

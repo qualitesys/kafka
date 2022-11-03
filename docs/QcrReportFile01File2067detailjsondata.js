@@ -286,5 +286,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN152345 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

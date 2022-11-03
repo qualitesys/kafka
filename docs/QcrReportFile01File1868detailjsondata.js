@@ -2634,5 +2634,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00831] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN315354 the MagicNumber/String 'Added partitions {} to the restore consumer, current assignment is {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

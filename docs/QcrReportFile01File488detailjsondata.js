@@ -134,5 +134,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.metrics.stats.WindowedSum.combine@POLYN144471 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

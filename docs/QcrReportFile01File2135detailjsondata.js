@@ -479,5 +479,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.coordinator@POLYN170611 the MagicNumber/String 'CoordinatorRestResource has not been initialized yet.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

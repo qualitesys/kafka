@@ -409,5 +409,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.ByteBufferAccessor.flip@POLYN155320"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

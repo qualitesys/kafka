@@ -292,5 +292,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

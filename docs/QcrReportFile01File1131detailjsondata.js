@@ -231,5 +231,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.connect.runtime.isolation.PluginClassLoader.loadClass@POLYN155864 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginClassLoader.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

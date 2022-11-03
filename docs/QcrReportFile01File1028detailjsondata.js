@@ -579,5 +579,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.syncGroupOffsetsInterval@POLYN262916 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

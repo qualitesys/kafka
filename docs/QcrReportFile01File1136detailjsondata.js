@@ -1112,5 +1112,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00341] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN226467 the MagicNumber/String 'Configuring the header converter with configuration keys:{}{}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

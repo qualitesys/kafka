@@ -233,5 +233,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSide.equals@POLYN155924 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSide.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -134,5 +134,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN144413 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

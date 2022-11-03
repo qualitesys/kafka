@@ -936,5 +936,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00349] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN218671 the MagicNumber/String 'Expected ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

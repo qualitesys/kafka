@@ -133,5 +133,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.metrics.QuotaViolationException.toString@POLYN145076 the MagicNumber/String  ', Threshold: ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/QuotaViolationException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

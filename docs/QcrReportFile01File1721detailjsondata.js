@@ -161,5 +161,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00048] For method setIfUnset arguments SerdeGetter  getter"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

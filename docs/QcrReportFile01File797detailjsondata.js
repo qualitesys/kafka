@@ -134,5 +134,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils.parseScope@POLYN151613 the MagicNumber/String  'Invalid scope value: %s' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerScopeUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

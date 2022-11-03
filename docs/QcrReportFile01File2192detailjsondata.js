@@ -822,5 +822,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.trogdor.workload.ConnectionStressWorker.stop@POLYN196407 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

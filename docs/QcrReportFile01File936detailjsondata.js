@@ -283,5 +283,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.connect.connector.Connector.validate@POLYN168968 the MagicNumber/String '%s.config-- must return a ConfigDef that is not null.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

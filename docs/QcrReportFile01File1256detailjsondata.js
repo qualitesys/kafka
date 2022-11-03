@@ -4808,5 +4808,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[01602] In method org.apache.kafka.message.MessageDataGenerator.fieldFlexibleVersions@POLYN506055 the MagicNumber/String  'message as a whole, which are ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

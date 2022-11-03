@@ -147,5 +147,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00030] For method reason arguments String  reason"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

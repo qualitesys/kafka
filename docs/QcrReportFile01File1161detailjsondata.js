@@ -547,5 +547,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.runtime.rest.resources.LoggingResource.setLevel@POLYN176522 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

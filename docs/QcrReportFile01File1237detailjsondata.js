@@ -474,5 +474,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00138] In method kafka.server.builders.LogManagerBuilder.build@POLYN163091 the MagicNumber/String  'you must set logDirFailureChannel' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

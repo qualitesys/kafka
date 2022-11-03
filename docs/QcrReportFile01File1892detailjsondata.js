@@ -1297,5 +1297,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.decode@POLYN232700 the MagicNumber/String 'Failed to decode AssignmentInfo' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

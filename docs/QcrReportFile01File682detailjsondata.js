@@ -178,5 +178,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000007[00085] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN159007"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

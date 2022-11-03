@@ -254,5 +254,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.approximateNumEntries@POLYN176104 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

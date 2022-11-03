@@ -592,5 +592,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN168557 the MagicNumber/String 'Metadata request for {} returned no error, but the leader is unknown. Will retry' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

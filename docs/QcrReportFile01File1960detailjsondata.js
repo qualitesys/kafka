@@ -224,5 +224,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.state.ValueAndTimestamp.equals@POLYN154127 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/ValueAndTimestamp.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

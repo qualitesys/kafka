@@ -283,5 +283,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.common.acl.AccessControlEntry.equals@POLYN154606 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntry.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

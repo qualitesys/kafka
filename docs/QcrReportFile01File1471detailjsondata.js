@@ -562,5 +562,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.shell.GlobComponent.matches@POLYN163306 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobComponent.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

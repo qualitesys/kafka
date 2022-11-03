@@ -7062,5 +7062,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[02934] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1121068 the MagicNumber/String 'Retrying to fetch metadata.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

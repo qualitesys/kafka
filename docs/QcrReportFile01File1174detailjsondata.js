@@ -645,5 +645,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00148] Void method putTaskCountRecord is empty or contains only a return. Interface segregation"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

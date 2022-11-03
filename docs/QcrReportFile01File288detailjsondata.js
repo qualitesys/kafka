@@ -898,5 +898,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.detectBrokenLz4Version@POLYN192156 the MagicNumber/String ' to your JVM arguments may help understand which lz4-java version is getting loaded.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

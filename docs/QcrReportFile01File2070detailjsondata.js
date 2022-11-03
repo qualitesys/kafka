@@ -152,5 +152,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00043] For method maybeWrapLogging arguments SessionStore&lt;Bytes ,byte[] &gt;  inner"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionStoreBuilder.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

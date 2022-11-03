@@ -111,5 +111,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.connect.util.SinkUtils.consumerGroupId@POLYN140468 the MagicNumber/String  'connect-' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

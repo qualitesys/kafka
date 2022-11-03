@@ -233,5 +233,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.DeleteTopicsResult.all@POLYN156321 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteTopicsResult.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

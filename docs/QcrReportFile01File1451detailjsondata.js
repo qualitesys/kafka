@@ -674,5 +674,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00324] In the recursive method org.apache.kafka.queue.KafkaEventQueue.enqueue@POLYN203706 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

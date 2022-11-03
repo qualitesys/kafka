@@ -555,5 +555,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.runtime.distributed.EagerAssignor.fillAssignmentsAndSerialize@POLYN173756 the MagicNumber/String 'Finished assignment' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

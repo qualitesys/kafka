@@ -1311,5 +1311,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN259743 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

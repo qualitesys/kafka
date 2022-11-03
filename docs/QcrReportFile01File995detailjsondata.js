@@ -75,5 +75,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverterConfig.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

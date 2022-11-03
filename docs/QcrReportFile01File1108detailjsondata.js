@@ -2141,5 +2141,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.computeDuplicatedAssignments@POLYN312039 the MagicNumber/String 'Duplicated assignments: {}' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

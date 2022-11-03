@@ -639,5 +639,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry.equals@POLYN194191 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

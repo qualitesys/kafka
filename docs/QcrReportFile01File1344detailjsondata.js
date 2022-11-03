@@ -226,5 +226,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.image.ProducerIdsImage.isEmpty@POLYN148494 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

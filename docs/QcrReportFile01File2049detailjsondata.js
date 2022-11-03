@@ -1535,5 +1535,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00440] In the recursive method org.apache.kafka.streams.state.internals.RocksDBStore.approximateNumEntries@POLYN263444 the MagicNumber/String 'Error fetching property from store ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

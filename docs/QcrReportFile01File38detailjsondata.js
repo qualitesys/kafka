@@ -155,5 +155,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult.all@POLYN152993 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConsumerGroupOffsetsResult.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

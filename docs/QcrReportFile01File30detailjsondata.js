@@ -104,5 +104,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00017] For method create arguments Map&lt;String ,Object &gt;  conf"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClient.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

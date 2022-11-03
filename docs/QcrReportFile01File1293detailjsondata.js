@@ -670,5 +670,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.jmh.server.PartitionCreationBench.makeFollower@POLYN191228 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/PartitionCreationBench.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -310,5 +310,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MessageSpec.fields@POLYN158096"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

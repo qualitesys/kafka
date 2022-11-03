@@ -259,5 +259,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.DescribeClientQuotasRequest.filter@POLYN159566 the MagicNumber/String 'Unexpected match type: ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

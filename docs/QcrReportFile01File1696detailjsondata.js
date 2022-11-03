@@ -267,5 +267,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN149484 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

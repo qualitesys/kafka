@@ -1566,5 +1566,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[01230] In method org.apache.kafka.streams.kstream.internals.KTableImpl the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

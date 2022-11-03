@@ -104,5 +104,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.rest.TaskRequest.TaskRequest@POLYN142267 the MagicNumber/String  '' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

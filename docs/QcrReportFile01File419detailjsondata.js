@@ -92,5 +92,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.errors.TransactionAbortedException.TransactionAbortedException@POLYN142659 the MagicNumber/String  'Failing batch since transaction was aborted' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TransactionAbortedException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

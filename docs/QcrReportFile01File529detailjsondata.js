@@ -201,5 +201,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Readable.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

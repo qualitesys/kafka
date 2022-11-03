@@ -604,5 +604,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.image.ClusterDelta.broker@POLYN165173 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

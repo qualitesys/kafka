@@ -132,5 +132,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark.measureAssignOffsetsNonCompressed@POLYN147399 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/UncompressedRecordBatchValidationBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

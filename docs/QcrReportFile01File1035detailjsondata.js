@@ -855,5 +855,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.stop@POLYN191026 the MagicNumber/String 'Stopping {} took {} ms.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

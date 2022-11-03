@@ -629,5 +629,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00223] For method extractStoreWindow arguments byte[]  binaryKey|long  windowSize"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

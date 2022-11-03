@@ -464,5 +464,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN156622 the MagicNumber/String 'claimant: ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

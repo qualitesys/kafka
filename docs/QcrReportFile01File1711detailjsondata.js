@@ -350,5 +350,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl.materialize@POLYN170288 the MagicNumber/String  'Unknown store type: ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

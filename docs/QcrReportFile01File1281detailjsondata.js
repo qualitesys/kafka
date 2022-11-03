@@ -272,5 +272,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark.incrementalFetchSessionBuild@POLYN165614 the MagicNumber/String  true should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

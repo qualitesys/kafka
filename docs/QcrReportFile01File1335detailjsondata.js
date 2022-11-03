@@ -265,5 +265,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.image.ConfigurationImage.equals@POLYN153626 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -864,5 +864,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.trogdor.fault.DegradedNetworkFaultWorker.stop@POLYN174889 the MagicNumber/String 'disabled traffic control ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

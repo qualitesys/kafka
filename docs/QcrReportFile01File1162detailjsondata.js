@@ -134,5 +134,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00024] Void method requestTimeout is empty or contains only a return. Interface segregation"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

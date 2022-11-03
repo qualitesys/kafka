@@ -83,5 +83,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00031] The class ProducerResponseBenchmark contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerResponseBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

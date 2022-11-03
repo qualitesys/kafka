@@ -138,5 +138,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00057] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeLogDirsRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

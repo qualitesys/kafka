@@ -162,5 +162,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155363 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

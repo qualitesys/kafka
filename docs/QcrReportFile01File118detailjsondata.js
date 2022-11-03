@@ -177,5 +177,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN153913 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

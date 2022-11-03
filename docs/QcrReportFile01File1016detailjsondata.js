@@ -595,5 +595,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.connect.mirror.MirrorClient.remoteConsumerOffsets@POLYN182185 the MagicNumber/String 'Consumed {} checkpoint records for {} from {}.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

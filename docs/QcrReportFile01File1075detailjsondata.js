@@ -406,5 +406,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.connect.runtime.RestartRequest.compareTo@POLYN162741 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartRequest.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

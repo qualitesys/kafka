@@ -613,5 +613,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.streams.processor.internals.RecordQueue.clear@POLYN176112 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

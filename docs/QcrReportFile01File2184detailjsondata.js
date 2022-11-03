@@ -227,5 +227,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String 'done' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

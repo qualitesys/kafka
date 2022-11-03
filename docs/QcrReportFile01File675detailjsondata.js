@@ -762,5 +762,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.requests.FetchResponse.recordsOrFail@POLYN201780 the MagicNumber/String '. This method is only safe to call if the `FetchResponse` was deserialized from bytes.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

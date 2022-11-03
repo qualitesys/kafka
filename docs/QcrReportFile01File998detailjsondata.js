@@ -143,5 +143,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.util.ConnectorUtils the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/util/ConnectorUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

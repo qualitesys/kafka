@@ -1329,5 +1329,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.connect.runtime.rest.RestServer.stop@POLYN231610 the MagicNumber/String 'REST server stopped' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -331,5 +331,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.config.provider.DirectoryConfigProvider.read@POLYN160553 the MagicNumber/String 'Could not read file ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

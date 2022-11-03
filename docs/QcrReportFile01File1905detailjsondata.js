@@ -341,5 +341,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils.pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks@POLYN148180 the MagicNumber/String 'to maintain the requested number of standby replicas.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

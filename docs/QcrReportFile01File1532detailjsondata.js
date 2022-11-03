@@ -157,5 +157,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.KeyValue.equals@POLYN149707 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/KeyValue.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

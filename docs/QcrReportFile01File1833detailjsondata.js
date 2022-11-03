@@ -881,5 +881,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN197674 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

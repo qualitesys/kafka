@@ -299,5 +299,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.processor.ThreadMetadata.toString@POLYN158179 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ThreadMetadata.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

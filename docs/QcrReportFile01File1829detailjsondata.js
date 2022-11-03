@@ -307,5 +307,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00055] Public method numberOfPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

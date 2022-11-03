@@ -225,5 +225,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.internals.KafkaCompletableFuture.erroneousCompletionException@POLYN152731 the MagicNumber/String  'User code should not complete futures returned from Kafka clients' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

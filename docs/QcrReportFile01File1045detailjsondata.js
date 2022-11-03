@@ -358,5 +358,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN167263 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

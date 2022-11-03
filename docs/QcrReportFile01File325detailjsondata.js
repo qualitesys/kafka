@@ -101,5 +101,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.errors.CorruptRecordException.CorruptRecordException@POLYN142349 the MagicNumber/String  'This message has failed its CRC checksum, exceeds the valid size, has a null key for a compacted topic, or is otherwise corrupt.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

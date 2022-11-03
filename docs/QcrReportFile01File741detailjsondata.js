@@ -214,5 +214,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.resource.Resource.isUnknown@POLYN151071"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/Resource.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

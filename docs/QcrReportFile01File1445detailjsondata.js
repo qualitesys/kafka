@@ -97,5 +97,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.snapshot.SnapshotPath.toString@POLYN143100 the MagicNumber/String  'SnapshotPath(path=%s, snapshotId=%s, partial=%s)' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

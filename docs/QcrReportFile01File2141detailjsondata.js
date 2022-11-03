@@ -432,5 +432,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.Kibosh.removeFault@POLYN172460"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

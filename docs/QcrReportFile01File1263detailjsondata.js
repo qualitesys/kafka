@@ -1056,5 +1056,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.message.SchemaGenerator.writeSchema@POLYN218881 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

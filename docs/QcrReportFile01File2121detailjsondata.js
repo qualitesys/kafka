@@ -335,5 +335,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.trogdor.agent.AgentRestResource.agent@POLYN157664 the MagicNumber/String 'AgentRestResource has not been initialized yet.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentRestResource.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

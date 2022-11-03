@@ -417,5 +417,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

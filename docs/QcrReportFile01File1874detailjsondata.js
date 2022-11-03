@@ -3180,5 +3180,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[01245] In the recursive method org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.maybeScheduleFollowupRebalance@POLYN419333 the MagicNumber/String 'No followup rebalance was requested, resetting the rebalance schedule.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -169,5 +169,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.data.Timestamp.toLogical@POLYN148313 the MagicNumber/String  'Requested conversion of Timestamp object but the schema does not match.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

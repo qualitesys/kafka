@@ -169,5 +169,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00052] For method jmxSanitize arguments String  name"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

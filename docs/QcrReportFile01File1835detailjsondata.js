@@ -171,5 +171,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAVCWE476[00046] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorAdapter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

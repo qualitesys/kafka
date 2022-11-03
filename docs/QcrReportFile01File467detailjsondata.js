@@ -787,5 +787,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN209467 the MagicNumber/String 'Circular dependency in sensors: ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

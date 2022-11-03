@@ -228,5 +228,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.rest.entities.ConfigInfos.toString@POLYN152600 the MagicNumber/String  ']' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigInfos.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

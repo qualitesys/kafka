@@ -146,5 +146,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.jmh.common.ListOffsetRequestBenchmark.setup@POLYN153058 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ListOffsetRequestBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

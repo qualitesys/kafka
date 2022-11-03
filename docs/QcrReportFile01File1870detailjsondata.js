@@ -735,7 +735,7 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method completeRestoration arguments java.util.function.Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00225] For method completeRestoration arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1568,7 +1568,7 @@ var maDataBlocs = {
  , "c1" : "00833"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#833"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00833] For method resetOffsetsIfNeededAndInitializeMetadata arguments java.util.function.Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00833] For method resetOffsetsIfNeededAndInitializeMetadata arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2887,5 +2887,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00513] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.updateInputPartitions@POLYN324914 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

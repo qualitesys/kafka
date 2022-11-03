@@ -104,5 +104,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider.OAuthBearerSaslClientProvider@POLYN142925 the MagicNumber/String  'SaslClientFactory.' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

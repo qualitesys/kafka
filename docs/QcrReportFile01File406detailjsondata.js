@@ -117,5 +117,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.errors.ResourceNotFoundException.ResourceNotFoundException@POLYN146907 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

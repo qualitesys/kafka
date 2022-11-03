@@ -167,5 +167,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.transforms.util.SchemaUtil.copySchemaBasics@POLYN144993 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

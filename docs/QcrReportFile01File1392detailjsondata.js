@@ -639,5 +639,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN184202 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -590,5 +590,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.storage.ClusterConfigState.equals@POLYN204851 the MagicNumber/String  false should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

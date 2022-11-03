@@ -1286,5 +1286,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[01024] In the recursive method org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN452590 the MagicNumber/String 'Using {} default value of {} as exactly once is enabled.' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

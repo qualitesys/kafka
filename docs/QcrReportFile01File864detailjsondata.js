@@ -130,5 +130,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.common.serialization.FloatSerializer.serialize@POLYN141939 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

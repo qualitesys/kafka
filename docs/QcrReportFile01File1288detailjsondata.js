@@ -262,5 +262,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.jmh.record.BaseRecordBatchBenchmark.createBatch@POLYN163906 the MagicNumber/String  null should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

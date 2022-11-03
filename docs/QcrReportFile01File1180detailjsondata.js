@@ -193,5 +193,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.storage.OffsetUtils the MagicNumber/String  ' contains ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

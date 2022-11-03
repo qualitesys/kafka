@@ -164,5 +164,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.transforms.TimestampRouter.apply@POLYN154940 the MagicNumber/String  'Timestamp missing on record: ' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

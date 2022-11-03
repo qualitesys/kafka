@@ -247,5 +247,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN150436 the MagicNumber/String  'UndefinedMaybe{}' should be converted to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.svg" }
+
 };
 console.log('leListeStr 99 main end');

@@ -739,5 +739,8 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.processExtensions@POLYN187040 the MagicNumber/String '; ' MUST BE CONVERTED to const"
 }} 
 ]
+"data15" : [
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.svg" }
+
 };
 console.log('leListeStr 99 main end');
