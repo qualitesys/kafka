@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java 1 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java 1 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractConfig"
- , "c2" : "org.apache.kafka.connect.runtime.TaskConfig"
+ , "c1" : "AbstractStatus<ConnectorTaskId>"
+ , "c2" : "org.apache.kafka.connect.runtime.TaskStatus"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.runtime.TaskConfig" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.TaskStatus" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.html#26"
- , "c1" : "TaskConfig"
- , "c2" : "TaskConfig()"
+ , "c5" : "00008"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#8"
+ , "c1" : "TaskStatus"
+ , "c2" : "TaskStatus(ConnectorTaskId;State;String;int;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.html#30"
- , "c1" : "TaskConfig"
- , "c2" : "TaskConfig(Map<String,?>)"
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#12"
+ , "c1" : "TaskStatus"
+ , "c2" : "TaskStatus(ConnectorTaskId;State;String;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.png" 
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.png" 
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.svg" }
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.svg" }
 
 ] 
 , 
@@ -77,14 +77,16 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.html#31"
+ , "c1" : "00013"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.runtime.TaskConfig.TaskConfig@POLYN145628 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.connect.runtime.TaskStatus.TaskStatus@POLYN148934 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

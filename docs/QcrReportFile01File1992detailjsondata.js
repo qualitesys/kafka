@@ -1,56 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java 6 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java 5 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.state.internals.ExceptionUtils"
+ , "c1" : "PeekingKeyValueIterator<Bytes,LRUCacheEntry>"
+ , "c2" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.ExceptionUtils" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#7"
- , "c1" : "ExceptionUtils"
- , "c2" : "ExceptionUtils()"
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#14"
+ , "c1" : "FilteredCacheIterator"
+ , "c2" : "FilteredCacheIterator(PeekingKeyValueIterator<Bytes,LRUCacheEntry>;HasNextCondition;CacheFunction)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#53"
+ , "c1" : "void"
+ , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#9"
- , "c1" : "LinkedList<RuntimeException>"
- , "c2" : "executeAll(Runnable...)"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#58"
+ , "c1" : "Bytes"
+ , "c2" : "peekNextKey()"
  , "c3" : "2"
- , "c4" : "4"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#21"
- , "c1" : "void"
- , "c2" : "throwSuppressed(String;LinkedList<RuntimeException>)"
- , "c3" : "3"
- , "c4" : "4"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#66"
+ , "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#71"
+ , "c1" : "KeyValue<Bytes,LRUCacheEntry>"
+ , "c2" : "next()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#80"
+ , "c1" : "KeyValue<Bytes,LRUCacheEntry>"
+ , "c2" : "peekNext()"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.svg" }
 
 ] 
 , 
@@ -78,8 +105,15 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE572"
- , "c3" : "Call to Thread run() instead of start()"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
  , "c4" : "1"
 }}
 ,
@@ -87,14 +121,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -103,60 +130,48 @@ var maDataBlocs = {
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00006"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#6"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class ExceptionUtils contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00009"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#9"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00009] For method executeAll arguments Runnable  ...actions"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#9"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00009] The class FilteredCacheIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00014"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00014] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#13"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00013] The program calls a thread's run() method instead of calling start()"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#21"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method throwSuppressed arguments String  message|LinkedList&lt;RuntimeException &gt;  suppressed"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#21"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#14"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00021] The argument suppressed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00014] The argument cacheIterator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#16"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00016] The argument cacheFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00053] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00053] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/FilteredCacheIterator.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

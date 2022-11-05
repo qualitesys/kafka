@@ -1,81 +1,108 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java 26 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java 30 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WindowedSerializer<T>"
- , "c2" : "org.apache.kafka.streams.kstream.SessionWindowedSerializer"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.SessionWindows"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.SessionWindowedSerializer" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.SessionWindows" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#19"
- , "c1" : "SessionWindowedSerializer"
- , "c2" : "SessionWindowedSerializer()"
- , "c3" : "1"
- , "c4" : "0"
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#25"
+ , "c1" : "SessionWindows"
+ , "c2" : "SessionWindows(long;long;boolean)"
+ , "c3" : "3"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#21"
- , "c1" : "SessionWindowedSerializer"
- , "c2" : "SessionWindowedSerializer(Serializer<T>)"
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#40"
+ , "c1" : "SessionWindows"
+ , "c2" : "ofInactivityGapWithNoGrace(Duration)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#27"
- , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
- , "c3" : "8"
- , "c4" : "7"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#45"
+ , "c1" : "SessionWindows"
+ , "c2" : "ofInactivityGapAndGrace(Duration;Duration)"
+ , "c3" : "1"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#54"
- , "c1" : "byte[]"
- , "c2" : "serialize(String;Windowed<T>)"
- , "c3" : "2"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#57"
+ , "c1" : "SessionWindows"
+ , "c2" : "with(Duration)"
+ , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#65"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#66"
+ , "c1" : "SessionWindows"
+ , "c2" : "grace(Duration)"
  , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#78"
+ , "c1" : "long"
+ , "c2" : "gracePeriodMs()"
+ , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#72"
- , "c1" : "byte[]"
- , "c2" : "serializeBaseKey(String;Windowed<T>)"
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#83"
+ , "c1" : "long"
+ , "c2" : "inactivityGap()"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#79"
- , "c1" : "Serializer<T>"
- , "c2" : "innerSerializer()"
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#88"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#101"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#106"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,9 +111,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.svg" }
 
 ] 
 , 
@@ -113,10 +140,10 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -134,198 +161,235 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#14"
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class SessionWindowedSerializer contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#27"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00016] The class SessionWindows contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#30"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN186720 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN186720 the MagicNumber/String  'Gap time cannot be zero or negative.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#34"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN186720 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#35"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  'Serde class ' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN186720 the MagicNumber/String  'Grace period must not be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  ' could not be found.' should be converted to const"
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#40"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00040] For method ofInactivityGapWithNoGrace arguments Duration  inactivityGap"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  'Inner class serializer set using constructor ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  '(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  ' is different from the one set in windowed.inner.class.serde config ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  '(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  ').' should be converted to const"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#45"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00045] For method ofInactivityGapAndGrace arguments Duration  inactivityGap|Duration  afterWindowEnd"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#46"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  'Inner class serializer should be set either via constructor ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  'or via the windowed.inner.class.serde config' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN188872 the MagicNumber/String  'inactivityGap' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#49"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.configure@POLYN152804 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN188872 the MagicNumber/String  'afterWindowEnd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method serialize arguments String  topic|Windowed&lt;T &gt;  data"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN188872 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.serialize@POLYN154608 the MagicNumber/String  null should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method with arguments Duration  inactivityGap"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#58"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.serialize@POLYN154608 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN189866 the MagicNumber/String  'inactivityGap' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN189866 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN189866 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.kstream.SessionWindowedSerializer.close@POLYN155059 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#72"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method serializeBaseKey arguments String  topic|Windowed&lt;T &gt;  data"
+ , "c3" : "QC-JAV000006[00066] For method grace arguments Duration  afterWindowEnd"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN190972 the MagicNumber/String  'Cannot call grace() after setting grace value via ofInactivityGapAndGrace or ofInactivityGapWithNoGrace.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#72"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN190972 the MagicNumber/String  'afterWindowEnd' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN190972 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00088] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00092] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN191820 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN191820 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN191820 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN192561 the MagicNumber/String  'SessionWindows{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN192561 the MagicNumber/String  'gapMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN192561 the MagicNumber/String  ', graceMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN192561 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#40"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00040] Public method ofInactivityGapWithNoGrace is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00045] Public method ofInactivityGapAndGrace is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#57"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00057] Public method with is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

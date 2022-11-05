@@ -1,27 +1,72 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java 0 rule violation " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java 1 rule violations " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Configurable"
- , "c2" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java.html#15"
- , "c1" : "List<ConfigValue>"
- , "c2" : "validate(ConnectorClientConfigRequest)"
+ , "c5" : "00018"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#18"
+ , "c1" : "ConnectorClientConfigRequest"
+ , "c2" : "ConnectorClientConfigRequest(String;ConnectorType;Class<?extendsConnector>;Map<String,Object>;ClientType)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#32"
+ , "c1" : "Map<String,Object>"
+ , "c2" : "clientProps()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#37"
+ , "c1" : "ClientType"
+ , "c2" : "clientType()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#42"
+ , "c1" : "String"
+ , "c2" : "connectorName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#47"
+ , "c1" : "ConnectorType"
+ , "c2" : "connectorType()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#52"
+ , "c1" : "Class<?extendsConnector>"
+ , "c2" : "connectorClass()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +75,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java.png" 
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.png" 
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java.svg" }
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.svg" }
 
 ] 
 , 
@@ -57,8 +102,27 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java.svg" }
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00010"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.html#10"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00010] The class ConnectorClientConfigRequest contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+]
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

@@ -1,74 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java 18 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java 8 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WrappingNullableDeserializer<LeftOrRightValue<V1,V2>,Void,Object>"
- , "c2" : "org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer"
+ , "c1" : "WrappingNullableSerde<LeftOrRightValue<V1,V2>,Void,Object>"
+ , "c2" : "org.apache.kafka.streams.state.internals.LeftOrRightValueSerde"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.LeftOrRightValueSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#16"
- , "c1" : "LeftOrRightValueDeserializer"
- , "c2" : "LeftOrRightValueDeserializer(Deserializer<V1>;Deserializer<V2>)"
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#8"
+ , "c1" : "LeftOrRightValueSerde"
+ , "c2" : "LeftOrRightValueSerde(Serde<V1>;Serde<V2>)"
  , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#23"
- , "c1" : "void"
- , "c2" : "setIfUnset(SerdeGetter)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#37"
- , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#44"
- , "c1" : "LeftOrRightValue<V1,V2>"
- , "c2" : "deserialize(String;byte[])"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#54"
- , "c1" : "byte[]"
- , "c2" : "rawValue(byte[])"
- , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.svg" }
 
 ] 
 , 
@@ -95,170 +59,74 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE493"
- , "c3" : "Critical public variable without final modifier"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#12"
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class LeftOrRightValueDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#13"
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00013] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#12"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#12"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00014"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#14"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00014] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#23"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method setIfUnset arguments SerdeGetter  getter"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#23"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#24"
+ , "c1" : "00014"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.setIfUnset@POLYN150333 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#28"
+ , "c1" : "00015"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.setIfUnset@POLYN150333 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method deserialize arguments String  topic|byte[]  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#45"
+ , "c1" : "00015"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.deserialize@POLYN151373 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.deserialize@POLYN151373 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.deserialize@POLYN151373 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.deserialize@POLYN151373 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.deserialize@POLYN151373 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method rawValue arguments byte[]  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.rawValue@POLYN152072 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.rawValue@POLYN152072 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.LeftOrRightValueDeserializer.rawValue@POLYN152072 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.streams.state.internals.LeftOrRightValueSerde.LeftOrRightValueSerde@POLYN143322 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerde.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

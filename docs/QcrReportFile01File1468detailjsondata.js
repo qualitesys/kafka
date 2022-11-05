@@ -1,34 +1,25 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java 9 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.xml" 
+   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html" 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java 18 rule violations " 
+ , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "Commands.Handler"
- , "c2" : "org.apache.kafka.shell.ErroneousCommandHandler"
+ , "c2" : "org.apache.kafka.shell.ExitCommandHandler"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.shell.ErroneousCommandHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.shell.ExitCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#13"
- , "c1" : "ErroneousCommandHandler"
- , "c2" : "ErroneousCommandHandler(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#18"
+ , "c5" : "00055"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#55"
  , "c1" : "void"
  , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
  , "c3" : "1"
@@ -36,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#25"
+ , "c5" : "00062"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#62"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -45,30 +36,21 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#30"
+ , "c5" : "00067"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#67"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#38"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.png" 
+   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.png" 
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.svg" }
+ , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.svg" }
 
 ] 
 , 
@@ -95,100 +77,172 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#10"
+ , "c1" : "00015"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class ErroneousCommandHandler contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class ExitCommandHandler contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00018"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#18"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#19"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00019] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method equals arguments Object  other"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#31"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN144657 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000008[00018] The class ExitCommandType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#33"
+ , "c1" : "00024"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN144657 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.name@POLYN147045 the MagicNumber/String  'exit' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#29"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.description@POLYN147147 the MagicNumber/String  'Exit the metadata shell.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00034"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#34"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.shell.ErroneousCommandHandler.equals@POLYN144657 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.shellOnly@POLYN147249 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.ErroneousCommandHandler.toString@POLYN145118 the MagicNumber/String  'ErroneousCommandHandler(' should be converted to const"
+ , "c1" : "00038"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#38"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00038] For method addArguments arguments ArgumentParser  parser"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.html#39"
+ , "c1" : "00043"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#43"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00043] For method createHandler arguments Namespace  namespace"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#38"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00038] Void method addArguments is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#38"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00038] Void method addArguments is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00048] Void method completeNext is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00048] Void method completeNext is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00055] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.ErroneousCommandHandler.toString@POLYN145118 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.ExitCommandHandler.run@POLYN147753 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.ExitCommandHandler.hashCode@POLYN147982 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#67"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00067] For method equals arguments Object  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN148084 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN148084 the MagicNumber/String  true should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

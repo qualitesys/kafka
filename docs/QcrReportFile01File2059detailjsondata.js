@@ -1,83 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java 7 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java 2 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractIterator<KeyValue<Bytes,byte[]>>KeyValueIterator<Bytes,byte[]>"
- , "c2" : "org.apache.kafka.streams.state.internals.RocksDbIterator"
+ , "c1" : "KeyValueBytesStoreSupplier"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDbIterator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#26"
- , "c1" : "RocksDbIterator"
- , "c2" : "RocksDbIterator(String;RocksIterator;Set<KeyValueIterator<Bytes,byte[]>>;boolean)"
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#13"
+ , "c1" : "RocksDbKeyValueBytesStoreSupplier"
+ , "c2" : "RocksDbKeyValueBytesStoreSupplier(String;boolean)"
  , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#37"
- , "c1" : "boolean"
- , "c2" : "hasNext()"
- , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#45"
- , "c1" : "KeyValue<Bytes,byte[]>"
- , "c2" : "makeNext()"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#55"
- , "c1" : "KeyValue<Bytes,byte[]>"
- , "c2" : "getKeyValue()"
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#20"
+ , "c1" : "String"
+ , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#60"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#25"
+ , "c1" : "KeyValueStore<Bytes,byte[]>"
+ , "c2" : "get()"
  , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#67"
- , "c1" : "Bytes"
- , "c2" : "peekNextKey()"
- , "c3" : "2"
- , "c4" : "2"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#32"
+ , "c1" : "String"
+ , "c2" : "metricsScope()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.svg" }
 
 ] 
 , 
@@ -102,27 +84,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -130,76 +96,29 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "INFO"
- , "c2" : "QC-JAV000019"
- , "c3" : "Lock statement"
- , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#37"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00037] Lock statement on synchronized method hasNext"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#39"
+ , "c1" : "00008"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.RocksDbIterator.hasNext@POLYN151537 the MagicNumber/String  'RocksDB iterator for store %s has closed' should be converted to const"
+ , "c3" : "QC-JAV000008[00008] The class RocksDbKeyValueBytesStoreSupplier contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method makeNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getKeyValueN152109"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#60"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00060] Lock statement on synchronized method close"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#63"
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.RocksDbIterator.close@POLYN152549 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDbIterator.close@POLYN152549"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#63"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIterator.close@POLYN152549 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.state.internals.RocksDbKeyValueBytesStoreSupplier.metricsScope@POLYN144331 the MagicNumber/String  'rocksdb' should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbKeyValueBytesStoreSupplier.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

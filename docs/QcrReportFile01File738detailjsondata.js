@@ -1,81 +1,81 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java 34 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java 18 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractRequest"
- , "c2" : "org.apache.kafka.common.requests.WriteTxnMarkersRequest"
+ , "c1" : "AbstractResponse"
+ , "c2" : "org.apache.kafka.common.requests.WriteTxnMarkersResponse"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.WriteTxnMarkersRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.WriteTxnMarkersResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#129"
- , "c1" : "WriteTxnMarkersRequest"
- , "c2" : "WriteTxnMarkersRequest(WriteTxnMarkersRequestData;short)"
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#24"
+ , "c1" : "WriteTxnMarkersResponse"
+ , "c2" : "WriteTxnMarkersResponse(Map<Long,Map<TopicPartition,Errors>>)"
+ , "c3" : "3"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#51"
+ , "c1" : "WriteTxnMarkersResponse"
+ , "c2" : "WriteTxnMarkersResponse(WriteTxnMarkersResponseData)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#135"
- , "c1" : "WriteTxnMarkersRequestData"
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#57"
+ , "c1" : "WriteTxnMarkersResponseData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#140"
- , "c1" : "WriteTxnMarkersResponse"
- , "c2" : "getErrorResponse(int;Throwable)"
- , "c3" : "4"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00157"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#157"
- , "c1" : "List<TxnMarkerEntry>"
- , "c2" : "markers()"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#61"
+ , "c1" : "Map<Long,Map<TopicPartition,Errors>>"
+ , "c2" : "errorsByProducerId()"
  , "c3" : "4"
  , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#177"
- , "c1" : "WriteTxnMarkersRequest"
- , "c2" : "parse(ByteBuffer;short)"
+ , "c5" : "00077"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#77"
+ , "c1" : "int"
+ , "c2" : "throttleTimeMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00182"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#182"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
+ , "c5" : "00082"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#82"
+ , "c1" : "Map<Errors,Integer>"
+ , "c2" : "errorCounts()"
+ , "c3" : "4"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00190"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#190"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#93"
+ , "c1" : "WriteTxnMarkersResponse"
+ , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,9 +84,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.svg" }
 
 ] 
 , 
@@ -123,6 +123,13 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
@@ -132,279 +139,148 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "12"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "2"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00021] The class TxnMarkerEntry contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00024"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#24"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00024] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#62"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN169498 the MagicNumber/String  'TxnMarkerEntry{' should be converted to const"
+ , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#63"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN169498 the MagicNumber/String  'producerId=' should be converted to const"
+ , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#33"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00030] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#33"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#64"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN169498 the MagicNumber/String  ', producerEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000001[00064] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#65"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN169498 the MagicNumber/String  ', coordinatorEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#66"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN169498 the MagicNumber/String  ', result=' should be converted to const"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#67"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN169498 the MagicNumber/String  ', partitions=' should be converted to const"
+ , "c3" : "QC-JAV000001[00066] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#68"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.toString@POLYN169498 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#72"
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00086] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00086] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00074] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN169854 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN169854 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry.equals@POLYN169854 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00103] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00104] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00104] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#140"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00146] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#160"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00160] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#161"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00161] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00162] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00162] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#177"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method parse arguments ByteBuffer  buffer|short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#182"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00184] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN175841 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN175841 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.requests.WriteTxnMarkersRequest.equals@POLYN175841 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000006[00093] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.html#1"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.WriteTxnMarkersRequest.getErrorResponse@POLYN173271"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.WriteTxnMarkersResponse.errorsByProducerId@POLYN162774"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersRequest.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/WriteTxnMarkersResponse.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

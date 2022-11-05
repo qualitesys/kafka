@@ -1,55 +1,82 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java 6 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java 15 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractStoreBuilder<K,V,KeyValueStore<K,V>>"
- , "c2" : "org.apache.kafka.streams.state.internals.ListValueStoreBuilder"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.Maybe"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.ListValueStoreBuilder" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.Maybe" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#15"
- , "c1" : "ListValueStoreBuilder"
- , "c2" : "ListValueStoreBuilder(KeyValueBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#20"
+ , "c1" : "Maybe"
+ , "c2" : "Maybe(T)"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#26"
- , "c1" : "KeyValueStore<K,V>"
- , "c2" : "build()"
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#25"
+ , "c1" : "Maybe"
+ , "c2" : "Maybe()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#30"
+ , "c1" : "T"
+ , "c2" : "getNullableValue()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#38"
+ , "c1" : "boolean"
+ , "c2" : "isDefined()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#35"
- , "c1" : "KeyValueStore<Bytes,byte[]>"
- , "c2" : "maybeWrapCaching(KeyValueStore<Bytes,byte[]>)"
- , "c3" : "2"
- , "c4" : "2"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#43"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#42"
- , "c1" : "KeyValueStore<Bytes,byte[]>"
- , "c2" : "maybeWrapLogging(KeyValueStore<Bytes,byte[]>)"
- , "c3" : "2"
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#55"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#62"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "3"
  , "c4" : "2"
 }} 
 ] 
@@ -57,9 +84,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.svg" }
 
 ] 
 , 
@@ -86,9 +113,9 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -96,62 +123,134 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "12"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#15"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00015] The argument storeSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#20"
+ , "c1" : "00008"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.ListValueStoreBuilder.ListValueStoreBuilder@POLYN147777 the MagicNumber/String  'storeSupplier can't be null' should be converted to const"
+ , "c3" : "QC-JAV000008[00008] The class Maybe contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#21"
+ , "c1" : "00022"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.state.internals.ListValueStoreBuilder.ListValueStoreBuilder@POLYN147777 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN148872 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#35"
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#26"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN149055 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.Maybe.Maybe@POLYN149055 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method maybeWrapCaching arguments KeyValueStore&lt;Bytes ,byte[] &gt;  inner"
+ , "c3" : "QC-JAV000006[00043] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#39"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.ListValueStoreBuilder.maybeWrapCaching@POLYN148854 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000021[00045] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method maybeWrapLogging arguments KeyValueStore&lt;Bytes ,byte[] &gt;  inner"
+ , "c1" : "00044"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN149525 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN149525 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.Maybe.equals@POLYN149525 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN150191 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN150191 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.state.internals.Maybe.hashCode@POLYN150191 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN150436 the MagicNumber/String  'DefinedMaybe{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN150436 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.Maybe.toString@POLYN150436 the MagicNumber/String  'UndefinedMaybe{}' should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStoreBuilder.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Maybe.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

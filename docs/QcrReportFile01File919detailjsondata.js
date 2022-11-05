@@ -1,92 +1,146 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Time.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Timer.java 14 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.utils.Time"
+ , "c2" : "org.apache.kafka.common.utils.Timer"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.utils.Time" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.utils.Timer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#14"
- , "c1" : "long"
- , "c2" : "milliseconds()"
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#13"
+ , "c1" : "Timer"
+ , "c2" : "Timer(Time;long)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#17"
- , "c1" : "long"
- , "c2" : "hiResClockMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#22"
- , "c1" : "long"
- , "c2" : "nanoseconds()"
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#20"
+ , "c1" : "boolean"
+ , "c2" : "isExpired()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#25"
- , "c1" : "void"
- , "c2" : "sleep(long)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#25"
+ , "c1" : "boolean"
+ , "c2" : "notExpired()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#28"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#30"
  , "c1" : "void"
- , "c2" : "waitObject(Object;Supplier<Boolean>;long)"
+ , "c2" : "updateAndReset(long)"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#31"
- , "c1" : "Timer"
- , "c2" : "timer(long)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#36"
- , "c1" : "Timer"
- , "c2" : "timer(Duration)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#36"
+ , "c1" : "void"
+ , "c2" : "reset(long)"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#50"
+ , "c1" : "void"
+ , "c2" : "resetDeadline(long)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#60"
+ , "c1" : "void"
+ , "c2" : "update()"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#65"
+ , "c1" : "void"
+ , "c2" : "update(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#70"
+ , "c1" : "long"
+ , "c2" : "remainingMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#75"
+ , "c1" : "long"
+ , "c2" : "currentTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#80"
+ , "c1" : "long"
+ , "c2" : "elapsedMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#85"
+ , "c1" : "long"
+ , "c2" : "timeoutMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#90"
+ , "c1" : "void"
+ , "c2" : "sleep(long)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.svg" }
 
 ] 
 , 
@@ -111,25 +165,155 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
+ , "c1" : "00006"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#6"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00006] The class Timer contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#30"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00030] For method updateAndReset arguments long  timeoutMs"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#36"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#36"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00036] For method reset arguments long  timeoutMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.utils.Timer.reset@POLYN178358 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#38"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.Timer.reset@POLYN178358 the MagicNumber/String  'Invalid negative timeout ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method resetDeadline arguments long  deadlineMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.utils.Timer.resetDeadline@POLYN179034 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.utils.Timer.resetDeadline@POLYN179034 the MagicNumber/String  'Invalid negative deadline ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.Timer.resetDeadline@POLYN179034 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#65"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00065] For method update arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.utils.Timer.remainingMs@POLYN180525 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#90"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00090] For method sleep arguments long  durationMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#25"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00025] Public method notExpired is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00036] The argument timeout is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Timer.sleep@POLYN181765"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Timer.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

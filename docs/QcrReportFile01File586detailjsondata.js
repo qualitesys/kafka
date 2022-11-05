@@ -1,63 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java 16 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java 10 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.replica.ClientMetadata"
+ , "c2" : "org.apache.kafka.common.replica.PartitionView"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.replica.ClientMetadata" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.replica.PartitionView" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#13"
- , "c1" : "String"
- , "c2" : "rackId()"
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#10"
+ , "c1" : "Set<ReplicaView>"
+ , "c2" : "replicas()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#16"
- , "c1" : "String"
- , "c2" : "clientId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#19"
- , "c1" : "InetAddress"
- , "c2" : "clientAddress()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#22"
- , "c1" : "KafkaPrincipal"
- , "c2" : "principal()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#25"
- , "c1" : "String"
- , "c2" : "listenerName()"
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#12"
+ , "c1" : "ReplicaView"
+ , "c2" : "leader()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.svg" }
 
 ] 
 , 
@@ -105,7 +78,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -125,119 +98,79 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#28"
+ , "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00028] The class DefaultClientMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class DefaultPartitionView contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#70"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00034] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00072] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00036] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#71"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN152682 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN146915 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN152682 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN146915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#72"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.equals@POLYN152682 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN146915 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#88"
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  'DefaultClientMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  'DefaultPartitionView{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#89"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  'rackId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  'replicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#89"
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  ', leader=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#90"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  ', clientId='' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  ', clientAddress=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  ', principal=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  ', listenerName='' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.replica.ClientMetadata.DefaultClientMetadata.toString@POLYN153796 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/ClientMetadata.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

@@ -1,43 +1,124 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java 2 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java 16 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
- , "c2" : "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator"
+ , "c1" : "StateStore"
+ , "c2" : "org.apache.kafka.streams.state.internals.WrappedStateStore"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.WrappedStateStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#15"
- , "c1" : "WrappedSessionStoreIterator"
- , "c2" : "WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>)"
+ , "c5" : "00018"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#18"
+ , "c1" : "boolean"
+ , "c2" : "isTimestamped(StateStore)"
+ , "c3" : "5"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#30"
+ , "c1" : "WrappedStateStore"
+ , "c2" : "WrappedStateStore(S)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#19"
- , "c1" : "WrappedSessionStoreIterator"
- , "c2" : "WrappedSessionStoreIterator(KeyValueIterator<Bytes,byte[]>;Function<Bytes,Windowed<Bytes>>)"
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#36"
+ , "c1" : "void"
+ , "c2" : "init(ProcessorContext;StateStore)"
  , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#42"
+ , "c1" : "void"
+ , "c2" : "init(StateStoreContext;StateStore)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#48"
+ , "c1" : "boolean"
+ , "c2" : "setFlushListener(CacheFlushListener<K,V>;boolean)"
+ , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#26"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#57"
+ , "c1" : "void"
+ , "c2" : "flushCache()"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#64"
+ , "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#69"
+ , "c1" : "boolean"
+ , "c2" : "persistent()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#74"
+ , "c1" : "boolean"
+ , "c2" : "isOpen()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#78"
+ , "c1" : "void"
+ , "c2" : "validateStoreOpen()"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#85"
+ , "c1" : "void"
+ , "c2" : "flush()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#90"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,39 +126,30 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#31"
- , "c1" : "Windowed<Bytes>"
- , "c2" : "peekNextKey()"
+ , "c5" : "00111"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#111"
+ , "c1" : "Position"
+ , "c2" : "getPosition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#36"
- , "c1" : "boolean"
- , "c2" : "hasNext()"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#115"
+ , "c1" : "S"
+ , "c2" : "wrapped()"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#41"
- , "c1" : "KeyValue<Windowed<Bytes>,byte[]>"
- , "c2" : "next()"
- , "c3" : "1"
- , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.svg" }
 
 ] 
 , 
@@ -102,20 +174,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
@@ -125,25 +188,139 @@ var maDataBlocs = {
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#10"
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class WrappedSessionStoreIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00016] The class WrappedStateStore contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.html#1"
+ , "c1" : "00018"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#18"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00018] For method isTimestamped arguments StateStore  stateStore"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00020"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#20"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN156280 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN156280 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#36"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00036] For method init arguments ProcessorContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#42"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00042] For method init arguments StateStoreContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method setFlushListener arguments CacheFlushListener&lt;K ,V &gt;  listener|boolean  sendOldValues"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.WrappedStateStore.setFlushListener@POLYN157352 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.WrappedStateStore.validateStoreOpen@POLYN158333 the MagicNumber/String  'Store ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.internals.WrappedStateStore.validateStoreOpen@POLYN158333 the MagicNumber/String  ' is currently closed.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#97"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator.close@POLYN147566"
+ , "c3" : "QC-JAVCWE476[00097] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.state.internals.WrappedStateStore the MagicNumber/String  1L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.WrappedStateStore the MagicNumber/String  'Handled in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.WrappedStateStore the MagicNumber/String  ' via WrappedStateStore' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.WrappedStateStore the MagicNumber/String  ' in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.state.internals.WrappedStateStore the MagicNumber/String  'ns' should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedSessionStoreIterator.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

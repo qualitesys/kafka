@@ -1,45 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.CreatePartitionsResult"
+ , "c1" : "AbstractOptions<CreateTopicsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.CreateTopicsOptions"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.CreatePartitionsResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.CreateTopicsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#16"
- , "c1" : "CreatePartitionsResult"
- , "c2" : "CreatePartitionsResult(Map<String,KafkaFuture<Void>>)"
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#18"
+ , "c1" : "CreateTopicsOptions"
+ , "c2" : "timeoutMs(Integer)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#24"
+ , "c1" : "CreateTopicsOptions"
+ , "c2" : "validateOnly(boolean)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#30"
+ , "c1" : "boolean"
+ , "c2" : "shouldValidateOnly()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#21"
- , "c1" : "Map<String,KafkaFuture<Void>>"
- , "c2" : "values()"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#36"
+ , "c1" : "CreateTopicsOptions"
+ , "c2" : "retryOnQuotaViolation(boolean)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#26"
- , "c1" : "KafkaFuture<Void>"
- , "c2" : "all()"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#42"
+ , "c1" : "boolean"
+ , "c2" : "shouldRetryOnQuotaViolation()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.svg" }
 
 ] 
 , 
@@ -77,37 +95,39 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class CreatePartitionsResult contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00018"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#18"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00018] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.admin.CreatePartitionsResult.all@POLYN145834 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00024"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#24"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00024] For method validateOnly arguments boolean  validateOnly"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.html#36"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00036] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsOptions.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

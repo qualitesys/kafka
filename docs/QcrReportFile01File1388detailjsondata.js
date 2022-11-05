@@ -1,79 +1,61 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java 19 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java 16 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "Revertable"
- , "c2" : "org.apache.kafka.timeline.TimelineLong"
+ , "c2" : "org.apache.kafka.timeline.TimelineObject"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.timeline.TimelineLong" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.timeline.TimelineObject" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#32"
- , "c1" : "TimelineLong"
- , "c2" : "TimelineLong(SnapshotRegistry)"
+ , "c5" : "00036"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#36"
+ , "c1" : "TimelineObject"
+ , "c2" : "TimelineObject(SnapshotRegistry;T)"
  , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#39"
- , "c1" : "long"
+ , "c5" : "00044"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#44"
+ , "c1" : "T"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#43"
- , "c1" : "long"
+ , "c5" : "00048"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#48"
+ , "c1" : "T"
  , "c2" : "get(long)"
  , "c3" : "4"
  , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#54"
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#59"
  , "c1" : "void"
- , "c2" : "set(long)"
+ , "c2" : "set(T)"
  , "c3" : "3"
- , "c4" : "7"
+ , "c4" : "8"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#68"
- , "c1" : "void"
- , "c2" : "increment()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#72"
- , "c1" : "void"
- , "c2" : "decrement()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#78"
+ , "c5" : "00076"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#76"
  , "c1" : "void"
  , "c2" : "executeRevert(long;Delta)"
  , "c3" : "1"
@@ -81,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#84"
+ , "c5" : "00082"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#82"
  , "c1" : "void"
  , "c2" : "reset()"
  , "c3" : "1"
@@ -90,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#89"
+ , "c5" : "00087"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#87"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -99,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#94"
+ , "c5" : "00092"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#92"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -108,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#101"
+ , "c5" : "00099"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#99"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -120,9 +102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.svg" }
 
 ] 
 , 
@@ -187,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -200,140 +182,121 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#9"
+ , "c1" : "00010"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class TimelineLong contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class TimelineObject contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#12"
+ , "c1" : "00011"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class LongContainer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00011] The class ObjectContainer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#19"
+ , "c1" : "00022"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method setValue arguments long  value"
+ , "c3" : "QC-JAV000006[00022] For method setValue arguments T  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#24"
+ , "c1" : "00027"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method mergeFrom arguments long  destinationEpoch|Delta  delta"
+ , "c3" : "QC-JAV000006[00027] For method mergeFrom arguments long  destinationEpoch|Delta  delta"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#24"
+ , "c1" : "00027"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#27"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00024] Void method mergeFrom is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00027] Void method mergeFrom is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#24"
+ , "c1" : "00027"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#27"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00024] Void method mergeFrom is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00027] Void method mergeFrom is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#32"
+ , "c1" : "00036"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#36"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument snapshotRegistry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method get arguments long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00047] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAVCWE476[00036] The argument snapshotRegistry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method get arguments long  epoch"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#49"
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.timeline.TimelineLong.get@POLYN152705 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method set arguments long  newValue"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.timeline.TimelineObject.get@POLYN153581 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.timeline.TimelineLong.set@POLYN153379 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.timeline.TimelineLong.increment@POLYN154176 the MagicNumber/String  1L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.timeline.TimelineLong.decrement@POLYN154316 the MagicNumber/String  1L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#78"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method executeRevert arguments long  targetEpoch|Delta  delta"
+ , "c3" : "QC-JAV000006[00059] For method set arguments T  newValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#90"
+ , "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.timeline.TimelineLong.hashCode@POLYN154901 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.timeline.TimelineObject.set@POLYN154276 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#94"
+ , "c1" : "00076"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00076] For method executeRevert arguments long  targetEpoch|Delta  delta"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html#95"
+ , "c1" : "00092"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00092] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.timeline.TimelineLong.equals@POLYN155129 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.timeline.TimelineObject.equals@POLYN155801 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

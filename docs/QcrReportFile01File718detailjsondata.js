@@ -1,117 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java 15 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java 5 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractRequestResponse"
- , "c2" : "org.apache.kafka.common.requests.ResponseHeader"
+ , "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.SaslAuthenticateRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.ResponseHeader" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.SaslAuthenticateRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#16"
- , "c1" : "ResponseHeader"
- , "c2" : "ResponseHeader(int;short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#20"
- , "c1" : "ResponseHeader"
- , "c2" : "ResponseHeader(ResponseHeaderData;short)"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#36"
+ , "c1" : "SaslAuthenticateRequest"
+ , "c2" : "SaslAuthenticateRequest(SaslAuthenticateRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#25"
- , "c1" : "int"
- , "c2" : "size(ObjectSerializationCache)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#29"
- , "c1" : "int"
- , "c2" : "correlationId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#33"
- , "c1" : "short"
- , "c2" : "headerVersion()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#37"
- , "c1" : "ResponseHeaderData"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#42"
+ , "c1" : "SaslAuthenticateRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#41"
- , "c1" : "void"
- , "c2" : "write(ByteBuffer;ObjectSerializationCache)"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#47"
+ , "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#46"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#53"
- , "c1" : "ResponseHeader"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#55"
+ , "c1" : "SaslAuthenticateRequest"
  , "c2" : "parse(ByteBuffer;short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#60"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#69"
- , "c1" : "int"
- , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -120,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.svg" }
 
 ] 
 , 
@@ -147,41 +84,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
@@ -189,118 +96,57 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#12"
+ , "c1" : "00024"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#24"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class ResponseHeader contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#25"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method size arguments ObjectSerializationCache  serializationCache"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method write arguments ByteBuffer  buffer|ObjectSerializationCache  serializationCache"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder.toString@POLYN149641 the MagicNumber/String  '(type=SaslAuthenticateRequest)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.ResponseHeader.toString@POLYN150212 the MagicNumber/String  'ResponseHeader(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.requests.ResponseHeader.toString@POLYN150212 the MagicNumber/String  'correlationId=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.requests.ResponseHeader.toString@POLYN150212 the MagicNumber/String  ', headerVersion=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.ResponseHeader.toString@POLYN150212 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#53"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method parse arguments ByteBuffer  buffer|short  headerVersion"
+ , "c3" : "QC-JAV000006[00047] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#60"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000007[00047] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN150253"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00062] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.ResponseHeader.equals@POLYN150746 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.ResponseHeader.equals@POLYN150746 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.ResponseHeader.equals@POLYN150746 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ResponseHeader.correlationId@POLYN149669"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ResponseHeader.size@POLYN149488"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00055] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ResponseHeader.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

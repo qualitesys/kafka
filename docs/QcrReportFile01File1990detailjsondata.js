@@ -1,101 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java 14 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java 12 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.state.internals.ContextualRecord"
+ , "c1" : "KeyValueIterator<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.ContextualRecord" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#16"
- , "c1" : "ContextualRecord"
- , "c2" : "ContextualRecord(byte[];ProcessorRecordContext)"
+ , "c5" : "00018"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#18"
+ , "c1" : "DelegatingPeekingKeyValueIterator"
+ , "c2" : "DelegatingPeekingKeyValueIterator(String;KeyValueIterator<K,V>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#21"
- , "c1" : "ProcessorRecordContext"
- , "c2" : "recordContext()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#24"
+ , "c1" : "K"
+ , "c2" : "peekNextKey()"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#25"
- , "c1" : "byte[]"
- , "c2" : "value()"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#32"
+ , "c1" : "void"
+ , "c2" : "close()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#29"
- , "c1" : "long"
- , "c2" : "residentMemorySizeEstimate()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#33"
- , "c1" : "ContextualRecord"
- , "c2" : "deserialize(ByteBuffer)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#40"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#38"
  , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
+ , "c2" : "hasNext()"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#55"
+ , "c1" : "KeyValue<K,V>"
+ , "c2" : "next()"
+ , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#53"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#58"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00065"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#65"
+ , "c1" : "KeyValue<K,V>"
+ , "c2" : "peekNext()"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.svg" }
 
 ] 
 , 
@@ -132,132 +114,106 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "9"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#12"
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class ContextualRecord contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00011] The class DelegatingPeekingKeyValueIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#30"
+ , "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#24"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00024] Lock statement on synchronized method peekNextKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#32"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00032] Lock statement on synchronized method close"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ContextualRecord.residentMemorySizeEstimate@POLYN148301 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator.close@POLYN149668 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.ContextualRecord.residentMemorySizeEstimate@POLYN148301 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method deserialize arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#33"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00033] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN148634|byte[] getNullableSizePrefixedArrayN148739"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#38"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00038] Lock statement on synchronized method hasNext"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#44"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00044] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator.hasNext@POLYN149844 the MagicNumber/String  'Store %s has closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#42"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN148910 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator.hasNext@POLYN149844 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#44"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN148910 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator.hasNext@POLYN149844 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#45"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.ContextualRecord.equals@POLYN148910 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator.hasNext@POLYN149844 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#59"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN149729 the MagicNumber/String  'ContextualRecord{' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator.hasNext@POLYN149844 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#55"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00055] Lock statement on synchronized method next"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#60"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN149729 the MagicNumber/String  'recordContext=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN149729 the MagicNumber/String  ', value=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN149729 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator.next@POLYN150484 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/DelegatingPeekingKeyValueIterator.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

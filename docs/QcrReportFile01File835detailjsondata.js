@@ -1,36 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java 12 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Callback"
- , "c2" : "org.apache.kafka.common.security.scram.ScramExtensionsCallback"
+ , "c1" : "LoginModule"
+ , "c2" : "org.apache.kafka.common.security.scram.ScramLoginModule"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.security.scram.ScramExtensionsCallback" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.security.scram.ScramLoginModule" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html#14"
- , "c1" : "Map<String,String>"
- , "c2" : "extensions()"
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#26"
+ , "c1" : "void"
+ , "c2" : "initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>)"
+ , "c3" : "4"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#42"
+ , "c1" : "boolean"
+ , "c2" : "login()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html#19"
- , "c1" : "void"
- , "c2" : "extensions(Map<String,String>)"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#47"
+ , "c1" : "boolean"
+ , "c2" : "logout()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#52"
+ , "c1" : "boolean"
+ , "c2" : "commit()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#57"
+ , "c1" : "boolean"
+ , "c2" : "abort()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.svg" }
 
 ] 
 , 
@@ -68,10 +95,24 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -84,21 +125,93 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html#10"
+ , "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class ScramExtensionsCallback contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class ScramLoginModule contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html#19"
+ , "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method extensions arguments Map&lt;String ,String &gt;  extensions"
+ , "c3" : "QC-JAV000006[00026] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String ,? &gt;  sharedState|Map&lt;String ,? &gt;  options"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#26"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00026] The argument subject is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#26"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00026] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#28"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN148468 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN148468 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#34"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN148468 the MagicNumber/String  'true' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#36"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.scram.ScramLoginModule.initialize@POLYN148468 the MagicNumber/String  'true' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.scram.ScramLoginModule.login@POLYN149705 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.security.scram.ScramLoginModule.logout@POLYN149807 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.scram.ScramLoginModule.commit@POLYN149909 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.scram.ScramLoginModule.abort@POLYN150011 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

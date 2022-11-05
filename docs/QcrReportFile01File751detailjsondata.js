@@ -1,27 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.security.auth.KafkaPrincipalBuilder"
+ , "c2" : "org.apache.kafka.common.security.auth.KafkaPrincipalSerde"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.security.auth.KafkaPrincipalBuilder" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.security.auth.KafkaPrincipalSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.html#7"
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.html#10"
+ , "c1" : "byte[]"
+ , "c2" : "serialize(KafkaPrincipal)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.html#13"
  , "c1" : "KafkaPrincipal"
- , "c2" : "build(AuthenticationContext)"
+ , "c2" : "deserialize(byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.svg" }
 
 ] 
 , 
@@ -57,8 +66,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

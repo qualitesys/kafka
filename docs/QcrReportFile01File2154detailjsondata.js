@@ -1,54 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "Message"
- , "c2" : "org.apache.kafka.trogdor.rest.CreateWorkerRequest"
+ , "c2" : "org.apache.kafka.trogdor.rest.DestroyTaskRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.rest.CreateWorkerRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.DestroyTaskRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#16"
- , "c1" : "CreateWorkerRequest"
- , "c2" : "CreateWorkerRequest(long;String;TaskSpec)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#25"
- , "c1" : "long"
- , "c2" : "workerId()"
+ , "c5" : "00013"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.html#13"
+ , "c1" : "DestroyTaskRequest"
+ , "c2" : "DestroyTaskRequest(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#30"
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.html#18"
  , "c1" : "String"
- , "c2" : "taskId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#35"
- , "c1" : "TaskSpec"
- , "c2" : "spec()"
+ , "c2" : "id()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.svg" }
 
 ] 
 , 
@@ -84,8 +66,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyTaskRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

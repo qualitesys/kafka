@@ -1,38 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java 4 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java 2 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ExtractRecordMetadataTimestamp"
- , "c2" : "org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp"
+ , "c1" : "TimestampExtractor"
+ , "c2" : "org.apache.kafka.streams.processor.WallclockTimestampExtractor"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.WallclockTimestampExtractor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#12"
+ , "c5" : "00011"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.html#11"
  , "c1" : "long"
- , "c2" : "onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long)"
- , "c3" : "2"
- , "c4" : "2"
+ , "c2" : "extract(ConsumerRecord<Object,Object>;long)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.svg" }
 
 ] 
 , 
@@ -60,9 +60,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -75,35 +75,23 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#12"
+ , "c1" : "00007"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.html#7"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00007] The class WallclockTimestampExtractor contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.html#11"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  recordTimestamp|long  partitionTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN151851 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN151851 the MagicNumber/String  'Could not infer new timestamp for input record ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp.onInvalidTimestamp@POLYN151851 the MagicNumber/String  ' because partition time is unknown.' should be converted to const"
+ , "c3" : "QC-JAV000006[00011] For method extract arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  partitionTime"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

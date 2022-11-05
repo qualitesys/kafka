@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="140px" preserveAspectRatio="none" style="width:1458px;height:140px;background:#FFFFFF;" version="1.1" viewBox="0 0 1458 140" width="1458px" zoomAndPan="magnify"><defs/><g><path d="M402,10 L402,18.5664 L382,22.5664 L402,26.5664 L402,35.1328 A0,0 0 0 0 402,35.1328 L1446,35.1328 A0,0 0 0 0 1446,35.1328 L1446,20 L1436,10 L402,10 A0,0 0 0 0 402,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1436,10 L1436,20 L1446,20 L1436,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="1023" x="408" y="27.0669">constructor RocksDBSegmentedBytesStore(final Stringname,final StringmetricsScope,final longretention,final longsegmentInterval,final KeySchemakeySchema)</text><ellipse cx="372" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="722" x="11" y="55.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="702" x="21" y="76.2715">super (name,metricsScope,keySchema,new KeyValueSegments(name,metricsScope,retention,segmentInterval))</text><ellipse cx="372" cy="119.1016" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="365.8128" x2="378.1872" y1="112.9144" y2="125.2887"/><line style="stroke:#222222;stroke-width:2.5;" x1="378.1872" x2="365.8128" y1="112.9144" y2="125.2887"/><line style="stroke:#181818;stroke-width:1.0;" x1="372" x2="372" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="368,45.1328,372,55.1328,376,45.1328,372,49.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="372" x2="372" y1="89.1016" y2="109.1016"/><polygon fill="#181818" points="368,99.1016,372,109.1016,376,99.1016,372,103.1016" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[3f2ef36c6982e1252e4d79e3201b3248]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor RocksDBSegmentedBytesStore(final Stringname,final StringmetricsScope,final longretention,final longsegmentInterval,final KeySchemakeySchema)
+end note
+:super (name,metricsScope,keySchema,new KeyValueSegments(name,metricsScope,retention,segmentInterval));
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

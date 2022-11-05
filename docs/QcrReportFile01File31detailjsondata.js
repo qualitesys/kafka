@@ -1,83 +1,47 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java 5 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractConfig"
- , "c2" : "org.apache.kafka.clients.admin.AdminClientConfig"
+ , "c1" : "AbstractOptions<AlterClientQuotasOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.AdminClientConfig" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#196"
- , "c1" : "Map<String,Object>"
- , "c2" : "postProcessParsedConfig(Map<String,Object>)"
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#14"
+ , "c1" : "boolean"
+ , "c2" : "validateOnly()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#19"
+ , "c1" : "AlterClientQuotasOptions"
+ , "c2" : "validateOnly(boolean)"
  , "c3" : "1"
  , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00201"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#201"
- , "c1" : "AdminClientConfig"
- , "c2" : "AdminClientConfig(Map<?,?>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#205"
- , "c1" : "AdminClientConfig"
- , "c2" : "AdminClientConfig(Map<?,?>;boolean)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00209"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#209"
- , "c1" : "Set<String>"
- , "c2" : "configNames()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00213"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#213"
- , "c1" : "ConfigDef"
- , "c2" : "configDef()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00217"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#217"
- , "c1" : "void"
- , "c2" : "main(String[])"
- , "c3" : "1"
- , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.svg" }
 
 ] 
 , 
@@ -104,58 +68,25 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#196"
+ , "c1" : "00019"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.html#19"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00196] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#202"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.admin.AdminClientConfig.AdminClientConfig@POLYN184246 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#217"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00217] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184896 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.admin.AdminClientConfig.main@POLYN184896 the MagicNumber/String  'adminclientconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000006[00019] For method validateOnly arguments boolean  validateOnly"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterClientQuotasOptions.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

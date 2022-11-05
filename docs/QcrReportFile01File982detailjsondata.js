@@ -1,45 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java 4 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java 0 rule violation " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Connector"
- , "c2" : "org.apache.kafka.connect.source.SourceConnector"
+ , "c1" : "ConnectorContext"
+ , "c2" : "org.apache.kafka.connect.source.SourceConnectorContext"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.source.SourceConnector" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.source.SourceConnectorContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#12"
- , "c1" : "SourceConnectorContext"
- , "c2" : "context()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#17"
- , "c1" : "ExactlyOnceSupport"
- , "c2" : "exactlyOnceSupport(Map<String,String>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#22"
- , "c1" : "ConnectorTransactionBoundaries"
- , "c2" : "canDefineTransactionBoundaries(Map<String,String>)"
+ , "c5" : "00011"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.html#11"
+ , "c1" : "OffsetStorageReader"
+ , "c2" : "offsetStorageReader()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.png" 
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.png" 
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.svg" }
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.svg" }
 
 ] 
 , 
@@ -75,69 +57,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
 ,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#17"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method exactlyOnceSupport arguments Map&lt;String ,String &gt;  connectorConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.connect.source.SourceConnector.exactlyOnceSupport@POLYN153833 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#22"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method canDefineTransactionBoundaries arguments Map&lt;String ,String &gt;  connectorConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.source.SourceConnector.context@POLYN152940"
-}} 
-]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.svg" }
+"data15" : {
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnectorContext.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

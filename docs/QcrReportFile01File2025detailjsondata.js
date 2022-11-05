@@ -1,236 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java 63 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java 8 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WrappedStateStore<SessionStore<Bytes,byte[]>,Windowed<K>,V>SessionStore<K,V>"
- , "c2" : "org.apache.kafka.streams.state.internals.MeteredSessionStore"
+ , "c1" : "MeteredKeyValueStore<K,ValueAndTimestamp<V>>TimestampedKeyValueStore<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredSessionStore" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#68"
- , "c1" : "MeteredSessionStore"
- , "c2" : "MeteredSessionStore(SessionStore<Bytes,byte[]>;String;Serde<K>;Serde<V>;Time)"
+ , "c5" : "00020"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#20"
+ , "c1" : "MeteredTimestampedKeyValueStore"
+ , "c2" : "MeteredTimestampedKeyValueStore(KeyValueStore<Bytes,byte[]>;String;Time;Serde<K>;Serde<ValueAndTimestamp<V>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#31"
+ , "c1" : "Serde<ValueAndTimestamp<V>>"
+ , "c2" : "prepareValueSerdeForStore(Serde<ValueAndTimestamp<V>>;SerdeGetter)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#40"
+ , "c1" : "RawAndDeserializedValue<V>"
+ , "c2" : "getWithBinary(K)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#82"
- , "c1" : "void"
- , "c2" : "init(ProcessorContext;StateStore)"
- , "c3" : "1"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#98"
- , "c1" : "void"
- , "c2" : "init(StateStoreContext;StateStore)"
- , "c3" : "1"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#113"
- , "c1" : "void"
- , "c2" : "registerMetrics()"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#122"
- , "c1" : "void"
- , "c2" : "initStoreSerde(ProcessorContext)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#132"
- , "c1" : "void"
- , "c2" : "initStoreSerde(StateStoreContext)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#144"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#52"
  , "c1" : "boolean"
- , "c2" : "setFlushListener(CacheFlushListener<Windowed<K>,V>;boolean)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#162"
- , "c1" : "void"
- , "c2" : "put(Windowed<K>;V)"
- , "c3" : "1"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#185"
- , "c1" : "void"
- , "c2" : "remove(Windowed<K>)"
- , "c3" : "1"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00206"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#206"
- , "c1" : "V"
- , "c2" : "fetchSession(K;long;long)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00227"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#227"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "fetch(K)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00239"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#239"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFetch(K)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00252"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#252"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "fetch(K;K)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#264"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFetch(K;K)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00277"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#277"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "findSessions(K;long;long)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00295"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#295"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFindSessions(K;long;long)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00315"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#315"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "findSessions(K;K;long;long)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00335"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#335"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "findSessions(long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00347"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#347"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFindSessions(K;K;long;long)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00369"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#369"
- , "c1" : "void"
- , "c2" : "flush()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00374"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#374"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00457"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#457"
- , "c1" : "Bytes"
- , "c2" : "keyBytes(K)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00461"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#461"
- , "c1" : "void"
- , "c2" : "maybeRecordE2ELatency()"
- , "c3" : "2"
- , "c4" : "3"
+ , "c2" : "putIfDifferentValues(K;ValueAndTimestamp<V>;byte[])"
+ , "c3" : "3"
+ , "c4" : "7"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.svg" }
 
 ] 
 , 
@@ -260,468 +89,92 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "7"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "38"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "18"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#82"
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method init arguments ProcessorContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00031] For method prepareValueSerdeForStore arguments Serde&lt;ValueAndTimestamp&lt;V &gt; &gt;  valueSerde|SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#82"
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#31"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00082] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00031] The argument getter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#84"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.init@POLYN216323 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.prepareValueSerdeForStore@POLYN157709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#98"
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method init arguments StateStoreContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00040] For method getWithBinary arguments K  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#98"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00098] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.init@POLYN217267 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#122"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method initStoreSerde arguments ProcessorContext  context"
+ , "c3" : "QC-JAV000006[00052] For method putIfDifferentValues arguments K  key|ValueAndTimestamp&lt;V &gt;  newValue|byte[]  oldSerializedValue"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method initStoreSerde arguments StateStoreContext  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method setFlushListener arguments CacheFlushListener&lt;Windowed&lt;K &gt; ,V &gt;  listener|boolean  sendOldValues"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#144"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00144] The argument listener is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#152"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.setFlushListener@POLYN220526 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.putIfDifferentValues@POLYN158999 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#152"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.setFlushListener@POLYN220526 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.MeteredTimestampedKeyValueStore.putIfDifferentValues@POLYN158999 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#153"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.setFlushListener@POLYN220526 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.setFlushListener@POLYN220526 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#158"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.setFlushListener@POLYN220526 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method put arguments Windowed&lt;K &gt;  sessionKey|V  aggregate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#162"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00162] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.put@POLYN221800 the MagicNumber/String  'sessionKey can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.put@POLYN221800 the MagicNumber/String  'sessionKey.key() can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.put@POLYN221800 the MagicNumber/String  'sessionKey.window() can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#185"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method remove arguments Windowed&lt;K &gt;  sessionKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#185"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00185] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.remove@POLYN223117 the MagicNumber/String  'sessionKey can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.remove@POLYN223117 the MagicNumber/String  'sessionKey.key() can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.remove@POLYN223117 the MagicNumber/String  'sessionKey.window() can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#206"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00206] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.fetchSession@POLYN224287 the MagicNumber/String  'key cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.fetchSession@POLYN224287 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#217"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.fetchSession@POLYN224287 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#227"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00227] For method fetch arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#228"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.fetch@POLYN225151 the MagicNumber/String  'key cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#239"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00239] For method backwardFetch arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#240"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.backwardFetch@POLYN225693 the MagicNumber/String  'key cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#252"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method fetch arguments K  keyFrom|K  keyTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#264"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00264] For method backwardFetch arguments K  keyFrom|K  keyTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#277"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00277] For method findSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#280"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.findSessions@POLYN227291 the MagicNumber/String  'key cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00295"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#295"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method backwardFindSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#298"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.backwardFindSessions@POLYN227993 the MagicNumber/String  'key cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#315"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00315] For method findSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#335"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00335] For method findSessions arguments long  earliestSessionEndTime|long  latestSessionEndTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#347"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00347] For method backwardFindSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#384"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00384] The argument query is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#386"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00386] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#391"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#395"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  'Handled in ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#395"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ' in ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#395"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  'ns' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#406"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  'Handled in ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#406"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ' with serdes ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00407"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#407"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ' in ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00407"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#407"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  'ns' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00447"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#447"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  'This store (' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00447"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#447"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ') doesn't know how to' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#448"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ' execute the given query (' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#448"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ') because' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00449"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#449"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ' SessionStores only support WindowRangeQuery.withKey.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#450"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00451"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#451"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.streams.state.internals.MeteredSessionStore the MagicNumber/String  ' for a new query type.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#457"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00457] For method keyBytes arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00458"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#458"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.keyBytes@POLYN234916 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00458"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#458"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.keyBytes@POLYN234916 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00464"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.streams.state.internals.MeteredSessionStore.maybeRecordE2ELatency@POLYN235167 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00075] The class RawAndDeserializedValue contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

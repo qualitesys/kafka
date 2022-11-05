@@ -1,74 +1,30 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java 1 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java 5 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KeyValueIterator<K,V>"
- , "c2" : "org.apache.kafka.streams.state.internals.KeyValueIteratorFacade"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.KeyValueIterators"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.KeyValueIteratorFacade" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html#13"
- , "c1" : "KeyValueIteratorFacade"
- , "c2" : "KeyValueIteratorFacade(KeyValueIterator<K,ValueAndTimestamp<V>>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html#18"
- , "c1" : "boolean"
- , "c2" : "hasNext()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html#23"
- , "c1" : "K"
- , "c2" : "peekNextKey()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html#28"
- , "c1" : "KeyValue<K,V>"
- , "c2" : "next()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html#34"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.KeyValueIterators" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.svg" }
 
 ] 
 , 
@@ -95,23 +51,74 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.html#10"
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class KeyValueIteratorFacade contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00011] The class KeyValueIterators contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#13"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00013] The class EmptyKeyValueIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#26"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.KeyValueIterators.EmptyKeyValueIterator.hasNext@POLYN145884 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#16"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00016] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#16"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00016] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIteratorFacade.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

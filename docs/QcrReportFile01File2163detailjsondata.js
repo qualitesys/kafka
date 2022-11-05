@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java 2 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "Message"
- , "c2" : "org.apache.kafka.trogdor.rest.StopTaskRequest"
+ , "c2" : "org.apache.kafka.trogdor.rest.StopWorkerRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.rest.StopTaskRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.StopWorkerRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00013"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#13"
- , "c1" : "StopTaskRequest"
- , "c2" : "StopTaskRequest(String)"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.html#13"
+ , "c1" : "StopWorkerRequest"
+ , "c2" : "StopWorkerRequest(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00018"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#18"
- , "c1" : "String"
- , "c2" : "id()"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.html#18"
+ , "c1" : "long"
+ , "c2" : "workerId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.svg" }
 
 ] 
 , 
@@ -66,32 +66,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
-}}
- ] 
 ,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN142375 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN142375 the MagicNumber/String  '' should be converted to const"
-}} 
-]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.svg" }
+"data15" : {
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopWorkerRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

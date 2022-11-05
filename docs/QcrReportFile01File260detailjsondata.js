@@ -1,48 +1,23 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/IsolationLevel.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/IsolationLevel.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/IsolationLevel.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.InvalidRecordException"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.InvalidRecordException" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.html#10"
- , "c1" : "InvalidRecordException"
- , "c2" : "InvalidRecordException(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.html#14"
- , "c1" : "InvalidRecordException"
- , "c2" : "InvalidRecordException(String;Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "org.apache.kafka.common." , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.png" 
-
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -66,8 +41,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/IsolationLevel.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

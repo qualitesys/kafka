@@ -1,74 +1,146 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java 26 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java 22 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WrappedStateStore<T,K,V>"
- , "c2" : "org.apache.kafka.streams.processor.internals.AbstractReadWriteDecorator"
+ , "c1" : "Task"
+ , "c2" : "org.apache.kafka.streams.processor.internals.AbstractTask"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.AbstractReadWriteDecorator" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#25"
- , "c1" : "AbstractReadWriteDecorator"
- , "c2" : "AbstractReadWriteDecorator(T)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#31"
- , "c1" : "void"
- , "c2" : "init(ProcessorContext;StateStore)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#37"
- , "c1" : "void"
- , "c2" : "init(StateStoreContext;StateStore)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.AbstractTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#43"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#43"
+ , "c1" : "AbstractTask"
+ , "c2" : "AbstractTask(TaskId;ProcessorTopology;StateDirectory;ProcessorStateManager;Set<TopicPartition>;long;String;Class<?extendsAbstractTask>)"
+ , "c3" : "1"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#66"
  , "c1" : "void"
- , "c2" : "close()"
+ , "c2" : "maybeCheckpoint(boolean)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#77"
+ , "c1" : "TaskId"
+ , "c2" : "id()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#47"
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#82"
+ , "c1" : "Set<TopicPartition>"
+ , "c2" : "inputPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#87"
+ , "c1" : "Collection<TopicPartition>"
+ , "c2" : "changelogPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#92"
+ , "c1" : "void"
+ , "c2" : "markChangelogAsCorrupted(Collection<TopicPartition>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#97"
  , "c1" : "StateStore"
- , "c2" : "getReadWriteStore(StateStore)"
- , "c3" : "11"
+ , "c2" : "getStore(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#102"
+ , "c1" : "Task.State"
+ , "c2" : "state()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#107"
+ , "c1" : "void"
+ , "c2" : "revive()"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#116"
+ , "c1" : "void"
+ , "c2" : "transitionTo(Task.State)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#127"
+ , "c1" : "void"
+ , "c2" : "updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#133"
+ , "c1" : "void"
+ , "c2" : "maybeInitTaskTimeoutOrThrow(long;Exception)"
+ , "c3" : "8"
  , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00170"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#170"
+ , "c1" : "void"
+ , "c2" : "clearTaskTimeout()"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.svg" }
 
 ] 
 , 
@@ -93,200 +165,218 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "12"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "26"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method init arguments ProcessorContext  context|StateStore  root"
+ , "c1" : "00023"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00023] The class AbstractTask contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method init arguments StateStoreContext  context|StateStore  root"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.AbstractTask.AbstractTask@POLYN167947 the MagicNumber/String  'stream-thread [%s] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method getReadWriteStore arguments StateStore  store"
+ , "c1" : "00059"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.processor.internals.AbstractTask.AbstractTask@POLYN167947 the MagicNumber/String  '%s [%s] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#72"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method get arguments K  key"
+ , "c3" : "QC-JAV000006[00066] For method maybeCheckpoint arguments boolean  enforceCheckpoint"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#77"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method range arguments K  from|K  to"
+ , "c3" : "QC-JAV000007[00066] For method maybeCheckpoint list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Long&gt; stateMgr_changelogOffsetsN169526"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#83"
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method reverseRange arguments K  from|K  to"
+ , "c3" : "QC-JAV000006[00092] For method markChangelogAsCorrupted arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#110"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method put arguments K  key|V  value"
+ , "c3" : "QC-JAV000006[00097] For method getStore arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.AbstractTask.revive@POLYN170737 the MagicNumber/String  'Illegal state ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.AbstractTask.revive@POLYN170737 the MagicNumber/String  ' while reviving task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method putIfAbsent arguments K  key|V  value"
+ , "c3" : "QC-JAV000006[00116] For method transitionTo arguments Task.State  newState"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method putAll arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  entries"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.internals.AbstractTask.transitionTo@POLYN171131 the MagicNumber/String  'Invalid transition from ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.processor.internals.AbstractTask.transitionTo@POLYN171131 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00127] For method delete arguments K  key"
+ , "c3" : "QC-JAV000006[00127] For method updateInputPartitions arguments Set&lt;TopicPartition &gt;  topicPartitions|Map&lt;String ,List&lt;String &gt; &gt;  allTopologyNodesToSourceTopics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#150"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method put arguments K  key|V  value|long  windowStartTimestamp"
+ , "c3" : "QC-JAV000006[00133] For method maybeInitTaskTimeoutOrThrow arguments long  currentWallClockMs|Exception  cause"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#157"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method fetch arguments K  key|long  time"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.processor.internals.AbstractTask.maybeInitTaskTimeoutOrThrow@POLYN171918 the MagicNumber/String  'Task %s did not make progress within %d ms. Adjust `%s` if needed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method fetch arguments K  key|long  timeFrom|long  timeTo"
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.processor.internals.AbstractTask.maybeInitTaskTimeoutOrThrow@POLYN171918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method backwardFetch arguments K  key|long  timeFrom|long  timeTo"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.AbstractTask.maybeInitTaskTimeoutOrThrow@POLYN171918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#177"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method fetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.AbstractTask.maybeInitTaskTimeoutOrThrow@POLYN171918 the MagicNumber/String  'Task did not make progress. Remaining time to deadline %d; retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#185"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method backwardFetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.AbstractTask.maybeInitTaskTimeoutOrThrow@POLYN171918 the MagicNumber/String  'Task did not make progress. Remaining time to deadline {}; retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#193"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00193] For method fetchAll arguments long  timeFrom|long  timeTo"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.processor.internals.AbstractTask.clearTaskTimeout@POLYN173235 the MagicNumber/String  'Clearing task timeout.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#199"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.AbstractTask.clearTaskTimeout@POLYN173235"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00233] For method findSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#240"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00240] For method findSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#248"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00248] For method findSessions arguments long  earliestSessionEndTime|long  latestSessionEndTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#254"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00254] For method remove arguments Windowed&lt;K &gt;  sessionKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#259"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00259] For method put arguments Windowed&lt;K &gt;  sessionKey|AGG  aggregate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#265"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00265] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#272"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00272] For method fetch arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#277"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00277] For method fetch arguments K  keyFrom|K  keyTo"
+ , "c1" : "00172"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.streams.processor.internals.AbstractTask.clearTaskTimeout@POLYN173235 the MagicNumber/String 'Clearing task timeout.' MUST BE CONVERTED to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

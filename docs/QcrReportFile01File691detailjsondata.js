@@ -1,144 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java 12 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java 8 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractResponse"
- , "c2" : "org.apache.kafka.common.requests.LeaveGroupResponse"
+ , "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.ListGroupsRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.LeaveGroupResponse" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.ListGroupsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#21"
- , "c1" : "LeaveGroupResponse"
- , "c2" : "LeaveGroupResponse(LeaveGroupResponseData)"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#43"
+ , "c1" : "ListGroupsRequest"
+ , "c2" : "ListGroupsRequest(ListGroupsRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#26"
- , "c1" : "LeaveGroupResponse"
- , "c2" : "LeaveGroupResponse(List<MemberResponse>;Errors;int;short)"
- , "c3" : "4"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
  , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#49"
- , "c1" : "int"
- , "c2" : "throttleTimeMs()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#49"
+ , "c1" : "ListGroupsResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "2"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#53"
- , "c1" : "List<MemberResponse>"
- , "c2" : "memberResponses()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#57"
- , "c1" : "Errors"
- , "c2" : "error()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#61"
- , "c1" : "Errors"
- , "c2" : "topLevelError()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#65"
- , "c1" : "Errors"
- , "c2" : "getError(Errors;List<MemberResponse>)"
- , "c3" : "5"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#80"
- , "c1" : "Map<Errors,Integer>"
- , "c2" : "errorCounts()"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#93"
- , "c1" : "LeaveGroupResponseData"
- , "c2" : "data()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#97"
- , "c1" : "LeaveGroupResponse"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#59"
+ , "c1" : "ListGroupsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#102"
- , "c1" : "boolean"
- , "c2" : "shouldClientThrottle(short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#107"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#113"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#118"
- , "c1" : "String"
- , "c2" : "toString()"
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#64"
+ , "c1" : "ListGroupsRequestData"
+ , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -147,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.svg" }
 
 ] 
 , 
@@ -174,139 +84,83 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#27"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00027] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.LeaveGroupResponse.LeaveGroupResponse@POLYN159448 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.requests.LeaveGroupResponse.LeaveGroupResponse@POLYN159448 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#65"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method getError arguments Errors  topLevelError|List&lt;MemberResponse &gt;  memberResponses"
+ , "c3" : "QC-JAV000006[00027] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#70"
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00070] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method parse arguments ByteBuffer  buffer|short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method shouldClientThrottle arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#103"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.requests.LeaveGroupResponse.shouldClientThrottle@POLYN162637 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  'The broker only supports ListGroups ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#107"
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  'v' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#30"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.ListGroupsRequest.Builder.build@POLYN149978 the MagicNumber/String  ', but we need v4 or newer to request groups by states.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00049] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.memberResponses@POLYN160519"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.ListGroupsRequest.getErrorResponse@POLYN150858 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.throttleTimeMs@POLYN160392"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.LeaveGroupResponse.toString@POLYN163184"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00059] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

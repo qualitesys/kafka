@@ -1,65 +1,74 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java 6 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java 9 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "PayloadGenerator"
- , "c2" : "org.apache.kafka.trogdor.workload.ConstantPayloadGenerator"
+ , "c1" : "ThroughputGenerator"
+ , "c2" : "org.apache.kafka.trogdor.workload.ConstantThroughputGenerator"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.workload.ConstantPayloadGenerator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.ConstantThroughputGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#13"
- , "c1" : "ConstantPayloadGenerator"
- , "c2" : "ConstantPayloadGenerator(int;byte[])"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#20"
- , "c1" : "int"
- , "c2" : "size()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#25"
- , "c1" : "byte[]"
- , "c2" : "value()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#18"
+ , "c1" : "ConstantThroughputGenerator"
+ , "c2" : "ConstantThroughputGenerator(int;long)"
+ , "c3" : "2"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00030"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#30"
- , "c1" : "byte[]"
- , "c2" : "generate(long)"
- , "c3" : "2"
- , "c4" : "5"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#30"
+ , "c1" : "long"
+ , "c2" : "windowSizeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#35"
+ , "c1" : "int"
+ , "c2" : "messagesPerWindow()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#39"
+ , "c1" : "void"
+ , "c2" : "calculateNextWindow()"
+ , "c3" : "4"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#55"
+ , "c1" : "void"
+ , "c2" : "throttle()"
+ , "c3" : "5"
+ , "c4" : "4"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.svg" }
 
 ] 
 , 
@@ -96,62 +105,92 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#8"
+ , "c1" : "00010"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00008] The class ConstantPayloadGenerator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class ConstantThroughputGenerator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#16"
+ , "c1" : "00021"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.ConstantPayloadGenerator@POLYN145272 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.ConstantThroughputGenerator.ConstantThroughputGenerator@POLYN151017 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#16"
+ , "c1" : "00022"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.ConstantPayloadGenerator@POLYN145272 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.trogdor.workload.ConstantThroughputGenerator.ConstantThroughputGenerator@POLYN151017 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#30"
+ , "c1" : "00039"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method generate arguments long  position"
+ , "c3" : "QC-JAV000007[00039] For method calculateNextWindow list of called methods Object monObjet|long Time_SYSTEM_millisecondsN151826"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#32"
+ , "c1" : "00041"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.generate@POLYN145998 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.ConstantThroughputGenerator.calculateNextWindow@POLYN151699 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.html#33"
+ , "c1" : "00045"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.ConstantPayloadGenerator.generate@POLYN145998 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.trogdor.workload.ConstantThroughputGenerator.calculateNextWindow@POLYN151699 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#55"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00055] Lock statement on synchronized method throttle"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.workload.ConstantThroughputGenerator.throttle@POLYN152197 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.workload.ConstantThroughputGenerator.throttle@POLYN152197 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantPayloadGenerator.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantThroughputGenerator.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

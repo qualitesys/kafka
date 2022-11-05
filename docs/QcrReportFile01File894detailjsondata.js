@@ -1,38 +1,191 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java 40 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java 24 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.utils.ConfigUtils"
+ , "c1" : "ConcurrentMap<K,V>"
+ , "c2" : "org.apache.kafka.common.utils.CopyOnWriteMap"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.utils.ConfigUtils" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.utils.CopyOnWriteMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82"
- , "c1" : "String"
- , "c2" : "configMapToRedactedString(Map<String,Object>;ConfigDef)"
- , "c3" : "8"
- , "c4" : "14"
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#16"
+ , "c1" : "CopyOnWriteMap"
+ , "c2" : "CopyOnWriteMap()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#20"
+ , "c1" : "CopyOnWriteMap"
+ , "c2" : "CopyOnWriteMap(Map<K,V>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#25"
+ , "c1" : "boolean"
+ , "c2" : "containsKey(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#30"
+ , "c1" : "boolean"
+ , "c2" : "containsValue(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#35"
+ , "c1" : "Set<java.util.Map.Entry<K,V>>"
+ , "c2" : "entrySet()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#40"
+ , "c1" : "V"
+ , "c2" : "get(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#45"
+ , "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#50"
+ , "c1" : "Set<K>"
+ , "c2" : "keySet()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#55"
+ , "c1" : "int"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#60"
+ , "c1" : "Collection<V>"
+ , "c2" : "values()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#65"
+ , "c1" : "void"
+ , "c2" : "clear()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#70"
+ , "c1" : "V"
+ , "c2" : "put(K;V)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#78"
+ , "c1" : "void"
+ , "c2" : "putAll(Map<?extendsK,?extendsV>)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#85"
+ , "c1" : "V"
+ , "c2" : "remove(Object)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#93"
+ , "c1" : "V"
+ , "c2" : "putIfAbsent(K;V)"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#101"
+ , "c1" : "boolean"
+ , "c2" : "remove(Object;Object)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#111"
+ , "c1" : "boolean"
+ , "c2" : "replace(K;V;V)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#121"
+ , "c1" : "V"
+ , "c2" : "replace(K;V)"
+ , "c3" : "3"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.svg" }
 
 ] 
 , 
@@ -59,20 +212,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -83,307 +222,197 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "31"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "8"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#21"
+ , "c1" : "00012"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00021] The class ConfigUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00012] The class CopyOnWriteMap contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00025"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#25"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00025] For method containsKey arguments Object  k"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#30"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00030] For method containsValue arguments Object  v"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#32"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#40"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00040] For method get arguments Object  k"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#33"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00033] The argument aliasGroups is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  ' was configured, as well as the deprecated alias(es) ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  '.  Using the value of ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  'The configuration keys ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  ' are deprecated and may be ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  'removed in the future.  Additionally, this configuration is ambigous because ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  'these configuration keys are all aliases for ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  '.  Please update ' should be converted to const"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#65"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00065] Lock statement on synchronized method clear"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  'your configuration to have only ' should be converted to const"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#70"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00070] Lock statement on synchronized method put"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  ' set.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  'Configuration key ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  ' is deprecated and may be removed ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  'in the future.  Please update your configuration to use ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  ' instead.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.utils.ConfigUtils the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method configMapToRedactedString arguments Map&lt;String ,Object &gt;  map|ConfigDef  configDef"
+ , "c3" : "QC-JAV000006[00070] For method put arguments K  k|V  v"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82"
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#78"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00078] Lock statement on synchronized method putAll"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method configMapToRedactedString list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN174422"
+ , "c3" : "QC-JAV000006[00078] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00082] The argument map is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#85"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00085] Lock statement on synchronized method remove"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#82"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00082] The argument configDef is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00089] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method remove arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00093] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#93"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00093] Lock statement on synchronized method putIfAbsent"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  '{' should be converted to const"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#93"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00093] For method putIfAbsent arguments K  k|V  v"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  '' should be converted to const"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#101"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00101] Lock statement on synchronized method remove"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#88"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  '=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  '(redacted)' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  'null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  '\'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  ', ' should be converted to const"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#101"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00101] For method remove arguments Object  k|Object  v"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.ConfigUtils.configMapToRedactedString@POLYN173671 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN160388 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN160388 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#111"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00111] Lock statement on synchronized method replace"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#111"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00111] For method replace arguments K  k|V  original|V  replacement"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN160834 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN160834 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#121"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00121] Lock statement on synchronized method replace"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00121] For method replace arguments K  k|V  v"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN161327 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

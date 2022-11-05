@@ -1,65 +1,182 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java 6 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java 10 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "PayloadGenerator"
- , "c2" : "org.apache.kafka.trogdor.workload.SequentialPayloadGenerator"
+ , "c1" : "TaskSpec"
+ , "c2" : "org.apache.kafka.trogdor.workload.SustainedConnectionSpec"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.workload.SequentialPayloadGenerator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.SustainedConnectionSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#17"
- , "c1" : "SequentialPayloadGenerator"
- , "c2" : "SequentialPayloadGenerator(int;long)"
+ , "c5" : "00032"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#32"
+ , "c1" : "SustainedConnectionSpec"
+ , "c2" : "SustainedConnectionSpec(long;long;String;String;Map<String,String>;Map<String,String>;Map<String,String>;Map<String,String>;PayloadGenerator;PayloadGenerator;int;int;int;String;int;int)"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "15"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#28"
+ , "c5" : "00067"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#67"
+ , "c1" : "String"
+ , "c2" : "clientNode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#72"
+ , "c1" : "String"
+ , "c2" : "bootstrapServers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#77"
+ , "c1" : "Map<String,String>"
+ , "c2" : "producerConf()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#82"
+ , "c1" : "Map<String,String>"
+ , "c2" : "consumerConf()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#87"
+ , "c1" : "Map<String,String>"
+ , "c2" : "adminClientConf()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#92"
+ , "c1" : "Map<String,String>"
+ , "c2" : "commonClientConf()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#97"
+ , "c1" : "PayloadGenerator"
+ , "c2" : "keyGenerator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#102"
+ , "c1" : "PayloadGenerator"
+ , "c2" : "valueGenerator()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#107"
  , "c1" : "int"
- , "c2" : "size()"
+ , "c2" : "producerConnectionCount()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#33"
- , "c1" : "long"
- , "c2" : "startOffset()"
+ , "c5" : "00112"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#112"
+ , "c1" : "int"
+ , "c2" : "consumerConnectionCount()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#38"
- , "c1" : "byte[]"
- , "c2" : "generate(long)"
+ , "c5" : "00117"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#117"
+ , "c1" : "int"
+ , "c2" : "metadataConnectionCount()"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#122"
+ , "c1" : "String"
+ , "c2" : "topicName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#127"
+ , "c1" : "int"
+ , "c2" : "numThreads()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#132"
+ , "c1" : "int"
+ , "c2" : "refreshRateMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#136"
+ , "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#141"
+ , "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.svg" }
 
 ] 
 , 
@@ -87,78 +204,94 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "INFO"
- , "c2" : "QC-JAV000019"
- , "c3" : "Lock statement"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#11"
+ , "c1" : "00050"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class SequentialPayloadGenerator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#21"
+ , "c1" : "00050"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.SequentialPayloadGenerator@POLYN146809 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#38"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00038] Lock statement on synchronized method generate"
+ , "c1" : "00051"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#38"
+ , "c1" : "00051"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN165966 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method generate arguments long  position"
+ , "c3" : "QC-JAV000006[00136] For method newController arguments String  id"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN147542 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.trogdor.workload.SequentialPayloadGenerator.generate@POLYN147542 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00141"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#141"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00141] For method newTaskWorker arguments String  id"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SequentialPayloadGenerator.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

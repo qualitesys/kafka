@@ -1,83 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java 4 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractResponse"
- , "c2" : "org.apache.kafka.common.requests.DescribeTransactionsResponse"
+ , "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.DescribeTransactionsResponse" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#17"
- , "c1" : "DescribeTransactionsResponse"
- , "c2" : "DescribeTransactionsResponse(DescribeTransactionsResponseData)"
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#35"
+ , "c1" : "DescribeUserScramCredentialsRequest"
+ , "c2" : "DescribeUserScramCredentialsRequest(DescribeUserScramCredentialsRequestData;short)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#23"
- , "c1" : "DescribeTransactionsResponseData"
- , "c2" : "data()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#28"
- , "c1" : "Map<Errors,Integer>"
- , "c2" : "errorCounts()"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#37"
- , "c1" : "DescribeTransactionsResponse"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#41"
+ , "c1" : "DescribeUserScramCredentialsRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#43"
- , "c1" : "String"
- , "c2" : "toString()"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#47"
+ , "c1" : "DescribeUserScramCredentialsRequestData"
+ , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#48"
- , "c1" : "int"
- , "c2" : "throttleTimeMs()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#52"
+ , "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "2"
+ , "c4" : "4"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.svg" }
 
 ] 
 , 
@@ -102,69 +84,55 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00031] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#37"
+ , "c1" : "00022"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00022] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeTransactionsResponse.throttleTimeMs@POLYN147912"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#41"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00041] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeTransactionsResponse.toString@POLYN147792"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#52"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00052] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.html#52"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00052] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN150146"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeTransactionsResponse.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeUserScramCredentialsRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

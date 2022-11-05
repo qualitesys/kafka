@@ -1,83 +1,92 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java 8 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java 10 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "FuturePurgatory<T>"
- , "c2" : "org.apache.kafka.raft.internals.ThresholdPurgatory"
+ , "c1" : "RawSnapshotReader"
+ , "c2" : "org.apache.kafka.snapshot.FileRawSnapshotReader"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.internals.ThresholdPurgatory" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.snapshot.FileRawSnapshotReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#18"
- , "c1" : "ThresholdPurgatory"
- , "c2" : "ThresholdPurgatory(ExpirationService)"
+ , "c5" : "00017"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#17"
+ , "c1" : "FileRawSnapshotReader"
+ , "c2" : "FileRawSnapshotReader(FileRecords;OffsetAndEpoch)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00023"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#23"
- , "c1" : "CompletableFuture<Long>"
- , "c2" : "await(T;long)"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#23"
+ , "c1" : "OffsetAndEpoch"
+ , "c2" : "snapshotId()"
  , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#32"
- , "c1" : "void"
- , "c2" : "maybeComplete(T;long)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#41"
- , "c1" : "void"
- , "c2" : "completeAll(long)"
- , "c3" : "2"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#48"
- , "c1" : "void"
- , "c2" : "completeAllExceptionally(Throwable)"
- , "c3" : "2"
+ , "c5" : "00028"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#28"
+ , "c1" : "long"
+ , "c2" : "sizeInBytes()"
+ , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#33"
+ , "c1" : "UnalignedRecords"
+ , "c2" : "slice(long;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#38"
+ , "c1" : "Records"
+ , "c2" : "records()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#43"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00055"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#55"
- , "c1" : "int"
- , "c2" : "numWaiting()"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55"
+ , "c1" : "FileRawSnapshotReader"
+ , "c2" : "open(Path;OffsetAndEpoch)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "5"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.svg" }
 
 ] 
 , 
@@ -107,83 +116,106 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#12"
+ , "c1" : "00013"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class ThresholdPurgatory contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00013] The class FileRawSnapshotReader contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#23"
+ , "c1" : "00033"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method await arguments T  threshold|long  maxWaitTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method maybeComplete arguments T  value|long  currentTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method completeAll arguments long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00033] For method slice arguments long  position|int  size"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method completeAllExceptionally arguments Throwable  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#59"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00059] The class ThresholdKey contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.snapshot.FileRawSnapshotReader.close@POLYN149748 the MagicNumber/String  'Unable to close snapshot reader %s at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#69"
+ , "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method compareTo arguments ThresholdKey&lt;T &gt;  o"
+ , "c3" : "QC-JAV000006[00055] For method open arguments Path  logDir|OffsetAndEpoch  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#71"
+ , "c1" : "00055"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00055] For method open list of called methods Object monObjet|java.nio.file.Path Snapshots_snapshotPathN150367"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.raft.internals.ThresholdPurgatory.ThresholdKey.compareTo@POLYN154790 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.snapshot.FileRawSnapshotReader.open@POLYN150216 the MagicNumber/String  'Unable to Opens a snapshot file %s' should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

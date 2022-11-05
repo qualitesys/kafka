@@ -1,56 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java 0 rule violation " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java 2 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.common.serialization.RecordSerde"
+ , "c1" : "JmxReporter"
+ , "c2" : "org.apache.kafka.server.metrics.FilteringJmxReporter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.common.serialization.RecordSerde" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.metrics.FilteringJmxReporter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.html#11"
- , "c1" : "int"
- , "c2" : "recordSize(T;ObjectSerializationCache)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#16"
+ , "c1" : "FilteringJmxReporter"
+ , "c2" : "FilteringJmxReporter(MetricsRegistry;Predicate<MetricName>)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.html#14"
+ , "c5" : "00022"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22"
  , "c1" : "void"
- , "c2" : "write(T;ObjectSerializationCache;Writable)"
- , "c3" : "1"
+ , "c2" : "onMetricAdded(MetricName;Metric)"
+ , "c3" : "2"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.html#17"
- , "c1" : "T"
- , "c2" : "read(Readable;int)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00028"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#28"
+ , "c1" : "void"
+ , "c2" : "updatePredicate(Predicate<MetricName>)"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.png" 
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.svg" }
 
 ] 
 , 
@@ -75,8 +75,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.svg" }
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00022"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#22"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00022] For method onMetricAdded arguments MetricName  name|Metric  metric"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#28"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00028] For method updatePredicate arguments Predicate&lt;MetricName &gt;  predicate"
+}} 
+]
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

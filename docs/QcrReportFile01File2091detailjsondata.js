@@ -1,63 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java 7 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java 3 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractStoreBuilder<K,V,WindowStore<K,V>>"
- , "c2" : "org.apache.kafka.streams.state.internals.WindowStoreBuilder"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.WindowStoreBuilder" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#20"
- , "c1" : "WindowStoreBuilder"
- , "c2" : "WindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
- , "c3" : "2"
- , "c4" : "5"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#19"
+ , "c1" : "WindowStoreIteratorWrapper"
+ , "c2" : "WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#35"
- , "c1" : "WindowStore<K,V>"
- , "c2" : "build()"
- , "c3" : "2"
- , "c4" : "3"
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#24"
+ , "c1" : "WindowStoreIteratorWrapper"
+ , "c2" : "WindowStoreIteratorWrapper(KeyValueIterator<Bytes,byte[]>;long;Function<byte[],Long>;BiFunction<byte[],Long,Windowed<Bytes>>)"
+ , "c3" : "1"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#50"
- , "c1" : "WindowStore<Bytes,byte[]>"
- , "c2" : "maybeWrapCaching(WindowStore<Bytes,byte[]>)"
- , "c3" : "2"
- , "c4" : "2"
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#34"
+ , "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "valuesIterator()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#60"
- , "c1" : "WindowStore<Bytes,byte[]>"
- , "c2" : "maybeWrapLogging(WindowStore<Bytes,byte[]>)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#71"
- , "c1" : "long"
- , "c2" : "retentionPeriod()"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#38"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "keyValueIterator()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.svg" }
 
 ] 
 , 
@@ -95,79 +86,39 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#20"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument storeSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#25"
+ , "c1" : "00012"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.WindowStoreBuilder.WindowStoreBuilder@POLYN151284 the MagicNumber/String  'storeSupplier can't be null' should be converted to const"
+ , "c3" : "QC-JAV000008[00012] The class WindowStoreIteratorWrapper contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#26"
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.state.internals.WindowStoreBuilder.WindowStoreBuilder@POLYN151284 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
+ , "c3" : "QC-JAV000008[00042] The class WrappedWindowStoreIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#37"
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.WindowStoreBuilder.build@POLYN152147 the MagicNumber/String  'Disabling caching for {} since store was configured to retain duplicates' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.WindowStoreBuilder.build@POLYN152147 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method maybeWrapCaching arguments WindowStore&lt;Bytes ,byte[] &gt;  inner"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method maybeWrapLogging arguments WindowStore&lt;Bytes ,byte[] &gt;  inner"
+ , "c3" : "QC-JAV000008[00076] The class WrappedKeyValueIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreBuilder.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

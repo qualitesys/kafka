@@ -1,119 +1,47 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java 12 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java 3 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Thread"
- , "c2" : "org.apache.kafka.connect.util.ShutdownableThread"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.util.SinkUtils"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.util.ShutdownableThread" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.util.SinkUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#21"
- , "c1" : "ShutdownableThread"
- , "c2" : "ShutdownableThread(String)"
+ , "c5" : "00006"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#6"
+ , "c1" : "SinkUtils"
+ , "c2" : "SinkUtils()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00008"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#8"
+ , "c1" : "String"
+ , "c2" : "consumerGroupId(String)"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#28"
- , "c1" : "ShutdownableThread"
- , "c2" : "ShutdownableThread(String;boolean)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#36"
- , "c1" : "void"
- , "c2" : "execute()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#39"
- , "c1" : "boolean"
- , "c2" : "getRunning()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#44"
- , "c1" : "void"
- , "c2" : "run()"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#56"
- , "c1" : "void"
- , "c2" : "shutdown(long;TimeUnit)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#64"
- , "c1" : "boolean"
- , "c2" : "gracefulShutdown(long;TimeUnit)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#70"
- , "c1" : "void"
- , "c2" : "startGracefulShutdown()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#76"
- , "c1" : "boolean"
- , "c2" : "awaitShutdown(long;TimeUnit)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#81"
- , "c1" : "void"
- , "c2" : "forceShutdown()"
- , "c3" : "1"
- , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.png" 
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.png" 
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.svg" }
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.svg" }
 
 ] 
 , 
@@ -141,8 +69,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE493"
- , "c3" : "Critical public variable without final modifier"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -150,13 +78,6 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAVCWE500"
- , "c3" : "Static public field not marked final"
  , "c4" : "1"
 }}
 ,
@@ -164,97 +85,36 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#19"
+ , "c1" : "00004"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#4"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00019] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAV000008[00004] The class SinkUtils contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#19"
+ , "c1" : "00008"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#8"
  , "c2" : "MINOR"
- , "c3" : "QC-JAVCWE500[00019] Static public field not marked final (see http://cwe.mitre.org/data/definitions/500.html)"
+ , "c3" : "QC-JAV000006[00008] For method consumerGroupId arguments String  connector"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#25"
+ , "c1" : "00009"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.connect.util.ShutdownableThread.ShutdownableThread@POLYN161282 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.util.ShutdownableThread.ShutdownableThread@POLYN161423 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.util.ShutdownableThread.run@POLYN162064 the MagicNumber/String  'Thread {} exiting with uncaught exception: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method shutdown arguments long  gracefulTimeout|TimeUnit  unit"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method gracefulShutdown arguments long  timeout|TimeUnit  unit"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.util.ShutdownableThread.startGracefulShutdown@POLYN163365 the MagicNumber/String  'Starting graceful shutdown of thread {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.util.ShutdownableThread.startGracefulShutdown@POLYN163365 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method awaitShutdown arguments long  timeout|TimeUnit  unit"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.util.ShutdownableThread.forceShutdown@POLYN164162 the MagicNumber/String  'Forcing shutdown of thread {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.util.ShutdownableThread.forceShutdown@POLYN164162 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.connect.util.SinkUtils.consumerGroupId@POLYN140468 the MagicNumber/String  'connect-' should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

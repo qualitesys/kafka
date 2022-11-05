@@ -1,74 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.ResourceNotFoundException"
+ , "c2" : "org.apache.kafka.common.errors.RetriableException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.ResourceNotFoundException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.RetriableException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#12"
- , "c1" : "ResourceNotFoundException"
- , "c2" : "ResourceNotFoundException(String)"
+ , "c5" : "00009"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.html#9"
+ , "c1" : "RetriableException"
+ , "c2" : "RetriableException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.html#13"
+ , "c1" : "RetriableException"
+ , "c2" : "RetriableException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#17"
- , "c1" : "ResourceNotFoundException"
- , "c2" : "ResourceNotFoundException(String;Throwable)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.html#17"
+ , "c1" : "RetriableException"
+ , "c2" : "RetriableException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#22"
- , "c1" : "ResourceNotFoundException"
- , "c2" : "ResourceNotFoundException(String;String)"
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.html#21"
+ , "c1" : "RetriableException"
+ , "c2" : "RetriableException()"
  , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#28"
- , "c1" : "ResourceNotFoundException"
- , "c2" : "ResourceNotFoundException(String;String;Throwable)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#34"
- , "c1" : "String"
- , "c2" : "resource()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "0"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.svg" }
 
 ] 
 , 
@@ -93,32 +84,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
-}}
- ] 
 ,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.common.errors.ResourceNotFoundException.ResourceNotFoundException@POLYN146692 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.common.errors.ResourceNotFoundException.ResourceNotFoundException@POLYN146907 the MagicNumber/String  null should be converted to const"
-}} 
-]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ResourceNotFoundException.java.svg" }
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/RetriableException.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

@@ -1,27 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsUncaughtExceptionHandler.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/StreamsUncaughtExceptionHandler.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsUncaughtExceptionHandler.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.errors.StreamsUncaughtExceptionHandler"
+ , "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.TaskAssignmentException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.StreamsUncaughtExceptionHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.TaskAssignmentException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsUncaughtExceptionHandler.java.html#6"
- , "c1" : "StreamThreadExceptionResponse"
- , "c2" : "handle(Throwable)"
+ , "c5" : "00009"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#9"
+ , "c1" : "TaskAssignmentException"
+ , "c2" : "TaskAssignmentException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#13"
+ , "c1" : "TaskAssignmentException"
+ , "c2" : "TaskAssignmentException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.html#17"
+ , "c1" : "TaskAssignmentException"
+ , "c2" : "TaskAssignmentException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsUncaughtExceptionHandler.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsUncaughtExceptionHandler.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.svg" }
 
 ] 
 , 
@@ -57,8 +75,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/StreamsUncaughtExceptionHandler.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskAssignmentException.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

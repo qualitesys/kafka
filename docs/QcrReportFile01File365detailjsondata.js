@@ -1,27 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidProducerEpochException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/InvalidProducerEpochException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidProducerEpochException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.InvalidProducerEpochException"
+ , "c2" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.InvalidProducerEpochException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidProducerEpochException.java.html#9"
- , "c1" : "InvalidProducerEpochException"
- , "c2" : "InvalidProducerEpochException(String)"
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#8"
+ , "c1" : "InvalidReplicaAssignmentException"
+ , "c2" : "InvalidReplicaAssignmentException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#12"
+ , "c1" : "InvalidReplicaAssignmentException"
+ , "c2" : "InvalidReplicaAssignmentException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidProducerEpochException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidProducerEpochException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.svg" }
 
 ] 
 , 
@@ -57,8 +66,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidProducerEpochException.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

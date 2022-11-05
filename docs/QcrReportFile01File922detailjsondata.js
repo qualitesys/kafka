@@ -1,45 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java 6 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.authorizer.AclCreateResult"
+ , "c2" : "org.apache.kafka.server.authorizer.AclDeleteResult"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.authorizer.AclCreateResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.authorizer.AclDeleteResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#16"
- , "c1" : "AclCreateResult"
- , "c2" : "AclCreateResult()"
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#18"
+ , "c1" : "AclDeleteResult"
+ , "c2" : "AclDeleteResult(ApiException)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#20"
- , "c1" : "AclCreateResult"
- , "c2" : "AclCreateResult(ApiException)"
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#22"
+ , "c1" : "AclDeleteResult"
+ , "c2" : "AclDeleteResult(Collection<AclBindingDeleteResult>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#25"
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#26"
+ , "c1" : "AclDeleteResult"
+ , "c2" : "AclDeleteResult(Collection<AclBindingDeleteResult>;ApiException)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#32"
  , "c1" : "Optional<ApiException>"
  , "c2" : "exception()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#37"
+ , "c1" : "Collection<AclBindingDeleteResult>"
+ , "c2" : "aclBindingDeleteResults()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.svg" }
 
 ] 
 , 
@@ -80,41 +98,64 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#11"
+ , "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class AclCreateResult contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class AclDeleteResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#17"
+ , "c1" : "00023"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.server.authorizer.AclCreateResult.AclCreateResult@POLYN143324 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclDeleteResult@POLYN150759 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#26"
+ , "c1" : "00033"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.server.authorizer.AclCreateResult.exception@POLYN143645 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.server.authorizer.AclDeleteResult.exception@POLYN151330 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00043] The class AclBindingDeleteResult contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult.AclBindingDeleteResult@POLYN151869 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult.exception@POLYN152546 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

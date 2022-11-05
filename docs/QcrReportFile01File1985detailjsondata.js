@@ -1,153 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java 15 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java 6 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WrappedStateStore<WindowStore<Bytes,byte[]>,byte[],byte[]>WindowStore<Bytes,byte[]>"
- , "c2" : "org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore"
+ , "c1" : "KeyValueIterator<K,V>"
+ , "c2" : "org.apache.kafka.streams.state.internals.CompositeKeyValueIterator"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.CompositeKeyValueIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#17"
+ , "c1" : "CompositeKeyValueIterator"
+ , "c2" : "CompositeKeyValueIterator(Iterator<StoreType>;NextIteratorFunction<K,V,StoreType>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#24"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
 { "ligne" : { "" : ""
  , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#32"
- , "c1" : "ChangeLoggingWindowBytesStore"
- , "c2" : "ChangeLoggingWindowBytesStore(WindowStore<Bytes,byte[]>;boolean;ChangeLoggingKeySerializer)"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#32"
+ , "c1" : "K"
+ , "c2" : "peekNextKey()"
  , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#37"
+ , "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#42"
- , "c1" : "void"
- , "c2" : "init(ProcessorContext;StateStore)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#49"
- , "c1" : "void"
- , "c2" : "init(StateStoreContext;StateStore)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#56"
- , "c1" : "byte[]"
- , "c2" : "fetch(Bytes;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#62"
- , "c1" : "WindowStoreIterator<byte[]>"
- , "c2" : "fetch(Bytes;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#69"
- , "c1" : "WindowStoreIterator<byte[]>"
- , "c2" : "backwardFetch(Bytes;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#76"
- , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
- , "c2" : "fetch(Bytes;Bytes;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#84"
- , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
- , "c2" : "backwardFetch(Bytes;Bytes;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#92"
- , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
- , "c2" : "all()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#98"
- , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
- , "c2" : "backwardAll()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#103"
- , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
- , "c2" : "fetchAll(long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#109"
- , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
- , "c2" : "backwardFetchAll(long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#115"
- , "c1" : "void"
- , "c2" : "put(Bytes;byte[];long)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#123"
- , "c1" : "void"
- , "c2" : "log(Bytes;byte[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00127"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#127"
- , "c1" : "int"
- , "c2" : "maybeUpdateSeqnumForDups()"
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#47"
+ , "c1" : "KeyValue<K,V>"
+ , "c2" : "next()"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -156,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.svg" }
 
 ] 
 , 
@@ -183,20 +93,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -204,125 +105,57 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "11"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#37"
+ , "c1" : "00010"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.ChangeLoggingWindowBytesStore@POLYN161266 the MagicNumber/String  'keySerializer' should be converted to const"
+ , "c3" : "QC-JAV000008[00010] The class CompositeKeyValueIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.close@POLYN146996 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.close@POLYN146996 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#33"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.peekNextKey@POLYN147243 the MagicNumber/String  'peekNextKey not supported' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#38"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.hasNext@POLYN147383 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method init arguments ProcessorContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method init arguments StateStoreContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method fetch arguments Bytes  key|long  timestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method fetch arguments Bytes  key|long  from|long  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method backwardFetch arguments Bytes  key|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#103"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method fetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#109"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#115"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method put arguments Bytes  key|byte[]  value|long  windowStartTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method log arguments Bytes  key|byte[]  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.maybeUpdateSeqnumForDups@POLYN165642 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.maybeUpdateSeqnumForDups@POLYN165642 the MagicNumber/String  0x7FFFFFFF should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore.put@POLYN164881"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.state.internals.CompositeKeyValueIterator.hasNext@POLYN147383 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ChangeLoggingWindowBytesStore.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

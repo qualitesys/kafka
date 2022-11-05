@@ -1,25 +1,25 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java 10 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.xml" 
+   "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html" 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java 12 rule violations " 
+ , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "Predicate<R>"
- , "c2" : "org.apache.kafka.connect.transforms.predicates.RecordIsTombstone"
+ , "c2" : "org.apache.kafka.connect.transforms.predicates.TopicNameMatches"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.transforms.predicates.RecordIsTombstone" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.transforms.predicates.TopicNameMatches" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#16"
+ , "c5" : "00029"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#29"
  , "c1" : "ConfigDef"
  , "c2" : "config()"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#21"
+ , "c5" : "00034"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#34"
  , "c1" : "boolean"
  , "c2" : "test(R)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#26"
+ , "c5" : "00039"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#39"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -45,17 +45,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#31"
+ , "c5" : "00044"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#44"
  , "c1" : "void"
  , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#36"
+ , "c5" : "00057"
+ , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#57"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -66,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.png" 
+   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.png" 
 
- , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.svg" }
+ , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.svg" }
 
 ] 
 , 
@@ -98,14 +98,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
  , "c3" : "You must segregate your interface"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -126,7 +126,14 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -139,77 +146,93 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#10"
+ , "c1" : "00015"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class RecordIsTombstone contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class TopicNameMatches contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#21"
+ , "c1" : "00034"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method test arguments R  record"
+ , "c3" : "QC-JAV000006[00034] For method test arguments R  record"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#21"
+ , "c1" : "00034"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#34"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00021] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00034] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#22"
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.test@POLYN144846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000021[00035] The same method call pattern.matcher(record.topic()) is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#31"
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#35"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.test@POLYN150493 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00044] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#37"
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.toString@POLYN145175 the MagicNumber/String  'RecordIsTombstone{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.configure@POLYN150807 the MagicNumber/String  'entry must be a Java-compatible regular expression: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#26"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00026] Void method close is empty or contains only a return."
+ , "c1" : "00058"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN151557 the MagicNumber/String  'TopicNameMatches{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#26"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00026] Void method close is empty or contains only a return. Interface segregation"
+ , "c1" : "00059"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN151557 the MagicNumber/String  'pattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#31"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00031] Void method configure is empty or contains only a return."
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN151557 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#31"
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#39"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00031] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000005[00039] Void method close is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#39"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00039] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

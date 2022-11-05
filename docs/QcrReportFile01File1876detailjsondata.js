@@ -1,65 +1,353 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java 31 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConsumerRebalanceListener"
- , "c2" : "org.apache.kafka.streams.processor.internals.StreamsRebalanceListener"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.internals.Task"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.StreamsRebalanceListener" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.Task" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#24"
- , "c1" : "StreamsRebalanceListener"
- , "c2" : "StreamsRebalanceListener(Time;TaskManager;StreamThread;Logger;AtomicInteger)"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#37"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#64"
  , "c1" : "void"
- , "c2" : "onPartitionsAssigned(Collection<TopicPartition>)"
- , "c3" : "10"
- , "c4" : "16"
+ , "c2" : "initializeIfNeeded()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#66"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#66"
  , "c1" : "void"
- , "c2" : "onPartitionsRevoked(Collection<TopicPartition>)"
- , "c3" : "2"
- , "c4" : "4"
+ , "c2" : "addPartitionsForOffsetReset(Set<TopicPartition>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#71"
+ , "c1" : "void"
+ , "c2" : "completeRestoration(java.util.function.Consumer<Set<TopicPartition>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#73"
+ , "c1" : "void"
+ , "c2" : "suspend()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#76"
+ , "c1" : "void"
+ , "c2" : "resume()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#79"
+ , "c1" : "void"
+ , "c2" : "closeDirty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#82"
+ , "c1" : "void"
+ , "c2" : "closeClean()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#88"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#88"
  , "c1" : "void"
- , "c2" : "onPartitionsLost(Collection<TopicPartition>)"
+ , "c2" : "updateInputPartitions(Set<TopicPartition>;Map<String,List<String>>)"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#91"
+ , "c1" : "void"
+ , "c2" : "maybeCheckpoint(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#93"
+ , "c1" : "void"
+ , "c2" : "markChangelogAsCorrupted(Collection<TopicPartition>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#96"
+ , "c1" : "void"
+ , "c2" : "revive()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#99"
+ , "c1" : "void"
+ , "c2" : "closeCleanAndRecycleState()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#104"
+ , "c1" : "void"
+ , "c2" : "addRecords(TopicPartition;Iterable<ConsumerRecord<byte[],byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00106"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#106"
+ , "c1" : "boolean"
+ , "c2" : "process(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#110"
+ , "c1" : "void"
+ , "c2" : "recordProcessBatchTime(long)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00113"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#113"
+ , "c1" : "void"
+ , "c2" : "recordProcessTimeRatioAndBufferSize(long;long)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#116"
+ , "c1" : "boolean"
+ , "c2" : "maybePunctuateStreamTime()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#120"
+ , "c1" : "boolean"
+ , "c2" : "maybePunctuateSystemTime()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#125"
+ , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+ , "c2" : "prepareCommit()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#127"
+ , "c1" : "void"
+ , "c2" : "postCommit(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#129"
+ , "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "purgeableOffsets()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#134"
+ , "c1" : "void"
+ , "c2" : "maybeInitTaskTimeoutOrThrow(long;Exception)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#137"
+ , "c1" : "void"
+ , "c2" : "clearTaskTimeout()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#141"
+ , "c1" : "TaskId"
+ , "c2" : "id()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00143"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#143"
+ , "c1" : "boolean"
+ , "c2" : "isActive()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#145"
+ , "c1" : "Set<TopicPartition>"
+ , "c2" : "inputPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00148"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#148"
+ , "c1" : "Collection<TopicPartition>"
+ , "c2" : "changelogPartitions()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#150"
+ , "c1" : "State"
+ , "c2" : "state()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#152"
+ , "c1" : "boolean"
+ , "c2" : "needsInitializationOrRestoration()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#156"
+ , "c1" : "boolean"
+ , "c2" : "commitNeeded()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00158"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#158"
+ , "c1" : "boolean"
+ , "c2" : "commitRequested()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#165"
+ , "c1" : "StateStore"
+ , "c2" : "getStore(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00168"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#168"
+ , "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "changelogOffsets()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00171"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#171"
+ , "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "committedOffsets()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00174"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#174"
+ , "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "highWaterMark()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00177"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.html#177"
+ , "c1" : "Optional<Long>"
+ , "c2" : "timeCurrentIdlingStarted()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.svg" }
 
 ] 
 , 
@@ -84,279 +372,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
 ,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "17"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00016] The class StreamsRebalanceListener contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'Received error code {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'One or more source topics were missing during rebalance' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'Received version probing code {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'Received error code {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'Hit an unexpected exception during task assignment phase of rebalance' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'A Kafka Streams client in this Kafka Streams application is requesting to shutdown the application' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'Received unknown error code {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String  'Hit an unrecognized exception during rebalance' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#66"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#66"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00066] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN158880 the MagicNumber/String  'Current state {}: revoked partitions {} because of consumer rebalance.\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN158880 the MagicNumber/String  '\tcurrently assigned active tasks: {}\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN158880 the MagicNumber/String  '\tcurrently assigned standby tasks: {}\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN158880 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN158880 the MagicNumber/String  'partition revocation took {} ms.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method onPartitionsLost arguments Collection&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN159842 the MagicNumber/String  'at state {}: partitions {} lost due to missed rebalance.\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN159842 the MagicNumber/String  '\tlost active tasks: {}\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN159842 the MagicNumber/String  '\tlost assigned standby tasks: {}\n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN159842 the MagicNumber/String  'partitions lost took {} ms.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#41"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'Received error code {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#43"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'One or more source topics were missing during rebalance' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#45"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'Received version probing code {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'Received error code {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#49"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'Hit an unexpected exception during task assignment phase of rebalance' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#51"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'A Kafka Streams client in this Kafka Streams application is requesting to shutdown the application' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#56"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'Received unknown error code {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'Hit an unrecognized exception during rebalance' MUST BE CONVERTED to const"
-}} 
-]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.svg" }
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Task.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

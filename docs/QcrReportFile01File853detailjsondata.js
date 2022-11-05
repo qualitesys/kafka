@@ -1,54 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java 2 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ScramCredentialCallback"
- , "c2" : "org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCredentialCallback"
+ , "c1" : "Deserializer<byte[]>"
+ , "c2" : "org.apache.kafka.common.serialization.ByteArrayDeserializer"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCredentialCallback" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.serialization.ByteArrayDeserializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.html#10"
- , "c1" : "void"
- , "c2" : "tokenOwner(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.html#14"
- , "c1" : "String"
- , "c2" : "tokenOwner()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.html#18"
- , "c1" : "void"
- , "c2" : "tokenExpiryTimestamp(Long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.html#22"
- , "c1" : "Long"
- , "c2" : "tokenExpiryTimestamp()"
+ , "c5" : "00007"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html#7"
+ , "c1" : "byte[]"
+ , "c2" : "deserialize(String;byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.svg" }
 
 ] 
 , 
@@ -86,30 +59,39 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.html#10"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00010] For method tokenOwner arguments String  tokenOwner"
+ , "c1" : "00004"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html#4"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00004] The class ByteArrayDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.html#18"
+ , "c1" : "00007"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.html#7"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method tokenExpiryTimestamp arguments Long  tokenExpiryTimestamp"
+ , "c3" : "QC-JAV000006[00007] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCredentialCallback.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.state.RocksDBConfigSetter"
+ , "c1" : "StoreSupplier<SessionStore<Bytes,byte[]>>"
+ , "c2" : "org.apache.kafka.streams.state.SessionBytesStoreSupplier"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.RocksDBConfigSetter" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.SessionBytesStoreSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.html#17"
- , "c1" : "void"
- , "c2" : "setConfig(String;Options;Map<String,Object>)"
+ , "c5" : "00010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#10"
+ , "c1" : "long"
+ , "c2" : "segmentIntervalMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.html#20"
- , "c1" : "void"
- , "c2" : "close(String;Options)"
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.html#13"
+ , "c1" : "long"
+ , "c2" : "retentionPeriod()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.svg" }
 
 ] 
 , 
@@ -66,8 +66,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/SessionBytesStoreSupplier.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

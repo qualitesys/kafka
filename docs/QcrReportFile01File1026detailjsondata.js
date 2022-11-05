@@ -1,88 +1,70 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java 25 rule violations " 
- , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.xml" 
+   "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html" 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java 64 rule violations " 
+ , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SourceConnector"
- , "c2" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector"
+ , "c1" : "SourceTask"
+ , "c2" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#36"
- , "c1" : "MirrorCheckpointConnector"
- , "c2" : "MirrorCheckpointConnector()"
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#55"
+ , "c1" : "MirrorCheckpointTask"
+ , "c2" : "MirrorCheckpointTask()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#41"
- , "c1" : "MirrorCheckpointConnector"
- , "c2" : "MirrorCheckpointConnector(List<String>;MirrorConnectorConfig)"
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#58"
+ , "c1" : "MirrorCheckpointTask"
+ , "c2" : "MirrorCheckpointTask(String;String;ReplicationPolicy;OffsetSyncStore;Map<String,Map<TopicPartition,OffsetAndMetadata>>;Map<String,List<Checkpoint>>)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#47"
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#71"
  , "c1" : "void"
  , "c2" : "start(Map<String,String>)"
- , "c3" : "2"
- , "c4" : "12"
+ , "c3" : "1"
+ , "c4" : "19"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#66"
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#96"
+ , "c1" : "void"
+ , "c2" : "commit()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#101"
  , "c1" : "void"
  , "c2" : "stop()"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#76"
- , "c1" : "Class<?extendsTask>"
- , "c2" : "taskClass()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "9"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#82"
- , "c1" : "List<Map<String,String>>"
- , "c2" : "taskConfigs(int)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#97"
- , "c1" : "ConfigDef"
- , "c2" : "config()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#102"
+ , "c5" : "00114"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#114"
  , "c1" : "String"
  , "c2" : "version()"
  , "c3" : "1"
@@ -90,66 +72,129 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#106"
- , "c1" : "void"
- , "c2" : "refreshConsumerGroups()"
+ , "c5" : "00119"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#119"
+ , "c1" : "List<SourceRecord>"
+ , "c2" : "poll()"
+ , "c3" : "5"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#142"
+ , "c1" : "List<SourceRecord>"
+ , "c2" : "sourceRecordsForGroup(String)"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00156"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#156"
+ , "c1" : "List<Checkpoint>"
+ , "c2" : "checkpointsForGroup(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#165"
+ , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+ , "c2" : "listConsumerGroupOffsets(String)"
  , "c3" : "2"
- , "c4" : "11"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#125"
- , "c1" : "void"
- , "c2" : "loadInitialConsumerGroups()"
+ , "c5" : "00174"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#174"
+ , "c1" : "Optional<Checkpoint>"
+ , "c2" : "checkpoint(String;TopicPartition;OffsetAndMetadata)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00186"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#186"
+ , "c1" : "SourceRecord"
+ , "c2" : "checkpointRecord(Checkpoint;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00130"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#130"
- , "c1" : "List<String>"
- , "c2" : "findConsumerGroups()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00195"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#195"
+ , "c1" : "TopicPartition"
+ , "c2" : "renameTopicPartition(TopicPartition)"
+ , "c3" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00138"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#138"
- , "c1" : "Collection<ConsumerGroupListing>"
- , "c2" : "listConsumerGroups()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#143"
- , "c1" : "void"
- , "c2" : "createInternalTopics()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00148"
- , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#148"
+ , "c5" : "00207"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#207"
  , "c1" : "boolean"
- , "c2" : "shouldReplicate(String)"
+ , "c2" : "shouldCheckpointTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00212"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#212"
+ , "c1" : "void"
+ , "c2" : "commitRecord(SourceRecord;RecordMetadata)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00218"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#218"
+ , "c1" : "void"
+ , "c2" : "refreshIdleConsumerGroupOffset()"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00240"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#240"
+ , "c1" : "Map<String,Map<TopicPartition,OffsetAndMetadata>>"
+ , "c2" : "syncGroupOffset()"
+ , "c3" : "7"
+ , "c4" : "22"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00292"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#292"
+ , "c1" : "void"
+ , "c2" : "syncGroupOffset(String;Map<TopicPartition,OffsetAndMetadata>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00300"
+ , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#300"
+ , "c1" : "Map<String,Map<TopicPartition,OffsetAndMetadata>>"
+ , "c2" : "getConvertedUpstreamOffset()"
+ , "c3" : "3"
+ , "c4" : "6"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.png" 
+   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.png" 
 
- , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.svg" }
+ , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.svg" }
 
 ] 
 , 
@@ -188,28 +233,42 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "7"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
+ , "c4" : "26"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -222,182 +281,457 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#47"
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method start arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method start list of called methods Object monObjet|org.apache.kafka.clients.admin.AdminClient AdminClient_createN165075"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String  'creating internal topics' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String  'loading initial consumer groups' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String  'refreshing consumer groups' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String  'Started {} with {} consumer groups.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String  'Started {} with consumer groups: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN165922 the MagicNumber/String  'scheduler' should be converted to const"
+ , "c3" : "QC-JAV000006[00071] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN165922 the MagicNumber/String  'group filter' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN165922 the MagicNumber/String  'source admin client' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#82"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method taskConfigs arguments int  maxTasks"
+ , "c3" : "QC-JAV000007[00071] For method start list of called methods Object monObjet|String config_sourceClusterAliasN193595|String config_targetClusterAliasN193669|java.util.Set&lt;String&gt; config_taskConsumerGroupsN193743|org.apache.kafka.clients.admin.AdminClient AdminClient_createN194279|org.apache.kafka.clients.admin.AdminClient AdminClient_createN194392"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN193317 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN193317 the MagicNumber/String  'refreshing idle consumers group offsets at target cluster' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN193317 the MagicNumber/String  'sync idle consumer group offset from source to target' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  'topic filter' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  'offset sync store' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#106"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00106] For method refreshConsumerGroups list of called methods Object monObjet|java.util.List&lt;String&gt; findConsumerGroupsN167567"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#116"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN167453 the MagicNumber/String  'Found {} consumer groups for {}. {} are new. {} were removed. Previously had {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  'source admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#119"
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN167453 the MagicNumber/String  'Found new consumer groups: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  'target admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method loadInitialConsumerGroups list of called methods Object monObjet|java.util.List&lt;String&gt; findConsumerGroupsN168786"
+ , "c1" : "00108"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  'metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#148"
+ , "c1" : "00109"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  'scheduler' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195219 the MagicNumber/String  'Stopping {} took {} ms.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#131"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342 the MagicNumber/String  'Failure polling consumer state for checkpoints.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#137"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method shouldReplicate arguments String  group"
+ , "c3" : "QC-JAV000006[00142] For method sourceRecordsForGroup arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#151"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN197382 the MagicNumber/String  'Error querying offsets for consumer group {} on cluster {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#156"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00156] For method checkpointsForGroup arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointsForGroup@POLYN198255 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#165"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00165] For method listConsumerGroupOffsets arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#174"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00174] For method checkpoint arguments String  group|TopicPartition  topicPartition|OffsetAndMetadata  offsetAndMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#174"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00174] For method checkpoint list of called methods Object monObjet|long offsetAndMetadata_offsetN199621|java.util.OptionalLong offsetSyncStore_translateDownstreamN199696"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#175"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00175] The argument offsetAndMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#186"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00186] For method checkpointRecord arguments Checkpoint  checkpoint|long  timestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#186"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00186] The argument checkpoint is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointRecord@POLYN200198 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#189"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointRecord@POLYN200198 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#195"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00195] For method renameTopicPartition arguments TopicPartition  upstreamTopicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#195"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00195] The argument upstreamTopicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#207"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00207] For method shouldCheckpointTopic arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#212"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00212] For method commitRecord arguments SourceRecord  record|RecordMetadata  metadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#212"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00212] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#218"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00218] For method refreshIdleConsumerGroupOffset list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeConsumerGroupsResult targetAdminClient_describeConsumerGroupsN201929"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#224"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00224] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#225"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00225] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00234] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00234] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#235"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN201800 the MagicNumber/String  'Error querying for consumer group {} on cluster {}.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00245"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#245"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00245] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#248"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00248] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00250"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00250] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#251"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00251] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00259"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#259"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00259] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00261] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00262] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#261"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00261] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#262"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00262] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00252"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#252"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN202829 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN202829 the MagicNumber/String  'latestDownstreamOffset {} is larger than or equal to convertedUpstreamOffset {} for ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#274"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN202829 the MagicNumber/String  'TopicPartition {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN202829 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#281"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN202829 the MagicNumber/String  'skip syncing the offset for consumer group: {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#292"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00292] For method syncGroupOffset arguments String  consumerGroupId|Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsetToSync"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#292"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00292] The argument offsetToSync is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#293"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN205393 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN205393 the MagicNumber/String  'sync-ed the offset for consumer group: {} with {} number of offset entries' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00304"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#304"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00304] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#305"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00305] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00306] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#1"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN167453"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#116"
+ , "c1" : "00131"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN167453 the MagicNumber/String 'Found {} consumer groups for {}. {} are new. {} were removed. Previously had {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#119"
+ , "c1" : "00136"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN167453 the MagicNumber/String 'Found new consumer groups: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342 the MagicNumber/String 'Failure polling consumer state for checkpoints.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#57"
+ , "c1" : "00137"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String 'creating internal topics' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#58"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String 'loading initial consumer groups' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#60"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String 'refreshing consumer groups' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#61"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String 'Started {} with {} consumer groups.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#62"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String 'Started {} with consumer groups: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196342 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

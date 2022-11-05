@@ -1,83 +1,128 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java 6 rule violations " 
- , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.xml" 
+   "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html" 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java 3 rule violations " 
+ , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.connect.mirror.RemoteClusterUtils"
+ , "c2" : "org.apache.kafka.connect.mirror.ReplicationPolicy"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.mirror.RemoteClusterUtils" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.ReplicationPolicy" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#12"
+ , "c1" : "String"
+ , "c2" : "formatRemoteTopic(String;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#15"
+ , "c1" : "String"
+ , "c2" : "topicSource(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
 { "ligne" : { "" : ""
  , "c5" : "00018"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#18"
- , "c1" : "RemoteClusterUtils"
- , "c2" : "RemoteClusterUtils()"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#18"
+ , "c1" : "String"
+ , "c2" : "upstreamTopic(String)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00021"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21"
- , "c1" : "int"
- , "c2" : "replicationHops(Map<String,Object>;String)"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#21"
+ , "c1" : "String"
+ , "c2" : "originalTopic(String)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#31"
+ , "c1" : "String"
+ , "c2" : "heartbeatsTopic()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#29"
- , "c1" : "Set<String>"
- , "c2" : "heartbeatTopics(Map<String,Object>)"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#36"
+ , "c1" : "String"
+ , "c2" : "offsetSyncsTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#37"
- , "c1" : "Set<String>"
- , "c2" : "checkpointTopics(Map<String,Object>)"
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#41"
+ , "c1" : "String"
+ , "c2" : "checkpointsTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45"
- , "c1" : "Set<String>"
- , "c2" : "upstreamClusters(Map<String,Object>)"
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#46"
+ , "c1" : "boolean"
+ , "c2" : "isHeartbeatsTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#53"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
- , "c2" : "translateOffsets(Map<String,Object>;String;String;Duration)"
+ , "c5" : "00051"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#51"
+ , "c1" : "boolean"
+ , "c2" : "isCheckpointsTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#56"
+ , "c1" : "boolean"
+ , "c2" : "isMM2InternalTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#61"
+ , "c1" : "boolean"
+ , "c2" : "isInternalTopic(String)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.png" 
+   {"ligne" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.png" 
 
- , "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.svg" }
+ , "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.svg" }
 
 ] 
 , 
@@ -104,65 +149,39 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#15"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class RemoteClusterUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00051"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#51"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00051] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#21"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method replicationHops arguments Map&lt;String ,Object &gt;  properties|String  upstreamClusterAlias"
+ , "c1" : "00056"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#56"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00056] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method heartbeatTopics arguments Map&lt;String ,Object &gt;  properties"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method checkpointTopics arguments Map&lt;String ,Object &gt;  properties"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method upstreamClusters arguments Map&lt;String ,Object &gt;  properties"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method translateOffsets arguments Map&lt;String ,Object &gt;  properties|String  remoteClusterAlias|String  consumerGroupId|Duration  timeout"
+ , "c1" : "00061"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#61"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00061] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

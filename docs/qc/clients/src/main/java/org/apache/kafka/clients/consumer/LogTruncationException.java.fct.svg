@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="355px" preserveAspectRatio="none" style="width:1258px;height:355px;background:#FFFFFF;" version="1.1" viewBox="0 0 1258 355" width="1258px" zoomAndPan="magnify"><defs/><g><path d="M266.5,10 L266.5,18.5664 L246.5,22.5664 L266.5,26.5664 L266.5,35.1328 A0,0 0 0 0 266.5,35.1328 L1246.5,35.1328 A0,0 0 0 0 1246.5,35.1328 L1246.5,20 L1236.5,10 L266.5,10 A0,0 0 0 0 266.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1236.5,10 L1236.5,20 L1246.5,20 L1236.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="959" x="272.5" y="27.0669">constructor LogTruncationException(Stringmessage,Map&lt;TopicPartition,Long&gt;fetchOffsets,Map&lt;TopicPartition,OffsetAndMetadata&gt;divergentOffsets)</text><ellipse cx="236.5" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="207" x="133" y="55.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="143" y="76.2715">super (message,fetchOffsets)</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="451" x="11" y="109.1016"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="431" x="21" y="130.2402">this.divergentOffsets=Collections.unmodifiableMap(divergentOffsets)</text><ellipse cx="236.5" cy="173.0703" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="230.3128" x2="242.6872" y1="166.8831" y2="179.2575"/><line style="stroke:#222222;stroke-width:2.5;" x1="242.6872" x2="230.3128" y1="166.8831" y2="179.2575"/><path d="M266.5,193.0703 L266.5,201.6367 L246.5,205.6367 L266.5,209.6367 L266.5,218.2031 A0,0 0 0 0 266.5,218.2031 L665.5,218.2031 A0,0 0 0 0 665.5,218.2031 L665.5,203.0703 L655.5,193.0703 L266.5,193.0703 A0,0 0 0 0 266.5,193.0703 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M655.5,193.0703 L655.5,203.0703 L665.5,203.0703 L655.5,193.0703 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="378" x="272.5" y="210.1372">Map&lt;TopicPartition,OffsetAndMetadata&gt;divergentOffsets()</text><ellipse cx="236.5" cy="205.6367" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="151.5" y="238.2031"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="161.5" y="259.3418">return divergentOffsets;</text><ellipse cx="236.5" cy="303.1719" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="236.5" cy="303.1719" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="236.5" cy="334.1719" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="230.3128" x2="242.6872" y1="327.9847" y2="340.3591"/><line style="stroke:#222222;stroke-width:2.5;" x1="242.6872" x2="230.3128" y1="327.9847" y2="340.3591"/><line style="stroke:#181818;stroke-width:1.0;" x1="236.5" x2="236.5" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="232.5,45.1328,236.5,55.1328,240.5,45.1328,236.5,49.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="236.5" x2="236.5" y1="89.1016" y2="109.1016"/><polygon fill="#181818" points="232.5,99.1016,236.5,109.1016,240.5,99.1016,236.5,103.1016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="236.5" x2="236.5" y1="143.0703" y2="163.0703"/><polygon fill="#181818" points="232.5,153.0703,236.5,163.0703,240.5,153.0703,236.5,157.0703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="236.5" x2="236.5" y1="215.6367" y2="238.2031"/><polygon fill="#181818" points="232.5,228.2031,236.5,238.2031,240.5,228.2031,236.5,232.2031" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="236.5" x2="236.5" y1="272.1719" y2="292.1719"/><polygon fill="#181818" points="232.5,282.1719,236.5,292.1719,240.5,282.1719,236.5,286.1719" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[b2b9f0f171ff4e7a8e40914d04291fc8]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor LogTruncationException(Stringmessage,Map<TopicPartition,Long>fetchOffsets,Map<TopicPartition,OffsetAndMetadata>divergentOffsets)
+end note
+:super (message,fetchOffsets);
+:this.divergentOffsets=Collections.unmodifiableMap(divergentOffsets);
+end
+start
+note right
+Map<TopicPartition,OffsetAndMetadata>divergentOffsets()
+end note
+:return divergentOffsets;;
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

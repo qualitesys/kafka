@@ -1,36 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java 2 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java 5 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskController"
- , "c2" : "org.apache.kafka.trogdor.fault.ProcessStopFaultController"
+ , "c1" : "TaskSpec"
+ , "c2" : "org.apache.kafka.trogdor.fault.ProcessStopFaultSpec"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.fault.ProcessStopFaultController" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.fault.ProcessStopFaultSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#12"
- , "c1" : "ProcessStopFaultController"
- , "c2" : "ProcessStopFaultController(Set<String>)"
+ , "c5" : "00021"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#21"
+ , "c1" : "ProcessStopFaultSpec"
+ , "c2" : "ProcessStopFaultSpec(long;long;List<String>;String)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#31"
+ , "c1" : "Set<String>"
+ , "c2" : "nodeNames()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#17"
- , "c1" : "Set<String>"
- , "c2" : "targetNodes(Topology)"
+ , "c5" : "00036"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#36"
+ , "c1" : "String"
+ , "c2" : "javaProcessName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#41"
+ , "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#46"
+ , "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.svg" }
 
 ] 
 , 
@@ -69,36 +96,59 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#9"
+ , "c1" : "00026"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class ProcessStopFaultController contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147079 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#17"
+ , "c1" : "00027"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147079 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.fault.ProcessStopFaultSpec.ProcessStopFaultSpec@POLYN147079 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method targetNodes arguments Topology  topology"
+ , "c3" : "QC-JAV000006[00041] For method newController arguments String  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00046] For method newTaskWorker arguments String  id"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

@@ -1,90 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java 7 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java 9 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractResponse"
- , "c2" : "org.apache.kafka.common.requests.IncrementalAlterConfigsResponse"
+ , "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.InitProducerIdRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.IncrementalAlterConfigsResponse" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.InitProducerIdRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#20"
- , "c1" : "IncrementalAlterConfigsResponse"
- , "c2" : "IncrementalAlterConfigsResponse(int;Map<ConfigResource,ApiError>)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#38"
- , "c1" : "Map<ConfigResource,ApiError>"
- , "c2" : "fromResponseData(IncrementalAlterConfigsResponseData)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#49"
- , "c1" : "IncrementalAlterConfigsResponse"
- , "c2" : "IncrementalAlterConfigsResponse(IncrementalAlterConfigsResponseData)"
+ , "c5" : "00041"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#41"
+ , "c1" : "InitProducerIdRequest"
+ , "c2" : "InitProducerIdRequest(InitProducerIdRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#55"
- , "c1" : "IncrementalAlterConfigsResponseData"
- , "c2" : "data()"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#47"
+ , "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#60"
- , "c1" : "Map<Errors,Integer>"
- , "c2" : "errorCounts()"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#69"
- , "c1" : "boolean"
- , "c2" : "shouldClientThrottle(short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#74"
- , "c1" : "int"
- , "c2" : "throttleTimeMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#78"
- , "c1" : "IncrementalAlterConfigsResponse"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#56"
+ , "c1" : "InitProducerIdRequest"
  , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#61"
+ , "c1" : "InitProducerIdRequestData"
+ , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.svg" }
 
 ] 
 , 
@@ -120,34 +84,18 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
@@ -161,56 +109,72 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#21"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00021] The argument results is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#38"
+ , "c1" : "00023"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#23"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method fromResponseData arguments IncrementalAlterConfigsResponseData  data"
+ , "c3" : "QC-JAV000006[00023] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#38"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method shouldClientThrottle arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#70"
+ , "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.IncrementalAlterConfigsResponse.shouldClientThrottle@POLYN155278 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000021[00027] The same method call data.transactionalId() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#78"
+ , "c1" : "00024"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN149215 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN149215 the MagicNumber/String  'transaction timeout value is not positive: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN149215 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#28"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.requests.InitProducerIdRequest.Builder.build@POLYN149215 the MagicNumber/String  'Must set either a null or a non-empty transactional id.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00047] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.IncrementalAlterConfigsResponse.throttleTimeMs@POLYN155424"
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.InitProducerIdRequest.getErrorResponse@POLYN150211 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.html#56"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00056] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/IncrementalAlterConfigsResponse.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/InitProducerIdRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

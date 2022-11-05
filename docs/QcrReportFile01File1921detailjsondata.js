@@ -1,56 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java 3 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java 13 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamsBuilder"
- , "c2" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder"
+ , "c1" : "StoreQueryParameters<T>"
+ , "c2" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00013"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#13"
- , "c1" : "NamedTopologyBuilder"
- , "c2" : "NamedTopologyBuilder(String;StreamsConfig;Properties)"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#13"
+ , "c1" : "NamedTopologyStoreQueryParameters"
+ , "c2" : "NamedTopologyStoreQueryParameters(String;String;QueryableStoreType<T>;Integer;boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#19"
- , "c1" : "NamedTopology"
- , "c2" : "build()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#25"
- , "c1" : "NamedTopology"
- , "c2" : "getNewTopology(TopologyConfig)"
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#29"
+ , "c1" : "NamedTopologyStoreQueryParameters<T>"
+ , "c2" : "withPartition(Integer)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#34"
+ , "c1" : "NamedTopologyStoreQueryParameters<T>"
+ , "c2" : "enableStaleStores()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#38"
+ , "c1" : "String"
+ , "c2" : "topologyName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#43"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "4"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#60"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.svg" }
 
 ] 
 , 
@@ -75,21 +102,18 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder.this" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
@@ -97,41 +121,106 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "INFO"
- , "c2" : "QC-JAV000019"
- , "c3" : "Lock statement"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#19"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00019] Lock statement on synchronized method build"
+ , "c1" : "00025"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#25"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method getNewTopology arguments TopologyConfig  topologyConfigs"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder.build@POLYN144243"
+ , "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#29"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00029] For method withPartition arguments Integer  partition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#35"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.enableStaleStores@POLYN151057 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#43"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00043] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00047] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN151453 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN151453 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN151453 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.equals@POLYN151453 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN152183 the MagicNumber/String  31 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN152183 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters.hashCode@POLYN152183 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyBuilder.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/NamedTopologyStoreQueryParameters.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

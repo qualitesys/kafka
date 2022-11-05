@@ -1,146 +1,74 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java 73 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java 46 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.internals.AdminMetadataManager"
+ , "c1" : "AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey>"
+ , "c2" : "org.apache.kafka.clients.admin.internals.AllBrokersStrategy"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.internals.AdminMetadataManager" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.internals.AllBrokersStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00091"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#91"
- , "c1" : "AdminMetadataManager"
- , "c2" : "AdminMetadataManager(LogContext;long;long)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#98"
- , "c1" : "AdminMetadataUpdater"
- , "c2" : "updater()"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#30"
+ , "c1" : "AllBrokersStrategy"
+ , "c2" : "AllBrokersStrategy(LogContext)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#102"
- , "c1" : "boolean"
- , "c2" : "isReady()"
- , "c3" : "4"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#37"
+ , "c1" : "ApiRequestScope"
+ , "c2" : "lookupScope(BrokerKey)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#42"
+ , "c1" : "MetadataRequest.Builder"
+ , "c2" : "buildRequest(Set<BrokerKey>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#49"
+ , "c1" : "LookupResult<BrokerKey>"
+ , "c2" : "handleResponse(Set<BrokerKey>;AbstractResponse)"
+ , "c3" : "3"
  , "c4" : "8"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#121"
- , "c1" : "Node"
- , "c2" : "controller()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#125"
- , "c1" : "Node"
- , "c2" : "nodeById(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#129"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74"
  , "c1" : "void"
- , "c2" : "requestUpdate()"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#136"
- , "c1" : "void"
- , "c2" : "clearController()"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00149"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#149"
- , "c1" : "long"
- , "c2" : "metadataFetchDelayMs(long)"
+ , "c2" : "validateLookupKeys(Set<BrokerKey>)"
  , "c3" : "3"
  , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00165"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#165"
- , "c1" : "long"
- , "c2" : "delayBeforeNextExpireMs(long)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00170"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#170"
- , "c1" : "long"
- , "c2" : "delayBeforeNextAttemptMs(long)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00176"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#176"
- , "c1" : "void"
- , "c2" : "transitionToUpdatePending(long)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00181"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#181"
- , "c1" : "void"
- , "c2" : "updateFailed(Throwable)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00194"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#194"
- , "c1" : "void"
- , "c2" : "update(Cluster;long)"
- , "c3" : "4"
- , "c4" : "6"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.svg" }
 
 ] 
 , 
@@ -177,58 +105,44 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "19"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "3"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "22"
+ , "c4" : "19"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -237,522 +151,342 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#20"
+ , "c1" : "00022"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00020] The class AdminMetadataManager contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00022] The class AllBrokersStrategy contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00047] The class AdminMetadataUpdater contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00031"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#31"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00031] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#54"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method isUpdateDue arguments long  now"
+ , "c3" : "QC-JAV000006[00037] For method lookupScope arguments BrokerKey  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#55"
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#42"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00042] For method buildRequest arguments Set&lt;BrokerKey &gt;  keys"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#49"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00049] For method handleResponse arguments Set&lt;BrokerKey &gt;  keys|AbstractResponse  abstractResponse"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#49"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00049] For method handleResponse list of called methods Object monObjet|MetadataResponseData response_dataN172447"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.AdminMetadataUpdater.isUpdateDue@POLYN170226 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String  'Metadata response contained no brokers. Will backoff and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method maybeUpdate arguments long  now"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String  'Discovered all brokers {} to send requests to' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#64"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method handleServerDisconnect arguments long  now|String  destinationId|Optional&lt;AuthenticationException &gt;  maybeFatalException"
+ , "c3" : "QC-JAV000006[00074] For method validateLookupKeys arguments Set&lt;BrokerKey &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#64"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#74"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument maybeFatalException is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException &gt;  maybeFatalException"
+ , "c3" : "QC-JAVCWE476[00074] The argument keys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method handleSuccessfulResponse arguments RequestHeader  requestHeader|long  now|MetadataResponse  metadataResponse"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173363 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#70"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00070] Void method handleFailedRequest is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#70"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00070] Void method handleFailedRequest is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#75"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00075] Void method handleSuccessfulResponse is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#75"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00075] Void method handleSuccessfulResponse is empty or contains only a return. Interface segregation"
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173363 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#80"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00080] Void method close is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#80"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00080] Void method close is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#91"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00091] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.validateLookupKeys@POLYN173363 the MagicNumber/String  'Unexpected key set: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#104"
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  'Metadata is not usable: failed to get metadata.' should be converted to const"
+ , "c3" : "QC-JAV000008[00084] The class BrokerKey contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00092] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00094] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174130 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174130 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.equals@POLYN174130 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174792 the MagicNumber/String  'BrokerKey(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174792 the MagicNumber/String  'brokerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  'Metadata is not ready: bootstrap nodes have not been ' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey.toString@POLYN174792 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#109"
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  'initialized yet.' should be converted to const"
+ , "c3" : "QC-JAV000008[00112] The class AllBrokersFuture contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#122"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00122] For method completeLookup arguments Map&lt;BrokerKey ,Integer &gt;  brokerMapping"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  'Metadata is not ready: we have not fetched metadata from ' should be converted to const"
+ , "c1" : "00122"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#122"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00122] The argument brokerMapping is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#114"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  'the bootstrap nodes yet.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  'Metadata is ready to use.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175520 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175520 the MagicNumber/String  'Invalid lookup mapping ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookup@POLYN175520 the MagicNumber/String  ' -&amp;gt; ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method nodeById arguments int  nodeId"
+ , "c3" : "QC-JAV000006[00133] For method completeLookupExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  lookupErrors"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#132"
+ , "c1" : "00133"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#133"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00133] The argument lookupErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.requestUpdate@POLYN172723 the MagicNumber/String  'Requesting metadata update.' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeLookupExceptionally@POLYN176204 the MagicNumber/String  'Unexpected keys among lookup errors: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#137"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.clearController@POLYN172981 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.clearController@POLYN172981 the MagicNumber/String  'Clearing cached controller node {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.clearController@POLYN172981 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#149"
+ , "c1" : "00141"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method metadataFetchDelayMs arguments long  now"
+ , "c3" : "QC-JAV000006[00141] For method complete arguments Map&lt;BrokerKey ,V &gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#165"
+ , "c1" : "00141"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#141"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00141] The argument values is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method delayBeforeNextExpireMs arguments long  now"
+ , "c3" : "QC-JAV000006[00145] For method complete arguments AllBrokersStrategy.BrokerKey  key|V  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#167"
+ , "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.delayBeforeNextExpireMs@POLYN174088 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.complete@POLYN176822 the MagicNumber/String  'Invalid attempt to complete with lookup key sentinel' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#154"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00154] For method completeExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  errors"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#154"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00154] The argument errors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#158"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00158] For method completeExceptionally arguments AllBrokersStrategy.BrokerKey  key|Throwable  t"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#170"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method delayBeforeNextAttemptMs arguments long  now"
+ , "c3" : "QC-JAV000006[00170] For method futureOrThrow arguments BrokerKey  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#170"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00170] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.delayBeforeNextAttemptMs@POLYN174358 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN177935 the MagicNumber/String  'Attempt to complete with invalid key: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#176"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00176] For method transitionToUpdatePending arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#181"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method updateFailed arguments Throwable  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.updateFailed@POLYN174866 the MagicNumber/String  'Metadata update failed due to authentication error' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN177935 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#189"
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.updateFailed@POLYN174866 the MagicNumber/String  'Metadata update failed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#194"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method update arguments Cluster  cluster|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#194"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00194] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.update@POLYN175444 the MagicNumber/String  'Setting bootstrap cluster metadata {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.update@POLYN175444 the MagicNumber/String  'Updating cluster metadata to {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#203"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.clients.admin.internals.AdminMetadataManager.update@POLYN175444 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00121] Public method controller is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00125] Public method nodeById is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00149] Public method metadataFetchDelayMs is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00176] Public method transitionToUpdatePending is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN177935 the MagicNumber/String  'Attempt to complete with unknown broker id: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#1"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AdminMetadataManager.clearController@POLYN172981"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AdminMetadataManager.requestUpdate@POLYN172723"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AdminMetadataManager.update@POLYN175444"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AdminMetadataManager.updateFailed@POLYN174866"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#137"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.clearController@POLYN172981 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String 'Metadata response contained no brokers. Will backoff and retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#138"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.clearController@POLYN172981 the MagicNumber/String 'Clearing cached controller node {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#144"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.clearController@POLYN172981 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#103"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String 'Metadata is not usable: failed to get metadata.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String 'Metadata is not ready: bootstrap nodes have not been ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String 'initialized yet.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String 'Metadata is not ready: we have not fetched metadata from ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String 'the bootstrap nodes yet.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String 'Metadata is ready to use.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.isReady@POLYN171685 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#132"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.requestUpdate@POLYN172723 the MagicNumber/String 'Requesting metadata update.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.update@POLYN175444 the MagicNumber/String 'Setting bootstrap cluster metadata {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#198"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.update@POLYN175444 the MagicNumber/String 'Updating cluster metadata to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.update@POLYN175444 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.updateFailed@POLYN174866 the MagicNumber/String 'Metadata update failed due to authentication error' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.admin.internals.AdminMetadataManager.updateFailed@POLYN174866 the MagicNumber/String 'Metadata update failed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String 'Discovered all brokers {} to send requests to' MUST BE CONVERTED to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

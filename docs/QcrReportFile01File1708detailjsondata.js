@@ -1,108 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamJoined<K,V1,V2>"
- , "c2" : "org.apache.kafka.streams.kstream.internals.StreamJoinedInternal"
+ , "c1" : "TableJoined<K,KO>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.TableJoinedInternal"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.StreamJoinedInternal" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TableJoinedInternal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#14"
- , "c1" : "StreamJoinedInternal"
- , "c2" : "StreamJoinedInternal(StreamJoined<K,V1,V2>)"
+ , "c5" : "00009"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#9"
+ , "c1" : "TableJoinedInternal"
+ , "c2" : "TableJoinedInternal(TableJoined<K,KO>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#18"
- , "c1" : "Serde<K>"
- , "c2" : "keySerde()"
+ , "c5" : "00013"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#13"
+ , "c1" : "StreamPartitioner<K,Void>"
+ , "c2" : "partitioner()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#22"
- , "c1" : "Serde<V1>"
- , "c2" : "valueSerde()"
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#17"
+ , "c1" : "StreamPartitioner<KO,Void>"
+ , "c2" : "otherPartitioner()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#26"
- , "c1" : "Serde<V2>"
- , "c2" : "otherValueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#30"
+ , "c5" : "00021"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.html#21"
  , "c1" : "String"
  , "c2" : "name()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#34"
- , "c1" : "String"
- , "c2" : "storeName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#38"
- , "c1" : "WindowBytesStoreSupplier"
- , "c2" : "thisStoreSupplier()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#42"
- , "c1" : "WindowBytesStoreSupplier"
- , "c2" : "otherStoreSupplier()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#46"
- , "c1" : "boolean"
- , "c2" : "loggingEnabled()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#50"
- , "c1" : "Map<String,String>"
- , "c2" : "logConfig()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.svg" }
 
 ] 
 , 
@@ -138,8 +84,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TableJoinedInternal.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

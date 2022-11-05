@@ -1,98 +1,53 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java 3 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractResponse"
- , "c2" : "org.apache.kafka.common.requests.SaslAuthenticateResponse"
+ , "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.SaslHandshakeRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.SaslAuthenticateResponse" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.SaslHandshakeRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#17"
- , "c1" : "SaslAuthenticateResponse"
- , "c2" : "SaslAuthenticateResponse(SaslAuthenticateResponseData)"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#36"
+ , "c1" : "SaslHandshakeRequest"
+ , "c2" : "SaslHandshakeRequest(SaslHandshakeRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#23"
- , "c1" : "Errors"
- , "c2" : "error()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#28"
- , "c1" : "Map<Errors,Integer>"
- , "c2" : "errorCounts()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#32"
- , "c1" : "String"
- , "c2" : "errorMessage()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#36"
- , "c1" : "long"
- , "c2" : "sessionLifetimeMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#40"
- , "c1" : "byte[]"
- , "c2" : "saslAuthBytes()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#45"
- , "c1" : "int"
- , "c2" : "throttleTimeMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#50"
- , "c1" : "SaslAuthenticateResponseData"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#42"
+ , "c1" : "SaslHandshakeRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#54"
- , "c1" : "SaslAuthenticateResponse"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#47"
+ , "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#53"
+ , "c1" : "SaslHandshakeRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
@@ -102,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.svg" }
 
 ] 
 , 
@@ -129,62 +84,41 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-,
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#54"
+ , "c1" : "00024"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#24"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SaslAuthenticateResponse.errorCounts@POLYN147938"
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00047] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SaslAuthenticateResponse.errorMessage@POLYN148114"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.SaslAuthenticateResponse.sessionLifetimeMs@POLYN148220"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.html#53"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00053] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateResponse.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslHandshakeRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

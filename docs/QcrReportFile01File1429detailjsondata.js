@@ -1,72 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java 10 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java 10 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MemoryPool"
- , "c2" : "org.apache.kafka.raft.internals.BatchMemoryPool"
+ , "c1" : "RaftMessageQueue"
+ , "c2" : "org.apache.kafka.raft.internals.BlockingMessageQueue"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.internals.BatchMemoryPool" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.internals.BlockingMessageQueue" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#20"
- , "c1" : "BatchMemoryPool"
- , "c2" : "BatchMemoryPool(int;int)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#28"
- , "c1" : "ByteBuffer"
- , "c2" : "tryAllocate(int)"
+ , "c5" : "00031"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#31"
+ , "c1" : "RaftMessage"
+ , "c2" : "poll(long)"
  , "c3" : "3"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48"
- , "c1" : "void"
- , "c2" : "release(ByteBuffer)"
- , "c3" : "2"
  , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#65"
- , "c1" : "long"
- , "c2" : "size()"
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#46"
+ , "c1" : "void"
+ , "c2" : "add(RaftMessage)"
  , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#75"
- , "c1" : "long"
- , "c2" : "availableMemory()"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#86"
+ , "c5" : "00052"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#52"
  , "c1" : "boolean"
- , "c2" : "isOutOfMemory()"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#57"
+ , "c1" : "void"
+ , "c2" : "wakeup()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.svg" }
 
 ] 
 , 
@@ -102,12 +84,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -121,7 +119,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -134,77 +132,79 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#12"
+ , "c1" : "00014"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class BatchMemoryPool contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method tryAllocate arguments int  sizeBytes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  'Cannot allocate buffers larger than max ' should be converted to const"
+ , "c3" : "QC-JAV000008[00014] The class BlockingMessageQueue contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  'batch size of ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.raft.internals.BatchMemoryPool.tryAllocate@POLYN150684 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method release arguments ByteBuffer  previouslyAllocated"
+ , "c3" : "QC-JAV000006[00031] For method poll arguments long  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#48"
+ , "c1" : "00034"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#34"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147743 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#35"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147743 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00046] For method add arguments RaftMessage  message"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.raft.internals.BlockingMessageQueue.isEmpty@POLYN148554 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument previouslyAllocated is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.add@POLYN148346"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.internals.BatchMemoryPool.release@POLYN151475 the MagicNumber/String  'Released buffer with unexpected size ' should be converted to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147743"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.raft.internals.BatchMemoryPool.isOutOfMemory@POLYN152735 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00034"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#34"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147743 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#35"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147743 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchMemoryPool.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

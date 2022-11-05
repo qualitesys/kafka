@@ -1,34 +1,52 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/MetricName.java 15 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java 8 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.MetricName"
+ , "c2" : "org.apache.kafka.common.MetricNameTemplate"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.MetricName" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.MetricNameTemplate" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#17"
- , "c1" : "MetricName"
- , "c2" : "MetricName(String;String;String;Map<String,String>)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#17"
+ , "c1" : "MetricNameTemplate"
+ , "c2" : "MetricNameTemplate(String;String;String;Set<String>)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#24"
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#25"
+ , "c1" : "MetricNameTemplate"
+ , "c2" : "MetricNameTemplate(String;String;String;String...)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#29"
+ , "c1" : "LinkedHashSet<String>"
+ , "c2" : "getTags(String...)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#38"
  , "c1" : "String"
  , "c2" : "name()"
  , "c3" : "1"
@@ -36,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#28"
+ , "c5" : "00043"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#43"
  , "c1" : "String"
  , "c2" : "group()"
  , "c3" : "1"
@@ -45,17 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#32"
- , "c1" : "Map<String,String>"
- , "c2" : "tags()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#36"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#48"
  , "c1" : "String"
  , "c2" : "description()"
  , "c3" : "1"
@@ -63,26 +72,35 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#41"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#53"
+ , "c1" : "Set<String>"
+ , "c2" : "tags()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#58"
  , "c1" : "int"
  , "c2" : "hashCode()"
- , "c3" : "2"
- , "c4" : "8"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#54"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#63"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
- , "c3" : "4"
- , "c4" : "5"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#66"
+ , "c5" : "00074"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#74"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -93,9 +111,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.svg" }
 
 ] 
 , 
@@ -132,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "12"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -146,118 +164,71 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#8"
+ , "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00008] The class MetricName contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class MetricNameTemplate contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.MetricName.hashCode@POLYN164932 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.MetricName.hashCode@POLYN164932 the MagicNumber/String  31 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.MetricName.hashCode@POLYN164932 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#54"
+ , "c1" : "00029"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#29"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method equals arguments Object  obj"
+ , "c3" : "QC-JAV000006[00029] For method getTags arguments String  ...keys"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00059] The same method call obj.getClass() is used several times, should be optimized "
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#56"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.MetricName.equals@POLYN165660 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000021[00066] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#57"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.MetricName.equals@POLYN165660 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN161995 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#58"
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.MetricName.equals@POLYN165660 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.MetricName.equals@POLYN165660 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN161995 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#67"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricName.toString@POLYN166346 the MagicNumber/String  'MetricName [name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricNameTemplate.equals@POLYN161995 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#67"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricName.toString@POLYN166346 the MagicNumber/String  ', group=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.MetricName.toString@POLYN166346 the MagicNumber/String  ', description=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.MetricName.toString@POLYN166346 the MagicNumber/String  ', tags=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.MetricName.toString@POLYN166346 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.MetricNameTemplate.toString@POLYN162700 the MagicNumber/String  'name=%s, group=%s, tags=%s' should be converted to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricNameTemplate.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

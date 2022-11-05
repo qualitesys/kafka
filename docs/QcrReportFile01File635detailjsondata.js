@@ -1,54 +1,90 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java 12 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractRequest"
- , "c2" : "org.apache.kafka.common.requests.DeleteGroupsRequest"
+ , "c1" : "AbstractResponse"
+ , "c2" : "org.apache.kafka.common.requests.DeleteGroupsResponse"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.DeleteGroupsRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.DeleteGroupsResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#36"
- , "c1" : "DeleteGroupsRequest"
- , "c2" : "DeleteGroupsRequest(DeleteGroupsRequestData;short)"
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#19"
+ , "c1" : "DeleteGroupsResponse"
+ , "c2" : "DeleteGroupsResponse(DeleteGroupsResponseData)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#42"
- , "c1" : "AbstractResponse"
- , "c2" : "getErrorResponse(int;Throwable)"
- , "c3" : "2"
- , "c4" : "4"
+ , "c5" : "00025"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#25"
+ , "c1" : "DeleteGroupsResponseData"
+ , "c2" : "data()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#58"
- , "c1" : "DeleteGroupsRequest"
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#29"
+ , "c1" : "Map<String,Errors>"
+ , "c2" : "errors()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#37"
+ , "c1" : "Errors"
+ , "c2" : "get(String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#46"
+ , "c1" : "Map<Errors,Integer>"
+ , "c2" : "errorCounts()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#54"
+ , "c1" : "DeleteGroupsResponse"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#63"
- , "c1" : "DeleteGroupsRequestData"
- , "c2" : "data()"
+ , "c5" : "00059"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#59"
+ , "c1" : "int"
+ , "c2" : "throttleTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#64"
+ , "c1" : "boolean"
+ , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +93,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.svg" }
 
 ] 
 , 
@@ -84,7 +120,37 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "4"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
@@ -95,28 +161,93 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#24"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00037] For method get arguments String  group"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#39"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.html#58"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String  'could not find group ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String  ' in the delete group response' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00054] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method shouldClientThrottle arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.requests.DeleteGroupsResponse.shouldClientThrottle@POLYN153120 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteGroupsResponse.throttleTimeMs@POLYN153000"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#39"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String ' in the delete group response' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.html#40"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.common.requests.DeleteGroupsResponse.get@POLYN151737 the MagicNumber/String 'could not find group ' MUST BE CONVERTED to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsRequest.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteGroupsResponse.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

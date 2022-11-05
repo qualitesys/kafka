@@ -1,72 +1,99 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java 13 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java 7 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractRequest"
- , "c2" : "org.apache.kafka.common.requests.JoinGroupRequest"
+ , "c1" : "AbstractResponse"
+ , "c2" : "org.apache.kafka.common.requests.JoinGroupResponse"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.JoinGroupRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.JoinGroupResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#49"
- , "c1" : "void"
- , "c2" : "validateGroupInstanceId(String)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#16"
+ , "c1" : "JoinGroupResponse"
+ , "c2" : "JoinGroupResponse(JoinGroupResponseData)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#55"
- , "c1" : "JoinGroupRequest"
- , "c2" : "JoinGroupRequest(JoinGroupRequestData;short)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#61"
- , "c1" : "void"
- , "c2" : "maybeOverrideRebalanceTimeout(short)"
- , "c3" : "2"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#70"
- , "c1" : "JoinGroupRequestData"
+ , "c5" : "00022"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#22"
+ , "c1" : "JoinGroupResponseData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#75"
- , "c1" : "AbstractResponse"
- , "c2" : "getErrorResponse(int;Throwable)"
- , "c3" : "3"
- , "c4" : "4"
+ , "c5" : "00026"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#26"
+ , "c1" : "boolean"
+ , "c2" : "isLeader()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#93"
- , "c1" : "JoinGroupRequest"
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#31"
+ , "c1" : "int"
+ , "c2" : "throttleTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#35"
+ , "c1" : "Errors"
+ , "c2" : "error()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#40"
+ , "c1" : "Map<Errors,Integer>"
+ , "c2" : "errorCounts()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#44"
+ , "c1" : "JoinGroupResponse"
  , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#49"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#54"
+ , "c1" : "boolean"
+ , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.svg" }
 
 ] 
 , 
@@ -102,116 +129,92 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+,
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "8"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#28"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method build arguments short  version"
+ , "c3" : "QC-JAV000006[00044] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN153628 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN153628 the MagicNumber/String  5 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN153628 the MagicNumber/String  'The broker join group protocol version ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.requests.JoinGroupRequest.Builder.build@POLYN153628 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#49"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method validateGroupInstanceId arguments String  id"
+ , "c3" : "QC-JAV000006[00054] For method shouldClientThrottle arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#50"
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.JoinGroupRequest.validateGroupInstanceId@POLYN154572 the MagicNumber/String  'Group instance id' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.JoinGroupResponse.shouldClientThrottle@POLYN147913 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method maybeOverrideRebalanceTimeout arguments short  version"
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.errorCounts@POLYN147329"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.JoinGroupRequest.maybeOverrideRebalanceTimeout@POLYN155143 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.isLeader@POLYN146848"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.throttleTimeMs@POLYN147027"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.requests.JoinGroupRequest.getErrorResponse@POLYN155495 the MagicNumber/String  7 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.JoinGroupRequest.getErrorResponse@POLYN155495 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.html#93"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.JoinGroupResponse.toString@POLYN147793"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupRequest.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/JoinGroupResponse.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

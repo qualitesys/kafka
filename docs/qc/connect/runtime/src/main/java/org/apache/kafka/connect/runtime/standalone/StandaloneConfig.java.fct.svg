@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="192px" preserveAspectRatio="none" style="width:1064px;height:192px;background:#FFFFFF;" version="1.1" viewBox="0 0 1064 192" width="1064px" zoomAndPan="magnify"><defs/><g><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="1042" x="11" y="11"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="1022" x="21" y="32.1387">CONFIG=baseConfigDef().define(OFFSET_STORAGE_FILE_FILENAME_CONFIG,ConfigDef.Type.STRING,ConfigDef.Importance.HIGH,OFFSET_STORAGE_FILE_FILENAME_DOC)</text><path d="M562,62.4023 L562,70.9688 L542,74.9688 L562,78.9688 L562,87.5352 A0,0 0 0 0 562,87.5352 L948,87.5352 A0,0 0 0 0 948,87.5352 L948,72.4023 L938,62.4023 L562,62.4023 A0,0 0 0 0 562,62.4023 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M938,62.4023 L938,72.4023 L948,72.4023 L938,62.4023 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="365" x="568" y="79.4692">constructor StandaloneConfig(Map&lt;String,String&gt;props)</text><ellipse cx="532" cy="74.9688" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="155" x="454.5" y="107.5352"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="464.5" y="128.6738">super (CONFIG,props)</text><ellipse cx="532" cy="171.5039" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="525.8128" x2="538.1872" y1="165.3167" y2="177.6911"/><line style="stroke:#222222;stroke-width:2.5;" x1="538.1872" x2="525.8128" y1="165.3167" y2="177.6911"/><line style="stroke:#181818;stroke-width:1.0;" x1="532" x2="532" y1="44.9688" y2="64.9688"/><polygon fill="#181818" points="528,54.9688,532,64.9688,536,54.9688,532,58.9688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="532" x2="532" y1="84.9688" y2="107.5352"/><polygon fill="#181818" points="528,97.5352,532,107.5352,536,97.5352,532,101.5352" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="532" x2="532" y1="141.5039" y2="161.5039"/><polygon fill="#181818" points="528,151.5039,532,161.5039,536,151.5039,532,155.5039" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[77a4d4d1a1817beaae7b7a2837af8730]
+@startuml
+!pragma layout smetana
+:CONFIG=baseConfigDef().define(OFFSET_STORAGE_FILE_FILENAME_CONFIG,ConfigDef.Type.STRING,ConfigDef.Importance.HIGH,OFFSET_STORAGE_FILE_FILENAME_DOC);
+start
+note right
+constructor StandaloneConfig(Map<String,String>props)
+end note
+:super (CONFIG,props);
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

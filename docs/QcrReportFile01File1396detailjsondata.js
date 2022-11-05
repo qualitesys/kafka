@@ -1,88 +1,151 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java 33 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/FollowerState.java 30 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "QuorumStateStore"
- , "c2" : "org.apache.kafka.raft.FileBasedStateStore"
+ , "c1" : "EpochState"
+ , "c2" : "org.apache.kafka.raft.FollowerState"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.FileBasedStateStore" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.FollowerState" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#38"
- , "c1" : "FileBasedStateStore"
- , "c2" : "FileBasedStateStore(File)"
+ , "c5" : "00028"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#28"
+ , "c1" : "FollowerState"
+ , "c2" : "FollowerState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#48"
+ , "c1" : "ElectionState"
+ , "c2" : "election()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#42"
- , "c1" : "QuorumStateData"
- , "c2" : "readStateFromFile(File)"
- , "c3" : "4"
- , "c4" : "11"
+ , "c5" : "00058"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#58"
+ , "c1" : "int"
+ , "c2" : "epoch()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#74"
- , "c1" : "ElectionState"
- , "c2" : "readElectionState()"
- , "c3" : "2"
- , "c4" : "3"
+ , "c5" : "00063"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#63"
+ , "c1" : "String"
+ , "c2" : "name()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#67"
+ , "c1" : "long"
+ , "c2" : "remainingFetchTimeMs(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#72"
+ , "c1" : "int"
+ , "c2" : "leaderId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#76"
+ , "c1" : "boolean"
+ , "c2" : "hasFetchTimeoutExpired(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#81"
+ , "c1" : "void"
+ , "c2" : "resetFetchTimeout(long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00086"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#86"
+ , "c1" : "void"
+ , "c2" : "overrideFetchTimeout(long;long)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00091"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#91"
- , "c1" : "void"
- , "c2" : "writeElectionState(ElectionState)"
- , "c3" : "1"
- , "c4" : "2"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91"
+ , "c1" : "boolean"
+ , "c2" : "updateHighWatermark(OptionalLong)"
+ , "c3" : "6"
+ , "c4" : "8"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#100"
- , "c1" : "List<Voter>"
- , "c2" : "voters(Set<Integer>)"
+ , "c5" : "00115"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#115"
+ , "c1" : "Optional<LogOffsetMetadata>"
+ , "c2" : "highWatermark()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#105"
- , "c1" : "void"
- , "c2" : "writeElectionStateToFile(File;QuorumStateData)"
+ , "c5" : "00119"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#119"
+ , "c1" : "Optional<RawSnapshotWriter>"
+ , "c2" : "fetchingSnapshot()"
  , "c3" : "1"
- , "c4" : "13"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00134"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#134"
+ , "c5" : "00123"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#123"
  , "c1" : "void"
- , "c2" : "clear()"
+ , "c2" : "setFetchingSnapshot(Optional<RawSnapshotWriter>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#131"
+ , "c1" : "boolean"
+ , "c2" : "canGrantVote(int;boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#140"
+ , "c5" : "00138"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#138"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -90,21 +153,21 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#144"
+ , "c5" : "00150"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#150"
  , "c1" : "void"
- , "c2" : "deleteFileIfExists(File)"
- , "c3" : "1"
- , "c4" : "2"
+ , "c2" : "close()"
+ , "c3" : "2"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.svg" }
 
 ] 
 , 
@@ -140,17 +203,10 @@ var maDataBlocs = {
 ,
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "6"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -171,258 +227,232 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "16"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#31"
+ , "c1" : "00015"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00031] The class FileBasedStateStore contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class FollowerState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method readStateFromFile arguments File  file"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#42"
+ , "c1" : "00029"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#29"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00042] The argument file is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00029] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#45"
+ , "c1" : "00035"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#35"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00035] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.FollowerState.name@POLYN159848 the MagicNumber/String  'Follower' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  'File ended prematurely.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  'Deserialized node ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  ' is not an object node' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  'Deserialized node ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  ' does not have ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  ' field' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN169032 the MagicNumber/String  'Error while reading the Quorum status from the file %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#74"
+ , "c1" : "00067"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method readElectionState list of called methods Object monObjet|QuorumStateData readStateFromFileN170908"
+ , "c3" : "QC-JAV000006[00067] For method remainingFetchTimeMs arguments long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.raft.FileBasedStateStore.readElectionState@POLYN170717 the MagicNumber/String  null should be converted to const"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00076] For method hasFetchTimeoutExpired arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method resetFetchTimeout arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#86"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00086] For method overrideFetchTimeout arguments long  currentTimeMs|long  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#91"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method writeElectionState arguments ElectionState  latest"
+ , "c3" : "QC-JAV000006[00091] For method updateHighWatermark arguments OptionalLong  highWatermark"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#91"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#91"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00091] The argument latest is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00091] The argument highWatermark is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  'Attempt to overwrite current high watermark ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  ' with unknown value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#100"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  'Illegal negative high watermark update' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  'Non-monotonic update of high watermark attempted' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.raft.FollowerState.updateHighWatermark@POLYN160855 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method voters arguments Set&lt;Integer &gt;  votersId"
+ , "c3" : "QC-JAV000006[00123] For method setFetchingSnapshot arguments Optional&lt;RawSnapshotWriter &gt;  newSnapshot"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#100"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00100] The argument votersId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#105"
+ , "c1" : "00131"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method writeElectionStateToFile arguments File  stateFile|QuorumStateData  state"
+ , "c3" : "QC-JAV000006[00131] For method canGrantVote arguments int  candidateId|boolean  isLogUpToDate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#105"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument stateFile is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#105"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00105] The argument state is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#106"
+ , "c1" : "00132"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572 the MagicNumber/String  '.tmp' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.raft.FollowerState.canGrantVote@POLYN162583 the MagicNumber/String  'Rejecting vote request from candidate {} since we already have a leader {} in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#109"
+ , "c1" : "00134"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572 the MagicNumber/String  'Writing tmp quorum state {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.raft.FollowerState.canGrantVote@POLYN162583 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#124"
+ , "c1" : "00139"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572 the MagicNumber/String  'Error while writing the Quorum status from the file %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  'FollowerState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#136"
+ , "c1" : "00140"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.FileBasedStateStore.clear@POLYN174315 the MagicNumber/String  '.tmp' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  'fetchTimeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#141"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.FileBasedStateStore.toString@POLYN174586 the MagicNumber/String  'Quorum state filepath: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', epoch=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', leaderId=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', voters=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method deleteFileIfExists arguments File  file"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#144"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00144] The argument file is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#149"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.raft.FileBasedStateStore.deleteFileIfExists@POLYN174708 the MagicNumber/String  'Error while deleting file %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', highWatermark=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ', fetchingSnapshot=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.raft.FollowerState.toString@POLYN162883 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#1"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572 the MagicNumber/String '.tmp' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572 the MagicNumber/String 'Writing tmp quorum state {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572 the MagicNumber/String 'Error while writing the Quorum status from the file %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.FollowerState.close@POLYN163277"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

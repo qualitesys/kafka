@@ -1,133 +1,133 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java 19 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Readable"
- , "c2" : "org.apache.kafka.common.protocol.DataInputStreamReadable"
+ , "c1" : "Writable"
+ , "c2" : "org.apache.kafka.common.protocol.DataOutputStreamWritable"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.protocol.DataInputStreamReadable" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.protocol.DataOutputStreamWritable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#14"
- , "c1" : "DataInputStreamReadable"
- , "c2" : "DataInputStreamReadable(DataInputStream)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#16"
+ , "c1" : "DataOutputStreamWritable"
+ , "c2" : "DataOutputStreamWritable(DataOutputStream)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#19"
- , "c1" : "byte"
- , "c2" : "readByte()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#28"
- , "c1" : "short"
- , "c2" : "readShort()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#37"
- , "c1" : "int"
- , "c2" : "readInt()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#46"
- , "c1" : "long"
- , "c2" : "readLong()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#55"
- , "c1" : "double"
- , "c2" : "readDouble()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#64"
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#21"
  , "c1" : "void"
- , "c2" : "readArray(byte[])"
+ , "c2" : "writeByte(byte)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#73"
- , "c1" : "int"
- , "c2" : "readUnsignedVarint()"
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#30"
+ , "c1" : "void"
+ , "c2" : "writeShort(short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#82"
- , "c1" : "ByteBuffer"
- , "c2" : "readByteBuffer(int)"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#39"
+ , "c1" : "void"
+ , "c2" : "writeInt(int)"
  , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#89"
- , "c1" : "int"
- , "c2" : "readVarint()"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#48"
+ , "c1" : "void"
+ , "c2" : "writeLong(long)"
  , "c3" : "1"
  , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#57"
+ , "c1" : "void"
+ , "c2" : "writeDouble(double)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#66"
+ , "c1" : "void"
+ , "c2" : "writeByteArray(byte[])"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#75"
+ , "c1" : "void"
+ , "c2" : "writeUnsignedVarint(int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#84"
+ , "c1" : "void"
+ , "c2" : "writeByteBuffer(ByteBuffer)"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00098"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#98"
- , "c1" : "long"
- , "c2" : "readVarlong()"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#98"
+ , "c1" : "void"
+ , "c2" : "writeVarint(int)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00107"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#107"
- , "c1" : "int"
- , "c2" : "remaining()"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#107"
+ , "c1" : "void"
+ , "c2" : "writeVarlong(long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#116"
+ , "c5" : "00115"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#115"
+ , "c1" : "void"
+ , "c2" : "flush()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#124"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
@@ -138,9 +138,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.svg" }
 
 ] 
 , 
@@ -177,9 +177,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -193,41 +200,148 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "10"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#11"
+ , "c1" : "00013"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class DataInputStreamReadable contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00013] The class DataOutputStreamWritable contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#64"
+ , "c1" : "00021"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#21"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method readArray arguments byte[]  arr"
+ , "c3" : "QC-JAV000006[00021] For method writeByte arguments byte  val"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#82"
+ , "c1" : "00030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method readByteBuffer arguments int  length"
+ , "c3" : "QC-JAV000006[00030] For method writeShort arguments short  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#39"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00039] For method writeInt arguments int  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method writeLong arguments long  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00057] For method writeDouble arguments double  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00066] For method writeByteArray arguments byte[]  arr"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method writeUnsignedVarint arguments int  i"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#84"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00084] For method writeByteBuffer arguments ByteBuffer  buf"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#84"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00084] The argument buf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00098] For method writeVarint arguments int  i"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#107"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00107] For method writeVarlong arguments long  i"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html#1"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataInputStreamReadable.close@POLYN155090"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.close@POLYN157571"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.flush@POLYN157325"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeByte@POLYN154031"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeDouble@POLYN155179"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeInt@POLYN154605"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeLong@POLYN154892"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.DataOutputStreamWritable.writeShort@POLYN154318"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataOutputStreamWritable.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

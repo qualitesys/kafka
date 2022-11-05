@@ -1,72 +1,72 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java 6 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java 9 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractResponse"
- , "c2" : "org.apache.kafka.common.requests.UnregisterBrokerResponse"
+ , "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.UpdateFeaturesRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.UnregisterBrokerResponse" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.UpdateFeaturesRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#17"
- , "c1" : "UnregisterBrokerResponse"
- , "c2" : "UnregisterBrokerResponse(UnregisterBrokerResponseData)"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#66"
+ , "c1" : "UpdateFeaturesRequest"
+ , "c2" : "UpdateFeaturesRequest(UpdateFeaturesRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#23"
- , "c1" : "UnregisterBrokerResponseData"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#71"
+ , "c1" : "FeatureUpdateItem"
+ , "c2" : "getFeature(String)"
+ , "c3" : "5"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#84"
+ , "c1" : "Collection<FeatureUpdateItem>"
+ , "c2" : "featureUpdates()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#91"
+ , "c1" : "UpdateFeaturesResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#100"
+ , "c1" : "UpdateFeaturesRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#28"
- , "c1" : "int"
- , "c2" : "throttleTimeMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#33"
- , "c1" : "Map<Errors,Integer>"
- , "c2" : "errorCounts()"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#41"
- , "c1" : "UnregisterBrokerResponse"
+ , "c5" : "00104"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#104"
+ , "c1" : "UpdateFeaturesRequest"
  , "c2" : "parse(ByteBuffer;short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#46"
- , "c1" : "boolean"
- , "c2" : "shouldClientThrottle(short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +75,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.svg" }
 
 ] 
 , 
@@ -113,6 +113,13 @@ var maDataBlocs = {
 ,
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
@@ -121,64 +128,94 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#35"
+ , "c1" : "00016"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#16"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.errorCounts@POLYN146538 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000008[00016] The class FeatureUpdateItem contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#36"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.errorCounts@POLYN146538 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.requests.UpdateFeaturesRequest.FeatureUpdateItem.isDeleteRequest@POLYN154784 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#41"
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00054] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#46"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method shouldClientThrottle arguments short  version"
+ , "c3" : "QC-JAV000006[00071] For method getFeature arguments String  name"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#47"
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.UnregisterBrokerResponse.shouldClientThrottle@POLYN147283 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN155889 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#104"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00104] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.html#1"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UnregisterBrokerResponse.throttleTimeMs@POLYN146381"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN155889"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#73"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.requests.UpdateFeaturesRequest.getFeature@POLYN155889 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UnregisterBrokerResponse.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

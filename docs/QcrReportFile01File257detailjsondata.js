@@ -1,9 +1,9 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/ConsumerGroupState.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/ConsumerGroupState.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/ConsumerGroupState.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/ElectionType.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/ElectionType.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/ElectionType.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -41,8 +41,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/ConsumerGroupState.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/ElectionType.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

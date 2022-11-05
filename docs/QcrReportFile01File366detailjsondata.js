@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException"
+ , "c2" : "org.apache.kafka.common.errors.InvalidReplicationFactorException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.InvalidReplicationFactorException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00008"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#8"
- , "c1" : "InvalidReplicaAssignmentException"
- , "c2" : "InvalidReplicaAssignmentException(String)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.html#8"
+ , "c1" : "InvalidReplicationFactorException"
+ , "c2" : "InvalidReplicationFactorException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.html#12"
- , "c1" : "InvalidReplicaAssignmentException"
- , "c2" : "InvalidReplicaAssignmentException(String;Throwable)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.html#12"
+ , "c1" : "InvalidReplicationFactorException"
+ , "c2" : "InvalidReplicationFactorException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.svg" }
 
 ] 
 , 
@@ -66,8 +66,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data15" : [
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicaAssignmentException.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidReplicationFactorException.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');

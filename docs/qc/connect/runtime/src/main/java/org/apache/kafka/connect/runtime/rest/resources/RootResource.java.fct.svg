@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="376px" preserveAspectRatio="none" style="width:518px;height:376px;background:#FFFFFF;" version="1.1" viewBox="0 0 518 376" width="518px" zoomAndPan="magnify"><defs/><g><path d="M198,10 L198,18.5664 L178,22.5664 L198,26.5664 L198,35.1328 A0,0 0 0 0 198,35.1328 L480,35.1328 A0,0 0 0 0 480,35.1328 L480,20 L470,10 L198,10 A0,0 0 0 0 198,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M470,10 L470,20 L480,20 L470,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="261" x="204" y="27.0669">constructor RootResource(Herderherder)</text><ellipse cx="168" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="97.5" y="55.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="107.5" y="76.2715">this.herder=herder</text><ellipse cx="168" cy="119.1016" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="161.8128" x2="174.1872" y1="112.9144" y2="125.2887"/><line style="stroke:#222222;stroke-width:2.5;" x1="174.1872" x2="161.8128" y1="112.9144" y2="125.2887"/><path d="M198,139.1016 L198,147.668 L178,151.668 L198,155.668 L198,164.2344 A0,0 0 0 0 198,164.2344 L506,164.2344 A0,0 0 0 0 506,164.2344 L506,149.1016 L496,139.1016 L198,139.1016 A0,0 0 0 0 198,139.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M496,139.1016 L496,149.1016 L506,149.1016 L496,139.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="287" x="204" y="156.1685">void requestTimeout(longrequestTimeoutMs)</text><ellipse cx="168" cy="151.668" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="168" cy="194.2344" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="161.8128" x2="174.1872" y1="188.0472" y2="200.4216"/><line style="stroke:#222222;stroke-width:2.5;" x1="174.1872" x2="161.8128" y1="188.0472" y2="200.4216"/><path d="M198,214.2344 L198,222.8008 L178,226.8008 L198,230.8008 L198,239.3672 A0,0 0 0 0 198,239.3672 L357,239.3672 A0,0 0 0 0 357,239.3672 L357,224.2344 L347,214.2344 L198,214.2344 A0,0 0 0 0 198,214.2344 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M347,214.2344 L347,224.2344 L357,224.2344 L347,214.2344 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="204" y="231.3013">ServerInfoserverInfo()</text><ellipse cx="168" cy="226.8008" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="314" x="11" y="259.3672"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="294" x="21" y="280.5059">return new ServerInfo(herder.kafkaClusterId());</text><ellipse cx="168" cy="324.3359" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="168" cy="324.3359" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="168" cy="355.3359" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="161.8128" x2="174.1872" y1="349.1488" y2="361.5231"/><line style="stroke:#222222;stroke-width:2.5;" x1="174.1872" x2="161.8128" y1="349.1488" y2="361.5231"/><line style="stroke:#181818;stroke-width:1.0;" x1="168" x2="168" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="164,45.1328,168,55.1328,172,45.1328,168,49.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="168" x2="168" y1="89.1016" y2="109.1016"/><polygon fill="#181818" points="164,99.1016,168,109.1016,172,99.1016,168,103.1016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="168" x2="168" y1="161.668" y2="184.2344"/><polygon fill="#181818" points="164,174.2344,168,184.2344,172,174.2344,168,178.2344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="168" x2="168" y1="236.8008" y2="259.3672"/><polygon fill="#181818" points="164,249.3672,168,259.3672,172,249.3672,168,253.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="168" x2="168" y1="293.3359" y2="313.3359"/><polygon fill="#181818" points="164,303.3359,168,313.3359,172,303.3359,168,307.3359" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[dff97cce875586815c6e895670fa9e3a]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor RootResource(Herderherder)
+end note
+:this.herder=herder;
+end
+start
+note right
+void requestTimeout(longrequestTimeoutMs)
+end note
+end
+start
+note right
+ServerInfoserverInfo()
+end note
+:return new ServerInfo(herder.kafkaClusterId());;
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

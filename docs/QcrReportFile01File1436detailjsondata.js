@@ -1,128 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java 24 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java 7 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterator<Batch<T>>"
- , "c2" : "org.apache.kafka.raft.internals.RecordsIterator"
+ , "c1" : "RecordSerde<String>"
+ , "c2" : "org.apache.kafka.raft.internals.StringSerde"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.internals.RecordsIterator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.internals.StringSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#38"
- , "c1" : "RecordsIterator"
- , "c2" : "RecordsIterator(Records;RecordSerde<T>;BufferSupplier;int)"
+ , "c5" : "00013"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#13"
+ , "c1" : "int"
+ , "c2" : "recordSize(String;ObjectSerializationCache)"
  , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#51"
- , "c1" : "boolean"
- , "c2" : "hasNext()"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#62"
- , "c1" : "Batch<T>"
- , "c2" : "next()"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#74"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#80"
- , "c1" : "void"
- , "c2" : "ensureOpen()"
- , "c3" : "2"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#86"
- , "c1" : "MemoryRecords"
- , "c2" : "readFileRecords(FileRecords;ByteBuffer)"
+ , "c5" : "00017"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#17"
+ , "c1" : "int"
+ , "c2" : "recordSize(String)"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#98"
- , "c1" : "MemoryRecords"
- , "c2" : "createMemoryRecords(FileRecords)"
- , "c3" : "5"
- , "c4" : "12"
+ , "c5" : "00022"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#22"
+ , "c1" : "void"
+ , "c2" : "write(String;ObjectSerializationCache;Writable)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#125"
- , "c1" : "Iterator<MutableRecordBatch>"
- , "c2" : "nextBatches()"
- , "c3" : "6"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#144"
- , "c1" : "Optional<Batch<T>>"
- , "c2" : "nextBatch()"
- , "c3" : "4"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00167"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#167"
- , "c1" : "Batch<T>"
- , "c2" : "readBatch(DefaultRecordBatch)"
- , "c3" : "5"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00203"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#203"
- , "c1" : "T"
- , "c2" : "readRecord(Readable)"
- , "c3" : "5"
- , "c4" : "13"
+ , "c5" : "00027"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#27"
+ , "c1" : "String"
+ , "c2" : "read(Readable;int)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.svg" }
 
 ] 
 , 
@@ -152,14 +89,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -167,13 +97,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -186,175 +109,58 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#24"
+ , "c1" : "00010"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00024] The class RecordsIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class StringSerde contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.internals.RecordsIterator.next@POLYN173339 the MagicNumber/String  'Batch iterator doesn't have any more elements' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.raft.internals.RecordsIterator.close@POLYN173747 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.raft.internals.RecordsIterator.ensureOpen@POLYN174001 the MagicNumber/String  'Serde record batch itererator was closed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#86"
+ , "c1" : "00013"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#13"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method readFileRecords arguments FileRecords  fileRecords|ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00013] For method recordSize arguments String  data|ObjectSerializationCache  serializationCache"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#86"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00086] The argument fileRecords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#86"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00086] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.internals.RecordsIterator.readFileRecords@POLYN174175 the MagicNumber/String  'Failed to read records into memory' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#98"
+ , "c1" : "00017"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#17"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method createMemoryRecords arguments FileRecords  fileRecords"
+ , "c3" : "QC-JAV000006[00017] For method recordSize arguments String  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.raft.internals.RecordsIterator.nextBatches@POLYN176117 the MagicNumber/String  'Unexpected Records type %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.raft.internals.RecordsIterator.nextBatch@POLYN177038 the MagicNumber/String  'DefaultRecordBatch expected by record type was %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#167"
+ , "c1" : "00022"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method readBatch arguments DefaultRecordBatch  batch"
+ , "c3" : "QC-JAV000006[00022] For method write arguments String  data|ObjectSerializationCache  serializationCache|Writable  out"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#167"
+ , "c1" : "00022"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#22"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00167] The argument batch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00022] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00186] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178032 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#180"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178032 the MagicNumber/String  'Expected a record count for the records batch' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178032 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#203"
+ , "c1" : "00027"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00203] For method readRecord arguments Readable  input"
+ , "c3" : "QC-JAV000006[00027] For method read arguments Readable  input|int  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#203"
+ , "c1" : "00027"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#27"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00203] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179651 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179651 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179651 the MagicNumber/String  'Unexpected key size ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#224"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179651 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#232"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179651 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAVCWE476[00027] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
-"data15" : [
-   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.svg" }
+,
+"data15" : {
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.fct.svg" 
 
+}
 };
 console.log('leListeStr 99 main end');
