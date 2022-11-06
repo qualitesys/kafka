@@ -300,10 +300,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00187] For method withStoreBuilder arguments StoreBuilder&lt;TimestampedKeyValueStore&lt;K ,VR &gt; &gt;  storeBuilder"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

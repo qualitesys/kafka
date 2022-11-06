@@ -92,7 +92,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -264,10 +264,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String 'been shut down.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

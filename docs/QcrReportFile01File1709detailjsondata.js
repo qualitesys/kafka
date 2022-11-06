@@ -139,10 +139,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.kstream.internals.TimeWindow.overlap@POLYN151850 the MagicNumber/String  '.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindow.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

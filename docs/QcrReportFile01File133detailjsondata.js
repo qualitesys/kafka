@@ -152,10 +152,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147497 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

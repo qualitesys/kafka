@@ -277,10 +277,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.util.LoggingContext.close@POLYN187330 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

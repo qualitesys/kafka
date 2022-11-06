@@ -551,10 +551,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.checkStateTransition@POLYN210189 the MagicNumber/String  ' can not be transitioned to target state: ' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

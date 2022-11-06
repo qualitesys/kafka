@@ -515,10 +515,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00084] Public method newRecord is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

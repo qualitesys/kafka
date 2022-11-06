@@ -106,10 +106,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.DescribeConsumerGroupsResult.all@POLYN149528 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -279,10 +279,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionSendProcessorSupplier.UnbindChangeProcessor.process@POLYN177355 the MagicNumber/String  'Skipping record due to null foreign key. Topic, partition, and offset not known.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionSendProcessorSupplier.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

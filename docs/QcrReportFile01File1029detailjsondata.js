@@ -175,10 +175,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00068] For method commitRecord arguments SourceRecord  record|RecordMetadata  metadata"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

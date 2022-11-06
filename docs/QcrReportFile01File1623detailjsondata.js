@@ -137,7 +137,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -337,10 +337,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.streams.kstream.Window.hashCode@POLYN160550 the MagicNumber/String 32 MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

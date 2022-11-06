@@ -201,10 +201,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00067] For method withName arguments String  processorName"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

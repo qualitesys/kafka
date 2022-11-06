@@ -198,10 +198,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.LagInfo.toString@POLYN151157 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

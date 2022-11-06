@@ -119,7 +119,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -326,10 +326,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.header.internals.RecordHeader.hashCode@POLYN150991 the MagicNumber/String 31 MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

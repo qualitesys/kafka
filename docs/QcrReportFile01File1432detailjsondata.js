@@ -155,7 +155,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -992,10 +992,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN174005 the MagicNumber/String 'The average fraction of time the client's poll-- is idle as opposed to waiting for the user code to process records.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

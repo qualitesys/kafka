@@ -273,10 +273,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00078] For method recordLevel arguments Sensor.RecordingLevel  recordingLevel"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricConfig.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

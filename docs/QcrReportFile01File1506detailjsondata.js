@@ -189,10 +189,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00036] For method clearTopicPartition arguments TopicIdPartition  topicIdPartition"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

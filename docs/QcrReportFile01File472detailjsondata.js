@@ -159,10 +159,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.CumulativeSum.toString@POLYN144926 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

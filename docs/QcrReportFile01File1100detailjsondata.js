@@ -441,10 +441,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.checkVersionCompatibility@POLYN219975 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

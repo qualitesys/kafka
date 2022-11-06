@@ -175,10 +175,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000019[00035] Lock statement on synchronized method position"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

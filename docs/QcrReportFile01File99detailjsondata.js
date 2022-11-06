@@ -212,10 +212,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN157081 the MagicNumber/String  '&amp;lt;none&amp;gt;' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

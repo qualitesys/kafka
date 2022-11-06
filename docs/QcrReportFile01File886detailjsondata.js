@@ -315,10 +315,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.utils.ByteBufferUnmapper.nonNull@POLYN165171 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

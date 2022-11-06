@@ -164,7 +164,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1015,10 +1015,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.trogdor.agent.Agent.rebaseTaskSpecTime@POLYN186684 the MagicNumber/String 'startMs' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -81,10 +81,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.streams.state.internals.ValueAndTimestampSerde.ValueAndTimestampSerde@POLYN143041 the MagicNumber/String  'valueSerde was null' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerde.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

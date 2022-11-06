@@ -233,7 +233,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -587,10 +587,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

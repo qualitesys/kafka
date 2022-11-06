@@ -185,10 +185,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner.toBytes@POLYN147234 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataTopicPartitioner.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

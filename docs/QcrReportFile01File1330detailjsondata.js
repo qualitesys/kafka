@@ -146,7 +146,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -556,10 +556,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.image.ClientQuotasImage.equals@POLYN179489 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -400,10 +400,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.Herder.Created.equals@POLYN207481 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

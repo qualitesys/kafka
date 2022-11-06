@@ -194,7 +194,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -842,10 +842,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00384] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN215200 the MagicNumber/String 'Initialization for the global stream thread failed' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

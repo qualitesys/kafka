@@ -187,10 +187,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor.equals@POLYN145744 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StaticTopicNameExtractor.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

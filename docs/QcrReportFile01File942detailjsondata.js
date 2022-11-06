@@ -250,10 +250,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.data.Decimal.scale@POLYN154912 the MagicNumber/String  'Invalid scale parameter found in Decimal schema: ' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

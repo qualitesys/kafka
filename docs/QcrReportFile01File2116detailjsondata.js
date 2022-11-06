@@ -973,10 +973,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00225] For method append arguments String  msg"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

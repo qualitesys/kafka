@@ -117,10 +117,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00031] For method retryOnQuotaViolation arguments boolean  retryOnQuotaViolation"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsOptions.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

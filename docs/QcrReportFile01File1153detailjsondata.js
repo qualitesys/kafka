@@ -166,10 +166,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.runtime.rest.entities.TaskInfo.equals@POLYN145720 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

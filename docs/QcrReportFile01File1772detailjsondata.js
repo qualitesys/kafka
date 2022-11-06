@@ -65,7 +65,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -181,10 +181,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00023] In the recursive method org.apache.kafka.streams.processor.FailOnInvalidTimestamp.onInvalidTimestamp@POLYN152352 the MagicNumber/String 'Use a different TimestampExtractor to process this data.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/FailOnInvalidTimestamp.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

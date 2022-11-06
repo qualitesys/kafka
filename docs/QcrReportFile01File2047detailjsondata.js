@@ -294,10 +294,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00136] For method put arguments Windowed&lt;Bytes &gt;  sessionKey|byte[]  aggregate"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBSessionStore.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

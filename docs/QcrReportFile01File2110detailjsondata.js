@@ -517,10 +517,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00305] For method getInteger arguments String  key"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

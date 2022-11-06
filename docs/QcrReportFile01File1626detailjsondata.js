@@ -115,10 +115,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00020] For method windowsFor arguments long  timestamp"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windows.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

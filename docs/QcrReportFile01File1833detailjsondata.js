@@ -74,7 +74,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -316,10 +316,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGrouper.maxNumPartitions@POLYN158105 the MagicNumber/String 'Empty partitions for topic ' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

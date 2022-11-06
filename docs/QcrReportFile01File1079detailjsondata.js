@@ -295,10 +295,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.StateTracker.StateChange.durationRatio@POLYN169537 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/StateTracker.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -133,10 +133,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00037] For method maxlifeTimeMs arguments long  maxLifeTimeMs"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

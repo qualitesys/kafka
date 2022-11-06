@@ -233,10 +233,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN148652 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -106,10 +106,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00015] For method convert arguments T  result"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/FutureCallback.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

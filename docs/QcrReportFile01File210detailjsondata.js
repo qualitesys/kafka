@@ -191,7 +191,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -405,10 +405,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN157375 the MagicNumber/String 'Heartbeat failed, reset the timer to {}ms remaining' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

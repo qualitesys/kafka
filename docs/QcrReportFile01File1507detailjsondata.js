@@ -443,10 +443,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00166] For method maybeLoadPartition arguments TopicIdPartition  partition"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataStore.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

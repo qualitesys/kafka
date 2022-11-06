@@ -362,7 +362,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -2067,10 +2067,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.updateChangelogOffsets@POLYN255556 the MagicNumber/String 'State store {} updated to written offset {} at changelog {}' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

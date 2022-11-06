@@ -143,10 +143,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN145944 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

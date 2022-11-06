@@ -776,10 +776,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00201] Public method nodeIfOnline is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

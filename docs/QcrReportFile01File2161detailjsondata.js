@@ -83,7 +83,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -199,10 +199,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00023] In the recursive method org.apache.kafka.trogdor.rest.RestExceptionMapper.toResponse@POLYN152629 the MagicNumber/String 'Uncaught exception in REST call: {}' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

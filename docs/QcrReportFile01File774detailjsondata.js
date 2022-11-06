@@ -182,7 +182,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1250,10 +1250,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.common.security.kerberos.KerberosLogin.close@POLYN203145 the MagicNumber/String '[Principal={}]: Error while waiting for Login thread to shutdown.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

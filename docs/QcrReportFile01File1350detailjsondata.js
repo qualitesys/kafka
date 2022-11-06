@@ -41,10 +41,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationFencingChange.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

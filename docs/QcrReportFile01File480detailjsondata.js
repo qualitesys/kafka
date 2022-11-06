@@ -119,7 +119,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -368,10 +368,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN163976 the MagicNumber/String 'Received value {} which is less than min recordable value {}, will be pinned to the min value' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

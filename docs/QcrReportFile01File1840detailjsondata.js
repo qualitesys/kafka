@@ -164,7 +164,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -469,10 +469,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorRecordContext.residentMemorySizeEstimate@POLYN169667 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

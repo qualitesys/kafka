@@ -219,10 +219,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

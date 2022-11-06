@@ -128,7 +128,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -279,10 +279,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.connect.file.FileStreamSinkTask.flush@POLYN153804 the MagicNumber/String 'Flushing output stream for {}' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

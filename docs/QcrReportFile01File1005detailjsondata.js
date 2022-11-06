@@ -41,10 +41,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/DecimalFormat.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

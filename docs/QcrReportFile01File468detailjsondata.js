@@ -466,10 +466,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000019[00229] Lock statement on synchronized method values"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

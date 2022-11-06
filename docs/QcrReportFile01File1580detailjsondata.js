@@ -208,10 +208,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00068] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Grouped.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -175,10 +175,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00033] Public method equals is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/SourceAndTarget.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

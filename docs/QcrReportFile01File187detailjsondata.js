@@ -99,10 +99,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.clients.consumer.NoOffsetForPartitionException.NoOffsetForPartitionException@POLYN144939 the MagicNumber/String  'Undefined offset with no reset policy for partitions: ' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/NoOffsetForPartitionException.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

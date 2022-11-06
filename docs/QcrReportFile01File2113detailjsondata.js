@@ -1293,10 +1293,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'consumer' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

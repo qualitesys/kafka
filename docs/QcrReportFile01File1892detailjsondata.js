@@ -155,7 +155,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -663,10 +663,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180102 the MagicNumber/String 'Cooperative rebalancing protocol is enabled now' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

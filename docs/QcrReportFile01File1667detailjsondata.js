@@ -234,10 +234,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00132] For method get arguments K  key"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

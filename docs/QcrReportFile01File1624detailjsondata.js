@@ -196,10 +196,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.Windowed.hashCode@POLYN151164 the MagicNumber/String  0xFFFFFFFFL should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Windowed.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -250,10 +250,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00092] For method getNow arguments T  valueIfAbsent"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

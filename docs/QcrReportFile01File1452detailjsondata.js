@@ -288,10 +288,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.buildMalformedLineException@POLYN173148 the MagicNumber/String  'Malformed line in checkpoint file [%s]: %s' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

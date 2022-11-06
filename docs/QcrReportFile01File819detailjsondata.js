@@ -92,7 +92,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -306,10 +306,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver.init@POLYN165117 the MagicNumber/String 'init completed' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

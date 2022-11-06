@@ -113,10 +113,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00027] For method wrapForInput arguments ByteBuffer  buffer"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

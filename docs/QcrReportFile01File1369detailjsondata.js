@@ -542,10 +542,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getDefaultResult@POLYN175238 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

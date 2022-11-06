@@ -93,10 +93,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/ApiException.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

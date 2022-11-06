@@ -252,10 +252,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00015] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

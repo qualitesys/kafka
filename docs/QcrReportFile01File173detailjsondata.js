@@ -118,10 +118,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.clients.consumer.CommitFailedException.CommitFailedException@POLYN143652 the MagicNumber/String  'size of batches returned in poll() with max.poll.records.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CommitFailedException.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

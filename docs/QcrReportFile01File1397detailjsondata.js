@@ -41,10 +41,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/Isolation.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

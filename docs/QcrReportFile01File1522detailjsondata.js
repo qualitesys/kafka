@@ -83,7 +83,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -290,10 +290,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountDemo.createWordCountStream@POLYN161245 the MagicNumber/String '\\W+' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

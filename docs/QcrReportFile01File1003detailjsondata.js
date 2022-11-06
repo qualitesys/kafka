@@ -110,7 +110,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -212,10 +212,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN155301 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

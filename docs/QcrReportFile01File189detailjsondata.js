@@ -256,10 +256,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.consumer.OffsetAndTimestamp.equals@POLYN150318 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

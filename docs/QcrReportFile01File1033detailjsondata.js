@@ -407,7 +407,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1188,10 +1188,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00482] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceConnector.isCycle@POLYN259812 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

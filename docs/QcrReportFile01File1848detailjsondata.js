@@ -155,7 +155,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -719,10 +719,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.streams.processor.internals.RecordCollectorImpl.flush@POLYN207626 the MagicNumber/String 'Flushing record collector' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

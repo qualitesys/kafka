@@ -218,7 +218,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1188,10 +1188,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN236778 the MagicNumber/String 'shutdown offset {}.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

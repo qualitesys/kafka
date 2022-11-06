@@ -155,7 +155,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1265,10 +1265,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00488] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN264022 the MagicNumber/String 'Error sending fetch request {} to node {}:' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

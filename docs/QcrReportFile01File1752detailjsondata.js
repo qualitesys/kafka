@@ -162,10 +162,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode.writeToTopology@POLYN147507 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

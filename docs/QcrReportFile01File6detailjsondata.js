@@ -353,7 +353,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1099,10 +1099,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.clients.ClusterConnectionStates.connecting@POLYN229338 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

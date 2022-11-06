@@ -154,10 +154,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAVCWE476[00050] The argument bytesKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -83,10 +83,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00005] The class LoaderSwap contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/LoaderSwap.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

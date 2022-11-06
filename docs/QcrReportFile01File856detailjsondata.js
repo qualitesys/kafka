@@ -65,7 +65,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -181,10 +181,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00021] In the recursive method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN143010 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

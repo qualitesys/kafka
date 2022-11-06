@@ -506,7 +506,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -2568,10 +2568,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.clients.NetworkClient.disconnect@POLYN331850 the MagicNumber/String 'Client requested disconnect from node {}' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

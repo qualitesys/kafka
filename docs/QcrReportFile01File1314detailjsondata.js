@@ -209,7 +209,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -703,10 +703,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.controller.PartitionChangeBuilder.tryElection@POLYN196657 the MagicNumber/String 'Failed to find a new leader with current state: {}' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

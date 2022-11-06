@@ -113,10 +113,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00019] For method ofTopicNames arguments Collection&lt;String &gt;  topics"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

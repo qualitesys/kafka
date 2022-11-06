@@ -173,7 +173,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -373,10 +373,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.streams.processor.internals.AbstractTask.clearTaskTimeout@POLYN173235 the MagicNumber/String 'Clearing task timeout.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -101,7 +101,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -336,10 +336,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.security.authenticator.AbstractLogin.login@POLYN154911 the MagicNumber/String 'Successfully logged in.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

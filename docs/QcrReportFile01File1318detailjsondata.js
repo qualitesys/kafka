@@ -551,7 +551,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -3495,10 +3495,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[01849] In the recursive method org.apache.kafka.controller.QuorumController.pause@POLYN494029 the MagicNumber/String 'Interrupted while waiting for unpause.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -119,7 +119,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -291,10 +291,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN149828 the MagicNumber/String ', but the sequence number was never set for this partition.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

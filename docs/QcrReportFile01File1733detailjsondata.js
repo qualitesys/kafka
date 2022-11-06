@@ -125,10 +125,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionStoreReceiveProcessorSupplier.get@POLYN163408 the MagicNumber/String  'SubscriptionWrapper is of an incompatible version.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionStoreReceiveProcessorSupplier.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

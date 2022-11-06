@@ -326,7 +326,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1828,10 +1828,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.streams.TopologyTestDriver.setupTask@POLYN409175 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

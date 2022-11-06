@@ -419,10 +419,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00110] For method setIsChangelogTopic arguments boolean  isChangelogTopic"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

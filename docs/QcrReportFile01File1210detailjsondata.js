@@ -305,10 +305,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00037] Public method configuredGroups is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

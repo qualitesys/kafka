@@ -323,10 +323,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00146] For method newTaskWorker arguments String  id"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchSpec.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

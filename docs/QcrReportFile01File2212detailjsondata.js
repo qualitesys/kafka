@@ -92,10 +92,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00009] The class RandomComponent contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RandomComponent.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

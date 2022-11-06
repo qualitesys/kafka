@@ -440,10 +440,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.OffsetCheckpoint.isValid@POLYN180187 the MagicNumber/String  0L should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -92,7 +92,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -481,10 +481,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark.testMakeFollower@POLYN182219 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

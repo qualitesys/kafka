@@ -437,10 +437,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00214] For method shouldRangeFetch arguments long  emitRangeLowerBound|long  emitRangeUpperBound"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

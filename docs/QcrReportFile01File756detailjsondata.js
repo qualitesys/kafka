@@ -111,10 +111,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.common.security.auth.SaslExtensionsCallback.extensions@POLYN145165 the MagicNumber/String  'extensions must not be null' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

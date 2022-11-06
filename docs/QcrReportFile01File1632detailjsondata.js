@@ -217,10 +217,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.streams.kstream.internals.ChangedDeserializer.deserialize@POLYN150216 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

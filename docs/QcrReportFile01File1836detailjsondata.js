@@ -314,10 +314,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN157306 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

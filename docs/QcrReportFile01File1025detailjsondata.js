@@ -182,7 +182,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -396,10 +396,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN164456 the MagicNumber/String 'Started {} with consumer groups: {}' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

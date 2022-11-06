@@ -245,7 +245,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -718,10 +718,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorTopology.updateSourceTopics@POLYN184843 the MagicNumber/String 'Topic ' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -335,10 +335,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.runtime.AbstractStatus.hashCode@POLYN151844 the MagicNumber/String  31 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractStatus.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

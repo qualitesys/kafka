@@ -145,10 +145,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00046] For method newTaskWorker arguments String  id"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultSpec.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

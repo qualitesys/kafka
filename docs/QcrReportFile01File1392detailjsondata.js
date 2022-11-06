@@ -485,10 +485,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.ElectionState.hashCode@POLYN159906 the MagicNumber/String  31 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

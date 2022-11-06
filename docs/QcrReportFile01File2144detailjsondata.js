@@ -159,10 +159,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec.partitionSets@POLYN150324 the MagicNumber/String  ' appears in more than one partition.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultSpec.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -110,7 +110,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -478,10 +478,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule.initialize@POLYN162903 the MagicNumber/String 'Credential properties file '{}' has already been opened and parsed; will read from cached, in-memory store' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

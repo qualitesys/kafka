@@ -106,10 +106,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00012] For method init arguments FixedKeyProcessorContext&lt;KIn ,VOut &gt;  context"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

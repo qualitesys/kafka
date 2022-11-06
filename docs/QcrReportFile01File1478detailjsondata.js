@@ -146,7 +146,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1214,10 +1214,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN205512 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

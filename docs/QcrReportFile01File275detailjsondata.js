@@ -155,7 +155,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -411,10 +411,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.common.Uuid.hashCode@POLYN164702 the MagicNumber/String 32 MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/Uuid.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

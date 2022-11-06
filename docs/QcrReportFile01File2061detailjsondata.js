@@ -147,10 +147,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.state.internals.RocksDbTimeOrderedSessionBytesStoreSupplier.segmentIntervalMs@POLYN145824 the MagicNumber/String  60_000L should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbTimeOrderedSessionBytesStoreSupplier.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

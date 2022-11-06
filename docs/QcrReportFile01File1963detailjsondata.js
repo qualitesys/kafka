@@ -662,10 +662,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00276] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

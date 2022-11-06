@@ -303,10 +303,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00095] For method runCommand arguments String[]  command"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicPlatform.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

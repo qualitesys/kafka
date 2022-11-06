@@ -428,10 +428,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175270 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

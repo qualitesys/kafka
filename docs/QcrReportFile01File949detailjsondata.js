@@ -83,7 +83,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -241,10 +241,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00034] In the recursive method org.apache.kafka.connect.data.Time.fromLogical@POLYN151878 the MagicNumber/String 'Kafka Connect Time type should not have any date fields set to non-zero values.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Time.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

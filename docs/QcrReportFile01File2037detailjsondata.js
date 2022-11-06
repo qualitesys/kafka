@@ -809,10 +809,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema.prefixNonPrefixSessionKey@POLYN223715 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

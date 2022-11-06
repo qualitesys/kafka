@@ -256,10 +256,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo.main@POLYN166249 the MagicNumber/String  5000L should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewUntypedDemo.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

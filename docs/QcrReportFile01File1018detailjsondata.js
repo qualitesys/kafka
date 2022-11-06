@@ -178,10 +178,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAVCWE476[00061] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

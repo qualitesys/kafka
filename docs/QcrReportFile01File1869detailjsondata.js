@@ -587,7 +587,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -2887,10 +2887,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00513] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.updateInputPartitions@POLYN324914 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

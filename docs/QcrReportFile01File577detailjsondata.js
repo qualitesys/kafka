@@ -203,10 +203,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00058] For method writeTo arguments TransferableChannel  channel|long  previouslyWritten|int  remaining"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

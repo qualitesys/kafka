@@ -92,7 +92,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -355,10 +355,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152204 the MagicNumber/String '% 5d  %s%n' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

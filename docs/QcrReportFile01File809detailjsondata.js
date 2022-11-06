@@ -146,7 +146,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -619,10 +619,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.ConfigurationUtils.validateUrl@POLYN177916 the MagicNumber/String 'The OAuth configuration option %s contains a URL -%s- that contains an invalid protocol -%s-; only \'http\', \'https\', and \'file\' protocol are supported' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

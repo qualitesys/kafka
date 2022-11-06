@@ -101,7 +101,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -483,10 +483,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.handleResponse@POLYN172159 the MagicNumber/String 'Discovered all brokers {} to send requests to' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

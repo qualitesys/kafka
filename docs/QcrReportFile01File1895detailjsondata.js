@@ -115,10 +115,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00019] For method taskIds arguments Set&lt;TaskId &gt;  clientToTaskIds"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

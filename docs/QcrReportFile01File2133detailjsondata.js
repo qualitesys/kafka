@@ -200,7 +200,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -2843,10 +2843,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00441] In the recursive method org.apache.kafka.trogdor.coordinator.CoordinatorClient.main@POLYN240103 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -350,10 +350,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker.persistent@POLYN184688 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

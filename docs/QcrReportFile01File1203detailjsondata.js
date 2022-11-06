@@ -148,10 +148,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.util.SafeObjectInputStream.isBlocked@POLYN147800 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SafeObjectInputStream.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

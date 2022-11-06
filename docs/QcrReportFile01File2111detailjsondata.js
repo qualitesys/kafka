@@ -262,10 +262,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00094] Public method wakeup is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/ThroughputThrottler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

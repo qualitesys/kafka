@@ -281,10 +281,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00061] Void method onPartitionsRevoked is empty or contains only a return. Interface segregation"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

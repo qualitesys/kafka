@@ -801,10 +801,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.common.metrics.JmxReporter.contextChange@POLYN204359 the MagicNumber/String  'JMX MetricsContext can only be updated before JMX metrics are created' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

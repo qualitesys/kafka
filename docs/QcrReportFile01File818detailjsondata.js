@@ -119,7 +119,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -641,10 +641,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.refresh@POLYN203819 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

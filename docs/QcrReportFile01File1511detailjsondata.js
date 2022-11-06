@@ -66,10 +66,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataTransform.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

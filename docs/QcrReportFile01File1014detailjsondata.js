@@ -101,7 +101,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -210,10 +210,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN151802 the MagicNumber/String 'Using source cluster alias `{}`.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -110,7 +110,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -310,10 +310,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.connect.runtime.Connect.start@POLYN151541 the MagicNumber/String 'Kafka Connect started' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

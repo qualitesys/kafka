@@ -263,7 +263,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1058,10 +1058,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00368] In the recursive method org.apache.kafka.streams.state.internals.InMemorySessionStore.close@POLYN234787 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

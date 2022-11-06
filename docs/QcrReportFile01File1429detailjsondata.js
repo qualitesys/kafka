@@ -92,7 +92,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -201,10 +201,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147743 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

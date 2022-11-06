@@ -355,10 +355,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.main@POLYN176525 the MagicNumber/String  'sinkconnectorconfigs_' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

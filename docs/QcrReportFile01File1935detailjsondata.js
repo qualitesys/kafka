@@ -140,10 +140,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00034] For method setPosition arguments Position  position"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/AbstractQueryResult.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

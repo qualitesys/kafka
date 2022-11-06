@@ -173,7 +173,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -443,10 +443,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN169968 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

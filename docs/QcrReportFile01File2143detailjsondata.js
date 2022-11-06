@@ -97,10 +97,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00020] For method targetNodes arguments Topology  topology"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

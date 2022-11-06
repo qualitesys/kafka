@@ -174,10 +174,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00046] For method taskConfigs arguments int  maxTasks"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

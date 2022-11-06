@@ -294,10 +294,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource.normalizedPluginName@POLYN177125 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

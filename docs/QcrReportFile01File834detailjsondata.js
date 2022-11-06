@@ -97,10 +97,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00019] For method extensions arguments Map&lt;String ,String &gt;  extensions"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

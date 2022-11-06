@@ -128,7 +128,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -363,10 +363,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler.handleGroupError@POLYN168975 the MagicNumber/String '`OffsetDelete` request for group id {} failed due to unexpected error {}.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

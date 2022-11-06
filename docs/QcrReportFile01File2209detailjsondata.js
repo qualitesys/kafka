@@ -41,10 +41,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadKeyType.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

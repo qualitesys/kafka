@@ -197,7 +197,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -600,10 +600,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN162251 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -92,7 +92,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -355,10 +355,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN157021 the MagicNumber/String 'Hit an unrecognized exception during rebalance' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -256,10 +256,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.internals.ContextualRecord.toString@POLYN149729 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

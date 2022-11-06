@@ -252,10 +252,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.deserialize@POLYN167293 the MagicNumber/String  'Invalid principal data version ' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

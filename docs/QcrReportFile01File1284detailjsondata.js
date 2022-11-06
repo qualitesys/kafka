@@ -95,10 +95,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.jmh.producer.ProducerRecordBenchmark.constructorBenchmark@POLYN145595 the MagicNumber/String  'value' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

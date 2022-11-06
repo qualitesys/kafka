@@ -74,10 +74,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00012] For method apiMessageFor arguments short  apiKey"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/MetadataRecordSerde.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

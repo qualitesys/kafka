@@ -648,10 +648,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.metadata.PartitionRegistration.toString@POLYN193184 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/PartitionRegistration.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

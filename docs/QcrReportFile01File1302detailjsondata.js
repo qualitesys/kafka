@@ -137,7 +137,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -673,10 +673,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

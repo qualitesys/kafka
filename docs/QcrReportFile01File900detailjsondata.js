@@ -1037,10 +1037,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000001[00517] Avoid declaring class instance within loop, performance impact"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

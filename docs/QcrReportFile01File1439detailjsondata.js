@@ -155,7 +155,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -404,10 +404,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN162710 the MagicNumber/String 'temp path = %s, snapshotId %s.' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

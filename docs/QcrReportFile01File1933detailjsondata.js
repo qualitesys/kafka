@@ -152,10 +152,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.WindowKeyQuery.toString@POLYN147197 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/WindowKeyQuery.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

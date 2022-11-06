@@ -93,10 +93,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageManager.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -123,10 +123,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper.toResponse@POLYN150894 the MagicNumber/String  'Uncaught exception in REST call to /{}' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/ConnectExceptionMapper.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

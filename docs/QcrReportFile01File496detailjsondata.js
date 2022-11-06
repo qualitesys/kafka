@@ -159,10 +159,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.network.DefaultChannelMetadataRegistry.close@POLYN143232 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/network/DefaultChannelMetadataRegistry.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

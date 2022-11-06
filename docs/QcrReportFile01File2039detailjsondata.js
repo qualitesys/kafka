@@ -127,10 +127,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00042] For method removeStoreProviderForThread arguments String  threadName"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

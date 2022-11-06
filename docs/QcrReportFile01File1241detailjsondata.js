@@ -207,10 +207,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00025] In method kafka.examples.KafkaConsumerProducerDemo.main@POLYN144371 the MagicNumber/String  'All finished!' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/examples/src/main/java/kafka/examples/KafkaConsumerProducerDemo.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

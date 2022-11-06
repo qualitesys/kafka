@@ -155,10 +155,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.workload.UniformTransactionsGenerator.nextAction@POLYN144525 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -293,10 +293,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.timeline.TimelineObject.equals@POLYN155801 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

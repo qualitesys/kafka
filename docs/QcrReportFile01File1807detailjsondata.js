@@ -287,10 +287,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00278] For method fetch arguments K  keyFrom|K  keyTo"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

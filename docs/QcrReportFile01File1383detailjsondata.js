@@ -831,10 +831,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.timeline.SnapshottableHashTable.executeRevert@POLYN237529 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

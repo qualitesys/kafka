@@ -460,10 +460,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark.updateFollowerFetchStateBenchNoChange@POLYN182260 the MagicNumber/String  100 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/partition/UpdateFollowerFetchStateBenchmark.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

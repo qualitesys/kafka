@@ -298,10 +298,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00117] For method receivedOffsetForPartition arguments int  metadataPartition"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

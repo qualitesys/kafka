@@ -282,10 +282,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00039] Public method inStore is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

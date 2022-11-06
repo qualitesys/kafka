@@ -132,10 +132,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000004[00016] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

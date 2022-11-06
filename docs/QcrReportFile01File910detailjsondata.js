@@ -101,7 +101,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -560,10 +560,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.common.utils.PureJavaCrc32C.getValue@POLYN260494 the MagicNumber/String 0xffffffffL MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

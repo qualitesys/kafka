@@ -88,10 +88,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.clients.admin.AbortTransactionOptions.toString@POLYN141000 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionOptions.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

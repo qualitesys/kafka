@@ -132,10 +132,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000019[00021] Lock statement on synchronized method get"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

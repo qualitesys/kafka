@@ -225,10 +225,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.server.log.remote.metadata.storage.CommittedOffsetsFile.readEntries@POLYN154350 the MagicNumber/String  'Multiple entries exist for key: ' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

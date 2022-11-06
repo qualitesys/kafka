@@ -138,10 +138,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.image.LocalReplicaChanges.PartitionInfo.toString@POLYN148277 the MagicNumber/String  'PartitionInfo(topicId = %s, partition = %s)' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/image/LocalReplicaChanges.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

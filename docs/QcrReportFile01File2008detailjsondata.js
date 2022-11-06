@@ -110,10 +110,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00010] The class KeyValueToTimestampedKeyValueIteratorAdapter contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueIteratorAdapter.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -152,10 +152,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00038] For method getGlobalConsumer arguments Map&lt;String ,Object &gt;  config"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultKafkaClientSupplier.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

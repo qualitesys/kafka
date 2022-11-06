@@ -452,7 +452,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1233,10 +1233,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229364 the MagicNumber/String 'Aborting batch for partition {}' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

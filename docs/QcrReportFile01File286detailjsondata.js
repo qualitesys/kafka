@@ -173,10 +173,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000019[00028] Lock statement on synchronized method size"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

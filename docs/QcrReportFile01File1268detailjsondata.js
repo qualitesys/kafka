@@ -441,10 +441,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000003[00012] Public method parse is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

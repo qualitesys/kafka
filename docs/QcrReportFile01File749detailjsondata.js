@@ -279,10 +279,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00058] For method tokenAuthenticated arguments boolean  tokenAuthenticated"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

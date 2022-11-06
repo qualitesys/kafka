@@ -102,10 +102,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00007] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN140523 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

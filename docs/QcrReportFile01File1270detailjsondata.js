@@ -309,10 +309,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark.mockCluster@POLYN171279 the MagicNumber/String  'mockClusterId' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/admin/GetListOffsetsCallsBenchmark.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -119,7 +119,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -277,10 +277,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN162885 the MagicNumber/String 'Finished registering JAAS basic auth filter' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

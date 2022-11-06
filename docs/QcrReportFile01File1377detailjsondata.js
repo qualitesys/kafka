@@ -180,10 +180,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.metadata.util.SnapshotFileWriter.open@POLYN151960 the MagicNumber/String  5 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

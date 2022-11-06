@@ -187,10 +187,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.shell.ErroneousCommandHandler.toString@POLYN145118 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/ErroneousCommandHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

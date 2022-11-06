@@ -75,10 +75,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

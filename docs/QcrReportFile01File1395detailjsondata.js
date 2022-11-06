@@ -137,7 +137,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -421,10 +421,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile@POLYN172572 the MagicNumber/String 'Error while writing the Quorum status from the file %s' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

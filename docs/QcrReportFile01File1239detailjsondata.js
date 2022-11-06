@@ -257,10 +257,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00078] In method kafka.examples.Consumer.isInterruptible@POLYN156761 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

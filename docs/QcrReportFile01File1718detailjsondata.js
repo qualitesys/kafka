@@ -97,10 +97,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00018] For method partition arguments String  topic|Windowed&lt;K &gt;  windowedKey|V  value|int  numPartitions"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

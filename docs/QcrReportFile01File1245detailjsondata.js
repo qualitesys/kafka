@@ -200,7 +200,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1751,10 +1751,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.message.ApiMessageTypeGenerator.registerMessageType@POLYN203129 the MagicNumber/String 'API key ' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -371,7 +371,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -1362,10 +1362,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00464] In the recursive method org.apache.kafka.raft.QuorumState.resignedStateOrThrow@POLYN230514 the MagicNumber/String 'Expected to be Resigned, but current state is ' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

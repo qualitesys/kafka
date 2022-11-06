@@ -389,7 +389,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -939,10 +939,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.MockProcessorContext.valueSerde@POLYN238619"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

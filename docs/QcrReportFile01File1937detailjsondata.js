@@ -102,10 +102,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.query.internals.InternalQueryResultUtil the MagicNumber/String  'Callers must avoid calling this method on a failed result.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -303,10 +303,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.toString@POLYN156888 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

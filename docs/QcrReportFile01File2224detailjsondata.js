@@ -178,10 +178,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.workload.TimestampRandomPayloadGenerator.generate@POLYN155277 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRandomPayloadGenerator.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -144,10 +144,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.common.StringExpander.expand@POLYN146800 the MagicNumber/String  '%s%d%s' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

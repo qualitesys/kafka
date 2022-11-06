@@ -148,10 +148,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142806 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

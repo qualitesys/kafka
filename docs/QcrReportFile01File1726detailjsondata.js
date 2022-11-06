@@ -271,10 +271,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00080] For method prefixBytes arguments KO  key"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

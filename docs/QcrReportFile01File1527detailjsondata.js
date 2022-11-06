@@ -58,10 +58,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999999[00002] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

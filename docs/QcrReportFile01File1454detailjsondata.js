@@ -139,10 +139,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.server.common.MetadataVersionValidator.toString@POLYN143954 the MagicNumber/String  ']' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

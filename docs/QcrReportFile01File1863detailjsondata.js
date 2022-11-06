@@ -119,7 +119,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -550,10 +550,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.registerStateStores@POLYN167214 the MagicNumber/String 'Initialized state stores' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

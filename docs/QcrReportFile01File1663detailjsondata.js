@@ -125,10 +125,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.KStreamMap.KStreamMapProcessor.process@POLYN148313 the MagicNumber/String  'The provided KeyValueMapper returned null which is not allowed.' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

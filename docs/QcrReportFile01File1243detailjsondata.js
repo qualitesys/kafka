@@ -74,10 +74,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000008[00004] The class KafkaProperties contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/examples/src/main/java/kafka/examples/KafkaProperties.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

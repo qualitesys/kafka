@@ -439,10 +439,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

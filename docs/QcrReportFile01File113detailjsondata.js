@@ -196,10 +196,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.ListTopicsOptions.equals@POLYN148609 the MagicNumber/String  false should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTopicsOptions.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -97,10 +97,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00011] For method scramCredential arguments ScramCredential  scramCredential"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramCredentialCallback.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

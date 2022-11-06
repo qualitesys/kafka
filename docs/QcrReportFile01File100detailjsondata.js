@@ -221,10 +221,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.FeatureUpdate.toString@POLYN158769 the MagicNumber/String  'FeatureUpdate{maxVersionLevel:%d, downgradeType:%s}' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

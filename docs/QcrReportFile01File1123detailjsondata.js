@@ -41,10 +41,10 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-,
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/Stage.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

@@ -88,10 +88,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00007] For method deserialize arguments String  topic|byte[]  data"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteArrayDeserializer.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

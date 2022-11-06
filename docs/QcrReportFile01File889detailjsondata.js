@@ -264,10 +264,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.Checksums.updateLong@POLYN152421 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

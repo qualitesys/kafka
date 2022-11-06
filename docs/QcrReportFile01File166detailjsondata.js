@@ -333,10 +333,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN161291 the MagicNumber/String  '` failed due to unexpected error' should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

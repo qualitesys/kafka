@@ -83,10 +83,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000006[00016] For method owners arguments List&lt;KafkaPrincipal &gt;  owners"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

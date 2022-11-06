@@ -110,7 +110,7 @@ var maDataBlocs = {
 ,
 "data12c" : [
 ]
-,
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -261,10 +261,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.connect.tools.MockSinkTask.put@POLYN150146 the MagicNumber/String 'Triggering sink task failure' MUST BE CONVERTED to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkTask.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');

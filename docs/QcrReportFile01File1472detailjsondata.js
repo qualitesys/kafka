@@ -267,10 +267,11 @@ var maDataBlocs = {
  , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN148210 the MagicNumber/String  true should be converted to const"
 }} 
 ]
-,
+, 
 "data15" : {
    "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.fct.svg" 
 
+, 
 }
 };
 console.log('leListeStr 99 main end');
