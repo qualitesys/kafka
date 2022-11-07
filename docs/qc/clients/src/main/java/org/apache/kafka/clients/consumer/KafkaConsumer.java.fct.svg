@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:851px;height:544px;background:#000000;" version="1.1" viewBox="0 0 851 544" width="851px" zoomAndPan="magnify"><defs/><g><rect fill="#180807" height="1" style="stroke:#180807;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="839" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="41.9688">[From string (line 297) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="111.1563">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="127.4531">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="452" x="5" y="143.75">constructor KafkaConsumer(Map&lt;String,Object&gt;configs)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="160.0469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="176.3438">... ( skipping 272 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="192.6406">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="208.9375">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="303" x="5" y="225.2344">:return poll(time.timer(timeout),true);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="241.5313">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="257.8281">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="274.125">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="290.4219">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="360" x="5" y="306.7188">ConsumerRecords&lt;K,V&gt;poll(final Timertimer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="314" x="5" y="323.0156">final booleanincludeMetadataInTimeout)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="339.3125">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="211" x="5" y="355.6094">:acquireAndEnsureOpen();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="540" x="5" y="371.9063">:this.kafkaConsumerMetrics.recordPollStart(timer.currentTimeMs());</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="568" x="5" y="388.2031">if (this.subscriptions.hasNoSubscriptionOrUserAssignment()) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="839" x="5" y="404.5">:throw new IllegalStateException("Consumer is not subscribed to any topics or assigned any partitions");;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="420.7969">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="5" y="437.0938">repeat</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="245" x="5" y="453.3906">:client.maybeTriggerWakeup();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="320" x="5" y="469.6875">if (includeMetadataInTimeout) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="485.9844">:updateAssignmentMetadataIfNeeded(timer,false);</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="70" x="5" y="502.2813">else (no)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="589" x="5" y="518.5781">while (!updateAssignmentMetadataIfNeeded(time.timer(Long.MAX_VALUE),</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="534.875">Syntax Error?</text><!--MD5=[436ce543c1047a973d356300c2125eb9]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:851px;height:544px;background:#000000;" version="1.1" viewBox="0 0 851 544" width="851px" zoomAndPan="magnify"><defs/><g><rect fill="#0E0017" height="1" style="stroke:#0E0017;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="839" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="41.9688">[From string (line 301) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="111.1563">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="127.4531">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="452" x="5" y="143.75">constructor KafkaConsumer(Map&lt;String,Object&gt;configs)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="160.0469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="176.3438">... ( skipping 276 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="192.6406">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="208.9375">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="303" x="5" y="225.2344">:return poll(time.timer(timeout),true);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="241.5313">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="257.8281">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="274.125">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="290.4219">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="360" x="5" y="306.7188">ConsumerRecords&lt;K,V&gt;poll(final Timertimer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="314" x="5" y="323.0156">final booleanincludeMetadataInTimeout)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="339.3125">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="211" x="5" y="355.6094">:acquireAndEnsureOpen();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="540" x="5" y="371.9063">:this.kafkaConsumerMetrics.recordPollStart(timer.currentTimeMs());</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="568" x="5" y="388.2031">if (this.subscriptions.hasNoSubscriptionOrUserAssignment()) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="839" x="5" y="404.5">:throw new IllegalStateException("Consumer is not subscribed to any topics or assigned any partitions");;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="420.7969">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="5" y="437.0938">repeat</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="245" x="5" y="453.3906">:client.maybeTriggerWakeup();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="320" x="5" y="469.6875">if (includeMetadataInTimeout) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="485.9844">:updateAssignmentMetadataIfNeeded(timer,false);</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="70" x="5" y="502.2813">else (no)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="589" x="5" y="518.5781">while (!updateAssignmentMetadataIfNeeded(time.timer(Long.MAX_VALUE),</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="534.875">Syntax Error?</text><!--MD5=[4764e990ff01d15118b16b1d85bfbc92]
 @startuml
 !pragma layout smetana
 start
@@ -38,10 +38,14 @@ end note
 :this.groupId=Optional.ofNullable(groupRebalanceConfig.groupId);
 :this.clientId=config.getString(CommonClientConfigs.CLIENT_ID_CONFIG);
 if (groupRebalanceConfig.groupInstanceId.isPresent()) then (yes) 
-:logContext=new LogContext("[Consumer instanceId="+groupRebalanceConfig.groupInstanceId.get()+", clientId="+clientId+", groupId="+groupId.orElse("null")+"] ");
+:logContext=new LogContext("[Consumer instanceId="+
+groupRebalanceConfig.groupInstanceId.get()+
+", clientId="+clientId+", groupId="+groupId.orElse("null")+
+"] ");
 else (no)
-:logContext=new LogContext("[Consumer clientId="+clientId+",
- groupId="+groupId.orElse("null")+"] ");
+:logContext=new LogContext("[Consumer clientId="+
+clientId+", groupId="+groupId.orElse("null")+
+"] ");
 endif 
 :this.log=logContext.logger(getClass());
 :groupId.ifPresent(groupIdStr->{if (groupIdStr.isEmpty()){log.warn("Support for using the empty group id by consumers is deprecated and will be removed in the next major release.");}});
@@ -109,8 +113,7 @@ clientId,metrics,time.milliseconds());
 if (this.log!=null ) then (yes) 
 :close(0,true);
 endif 
-:throw new KafkaException("Failed to construct kafka consumer",
-t);;
+:throw new KafkaException("Failed to construct kafka consumer",t);;
 end
 start
 note right
@@ -213,7 +216,8 @@ void subscribe(Patternpattern,ConsumerRebalanceListenerlistener)
 end note
 :maybeThrowInvalidGroupIdException();
 if (pattern==null ||pattern.toString().equals("")) then (yes) 
-:throw new IllegalArgumentException("Topic pattern to subscribe to cannot be "+(pattern==null ? String.valueOf("null"):String.valueOf("empty")));;
+:throw new IllegalArgumentException("Topic pattern to subscribe to cannot be "+
+(pattern==null ? String.valueOf("null"):String.valueOf("empty")));;
 endif 
 :acquireAndEnsureOpen();
 :throwIfNoAssignorsConfigured();
@@ -305,8 +309,8 @@ if (fetcher.sendFetches()>0||client.hasPendingRequests()) then (yes)
 :client.transmitSends();
 endif 
 if (fetch.records().isEmpty()) then (yes) 
-:log.trace("Returning empty records from `poll()` "
-+"since the consumer's position has advanced for at least one topic partition");
+:log.trace("Returning empty records from `poll()` "+
+"since the consumer's position has advanced for at least one topic partition");
 endif 
 :return this.interceptors.onConsume(new ConsumerRecords<>(fetch.records()));;
 stop
@@ -378,7 +382,9 @@ end note
 :offsets.forEach(this::updateLastSeenEpochIfNewer);
 if (!coordinator.commitOffsetsSync(new HashMap<>(offsets),
 time.timer(timeout))) then (yes) 
-:throw new TimeoutException("Timeout of "+timeout.toMillis()+"ms expired before successfully "+"committing offsets "+offsets);;
+:throw new TimeoutException("Timeout of "+
+timeout.toMillis()+"ms expired before successfully "+
+"committing offsets "+offsets);;
 endif 
 :kafkaConsumerMetrics.recordCommitSync(time.nanoseconds()-commitStart);
 :release();
@@ -489,7 +495,9 @@ endif
 :updateFetchPositions(timer);
 :client.poll(timer);
 repeat while (timer.notExpired())
-:throw new TimeoutException("Timeout of "+timeout.toMillis()+"ms expired before the position "+"for partition "+partition+" could be determined");;
+:throw new TimeoutException("Timeout of "+
+timeout.toMillis()+"ms expired before the position "+
+"for partition "+partition+" could be determined");;
 :release();
 end
 start
@@ -524,7 +532,11 @@ end note
 :offsets=coordinator.fetchCommittedOffsets(partitions,
 time.timer(timeout));
 if (offsets==null ) then (yes) 
-:throw new TimeoutException("Timeout of "+timeout.toMillis()+"ms expired before the last "+"committed offset for partitions "+partitions+" could be determined. Try tuning default.api.timeout.ms "+"larger to relax the threshold.");;
+:throw new TimeoutException("Timeout of "+
+timeout.toMillis()+"ms expired before the last "+
+"committed offset for partitions "+partitions+
+" could be determined. Try tuning default.api.timeout.ms "+
+"larger to relax the threshold.");;
 else (no)
 :offsets.forEach(this::updateLastSeenEpochIfNewer);
 :return offsets;;
@@ -621,7 +633,8 @@ Long>timestampsToSearch,Durationtimeout)
 end note
 :acquireAndEnsureOpen();
 if (entry.getValue()<0) then (yes) 
-:throw new IllegalArgumentException("The target time for partition "+entry.getKey()+" is "+entry.getValue()+". The target time cannot be negative.");;
+:throw new IllegalArgumentException("The target time for partition "+
+entry.getKey()+" is "+entry.getValue()+". The target time cannot be negative.");;
 endif 
 :return fetcher.offsetsForTimes(timestampsToSearch,
 time.timer(timeout));;
@@ -757,8 +770,7 @@ if (coordinator!=null ) then (yes)
 requestTimeoutMs)));
 endif 
 :firstException.compareAndSet(null ,t);
-:log.error("Failed to close coordinator",
-t);
+:log.error("Failed to close coordinator",t);
 :Utils.closeQuietly(fetcher,"fetcher",firstException);
 :Utils.closeQuietly(interceptors,"consumer interceptors",
 firstException);
