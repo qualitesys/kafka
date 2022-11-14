@@ -558,4 +558,142 @@ var datadepend = { "lesdatas" : [
 { "start" : "org.apache.kafka.trogdor.workload" , "end" : "org.apache.kafka.common"} ,
 { "start" : "org.apache.kafka.trogdor.workload" , "end" : "org.apache.kafka.trogdor.common"} ,
 { "start" : "org.apache.kafka.trogdor.workload" , "end" : "org.apache.kafka.clients.admin"} ,
-] } :
+]
+ , "lescycles" : [ 
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime" } ,
+{ "etape" : "org.apache.kafka.connect.storage" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.protocol" } ,
+{ "etape" : "org.apache.kafka.common.protocol.types" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.protocol.types" } ,
+{ "etape" : "org.apache.kafka.common.protocol" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.config" } ,
+{ "etape" : "org.apache.kafka.common.utils" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.record" } ,
+{ "etape" : "org.apache.kafka.common.protocol" } ,
+{ "etape" : "org.apache.kafka.common.network" } ,
+{ "etape" : "org.apache.kafka.common.security.kerberos" } ,
+{ "etape" : "org.apache.kafka.common.security.authenticator" } ,
+{ "etape" : "org.apache.kafka.common.requests" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer" } ,
+{ "etape" : "org.apache.kafka.clients.consumer.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin.internals" } ,
+{ "etape" : "org.apache.kafka.clients.admin" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.errors" } ,
+{ "etape" : "org.apache.kafka.connect.runtime" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.metrics" } ,
+{ "etape" : "org.apache.kafka.streams.state.internals.metrics" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients" } ,
+{ "etape" : "org.apache.kafka.common.network" } ,
+{ "etape" : "org.apache.kafka.common.security.kerberos" } ,
+{ "etape" : "org.apache.kafka.common.security.authenticator" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin" } ,
+{ "etape" : "org.apache.kafka.clients.admin.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network" } ,
+{ "etape" : "org.apache.kafka.common.security.kerberos" } ,
+{ "etape" : "org.apache.kafka.common.security.authenticator" } ,
+{ "etape" : "org.apache.kafka.common.protocol" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.kerberos" } ,
+{ "etape" : "org.apache.kafka.common.security.authenticator" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.rest" } ,
+{ "etape" : "org.apache.kafka.connect.storage" } ,
+{ "etape" : "org.apache.kafka.connect.runtime" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.isolation" } ,
+{ "etape" : "org.apache.kafka.connect.runtime" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.authenticator" } ,
+{ "etape" : "org.apache.kafka.common.security.kerberos" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals" } ,
+{ "etape" : "org.apache.kafka.streams.state.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer.internals" } ,
+{ "etape" : "org.apache.kafka.clients.consumer" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.storage" } ,
+{ "etape" : "org.apache.kafka.connect.runtime" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.token.delegation.internals" } ,
+{ "etape" : "org.apache.kafka.common.security.scram.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.requests" } ,
+{ "etape" : "org.apache.kafka.common.protocol" } ,
+{ "etape" : "org.apache.kafka.common.network" } ,
+{ "etape" : "org.apache.kafka.common.security.kerberos" } ,
+{ "etape" : "org.apache.kafka.common.security.authenticator" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor" } ,
+{ "etape" : "org.apache.kafka.streams.state.internals" } ,
+{ "etape" : "org.apache.kafka.streams.processor.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.metrics" } ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.metrics" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.health" } ,
+{ "etape" : "org.apache.kafka.connect.runtime" } ,
+{ "etape" : "org.apache.kafka.connect.runtime.rest" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals" } ,
+{ "etape" : "org.apache.kafka.streams.processor.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.assignment" } ,
+{ "etape" : "org.apache.kafka.streams.state.internals" } ,
+{ "etape" : "org.apache.kafka.streams.processor.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.scram.internals" } ,
+{ "etape" : "org.apache.kafka.common.security.token.delegation.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed" } ,
+{ "etape" : "org.apache.kafka.connect.storage" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams" } ,
+{ "etape" : "org.apache.kafka.streams.processor.internals" } ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.utils" } ,
+{ "etape" : "org.apache.kafka.common.config" } ,
+] } ,
+]
+} ;
