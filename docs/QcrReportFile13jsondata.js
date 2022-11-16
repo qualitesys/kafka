@@ -569,10 +569,6 @@ var datadepend = { "lesdatas" : [
 { "etape" : "org.apache.kafka.common.protocol.types" } ,
 ] } ,
 { "uncycle" : [ 
-{ "etape" : "org.apache.kafka.common.protocol.types" } ,
-{ "etape" : "org.apache.kafka.common.protocol" } ,
-] } ,
-{ "uncycle" : [ 
 { "etape" : "org.apache.kafka.common.config" } ,
 { "etape" : "org.apache.kafka.common.utils" } ,
 ] } ,
@@ -607,10 +603,6 @@ var datadepend = { "lesdatas" : [
 { "etape" : "org.apache.kafka.common.security.authenticator" } ,
 ] } ,
 { "uncycle" : [ 
-{ "etape" : "org.apache.kafka.clients.admin" } ,
-{ "etape" : "org.apache.kafka.clients.admin.internals" } ,
-] } ,
-{ "uncycle" : [ 
 { "etape" : "org.apache.kafka.common.network" } ,
 { "etape" : "org.apache.kafka.common.security.kerberos" } ,
 { "etape" : "org.apache.kafka.common.security.authenticator" } ,
@@ -630,20 +622,8 @@ var datadepend = { "lesdatas" : [
 { "etape" : "org.apache.kafka.connect.runtime" } ,
 ] } ,
 { "uncycle" : [ 
-{ "etape" : "org.apache.kafka.common.security.authenticator" } ,
-{ "etape" : "org.apache.kafka.common.security.kerberos" } ,
-] } ,
-{ "uncycle" : [ 
 { "etape" : "org.apache.kafka.streams.processor.internals" } ,
 { "etape" : "org.apache.kafka.streams.state.internals" } ,
-] } ,
-{ "uncycle" : [ 
-{ "etape" : "org.apache.kafka.clients.consumer.internals" } ,
-{ "etape" : "org.apache.kafka.clients.consumer" } ,
-] } ,
-{ "uncycle" : [ 
-{ "etape" : "org.apache.kafka.connect.storage" } ,
-{ "etape" : "org.apache.kafka.connect.runtime" } ,
 ] } ,
 { "uncycle" : [ 
 { "etape" : "org.apache.kafka.common.security.token.delegation.internals" } ,
@@ -662,26 +642,14 @@ var datadepend = { "lesdatas" : [
 { "etape" : "org.apache.kafka.streams.processor.internals" } ,
 ] } ,
 { "uncycle" : [ 
-{ "etape" : "org.apache.kafka.streams.state.internals.metrics" } ,
-{ "etape" : "org.apache.kafka.streams.processor.internals.metrics" } ,
-] } ,
-{ "uncycle" : [ 
 { "etape" : "org.apache.kafka.connect.runtime.health" } ,
 { "etape" : "org.apache.kafka.connect.runtime" } ,
 { "etape" : "org.apache.kafka.connect.runtime.rest" } ,
 ] } ,
 { "uncycle" : [ 
-{ "etape" : "org.apache.kafka.streams.state.internals" } ,
-{ "etape" : "org.apache.kafka.streams.processor.internals" } ,
-] } ,
-{ "uncycle" : [ 
 { "etape" : "org.apache.kafka.streams.processor.internals.assignment" } ,
 { "etape" : "org.apache.kafka.streams.state.internals" } ,
 { "etape" : "org.apache.kafka.streams.processor.internals" } ,
-] } ,
-{ "uncycle" : [ 
-{ "etape" : "org.apache.kafka.common.security.scram.internals" } ,
-{ "etape" : "org.apache.kafka.common.security.token.delegation.internals" } ,
 ] } ,
 { "uncycle" : [ 
 { "etape" : "org.apache.kafka.connect.runtime.distributed" } ,
@@ -690,10 +658,6 @@ var datadepend = { "lesdatas" : [
 { "uncycle" : [ 
 { "etape" : "org.apache.kafka.streams" } ,
 { "etape" : "org.apache.kafka.streams.processor.internals" } ,
-] } ,
-{ "uncycle" : [ 
-{ "etape" : "org.apache.kafka.common.utils" } ,
-{ "etape" : "org.apache.kafka.common.config" } ,
 ] } ,
 ]
 } ;
