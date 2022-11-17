@@ -517,7 +517,7 @@
 <leniv><indtoken>507</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.668642083956E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.668728551903E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.004</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.004</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -532,37 +532,37 @@
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>12</indtoken><temps>0.004</temps><nbappels>6</nbappels><token>)</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>13</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>under</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>14</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>one</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>15</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>or</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>16</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>more</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>17</indtoken><temps>0.005</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>18</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>19</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>contributor</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>20</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>license</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>21</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>agreements</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>22</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>.</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>23</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>See</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>24</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>the</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>25</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>NOTICE</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>26</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>file</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>27</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>distributed</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>28</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>with</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>29</indtoken><temps>0.005</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>30</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>31</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>this</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>32</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>work</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>33</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>for</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>34</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>additional</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>35</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>information</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>36</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>regarding</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>37</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>copyright</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>38</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>ownership</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>39</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>.</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>40</indtoken><temps>0.005</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>41</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>42</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>The</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>43</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>ASF</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>44</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>licenses</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>45</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>this</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>15</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>or</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>16</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>more</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>17</indtoken><temps>0.004</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>18</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>19</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>contributor</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>20</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>license</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>21</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>agreements</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>22</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>.</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>23</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>See</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>24</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>the</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>25</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>NOTICE</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>26</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>file</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>27</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>distributed</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>28</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>with</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>29</indtoken><temps>0.004</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>30</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>31</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>this</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>32</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>work</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>33</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>for</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>34</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>additional</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>35</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>information</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>36</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>regarding</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>37</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>copyright</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>38</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>ownership</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>39</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>.</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>40</indtoken><temps>0.004</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>41</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>42</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>The</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>43</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>ASF</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>44</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>licenses</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>45</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>this</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>46</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>file</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>47</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>to</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>48</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>You</token></leniv>
@@ -759,16 +759,16 @@
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>239</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>client</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>240</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>.</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>241</indtoken><temps>0.005</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>242</indtoken><temps>0.006</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>243</indtoken><temps>0.006</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>244</indtoken><temps>0.006</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>245</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>Note</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>246</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>this</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>247</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>is</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>248</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>an</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>249</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>internal</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>250</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>API</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>251</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>and</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>242</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>243</indtoken><temps>0.005</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>244</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>245</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>Note</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>246</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>this</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>247</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>is</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>248</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>an</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>249</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>internal</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>250</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>API</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>251</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>and</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>252</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>subject</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>253</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>to</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>254</indtoken><temps>0.006</temps><nbappels>29</nbappels><token>change</token></leniv>
@@ -861,8 +861,8 @@
 <leniv><noligne>25</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>138</profmax><indtoken>341</indtoken><temps>0.006</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>26</noligne><profmin>0</profmin><proffinale>143</proffinale><profmax>143</profmax><indtoken>342</indtoken><temps>0.006</temps><nbappels>74</nbappels><token>"the principal name will be ANONYMOUS. For SASL authentication, the principal will be derived using the "</token></leniv>
 <leniv><noligne>26</noligne><profmin>0</profmin><proffinale>128</proffinale><profmax>143</profmax><indtoken>343</indtoken><temps>0.006</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>27</noligne><profmin>0</profmin><proffinale>148</proffinale><profmax>148</profmax><indtoken>344</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>"rules defined by _code_"</token></leniv>
-<leniv><noligne>27</noligne><profmin>0</profmin><proffinale>133</proffinale><profmax>148</profmax><indtoken>345</indtoken><temps>0.007</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>27</noligne><profmin>0</profmin><proffinale>148</proffinale><profmax>148</profmax><indtoken>344</indtoken><temps>0.006</temps><nbappels>74</nbappels><token>"rules defined by _code_"</token></leniv>
+<leniv><noligne>27</noligne><profmin>0</profmin><proffinale>133</proffinale><profmax>148</profmax><indtoken>345</indtoken><temps>0.006</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>27</noligne><profmin>0</profmin><proffinale>151</proffinale><profmax>163</profmax><indtoken>346</indtoken><temps>0.007</temps><nbappels>305</nbappels><token>SASL_KERBEROS_PRINCIPAL_TO_LOCAL_RULES_CONFIG</token></leniv>
 <leniv><noligne>27</noligne><profmin>0</profmin><proffinale>138</proffinale><profmax>163</profmax><indtoken>347</indtoken><temps>0.007</temps><nbappels>203</nbappels><token>+</token></leniv>
 <leniv><noligne>27</noligne><profmin>0</profmin><proffinale>158</proffinale><profmax>158</profmax><indtoken>348</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>"_/code_ if GSSAPI is in use, "</token></leniv>
@@ -1002,7 +1002,7 @@
 <leniv><noligne>62</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>482</indtoken><temps>0.008</temps><nbappels>88</nbappels><token>"The fully qualified name of a SASL server callback handler "</token></leniv>
 <leniv><noligne>63</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>483</indtoken><temps>0.008</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>63</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>484</indtoken><temps>0.008</temps><nbappels>74</nbappels><token>"class that implements the AuthenticateCallbackHandler interface. Server callback handlers must be prefixed with "</token></leniv>
-<leniv><noligne>64</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>485</indtoken><temps>0.009</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>64</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>485</indtoken><temps>0.008</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>64</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>486</indtoken><temps>0.009</temps><nbappels>74</nbappels><token>"listener prefix and SASL mechanism name in lower-case. For example, "</token></leniv>
 <leniv><noligne>65</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>487</indtoken><temps>0.009</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>65</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>488</indtoken><temps>0.009</temps><nbappels>74</nbappels><token>"listener.name.sasl_ssl.plain.sasl.server.callback.handler.class=com.example.CustomPlainCallbackHandler."</token></leniv>
