@@ -1,236 +1,101 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java 77 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.xml" 
+   "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html" 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java 90 rule violations " 
+ , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.connect.data.Struct"
+ , "c2" : "org.apache.kafka.connect.data.SchemaProjector"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.data.Struct" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#19"
- , "c1" : "Struct"
- , "c2" : "Struct(Schema)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#27"
- , "c1" : "Schema"
- , "c2" : "schema()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
+ { "nomclasse" : "org.apache.kafka.connect.data.SchemaProjector" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00032"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#32"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#32"
  , "c1" : "Object"
- , "c2" : "get(String)"
- , "c3" : "1"
- , "c4" : "2"
+ , "c2" : "project(Schema;Object;Schema)"
+ , "c3" : "9"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#38"
+ , "c5" : "00053"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#53"
  , "c1" : "Object"
- , "c2" : "get(Field)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#47"
- , "c1" : "Object"
- , "c2" : "getWithoutDefault(String)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#55"
- , "c1" : "Byte"
- , "c2" : "getInt8(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#60"
- , "c1" : "Short"
- , "c2" : "getInt16(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#65"
- , "c1" : "Integer"
- , "c2" : "getInt32(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#70"
- , "c1" : "Long"
- , "c2" : "getInt64(String)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "projectRequiredSchema(Schema;Object;Schema)"
+ , "c3" : "13"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00075"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#75"
- , "c1" : "Float"
- , "c2" : "getFloat32(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#80"
- , "c1" : "Double"
- , "c2" : "getFloat64(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#85"
- , "c1" : "Boolean"
- , "c2" : "getBoolean(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#90"
- , "c1" : "String"
- , "c2" : "getString(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#95"
- , "c1" : "byte[]"
- , "c2" : "getBytes(String)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#115"
- , "c1" : "Struct"
- , "c2" : "getStruct(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00120"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#120"
- , "c1" : "Struct"
- , "c2" : "put(String;Object)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00126"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#126"
- , "c1" : "Struct"
- , "c2" : "put(Field;Object)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#136"
- , "c1" : "void"
- , "c2" : "validate()"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#147"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#156"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#160"
- , "c1" : "Field"
- , "c2" : "lookupField(String)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#169"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
  , "c1" : "Object"
- , "c2" : "getCheckType(String;Schema.Type)"
- , "c3" : "2"
+ , "c2" : "projectStruct(Schema;Struct;Schema)"
+ , "c3" : "8"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#100"
+ , "c1" : "void"
+ , "c2" : "checkMaybeCompatible(Schema;Schema)"
+ , "c3" : "6"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#177"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "5"
- , "c4" : "10"
+ , "c5" : "00110"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#110"
+ , "c1" : "Object"
+ , "c2" : "projectArray(Schema;Object;Schema)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00119"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
+ , "c1" : "Object"
+ , "c2" : "projectMap(Schema;Object;Schema)"
+ , "c3" : "2"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132"
+ , "c1" : "Object"
+ , "c2" : "projectPrimitive(Schema;Object;Schema)"
+ , "c3" : "9"
+ , "c4" : "19"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00166"
+ , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#166"
+ , "c1" : "boolean"
+ , "c2" : "isPromotable(Type;Type)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.png" 
+   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.png" 
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.svg" }
+ , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.svg" }
 
 ] 
 , 
@@ -267,30 +132,37 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "12"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "24"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "2"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "10"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "4"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -304,574 +176,665 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "22"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000021"
  , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "18"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#13"
+ , "c1" : "00018"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class Struct contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#19"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00019] The argument schema is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.connect.data.Struct.Struct@POLYN190576 the MagicNumber/String  'Not a struct schema: ' should be converted to const"
+ , "c3" : "QC-JAV000008[00018] The class SchemaProjector contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00032"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#32"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method get arguments String  fieldName"
+ , "c3" : "QC-JAV000006[00032] For method project arguments Schema  source|Object  record|Schema  target"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00032"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method get list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN191552"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method get arguments Field  field"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method get list of called methods Object monObjet|org.apache.kafka.connect.data.Schema field_schemaN192302"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#38"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#32"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument field is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00032] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#40"
+ , "c1" : "00032"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#32"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00032] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.data.Struct.get@POLYN191943 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#40"
+ , "c1" : "00036"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.data.Struct.get@POLYN191943 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method getWithoutDefault arguments String  fieldName"
+ , "c1" : "00042"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String  'Writer schema is optional, however, target schema does not provide a default value.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method getWithoutDefault list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN192627"
+ , "c1" : "00045"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method getInt8 arguments String  fieldName"
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#60"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method getInt16 arguments String  fieldName"
+ , "c3" : "QC-JAV000006[00053] For method projectRequiredSchema arguments Schema  source|Object  record|Schema  target"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method getInt32 arguments String  fieldName"
+ , "c1" : "00053"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#53"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00053] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method getInt64 arguments String  fieldName"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#75"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method getFloat32 arguments String  fieldName"
+ , "c3" : "QC-JAV000006[00075] For method projectStruct arguments Schema  source|Struct  sourceStruct|Schema  target"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#80"
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method getFloat64 arguments String  fieldName"
+ , "c3" : "QC-JAV000007[00075] For method projectStruct list of called methods Object monObjet|String targetField_nameN176861|Object source_fieldN176936|Object sourceStruct_getN177103"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00075] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00075] The argument sourceStruct is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00075] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00078] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00081] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00083] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method getBoolean arguments String  fieldName"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00085] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String  'Error projecting ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method getString arguments String  fieldName"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#95"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method getBytes arguments String  fieldName"
+ , "c1" : "00093"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String  'Required field `' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#95"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method getBytes list of called methods Object monObjet|Object getCheckTypeN195143"
+ , "c1" : "00093"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String  '` is missing from source schema: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#115"
+ , "c1" : "00100"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method getStruct arguments String  fieldName"
+ , "c3" : "QC-JAV000006[00100] For method checkMaybeCompatible arguments Schema  source|Schema  target"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method put arguments String  fieldName|Object  value"
+ , "c1" : "00100"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#100"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00100] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#120"
+ , "c1" : "00100"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#100"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00100] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00101] The same method call target.type()isPromotable(source.type(),target.type()) is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00101] The same method call isPromotable(source.type(),target.type()) is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN178174 the MagicNumber/String  'Schema type mismatch. source type: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN178174 the MagicNumber/String  ' and target type: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN178174 the MagicNumber/String  'Schema name mismatch. source name: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN178174 the MagicNumber/String  ' and target name: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN178174 the MagicNumber/String  'Schema parameters not equal. source parameters: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.data.SchemaProjector.checkMaybeCompatible@POLYN178174 the MagicNumber/String  ' and target parameters: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method put list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN196888"
+ , "c3" : "QC-JAV000006[00110] For method projectArray arguments Schema  source|Object  record|Schema  target"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#110"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00110] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#110"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00110] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00119] For method projectMap arguments Schema  source|Object  record|Schema  target"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00119] For method projectMap list of called methods Object monObjet|Object projectN180702|Object projectN180872"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00119] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00119] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#123"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00123] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00124] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00125] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#126"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00126] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00126] For method put arguments Field  field|Object  value"
+ , "c3" : "QC-JAV000006[00132] For method projectPrimitive arguments Schema  source|Object  record|Schema  target"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#127"
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00132] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00132] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.data.Struct.put@POLYN197283 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.data.SchemaProjector.projectPrimitive@POLYN181154 the MagicNumber/String  'Not promotable type.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.data.Struct.put@POLYN197283 the MagicNumber/String  'field cannot be null.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#136"
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method validate list of called methods Object monObjet|org.apache.kafka.connect.data.Schema field_schemaN198127"
+ , "c3" : "QC-JAV000006[00166] For method isPromotable arguments Type  sourceType|Type  targetType"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.data.Struct.validate@POLYN197962 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.data.Struct.validate@POLYN197962 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00149] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.data.Struct.equals@POLYN198638 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.data.Struct.equals@POLYN198638 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.data.Struct.equals@POLYN198638 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#160"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method lookupField arguments String  fieldName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.connect.data.Struct.lookupField@POLYN199438 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.data.Struct.lookupField@POLYN199438 the MagicNumber/String  ' is not a valid field name' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method getCheckType arguments String  fieldName|Schema.Type  type"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00169] For method getCheckType list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN199923"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#172"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.data.Struct.getCheckType@POLYN199793 the MagicNumber/String  'Field '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#172"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.data.Struct.getCheckType@POLYN199793 the MagicNumber/String  '' is not of type ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00181] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00183] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#178"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  'Struct{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#180"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#182"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  ',' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#189"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  '=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#192"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.data.Struct.toString@POLYN200320 the MagicNumber/String  '}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#32"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00032] Public method get is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 ending with method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#55"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00055] Public method getInt8 is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#60"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00060] Public method getInt16 is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#65"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00065] Public method getInt32 is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#70"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00070] Public method getInt64 is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN180021 ending with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#75"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00075] Public method getFloat32 is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN180021"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 ending with method org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN180021"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN180021"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401 ending with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401 ending with method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.projectMap@POLYN180021"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 3 starting with method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 ending with method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#80"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00080] Public method getFloat64 is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#85"
+ , "c1" : "00086"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00085] Public method getBoolean is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String 'Error projecting ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#90"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#90"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00090] Public method getString is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#95"
+ , "c1" : "00093"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00095] Public method getBytes is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String 'Required field `' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#115"
+ , "c1" : "00093"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00115] Public method getStruct is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectStruct@POLYN176515 the MagicNumber/String '` is missing from source schema: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#120"
+ , "c1" : "00035"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#35"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00120] Public method put is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00035] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getBytes@POLYN195046"
+ , "c1" : "00036"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#36"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getBoolean@POLYN194488"
+ , "c1" : "00042"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String 'Writer schema is optional, however, target schema does not provide a default value.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getFloat32@POLYN193942"
+ , "c1" : "00045"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getFloat64@POLYN194215"
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.connect.data.SchemaProjector.project@POLYN174350 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getInt16@POLYN193123"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getInt32@POLYN193396"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getInt64@POLYN193669"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getInt8@POLYN192850"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getString@POLYN194761"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Struct.getStruct@POLYN196316"
+ , "c1" : "00072"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#72"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.connect.data.SchemaProjector.projectRequiredSchema@POLYN175401 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.fct.svg" 
 
 , 
 }

@@ -1,83 +1,155 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java 25 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java 15 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WrappedStateStore<T,K,V>"
- , "c2" : "org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator"
+ , "c1" : "BufferConfigInternal<Suppressed.StrictBufferConfig>Suppressed.StrictBufferConfig"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#26"
- , "c1" : "AbstractReadOnlyDecorator"
- , "c2" : "AbstractReadOnlyDecorator(T)"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#19"
+ , "c1" : "StrictBufferConfigImpl"
+ , "c2" : "StrictBufferConfigImpl(long;long;BufferFullStrategy;Map<String,String>)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#31"
- , "c1" : "void"
- , "c2" : "flush()"
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#30"
+ , "c1" : "StrictBufferConfigImpl"
+ , "c2" : "StrictBufferConfigImpl()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#37"
- , "c1" : "void"
- , "c2" : "init(ProcessorContext;StateStore)"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#38"
+ , "c1" : "Suppressed.StrictBufferConfig"
+ , "c2" : "withMaxRecords(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#43"
- , "c1" : "void"
- , "c2" : "init(StateStoreContext;StateStore)"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#43"
+ , "c1" : "Suppressed.StrictBufferConfig"
+ , "c2" : "withMaxBytes(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#49"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#48"
+ , "c1" : "long"
+ , "c2" : "maxRecords()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#53"
- , "c1" : "StateStore"
- , "c2" : "getReadOnlyStore(StateStore)"
- , "c3" : "11"
- , "c4" : "6"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#53"
+ , "c1" : "long"
+ , "c2" : "maxBytes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#58"
+ , "c1" : "BufferFullStrategy"
+ , "c2" : "bufferFullStrategy()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#63"
+ , "c1" : "Suppressed.StrictBufferConfig"
+ , "c2" : "withLoggingDisabled()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#68"
+ , "c1" : "Suppressed.StrictBufferConfig"
+ , "c2" : "withLoggingEnabled(Map<String,String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#73"
+ , "c1" : "boolean"
+ , "c2" : "isLoggingEnabled()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00078"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#78"
+ , "c1" : "Map<String,String>"
+ , "c2" : "getLogConfig()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#83"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#98"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#103"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.svg" }
 
 ] 
 , 
@@ -104,192 +176,136 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "25"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#37"
+ , "c1" : "00038"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method init arguments ProcessorContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00038] For method withMaxRecords arguments long  recordLimit"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#43"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method init arguments StateStoreContext  context|StateStore  root"
+ , "c3" : "QC-JAV000006[00043] For method withMaxBytes arguments long  byteLimit"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method getReadOnlyStore arguments StateStore  global"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.withLoggingDisabled@POLYN155066 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#78"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method get arguments K  key"
+ , "c3" : "QC-JAV000006[00068] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.isLoggingEnabled@POLYN155546 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#83"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method range arguments K  from|K  to"
+ , "c3" : "QC-JAV000006[00083] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method reverseRange arguments K  from|K  to"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00087] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method put arguments K  key|V  value"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.equals@POLYN155883 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method putIfAbsent arguments K  key|V  value"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.equals@POLYN155883 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method putAll arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  entries"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.equals@POLYN155883 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#133"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method delete arguments K  key"
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.toString@POLYN156888 the MagicNumber/String  'StrictBufferConfigImpl{maxKeys=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#156"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method put arguments K  key|V  value|long  windowStartTimestamp"
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.toString@POLYN156888 the MagicNumber/String  ', maxBytes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method fetch arguments K  key|long  time"
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.toString@POLYN156888 the MagicNumber/String  ', bufferFullStrategy=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method fetch arguments K  key|long  timeFrom|long  timeTo"
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.toString@POLYN156888 the MagicNumber/String  ', logConfig=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#177"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method backwardFetch arguments K  key|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#185"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00185] For method fetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#193"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00193] For method backwardFetch arguments K  keyFrom|K  keyTo|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#212"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method fetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#242"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00242] For method findSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#249"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method findSessions arguments K  keyFrom|K  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#257"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00257] For method remove arguments Windowed&lt;K &gt;  sessionKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#262"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00262] For method put arguments Windowed&lt;K &gt;  sessionKey|AGG  aggregate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#268"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00268] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#273"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method fetch arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#278"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00278] For method fetch arguments K  keyFrom|K  keyTo"
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl.toString@POLYN156888 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.fct.svg" 
 
 , 
 }

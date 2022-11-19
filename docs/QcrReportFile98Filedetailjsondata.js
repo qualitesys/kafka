@@ -4,6 +4,13 @@ console.log('main start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : [
  { "ligne" : {
+  "fic"  : "aa__all_files.java" 
+  , "Fic1"  : "qc/aa__all_files.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/aa__all_files.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "clients/src/main/java/org/apache/kafka/clients/ApiVersions.java" 
   , "Fic1"  : "qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -10130,6 +10137,307 @@ var maDataBlocs = {
   , "Fic1"  : "qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.BufferedInputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.BufferedInputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.BufferedInputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.BufferedOutputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.BufferedOutputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.BufferedOutputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.BufferedReader.java" 
+  , "Fic1"  : "qc/secujava/java.io.BufferedReader.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.BufferedReader.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.BufferedWriter.java" 
+  , "Fic1"  : "qc/secujava/java.io.BufferedWriter.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.BufferedWriter.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.File.java" 
+  , "Fic1"  : "qc/secujava/java.io.File.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.File.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.FileInputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.FileInputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.FileInputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.FileOutputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.FileOutputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.FileOutputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.FileReader.java" 
+  , "Fic1"  : "qc/secujava/java.io.FileReader.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.FileReader.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.InputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.InputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.InputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.InputStreamReader.java" 
+  , "Fic1"  : "qc/secujava/java.io.InputStreamReader.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.InputStreamReader.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.ObjectInputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.ObjectInputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.ObjectInputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.ObjectOutputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.ObjectOutputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.ObjectOutputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.OutputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.OutputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.OutputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.OutputStreamWriter.java" 
+  , "Fic1"  : "qc/secujava/java.io.OutputStreamWriter.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.OutputStreamWriter.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.PipedInputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.PipedInputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.PipedInputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.PipedOutputStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.PipedOutputStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.PipedOutputStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.PipedReader.java" 
+  , "Fic1"  : "qc/secujava/java.io.PipedReader.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.PipedReader.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.PipedWriter.java" 
+  , "Fic1"  : "qc/secujava/java.io.PipedWriter.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.PipedWriter.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.PrintStream.java" 
+  , "Fic1"  : "qc/secujava/java.io.PrintStream.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.PrintStream.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.PrintWriter.java" 
+  , "Fic1"  : "qc/secujava/java.io.PrintWriter.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.PrintWriter.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.Reader.java" 
+  , "Fic1"  : "qc/secujava/java.io.Reader.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.Reader.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.io.Writer.java" 
+  , "Fic1"  : "qc/secujava/java.io.Writer.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.io.Writer.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.String.java" 
+  , "Fic1"  : "qc/secujava/java.lang.String.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.String.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.StringBuilder.java" 
+  , "Fic1"  : "qc/secujava/java.lang.StringBuilder.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.StringBuilder.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.net.CacheRequest.java" 
+  , "Fic1"  : "qc/secujava/java.net.CacheRequest.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.net.CacheRequest.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.net.CacheResponse.java" 
+  , "Fic1"  : "qc/secujava/java.net.CacheResponse.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.net.CacheResponse.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.net.ServerSocket.java" 
+  , "Fic1"  : "qc/secujava/java.net.ServerSocket.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.net.ServerSocket.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.net.Socket.java" 
+  , "Fic1"  : "qc/secujava/java.net.Socket.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.net.Socket.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.sql.Connection.java" 
+  , "Fic1"  : "qc/secujava/java.sql.Connection.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.sql.Connection.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.sql.PreparedStatement.java" 
+  , "Fic1"  : "qc/secujava/java.sql.PreparedStatement.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.sql.PreparedStatement.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.sql.Statement.java" 
+  , "Fic1"  : "qc/secujava/java.sql.Statement.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.sql.Statement.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.util.HashMap.java" 
+  , "Fic1"  : "qc/secujava/java.util.HashMap.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.util.HashMap.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.util.Hashtable.java" 
+  , "Fic1"  : "qc/secujava/java.util.Hashtable.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.util.Hashtable.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.util.Map.java" 
+  , "Fic1"  : "qc/secujava/java.util.Map.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.util.Map.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.util.concurrent.ConcurrentHashMap.java" 
+  , "Fic1"  : "qc/secujava/java.util.concurrent.ConcurrentHashMap.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.util.concurrent.ConcurrentHashMap.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.util.concurrent.ConcurrentMap.java" 
+  , "Fic1"  : "qc/secujava/java.util.concurrent.ConcurrentMap.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.util.concurrent.ConcurrentMap.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/javax.servlet.ServletRequest.java" 
+  , "Fic1"  : "qc/secujava/javax.servlet.ServletRequest.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/javax.servlet.ServletRequest.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/javax.servlet.ServletResponse.java" 
+  , "Fic1"  : "qc/secujava/javax.servlet.ServletResponse.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/javax.servlet.ServletResponse.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/javax.servlet.http.Cookie.java" 
+  , "Fic1"  : "qc/secujava/javax.servlet.http.Cookie.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/javax.servlet.http.Cookie.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/javax.servlet.http.HttpServletRequest.java" 
+  , "Fic1"  : "qc/secujava/javax.servlet.http.HttpServletRequest.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/javax.servlet.http.HttpServletRequest.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/javax.servlet.http.HttpServletResponse.java" 
+  , "Fic1"  : "qc/secujava/javax.servlet.http.HttpServletResponse.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/javax.servlet.http.HttpServletResponse.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/javax.servlet.http.HttpSession.java" 
+  , "Fic1"  : "qc/secujava/javax.servlet.http.HttpSession.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/javax.servlet.http.HttpSession.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/org.springframework.http.ResponseEntity.java" 
+  , "Fic1"  : "qc/secujava/org.springframework.http.ResponseEntity.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/org.springframework.http.ResponseEntity.java.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {

@@ -1,83 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java 8 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java 6 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "PayloadGenerator"
- , "c2" : "org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.rest.Message"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.Message" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#28"
- , "c1" : "GaussianTimestampRandomPayloadGenerator"
- , "c2" : "GaussianTimestampRandomPayloadGenerator(int;double;int;long)"
- , "c3" : "1"
- , "c4" : "6"
+ , "c5" : "00011"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#11"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#41"
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#18"
  , "c1" : "int"
- , "c2" : "messageSizeAverage()"
+ , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#46"
- , "c1" : "double"
- , "c2" : "messageSizeDeviation()"
+ , "c5" : "00023"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#23"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#51"
- , "c1" : "int"
- , "c2" : "messagesUntilSizeChange()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#56"
- , "c1" : "long"
- , "c2" : "seed()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#61"
- , "c1" : "byte[]"
- , "c2" : "generate(long)"
- , "c3" : "2"
- , "c4" : "11"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.svg" }
 
 ] 
 , 
@@ -114,7 +87,14 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -123,75 +103,54 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "INFO"
- , "c2" : "QC-JAV000019"
- , "c3" : "Lock statement"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#15"
+ , "c1" : "00009"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class GaussianTimestampRandomPayloadGenerator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00009] The class Message contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#61"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00061] Lock statement on synchronized method generate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#61"
+ , "c1" : "00011"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#11"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method generate arguments long  position"
+ , "c3" : "QC-JAV000006[00011] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#66"
+ , "c1" : "00013"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator.generate@POLYN158750 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000021[00013] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#67"
+ , "c1" : "00012"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator.generate@POLYN158750 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142806 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#70"
+ , "c1" : "00013"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator.generate@POLYN158750 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142806 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#80"
+ , "c1" : "00013"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator.generate@POLYN158750 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator.generate@POLYN158750 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.trogdor.rest.Message.equals@POLYN142806 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianTimestampRandomPayloadGenerator.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.fct.svg" 
 
 , 
 }

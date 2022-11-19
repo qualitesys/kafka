@@ -1,99 +1,126 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 68 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 89 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.controller.ClientQuotaControlManager"
+ , "c2" : "org.apache.kafka.controller.BrokersToIsrs"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.controller.ClientQuotaControlManager" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.controller.BrokersToIsrs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#41"
- , "c1" : "ClientQuotaControlManager"
- , "c2" : "ClientQuotaControlManager(SnapshotRegistry)"
+ , "c5" : "00078"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#78"
+ , "c1" : "BrokersToIsrs"
+ , "c2" : "BrokersToIsrs(SnapshotRegistry)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#47"
- , "c1" : "ControllerResult<Map<ClientQuotaEntity,ApiError>>"
- , "c2" : "alterClientQuotas(Collection<ClientQuotaAlteration>)"
- , "c3" : "5"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#76"
+ , "c5" : "00085"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85"
  , "c1" : "void"
- , "c2" : "replay(ClientQuotaRecord)"
- , "c3" : "5"
- , "c4" : "9"
+ , "c2" : "update(Uuid;int;int[];int[];int;int)"
+ , "c3" : "22"
+ , "c4" : "31"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#95"
+ , "c5" : "00150"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#150"
  , "c1" : "void"
- , "c2" : "alterClientQuotaEntity(ClientQuotaEntity;Map<String,Double>;List<ApiMessageAndVersion>;Map<ClientQuotaEntity,ApiError>)"
- , "c3" : "10"
- , "c4" : "21"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
- , "c1" : "ApiError"
- , "c2" : "configKeysForEntityType(Map<String,String>;Map<String,ConfigDef.ConfigKey>)"
- , "c3" : "13"
- , "c4" : "13"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#195"
- , "c1" : "ApiError"
- , "c2" : "validateQuotaKeyValue(Map<String,ConfigDef.ConfigKey>;String;Double)"
- , "c3" : "7"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00225"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#225"
- , "c1" : "boolean"
- , "c2" : "isValidIpEntity(String)"
+ , "c2" : "removeTopicEntryForBroker(Uuid;int)"
  , "c3" : "3"
- , "c4" : "4"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00238"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
- , "c1" : "ApiError"
- , "c2" : "validateEntity(ClientQuotaEntity;Map<String,String>)"
- , "c3" : "11"
- , "c4" : "10"
+ , "c5" : "00160"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#160"
+ , "c1" : "void"
+ , "c2" : "add(int;Uuid;int;boolean)"
+ , "c3" : "5"
+ , "c4" : "11"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00305"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#305"
- , "c1" : "ClientQuotaControlIterator"
- , "c2" : "iterator(long)"
+ , "c5" : "00181"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#181"
+ , "c1" : "void"
+ , "c2" : "change(int;Uuid;int;boolean;boolean)"
+ , "c3" : "6"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#206"
+ , "c1" : "void"
+ , "c2" : "remove(int;Uuid;int;boolean)"
+ , "c3" : "10"
+ , "c4" : "15"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00242"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#242"
+ , "c1" : "PartitionsOnReplicaIterator"
+ , "c2" : "iterator(int;boolean)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00250"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#250"
+ , "c1" : "PartitionsOnReplicaIterator"
+ , "c2" : "partitionsWithNoLeader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00254"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
+ , "c1" : "PartitionsOnReplicaIterator"
+ , "c2" : "partitionsLedByBroker(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00258"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
+ , "c1" : "PartitionsOnReplicaIterator"
+ , "c2" : "partitionsWithBrokerInIsr(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00262"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262"
+ , "c1" : "boolean"
+ , "c2" : "hasLeaderships(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00266"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#266"
+ , "c1" : "int"
+ , "c2" : "offlinePartitionCount()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,9 +129,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.svg" }
 
 ] 
 , 
@@ -143,14 +170,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "10"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -164,7 +191,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "8"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -178,504 +205,651 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "33"
+ , "c4" : "56"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "8"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
+ , "c1" : "00023"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00023] The class BrokersToIsrs contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#28"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00028] The class PartitionsOnReplicaIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00036"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00036] The class ClientQuotaControlManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlManager@POLYN196711 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method alterClientQuotas arguments Collection&lt;ClientQuotaAlteration &gt;  quotaAlterations"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#36"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00036] The argument topicMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#48"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00048] The argument quotaAlterations is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00048] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#58"
+ , "c1" : "00043"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197259 the MagicNumber/String  'Duplicate quota key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN189569 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#59"
+ , "c1" : "00043"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197259 the MagicNumber/String  ' not updating quota for this entity ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN189569 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN189569 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#46"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN189569 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#47"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN189569 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN189569 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN189569 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#66"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotas@POLYN197259 the MagicNumber/String  'Ignoring duplicate entity ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.next@POLYN190718 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#76"
+ , "c1" : "00080"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.BrokersToIsrs.BrokersToIsrs@POLYN191358 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method replay arguments ClientQuotaRecord  record"
+ , "c3" : "QC-JAV000006[00085] For method update arguments Uuid  topicId|int  partitionId|int[]  prevIsr|int[]  nextIsr|int  prevLeader|int  nextLeader"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#76"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00076] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#95"
+ , "c1" : "00085"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method alterClientQuotaEntity arguments ClientQuotaEntity  entity|Map&lt;String ,Double &gt;  newQuotaConfigs|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ClientQuotaEntity ,ApiError &gt;  outputResults"
+ , "c3" : "QC-JAV000007[00085] For method update list of called methods Object monObjet|int[] Replicas_copyWithN192540|int[] Replicas_cloneN192800|int[] Replicas_copyWithN193222|int[] Replicas_cloneN193482"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#95"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN201034|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN201470|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN203343"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#97"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00097] The argument newQuotaConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#98"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00098] The argument outputRecords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#99"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00099] The argument outputResults is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#128"
+ , "c1" : "00088"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00128] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00129] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#140"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00145] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN192059 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN192059 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#110"
+ , "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN192059 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#130"
+ , "c1" : "00115"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN192059 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#136"
+ , "c1" : "00116"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.controller.ClientQuotaControlManager.alterClientQuotaEntity@POLYN200629 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN192059 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
+ , "c1" : "00150"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method configKeysForEntityType arguments Map&lt;String ,String &gt;  entity|Map&lt;String ,ConfigDef.ConfigKey &gt;  output"
+ , "c3" : "QC-JAV000006[00150] For method removeTopicEntryForBroker arguments Uuid  topicId|int  brokerId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
+ , "c1" : "00152"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.controller.BrokersToIsrs.removeTopicEntryForBroker@POLYN195750 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00162] For method configKeysForEntityType list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef QuotaConfigs_ipConfigsN205336|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205698|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN205841|org.apache.kafka.common.config.ConfigDef QuotaConfigs_clientConfigsN205984"
+ , "c3" : "QC-JAV000006[00160] For method add arguments int  brokerId|Uuid  topicId|int  newPartition|boolean  leader"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00162] The argument entity is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00165"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#162"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00162] The argument output is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#172"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  'Invalid quota entity combination, IP entity should' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#173"
+ , "c1" : "00174"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  'not be combined with User or ClientId' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#178"
+ , "c1" : "00175"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  ' is not a valid IP or resolvable host.' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
+ , "c1" : "00175"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.controller.ClientQuotaControlManager.configKeysForEntityType@POLYN204355 the MagicNumber/String  'Invalid empty client quota entity' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN196360 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#181"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00181] For method change arguments int  brokerId|Uuid  topicId|int  partition|boolean  wasLeader|boolean  isLeader"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#184"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  'Broker ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  'entry, so we can't change ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#186"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#189"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  'Broker ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  ' has no ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#195"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN197881 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method validateQuotaKeyValue arguments Map&lt;String ,ConfigDef.ConfigKey &gt;  validKeys|String  key|Double  value"
+ , "c3" : "QC-JAV000006[00206] For method remove arguments int  brokerId|Uuid  topicId|int  removedPartition|boolean  leader"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#195"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00195] The argument validKeys is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#199"
+ , "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#200"
+ , "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  'Invalid configuration key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#210"
+ , "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  1e-6 should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#214"
+ , "c1" : "00213"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  'Configuration ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  'entry, so we can't remove ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#214"
+ , "c1" : "00213"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  ' must be a Long value' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#219"
+ , "c1" : "00216"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  'Unexpected config type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#219"
+ , "c1" : "00217"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.controller.ClientQuotaControlManager.validateQuotaKeyValue@POLYN206294 the MagicNumber/String  ' should be Long or Double' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#225"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method isValidIpEntity arguments String  ip"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#229"
+ , "c1" : "00217"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207722 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  ' has no ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  'Broker ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  ' has no ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  'entry in isrMembers for ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#231"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207722 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00234"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#234"
+ , "c1" : "00232"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.controller.ClientQuotaControlManager.isValidIpEntity@POLYN207722 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
+ , "c1" : "00242"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00238] For method validateEntity arguments ClientQuotaEntity  entity|Map&lt;String ,String &gt;  validatedEntityMap"
+ , "c3" : "QC-JAV000006[00242] For method iterator arguments int  brokerId|boolean  leadersOnly"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00238] The argument entity is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#238"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00238] The argument validatedEntityMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#245"
+ , "c1" : "00244"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00245] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.controller.BrokersToIsrs.iterator@POLYN202073 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#246"
+ , "c1" : "00251"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00246] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithNoLeader@POLYN202548 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#241"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Invalid empty client quota entity' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#248"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Invalid client quota entity, duplicate entity entry ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Unhandled client quota entity type: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#260"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  'Empty ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN208151 the MagicNumber/String  ' not supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#268"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00268] The class ClientQuotaControlIterator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#289"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00289] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#290"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00290] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#297"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator.next@POLYN210780 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#305"
+ , "c1" : "00254"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00305] For method iterator arguments long  epoch"
+ , "c3" : "QC-JAV000006[00254] For method partitionsLedByBroker arguments int  brokerId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.controller.BrokersToIsrs.partitionsLedByBroker@POLYN202684 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00258] For method partitionsWithBrokerInIsr arguments int  brokerId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00259"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#259"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithBrokerInIsr@POLYN202842 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00262] For method hasLeaderships arguments int  brokerId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#263"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.controller.BrokersToIsrs.hasLeaderships@POLYN203000 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#1"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#77"
+ , "c1" : "00211"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#81"
+ , "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String ' has no isrMembers ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#82"
+ , "c1" : "00212"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#212"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 'Broker ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#87"
+ , "c1" : "00213"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.controller.ClientQuotaControlManager.replay@POLYN199205 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String ':' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#213"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 'entry, so we can't remove ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00216] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String ' has no ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 'Broker ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 'entry in isrMembers for topic ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String ' has no ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 'Broker ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String ':' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 'entry in isrMembers for ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00231"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00231] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN199709 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.fct.svg" 
 
 , 
 }

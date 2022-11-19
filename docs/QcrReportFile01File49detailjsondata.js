@@ -1,56 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.CreateAclsResult"
+ , "c1" : "AbstractOptions<CreateAclsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.CreateAclsOptions"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.CreateAclsResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.CreateAclsOptions" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#17"
- , "c1" : "CreateAclsResult"
- , "c2" : "CreateAclsResult(Map<AclBinding,KafkaFuture<Void>>)"
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.html#15"
+ , "c1" : "CreateAclsOptions"
+ , "c2" : "timeoutMs(Integer)"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#22"
- , "c1" : "Map<AclBinding,KafkaFuture<Void>>"
- , "c2" : "values()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#27"
- , "c1" : "KafkaFuture<Void>"
- , "c2" : "all()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.svg" }
 
 ] 
 , 
@@ -77,38 +59,24 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class CreateAclsResult contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.clients.admin.CreateAclsResult.all@POLYN146489 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.html#15"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00015] For method timeoutMs arguments Integer  timeoutMs"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsResult.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.fct.svg" 
 
 , 
 }

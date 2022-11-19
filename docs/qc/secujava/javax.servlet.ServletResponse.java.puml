@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+"java.lang.Object" <|-- "javax.servlet.ServletResponse"
+class javax.servlet.ServletResponse {
++getCharacterEncoding() : String [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#20]]]
++getContentType() : String [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#26]]]
++getOutputStream() : ServletOutputStream [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#32]]]
++getWriter() : PrintWriter [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#38]]]
++setCharacterEncoding(String) : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#45]]]
++setContentLength(int) : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#52]]]
++setContentType(String) : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#58]]]
++setBufferSize(int) : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#63]]]
++getBufferSize() : int [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#69]]]
++flushBuffer() : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#75]]]
++resetBuffer() : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#81]]]
++isCommitted() : boolean [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#86]]]
++reset() : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#92]]]
++setLocale(Locale) : void [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#98]]]
++getLocale() : Locale [[[./../.././qc/secujava/javax.servlet.ServletResponse.java.html#104]]]
+} 
+@enduml

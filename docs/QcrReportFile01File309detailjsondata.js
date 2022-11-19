@@ -1,74 +1,74 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java 7 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Configurable"
- , "c2" : "org.apache.kafka.common.config.provider.ConfigProvider"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.config.internals.QuotaConfigs"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.config.provider.ConfigProvider" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.config.internals.QuotaConfigs" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#15"
- , "c1" : "ConfigData"
- , "c2" : "get(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#18"
- , "c1" : "ConfigData"
- , "c2" : "get(String;Set<String>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#21"
+ , "c5" : "00036"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36"
  , "c1" : "void"
- , "c2" : "subscribe(String;Set<String>;ConfigChangeCallback)"
+ , "c2" : "buildUserClientQuotaConfigDef(ConfigDef)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#52"
+ , "c1" : "boolean"
+ , "c2" : "isClientOrUserConfig(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#26"
- , "c1" : "void"
- , "c2" : "unsubscribe(String;Set<String>;ConfigChangeCallback)"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#56"
+ , "c1" : "ConfigDef"
+ , "c2" : "userConfigs()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#31"
- , "c1" : "void"
- , "c2" : "unsubscribeAll()"
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#66"
+ , "c1" : "ConfigDef"
+ , "c2" : "clientConfigs()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#72"
+ , "c1" : "ConfigDef"
+ , "c2" : "ipConfigs()"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.svg" }
 
 ] 
 , 
@@ -93,8 +93,89 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#13"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00013] The class QuotaConfigs contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00036] For method buildUserClientQuotaConfigDef arguments ConfigDef  configDef"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#36"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00036] The argument configDef is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#52"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00052] For method isClientOrUserConfig arguments String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN155145 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN155145 the MagicNumber/String  'User credentials for SCRAM mechanism ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.config.internals.QuotaConfigs.ipConfigs@POLYN155926 the MagicNumber/String  0 should be converted to const"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.fct.svg" 
 
 , 
 }

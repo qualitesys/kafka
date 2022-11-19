@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.DelegationTokenDisabledException"
+ , "c1" : "AuthorizationException"
+ , "c2" : "org.apache.kafka.common.errors.DelegationTokenAuthorizationException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.DelegationTokenDisabledException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.DelegationTokenAuthorizationException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00008"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.html#8"
- , "c1" : "DelegationTokenDisabledException"
- , "c2" : "DelegationTokenDisabledException(String)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.html#8"
+ , "c1" : "DelegationTokenAuthorizationException"
+ , "c2" : "DelegationTokenAuthorizationException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.html#12"
- , "c1" : "DelegationTokenDisabledException"
- , "c2" : "DelegationTokenDisabledException(String;Throwable)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.html#12"
+ , "c1" : "DelegationTokenAuthorizationException"
+ , "c2" : "DelegationTokenAuthorizationException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.svg" }
 
 ] 
 , 
@@ -67,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenDisabledException.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DelegationTokenAuthorizationException.java.fct.svg" 
 
 , 
 }

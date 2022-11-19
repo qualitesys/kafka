@@ -1,38 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java 7 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions"
+ , "c1" : "Serializer<Outer>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00008"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#8"
- , "c1" : "TimeDefinitions"
- , "c2" : "TimeDefinitions()"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java.html#8"
+ , "c1" : "void"
+ , "c2" : "setIfUnset(SerdeGetter)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java.svg" }
 
 ] 
 , 
@@ -57,82 +57,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00007"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#7"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00007] The class TimeDefinitions contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00021] The class RecordTimeDefinition contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method time arguments ProcessorContext  context|K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#32"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00032] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00042] The class WindowEndTimeDefinition contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method time arguments ProcessorContext  context|K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.html#53"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00053] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/TimeDefinitions.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java.fct.svg" 
 
 , 
 }

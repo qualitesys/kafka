@@ -1,119 +1,218 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java 17 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/KafkaClient.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MetadataUpdater"
- , "c2" : "org.apache.kafka.clients.ManualMetadataUpdater"
+ , "c1" : "Closeable"
+ , "c2" : "org.apache.kafka.clients.KafkaClient"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.ManualMetadataUpdater" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.KafkaClient" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#15"
+ , "c1" : "boolean"
+ , "c2" : "isReady(Node;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
 { "ligne" : { "" : ""
  , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#18"
- , "c1" : "ManualMetadataUpdater"
- , "c2" : "ManualMetadataUpdater()"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#18"
+ , "c1" : "boolean"
+ , "c2" : "ready(Node;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#22"
- , "c1" : "ManualMetadataUpdater"
- , "c2" : "ManualMetadataUpdater(List<Node>)"
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#21"
+ , "c1" : "long"
+ , "c2" : "connectionDelay(Node;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#26"
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#24"
+ , "c1" : "long"
+ , "c2" : "pollDelayMs(Node;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#27"
+ , "c1" : "boolean"
+ , "c2" : "connectionFailed(Node)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#30"
+ , "c1" : "AuthenticationException"
+ , "c2" : "authenticationException(Node)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#33"
  , "c1" : "void"
- , "c2" : "setNodes(List<Node>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#31"
- , "c1" : "List<Node>"
- , "c2" : "fetchNodes()"
+ , "c2" : "send(ClientRequest;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#36"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#36"
+ , "c1" : "List<ClientResponse>"
+ , "c2" : "poll(long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#39"
+ , "c1" : "void"
+ , "c2" : "disconnect(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#42"
+ , "c1" : "void"
+ , "c2" : "close(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#45"
+ , "c1" : "Node"
+ , "c2" : "leastLoadedNode(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#48"
+ , "c1" : "int"
+ , "c2" : "inFlightRequestCount()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#51"
  , "c1" : "boolean"
- , "c2" : "isUpdateDue(long)"
+ , "c2" : "hasInFlightRequests()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#41"
- , "c1" : "long"
- , "c2" : "maybeUpdate(long)"
+ , "c5" : "00054"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#54"
+ , "c1" : "int"
+ , "c2" : "inFlightRequestCount(String)"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46"
- , "c1" : "void"
- , "c2" : "handleServerDisconnect(long;String;Optional<AuthenticationException>)"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#52"
- , "c1" : "void"
- , "c2" : "handleFailedRequest(long;Optional<KafkaException>)"
- , "c3" : "1"
- , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#57"
- , "c1" : "void"
- , "c2" : "handleSuccessfulResponse(RequestHeader;long;MetadataResponse)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#57"
+ , "c1" : "boolean"
+ , "c2" : "hasInFlightRequests(String)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#62"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#60"
+ , "c1" : "boolean"
+ , "c2" : "hasReadyNodes(long)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#63"
+ , "c1" : "void"
+ , "c2" : "wakeup()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#66"
+ , "c1" : "ClientRequest"
+ , "c2" : "newClientRequest(String;AbstractRequest.Builder<?>;long;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#70"
+ , "c1" : "ClientRequest"
+ , "c2" : "newClientRequest(String;AbstractRequest.Builder<?>;long;boolean;int;RequestCompletionHandler)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#80"
+ , "c1" : "void"
+ , "c2" : "initiateClose()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#83"
+ , "c1" : "boolean"
+ , "c2" : "active()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.svg" }
 
 ] 
 , 
@@ -138,166 +237,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "6"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#15"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class ManualMetadataUpdater contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#19"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.clients.ManualMetadataUpdater.ManualMetadataUpdater@POLYN148503 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#26"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method setNodes arguments List&lt;Node &gt;  nodes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method isUpdateDue arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.ManualMetadataUpdater.isUpdateDue@POLYN149135 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method maybeUpdate arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method handleServerDisconnect arguments long  now|String  nodeId|Optional&lt;AuthenticationException &gt;  maybeAuthException"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException &gt;  maybeFatalException"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method handleSuccessfulResponse arguments RequestHeader  requestHeader|long  now|MetadataResponse  response"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00046] Void method handleServerDisconnect is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00046] Void method handleServerDisconnect is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00052] Void method handleFailedRequest is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00052] Void method handleFailedRequest is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00057] Void method handleSuccessfulResponse is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00057] Void method handleSuccessfulResponse is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#62"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00062] Void method close is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#62"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00062] Void method close is empty or contains only a return. Interface segregation"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.fct.svg" 
 
 , 
 }

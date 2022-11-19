@@ -1,79 +1,79 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java 13 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java 13 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.query.PositionBound"
+ , "c1" : "TaskMetadata"
+ , "c2" : "org.apache.kafka.streams.processor.internals.TaskMetadataImpl"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.query.PositionBound" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.TaskMetadataImpl" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#15"
- , "c1" : "PositionBound"
- , "c2" : "PositionBound(Position)"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#26"
+ , "c1" : "TaskMetadataImpl"
+ , "c2" : "TaskMetadataImpl(TaskId;Set<TopicPartition>;Map<TopicPartition,Long>;Map<TopicPartition,Long>;Optional<Long>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#39"
+ , "c1" : "TaskId"
+ , "c2" : "taskId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#20"
- , "c1" : "PositionBound"
- , "c2" : "unbounded()"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#44"
+ , "c1" : "Set<TopicPartition>"
+ , "c2" : "topicPartitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#25"
- , "c1" : "PositionBound"
- , "c2" : "at(Position)"
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#49"
+ , "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "committedOffsets()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#30"
- , "c1" : "boolean"
- , "c2" : "isUnbounded()"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#54"
+ , "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "endOffsets()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#35"
- , "c1" : "Position"
- , "c2" : "position()"
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#59"
+ , "c1" : "Optional<Long>"
+ , "c2" : "timeCurrentIdlingStarted()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#40"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#45"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#64"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,10 +81,19 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#57"
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#77"
  , "c1" : "int"
  , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#82"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,9 +102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.svg" }
 
 ] 
 , 
@@ -122,20 +131,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -146,7 +141,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -160,105 +155,105 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#11"
+ , "c1" : "00014"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class PositionBound contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class TaskMetadataImpl contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#15"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00015] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#25"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00025] For method at arguments Position  position"
+ , "c3" : "QC-JAV000006[00064] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#41"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN149158 the MagicNumber/String  'PositionBound{position=' should be converted to const"
+ , "c3" : "QC-JAV000021[00068] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#41"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.PositionBound.toString@POLYN149158 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.equals@POLYN152041 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#49"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00049] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.equals@POLYN152041 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#47"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN149306 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.equals@POLYN152041 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#49"
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN149306 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.toString@POLYN152860 the MagicNumber/String  'TaskMetadata{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#50"
+ , "c1" : "00084"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.query.PositionBound.equals@POLYN149306 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.toString@POLYN152860 the MagicNumber/String  'taskId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#59"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.query.PositionBound.hashCode@POLYN149873 the MagicNumber/String  'This mutable object is not suitable as a hash key' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.toString@POLYN152860 the MagicNumber/String  ', topicPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#20"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00020] Public method unbounded is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.toString@POLYN152860 the MagicNumber/String  ', committedOffsets=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00057] Public method hashCode is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.toString@POLYN152860 the MagicNumber/String  ', endOffsets=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.toString@POLYN152860 the MagicNumber/String  ', timeCurrentIdlingStarted=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.TaskMetadataImpl.toString@POLYN152860 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/PositionBound.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskMetadataImpl.java.fct.svg" 
 
 , 
 }

@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+"Map<K,V>" <|-- "java.util.concurrent.ConcurrentMap"
+class java.util.concurrent.ConcurrentMap {
+getOrDefault(Object;V) : V [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#17]]]
+forEach(BiConsumer<?superK,?superV>) : void [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#24]]]
+putIfAbsent(K;V) : V [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#41]]]
+remove(Object;Object) : boolean [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#44]]]
+replace(K;V;V) : boolean [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#47]]]
+replace(K;V) : V [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#50]]]
+replaceAll(BiFunction<?superK,?superV,?extendsV>) : void [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#54]]]
+computeIfAbsent(K;Function<?superK,?extendsV>) : V [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#69]]]
+computeIfPresent(K;BiFunction<?superK,?superV,?extendsV>) : V [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#80]]]
+compute(K;BiFunction<?superK,?superV,?extendsV>) : V [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#97]]]
+merge(K;V;BiFunction<?superV,?superV,?extendsV>) : V [[[./../.././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#145]]]
+} 
+@enduml

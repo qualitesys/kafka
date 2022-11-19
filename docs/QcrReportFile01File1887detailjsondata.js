@@ -1,92 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java 13 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java 13 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata"
+ , "c2" : "org.apache.kafka.streams.processor.internals.PunctuationQueue"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.PunctuationQueue" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#14"
+ , "c1" : "Cancellable"
+ , "c2" : "schedule(PunctuationSchedule)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
 { "ligne" : { "" : ""
  , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#21"
- , "c1" : "TopicPartitionMetadata"
- , "c2" : "TopicPartitionMetadata(long;ProcessorMetadata)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#27"
- , "c1" : "long"
- , "c2" : "partitionTime()"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#21"
+ , "c1" : "void"
+ , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#31"
- , "c1" : "ProcessorMetadata"
- , "c2" : "processorMetadata()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#35"
- , "c1" : "String"
- , "c2" : "encode()"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#45"
- , "c1" : "TopicPartitionMetadata"
- , "c2" : "decode(String)"
- , "c3" : "5"
- , "c4" : "15"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#79"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#84"
+ , "c5" : "00028"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#28"
  , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "3"
+ , "c2" : "mayPunctuate(long;PunctuationType;ProcessorNodePunctuator)"
+ , "c3" : "4"
+ , "c4" : "9"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.svg" }
 
 ] 
 , 
@@ -113,23 +77,16 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE484"
- , "c3" : "Omitted Break Statement in Switch"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "1"
 }}
 ,
@@ -144,7 +101,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -153,103 +110,117 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#11"
+ , "c1" : "00010"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class TopicPartitionMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class PunctuationQueue contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#45"
+ , "c1" : "00014"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#14"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method decode arguments String  encryptedString"
+ , "c3" : "QC-JAV000006[00014] For method schedule arguments PunctuationSchedule  sched"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#45"
+ , "c1" : "00014"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#14"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument encryptedString is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00014] The argument sched is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#67"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE484[00067] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+ , "c1" : "00015"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#15"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00015] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN153829 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00022"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#22"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00022] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN153829 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN153829 the MagicNumber/String  'Unsupported offset metadata version found. Supported version &amp;lt;= {}. Found version {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.decode@POLYN153829 the MagicNumber/String  'Unsupported offset metadata found' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#84"
+ , "c1" : "00028"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method equals arguments Object  obj"
+ , "c3" : "QC-JAV000006[00028] For method mayPunctuate arguments long  timestamp|PunctuationType  type|ProcessorNodePunctuator  processorNodePunctuator"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#85"
+ , "c1" : "00028"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#28"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00028] For method mayPunctuate list of called methods Object monObjet|org.apache.kafka.streams.processor.Cancellable pq_peekN148256"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#28"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00028] The argument processorNodePunctuator is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#29"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00029] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN155685 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#86"
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN155685 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN147182 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#90"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.TopicPartitionMetadata.equals@POLYN155685 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN147182 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.html#45"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00045] Public method decode is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.processor.internals.PunctuationQueue.mayPunctuate@POLYN147182 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopicPartitionMetadata.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PunctuationQueue.java.fct.svg" 
 
 , 
 }

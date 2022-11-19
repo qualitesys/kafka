@@ -1,56 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java 29 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java 31 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.trogdor.common.StringFormatter"
+ , "c1" : "AbstractStoreBuilder<K,ValueAndTimestamp<V>,TimestampedWindowStore<K,V>>"
+ , "c2" : "org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.common.StringFormatter" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#15"
- , "c1" : "String"
- , "c2" : "dateString(long;ZoneOffset)"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#35"
+ , "c1" : "TimestampedWindowStoreBuilder"
+ , "c2" : "TimestampedWindowStoreBuilder(WindowBytesStoreSupplier;Serde<K>;Serde<V>;Time)"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#46"
+ , "c1" : "TimestampedWindowStore<K,V>"
+ , "c2" : "build()"
+ , "c3" : "5"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#69"
+ , "c1" : "WindowStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapCaching(WindowStore<Bytes,byte[]>)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#88"
+ , "c1" : "boolean"
+ , "c2" : "isTimeOrderedStore(StateStore)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#98"
+ , "c1" : "WindowStore<Bytes,byte[]>"
+ , "c2" : "maybeWrapLogging(WindowStore<Bytes,byte[]>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#105"
+ , "c1" : "long"
+ , "c2" : "retentionPeriod()"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#22"
- , "c1" : "String"
- , "c2" : "durationString(long)"
- , "c3" : "4"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43"
- , "c1" : "String"
- , "c2" : "prettyPrintGrid(List<List<String>>)"
- , "c3" : "10"
- , "c4" : "25"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.svg" }
 
 ] 
 , 
@@ -80,14 +107,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -101,224 +121,238 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "20"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "13"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class StringFormatter contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#15"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method dateString arguments long  timeMs|ZoneOffset  zoneOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#22"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method durationString arguments long  periodMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  'h' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  'm' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.common.StringFormatter.durationString@POLYN157842 the MagicNumber/String  's' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method prettyPrintGrid arguments List&lt;List&lt;String &gt; &gt;  lines"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#43"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#35"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00043] The argument lines is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00035] The argument storeSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#58"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN176011 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#65"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN176011 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#67"
+ , "c1" : "00040"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN176011 the MagicNumber/String  'storeSupplier can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#67"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00067] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  'Expected ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  ' columns in row ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  ', but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.TimestampedWindowStoreBuilder@POLYN176011 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#56"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.build@POLYN176801 the MagicNumber/String  'Disabling caching for {} since store was configured to retain duplicates' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#57"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.build@POLYN176801 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#69"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00069] For method maybeWrapCaching arguments WindowStore&lt;Bytes ,byte[] &gt;  inner"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00088] For method isTimeOrderedStore arguments StateStore  stateStore"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#66"
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.isTimeOrderedStore@POLYN178615 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#70"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.isTimeOrderedStore@POLYN178615 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  ' ' should be converted to const"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00098] For method maybeWrapLogging arguments WindowStore&lt;Bytes ,byte[] &gt;  inner"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#74"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.trogdor.common.StringFormatter.prettyPrintGrid@POLYN159408 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000008[00110] The class InMemoryTimestampedWindowStoreMarker contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#115"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00115] The argument wrapped is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker.InMemoryTimestampedWindowStoreMarker@POLYN179689 the MagicNumber/String  'Provided store must not be a persistent store, but it is.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#124"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00124] For method init arguments ProcessorContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#130"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00130] For method init arguments StateStoreContext  context|StateStore  root"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00135] For method put arguments Bytes  key|byte[]  value|long  windowStartTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#142"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00142] For method fetch arguments Bytes  key|long  time"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#148"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00148] For method fetch arguments Bytes  key|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#155"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00155] For method backwardFetch arguments Bytes  key|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#162"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00162] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#170"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00170] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#178"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00178] For method fetchAll arguments long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#184"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00184] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#217"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00217] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker the MagicNumber/String  1L should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker the MagicNumber/String  'Handled in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker the MagicNumber/String  ' in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#223"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker the MagicNumber/String  'ns' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.html#240"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder.InMemoryTimestampedWindowStoreMarker.persistent@POLYN184688 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedWindowStoreBuilder.java.fct.svg" 
 
 , 
 }

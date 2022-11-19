@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+"HttpEntity<T>" <|-- "org.springframework.http.ResponseEntity"
+class org.springframework.http.ResponseEntity {
++ResponseEntity(HttpStatus) : ResponseEntity [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#87]]]
++ResponseEntity(T;HttpStatus) : ResponseEntity [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#96]]]
++ResponseEntity(MultiValueMap<String,String>;HttpStatus) : ResponseEntity [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#105]]]
++ResponseEntity(T;MultiValueMap<String,String>;HttpStatus) : ResponseEntity [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#115]]]
+-ResponseEntity(T;MultiValueMap<String,String>;Object) : ResponseEntity [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#128]]]
++getStatusCode() : HttpStatus [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#139]]]
++getStatusCodeValue() : int [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#153]]]
++equals(Object) : boolean [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#164]]]
++hashCode() : int [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#176]]]
++toString() : String [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#181]]]
++status(HttpStatus) : BodyBuilder [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#209]]]
++status(int) : BodyBuilder [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#220]]]
++ok() : BodyBuilder [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#229]]]
++created(URI) : BodyBuilder [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#263]]]
++accepted() : BodyBuilder [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#272]]]
++noContent() : HeadersBuilder<?> [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#281]]]
++badRequest() : BodyBuilder [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#290]]]
++notFound() : HeadersBuilder<?> [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#299]]]
++unprocessableEntity() : BodyBuilder [[[./../.././qc/secujava/org.springframework.http.ResponseEntity.java.html#309]]]
+} 
+@enduml

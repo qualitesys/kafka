@@ -1,63 +1,81 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java 3 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Branched<K,V>"
- , "c2" : "org.apache.kafka.streams.kstream.internals.BranchedInternal"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.KGroupedTable"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.BranchedInternal" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.KGroupedTable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#11"
- , "c1" : "BranchedInternal"
- , "c2" : "BranchedInternal(Branched<K,V>)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#16"
+ , "c1" : "KTable<K,Long>"
+ , "c2" : "count(Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#15"
- , "c1" : "BranchedInternal"
- , "c2" : "BranchedInternal()"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#19"
+ , "c1" : "KTable<K,Long>"
+ , "c2" : "count(Named;Materialized<K,Long,KeyValueStore<Bytes,byte[]>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#23"
- , "c1" : "String"
- , "c2" : "name()"
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#22"
+ , "c1" : "KTable<K,Long>"
+ , "c2" : "count()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#27"
- , "c1" : "Function<?superKStream<K,V>,?extendsKStream<K,V>>"
- , "c2" : "chainFunction()"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#26"
+ , "c1" : "KTable<K,Long>"
+ , "c2" : "count(Named)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#31"
- , "c1" : "Consumer<?superKStream<K,V>>"
- , "c2" : "chainConsumer()"
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#29"
+ , "c1" : "KTable<K,V>"
+ , "c2" : "reduce(Reducer<V>;Reducer<V>;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#35"
+ , "c1" : "KTable<K,V>"
+ , "c2" : "reduce(Reducer<V>;Reducer<V>;Named;Materialized<K,V,KeyValueStore<Bytes,byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.html#41"
+ , "c1" : "KTable<K,V>"
+ , "c2" : "reduce(Reducer<V>;Reducer<V>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +84,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.svg" }
 
 ] 
 , 
@@ -93,40 +111,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.kstream.internals.BranchedInternal.BranchedInternal@POLYN144525 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.kstream.internals.BranchedInternal.BranchedInternal@POLYN144525 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.kstream.internals.BranchedInternal.BranchedInternal@POLYN144525 the MagicNumber/String  null should be converted to const"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedInternal.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/KGroupedTable.java.fct.svg" 
 
 , 
 }

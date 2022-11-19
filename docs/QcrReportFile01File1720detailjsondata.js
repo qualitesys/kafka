@@ -1,83 +1,47 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java 5 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java 2 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serde<T>"
- , "c2" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerde"
+ , "c1" : "KTableValueGetterSupplier<K,R>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerde" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#17"
- , "c1" : "WrappingNullableSerde"
- , "c2" : "WrappingNullableSerde(WrappingNullableSerializer<T,InnerK,InnerV>;WrappingNullableDeserializer<T,InnerK,InnerV>)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#26"
- , "c1" : "Serializer<T>"
- , "c2" : "serializer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#31"
- , "c1" : "Deserializer<T>"
- , "c2" : "deserializer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#36"
- , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#12"
+ , "c1" : "KTableKTableAbstractJoinValueGetterSupplier"
+ , "c2" : "KTableKTableAbstractJoinValueGetterSupplier(KTableValueGetterSupplier<K,V1>;KTableValueGetterSupplier<K,V2>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#43"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#19"
+ , "c1" : "String[]"
+ , "c2" : "storeNames()"
  , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#48"
- , "c1" : "void"
- , "c2" : "setIfUnset(SerdeGetter)"
- , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "6"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.svg" }
 
 ] 
 , 
@@ -114,56 +78,28 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#13"
+ , "c1" : "00008"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class WrappingNullableSerde contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class KTableKTableAbstractJoinValueGetterSupplier contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#19"
+ , "c1" : "00025"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.streams.kstream.internals.WrappingNullableSerde.WrappingNullableSerde@POLYN147314 the MagicNumber/String  'serializer can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#20"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.streams.kstream.internals.WrappingNullableSerde.WrappingNullableSerde@POLYN147314 the MagicNumber/String  'deserializer can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method setIfUnset arguments SerdeGetter  getter"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier.storeNames@POLYN144912 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.fct.svg" 
 
 , 
 }

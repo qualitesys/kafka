@@ -1,27 +1,72 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.kstream.Initializer"
+ , "c2" : "org.apache.kafka.streams.StreamsMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.Initializer" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.StreamsMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java.html#9"
- , "c1" : "VA"
- , "c2" : "apply()"
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#14"
+ , "c1" : "Map<MetricName,?extendsMetric>"
+ , "c2" : "metrics()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#17"
+ , "c1" : "Sensor"
+ , "c2" : "addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#24"
+ , "c1" : "Sensor"
+ , "c2" : "addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#31"
+ , "c1" : "Sensor"
+ , "c2" : "addSensor(String;Sensor.RecordingLevel)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#35"
+ , "c1" : "Sensor"
+ , "c2" : "addSensor(String;Sensor.RecordingLevel;Sensor...)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#40"
+ , "c1" : "void"
+ , "c2" : "removeSensor(Sensor)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +75,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.svg" }
 
 ] 
 , 
@@ -58,7 +103,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Initializer.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.fct.svg" 
 
 , 
 }

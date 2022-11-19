@@ -1,109 +1,100 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java 12 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java 12 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Thread"
- , "c2" : "org.apache.kafka.connect.util.ShutdownableThread"
+ , "c1" : "AutoCloseable"
+ , "c2" : "org.apache.kafka.connect.util.SharedTopicAdmin"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.util.ShutdownableThread" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.util.SharedTopicAdmin" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#21"
- , "c1" : "ShutdownableThread"
- , "c2" : "ShutdownableThread(String)"
+ , "c5" : "00027"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#27"
+ , "c1" : "SharedTopicAdmin"
+ , "c2" : "SharedTopicAdmin(Map<String,Object>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#28"
- , "c1" : "ShutdownableThread"
- , "c2" : "ShutdownableThread(String;boolean)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#36"
- , "c1" : "void"
- , "c2" : "execute()"
+ , "c5" : "00032"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#32"
+ , "c1" : "SharedTopicAdmin"
+ , "c2" : "SharedTopicAdmin(Map<String,Object>;Function<Map<String,Object>,TopicAdmin>)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00039"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#39"
- , "c1" : "boolean"
- , "c2" : "getRunning()"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#39"
+ , "c1" : "TopicAdmin"
+ , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00044"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#44"
- , "c1" : "void"
- , "c2" : "run()"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#56"
- , "c1" : "void"
- , "c2" : "shutdown(long;TimeUnit)"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#64"
- , "c1" : "boolean"
- , "c2" : "gracefulShutdown(long;TimeUnit)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#70"
- , "c1" : "void"
- , "c2" : "startGracefulShutdown()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#76"
- , "c1" : "boolean"
- , "c2" : "awaitShutdown(long;TimeUnit)"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#44"
+ , "c1" : "TopicAdmin"
+ , "c2" : "topicAdmin()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#81"
- , "c1" : "void"
- , "c2" : "forceShutdown()"
+ , "c5" : "00049"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#49"
+ , "c1" : "String"
+ , "c2" : "bootstrapServers()"
  , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#55"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#60"
+ , "c1" : "void"
+ , "c2" : "close(Duration)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#71"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#76"
+ , "c1" : "TopicAdmin"
+ , "c2" : "createAdmin(TopicAdmin)"
+ , "c3" : "3"
  , "c4" : "3"
 }} 
 ] 
@@ -111,9 +102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.png" 
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.png" 
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.svg" }
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.svg" }
 
 ] 
 , 
@@ -141,8 +132,8 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE493"
- , "c3" : "Critical public variable without final modifier"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -150,112 +141,105 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAVCWE500"
- , "c3" : "Static public field not marked final"
- , "c4" : "1"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#19"
+ , "c1" : "00017"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00019] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAV000008[00017] The class SharedTopicAdmin contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#19"
+ , "c1" : "00050"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.util.SharedTopicAdmin.bootstrapServers@POLYN167721 the MagicNumber/String  '&amp;lt;unknown&amp;gt;' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAVCWE500[00019] Static public field not marked final (see http://cwe.mitre.org/data/definitions/500.html)"
+ , "c3" : "QC-JAV000006[00060] For method close arguments Duration  timeout"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#25"
+ , "c1" : "00062"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.connect.util.ShutdownableThread.ShutdownableThread@POLYN161282 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN168546 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#31"
+ , "c1" : "00062"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.connect.util.ShutdownableThread.ShutdownableThread@POLYN161423 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN168546 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#48"
+ , "c1" : "00063"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.util.ShutdownableThread.run@POLYN162064 the MagicNumber/String  'Thread {} exiting with uncaught exception: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method shutdown arguments long  gracefulTimeout|TimeUnit  unit"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN168546 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method gracefulShutdown arguments long  timeout|TimeUnit  unit"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#71"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.util.ShutdownableThread.startGracefulShutdown@POLYN163365 the MagicNumber/String  'Starting graceful shutdown of thread {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN168546 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#72"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.util.ShutdownableThread.startGracefulShutdown@POLYN163365 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.util.SharedTopicAdmin.toString@POLYN169082 the MagicNumber/String  'admin client for brokers at ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#76"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method awaitShutdown arguments long  timeout|TimeUnit  unit"
+ , "c3" : "QC-JAV000006[00076] For method createAdmin arguments TopicAdmin  existing"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#82"
+ , "c1" : "00078"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.util.ShutdownableThread.forceShutdown@POLYN164162 the MagicNumber/String  'Forcing shutdown of thread {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN169401 the MagicNumber/String  'The ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.html#83"
+ , "c1" : "00078"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.util.ShutdownableThread.forceShutdown@POLYN164162 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN169401 the MagicNumber/String  ' has already been closed and cannot be used.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN169401 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ShutdownableThread.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.fct.svg" 
 
 , 
 }

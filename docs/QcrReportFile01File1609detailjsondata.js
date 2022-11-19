@@ -1,99 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java 8 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.kstream.TimeWindowedKStream"
+ , "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.TopologyException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.TimeWindowedKStream" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.TopologyException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#20"
- , "c1" : "KTable<Windowed<K>,Long>"
- , "c2" : "count()"
+ , "c5" : "00010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#10"
+ , "c1" : "TopologyException"
+ , "c2" : "TopologyException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#23"
- , "c1" : "KTable<Windowed<K>,Long>"
- , "c2" : "count(Named)"
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#14"
+ , "c1" : "TopologyException"
+ , "c2" : "TopologyException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#26"
- , "c1" : "KTable<Windowed<K>,Long>"
- , "c2" : "count(Materialized<K,Long,WindowStore<Bytes,byte[]>>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#29"
- , "c1" : "KTable<Windowed<K>,Long>"
- , "c2" : "count(Named;Materialized<K,Long,WindowStore<Bytes,byte[]>>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#53"
- , "c1" : "KTable<Windowed<K>,V>"
- , "c2" : "reduce(Reducer<V>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#56"
- , "c1" : "KTable<Windowed<K>,V>"
- , "c2" : "reduce(Reducer<V>;Named)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#59"
- , "c1" : "KTable<Windowed<K>,V>"
- , "c2" : "reduce(Reducer<V>;Materialized<K,V,WindowStore<Bytes,byte[]>>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#63"
- , "c1" : "KTable<Windowed<K>,V>"
- , "c2" : "reduce(Reducer<V>;Named;Materialized<K,V,WindowStore<Bytes,byte[]>>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.html#68"
- , "c1" : "TimeWindowedKStream<K,V>"
- , "c2" : "emitStrategy(EmitStrategy)"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#19"
+ , "c1" : "TopologyException"
+ , "c2" : "TopologyException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.svg" }
 
 ] 
 , 
@@ -129,8 +75,75 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "8"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144104 the MagicNumber/String  'Invalid topology' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144104 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144104 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00011"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#11"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00011] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144104 the MagicNumber/String  ': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144446 the MagicNumber/String  'Invalid topology' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144446 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144446 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00016"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.html#16"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00016] In method org.apache.kafka.streams.errors.TopologyException.TopologyException@POLYN144446 the MagicNumber/String  ': ' should be converted to const"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedKStream.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/TopologyException.java.fct.svg" 
 
 , 
 }

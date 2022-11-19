@@ -1,0 +1,8 @@
+@startuml
+!pragma layout smetana
+"java.lang.Object" <|-- "java.net.CacheRequest"
+class java.net.CacheRequest {
++getBody() : OutputStream [[[./../.././qc/secujava/java.net.CacheRequest.java.html#12]]]
++abort() : void [[[./../.././qc/secujava/java.net.CacheRequest.java.html#15]]]
+} 
+@enduml

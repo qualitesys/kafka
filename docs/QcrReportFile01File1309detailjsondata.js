@@ -1,83 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java 5 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java 22 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.controller.ControllerRequestContext"
+ , "c2" : "org.apache.kafka.controller.ControllerPurgatory"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.controller.ControllerRequestContext" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.controller.ControllerPurgatory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#19"
- , "c1" : "OptionalLong"
- , "c2" : "requestTimeoutMsToDeadlineNs(Time;int)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00018"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#18"
+ , "c1" : "void"
+ , "c2" : "completeUpTo(long)"
+ , "c3" : "4"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#30"
- , "c1" : "ControllerRequestContext"
- , "c2" : "ControllerRequestContext(RequestHeaderData;KafkaPrincipal;OptionalLong)"
- , "c3" : "1"
- , "c4" : "3"
+ , "c5" : "00033"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#33"
+ , "c1" : "void"
+ , "c2" : "failAll(Exception)"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#40"
- , "c1" : "ControllerRequestContext"
- , "c2" : "ControllerRequestContext(AuthorizableRequestContext;OptionalLong)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#55"
- , "c1" : "RequestHeaderData"
- , "c2" : "requestHeader()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#59"
- , "c1" : "KafkaPrincipal"
- , "c2" : "principal()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00045"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#45"
+ , "c1" : "void"
+ , "c2" : "add(long;DeferredEvent)"
+ , "c3" : "4"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00063"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#63"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
  , "c1" : "OptionalLong"
- , "c2" : "deadlineNs()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "highestPendingOffset()"
+ , "c3" : "3"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.svg" }
 
 ] 
 , 
@@ -102,19 +84,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "1"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -125,52 +123,178 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#17"
+ , "c1" : "00013"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00017] The class ControllerRequestContext contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00013] The class ControllerPurgatory contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#19"
+ , "c1" : "00018"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#18"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00019] For method requestTimeoutMsToDeadlineNs arguments Time  time|int  millisecondsOffset"
+ , "c3" : "QC-JAV000006[00018] For method completeUpTo arguments long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#20"
+ , "c1" : "00021"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#21"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00021] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00025] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#26"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.controller.ControllerPurgatory.completeUpTo@POLYN154714 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#33"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00033] For method failAll arguments Exception  exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#36"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00036] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00037] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#45"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00045] For method add arguments long  offset|DeferredEvent  event"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  'There is already a purgatory event with ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  'offset ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  '.  We should not add one with an offset of ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  ' which ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  'is lower than that.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00020] The argument time is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#41"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00041] The argument requestContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.html#19"
+ , "c1" : "00049"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00019] Public method requestTimeoutMsToDeadlineNs is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String 'There is already a purgatory event with ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String '.  We should not add one with an offset of ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#50"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String 'offset ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String ' which ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String 'is lower than that.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.controller.ControllerPurgatory.add@POLYN156337 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerRequestContext.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.fct.svg" 
 
 , 
 }

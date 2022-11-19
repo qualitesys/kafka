@@ -1,54 +1,297 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java 19 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java 6 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "CloseableConnectorContext"
- , "c2" : "org.apache.kafka.connect.runtime.HerderConnectorContext"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.runtime.Herder"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.runtime.HerderConnectorContext" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.Herder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#17"
- , "c1" : "HerderConnectorContext"
- , "c2" : "HerderConnectorContext(AbstractHerder;String)"
+ , "c5" : "00024"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#24"
+ , "c1" : "void"
+ , "c2" : "start()"
  , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#24"
+ , "c5" : "00026"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#26"
  , "c1" : "void"
- , "c2" : "requestTaskReconfiguration()"
- , "c3" : "2"
- , "c4" : "2"
+ , "c2" : "stop()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#28"
+ , "c1" : "boolean"
+ , "c2" : "isRunning()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#31"
+ , "c1" : "void"
+ , "c2" : "connectors(Callback<Collection<String>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#34"
+ , "c1" : "void"
+ , "c2" : "connectorInfo(String;Callback<ConnectorInfo>)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00037"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#37"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#37"
  , "c1" : "void"
- , "c2" : "raiseError(Exception)"
- , "c3" : "2"
- , "c4" : "3"
+ , "c2" : "connectorConfig(String;Callback<Map<String,String>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#40"
+ , "c1" : "void"
+ , "c2" : "tasksConfig(String;Callback<Map<ConnectorTaskId,Map<String,String>>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#43"
+ , "c1" : "void"
+ , "c2" : "putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#46"
+ , "c1" : "void"
+ , "c2" : "deleteConnectorConfig(String;Callback<Created<ConnectorInfo>>)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00049"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#49"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#49"
  , "c1" : "void"
- , "c2" : "close()"
+ , "c2" : "requestTaskReconfiguration(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#52"
+ , "c1" : "void"
+ , "c2" : "taskConfigs(String;Callback<List<TaskInfo>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#55"
+ , "c1" : "void"
+ , "c2" : "putTaskConfigs(String;List<Map<String,String>>;Callback<Void>;InternalRequestSignature)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#58"
+ , "c1" : "void"
+ , "c2" : "fenceZombieSourceTasks(String;Callback<Void>;InternalRequestSignature)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#61"
+ , "c1" : "Collection<String>"
+ , "c2" : "connectors()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#64"
+ , "c1" : "ConnectorInfo"
+ , "c2" : "connectorInfo(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#67"
+ , "c1" : "ConnectorStateInfo"
+ , "c2" : "connectorStatus(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#70"
+ , "c1" : "ActiveTopicsInfo"
+ , "c2" : "connectorActiveTopics(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00073"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#73"
+ , "c1" : "void"
+ , "c2" : "resetConnectorActiveTopics(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#76"
+ , "c1" : "StatusBackingStore"
+ , "c2" : "statusBackingStore()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#79"
+ , "c1" : "ConnectorStateInfo.TaskState"
+ , "c2" : "taskStatus(ConnectorTaskId)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00082"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#82"
+ , "c1" : "void"
+ , "c2" : "validateConnectorConfig(Map<String,String>;Callback<ConfigInfos>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#85"
+ , "c1" : "void"
+ , "c2" : "validateConnectorConfig(Map<String,String>;Callback<ConfigInfos>;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#90"
+ , "c1" : "void"
+ , "c2" : "restartTask(ConnectorTaskId;Callback<Void>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#93"
+ , "c1" : "void"
+ , "c2" : "restartConnector(String;Callback<Void>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00096"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#96"
+ , "c1" : "HerderRequest"
+ , "c2" : "restartConnector(long;String;Callback<Void>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#99"
+ , "c1" : "void"
+ , "c2" : "restartConnectorAndTasks(RestartRequest;Callback<ConnectorStateInfo>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#102"
+ , "c1" : "void"
+ , "c2" : "pauseConnector(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00105"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#105"
+ , "c1" : "void"
+ , "c2" : "resumeConnector(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#108"
+ , "c1" : "Plugins"
+ , "c2" : "plugins()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#111"
+ , "c1" : "String"
+ , "c2" : "kafkaClusterId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#115"
+ , "c1" : "List<ConfigKeyInfo>"
+ , "c2" : "connectorPluginConfig(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +300,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.png" 
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.png" 
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.svg" }
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.svg" }
 
 ] 
 , 
@@ -84,30 +327,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
@@ -119,7 +339,14 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "11"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -132,141 +359,50 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#9"
+ , "c1" : "00122"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class HerderConnectorContext contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00122] The class Created contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#20"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00020] In method org.apache.kafka.connect.runtime.HerderConnectorContext.HerderConnectorContext@POLYN145350 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN145646 the MagicNumber/String  'The request for task reconfiguration has been rejected ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN145646 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN145646 the MagicNumber/String  '' has already ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN145646 the MagicNumber/String  'been shut down.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#37"
+ , "c1" : "00140"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method raiseError arguments Exception  e"
+ , "c3" : "QC-JAV000006[00140] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#39"
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String  'Connector {} attempted to raise error after shutdown:' should be converted to const"
+ , "c3" : "QC-JAV000021[00142] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#40"
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String  'The request to fail the connector has been rejected ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.Herder.Created.equals@POLYN207481 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#41"
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.Herder.Created.equals@POLYN207481 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#41"
+ , "c1" : "00142"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String  '' has already ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String  'been shut down.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.HerderConnectorContext.close@POLYN146497 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#39"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String 'Connector {} attempted to raise error after shutdown:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#40"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String 'The request to fail the connector has been rejected ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#41"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String '' has already ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#41"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String 'because this instance of the connector '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#42"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN145991 the MagicNumber/String 'been shut down.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.runtime.Herder.Created.equals@POLYN207481 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.fct.svg" 
 
 , 
 }

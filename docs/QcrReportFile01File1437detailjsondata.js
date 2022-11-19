@@ -1,83 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java 8 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java 7 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "FuturePurgatory<T>"
- , "c2" : "org.apache.kafka.raft.internals.ThresholdPurgatory"
+ , "c1" : "RecordSerde<String>"
+ , "c2" : "org.apache.kafka.raft.internals.StringSerde"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.internals.ThresholdPurgatory" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.internals.StringSerde" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#18"
- , "c1" : "ThresholdPurgatory"
- , "c2" : "ThresholdPurgatory(ExpirationService)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#23"
- , "c1" : "CompletableFuture<Long>"
- , "c2" : "await(T;long)"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#32"
- , "c1" : "void"
- , "c2" : "maybeComplete(T;long)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#41"
- , "c1" : "void"
- , "c2" : "completeAll(long)"
- , "c3" : "2"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#48"
- , "c1" : "void"
- , "c2" : "completeAllExceptionally(Throwable)"
- , "c3" : "2"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#55"
+ , "c5" : "00013"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#13"
  , "c1" : "int"
- , "c2" : "numWaiting()"
+ , "c2" : "recordSize(String;ObjectSerializationCache)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#17"
+ , "c1" : "int"
+ , "c2" : "recordSize(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#22"
+ , "c1" : "void"
+ , "c2" : "write(String;ObjectSerializationCache;Writable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#27"
+ , "c1" : "String"
+ , "c2" : "read(Readable;int)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.svg" }
 
 ] 
 , 
@@ -104,16 +86,16 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
  , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -121,70 +103,63 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#12"
+ , "c1" : "00010"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class ThresholdPurgatory contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class StringSerde contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#23"
+ , "c1" : "00013"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#13"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method await arguments T  threshold|long  maxWaitTimeMs"
+ , "c3" : "QC-JAV000006[00013] For method recordSize arguments String  data|ObjectSerializationCache  serializationCache"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#32"
+ , "c1" : "00017"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#17"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method maybeComplete arguments T  value|long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00017] For method recordSize arguments String  data"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#41"
+ , "c1" : "00022"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#22"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method completeAll arguments long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00022] For method write arguments String  data|ObjectSerializationCache  serializationCache|Writable  out"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#48"
+ , "c1" : "00022"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#22"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00022] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method completeAllExceptionally arguments Throwable  exception"
+ , "c3" : "QC-JAV000006[00027] For method read arguments Readable  input|int  size"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00059] The class ThresholdKey contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method compareTo arguments ThresholdKey&lt;T &gt;  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.raft.internals.ThresholdPurgatory.ThresholdKey.compareTo@POLYN154790 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00027"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#27"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00027] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.fct.svg" 
 
 , 
 }

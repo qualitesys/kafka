@@ -1,36 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java 1 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ProcessorSupplier<K1,V1,K1,VOut>"
- , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.kstream.Transformer"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamGlobalKTableJoin" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.Transformer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00016"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.html#16"
- , "c1" : "KStreamGlobalKTableJoin"
- , "c2" : "KStreamGlobalKTableJoin(KTableValueGetterSupplier<K2,V2>;ValueJoinerWithKey<?superK1,?superV1,?superV2,?extendsVOut>;KeyValueMapper<?superK1,?superV1,?extendsK2>;boolean)"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#16"
+ , "c1" : "void"
+ , "c2" : "init(ProcessorContext)"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.html#27"
- , "c1" : "Processor<K1,V1,K1,VOut>"
- , "c2" : "get()"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#19"
+ , "c1" : "R"
+ , "c2" : "transform(K;V)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00022"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.html#22"
+ , "c1" : "void"
+ , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.svg" }
 
 ] 
 , 
@@ -66,26 +75,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.html#9"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class KStreamGlobalKTableJoin contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamGlobalKTableJoin.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Transformer.java.fct.svg" 
 
 , 
 }

@@ -1,117 +1,99 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/Batch.java 17 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java 16 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterable<T>"
- , "c2" : "org.apache.kafka.raft.Batch"
+ , "c1" : "Revertable"
+ , "c2" : "org.apache.kafka.timeline.TimelineObject"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.Batch" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.timeline.TimelineObject" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#18"
- , "c1" : "Batch"
- , "c2" : "Batch(long;int;long;int;long;List<T>)"
+ , "c5" : "00036"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#36"
+ , "c1" : "TimelineObject"
+ , "c2" : "TimelineObject(SnapshotRegistry;T)"
  , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#44"
+ , "c1" : "T"
+ , "c2" : "get()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#48"
+ , "c1" : "T"
+ , "c2" : "get(long)"
+ , "c3" : "4"
  , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#35"
- , "c1" : "long"
- , "c2" : "lastOffset()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00059"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#59"
+ , "c1" : "void"
+ , "c2" : "set(T)"
+ , "c3" : "3"
+ , "c4" : "8"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#40"
- , "c1" : "long"
- , "c2" : "baseOffset()"
+ , "c5" : "00076"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#76"
+ , "c1" : "void"
+ , "c2" : "executeRevert(long;Delta)"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#45"
- , "c1" : "long"
- , "c2" : "appendTimestamp()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#50"
- , "c1" : "List<T>"
- , "c2" : "records()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#55"
- , "c1" : "int"
- , "c2" : "epoch()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#60"
- , "c1" : "int"
- , "c2" : "sizeInBytes()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#65"
- , "c1" : "Iterator<T>"
- , "c2" : "iterator()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#70"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00082"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#82"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#82"
+ , "c1" : "void"
+ , "c2" : "reset()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#95"
+ , "c5" : "00087"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#87"
  , "c1" : "int"
  , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#92"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#99"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -120,9 +102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.svg" }
 
 ] 
 , 
@@ -149,6 +131,20 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -157,156 +153,149 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00010"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#10"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class Batch contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class TimelineObject contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#71"
+ , "c1" : "00011"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#11"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  'Batch(' should be converted to const"
+ , "c3" : "QC-JAV000008[00011] The class ObjectContainer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  'baseOffset=' should be converted to const"
+ , "c1" : "00022"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#22"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00022] For method setValue arguments T  value"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c1" : "00027"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#27"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00027] For method mergeFrom arguments long  destinationEpoch|Delta  delta"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  ', appendTimestamp=' should be converted to const"
+ , "c1" : "00027"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#27"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00027] Void method mergeFrom is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#75"
+ , "c1" : "00027"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#27"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00027] Void method mergeFrom is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#36"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00036] The argument snapshotRegistry is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method get arguments long  epoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  ', sizeInBytes=' should be converted to const"
+ , "c3" : "QC-JAV000001[00052] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00053] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.timeline.TimelineObject.get@POLYN153581 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#59"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00059] For method set arguments T  newValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.timeline.TimelineObject.set@POLYN154276 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  ', lastOffset=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  ', records=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.raft.Batch.toString@POLYN162513 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#82"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00076] For method executeRevert arguments long  targetEpoch|Delta  delta"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#84"
+ , "c1" : "00092"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00092] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00084] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.raft.Batch.equals@POLYN162915 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.raft.Batch.equals@POLYN162915 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.raft.Batch.equals@POLYN162915 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#130"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00130] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.raft.Batch the MagicNumber/String  'Batch must contain at least one record; baseOffset = %s; epoch = %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.raft.Batch the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.timeline.TimelineObject.equals@POLYN155801 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.fct.svg" 
 
 , 
 }

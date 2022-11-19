@@ -1,0 +1,3910 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:977px;height:544px;background:#000000;" version="1.1" viewBox="0 0 977 544" width="977px" zoomAndPan="magnify"><defs/><g><rect fill="#1F0707" height="1" style="stroke:#1F0707;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="579" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="41.9688">[From string (line 101) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="111.1563">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="127.4531">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="359" x="5" y="143.75">constructor Node(inthash,Kkey,Vval,Node&lt;K,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="160.0469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="5" y="176.3438">... ( skipping 76 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="192.6406">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="95" x="5" y="208.9375">:n|=n&gt;&gt;&gt;2;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="95" x="5" y="225.2344">:n|=n&gt;&gt;&gt;4;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="95" x="5" y="241.5313">:n|=n&gt;&gt;&gt;8;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="5" y="257.8281">:n|=n&gt;&gt;&gt;16;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="563" x="5" y="274.125">:return (n&lt;0)? 1:(n&gt;=MAXIMUM_CAPACITY)? MAXIMUM_CAPACITY:n+1;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="290.4219">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="306.7188">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="323.0156">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="339.3125">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="311" x="5" y="355.6094">Class&lt;? &gt;comparableClassFor(Objectx)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="371.9063">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="309" x="5" y="388.2031">if (x instanceof Comparable) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="361" x="5" y="404.5">if ((c=x.getClass())==String.class ) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="5" y="420.7969">:return c;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="437.0938">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="453.3906">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="397" x="5" y="469.6875">if ((ts=c.getGenericInterfaces())!=null ) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="485.9844">:++i;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="579" x="5" y="502.2813">if (((t=ts[i]) instanceof ParameterizedType)&amp;&amp;((p=(ParameterizedType)t)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="960" x="5" y="518.5781">.getRawType()==Comparable.class )&amp;&amp;(as=p.getActualTypeArguments())!=null &amp;&amp;as.length==1&amp;&amp;as[0]==c) then (yes)</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="534.875">Syntax Error?</text><!--MD5=[fb40f2da80fdf5feb72699e8a4a82e90]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor Node(inthash,Kkey,Vval,Node<K,
+V>next)
+end note
+:this.hash=hash;
+:this.key=key;
+:this.val=val;
+:this.next=next;
+end
+start
+note right
+KgetKey()
+end note
+:return key;;
+stop
+end
+start
+note right
+VgetValue()
+end note
+:return val;;
+stop
+end
+start
+note right
+inthashCode()
+end note
+:return key.hashCode()^val.hashCode();;
+stop
+end
+start
+note right
+StringtoString()
+end note
+:return key+"="+val;;
+stop
+end
+start
+note right
+VsetValue(Vvalue)
+end note
+:throw new UnsupportedOperationException();;
+end
+start
+note right
+booleanequals(Objecto)
+end note
+:return ((o instanceof Map.Entry)&&(k=(e=(Map.Entry<? ,
+? >)o).getKey())!=null &&(v=e.getValue())!=null &&(k==key||k.equals(key))&&(v==(u=val)||v.equals(u)));;
+stop
+end
+start
+note right
+Node<K,V>find(inth,Objectk)
+end note
+if (k!=null ) then (yes) 
+repeat
+if (e.hash==h&&((ek=e.key)==k||(ek!=null &&k.equals(ek)))) then (yes) 
+:return e;;
+stop
+endif 
+repeat while ((e=e.next)!=null )
+endif 
+:return null ;;
+stop
+end
+start
+note right
+intspread(inth)
+end note
+:return (h^(h>>>16))&HASH_BITS;;
+stop
+end
+start
+note right
+inttableSizeFor(intc)
+end note
+:n|=n>>>1;
+:n|=n>>>2;
+:n|=n>>>4;
+:n|=n>>>8;
+:n|=n>>>16;
+:return (n<0)? 1:(n>=MAXIMUM_CAPACITY)? MAXIMUM_CAPACITY:n+1;;
+stop
+end
+start
+note right
+Class<? >comparableClassFor(Objectx)
+end note
+if (x instanceof Comparable) then (yes) 
+if ((c=x.getClass())==String.class ) then (yes) 
+:return c;;
+stop
+endif 
+if ((ts=c.getGenericInterfaces())!=null ) then (yes) 
+:++i;
+if (((t=ts[i]) instanceof ParameterizedType)&&((p=(ParameterizedType)t)
+.getRawType()==Comparable.class )&&(as=p.getActualTypeArguments())!=null &&as.length==1&&as[0]==c) then (yes) 
+:return c;;
+stop
+endif 
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+intcompareComparables(Class<? >kc,Objectk,
+Objectx)
+end note
+:return (x==null ||x.getClass()!=kc? 0:((Comparable)k)
+.compareTo(x));;
+stop
+end
+:return (Node<K,V>)U.getObjectVolatile(tab,((long)i<<ASHIFT)+
+ABASE);;
+stop
+:return U.compareAndSwapObject(tab,((long)i<<ASHIFT)+
+ABASE,c,v);;
+stop
+:U.putObjectVolatile(tab,((long)i<<ASHIFT)+
+ABASE,v);
+start
+note right
+constructor ConcurrentHashMap()
+end note
+end
+start
+note right
+constructor ConcurrentHashMap(intinitialCapacity)
+end note
+if (initialCapacity<0) then (yes) 
+:throw new IllegalArgumentException();;
+endif 
+:this.sizeCtl=cap;
+end
+start
+note right
+constructor ConcurrentHashMap(Map<?  extends K,
+?  extends V>m)
+end note
+:this.sizeCtl=DEFAULT_CAPACITY;
+:putAll(m);
+end
+start
+note right
+constructor ConcurrentHashMap(intinitialCapacity,
+floatloadFactor)
+end note
+:this(initialCapacity,loadFactor,1);
+end
+start
+note right
+constructor ConcurrentHashMap(intinitialCapacity,
+floatloadFactor,intconcurrencyLevel)
+end note
+if (!(loadFactor>0.0f)||initialCapacity<0||concurrencyLevel<=0) then (yes) 
+:throw new IllegalArgumentException();;
+endif 
+if (initialCapacity<concurrencyLevel) then (yes) 
+:initialCapacity=concurrencyLevel;
+endif 
+:this.sizeCtl=cap;
+end
+start
+note right
+intsize()
+end note
+:return ((n<0L)? 0:(n>(long)Integer.MAX_VALUE)? Integer.MAX_VALUE:(int)n);;
+stop
+end
+start
+note right
+booleanisEmpty()
+end note
+:return sumCount()<=0L;;
+stop
+end
+start
+note right
+Vget(Objectkey)
+end note
+if ((tab=table)!=null &&(n=tab.length)>0&&(e=tabAt(tab,
+(n-1)&h))!=null ) then (yes) 
+if ((eh=e.hash)==h) then (yes) 
+if ((ek=e.key)==key||(ek!=null &&key.equals(ek))) then (yes) 
+:return e.val;;
+stop
+endif 
+endif 
+while ((e=e.next)!=null )
+if (e.hash==h&&((ek=e.key)==key||(ek!=null &&key.equals(ek)))) then (yes) 
+:return e.val;;
+stop
+endif 
+endwhile
+endif 
+:return null ;;
+stop
+end
+start
+note right
+booleancontainsKey(Objectkey)
+end note
+:return get(key)!=null ;;
+stop
+end
+start
+note right
+booleancontainsValue(Objectvalue)
+end note
+if (value==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((t=table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+if ((v=p.val)==value||(v!=null &&value.equals(v))) then (yes) 
+:return true;;
+stop
+endif 
+endif 
+:return false;;
+stop
+end
+start
+note right
+Vput(Kkey,Vvalue)
+end note
+:return putVal(key,value,false);;
+stop
+end
+start
+note right
+VputVal(Kkey,Vvalue,booleanonlyIfAbsent)
+end note
+if (key==null ||value==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab==null ||(n=tab.length)==0) then (yes) 
+:tab=initTable();
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+if (fh>=0) then (yes) 
+:binCount=1;
+:Node<K;
+:V>e=f;
+:++binCount;
+if (e.hash==hash&&((ek=e.key)==key||(ek!=null &&key.equals(ek)))) then (yes) 
+:oldVal=e.val;
+if (!onlyIfAbsent) then (yes) 
+:e.val=value;
+endif 
+endif 
+if ((e=e.next)==null ) then (yes) 
+:pred.next=new Node<K,V>(hash,key,value,null );
+endif 
+endif 
+endif 
+if (binCount!=0) then (yes) 
+if (binCount>=TREEIFY_THRESHOLD) then (yes) 
+:treeifyBin(tab,i);
+endif 
+if (oldVal!=null ) then (yes) 
+:return oldVal;;
+stop
+endif 
+endif 
+endif 
+:addCount(1L,binCount);
+:return null ;;
+stop
+end
+start
+note right
+void putAll(Map<?  extends K,?  extends V>m)
+end note
+:tryPresize(m.size());
+:putVal(e.getKey(),e.getValue(),false);
+end
+start
+note right
+Vremove(Objectkey)
+end note
+:return replaceNode(key,null ,null );;
+stop
+end
+start
+note right
+VreplaceNode(Objectkey,Vvalue,Objectcv)
+end note
+if (tab==null ||(n=tab.length)==0||(f=tabAt(tab,
+i=(n-1)&hash))==null ) then (yes) 
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+if (fh>=0) then (yes) 
+:validated=true;
+:Node<K;
+:V>e=f;
+:pred=null ;
+if (e.hash==hash&&((ek=e.key)==key||(ek!=null &&key.equals(ek)))) then (yes) 
+if (cv==null ||cv==ev||(ev!=null &&cv.equals(ev))) then (yes) 
+:oldVal=ev;
+if (value!=null ) then (yes) 
+:e.val=value;
+else (no)
+:setTabAt(tab,i,e.next);
+endif 
+endif 
+endif 
+:pred=e;
+if ((e=e.next)==null ) then (yes) 
+endif 
+endif 
+endif 
+if (validated) then (yes) 
+if (oldVal!=null ) then (yes) 
+if (value==null ) then (yes) 
+:addCount(-1L,-1);
+endif 
+:return oldVal;;
+stop
+endif 
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+void clear()
+end note
+while (tab!=null &&i<tab.length)
+if (f==null ) then (yes) 
+:++i;
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+while (p!=null )
+:- -delta;
+:p=p.next;
+endwhile
+:setTabAt(tab,i++,null );
+endif 
+endif 
+endwhile
+if (delta!=0L) then (yes) 
+:addCount(delta,-1);
+endif 
+end
+start
+note right
+KeySetView<K,V>keySet()
+end note
+:return (ks=keySet)!=null ? ks:(keySet=new KeySetView<K,
+V>(this,null ));;
+stop
+end
+start
+note right
+Collection<V>values()
+end note
+:return (vs=values)!=null ? vs:(values=new ValuesView<K,
+V>(this));;
+stop
+end
+start
+note right
+Set<Map.Entry<K,V>>entrySet()
+end note
+:return (es=entrySet)!=null ? es:(entrySet=new EntrySetView<K,
+V>(this));;
+stop
+end
+start
+note right
+inthashCode()
+end note
+if ((t=table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+:h+=p.key.hashCode()^p.val.hashCode();
+endif 
+:return h;;
+stop
+end
+start
+note right
+StringtoString()
+end note
+:sb.append('{');
+if ((p=it.advance())!=null ) then (yes) 
+:sb.append(k==this? String.valueOf("(this Map)"):k);
+:sb.append('=');
+:sb.append(v==this? String.valueOf("(this Map)"):v);
+if ((p=it.advance())==null ) then (yes) 
+endif 
+:sb.append(',').append(' ');
+endif 
+:return sb.append('}').toString();;
+stop
+end
+start
+note right
+booleanequals(Objecto)
+end note
+if (o!=this) then (yes) 
+if (!(o instanceof Map)) then (yes) 
+:return false;;
+stop
+endif 
+:Node<K;
+:V>p;
+if (v==null ||(v!=val&&!v.equals(val))) then (yes) 
+:return false;;
+stop
+endif 
+if ((mk=e.getKey())==null ||(mv=e.getValue())==null ||(v=get(mk))==null ||(mv!=v&&!mv.equals(v))) then (yes) 
+:return false;;
+stop
+endif 
+endif 
+:return true;;
+stop
+end
+start
+note right
+constructor Segment(floatlf)
+end note
+:this.loadFactor=lf;
+end
+start
+note right
+void writeObject(java.io.ObjectOutputStreams)
+end note
+while (ssize<DEFAULT_CONCURRENCY_LEVEL)
+:++sshift;
+:ssize<<=1;
+endwhile
+:++i;
+:segments[i]=new Segment<K,V>(LOAD_FACTOR);
+:s.putFields().put("segments",segments);
+:s.putFields().put("segmentShift",segmentShift);
+:s.putFields().put("segmentMask",segmentMask);
+:s.writeFields();
+if ((t=table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+:s.writeObject(p.key);
+:s.writeObject(p.val);
+endif 
+:s.writeObject(null );
+:s.writeObject(null );
+:segments=null ;
+end
+start
+note right
+void readObject(java.io.ObjectInputStreams)
+end note
+:sizeCtl=-1;
+:s.defaultReadObject();
+if (k!=null &&v!=null ) then (yes) 
+:p=new Node<K,V>(spread(k.hashCode()),k,v,p);
+:++size;
+else (no)
+endif 
+if (size==0L) then (yes) 
+:sizeCtl=0;
+else (no)
+if (size>=(long)(MAXIMUM_CAPACITY>>>1)) then (yes) 
+:n=MAXIMUM_CAPACITY;
+else (no)
+:n=tableSizeFor(sz+(sz>>>1)+1);
+endif 
+while (p!=null )
+if ((first=tabAt(tab,j))==null ) then (yes) 
+:insertAtFront=true;
+else (no)
+if (first.hash<0) then (yes) 
+if (t.putTreeVal(h,k,p.val)==null ) then (yes) 
+:++added;
+endif 
+:insertAtFront=false;
+else (no)
+:insertAtFront=true;
+:q=first;
+:q=q.next;
+if (q.hash==h&&((qk=q.key)==k||(qk!=null &&k.equals(qk)))) then (yes) 
+:insertAtFront=false;
+endif 
+:++binCount;
+if (insertAtFront&&binCount>=TREEIFY_THRESHOLD) then (yes) 
+:insertAtFront=false;
+:++added;
+:p.next=first;
+:q=p;
+:q=q.next;
+if ((t.prev=tl)==null ) then (yes) 
+:hd=t;
+else (no)
+:tl.next=t;
+endif 
+:tl=t;
+:setTabAt(tab,j,new TreeBin<K,V>(hd));
+endif 
+endif 
+endif 
+if (insertAtFront) then (yes) 
+:++added;
+:p.next=first;
+:setTabAt(tab,j,p);
+endif 
+:p=next;
+endwhile
+:table=tab;
+:sizeCtl=n-(n>>>2);
+:baseCount=added;
+endif 
+end
+start
+note right
+VputIfAbsent(Kkey,Vvalue)
+end note
+:return putVal(key,value,true);;
+stop
+end
+start
+note right
+booleanremove(Objectkey,Objectvalue)
+end note
+if (key==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return value!=null &&replaceNode(key,null ,
+value)!=null ;;
+stop
+end
+start
+note right
+booleanreplace(Kkey,VoldValue,VnewValue)
+end note
+if (key==null ||oldValue==null ||newValue==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return replaceNode(key,newValue,oldValue)!=null ;;
+stop
+end
+start
+note right
+Vreplace(Kkey,Vvalue)
+end note
+if (key==null ||value==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return replaceNode(key,value,null );;
+stop
+end
+start
+note right
+VgetOrDefault(Objectkey,VdefaultValue)
+end note
+:return (v=get(key))==null ? defaultValue:v;;
+stop
+end
+start
+note right
+void forEach(BiConsumer<? super K,? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((t=table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+:action.accept(p.key,p.val);
+endif 
+end
+start
+note right
+void replaceAll(BiFunction<? super K,? super V,
+?  extends V>function )
+end note
+if (function ==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((t=table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+if (newValue==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (replaceNode(key,newValue,oldValue)!=null ||(oldValue=get(key))==null ) then (yes) 
+endif 
+endif 
+end
+start
+note right
+VcomputeIfAbsent(Kkey,Function<? super K,
+?  extends V>mappingFunction)
+end note
+if (key==null ||mappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab==null ||(n=tab.length)==0) then (yes) 
+:tab=initTable();
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+if (fh>=0) then (yes) 
+:binCount=1;
+:Node<K;
+:V>e=f;
+:++binCount;
+if (e.hash==h&&((ek=e.key)==key||(ek!=null &&key.equals(ek)))) then (yes) 
+:val=e.val;
+endif 
+if ((e=e.next)==null ) then (yes) 
+if ((val=mappingFunction.apply(key))!=null ) then (yes) 
+:added=true;
+:pred.next=new Node<K,V>(h,key,val,null );
+endif 
+endif 
+endif 
+endif 
+if (binCount!=0) then (yes) 
+if (binCount>=TREEIFY_THRESHOLD) then (yes) 
+:treeifyBin(tab,i);
+endif 
+if (!added) then (yes) 
+:return val;;
+stop
+endif 
+endif 
+endif 
+if (val!=null ) then (yes) 
+:addCount(1L,binCount);
+endif 
+:return val;;
+stop
+end
+start
+note right
+VcomputeIfPresent(Kkey,BiFunction<? super K,
+? super V,?  extends V>remappingFunction)
+end note
+if (key==null ||remappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab==null ||(n=tab.length)==0) then (yes) 
+:tab=initTable();
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+if (fh>=0) then (yes) 
+:binCount=1;
+:Node<K;
+:V>e=f;
+:pred=null ;
+:++binCount;
+if (e.hash==h&&((ek=e.key)==key||(ek!=null &&key.equals(ek)))) then (yes) 
+:val=remappingFunction.apply(key,e.val);
+if (val!=null ) then (yes) 
+:e.val=val;
+else (no)
+:delta=-1;
+if (pred!=null ) then (yes) 
+:pred.next=en;
+else (no)
+:setTabAt(tab,i,en);
+endif 
+endif 
+endif 
+:pred=e;
+if ((e=e.next)==null ) then (yes) 
+endif 
+endif 
+endif 
+if (binCount!=0) then (yes) 
+endif 
+endif 
+if (delta!=0) then (yes) 
+:addCount((long)delta,binCount);
+endif 
+:return val;;
+stop
+end
+start
+note right
+Vcompute(Kkey,BiFunction<? super K,? super V,
+?  extends V>remappingFunction)
+end note
+if (key==null ||remappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab==null ||(n=tab.length)==0) then (yes) 
+:tab=initTable();
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+if (fh>=0) then (yes) 
+:binCount=1;
+:Node<K;
+:V>e=f;
+:pred=null ;
+:++binCount;
+if (e.hash==h&&((ek=e.key)==key||(ek!=null &&key.equals(ek)))) then (yes) 
+:val=remappingFunction.apply(key,e.val);
+if (val!=null ) then (yes) 
+:e.val=val;
+else (no)
+:delta=-1;
+if (pred!=null ) then (yes) 
+:pred.next=en;
+else (no)
+:setTabAt(tab,i,en);
+endif 
+endif 
+endif 
+:pred=e;
+if ((e=e.next)==null ) then (yes) 
+:val=remappingFunction.apply(key,null );
+if (val!=null ) then (yes) 
+:delta=1;
+:pred.next=new Node<K,V>(h,key,val,null );
+endif 
+endif 
+endif 
+endif 
+if (binCount!=0) then (yes) 
+if (binCount>=TREEIFY_THRESHOLD) then (yes) 
+:treeifyBin(tab,i);
+endif 
+endif 
+endif 
+if (delta!=0) then (yes) 
+:addCount((long)delta,binCount);
+endif 
+:return val;;
+stop
+end
+start
+note right
+Vmerge(Kkey,Vvalue,BiFunction<? super V,? super V,
+?  extends V>remappingFunction)
+end note
+if (key==null ||value==null ||remappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab==null ||(n=tab.length)==0) then (yes) 
+:tab=initTable();
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+if (fh>=0) then (yes) 
+:binCount=1;
+:Node<K;
+:V>e=f;
+:pred=null ;
+:++binCount;
+if (e.hash==h&&((ek=e.key)==key||(ek!=null &&key.equals(ek)))) then (yes) 
+:val=remappingFunction.apply(e.val,value);
+if (val!=null ) then (yes) 
+:e.val=val;
+else (no)
+:delta=-1;
+if (pred!=null ) then (yes) 
+:pred.next=en;
+else (no)
+:setTabAt(tab,i,en);
+endif 
+endif 
+endif 
+:pred=e;
+if ((e=e.next)==null ) then (yes) 
+:delta=1;
+:val=value;
+:pred.next=new Node<K,V>(h,key,val,null );
+endif 
+endif 
+endif 
+if (binCount!=0) then (yes) 
+if (binCount>=TREEIFY_THRESHOLD) then (yes) 
+:treeifyBin(tab,i);
+endif 
+endif 
+endif 
+if (delta!=0) then (yes) 
+:addCount((long)delta,binCount);
+endif 
+:return val;;
+stop
+end
+start
+note right
+booleancontains(Objectvalue)
+end note
+:return containsValue(value);;
+stop
+end
+start
+note right
+Enumeration<K>keys()
+end note
+:return new KeyIterator<K,V>(t,f,0,f,this);;
+stop
+end
+start
+note right
+Enumeration<V>elements()
+end note
+:return new ValueIterator<K,V>(t,f,0,f,this);;
+stop
+end
+start
+note right
+longmappingCount()
+end note
+:return (n<0L)? 0L:n;;
+stop
+end
+:return new KeySetView<K,Boolean>(new ConcurrentHashMap<K,
+Boolean>(),Boolean.TRUE);;
+stop
+:return new KeySetView<K,Boolean>(new ConcurrentHashMap<K,
+Boolean>(initialCapacity),Boolean.TRUE);;
+stop
+start
+note right
+KeySetView<K,V>keySet(VmappedValue)
+end note
+if (mappedValue==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new KeySetView<K,V>(this,mappedValue);;
+stop
+end
+start
+note right
+constructor ForwardingNode(Node<K,V>[]tab)
+end note
+:super (MOVED,null ,null ,null );
+:this.nextTable=tab;
+end
+start
+note right
+Node<K,V>find(inth,Objectk)
+end note
+if (k==null ||tab==null ||(n=tab.length)==0||(e=tabAt(tab,
+(n-1)&h))==null ) then (yes) 
+:return null ;;
+stop
+endif 
+if ((eh=e.hash)==h&&((ek=e.key)==k||(ek!=null &&k.equals(ek)))) then (yes) 
+:return e;;
+stop
+endif 
+if (eh<0) then (yes) 
+if (e instanceof ForwardingNode) then (yes) 
+:tab=((ForwardingNode<K,V>)e).nextTable;
+else (no)
+:return e.find(h,k);;
+stop
+endif 
+endif 
+if ((e=e.next)==null ) then (yes) 
+:return null ;;
+stop
+endif 
+end
+start
+note right
+constructor ReservationNode()
+end note
+:super (RESERVED,null ,null ,null );
+end
+start
+note right
+Node<K,V>find(inth,Objectk)
+end note
+:return null ;;
+stop
+end
+start
+note right
+intresizeStamp(intn)
+end note
+:return Integer.numberOfLeadingZeros(n)|(1<<(RESIZE_STAMP_BITS-1));;
+stop
+end
+start
+note right
+Node<K,V>[]initTable()
+end note
+while ((tab=table)==null ||tab.length==0)
+if ((sc=sizeCtl)<0) then (yes) 
+:Thread.yield();
+endif 
+endwhile
+:return tab;;
+stop
+end
+start
+note right
+void addCount(longx,intcheck)
+end note
+if ((as=counterCells)!=null ||!U.compareAndSwapLong(this,BASECOUNT,b=baseCount,s=b+
+x)) then (yes) 
+if (as==null ||(m=as.length-1)<0||(a=as[ThreadLocalRandom.getProbe()&m])==null ||!(uncontended=U.compareAndSwapLong(a,
+CELLVALUE,v=a.value,v+x))) then (yes) 
+:fullAddCount(x,uncontended);
+:return ;;
+stop
+endif 
+if (check<=1) then (yes) 
+:return ;;
+stop
+endif 
+:s=sumCount();
+endif 
+if (check>=0) then (yes) 
+while (s>=(long)(sc=sizeCtl)&&(tab=table)!=null &&(n=tab.length)<MAXIMUM_CAPACITY)
+if (sc<0) then (yes) 
+if ((sc>>>RESIZE_STAMP_SHIFT)!=rs||sc==rs+
+1||sc==rs+MAX_RESIZERS||(nt=nextTable)==null ||transferIndex<=0) then (yes) 
+endif 
+if (U.compareAndSwapInt(this,SIZECTL,sc,sc+
+1)) then (yes) 
+:transfer(tab,nt);
+endif 
+endif 
+:s=sumCount();
+endwhile
+endif 
+end
+start
+note right
+Node<K,V>[]helpTransfer(Node<K,V>[]tab,Node<K,V>f)
+end note
+if (tab!=null &&(f instanceof ForwardingNode)&&(nextTab=((ForwardingNode<K,
+V>)f).nextTable)!=null ) then (yes) 
+while (nextTab==nextTable&&table==tab&&(sc=sizeCtl)<0)
+if ((sc>>>RESIZE_STAMP_SHIFT)!=rs||sc==rs+
+1||sc==rs+MAX_RESIZERS||transferIndex<=0) then (yes) 
+endif 
+if (U.compareAndSwapInt(this,SIZECTL,sc,sc+
+1)) then (yes) 
+:transfer(tab,nextTab);
+endif 
+endwhile
+:return nextTab;;
+stop
+endif 
+:return table;;
+stop
+end
+start
+note right
+void tryPresize(intsize)
+end note
+while ((sc=sizeCtl)>=0)
+if (tab==null ||(n=tab.length)==0) then (yes) 
+:n=(sc>c)? sc:c;
+if (U.compareAndSwapInt(this,SIZECTL,sc,-1)) then (yes) 
+if (table==tab) then (yes) 
+:table=nt;
+:sc=n-(n>>>2);
+endif 
+:sizeCtl=sc;
+endif 
+endif 
+endwhile
+end
+start
+note right
+void transfer(Node<K,V>[]tab,Node<K,V>[]nextTab)
+end note
+if ((stride=(NCPU>1)? (n>>>3)/NCPU:n)<MIN_TRANSFER_STRIDE) then (yes) 
+:stride=MIN_TRANSFER_STRIDE;
+endif 
+if (nextTab==null ) then (yes) 
+:nextTab=nt;
+:sizeCtl=Integer.MAX_VALUE;
+:return ;;
+stop
+:nextTable=nextTab;
+:transferIndex=n;
+endif 
+while (advance)
+if (- -i>=bound||finishing) then (yes) 
+:advance=false;
+endif 
+endwhile
+if (i<0||i>=n||i+n>=nextn) then (yes) 
+if (finishing) then (yes) 
+:nextTable=null ;
+:table=nextTab;
+:sizeCtl=(n<<1)-(n>>>1);
+:return ;;
+stop
+endif 
+if (U.compareAndSwapInt(this,SIZECTL,sc=sizeCtl,
+sc-1)) then (yes) 
+if ((sc-2)!=resizeStamp(n)<<RESIZE_STAMP_SHIFT) then (yes) 
+:return ;;
+stop
+endif 
+:finishing=advance=true;
+:i=n;
+endif 
+else (no)
+if (tabAt(tab,i)==f) then (yes) 
+if (fh>=0) then (yes) 
+:Node<K;
+:V>p=f.next;
+:p=p.next;
+if (b!=runBit) then (yes) 
+:runBit=b;
+:lastRun=p;
+endif 
+if (runBit==0) then (yes) 
+:ln=lastRun;
+:hn=null ;
+else (no)
+:hn=lastRun;
+:ln=null ;
+endif 
+:Node<K;
+:V>p=f;
+:p=p.next;
+if ((ph&n)==0) then (yes) 
+:ln=new Node<K,V>(ph,pk,pv,ln);
+else (no)
+:hn=new Node<K,V>(ph,pk,pv,hn);
+endif 
+:setTabAt(nextTab,i,ln);
+:setTabAt(nextTab,i+n,hn);
+:setTabAt(tab,i,fwd);
+:advance=true;
+endif 
+endif 
+endif 
+end
+start
+note right
+constructor CounterCell(longx)
+end note
+:value=x;
+end
+start
+note right
+longsumCount()
+end note
+if (as!=null ) then (yes) 
+:++i;
+if ((a=as[i])!=null ) then (yes) 
+:sum+=a.value;
+endif 
+endif 
+:return sum;;
+stop
+end
+start
+note right
+void fullAddCount(longx,booleanwasUncontended)
+end note
+if ((h=ThreadLocalRandom.getProbe())==0) then (yes) 
+:ThreadLocalRandom.localInit();
+:h=ThreadLocalRandom.getProbe();
+:wasUncontended=true;
+endif 
+if ((as=counterCells)!=null &&(n=as.length)>0) then (yes) 
+if ((a=as[(n-1)&h])==null ) then (yes) 
+if (cellsBusy==0) then (yes) 
+if (cellsBusy==0&&U.compareAndSwapInt(this,
+CELLSBUSY,0,1)) then (yes) 
+if ((rs=counterCells)!=null &&(m=rs.length)>0&&rs[j=(m-1)&h]==null ) then (yes) 
+:rs[j]=r;
+:created=true;
+endif 
+:cellsBusy=0;
+if (created) then (yes) 
+endif 
+endif 
+endif 
+:collide=false;
+endif 
+:h=ThreadLocalRandom.advanceProbe(h);
+endif 
+end
+start
+note right
+void treeifyBin(Node<K,V>[]tab,intindex)
+end note
+if (tab!=null ) then (yes) 
+if ((n=tab.length)<MIN_TREEIFY_CAPACITY) then (yes) 
+:tryPresize(n<<1);
+endif 
+endif 
+end
+:Node<K;
+:V>q=b;
+:q=q.next;
+if (tl==null ) then (yes) 
+:hd=p;
+else (no)
+:tl.next=p;
+endif 
+:tl=p;
+:return hd;;
+stop
+start
+note right
+constructor TreeNode(inthash,Kkey,Vval,Node<K,
+V>next,TreeNode<K,V>parent)
+end note
+:super (hash,key,val,next);
+:this.parent=parent;
+end
+start
+note right
+Node<K,V>find(inth,Objectk)
+end note
+:return findTreeNode(h,k,null );;
+stop
+end
+start
+note right
+TreeNode<K,V>findTreeNode(inth,Objectk,Class<? >kc)
+end note
+if (k!=null ) then (yes) 
+repeat
+if ((ph=p.hash)>h) then (yes) 
+:p=pl;
+else (no)
+:p=pl;
+endif 
+repeat while (p!=null )
+endif 
+:return null ;;
+stop
+end
+start
+note right
+inttieBreakOrder(Objecta,Objectb)
+end note
+if (a==null ||b==null ||(d=a.getClass().getName()
+.compareTo(b.getClass().getName()))==0) then (yes) 
+:d=(System.identityHashCode(a)<=System.identityHashCode(b)? -1:1);
+endif 
+:return d;;
+stop
+end
+start
+note right
+constructor TreeBin(TreeNode<K,V>b)
+end note
+:super (TREEBIN,null ,null ,null );
+:this.first=b;
+:TreeNode<K;
+:V>x=b;
+:next;
+:x=next;
+:next=(TreeNode<K,V>)x.next;
+:x.left=x.right=null ;
+if (r==null ) then (yes) 
+:x.parent=null ;
+:x.red=false;
+:r=x;
+else (no)
+:TreeNode<K;
+:V>p=r;
+if ((ph=p.hash)>h) then (yes) 
+:dir=-1;
+endif 
+if ((p=(dir<=0)? p.left:p.right)==null ) then (yes) 
+:x.parent=xp;
+if (dir<=0) then (yes) 
+:xp.left=x;
+else (no)
+:xp.right=x;
+endif 
+:r=balanceInsertion(r,x);
+endif 
+endif 
+:this.root=r;
+end
+start
+note right
+void lockRoot()
+end note
+if (!U.compareAndSwapInt(this,LOCKSTATE,0,
+WRITER)) then (yes) 
+:contendedLock();
+endif 
+end
+start
+note right
+void unlockRoot()
+end note
+:lockState=0;
+end
+start
+note right
+void contendedLock()
+end note
+if (((s=lockState)&~WAITER)==0) then (yes) 
+if (U.compareAndSwapInt(this,LOCKSTATE,s,
+WRITER)) then (yes) 
+if (waiting) then (yes) 
+:waiter=null ;
+endif 
+:return ;;
+stop
+endif 
+endif 
+end
+start
+note right
+Node<K,V>find(inth,Objectk)
+end note
+if (k!=null ) then (yes) 
+:Node<K;
+:V>e=first;
+if (((s=lockState)&(WAITER|WRITER))!=0) then (yes) 
+if (e.hash==h&&((ek=e.key)==k||(ek!=null &&k.equals(ek)))) then (yes) 
+:return e;;
+stop
+endif 
+:e=e.next;
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+TreeNode<K,V>putTreeVal(inth,Kk,Vv)
+end note
+:TreeNode<K;
+:V>p=root;
+if (p==null ) then (yes) 
+:first=root=new TreeNode<K,V>(h,k,v,null ,
+null );
+endif 
+if ((p=(dir<=0)? p.left:p.right)==null ) then (yes) 
+:first=x=new TreeNode<K,V>(h,k,v,f,xp);
+if (f!=null ) then (yes) 
+:f.prev=x;
+endif 
+if (dir<=0) then (yes) 
+:xp.left=x;
+else (no)
+:xp.right=x;
+endif 
+if (!xp.red) then (yes) 
+:x.red=true;
+else (no)
+:lockRoot();
+:root=balanceInsertion(root,x);
+:unlockRoot();
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+booleanremoveTreeNode(TreeNode<K,V>p)
+end note
+if (pred==null ) then (yes) 
+:first=next;
+else (no)
+:pred.next=next;
+endif 
+if (next!=null ) then (yes) 
+:next.prev=pred;
+endif 
+if (first==null ) then (yes) 
+:root=null ;
+:return true;;
+stop
+endif 
+if ((r=root)==null ||r.right==null ||(rl=r.left)==null ||rl.left==null ) then (yes) 
+:return true;;
+stop
+endif 
+:lockRoot();
+if (pl!=null &&pr!=null ) then (yes) 
+while ((sl=s.left)!=null )
+:s=sl;
+endwhile
+:s.red=p.red;
+:p.red=c;
+if (s==pr) then (yes) 
+:p.parent=s;
+:s.right=p;
+else (no)
+if ((p.parent=sp)!=null ) then (yes) 
+if (s==sp.left) then (yes) 
+:sp.left=p;
+else (no)
+:sp.right=p;
+endif 
+endif 
+if ((s.right=pr)!=null ) then (yes) 
+:pr.parent=s;
+endif 
+endif 
+:p.left=null ;
+if ((p.right=sr)!=null ) then (yes) 
+:sr.parent=p;
+endif 
+if ((s.left=pl)!=null ) then (yes) 
+:pl.parent=s;
+endif 
+if ((s.parent=pp)==null ) then (yes) 
+:r=s;
+else (no)
+:pp.right=s;
+endif 
+if (sr!=null ) then (yes) 
+:replacement=sr;
+else (no)
+:replacement=p;
+endif 
+else (no)
+:replacement=p;
+endif 
+if (replacement!=p) then (yes) 
+if (pp==null ) then (yes) 
+:r=replacement;
+else (no)
+:pp.right=replacement;
+endif 
+:p.left=p.right=p.parent=null ;
+endif 
+:root=(p.red)? r:balanceDeletion(r,replacement);
+if (p==replacement) then (yes) 
+if ((pp=p.parent)!=null ) then (yes) 
+if (p==pp.left) then (yes) 
+:pp.left=null ;
+endif 
+:p.parent=null ;
+endif 
+endif 
+:unlockRoot();
+:return false;;
+stop
+end
+if (p!=null &&(r=p.right)!=null ) then (yes) 
+if ((rl=p.right=r.left)!=null ) then (yes) 
+:rl.parent=p;
+endif 
+if ((pp=r.parent=p.parent)==null ) then (yes) 
+:(root=r).red=false;
+else (no)
+:pp.right=r;
+endif 
+:r.left=p;
+:p.parent=r;
+endif 
+:return root;;
+stop
+if (p!=null &&(l=p.left)!=null ) then (yes) 
+if ((lr=p.left=l.right)!=null ) then (yes) 
+:lr.parent=p;
+endif 
+if ((pp=l.parent=p.parent)==null ) then (yes) 
+:(root=l).red=false;
+else (no)
+:pp.left=l;
+endif 
+:l.right=p;
+:p.parent=l;
+endif 
+:return root;;
+stop
+:x.red=true;
+:TreeNode<K;
+:V>xp;
+:xpp;
+:xppl;
+:xppr;
+if ((xp=x.parent)==null ) then (yes) 
+:x.red=false;
+:return x;;
+stop
+endif 
+if (xp==(xppl=xpp.left)) then (yes) 
+if ((xppr=xpp.right)!=null &&xppr.red) then (yes) 
+:xppr.red=false;
+:xp.red=false;
+:xpp.red=true;
+:x=xpp;
+else (no)
+if (x==xp.right) then (yes) 
+:root=rotateLeft(root,x=xp);
+:xpp=(xp=x.parent)==null ? null :xp.parent;
+endif 
+if (xp!=null ) then (yes) 
+:xp.red=false;
+if (xpp!=null ) then (yes) 
+:xpp.red=true;
+:root=rotateRight(root,xpp);
+endif 
+endif 
+endif 
+else (no)
+if (xppl!=null &&xppl.red) then (yes) 
+:xppl.red=false;
+:xp.red=false;
+:xpp.red=true;
+:x=xpp;
+else (no)
+if (x==xp.left) then (yes) 
+:root=rotateRight(root,x=xp);
+:xpp=(xp=x.parent)==null ? null :xp.parent;
+endif 
+if (xp!=null ) then (yes) 
+:xp.red=false;
+if (xpp!=null ) then (yes) 
+:xpp.red=true;
+:root=rotateLeft(root,xpp);
+endif 
+endif 
+endif 
+endif 
+:TreeNode<K;
+:V>xp;
+:xpl;
+:xpr;
+if (x==null ||x==root) then (yes) 
+:return root;;
+stop
+else (no)
+if (xpl!=null &&xpl.red) then (yes) 
+:xpl.red=false;
+:xp.red=true;
+:root=rotateRight(root,xp);
+:xpl=(xp=x.parent)==null ? null :xp.left;
+endif 
+if (xpl==null ) then (yes) 
+:x=xp;
+else (no)
+if ((sl==null ||!sl.red)&&(sr==null ||!sr.red)) then (yes) 
+:xpl.red=true;
+:x=xp;
+else (no)
+if (sl==null ||!sl.red) then (yes) 
+if (sr!=null ) then (yes) 
+:sr.red=false;
+endif 
+:xpl.red=true;
+:root=rotateLeft(root,xpl);
+:xpl=(xp=x.parent)==null ? null :xp.left;
+endif 
+if (xpl!=null ) then (yes) 
+:xpl.red=(xp==null )? false:xp.red;
+if ((sl=xpl.left)!=null ) then (yes) 
+:sl.red=false;
+endif 
+endif 
+if (xp!=null ) then (yes) 
+:xp.red=false;
+:root=rotateRight(root,xp);
+endif 
+:x=root;
+endif 
+endif 
+endif 
+if (tb!=null &&tb.next!=t) then (yes) 
+:return false;;
+stop
+endif 
+if (tn!=null &&tn.prev!=t) then (yes) 
+:return false;;
+stop
+endif 
+if (tp!=null &&t!=tp.left&&t!=tp.right) then (yes) 
+:return false;;
+stop
+endif 
+if (tl!=null &&(tl.parent!=t||tl.hash>t.hash)) then (yes) 
+:return false;;
+stop
+endif 
+if (tr!=null &&(tr.parent!=t||tr.hash<t.hash)) then (yes) 
+:return false;;
+stop
+endif 
+if (t.red&&tl!=null &&tl.red&&tr!=null &&tr.red) then (yes) 
+:return false;;
+stop
+endif 
+if (tl!=null &&!checkInvariants(tl)) then (yes) 
+:return false;;
+stop
+endif 
+if (tr!=null &&!checkInvariants(tr)) then (yes) 
+:return false;;
+stop
+endif 
+:return true;;
+stop
+:U=sun.misc.Unsafe.getUnsafe();
+:LOCKSTATE=U.objectFieldOffset(k.getDeclaredField("lockState"));
+:throw new Error(e);;
+start
+note right
+constructor Traverser(Node<K,V>[]tab,intsize,
+intindex,intlimit)
+end note
+:this.tab=tab;
+:this.baseSize=size;
+:this.baseIndex=this.index=index;
+:this.baseLimit=limit;
+:this.next=null ;
+end
+start
+note right
+Node<K,V>advance()
+end note
+if ((e=next)!=null ) then (yes) 
+:e=e.next;
+endif 
+if (e!=null ) then (yes) 
+:return next=e;;
+stop
+endif 
+if (baseIndex>=baseLimit||(t=tab)==null ||(n=t.length)<=(i=index)||i<0) then (yes) 
+:return next=null ;;
+stop
+endif 
+if ((e=tabAt(t,i))!=null &&e.hash<0) then (yes) 
+if (e instanceof ForwardingNode) then (yes) 
+:tab=((ForwardingNode<K,V>)e).nextTable;
+:e=null ;
+:pushState(t,i,n);
+else (no)
+:e=null ;
+endif 
+endif 
+if (stack!=null ) then (yes) 
+:recoverState(n);
+endif 
+end
+start
+note right
+void pushState(Node<K,V>[]t,inti,intn)
+end note
+if (s!=null ) then (yes) 
+:spare=s.next;
+else (no)
+:s=new TableStack<K,V>();
+endif 
+:s.tab=t;
+:s.length=n;
+:s.index=i;
+:s.next=stack;
+:stack=s;
+end
+start
+note right
+void recoverState(intn)
+end note
+while ((s=stack)!=null &&(index+=(len=s.length))>=n)
+:n=len;
+:index=s.index;
+:tab=s.tab;
+:s.tab=null ;
+:s.next=spare;
+:stack=next;
+:spare=s;
+endwhile
+if (s==null &&(index+=baseSize)>=n) then (yes) 
+:index=++baseIndex;
+endif 
+end
+start
+note right
+constructor BaseIterator(Node<K,V>[]tab,intsize,
+intindex,intlimit,ConcurrentHashMap<K,V>map)
+end note
+:super (tab,size,index,limit);
+:this.map=map;
+:advance();
+end
+start
+note right
+booleanhasNext()
+end note
+:return next!=null ;;
+stop
+end
+start
+note right
+booleanhasMoreElements()
+end note
+:return next!=null ;;
+stop
+end
+start
+note right
+void remove()
+end note
+if ((p=lastReturned)==null ) then (yes) 
+:throw new IllegalStateException();;
+endif 
+:lastReturned=null ;
+:map.replaceNode(p.key,null ,null );
+end
+start
+note right
+constructor KeyIterator(Node<K,V>[]tab,intindex,
+intsize,intlimit,ConcurrentHashMap<K,V>map)
+end note
+:super (tab,index,size,limit,map);
+end
+start
+note right
+Knext()
+end note
+if ((p=next)==null ) then (yes) 
+:throw new NoSuchElementException();;
+endif 
+:lastReturned=p;
+:advance();
+:return k;;
+stop
+end
+start
+note right
+KnextElement()
+end note
+:return next();;
+stop
+end
+start
+note right
+constructor ValueIterator(Node<K,V>[]tab,
+intindex,intsize,intlimit,ConcurrentHashMap<K,
+V>map)
+end note
+:super (tab,index,size,limit,map);
+end
+start
+note right
+Vnext()
+end note
+if ((p=next)==null ) then (yes) 
+:throw new NoSuchElementException();;
+endif 
+:lastReturned=p;
+:advance();
+:return v;;
+stop
+end
+start
+note right
+VnextElement()
+end note
+:return next();;
+stop
+end
+start
+note right
+constructor EntryIterator(Node<K,V>[]tab,
+intindex,intsize,intlimit,ConcurrentHashMap<K,
+V>map)
+end note
+:super (tab,index,size,limit,map);
+end
+start
+note right
+Map.Entry<K,V>next()
+end note
+if ((p=next)==null ) then (yes) 
+:throw new NoSuchElementException();;
+endif 
+:lastReturned=p;
+:advance();
+:return new MapEntry<K,V>(k,v,map);;
+stop
+end
+start
+note right
+constructor MapEntry(Kkey,Vval,ConcurrentHashMap<K,
+V>map)
+end note
+:this.key=key;
+:this.val=val;
+:this.map=map;
+end
+start
+note right
+KgetKey()
+end note
+:return key;;
+stop
+end
+start
+note right
+VgetValue()
+end note
+:return val;;
+stop
+end
+start
+note right
+inthashCode()
+end note
+:return key.hashCode()^val.hashCode();;
+stop
+end
+start
+note right
+StringtoString()
+end note
+:return key+"="+val;;
+stop
+end
+start
+note right
+booleanequals(Objecto)
+end note
+:return ((o instanceof Map.Entry)&&(k=(e=(Map.Entry<? ,
+? >)o).getKey())!=null &&(v=e.getValue())!=null &&(k==key||k.equals(key))&&(v==val||v.equals(val)));;
+stop
+end
+start
+note right
+VsetValue(Vvalue)
+end note
+if (value==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:val=value;
+:map.put(key,value);
+:return v;;
+stop
+end
+start
+note right
+constructor KeySpliterator(Node<K,V>[]tab,
+intsize,intindex,intlimit,longest)
+end note
+:super (tab,size,index,limit);
+:this.est=est;
+end
+start
+note right
+Spliterator<K>trySplit()
+end note
+:return (h=((i=baseIndex)+(f=baseLimit))>>>1)<=i? null :new KeySpliterator<K,
+V>(tab,baseSize,baseLimit=h,f,est>>>=1);;
+stop
+end
+start
+note right
+void forEachRemaining(Consumer<? super K>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:Node<K;
+:V>p;
+:action.accept(p.key);
+end
+start
+note right
+booleantryAdvance(Consumer<? super K>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((p=advance())==null ) then (yes) 
+:return false;;
+stop
+endif 
+:action.accept(p.key);
+:return true;;
+stop
+end
+start
+note right
+longestimateSize()
+end note
+:return est;;
+stop
+end
+start
+note right
+intcharacteristics()
+end note
+:return Spliterator.DISTINCT|Spliterator.CONCURRENT|Spliterator.NONNULL;;
+stop
+end
+start
+note right
+constructor ValueSpliterator(Node<K,V>[]tab,
+intsize,intindex,intlimit,longest)
+end note
+:super (tab,size,index,limit);
+:this.est=est;
+end
+start
+note right
+Spliterator<V>trySplit()
+end note
+:return (h=((i=baseIndex)+(f=baseLimit))>>>1)<=i? null :new ValueSpliterator<K,
+V>(tab,baseSize,baseLimit=h,f,est>>>=1);;
+stop
+end
+start
+note right
+void forEachRemaining(Consumer<? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:Node<K;
+:V>p;
+:action.accept(p.val);
+end
+start
+note right
+booleantryAdvance(Consumer<? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((p=advance())==null ) then (yes) 
+:return false;;
+stop
+endif 
+:action.accept(p.val);
+:return true;;
+stop
+end
+start
+note right
+longestimateSize()
+end note
+:return est;;
+stop
+end
+start
+note right
+intcharacteristics()
+end note
+:return Spliterator.CONCURRENT|Spliterator.NONNULL;;
+stop
+end
+start
+note right
+constructor EntrySpliterator(Node<K,V>[]tab,
+intsize,intindex,intlimit,longest,ConcurrentHashMap<K,
+V>map)
+end note
+:super (tab,size,index,limit);
+:this.map=map;
+:this.est=est;
+end
+start
+note right
+Spliterator<Map.Entry<K,V>>trySplit()
+end note
+:return (h=((i=baseIndex)+(f=baseLimit))>>>1)<=i? null :new EntrySpliterator<K,
+V>(tab,baseSize,baseLimit=h,f,est>>>=1,map);;
+stop
+end
+start
+note right
+void forEachRemaining(Consumer<? super Map.Entry<K,
+V>>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:Node<K;
+:V>p;
+:action.accept(new MapEntry<K,V>(p.key,p.val,
+map));
+end
+start
+note right
+booleantryAdvance(Consumer<? super Map.Entry<K,
+V>>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((p=advance())==null ) then (yes) 
+:return false;;
+stop
+endif 
+:action.accept(new MapEntry<K,V>(p.key,p.val,
+map));
+:return true;;
+stop
+end
+start
+note right
+longestimateSize()
+end note
+:return est;;
+stop
+end
+start
+note right
+intcharacteristics()
+end note
+:return Spliterator.DISTINCT|Spliterator.CONCURRENT|Spliterator.NONNULL;;
+stop
+end
+start
+note right
+intbatchFor(longb)
+end note
+if (b==Long.MAX_VALUE||(n=sumCount())<=1L||n<b) then (yes) 
+:return 0;;
+stop
+endif 
+:return (b<=0L||(n/=b)>=sp)? sp:(int)n;;
+stop
+end
+start
+note right
+void forEach(longparallelismThreshold,BiConsumer<? super K,
+? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachMappingTask<K,V>(null ,batchFor(parallelismThreshold),
+0,0,table,action).invoke();
+end
+if (transformer==null ||action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachTransformedMappingTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+transformer,action).invoke();
+if (searchFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new SearchMappingsTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+searchFunction,new AtomicReference<U>()).invoke();;
+stop
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceMappingsTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,reducer).invoke();;
+stop
+start
+note right
+doublereduceToDouble(longparallelismThreshold,
+ToDoubleBiFunction<? super K,? super V>transformer,
+doublebasis,DoubleBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceMappingsToDoubleTask<K,
+V>(null ,batchFor(parallelismThreshold),0,
+0,table,null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+longreduceToLong(longparallelismThreshold,
+ToLongBiFunction<? super K,? super V>transformer,
+longbasis,LongBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceMappingsToLongTask<K,
+V>(null ,batchFor(parallelismThreshold),0,
+0,table,null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+intreduceToInt(longparallelismThreshold,ToIntBiFunction<? super K,
+? super V>transformer,intbasis,IntBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceMappingsToIntTask<K,
+V>(null ,batchFor(parallelismThreshold),0,
+0,table,null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+void forEachKey(longparallelismThreshold,
+Consumer<? super K>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachKeyTask<K,V>(null ,batchFor(parallelismThreshold),
+0,0,table,action).invoke();
+end
+if (transformer==null ||action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachTransformedKeyTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+transformer,action).invoke();
+if (searchFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new SearchKeysTask<K,V,U>(null ,batchFor(parallelismThreshold),
+0,0,table,searchFunction,new AtomicReference<U>())
+.invoke();;
+stop
+start
+note right
+KreduceKeys(longparallelismThreshold,BiFunction<? super K,
+? super K,?  extends K>reducer)
+end note
+if (reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new ReduceKeysTask<K,V>(null ,batchFor(parallelismThreshold),
+0,0,table,null ,reducer).invoke();;
+stop
+end
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceKeysTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,reducer).invoke();;
+stop
+start
+note right
+doublereduceKeysToDouble(longparallelismThreshold,
+ToDoubleFunction<? super K>transformer,doublebasis,
+DoubleBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceKeysToDoubleTask<K,V>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+longreduceKeysToLong(longparallelismThreshold,
+ToLongFunction<? super K>transformer,longbasis,
+LongBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceKeysToLongTask<K,V>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+intreduceKeysToInt(longparallelismThreshold,
+ToIntFunction<? super K>transformer,intbasis,
+IntBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceKeysToIntTask<K,V>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+void forEachValue(longparallelismThreshold,
+Consumer<? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachValueTask<K,V>(null ,batchFor(parallelismThreshold),
+0,0,table,action).invoke();
+end
+if (transformer==null ||action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachTransformedValueTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+transformer,action).invoke();
+if (searchFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new SearchValuesTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+searchFunction,new AtomicReference<U>()).invoke();;
+stop
+start
+note right
+VreduceValues(longparallelismThreshold,BiFunction<? super V,
+? super V,?  extends V>reducer)
+end note
+if (reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new ReduceValuesTask<K,V>(null ,batchFor(parallelismThreshold),
+0,0,table,null ,reducer).invoke();;
+stop
+end
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceValuesTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,reducer).invoke();;
+stop
+start
+note right
+doublereduceValuesToDouble(longparallelismThreshold,
+ToDoubleFunction<? super V>transformer,doublebasis,
+DoubleBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceValuesToDoubleTask<K,
+V>(null ,batchFor(parallelismThreshold),0,
+0,table,null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+longreduceValuesToLong(longparallelismThreshold,
+ToLongFunction<? super V>transformer,longbasis,
+LongBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceValuesToLongTask<K,V>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+intreduceValuesToInt(longparallelismThreshold,
+ToIntFunction<? super V>transformer,intbasis,
+IntBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceValuesToIntTask<K,V>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+void forEachEntry(longparallelismThreshold,
+Consumer<? super Map.Entry<K,V>>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachEntryTask<K,V>(null ,batchFor(parallelismThreshold),
+0,0,table,action).invoke();
+end
+if (transformer==null ||action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:new ForEachTransformedEntryTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+transformer,action).invoke();
+if (searchFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new SearchEntriesTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+searchFunction,new AtomicReference<U>()).invoke();;
+stop
+start
+note right
+Map.Entry<K,V>reduceEntries(longparallelismThreshold,
+BiFunction<Map.Entry<K,V>,Map.Entry<K,V>,
+?  extends Map.Entry<K,V>>reducer)
+end note
+if (reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new ReduceEntriesTask<K,V>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,reducer).invoke();;
+stop
+end
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceEntriesTask<K,V,U>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,reducer).invoke();;
+stop
+start
+note right
+doublereduceEntriesToDouble(longparallelismThreshold,
+ToDoubleFunction<Map.Entry<K,V>>transformer,
+doublebasis,DoubleBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceEntriesToDoubleTask<K,
+V>(null ,batchFor(parallelismThreshold),0,
+0,table,null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+longreduceEntriesToLong(longparallelismThreshold,
+ToLongFunction<Map.Entry<K,V>>transformer,
+longbasis,LongBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceEntriesToLongTask<K,
+V>(null ,batchFor(parallelismThreshold),0,
+0,table,null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+intreduceEntriesToInt(longparallelismThreshold,
+ToIntFunction<Map.Entry<K,V>>transformer,
+intbasis,IntBinaryOperatorreducer)
+end note
+if (transformer==null ||reducer==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:return new MapReduceEntriesToIntTask<K,V>(null ,
+batchFor(parallelismThreshold),0,0,table,
+null ,transformer,basis,reducer).invoke();;
+stop
+end
+start
+note right
+constructor CollectionView(ConcurrentHashMap<K,
+V>map)
+end note
+:this.map=map;
+end
+start
+note right
+ConcurrentHashMap<K,V>getMap()
+end note
+:return map;;
+stop
+end
+start
+note right
+void clear()
+end note
+:map.clear();
+end
+start
+note right
+intsize()
+end note
+:return map.size();;
+stop
+end
+start
+note right
+booleanisEmpty()
+end note
+:return map.isEmpty();;
+stop
+end
+start
+note right
+Object[]toArray()
+end note
+if (sz>MAX_ARRAY_SIZE) then (yes) 
+:throw new OutOfMemoryError(oomeMsg);;
+endif 
+if (i==n) then (yes) 
+if (n>=MAX_ARRAY_SIZE) then (yes) 
+:throw new OutOfMemoryError(oomeMsg);;
+endif 
+if (n>=MAX_ARRAY_SIZE-(MAX_ARRAY_SIZE>>>1)-1) then (yes) 
+:n=MAX_ARRAY_SIZE;
+else (no)
+:n+=(n>>>1)+1;
+endif 
+:r=Arrays.copyOf(r,n);
+endif 
+:r[i++]=e;
+:return (i==n)? r:Arrays.copyOf(r,i);;
+stop
+end
+if (sz>MAX_ARRAY_SIZE) then (yes) 
+:throw new OutOfMemoryError(oomeMsg);;
+endif 
+if (i==n) then (yes) 
+if (n>=MAX_ARRAY_SIZE) then (yes) 
+:throw new OutOfMemoryError(oomeMsg);;
+endif 
+if (n>=MAX_ARRAY_SIZE-(MAX_ARRAY_SIZE>>>1)-1) then (yes) 
+:n=MAX_ARRAY_SIZE;
+else (no)
+:n+=(n>>>1)+1;
+endif 
+:r=Arrays.copyOf(r,n);
+endif 
+:r[i++]=(T)e;
+if (a==r&&i<n) then (yes) 
+:r[i]=null ;
+:return r;;
+stop
+endif 
+:return (i==n)? r:Arrays.copyOf(r,i);;
+stop
+start
+note right
+StringtoString()
+end note
+:sb.append('[');
+if (it.hasNext()) then (yes) 
+:sb.append(e==this? String.valueOf("(this Collection)"):e);
+if (!it.hasNext()) then (yes) 
+endif 
+:sb.append(',').append(' ');
+endif 
+:return sb.append(']').toString();;
+stop
+end
+start
+note right
+booleancontainsAll(Collection<? >c)
+end note
+if (c!=this) then (yes) 
+if (e==null ||!contains(e)) then (yes) 
+:return false;;
+stop
+endif 
+endif 
+:return true;;
+stop
+end
+start
+note right
+booleanremoveAll(Collection<? >c)
+end note
+if (c==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:Iterator<E>it=iterator();
+if (c.contains(it.next())) then (yes) 
+:it.remove();
+:modified=true;
+endif 
+:return modified;;
+stop
+end
+start
+note right
+booleanretainAll(Collection<? >c)
+end note
+if (c==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+:Iterator<E>it=iterator();
+if (!c.contains(it.next())) then (yes) 
+:it.remove();
+:modified=true;
+endif 
+:return modified;;
+stop
+end
+start
+note right
+constructor KeySetView(ConcurrentHashMap<K,
+V>map,Vvalue)
+end note
+:super (map);
+:this.value=value;
+end
+start
+note right
+VgetMappedValue()
+end note
+:return value;;
+stop
+end
+start
+note right
+booleancontains(Objecto)
+end note
+:return map.containsKey(o);;
+stop
+end
+start
+note right
+booleanremove(Objecto)
+end note
+:return map.remove(o)!=null ;;
+stop
+end
+start
+note right
+Iterator<K>iterator()
+end note
+:return new KeyIterator<K,V>(t,f,0,f,m);;
+stop
+end
+start
+note right
+booleanadd(Ke)
+end note
+if ((v=value)==null ) then (yes) 
+:throw new UnsupportedOperationException();;
+endif 
+:return map.putVal(e,v,true)==null ;;
+stop
+end
+start
+note right
+booleanaddAll(Collection<?  extends K>c)
+end note
+if ((v=value)==null ) then (yes) 
+:throw new UnsupportedOperationException();;
+endif 
+if (map.putVal(e,v,true)==null ) then (yes) 
+:added=true;
+endif 
+:return added;;
+stop
+end
+start
+note right
+inthashCode()
+end note
+:h+=e.hashCode();
+:return h;;
+stop
+end
+start
+note right
+booleanequals(Objecto)
+end note
+:return ((o instanceof Set)&&((c=(Set<? >)o)==this||(containsAll(c)&&c.containsAll(this))));;
+stop
+end
+start
+note right
+Spliterator<K>spliterator()
+end note
+:return new KeySpliterator<K,V>(t,f,0,f,n<0L? 0L:n);;
+stop
+end
+start
+note right
+void forEach(Consumer<? super K>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((t=map.table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+:action.accept(p.key);
+endif 
+end
+start
+note right
+constructor ValuesView(ConcurrentHashMap<K,
+V>map)
+end note
+:super (map);
+end
+start
+note right
+booleancontains(Objecto)
+end note
+:return map.containsValue(o);;
+stop
+end
+start
+note right
+booleanremove(Objecto)
+end note
+if (o!=null ) then (yes) 
+:Iterator<V>it=iterator();
+if (o.equals(it.next())) then (yes) 
+:it.remove();
+:return true;;
+stop
+endif 
+endif 
+:return false;;
+stop
+end
+start
+note right
+Iterator<V>iterator()
+end note
+:return new ValueIterator<K,V>(t,f,0,f,m);;
+stop
+end
+start
+note right
+booleanadd(Ve)
+end note
+:throw new UnsupportedOperationException();;
+end
+start
+note right
+booleanaddAll(Collection<?  extends V>c)
+end note
+:throw new UnsupportedOperationException();;
+end
+start
+note right
+Spliterator<V>spliterator()
+end note
+:return new ValueSpliterator<K,V>(t,f,0,f,
+n<0L? 0L:n);;
+stop
+end
+start
+note right
+void forEach(Consumer<? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((t=map.table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+:action.accept(p.val);
+endif 
+end
+start
+note right
+constructor EntrySetView(ConcurrentHashMap<K,
+V>map)
+end note
+:super (map);
+end
+start
+note right
+booleancontains(Objecto)
+end note
+:return ((o instanceof Map.Entry)&&(k=(e=(Map.Entry<? ,
+? >)o).getKey())!=null &&(r=map.get(k))!=null &&(v=e.getValue())!=null &&(v==r||v.equals(r)));;
+stop
+end
+start
+note right
+booleanremove(Objecto)
+end note
+:return ((o instanceof Map.Entry)&&(k=(e=(Map.Entry<? ,
+? >)o).getKey())!=null &&(v=e.getValue())!=null &&map.remove(k,
+v));;
+stop
+end
+start
+note right
+Iterator<Map.Entry<K,V>>iterator()
+end note
+:return new EntryIterator<K,V>(t,f,0,f,m);;
+stop
+end
+start
+note right
+booleanadd(Entry<K,V>e)
+end note
+:return map.putVal(e.getKey(),e.getValue(),
+false)==null ;;
+stop
+end
+start
+note right
+booleanaddAll(Collection<?  extends Entry<K,
+V>>c)
+end note
+if (add(e)) then (yes) 
+:added=true;
+endif 
+:return added;;
+stop
+end
+start
+note right
+inthashCode()
+end note
+if ((t=map.table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+:h+=p.hashCode();
+endif 
+:return h;;
+stop
+end
+start
+note right
+booleanequals(Objecto)
+end note
+:return ((o instanceof Set)&&((c=(Set<? >)o)==this||(containsAll(c)&&c.containsAll(this))));;
+stop
+end
+start
+note right
+Spliterator<Map.Entry<K,V>>spliterator()
+end note
+:return new EntrySpliterator<K,V>(t,f,0,f,
+n<0L? 0L:n,m);;
+stop
+end
+start
+note right
+void forEach(Consumer<? super Map.Entry<K,
+V>>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((t=map.table)!=null ) then (yes) 
+:Node<K;
+:V>p;
+:action.accept(new MapEntry<K,V>(p.key,p.val,
+map));
+endif 
+end
+start
+note right
+constructor BulkTask(BulkTask<K,V,? >par,
+intb,inti,intf,Node<K,V>[]t)
+end note
+:super (par);
+:this.batch=b;
+:this.index=this.baseIndex=i;
+if ((this.tab=t)==null ) then (yes) 
+:this.baseSize=this.baseLimit=0;
+else (no)
+:this.baseLimit=f;
+:this.baseSize=par.baseSize;
+endif 
+end
+start
+note right
+Node<K,V>advance()
+end note
+if ((e=next)!=null ) then (yes) 
+:e=e.next;
+endif 
+if (e!=null ) then (yes) 
+:return next=e;;
+stop
+endif 
+if (baseIndex>=baseLimit||(t=tab)==null ||(n=t.length)<=(i=index)||i<0) then (yes) 
+:return next=null ;;
+stop
+endif 
+if ((e=tabAt(t,i))!=null &&e.hash<0) then (yes) 
+if (e instanceof ForwardingNode) then (yes) 
+:tab=((ForwardingNode<K,V>)e).nextTable;
+:e=null ;
+:pushState(t,i,n);
+else (no)
+:e=null ;
+endif 
+endif 
+if (stack!=null ) then (yes) 
+:recoverState(n);
+endif 
+end
+start
+note right
+void pushState(Node<K,V>[]t,inti,intn)
+end note
+if (s!=null ) then (yes) 
+:spare=s.next;
+else (no)
+:s=new TableStack<K,V>();
+endif 
+:s.tab=t;
+:s.length=n;
+:s.index=i;
+:s.next=stack;
+:stack=s;
+end
+start
+note right
+void recoverState(intn)
+end note
+while ((s=stack)!=null &&(index+=(len=s.length))>=n)
+:n=len;
+:index=s.index;
+:tab=s.tab;
+:s.tab=null ;
+:s.next=spare;
+:stack=next;
+:spare=s;
+endwhile
+if (s==null &&(index+=baseSize)>=n) then (yes) 
+:index=++baseIndex;
+endif 
+end
+start
+note right
+constructor ForEachKeyTask(BulkTask<K,V,? >p,
+intb,inti,intf,Node<K,V>[]t,Consumer<? super K>action)
+end note
+:super (p,b,i,f,t);
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachKeyTask<K,V>(this,batch>>>=1,
+baseLimit=h,f,tab,action).fork();
+:Node<K;
+:V>p;
+:action.accept(p.key);
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor ForEachValueTask(BulkTask<K,V,
+? >p,intb,inti,intf,Node<K,V>[]t,Consumer<? super V>action)
+end note
+:super (p,b,i,f,t);
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachValueTask<K,V>(this,batch>>>=1,
+baseLimit=h,f,tab,action).fork();
+:Node<K;
+:V>p;
+:action.accept(p.val);
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor ForEachEntryTask(BulkTask<K,V,
+? >p,intb,inti,intf,Node<K,V>[]t,Consumer<? super Entry<K,
+V>>action)
+end note
+:super (p,b,i,f,t);
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachEntryTask<K,V>(this,batch>>>=1,
+baseLimit=h,f,tab,action).fork();
+:Node<K;
+:V>p;
+:action.accept(p);
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor ForEachMappingTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,BiConsumer<? super K,
+? super V>action)
+end note
+:super (p,b,i,f,t);
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachMappingTask<K,V>(this,batch>>>=1,
+baseLimit=h,f,tab,action).fork();
+:Node<K;
+:V>p;
+:action.accept(p.key,p.val);
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor ForEachTransformedKeyTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,Function<? super K,
+?  extends U>transformer,Consumer<? super U>action)
+end note
+:super (p,b,i,f,t);
+:this.transformer=transformer;
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachTransformedKeyTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,transformer,
+action).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p.key))!=null ) then (yes) 
+:action.accept(u);
+endif 
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor ForEachTransformedValueTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,Function<? super V,
+?  extends U>transformer,Consumer<? super U>action)
+end note
+:super (p,b,i,f,t);
+:this.transformer=transformer;
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachTransformedValueTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,transformer,
+action).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p.val))!=null ) then (yes) 
+:action.accept(u);
+endif 
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor ForEachTransformedEntryTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,Function<Map.Entry<K,
+V>,?  extends U>transformer,Consumer<? super U>action)
+end note
+:super (p,b,i,f,t);
+:this.transformer=transformer;
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachTransformedEntryTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,transformer,
+action).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p))!=null ) then (yes) 
+:action.accept(u);
+endif 
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor ForEachTransformedMappingTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,BiFunction<? super K,
+? super V,?  extends U>transformer,Consumer<? super U>action)
+end note
+:super (p,b,i,f,t);
+:this.transformer=transformer;
+:this.action=action;
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(action=this.action)!=null ) then (yes) 
+:addToPendingCount(1);
+:new ForEachTransformedMappingTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,transformer,
+action).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p.key,p.val))!=null ) then (yes) 
+:action.accept(u);
+endif 
+:propagateCompletion();
+endif 
+end
+start
+note right
+constructor SearchKeysTask(BulkTask<K,V,? >p,
+intb,inti,intf,Node<K,V>[]t,Function<? super K,
+?  extends U>searchFunction,AtomicReference<U>result)
+end note
+:super (p,b,i,f,t);
+:this.searchFunction=searchFunction;
+:this.result=result;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result.get();;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((searchFunction=this.searchFunction)!=null &&(result=this.result)!=null ) then (yes) 
+if (result.get()!=null ) then (yes) 
+:return ;;
+stop
+endif 
+:addToPendingCount(1);
+:new SearchKeysTask<K,V,U>(this,batch>>>=1,
+baseLimit=h,f,tab,searchFunction,result).fork();
+while (result.get()==null )
+if ((p=advance())==null ) then (yes) 
+:propagateCompletion();
+endif 
+if ((u=searchFunction.apply(p.key))!=null ) then (yes) 
+if (result.compareAndSet(null ,u)) then (yes) 
+:quietlyCompleteRoot();
+endif 
+endif 
+endwhile
+endif 
+end
+start
+note right
+constructor SearchValuesTask(BulkTask<K,V,
+? >p,intb,inti,intf,Node<K,V>[]t,Function<? super V,
+?  extends U>searchFunction,AtomicReference<U>result)
+end note
+:super (p,b,i,f,t);
+:this.searchFunction=searchFunction;
+:this.result=result;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result.get();;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((searchFunction=this.searchFunction)!=null &&(result=this.result)!=null ) then (yes) 
+if (result.get()!=null ) then (yes) 
+:return ;;
+stop
+endif 
+:addToPendingCount(1);
+:new SearchValuesTask<K,V,U>(this,batch>>>=1,
+baseLimit=h,f,tab,searchFunction,result).fork();
+while (result.get()==null )
+if ((p=advance())==null ) then (yes) 
+:propagateCompletion();
+endif 
+if ((u=searchFunction.apply(p.val))!=null ) then (yes) 
+if (result.compareAndSet(null ,u)) then (yes) 
+:quietlyCompleteRoot();
+endif 
+endif 
+endwhile
+endif 
+end
+start
+note right
+constructor SearchEntriesTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,Function<Entry<K,
+V>,?  extends U>searchFunction,AtomicReference<U>result)
+end note
+:super (p,b,i,f,t);
+:this.searchFunction=searchFunction;
+:this.result=result;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result.get();;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((searchFunction=this.searchFunction)!=null &&(result=this.result)!=null ) then (yes) 
+if (result.get()!=null ) then (yes) 
+:return ;;
+stop
+endif 
+:addToPendingCount(1);
+:new SearchEntriesTask<K,V,U>(this,batch>>>=1,
+baseLimit=h,f,tab,searchFunction,result).fork();
+while (result.get()==null )
+if ((p=advance())==null ) then (yes) 
+:propagateCompletion();
+endif 
+if ((u=searchFunction.apply(p))!=null ) then (yes) 
+if (result.compareAndSet(null ,u)) then (yes) 
+:quietlyCompleteRoot();
+endif 
+:return ;;
+stop
+endif 
+endwhile
+endif 
+end
+start
+note right
+constructor SearchMappingsTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,BiFunction<? super K,
+? super V,?  extends U>searchFunction,AtomicReference<U>result)
+end note
+:super (p,b,i,f,t);
+:this.searchFunction=searchFunction;
+:this.result=result;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result.get();;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((searchFunction=this.searchFunction)!=null &&(result=this.result)!=null ) then (yes) 
+if (result.get()!=null ) then (yes) 
+:return ;;
+stop
+endif 
+:addToPendingCount(1);
+:new SearchMappingsTask<K,V,U>(this,batch>>>=1,
+baseLimit=h,f,tab,searchFunction,result).fork();
+while (result.get()==null )
+if ((p=advance())==null ) then (yes) 
+:propagateCompletion();
+endif 
+if ((u=searchFunction.apply(p.key,p.val))!=null ) then (yes) 
+if (result.compareAndSet(null ,u)) then (yes) 
+:quietlyCompleteRoot();
+endif 
+endif 
+endwhile
+endif 
+end
+start
+note right
+constructor ReduceKeysTask(BulkTask<K,V,? >p,
+intb,inti,intf,Node<K,V>[]t,ReduceKeysTask<K,
+V>nextRight,BiFunction<? super K,? super K,
+?  extends K>reducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.reducer=reducer;
+end
+start
+note right
+KgetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new ReduceKeysTask<K,V>(this,batch>>>=1,
+baseLimit=h,f,tab,rights,reducer)).fork();
+:Node<K;
+:V>p;
+:r=(r==null )? u:u==null ? r:reducer.apply(r,u);
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+if ((sr=s.result)!=null ) then (yes) 
+:t.result=(((tr=t.result)==null )? sr:reducer.apply(tr,
+sr));
+endif 
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor ReduceValuesTask(BulkTask<K,V,
+? >p,intb,inti,intf,Node<K,V>[]t,ReduceValuesTask<K,
+V>nextRight,BiFunction<? super V,? super V,
+?  extends V>reducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.reducer=reducer;
+end
+start
+note right
+VgetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new ReduceValuesTask<K,V>(this,batch>>>=1,
+baseLimit=h,f,tab,rights,reducer)).fork();
+:Node<K;
+:V>p;
+:r=(r==null )? v:reducer.apply(r,v);
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+if ((sr=s.result)!=null ) then (yes) 
+:t.result=(((tr=t.result)==null )? sr:reducer.apply(tr,
+sr));
+endif 
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor ReduceEntriesTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,ReduceEntriesTask<K,
+V>nextRight,BiFunction<Entry<K,V>,Map.Entry<K,
+V>,?  extends Map.Entry<K,V>>reducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.reducer=reducer;
+end
+start
+note right
+Map.Entry<K,V>getRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new ReduceEntriesTask<K,V>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,reducer))
+.fork();
+:Node<K;
+:V>p;
+:r=(r==null )? p:reducer.apply(r,p);
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+if ((sr=s.result)!=null ) then (yes) 
+:t.result=(((tr=t.result)==null )? sr:reducer.apply(tr,
+sr));
+endif 
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceKeysTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceKeysTask<K,
+V,U>nextRight,Function<? super K,?  extends U>transformer,
+BiFunction<? super U,? super U,?  extends U>reducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.reducer=reducer;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceKeysTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,transformer,
+reducer)).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p.key))!=null ) then (yes) 
+:r=(r==null )? u:reducer.apply(r,u);
+endif 
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+if ((sr=s.result)!=null ) then (yes) 
+:t.result=(((tr=t.result)==null )? sr:reducer.apply(tr,
+sr));
+endif 
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceValuesTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceValuesTask<K,
+V,U>nextRight,Function<? super V,?  extends U>transformer,
+BiFunction<? super U,? super U,?  extends U>reducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.reducer=reducer;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceValuesTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,transformer,
+reducer)).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p.val))!=null ) then (yes) 
+:r=(r==null )? u:reducer.apply(r,u);
+endif 
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+if ((sr=s.result)!=null ) then (yes) 
+:t.result=(((tr=t.result)==null )? sr:reducer.apply(tr,
+sr));
+endif 
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceEntriesTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceEntriesTask<K,
+V,U>nextRight,Function<Map.Entry<K,V>,?  extends U>transformer,
+BiFunction<? super U,? super U,?  extends U>reducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.reducer=reducer;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceEntriesTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,transformer,
+reducer)).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p))!=null ) then (yes) 
+:r=(r==null )? u:reducer.apply(r,u);
+endif 
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+if ((sr=s.result)!=null ) then (yes) 
+:t.result=(((tr=t.result)==null )? sr:reducer.apply(tr,
+sr));
+endif 
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceMappingsTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceMappingsTask<K,
+V,U>nextRight,BiFunction<? super K,? super V,
+?  extends U>transformer,BiFunction<? super U,
+? super U,?  extends U>reducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.reducer=reducer;
+end
+start
+note right
+UgetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceMappingsTask<K,V,U>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,transformer,
+reducer)).fork();
+:Node<K;
+:V>p;
+if ((u=transformer.apply(p.key,p.val))!=null ) then (yes) 
+:r=(r==null )? u:reducer.apply(r,u);
+endif 
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+if ((sr=s.result)!=null ) then (yes) 
+:t.result=(((tr=t.result)==null )? sr:reducer.apply(tr,
+sr));
+endif 
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceKeysToDoubleTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceKeysToDoubleTask<K,
+V>nextRight,ToDoubleFunction<? super K>transformer,
+doublebasis,DoubleBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+DoublegetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceKeysToDoubleTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsDouble(r,transformer.applyAsDouble(p.key));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsDouble(t.result,
+s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceValuesToDoubleTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceValuesToDoubleTask<K,
+V>nextRight,ToDoubleFunction<? super V>transformer,
+doublebasis,DoubleBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+DoublegetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceValuesToDoubleTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsDouble(r,transformer.applyAsDouble(p.val));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsDouble(t.result,
+s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceEntriesToDoubleTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceEntriesToDoubleTask<K,
+V>nextRight,ToDoubleFunction<Map.Entry<K,
+V>>transformer,doublebasis,DoubleBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+DoublegetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceEntriesToDoubleTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsDouble(r,transformer.applyAsDouble(p));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsDouble(t.result,
+s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceMappingsToDoubleTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceMappingsToDoubleTask<K,
+V>nextRight,ToDoubleBiFunction<? super K,
+? super V>transformer,doublebasis,DoubleBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+DoublegetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceMappingsToDoubleTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsDouble(r,transformer.applyAsDouble(p.key,
+p.val));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsDouble(t.result,
+s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceKeysToLongTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceKeysToLongTask<K,
+V>nextRight,ToLongFunction<? super K>transformer,
+longbasis,LongBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+LonggetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceKeysToLongTask<K,V>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,transformer,
+r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsLong(r,transformer.applyAsLong(p.key));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsLong(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceValuesToLongTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceValuesToLongTask<K,
+V>nextRight,ToLongFunction<? super V>transformer,
+longbasis,LongBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+LonggetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceValuesToLongTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsLong(r,transformer.applyAsLong(p.val));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsLong(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceEntriesToLongTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceEntriesToLongTask<K,
+V>nextRight,ToLongFunction<Map.Entry<K,V>>transformer,
+longbasis,LongBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+LonggetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceEntriesToLongTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsLong(r,transformer.applyAsLong(p));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsLong(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceMappingsToLongTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceMappingsToLongTask<K,
+V>nextRight,ToLongBiFunction<? super K,? super V>transformer,
+longbasis,LongBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+LonggetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceMappingsToLongTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsLong(r,transformer.applyAsLong(p.key,
+p.val));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsLong(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceKeysToIntTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceKeysToIntTask<K,
+V>nextRight,ToIntFunction<? super K>transformer,
+intbasis,IntBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+IntegergetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceKeysToIntTask<K,V>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,transformer,
+r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsInt(r,transformer.applyAsInt(p.key));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsInt(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceValuesToIntTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceValuesToIntTask<K,
+V>nextRight,ToIntFunction<? super V>transformer,
+intbasis,IntBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+IntegergetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceValuesToIntTask<K,V>(this,
+batch>>>=1,baseLimit=h,f,tab,rights,transformer,
+r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsInt(r,transformer.applyAsInt(p.val));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsInt(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceEntriesToIntTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceEntriesToIntTask<K,
+V>nextRight,ToIntFunction<Map.Entry<K,V>>transformer,
+intbasis,IntBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+IntegergetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceEntriesToIntTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsInt(r,transformer.applyAsInt(p));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsInt(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+start
+note right
+constructor MapReduceMappingsToIntTask(BulkTask<K,
+V,? >p,intb,inti,intf,Node<K,V>[]t,MapReduceMappingsToIntTask<K,
+V>nextRight,ToIntBiFunction<? super K,? super V>transformer,
+intbasis,IntBinaryOperatorreducer)
+end note
+:super (p,b,i,f,t);
+:this.nextRight=nextRight;
+:this.transformer=transformer;
+:this.basis=basis;
+:this.reducer=reducer;
+end
+start
+note right
+IntegergetRawResult()
+end note
+:return result;;
+stop
+end
+start
+note right
+void compute()
+end note
+if ((transformer=this.transformer)!=null &&(reducer=this.reducer)!=null ) then (yes) 
+:addToPendingCount(1);
+:(rights=new MapReduceMappingsToIntTask<K,
+V>(this,batch>>>=1,baseLimit=h,f,tab,rights,
+transformer,r,reducer)).fork();
+:Node<K;
+:V>p;
+:r=reducer.applyAsInt(r,transformer.applyAsInt(p.key,
+p.val));
+:result=r;
+:c=firstComplete();
+:c=c.nextComplete();
+while (s!=null )
+:t.result=reducer.applyAsInt(t.result,s.result);
+:s=t.rights=s.nextRight;
+endwhile
+endif 
+end
+:U=sun.misc.Unsafe.getUnsafe();
+:SIZECTL=U.objectFieldOffset(k.getDeclaredField("sizeCtl"));
+:TRANSFERINDEX=U.objectFieldOffset(k.getDeclaredField("transferIndex"));
+:BASECOUNT=U.objectFieldOffset(k.getDeclaredField("baseCount"));
+:CELLSBUSY=U.objectFieldOffset(k.getDeclaredField("cellsBusy"));
+:CELLVALUE=U.objectFieldOffset(ck.getDeclaredField("value"));
+:ABASE=U.arrayBaseOffset(ak);
+if ((scale&(scale-1))!=0) then (yes) 
+:throw new Error("data type scale not a power of two");;
+endif 
+:ASHIFT=31-Integer.numberOfLeadingZeros(scale);
+:throw new Error(e);;
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

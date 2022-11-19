@@ -8785,6 +8785,14 @@ Complexity :2.00
 }
 }
 }
+package org.springframework {
+package org.springframework.http {
+class "org.springframework.http.ResponseEntity" {
+Nb methods :19
+Complexity :1.43
+}
+}
+}
 }
 package kafka {
 package kafka.server {
@@ -8833,6 +8841,196 @@ Complexity :1.00
 class "kafka.examples.Producer" {
 Nb methods :5
 Complexity :2.41
+}
+}
+}
+package java {
+package java.io {
+class "java.io.BufferedInputStream" {
+Nb methods :14
+Complexity :3.50
+}
+class "java.io.BufferedOutputStream" {
+Nb methods :6
+Complexity :1.84
+}
+class "java.io.BufferedReader" {
+Nb methods :16
+Complexity :4.82
+}
+class "java.io.BufferedWriter" {
+Nb methods :11
+Complexity :2.28
+}
+class "java.io.File" {
+Nb methods :62
+Complexity :2.20
+}
+class "java.io.FileInputStream" {
+Nb methods :17
+Complexity :1.65
+}
+class "java.io.FileOutputStream" {
+Nb methods :17
+Complexity :1.77
+}
+class "java.io.FileReader" {
+Nb methods :3
+Complexity :1.00
+}
+class "java.io.InputStream" {
+Nb methods :9
+Complexity :2.34
+}
+class "java.io.InputStreamReader" {
+Nb methods :9
+Complexity :1.34
+}
+class "java.io.ObjectInputStream" {
+Nb methods :65
+Complexity :3.94
+}
+class "java.io.ObjectOutputStream" {
+Nb methods :56
+Complexity :2.99
+}
+class "java.io.OutputStream" {
+Nb methods :5
+Complexity :2.21
+}
+class "java.io.OutputStreamWriter" {
+Nb methods :11
+Complexity :1.28
+}
+class "java.io.PipedInputStream" {
+Nb methods :15
+Complexity :4.14
+}
+class "java.io.PipedOutputStream" {
+Nb methods :7
+Complexity :2.86
+}
+class "java.io.PipedReader" {
+Nb methods :13
+Complexity :4.08
+}
+class "java.io.PipedWriter" {
+Nb methods :7
+Complexity :2.72
+}
+class "java.io.PrintStream" {
+Nb methods :48
+Complexity :1.34
+}
+class "java.io.PrintWriter" {
+Nb methods :48
+Complexity :1.32
+}
+class "java.io.Reader" {
+Nb methods :12
+Complexity :1.67
+}
+class "java.io.Writer" {
+Nb methods :12
+Complexity :1.59
+}
+}
+package java.lang {
+class "java.lang.String" {
+Nb methods :85
+Complexity :2.86
+}
+class "java.lang.StringBuilder" {
+Nb methods :42
+Complexity :1.20
+}
+}
+package java.net {
+class "java.net.CacheRequest" {
+Nb methods :2
+Complexity :1.00
+}
+class "java.net.CacheResponse" {
+Nb methods :2
+Complexity :1.00
+}
+class "java.net.ServerSocket" {
+Nb methods :30
+Complexity :2.34
+}
+class "java.net.Socket" {
+Nb methods :60
+Complexity :2.64
+}
+}
+package java.sql {
+class "java.sql.PreparedStatement" {
+Nb methods :55
+Complexity :1.00
+}
+class "java.sql.Statement" {
+Nb methods :40
+Complexity :1.00
+}
+}
+package java.util {
+package java.util.concurrent {
+class "java.util.concurrent.ConcurrentHashMap" {
+Nb methods :73
+Complexity :5.96
+}
+class "java.util.concurrent.ConcurrentMap" {
+Nb methods :11
+Complexity :3.37
+}
+}
+class "java.util.HashMap" {
+Nb methods :51
+Complexity :4.22
+}
+class "java.util.Hashtable" {
+Nb methods :44
+Complexity :3.28
+}
+class "java.util.Map" {
+Nb methods :25
+Complexity :1.73
+}
+}
+}
+package secujava {
+class "secujava.Connection" {
+Nb methods :52
+Complexity :1.00
+}
+class "secujava.Cookie" {
+Nb methods :20
+Complexity :1.21
+}
+}
+package javax {
+package javax.servlet {
+package javax.servlet.http {
+class "javax.servlet.http.HttpServletRequest" {
+Nb methods :25
+Complexity :1.00
+}
+class "javax.servlet.http.HttpServletResponse" {
+Nb methods :17
+Complexity :1.00
+}
+class "javax.servlet.http.HttpSession" {
+Nb methods :17
+Complexity :1.00
+}
+}
+class "javax.servlet.ServletRequest" {
+Nb methods :29
+Complexity :1.00
+}
+class "javax.servlet.ServletResponse" {
+Nb methods :15
+Complexity :1.00
 }
 }
 }

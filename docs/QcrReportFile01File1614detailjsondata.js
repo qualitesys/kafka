@@ -1,110 +1,119 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java 15 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java 22 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Windows<UnlimitedWindow>"
- , "c2" : "org.apache.kafka.streams.kstream.UnlimitedWindows"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.internals.metrics.ClientMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.UnlimitedWindows" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.internals.metrics.ClientMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#24"
- , "c1" : "UnlimitedWindows"
- , "c2" : "UnlimitedWindows(long)"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#19"
+ , "c1" : "ClientMetrics"
+ , "c2" : "ClientMetrics()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#29"
- , "c1" : "UnlimitedWindows"
- , "c2" : "of()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#34"
- , "c1" : "UnlimitedWindows"
- , "c2" : "startOn(Instant)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#44"
- , "c1" : "Map<Long,UnlimitedWindow>"
- , "c2" : "windowsFor(long)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#57"
- , "c1" : "long"
- , "c2" : "size()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#62"
- , "c1" : "long"
- , "c2" : "gracePeriodMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#67"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#79"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#84"
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#55"
  , "c1" : "String"
- , "c2" : "toString()"
+ , "c2" : "version()"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#59"
+ , "c1" : "String"
+ , "c2" : "commitId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#63"
+ , "c1" : "void"
+ , "c2" : "addVersionMetric(StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#72"
+ , "c1" : "void"
+ , "c2" : "addCommitIdMetric(StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#81"
+ , "c1" : "void"
+ , "c2" : "addApplicationIdMetric(StreamsMetricsImpl;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#90"
+ , "c1" : "void"
+ , "c2" : "addTopologyDescriptionMetric(StreamsMetricsImpl;Gauge<String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#100"
+ , "c1" : "void"
+ , "c2" : "addStateMetric(StreamsMetricsImpl;Gauge<State>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#110"
+ , "c1" : "void"
+ , "c2" : "addNumAliveStreamThreadMetric(StreamsMetricsImpl;Gauge<Integer>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
+ , "c1" : "Sensor"
+ , "c2" : "failedStreamThreadSensor(StreamsMetricsImpl)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.svg" }
 
 ] 
 , 
@@ -131,16 +140,30 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
 ,
@@ -148,7 +171,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -161,113 +184,162 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method startOn arguments Instant  start"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00034] For method startOn list of called methods Object monObjet|String prepareMillisCheckFailMsgPrefixN156739|long ApiUtils_validateMillisecondInstantN156854"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#35"
+ , "c1" : "00018"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#18"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN156622 the MagicNumber/String  'start' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN156622 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.kstream.UnlimitedWindows.startOn@POLYN156622 the MagicNumber/String  'Window start time (startMs) cannot be negative.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method windowsFor arguments long  timestamp"
+ , "c3" : "QC-JAV000008[00018] The class ClientMetrics contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.kstream.UnlimitedWindows.gracePeriodMs@POLYN157938 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#67"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00063] For method addVersionMetric arguments StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00071] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN158040 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN158040 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#63"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00063] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.UnlimitedWindows.equals@POLYN158040 the MagicNumber/String  false should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00072] For method addCommitIdMetric arguments StreamsMetricsImpl  streamsMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN158707 the MagicNumber/String  'UnlimitedWindows{' should be converted to const"
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#72"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00072] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN158707 the MagicNumber/String  'startMs=' should be converted to const"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method addApplicationIdMetric arguments StreamsMetricsImpl  streamsMetrics|String  applicationId"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#87"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#81"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00081] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#90"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00090] For method addTopologyDescriptionMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;String &gt;  topologyDescription"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#90"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00090] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00100] For method addStateMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;State &gt;  stateProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#100"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00100] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#110"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00110] For method addNumAliveStreamThreadMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;Integer &gt;  stateProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#110"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00110] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00120] For method failedStreamThreadSensor arguments StreamsMetricsImpl  streamsMetrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00120] For method failedStreamThreadSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_clientLevelSensorN160063"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00120] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.UnlimitedWindows.toString@POLYN158707 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.internals.metrics.ClientMetrics.failedStreamThreadSensor@POLYN159958 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00120] Public method failedStreamThreadSensor is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00081] Public method addApplicationIdMetric is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00090] Public method addTopologyDescriptionMetric is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00100] Public method addStateMetric is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00110] Public method addNumAliveStreamThreadMetric is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.fct.svg" 
 
 , 
 }

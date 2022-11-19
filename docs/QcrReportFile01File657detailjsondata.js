@@ -1,72 +1,81 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java 7 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java 10 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractResponse"
- , "c2" : "org.apache.kafka.common.requests.DescribeQuorumResponse"
+ , "c1" : "AbstractRequest"
+ , "c2" : "org.apache.kafka.common.requests.DescribeQuorumRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.requests.DescribeQuorumResponse" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.requests.DescribeQuorumRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#21"
- , "c1" : "DescribeQuorumResponse"
- , "c2" : "DescribeQuorumResponse(DescribeQuorumResponseData)"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#39"
+ , "c1" : "DescribeQuorumRequest"
+ , "c2" : "DescribeQuorumRequest(DescribeQuorumRequestData;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#27"
- , "c1" : "Map<Errors,Integer>"
- , "c2" : "errorCounts()"
- , "c3" : "3"
- , "c4" : "4"
+ , "c5" : "00044"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#44"
+ , "c1" : "DescribeQuorumRequest"
+ , "c2" : "parse(ByteBuffer;short)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#41"
- , "c1" : "DescribeQuorumResponseData"
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#48"
+ , "c1" : "DescribeQuorumRequestData"
+ , "c2" : "singletonRequest(TopicPartition)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#60"
+ , "c1" : "DescribeQuorumRequestData"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#46"
- , "c1" : "int"
- , "c2" : "throttleTimeMs()"
+ , "c5" : "00065"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#65"
+ , "c1" : "AbstractResponse"
+ , "c2" : "getErrorResponse(int;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#50"
+ , "c5" : "00069"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#69"
  , "c1" : "DescribeQuorumResponseData"
- , "c2" : "singletonResponse(TopicPartition;int;int;long;List<ReplicaState>;List<ReplicaState>)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "getPartitionLevelErrorResponse(DescribeQuorumRequestData;Errors)"
+ , "c3" : "2"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#68"
- , "c1" : "DescribeQuorumResponse"
- , "c2" : "parse(ByteBuffer;short)"
+ , "c5" : "00087"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#87"
+ , "c1" : "DescribeQuorumResponseData"
+ , "c2" : "getTopLevelErrorResponse(Errors)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +84,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.svg" }
 
 ] 
 , 
@@ -102,112 +111,96 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00033] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN152316 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#50"
+ , "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method singletonResponse arguments TopicPartition  topicPartition|int  leaderId|int  leaderEpoch|long  highWatermark|List&lt;ReplicaState &gt;  voterStates|List&lt;ReplicaState &gt;  observerStates"
+ , "c3" : "QC-JAV000006[00027] For method build arguments short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#50"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00050] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#68"
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00044] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#1"
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method singletonRequest arguments TopicPartition  topicPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#48"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN152316"
+ , "c3" : "QC-JAVCWE476[00048] The argument topicPartition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00030] In the recursive method org.apache.kafka.common.requests.DescribeQuorumResponse.errorCounts@POLYN152316 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#65"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00065] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#69"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00069] For method getPartitionLevelErrorResponse arguments DescribeQuorumRequestData  data|Errors  error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#69"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00069] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#69"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00069] The argument error is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#87"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00087] For method getTopLevelErrorResponse arguments Errors  topLevelError"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.html#87"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00087] The argument topLevelError is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumRequest.java.fct.svg" 
 
 , 
 }

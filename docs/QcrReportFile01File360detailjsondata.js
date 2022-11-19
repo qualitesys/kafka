@@ -1,36 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.InvalidOffsetException"
+ , "c1" : "RetriableException"
+ , "c2" : "org.apache.kafka.common.errors.InvalidMetadataException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.InvalidOffsetException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.InvalidMetadataException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.html#9"
- , "c1" : "InvalidOffsetException"
- , "c2" : "InvalidOffsetException(String)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.html#9"
+ , "c1" : "InvalidMetadataException"
+ , "c2" : "InvalidMetadataException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.html#13"
- , "c1" : "InvalidOffsetException"
- , "c2" : "InvalidOffsetException(String;Throwable)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.html#13"
+ , "c1" : "InvalidMetadataException"
+ , "c2" : "InvalidMetadataException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.html#17"
+ , "c1" : "InvalidMetadataException"
+ , "c2" : "InvalidMetadataException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.html#21"
+ , "c1" : "InvalidMetadataException"
+ , "c2" : "InvalidMetadataException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.svg" }
 
 ] 
 , 
@@ -67,7 +85,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidOffsetException.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidMetadataException.java.fct.svg" 
 
 , 
 }

@@ -1,74 +1,146 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CommandUtils.java 44 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.xml" 
+   "fic1"  : "./qc/secujava/java.io.PipedReader.java.html" 
+ , "texte" : "File secujava/java.io.PipedReader.java 71 rule violations " 
+ , "fic2"  : "./qc/secujava/java.io.PipedReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.shell.CommandUtils"
+ , "c1" : "Reader"
+ , "c2" : "java.io.PipedReader"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.shell.CommandUtils" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.io.PipedReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#15"
- , "c1" : "List<String>"
- , "c2" : "getEffectivePaths(List<String>)"
- , "c3" : "4"
- , "c4" : "4"
+ , "c5" : "00030"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#30"
+ , "c1" : "PipedReader"
+ , "c2" : "PipedReader(PipedWriter)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#29"
+ , "c5" : "00035"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#35"
+ , "c1" : "PipedReader"
+ , "c2" : "PipedReader(PipedWriter;int)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#42"
+ , "c1" : "PipedReader"
+ , "c2" : "PipedReader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#47"
+ , "c1" : "PipedReader"
+ , "c2" : "PipedReader(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#51"
  , "c1" : "void"
- , "c2" : "completeCommand(String;List<Candidate>)"
+ , "c2" : "initPipe(int)"
  , "c3" : "2"
- , "c4" : "3"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#38"
- , "c1" : "List<String>"
- , "c2" : "splitPath(String)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#49"
- , "c1" : "List<String>"
- , "c2" : "stripDotPathComponents(List<String>)"
- , "c3" : "6"
- , "c4" : "4"
+ , "c5" : "00059"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#59"
+ , "c1" : "void"
+ , "c2" : "connect(PipedWriter)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00064"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#64"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#64"
  , "c1" : "void"
- , "c2" : "completePath(MetadataNodeManager;String;List<Candidate>)"
+ , "c2" : "receive(int)"
+ , "c3" : "10"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#97"
+ , "c1" : "void"
+ , "c2" : "receive(char[];int;int)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#104"
+ , "c1" : "void"
+ , "c2" : "receivedLast()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#110"
+ , "c1" : "int"
+ , "c2" : "read()"
+ , "c3" : "11"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#150"
+ , "c1" : "int"
+ , "c2" : "read(char[];int;int)"
+ , "c3" : "13"
+ , "c4" : "14"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00189"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#189"
+ , "c1" : "boolean"
+ , "c2" : "ready()"
  , "c3" : "8"
- , "c4" : "24"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00206"
+ , "c5link" : "././qc/secujava/java.io.PipedReader.java.html#206"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.png" 
+   {"ligne" : "./qc/secujava/java.io.PipedReader.java.png" 
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.io.PipedReader.java.svg" }
 
 ] 
 , 
@@ -98,28 +170,21 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "28"
+ , "c4" : "56"
 }}
 ,
 { "ligne" : { "" : ""
@@ -128,320 +193,523 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "6"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class CommandUtils contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#15"
+ , "c1" : "00051"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method getEffectivePaths arguments List&lt;String &gt;  paths"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.CommandUtils.getEffectivePaths@POLYN163681 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method completeCommand arguments String  commandPrefix|List&lt;Candidate &gt;  candidates"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#29"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument candidates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.CommandUtils.completeCommand@POLYN164435 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method splitPath arguments String  path"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#38"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN165146 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN165146 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method stripDotPathComponents arguments List&lt;String &gt;  input"
+ , "c3" : "QC-JAV000006[00051] For method initPipe arguments int  pipeSize"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#52"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  '..' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method java.io.PipedReader.initPipe@POLYN198417 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#53"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method java.io.PipedReader.initPipe@POLYN198417 the MagicNumber/String  'Pipe size &amp;lt;= 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#64"
+ , "c1" : "00059"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method completePath arguments MetadataNodeManager  nodeManager|String  pathPrefix|List&lt;Candidate &gt;  candidates"
+ , "c3" : "QC-JAV000006[00059] For method connect arguments PipedWriter  src"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#59"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00059] The argument src is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#64"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument nodeManager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#64"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00064] Lock statement on synchronized method receive"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#65"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument pathPrefix is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#66"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00066] The argument candidates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00095] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '' should be converted to const"
+ , "c1" : "00064"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method receive arguments int  c"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#82"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00082] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#66"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00066] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  'Pipe not connected' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  'Pipe closed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  'Read end dead' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#76"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00076] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  'Pipe broken' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#88"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#92"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method java.io.PipedReader.receive@POLYN199569 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  true should be converted to const"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#97"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00097] Lock statement on synchronized method receive"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
+ , "c1" : "00097"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#97"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00097] For method receive arguments char[]  c|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#100"
+ , "c1" : "00098"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method java.io.PipedReader.receive@POLYN201247 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00104"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#104"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00104] Lock statement on synchronized method receivedLast"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
+ , "c1" : "00105"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method java.io.PipedReader.receivedLast@POLYN201628 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00110"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#110"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00110] Lock statement on synchronized method read"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
+ , "c1" : "00134"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00134] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  'Pipe not connected' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  'Pipe closed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#115"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#116"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00116] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  'Write end dead' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#121"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00121] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  2 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#127"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00127] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  'Pipe broken' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#144"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00144] In method java.io.PipedReader.read@POLYN202297 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#150"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00150] Lock statement on synchronized method read"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00150] For method read arguments char[]  cbuf|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00150] For method read list of called methods Object monObjet|int readN206244"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#152"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00152] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  'Pipe not connected' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  'Pipe closed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  'Write end dead' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#160"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00160] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00164] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00169] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#173"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00173] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00178"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#178"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00178] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00182"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00182] In method java.io.PipedReader.read@POLYN204897 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#189"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00189] Lock statement on synchronized method ready"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00191] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  'Pipe not connected' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  'Pipe closed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#195"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00195] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  'Write end dead' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#198"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00198] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00199"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00201"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00201] In method java.io.PipedReader.ready@POLYN207494 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#207"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00207] In method java.io.PipedReader.close@POLYN208381 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00208"
+ , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#208"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00208] In method java.io.PipedReader.close@POLYN208381 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.io.PipedReader.java.fct.svg" 
 
 , 
 }

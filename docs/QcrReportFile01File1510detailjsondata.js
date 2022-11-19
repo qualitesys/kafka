@@ -1,92 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html" 
- , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java 13 rule violations " 
- , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.xml" 
+   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html" 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/Commands.java 36 rule violations " 
+ , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde"
+ , "c2" : "org.apache.kafka.shell.Commands"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.shell.Commands" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#32"
- , "c1" : "RemoteLogMetadataSerde"
- , "c2" : "RemoteLogMetadataSerde()"
- , "c3" : "1"
- , "c4" : "4"
+ , "c5" : "00067"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#67"
+ , "c1" : "Commands"
+ , "c2" : "Commands(boolean)"
+ , "c3" : "3"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#43"
- , "c1" : "ApiMessage"
- , "c2" : "newApiMessage(short)"
+ , "c5" : "00079"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#79"
+ , "c1" : "ArgumentParser"
+ , "c2" : "parser()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#47"
- , "c1" : "Map<Short,RemoteLogMetadataTransform>"
- , "c2" : "createRemoteLogMetadataTransforms()"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#56"
- , "c1" : "Map<String,Short>"
- , "c2" : "createRemoteLogStorageClassToApiKeyMap()"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65"
- , "c1" : "byte[]"
- , "c2" : "serialize(RemoteLogMetadata)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#78"
- , "c1" : "RemoteLogMetadata"
- , "c2" : "deserialize(byte[])"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
  , "c5" : "00084"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#84"
- , "c1" : "RemoteLogMetadataTransform"
- , "c2" : "remoteLogMetadataTransform(short)"
- , "c3" : "2"
- , "c4" : "3"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#84"
+ , "c1" : "Handler"
+ , "c2" : "parseCommand(List<String>)"
+ , "c3" : "7"
+ , "c4" : "14"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.png" 
+   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.png" 
 
- , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.svg" }
+ , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.svg" }
 
 ] 
 , 
@@ -111,12 +75,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "15"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -130,112 +117,273 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#22"
+ , "c1" : "00024"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00022] The class RemoteLogMetadataSerde contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method newApiMessage arguments short  apiKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method serialize arguments RemoteLogMetadata  remoteLogMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#65"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument remoteLogMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  'ApiKey for given RemoteStorageMetadata class: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  ' does not exist.' should be converted to const"
+ , "c3" : "QC-JAV000008[00024] The class Commands contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#72"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.serialize@POLYN162640 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000001[00072] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method deserialize arguments byte[]  data"
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  'command' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#84"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method remoteLogMetadataTransform arguments short  apiKey"
+ , "c3" : "QC-JAV000006[00084] For method parseCommand arguments List&lt;String &gt;  arguments"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#86"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163624 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#87"
+ , "c1" : "00090"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163624 the MagicNumber/String  'RemoteLogMetadataTransform for apikey: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.html#87"
+ , "c1" : "00094"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde.remoteLogMetadataTransform@POLYN163624 the MagicNumber/String  ' does not exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'command' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'invalid choice: '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  '': did you mean '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  ''?' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'Unknown command specified: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.Commands@POLYN162799"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.parseCommand@POLYN163858"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#69"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String 'command' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#86"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'command' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'invalid choice: '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String '': did you mean '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String ''?' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#111"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'Unknown command specified: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataSerde.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.fct.svg" 
 
 , 
 }

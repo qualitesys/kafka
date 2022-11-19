@@ -1,38 +1,47 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java 2 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.trogdor.task.WorkerStatusTracker"
+ , "c1" : "TaskController"
+ , "c2" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultController"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.task.WorkerStatusTracker" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultController" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.html#10"
- , "c1" : "void"
- , "c2" : "update(JsonNode)"
+ , "c5" : "00015"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.html#15"
+ , "c1" : "NetworkPartitionFaultController"
+ , "c2" : "NetworkPartitionFaultController(List<Set<String>>)"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.html#20"
+ , "c1" : "Set<String>"
+ , "c2" : "targetNodes(Topology)"
+ , "c3" : "2"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.svg" }
 
 ] 
 , 
@@ -57,8 +66,40 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00012"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.html#12"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00012] The class NetworkPartitionFaultController contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00020"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.html#20"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00020] For method targetNodes arguments Topology  topology"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultController.java.fct.svg" 
 
 , 
 }

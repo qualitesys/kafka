@@ -1,0 +1,35 @@
+@startuml
+!pragma layout smetana
+"java.lang.Object" <|-- "javax.servlet.ServletRequest"
+class javax.servlet.ServletRequest {
++getAttribute(String) : Object [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#24]]]
++getAttributeNames() : Enumeration [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#30]]]
++getCharacterEncoding() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#37]]]
++setCharacterEncoding(String) : void [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#41]]]
++getContentLength() : int [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#49]]]
++getContentType() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#56]]]
++getInputStream() : ServletInputStream [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#63]]]
++getParameter(String) : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#70]]]
++getParameterNames() : Enumeration [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#77]]]
++getParameterValues(String) : String[] [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#84]]]
++getParameterMap() : Map [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#88]]]
++getProtocol() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#203]]]
++getScheme() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#203]]]
++getServerName() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#203]]]
++getServerPort() : int [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#203]]]
++getReader() : BufferedReader [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#203]]]
++getRemoteAddr() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getRemoteHost() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++setAttribute(String;Object) : void [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++removeAttribute(String) : void [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getLocale() : Locale [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getLocales() : Enumeration [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++isSecure() : boolean [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getRequestDispatcher(String) : RequestDispatcher [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getRealPath(String) : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getRemotePort() : int [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getLocalName() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getLocalAddr() : String [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
++getLocalPort() : int [[[./../.././qc/secujava/javax.servlet.ServletRequest.java.html#1]]]
+} 
+@enduml

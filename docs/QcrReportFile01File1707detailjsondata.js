@@ -1,108 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java 4 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamJoined<K,V1,V2>"
- , "c2" : "org.apache.kafka.streams.kstream.internals.StreamJoinedInternal"
+ , "c1" : "ProcessorSupplier<KIn,VIn,KOut,VOut>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamMap"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.StreamJoinedInternal" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.KStreamMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#14"
- , "c1" : "StreamJoinedInternal"
- , "c2" : "StreamJoinedInternal(StreamJoined<K,V1,V2>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#18"
- , "c1" : "Serde<K>"
- , "c2" : "keySerde()"
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.html#17"
+ , "c1" : "KStreamMap"
+ , "c2" : "KStreamMap(KeyValueMapper<?superKIn,?superVIn,?extendsKeyValue<?extendsKOut,?extendsVOut>>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00022"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#22"
- , "c1" : "Serde<V1>"
- , "c2" : "valueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#26"
- , "c1" : "Serde<V2>"
- , "c2" : "otherValueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#30"
- , "c1" : "String"
- , "c2" : "name()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#34"
- , "c1" : "String"
- , "c2" : "storeName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#38"
- , "c1" : "WindowBytesStoreSupplier"
- , "c2" : "thisStoreSupplier()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#42"
- , "c1" : "WindowBytesStoreSupplier"
- , "c2" : "otherStoreSupplier()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#46"
- , "c1" : "boolean"
- , "c2" : "loggingEnabled()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.html#50"
- , "c1" : "Map<String,String>"
- , "c2" : "logConfig()"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.html#22"
+ , "c1" : "Processor<KIn,VIn,KOut,VOut>"
+ , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.svg" }
 
 ] 
 , 
@@ -138,8 +66,68 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.html#13"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00013] The class KStreamMap contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.html#29"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00029] For method process arguments Record&lt;KIn ,VIn &gt;  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.html#29"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00029] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.kstream.internals.KStreamMap.KStreamMapProcessor.process@POLYN148313 the MagicNumber/String  'The provided KeyValueMapper returned null which is not allowed.' should be converted to const"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/StreamJoinedInternal.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMap.java.fct.svg" 
 
 , 
 }

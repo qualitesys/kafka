@@ -1,27 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java 1 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java 1 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "NumberConverter<Integer>"
- , "c2" : "org.apache.kafka.connect.converters.IntegerConverter"
+ , "c1" : "NumberConverter<Float>"
+ , "c2" : "org.apache.kafka.connect.converters.FloatConverter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.converters.IntegerConverter" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.converters.FloatConverter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00013"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#13"
- , "c1" : "IntegerConverter"
- , "c2" : "IntegerConverter()"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.html#13"
+ , "c1" : "FloatConverter"
+ , "c2" : "FloatConverter()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.png" 
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.png" 
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.svg" }
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.svg" }
 
 ] 
 , 
@@ -69,14 +69,14 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00014"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.html#14"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.IntegerConverter.IntegerConverter@POLYN144597 the MagicNumber/String  'integer' should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.connect.converters.FloatConverter.FloatConverter@POLYN144597 the MagicNumber/String  'float' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/IntegerConverter.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.fct.svg" 
 
 , 
 }

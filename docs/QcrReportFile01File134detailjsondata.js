@@ -1,72 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java 10 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java 6 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.ScramCredentialInfo"
+ , "c2" : "org.apache.kafka.clients.admin.ReplicaInfo"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.ScramCredentialInfo" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.ReplicaInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#13"
- , "c1" : "ScramCredentialInfo"
- , "c2" : "ScramCredentialInfo(ScramMechanism;int)"
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#11"
+ , "c1" : "ReplicaInfo"
+ , "c2" : "ReplicaInfo(long;long;boolean)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#19"
- , "c1" : "ScramMechanism"
- , "c2" : "mechanism()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#24"
- , "c1" : "int"
- , "c2" : "iterations()"
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#18"
+ , "c1" : "long"
+ , "c2" : "size()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#29"
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#23"
+ , "c1" : "long"
+ , "c2" : "offsetLag()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#28"
+ , "c1" : "boolean"
+ , "c2" : "isFuture()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#33"
  , "c1" : "String"
  , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#37"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#46"
- , "c1" : "int"
- , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.svg" }
 
 ] 
 , 
@@ -114,98 +105,56 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#8"
+ , "c1" : "00005"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#5"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00008] The class ScramCredentialInfo contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00005] The class ReplicaInfo contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#30"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  'ScramCredentialInfo{' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147497 the MagicNumber/String  'ReplicaInfo(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#31"
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  'mechanism=' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147497 the MagicNumber/String  'size=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#32"
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  ', iterations=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.clients.admin.ScramCredentialInfo.toString@POLYN147495 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147497 the MagicNumber/String  ', offsetLag=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#37"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#39"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00039] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147497 the MagicNumber/String  ', isFuture=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#38"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147713 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147713 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.ScramCredentialInfo.equals@POLYN147713 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.ReplicaInfo.toString@POLYN147497 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramCredentialInfo.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ReplicaInfo.java.fct.svg" 
 
 , 
 }

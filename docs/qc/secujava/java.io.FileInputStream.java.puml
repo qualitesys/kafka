@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+"InputStream" <|-- "java.io.FileInputStream"
+class java.io.FileInputStream {
+-isRunningFinalize() : boolean [[[./../.././qc/secujava/java.io.FileInputStream.java.html#24]]]
++FileInputStream(String) : FileInputStream [[[./../.././qc/secujava/java.io.FileInputStream.java.html#32]]]
++FileInputStream(File) : FileInputStream [[[./../.././qc/secujava/java.io.FileInputStream.java.html#37]]]
++FileInputStream(FileDescriptor) : FileInputStream [[[./../.././qc/secujava/java.io.FileInputStream.java.html#52]]]
+-open(String) : void [[[./../.././qc/secujava/java.io.FileInputStream.java.html#67]]]
++read() : int [[[./../.././qc/secujava/java.io.FileInputStream.java.html#70]]]
+-readBytes(byte[];int;int) : int [[[./../.././qc/secujava/java.io.FileInputStream.java.html#73]]]
++read(byte[]) : int [[[./../.././qc/secujava/java.io.FileInputStream.java.html#76]]]
++read(byte[];int;int) : int [[[./../.././qc/secujava/java.io.FileInputStream.java.html#81]]]
++skip(long) : long [[[./../.././qc/secujava/java.io.FileInputStream.java.html#86]]]
++available() : int [[[./../.././qc/secujava/java.io.FileInputStream.java.html#89]]]
++close() : void [[[./../.././qc/secujava/java.io.FileInputStream.java.html#92]]]
++getFD() : FileDescriptor [[[./../.././qc/secujava/java.io.FileInputStream.java.html#115]]]
++getChannel() : FileChannel [[[./../.././qc/secujava/java.io.FileInputStream.java.html#121]]]
+-initIDs() : void [[[./../.././qc/secujava/java.io.FileInputStream.java.html#133]]]
+-close0() : void [[[./../.././qc/secujava/java.io.FileInputStream.java.html#135]]]
+finalize() : void [[[./../.././qc/secujava/java.io.FileInputStream.java.html#142]]]
+} 
+@enduml

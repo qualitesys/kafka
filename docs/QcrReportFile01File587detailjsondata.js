@@ -1,38 +1,47 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java 7 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java 10 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ReplicaSelector"
- , "c2" : "org.apache.kafka.common.replica.RackAwareReplicaSelector"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.replica.PartitionView"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.replica.RackAwareReplicaSelector" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.replica.PartitionView" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
- , "c1" : "Optional<ReplicaView>"
- , "c2" : "select(TopicPartition;ClientMetadata;PartitionView)"
- , "c3" : "7"
- , "c4" : "5"
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#10"
+ , "c1" : "Set<ReplicaView>"
+ , "c2" : "replicas()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#12"
+ , "c1" : "ReplicaView"
+ , "c2" : "leader()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.svg" }
 
 ] 
 , 
@@ -59,13 +68,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -76,7 +78,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -92,68 +94,82 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#11"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class RackAwareReplicaSelector contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method select arguments TopicPartition  topicPartition|ClientMetadata  clientMetadata|PartitionView  partitionView"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#14"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00014] For method select list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.replica.ReplicaView&gt; partitionView_replicasN146709"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#15"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00015] The argument clientMetadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#16"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00016] The argument partitionView is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#17"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00017] The same method call clientMetadata.rackId() is used several times, should be optimized "
+ , "c3" : "QC-JAV000008[00014] The class DefaultPartitionView contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#17"
+ , "c1" : "00034"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#34"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00034] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00017] In method org.apache.kafka.common.replica.RackAwareReplicaSelector.select@POLYN146377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000021[00036] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#35"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN146915 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN146915 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#36"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.equals@POLYN146915 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#49"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  'DefaultPartitionView{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  'replicas=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#51"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  ', leader=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.replica.PartitionView.DefaultPartitionView.toString@POLYN147690 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/PartitionView.java.fct.svg" 
 
 , 
 }

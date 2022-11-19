@@ -1,74 +1,74 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractOptions<DescribeConfigsOptions>"
- , "c2" : "org.apache.kafka.clients.admin.DescribeConfigsOptions"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeClusterResult"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConfigsOptions" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeClusterResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#18"
- , "c1" : "DescribeConfigsOptions"
- , "c2" : "timeoutMs(Integer)"
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#21"
+ , "c1" : "DescribeClusterResult"
+ , "c2" : "DescribeClusterResult(KafkaFuture<Collection<Node>>;KafkaFuture<Node>;KafkaFuture<String>;KafkaFuture<Set<AclOperation>>)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#24"
- , "c1" : "boolean"
- , "c2" : "includeSynonyms()"
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#32"
+ , "c1" : "KafkaFuture<Collection<Node>>"
+ , "c2" : "nodes()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#29"
- , "c1" : "boolean"
- , "c2" : "includeDocumentation()"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#37"
+ , "c1" : "KafkaFuture<Node>"
+ , "c2" : "controller()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#34"
- , "c1" : "DescribeConfigsOptions"
- , "c2" : "includeSynonyms(boolean)"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#42"
+ , "c1" : "KafkaFuture<String>"
+ , "c2" : "clusterId()"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#40"
- , "c1" : "DescribeConfigsOptions"
- , "c2" : "includeDocumentation(boolean)"
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#47"
+ , "c1" : "KafkaFuture<Set<AclOperation>>"
+ , "c2" : "authorizedOperations()"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.svg" }
 
 ] 
 , 
@@ -95,38 +95,24 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#18"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method timeoutMs arguments Integer  timeoutMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method includeSynonyms arguments boolean  includeSynonyms"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method includeDocumentation arguments boolean  includeDocumentation"
+ , "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.html#15"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00015] The class DescribeClusterResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConfigsOptions.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterResult.java.fct.svg" 
 
 , 
 }

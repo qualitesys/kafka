@@ -1,99 +1,171 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java 12 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.xml" 
+   "fic1"  : "./qc/secujava/java.io.FileOutputStream.java.html" 
+ , "texte" : "File secujava/java.io.FileOutputStream.java 35 rule violations " 
+ , "fic2"  : "./qc/secujava/java.io.FileOutputStream.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.common.ProducerIdsBlock"
+ , "c1" : "OutputStream"
+ , "c2" : "java.io.FileOutputStream"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.common.ProducerIdsBlock" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.io.FileOutputStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#17"
- , "c1" : "ProducerIdsBlock"
- , "c2" : "ProducerIdsBlock(int;long;int)"
- , "c3" : "1"
+ , "c5" : "00023"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#23"
+ , "c1" : "boolean"
+ , "c2" : "isRunningFinalize()"
+ , "c3" : "2"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#24"
- , "c1" : "int"
- , "c2" : "assignedBrokerId()"
+ , "c5" : "00031"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#31"
+ , "c1" : "FileOutputStream"
+ , "c2" : "FileOutputStream(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#29"
- , "c1" : "long"
- , "c2" : "firstProducerId()"
+ , "c5" : "00036"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#36"
+ , "c1" : "FileOutputStream"
+ , "c2" : "FileOutputStream(String;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#34"
- , "c1" : "int"
- , "c2" : "size()"
+ , "c5" : "00043"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#43"
+ , "c1" : "FileOutputStream"
+ , "c2" : "FileOutputStream(File)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#39"
- , "c1" : "long"
- , "c2" : "lastProducerId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#44"
- , "c1" : "long"
- , "c2" : "nextBlockFirstId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#49"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
+ , "c5" : "00048"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#48"
+ , "c1" : "FileOutputStream"
+ , "c2" : "FileOutputStream(File;boolean)"
  , "c3" : "3"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#65"
+ , "c1" : "FileOutputStream"
+ , "c2" : "FileOutputStream(FileDescriptor)"
+ , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#80"
+ , "c1" : "void"
+ , "c2" : "open(String;boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#84"
+ , "c1" : "void"
+ , "c2" : "write(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#87"
+ , "c1" : "void"
+ , "c2" : "writeBytes(byte[];int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#90"
+ , "c1" : "void"
+ , "c2" : "write(byte[])"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00095"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#95"
+ , "c1" : "void"
+ , "c2" : "write(byte[];int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00100"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#100"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "4"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00124"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#124"
+ , "c1" : "FileDescriptor"
+ , "c2" : "getFD()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00130"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#130"
+ , "c1" : "FileChannel"
+ , "c2" : "getChannel()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00143"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#143"
+ , "c1" : "void"
+ , "c2" : "finalize()"
+ , "c3" : "4"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#66"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c5" : "00160"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#160"
+ , "c1" : "void"
+ , "c2" : "close0()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00162"
+ , "c5link" : "././qc/secujava/java.io.FileOutputStream.java.html#162"
+ , "c1" : "void"
+ , "c2" : "initIDs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,9 +174,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.png" 
+   {"ligne" : "./qc/secujava/java.io.FileOutputStream.java.png" 
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.io.FileOutputStream.java.svg" }
 
 ] 
 , 
@@ -129,11 +201,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:java.io.FileOutputStream.closeLock" }
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c2" : "QC-JAVCWE481"
+ , "c3" : "Assigning instead of comparing"
  , "c4" : "1"
 }}
 ,
@@ -141,112 +237,273 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#8"
+ , "c1" : "00025"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00008] The class ProducerIdsBlock contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAVCWE481[00025] Assigning instead of comparing on val=runningFinalize.get() (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#40"
+ , "c1" : "00025"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.server.common.ProducerIdsBlock.lastProducerId@POLYN150486 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method java.io.FileOutputStream.isRunningFinalize@POLYN222421 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#50"
+ , "c1" : "00027"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  'ProducerIdsBlock(' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method java.io.FileOutputStream.isRunningFinalize@POLYN222421 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method java.io.FileOutputStream.FileOutputStream@POLYN223427 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method java.io.FileOutputStream.FileOutputStream@POLYN223427 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method java.io.FileOutputStream.FileOutputStream@POLYN223427 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#39"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00039] In method java.io.FileOutputStream.FileOutputStream@POLYN224632 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#39"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00039] In method java.io.FileOutputStream.FileOutputStream@POLYN224632 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#44"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00044] In method java.io.FileOutputStream.FileOutputStream@POLYN225770 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#51"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  'assignedBrokerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method java.io.FileOutputStream.FileOutputStream@POLYN226984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#52"
+ , "c1" : "00051"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ', firstProducerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method java.io.FileOutputStream.FileOutputStream@POLYN226984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#53"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ', size=' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method java.io.FileOutputStream.FileOutputStream@POLYN226984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#54"
+ , "c1" : "00056"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method java.io.FileOutputStream.FileOutputStream@POLYN226984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58"
+ , "c1" : "00067"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method java.io.FileOutputStream.FileOutputStream@POLYN228587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method java.io.FileOutputStream.FileOutputStream@POLYN228587 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00080] For method open arguments String  name|boolean  append"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00060] The same method call o.getClass() is used several times, should be optimized "
+ , "c1" : "00084"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#84"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00084] For method write arguments int  b"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00087"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#87"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00087] For method writeBytes arguments byte[]  b|int  off|int  len"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00090"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#90"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00090] For method write arguments byte[]  b"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
+ , "c1" : "00091"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method java.io.FileOutputStream.write@POLYN230202 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#95"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00095] For method write arguments byte[]  b|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#101"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00101] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00105] In method java.io.FileOutputStream.close@POLYN231176 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method java.io.FileOutputStream.close@POLYN231176 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00118] In method java.io.FileOutputStream.close@POLYN231176 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method java.io.FileOutputStream.getFD@POLYN232337 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#131"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00131] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method java.io.FileOutputStream.getChannel@POLYN233087 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method java.io.FileOutputStream.getChannel@POLYN233087 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method java.io.FileOutputStream.getChannel@POLYN233087 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#144"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00144] In method java.io.FileOutputStream.finalize@POLYN233840 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.FileOutputStream.close@POLYN231176"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00105] In the recursive method java.io.FileOutputStream.close@POLYN231176 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00108] In the recursive method java.io.FileOutputStream.close@POLYN231176 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#118"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00118] In the recursive method java.io.FileOutputStream.close@POLYN231176 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.io.FileOutputStream.java.fct.svg" 
 
 , 
 }

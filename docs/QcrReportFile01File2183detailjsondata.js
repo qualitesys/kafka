@@ -1,56 +1,92 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java 14 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java 7 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskWorker"
- , "c2" : "org.apache.kafka.trogdor.task.NoOpTaskWorker"
+ , "c1" : "TaskSpec"
+ , "c2" : "org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.task.NoOpTaskWorker" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#18"
- , "c1" : "NoOpTaskWorker"
- , "c2" : "NoOpTaskWorker(String)"
+ , "c5" : "00023"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#23"
+ , "c1" : "FilesUnreadableFaultSpec"
+ , "c2" : "FilesUnreadableFaultSpec(long;long;Set<String>;String;String;int)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#37"
+ , "c1" : "Set<String>"
+ , "c2" : "nodeNames()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23"
- , "c1" : "void"
- , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
+ , "c5" : "00042"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#42"
+ , "c1" : "String"
+ , "c2" : "mountPath()"
  , "c3" : "1"
- , "c4" : "3"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#31"
- , "c1" : "void"
- , "c2" : "stop(Platform)"
+ , "c5" : "00047"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#47"
+ , "c1" : "String"
+ , "c2" : "prefix()"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#52"
+ , "c1" : "int"
+ , "c2" : "errorCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#57"
+ , "c1" : "TaskController"
+ , "c2" : "newController(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#62"
+ , "c1" : "TaskWorker"
+ , "c2" : "newTaskWorker(String)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.svg" }
 
 ] 
 , 
@@ -75,49 +111,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -130,106 +129,57 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#11"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class NoOpTaskWorker contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#23"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String  '{}: Activating NoOpTask.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String  'active' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#31"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.fault.FilesUnreadableFaultSpec.FilesUnreadableFaultSpec@POLYN149280 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method stop arguments Platform  platform"
+ , "c3" : "QC-JAV000006[00057] For method newController arguments String  id"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String  '{}: Deactivating NoOpTask.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String  'done' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#25"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00025] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String '{}: Activating NoOpTask.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#27"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00027] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.start@POLYN144849 the MagicNumber/String 'active' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#32"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00032] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String '{}: Deactivating NoOpTask.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.html#33"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00033] In the recursive method org.apache.kafka.trogdor.task.NoOpTaskWorker.stop@POLYN145289 the MagicNumber/String 'done' MUST BE CONVERTED to const"
+ , "c1" : "00062"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.html#62"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00062] For method newTaskWorker arguments String  id"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskWorker.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/FilesUnreadableFaultSpec.java.fct.svg" 
 
 , 
 }

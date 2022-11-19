@@ -1,74 +1,164 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java 10 rule violations " 
- , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.xml" 
+   "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html" 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java 13 rule violations " 
+ , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "DefaultReplicationPolicy"
- , "c2" : "org.apache.kafka.connect.mirror.IdentityReplicationPolicy"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.mirror.Heartbeat"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.mirror.IdentityReplicationPolicy" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.mirror.Heartbeat" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#18"
- , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
- , "c3" : "2"
+ , "c5" : "00036"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#36"
+ , "c1" : "Heartbeat"
+ , "c2" : "Heartbeat(String;String;long)"
+ , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#28"
+ , "c5" : "00042"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#42"
  , "c1" : "String"
- , "c2" : "formatRemoteTopic(String;String)"
- , "c3" : "3"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#38"
- , "c1" : "String"
- , "c2" : "topicSource(String)"
- , "c3" : "3"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#48"
- , "c1" : "String"
- , "c2" : "upstreamTopic(String)"
- , "c3" : "3"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#56"
- , "c1" : "boolean"
- , "c2" : "looksLikeHeartbeat(String)"
+ , "c2" : "sourceClusterAlias()"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#46"
+ , "c1" : "String"
+ , "c2" : "targetClusterAlias()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#50"
+ , "c1" : "long"
+ , "c2" : "timestamp()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#55"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#60"
+ , "c1" : "ByteBuffer"
+ , "c2" : "serializeValue(short)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#71"
+ , "c1" : "ByteBuffer"
+ , "c2" : "serializeKey()"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00079"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#79"
+ , "c1" : "Heartbeat"
+ , "c2" : "deserializeRecord(ConsumerRecord<byte[],byte[]>)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#91"
+ , "c1" : "Struct"
+ , "c2" : "headerStruct(short)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#97"
+ , "c1" : "Struct"
+ , "c2" : "valueStruct(Schema)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00103"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#103"
+ , "c1" : "Struct"
+ , "c2" : "keyStruct()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#110"
+ , "c1" : "Map<String,?>"
+ , "c2" : "connectPartition()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#117"
+ , "c1" : "byte[]"
+ , "c2" : "recordKey()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00121"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#121"
+ , "c1" : "byte[]"
+ , "c2" : "recordValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#125"
+ , "c1" : "Schema"
+ , "c2" : "valueSchema(short)"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.png" 
+   {"ligne" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.png" 
 
- , "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.svg" }
+ , "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.svg" }
 
 ] 
 , 
@@ -104,13 +194,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -121,6 +204,13 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -137,82 +227,110 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#18"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00018] For method configure arguments Map&lt;String ,? &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#18"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00018] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#22"
+ , "c1" : "00015"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN151802 the MagicNumber/String  'Using source cluster alias `{}`.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method formatRemoteTopic arguments String  sourceClusterAlias|String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method topicSource arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method upstreamTopic arguments String  topic"
+ , "c3" : "QC-JAV000008[00015] The class Heartbeat contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method looksLikeHeartbeat arguments String  topic"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#56"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.Heartbeat.toString@POLYN160695 the MagicNumber/String  'Heartbeat{sourceClusterAlias=%s, targetClusterAlias=%s, timestamp=%d}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#57"
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#60"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00060] For method serializeValue arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#60"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00060] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN161066|org.apache.kafka.common.protocol.types.Struct valueStructN161152"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN161751"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00079] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#79"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00079] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN162372|Short headerStruct_getShortN162466|org.apache.kafka.common.protocol.types.Schema valueSchemaN162560|Long valueStruct_getLongN162685|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN162779|String keyStruct_getStringN162932|String keyStruct_getStringN163026"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#79"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00079] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method headerStruct arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#97"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00097] For method valueStruct arguments Schema  schema"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#125"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00125] For method valueSchema arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.looksLikeHeartbeat@POLYN153629 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.mirror.Heartbeat.valueSchema@POLYN164847 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#1"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN151802"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.html#22"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00022] In the recursive method org.apache.kafka.connect.mirror.IdentityReplicationPolicy.configure@POLYN151802 the MagicNumber/String 'Using source cluster alias `{}`.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Heartbeat.connectPartition@POLYN164192"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/IdentityReplicationPolicy.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.fct.svg" 
 
 , 
 }

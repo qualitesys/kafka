@@ -1,236 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java 23 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java 18 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TransportLayer"
- , "c2" : "org.apache.kafka.common.network.PlaintextTransportLayer"
+ , "c1" : "ChannelBuilder"
+ , "c2" : "org.apache.kafka.common.network.PlaintextChannelBuilder"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.network.PlaintextTransportLayer" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.network.PlaintextChannelBuilder" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#21"
- , "c1" : "PlaintextTransportLayer"
- , "c2" : "PlaintextTransportLayer(SelectionKey)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#27"
- , "c1" : "boolean"
- , "c2" : "ready()"
+ , "c5" : "00028"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#28"
+ , "c1" : "PlaintextChannelBuilder"
+ , "c2" : "PlaintextChannelBuilder(ListenerName)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#32"
- , "c1" : "boolean"
- , "c2" : "finishConnect()"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#40"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#32"
  , "c1" : "void"
- , "c2" : "disconnect()"
+ , "c2" : "configure(Map<String,?>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#45"
- , "c1" : "SocketChannel"
- , "c2" : "socketChannel()"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#37"
+ , "c1" : "KafkaChannel"
+ , "c2" : "buildChannel(String;SelectionKey;int;MemoryPool;ChannelMetadataRegistry)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00051"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#51"
+ , "c1" : "KafkaChannel"
+ , "c2" : "buildChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#50"
- , "c1" : "SelectionKey"
- , "c2" : "selectionKey()"
+ , "c5" : "00056"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#56"
+ , "c1" : "PlaintextTransportLayer"
+ , "c2" : "buildTransportLayer(SelectionKey)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#55"
- , "c1" : "boolean"
- , "c2" : "isOpen()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#60"
- , "c1" : "boolean"
- , "c2" : "isConnected()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#65"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
  , "c1" : "void"
  , "c2" : "close()"
  , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#72"
- , "c1" : "void"
- , "c2" : "handshake()"
- , "c3" : "1"
  , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#76"
- , "c1" : "int"
- , "c2" : "read(ByteBuffer)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#82"
- , "c1" : "long"
- , "c2" : "read(ByteBuffer[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#88"
- , "c1" : "long"
- , "c2" : "read(ByteBuffer[];int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#94"
- , "c1" : "int"
- , "c2" : "write(ByteBuffer)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#100"
- , "c1" : "long"
- , "c2" : "write(ByteBuffer[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#106"
- , "c1" : "long"
- , "c2" : "write(ByteBuffer[];int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#112"
- , "c1" : "boolean"
- , "c2" : "hasPendingWrites()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#118"
- , "c1" : "Principal"
- , "c2" : "peerPrincipal()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#124"
- , "c1" : "void"
- , "c2" : "addInterestOps(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#131"
- , "c1" : "void"
- , "c2" : "removeInterestOps(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#136"
- , "c1" : "boolean"
- , "c2" : "isMute()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00141"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#141"
- , "c1" : "boolean"
- , "c2" : "hasBytesBuffered()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00146"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#146"
- , "c1" : "long"
- , "c2" : "transferFrom(FileChannel;long;long)"
- , "c3" : "1"
- , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.svg" }
 
 ] 
 , 
@@ -255,238 +102,173 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
  , "c3" : "You must segregate your interface"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#16"
+ , "c1" : "00022"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00016] The class PlaintextTransportLayer contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#21"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00021] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.network.PlaintextTransportLayer.ready@POLYN171195 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000008[00022] The class PlaintextChannelBuilder contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#32"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method finishConnect list of called methods Object monObjet|boolean socketChannel_finishConnectN171384"
+ , "c3" : "QC-JAV000006[00032] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#76"
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method read arguments ByteBuffer  dst"
+ , "c3" : "QC-JAV000006[00037] For method buildChannel arguments String  id|SelectionKey  key|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#43"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157035 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#45"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.PlaintextChannelBuilder.buildChannel@POLYN157035 the MagicNumber/String  'Failed to create channel due to ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#51"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00051] For method buildChannel arguments String  id|TransportLayer  transportLayer|Supplier&lt;Authenticator &gt;  authenticatorCreator|int  maxReceiveSize|MemoryPool  memoryPool|ChannelMetadataRegistry  metadataRegistry"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#56"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00056] For method buildTransportLayer arguments SelectionKey  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00063] The class PlaintextAuthenticator contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN158764 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.PlaintextAuthenticator@POLYN158764 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN159264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method read arguments ByteBuffer[]  dsts"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method read arguments ByteBuffer[]  dsts|int  offset|int  length"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method write arguments ByteBuffer  src"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#100"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method write arguments ByteBuffer[]  srcs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#106"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method write arguments ByteBuffer[]  srcs|int  offset|int  length"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.network.PlaintextTransportLayer.hasPendingWrites@POLYN175603 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.principal@POLYN159264 the MagicNumber/String  'Unexpected call to principal() when listenerName is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method addInterestOps arguments int  ops"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method removeInterestOps arguments int  ops"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#137"
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.network.PlaintextTransportLayer.isMute@POLYN176305 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.complete@POLYN159988 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#142"
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.network.PlaintextTransportLayer.hasBytesBuffered@POLYN176543 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator.close@POLYN160082 the MagicNumber/String  'principal builder' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#146"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00146] For method transferFrom arguments FileChannel  fileChannel|long  position|long  count"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#146"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00146] The argument fileChannel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#72"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00072] Void method handshake is empty or contains only a return."
+ , "c3" : "QC-JAV000005[00075] Void method authenticate is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#72"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00072] Void method handshake is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAV000004[00075] Void method authenticate is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.close@POLYN172217"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00061] Void method close is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect@POLYN171297"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.isConnected@POLYN172105"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.isOpen@POLYN171985"
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00061] Void method close is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.fct.svg" 
 
 , 
 }

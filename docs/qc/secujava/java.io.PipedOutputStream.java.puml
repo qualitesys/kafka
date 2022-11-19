@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+"OutputStream" <|-- "java.io.PipedOutputStream"
+class java.io.PipedOutputStream {
++PipedOutputStream(PipedInputStream) : PipedOutputStream [[[./../.././qc/secujava/java.io.PipedOutputStream.java.html#15]]]
++PipedOutputStream() : PipedOutputStream [[[./../.././qc/secujava/java.io.PipedOutputStream.java.html#20]]]
++connect(PipedInputStream) : void [[[./../.././qc/secujava/java.io.PipedOutputStream.java.html#24]]]
++write(int) : void [[[./../.././qc/secujava/java.io.PipedOutputStream.java.html#37]]]
++write(byte[];int;int) : void [[[./../.././qc/secujava/java.io.PipedOutputStream.java.html#45]]]
++flush() : void [[[./../.././qc/secujava/java.io.PipedOutputStream.java.html#60]]]
++close() : void [[[./../.././qc/secujava/java.io.PipedOutputStream.java.html#69]]]
+} 
+@enduml

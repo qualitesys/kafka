@@ -1,38 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.utils.PrimitiveRef"
+ , "c2" : "org.apache.kafka.common.utils.OperatingSystem"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.utils.PrimitiveRef" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.utils.OperatingSystem" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6"
- , "c1" : "IntRef"
- , "c2" : "ofInt(int)"
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.html#8"
+ , "c1" : "OperatingSystem"
+ , "c2" : "OperatingSystem()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "0"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.svg" }
 
 ] 
 , 
@@ -60,58 +60,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE493"
- , "c3" : "Critical public variable without final modifier"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00005"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#5"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00005] The class PrimitiveRef contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#6"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00006] For method ofInt arguments int  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#10"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.html#6"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class IntRef contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.html#11"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE493[00011] Critical public variable without final modifier (see http://cwe.mitre.org/data/definitions/493.html)"
+ , "c3" : "QC-JAV000008[00006] The class OperatingSystem contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PrimitiveRef.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/OperatingSystem.java.fct.svg" 
 
 , 
 }

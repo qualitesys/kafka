@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+"Writer" <|-- "java.io.PipedWriter"
+class java.io.PipedWriter {
++PipedWriter(PipedReader) : PipedWriter [[[./../.././qc/secujava/java.io.PipedWriter.java.html#17]]]
++PipedWriter() : PipedWriter [[[./../.././qc/secujava/java.io.PipedWriter.java.html#22]]]
++connect(PipedReader) : void [[[./../.././qc/secujava/java.io.PipedWriter.java.html#26]]]
++write(int) : void [[[./../.././qc/secujava/java.io.PipedWriter.java.html#42]]]
++write(char[];int;int) : void [[[./../.././qc/secujava/java.io.PipedWriter.java.html#50]]]
++flush() : void [[[./../.././qc/secujava/java.io.PipedWriter.java.html#60]]]
++close() : void [[[./../.././qc/secujava/java.io.PipedWriter.java.html#72]]]
+} 
+@enduml

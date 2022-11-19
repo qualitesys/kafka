@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+"ServletResponse" <|-- "javax.servlet.http.HttpServletResponse"
+class javax.servlet.http.HttpServletResponse {
++addCookie(Cookie) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#19]]]
++containsHeader(String) : boolean [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#23]]]
++encodeURL(String) : String [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#27]]]
++encodeRedirectURL(String) : String [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#31]]]
++encodeUrl(String) : String [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#35]]]
++encodeRedirectUrl(String) : String [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#39]]]
++sendError(int;String) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#43]]]
++sendError(int) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#47]]]
++sendRedirect(String) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#51]]]
++setDateHeader(String;long) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#55]]]
++addDateHeader(String;long) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#59]]]
++setHeader(String;String) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#63]]]
++addHeader(String;String) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#67]]]
++setIntHeader(String;int) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#71]]]
++addIntHeader(String;int) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#75]]]
++setStatus(int) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#81]]]
++setStatus(int;String) : void [[[./../.././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#85]]]
+} 
+@enduml

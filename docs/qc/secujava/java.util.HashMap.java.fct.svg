@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:977px;height:544px;background:#000000;" version="1.1" viewBox="0 0 977 544" width="977px" zoomAndPan="magnify"><defs/><g><rect fill="#1E1C01" height="1" style="stroke:#1E1C01;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="579" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="178" x="6" y="41.9688">[From string (line 86) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="111.1563">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="127.4531">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="379" x="5" y="143.75">constructor Node(inthash,Kkey,Vvalue,Node&lt;K,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="160.0469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="5" y="176.3438">... ( skipping 61 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="192.6406">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="208.9375">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="225.2344">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="5" y="241.5313">inthash(Objectkey)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="257.8281">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="447" x="5" y="274.125">:return (key==null )? 0:(h=key.hashCode())^(h&gt;&gt;&gt;16);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="290.4219">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="306.7188">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="323.0156">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="339.3125">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="311" x="5" y="355.6094">Class&lt;? &gt;comparableClassFor(Objectx)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="371.9063">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="309" x="5" y="388.2031">if (x instanceof Comparable) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="361" x="5" y="404.5">if ((c=x.getClass())==String.class ) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="5" y="420.7969">:return c;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="437.0938">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="453.3906">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="397" x="5" y="469.6875">if ((ts=c.getGenericInterfaces())!=null ) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="485.9844">:++i;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="579" x="5" y="502.2813">if (((t=ts[i]) instanceof ParameterizedType)&amp;&amp;((p=(ParameterizedType)t)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="960" x="5" y="518.5781">.getRawType()==Comparable.class )&amp;&amp;(as=p.getActualTypeArguments())!=null &amp;&amp;as.length==1&amp;&amp;as[0]==c) then (yes)</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="534.875">Syntax Error?</text><!--MD5=[106b89f2ff92f078faf3bff5459fdd27]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor Node(inthash,Kkey,Vvalue,Node<K,
+V>next)
+end note
+:this.hash=hash;
+:this.key=key;
+:this.value=value;
+:this.next=next;
+end
+start
+note right
+KgetKey()
+end note
+:return key;;
+stop
+end
+start
+note right
+VgetValue()
+end note
+:return value;;
+stop
+end
+start
+note right
+StringtoString()
+end note
+:return key+"="+value;;
+stop
+end
+start
+note right
+inthashCode()
+end note
+:return Objects.hashCode(key)^Objects.hashCode(value);;
+stop
+end
+start
+note right
+VsetValue(VnewValue)
+end note
+:value=newValue;
+:return oldValue;;
+stop
+end
+start
+note right
+booleanequals(Objecto)
+end note
+if (o==this) then (yes) 
+:return true;;
+stop
+endif 
+if (o instanceof Map.Entry) then (yes) 
+if (Objects.equals(key,e.getKey())&&Objects.equals(value,
+e.getValue())) then (yes) 
+:return true;;
+stop
+endif 
+endif 
+:return false;;
+stop
+end
+start
+note right
+inthash(Objectkey)
+end note
+:return (key==null )? 0:(h=key.hashCode())^(h>>>16);;
+stop
+end
+start
+note right
+Class<? >comparableClassFor(Objectx)
+end note
+if (x instanceof Comparable) then (yes) 
+if ((c=x.getClass())==String.class ) then (yes) 
+:return c;;
+stop
+endif 
+if ((ts=c.getGenericInterfaces())!=null ) then (yes) 
+:++i;
+if (((t=ts[i]) instanceof ParameterizedType)&&((p=(ParameterizedType)t)
+.getRawType()==Comparable.class )&&(as=p.getActualTypeArguments())!=null &&as.length==1&&as[0]==c) then (yes) 
+:return c;;
+stop
+endif 
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+intcompareComparables(Class<? >kc,Objectk,
+Objectx)
+end note
+:return (x==null ||x.getClass()!=kc? 0:((Comparable)k)
+.compareTo(x));;
+stop
+end
+start
+note right
+inttableSizeFor(intcap)
+end note
+:n|=n>>>1;
+:n|=n>>>2;
+:n|=n>>>4;
+:n|=n>>>8;
+:n|=n>>>16;
+:return (n<0)? 1:(n>=MAXIMUM_CAPACITY)? MAXIMUM_CAPACITY:n+1;;
+stop
+end
+start
+note right
+constructor HashMap(intinitialCapacity,floatloadFactor)
+end note
+if (initialCapacity<0) then (yes) 
+:throw new IllegalArgumentException("Illegal initial capacity: "+
+initialCapacity);;
+endif 
+if (initialCapacity>MAXIMUM_CAPACITY) then (yes) 
+:initialCapacity=MAXIMUM_CAPACITY;
+endif 
+if (loadFactor<=0||Float.isNaN(loadFactor)) then (yes) 
+:throw new IllegalArgumentException("Illegal load factor: "+
+loadFactor);;
+endif 
+:this.loadFactor=loadFactor;
+:this.threshold=tableSizeFor(initialCapacity);
+end
+start
+note right
+constructor HashMap(intinitialCapacity)
+end note
+:this(initialCapacity,DEFAULT_LOAD_FACTOR);
+end
+start
+note right
+constructor HashMap()
+end note
+:this.loadFactor=DEFAULT_LOAD_FACTOR;
+end
+start
+note right
+constructor HashMap(Map<?  extends K,?  extends V>m)
+end note
+:this.loadFactor=DEFAULT_LOAD_FACTOR;
+:putMapEntries(m,false);
+end
+start
+note right
+void putMapEntries(Map<?  extends K,?  extends V>m,
+booleanevict)
+end note
+if (s>0) then (yes) 
+if (table==null ) then (yes) 
+if (t>threshold) then (yes) 
+:threshold=tableSizeFor(t);
+endif 
+endif 
+:putVal(hash(key),key,value,false,evict);
+endif 
+end
+start
+note right
+intsize()
+end note
+:return size;;
+stop
+end
+start
+note right
+booleanisEmpty()
+end note
+:return size==0;;
+stop
+end
+start
+note right
+Vget(Objectkey)
+end note
+:return (e=getNode(hash(key),key))==null ? null :e.value;;
+stop
+end
+start
+note right
+Node<K,V>getNode(inthash,Objectkey)
+end note
+if ((tab=table)!=null &&(n=tab.length)>0&&(first=tab[(n-1)&hash])!=null ) then (yes) 
+if (first.hash==hash&&((k=first.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+:return first;;
+stop
+endif 
+if ((e=first.next)!=null ) then (yes) 
+if (first instanceof TreeNode) then (yes) 
+:return ((TreeNode<K,V>)first).getTreeNode(hash,
+key);;
+stop
+endif 
+repeat
+if (e.hash==hash&&((k=e.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+:return e;;
+stop
+endif 
+repeat while ((e=e.next)!=null )
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+booleancontainsKey(Objectkey)
+end note
+:return getNode(hash(key),key)!=null ;;
+stop
+end
+start
+note right
+Vput(Kkey,Vvalue)
+end note
+:return putVal(hash(key),key,value,false,
+true);;
+stop
+end
+start
+note right
+VputVal(inthash,Kkey,Vvalue,booleanonlyIfAbsent,
+booleanevict)
+end note
+if ((tab=table)==null ||(n=tab.length)==0) then (yes) 
+:n=(tab=resize()).length;
+endif 
+if ((p=tab[i=(n-1)&hash])==null ) then (yes) 
+:tab[i]=newNode(hash,key,value,null );
+else (no)
+if (p.hash==hash&&((k=p.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+:e=p;
+else (no)
+:++binCount;
+if ((e=p.next)==null ) then (yes) 
+:p.next=newNode(hash,key,value,null );
+if (binCount>=TREEIFY_THRESHOLD-1) then (yes) 
+:treeifyBin(tab,hash);
+endif 
+endif 
+if (e.hash==hash&&((k=e.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+endif 
+:p=e;
+endif 
+if (e!=null ) then (yes) 
+if (!onlyIfAbsent||oldValue==null ) then (yes) 
+:e.value=value;
+endif 
+:afterNodeAccess(e);
+:return oldValue;;
+stop
+endif 
+endif 
+:++modCount;
+if (++size>threshold) then (yes) 
+:resize();
+endif 
+:afterNodeInsertion(evict);
+:return null ;;
+stop
+end
+start
+note right
+Node<K,V>[]resize()
+end note
+if (oldCap>0) then (yes) 
+if (oldCap>=MAXIMUM_CAPACITY) then (yes) 
+:threshold=Integer.MAX_VALUE;
+:return oldTab;;
+stop
+endif 
+else (no)
+:newCap=DEFAULT_INITIAL_CAPACITY;
+:newThr=(int)(DEFAULT_LOAD_FACTOR*DEFAULT_INITIAL_CAPACITY);
+endif 
+if (newThr==0) then (yes) 
+:newThr=(newCap<MAXIMUM_CAPACITY&&ft<(float)MAXIMUM_CAPACITY? (int)ft:Integer.MAX_VALUE);
+endif 
+:threshold=newThr;
+:table=newTab;
+if (oldTab!=null ) then (yes) 
+:++j;
+if ((e=oldTab[j])!=null ) then (yes) 
+:oldTab[j]=null ;
+if (e.next==null ) then (yes) 
+:newTab[e.hash&(newCap-1)]=e;
+else (no)
+repeat
+:next=e.next;
+if ((e.hash&oldCap)==0) then (yes) 
+if (loTail==null ) then (yes) 
+:loHead=e;
+else (no)
+:loTail.next=e;
+endif 
+:loTail=e;
+else (no)
+if (hiTail==null ) then (yes) 
+:hiHead=e;
+else (no)
+:hiTail.next=e;
+endif 
+:hiTail=e;
+endif 
+repeat while ((e=next)!=null )
+if (loTail!=null ) then (yes) 
+:loTail.next=null ;
+:newTab[j]=loHead;
+endif 
+if (hiTail!=null ) then (yes) 
+:hiTail.next=null ;
+:newTab[j+oldCap]=hiHead;
+endif 
+endif 
+endif 
+endif 
+:return newTab;;
+stop
+end
+start
+note right
+void treeifyBin(Node<K,V>[]tab,inthash)
+end note
+if (tab==null ||(n=tab.length)<MIN_TREEIFY_CAPACITY) then (yes) 
+:resize();
+endif 
+end
+start
+note right
+void putAll(Map<?  extends K,?  extends V>m)
+end note
+:putMapEntries(m,true);
+end
+start
+note right
+Vremove(Objectkey)
+end note
+:return (e=removeNode(hash(key),key,null ,
+false,true))==null ? null :e.value;;
+stop
+end
+start
+note right
+Node<K,V>removeNode(inthash,Objectkey,Objectvalue,
+booleanmatchValue,booleanmovable)
+end note
+if ((tab=table)!=null &&(n=tab.length)>0&&(p=tab[index=(n-1)&hash])!=null ) then (yes) 
+if (p.hash==hash&&((k=p.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+:node=p;
+endif 
+if (node!=null &&(!matchValue||(v=node.value)==value||(value!=null &&value.equals(v)))) then (yes) 
+if (node instanceof TreeNode) then (yes) 
+:((TreeNode<K,V>)node).removeTreeNode(this,
+tab,movable);
+else (no)
+:p.next=node.next;
+endif 
+:++modCount;
+:- -size;
+:afterNodeRemoval(node);
+:return node;;
+stop
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+void clear()
+end note
+:modCount++;
+if ((tab=table)!=null &&size>0) then (yes) 
+:size=0;
+:++i;
+:tab[i]=null ;
+endif 
+end
+start
+note right
+booleancontainsValue(Objectvalue)
+end note
+if ((tab=table)!=null &&size>0) then (yes) 
+:++i;
+:Node<K;
+:V>e=tab[i];
+:e=e.next;
+if ((v=e.value)==value||(value!=null &&value.equals(v))) then (yes) 
+:return true;;
+stop
+endif 
+endif 
+:return false;;
+stop
+end
+start
+note right
+Set<K>keySet()
+end note
+if (ks==null ) then (yes) 
+:ks=new KeySet();
+:keySet=ks;
+endif 
+:return ks;;
+stop
+end
+start
+note right
+intsize()
+end note
+:return size;;
+stop
+end
+start
+note right
+void clear()
+end note
+:HashMap.this.clear();
+end
+start
+note right
+Iterator<K>iterator()
+end note
+:return new KeyIterator();;
+stop
+end
+start
+note right
+booleancontains(Objecto)
+end note
+:return containsKey(o);;
+stop
+end
+start
+note right
+booleanremove(Objectkey)
+end note
+:return removeNode(hash(key),key,null ,false,
+true)!=null ;;
+stop
+end
+start
+note right
+Spliterator<K>spliterator()
+end note
+:return new KeySpliterator<>(HashMap.this,
+0,-1,0,0);;
+stop
+end
+start
+note right
+void forEach(Consumer<? super K>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>0&&(tab=table)!=null ) then (yes) 
+:++i;
+:Node<K;
+:V>e=tab[i];
+:e=e.next;
+:action.accept(e.key);
+if (modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+Collection<V>values()
+end note
+if (vs==null ) then (yes) 
+:vs=new Values();
+:values=vs;
+endif 
+:return vs;;
+stop
+end
+start
+note right
+intsize()
+end note
+:return size;;
+stop
+end
+start
+note right
+void clear()
+end note
+:HashMap.this.clear();
+end
+start
+note right
+Iterator<V>iterator()
+end note
+:return new ValueIterator();;
+stop
+end
+start
+note right
+booleancontains(Objecto)
+end note
+:return containsValue(o);;
+stop
+end
+start
+note right
+Spliterator<V>spliterator()
+end note
+:return new ValueSpliterator<>(HashMap.this,
+0,-1,0,0);;
+stop
+end
+start
+note right
+void forEach(Consumer<? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>0&&(tab=table)!=null ) then (yes) 
+:++i;
+:Node<K;
+:V>e=tab[i];
+:e=e.next;
+:action.accept(e.value);
+if (modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+Set<Map.Entry<K,V>>entrySet()
+end note
+:return (es=entrySet)==null ? (entrySet=new EntrySet()):es;;
+stop
+end
+start
+note right
+intsize()
+end note
+:return size;;
+stop
+end
+start
+note right
+void clear()
+end note
+:HashMap.this.clear();
+end
+start
+note right
+Iterator<Map.Entry<K,V>>iterator()
+end note
+:return new EntryIterator();;
+stop
+end
+start
+note right
+booleancontains(Objecto)
+end note
+if (!(o instanceof Map.Entry)) then (yes) 
+:return false;;
+stop
+endif 
+:return candidate!=null &&candidate.equals(e);;
+stop
+end
+start
+note right
+booleanremove(Objecto)
+end note
+if (o instanceof Map.Entry) then (yes) 
+:return removeNode(hash(key),key,value,true,
+true)!=null ;;
+stop
+endif 
+:return false;;
+stop
+end
+start
+note right
+Spliterator<Map.Entry<K,V>>spliterator()
+end note
+:return new EntrySpliterator<>(HashMap.this,
+0,-1,0,0);;
+stop
+end
+start
+note right
+void forEach(Consumer<? super Map.Entry<K,
+V>>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>0&&(tab=table)!=null ) then (yes) 
+:++i;
+:Node<K;
+:V>e=tab[i];
+:e=e.next;
+:action.accept(e);
+if (modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+VgetOrDefault(Objectkey,VdefaultValue)
+end note
+:return (e=getNode(hash(key),key))==null ? defaultValue:e.value;;
+stop
+end
+start
+note right
+VputIfAbsent(Kkey,Vvalue)
+end note
+:return putVal(hash(key),key,value,true,true);;
+stop
+end
+start
+note right
+booleanremove(Objectkey,Objectvalue)
+end note
+:return removeNode(hash(key),key,value,true,
+true)!=null ;;
+stop
+end
+start
+note right
+booleanreplace(Kkey,VoldValue,VnewValue)
+end note
+if ((e=getNode(hash(key),key))!=null &&((v=e.value)==oldValue||(v!=null &&v.equals(oldValue)))) then (yes) 
+:e.value=newValue;
+:afterNodeAccess(e);
+:return true;;
+stop
+endif 
+:return false;;
+stop
+end
+start
+note right
+Vreplace(Kkey,Vvalue)
+end note
+if ((e=getNode(hash(key),key))!=null ) then (yes) 
+:e.value=value;
+:afterNodeAccess(e);
+:return oldValue;;
+stop
+endif 
+:return null ;;
+stop
+end
+start
+note right
+VcomputeIfAbsent(Kkey,Function<? super K,
+?  extends V>mappingFunction)
+end note
+if (mappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>threshold||(tab=table)==null ||(n=tab.length)==0) then (yes) 
+:n=(tab=resize()).length;
+endif 
+if ((first=tab[i=(n-1)&hash])!=null ) then (yes) 
+if (first instanceof TreeNode) then (yes) 
+:old=(t=(TreeNode<K,V>)first).getTreeNode(hash,
+key);
+else (no)
+repeat
+if (e.hash==hash&&((k=e.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+:old=e;
+endif 
+:++binCount;
+repeat while ((e=e.next)!=null )
+endif 
+if (old!=null &&(oldValue=old.value)!=null ) then (yes) 
+:afterNodeAccess(old);
+:return oldValue;;
+stop
+endif 
+endif 
+if (v==null ) then (yes) 
+:return null ;;
+stop
+else (no)
+:tab[i]=newNode(hash,key,v,first);
+if (binCount>=TREEIFY_THRESHOLD-1) then (yes) 
+:treeifyBin(tab,hash);
+endif 
+endif 
+:++modCount;
+:++size;
+:afterNodeInsertion(true);
+:return v;;
+stop
+end
+start
+note right
+VcomputeIfPresent(Kkey,BiFunction<? super K,
+? super V,?  extends V>remappingFunction)
+end note
+if (remappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((e=getNode(hash,key))!=null &&(oldValue=e.value)!=null ) then (yes) 
+if (v!=null ) then (yes) 
+:e.value=v;
+:afterNodeAccess(e);
+:return v;;
+stop
+else (no)
+:removeNode(hash,key,null ,false,true);
+endif 
+endif 
+:return null ;;
+stop
+end
+start
+note right
+Vcompute(Kkey,BiFunction<? super K,? super V,
+?  extends V>remappingFunction)
+end note
+if (remappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>threshold||(tab=table)==null ||(n=tab.length)==0) then (yes) 
+:n=(tab=resize()).length;
+endif 
+if ((first=tab[i=(n-1)&hash])!=null ) then (yes) 
+if (first instanceof TreeNode) then (yes) 
+:old=(t=(TreeNode<K,V>)first).getTreeNode(hash,
+key);
+else (no)
+repeat
+if (e.hash==hash&&((k=e.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+:old=e;
+endif 
+:++binCount;
+repeat while ((e=e.next)!=null )
+endif 
+endif 
+if (old!=null ) then (yes) 
+if (v!=null ) then (yes) 
+:old.value=v;
+:afterNodeAccess(old);
+else (no)
+:removeNode(hash,key,null ,false,true);
+endif 
+endif 
+:return v;;
+stop
+end
+start
+note right
+Vmerge(Kkey,Vvalue,BiFunction<? super V,? super V,
+?  extends V>remappingFunction)
+end note
+if (value==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (remappingFunction==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>threshold||(tab=table)==null ||(n=tab.length)==0) then (yes) 
+:n=(tab=resize()).length;
+endif 
+if ((first=tab[i=(n-1)&hash])!=null ) then (yes) 
+if (first instanceof TreeNode) then (yes) 
+:old=(t=(TreeNode<K,V>)first).getTreeNode(hash,
+key);
+else (no)
+repeat
+if (e.hash==hash&&((k=e.key)==key||(key!=null &&key.equals(k)))) then (yes) 
+:old=e;
+endif 
+:++binCount;
+repeat while ((e=e.next)!=null )
+endif 
+endif 
+if (old!=null ) then (yes) 
+if (old.value!=null ) then (yes) 
+:v=remappingFunction.apply(old.value,value);
+else (no)
+:v=value;
+endif 
+if (v!=null ) then (yes) 
+:old.value=v;
+:afterNodeAccess(old);
+else (no)
+:removeNode(hash,key,null ,false,true);
+endif 
+:return v;;
+stop
+endif 
+if (value!=null ) then (yes) 
+if (t!=null ) then (yes) 
+:t.putTreeVal(this,tab,hash,key,value);
+else (no)
+:tab[i]=newNode(hash,key,value,first);
+if (binCount>=TREEIFY_THRESHOLD-1) then (yes) 
+:treeifyBin(tab,hash);
+endif 
+endif 
+:++modCount;
+:++size;
+:afterNodeInsertion(true);
+endif 
+:return value;;
+stop
+end
+start
+note right
+void forEach(BiConsumer<? super K,? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>0&&(tab=table)!=null ) then (yes) 
+:++i;
+:Node<K;
+:V>e=tab[i];
+:e=e.next;
+:action.accept(e.key,e.value);
+if (modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+void replaceAll(BiFunction<? super K,? super V,
+?  extends V>function )
+end note
+if (function ==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (size>0&&(tab=table)!=null ) then (yes) 
+:++i;
+:Node<K;
+:V>e=tab[i];
+:e=e.next;
+:e.value=function .apply(e.key,e.value);
+if (modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+Objectclone()
+end note
+:result=(HashMap<K,V>)super .clone();
+:throw new InternalError(e);;
+:result.reinitialize();
+:result.putMapEntries(this,false);
+:return result;;
+stop
+end
+start
+note right
+floatloadFactor()
+end note
+:return loadFactor;;
+stop
+end
+start
+note right
+intcapacity()
+end note
+:return (table!=null )? table.length:(threshold>0)? threshold:DEFAULT_INITIAL_CAPACITY;;
+stop
+end
+start
+note right
+void writeObject(java.io.ObjectOutputStreams)
+end note
+:s.defaultWriteObject();
+:s.writeInt(buckets);
+:s.writeInt(size);
+:internalWriteEntries(s);
+end
+start
+note right
+void readObject(java.io.ObjectInputStreams)
+end note
+:s.defaultReadObject();
+:reinitialize();
+if (loadFactor<=0||Float.isNaN(loadFactor)) then (yes) 
+:throw new InvalidObjectException("Illegal load factor: "+
+loadFactor);;
+endif 
+:s.readInt();
+if (mappings<0) then (yes) 
+:throw new InvalidObjectException("Illegal mappings count: "+
+mappings);;
+endif 
+end
+start
+note right
+constructor HashIterator()
+end note
+:expectedModCount=modCount;
+:current=next=null ;
+:index=0;
+if (t!=null &&size>0) then (yes) 
+repeat
+repeat while (index<t.length&&(next=t[index+
++])==null )
+endif 
+end
+start
+note right
+booleanhasNext()
+end note
+:return next!=null ;;
+stop
+end
+start
+note right
+Node<K,V>nextNode()
+end note
+if (modCount!=expectedModCount) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+if (e==null ) then (yes) 
+:throw new NoSuchElementException();;
+endif 
+if ((next=(current=e).next)==null &&(t=table)!=null ) then (yes) 
+repeat
+repeat while (index<t.length&&(next=t[index+
++])==null )
+endif 
+:return e;;
+stop
+end
+start
+note right
+void remove()
+end note
+if (p==null ) then (yes) 
+:throw new IllegalStateException();;
+endif 
+if (modCount!=expectedModCount) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+:current=null ;
+:removeNode(hash(key),key,null ,false,false);
+:expectedModCount=modCount;
+end
+start
+note right
+Knext()
+end note
+:return nextNode().key;;
+stop
+end
+start
+note right
+Vnext()
+end note
+:return nextNode().value;;
+stop
+end
+start
+note right
+Map.Entry<K,V>next()
+end note
+:return nextNode();;
+stop
+end
+start
+note right
+constructor HashMapSpliterator(HashMap<K,
+V>m,intorigin,intfence,intest,intexpectedModCount)
+end note
+:this.map=m;
+:this.index=origin;
+:this.fence=fence;
+:this.est=est;
+:this.expectedModCount=expectedModCount;
+end
+start
+note right
+intgetFence()
+end note
+if ((hi=fence)<0) then (yes) 
+:est=m.size;
+:expectedModCount=m.modCount;
+:hi=fence=(tab==null )? 0:tab.length;
+endif 
+:return hi;;
+stop
+end
+start
+note right
+longestimateSize()
+end note
+:getFence();
+:return (long)est;;
+stop
+end
+start
+note right
+constructor KeySpliterator(HashMap<K,V>m,
+intorigin,intfence,intest,intexpectedModCount)
+end note
+:super (m,origin,fence,est,expectedModCount);
+end
+start
+note right
+KeySpliterator<K,V>trySplit()
+end note
+:return (lo>=mid||current!=null )? null :new KeySpliterator<>(map,
+lo,index=mid,est>>>=1,expectedModCount);;
+stop
+end
+start
+note right
+void forEachRemaining(Consumer<? super K>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((hi=fence)<0) then (yes) 
+:mc=expectedModCount=m.modCount;
+:hi=fence=(tab==null )? 0:tab.length;
+else (no)
+:mc=expectedModCount;
+endif 
+if (tab!=null &&tab.length>=hi&&(i=index)>=0&&(i<(index=hi)||current!=null )) then (yes) 
+:current=null ;
+repeat
+if (p==null ) then (yes) 
+:p=tab[i++];
+else (no)
+:action.accept(p.key);
+:p=p.next;
+endif 
+repeat while (p!=null ||i<hi)
+if (m.modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+booleantryAdvance(Consumer<? super K>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab!=null &&tab.length>=(hi=getFence())&&index>=0) then (yes) 
+while (current!=null ||index<hi)
+if (current==null ) then (yes) 
+:current=tab[index++];
+else (no)
+:current=current.next;
+:action.accept(k);
+if (map.modCount!=expectedModCount) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+:return true;;
+stop
+endif 
+endwhile
+endif 
+:return false;;
+stop
+end
+start
+note right
+intcharacteristics()
+end note
+:return (fence<0||est==map.size? Spliterator.SIZED:0)|Spliterator.DISTINCT;;
+stop
+end
+start
+note right
+constructor ValueSpliterator(HashMap<K,V>m,
+intorigin,intfence,intest,intexpectedModCount)
+end note
+:super (m,origin,fence,est,expectedModCount);
+end
+start
+note right
+ValueSpliterator<K,V>trySplit()
+end note
+:return (lo>=mid||current!=null )? null :new ValueSpliterator<>(map,
+lo,index=mid,est>>>=1,expectedModCount);;
+stop
+end
+start
+note right
+void forEachRemaining(Consumer<? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((hi=fence)<0) then (yes) 
+:mc=expectedModCount=m.modCount;
+:hi=fence=(tab==null )? 0:tab.length;
+else (no)
+:mc=expectedModCount;
+endif 
+if (tab!=null &&tab.length>=hi&&(i=index)>=0&&(i<(index=hi)||current!=null )) then (yes) 
+:current=null ;
+repeat
+if (p==null ) then (yes) 
+:p=tab[i++];
+else (no)
+:action.accept(p.value);
+:p=p.next;
+endif 
+repeat while (p!=null ||i<hi)
+if (m.modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+booleantryAdvance(Consumer<? super V>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab!=null &&tab.length>=(hi=getFence())&&index>=0) then (yes) 
+while (current!=null ||index<hi)
+if (current==null ) then (yes) 
+:current=tab[index++];
+else (no)
+:current=current.next;
+:action.accept(v);
+if (map.modCount!=expectedModCount) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+:return true;;
+stop
+endif 
+endwhile
+endif 
+:return false;;
+stop
+end
+start
+note right
+intcharacteristics()
+end note
+:return (fence<0||est==map.size? Spliterator.SIZED:0);;
+stop
+end
+start
+note right
+constructor EntrySpliterator(HashMap<K,V>m,
+intorigin,intfence,intest,intexpectedModCount)
+end note
+:super (m,origin,fence,est,expectedModCount);
+end
+start
+note right
+EntrySpliterator<K,V>trySplit()
+end note
+:return (lo>=mid||current!=null )? null :new EntrySpliterator<>(map,
+lo,index=mid,est>>>=1,expectedModCount);;
+stop
+end
+start
+note right
+void forEachRemaining(Consumer<? super Map.Entry<K,
+V>>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if ((hi=fence)<0) then (yes) 
+:mc=expectedModCount=m.modCount;
+:hi=fence=(tab==null )? 0:tab.length;
+else (no)
+:mc=expectedModCount;
+endif 
+if (tab!=null &&tab.length>=hi&&(i=index)>=0&&(i<(index=hi)||current!=null )) then (yes) 
+:current=null ;
+repeat
+if (p==null ) then (yes) 
+:p=tab[i++];
+else (no)
+:action.accept(p);
+:p=p.next;
+endif 
+repeat while (p!=null ||i<hi)
+if (m.modCount!=mc) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+endif 
+end
+start
+note right
+booleantryAdvance(Consumer<? super Map.Entry<K,
+V>>action)
+end note
+if (action==null ) then (yes) 
+:throw new NullPointerException();;
+endif 
+if (tab!=null &&tab.length>=(hi=getFence())&&index>=0) then (yes) 
+while (current!=null ||index<hi)
+if (current==null ) then (yes) 
+:current=tab[index++];
+else (no)
+:current=current.next;
+:action.accept(e);
+if (map.modCount!=expectedModCount) then (yes) 
+:throw new ConcurrentModificationException();;
+endif 
+:return true;;
+stop
+endif 
+endwhile
+endif 
+:return false;;
+stop
+end
+start
+note right
+intcharacteristics()
+end note
+:return (fence<0||est==map.size? Spliterator.SIZED:0)|Spliterator.DISTINCT;;
+stop
+end
+start
+note right
+Node<K,V>newNode(inthash,Kkey,Vvalue,Node<K,
+V>next)
+end note
+:return new Node<>(hash,key,value,next);;
+stop
+end
+start
+note right
+Node<K,V>replacementNode(Node<K,V>p,Node<K,
+V>next)
+end note
+:return new Node<>(p.hash,p.key,p.value,next);;
+stop
+end
+start
+note right
+TreeNode<K,V>newTreeNode(inthash,Kkey,Vvalue,
+Node<K,V>next)
+end note
+:return new TreeNode<>(hash,key,value,next);;
+stop
+end
+start
+note right
+TreeNode<K,V>replacementTreeNode(Node<K,V>p,
+Node<K,V>next)
+end note
+:return new TreeNode<>(p.hash,p.key,p.value,
+next);;
+stop
+end
+start
+note right
+void reinitialize()
+end note
+:table=null ;
+:entrySet=null ;
+:keySet=null ;
+:values=null ;
+:modCount=0;
+:threshold=0;
+:size=0;
+end
+start
+note right
+void afterNodeAccess(Node<K,V>p)
+end note
+end
+start
+note right
+void afterNodeInsertion(booleanevict)
+end note
+end
+start
+note right
+void afterNodeRemoval(Node<K,V>p)
+end note
+end
+start
+note right
+void internalWriteEntries(java.io.ObjectOutputStreams)
+end note
+if (size>0&&(tab=table)!=null ) then (yes) 
+:++i;
+:Node<K;
+:V>e=tab[i];
+:e=e.next;
+:s.writeObject(e.key);
+:s.writeObject(e.value);
+endif 
+end
+start
+note right
+constructor TreeNode(inthash,Kkey,Vval,Node<K,
+V>next)
+end note
+:super (hash,key,val,next);
+end
+start
+note right
+TreeNode<K,V>root()
+end note
+:TreeNode<K;
+:V>r=this;
+:p;
+if ((p=r.parent)==null ) then (yes) 
+:return r;;
+stop
+endif 
+:r=p;
+end
+if (root!=null &&tab!=null &&(n=tab.length)>0) then (yes) 
+if (root!=first) then (yes) 
+:tab[index]=root;
+if ((rn=root.next)!=null ) then (yes) 
+:((TreeNode<K,V>)rn).prev=rp;
+endif 
+if (rp!=null ) then (yes) 
+:rp.next=rn;
+endif 
+if (first!=null ) then (yes) 
+:first.prev=root;
+endif 
+:root.next=first;
+:root.prev=null ;
+endif 
+endif 
+start
+note right
+TreeNode<K,V>find(inth,Objectk,Class<? >kc)
+end note
+repeat
+if ((ph=p.hash)>h) then (yes) 
+:p=pl;
+else (no)
+:p=pl;
+endif 
+repeat while (p!=null )
+:return null ;;
+stop
+end
+start
+note right
+TreeNode<K,V>getTreeNode(inth,Objectk)
+end note
+:return ((parent!=null )? root():this).find(h,
+k,null );;
+stop
+end
+start
+note right
+inttieBreakOrder(Objecta,Objectb)
+end note
+if (a==null ||b==null ||(d=a.getClass().getName()
+.compareTo(b.getClass().getName()))==0) then (yes) 
+:d=(System.identityHashCode(a)<=System.identityHashCode(b)? -1:1);
+endif 
+:return d;;
+stop
+end
+start
+note right
+void treeify(Node<K,V>[]tab)
+end note
+:TreeNode<K;
+:V>x=this;
+:next;
+:x=next;
+:next=(TreeNode<K,V>)x.next;
+:x.left=x.right=null ;
+if (root==null ) then (yes) 
+:x.parent=null ;
+:x.red=false;
+:root=x;
+else (no)
+:TreeNode<K;
+:V>p=root;
+if ((ph=p.hash)>h) then (yes) 
+:dir=-1;
+endif 
+if ((p=(dir<=0)? p.left:p.right)==null ) then (yes) 
+:x.parent=xp;
+if (dir<=0) then (yes) 
+:xp.left=x;
+else (no)
+:xp.right=x;
+endif 
+:root=balanceInsertion(root,x);
+endif 
+endif 
+:moveRootToFront(tab,root);
+end
+start
+note right
+Node<K,V>untreeify(HashMap<K,V>map)
+end note
+:Node<K;
+:V>q=this;
+:q=q.next;
+if (tl==null ) then (yes) 
+:hd=p;
+else (no)
+:tl.next=p;
+endif 
+:tl=p;
+:return hd;;
+stop
+end
+start
+note right
+TreeNode<K,V>putTreeVal(HashMap<K,V>map,Node<K,
+V>[]tab,inth,Kk,Vv)
+end note
+:TreeNode<K;
+:V>p=root;
+if ((ph=p.hash)>h) then (yes) 
+:dir=-1;
+endif 
+if ((p=(dir<=0)? p.left:p.right)==null ) then (yes) 
+if (dir<=0) then (yes) 
+:xp.left=x;
+else (no)
+:xp.right=x;
+endif 
+:xp.next=x;
+:x.parent=x.prev=xp;
+if (xpn!=null ) then (yes) 
+:((TreeNode<K,V>)xpn).prev=x;
+endif 
+:moveRootToFront(tab,balanceInsertion(root,x));
+:return null ;;
+stop
+endif 
+end
+start
+note right
+void removeTreeNode(HashMap<K,V>map,Node<K,
+V>[]tab,booleanmovable)
+end note
+if (tab==null ||(n=tab.length)==0) then (yes) 
+:return ;;
+stop
+endif 
+if (pred==null ) then (yes) 
+:tab[index]=first=succ;
+else (no)
+:pred.next=succ;
+endif 
+if (succ!=null ) then (yes) 
+:succ.prev=pred;
+endif 
+if (first==null ) then (yes) 
+:return ;;
+stop
+endif 
+if (root.parent!=null ) then (yes) 
+:root=root.root();
+endif 
+if (root==null ||root.right==null ||(rl=root.left)==null ||rl.left==null ) then (yes) 
+:tab[index]=first.untreeify(map);
+:return ;;
+stop
+endif 
+if (pl!=null &&pr!=null ) then (yes) 
+while ((sl=s.left)!=null )
+:s=sl;
+endwhile
+:s.red=p.red;
+:p.red=c;
+if (s==pr) then (yes) 
+:p.parent=s;
+:s.right=p;
+else (no)
+if ((p.parent=sp)!=null ) then (yes) 
+if (s==sp.left) then (yes) 
+:sp.left=p;
+else (no)
+:sp.right=p;
+endif 
+endif 
+if ((s.right=pr)!=null ) then (yes) 
+:pr.parent=s;
+endif 
+endif 
+:p.left=null ;
+if ((p.right=sr)!=null ) then (yes) 
+:sr.parent=p;
+endif 
+if ((s.left=pl)!=null ) then (yes) 
+:pl.parent=s;
+endif 
+if ((s.parent=pp)==null ) then (yes) 
+:root=s;
+else (no)
+:pp.right=s;
+endif 
+if (sr!=null ) then (yes) 
+:replacement=sr;
+else (no)
+:replacement=p;
+endif 
+else (no)
+:replacement=p;
+endif 
+if (replacement!=p) then (yes) 
+if (pp==null ) then (yes) 
+:root=replacement;
+else (no)
+:pp.right=replacement;
+endif 
+:p.left=p.right=p.parent=null ;
+endif 
+if (replacement==p) then (yes) 
+:p.parent=null ;
+if (pp!=null ) then (yes) 
+if (p==pp.left) then (yes) 
+:pp.left=null ;
+endif 
+endif 
+endif 
+if (movable) then (yes) 
+:moveRootToFront(tab,r);
+endif 
+end
+start
+note right
+void split(HashMap<K,V>map,Node<K,V>[]tab,
+intindex,intbit)
+end note
+:TreeNode<K;
+:V>e=b;
+:next;
+:e=next;
+:next=(TreeNode<K,V>)e.next;
+:e.next=null ;
+if ((e.hash&bit)==0) then (yes) 
+if ((e.prev=loTail)==null ) then (yes) 
+:loHead=e;
+else (no)
+:loTail.next=e;
+endif 
+:loTail=e;
+:++lc;
+else (no)
+if ((e.prev=hiTail)==null ) then (yes) 
+:hiHead=e;
+else (no)
+:hiTail.next=e;
+endif 
+:hiTail=e;
+:++hc;
+endif 
+if (loHead!=null ) then (yes) 
+if (lc<=UNTREEIFY_THRESHOLD) then (yes) 
+:tab[index]=loHead.untreeify(map);
+else (no)
+:tab[index]=loHead;
+if (hiHead!=null ) then (yes) 
+:loHead.treeify(tab);
+endif 
+endif 
+endif 
+if (hiHead!=null ) then (yes) 
+if (hc<=UNTREEIFY_THRESHOLD) then (yes) 
+:tab[index+bit]=hiHead.untreeify(map);
+else (no)
+:tab[index+bit]=hiHead;
+if (loHead!=null ) then (yes) 
+:hiHead.treeify(tab);
+endif 
+endif 
+endif 
+end
+if (p!=null &&(r=p.right)!=null ) then (yes) 
+if ((rl=p.right=r.left)!=null ) then (yes) 
+:rl.parent=p;
+endif 
+if ((pp=r.parent=p.parent)==null ) then (yes) 
+:(root=r).red=false;
+else (no)
+:pp.right=r;
+endif 
+:r.left=p;
+:p.parent=r;
+endif 
+:return root;;
+stop
+if (p!=null &&(l=p.left)!=null ) then (yes) 
+if ((lr=p.left=l.right)!=null ) then (yes) 
+:lr.parent=p;
+endif 
+if ((pp=l.parent=p.parent)==null ) then (yes) 
+:(root=l).red=false;
+else (no)
+:pp.left=l;
+endif 
+:l.right=p;
+:p.parent=l;
+endif 
+:return root;;
+stop
+:x.red=true;
+:TreeNode<K;
+:V>xp;
+:xpp;
+:xppl;
+:xppr;
+if ((xp=x.parent)==null ) then (yes) 
+:x.red=false;
+:return x;;
+stop
+endif 
+if (xp==(xppl=xpp.left)) then (yes) 
+if ((xppr=xpp.right)!=null &&xppr.red) then (yes) 
+:xppr.red=false;
+:xp.red=false;
+:xpp.red=true;
+:x=xpp;
+else (no)
+if (x==xp.right) then (yes) 
+:root=rotateLeft(root,x=xp);
+:xpp=(xp=x.parent)==null ? null :xp.parent;
+endif 
+if (xp!=null ) then (yes) 
+:xp.red=false;
+if (xpp!=null ) then (yes) 
+:xpp.red=true;
+:root=rotateRight(root,xpp);
+endif 
+endif 
+endif 
+else (no)
+if (xppl!=null &&xppl.red) then (yes) 
+:xppl.red=false;
+:xp.red=false;
+:xpp.red=true;
+:x=xpp;
+else (no)
+if (x==xp.left) then (yes) 
+:root=rotateRight(root,x=xp);
+:xpp=(xp=x.parent)==null ? null :xp.parent;
+endif 
+if (xp!=null ) then (yes) 
+:xp.red=false;
+if (xpp!=null ) then (yes) 
+:xpp.red=true;
+:root=rotateLeft(root,xpp);
+endif 
+endif 
+endif 
+endif 
+:TreeNode<K;
+:V>xp;
+:xpl;
+:xpr;
+if (x==null ||x==root) then (yes) 
+:return root;;
+stop
+else (no)
+if (xpl!=null &&xpl.red) then (yes) 
+:xpl.red=false;
+:xp.red=true;
+:root=rotateRight(root,xp);
+:xpl=(xp=x.parent)==null ? null :xp.left;
+endif 
+if (xpl==null ) then (yes) 
+:x=xp;
+else (no)
+if ((sl==null ||!sl.red)&&(sr==null ||!sr.red)) then (yes) 
+:xpl.red=true;
+:x=xp;
+else (no)
+if (sl==null ||!sl.red) then (yes) 
+if (sr!=null ) then (yes) 
+:sr.red=false;
+endif 
+:xpl.red=true;
+:root=rotateLeft(root,xpl);
+:xpl=(xp=x.parent)==null ? null :xp.left;
+endif 
+if (xpl!=null ) then (yes) 
+:xpl.red=(xp==null )? false:xp.red;
+if ((sl=xpl.left)!=null ) then (yes) 
+:sl.red=false;
+endif 
+endif 
+if (xp!=null ) then (yes) 
+:xp.red=false;
+:root=rotateRight(root,xp);
+endif 
+:x=root;
+endif 
+endif 
+endif 
+if (tb!=null &&tb.next!=t) then (yes) 
+:return false;;
+stop
+endif 
+if (tn!=null &&tn.prev!=t) then (yes) 
+:return false;;
+stop
+endif 
+if (tp!=null &&t!=tp.left&&t!=tp.right) then (yes) 
+:return false;;
+stop
+endif 
+if (tl!=null &&(tl.parent!=t||tl.hash>t.hash)) then (yes) 
+:return false;;
+stop
+endif 
+if (tr!=null &&(tr.parent!=t||tr.hash<t.hash)) then (yes) 
+:return false;;
+stop
+endif 
+if (t.red&&tl!=null &&tl.red&&tr!=null &&tr.red) then (yes) 
+:return false;;
+stop
+endif 
+if (tl!=null &&!checkInvariants(tl)) then (yes) 
+:return false;;
+stop
+endif 
+if (tr!=null &&!checkInvariants(tr)) then (yes) 
+:return false;;
+stop
+endif 
+:return true;;
+stop
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

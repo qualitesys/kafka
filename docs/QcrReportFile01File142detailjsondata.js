@@ -1,31 +1,23 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerOptions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerOptions.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerOptions.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionState.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/TransactionState.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionState.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "AbstractOptions<UpdateFeaturesOptions>"
- , "c2" : "org.apache.kafka.clients.admin.UnregisterBrokerOptions"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.UnregisterBrokerOptions" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin." , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerOptions.java.png" 
-
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerOptions.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -50,7 +42,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerOptions.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionState.java.fct.svg" 
 
 , 
 }

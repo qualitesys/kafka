@@ -1,30 +1,47 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/FlushGenerator.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/FlushGenerator.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/FlushGenerator.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.trogdor.workload.FlushGenerator"
+ , "c1" : "Message"
+ , "c2" : "org.apache.kafka.trogdor.rest.DestroyWorkerRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.workload.FlushGenerator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.DestroyWorkerRequest" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00013"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html#13"
+ , "c1" : "DestroyWorkerRequest"
+ , "c2" : "DestroyWorkerRequest(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.html#18"
+ , "c1" : "long"
+ , "c2" : "workerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/FlushGenerator.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/FlushGenerator.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.svg" }
 
 ] 
 , 
@@ -50,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/FlushGenerator.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/DestroyWorkerRequest.java.fct.svg" 
 
 , 
 }

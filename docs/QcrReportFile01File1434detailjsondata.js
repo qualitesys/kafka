@@ -1,52 +1,52 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java 5 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.xml" 
+   "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html" 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java 6 rule violations " 
+ , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "BatchReader<T>"
- , "c2" : "org.apache.kafka.raft.internals.RecordsBatchReader"
+ , "c2" : "org.apache.kafka.raft.internals.MemoryBatchReader"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.raft.internals.RecordsBatchReader" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.raft.internals.MemoryBatchReader" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#24"
- , "c1" : "RecordsBatchReader"
- , "c2" : "RecordsBatchReader(long;RecordsIterator<T>;CloseListener<BatchReader<T>>)"
+ , "c5" : "00018"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#18"
+ , "c1" : "MemoryBatchReader"
+ , "c2" : "MemoryBatchReader(long;long;Iterator<Batch<T>>;CloseListener<BatchReader<T>>)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#36"
+ , "c5" : "00031"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#31"
  , "c1" : "boolean"
  , "c2" : "hasNext()"
- , "c3" : "2"
- , "c4" : "3"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#47"
+ , "c5" : "00036"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#36"
  , "c1" : "Batch<T>"
  , "c2" : "next()"
- , "c3" : "2"
- , "c4" : "5"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#60"
+ , "c5" : "00041"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#41"
  , "c1" : "long"
  , "c2" : "baseOffset()"
  , "c3" : "1"
@@ -54,48 +54,30 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#64"
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#46"
  , "c1" : "OptionalLong"
  , "c2" : "lastOffset()"
- , "c3" : "3"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#73"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#97"
- , "c1" : "void"
- , "c2" : "ensureOpen()"
- , "c3" : "2"
+ , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#103"
- , "c1" : "Optional<Batch<T>>"
- , "c2" : "nextBatch()"
- , "c3" : "4"
- , "c4" : "4"
+ , "c5" : "00051"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#51"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.png" 
+   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.png" 
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.svg" }
+ , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.svg" }
 
 ] 
 , 
@@ -122,9 +104,9 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
 ,
@@ -139,49 +121,56 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#14"
+ , "c1" : "00012"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class RecordsBatchReader contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00012] The class MemoryBatchReader contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.internals.RecordsBatchReader.next@POLYN154550 the MagicNumber/String  'Records batch reader doesn't have any more elements' should be converted to const"
+ , "c1" : "00069"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#69"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00069] The argument batches is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#75"
+ , "c1" : "00073"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.raft.internals.RecordsBatchReader.close@POLYN155381 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.raft.internals.MemoryBatchReader the MagicNumber/String  'MemoryBatchReader requires at least ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#99"
+ , "c1" : "00074"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.internals.RecordsBatchReader.ensureOpen@POLYN156203 the MagicNumber/String  'Records batch reader was closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.raft.internals.MemoryBatchReader the MagicNumber/String  'one batch to iterate, but an empty list was provided' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#105"
+ , "c1" : "00078"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00105] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.raft.internals.MemoryBatchReader the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.raft.internals.MemoryBatchReader the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.fct.svg" 
 
 , 
 }

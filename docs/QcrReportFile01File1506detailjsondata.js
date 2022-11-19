@@ -1,72 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html" 
- , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java 9 rule violations " 
- , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java 7 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler"
+ , "c1" : "AbstractMap<K,V>"
+ , "c2" : "org.apache.kafka.server.util.TranslatedValueMapView"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.util.TranslatedValueMapView" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#14"
- , "c1" : "void"
- , "c2" : "handleRemoteLogMetadata(RemoteLogMetadata)"
- , "c3" : "7"
- , "c4" : "4"
+ , "c5" : "00068"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#68"
+ , "c1" : "TranslatedValueMapView"
+ , "c2" : "TranslatedValueMapView(Map<K,B>;Function<B,V>)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#26"
- , "c1" : "void"
- , "c2" : "handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)"
+ , "c5" : "00076"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#76"
+ , "c1" : "boolean"
+ , "c2" : "containsKey(Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#28"
- , "c1" : "void"
- , "c2" : "handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate)"
+ , "c5" : "00081"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#81"
+ , "c1" : "V"
+ , "c2" : "get(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#88"
+ , "c1" : "Set<Entry<K,V>>"
+ , "c2" : "entrySet()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#30"
- , "c1" : "void"
- , "c2" : "handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#32"
- , "c1" : "void"
- , "c2" : "syncLogMetadataSnapshot(TopicIdPartition;int;Long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#36"
- , "c1" : "void"
- , "c2" : "clearTopicPartition(TopicIdPartition)"
+ , "c5" : "00093"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#93"
+ , "c1" : "boolean"
+ , "c2" : "isEmpty()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.png" 
 
- , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.svg" }
 
 ] 
 , 
@@ -114,84 +105,70 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "6"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#12"
+ , "c1" : "00024"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#24"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00024] For method contains arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class RemotePartitionMetadataEventHandler contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN155013 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#14"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method handleRemoteLogMetadata arguments RemoteLogMetadata  remoteLogMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#22"
+ , "c1" : "00027"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler.handleRemoteLogMetadata@POLYN145639 the MagicNumber/String  'remoteLogMetadata: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN155013 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#22"
+ , "c1" : "00044"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler.handleRemoteLogMetadata@POLYN145639 the MagicNumber/String  ' is not supported.' should be converted to const"
+ , "c3" : "QC-JAV000008[00044] The class TranslatedValueEntryIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#26"
+ , "c1" : "00076"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method handleRemoteLogSegmentMetadata arguments RemoteLogSegmentMetadata  remoteLogSegmentMetadata"
+ , "c3" : "QC-JAV000006[00076] For method containsKey arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#28"
+ , "c1" : "00081"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method handleRemoteLogSegmentMetadataUpdate arguments RemoteLogSegmentMetadataUpdate  remoteLogSegmentMetadataUpdate"
+ , "c3" : "QC-JAV000006[00081] For method get arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method handleRemotePartitionDeleteMetadata arguments RemotePartitionDeleteMetadata  remotePartitionDeleteMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method syncLogMetadataSnapshot arguments TopicIdPartition  topicIdPartition|int  metadataPartition|Long  metadataPartitionOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method clearTopicPartition arguments TopicIdPartition  topicIdPartition"
+ , "c1" : "00082"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.util.TranslatedValueMapView.get@POLYN157642 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.fct.svg" 
 
 , 
 }

@@ -1,164 +1,92 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java 135 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java 70 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Closeable"
- , "c2" : "org.apache.kafka.tools.VerifiableConsumer"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.StoreQueryUtils"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.tools.VerifiableConsumer" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.StoreQueryUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#68"
- , "c1" : "VerifiableConsumer"
- , "c2" : "VerifiableConsumer(KafkaConsumer<String,String>;PrintStream;String;int;boolean;boolean;boolean)"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#79"
+ , "c1" : "StoreQueryUtils"
+ , "c2" : "StoreQueryUtils()"
  , "c3" : "1"
- , "c4" : "8"
+ , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#85"
+ , "c5" : "00120"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
  , "c1" : "void"
- , "c2" : "addKafkaSerializerModule()"
- , "c3" : "1"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#99"
- , "c1" : "boolean"
- , "c2" : "hasMessageLimit()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#103"
- , "c1" : "boolean"
- , "c2" : "isFinished()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#107"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
- , "c2" : "onRecordsReceived(ConsumerRecords<String,String>)"
- , "c3" : "7"
- , "c4" : "14"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#143"
- , "c1" : "void"
- , "c2" : "onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception)"
+ , "c2" : "updatePosition(Position;StateStoreContext)"
  , "c3" : "3"
- , "c4" : "8"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#160"
- , "c1" : "void"
- , "c2" : "onPartitionsAssigned(Collection<TopicPartition>)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
+ , "c1" : "boolean"
+ , "c2" : "isPermitted(Position;PositionBound;int)"
+ , "c3" : "7"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00165"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#165"
+ , "c5" : "00330"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330"
  , "c1" : "void"
- , "c2" : "onPartitionsRevoked(Collection<TopicPartition>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#169"
- , "c1" : "void"
- , "c2" : "printJson(Object)"
+ , "c2" : "checkpointPosition(OffsetCheckpoint;Position)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#177"
- , "c1" : "void"
- , "c2" : "commitSync(Map<TopicPartition,OffsetAndMetadata>)"
+ , "c5" : "00339"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339"
+ , "c1" : "Position"
+ , "c2" : "readPositionFromCheckpoint(OffsetCheckpoint)"
  , "c3" : "1"
- , "c4" : "6"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00192"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#192"
- , "c1" : "void"
- , "c2" : "run()"
- , "c3" : "5"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#221"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00347"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c1" : "Map<TopicPartition,Long>"
+ , "c2" : "positionToTopicPartitionMap(Position)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00468"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#468"
- , "c1" : "ArgumentParser"
- , "c2" : "argParser()"
- , "c3" : "1"
- , "c4" : "15"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00571"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#571"
- , "c1" : "VerifiableConsumer"
- , "c2" : "createFromArgs(ArgumentParser;String[])"
- , "c3" : "7"
- , "c4" : "25"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00628"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#628"
- , "c1" : "void"
- , "c2" : "main(String[])"
+ , "c5" : "00360"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360"
+ , "c1" : "Position"
+ , "c2" : "topicPartitionMapToPosition(Map<TopicPartition,Long>)"
  , "c3" : "2"
- , "c4" : "8"
+ , "c4" : "3"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.png" 
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.svg" }
 
 ] 
 , 
@@ -185,17 +113,10 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE572"
- , "c3" : "Call to Thread run() instead of start()"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "4"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -209,973 +130,525 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "113"
+ , "c4" : "40"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "8"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#52"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00052] The class VerifiableConsumer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00043] The class StoreQueryUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#83"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00083] The argument query is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00085] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#86"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00086] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#91"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.tools.VerifiableConsumer.addKafkaSerializerModule@POLYN235449 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#92"
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.tools.VerifiableConsumer.addKafkaSerializerModule@POLYN235449 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#100"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.tools.VerifiableConsumer.hasMessageLimit@POLYN236267 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#107"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method onRecordsReceived arguments ConsumerRecords&lt;String ,String &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#107"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00107] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#112"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00112] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#128"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00128] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#115"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'Handled in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' in ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'ns' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  0 should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00120] For method updatePosition arguments Position  position|StateStoreContext  stateStoreContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#120"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00120] For method updatePosition list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.api.RecordMetadata&gt; stateStoreContext_recordMetadataN210267"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method onComplete arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|Exception  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#121"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00143] The argument offsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00121] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN210003 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.updatePosition@POLYN210003 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00132] For method isPermitted arguments Position  position|PositionBound  positionBound|int  partition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method isPermitted list of called methods Object monObjet|org.apache.kafka.streams.query.Position positionBound_positionN210780|java.util.Map&lt;Integer,Long&gt; bound_getPartitionPositionsN210994|java.util.Map&lt;Integer,Long&gt; position_getPartitionPositionsN211130"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#133"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00133] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#134"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00134] The argument positionBound is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00140] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#146"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00146] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210619 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#150"
+ , "c1" : "00149"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210619 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#153"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.isPermitted@POLYN210619 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#160"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#165"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method printJson arguments Object  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#173"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.tools.VerifiableConsumer.printJson@POLYN240294 the MagicNumber/String  'Bad data can't be written as json: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#177"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method commitSync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#180"
+ , "c1" : "00175"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.tools.VerifiableConsumer.commitSync@POLYN240650 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#198"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00198] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00216"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#216"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00216] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#199"
+ , "c1" : "00232"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00199] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00210"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#210"
+ , "c1" : "00232"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.tools.VerifiableConsumer.run@POLYN241276 the MagicNumber/String  'Caught WakeupException because consumer is shutdown, ignore and terminate.' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#213"
+ , "c1" : "00233"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.tools.VerifiableConsumer.run@POLYN241276 the MagicNumber/String  'Error during processing, terminating consumer process: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#229"
+ , "c1" : "00233"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00229] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because it only supports' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#222"
+ , "c1" : "00234"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.tools.VerifiableConsumer.close@POLYN242653 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' closed-range queries.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#225"
+ , "c1" : "00235"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.tools.VerifiableConsumer.close@POLYN242653 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#230"
+ , "c1" : "00236"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.tools.VerifiableConsumer.close@POLYN242653 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#240"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00240] The class ConsumerEvent contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00252"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#252"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00252] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#256"
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.tools.VerifiableConsumer.StartupComplete.name@POLYN243644 the MagicNumber/String  'startup_complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#264"
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.tools.VerifiableConsumer.ShutdownComplete.name@POLYN243798 the MagicNumber/String  'shutdown_complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#282"
+ , "c1" : "00270"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.tools.VerifiableConsumer.PartitionsRevoked.name@POLYN244284 the MagicNumber/String  'partitions_revoked' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#300"
+ , "c1" : "00270"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.tools.VerifiableConsumer.PartitionsAssigned.name@POLYN244770 the MagicNumber/String  'partitions_assigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#271"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' WindowStores only supports WindowRangeQuery.withWindowStartRange.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#272"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#273"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  'This store (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#295"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') doesn't know how to' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' execute the given query (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ') because' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00297"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#297"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' SessionStores only support WindowRangeQuery.withKey.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' Contact the store maintainer if you need support' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' for a new query type.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#315"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.tools.VerifiableConsumer.RecordsConsumed.name@POLYN245269 the MagicNumber/String  'records_consumed' should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#315"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00315] The argument serdes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#340"
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00330] For method checkpointPosition arguments OffsetCheckpoint  checkpointFile|Position  position"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#330"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00330] The argument checkpointFile is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00335"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.tools.VerifiableConsumer.RecordData.name@POLYN246112 the MagicNumber/String  'record_data' should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.checkpointPosition@POLYN221412 the MagicNumber/String  'Error writing checkpoint file' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00339"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00339] For method readPositionFromCheckpoint arguments OffsetCheckpoint  checkpointFile"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00339"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#339"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00339] The argument checkpointFile is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#343"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.state.internals.StoreQueryUtils.readPositionFromCheckpoint@POLYN221787 the MagicNumber/String  'Error reading checkpoint file' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00347] For method positionToTopicPartitionMap arguments Position  position"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00347] For method positionToTopicPartitionMap list of called methods Object monObjet|java.util.Set&lt;String&gt; position_getTopicsN222409|java.util.Map&lt;Integer,Long&gt; position_getPartitionPositionsN222603"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#347"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00347] The argument position is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#351"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00351] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00352"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#352"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00352] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00353] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#353"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00353] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00360"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00360] For method topicPartitionMapToPosition arguments Map&lt;TopicPartition ,Long &gt;  topicPartitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00360"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#360"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00360] The argument topicPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00370"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#370"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00370] The class PartitionData contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00404"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#404"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.tools.VerifiableConsumer.OffsetsCommitted.name@POLYN247888 the MagicNumber/String  'offsets_committed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00470"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#470"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'verifiable-consumer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00471"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#471"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#472"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'This tool consumes messages from a specific topic and emits consumer events (e.g. group rebalances, received messages, and offsets committed) as JSON objects to STDOUT.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#473"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Connection Group' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00474"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#474"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Group of arguments for connection to brokers' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00475"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#475"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00476"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#476"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--bootstrap-server' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00478"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#478"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#480"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'HOST1:PORT1[,HOST2:PORT2[...]]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00481"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#481"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00482"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#482"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'REQUIRED unless --broker-list(deprecated) is specified. The server(s) to connect to. Comma-separated list of Kafka brokers in the form HOST1:PORT1,HOST2:PORT2,...' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00483"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#483"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--broker-list' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#485"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00487"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#487"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'HOST1:PORT1[,HOST2:PORT2[...]]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00488"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#488"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'brokerList' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00489"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#489"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'DEPRECATED, use --bootstrap-server instead; ignored if --bootstrap-server is specified.  Comma-separated list of Kafka brokers in the form HOST1:PORT1,HOST2:PORT2,...' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00491"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#491"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--topic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00493"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#493"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00495"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#495"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'TOPIC' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00496"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#496"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Consumes messages from this topic.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#498"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--group-id' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00500"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#500"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00502"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#502"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'GROUP_ID' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00503"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#503"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'groupId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#504"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'The groupId shared among members of the consumer group' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00506"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#506"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--group-instance-id' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#508"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00510"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#510"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'GROUP_INSTANCE_ID' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#511"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'groupInstanceId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00512"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#512"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'A unique identifier of the consumer instance' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00514"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#514"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--max-messages' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00516"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#516"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00518"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#518"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00519"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#519"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'MAX-MESSAGES' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00520"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#520"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'maxMessages' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00521"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#521"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00521] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Consume this many messages. If -1 (the default), the consumer will consume until the process is killed externally' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00523"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#523"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--session-timeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00525"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#525"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00526"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#526"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  30000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00528"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#528"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'TIMEOUT_MS' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#529"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'sessionTimeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00530"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#530"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Set the consumer's session timeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00532"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#532"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--verbose' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00535"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#535"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'VERBOSE' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00536"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#536"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Enable to log individual consumed records' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00538"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#538"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--enable-autocommit' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00541"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#541"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'ENABLE-AUTOCOMMIT' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#542"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'useAutoCommit' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#543"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Enable offset auto-commit on consumer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#545"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--reset-policy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00547"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#547"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00548"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#548"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'earliest' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00550"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#550"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'resetPolicy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00551"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#551"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Set reset policy (must be either 'earliest', 'latest', or 'none'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00553"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#553"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--assignment-strategy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00555"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#555"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00555] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00558"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#558"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'assignmentStrategy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00559"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#559"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Set assignment strategy (e.g. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00559"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#559"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00561"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#561"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--consumer.config' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00563"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#563"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00565"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#565"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'CONFIG_FILE' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00566"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#566"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Consumer config properties file (config options shared with command line parameters will be overridden).' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00571"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#571"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00571] For method createFromArgs arguments ArgumentParser  parser|String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00571"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#571"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#370"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00571] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00370] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#574"
+ , "c1" : "00374"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'useAutoCommit' should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ' failed to handle query ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00575"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#575"
+ , "c1" : "00374"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'consumer.config' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00576"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#576"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00579"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#579"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00587"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#587"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'groupId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00589"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#589"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00589] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'groupInstanceId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00590"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#590"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00590] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#595"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#595"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#596"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00597"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#597"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'brokerList' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00597"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#597"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00598"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#598"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00598] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'brokerList' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00602"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#602"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00602] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00607"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#607"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'resetPolicy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00608"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#608"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00608] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'sessionTimeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00609"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#609"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'assignmentStrategy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00614"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#614"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00614] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'topic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00615"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#615"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'maxMessages' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00616"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#616"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00616] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'verbose' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#624"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00628"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#628"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00628] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00628"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#628"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00628] The argument args is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00640"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#640"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00640] The program calls a thread's run() method instead of calling start()"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00630"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#630"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00633"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#633"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00633] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00638"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#638"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00638] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  'verifiable-consumer-shutdown-hook' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00644"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#644"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.streams.state.internals.StoreQueryUtils the MagicNumber/String  ':' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.fct.svg" 
 
 , 
 }

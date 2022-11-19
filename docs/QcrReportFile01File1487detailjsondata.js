@@ -1,72 +1,198 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html" 
- , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java 12 rule violations " 
- , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.xml" 
+   "fic1"  : "./qc/secujava/javax.servlet.http.Cookie.java.html" 
+ , "texte" : "File secujava/javax.servlet.http.Cookie.java 33 rule violations " 
+ , "fic2"  : "./qc/secujava/javax.servlet.http.Cookie.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId"
+ , "c1" : "Cloneable"
+ , "c2" : "secujava.Cookie"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "secujava.Cookie" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#17"
- , "c1" : "RemoteLogSegmentId"
- , "c2" : "RemoteLogSegmentId(TopicIdPartition;Uuid)"
+ , "c5" : "00132"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#132"
+ , "c1" : "Cookie"
+ , "c2" : "Cookie(String;String)"
+ , "c3" : "3"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00169"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#169"
+ , "c1" : "void"
+ , "c2" : "setComment(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#181"
+ , "c1" : "String"
+ , "c2" : "getComment()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00201"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c1" : "void"
+ , "c2" : "setDomain(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00214"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#214"
+ , "c1" : "String"
+ , "c2" : "getDomain()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00238"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#238"
+ , "c1" : "void"
+ , "c2" : "setMaxAge(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00254"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#254"
+ , "c1" : "int"
+ , "c2" : "getMaxAge()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "void"
+ , "c2" : "setPath(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "String"
+ , "c2" : "getPath()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "void"
+ , "c2" : "setSecure(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "boolean"
+ , "c2" : "getSecure()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "String"
+ , "c2" : "getName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "void"
+ , "c2" : "setValue(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00466"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c1" : "String"
+ , "c2" : "getValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c1" : "int"
+ , "c2" : "getVersion()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setVersion(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isToken(String)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c1" : "Object"
+ , "c2" : "clone()"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#23"
- , "c1" : "TopicIdPartition"
- , "c2" : "topicIdPartition()"
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setHttpOnly(boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#28"
- , "c1" : "Uuid"
- , "c2" : "id()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#33"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#41"
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#53"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c2" : "isHttpOnly()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +201,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.png" 
+   {"ligne" : "./qc/secujava/javax.servlet.http.Cookie.java.png" 
 
- , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/javax.servlet.http.Cookie.java.svg" }
 
 ] 
 , 
@@ -104,6 +230,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -114,112 +247,252 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "9"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#12"
+ , "c1" : "00061"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class RemoteLogSegmentId contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00061] The class Cookie contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#18"
+ , "c1" : "00133"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.RemoteLogSegmentId@POLYN148747 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#19"
+ , "c1" : "00133"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.RemoteLogSegmentId@POLYN148747 the MagicNumber/String  'id can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#34"
+ , "c1" : "00135"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  'RemoteLogSegmentId{' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'err.cookie_name_blank' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#35"
+ , "c1" : "00138"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  'topicIdPartition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Comment' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#36"
+ , "c1" : "00139"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  ', id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Discard' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#37"
+ , "c1" : "00140"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.toString@POLYN149383 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Domain' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#41"
+ , "c1" : "00141"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00141] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Expires' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Max-Age' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Path' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#144"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00144] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Secure' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'Version' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#146"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00146] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  '$' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  'err.cookie_name_is_token' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method secujava.Cookie.Cookie@POLYN217095 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00169] For method setComment arguments String  purpose"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00045] The same method call o.getClass() is used several times, should be optimized "
+ , "c1" : "00201"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00201] For method setDomain arguments String  domain"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149601 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00201"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00201] The argument domain is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#45"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149601 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00238"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#238"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00238] For method setMaxAge arguments int  expiry"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.html#46"
+ , "c1" : "00466"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00466] For method setPath arguments String  uri"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00466"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00466] For method setSecure arguments boolean  flag"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00466"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#466"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00466] For method setValue arguments String  newValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00001] For method setVersion arguments int  v"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00001] For method isToken arguments String  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00001] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId.equals@POLYN149601 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN224875 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN224875 the MagicNumber/String  0x20 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN224875 the MagicNumber/String  0x7f should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN224875 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN224875 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN224875 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00001] For method setHttpOnly arguments boolean  isHttpOnly"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentId.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.http.Cookie.java.fct.svg" 
 
 , 
 }

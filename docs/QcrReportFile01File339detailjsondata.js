@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RetriableException"
- , "c2" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException"
+ , "c1" : "InvalidMetadataException"
+ , "c2" : "org.apache.kafka.common.errors.FencedLeaderEpochException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.FencedLeaderEpochException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00008"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.html#8"
- , "c1" : "FetchSessionIdNotFoundException"
- , "c2" : "FetchSessionIdNotFoundException()"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.html#8"
+ , "c1" : "FencedLeaderEpochException"
+ , "c2" : "FencedLeaderEpochException(String)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.html#11"
- , "c1" : "FetchSessionIdNotFoundException"
- , "c2" : "FetchSessionIdNotFoundException(String)"
+ , "c5" : "00012"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.html#12"
+ , "c1" : "FencedLeaderEpochException"
+ , "c2" : "FencedLeaderEpochException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.svg" }
 
 ] 
 , 
@@ -67,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/FencedLeaderEpochException.java.fct.svg" 
 
 , 
 }

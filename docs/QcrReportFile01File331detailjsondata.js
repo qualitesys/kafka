@@ -1,36 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ApiException"
- , "c2" : "org.apache.kafka.common.errors.DuplicateBrokerRegistrationException"
+ , "c1" : "RetriableException"
+ , "c2" : "org.apache.kafka.common.errors.DisconnectException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.DuplicateBrokerRegistrationException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.DisconnectException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00006"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.html#6"
- , "c1" : "DuplicateBrokerRegistrationException"
- , "c2" : "DuplicateBrokerRegistrationException(String)"
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#11"
+ , "c1" : "DisconnectException"
+ , "c2" : "DisconnectException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00010"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.html#10"
- , "c1" : "DuplicateBrokerRegistrationException"
- , "c2" : "DuplicateBrokerRegistrationException(String;Throwable)"
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#15"
+ , "c1" : "DisconnectException"
+ , "c2" : "DisconnectException(String;Throwable)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#19"
+ , "c1" : "DisconnectException"
+ , "c2" : "DisconnectException(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00023"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.html#23"
+ , "c1" : "DisconnectException"
+ , "c2" : "DisconnectException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.svg" }
 
 ] 
 , 
@@ -67,7 +85,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateBrokerRegistrationException.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DisconnectException.java.fct.svg" 
 
 , 
 }

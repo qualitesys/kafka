@@ -1,47 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java 2 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractOptions<DescribeDelegationTokenOptions>"
- , "c2" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#16"
- , "c1" : "DescribeDelegationTokenOptions"
- , "c2" : "owners(List<KafkaPrincipal>)"
+ , "c5" : "00019"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#19"
+ , "c1" : "DescribeConsumerGroupsResult"
+ , "c2" : "DescribeConsumerGroupsResult(Map<String,KafkaFuture<ConsumerGroupDescription>>)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#21"
- , "c1" : "List<KafkaPrincipal>"
- , "c2" : "owners()"
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#24"
+ , "c1" : "Map<String,KafkaFuture<ConsumerGroupDescription>>"
+ , "c2" : "describedGroups()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#31"
+ , "c1" : "KafkaFuture<Map<String,ConsumerGroupDescription>>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "6"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.svg" }
 
 ] 
 , 
@@ -68,24 +77,38 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#16"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00016] For method owners arguments List&lt;KafkaPrincipal &gt;  owners"
+ , "c1" : "00015"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#15"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00015] The class DescribeConsumerGroupsResult contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.html#32"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.clients.admin.DescribeConsumerGroupsResult.all@POLYN149528 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeConsumerGroupsResult.java.fct.svg" 
 
 , 
 }

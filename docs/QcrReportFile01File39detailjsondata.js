@@ -1,56 +1,30 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsOptions.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsOptions.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsOptions.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult"
+ , "c1" : "AbstractOptions<AlterPartitionReassignmentsOptions>"
+ , "c2" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#16"
- , "c1" : "AlterPartitionReassignmentsResult"
- , "c2" : "AlterPartitionReassignmentsResult(Map<TopicPartition,KafkaFuture<Void>>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#21"
- , "c1" : "Map<TopicPartition,KafkaFuture<Void>>"
- , "c2" : "values()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#26"
- , "c1" : "KafkaFuture<Void>"
- , "c2" : "all()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsOptions.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsOptions.java.svg" }
 
 ] 
 , 
@@ -75,40 +49,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class AlterPartitionReassignmentsResult contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult.all@POLYN148147 the MagicNumber/String  0 should be converted to const"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsOptions.java.fct.svg" 
 
 , 
 }

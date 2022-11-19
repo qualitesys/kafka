@@ -1,74 +1,47 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java 11 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java 9 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "NamedOperation<Printed<K,V>>"
- , "c2" : "org.apache.kafka.streams.kstream.Printed"
+ , "c1" : "DeserializationExceptionHandler"
+ , "c2" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.Printed" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#21"
- , "c1" : "Printed"
- , "c2" : "Printed(OutputStream)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#26"
- , "c1" : "Printed"
- , "c2" : "Printed(Printed<K,V>)"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#52"
- , "c1" : "Printed<K,V>"
- , "c2" : "withLabel(String)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#59"
- , "c1" : "Printed<K,V>"
- , "c2" : "withKeyValueMapper(KeyValueMapper<?superK,?superV,String>)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#67"
- , "c1" : "Printed<K,V>"
- , "c2" : "withName(String)"
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17"
+ , "c1" : "DeserializationHandlerResponse"
+ , "c2" : "handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception)"
  , "c3" : "1"
  , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
+ , "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "0"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.svg" }
 
 ] 
 , 
@@ -95,10 +68,24 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -112,98 +99,84 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#14"
+ , "c1" : "00013"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class Printed contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00013] The class LogAndFailExceptionHandler contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#26"
+ , "c1" : "00017"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00017] For method handle arguments ProcessorContext  context|ConsumerRecord&lt;byte[] ,byte[] &gt;  record|Exception  exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00026] The argument printed is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00017] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#35"
+ , "c1" : "00018"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#18"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00018] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.kstream.Printed the MagicNumber/String  'filePath can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.LogAndFailExceptionHandler.handle@POLYN144719 the MagicNumber/String  'Exception caught during Deserialization, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#37"
+ , "c1" : "00022"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.kstream.Printed the MagicNumber/String  'filePath can't be an empty string' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.errors.LogAndFailExceptionHandler.handle@POLYN144719 the MagicNumber/String  'taskId: {}, topic: {}, partition: {}, offset: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.Printed the MagicNumber/String  'Unable to write stream to file at [' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.kstream.Printed the MagicNumber/String  '] ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#52"
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method withLabel arguments String  label"
+ , "c3" : "QC-JAV000006[00030] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.Printed.withLabel@POLYN164456 the MagicNumber/String  'label can't be null' should be converted to const"
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00030] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method withKeyValueMapper arguments KeyValueMapper&lt;? super K ,? super V ,String &gt;  mapper"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.Printed.withKeyValueMapper@POLYN165339 the MagicNumber/String  'mapper can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method withName arguments String  processorName"
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00030] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.fct.svg" 
 
 , 
 }

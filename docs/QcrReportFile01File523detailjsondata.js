@@ -1,102 +1,23 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/Message.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Errors.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/Errors.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Errors.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.protocol.Message"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.protocol.Message" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#12"
- , "c1" : "short"
- , "c2" : "lowestSupportedVersion()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#15"
- , "c1" : "short"
- , "c2" : "highestSupportedVersion()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#18"
- , "c1" : "int"
- , "c2" : "size(ObjectSerializationCache;short)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00025"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#25"
- , "c1" : "void"
- , "c2" : "addSize(MessageSizeAccumulator;ObjectSerializationCache;short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#28"
- , "c1" : "void"
- , "c2" : "write(Writable;ObjectSerializationCache;short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#31"
- , "c1" : "void"
- , "c2" : "read(Readable;short)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#34"
- , "c1" : "List<RawTaggedField>"
- , "c2" : "unknownTaggedFields()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#37"
- , "c1" : "Message"
- , "c2" : "duplicate()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "org.apache.kafka.common.protocol." , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.png" 
-
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -121,7 +42,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Errors.java.fct.svg" 
 
 , 
 }

@@ -1,110 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java 11 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.xml" 
+   "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html" 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java 5 rule violations " 
+ , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.metadata.authorizer.StandardAclWithId"
+ , "c1" : "Iterator<List<ApiMessageAndVersion>>"
+ , "c2" : "org.apache.kafka.metadata.authorizer.StandardAclRecordIterator"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.metadata.authorizer.StandardAclWithId" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.metadata.authorizer.StandardAclRecordIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#14"
- , "c1" : "StandardAclWithId"
- , "c2" : "fromRecord(AccessControlEntryRecord)"
+ , "c5" : "00020"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#20"
+ , "c1" : "StandardAclRecordIterator"
+ , "c2" : "StandardAclRecordIterator(Iterator<StandardAclWithId>)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#21"
- , "c1" : "StandardAclWithId"
- , "c2" : "StandardAclWithId(Uuid;StandardAcl)"
+ , "c5" : "00024"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#24"
+ , "c1" : "StandardAclRecordIterator"
+ , "c2" : "StandardAclRecordIterator(Iterator<StandardAclWithId>;int)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#27"
- , "c1" : "Uuid"
- , "c2" : "id()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#31"
- , "c1" : "StandardAcl"
- , "c2" : "acl()"
+ , "c5" : "00030"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#30"
+ , "c1" : "boolean"
+ , "c2" : "hasNext()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00035"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#35"
- , "c1" : "AccessControlEntryRecord"
- , "c2" : "toRecord()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#47"
- , "c1" : "AclBinding"
- , "c2" : "toBinding()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#52"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#61"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#66"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#35"
+ , "c1" : "List<ApiMessageAndVersion>"
+ , "c2" : "next()"
+ , "c3" : "4"
+ , "c4" : "8"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.png" 
+   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.png" 
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.svg" }
+ , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.svg" }
 
 ] 
 , 
@@ -131,9 +86,9 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "1"
 }}
 ,
@@ -148,98 +103,49 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00013"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#13"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#13"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class StandardAclWithId contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00013] The class StandardAclRecordIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#14"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00014] For method fromRecord arguments AccessControlEntryRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#14"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00014] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#53"
+ , "c1" : "00040"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.metadata.authorizer.StandardAclWithId.equals@POLYN150573 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00040] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#53"
+ , "c1" : "00037"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.metadata.authorizer.StandardAclWithId.equals@POLYN150573 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN146483 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#54"
+ , "c1" : "00038"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.metadata.authorizer.StandardAclWithId.equals@POLYN150573 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN146483 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#67"
+ , "c1" : "00041"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.metadata.authorizer.StandardAclWithId.toString@POLYN151328 the MagicNumber/String  'StandardAclWithId(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.metadata.authorizer.StandardAclWithId.toString@POLYN151328 the MagicNumber/String  'id=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.metadata.authorizer.StandardAclWithId.toString@POLYN151328 the MagicNumber/String  ', acl=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.metadata.authorizer.StandardAclWithId.toString@POLYN151328 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN146483 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.fct.svg" 
 
 , 
 }

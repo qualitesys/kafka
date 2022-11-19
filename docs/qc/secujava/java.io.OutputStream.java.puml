@@ -1,0 +1,11 @@
+@startuml
+!pragma layout smetana
+"Closeable" <|-- "java.io.OutputStream"
+class java.io.OutputStream {
++write(int) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#8]]]
++write(byte[]) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#11]]]
++write(byte[];int;int) : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#16]]]
++flush() : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#31]]]
++close() : void [[[./../.././qc/secujava/java.io.OutputStream.java.html#35]]]
+} 
+@enduml

@@ -1,56 +1,92 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/Commands.java 36 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.xml" 
+   "fic1"  : "./qc/secujava/java.io.PipedWriter.java.html" 
+ , "texte" : "File secujava/java.io.PipedWriter.java 22 rule violations " 
+ , "fic2"  : "./qc/secujava/java.io.PipedWriter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.shell.Commands"
+ , "c1" : "Writer"
+ , "c2" : "java.io.PipedWriter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.shell.Commands" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.io.PipedWriter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#67"
- , "c1" : "Commands"
- , "c2" : "Commands(boolean)"
- , "c3" : "3"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#79"
- , "c1" : "ArgumentParser"
- , "c2" : "parser()"
+ , "c5" : "00017"
+ , "c5link" : "././qc/secujava/java.io.PipedWriter.java.html#17"
+ , "c1" : "PipedWriter"
+ , "c2" : "PipedWriter(PipedReader)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#84"
- , "c1" : "Handler"
- , "c2" : "parseCommand(List<String>)"
- , "c3" : "7"
- , "c4" : "14"
+ , "c5" : "00022"
+ , "c5link" : "././qc/secujava/java.io.PipedWriter.java.html#22"
+ , "c1" : "PipedWriter"
+ , "c2" : "PipedWriter()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/secujava/java.io.PipedWriter.java.html#26"
+ , "c1" : "void"
+ , "c2" : "connect(PipedReader)"
+ , "c3" : "6"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/secujava/java.io.PipedWriter.java.html#42"
+ , "c1" : "void"
+ , "c2" : "write(int)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/secujava/java.io.PipedWriter.java.html#50"
+ , "c1" : "void"
+ , "c2" : "write(char[];int;int)"
+ , "c3" : "4"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00060"
+ , "c5link" : "././qc/secujava/java.io.PipedWriter.java.html#60"
+ , "c1" : "void"
+ , "c2" : "flush()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00072"
+ , "c5link" : "././qc/secujava/java.io.PipedWriter.java.html#72"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.png" 
+   {"ligne" : "./qc/secujava/java.io.PipedWriter.java.png" 
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.io.PipedWriter.java.svg" }
 
 ] 
 , 
@@ -75,315 +111,187 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "15"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00024] The class Commands contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00026"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#26"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00026] Lock statement on synchronized method connect"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#72"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00072] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String  'command' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#84"
+ , "c1" : "00026"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method parseCommand arguments List&lt;String &gt;  arguments"
+ , "c3" : "QC-JAV000006[00026] For method connect arguments PipedReader  snk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
+ , "c1" : "00027"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00090] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00027] In method java.io.PipedWriter.connect@POLYN168829 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#86"
+ , "c1" : "00029"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00029] In method java.io.PipedWriter.connect@POLYN168829 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
+ , "c1" : "00030"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method java.io.PipedWriter.connect@POLYN168829 the MagicNumber/String  'Already connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#94"
+ , "c1" : "00032"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method java.io.PipedWriter.connect@POLYN168829 the MagicNumber/String  'Pipe closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
+ , "c1" : "00036"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method java.io.PipedWriter.connect@POLYN168829 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#104"
+ , "c1" : "00037"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'command' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method java.io.PipedWriter.connect@POLYN168829 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#105"
+ , "c1" : "00038"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method java.io.PipedWriter.connect@POLYN168829 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#106"
+ , "c1" : "00042"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#42"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00042] For method write arguments int  c"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00043"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'invalid choice: '' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method java.io.PipedWriter.write@POLYN170133 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00044"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method java.io.PipedWriter.write@POLYN170133 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00050"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method write arguments char[]  cbuf|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  '': did you mean '' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method java.io.PipedWriter.write@POLYN171009 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
+ , "c1" : "00052"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  ''?' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method java.io.PipedWriter.write@POLYN171009 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#110"
+ , "c1" : "00053"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method java.io.PipedWriter.write@POLYN171009 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#111"
+ , "c1" : "00060"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#60"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00060] Lock statement on synchronized method flush"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#65"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00065] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String  'Unknown command specified: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method java.io.PipedWriter.flush@POLYN171941 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.Commands@POLYN162799"
+ , "c1" : "00063"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method java.io.PipedWriter.flush@POLYN171941 the MagicNumber/String  'Pipe closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.Commands.parseCommand@POLYN163858"
+ , "c1" : "00073"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method java.io.PipedWriter.close@POLYN172480 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#69"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.shell.Commands.Commands@POLYN162799 the MagicNumber/String 'command' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#86"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#90"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#94"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'command' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'invalid choice: '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String '': did you mean '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String ''?' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.shell.Commands.parseCommand@POLYN163858 the MagicNumber/String 'Unknown command specified: ' MUST BE CONVERTED to const"
+ , "c1" : "00074"
+ , "c1link" : "./qc/secujava/java.io.PipedWriter.java.html#74"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00074] In method java.io.PipedWriter.close@POLYN172480 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.io.PipedWriter.java.fct.svg" 
 
 , 
 }

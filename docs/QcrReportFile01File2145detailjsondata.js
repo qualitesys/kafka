@@ -1,65 +1,164 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java 51 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.xml" 
+   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html" 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java 44 rule violations " 
+ , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskWorker"
- , "c2" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.TestInputTopic"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.TestInputTopic" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#29"
- , "c1" : "NetworkPartitionFaultWorker"
- , "c2" : "NetworkPartitionFaultWorker(String;List<Set<String>>)"
+ , "c5" : "00025"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#25"
+ , "c1" : "TestInputTopic"
+ , "c2" : "TestInputTopic(TopologyTestDriver;String;Serializer<K>;Serializer<V>;Instant;Duration)"
+ , "c3" : "2"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#49"
+ , "c1" : "void"
+ , "c2" : "advanceTime(Duration)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#56"
+ , "c1" : "Instant"
+ , "c2" : "getTimestampAndAdvance()"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#63"
+ , "c1" : "void"
+ , "c2" : "pipeInput(TestRecord<K,V>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#35"
+ , "c5" : "00070"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#70"
  , "c1" : "void"
- , "c2" : "start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>)"
+ , "c2" : "pipeInput(V)"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#45"
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#75"
  , "c1" : "void"
- , "c2" : "stop(Platform)"
+ , "c2" : "pipeInput(K;V)"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#52"
+ , "c5" : "00081"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#81"
  , "c1" : "void"
- , "c2" : "runIptablesCommands(Platform;String)"
- , "c3" : "5"
- , "c4" : "7"
+ , "c2" : "pipeInput(V;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#87"
+ , "c1" : "void"
+ , "c2" : "pipeInput(K;V;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#94"
+ , "c1" : "void"
+ , "c2" : "pipeInput(K;V;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00101"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#101"
+ , "c1" : "void"
+ , "c2" : "pipeRecordList(List<?extendsTestRecord<K,V>>)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00108"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#108"
+ , "c1" : "void"
+ , "c2" : "pipeKeyValueList(List<KeyValue<K,V>>)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#115"
+ , "c1" : "void"
+ , "c2" : "pipeValueList(List<V>)"
+ , "c3" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#122"
+ , "c1" : "void"
+ , "c2" : "pipeKeyValueList(List<KeyValue<K,V>>;Instant;Duration)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#133"
+ , "c1" : "void"
+ , "c2" : "pipeValueList(List<V>;Instant;Duration)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#144"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.png" 
+   {"ligne" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.svg" }
+ , "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.svg" }
 
 ] 
 , 
@@ -84,41 +183,18 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "19"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "3"
 }}
 ,
@@ -133,385 +209,329 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "19"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "12"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#20"
+ , "c1" : "00015"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00020] The class NetworkPartitionFaultWorker contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class TestInputTopic contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#35"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  errorFuture"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#35"
+ , "c1" : "00030"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#30"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00035] The argument status is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00030] The argument autoAdvance is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#37"
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String  'Activating NetworkPartitionFault {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN186389 the MagicNumber/String  'TopologyTestDriver cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#39"
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String  'creating network partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN186389 the MagicNumber/String  'topicName cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#40"
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String  '-A' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN186389 the MagicNumber/String  'keySerializer cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#41"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String  'created network partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN186389 the MagicNumber/String  'valueSerializer cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method stop arguments Platform  platform"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#46"
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String  'Deactivating NetworkPartitionFault {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN186389 the MagicNumber/String  'startTimestamp cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#47"
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String  'removing network partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN186389 the MagicNumber/String  'autoAdvance cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#48"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String  '-D' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.TestInputTopic.TestInputTopic@POLYN186389 the MagicNumber/String  'autoAdvance must be positive' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String  'removed network partition ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#52"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method runIptablesCommands arguments Platform  platform|String  iptablesAction"
+ , "c3" : "QC-JAV000006[00049] For method advanceTime arguments Duration  advance"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method runIptablesCommands list of called methods Object monObjet|org.apache.kafka.trogdor.common.Node platform_curNodeN154620|org.apache.kafka.trogdor.common.Topology platform_topologyN154695|org.apache.kafka.trogdor.common.Node topology_nodeN155315"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#52"
+ , "c1" : "00049"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#49"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00052] The argument platform is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00049] The argument advance is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#58"
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00058] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.TestInputTopic.advanceTime@POLYN188095 the MagicNumber/String  'advance must be positive' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#64"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00064] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method pipeInput arguments TestRecord&lt;K ,V &gt;  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#63"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00063] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#65"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00065] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.TestInputTopic.pipeInput@POLYN188766 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#70"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00070] For method pipeInput arguments V  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method pipeInput arguments K  key|V  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method pipeInput arguments V  value|Instant  timestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  'sudo' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.TestInputTopic.pipeInput@POLYN190072 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#87"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00087] For method pipeInput arguments K  key|V  value|long  timestampMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  'iptables' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.TestInputTopic.pipeInput@POLYN190514 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#94"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00094] For method pipeInput arguments K  key|V  value|Instant  timestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#101"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00101] For method pipeRecordList arguments List&lt;?  extends TestRecord&lt;K ,V &gt; &gt;  records"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#108"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00108] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  keyValues"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00115] For method pipeValueList arguments List&lt;V &gt;  values"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#122"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00122] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  keyValues|Instant  startTimestamp|Duration  advance"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#133"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00133] For method pipeValueList arguments List&lt;V &gt;  values|Instant  startTimestamp|Duration  advance"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  'INPUT' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN194475 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  '-p' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN194475 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00145"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  'tcp' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN194475 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00146"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  '-s' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN194475 the MagicNumber/String  'topic='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
+ , "c1" : "00146"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  '-j' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN194475 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  'DROP' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN194475 the MagicNumber/String  'keySerializer=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  '-m' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.TestInputTopic.toString@POLYN194475 the MagicNumber/String  'valueSerializer=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  'comment' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String  '--comment' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String '-p' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00070] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String '-s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00075] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00081"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String 'INPUT' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00081] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String 'iptables' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00087] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String 'sudo' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00094] Public method pipeInput is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String 'tcp' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00101] Public method pipeRecordList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String '--comment' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00108] Public method pipeKeyValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String '-j' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00115] Public method pipeValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
+ , "c1" : "00122"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#122"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String '-m' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00122] Public method pipeKeyValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String 'DROP' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN154490 the MagicNumber/String 'comment' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#37"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String 'Activating NetworkPartitionFault {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#39"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String 'creating network partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#40"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00040] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String '-A' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#41"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN153255 the MagicNumber/String 'created network partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#46"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String 'Deactivating NetworkPartitionFault {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String 'removing network partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#48"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String '-D' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#49"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN153947 the MagicNumber/String 'removed network partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000003[00133] Public method pipeValueList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.fct.svg" 
 
 , 
 }

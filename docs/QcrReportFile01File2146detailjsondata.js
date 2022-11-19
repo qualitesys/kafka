@@ -1,36 +1,117 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java 2 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.xml" 
+   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html" 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java 21 rule violations " 
+ , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskController"
- , "c2" : "org.apache.kafka.trogdor.fault.ProcessStopFaultController"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.TestOutputTopic"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.fault.ProcessStopFaultController" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.TestOutputTopic" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#12"
- , "c1" : "ProcessStopFaultController"
- , "c2" : "ProcessStopFaultController(Set<String>)"
+ , "c5" : "00021"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#21"
+ , "c1" : "TestOutputTopic"
+ , "c2" : "TestOutputTopic(TopologyTestDriver;String;Deserializer<K>;Deserializer<V>)"
+ , "c3" : "1"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#36"
+ , "c1" : "V"
+ , "c2" : "readValue()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#42"
+ , "c1" : "KeyValue<K,V>"
+ , "c2" : "readKeyValue()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#48"
+ , "c1" : "TestRecord<K,V>"
+ , "c2" : "readRecord()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#17"
- , "c1" : "Set<String>"
- , "c2" : "targetNodes(Topology)"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#53"
+ , "c1" : "List<TestRecord<K,V>>"
+ , "c2" : "readRecordsToList()"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#63"
+ , "c1" : "Map<K,V>"
+ , "c2" : "readKeyValuesToMap()"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#77"
+ , "c1" : "List<KeyValue<K,V>>"
+ , "c2" : "readKeyValuesToList()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#88"
+ , "c1" : "List<V>"
+ , "c2" : "readValuesToList()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#99"
+ , "c1" : "long"
+ , "c2" : "getQueueSize()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#104"
+ , "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00109"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#109"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +120,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.png" 
+   {"ligne" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.svg" }
+ , "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.svg" }
 
 ] 
 , 
@@ -68,6 +149,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -75,31 +163,164 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "14"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#9"
+ , "c1" : "00015"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#15"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class ProcessStopFaultController contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00015] The class TestOutputTopic contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.html#17"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method targetNodes arguments Topology  topology"
+ , "c1" : "00025"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'TopologyTestDriver cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#26"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'topicName cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#27"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'keyDeserializer cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#28"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'valueDeserializer cannot be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.TestOutputTopic.readKeyValuesToMap@POLYN178208 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.TestOutputTopic.readKeyValuesToMap@POLYN178208 the MagicNumber/String  'Null keys not allowed with readKeyValuesToMap method' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  '[' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  ']' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'topic='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  ''' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#112"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'keyDeserializer=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'valueDeserializer=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'size=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#36"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00036] Public method readValue is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00042] Public method readKeyValue is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00053] Public method readRecordsToList is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#63"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00063] Public method readKeyValuesToMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#77"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00077] Public method readKeyValuesToList is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#88"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00088] Public method readValuesToList is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultController.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.fct.svg" 
 
 , 
 }

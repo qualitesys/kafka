@@ -1,27 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java 7 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Configurable"
- , "c2" : "org.apache.kafka.server.policy.AlterConfigPolicy"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.authorizer.AuthorizerServerInfo"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.policy.AlterConfigPolicy" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.authorizer.AuthorizerServerInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#56"
- , "c1" : "void"
- , "c2" : "validate(RequestMetadata)"
+ , "c5" : "00015"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#15"
+ , "c1" : "ClusterResource"
+ , "c2" : "clusterResource()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#18"
+ , "c1" : "int"
+ , "c2" : "brokerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#21"
+ , "c1" : "Collection<Endpoint>"
+ , "c2" : "endpoints()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#24"
+ , "c1" : "Endpoint"
+ , "c2" : "interBrokerEndpoint()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00027"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#27"
+ , "c1" : "Collection<String>"
+ , "c2" : "earlyStartListeners()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.svg" }
 
 ] 
 , 
@@ -57,82 +93,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#15"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class RequestMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.equals@POLYN156177 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.equals@POLYN156177 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN156728 the MagicNumber/String  'AlterConfigPolicy.RequestMetadata(resource=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN156728 the MagicNumber/String  ', configs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN156728 the MagicNumber/String  ')' should be converted to const"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.fct.svg" 
 
 , 
 }

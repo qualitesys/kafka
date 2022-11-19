@@ -1,227 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html" 
- , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java 7 rule violations " 
- , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.xml" 
+   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html" 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java 21 rule violations " 
+ , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig"
+ , "c1" : "Commands.Handler"
+ , "c2" : "org.apache.kafka.shell.HelpCommandHandler"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.shell.HelpCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00219"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#219"
- , "c1" : "RemoteLogManagerConfig"
- , "c2" : "RemoteLogManagerConfig(AbstractConfig)"
+ , "c5" : "00054"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54"
+ , "c1" : "void"
+ , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00245"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#245"
- , "c1" : "RemoteLogManagerConfig"
- , "c2" : "RemoteLogManagerConfig(boolean;String;String;String;String;String;long;int;long;long;long;double;int;int;String;Map<String,Object>;String;Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "18"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00284"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#284"
- , "c1" : "boolean"
- , "c2" : "enableRemoteStorageSystem()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00288"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#288"
- , "c1" : "String"
- , "c2" : "remoteStorageManagerClassName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00292"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#292"
- , "c1" : "String"
- , "c2" : "remoteStorageManagerClassPath()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00296"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#296"
- , "c1" : "String"
- , "c2" : "remoteLogMetadataManagerClassName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00300"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#300"
- , "c1" : "String"
- , "c2" : "remoteLogMetadataManagerClassPath()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00304"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#304"
- , "c1" : "long"
- , "c2" : "remoteLogIndexFileCacheTotalSizeBytes()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00308"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#308"
- , "c1" : "int"
- , "c2" : "remoteLogManagerThreadPoolSize()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00312"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#312"
- , "c1" : "long"
- , "c2" : "remoteLogManagerTaskIntervalMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00316"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#316"
- , "c1" : "long"
- , "c2" : "remoteLogManagerTaskRetryBackoffMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00320"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#320"
- , "c1" : "long"
- , "c2" : "remoteLogManagerTaskRetryBackoffMaxMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00324"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#324"
- , "c1" : "double"
- , "c2" : "remoteLogManagerTaskRetryJitter()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00328"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#328"
- , "c1" : "int"
- , "c2" : "remoteLogReaderThreads()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00332"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#332"
- , "c1" : "int"
- , "c2" : "remoteLogReaderMaxPendingTasks()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00336"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#336"
- , "c1" : "String"
- , "c2" : "remoteLogMetadataManagerListenerName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00340"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#340"
- , "c1" : "String"
- , "c2" : "remoteStorageManagerPrefix()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00344"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#344"
- , "c1" : "String"
- , "c2" : "remoteLogMetadataManagerPrefix()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00348"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#348"
- , "c1" : "Map<String,Object>"
- , "c2" : "remoteStorageManagerProps()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00352"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#352"
- , "c1" : "Map<String,Object>"
- , "c2" : "remoteLogMetadataManagerProps()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00357"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#357"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00382"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#382"
+ , "c5" : "00062"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#62"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#67"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.png" 
+   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.png" 
 
- , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.svg" }
+ , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.svg" }
 
 ] 
 , 
@@ -248,87 +77,199 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#22"
+ , "c1" : "00014"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00022] The class RemoteLogManagerConfig contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00014] The class HelpCommandHandler contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#219"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00219] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#235"
+ , "c1" : "00017"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#17"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN197269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00017] The class HelpCommandType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#239"
+ , "c1" : "00023"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN197269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.name@POLYN147040 the MagicNumber/String  'help' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#357"
+ , "c1" : "00028"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#28"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.description@POLYN147142 the MagicNumber/String  'Display this help message.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00033"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#33"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.shell.HelpCommandHandler.HelpCommandType.shellOnly@POLYN147244 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00357] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00037] For method addArguments arguments ArgumentParser  parser"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00358"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#358"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN202326 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00042"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#42"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00042] For method createHandler arguments Namespace  namespace"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00359"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#359"
+ , "c1" : "00047"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00047] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00037] Void method addArguments is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00037] Void method addArguments is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#47"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00047] Void method completeNext is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#47"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00047] Void method completeNext is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00054] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#54"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00054] The argument shell is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#55"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00055] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN202326 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN147748 the MagicNumber/String  'Welcome to the Apache Kafka metadata shell.%n%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#58"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.HelpCommandHandler.run@POLYN147748 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.HelpCommandHandler.hashCode@POLYN148108 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#67"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00067] For method equals arguments Object  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN148210 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.HelpCommandHandler.equals@POLYN148210 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/HelpCommandHandler.java.fct.svg" 
 
 , 
 }

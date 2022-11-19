@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+"Reader" <|-- "java.io.PipedReader"
+class java.io.PipedReader {
++PipedReader(PipedWriter) : PipedReader [[[./../.././qc/secujava/java.io.PipedReader.java.html#30]]]
++PipedReader(PipedWriter;int) : PipedReader [[[./../.././qc/secujava/java.io.PipedReader.java.html#35]]]
++PipedReader() : PipedReader [[[./../.././qc/secujava/java.io.PipedReader.java.html#42]]]
++PipedReader(int) : PipedReader [[[./../.././qc/secujava/java.io.PipedReader.java.html#47]]]
+-initPipe(int) : void [[[./../.././qc/secujava/java.io.PipedReader.java.html#51]]]
++connect(PipedWriter) : void [[[./../.././qc/secujava/java.io.PipedReader.java.html#59]]]
+receive(int) : void [[[./../.././qc/secujava/java.io.PipedReader.java.html#64]]]
+receive(char[];int;int) : void [[[./../.././qc/secujava/java.io.PipedReader.java.html#97]]]
+receivedLast() : void [[[./../.././qc/secujava/java.io.PipedReader.java.html#104]]]
++read() : int [[[./../.././qc/secujava/java.io.PipedReader.java.html#110]]]
++read(char[];int;int) : int [[[./../.././qc/secujava/java.io.PipedReader.java.html#150]]]
++ready() : boolean [[[./../.././qc/secujava/java.io.PipedReader.java.html#189]]]
++close() : void [[[./../.././qc/secujava/java.io.PipedReader.java.html#206]]]
+} 
+@enduml

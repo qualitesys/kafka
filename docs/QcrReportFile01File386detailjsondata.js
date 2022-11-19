@@ -1,54 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "RetriableException"
- , "c2" : "org.apache.kafka.common.errors.NotEnoughReplicasException"
+ , "c2" : "org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.NotEnoughReplicasException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00008"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#8"
- , "c1" : "NotEnoughReplicasException"
- , "c2" : "NotEnoughReplicasException()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#12"
- , "c1" : "NotEnoughReplicasException"
- , "c2" : "NotEnoughReplicasException(String;Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00016"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#16"
- , "c1" : "NotEnoughReplicasException"
- , "c2" : "NotEnoughReplicasException(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.html#20"
- , "c1" : "NotEnoughReplicasException"
- , "c2" : "NotEnoughReplicasException(Throwable)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java.html#8"
+ , "c1" : "NotEnoughReplicasAfterAppendException"
+ , "c2" : "NotEnoughReplicasAfterAppendException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java.svg" }
 
 ] 
 , 
@@ -85,7 +58,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasException.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotEnoughReplicasAfterAppendException.java.fct.svg" 
 
 , 
 }

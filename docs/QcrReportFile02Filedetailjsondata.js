@@ -11,6 +11,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.common.TopicPartitionReplica" }, 
   { "child"  : "(1) org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult" }, 
   { "child"  : "(1) org.apache.kafka.connect.util.ConnectorTaskId" }, 
+  { "child"  : "(1) java.io.File" }, 
 ]
 }},
 {"ligne" : {
@@ -100,6 +101,12 @@ var maDataBlocs = {
    "classe"  : "(2) ErrantRecordReporter" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) java.io.Serializable" ,
+"children" : [
+  { "child"  : "(1) java.lang.String" }, 
 ]
 }},
 {"ligne" : {
@@ -295,6 +302,12 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.streams.errors.StreamsRebalancingException" }, 
   { "child"  : "(1) org.apache.kafka.streams.errors.StreamsStoppedException" }, 
   { "child"  : "(1) org.apache.kafka.streams.errors.UnknownStateStoreException" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) OutputStreamObjectOutput" ,
+"children" : [
+  { "child"  : "(1) java.io.ObjectOutputStream" }, 
 ]
 }},
 {"ligne" : {
@@ -599,6 +612,12 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.SessionWindow" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.TimeWindow" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.UnlimitedWindow" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Statement" ,
+"children" : [
+  { "child"  : "(1) java.sql.PreparedStatement" }, 
 ]
 }},
 {"ligne" : {
@@ -1281,6 +1300,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) Appendable" ,
+"children" : [
+  { "child"  : "(1) java.io.Writer" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Configurable" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.consumer.ConsumerInterceptor" }, 
@@ -1418,6 +1443,14 @@ var maDataBlocs = {
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamFilter" }, 
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamPeek" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Reader" ,
+"children" : [
+  { "child"  : "(1) java.io.BufferedReader" }, 
+  { "child"  : "(1) java.io.InputStreamReader" }, 
+  { "child"  : "(1) java.io.PipedReader" }, 
 ]
 }},
 {"ligne" : {
@@ -1690,6 +1723,8 @@ var maDataBlocs = {
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream" }, 
   { "child"  : "(1) org.apache.kafka.common.utils.ByteBufferOutputStream" }, 
+  { "child"  : "(1) java.io.FileOutputStream" }, 
+  { "child"  : "(1) java.io.PipedOutputStream" }, 
 ]
 }},
 {"ligne" : {
@@ -1775,6 +1810,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) AbstractStringBuilderjava.io.Serializable" ,
+"children" : [
+  { "child"  : "(1) java.lang.StringBuilder" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) SaslClient" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient" }, 
@@ -1823,6 +1864,12 @@ var maDataBlocs = {
    "classe"  : "(2) AbstractStream<K, V>KStream<K, V>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.internals.KStreamImpl" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) AbstractMap<K, V>ConcurrentMap<K, V>" ,
+"children" : [
+  { "child"  : "(1) java.util.concurrent.ConcurrentHashMap" }, 
 ]
 }},
 {"ligne" : {
@@ -1899,6 +1946,7 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) java.lang.Object" ,
 "children" : [
+  { "child"  : "(1) aa__all_files" }, 
   { "child"  : "(1) org.apache.kafka.clients.ApiVersions" }, 
   { "child"  : "(1) org.apache.kafka.clients.ClientRequest" }, 
   { "child"  : "(1) org.apache.kafka.clients.ClientResponse" }, 
@@ -2432,6 +2480,12 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.snapshot.RawSnapshotReader" }, 
   { "child"  : "(1) org.apache.kafka.snapshot.SnapshotPath" }, 
   { "child"  : "(1) org.apache.kafka.snapshot.Snapshots" }, 
+  { "child"  : "(1) java.net.CacheRequest" }, 
+  { "child"  : "(1) java.net.CacheResponse" }, 
+  { "child"  : "(1) java.util.Map" }, 
+  { "child"  : "(1) javax.servlet.ServletRequest" }, 
+  { "child"  : "(1) javax.servlet.ServletResponse" }, 
+  { "child"  : "(1) javax.servlet.http.HttpSession" }, 
   { "child"  : "(1) org.apache.kafka.metadata.FeatureLevelListener" }, 
   { "child"  : "(1) org.apache.kafka.server.common.ApiMessageAndVersion" }, 
   { "child"  : "(1) org.apache.kafka.server.common.CheckpointFile" }, 
@@ -2947,6 +3001,7 @@ var maDataBlocs = {
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.protocol.ByteBufferAccessor" }, 
   { "child"  : "(1) org.apache.kafka.common.protocol.DataInputStreamReadable" }, 
+  { "child"  : "(1) java.io.Reader" }, 
 ]
 }},
 {"ligne" : {
@@ -2993,6 +3048,12 @@ var maDataBlocs = {
    "classe"  : "(2) Herder" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.AbstractHerder" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) FilterOutputStreamAppendable" ,
+"children" : [
+  { "child"  : "(1) java.io.PrintStream" }, 
 ]
 }},
 {"ligne" : {
@@ -3299,6 +3360,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) FilterInputStream" ,
+"children" : [
+  { "child"  : "(1) java.io.BufferedInputStream" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Receive" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.network.NetworkReceive" }, 
@@ -3427,6 +3494,13 @@ var maDataBlocs = {
    "classe"  : "(2) Serializer<Bytes>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.BytesSerializer" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) java.io.Closeable" ,
+"children" : [
+  { "child"  : "(1) java.net.ServerSocket" }, 
+  { "child"  : "(1) java.net.Socket" }, 
 ]
 }},
 {"ligne" : {
@@ -3570,6 +3644,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) Dictionary<K, V>Map<K, V>" ,
+"children" : [
+  { "child"  : "(1) java.util.Hashtable" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Windows<Window>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.kstream.JoinWindows" }, 
@@ -3609,6 +3689,15 @@ var maDataBlocs = {
    "classe"  : "(2) Deserializer<Integer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.IntegerDeserializer" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Writer" ,
+"children" : [
+  { "child"  : "(1) java.io.BufferedWriter" }, 
+  { "child"  : "(1) java.io.OutputStreamWriter" }, 
+  { "child"  : "(1) java.io.PipedWriter" }, 
+  { "child"  : "(1) java.io.PrintWriter" }, 
 ]
 }},
 {"ligne" : {
@@ -3719,6 +3808,8 @@ var maDataBlocs = {
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.compress.KafkaLZ4BlockInputStream" }, 
   { "child"  : "(1) org.apache.kafka.common.utils.ByteBufferInputStream" }, 
+  { "child"  : "(1) java.io.FileInputStream" }, 
+  { "child"  : "(1) java.io.PipedInputStream" }, 
 ]
 }},
 {"ligne" : {
@@ -3752,6 +3843,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) InputStreamObjectInput" ,
+"children" : [
+  { "child"  : "(1) java.io.ObjectInputStream" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) AdminApiHandler.Batched<TopicPartition, PartitionProducerState>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.internals.DescribeProducersHandler" }, 
@@ -3779,6 +3876,12 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.common.errors.TimeoutException" }, 
   { "child"  : "(1) org.apache.kafka.common.errors.UnknownLeaderEpochException" }, 
   { "child"  : "(1) org.apache.kafka.common.errors.UnstableOffsetCommitException" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) ServletRequest" ,
+"children" : [
+  { "child"  : "(1) javax.servlet.http.HttpServletRequest" }, 
 ]
 }},
 {"ligne" : {
@@ -4264,6 +4367,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) FilterOutputStream" ,
+"children" : [
+  { "child"  : "(1) java.io.BufferedOutputStream" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) RaftException" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.raft.errors.BufferAllocationException" }, 
@@ -4328,6 +4437,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) AbstractMap<K, V>Map<K, V>" ,
+"children" : [
+  { "child"  : "(1) java.util.HashMap" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) RecordsSend<LazyDownConversionRecords>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.record.LazyDownConversionRecordsSend" }, 
@@ -4359,6 +4474,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) ServletResponse" ,
+"children" : [
+  { "child"  : "(1) javax.servlet.http.HttpServletResponse" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Serializer<JsonNode>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.json.JsonSerializer" }, 
@@ -4368,6 +4489,12 @@ var maDataBlocs = {
    "classe"  : "(2) Segments<S>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.streams.state.internals.AbstractSegments" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) HttpEntity<T>" ,
+"children" : [
+  { "child"  : "(1) org.springframework.http.ResponseEntity" }, 
 ]
 }},
 {"ligne" : {
@@ -4475,6 +4602,8 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.raft.EpochState" }, 
   { "child"  : "(1) org.apache.kafka.raft.NetworkChannel" }, 
   { "child"  : "(1) org.apache.kafka.raft.internals.BatchAccumulator" }, 
+  { "child"  : "(1) java.io.InputStream" }, 
+  { "child"  : "(1) java.io.OutputStream" }, 
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager" }, 
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.ProducerManager" }, 
   { "child"  : "(1) org.apache.kafka.streams.TopologyTestDriver" }, 
@@ -4592,6 +4721,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) InputStreamReader" ,
+"children" : [
+  { "child"  : "(1) java.io.FileReader" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Deserializer<ByteBuffer>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.serialization.ByteBufferDeserializer" }, 
@@ -4645,6 +4780,13 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) Wrapper" ,
+"children" : [
+  { "child"  : "(1) secujava.Connection" }, 
+  { "child"  : "(1) java.sql.Statement" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) RemoteLogMetadataTransform<RemotePartitionDeleteMetadata>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform" }, 
@@ -4655,6 +4797,12 @@ var maDataBlocs = {
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.header.internals.RecordHeader" }, 
   { "child"  : "(1) org.apache.kafka.connect.header.ConnectHeader" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Cloneable" ,
+"children" : [
+  { "child"  : "(1) secujava.Cookie" }, 
 ]
 }},
 {"ligne" : {
@@ -4847,6 +4995,12 @@ var maDataBlocs = {
    "classe"  : "(2) OutOfOrderSequenceException" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.errors.UnknownProducerIdException" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Map<K, V>" ,
+"children" : [
+  { "child"  : "(1) java.util.concurrent.ConcurrentMap" }, 
 ]
 }},
 {"ligne" : {
@@ -5870,6 +6024,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.PrintStream" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.errors.TimeoutException" ,
 "children" : [
 ]
@@ -6030,6 +6189,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.PipedInputStream" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils" ,
 "children" : [
 ]
@@ -6116,6 +6280,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.producer.internals.TxnPartitionMap" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.String" ,
 "children" : [
 ]
 }},
@@ -6476,6 +6645,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.utils.Utils" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.OutputStream" ,
 "children" : [
 ]
 }},
@@ -7055,6 +7229,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.OutputStreamWriter" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.processor.api.Record" ,
 "children" : [
 ]
@@ -7145,6 +7324,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.FileReader" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.ExpireDelegationTokenResponse" ,
 "children" : [
 ]
@@ -7211,6 +7395,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.tools.ProducerPerformance" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.PrintWriter" ,
 "children" : [
 ]
 }},
@@ -7360,7 +7549,17 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.BufferedOutputStream" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.controller.FeatureControlManager" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) javax.servlet.http.HttpServletRequest" ,
 "children" : [
 ]
 }},
@@ -7386,6 +7585,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.DescribeClusterOptions" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.ObjectOutputStream" ,
 "children" : [
 ]
 }},
@@ -7531,6 +7735,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.UpdateFeaturesResponse" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.net.CacheResponse" ,
 "children" : [
 ]
 }},
@@ -7925,6 +8134,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.PipedWriter" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.AlterConfigOp" ,
 "children" : [
 ]
@@ -8270,6 +8484,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) javax.servlet.http.HttpSession" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.raft.internals.RecordsIterator" ,
 "children" : [
 ]
@@ -8465,6 +8684,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) javax.servlet.ServletRequest" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.DescribeTransactionsResult" ,
 "children" : [
 ]
@@ -8521,6 +8745,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.metadata.authorizer.ClusterMetadataAuthorizer" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) org.springframework.http.ResponseEntity" ,
 "children" : [
 ]
 }},
@@ -9045,6 +9274,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.Writer" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever" ,
 "children" : [
 ]
@@ -9330,6 +9564,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.sql.PreparedStatement" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler" ,
 "children" : [
 ]
@@ -9371,6 +9610,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.DescribeAclsOptions" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.StringBuilder" ,
 "children" : [
 ]
 }},
@@ -9446,6 +9690,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.network.ListenerReconfigurable" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) aa__all_files" ,
 "children" : [
 ]
 }},
@@ -10505,6 +10754,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.util.Hashtable" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.processor.api.FixedKeyProcessorSupplier" ,
 "children" : [
 ]
@@ -10516,6 +10770,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.runtime.isolation.LoaderSwap" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) javax.servlet.http.HttpServletResponse" ,
 "children" : [
 ]
 }},
@@ -10586,6 +10845,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.BeginQuorumEpochRequest" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.BufferedInputStream" ,
 "children" : [
 ]
 }},
@@ -10806,6 +11070,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.security.plain.internals.PlainSaslServerProvider" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) secujava.Cookie" ,
 "children" : [
 ]
 }},
@@ -11605,12 +11874,22 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.sql.Statement" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.processor.internals.assignment.TaskMovement" ,
 "children" : [
 ]
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.raft.LeaderAndEpoch" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.BufferedReader" ,
 "children" : [
 ]
 }},
@@ -12005,6 +12284,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.net.ServerSocket" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.mirror.Scheduler" ,
 "children" : [
 ]
@@ -12275,6 +12559,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.InputStreamReader" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.shell.NotFileException" ,
 "children" : [
 ]
@@ -12356,6 +12645,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.security.authenticator.CredentialCache" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.ObjectInputStream" ,
 "children" : [
 ]
 }},
@@ -12516,6 +12810,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.tools.ThroughputThrottler" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.util.concurrent.ConcurrentMap" ,
 "children" : [
 ]
 }},
@@ -12825,6 +13124,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.net.CacheRequest" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.raft.internals.StringSerde" ,
 "children" : [
 ]
@@ -12975,6 +13279,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.BufferedWriter" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.controller.ConfigurationControlManager" ,
 "children" : [
 ]
@@ -12990,6 +13299,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.FileOutputStream" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.producer.BufferExhaustedException" ,
 "children" : [
 ]
@@ -13001,6 +13315,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.runtime.ConnectMetricsRegistry" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.File" ,
 "children" : [
 ]
 }},
@@ -13190,6 +13509,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.net.Socket" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.errors.UnsupportedByAuthenticationException" ,
 "children" : [
 ]
@@ -13211,6 +13535,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.transforms.predicates.HasHeaderKey" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.util.HashMap" ,
 "children" : [
 ]
 }},
@@ -14730,6 +15059,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.InputStream" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.connect.health.ConnectClusterState" ,
 "children" : [
 ]
@@ -14830,6 +15164,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.util.Map" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.metrics.stats.Value" ,
 "children" : [
 ]
@@ -14916,6 +15255,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.TimestampedKeyAndJoinSide" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.PipedReader" ,
 "children" : [
 ]
 }},
@@ -15215,6 +15559,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.util.concurrent.ConcurrentHashMap" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.tools.TransactionalMessageCopier" ,
 "children" : [
 ]
@@ -15380,6 +15729,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.FileInputStream" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.kstream.Branched" ,
 "children" : [
 ]
@@ -15530,6 +15884,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.io.Reader" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.image.TopicsDelta" ,
 "children" : [
 ]
@@ -15586,6 +15945,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.utils.LoggingSignalHandler" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) secujava.Connection" ,
 "children" : [
 ]
 }},
@@ -15686,6 +16050,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.StreamsMetadataImpl" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.io.PipedOutputStream" ,
 "children" : [
 ]
 }},
@@ -15896,6 +16265,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.protocol.ObjectSerializationCache" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) javax.servlet.ServletResponse" ,
 "children" : [
 ]
 }},

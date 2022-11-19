@@ -1,128 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java 21 rule violations " 
- , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java 7 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.TestOutputTopic"
+ , "c1" : "AbstractIterator<KeyValue<Bytes,byte[]>>KeyValueIterator<Bytes,byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.RocksDbIterator"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.TestOutputTopic" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.RocksDbIterator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#21"
- , "c1" : "TestOutputTopic"
- , "c2" : "TestOutputTopic(TopologyTestDriver;String;Deserializer<K>;Deserializer<V>)"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#26"
+ , "c1" : "RocksDbIterator"
+ , "c2" : "RocksDbIterator(String;RocksIterator;Set<KeyValueIterator<Bytes,byte[]>>;boolean)"
  , "c3" : "1"
- , "c4" : "8"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#36"
- , "c1" : "V"
- , "c2" : "readValue()"
- , "c3" : "1"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#37"
+ , "c1" : "boolean"
+ , "c2" : "hasNext()"
+ , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#42"
- , "c1" : "KeyValue<K,V>"
- , "c2" : "readKeyValue()"
- , "c3" : "1"
- , "c4" : "2"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#45"
+ , "c1" : "KeyValue<Bytes,byte[]>"
+ , "c2" : "makeNext()"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#48"
- , "c1" : "TestRecord<K,V>"
- , "c2" : "readRecord()"
+ , "c5" : "00055"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#55"
+ , "c1" : "KeyValue<Bytes,byte[]>"
+ , "c2" : "getKeyValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#53"
- , "c1" : "List<TestRecord<K,V>>"
- , "c2" : "readRecordsToList()"
- , "c3" : "2"
+ , "c5" : "00060"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#60"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#63"
- , "c1" : "Map<K,V>"
- , "c2" : "readKeyValuesToMap()"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#77"
- , "c1" : "List<KeyValue<K,V>>"
- , "c2" : "readKeyValuesToList()"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#67"
+ , "c1" : "Bytes"
+ , "c2" : "peekNextKey()"
  , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#88"
- , "c1" : "List<V>"
- , "c2" : "readValuesToList()"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#99"
- , "c1" : "long"
- , "c2" : "getQueueSize()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#104"
- , "c1" : "boolean"
- , "c2" : "isEmpty()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#109"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.png" 
 
- , "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.svg" }
 
 ] 
 , 
@@ -147,18 +102,27 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "6"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -166,161 +130,77 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "14"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#15"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#37"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00037] Lock statement on synchronized method hasNext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class TestOutputTopic contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.state.internals.RocksDbIterator.hasNext@POLYN151537 the MagicNumber/String  'RocksDB iterator for store %s has closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'TopologyTestDriver cannot be null' should be converted to const"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#45"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00045] For method makeNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getKeyValueN152109"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'topicName cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'keyDeserializer cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.TestOutputTopic.TestOutputTopic@POLYN175143 the MagicNumber/String  'valueDeserializer cannot be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#68"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.TestOutputTopic.readKeyValuesToMap@POLYN178208 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.TestOutputTopic.readKeyValuesToMap@POLYN178208 the MagicNumber/String  'Null keys not allowed with readKeyValuesToMap method' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  '[' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'topic='' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  ''' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'keyDeserializer=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'valueDeserializer=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.TestOutputTopic.toString@POLYN180565 the MagicNumber/String  'size=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#36"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00036] Public method readValue is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#42"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00042] Public method readKeyValue is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00053] Public method readRecordsToList is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00060"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#60"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00060] Lock statement on synchronized method close"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#63"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00063] Public method readKeyValuesToMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.RocksDbIterator.close@POLYN152549 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#77"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00077] Public method readKeyValuesToList is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDbIterator.close@POLYN152549"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#88"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00088] Public method readValuesToList is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.streams.state.internals.RocksDbIterator.close@POLYN152549 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.fct.svg" 
 
 , 
 }

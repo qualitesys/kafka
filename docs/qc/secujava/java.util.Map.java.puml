@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+"java.lang.Object" <|-- "java.util.Map"
+class java.util.Map {
+size() : int [[[./../.././qc/secujava/java.util.Map.java.html#15]]]
+isEmpty() : boolean [[[./../.././qc/secujava/java.util.Map.java.html#18]]]
+containsKey(Object) : boolean [[[./../.././qc/secujava/java.util.Map.java.html#21]]]
+containsValue(Object) : boolean [[[./../.././qc/secujava/java.util.Map.java.html#24]]]
+get(Object) : V [[[./../.././qc/secujava/java.util.Map.java.html#27]]]
+put(K;V) : V [[[./../.././qc/secujava/java.util.Map.java.html#32]]]
+remove(Object) : V [[[./../.././qc/secujava/java.util.Map.java.html#35]]]
+putAll(Map<?extendsK,?extendsV>) : void [[[./../.././qc/secujava/java.util.Map.java.html#41]]]
+clear() : void [[[./../.././qc/secujava/java.util.Map.java.html#44]]]
+keySet() : Set<K> [[[./../.././qc/secujava/java.util.Map.java.html#50]]]
+values() : Collection<V> [[[./../.././qc/secujava/java.util.Map.java.html#53]]]
+entrySet() : Set<Map.Entry<K,V>> [[[./../.././qc/secujava/java.util.Map.java.html#56]]]
+equals(Object) : boolean [[[./../.././qc/secujava/java.util.Map.java.html#105]]]
+hashCode() : int [[[./../.././qc/secujava/java.util.Map.java.html#108]]]
+getOrDefault(Object;V) : V [[[./../.././qc/secujava/java.util.Map.java.html#113]]]
+forEach(BiConsumer<?superK,?superV>) : void [[[./../.././qc/secujava/java.util.Map.java.html#121]]]
+replaceAll(BiFunction<?superK,?superV,?extendsV>) : void [[[./../.././qc/secujava/java.util.Map.java.html#138]]]
+putIfAbsent(K;V) : V [[[./../.././qc/secujava/java.util.Map.java.html#164]]]
+remove(Object;Object) : boolean [[[./../.././qc/secujava/java.util.Map.java.html#174]]]
+replace(K;V;V) : boolean [[[./../.././qc/secujava/java.util.Map.java.html#185]]]
+replace(K;V) : V [[[./../.././qc/secujava/java.util.Map.java.html#196]]]
+computeIfAbsent(K;Function<?superK,?extendsV>) : V [[[./../.././qc/secujava/java.util.Map.java.html#205]]]
+computeIfPresent(K;BiFunction<?superK,?superV,?extendsV>) : V [[[./../.././qc/secujava/java.util.Map.java.html#221]]]
+compute(K;BiFunction<?superK,?superV,?extendsV>) : V [[[./../.././qc/secujava/java.util.Map.java.html#240]]]
+merge(K;V;BiFunction<?superV,?superV,?extendsV>) : V [[[./../.././qc/secujava/java.util.Map.java.html#264]]]
+} 
+@enduml

@@ -1,63 +1,81 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java 6 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java 1 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.security.auth.SaslExtensions"
+ , "c1" : "AuthenticationContext"
+ , "c2" : "org.apache.kafka.common.security.auth.SaslAuthenticationContext"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.security.auth.SaslExtensions" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.security.auth.SaslAuthenticationContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#14"
- , "c1" : "SaslExtensions"
- , "c2" : "SaslExtensions(Map<String,String>)"
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#17"
+ , "c1" : "SaslAuthenticationContext"
+ , "c2" : "SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#19"
- , "c1" : "Map<String,String>"
- , "c2" : "map()"
+ , "c5" : "00021"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#21"
+ , "c1" : "SaslAuthenticationContext"
+ , "c2" : "SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional<SSLSession>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#32"
+ , "c1" : "SaslServer"
+ , "c2" : "server()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#24"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "3"
+ , "c5" : "00037"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#37"
+ , "c1" : "Optional<SSLSession>"
+ , "c2" : "sslSession()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#31"
+ , "c5" : "00042"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#42"
+ , "c1" : "SecurityProtocol"
+ , "c2" : "securityProtocol()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#47"
+ , "c1" : "InetAddress"
+ , "c2" : "clientAddress()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#52"
  , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#36"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c2" : "listenerName()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +84,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.svg" }
 
 ] 
 , 
@@ -100,75 +118,19 @@ var maDataBlocs = {
  , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#9"
+ , "c1" : "00010"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class SaslExtensions contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#24"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00024] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00026] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.security.auth.SaslExtensions.equals@POLYN146489 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.security.auth.SaslExtensions.equals@POLYN146489 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.security.auth.SaslExtensions.equals@POLYN146489 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000008[00010] The class SaslAuthenticationContext contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.fct.svg" 
 
 , 
 }

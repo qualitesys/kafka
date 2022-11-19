@@ -1,126 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java 24 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.xml" 
+   "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html" 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java 7 rule violations " 
+ , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConnectorConfig"
- , "c2" : "org.apache.kafka.connect.runtime.SinkConnectorConfig"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.connect.runtime.SessionKey"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.runtime.SinkConnectorConfig" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.runtime.SessionKey" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#63"
- , "c1" : "ConfigDef"
- , "c2" : "configDef()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#67"
- , "c1" : "SinkConnectorConfig"
- , "c2" : "SinkConnectorConfig(Plugins;Map<String,String>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00072"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#72"
- , "c1" : "void"
- , "c2" : "validate(Map<String,String>)"
- , "c3" : "8"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#107"
- , "c1" : "boolean"
- , "c2" : "hasTopicsConfig(Map<String,String>)"
+ , "c5" : "00014"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#14"
+ , "c1" : "SessionKey"
+ , "c2" : "SessionKey(SecretKey;long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#112"
- , "c1" : "boolean"
- , "c2" : "hasTopicsRegexConfig(Map<String,String>)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00117"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#117"
- , "c1" : "boolean"
- , "c2" : "hasDlqTopicConfig(Map<String,String>)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#123"
- , "c1" : "List<String>"
- , "c2" : "parseTopicsList(Map<String,String>)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00135"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#135"
- , "c1" : "String"
- , "c2" : "dlqTopicName()"
+ , "c5" : "00020"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#20"
+ , "c1" : "SecretKey"
+ , "c2" : "key()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#139"
- , "c1" : "short"
- , "c2" : "dlqTopicReplicationFactor()"
+ , "c5" : "00025"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#25"
+ , "c1" : "long"
+ , "c2" : "creationTimestamp()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#143"
+ , "c5" : "00030"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#30"
  , "c1" : "boolean"
- , "c2" : "isDlqContextHeadersEnabled()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#147"
- , "c1" : "boolean"
- , "c2" : "enableErrantRecordReporter()"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#152"
- , "c1" : "void"
- , "c2" : "main(String[])"
+ , "c5" : "00041"
+ , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#41"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -129,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.png" 
+   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.png" 
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.svg" }
+ , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.svg" }
 
 ] 
 , 
@@ -158,206 +95,87 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "5"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "11"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#72"
+ , "c1" : "00008"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#8"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00008] The class SessionKey contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#15"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.connect.runtime.SessionKey.SessionKey@POLYN147356 the MagicNumber/String  'Key may not be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method validate arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00030] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method validate list of called methods Object monObjet|java.util.List&lt;String&gt; parseTopicsListN173361"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#72"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00072] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#78"
+ , "c1" : "00033"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  ' and ' should be converted to const"
+ , "c3" : "QC-JAV000021[00033] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#79"
+ , "c1" : "00032"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  ' are mutually exclusive options, but both are set.' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.runtime.SessionKey.equals@POLYN148013 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#83"
+ , "c1" : "00033"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'Must configure one of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.connect.runtime.SessionKey.equals@POLYN148013 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#84"
+ , "c1" : "00034"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  ' or ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'The DLQ topic '%s' may not be included in the list of ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'topics ('%s=%s') consumed by the connector' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'The DLQ topic '%s' may not be included in the regex matching the ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.validate@POLYN172245 the MagicNumber/String  'topics ('%s=%s') consumed by the connector' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#107"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method hasTopicsConfig arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#107"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00107] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#112"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method hasTopicsRegexConfig arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#112"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00112] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#117"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method hasDlqTopicConfig arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#117"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method parseTopicsList arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#123"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00123] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.parseTopicsList@POLYN175248 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method enableErrantRecordReporter list of called methods Object monObjet|String dlqTopicNameN176387"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.main@POLYN176525 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.SinkConnectorConfig.main@POLYN176525 the MagicNumber/String  'sinkconnectorconfigs_' should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.connect.runtime.SessionKey.equals@POLYN148013 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SessionKey.java.fct.svg" 
 
 , 
 }

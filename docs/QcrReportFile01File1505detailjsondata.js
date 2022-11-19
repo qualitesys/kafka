@@ -1,146 +1,119 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html" 
- , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java 19 rule violations " 
- , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java 30 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RemoteLogMetadata"
- , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot"
+ , "c1" : "Reconfigurable"
+ , "c2" : "org.apache.kafka.server.metrics.KafkaYammerMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.metrics.KafkaYammerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#41"
- , "c1" : "RemoteLogSegmentMetadataSnapshot"
- , "c2" : "RemoteLogSegmentMetadataSnapshot(Uuid;long;long;long;int;long;int;RemoteLogSegmentState;Map<Integer,Long>)"
+ , "c5" : "00029"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#29"
+ , "c1" : "MetricsRegistry"
+ , "c2" : "defaultRegistry()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#37"
+ , "c1" : "KafkaYammerMetrics"
+ , "c2" : "KafkaYammerMetrics()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#43"
+ , "c1" : "void"
+ , "c2" : "configure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#48"
+ , "c1" : "Set<String>"
+ , "c2" : "reconfigurableConfigs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#53"
+ , "c1" : "void"
+ , "c2" : "validateReconfiguration(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#58"
+ , "c1" : "void"
+ , "c2" : "reconfigure(Map<String,?>)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#63"
+ , "c1" : "MetricName"
+ , "c2" : "getMetricName(String;String;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#76"
+ , "c1" : "MetricName"
+ , "c2" : "getMetricName(String;String;String;LinkedHashMap<String,String>)"
  , "c3" : "2"
- , "c4" : "9"
+ , "c4" : "10"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#66"
- , "c1" : "RemoteLogSegmentMetadataSnapshot"
- , "c2" : "create(RemoteLogSegmentMetadata)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00099"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#99"
+ , "c1" : "Optional<String>"
+ , "c2" : "toMBeanName(LinkedHashMap<String,String>)"
+ , "c3" : "5"
+ , "c4" : "10"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#73"
- , "c1" : "Uuid"
- , "c2" : "segmentId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#78"
- , "c1" : "long"
- , "c2" : "startOffset()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#83"
- , "c1" : "long"
- , "c2" : "endOffset()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#88"
- , "c1" : "int"
- , "c2" : "segmentSizeInBytes()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#93"
- , "c1" : "long"
- , "c2" : "maxTimestampMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#98"
- , "c1" : "NavigableMap<Integer,Long>"
- , "c2" : "segmentLeaderEpochs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#103"
- , "c1" : "RemoteLogSegmentState"
- , "c2" : "state()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#108"
- , "c1" : "TopicIdPartition"
- , "c2" : "topicIdPartition()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#113"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#122"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00127"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#127"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00134"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#134"
+ , "c1" : "Optional<String>"
+ , "c2" : "toScope(Map<String,String>)"
+ , "c3" : "6"
+ , "c4" : "13"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.svg" }
 
 ] 
 , 
@@ -170,6 +143,20 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
  , "c4" : "1"
 }}
 ,
@@ -177,154 +164,231 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "16"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#51"
+ , "c1" : "00024"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.RemoteLogSegmentMetadataSnapshot@POLYN170714 the MagicNumber/String  'remoteLogSegmentId can not be null' should be converted to const"
+ , "c3" : "QC-JAV000008[00024] The class KafkaYammerMetrics contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#52"
+ , "c1" : "00039"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.RemoteLogSegmentMetadataSnapshot@POLYN170714 the MagicNumber/String  'state can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.KafkaYammerMetrics@POLYN166628 the MagicNumber/String  'kafka-jmx-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.RemoteLogSegmentMetadataSnapshot@POLYN170714 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.RemoteLogSegmentMetadataSnapshot@POLYN170714 the MagicNumber/String  'segmentLeaderEpochs can not be null or empty' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#66"
+ , "c1" : "00043"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method create arguments RemoteLogSegmentMetadata  metadata"
+ , "c3" : "QC-JAV000006[00043] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#66"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00066] The argument metadata is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00053"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#53"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00053] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#109"
+ , "c1" : "00058"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#58"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00058] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#63"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00063] For method getMetricName arguments String  group|String  typeName|String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.topicIdPartition@POLYN173667 the MagicNumber/String  'This metadata does not have topic partition with it.' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN167711 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00076] For method getMetricName arguments String  group|String  typeName|String  name|LinkedHashMap&lt;String ,String &gt;  tags"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#79"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00079] The argument name is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#84"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN167973 the MagicNumber/String  ':type=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN167973 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN167973 the MagicNumber/String  ',name=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN167973 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00099] For method toMBeanName arguments LinkedHashMap&lt;String ,String &gt;  tags"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00110] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#100"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toMBeanName@POLYN169211 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00111"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#111"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toMBeanName@POLYN169211 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#113"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method equals arguments Object  o"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toMBeanName@POLYN169211 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.equals@POLYN173807 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00121"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#121"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00121] The argument tags is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.equals@POLYN173807 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00122"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#122"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00122] The argument mapSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#128"
+ , "c1" : "00126"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  'RemoteLogSegmentMetadataSnapshot{' should be converted to const"
+ , "c3" : "QC-JAV000001[00126] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#129"
+ , "c1" : "00127"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  'segmentId=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  ', startOffset=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  ', endOffset=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  ', maxTimestampMs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  ', segmentLeaderEpochs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.server.metrics.KafkaYammerMetrics the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#134"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00134] For method toScope arguments Map&lt;String ,String &gt;  tags"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  ', segmentSizeInBytes=' should be converted to const"
+ , "c3" : "QC-JAV000001[00147] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#135"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  ', state=' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN171315 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.html#136"
+ , "c1" : "00148"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot.toString@POLYN174899 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN171315 the MagicNumber/String  '\\.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN171315 the MagicNumber/String  '_' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN171315 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#154"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN171315 the MagicNumber/String  '.' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogSegmentMetadataSnapshot.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.fct.svg" 
 
 , 
 }

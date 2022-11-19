@@ -1,54 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "RetriableException"
- , "c2" : "org.apache.kafka.common.errors.CorruptRecordException"
+ , "c2" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.errors.CorruptRecordException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00009"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#9"
- , "c1" : "CorruptRecordException"
- , "c2" : "CorruptRecordException()"
+ , "c5" : "00010"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html#10"
+ , "c1" : "CoordinatorNotAvailableException"
+ , "c2" : "CoordinatorNotAvailableException()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00013"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#13"
- , "c1" : "CorruptRecordException"
- , "c2" : "CorruptRecordException(String)"
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html#14"
+ , "c1" : "CoordinatorNotAvailableException"
+ , "c2" : "CoordinatorNotAvailableException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#17"
- , "c1" : "CorruptRecordException"
- , "c2" : "CorruptRecordException(Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#21"
- , "c1" : "CorruptRecordException"
- , "c2" : "CorruptRecordException(String;Throwable)"
+ , "c5" : "00018"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.html#18"
+ , "c1" : "CoordinatorNotAvailableException"
+ , "c2" : "CoordinatorNotAvailableException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.svg" }
 
 ] 
 , 
@@ -84,26 +75,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.html#10"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00010] In method org.apache.kafka.common.errors.CorruptRecordException.CorruptRecordException@POLYN142349 the MagicNumber/String  'This message has failed its CRC checksum, exceeds the valid size, has a null key for a compacted topic, or is otherwise corrupt.' should be converted to const"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CorruptRecordException.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/CoordinatorNotAvailableException.java.fct.svg" 
 
 , 
 }

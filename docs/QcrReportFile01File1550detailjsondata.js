@@ -1,47 +1,83 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java 9 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.xml" 
+   "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html" 
+ , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java 9 rule violations " 
+ , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "DeserializationExceptionHandler"
- , "c2" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17"
- , "c1" : "DeserializationHandlerResponse"
- , "c2" : "handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception)"
+ , "c5" : "00014"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#14"
+ , "c1" : "void"
+ , "c2" : "handleRemoteLogMetadata(RemoteLogMetadata)"
+ , "c3" : "7"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00026"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#26"
+ , "c1" : "void"
+ , "c2" : "handleRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00028"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#28"
+ , "c1" : "void"
+ , "c2" : "handleRemoteLogSegmentMetadataUpdate(RemoteLogSegmentMetadataUpdate)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#30"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "handleRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#32"
+ , "c1" : "void"
+ , "c2" : "syncLogMetadataSnapshot(TopicIdPartition;int;Long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#36"
+ , "c1" : "void"
+ , "c2" : "clearTopicPartition(TopicIdPartition)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.png" 
+   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.svg" }
+ , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.svg" }
 
 ] 
 , 
@@ -68,27 +104,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
@@ -106,77 +121,77 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "6"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#13"
+ , "c1" : "00012"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#12"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class LogAndFailExceptionHandler contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00012] The class RemotePartitionMetadataEventHandler contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17"
+ , "c1" : "00014"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#14"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00017] For method handle arguments ProcessorContext  context|ConsumerRecord&lt;byte[] ,byte[] &gt;  record|Exception  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#17"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00017] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#18"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00018] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.streams.errors.LogAndFailExceptionHandler.handle@POLYN144719 the MagicNumber/String  'Exception caught during Deserialization, ' should be converted to const"
+ , "c3" : "QC-JAV000006[00014] For method handleRemoteLogMetadata arguments RemoteLogMetadata  remoteLogMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00022"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#22"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.streams.errors.LogAndFailExceptionHandler.handle@POLYN144719 the MagicNumber/String  'taskId: {}, topic: {}, partition: {}, offset: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler.handleRemoteLogMetadata@POLYN145639 the MagicNumber/String  'remoteLogMetadata: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
+ , "c1" : "00022"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#22"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler.handleRemoteLogMetadata@POLYN145639 the MagicNumber/String  ' is not supported.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00026] For method handleRemoteLogSegmentMetadata arguments RemoteLogSegmentMetadata  remoteLogSegmentMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#28"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00028] For method handleRemoteLogSegmentMetadataUpdate arguments RemoteLogSegmentMetadataUpdate  remoteLogSegmentMetadataUpdate"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00030] Void method configure is empty or contains only a return."
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#30"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00030] For method handleRemotePartitionDeleteMetadata arguments RemotePartitionDeleteMetadata  remotePartitionDeleteMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#30"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00030] Void method configure is empty or contains only a return. Interface segregation"
+ , "c1" : "00032"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#32"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00032] For method syncLogMetadataSnapshot arguments TopicIdPartition  topicIdPartition|int  metadataPartition|Long  metadataPartitionOffset"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.html#36"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00036] For method clearTopicPartition arguments TopicIdPartition  topicIdPartition"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemotePartitionMetadataEventHandler.java.fct.svg" 
 
 , 
 }

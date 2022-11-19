@@ -1,45 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java 4 rule violations " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractOptions<ListOffsetsOptions>"
- , "c2" : "org.apache.kafka.clients.admin.ListOffsetsOptions"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients.admin.ListOffsetsOptions" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#15"
- , "c1" : "ListOffsetsOptions"
- , "c2" : "ListOffsetsOptions()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
+ { "nomclasse" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00019"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#19"
- , "c1" : "ListOffsetsOptions"
- , "c2" : "ListOffsetsOptions(IsolationLevel)"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#19"
+ , "c1" : "ListConsumerGroupsResult"
+ , "c2" : "ListConsumerGroupsResult(KafkaFuture<Collection<Object>>)"
+ , "c3" : "6"
+ , "c4" : "13"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00048"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#48"
+ , "c1" : "KafkaFuture<Collection<ConsumerGroupListing>>"
+ , "c2" : "all()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.html#23"
- , "c1" : "IsolationLevel"
- , "c2" : "isolationLevel()"
+ , "c5" : "00053"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#53"
+ , "c1" : "KafkaFuture<Collection<ConsumerGroupListing>>"
+ , "c2" : "valid()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#58"
+ , "c1" : "KafkaFuture<Collection<Throwable>>"
+ , "c2" : "errors()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.svg" }
 
 ] 
 , 
@@ -75,8 +84,61 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#14"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00014] The class ListConsumerGroupsResult contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#19"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00019] The argument future is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#36"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.admin.ListConsumerGroupsResult.ListConsumerGroupsResult@POLYN155534 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.ListConsumerGroupsResult.ListConsumerGroupsResult@POLYN155534 the MagicNumber/String  null should be converted to const"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListOffsetsOptions.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsResult.java.fct.svg" 
 
 , 
 }

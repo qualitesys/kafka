@@ -1,34 +1,25 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java 8 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.xml" 
+   "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.html" 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/cache/Cache.java 0 rule violation " 
+ , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Cache<K,V>"
- , "c2" : "org.apache.kafka.common.cache.LRUCache"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.cache.Cache"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.cache.LRUCache" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.cache.Cache" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#11"
- , "c1" : "LRUCache"
- , "c2" : "LRUCache(int)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#21"
+ , "c5" : "00008"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.html#8"
  , "c1" : "V"
  , "c2" : "get(K)"
  , "c3" : "1"
@@ -36,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#26"
+ , "c5" : "00011"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.html#11"
  , "c1" : "void"
  , "c2" : "put(K;V)"
  , "c3" : "1"
@@ -45,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#31"
+ , "c5" : "00014"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.html#14"
  , "c1" : "boolean"
  , "c2" : "remove(K)"
  , "c3" : "1"
@@ -54,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#36"
+ , "c5" : "00017"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.html#17"
  , "c1" : "long"
  , "c2" : "size()"
  , "c3" : "1"
@@ -66,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.png" 
+   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.png" 
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.svg" }
+ , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.svg" }
 
 ] 
 , 
@@ -93,89 +84,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#8"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00008] The class LRUCache contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN144728 the MagicNumber/String  16 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN144728 the MagicNumber/String  .75f should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00012] In method org.apache.kafka.common.cache.LRUCache.LRUCache@POLYN144728 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#21"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00021] For method get arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#26"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00026] For method put arguments K  key|V  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method remove arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.cache.LRUCache.remove@POLYN145562 the MagicNumber/String  null should be converted to const"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/Cache.java.fct.svg" 
 
 , 
 }

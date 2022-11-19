@@ -1,72 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.xml" 
+   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.html" 
+ , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java 1 rule violations " 
+ , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.StreamsMetrics"
+ , "c1" : "RemoteStorageException"
+ , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.StreamsMetrics" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#14"
- , "c1" : "Map<MetricName,?extendsMetric>"
- , "c2" : "metrics()"
+ , "c5" : "00008"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.html#8"
+ , "c1" : "RemoteResourceNotFoundException"
+ , "c2" : "RemoteResourceNotFoundException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#17"
- , "c1" : "Sensor"
- , "c2" : "addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
+ , "c5" : "00012"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.html#12"
+ , "c1" : "RemoteResourceNotFoundException"
+ , "c2" : "RemoteResourceNotFoundException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#24"
- , "c1" : "Sensor"
- , "c2" : "addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#31"
- , "c1" : "Sensor"
- , "c2" : "addSensor(String;Sensor.RecordingLevel)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#35"
- , "c1" : "Sensor"
- , "c2" : "addSensor(String;Sensor.RecordingLevel;Sensor...)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#40"
- , "c1" : "void"
- , "c2" : "removeSensor(Sensor)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.html#16"
+ , "c1" : "RemoteResourceNotFoundException"
+ , "c2" : "RemoteResourceNotFoundException(String;Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.png" 
+   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.svg" }
+ , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.svg" }
 
 ] 
 , 
@@ -102,8 +75,26 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.html#13"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException.RemoteResourceNotFoundException@POLYN143101 the MagicNumber/String  'Requested remote resource was not found' should be converted to const"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.fct.svg" 
 
 , 
 }

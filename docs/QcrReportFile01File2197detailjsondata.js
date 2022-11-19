@@ -1,81 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java 6 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskSpec"
- , "c2" : "org.apache.kafka.trogdor.workload.ExternalCommandSpec"
+ , "c1" : "Message"
+ , "c2" : "org.apache.kafka.trogdor.rest.CreateWorkerRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.workload.ExternalCommandSpec" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.CreateWorkerRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#27"
- , "c1" : "ExternalCommandSpec"
- , "c2" : "ExternalCommandSpec(long;long;String;List<String>;JsonNode;Optional<Integer>)"
+ , "c5" : "00016"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#16"
+ , "c1" : "CreateWorkerRequest"
+ , "c2" : "CreateWorkerRequest(long;String;TaskSpec)"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#42"
+ , "c5" : "00025"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#25"
+ , "c1" : "long"
+ , "c2" : "workerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#30"
  , "c1" : "String"
- , "c2" : "commandNode()"
+ , "c2" : "taskId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#47"
- , "c1" : "List<String>"
- , "c2" : "command()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#52"
- , "c1" : "JsonNode"
- , "c2" : "workload()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#57"
- , "c1" : "Optional<Integer>"
- , "c2" : "shutdownGracePeriodMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#62"
- , "c1" : "TaskController"
- , "c2" : "newController(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#67"
- , "c1" : "TaskWorker"
- , "c2" : "newTaskWorker(String)"
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.html#35"
+ , "c1" : "TaskSpec"
+ , "c2" : "spec()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.svg" }
 
 ] 
 , 
@@ -111,68 +84,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.workload.ExternalCommandSpec.ExternalCommandSpec@POLYN154808 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#35"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.workload.ExternalCommandSpec.ExternalCommandSpec@POLYN154808 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#36"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.workload.ExternalCommandSpec.ExternalCommandSpec@POLYN154808 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#37"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.workload.ExternalCommandSpec.ExternalCommandSpec@POLYN154808 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method newController arguments String  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method newTaskWorker arguments String  id"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandSpec.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateWorkerRequest.java.fct.svg" 
 
 , 
 }

@@ -1,119 +1,209 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java 26 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java 18 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics"
+ , "c1" : "ProcessorContext"
+ , "c2" : "org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#26"
- , "c1" : "ProcessorNodeMetrics"
- , "c2" : "ProcessorNodeMetrics()"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#66"
- , "c1" : "Sensor"
- , "c2" : "suppressionEmitSensor(String;String;String;StreamsMetricsImpl)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#82"
- , "c1" : "Sensor"
- , "c2" : "skippedIdempotentUpdatesSensor(String;String;String;StreamsMetricsImpl)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98"
- , "c1" : "Sensor"
- , "c2" : "processAtSourceSensor(String;String;String;StreamsMetricsImpl)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124"
- , "c1" : "Sensor"
- , "c2" : "forwardSensor(String;String;String;StreamsMetricsImpl)"
- , "c3" : "1"
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#24"
+ , "c1" : "ProcessorContext"
+ , "c2" : "adapt(StateStoreContext)"
+ , "c3" : "3"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00150"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
- , "c1" : "Sensor"
- , "c2" : "e2ELatencySensor(String;String;String;StreamsMetricsImpl)"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#32"
+ , "c1" : "StoreToProcessorContextAdapter"
+ , "c2" : "StoreToProcessorContextAdapter(StateStoreContext)"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
- , "c1" : "Sensor"
- , "c2" : "emitFinalLatencySensor(String;String;String;StreamsMetricsImpl)"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#37"
+ , "c1" : "String"
+ , "c2" : "applicationId()"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00187"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
- , "c1" : "Sensor"
- , "c2" : "emittedRecordsSensor(String;String;String;StreamsMetricsImpl)"
+ , "c5" : "00042"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#42"
+ , "c1" : "TaskId"
+ , "c2" : "taskId()"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
- , "c1" : "Sensor"
- , "c2" : "throughputParentSensor(String;String;String;String;String;RecordingLevel;StreamsMetricsImpl)"
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#47"
+ , "c1" : "Serde<?>"
+ , "c2" : "keySerde()"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00225"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
- , "c1" : "Sensor"
- , "c2" : "throughputSensor(String;String;String;String;String;String;RecordingLevel;StreamsMetricsImpl;Sensor...)"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#52"
+ , "c1" : "Serde<?>"
+ , "c2" : "valueSerde()"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#57"
+ , "c1" : "File"
+ , "c2" : "stateDir()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#62"
+ , "c1" : "StreamsMetrics"
+ , "c2" : "metrics()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#67"
+ , "c1" : "void"
+ , "c2" : "register(StateStore;StateRestoreCallback)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#77"
+ , "c1" : "Cancellable"
+ , "c2" : "schedule(Duration;PunctuationType;Punctuator)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00092"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#92"
+ , "c1" : "void"
+ , "c2" : "commit()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#97"
+ , "c1" : "String"
+ , "c2" : "topic()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00102"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#102"
+ , "c1" : "int"
+ , "c2" : "partition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#107"
+ , "c1" : "long"
+ , "c2" : "offset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#112"
+ , "c1" : "Headers"
+ , "c2" : "headers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#117"
+ , "c1" : "long"
+ , "c2" : "timestamp()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00122"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#122"
+ , "c1" : "Map<String,Object>"
+ , "c2" : "appConfigs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#127"
+ , "c1" : "Map<String,Object>"
+ , "c2" : "appConfigsWithPrefix(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#132"
+ , "c1" : "long"
+ , "c2" : "currentSystemTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00137"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#137"
+ , "c1" : "long"
+ , "c2" : "currentStreamTimeMs()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.svg" }
 
 ] 
 , 
@@ -138,12 +228,21 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "6"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -157,210 +256,147 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#25"
+ , "c1" : "00021"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00025] The class ProcessorNodeMetrics contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00021] The class StoreToProcessorContextAdapter contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#66"
+ , "c1" : "00024"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#24"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method suppressionEmitSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00024] For method adapt arguments StateStoreContext  delegate"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#82"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method skippedIdempotentUpdatesSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00067] For method register arguments StateStore  store|StateRestoreCallback  stateRestoreCallback"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter the MagicNumber/String  'StateStores can't access getStateStore.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#77"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00077] For method schedule arguments Duration  interval|PunctuationType  type|Punctuator  callback"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#78"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.schedule@POLYN158422 the MagicNumber/String  'StateStores can't access schedule.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter the MagicNumber/String  'StateStores can't access forward.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter the MagicNumber/String  'StateStores can't access forward.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.commit@POLYN159087 the MagicNumber/String  'StateStores can't access commit.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method processAtSourceSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method processAtSourceSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN177373"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#101"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00101] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method forwardSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method forwardSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor throughputParentSensorN178195"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method e2ELatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN178947|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN179179"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#153"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00153] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.e2ELatencySensor@POLYN178652 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.topic@POLYN159223 the MagicNumber/String  'StateStores can't access topic.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method emitFinalLatencySensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00169] For method emitFinalLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN179823|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN180055"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#172"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00172] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#173"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emitFinalLatencySensor@POLYN179528 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.partition@POLYN159363 the MagicNumber/String  'StateStores can't access partition.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00187] For method emittedRecordsSensor arguments String  threadId|String  taskId|String  processorNodeId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#187"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00187] For method emittedRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN180677|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN180909"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#190"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00190] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#191"
+ , "c1" : "00108"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics.emittedRecordsSensor@POLYN180382 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.offset@POLYN159503 the MagicNumber/String  'StateStores can't access offset.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
+ , "c1" : "00113"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.headers@POLYN159643 the MagicNumber/String  'StateStores can't access headers.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.timestamp@POLYN159783 the MagicNumber/String  'StateStores can't access timestamp.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00205] For method throughputParentSensor arguments String  threadId|String  taskId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics"
+ , "c3" : "QC-JAV000006[00127] For method appConfigsWithPrefix arguments String  prefix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#205"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00205] For method throughputParentSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN181509|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN181711"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.currentSystemTimeMs@POLYN160281 the MagicNumber/String  'StateStores can't access system time.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#211"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#138"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.currentStreamTimeMs@POLYN160421 the MagicNumber/String  'StateStores can't access stream time.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00211] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method throughputSensor arguments String  threadId|String  taskId|String  processorNodeId|String  metricNamePrefix|String  descriptionOfRate|String  descriptionOfCount|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics|Sensor  ...parentSensors"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#225"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00225] For method throughputSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN182370|java.util.Map&lt;String,String&gt; streamsMetrics_nodeLevelTagMapN182616"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#232"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00232] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.adapt@POLYN156848"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.fct.svg" 
 
 , 
 }

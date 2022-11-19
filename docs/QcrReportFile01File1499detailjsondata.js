@@ -1,65 +1,110 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html" 
- , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java 13 rule violations " 
- , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java 12 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RemoteLogMetadataCache"
- , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.common.ProducerIdsBlock"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.common.ProducerIdsBlock" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#22"
- , "c1" : "FileBasedRemoteLogMetadataCache"
- , "c2" : "FileBasedRemoteLogMetadataCache(TopicIdPartition;Path)"
- , "c3" : "2"
- , "c4" : "5"
+ , "c5" : "00017"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#17"
+ , "c1" : "ProducerIdsBlock"
+ , "c2" : "ProducerIdsBlock(int;long;int)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38"
- , "c1" : "void"
- , "c2" : "loadRemoteLogSegmentMetadata(RemoteLogMetadataSnapshotFile.Snapshot)"
- , "c3" : "6"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#58"
- , "c1" : "RemoteLogSegmentMetadata"
- , "c2" : "createRemoteLogSegmentMetadata(RemoteLogSegmentMetadataSnapshot)"
+ , "c5" : "00024"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#24"
+ , "c1" : "int"
+ , "c2" : "assignedBrokerId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#65"
- , "c1" : "void"
- , "c2" : "flushToFile(int;Long)"
- , "c3" : "4"
+ , "c5" : "00029"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#29"
+ , "c1" : "long"
+ , "c2" : "firstProducerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#34"
+ , "c1" : "int"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#39"
+ , "c1" : "long"
+ , "c2" : "lastProducerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#44"
+ , "c1" : "long"
+ , "c2" : "nextBlockFirstId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#49"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
  , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#66"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.png" 
 
- , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.svg" }
 
 ] 
 , 
@@ -86,24 +131,17 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "2"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -117,105 +155,98 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#23"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument partitionDir is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#24"
+ , "c1" : "00008"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00024] The same method call partitionDir.toFile() is used several times, should be optimized "
+ , "c3" : "QC-JAV000008[00008] The class ProducerIdsBlock contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#25"
+ , "c1" : "00040"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN156768 the MagicNumber/String  'Given partition directory:' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.server.common.ProducerIdsBlock.lastProducerId@POLYN150486 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#25"
+ , "c1" : "00050"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.FileBasedRemoteLogMetadataCache@POLYN156768 the MagicNumber/String  ' must be an existing directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  'ProducerIdsBlock(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method loadRemoteLogSegmentMetadata arguments RemoteLogMetadataSnapshotFile.Snapshot  snapshot"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#38"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#39"
+ , "c1" : "00051"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN157590 the MagicNumber/String  'Loading snapshot for partition {} is: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  'assignedBrokerId=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#52"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ', firstProducerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#53"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache.loadRemoteLogSegmentMetadata@POLYN157590 the MagicNumber/String  'Given remoteLogSegmentMetadata has invalid state: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ', size=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#58"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method createRemoteLogSegmentMetadata arguments RemoteLogSegmentMetadataSnapshot  snapshot"
+ , "c3" : "QC-JAV000006[00058] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#58"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00058] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method flushToFile arguments int  metadataPartition|Long  metadataPartitionOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#71"
+ , "c1" : "00060"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00071] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000021[00060] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.html#76"
+ , "c1" : "00059"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/FileBasedRemoteLogMetadataCache.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.fct.svg" 
 
 , 
 }
