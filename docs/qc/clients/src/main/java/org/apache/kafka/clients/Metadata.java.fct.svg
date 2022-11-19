@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:1062px;height:544px;background:#000000;" version="1.1" viewBox="0 0 1062 544" width="1062px" zoomAndPan="magnify"><defs/><g><rect fill="#0B2521" height="1" style="stroke:#0B2521;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="1050" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="41.9688">[From string (line 468) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="111.1563">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="127.4531">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="1050" x="5" y="143.75">constructor Metadata(longrefreshBackoffMs,longmetadataExpireMs,LogContextlogContext,ClusterResourceListenersclusterResou ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="160.0469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="176.3438">... ( skipping 443 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="192.6406">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="324" x="5" y="208.9375">if (!leader.equals(that.leader)) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="225.2344">:return false;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="241.5313">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="257.8281">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="276" x="5" y="274.125">:return epoch.equals(that.epoch);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="290.4219">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="306.7188">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="323.0156">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="339.3125">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="355.6094">inthashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="371.9063">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="300" x="5" y="388.2031">:result=31*result+epoch.hashCode();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="5" y="404.5">:return result;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="420.7969">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="437.0938">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="453.3906">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="469.6875">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="485.9844">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="502.2813">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="381" x="5" y="518.5781">:return "LeaderAndEpoch{"+"leader="+leader+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="534.875">Syntax Error?</text><!--MD5=[689c7b6a1f6b76f2e22e02f6226e7288]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:393px;height:544px;background:#000000;" version="1.1" viewBox="0 0 393 544" width="393px" zoomAndPan="magnify"><defs/><g><rect fill="#13120C" height="1" style="stroke:#13120C;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="355" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="41.9688">[From string (line 485) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="111.1563">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="127.4531">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="355" x="5" y="143.75">constructor Metadata(longrefreshBackoffMs,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="160.0469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="176.3438">... ( skipping 460 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="192.6406">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="324" x="5" y="208.9375">if (!leader.equals(that.leader)) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="225.2344">:return false;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="241.5313">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="257.8281">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="276" x="5" y="274.125">:return epoch.equals(that.epoch);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="290.4219">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="306.7188">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="323.0156">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="339.3125">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="355.6094">inthashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="371.9063">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="300" x="5" y="388.2031">:result=31*result+epoch.hashCode();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="5" y="404.5">:return result;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="420.7969">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="437.0938">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="453.3906">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="469.6875">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="485.9844">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="502.2813">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="381" x="5" y="518.5781">:return "LeaderAndEpoch{"+"leader="+leader+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="534.875">Syntax Error?</text><!--MD5=[b1d9c54e614e4a3a0c701efd07c111df]
 @startuml
 !pragma layout smetana
 start
 note right
-constructor Metadata(longrefreshBackoffMs,longmetadataExpireMs,LogContextlogContext,ClusterResourceListenersclusterResourceListeners)
+constructor Metadata(longrefreshBackoffMs,
+longmetadataExpireMs,LogContextlogContext,
+ClusterResourceListenersclusterResourceListeners)
 end note
 :this.log=logContext.logger(Metadata.class );
 :this.refreshBackoffMs=refreshBackoffMs;
@@ -68,14 +70,16 @@ stop
 end
 start
 note right
-booleanupdateLastSeenEpochIfNewer(TopicPartitiontopicPartition,intleaderEpoch)
+booleanupdateLastSeenEpochIfNewer(TopicPartitiontopicPartition,
+intleaderEpoch)
 end note
 :Objects.requireNonNull(topicPartition,"TopicPartition cannot be null");
 if (leaderEpoch<0) then (yes) 
 :throw new IllegalArgumentException("Invalid leader epoch "+
 leaderEpoch+" (must be non-negative)");;
 endif 
-:log.trace("Determining if we should replace existing epoch {} with new epoch {} for partition {}",oldEpoch,leaderEpoch,topicPartition);
+:log.trace("Determining if we should replace existing epoch {} with new epoch {} for partition {}",
+oldEpoch,leaderEpoch,topicPartition);
 if (oldEpoch==null ) then (yes) 
 :log.debug("Not replacing null epoch with new epoch {} for partition {}",
 leaderEpoch,topicPartition);
@@ -111,7 +115,8 @@ if (epoch==null ) then (yes)
 :return partitionMetadata;;
 stop
 else (no)
-:return partitionMetadata.filter(metadata->metadata.leaderEpoch.orElse(NO_PARTITION_LEADER_EPOCH).equals(epoch));;
+:return partitionMetadata.filter(metadata->metadata.leaderEpoch.orElse(NO_PARTITION_LEADER_EPOCH)
+.equals(epoch));;
 stop
 endif 
 end
@@ -145,14 +150,16 @@ end note
 end
 start
 note right
-void updateWithCurrentRequestVersion(MetadataResponseresponse,booleanisPartialUpdate,longnowMs)
+void updateWithCurrentRequestVersion(MetadataResponseresponse,
+booleanisPartialUpdate,longnowMs)
 end note
 :this.update(this.requestVersion,response,
 isPartialUpdate,nowMs);
 end
 start
 note right
-void update(intrequestVersion,MetadataResponseresponse,booleanisPartialUpdate,longnowMs)
+void update(intrequestVersion,MetadataResponseresponse,
+booleanisPartialUpdate,longnowMs)
 end note
 :Objects.requireNonNull(response,"Metadata response cannot be null");
 if (isClosed()) then (yes) 
@@ -207,7 +214,8 @@ endif
 end
 start
 note right
-MetadataCachehandleMetadataResponse(MetadataResponsemetadataResponse,booleanisPartialUpdate,longnowMs)
+MetadataCachehandleMetadataResponse(MetadataResponsemetadataResponse,
+booleanisPartialUpdate,longnowMs)
 end note
 :topics.add(topicName);
 if (!Uuid.ZERO_UUID.equals(topicId)) then (yes) 
@@ -216,13 +224,15 @@ if (!Uuid.ZERO_UUID.equals(topicId)) then (yes)
 else (no)
 :topicId=null ;
 endif 
-if (!retainTopic(topicName,metadata.isInternal(),nowMs)) then (yes) 
+if (!retainTopic(topicName,metadata.isInternal(),
+nowMs)) then (yes) 
 endif 
 if (metadata.isInternal()) then (yes) 
 :internalTopics.add(topicName);
 endif 
 if (metadata.error()==Errors.NONE) then (yes) 
-:updateLatestMetadata(partitionMetadata,metadataResponse.hasReliableLeaderEpochs(),topicId,oldTopicId).ifPresent(partitions::add);
+:updateLatestMetadata(partitionMetadata,metadataResponse.hasReliableLeaderEpochs(),
+topicId,oldTopicId).ifPresent(partitions::add);
 if (partitionMetadata.error.exception() instanceof InvalidMetadataException) then (yes) 
 :log.debug("Requesting metadata update for partition {} due to error {}",
 partitionMetadata.topicPartition,partitionMetadata.error);
@@ -255,11 +265,14 @@ endif
 end
 start
 note right
-Optional<MetadataResponse.PartitionMetadata>updateLatestMetadata(MetadataResponse.PartitionMetadatapartitionMetadata,booleanhasReliableLeaderEpoch,UuidtopicId,UuidoldTopicId)
+Optional<MetadataResponse.PartitionMetadata>updateLatestMetadata(MetadataResponse.PartitionMetadatapartitionMetadata,
+booleanhasReliableLeaderEpoch,UuidtopicId,
+UuidoldTopicId)
 end note
 if (hasReliableLeaderEpoch&&partitionMetadata.leaderEpoch.isPresent()) then (yes) 
 if (topicId!=null &&!topicId.equals(oldTopicId)) then (yes) 
-:log.info("Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}",tp,newEpoch,oldTopicId,topicId);
+:log.info("Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}",
+tp,newEpoch,oldTopicId,topicId);
 :lastSeenLeaderEpochs.put(tp,newEpoch);
 :return Optional.of(partitionMetadata);;
 stop
@@ -380,7 +393,8 @@ start
 note right
 MetadataRequestAndVersionnewMetadataRequestAndVersion(longnowMs)
 end note
-if (!this.needFullUpdate&&this.lastSuccessfulRefreshMs+this.metadataExpireMs>nowMs) then (yes) 
+if (!this.needFullUpdate&&this.lastSuccessfulRefreshMs+
+this.metadataExpireMs>nowMs) then (yes) 
 :request=newMetadataRequestBuilderForNewTopics();
 :isPartialUpdate=true;
 endif 
@@ -408,14 +422,16 @@ stop
 end
 start
 note right
-booleanretainTopic(Stringtopic,booleanisInternal,longnowMs)
+booleanretainTopic(Stringtopic,booleanisInternal,
+longnowMs)
 end note
 :return true;;
 stop
 end
 start
 note right
-constructor MetadataRequestAndVersion(MetadataRequest.BuilderrequestBuilder,intrequestVersion,booleanisPartialUpdate)
+constructor MetadataRequestAndVersion(MetadataRequest.BuilderrequestBuilder,
+intrequestVersion,booleanisPartialUpdate)
 end note
 :this.requestBuilder=requestBuilder;
 :this.requestVersion=requestVersion;
@@ -423,7 +439,8 @@ end note
 end
 start
 note right
-constructor LeaderAndEpoch(Optional<Node>leader,Optional<Integer>epoch)
+constructor LeaderAndEpoch(Optional<Node>leader,
+Optional<Integer>epoch)
 end note
 :this.leader=Objects.requireNonNull(leader);
 :this.epoch=Objects.requireNonNull(epoch);
@@ -477,7 +494,9 @@ end
 !pragma layout smetana
 start
 note right
-constructor Metadata(longrefreshBackoffMs,longmetadataExpireMs,LogContextlogContext,ClusterResourceListenersclusterResourceListeners)
+constructor Metadata(longrefreshBackoffMs,
+longmetadataExpireMs,LogContextlogContext,
+ClusterResourceListenersclusterResourceListeners)
 end note
 :this.log=logContext.logger(Metadata.class );
 :this.refreshBackoffMs=refreshBackoffMs;
@@ -542,14 +561,16 @@ stop
 end
 start
 note right
-booleanupdateLastSeenEpochIfNewer(TopicPartitiontopicPartition,intleaderEpoch)
+booleanupdateLastSeenEpochIfNewer(TopicPartitiontopicPartition,
+intleaderEpoch)
 end note
 :Objects.requireNonNull(topicPartition,"TopicPartition cannot be null");
 if (leaderEpoch<0) then (yes) 
 :throw new IllegalArgumentException("Invalid leader epoch "+
 leaderEpoch+" (must be non-negative)");;
 endif 
-:log.trace("Determining if we should replace existing epoch {} with new epoch {} for partition {}",oldEpoch,leaderEpoch,topicPartition);
+:log.trace("Determining if we should replace existing epoch {} with new epoch {} for partition {}",
+oldEpoch,leaderEpoch,topicPartition);
 if (oldEpoch==null ) then (yes) 
 :log.debug("Not replacing null epoch with new epoch {} for partition {}",
 leaderEpoch,topicPartition);
@@ -585,7 +606,8 @@ if (epoch==null ) then (yes)
 :return partitionMetadata;;
 stop
 else (no)
-:return partitionMetadata.filter(metadata->metadata.leaderEpoch.orElse(NO_PARTITION_LEADER_EPOCH).equals(epoch));;
+:return partitionMetadata.filter(metadata->metadata.leaderEpoch.orElse(NO_PARTITION_LEADER_EPOCH)
+.equals(epoch));;
 stop
 endif 
 end
@@ -619,14 +641,16 @@ end note
 end
 start
 note right
-void updateWithCurrentRequestVersion(MetadataResponseresponse,booleanisPartialUpdate,longnowMs)
+void updateWithCurrentRequestVersion(MetadataResponseresponse,
+booleanisPartialUpdate,longnowMs)
 end note
 :this.update(this.requestVersion,response,
 isPartialUpdate,nowMs);
 end
 start
 note right
-void update(intrequestVersion,MetadataResponseresponse,booleanisPartialUpdate,longnowMs)
+void update(intrequestVersion,MetadataResponseresponse,
+booleanisPartialUpdate,longnowMs)
 end note
 :Objects.requireNonNull(response,"Metadata response cannot be null");
 if (isClosed()) then (yes) 
@@ -681,7 +705,8 @@ endif
 end
 start
 note right
-MetadataCachehandleMetadataResponse(MetadataResponsemetadataResponse,booleanisPartialUpdate,longnowMs)
+MetadataCachehandleMetadataResponse(MetadataResponsemetadataResponse,
+booleanisPartialUpdate,longnowMs)
 end note
 :topics.add(topicName);
 if (!Uuid.ZERO_UUID.equals(topicId)) then (yes) 
@@ -690,13 +715,15 @@ if (!Uuid.ZERO_UUID.equals(topicId)) then (yes)
 else (no)
 :topicId=null ;
 endif 
-if (!retainTopic(topicName,metadata.isInternal(),nowMs)) then (yes) 
+if (!retainTopic(topicName,metadata.isInternal(),
+nowMs)) then (yes) 
 endif 
 if (metadata.isInternal()) then (yes) 
 :internalTopics.add(topicName);
 endif 
 if (metadata.error()==Errors.NONE) then (yes) 
-:updateLatestMetadata(partitionMetadata,metadataResponse.hasReliableLeaderEpochs(),topicId,oldTopicId).ifPresent(partitions::add);
+:updateLatestMetadata(partitionMetadata,metadataResponse.hasReliableLeaderEpochs(),
+topicId,oldTopicId).ifPresent(partitions::add);
 if (partitionMetadata.error.exception() instanceof InvalidMetadataException) then (yes) 
 :log.debug("Requesting metadata update for partition {} due to error {}",
 partitionMetadata.topicPartition,partitionMetadata.error);
@@ -729,11 +756,14 @@ endif
 end
 start
 note right
-Optional<MetadataResponse.PartitionMetadata>updateLatestMetadata(MetadataResponse.PartitionMetadatapartitionMetadata,booleanhasReliableLeaderEpoch,UuidtopicId,UuidoldTopicId)
+Optional<MetadataResponse.PartitionMetadata>updateLatestMetadata(MetadataResponse.PartitionMetadatapartitionMetadata,
+booleanhasReliableLeaderEpoch,UuidtopicId,
+UuidoldTopicId)
 end note
 if (hasReliableLeaderEpoch&&partitionMetadata.leaderEpoch.isPresent()) then (yes) 
 if (topicId!=null &&!topicId.equals(oldTopicId)) then (yes) 
-:log.info("Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}",tp,newEpoch,oldTopicId,topicId);
+:log.info("Resetting the last seen epoch of partition {} to {} since the associated topicId changed from {} to {}",
+tp,newEpoch,oldTopicId,topicId);
 :lastSeenLeaderEpochs.put(tp,newEpoch);
 :return Optional.of(partitionMetadata);;
 stop
@@ -854,7 +884,8 @@ start
 note right
 MetadataRequestAndVersionnewMetadataRequestAndVersion(longnowMs)
 end note
-if (!this.needFullUpdate&&this.lastSuccessfulRefreshMs+this.metadataExpireMs>nowMs) then (yes) 
+if (!this.needFullUpdate&&this.lastSuccessfulRefreshMs+
+this.metadataExpireMs>nowMs) then (yes) 
 :request=newMetadataRequestBuilderForNewTopics();
 :isPartialUpdate=true;
 endif 
@@ -882,14 +913,16 @@ stop
 end
 start
 note right
-booleanretainTopic(Stringtopic,booleanisInternal,longnowMs)
+booleanretainTopic(Stringtopic,booleanisInternal,
+longnowMs)
 end note
 :return true;;
 stop
 end
 start
 note right
-constructor MetadataRequestAndVersion(MetadataRequest.BuilderrequestBuilder,intrequestVersion,booleanisPartialUpdate)
+constructor MetadataRequestAndVersion(MetadataRequest.BuilderrequestBuilder,
+intrequestVersion,booleanisPartialUpdate)
 end note
 :this.requestBuilder=requestBuilder;
 :this.requestVersion=requestVersion;
@@ -897,7 +930,8 @@ end note
 end
 start
 note right
-constructor LeaderAndEpoch(Optional<Node>leader,Optional<Integer>epoch)
+constructor LeaderAndEpoch(Optional<Node>leader,
+Optional<Integer>epoch)
 end note
 :this.leader=Objects.requireNonNull(leader);
 :this.epoch=Objects.requireNonNull(epoch);
