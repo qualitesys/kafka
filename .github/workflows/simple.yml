@@ -18,6 +18,8 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: trunk     
+    - name: Run maven clean
+      run: mvn clean
     - name: Run maven compile sur qcr
       run: mvn qcr:qcrgoalcompile
     - name: disk usage
