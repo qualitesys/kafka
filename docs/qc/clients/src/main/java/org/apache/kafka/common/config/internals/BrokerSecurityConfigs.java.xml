@@ -517,7 +517,7 @@
 <leniv><indtoken>507</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.668868341151E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.668901374767E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.004</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.004</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -596,27 +596,27 @@
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>76</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>License</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>77</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>.</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>78</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>You</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>79</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>may</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>80</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>obtain</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>81</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>a</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>82</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>copy</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>83</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>of</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>84</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>the</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>85</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>License</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>86</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>at</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>87</indtoken><temps>0.004</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>88</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>89</indtoken><temps>0.004</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>90</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>91</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>http</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>92</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>:</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>93</indtoken><temps>0.004</temps><nbappels>15</nbappels><token>/</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>94</indtoken><temps>0.004</temps><nbappels>14</nbappels><token>/</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>95</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>www</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>96</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>.</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>97</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>apache</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>98</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>.</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>99</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>org</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>79</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>may</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>80</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>obtain</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>81</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>a</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>82</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>copy</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>83</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>of</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>84</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>the</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>85</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>License</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>86</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>at</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>87</indtoken><temps>0.005</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>88</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>89</indtoken><temps>0.005</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>90</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>91</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>http</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>92</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>:</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>93</indtoken><temps>0.005</temps><nbappels>15</nbappels><token>/</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>94</indtoken><temps>0.005</temps><nbappels>14</nbappels><token>/</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>95</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>www</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>96</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>.</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>97</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>apache</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>98</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>.</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>99</indtoken><temps>0.005</temps><nbappels>29</nbappels><token>org</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>100</indtoken><temps>0.005</temps><nbappels>15</nbappels><token>/</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>101</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>licenses</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>102</indtoken><temps>0.005</temps><nbappels>15</nbappels><token>/</token></leniv>
@@ -801,8 +801,8 @@
 <leniv><noligne>14</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>281</indtoken><temps>0.005</temps><nbappels>23</nbappels><token>static</token></leniv>
 <leniv><noligne>14</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>282</indtoken><temps>0.005</temps><nbappels>27</nbappels><token>final</token></leniv>
 <leniv><noligne>14</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>283</indtoken><temps>0.005</temps><nbappels>60</nbappels><token>String</token></leniv>
-<leniv><noligne>14</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>284</indtoken><temps>0.005</temps><nbappels>49</nbappels><token>SSL_CLIENT_AUTH_CONFIG</token></leniv>
-<leniv><noligne>14</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>285</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>14</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>284</indtoken><temps>0.006</temps><nbappels>49</nbappels><token>SSL_CLIENT_AUTH_CONFIG</token></leniv>
+<leniv><noligne>14</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>285</indtoken><temps>0.006</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>14</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>286</indtoken><temps>0.006</temps><nbappels>88</nbappels><token>"ssl.client.auth"</token></leniv>
 <leniv><noligne>14</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>287</indtoken><temps>0.006</temps><nbappels>79</nbappels><token>;</token></leniv>
 <leniv><noligne>15</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>288</indtoken><temps>0.006</temps><nbappels>39</nbappels><token>public</token></leniv>
@@ -883,8 +883,8 @@
 <leniv><noligne>32</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>363</indtoken><temps>0.006</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>33</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>364</indtoken><temps>0.006</temps><nbappels>74</nbappels><token>" distinguished name of the X.500 certificate will be the principal. For more details on the format please"</token></leniv>
 <leniv><noligne>33</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>365</indtoken><temps>0.006</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>34</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>366</indtoken><temps>0.006</temps><nbappels>74</nbappels><token>" see _a href=\"#security_authz\"_ security authorization and acls_/a_. Note that this configuration is ignored"</token></leniv>
-<leniv><noligne>34</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>123</profmax><indtoken>367</indtoken><temps>0.006</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>34</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>366</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>" see _a href=\"#security_authz\"_ security authorization and acls_/a_. Note that this configuration is ignored"</token></leniv>
+<leniv><noligne>34</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>123</profmax><indtoken>367</indtoken><temps>0.007</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>35</noligne><profmin>0</profmin><proffinale>128</proffinale><profmax>128</profmax><indtoken>368</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>" if an extension of KafkaPrincipalBuilder is provided by the _code_"</token></leniv>
 <leniv><noligne>35</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>128</profmax><indtoken>369</indtoken><temps>0.007</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>35</noligne><profmin>0</profmin><proffinale>131</proffinale><profmax>143</profmax><indtoken>370</indtoken><temps>0.007</temps><nbappels>305</nbappels><token>PRINCIPAL_BUILDER_CLASS_CONFIG</token></leniv>
