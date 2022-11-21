@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:694px;height:544px;background:#000000;" version="1.1" viewBox="0 0 694 544" width="694px" zoomAndPan="magnify"><defs/><g><rect fill="#1A141F" height="1" style="stroke:#1A141F;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="682" x="5" y="26.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="41.9688">[From string (line 275) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="62.2656"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="78.5625">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="94.8594">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="111.1563">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="127.4531">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="434" x="5" y="143.75">constructor ConsumerGenerationPair(Stringconsumer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="160.0469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="176.3438">... ( skipping 250 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="192.6406">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="239" x="5" y="208.9375">:return unassignedPartitions;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="225.2344">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="241.5313">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="257.8281">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="274.125">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="542" x="5" y="290.4219">List&lt;TopicPartition&gt;getUnassignedPartitions(inttotalPartitionsCount,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="682" x="5" y="306.7188">Map&lt;String,Integer&gt;partitionsPerTopic,List&lt;TopicPartition&gt;sortedAssignedPartitions)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="323.0156">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="271" x="5" y="339.3125">:Collections.sort(sortedAllTopics);</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="391" x="5" y="355.6094">if (sortedAssignedPartitions.isEmpty()) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="380" x="5" y="371.9063">:return getAllTopicPartitions(partitionsPerTopic,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="303" x="5" y="388.2031">sortedAllTopics,totalPartitionsCount);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="404.5">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="420.7969">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="341" x="5" y="437.0938">:Collections.sort(sortedAssignedPartitions,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="353" x="5" y="453.3906">Comparator.comparing(TopicPartition::topic)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="337" x="5" y="469.6875">.thenComparing(TopicPartition::partition));</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="485.9844">:i++;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="417" x="5" y="502.2813">if (shouldAddDirectly||!(nextAssignedPartition.topic()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="517" x="5" y="518.5781">.equals(topic)&amp;&amp;nextAssignedPartition.partition()==i)) then (yes)</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="534.875">Syntax Error?</text><!--MD5=[ffc6b92784f92d87a19360dacf577a4b]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:607px;height:586px;background:#000000;" version="1.1" viewBox="0 0 607 586" width="607px" zoomAndPan="magnify"><defs/><g><rect fill="#151902" height="1" style="stroke:#151902;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="391" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 90 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="595" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 479) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="434" x="5" y="185.6563">constructor ConsumerGenerationPair(Stringconsumer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 454 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="524" x="5" y="250.8438">:currentPartitionConsumer.putAll(preBalancePartitionConsumers);</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="267.1406">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="420" x="5" y="283.4375">:currentAssignment.put(consumer,entry.getValue());</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="358" x="5" y="299.7344">:sortedCurrentSubscriptions.add(consumer);</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="209" x="5" y="316.0313">:fixedAssignments.clear();</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="332.3281">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="348.625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="364.9219">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="595" x="5" y="381.2188">booleanperformReassignments(List&lt;TopicPartition&gt;reassignablePartitions,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="426" x="5" y="397.5156">Map&lt;String,List&lt;TopicPartition&gt;&gt;currentAssignment,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="503" x="5" y="413.8125">Map&lt;TopicPartition,ConsumerGenerationPair&gt;prevAssignment,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="360" x="5" y="430.1094">TreeSet&lt;String&gt;sortedCurrentSubscriptions,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="441" x="5" y="446.4063">Map&lt;String,List&lt;String&gt;&gt;consumer2AllPotentialTopics,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="439" x="5" y="462.7031">Map&lt;String,List&lt;String&gt;&gt;topic2AllPotentialConsumers,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="428" x="5" y="479">Map&lt;TopicPartition,String&gt;currentPartitionConsumer,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="489" x="5" y="495.2969">Map&lt;String,Integer&gt;partitionsPerTopic,inttotalPartitionCount)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="511.5938">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="5" y="527.8906">repeat</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="130" x="5" y="544.1875">:modified=false;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="538" x="5" y="560.4844">while (partitionIterator.hasNext()&amp;&amp;!isBalanced(currentAssignment,</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[8a9f149e9ffaaa05c303bc1895f638eb]
 @startuml
 !pragma layout smetana
 start
@@ -198,8 +198,7 @@ new ArrayList<>()));
 :consumer2AllPotentialTopics.put(consumerId,
 subscribedTopics);
 :entry.getValue().topics().stream().filter(topic->partitionsPerTopic.get(topic)!=null )
-.forEach(topic->{subscribedTopics.add(topic);topic2AllPotentialConsumers.get(topic)
-.add(consumerId);});
+.forEach(topic->{subscribedTopics.add(topic);topic2AllPotentialConsumers.get(topic).add(consumerId);});
 if (!currentAssignment.containsKey(consumerId)) then (yes) 
 :currentAssignment.put(consumerId,new ArrayList<>());
 endif 
@@ -269,11 +268,9 @@ sortedAllTopics,totalPartitionsCount);;
 stop
 endif 
 :Collections.sort(sortedAssignedPartitions,
-Comparator.comparing(TopicPartition::topic)
-.thenComparing(TopicPartition::partition));
+Comparator.comparing(TopicPartition::topic).thenComparing(TopicPartition::partition));
 :i++;
-if (shouldAddDirectly||!(nextAssignedPartition.topic()
-.equals(topic)&&nextAssignedPartition.partition()==i)) then (yes) 
+if (shouldAddDirectly||!(nextAssignedPartition.topic().equals(topic)&&nextAssignedPartition.partition()==i)) then (yes) 
 :unassignedPartitions.add(new TopicPartition(topic,i));
 else (no)
 if (sortedAssignedPartitionsIter.hasNext()) then (yes) 
@@ -292,8 +289,7 @@ ConsumerGenerationPair>prevAssignment,List<TopicPartition>partitions,
 Stringconsumer,intgeneration)
 end note
 if (prevAssignment.containsKey(partition)) then (yes) 
-if (generation>prevAssignment.get(partition)
-.generation) then (yes) 
+if (generation>prevAssignment.get(partition).generation) then (yes) 
 :prevAssignment.put(partition,new ConsumerGenerationPair(consumer,
 generation));
 endif 
@@ -382,8 +378,7 @@ Map<String,List<TopicPartition>>currentAssignment,
 Map<String,List<String>>consumer2AllPotentialTopics,
 Map<TopicPartition,String>currentPartitionConsumer)
 end note
-if (consumer2AllPotentialTopics.get(consumer)
-.contains(partition.topic())) then (yes) 
+if (consumer2AllPotentialTopics.get(consumer).contains(partition.topic())) then (yes) 
 :sortedCurrentSubscriptions.remove(consumer);
 :currentAssignment.get(consumer).add(partition);
 :currentPartitionConsumer.put(partition,consumer);
@@ -435,8 +430,7 @@ Map<TopicPartition,String>currentPartitionConsumer,
 booleanrevocationRequired,Map<String,Integer>partitionsPerTopic,
 inttotalPartitionCount)
 end note
-if (topic2AllPotentialConsumers.get(partition.topic())
-.isEmpty()) then (yes) 
+if (topic2AllPotentialConsumers.get(partition.topic()).isEmpty()) then (yes) 
 endif 
 :assignPartition(partition,sortedCurrentSubscriptions,
 currentAssignment,consumer2AllPotentialTopics,
@@ -486,8 +480,7 @@ repeat
 while (partitionIterator.hasNext()&&!isBalanced(currentAssignment,
 sortedCurrentSubscriptions,consumer2AllPotentialTopics,
 partitionsPerTopic,totalPartitionCount))
-if (topic2AllPotentialConsumers.get(partition.topic())
-.size()<=1) then (yes) 
+if (topic2AllPotentialConsumers.get(partition.topic()).size()<=1) then (yes) 
 :log.error("Expected more than one potential consumer for partition '{}'",
 partition);
 endif 
@@ -495,9 +488,7 @@ if (consumer==null ) then (yes)
 :log.error("Expected partition '{}' to be assigned to a consumer",
 partition);
 endif 
-if (prevAssignment.containsKey(partition)&&currentAssignment.get(consumer)
-.size()>currentAssignment.get(prevAssignment.get(partition).consumer).size()+
-1) then (yes) 
+if (prevAssignment.containsKey(partition)&&currentAssignment.get(consumer).size()>currentAssignment.get(prevAssignment.get(partition).consumer).size()+1) then (yes) 
 :reassignPartition(partition,currentAssignment,
 sortedCurrentSubscriptions,currentPartitionConsumer,
 prevAssignment.get(partition).consumer);
@@ -525,8 +516,7 @@ TreeSet<String>sortedCurrentSubscriptions,
 Map<TopicPartition,String>currentPartitionConsumer,
 Map<String,List<String>>consumer2AllPotentialTopics)
 end note
-if (consumer2AllPotentialTopics.get(anotherConsumer)
-.contains(partition.topic())) then (yes) 
+if (consumer2AllPotentialTopics.get(anotherConsumer).contains(partition.topic())) then (yes) 
 :newConsumer=anotherConsumer;
 endif 
 :reassignPartition(partition,currentAssignment,
@@ -625,8 +615,7 @@ ConsumerPairremoveMovementRecordOfPartition(TopicPartitionpartition)
 end note
 :partitionMovementsForThisTopic.get(pair)
 .remove(partition);
-if (partitionMovementsForThisTopic.get(pair)
-.isEmpty()) then (yes) 
+if (partitionMovementsForThisTopic.get(pair).isEmpty()) then (yes) 
 :partitionMovementsForThisTopic.remove(pair);
 endif 
 if (partitionMovementsByTopic.get(topic).isEmpty()) then (yes) 
@@ -754,8 +743,7 @@ end note
 if (hasCycles(topicMovementPairs)) then (yes) 
 :log.error("Stickiness is violated for topic {}"+
 "\nPartition movements for this topic occurred among the following consumer pairs:"+
-"\n{}",topicMovements.getKey(),topicMovements.getValue()
-.toString());
+"\n{}",topicMovements.getKey(),topicMovements.getValue().toString());
 :return false;;
 stop
 endif 
