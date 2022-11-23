@@ -331,7 +331,7 @@
 <leniv><indtoken>321</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.66907417563E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.669160549004E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.002</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.002</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -388,15 +388,15 @@
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>54</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>Version</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>55</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>2.0</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>56</indtoken><temps>0.002</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>57</indtoken><temps>0.003</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>58</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>(</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>59</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>the</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>60</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>"License"</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>61</indtoken><temps>0.003</temps><nbappels>6</nbappels><token>)</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>62</indtoken><temps>0.003</temps><nbappels>28</nbappels><token>;</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>63</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>you</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>64</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>may</token></leniv>
-<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>65</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>not</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>57</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>58</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>(</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>59</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>the</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>60</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>"License"</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>61</indtoken><temps>0.002</temps><nbappels>6</nbappels><token>)</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>62</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>;</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>63</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>you</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>64</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>may</token></leniv>
+<leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>65</indtoken><temps>0.002</temps><nbappels>29</nbappels><token>not</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>66</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>use</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>67</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>this</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>68</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>file</token></leniv>
@@ -572,24 +572,24 @@
 <leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>238</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>applied</token></leniv>
 <leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>239</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>.</token></leniv>
 <leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>240</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>In</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>241</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>this</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>242</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>case</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>243</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>,</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>244</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>the</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>245</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>commit</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>246</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>cannot</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>247</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>generally</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>248</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>be</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>249</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>retried</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>250</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>because</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>251</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>some</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>252</indtoken><temps>0.004</temps><nbappels>21</nbappels><token>`</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>253</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>254</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>of</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>255</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>the</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>256</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>partitions</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>257</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>may</token></leniv>
-<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>258</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>have</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>241</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>this</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>242</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>case</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>243</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>,</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>244</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>the</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>245</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>commit</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>246</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>cannot</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>247</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>generally</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>248</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>be</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>249</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>retried</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>250</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>because</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>251</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>some</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>252</indtoken><temps>0.003</temps><nbappels>21</nbappels><token>`</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>253</indtoken><temps>0.003</temps><nbappels>28</nbappels><token>*</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>254</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>of</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>255</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>the</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>256</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>partitions</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>257</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>may</token></leniv>
+<leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>258</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>have</token></leniv>
 <leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>259</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>already</token></leniv>
 <leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>260</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>been</token></leniv>
 <leniv><noligne>6</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>261</indtoken><temps>0.004</temps><nbappels>29</nbappels><token>assigned</token></leniv>
@@ -645,10 +645,10 @@
 <leniv><noligne>18</noligne><profmin>0</profmin><proffinale>137</proffinale><profmax>152</profmax><indtoken>311</indtoken><temps>0.004</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>19</noligne><profmin>0</profmin><proffinale>157</proffinale><profmax>157</profmax><indtoken>312</indtoken><temps>0.004</temps><nbappels>74</nbappels><token>"which typically implies that the poll loop is spending too much time message processing. "</token></leniv>
 <leniv><noligne>19</noligne><profmin>0</profmin><proffinale>142</proffinale><profmax>157</profmax><indtoken>313</indtoken><temps>0.004</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>20</noligne><profmin>0</profmin><proffinale>162</proffinale><profmax>162</profmax><indtoken>314</indtoken><temps>0.005</temps><nbappels>74</nbappels><token>"You can address this either by increasing max.poll.interval.ms or by reducing the maximum "</token></leniv>
-<leniv><noligne>20</noligne><profmin>0</profmin><proffinale>147</proffinale><profmax>162</profmax><indtoken>315</indtoken><temps>0.005</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>21</noligne><profmin>0</profmin><proffinale>167</proffinale><profmax>167</profmax><indtoken>316</indtoken><temps>0.005</temps><nbappels>74</nbappels><token>"size of batches returned in poll() with max.poll.records."</token></leniv>
-<leniv><noligne>21</noligne><profmin>0</profmin><proffinale>109</proffinale><profmax>167</profmax><indtoken>317</indtoken><temps>0.005</temps><nbappels>89</nbappels><token>)</token></leniv>
+<leniv><noligne>20</noligne><profmin>0</profmin><proffinale>162</proffinale><profmax>162</profmax><indtoken>314</indtoken><temps>0.004</temps><nbappels>74</nbappels><token>"You can address this either by increasing max.poll.interval.ms or by reducing the maximum "</token></leniv>
+<leniv><noligne>20</noligne><profmin>0</profmin><proffinale>147</proffinale><profmax>162</profmax><indtoken>315</indtoken><temps>0.004</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>21</noligne><profmin>0</profmin><proffinale>167</proffinale><profmax>167</profmax><indtoken>316</indtoken><temps>0.004</temps><nbappels>74</nbappels><token>"size of batches returned in poll() with max.poll.records."</token></leniv>
+<leniv><noligne>21</noligne><profmin>0</profmin><proffinale>109</proffinale><profmax>167</profmax><indtoken>317</indtoken><temps>0.004</temps><nbappels>89</nbappels><token>)</token></leniv>
 <leniv><noligne>21</noligne><profmin>0</profmin><proffinale>75</proffinale><profmax>109</profmax><indtoken>318</indtoken><temps>0.005</temps><nbappels>55</nbappels><token>;</token></leniv>
 <leniv><noligne>22</noligne><profmin>0</profmin><proffinale>56</proffinale><profmax>117</profmax><indtoken>319</indtoken><temps>0.005</temps><nbappels>950</nbappels><token>}</token></leniv>
 <leniv><noligne>23</noligne><profmin>0</profmin><proffinale>33</proffinale><profmax>64</profmax><indtoken>320</indtoken><temps>0.005</temps><nbappels>292</nbappels><token>}</token></leniv>
