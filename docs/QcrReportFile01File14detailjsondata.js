@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java 51 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java 56 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.xml" 
  , "fic3"  : "" 
 }
@@ -195,7 +195,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -209,7 +209,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -579,6 +579,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.count@POLYN171267"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171662"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#40"
  , "c2" : "BLOCKER"
@@ -604,6 +618,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#100"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.clients.InFlightRequests.clearAll@POLYN172707 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.InFlightRequests.count@POLYN171267 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.InFlightRequests.count@POLYN171267 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#80"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN171662 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

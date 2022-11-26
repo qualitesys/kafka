@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 812 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 817 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1280,7 +1280,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "47"
+ , "c4" : "51"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1294,7 +1294,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "7"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -6525,6 +6525,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readFully@POLYN801995"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.cloneArray@POLYN921495"
 }} 
 ,
@@ -6960,6 +6967,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2669"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[02669] In the recursive method java.io.ObjectInputStream.validateDescriptor@POLYN923175 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#448"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00448] In the recursive method java.io.ObjectInputStream.readFully@POLYN801995 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#448"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00448] In the recursive method java.io.ObjectInputStream.readFully@POLYN801995 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#448"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00448] In the recursive method java.io.ObjectInputStream.readFully@POLYN801995 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00451"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00451] In the recursive method java.io.ObjectInputStream.readFully@POLYN801995 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

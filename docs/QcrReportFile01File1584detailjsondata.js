@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/Topology.java 102 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/Topology.java 103 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.xml" 
  , "fic3"  : "" 
 }
@@ -274,7 +274,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1005,6 +1005,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#255"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00255] Public method addProcessor is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.Topology.addSource@POLYN397343"
 }} 
 ,
 { "ligne" : {"" : ""

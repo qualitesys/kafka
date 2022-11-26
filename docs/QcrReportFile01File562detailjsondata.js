@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 103 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 105 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -356,6 +356,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -366,7 +373,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1132,6 +1139,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.FileRecords.close@POLYN235514"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.FileRecords.open@POLYN246425"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00323"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#323"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00323] In the recursive method org.apache.kafka.common.record.FileRecords.open@POLYN246425 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

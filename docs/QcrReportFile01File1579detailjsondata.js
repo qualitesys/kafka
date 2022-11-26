@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 127 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 134 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -350,7 +350,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "10"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -364,7 +364,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1206,6 +1206,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN450482"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN456069"
 }} 
 ,
@@ -1214,6 +1221,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN452590"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00984"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#984"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00984] In the recursive method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN450482 the MagicNumber/String 'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00985"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#985"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00985] In the recursive method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN450482 the MagicNumber/String 'Please use `{}` instead. Note that this requires broker version 2.5+ so you should prepare ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00986"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#986"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00986] In the recursive method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN450482 the MagicNumber/String 'to upgrade your brokers if necessary.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00989"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#989"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00989] In the recursive method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN450482 the MagicNumber/String 'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00990"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#990"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00990] In the recursive method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN450482 the MagicNumber/String 'Please use `{}` instead.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00994"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#994"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00994] In the recursive method org.apache.kafka.streams.StreamsConfig.StreamsConfig@POLYN450482 the MagicNumber/String 'Configuration parameter `{}` is deprecated and will be removed in the 4.0.0 release.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

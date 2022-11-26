@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.PrintStream.java.html" 
- , "texte" : "File secujava/java.io.PrintStream.java 92 rule violations " 
+ , "texte" : "File secujava/java.io.PrintStream.java 97 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.PrintStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -887,14 +887,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1558,10 +1558,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.PrintStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintStream.format@POLYN372065"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.PrintStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintStream.printf@POLYN367306"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.PrintStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintStream.printf@POLYN368784"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/secujava/java.io.PrintStream.java.html#154"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00154] In the recursive method java.io.PrintStream.checkError@POLYN351386 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00438"
+ , "c1link" : "./qc/secujava/java.io.PrintStream.java.html#438"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00438] In the recursive method java.io.PrintStream.format@POLYN372065 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00446"
+ , "c1link" : "./qc/secujava/java.io.PrintStream.java.html#446"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00446] In the recursive method java.io.PrintStream.format@POLYN372065 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

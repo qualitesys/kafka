@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java 168 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java 187 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.xml" 
  , "fic3"  : "" 
 }
@@ -566,7 +566,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "3"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -580,7 +580,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1772,7 +1772,140 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN303446"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractHerder.connectorConfig@POLYN297341"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00401"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#401"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00405"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#405"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00405] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00406"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00406] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String ' contains no connector type' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00406"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#406"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00406] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String 'Connector config ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00421"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00426"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#426"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00426] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00430"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#430"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String 'Null value can not be supplied as the configuration value.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00439"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#439"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00442"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#442"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00442] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String '%s.config-- must return a ConfigDef that is not null.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#448"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00448] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00451"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#451"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00451] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String '%s.validate-- must return a Config that is not null.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#463"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00463] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00464"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#464"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00464] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00465"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#465"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00465] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN307462 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00336"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00336] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN303446 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#338"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00338] In the recursive method org.apache.kafka.connect.runtime.AbstractHerder.validateConnectorConfig@POLYN303446 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
