@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method create list of called methods Object monObjet|java.net.URL cu_validateUrlN153995|String jou_validateStringN154468|String jou_validateStringN154562|String jou_validateStringN154656|javax.net.ssl.SSLSocketFactory jou_createSSLSocketFactoryN154903"
+ , "c3" : "QC-JAV000007[00027] For method create list of called methods Object monObjet|java.net.URL cu_validateUrlN153995|java.lang.String jou_validateStringN154468|java.lang.String jou_validateStringN154562|java.lang.String jou_validateStringN154656|javax.net.ssl.SSLSocketFactory jou_createSSLSocketFactoryN154903"
 }} 
 ,
 { "ligne" : {"" : ""

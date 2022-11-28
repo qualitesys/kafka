@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+"java.lang.Object" <|-- "java.lang.Void"
+class java.lang.Void {
+-Void() : Void [[[./../.././qc/secujava/java.lang.Void.java.html#48]]]
+} 
+@enduml

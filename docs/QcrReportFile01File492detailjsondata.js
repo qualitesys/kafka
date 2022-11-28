@@ -288,7 +288,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method create list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; channelBuilderConfigsN183803"
+ , "c3" : "QC-JAV000007[00072] For method create list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; channelBuilderConfigsN183803"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#158"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00158] For method channelBuilderConfigs list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; config_valuesWithPrefixOverrideN187852"
+ , "c3" : "QC-JAV000007[00158] For method channelBuilderConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_valuesWithPrefixOverrideN187852"
 }} 
 ,
 { "ligne" : {"" : ""

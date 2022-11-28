@@ -310,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method shortName list of called methods Object monObjet|String r_applyN159130"
+ , "c3" : "QC-JAV000007[00057] For method shortName list of called methods Object monObjet|java.lang.String r_applyN159130"
 }} 
 ,
 { "ligne" : {"" : ""

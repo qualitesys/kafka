@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN209759|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN209853|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V0_readN210010|Long struct_getLongN210104|String struct_getStringN210198"
+ , "c3" : "QC-JAV000007[00087] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN209759|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN209853|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V0_readN210010|java.lang.Long struct_getLongN210104|java.lang.String struct_getStringN210198"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00122] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN212792|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN212886|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V0_readN213043|Short struct_getShortN213137|String struct_getStringN213231|String struct_getStringN213325|Long struct_getLongN213419|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN213910"
+ , "c3" : "QC-JAV000007[00122] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN212792|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN212886|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V0_readN213043|java.lang.Short struct_getShortN213137|java.lang.String struct_getStringN213231|java.lang.String struct_getStringN213325|java.lang.Long struct_getLongN213419|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN213910"
 }} 
 ,
 { "ligne" : {"" : ""

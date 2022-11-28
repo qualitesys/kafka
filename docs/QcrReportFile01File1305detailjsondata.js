@@ -392,7 +392,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00157] For method incrementalAlterConfigResource list of called methods Object monObjet|java.util.List&lt;String&gt; getPartsN231263|org.apache.kafka.common.requests.ApiError validateAlterConfigN232609"
+ , "c3" : "QC-JAV000007[00157] For method incrementalAlterConfigResource list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; getPartsN231263|org.apache.kafka.common.requests.ApiError validateAlterConfigN232609"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -700,7 +700,7 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#309"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00309] For method getParts list of called methods Object monObjet|String configSchema_getDefaultN238892"
+ , "c3" : "QC-JAV000007[00309] For method getParts list of called methods Object monObjet|java.lang.String configSchema_getDefaultN238892"
 }} 
 ,
 { "ligne" : {"" : ""

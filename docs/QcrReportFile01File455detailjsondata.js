@@ -315,7 +315,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method reconfigure list of called methods Object monObjet|java.util.function.Predicate&lt;String&gt; JmxReporter_compilePredicateN193052"
+ , "c3" : "QC-JAV000007[00085] For method reconfigure list of called methods Object monObjet|java.util.function.Predicate&lt;java.lang.String&gt; JmxReporter_compilePredicateN193052"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -357,7 +357,7 @@ var maDataBlocs = {
  , "c1" : "00118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00118] For method metricChange list of called methods Object monObjet|String addAttributeN194284"
+ , "c3" : "QC-JAV000007[00118] For method metricChange list of called methods Object monObjet|java.lang.String addAttributeN194284"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -385,7 +385,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method metricRemoval list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN194734|String getMBeanNameN194809|org.apache.kafka.common.metrics.JmxReporter.KafkaMbean removeAttributeN194917"
+ , "c3" : "QC-JAV000007[00128] For method metricRemoval list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN194734|java.lang.String getMBeanNameN194809|org.apache.kafka.common.metrics.JmxReporter.KafkaMbean removeAttributeN194917"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -777,7 +777,7 @@ var maDataBlocs = {
  , "c1" : "00313"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#313"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00313] For method contextChange list of called methods Object monObjet|java.util.Map&lt;String,String&gt; metricsContext_contextLabelsN204452"
+ , "c3" : "QC-JAV000007[00313] For method contextChange list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; metricsContext_contextLabelsN204452"
 }} 
 ,
 { "ligne" : {"" : ""

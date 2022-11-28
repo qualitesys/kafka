@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClientUtils.java 42 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClientUtils.java 43 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -427,6 +427,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#95"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00095] For method filterPreferredAddresses arguments InetAddress[]  allAddresses"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#95"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00095] For method filterPreferredAddresses list of called methods Object monObjet|Class&lt;?&gt; address_getClassN168617"
 }} 
 ,
 { "ligne" : {"" : ""

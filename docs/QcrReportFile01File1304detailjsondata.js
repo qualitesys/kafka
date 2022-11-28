@@ -539,7 +539,7 @@ var maDataBlocs = {
  , "c1" : "00259"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method registerBroker list of called methods Object monObjet|java.util.Optional&lt;Short&gt; brokerRegistrations_getN251164|java.util.Optional&lt;Short&gt; finalizedFeatures_getN252736"
+ , "c3" : "QC-JAV000007[00259] For method registerBroker list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; brokerRegistrations_getN251164|java.util.Optional&lt;java.lang.Short&gt; finalizedFeatures_getN252736"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -700,7 +700,7 @@ var maDataBlocs = {
  , "c1" : "00355"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#355"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00355] For method replay list of called methods Object monObjet|java.util.Optional&lt;Short&gt; brokerRegistrations_getN256850"
+ , "c3" : "QC-JAV000007[00355] For method replay list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; brokerRegistrations_getN256850"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -840,7 +840,7 @@ var maDataBlocs = {
  , "c1" : "00410"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#410"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00410] For method replayRegistrationChange list of called methods Object monObjet|java.util.Optional&lt;Short&gt; brokerRegistrations_getN259742|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN260375"
+ , "c3" : "QC-JAV000007[00410] For method replayRegistrationChange list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; brokerRegistrations_getN259742|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN260375"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1043,7 +1043,7 @@ var maDataBlocs = {
  , "c1" : "00483"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00483] For method unfenced list of called methods Object monObjet|java.util.Optional&lt;Short&gt; brokerRegistrations_getN264115"
+ , "c3" : "QC-JAV000007[00483] For method unfenced list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; brokerRegistrations_getN264115"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1078,7 +1078,7 @@ var maDataBlocs = {
  , "c1" : "00495"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#495"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00495] For method inControlledShutdown list of called methods Object monObjet|java.util.Optional&lt;Short&gt; brokerRegistrations_getN264815"
+ , "c3" : "QC-JAV000007[00495] For method inControlledShutdown list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; brokerRegistrations_getN264815"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1106,7 +1106,7 @@ var maDataBlocs = {
  , "c1" : "00502"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#502"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00502] For method active list of called methods Object monObjet|java.util.Optional&lt;Short&gt; brokerRegistrations_getN265249"
+ , "c3" : "QC-JAV000007[00502] For method active list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; brokerRegistrations_getN265249"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1148,7 +1148,7 @@ var maDataBlocs = {
  , "c1" : "00515"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#515"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00515] For method checkBrokerEpoch list of called methods Object monObjet|java.util.Optional&lt;Short&gt; brokerRegistrations_getN265867"
+ , "c3" : "QC-JAV000007[00515] For method checkBrokerEpoch list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; brokerRegistrations_getN265867"
 }} 
 ,
 { "ligne" : {"" : ""

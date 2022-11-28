@@ -1391,7 +1391,7 @@ var maDataBlocs = {
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00172] For method get list of called methods Object monObjet|Object schema_getN238309"
+ , "c3" : "QC-JAV000007[00172] For method get list of called methods Object monObjet|java.lang.Object schema_getN238309"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1650,7 +1650,7 @@ var maDataBlocs = {
  , "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00292] For method getBytes list of called methods Object monObjet|Object getN243292"
+ , "c3" : "QC-JAV000007[00292] For method getBytes list of called methods Object monObjet|java.lang.Object getN243292"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1664,7 +1664,7 @@ var maDataBlocs = {
  , "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#299"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00299] For method getBytes list of called methods Object monObjet|Object getN243658"
+ , "c3" : "QC-JAV000007[00299] For method getBytes list of called methods Object monObjet|java.lang.Object getN243658"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1678,7 +1678,7 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00306] For method getByteArray list of called methods Object monObjet|Object getN244030"
+ , "c3" : "QC-JAV000007[00306] For method getByteArray list of called methods Object monObjet|java.lang.Object getN244030"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2322,7 +2322,7 @@ var maDataBlocs = {
  , "c1" : "00520"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#520"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00520] For method equals list of called methods Object monObjet|Object other_getN257958"
+ , "c3" : "QC-JAV000007[00520] For method equals list of called methods Object monObjet|java.lang.Object other_getN257958"
 }} 
 ,
 { "ligne" : {"" : ""

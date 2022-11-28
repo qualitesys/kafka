@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method process list of called methods Object monObjet|String jsonErrorResponseN185702|java.util.Map&lt;String,String&gt; processExtensionsN186519"
+ , "c3" : "QC-JAV000007[00120] For method process list of called methods Object monObjet|java.lang.String jsonErrorResponseN185702|java.util.Map&lt;java.lang.String,java.lang.String&gt; processExtensionsN186519"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -481,7 +481,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method getBytes list of called methods Object monObjet|Object getCheckTypeN195143"
+ , "c3" : "QC-JAV000007[00095] For method getBytes list of called methods Object monObjet|java.lang.Object getCheckTypeN195143"
 }} 
 ,
 { "ligne" : {"" : ""

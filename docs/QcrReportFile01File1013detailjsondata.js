@@ -250,7 +250,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00050] For method upstreamTopic list of called methods Object monObjet|String topicSourceN151499"
+ , "c3" : "QC-JAV000007[00050] For method upstreamTopic list of called methods Object monObjet|java.lang.String topicSourceN151499"
 }} 
 ,
 { "ligne" : {"" : ""

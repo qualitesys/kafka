@@ -140,7 +140,7 @@ var maDataBlocs = {
  , "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#21"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00021] For method assign list of called methods Object monObjet|String partition_topicN187867"
+ , "c3" : "QC-JAV000007[00021] For method assign list of called methods Object monObjet|java.lang.String partition_topicN187867"
 }} 
 ,
 { "ligne" : {"" : ""

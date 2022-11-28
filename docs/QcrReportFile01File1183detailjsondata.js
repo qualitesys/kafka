@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java 17 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java 18 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.xml" 
  , "fic3"  : "" 
 }
@@ -146,6 +146,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -154,6 +161,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#39"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00039] For method start arguments Map&lt;String ,String &gt;  config"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html#39"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00039] For method start list of called methods Object monObjet|long Long_parseLongN155750"
 }} 
 ,
 { "ligne" : {"" : ""

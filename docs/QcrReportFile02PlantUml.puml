@@ -8936,6 +8936,54 @@ Complexity :1.59
 }
 }
 package java.lang {
+class "java.lang.Boolean" {
+Nb methods :14
+Complexity :1.08
+}
+class "java.lang.Byte" {
+Nb methods :20
+Complexity :1.15
+}
+class "java.lang.Character" {
+Nb methods :93
+Complexity :1.60
+}
+class "java.lang.Double" {
+Nb methods :25
+Complexity :1.33
+}
+class "java.lang.Error" {
+Nb methods :5
+Complexity :1.00
+}
+class "java.lang.Exception" {
+Nb methods :5
+Complexity :1.00
+}
+class "java.lang.Float" {
+Nb methods :26
+Complexity :1.20
+}
+class "java.lang.Integer" {
+Nb methods :40
+Complexity :2.30
+}
+class "java.lang.Long" {
+Nb methods :40
+Complexity :2.41
+}
+class "java.lang.Number" {
+Nb methods :6
+Complexity :1.00
+}
+class "java.lang.Object" {
+Nb methods :12
+Complexity :1.25
+}
+class "java.lang.Short" {
+Nb methods :21
+Complexity :1.20
+}
 class "java.lang.String" {
 Nb methods :85
 Complexity :2.86
@@ -8943,6 +8991,10 @@ Complexity :2.86
 class "java.lang.StringBuilder" {
 Nb methods :42
 Complexity :1.20
+}
+class "java.lang.Void" {
+Nb methods :1
+Complexity :1.00
 }
 }
 package java.net {

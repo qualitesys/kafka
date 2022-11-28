@@ -1,74 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CommandUtils.java 44 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java 23 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.shell.CommandUtils"
+ , "c2" : "org.apache.kafka.server.common.CheckpointFile"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.shell.CommandUtils" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.common.CheckpointFile" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#15"
- , "c1" : "List<String>"
- , "c2" : "getEffectivePaths(List<String>)"
- , "c3" : "4"
- , "c4" : "4"
+ , "c5" : "00032"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32"
+ , "c1" : "CheckpointFile"
+ , "c2" : "CheckpointFile(File;int;EntryFormatter<T>)"
+ , "c3" : "1"
+ , "c4" : "5"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#29"
+ , "c5" : "00047"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47"
  , "c1" : "void"
- , "c2" : "completeCommand(String;List<Candidate>)"
+ , "c2" : "write(Collection<T>)"
  , "c3" : "2"
- , "c4" : "3"
+ , "c4" : "10"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#38"
- , "c1" : "List<String>"
- , "c2" : "splitPath(String)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#49"
- , "c1" : "List<String>"
- , "c2" : "stripDotPathComponents(List<String>)"
- , "c3" : "6"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#64"
- , "c1" : "void"
- , "c2" : "completePath(MetadataNodeManager;String;List<Candidate>)"
- , "c3" : "8"
- , "c4" : "24"
+ , "c5" : "00074"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#74"
+ , "c1" : "List<T>"
+ , "c2" : "read()"
+ , "c3" : "1"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.png" 
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.svg" }
 
 ] 
 , 
@@ -98,350 +80,217 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "5"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAVCWE390"
+ , "c3" : "Detection of error condition without action"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "28"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#13"
+ , "c1" : "00024"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class CommandUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00024] The class CheckpointFile contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#15"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00015] For method getEffectivePaths arguments List&lt;String &gt;  paths"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.shell.CommandUtils.getEffectivePaths@POLYN163681 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method completeCommand arguments String  commandPrefix|List&lt;Candidate &gt;  candidates"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#29"
+ , "c1" : "00032"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00029] The argument candidates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.shell.CommandUtils.completeCommand@POLYN164435 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method splitPath arguments String  path"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#38"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument path is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00032] The argument file is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#40"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN165146 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAVCWE390[00040] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#41"
+ , "c1" : "00044"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.CommandUtils.splitPath@POLYN165146 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.server.common.CheckpointFile.CheckpointFile@POLYN167818 the MagicNumber/String  '.tmp' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#49"
+ , "c1" : "00047"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method stripDotPathComponents arguments List&lt;String &gt;  input"
+ , "c3" : "QC-JAV000006[00047] For method write arguments Collection&lt;T &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  '..' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.shell.CommandUtils.stripDotPathComponents@POLYN165869 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method completePath arguments MetadataNodeManager  nodeManager|String  pathPrefix|List&lt;Candidate &gt;  candidates"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#64"
+ , "c1" : "00047"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#47"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00064] The argument nodeManager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00047] The argument entries is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#65"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument pathPrefix is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#66"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00066] The argument candidates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00048"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#48"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00048] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#75"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00075] Avoid declaring class instance within loop, performance impact"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#75"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00075] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#76"
+ , "c1" : "00083"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00076] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000008[00083] The class CheckpointReadBuffer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#79"
+ , "c1" : "00119"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00079] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00119] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#95"
+ , "c1" : "00102"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00095] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#98"
+ , "c1" : "00107"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  'Unrecognised version:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#68"
+ , "c1" : "00107"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  ', expected version: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#69"
+ , "c1" : "00108"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  ' in checkpoint file at: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#72"
+ , "c1" : "00112"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#73"
+ , "c1" : "00118"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#74"
+ , "c1" : "00128"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  'Expected [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#81"
+ , "c1" : "00128"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  '] entries in checkpoint file [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#82"
+ , "c1" : "00129"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  '], but found only [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#88"
+ , "c1" : "00129"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.read@POLYN170913 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00135"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00135] For method toInt arguments String  line"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '' should be converted to const"
+ , "c1" : "00143"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#143"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00143] For method buildMalformedLineException arguments String  line"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#92"
+ , "c1" : "00144"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#94"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#97"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  '/' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.CommandUtils.completePath@POLYN166812 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.buildMalformedLineException@POLYN173148 the MagicNumber/String  'Malformed line in checkpoint file [%s]: %s' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.fct.svg" 
 
 , 
 }

@@ -1,56 +1,110 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java 18 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java 12 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Commands.Handler"
- , "c2" : "org.apache.kafka.shell.ExitCommandHandler"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.common.ProducerIdsBlock"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.shell.ExitCommandHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.common.ProducerIdsBlock" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#55"
- , "c1" : "void"
- , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
+ , "c5" : "00017"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#17"
+ , "c1" : "ProducerIdsBlock"
+ , "c2" : "ProducerIdsBlock(int;long;int)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#24"
+ , "c1" : "int"
+ , "c2" : "assignedBrokerId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#62"
+ , "c5" : "00029"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#29"
+ , "c1" : "long"
+ , "c2" : "firstProducerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#34"
+ , "c1" : "int"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00039"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#39"
+ , "c1" : "long"
+ , "c2" : "lastProducerId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00044"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#44"
+ , "c1" : "long"
+ , "c2" : "nextBlockFirstId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#49"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00066"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#66"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00067"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#67"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "2"
- , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.png" 
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.svg" }
 
 ] 
 , 
@@ -77,171 +131,122 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "7"
+ , "c4" : "9"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#15"
+ , "c1" : "00008"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#8"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class ExitCommandHandler contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00008] The class ProducerIdsBlock contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#18"
+ , "c1" : "00040"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00018] The class ExitCommandType contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.server.common.ProducerIdsBlock.lastProducerId@POLYN150486 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#24"
+ , "c1" : "00050"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.name@POLYN147045 the MagicNumber/String  'exit' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  'ProducerIdsBlock(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#29"
+ , "c1" : "00051"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.description@POLYN147147 the MagicNumber/String  'Exit the metadata shell.' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  'assignedBrokerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#34"
+ , "c1" : "00052"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.shell.ExitCommandHandler.ExitCommandType.shellOnly@POLYN147249 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ', firstProducerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method addArguments arguments ArgumentParser  parser"
+ , "c1" : "00053"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#53"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ', size=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method createHandler arguments Namespace  namespace"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#38"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00038] Void method addArguments is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#38"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00038] Void method addArguments is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#48"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00048] Void method completeNext is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#48"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00048] Void method completeNext is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+ , "c1" : "00054"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.server.common.ProducerIdsBlock.toString@POLYN150796 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.ExitCommandHandler.run@POLYN147753 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.ExitCommandHandler.hashCode@POLYN147982 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#67"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00058] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#68"
+ , "c1" : "00060"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN148084 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000021[00060] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#69"
+ , "c1" : "00059"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.ExitCommandHandler.equals@POLYN148084 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.html#60"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.common.ProducerIdsBlock.equals@POLYN151060 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ProducerIdsBlock.java.fct.svg" 
 
 , 
 }

@@ -587,7 +587,7 @@ var maDataBlocs = {
  , "c1" : "00214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#214"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00214] For method metadata list of called methods Object monObjet|java.util.Set&lt;String&gt; subscriptions_subscriptionN382378|java.nio.ByteBuffer ConsumerProtocol_serializeSubscriptionN382937"
+ , "c3" : "QC-JAV000007[00214] For method metadata list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; subscriptions_subscriptionN382378|java.nio.ByteBuffer ConsumerProtocol_serializeSubscriptionN382937"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -622,7 +622,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method updatePatternSubscription list of called methods Object monObjet|java.util.Set&lt;String&gt; cluster_topicsN383391"
+ , "c3" : "QC-JAV000007[00233] For method updatePatternSubscription list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; cluster_topicsN383391"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1210,7 +1210,7 @@ var maDataBlocs = {
  , "c1" : "00596"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#596"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00596] For method onLeaderElected list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN400240|String assignor_nameN400479|Subscription ConsumerProtocol_deserializeSubscriptionN401004|GroupAssignment assignor_assignN402202|java.nio.ByteBuffer ConsumerProtocol_serializeAssignmentN403195"
+ , "c3" : "QC-JAV000007[00596] For method onLeaderElected list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN400240|java.lang.String assignor_nameN400479|Subscription ConsumerProtocol_deserializeSubscriptionN401004|GroupAssignment assignor_assignN402202|java.nio.ByteBuffer ConsumerProtocol_serializeAssignmentN403195"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1357,7 +1357,7 @@ var maDataBlocs = {
  , "c1" : "00688"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#688"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00688] For method onJoinPrepare list of called methods Object monObjet|Exception invokePartitionsLostN406988|Exception invokePartitionsRevokedN407355|Exception invokePartitionsRevokedN408105"
+ , "c3" : "QC-JAV000007[00688] For method onJoinPrepare list of called methods Object monObjet|java.lang.Exception invokePartitionsLostN406988|java.lang.Exception invokePartitionsRevokedN407355|java.lang.Exception invokePartitionsRevokedN408105"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1462,7 +1462,7 @@ var maDataBlocs = {
  , "c1" : "00765"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#765"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00765] For method onLeavePrepare list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationN408728|Exception invokePartitionsLostN409494|Exception invokePartitionsRevokedN409598"
+ , "c3" : "QC-JAV000007[00765] For method onLeavePrepare list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationN408728|java.lang.Exception invokePartitionsLostN409494|java.lang.Exception invokePartitionsRevokedN409598"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1791,7 +1791,7 @@ var maDataBlocs = {
  , "c1" : "00932"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#932"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00932] For method commitOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Void&gt; doCommitOffsetsAsyncN416815|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Void&gt; doCommitOffsetsAsyncN417058"
+ , "c3" : "QC-JAV000007[00932] For method commitOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; doCommitOffsetsAsyncN416815|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; doCommitOffsetsAsyncN417058"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1819,7 +1819,7 @@ var maDataBlocs = {
  , "c1" : "00983"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#983"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00983] For method doCommitOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Void&gt; sendOffsetCommitRequestN418227"
+ , "c3" : "QC-JAV000007[00983] For method doCommitOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; sendOffsetCommitRequestN418227"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1861,7 +1861,7 @@ var maDataBlocs = {
  , "c1" : "01011"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1011"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01011] For method commitOffsetsSync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Void&gt; sendOffsetCommitRequestN420354"
+ , "c3" : "QC-JAV000007[01011] For method commitOffsetsSync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; sendOffsetCommitRequestN420354"
 }} 
 ,
 { "ligne" : {"" : ""

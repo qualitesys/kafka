@@ -261,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method register list of called methods Object monObjet|Object createSignalHandlerN159834"
+ , "c3" : "QC-JAV000007[00074] For method register list of called methods Object monObjet|java.lang.Object createSignalHandlerN159834"
 }} 
 ,
 { "ligne" : {"" : ""

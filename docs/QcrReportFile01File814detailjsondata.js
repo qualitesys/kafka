@@ -267,7 +267,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method createSSLSocketFactory list of called methods Object monObjet|java.util.Map&lt;String,?&gt; getSslClientConfigN157714"
+ , "c3" : "QC-JAV000007[00055] For method createSSLSocketFactory list of called methods Object monObjet|java.util.Map&lt;java.lang.String,?&gt; getSslClientConfigN157714"
 }} 
 ,
 { "ligne" : {"" : ""

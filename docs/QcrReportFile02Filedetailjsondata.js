@@ -106,6 +106,9 @@ var maDataBlocs = {
 {"ligne" : {
    "classe"  : "(2) java.io.Serializable" ,
 "children" : [
+  { "child"  : "(1) java.lang.Boolean" }, 
+  { "child"  : "(1) java.lang.Character" }, 
+  { "child"  : "(1) java.lang.Number" }, 
   { "child"  : "(1) java.lang.String" }, 
 ]
 }},
@@ -167,6 +170,12 @@ var maDataBlocs = {
    "classe"  : "(2) NotLeaderForPartitionException" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.errors.NotLeaderOrFollowerException" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) NumberComparable<Integer>" ,
+"children" : [
+  { "child"  : "(1) java.lang.Integer" }, 
 ]
 }},
 {"ligne" : {
@@ -423,6 +432,12 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler" }, 
   { "child"  : "(1) org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler" }, 
   { "child"  : "(1) org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) NumberComparable<Byte>" ,
+"children" : [
+  { "child"  : "(1) java.lang.Byte" }, 
 ]
 }},
 {"ligne" : {
@@ -996,6 +1011,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) NumberComparable<Double>" ,
+"children" : [
+  { "child"  : "(1) java.lang.Double" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) AbstractOptions<DescribeProducersOptions>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.admin.DescribeProducersOptions" }, 
@@ -1558,6 +1579,13 @@ var maDataBlocs = {
    "classe"  : "(2) SnapshotReader<T>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.snapshot.RecordsSnapshotReader" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) Throwable" ,
+"children" : [
+  { "child"  : "(1) java.lang.Error" }, 
+  { "child"  : "(1) java.lang.Exception" }, 
 ]
 }},
 {"ligne" : {
@@ -2480,6 +2508,7 @@ var maDataBlocs = {
   { "child"  : "(1) org.apache.kafka.snapshot.RawSnapshotReader" }, 
   { "child"  : "(1) org.apache.kafka.snapshot.SnapshotPath" }, 
   { "child"  : "(1) org.apache.kafka.snapshot.Snapshots" }, 
+  { "child"  : "(1) java.lang.Void" }, 
   { "child"  : "(1) java.net.CacheRequest" }, 
   { "child"  : "(1) java.net.CacheResponse" }, 
   { "child"  : "(1) java.util.Map" }, 
@@ -3064,6 +3093,12 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(2) NumberComparable<Short>" ,
+"children" : [
+  { "child"  : "(1) java.lang.Short" }, 
+]
+}},
+{"ligne" : {
    "classe"  : "(2) Iterable<ConsumerRecord<K, V>>" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.clients.consumer.ConsumerRecords" }, 
@@ -3150,6 +3185,12 @@ var maDataBlocs = {
    "classe"  : "(2) ReplicaSelector" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.common.replica.RackAwareReplicaSelector" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) NumberComparable<Long>" ,
+"children" : [
+  { "child"  : "(1) java.lang.Long" }, 
 ]
 }},
 {"ligne" : {
@@ -4172,6 +4213,12 @@ var maDataBlocs = {
    "classe"  : "(2) AbstractHerder" ,
 "children" : [
   { "child"  : "(1) org.apache.kafka.connect.runtime.standalone.StandaloneHerder" }, 
+]
+}},
+{"ligne" : {
+   "classe"  : "(2) NumberComparable<Float>" ,
+"children" : [
+  { "child"  : "(1) java.lang.Float" }, 
 ]
 }},
 {"ligne" : {
@@ -5369,6 +5416,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.lang.Integer" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.network.Send" ,
 "children" : [
 ]
@@ -6124,6 +6176,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.lang.Float" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.AllocateProducerIdsResponse" ,
 "children" : [
 ]
@@ -6250,6 +6307,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.trogdor.rest.WorkerRunning" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.Error" ,
 "children" : [
 ]
 }},
@@ -7060,6 +7122,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.security.oauthbearer.secured.Retry" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.Short" ,
 "children" : [
 ]
 }},
@@ -8654,6 +8721,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.lang.Boolean" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform" ,
 "children" : [
 ]
@@ -9475,6 +9547,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.trogdor.rest.TaskDone" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.Long" ,
 "children" : [
 ]
 }},
@@ -13069,6 +13146,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.lang.Void" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.clients.admin.ExpireDelegationTokenResult" ,
 "children" : [
 ]
@@ -13420,6 +13502,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.Byte" ,
 "children" : [
 ]
 }},
@@ -14419,6 +14506,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.lang.Character" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.processor.api.ProcessorSupplier" ,
 "children" : [
 ]
@@ -14525,6 +14617,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.EnvelopeResponse" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.Exception" ,
 "children" : [
 ]
 }},
@@ -15954,6 +16051,11 @@ var maDataBlocs = {
 ]
 }},
 {"ligne" : {
+   "classe"  : "(1) java.lang.Double" ,
+"children" : [
+]
+}},
+{"ligne" : {
    "classe"  : "(1) org.apache.kafka.common.requests.BrokerRegistrationRequest" ,
 "children" : [
 ]
@@ -16015,6 +16117,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) org.apache.kafka.streams.state.SessionStore" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.Number" ,
 "children" : [
 ]
 }},

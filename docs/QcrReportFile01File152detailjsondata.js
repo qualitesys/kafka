@@ -402,7 +402,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method onFailure list of called methods Object monObjet|ApiResult&lt;org.apache.kafka.common.TopicPartition,Void&gt; spec_keys_streamN228986|ApiResult&lt;org.apache.kafka.common.TopicPartition,Void&gt; spec_keys_streamN229312"
+ , "c3" : "QC-JAV000007[00161] For method onFailure list of called methods Object monObjet|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN228986|ApiResult&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; spec_keys_streamN229312"
 }} 
 ,
 { "ligne" : {"" : ""

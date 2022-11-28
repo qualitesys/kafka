@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method start list of called methods Object monObjet|String parsedConfig_getStringN154548|java.util.List&lt;String&gt; parsedConfig_getListN154663|Integer parsedConfig_getIntN155020"
+ , "c3" : "QC-JAV000007[00042] For method start list of called methods Object monObjet|java.lang.String parsedConfig_getStringN154548|java.util.List&lt;java.lang.String&gt; parsedConfig_getListN154663|java.lang.Integer parsedConfig_getIntN155020"
 }} 
 ,
 { "ligne" : {"" : ""

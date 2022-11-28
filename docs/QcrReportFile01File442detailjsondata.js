@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00028] For method key list of called methods Object monObjet|String Utils_utf8N149746"
+ , "c3" : "QC-JAV000007[00028] For method key list of called methods Object monObjet|java.lang.String Utils_utf8N149746"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -281,7 +281,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method hashCode list of called methods Object monObjet|String keyN151066"
+ , "c3" : "QC-JAV000007[00057] For method hashCode list of called methods Object monObjet|java.lang.String keyN151066"
 }} 
 ,
 { "ligne" : {"" : ""

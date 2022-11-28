@@ -471,7 +471,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00229] For method taskConfigForTopicPartitions list of called methods Object monObjet|java.util.Map&lt;String,String&gt; originalsStringsN253701"
+ , "c3" : "QC-JAV000007[00229] For method taskConfigForTopicPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN253701"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -499,7 +499,7 @@ var maDataBlocs = {
  , "c1" : "00238"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#238"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00238] For method taskConfigForConsumerGroups list of called methods Object monObjet|java.util.Map&lt;String,String&gt; originalsStringsN254265"
+ , "c3" : "QC-JAV000007[00238] For method taskConfigForConsumerGroups list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN254265"
 }} 
 ,
 { "ligne" : {"" : ""

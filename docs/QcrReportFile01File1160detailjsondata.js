@@ -456,7 +456,7 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00134] For method createConnector list of called methods Object monObjet|String createRequest_nameN237758|java.util.Map&lt;String,String&gt; createRequest_configN238019"
+ , "c3" : "QC-JAV000007[00134] For method createConnector list of called methods Object monObjet|java.lang.String createRequest_nameN237758|java.util.Map&lt;java.lang.String,java.lang.String&gt; createRequest_configN238019"
 }} 
 ,
 { "ligne" : {"" : ""

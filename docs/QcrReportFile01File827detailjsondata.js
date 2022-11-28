@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/VerificationKeyResolverFactory.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method create list of called methods Object monObjet|java.net.URL cu_validateUrlN153732|java.nio.file.Path cu_validateFileN153983|Long cu_validateLongN154167|javax.net.ssl.SSLSocketFactory jou_createSSLSocketFactoryN154531"
+ , "c3" : "QC-JAV000007[00027] For method create list of called methods Object monObjet|java.net.URL cu_validateUrlN153732|java.nio.file.Path cu_validateFileN153983|java.lang.Long cu_validateLongN154167|javax.net.ssl.SSLSocketFactory jou_createSSLSocketFactoryN154531"
 }} 
 ,
 { "ligne" : {"" : ""

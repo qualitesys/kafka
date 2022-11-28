@@ -758,7 +758,7 @@ var maDataBlocs = {
  , "c1" : "00272"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#272"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00272] For method baseProducerProps list of called methods Object monObjet|String ConnectUtils_lookupKafkaClusterIdN364727"
+ , "c3" : "QC-JAV000007[00272] For method baseProducerProps list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN364727"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1220,7 +1220,7 @@ var maDataBlocs = {
  , "c1" : "00477"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#477"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00477] For method putRestartRequest list of called methods Object monObjet|String RESTART_KEYN378496|byte[] converter_fromConnectDataN378927"
+ , "c3" : "QC-JAV000007[00477] For method putRestartRequest list of called methods Object monObjet|java.lang.String RESTART_KEYN378496|byte[] converter_fromConnectDataN378927"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1269,7 +1269,7 @@ var maDataBlocs = {
  , "c1" : "00494"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#494"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00494] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|String ConnectUtils_lookupKafkaClusterIdN379922|java.util.Map&lt;String,Object&gt; config_originalsN380053|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN381796"
+ , "c3" : "QC-JAV000007[00494] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN379922|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN380053|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN381796"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1773,7 +1773,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00745] For method processTasksCommitRecord list of called methods Object monObjet|java.util.Set&lt;Integer&gt; taskIdsN395606"
+ , "c3" : "QC-JAV000007[00745] For method processTasksCommitRecord list of called methods Object monObjet|java.util.Set&lt;java.lang.Integer&gt; taskIdsN395606"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2235,13 +2235,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256"
 }} 
 ,
@@ -2250,6 +2243,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2463,34 +2463,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00816"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#816"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00816] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String 'Ignoring restart request because the value is not a Map but is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00817"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#817"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00817] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00825"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#825"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00825] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String 'Invalid data for restart request '{}' field should be a Boolean but is {}, defaulting to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00834"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00834] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String 'Invalid data for restart request '{}' field should be a Boolean but is {}, defaulting to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00635"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#635"
  , "c2" : "BLOCKER"
@@ -2614,6 +2586,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#739"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00739] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00816"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#816"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00816] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String 'Ignoring restart request because the value is not a Map but is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00817"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#817"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00817] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00825"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#825"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00825] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String 'Invalid data for restart request '{}' field should be a Boolean but is {}, defaulting to {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00834"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#834"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00834] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951 the MagicNumber/String 'Invalid data for restart request '{}' field should be a Boolean but is {}, defaulting to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

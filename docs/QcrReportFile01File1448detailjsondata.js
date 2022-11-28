@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java 39 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java 40 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.xml" 
  , "fic3"  : "" 
 }
@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -293,6 +293,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method parse arguments Path  path"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method parse list of called methods Object monObjet|long Long_parseLongN164011|int Integer_parseIntN164168"
 }} 
 ,
 { "ligne" : {"" : ""

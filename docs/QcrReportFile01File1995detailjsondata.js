@@ -1,137 +1,101 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java 20 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java 9 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.state.StateSerdes"
+ , "c1" : "AbstractQueryResult<R>QueryResult<R>"
+ , "c2" : "org.apache.kafka.streams.query.internals.SucceededQueryResult"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.StateSerdes" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.query.internals.SucceededQueryResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#32"
- , "c1" : "StateSerdes"
- , "c2" : "StateSerdes(String;Serde<K>;Serde<V>)"
+ , "c5" : "00019"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#19"
+ , "c1" : "SucceededQueryResult"
+ , "c2" : "SucceededQueryResult(R)"
  , "c3" : "1"
- , "c4" : "6"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#45"
- , "c1" : "Serde<K>"
- , "c2" : "keySerde()"
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#24"
+ , "c1" : "SucceededQueryResult"
+ , "c2" : "SucceededQueryResult(R;List<String>;Position)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#32"
+ , "c1" : "boolean"
+ , "c2" : "isSuccess()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#38"
+ , "c1" : "boolean"
+ , "c2" : "isFailure()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#43"
+ , "c1" : "FailureReason"
+ , "c2" : "getFailureReason()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#50"
- , "c1" : "Serde<V>"
- , "c2" : "valueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#55"
- , "c1" : "Deserializer<K>"
- , "c2" : "keyDeserializer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#60"
- , "c1" : "Serializer<K>"
- , "c2" : "keySerializer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#65"
- , "c1" : "Deserializer<V>"
- , "c2" : "valueDeserializer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#70"
- , "c1" : "Serializer<V>"
- , "c2" : "valueSerializer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#75"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#50"
  , "c1" : "String"
- , "c2" : "topic()"
+ , "c2" : "getFailureMessage()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#80"
- , "c1" : "K"
- , "c2" : "keyFrom(byte[])"
+ , "c5" : "00057"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#57"
+ , "c1" : "R"
+ , "c2" : "getResult()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#85"
- , "c1" : "V"
- , "c2" : "valueFrom(byte[])"
+ , "c5" : "00062"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#62"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#90"
- , "c1" : "byte[]"
- , "c2" : "rawKey(K)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#106"
- , "c1" : "byte[]"
- , "c2" : "rawValue(V)"
- , "c3" : "3"
- , "c4" : "8"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.svg" }
 
 ] 
 , 
@@ -159,170 +123,79 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "15"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "9"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#14"
+ , "c1" : "00033"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class StateSerdes contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isSuccess@POLYN153391 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#35"
+ , "c1" : "00039"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN171462 the MagicNumber/String  'topic cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isFailure@POLYN153604 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#36"
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN171462 the MagicNumber/String  'key serde cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureReason@POLYN153796 the MagicNumber/String  'Cannot get failure reason because this query did not fail.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00037"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#37"
+ , "c1" : "00052"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN171462 the MagicNumber/String  'value serde cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureMessage@POLYN154029 the MagicNumber/String  'Cannot get failure message because this query did not fail.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method keyFrom arguments byte[]  rawKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method valueFrom arguments byte[]  rawValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method rawKey arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#94"
+ , "c1" : "00063"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN174049 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN154551 the MagicNumber/String  'SucceededQueryResult{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#94"
+ , "c1" : "00064"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN174049 the MagicNumber/String  'unknown because key is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN154551 the MagicNumber/String  'result=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#96"
+ , "c1" : "00065"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN174049 the MagicNumber/String  'A serializer (%s) is not compatible to the actual key type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN154551 the MagicNumber/String  ', executionInfo=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#97"
+ , "c1" : "00066"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN174049 the MagicNumber/String  '(key type: %s). Change the default Serdes in StreamConfig or ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN154551 the MagicNumber/String  ', position=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#98"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN174049 the MagicNumber/String  'provide correct Serdes via method parameters.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#106"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method rawValue arguments V  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN174897 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN174897 the MagicNumber/String  'unknown because value is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN174897 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN174897 the MagicNumber/String  'unknown because value is null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN174897 the MagicNumber/String  'A serializer (%s) is not compatible to the actual value type ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN174897 the MagicNumber/String  '(value type: %s). Change the default Serdes in StreamConfig or ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN174897 the MagicNumber/String  'provide correct Serdes via method parameters.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN154551 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.fct.svg" 
 
 , 
 }

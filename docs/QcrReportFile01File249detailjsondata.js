@@ -1660,7 +1660,7 @@ var maDataBlocs = {
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#489"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00489] For method incrementSequenceNumber list of called methods Object monObjet|Integer sequenceNumberN379867|int DefaultRecordBatch_incrementSequenceN379952|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN380045"
+ , "c3" : "QC-JAV000007[00489] For method incrementSequenceNumber list of called methods Object monObjet|java.lang.Integer sequenceNumberN379867|int DefaultRecordBatch_incrementSequenceN379952|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN380045"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1961,7 +1961,7 @@ var maDataBlocs = {
  , "c1" : "00626"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#626"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00626] For method adjustSequencesDueToFailedBatch list of called methods Object monObjet|Integer sequenceNumberN386562"
+ , "c3" : "QC-JAV000007[00626] For method adjustSequencesDueToFailedBatch list of called methods Object monObjet|java.lang.Integer sequenceNumberN386562"
 }} 
 ,
 { "ligne" : {"" : ""

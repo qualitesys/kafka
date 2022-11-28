@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 514 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 515 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectOutputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1617,6 +1617,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "98"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -2213,6 +2220,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#380"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00380] In method java.io.ObjectOutputStream.writeTypeString@POLYN573457 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00385"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#385"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00385] For method verifySubclass list of called methods Object monObjet|Class&lt;?&gt; getClassN574250|java.lang.Boolean Boolean_valueOfN574978"
 }} 
 ,
 { "ligne" : {"" : ""

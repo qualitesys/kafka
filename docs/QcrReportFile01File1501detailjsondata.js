@@ -1,45 +1,243 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java 4 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.xml" 
+   "fic1"  : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.html" 
+ , "texte" : "File secujava/javax.servlet.http.HttpServletRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde"
+ , "c1" : "ServletRequest"
+ , "c2" : "javax.servlet.http.HttpServletRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "javax.servlet.http.HttpServletRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#22"
- , "c1" : "byte[]"
- , "c2" : "serialize(ApiMessageAndVersion)"
+ , "c5" : "00026"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#26"
+ , "c1" : "String"
+ , "c2" : "getAuthType()"
  , "c3" : "1"
- , "c4" : "5"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#31"
- , "c1" : "ApiMessageAndVersion"
- , "c2" : "deserialize(byte[])"
+ , "c5" : "00033"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#33"
+ , "c1" : "Cookie[]"
+ , "c2" : "getCookies()"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#38"
- , "c1" : "ApiMessage"
- , "c2" : "apiMessageFor(short)"
+ , "c5" : "00040"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#40"
+ , "c1" : "long"
+ , "c2" : "getDateHeader(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#47"
+ , "c1" : "String"
+ , "c2" : "getHeader(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#54"
+ , "c1" : "Enumeration"
+ , "c2" : "getHeaders(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#62"
+ , "c1" : "Enumeration"
+ , "c2" : "getHeaderNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#69"
+ , "c1" : "int"
+ , "c2" : "getIntHeader(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#76"
+ , "c1" : "String"
+ , "c2" : "getMethod()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#83"
+ , "c1" : "String"
+ , "c2" : "getPathInfo()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#90"
+ , "c1" : "String"
+ , "c2" : "getPathTranslated()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#97"
+ , "c1" : "String"
+ , "c2" : "getContextPath()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#104"
+ , "c1" : "String"
+ , "c2" : "getQueryString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#111"
+ , "c1" : "String"
+ , "c2" : "getRemoteUser()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#118"
+ , "c1" : "boolean"
+ , "c2" : "isUserInRole(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#125"
+ , "c1" : "java.security.Principal"
+ , "c2" : "getUserPrincipal()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#132"
+ , "c1" : "String"
+ , "c2" : "getRequestedSessionId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
+ , "c1" : "String"
+ , "c2" : "getRequestURI()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
+ , "c1" : "StringBuffer"
+ , "c2" : "getRequestURL()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
+ , "c1" : "String"
+ , "c2" : "getServletPath()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "HttpSession"
+ , "c2" : "getSession(boolean)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "HttpSession"
+ , "c2" : "getSession()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isRequestedSessionIdValid()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isRequestedSessionIdFromCookie()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isRequestedSessionIdFromURL()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isRequestedSessionIdFromUrl()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +246,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.png" 
+   {"ligne" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.png" 
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.svg" }
 
 ] 
 , 
@@ -75,54 +273,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class BytesApiMessageSerde contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#22"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00022] For method serialize arguments ApiMessageAndVersion  messageAndVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method deserialize arguments byte[]  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method apiMessageFor arguments short  apiKey"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/BytesApiMessageSerde.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.fct.svg" 
 
 , 
 }

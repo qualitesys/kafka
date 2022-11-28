@@ -975,7 +975,7 @@ var maDataBlocs = {
  , "c1" : "00332"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#332"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00332] For method append list of called methods Object monObjet|String subAppendN199421"
+ , "c3" : "QC-JAV000007[00332] For method append list of called methods Object monObjet|java.lang.String subAppendN199421"
 }} 
 ,
 { "ligne" : {"" : ""

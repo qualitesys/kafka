@@ -188,7 +188,7 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method registerMessageType list of called methods Object monObjet|java.util.Optional&lt;Short&gt; spec_apiKeyN156814"
+ , "c3" : "QC-JAV000007[00027] For method registerMessageType list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; spec_apiKeyN156814"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -272,7 +272,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method generateWriteJson list of called methods Object monObjet|String MessageGenerator_capitalizeFirstN158730"
+ , "c3" : "QC-JAV000007[00055] For method generateWriteJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN158730"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method generateReadJson list of called methods Object monObjet|String MessageGenerator_capitalizeFirstN160394"
+ , "c3" : "QC-JAV000007[00082] For method generateReadJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN160394"
 }} 
 ,
 { "ligne" : {"" : ""

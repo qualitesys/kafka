@@ -206,7 +206,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method configure list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; JaasOptionsUtils_getOptionsN196662|org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetriever AccessTokenRetrieverFactory_createN196778|org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidator AccessTokenValidatorFactory_createN196916"
+ , "c3" : "QC-JAV000007[00067] For method configure list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; JaasOptionsUtils_getOptionsN196662|org.apache.kafka.common.security.oauthbearer.secured.AccessTokenRetriever AccessTokenRetrieverFactory_createN196778|org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidator AccessTokenValidatorFactory_createN196916"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -297,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method handleTokenCallback list of called methods Object monObjet|String accessTokenRetriever_retrieveN198848"
+ , "c3" : "QC-JAV000007[00121] For method handleTokenCallback list of called methods Object monObjet|java.lang.String accessTokenRetriever_retrieveN198848"
 }} 
 ,
 { "ligne" : {"" : ""

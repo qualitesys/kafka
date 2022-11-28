@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00302] For method reLogin list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN218116|String principalLogTextN218254"
+ , "c3" : "QC-JAV000007[00302] For method reLogin list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN218116|java.lang.String principalLogTextN218254"
 }} 
 ,
 { "ligne" : {"" : ""

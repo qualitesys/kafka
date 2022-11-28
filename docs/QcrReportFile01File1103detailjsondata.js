@@ -427,7 +427,7 @@ var maDataBlocs = {
  , "c1" : "00517"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#517"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00517] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsWithPrefixN250895"
+ , "c3" : "QC-JAV000007[00517] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN250895"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -462,7 +462,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method ensureVerificationAlgorithmsIncludeSignatureAlgorithm list of called methods Object monObjet|String getStringN252486|java.util.List&lt;String&gt; getListN252593"
+ , "c3" : "QC-JAV000007[00549] For method ensureVerificationAlgorithmsIncludeSignatureAlgorithm list of called methods Object monObjet|java.lang.String getStringN252486|java.util.List&lt;java.lang.String&gt; getListN252593"
 }} 
 ,
 { "ligne" : {"" : ""

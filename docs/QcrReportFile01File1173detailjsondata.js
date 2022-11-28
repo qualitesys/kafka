@@ -423,7 +423,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN274730 (R0 in line [00338],R2 in line [00338])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.utils.Utils.delete@POLYN441817" }
+{ "ligne" : "S0:java.lang.StringBuilder.delete@POLYN227836" }
  ]
  } }
 ]
@@ -529,7 +529,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00126] For method configure list of called methods Object monObjet|String ConnectUtils_lookupKafkaClusterIdN263426|java.util.Map&lt;String,Object&gt; config_originalsN263557|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN265705|KafkaBasedLog&lt;String,byte[]&gt; createKafkaBasedLogN266251"
+ , "c3" : "QC-JAV000007[00126] For method configure list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN263426|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN263557|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN265705|KafkaBasedLog&lt;String,byte[]&gt; createKafkaBasedLogN266251"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1383,7 +1383,7 @@ var maDataBlocs = {
  , "c1" : "00510"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#510"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00510] For method readConnectorStatus list of called methods Object monObjet|String parseConnectorStatusKeyN286282|org.apache.kafka.connect.runtime.ConnectorStatus parseConnectorStatusN286797|CacheEntry&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; getOrAddN287158"
+ , "c3" : "QC-JAV000007[00510] For method readConnectorStatus list of called methods Object monObjet|java.lang.String parseConnectorStatusKeyN286282|org.apache.kafka.connect.runtime.ConnectorStatus parseConnectorStatusN286797|CacheEntry&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; getOrAddN287158"
 }} 
 ,
 { "ligne" : {"" : ""

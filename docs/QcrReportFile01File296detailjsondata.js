@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 494 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 495 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.xml" 
  , "fic3"  : "" 
 }
@@ -674,7 +674,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -1054,7 +1054,7 @@ var maDataBlocs = {
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method parse list of called methods Object monObjet|java.util.List&lt;String&gt; undefinedDependentConfigsN460508"
+ , "c3" : "QC-JAV000007[00195] For method parse list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; undefinedDependentConfigsN460508"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1089,7 +1089,7 @@ var maDataBlocs = {
  , "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method parseValue list of called methods Object monObjet|Object parseTypeN461569"
+ , "c3" : "QC-JAV000007[00209] For method parseValue list of called methods Object monObjet|java.lang.Object parseTypeN461569"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1145,7 +1145,7 @@ var maDataBlocs = {
  , "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#231"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00231] For method validateAll list of called methods Object monObjet|java.util.List&lt;String&gt; undefinedDependentConfigsN463178|java.util.Map&lt;String,Object&gt; parseForValidateN463713"
+ , "c3" : "QC-JAV000007[00231] For method validateAll list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; undefinedDependentConfigsN463178|java.util.Map&lt;java.lang.String,java.lang.Object&gt; parseForValidateN463713"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1180,7 +1180,7 @@ var maDataBlocs = {
  , "c1" : "00250"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#250"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00250] For method parseForValidate list of called methods Object monObjet|java.util.Set&lt;String&gt; getConfigsWithNoParentN464255"
+ , "c3" : "QC-JAV000007[00250] For method parseForValidate list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; getConfigsWithNoParentN464255"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1194,7 +1194,7 @@ var maDataBlocs = {
  , "c1" : "00260"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#260"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00260] For method validate list of called methods Object monObjet|java.util.Set&lt;String&gt; getConfigsWithNoParentN464793"
+ , "c3" : "QC-JAV000007[00260] For method validate list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; getConfigsWithNoParentN464793"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1530,7 +1530,7 @@ var maDataBlocs = {
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#489"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00489] For method convertToStringMapWithPasswordValues list of called methods Object monObjet|String convertToStringN478199|String convertToStringN478361|String convertToStringN478477"
+ , "c3" : "QC-JAV000007[00489] For method convertToStringMapWithPasswordValues list of called methods Object monObjet|java.lang.String convertToStringN478199|java.lang.String convertToStringN478361|java.lang.String convertToStringN478477"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2258,7 +2258,7 @@ var maDataBlocs = {
  , "c1" : "00866"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#866"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00866] For method getConfigValue list of called methods Object monObjet|String convertToStringN495887|String niceMemoryUnitsN496270|String niceTimeUnitsN496522"
+ , "c3" : "QC-JAV000007[00866] For method getConfigValue list of called methods Object monObjet|java.lang.String convertToStringN495887|java.lang.String niceMemoryUnitsN496270|java.lang.String niceTimeUnitsN496522"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3211,6 +3211,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1086"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01086] For method compare arguments ConfigKey  k1|ConfigKey  k2|Map&lt;String ,Integer &gt;  groupOrd"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1086"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01086] For method compare list of called methods Object monObjet|int Integer_compareN509950"
 }} 
 ,
 { "ligne" : {"" : ""

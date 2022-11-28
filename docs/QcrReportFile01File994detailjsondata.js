@@ -208,7 +208,7 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00030] For method configure list of called methods Object monObjet|String conf_encodingN157980|org.apache.kafka.connect.storage.ConverterType conf_typeN158525"
+ , "c3" : "QC-JAV000007[00030] For method configure list of called methods Object monObjet|java.lang.String conf_encodingN157980|org.apache.kafka.connect.storage.ConverterType conf_typeN158525"
 }} 
 ,
 { "ligne" : {"" : ""

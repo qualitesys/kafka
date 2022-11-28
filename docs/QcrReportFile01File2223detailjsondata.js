@@ -1,63 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java 3 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java 3 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WorkerState"
- , "c2" : "org.apache.kafka.trogdor.rest.WorkerStopping"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.rest.TaskRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerStopping" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00020"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#20"
- , "c1" : "WorkerStopping"
- , "c2" : "WorkerStopping(String;TaskSpec;long;JsonNode)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#31"
- , "c1" : "long"
- , "c2" : "startedMs()"
+ , "c5" : "00013"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#13"
+ , "c1" : "TaskRequest"
+ , "c2" : "TaskRequest(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#37"
- , "c1" : "JsonNode"
- , "c2" : "status()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#42"
- , "c1" : "boolean"
- , "c2" : "stopping()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#47"
- , "c1" : "boolean"
- , "c2" : "running()"
+ , "c5" : "00018"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#18"
+ , "c1" : "String"
+ , "c2" : "taskId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.svg" }
 
 ] 
 , 
@@ -96,37 +69,44 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#26"
+ , "c1" : "00009"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.trogdor.rest.WorkerStopping.WorkerStopping@POLYN146652 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00009] The class TaskRequest contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#43"
+ , "c1" : "00014"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.trogdor.rest.WorkerStopping.stopping@POLYN147507 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.rest.TaskRequest.TaskRequest@POLYN142267 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#48"
+ , "c1" : "00014"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.rest.WorkerStopping.running@POLYN147609 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.trogdor.rest.TaskRequest.TaskRequest@POLYN142267 the MagicNumber/String  '' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.fct.svg" 
 
 , 
 }

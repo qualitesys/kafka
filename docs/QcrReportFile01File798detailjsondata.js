@@ -435,7 +435,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method isClaimType list of called methods Object monObjet|Object rawClaimN206362"
+ , "c3" : "QC-JAV000007[00128] For method isClaimType list of called methods Object monObjet|java.lang.Object rawClaimN206362"
 }} 
 ,
 { "ligne" : {"" : ""

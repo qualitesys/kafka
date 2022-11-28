@@ -574,7 +574,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method constrainedAssign list of called methods Object monObjet|java.util.Map&lt;String,List&lt;TopicPartition&gt;&gt; assignment_getN356712|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN358941|java.util.Map&lt;String,List&lt;TopicPartition&gt;&gt; assignment_getN360600|java.util.Map&lt;String,List&lt;TopicPartition&gt;&gt; assignment_getN362205"
+ , "c3" : "QC-JAV000007[00147] For method constrainedAssign list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN356712|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN358941|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN360600|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN362205"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1491,7 +1491,7 @@ var maDataBlocs = {
  , "c1" : "00696"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#696"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00696] For method balance list of called methods Object monObjet|java.util.Map&lt;String,List&lt;TopicPartition&gt;&gt; deepCopyN389140|boolean performReassignmentsN389666"
+ , "c3" : "QC-JAV000007[00696] For method balance list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; deepCopyN389140|boolean performReassignmentsN389666"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1918,7 +1918,7 @@ var maDataBlocs = {
  , "c1" : "00929"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#929"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00929] For method removeMovementRecordOfPartition list of called methods Object monObjet|java.util.Map&lt;String,List&lt;TopicPartition&gt;&gt; partition_topicN400173"
+ , "c3" : "QC-JAV000007[00929] For method removeMovementRecordOfPartition list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; partition_topicN400173"
 }} 
 ,
 { "ligne" : {"" : ""

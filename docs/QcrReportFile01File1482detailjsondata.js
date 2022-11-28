@@ -1,142 +1,169 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/java.util.Map.java.html" 
- , "texte" : "File secujava/java.util.Map.java 6 rule violations " 
- , "fic2"  : "./qc/secujava/java.util.Map.java.xml" 
+   "fic1"  : "./qc/secujava/java.lang.Short.java.html" 
+ , "texte" : "File secujava/java.lang.Short.java 41 rule violations " 
+ , "fic2"  : "./qc/secujava/java.lang.Short.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "java.util.Map"
+ , "c1" : "NumberComparable<Short>"
+ , "c2" : "java.lang.Short"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "java.util.Map" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.lang.Short" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00015"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#15"
+ , "c5" : "00071"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#71"
+ , "c1" : "String"
+ , "c2" : "toString(short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00115"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#115"
+ , "c1" : "short"
+ , "c2" : "parseShort(String;int)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00142"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#142"
+ , "c1" : "short"
+ , "c2" : "parseShort(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00171"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#171"
+ , "c1" : "Short"
+ , "c2" : "valueOf(String;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#198"
+ , "c1" : "Short"
+ , "c2" : "valueOf(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00229"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#229"
+ , "c1" : "Short"
+ , "c2" : "valueOf(short)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00280"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#280"
+ , "c1" : "Short"
+ , "c2" : "decode(String)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00302"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#302"
+ , "c1" : "Short"
+ , "c2" : "Short(short)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00319"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#319"
+ , "c1" : "Short"
+ , "c2" : "Short(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00327"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#327"
+ , "c1" : "byte"
+ , "c2" : "byteValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00335"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#335"
+ , "c1" : "short"
+ , "c2" : "shortValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00343"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#343"
  , "c1" : "int"
- , "c2" : "size()"
+ , "c2" : "intValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00018"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#18"
- , "c1" : "boolean"
- , "c2" : "isEmpty()"
+ , "c5" : "00351"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#351"
+ , "c1" : "long"
+ , "c2" : "longValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#21"
- , "c1" : "boolean"
- , "c2" : "containsKey(Object)"
+ , "c5" : "00359"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#359"
+ , "c1" : "float"
+ , "c2" : "floatValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#24"
- , "c1" : "boolean"
- , "c2" : "containsValue(Object)"
+ , "c5" : "00367"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#367"
+ , "c1" : "double"
+ , "c2" : "doubleValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#27"
- , "c1" : "V"
- , "c2" : "get(Object)"
+ , "c5" : "00381"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#381"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#32"
- , "c1" : "V"
- , "c2" : "put(K;V)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#35"
- , "c1" : "V"
- , "c2" : "remove(Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#41"
- , "c1" : "void"
- , "c2" : "putAll(Map<?extendsK,?extendsV>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#44"
- , "c1" : "void"
- , "c2" : "clear()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#50"
- , "c1" : "Set<K>"
- , "c2" : "keySet()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#53"
- , "c1" : "Collection<V>"
- , "c2" : "values()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#56"
- , "c1" : "Set<Map.Entry<K,V>>"
- , "c2" : "entrySet()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#105"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#108"
+ , "c5" : "00391"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#391"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -144,111 +171,48 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00113"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#113"
- , "c1" : "V"
- , "c2" : "getOrDefault(Object;V)"
- , "c3" : "1"
+ , "c5" : "00405"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#405"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#121"
- , "c1" : "void"
- , "c2" : "forEach(BiConsumer<?superK,?superV>)"
- , "c3" : "2"
- , "c4" : "7"
+ , "c5" : "00425"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#425"
+ , "c1" : "int"
+ , "c2" : "compareTo(Short)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00138"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#138"
- , "c1" : "void"
- , "c2" : "replaceAll(BiFunction<?superK,?superV,?extendsV>)"
- , "c3" : "2"
- , "c4" : "9"
+ , "c5" : "00443"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#443"
+ , "c1" : "int"
+ , "c2" : "compare(short;short)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00164"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#164"
- , "c1" : "V"
- , "c2" : "putIfAbsent(K;V)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#174"
- , "c1" : "boolean"
- , "c2" : "remove(Object;Object)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#185"
- , "c1" : "boolean"
- , "c2" : "replace(K;V;V)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#196"
- , "c1" : "V"
- , "c2" : "replace(K;V)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00205"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#205"
- , "c1" : "V"
- , "c2" : "computeIfAbsent(K;Function<?superK,?extendsV>)"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#221"
- , "c1" : "V"
- , "c2" : "computeIfPresent(K;BiFunction<?superK,?superV,?extendsV>)"
- , "c3" : "5"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00240"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#240"
- , "c1" : "V"
- , "c2" : "compute(K;BiFunction<?superK,?superV,?extendsV>)"
- , "c3" : "5"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00264"
- , "c5link" : "././qc/secujava/java.util.Map.java.html#264"
- , "c1" : "V"
- , "c2" : "merge(K;V;BiFunction<?superV,?superV,?extendsV>)"
- , "c3" : "3"
- , "c4" : "7"
+ , "c5" : "00462"
+ , "c5link" : "././qc/secujava/java.lang.Short.java.html#462"
+ , "c1" : "short"
+ , "c2" : "reverseBytes(short)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.util.Map.java.png" 
+   {"ligne" : "./qc/secujava/java.lang.Short.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/java.util.Map.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.lang.Short.java.svg" }
 
 ] 
 , 
@@ -273,61 +237,357 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "6"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000008"
+ , "c3" : "The class should be static contains no field, constructor, destructor"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "15"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "11"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#121"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00121] The argument action is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00071"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00071] For method toString arguments short  s"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#138"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00138] The argument zzzfunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00072"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method java.lang.Short.toString@POLYN238801 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#206"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00206] The argument mappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00115"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00115] For method parseShort arguments String  s|int  radix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#222"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00222] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00115"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00115] For method parseShort list of called methods Object monObjet|int Integer_parseIntN240518"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#241"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00241] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00120"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method java.lang.Short.parseShort@POLYN240384 the MagicNumber/String  'Value out of range. Value:\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/secujava/java.util.Map.java.html#265"
+ , "c1" : "00120"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#120"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00120] In method java.lang.Short.parseShort@POLYN240384 the MagicNumber/String  '\' Radix:' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#142"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00142] For method parseShort arguments String  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method java.lang.Short.parseShort@POLYN241563 the MagicNumber/String  10 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#171"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00171] For method valueOf arguments String  s|int  radix"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#198"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00198] For method valueOf arguments String  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00199"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#199"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00199] In method java.lang.Short.valueOf@POLYN243427 the MagicNumber/String  10 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00202"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#202"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00202] The class ShortCache contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00229"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#229"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00229] For method valueOf arguments short  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#230"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00230] In method java.lang.Short.valueOf@POLYN244695 the MagicNumber/String  128 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method java.lang.Short.valueOf@POLYN244695 the MagicNumber/String  128 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#232"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00232] In method java.lang.Short.valueOf@POLYN244695 the MagicNumber/String  127 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#280"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00280] For method decode arguments String  nm"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#280"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00280] For method decode list of called methods Object monObjet|java.lang.Integer Integer_decodeN246959"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00284"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#284"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00284] In method java.lang.Short.decode@POLYN246850 the MagicNumber/String  'Value ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00284"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#284"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00284] In method java.lang.Short.decode@POLYN246850 the MagicNumber/String  ' out of range from input ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#320"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00320] In method java.lang.Short.Short@POLYN248158 the MagicNumber/String  10 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00405"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#405"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00405] For method equals arguments Object  obj"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#409"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00409] In method java.lang.Short.equals@POLYN250462 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#425"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00425] For method compareTo arguments Short  anotherShort"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#425"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00265] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00425] The argument anotherShort is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00443"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#443"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00443] For method compare arguments short  x|short  y"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#462"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00462] For method reverseBytes arguments short  i"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#463"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN252386 the MagicNumber/String  0xFF00 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#463"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN252386 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#463"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN252386 the MagicNumber/String  8 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.parseShort@POLYN240384"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.byteValue@POLYN248440"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.doubleValue@POLYN249346"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.floatValue@POLYN249161"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.hashCode@POLYN250052"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.intValue@POLYN248791"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.longValue@POLYN248976"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.parseShort@POLYN241563"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00120] In the recursive method java.lang.Short.parseShort@POLYN240384 the MagicNumber/String 'Value out of range. Value:\'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00120] In the recursive method java.lang.Short.parseShort@POLYN240384 the MagicNumber/String '\' Radix:' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/secujava/java.lang.Short.java.html#143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00143] In the recursive method java.lang.Short.parseShort@POLYN241563 the MagicNumber/String 10 MUST BE CONVERTED to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/java.util.Map.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.lang.Short.java.fct.svg" 
 
 , 
 }

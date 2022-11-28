@@ -1124,7 +1124,7 @@ var maDataBlocs = {
  , "c1" : "00366"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#366"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00366] For method checkSchemaMatches list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN224370|org.apache.kafka.connect.data.Schema schema_schemaN224516|Object schemaAndValue_valueN224591"
+ , "c3" : "QC-JAV000007[00366] For method checkSchemaMatches list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN224370|org.apache.kafka.connect.data.Schema schema_schemaN224516|java.lang.Object schemaAndValue_valueN224591"
 }} 
 ,
 { "ligne" : {"" : ""

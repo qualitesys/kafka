@@ -1,272 +1,254 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java 49 rule violations " 
- , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java 30 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ProcessorContext<KForward,VForward>"
- , "c2" : "org.apache.kafka.streams.processor.api.MockProcessorContext"
+ , "c1" : "WindowStore<Bytes,byte[]>"
+ , "c2" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.api.MockProcessorContext" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#173"
- , "c1" : "MockProcessorContext"
- , "c2" : "MockProcessorContext()"
+ , "c5" : "00026"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#26"
+ , "c1" : "WindowToTimestampedWindowByteStoreAdapter"
+ , "c2" : "WindowToTimestampedWindowByteStoreAdapter(WindowStore<Bytes,byte[]>)"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#34"
+ , "c1" : "void"
+ , "c2" : "put(Bytes;byte[];long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#185"
- , "c1" : "MockProcessorContext"
- , "c2" : "MockProcessorContext(Properties)"
+ , "c5" : "00041"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#41"
+ , "c1" : "byte[]"
+ , "c2" : "fetch(Bytes;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00190"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#190"
- , "c1" : "MockProcessorContext"
- , "c2" : "MockProcessorContext(Properties;TaskId;File)"
+ , "c5" : "00047"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#47"
+ , "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "fetch(Bytes;long;long)"
  , "c3" : "1"
- , "c4" : "13"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00212"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#212"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#54"
+ , "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "fetch(Bytes;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#61"
+ , "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "backwardFetch(Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#68"
+ , "c1" : "WindowStoreIterator<byte[]>"
+ , "c2" : "backwardFetch(Bytes;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#75"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetch(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#83"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetch(Bytes;Bytes;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#91"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetch(Bytes;Bytes;Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00099"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#99"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetch(Bytes;Bytes;long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00107"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#107"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "all()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00112"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#112"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardAll()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#117"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetchAll(long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#123"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "fetchAll(Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00129"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#129"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetchAll(long;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00134"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#134"
+ , "c1" : "KeyValueIterator<Windowed<Bytes>,byte[]>"
+ , "c2" : "backwardFetchAll(Instant;Instant)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00140"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#140"
  , "c1" : "String"
- , "c2" : "applicationId()"
+ , "c2" : "name()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00217"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#217"
- , "c1" : "TaskId"
- , "c2" : "taskId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00222"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#222"
- , "c1" : "Map<String,Object>"
- , "c2" : "appConfigs()"
- , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00230"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#230"
- , "c1" : "Map<String,Object>"
- , "c2" : "appConfigsWithPrefix(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00235"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#235"
- , "c1" : "long"
- , "c2" : "currentSystemTimeMs()"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00243"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#243"
- , "c1" : "long"
- , "c2" : "currentStreamTimeMs()"
- , "c3" : "2"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00251"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#251"
- , "c1" : "Serde<?>"
- , "c2" : "keySerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00256"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#256"
- , "c1" : "Serde<?>"
- , "c2" : "valueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00261"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#261"
- , "c1" : "File"
- , "c2" : "stateDir()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00272"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#272"
- , "c1" : "StreamsMetrics"
- , "c2" : "metrics()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00279"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#279"
+ , "c5" : "00146"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#146"
  , "c1" : "void"
- , "c2" : "setRecordMetadata(String;int;long)"
+ , "c2" : "init(ProcessorContext;StateStore)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00285"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#285"
+ , "c5" : "00152"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#152"
  , "c1" : "void"
- , "c2" : "setCurrentSystemTimeMs(long)"
+ , "c2" : "init(StateStoreContext;StateStore)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00289"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#289"
+ , "c5" : "00157"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#157"
  , "c1" : "void"
- , "c2" : "setCurrentStreamTimeMs(long)"
+ , "c2" : "flush()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00294"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#294"
- , "c1" : "Optional<RecordMetadata>"
- , "c2" : "recordMetadata()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00311"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#311"
- , "c1" : "Cancellable"
- , "c2" : "schedule(Duration;PunctuationType;Punctuator)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00322"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#322"
- , "c1" : "List<CapturedPunctuator>"
- , "c2" : "scheduledPunctuators()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00337"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#337"
- , "c1" : "List<CapturedForward<?extendsKForward,?extendsVForward>>"
- , "c2" : "forwarded()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00342"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#342"
- , "c1" : "List<CapturedForward<?extendsKForward,?extendsVForward>>"
- , "c2" : "forwarded(String)"
- , "c3" : "3"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00353"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#353"
+ , "c5" : "00162"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#162"
  , "c1" : "void"
- , "c2" : "resetForwards()"
+ , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00358"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#358"
- , "c1" : "void"
- , "c2" : "commit()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00363"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#363"
+ , "c5" : "00167"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#167"
  , "c1" : "boolean"
- , "c2" : "committed()"
+ , "c2" : "persistent()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00368"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#368"
- , "c1" : "void"
- , "c2" : "resetCommit()"
+ , "c5" : "00172"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#172"
+ , "c1" : "boolean"
+ , "c2" : "isOpen()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00373"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#373"
- , "c1" : "RecordCollector"
- , "c2" : "recordCollector()"
+ , "c5" : "00194"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#194"
+ , "c1" : "Position"
+ , "c2" : "getPosition()"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00385"
- , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#385"
- , "c1" : "StateStoreContext"
- , "c2" : "getStateStoreContext()"
- , "c3" : "1"
- , "c4" : "12"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.png" 
 
- , "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.svg" }
 
 ] 
 , 
@@ -291,14 +273,16 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "2"
-}}
+"data12a" : [
+]
 ,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
+"data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -307,381 +291,248 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "32"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "2"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "7"
+ , "c4" : "16"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#44"
+ , "c1" : "00023"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00044] The class MockProcessorContext contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00023] The class WindowToTimestampedWindowByteStoreAdapter contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#62"
+ , "c1" : "00026"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#26"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00026] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class MockRecordMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.WindowToTimestampedWindowByteStoreAdapter@POLYN172031 the MagicNumber/String  'Provided store must be a persistent store, but it is not.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#90"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#34"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00034] For method put arguments Bytes  key|byte[]  valueWithTimestamp|long  windowStartTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00090] The class CapturedPunctuator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.put@POLYN172372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#115"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedPunctuator.cancel@POLYN223278 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.put@POLYN172372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00118] Public method cancelled is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#41"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00041] For method fetch arguments Bytes  key|long  time"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00114] Public method cancel is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00047] For method fetch arguments Bytes  key|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#54"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00054] For method fetch arguments Bytes  key|Instant  timeFrom|Instant  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#61"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00061] For method backwardFetch arguments Bytes  key|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#68"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00068] For method backwardFetch arguments Bytes  key|Instant  timeFrom|Instant  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#75"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00075] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#83"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00083] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|Instant  timeFrom|Instant  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00091] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|Instant  timeFrom|Instant  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#99"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00099] For method backwardFetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00117] For method fetchAll arguments long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00123] The class CapturedForward contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#123"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00123] For method fetchAll arguments Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedForward.toString@POLYN224693 the MagicNumber/String  'CapturedForward{' should be converted to const"
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#129"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00129] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedForward.toString@POLYN224693 the MagicNumber/String  'record=' should be converted to const"
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00134] For method backwardFetchAll arguments Instant  timeFrom|Instant  timeTo"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedForward.toString@POLYN224693 the MagicNumber/String  ', childName=' should be converted to const"
+ , "c1" : "00146"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#146"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00146] For method init arguments ProcessorContext  context|StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedForward.toString@POLYN224693 the MagicNumber/String  '}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#156"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00152] For method init arguments StateStoreContext  context|StateStore  root"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#158"
+ , "c1" : "00168"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00158] The same method call o.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#157"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedForward.equals@POLYN224911 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#158"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedForward.equals@POLYN224911 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#158"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.streams.processor.api.MockProcessorContext.CapturedForward.equals@POLYN224911 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#176"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN225973 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#177"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN225973 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN225973 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#179"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN225973 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.persistent@POLYN178599 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#180"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN225973 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN226681 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN226681 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN226681 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#190"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#180"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00190] The argument taskId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00180] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#193"
+ , "c1" : "00182"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN227210 the MagicNumber/String  'dummy-bootstrap-host:0' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#194"
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.processor.api.MockProcessorContext.MockProcessorContext@POLYN227210 the MagicNumber/String  'dummy-mock-app-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter the MagicNumber/String  'Handled in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#230"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00230] For method appConfigsWithPrefix arguments String  prefix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#236"
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.processor.api.MockProcessorContext.currentSystemTimeMs@POLYN229553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter the MagicNumber/String  ' in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#237"
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.processor.api.MockProcessorContext.currentSystemTimeMs@POLYN229553 the MagicNumber/String  'System time must be set before use via setCurrentSystemTimeMs().' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter the MagicNumber/String  'ns' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00244"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#244"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.api.MockProcessorContext.currentStreamTimeMs@POLYN229802 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#245"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.streams.processor.api.MockProcessorContext.currentStreamTimeMs@POLYN229802 the MagicNumber/String  'Stream time must be set before use via setCurrentStreamTimeMs().' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.processor.api.MockProcessorContext.stateDir@POLYN230321 the MagicNumber/String  'The stateDir constructor argument was needed (probably for a state store) but not supplied. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#265"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.processor.api.MockProcessorContext.stateDir@POLYN230321 the MagicNumber/String  'You can either reconfigure your test so that it doesn't need access to the disk ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#266"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.streams.processor.api.MockProcessorContext.stateDir@POLYN230321 the MagicNumber/String  '(such as using an in-memory store), or use the full MockProcessorContext constructor to supply ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#267"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.processor.api.MockProcessorContext.stateDir@POLYN230321 the MagicNumber/String  'a non-null stateDir argument.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#279"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00279] For method setRecordMetadata arguments String  topic|int  partition|long  offset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#285"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00285] For method setCurrentSystemTimeMs arguments long  currentSystemTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#289"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00289] For method setCurrentStreamTimeMs arguments long  currentStreamTimeMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00306"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#306"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00306] The argument stateStore is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.init@POLYN178176"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#311"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00311] For method schedule arguments Duration  interval|PunctuationType  type|Punctuator  callback"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.close@POLYN178484"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00328"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#328"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.streams.processor.api.MockProcessorContext the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#342"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00342] For method forwarded arguments String  childName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#345"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00345] The same method call capture.childName()Optional.of(childName) is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00359"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#359"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.streams.processor.api.MockProcessorContext.commit@POLYN234958 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#369"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.api.MockProcessorContext.resetCommit@POLYN235394 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#378"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.streams.processor.api.MockProcessorContext.recordCollector@POLYN235513 the MagicNumber/String  'MockProcessorContext does not provide record collection. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#379"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.processor.api.MockProcessorContext.recordCollector@POLYN235513 the MagicNumber/String  'For processor unit tests, use an in-memory state store with change-logging disabled. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00380"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#380"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.streams.processor.api.MockProcessorContext.recordCollector@POLYN235513 the MagicNumber/String  'Alternatively, use the TopologyTestDriver for testing processor/store/topology integration.' should be converted to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.flush@POLYN178377"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowToTimestampedWindowByteStoreAdapter.java.fct.svg" 
 
 , 
 }

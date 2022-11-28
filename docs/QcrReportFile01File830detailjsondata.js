@@ -208,7 +208,7 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00036] For method evaluateResponse list of called methods Object monObjet|java.util.List&lt;String&gt; extractTokensN172218"
+ , "c3" : "QC-JAV000007[00036] For method evaluateResponse list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; extractTokensN172218"
 }} 
 ,
 { "ligne" : {"" : ""

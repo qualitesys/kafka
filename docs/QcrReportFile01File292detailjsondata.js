@@ -584,7 +584,7 @@ var maDataBlocs = {
  , "c1" : "00118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00118] For method typeOf list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN282744"
+ , "c3" : "QC-JAV000007[00118] For method typeOf list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN282744"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -612,7 +612,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method documentationOf list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN283075"
+ , "c3" : "QC-JAV000007[00125] For method documentationOf list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN283075"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#191"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00191] For method valuesWithPrefixOverride list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN288982|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN289526"
+ , "c3" : "QC-JAV000007[00191] For method valuesWithPrefixOverride list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN288982|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN289526"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method valuesWithPrefixAllOrNothing list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; originalsWithPrefixN290353|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN290997"
+ , "c3" : "QC-JAV000007[00211] For method valuesWithPrefixAllOrNothing list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN290353|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN290997"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -899,7 +899,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method nonInternalValues list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN291919"
+ , "c3" : "QC-JAV000007[00233] For method nonInternalValues list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN291919"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -934,7 +934,7 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00261] For method logUnused list of called methods Object monObjet|java.util.Set&lt;String&gt; unusedN293451"
+ , "c3" : "QC-JAV000007[00261] For method logUnused list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; unusedN293451"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1053,7 +1053,7 @@ var maDataBlocs = {
  , "c1" : "00341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#341"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00341] For method resolveConfigVariables list of called methods Object monObjet|java.util.Map&lt;String,String&gt; extractPotentialVariablesN300274|java.util.Map&lt;String,String&gt; extractPotentialVariablesN300672|java.util.Map&lt;String,org.apache.kafka.common.config.provider.ConfigProvider&gt; instantiateConfigProvidersN300852"
+ , "c3" : "QC-JAV000007[00341] For method resolveConfigVariables list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; extractPotentialVariablesN300274|java.util.Map&lt;java.lang.String,java.lang.String&gt; extractPotentialVariablesN300672|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.provider.ConfigProvider&gt; instantiateConfigProvidersN300852"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1109,7 +1109,7 @@ var maDataBlocs = {
  , "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#382"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00382] For method instantiateConfigProviders list of called methods Object monObjet|String providerClassPropertyN303707"
+ , "c3" : "QC-JAV000007[00382] For method instantiateConfigProviders list of called methods Object monObjet|java.lang.String providerClassPropertyN303707"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1392,7 +1392,7 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#414"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00414] For method metricInstance list of called methods Object monObjet|java.util.Set&lt;String&gt; template_tagsN304132"
+ , "c3" : "QC-JAV000007[00414] For method metricInstance list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; template_tagsN304132"
 }} 
 ,
 { "ligne" : {"" : ""

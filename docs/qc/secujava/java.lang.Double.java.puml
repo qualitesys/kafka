@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+"NumberComparable<Double>" <|-- "java.lang.Double"
+class java.lang.Double {
++toString(double) : String [[[./../.././qc/secujava/java.lang.Double.java.html#195]]]
++toHexString(double) : String [[[./../.././qc/secujava/java.lang.Double.java.html#273]]]
++valueOf(String) : Double [[[./../.././qc/secujava/java.lang.Double.java.html#503]]]
++valueOf(double) : Double [[[./../.././qc/secujava/java.lang.Double.java.html#520]]]
++parseDouble(String) : double [[[./../.././qc/secujava/java.lang.Double.java.html#539]]]
++isNaN(double) : boolean [[[./../.././qc/secujava/java.lang.Double.java.html#551]]]
++isInfinite(double) : boolean [[[./../.././qc/secujava/java.lang.Double.java.html#563]]]
++Double(double) : Double [[[./../.././qc/secujava/java.lang.Double.java.html#580]]]
++Double(String) : Double [[[./../.././qc/secujava/java.lang.Double.java.html#595]]]
++isNaN() : boolean [[[./../.././qc/secujava/java.lang.Double.java.html#607]]]
++isInfinite() : boolean [[[./../.././qc/secujava/java.lang.Double.java.html#619]]]
++toString() : String [[[./../.././qc/secujava/java.lang.Double.java.html#632]]]
++byteValue() : byte [[[./../.././qc/secujava/java.lang.Double.java.html#644]]]
++shortValue() : short [[[./../.././qc/secujava/java.lang.Double.java.html#656]]]
++intValue() : int [[[./../.././qc/secujava/java.lang.Double.java.html#667]]]
++longValue() : long [[[./../.././qc/secujava/java.lang.Double.java.html#678]]]
++floatValue() : float [[[./../.././qc/secujava/java.lang.Double.java.html#690]]]
++doubleValue() : double [[[./../.././qc/secujava/java.lang.Double.java.html#700]]]
++hashCode() : int [[[./../.././qc/secujava/java.lang.Double.java.html#725]]]
++equals(Object) : boolean [[[./../.././qc/secujava/java.lang.Double.java.html#769]]]
++doubleToLongBits(double) : long [[[./../.././qc/secujava/java.lang.Double.java.html#989]]]
++doubleToRawLongBits(double) : long [[[./../.././qc/secujava/java.lang.Double.java.html#989]]]
++longBitsToDouble(long) : double [[[./../.././qc/secujava/java.lang.Double.java.html#1]]]
++compareTo(Double) : int [[[./../.././qc/secujava/java.lang.Double.java.html#1]]]
++compare(double;double) : int [[[./../.././qc/secujava/java.lang.Double.java.html#1]]]
+} 
+@enduml

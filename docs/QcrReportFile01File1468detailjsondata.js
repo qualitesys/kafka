@@ -509,9 +509,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1468Seq3.html#seq3"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=3"
  , "c2" : "3"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.PrintWriter.println@POLYN349352.s" , "java.io.PrintWriter.write@POLYN339810.s"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.lang.String.valueOf@POLYN915680.return" , "java.io.PrintWriter.write@POLYN339810.s"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -662,6 +662,14 @@ var maDataBlocs = {
 ,
 { "sequence" : { 
  "seq" : "3" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00362]"
+ , "c3" : ["java.lang.String.valueOf@POLYN915680.return" , "---java.lang.String.valueOf@POLYN915680" , "java.io.PrintWriter.println@POLYN349352.s"]
+ , "c4" : "//QC-JAVCWZ099[00362] In java.io.PrintWriter.println@POLYN349352[00362] target data PATHtainted (java.io.PrintWriter.print)"
+ , "c5" : "input"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00364]"

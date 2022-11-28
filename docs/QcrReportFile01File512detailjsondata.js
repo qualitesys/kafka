@@ -950,7 +950,7 @@ var maDataBlocs = {
  , "c1" : "00298"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#298"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00298] For method send list of called methods Object monObjet|String send_destinationIdN408774|org.apache.kafka.common.network.KafkaChannel openOrClosingChannelOrFailN408849"
+ , "c3" : "QC-JAV000007[00298] For method send list of called methods Object monObjet|java.lang.String send_destinationIdN408774|org.apache.kafka.common.network.KafkaChannel openOrClosingChannelOrFailN408849"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1062,7 +1062,7 @@ var maDataBlocs = {
  , "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#388"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00388] For method pollSelectionKeys list of called methods Object monObjet|String channel_idN414830"
+ , "c3" : "QC-JAV000007[00388] For method pollSelectionKeys list of called methods Object monObjet|java.lang.String channel_idN414830"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1342,7 +1342,7 @@ var maDataBlocs = {
  , "c1" : "00521"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#521"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00521] For method write list of called methods Object monObjet|String channel_idN421221|long channel_writeN421296|org.apache.kafka.common.network.NetworkSend channel_maybeCompleteSendN421371"
+ , "c3" : "QC-JAV000007[00521] For method write list of called methods Object monObjet|java.lang.String channel_idN421221|long channel_writeN421296|org.apache.kafka.common.network.NetworkSend channel_maybeCompleteSendN421371"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1398,7 +1398,7 @@ var maDataBlocs = {
  , "c1" : "00550"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#550"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00550] For method attemptRead list of called methods Object monObjet|String channel_idN422725|long channel_readN422800|org.apache.kafka.common.network.NetworkReceive channel_maybeCompleteReceiveN423194"
+ , "c3" : "QC-JAV000007[00550] For method attemptRead list of called methods Object monObjet|java.lang.String channel_idN422725|long channel_readN422800|org.apache.kafka.common.network.NetworkReceive channel_maybeCompleteReceiveN423194"
 }} 
 ,
 { "ligne" : {"" : ""

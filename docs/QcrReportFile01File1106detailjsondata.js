@@ -440,7 +440,7 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00181] For method extractConnectors list of called methods Object monObjet|Object[] struct_getArrayN198634|java.util.Collection&lt;String&gt; assignment_getStringN199110"
+ , "c3" : "QC-JAV000007[00181] For method extractConnectors list of called methods Object monObjet|java.lang.Object[] struct_getArrayN198634|java.util.Collection&lt;java.lang.String&gt; assignment_getStringN199110"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,7 +524,7 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method extractTasks list of called methods Object monObjet|Object[] struct_getArrayN199840|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; assignment_getStringN200316"
+ , "c3" : "QC-JAV000007[00202] For method extractTasks list of called methods Object monObjet|java.lang.Object[] struct_getArrayN199840|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; assignment_getStringN200316"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -150,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method validate list of called methods Object monObjet|java.util.Set&lt;String&gt; ClaimValidationUtils_validateScopesN183183|long ClaimValidationUtils_validateExpirationN183299|String ClaimValidationUtils_validateSubjectN183513|Long ClaimValidationUtils_validateIssuedAtN183629"
+ , "c3" : "QC-JAV000007[00068] For method validate list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; ClaimValidationUtils_validateScopesN183183|long ClaimValidationUtils_validateExpirationN183299|java.lang.String ClaimValidationUtils_validateSubjectN183513|java.lang.Long ClaimValidationUtils_validateIssuedAtN183629"
 }} 
 ,
 { "ligne" : {"" : ""

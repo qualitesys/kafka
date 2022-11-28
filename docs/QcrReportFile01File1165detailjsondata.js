@@ -690,7 +690,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00130] For method createConnectorInfo list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_rawConnectorConfigN223672"
+ , "c3" : "QC-JAV000007[00130] For method createConnectorInfo list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_rawConnectorConfigN223672"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1040,7 +1040,7 @@ var maDataBlocs = {
  , "c1" : "00257"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#257"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00257] For method restartTask list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_taskConfigN230409|java.util.Map&lt;String,String&gt; configState_connectorConfigN230803"
+ , "c3" : "QC-JAV000007[00257] For method restartTask list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_taskConfigN230409|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN230803"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1236,7 +1236,7 @@ var maDataBlocs = {
  , "c1" : "00292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00292] For method restartConnectorAndTasks list of called methods Object monObjet|String request_connectorNameN232661|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN233052"
+ , "c3" : "QC-JAV000007[00292] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN232661|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN233052"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1376,7 +1376,7 @@ var maDataBlocs = {
  , "c1" : "00340"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#340"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00340] For method startConnector list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_connectorConfigN235559|TargetState configState_targetStateN235653"
+ , "c3" : "QC-JAV000007[00340] For method startConnector list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN235559|TargetState configState_targetStateN235653"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1390,7 +1390,7 @@ var maDataBlocs = {
  , "c1" : "00346"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#346"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00346] For method recomputeTaskConfigs list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_connectorConfigN236154|boolean worker_isSinkConnectorN236248"
+ , "c3" : "QC-JAV000007[00346] For method recomputeTaskConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN236154|boolean worker_isSinkConnectorN236248"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1418,7 +1418,7 @@ var maDataBlocs = {
  , "c1" : "00361"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#361"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00361] For method createConnectorTasks list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_connectorConfigN237075"
+ , "c3" : "QC-JAV000007[00361] For method createConnectorTasks list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN237075"
 }} 
 ,
 { "ligne" : {"" : ""

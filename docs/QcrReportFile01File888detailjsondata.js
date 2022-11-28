@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java 164 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java 166 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -365,7 +365,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -1379,6 +1379,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00214"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#214"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00214] For method sizeOfUnsignedVarint list of called methods Object monObjet|int Integer_numberOfLeadingZerosN230456"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#228"
  , "c2" : "MAJOR"
@@ -1432,6 +1439,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#238"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00238] For method sizeOfVarlong arguments long  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#238"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00238] For method sizeOfVarlong list of called methods Object monObjet|int Long_numberOfLeadingZerosN231537"
 }} 
 ,
 { "ligne" : {"" : ""

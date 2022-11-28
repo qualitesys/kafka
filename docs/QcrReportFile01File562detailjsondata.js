@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 105 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 106 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -415,7 +415,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -1006,6 +1006,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#362"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.record.FileRecords.LogOffsetPosition.equals@POLYN248303 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00373"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#373"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00373] For method hashCode list of called methods Object monObjet|int Long_hashCodeN248966"
 }} 
 ,
 { "ligne" : {"" : ""

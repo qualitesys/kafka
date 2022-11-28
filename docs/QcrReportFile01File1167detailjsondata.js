@@ -321,7 +321,7 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method connectorConfig list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configTransformer_transformN198396"
+ , "c3" : "QC-JAV000007[00113] For method connectorConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configTransformer_transformN198396"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -356,7 +356,7 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00131] For method taskConfig list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configTransformer_transformN199537"
+ , "c3" : "QC-JAV000007[00131] For method taskConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configTransformer_transformN199537"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -391,7 +391,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00144] For method allTaskConfigs list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configTransformer_transformN200939"
+ , "c3" : "QC-JAV000007[00144] For method allTaskConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configTransformer_transformN200939"
 }} 
 ,
 { "ligne" : {"" : ""

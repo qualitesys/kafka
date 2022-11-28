@@ -140,7 +140,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00035] For method init list of called methods Object monObjet|String Utils_readFileAsStringN159918"
+ , "c3" : "QC-JAV000007[00035] For method init list of called methods Object monObjet|java.lang.String Utils_readFileAsStringN159918"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -168,7 +168,7 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method assign list of called methods Object monObjet|GroupAssignment metadata_partitionCountForTopicN162472|java.util.Map&lt;String,List&lt;TopicPartition&gt;&gt; assignN162920"
+ , "c3" : "QC-JAV000007[00027] For method assign list of called methods Object monObjet|GroupAssignment metadata_partitionCountForTopicN162472|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignN162920"
 }} 
 ,
 { "ligne" : {"" : ""

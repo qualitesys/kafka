@@ -237,7 +237,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method clusterPairs list of called methods Object monObjet|java.util.Map&lt;String,String&gt; originalsStringsN194435"
+ , "c3" : "QC-JAV000007[00065] For method clusterPairs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN194435|boolean Boolean_parseBooleanN194660|boolean Boolean_parseBooleanN195174|boolean Boolean_parseBooleanN195503"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method clusterProps list of called methods Object monObjet|java.util.Map&lt;String,String&gt; originalsStringsN196780"
+ , "c3" : "QC-JAV000007[00107] For method clusterProps list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN196780"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -391,7 +391,7 @@ var maDataBlocs = {
  , "c1" : "00136"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method workerConfig list of called methods Object monObjet|java.util.Map&lt;String,String&gt; transformN199641"
+ , "c3" : "QC-JAV000007[00136] For method workerConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; transformN199641"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,7 +524,7 @@ var maDataBlocs = {
  , "c1" : "00173"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method connectorBaseConfig list of called methods Object monObjet|java.util.Map&lt;String,String&gt; clusterPropsN201503|java.util.Map&lt;String,String&gt; clusterPropsN201894"
+ , "c3" : "QC-JAV000007[00173] For method connectorBaseConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; clusterPropsN201503|java.util.Map&lt;java.lang.String,java.lang.String&gt; clusterPropsN201894"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -580,7 +580,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method transform list of called methods Object monObjet|java.util.List&lt;String&gt; configProvidersN203346|org.apache.kafka.common.config.provider.ConfigProvider plugins_newConfigProviderN203608"
+ , "c3" : "QC-JAV000007[00212] For method transform list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; configProvidersN203346|org.apache.kafka.common.config.provider.ConfigProvider plugins_newConfigProviderN203608"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -629,7 +629,7 @@ var maDataBlocs = {
  , "c1" : "00249"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00249] For method stringsWithPrefix list of called methods Object monObjet|java.util.Map&lt;String,String&gt; originalsStringsN205734"
+ , "c3" : "QC-JAV000007[00249] For method stringsWithPrefix list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN205734"
 }} 
 ,
 { "ligne" : {"" : ""

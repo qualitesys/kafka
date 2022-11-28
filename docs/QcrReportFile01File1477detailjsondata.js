@@ -1,497 +1,263 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/java.sql.Connection.java.html" 
- , "texte" : "File secujava/java.sql.Connection.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/java.sql.Connection.java.xml" 
+   "fic1"  : "./qc/secujava/java.lang.Float.java.html" 
+ , "texte" : "File secujava/java.lang.Float.java 35 rule violations " 
+ , "fic2"  : "./qc/secujava/java.lang.Float.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Wrapper"
- , "c2" : "secujava.Connection"
+ , "c1" : "NumberComparable<Float>"
+ , "c2" : "java.lang.Float"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "secujava.Connection" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.lang.Float" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00119"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#119"
- , "c1" : "Statement"
- , "c2" : "createStatement()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#153"
- , "c1" : "PreparedStatement"
- , "c2" : "prepareStatement(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00185"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#185"
- , "c1" : "CallableStatement"
- , "c2" : "prepareCall(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00199"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#199"
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#198"
  , "c1" : "String"
- , "c2" : "nativeSQL(String)"
+ , "c2" : "toString(float)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00236"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#236"
- , "c1" : "void"
- , "c2" : "setAutoCommit(boolean)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00248"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#248"
- , "c1" : "boolean"
- , "c2" : "getAutoCommit()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00263"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#263"
- , "c1" : "void"
- , "c2" : "commit()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00277"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#277"
- , "c1" : "void"
- , "c2" : "rollback()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00294"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#294"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00313"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#313"
- , "c1" : "boolean"
- , "c2" : "isClosed()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00331"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#331"
- , "c1" : "DatabaseMetaData"
- , "c2" : "getMetaData()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00345"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#345"
- , "c1" : "void"
- , "c2" : "setReadOnly(boolean)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00356"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#356"
- , "c1" : "boolean"
- , "c2" : "isReadOnly()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00379"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#379"
- , "c1" : "void"
- , "c2" : "setCatalog(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00389"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#389"
+ , "c5" : "00276"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#276"
  , "c1" : "String"
- , "c2" : "getCatalog()"
+ , "c2" : "toHexString(float)"
+ , "c3" : "3"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00416"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#416"
+ , "c1" : "Float"
+ , "c2" : "valueOf(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00462"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#462"
- , "c1" : "void"
- , "c2" : "setTransactionIsolation(int)"
+ , "c5" : "00433"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#433"
+ , "c1" : "Float"
+ , "c2" : "valueOf(float)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00479"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#479"
- , "c1" : "int"
- , "c2" : "getTransactionIsolation()"
+ , "c5" : "00451"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#451"
+ , "c1" : "float"
+ , "c2" : "parseFloat(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00463"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#463"
+ , "c1" : "boolean"
+ , "c2" : "isNaN(float)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00475"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#475"
+ , "c1" : "boolean"
+ , "c2" : "isInfinite(float)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00492"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#492"
+ , "c1" : "Float"
+ , "c2" : "Float(float)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00502"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#502"
- , "c1" : "SQLWarning"
- , "c2" : "getWarnings()"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#502"
+ , "c1" : "Float"
+ , "c2" : "Float(double)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00513"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#513"
- , "c1" : "void"
- , "c2" : "clearWarnings()"
+ , "c5" : "00517"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#517"
+ , "c1" : "Float"
+ , "c2" : "Float(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00545"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#545"
- , "c1" : "Statement"
- , "c2" : "createStatement(int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00580"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#580"
- , "c1" : "PreparedStatement"
- , "c2" : "prepareStatement(String;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00613"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#613"
- , "c1" : "CallableStatement"
- , "c2" : "prepareCall(String;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00641"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#641"
- , "c1" : "java.util.Map<String,Class<?>>"
- , "c2" : "getTypeMap()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00669"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#669"
- , "c1" : "void"
- , "c2" : "setTypeMap(java.util.Map<String,Class<?>>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00693"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#693"
- , "c1" : "void"
- , "c2" : "setHoldability(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00709"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#709"
- , "c1" : "int"
- , "c2" : "getHoldability()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00729"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#729"
- , "c1" : "Savepoint"
- , "c2" : "setSavepoint()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00750"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#750"
- , "c1" : "Savepoint"
- , "c2" : "setSavepoint(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00771"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#771"
- , "c1" : "void"
- , "c2" : "rollback(Savepoint)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00787"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#787"
- , "c1" : "void"
- , "c2" : "releaseSavepoint(Savepoint)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00823"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#823"
- , "c1" : "Statement"
- , "c2" : "createStatement(int;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00865"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#865"
- , "c1" : "PreparedStatement"
- , "c2" : "prepareStatement(String;int;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00905"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#905"
- , "c1" : "CallableStatement"
- , "c2" : "prepareCall(String;int;int;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00951"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#951"
- , "c1" : "PreparedStatement"
- , "c2" : "prepareStatement(String;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00999"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#999"
- , "c1" : "PreparedStatement"
- , "c2" : "prepareStatement(String;int[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01047"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1047"
- , "c1" : "PreparedStatement"
- , "c2" : "prepareStatement(String;String[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01064"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1064"
- , "c1" : "Clob"
- , "c2" : "createClob()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01080"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1080"
- , "c1" : "Blob"
- , "c2" : "createBlob()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01096"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1096"
- , "c1" : "NClob"
- , "c2" : "createNClob()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01111"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1111"
- , "c1" : "SQLXML"
- , "c2" : "createSQLXML()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01136"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1136"
+ , "c5" : "00529"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#529"
  , "c1" : "boolean"
- , "c2" : "isValid(int)"
+ , "c2" : "isNaN()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01191"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1191"
- , "c1" : "void"
- , "c2" : "setClientInfo(String;String)"
+ , "c5" : "00541"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#541"
+ , "c1" : "boolean"
+ , "c2" : "isInfinite()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01224"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1224"
- , "c1" : "void"
- , "c2" : "setClientInfo(Properties)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01248"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1248"
+ , "c5" : "00554"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#554"
  , "c1" : "String"
- , "c2" : "getClientInfo(String)"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01265"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1265"
- , "c1" : "Properties"
- , "c2" : "getClientInfo()"
+ , "c5" : "00565"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#565"
+ , "c1" : "byte"
+ , "c2" : "byteValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01293"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1293"
- , "c1" : "Array"
- , "c2" : "createArrayOf(String;Object[])"
+ , "c5" : "00577"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#577"
+ , "c1" : "short"
+ , "c2" : "shortValue()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "01310"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1310"
- , "c1" : "Struct"
- , "c2" : "createStruct(String;Object[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01334"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1334"
- , "c1" : "void"
- , "c2" : "setSchema(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01345"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1345"
- , "c1" : "String"
- , "c2" : "getSchema()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01383"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1383"
- , "c1" : "void"
- , "c2" : "abort(Executor)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01475"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1475"
- , "c1" : "void"
- , "c2" : "setNetworkTimeout(Executor;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "01493"
- , "c5link" : "././qc/secujava/java.sql.Connection.java.html#1493"
+ , "c5" : "00588"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#588"
  , "c1" : "int"
- , "c2" : "getNetworkTimeout()"
+ , "c2" : "intValue()"
  , "c3" : "1"
  , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00599"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#599"
+ , "c1" : "long"
+ , "c2" : "longValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00608"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#608"
+ , "c1" : "float"
+ , "c2" : "floatValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00619"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#619"
+ , "c1" : "double"
+ , "c2" : "doubleValue()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00632"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#632"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00676"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#676"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00712"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#712"
+ , "c1" : "int"
+ , "c2" : "floatToIntBits(float)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00758"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#758"
+ , "c1" : "int"
+ , "c2" : "floatToRawIntBits(float)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00819"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#819"
+ , "c1" : "float"
+ , "c2" : "intBitsToFloat(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00853"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#853"
+ , "c1" : "int"
+ , "c2" : "compareTo(Float)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00875"
+ , "c5link" : "././qc/secujava/java.lang.Float.java.html#875"
+ , "c1" : "int"
+ , "c2" : "compare(float;float)"
+ , "c3" : "3"
+ , "c4" : "5"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.sql.Connection.java.png" 
+   {"ligne" : "./qc/secujava/java.lang.Float.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/java.sql.Connection.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.lang.Float.java.svg" }
 
 ] 
 , 
@@ -516,8 +282,301 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "10"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "13"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00198"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#198"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00198] For method toString arguments float  f"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00276] For method toHexString arguments float  f"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00276] For method toHexString list of called methods Object monObjet|String Double_toHexStringN362220"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00278"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00278] In method java.lang.Float.toHexString@POLYN361959 the MagicNumber/String  0.0f should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00286] In method java.lang.Float.toHexString@POLYN361959 the MagicNumber/String  'p-1022$' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00286] In method java.lang.Float.toHexString@POLYN361959 the MagicNumber/String  'p-126' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#416"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00416] For method valueOf arguments String  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00433"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#433"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00433] For method valueOf arguments float  f"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00451"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#451"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00451] For method parseFloat arguments String  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#463"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00463] For method isNaN arguments float  v"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00475"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#475"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00475] For method isInfinite arguments float  v"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00676"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#676"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00676] For method equals arguments Object  obj"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00712"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#712"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00712] For method floatToIntBits arguments float  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00712"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#712"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00712] For method floatToIntBits list of called methods Object monObjet|int floatToRawIntBitsN376086"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00718"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#718"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00718] In method java.lang.Float.floatToIntBits@POLYN375989 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00719"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#719"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00719] In method java.lang.Float.floatToIntBits@POLYN375989 the MagicNumber/String  0x7fc00000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00758"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#758"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00758] For method floatToRawIntBits arguments float  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00819"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#819"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00819] For method intBitsToFloat arguments int  bits"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00853"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#853"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00853] For method compareTo arguments Float  anotherFloat"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00853"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#853"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00853] The argument anotherFloat is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00875"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#875"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00875] For method compare arguments float  f1|float  f2"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00875"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#875"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00875] For method compare list of called methods Object monObjet|int Float_floatToIntBitsN381891|int Float_floatToIntBitsN381985"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00877"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#877"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00877] In method java.lang.Float.compare@POLYN381578 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00879"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#879"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00879] In method java.lang.Float.compare@POLYN381578 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00885"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#885"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00885] In method java.lang.Float.compare@POLYN381578 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00886"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#886"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00886] In method java.lang.Float.compare@POLYN381578 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00887"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#887"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00887] In method java.lang.Float.compare@POLYN381578 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.byteValue@POLYN371421"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.doubleValue@POLYN372831"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.intValue@POLYN372034"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.isInfinite@POLYN370710"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.isNaN@POLYN370378"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.longValue@POLYN372330"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.shortValue@POLYN371735"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.toString@POLYN371102"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/java.sql.Connection.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.lang.Float.java.fct.svg" 
 
 , 
 }

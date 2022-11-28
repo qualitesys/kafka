@@ -1442,7 +1442,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00745] For method sendProduceRequest list of called methods Object monObjet|byte apiVersions_maxUsableProduceMagicN331361|byte batch_magicN331585|org.apache.kafka.common.record.MemoryRecords batch_recordsN331890|org.apache.kafka.common.record.MemoryRecords batch_recordsN332046|String transactionManager_transactionalIdN333118|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333204|org.apache.kafka.clients.ClientRequest client_newClientRequestN333765"
+ , "c3" : "QC-JAV000007[00745] For method sendProduceRequest list of called methods Object monObjet|byte apiVersions_maxUsableProduceMagicN331361|byte batch_magicN331585|org.apache.kafka.common.record.MemoryRecords batch_recordsN331890|org.apache.kafka.common.record.MemoryRecords batch_recordsN332046|java.lang.String transactionManager_transactionalIdN333118|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333204|String Integer_toStringN333671|org.apache.kafka.clients.ClientRequest client_newClientRequestN333765"
 }} 
 ,
 { "ligne" : {"" : ""

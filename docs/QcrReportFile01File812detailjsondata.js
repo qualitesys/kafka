@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method retrieve list of called methods Object monObjet|String formatAuthorizationHeaderN195135|String formatRequestBodyN195243"
+ , "c3" : "QC-JAV000007[00110] For method retrieve list of called methods Object monObjet|java.lang.String formatAuthorizationHeaderN195135|java.lang.String formatRequestBodyN195243"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -588,7 +588,7 @@ var maDataBlocs = {
  , "c1" : "00266"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#266"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00266] For method formatAuthorizationHeader list of called methods Object monObjet|String sanitizeStringN203580|String sanitizeStringN203689"
+ , "c3" : "QC-JAV000007[00266] For method formatAuthorizationHeader list of called methods Object monObjet|java.lang.String sanitizeStringN203580|java.lang.String sanitizeStringN203689"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -195,7 +195,7 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method performAssignment list of called methods Object monObjet|long findMaxMemberConfigOffsetN169808|Long ensureLeaderConfigN169916"
+ , "c3" : "QC-JAV000007[00032] For method performAssignment list of called methods Object monObjet|long findMaxMemberConfigOffsetN169808|java.lang.Long ensureLeaderConfigN169916"
 }} 
 ,
 { "ligne" : {"" : ""

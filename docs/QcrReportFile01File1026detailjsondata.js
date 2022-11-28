@@ -302,7 +302,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00106] For method refreshConsumerGroups list of called methods Object monObjet|java.util.List&lt;String&gt; findConsumerGroupsN167567"
+ , "c3" : "QC-JAV000007[00106] For method refreshConsumerGroups list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; findConsumerGroupsN167567"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -323,7 +323,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method loadInitialConsumerGroups list of called methods Object monObjet|java.util.List&lt;String&gt; findConsumerGroupsN168786"
+ , "c3" : "QC-JAV000007[00125] For method loadInitialConsumerGroups list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; findConsumerGroupsN168786"
 }} 
 ,
 { "ligne" : {"" : ""

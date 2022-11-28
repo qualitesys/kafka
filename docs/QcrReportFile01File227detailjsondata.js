@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#456"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00456] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN235452"
+ , "c3" : "QC-JAV000007[00456] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN235452"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -254,7 +254,7 @@ var maDataBlocs = {
  , "c1" : "00476"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#476"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00476] For method postProcessAndValidateIdempotenceConfigs list of called methods Object monObjet|String parseAcksN236727"
+ , "c3" : "QC-JAV000007[00476] For method postProcessAndValidateIdempotenceConfigs list of called methods Object monObjet|java.lang.String parseAcksN236727|short Short_parseShortN237758"
 }} 
 ,
 { "ligne" : {"" : ""

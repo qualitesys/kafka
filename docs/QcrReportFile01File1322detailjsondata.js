@@ -813,7 +813,7 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#337"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00337] For method replay list of called methods Object monObjet|String Topic_unifyCollisionCharsN503528"
+ , "c3" : "QC-JAV000007[00337] For method replay list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN503528"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1079,7 +1079,7 @@ var maDataBlocs = {
  , "c1" : "00448"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#448"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00448] For method replay list of called methods Object monObjet|String Topic_unifyCollisionCharsN512417"
+ , "c3" : "QC-JAV000007[00448] For method replay list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN512417"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1303,7 +1303,7 @@ var maDataBlocs = {
  , "c1" : "00565"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#565"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00565] For method createTopic list of called methods Object monObjet|java.util.Map&lt;String,String&gt; translateCreationConfigsN519774|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN525555|org.apache.kafka.common.Uuid Uuid_randomUuidN525916|java.util.Map&lt;String,org.apache.kafka.clients.admin.ConfigEntry&gt; configurationControl_computeEffectiveTopicConfigsN526349"
+ , "c3" : "QC-JAV000007[00565] For method createTopic list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; translateCreationConfigsN519774|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN525555|org.apache.kafka.common.Uuid Uuid_randomUuidN525916|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.ConfigEntry&gt; configurationControl_computeEffectiveTopicConfigsN526349"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1653,7 +1653,7 @@ var maDataBlocs = {
  , "c1" : "00708"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#708"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00708] For method validateNewTopicNames list of called methods Object monObjet|String Topic_unifyCollisionCharsN530047"
+ , "c3" : "QC-JAV000007[00708] For method validateNewTopicNames list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN530047"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2465,7 +2465,7 @@ var maDataBlocs = {
  , "c1" : "01076"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1076"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01076] For method handleBrokerFenced list of called methods Object monObjet|java.util.Map&lt;Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN550522"
+ , "c3" : "QC-JAV000007[01076] For method handleBrokerFenced list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN550522"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2815,7 +2815,7 @@ var maDataBlocs = {
  , "c1" : "01269"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1269"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01269] For method unregisterBroker list of called methods Object monObjet|java.util.Map&lt;Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN562711"
+ , "c3" : "QC-JAV000007[01269] For method unregisterBroker list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN562711"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3795,7 +3795,7 @@ var maDataBlocs = {
  , "c1" : "01645"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1645"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01645] For method changePartitionReassignment list of called methods Object monObjet|java.util.List&lt;Integer&gt; Replicas_toListN585433"
+ , "c3" : "QC-JAV000007[01645] For method changePartitionReassignment list of called methods Object monObjet|java.util.List&lt;java.lang.Integer&gt; Replicas_toListN585433"
 }} 
 ,
 { "ligne" : {"" : ""

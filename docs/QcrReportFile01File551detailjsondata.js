@@ -110,7 +110,7 @@ var maDataBlocs = {
  , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#23"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00023] For method nextBatch list of called methods Object monObjet|Integer nextBatchSizeN151909"
+ , "c3" : "QC-JAV000007[00023] For method nextBatch list of called methods Object monObjet|java.lang.Integer nextBatchSizeN151909"
 }} 
 ,
 { "ligne" : {"" : ""

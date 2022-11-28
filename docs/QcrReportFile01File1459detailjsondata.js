@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 817 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 818 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1343,7 +1343,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -2035,6 +2035,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00566"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#566"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00566] For method verifySubclass list of called methods Object monObjet|Class&lt;?&gt; getClassN814428|java.lang.Boolean Boolean_valueOfN815156"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00572"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#572"
  , "c2" : "MAJOR"
@@ -2171,7 +2178,7 @@ var maDataBlocs = {
  , "c1" : "00707"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#707"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00707] For method checkResolve list of called methods Object monObjet|Object resolveObjectN820758"
+ , "c3" : "QC-JAV000007[00707] For method checkResolve list of called methods Object monObjet|java.lang.Object resolveObjectN820758"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2521,7 +2528,7 @@ var maDataBlocs = {
  , "c1" : "00977"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#977"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00977] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN832980|Object readObject0N836631"
+ , "c3" : "QC-JAV000007[00977] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN832980|java.lang.Object readObject0N836631"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2675,7 +2682,7 @@ var maDataBlocs = {
  , "c1" : "01038"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1038"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01038] For method readEnum list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN837322|String readStringN837970"
+ , "c3" : "QC-JAV000007[01038] For method readEnum list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN837322|java.lang.String readStringN837970"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2759,7 +2766,7 @@ var maDataBlocs = {
  , "c1" : "01078"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1078"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01078] For method readOrdinaryObject list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN839572|Object cloneArrayN841633"
+ , "c3" : "QC-JAV000007[01078] For method readOrdinaryObject list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN839572|java.lang.Object cloneArrayN841633"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3074,7 +3081,7 @@ var maDataBlocs = {
  , "c1" : "01263"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01263] For method defaultReadFields list of called methods Object monObjet|Object readObject0N850338"
+ , "c3" : "QC-JAV000007[01263] For method defaultReadFields list of called methods Object monObjet|java.lang.Object readObject0N850338"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3368,7 +3375,7 @@ var maDataBlocs = {
  , "c1" : "01413"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01413] For method readFields list of called methods Object monObjet|Object readObject0N858367"
+ , "c3" : "QC-JAV000007[01413] For method readFields list of called methods Object monObjet|java.lang.Object readObject0N858367"
 }} 
 ,
 { "ligne" : {"" : ""

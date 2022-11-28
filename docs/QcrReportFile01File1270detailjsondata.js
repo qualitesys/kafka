@@ -313,7 +313,7 @@ var maDataBlocs = {
  , "c1" : "00099"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00099] For method prepareAclCache list of called methods Object monObjet|String principal_toStringN189104"
+ , "c3" : "QC-JAV000007[00099] For method prepareAclCache list of called methods Object monObjet|java.lang.String principal_toStringN189104"
 }} 
 ,
 { "ligne" : {"" : ""

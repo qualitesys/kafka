@@ -168,7 +168,7 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00036] For method create list of called methods Object monObjet|Integer cu_validateIntegerN151386|String cu_validateStringN151504|String cu_validateStringN151622|String cu_validateStringN151716"
+ , "c3" : "QC-JAV000007[00036] For method create list of called methods Object monObjet|java.lang.Integer cu_validateIntegerN151386|java.lang.String cu_validateStringN151504|java.lang.String cu_validateStringN151622|java.lang.String cu_validateStringN151716"
 }} 
 ,
 { "ligne" : {"" : ""

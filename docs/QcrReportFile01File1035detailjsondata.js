@@ -278,7 +278,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method start list of called methods Object monObjet|String config_sourceClusterAliasN189218|org.apache.kafka.connect.mirror.MirrorMetrics config_metricsN189292|java.time.Duration config_consumerPollTimeoutN189366|long config_maxOffsetLagN189440|org.apache.kafka.connect.mirror.ReplicationPolicy config_replicationPolicyN189514|String config_offsetSyncsTopicN189671|KafkaConsumer&lt;byte[],byte[]&gt; MirrorUtils_newConsumerN189745|KafkaProducer&lt;byte[],byte[]&gt; MirrorUtils_newProducerN189858|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Long&gt; loadOffsetsN190105"
+ , "c3" : "QC-JAV000007[00067] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN189218|org.apache.kafka.connect.mirror.MirrorMetrics config_metricsN189292|java.time.Duration config_consumerPollTimeoutN189366|long config_maxOffsetLagN189440|org.apache.kafka.connect.mirror.ReplicationPolicy config_replicationPolicyN189514|java.lang.String config_offsetSyncsTopicN189671|KafkaConsumer&lt;byte[],byte[]&gt; MirrorUtils_newConsumerN189745|KafkaProducer&lt;byte[],byte[]&gt; MirrorUtils_newProducerN189858|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; loadOffsetsN190105"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -530,7 +530,7 @@ var maDataBlocs = {
  , "c1" : "00214"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#214"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00214] For method loadOffset list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; MirrorUtils_wrapPartitionN197683|org.apache.kafka.connect.storage.OffsetStorageReader context_offsetStorageReaderN197836"
+ , "c3" : "QC-JAV000007[00214] For method loadOffset list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; MirrorUtils_wrapPartitionN197683|org.apache.kafka.connect.storage.OffsetStorageReader context_offsetStorageReaderN197836"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -551,7 +551,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00221] For method convertRecord list of called methods Object monObjet|String formatRemoteTopicN198165|org.apache.kafka.connect.header.Headers convertHeadersN198271"
+ , "c3" : "QC-JAV000007[00221] For method convertRecord list of called methods Object monObjet|java.lang.String formatRemoteTopicN198165|org.apache.kafka.connect.header.Headers convertHeadersN198271"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -649,14 +649,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceTask.sendOffsetSync@POLYN196109"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceTask.commitRecord@POLYN194223"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceTask.commitRecord@POLYN194223"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceTask.sendOffsetSync@POLYN196109"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -678,6 +678,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceTask.stop@POLYN191026"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.commitRecord@POLYN194223 the MagicNumber/String 'RecordMetadata has no offset -- can't sync offsets for {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.commitRecord@POLYN194223 the MagicNumber/String 'Failure committing record.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -706,20 +720,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#203"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.sendOffsetSync@POLYN196109 the MagicNumber/String 'Sync'd offsets for {}: {}=={}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#163"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.commitRecord@POLYN194223 the MagicNumber/String 'RecordMetadata has no offset -- can't sync offsets for {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#175"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.commitRecord@POLYN194223 the MagicNumber/String 'Failure committing record.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

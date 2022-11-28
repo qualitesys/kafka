@@ -553,7 +553,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method add list of called methods Object monObjet|Object metricLockN215416|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN215920"
+ , "c3" : "QC-JAV000007[00233] For method add list of called methods Object monObjet|java.lang.Object metricLockN215416|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN215920"
 }} 
 ,
 { "ligne" : {"" : ""

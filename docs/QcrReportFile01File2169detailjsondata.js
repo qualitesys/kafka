@@ -1,56 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java 8 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.xml" 
+   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html" 
+ , "texte" : "File tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java 18 rule violations " 
+ , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.trogdor.common.JsonUtil"
+ , "c2" : "org.apache.kafka.tools.ToolsUtils"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.common.JsonUtil" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.tools.ToolsUtils" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#28"
- , "c1" : "String"
- , "c2" : "toJsonString(Object)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#36"
- , "c1" : "String"
- , "c2" : "toPrettyJsonString(Object)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
- , "c1" : "boolean"
- , "c2" : "openBraceComesFirst(String)"
- , "c3" : "3"
- , "c4" : "5"
+ , "c5" : "00013"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#13"
+ , "c1" : "void"
+ , "c2" : "printMetrics(Map<MetricName,?extendsMetric>)"
+ , "c3" : "6"
+ , "c4" : "13"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.png" 
+   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.svg" }
+ , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.svg" }
 
 ] 
 , 
@@ -77,10 +59,10 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -94,77 +76,147 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#16"
+ , "c1" : "00010"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#10"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00016] The class JsonUtil contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00010] The class ToolsUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#13"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00013] For method printMetrics arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#18"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00018] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#19"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00019] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00028"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#28"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method toJsonString arguments Object  object"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method toPrettyJsonString arguments Object  object"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method openBraceComesFirst arguments String  input"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00045] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#46"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155363 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00028] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#49"
+ , "c1" : "00029"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#29"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155363 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000001[00029] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#52"
+ , "c1" : "00014"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#14"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN155363 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00014] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#15"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00015] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#19"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00019"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#19"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00019] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  '%-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00023"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#23"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  's : %.3f' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  '%-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#24"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  's : %s' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  '\n%-' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  's   %s' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  'Metric Name' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00025"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#25"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.tools.ToolsUtils.printMetrics@POLYN147351 the MagicNumber/String  'Value' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.fct.svg" 
 
 , 
 }

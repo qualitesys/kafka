@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java 90 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java 91 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.xml" 
  , "fic3"  : "" 
 }
@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -297,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method projectStruct list of called methods Object monObjet|String targetField_nameN176861|Object source_fieldN176936|Object sourceStruct_getN177103"
+ , "c3" : "QC-JAV000007[00075] For method projectStruct list of called methods Object monObjet|java.lang.String targetField_nameN176861|java.lang.Object source_fieldN176936|java.lang.Object sourceStruct_getN177103"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -500,7 +500,7 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00119] For method projectMap list of called methods Object monObjet|Object projectN180702|Object projectN180872"
+ , "c3" : "QC-JAV000007[00119] For method projectMap list of called methods Object monObjet|java.lang.Object projectN180702|java.lang.Object projectN180872"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -550,6 +550,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method projectPrimitive arguments Schema  source|Object  record|Schema  target"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method projectPrimitive list of called methods Object monObjet|byte numberRecord_byteValueN181839|short numberRecord_shortValueN181962"
 }} 
 ,
 { "ligne" : {"" : ""

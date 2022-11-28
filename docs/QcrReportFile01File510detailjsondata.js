@@ -533,7 +533,7 @@ var maDataBlocs = {
  , "c1" : "00294"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#294"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00294] For method createServerCallbackHandlers list of called methods Object monObjet|String ListenerName_saslMechanismPrefixN221522"
+ , "c3" : "QC-JAV000007[00294] For method createServerCallbackHandlers list of called methods Object monObjet|java.lang.String ListenerName_saslMechanismPrefixN221522"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -596,7 +596,7 @@ var maDataBlocs = {
  , "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#315"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00315] For method createConnectionsMaxReauthMsMap list of called methods Object monObjet|String ListenerName_saslMechanismPrefixN222924"
+ , "c3" : "QC-JAV000007[00315] For method createConnectionsMaxReauthMsMap list of called methods Object monObjet|java.lang.String ListenerName_saslMechanismPrefixN222924"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -659,7 +659,7 @@ var maDataBlocs = {
  , "c1" : "00348"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#348"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00348] For method maybeAddNativeGssapiCredentials list of called methods Object monObjet|String SaslClientAuthenticator_firstPrincipalN224521|String kerberosName_serviceNameN224905|String kerberosName_hostNameN224985"
+ , "c3" : "QC-JAV000007[00348] For method maybeAddNativeGssapiCredentials list of called methods Object monObjet|boolean Boolean_getBooleanN224282|java.lang.String SaslClientAuthenticator_firstPrincipalN224521|java.lang.String kerberosName_serviceNameN224905|java.lang.String kerberosName_hostNameN224985"
 }} 
 ,
 { "ligne" : {"" : ""

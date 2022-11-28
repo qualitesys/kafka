@@ -151,7 +151,7 @@ var maDataBlocs = {
  , "c1" : "00016"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#16"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00016] For method validateScopes list of called methods Object monObjet|String validateStringN171935"
+ , "c3" : "QC-JAV000007[00016] For method validateScopes list of called methods Object monObjet|java.lang.String validateStringN171935"
 }} 
 ,
 { "ligne" : {"" : ""

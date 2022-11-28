@@ -1,36 +1,279 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java 6 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.xml" 
+   "fic1"  : "./qc/secujava/javax.servlet.ServletRequest.java.html" 
+ , "texte" : "File secujava/javax.servlet.ServletRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/secujava/javax.servlet.ServletRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Validator"
- , "c2" : "org.apache.kafka.server.common.MetadataVersionValidator"
+ , "c1" : "java.lang.Object"
+ , "c2" : "javax.servlet.ServletRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.common.MetadataVersionValidator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "javax.servlet.ServletRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#12"
- , "c1" : "void"
- , "c2" : "ensureValid(String;Object)"
+ , "c5" : "00024"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#24"
+ , "c1" : "Object"
+ , "c2" : "getAttribute(String)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00021"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#21"
+ , "c5" : "00030"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#30"
+ , "c1" : "Enumeration"
+ , "c2" : "getAttributeNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00037"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#37"
  , "c1" : "String"
- , "c2" : "toString()"
+ , "c2" : "getCharacterEncoding()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00041"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#41"
+ , "c1" : "void"
+ , "c2" : "setCharacterEncoding(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00049"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#49"
+ , "c1" : "int"
+ , "c2" : "getContentLength()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#56"
+ , "c1" : "String"
+ , "c2" : "getContentType()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#63"
+ , "c1" : "ServletInputStream"
+ , "c2" : "getInputStream()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#70"
+ , "c1" : "String"
+ , "c2" : "getParameter(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00077"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#77"
+ , "c1" : "Enumeration"
+ , "c2" : "getParameterNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00084"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#84"
+ , "c1" : "String[]"
+ , "c2" : "getParameterValues(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#88"
+ , "c1" : "Map"
+ , "c2" : "getParameterMap()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#203"
+ , "c1" : "String"
+ , "c2" : "getProtocol()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#203"
+ , "c1" : "String"
+ , "c2" : "getScheme()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#203"
+ , "c1" : "String"
+ , "c2" : "getServerName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#203"
+ , "c1" : "int"
+ , "c2" : "getServerPort()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#203"
+ , "c1" : "BufferedReader"
+ , "c2" : "getReader()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "String"
+ , "c2" : "getRemoteAddr()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "String"
+ , "c2" : "getRemoteHost()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setAttribute(String;Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "void"
+ , "c2" : "removeAttribute(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "Locale"
+ , "c2" : "getLocale()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "Enumeration"
+ , "c2" : "getLocales()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isSecure()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "RequestDispatcher"
+ , "c2" : "getRequestDispatcher(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "String"
+ , "c2" : "getRealPath(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "int"
+ , "c2" : "getRemotePort()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "String"
+ , "c2" : "getLocalName()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "String"
+ , "c2" : "getLocalAddr()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c1" : "int"
+ , "c2" : "getLocalPort()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +282,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.png" 
+   {"ligne" : "./qc/secujava/javax.servlet.ServletRequest.java.png" 
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/javax.servlet.ServletRequest.java.svg" }
 
 ] 
 , 
@@ -66,82 +309,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00009"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#9"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00009] The class MetadataVersionValidator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#12"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00012] For method ensureValid arguments String  name|Object  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#12"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00012] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.server.common.MetadataVersionValidator.toString@POLYN143954 the MagicNumber/String  '[' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.server.common.MetadataVersionValidator.toString@POLYN143954 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.server.common.MetadataVersionValidator.toString@POLYN143954 the MagicNumber/String  ']' should be converted to const"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersionValidator.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.ServletRequest.java.fct.svg" 
 
 , 
 }

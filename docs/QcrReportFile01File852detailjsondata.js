@@ -293,7 +293,7 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method updateCache list of called methods Object monObjet|org.apache.kafka.common.security.token.delegation.TokenInformation token_tokenInfoN158599|String token_hmacAsBase64StringN158799"
+ , "c3" : "QC-JAV000007[00045] For method updateCache list of called methods Object monObjet|org.apache.kafka.common.security.token.delegation.TokenInformation token_tokenInfoN158599|java.lang.String token_hmacAsBase64StringN158799"
 }} 
 ,
 { "ligne" : {"" : ""

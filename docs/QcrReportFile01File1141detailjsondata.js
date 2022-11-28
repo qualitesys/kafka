@@ -367,7 +367,7 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00119] For method createConnector list of called methods Object monObjet|SslContextFactory SSLUtils_createServerSideSslContextFactoryN222789|SslContextFactory SSLUtils_createServerSideSslContextFactoryN222923"
+ , "c3" : "QC-JAV000007[00119] For method createConnector list of called methods Object monObjet|int Integer_parseIntN222460|SslContextFactory SSLUtils_createServerSideSslContextFactoryN222789|SslContextFactory SSLUtils_createServerSideSslContextFactoryN222923"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -654,7 +654,7 @@ var maDataBlocs = {
  , "c1" : "00316"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#316"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00316] For method advertisedUrl list of called methods Object monObjet|String determineAdvertisedProtocolN232835|ServerConnector findConnectorN232902|java.net.URI config_getStringN233059|java.net.URI config_getIntN233639"
+ , "c3" : "QC-JAV000007[00316] For method advertisedUrl list of called methods Object monObjet|java.lang.String determineAdvertisedProtocolN232835|ServerConnector findConnectorN232902|java.net.URI config_getStringN233059|java.net.URI config_getIntN233639"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -787,7 +787,7 @@ var maDataBlocs = {
  , "c1" : "00371"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#371"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00371] For method determineAdvertisedProtocol list of called methods Object monObjet|String config_getStringN235785"
+ , "c3" : "QC-JAV000007[00371] For method determineAdvertisedProtocol list of called methods Object monObjet|java.lang.String config_getStringN235785"
 }} 
 ,
 { "ligne" : {"" : ""

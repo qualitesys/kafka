@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00049] For method committableOffsets list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; committableOffsetN203611"
+ , "c3" : "QC-JAV000007[00049] For method committableOffsets list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; committableOffsetN203611"
 }} 
 ,
 { "ligne" : {"" : ""

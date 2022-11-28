@@ -813,7 +813,7 @@ var maDataBlocs = {
  , "c1" : "00235"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#235"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00235] For method connectorInfo list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN298159|java.util.Map&lt;String,String&gt; configState_rawConnectorConfigN298388"
+ , "c3" : "QC-JAV000007[00235] For method connectorInfo list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN298159|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_rawConnectorConfigN298388"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -848,7 +848,7 @@ var maDataBlocs = {
  , "c1" : "00265"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#265"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00265] For method connectorStatus list of called methods Object monObjet|Object statusBackingStore_getN299628|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN299896"
+ , "c3" : "QC-JAV000007[00265] For method connectorStatus list of called methods Object monObjet|java.lang.Object statusBackingStore_getN299628|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN299896"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -904,7 +904,7 @@ var maDataBlocs = {
  , "c1" : "00308"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#308"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00308] For method taskStatus list of called methods Object monObjet|Object statusBackingStore_getN302159"
+ , "c3" : "QC-JAV000007[00308] For method taskStatus list of called methods Object monObjet|java.lang.Object statusBackingStore_getN302159"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1009,7 +1009,7 @@ var maDataBlocs = {
  , "c1" : "00344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00344] For method buildRestartPlan list of called methods Object monObjet|String request_connectorNameN304460|Object statusBackingStore_getN304535|boolean request_shouldRestartConnectorN304766|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN305182|boolean request_shouldRestartTaskN305351"
+ , "c3" : "QC-JAV000007[00344] For method buildRestartPlan list of called methods Object monObjet|java.lang.String request_connectorNameN304460|java.lang.Object statusBackingStore_getN304535|boolean request_shouldRestartConnectorN304766|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN305182|boolean request_shouldRestartTaskN305351"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1219,7 +1219,7 @@ var maDataBlocs = {
  , "c1" : "00520"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#520"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00520] For method validateClientOverrides list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN314926|java.util.Map&lt;String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN315555|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN316181|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN316828|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN317353"
+ , "c3" : "QC-JAV000007[00520] For method validateClientOverrides list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN314926|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; configDef_configKeysN315555|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN316181|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN316828|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN317353"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1380,7 +1380,7 @@ var maDataBlocs = {
  , "c1" : "00569"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#569"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00569] For method generateResult list of called methods Object monObjet|String configValue_nameN318472|java.util.List&lt;String&gt; configValue_errorMessagesN318924|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN319239|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN319670|java.util.List&lt;String&gt; configValue_errorMessagesN319777"
+ , "c3" : "QC-JAV000007[00569] For method generateResult list of called methods Object monObjet|java.lang.String configValue_nameN318472|java.util.List&lt;java.lang.String&gt; configValue_errorMessagesN318924|org.apache.kafka.connect.runtime.rest.entities.ConfigKeyInfo convertConfigKeyN319239|org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo convertConfigValueN319670|java.util.List&lt;java.lang.String&gt; configValue_errorMessagesN319777"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1485,7 +1485,7 @@ var maDataBlocs = {
  , "c1" : "00602"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#602"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00602] For method convertConfigKey list of called methods Object monObjet|String ConfigDef_convertToStringN320970"
+ , "c3" : "QC-JAV000007[00602] For method convertConfigKey list of called methods Object monObjet|java.lang.String ConfigDef_convertToStringN320970"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1527,7 +1527,7 @@ var maDataBlocs = {
  , "c1" : "00625"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#625"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00625] For method convertConfigValue list of called methods Object monObjet|String ConfigDef_convertToStringN321995"
+ , "c3" : "QC-JAV000007[00625] For method convertConfigValue list of called methods Object monObjet|java.lang.String ConfigDef_convertToStringN321995"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1674,7 +1674,7 @@ var maDataBlocs = {
  , "c1" : "00693"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#693"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00693] For method reverseTransform list of called methods Object monObjet|java.util.Map&lt;String,String&gt; configState_rawConnectorConfigN326128|java.util.Set&lt;String&gt; keysWithVariableValuesN326243"
+ , "c3" : "QC-JAV000007[00693] For method reverseTransform list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_rawConnectorConfigN326128|java.util.Set&lt;java.lang.String&gt; keysWithVariableValuesN326243"
 }} 
 ,
 { "ligne" : {"" : ""

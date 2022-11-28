@@ -780,7 +780,7 @@ var maDataBlocs = {
  , "c1" : "00440"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00440] For method receiveToken list of called methods Object monObjet|Errors response_errorN266477|String response_errorMessageN266702|long response_sessionLifetimeMsN266940"
+ , "c3" : "QC-JAV000007[00440] For method receiveToken list of called methods Object monObjet|Errors response_errorN266477|java.lang.String response_errorMessageN266702|long response_sessionLifetimeMsN266940"
 }} 
 ,
 { "ligne" : {"" : ""

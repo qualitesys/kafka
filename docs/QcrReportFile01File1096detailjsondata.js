@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00178] For method commitOffsets list of called methods Object monObjet|Long workerConfig_getLongN182876|Long time_millisecondsN184475|java.util.concurrent.Future&lt;Void&gt; offsetWriter_doFlushN184853|boolean time_millisecondsN186904"
+ , "c3" : "QC-JAV000007[00178] For method commitOffsets list of called methods Object monObjet|java.lang.Long workerConfig_getLongN182876|java.util.concurrent.Future&lt;java.lang.Void&gt; offsetWriter_doFlushN184853|boolean time_millisecondsN186904"
 }} 
 ,
 { "ligne" : {"" : ""

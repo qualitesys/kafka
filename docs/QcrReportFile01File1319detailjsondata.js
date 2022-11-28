@@ -2953,7 +2953,7 @@ var maDataBlocs = {
  , "c1" : "01749"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1749"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01749] For method createPartitions list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;List&lt;CreatePartitionsTopicResult&gt;&gt; replicationControl_createPartitionsN491060"
+ , "c3" : "QC-JAV000007[01749] For method createPartitions list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;java.util.List&lt;CreatePartitionsTopicResult&gt;&gt; replicationControl_createPartitionsN491060"
 }} 
 ,
 { "ligne" : {"" : ""

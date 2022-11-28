@@ -10294,6 +10294,90 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "secujava/java.lang.Boolean.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Boolean.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Boolean.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Byte.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Byte.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Byte.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Character.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Character.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Character.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Double.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Double.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Double.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Error.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Error.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Error.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Exception.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Exception.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Exception.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Float.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Float.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Float.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Integer.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Integer.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Integer.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Long.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Long.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Long.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Number.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Number.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Number.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Object.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Object.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Object.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Short.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Short.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Short.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "secujava/java.lang.String.java" 
   , "Fic1"  : "qc/secujava/java.lang.String.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
@@ -10305,6 +10389,13 @@ var maDataBlocs = {
   , "Fic1"  : "qc/secujava/java.lang.StringBuilder.java.qre.nonreg.html" 
   , "OKKO1"  : "" 
   , "Fic2"  : "qc/secujava/java.lang.StringBuilder.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
+  "fic"  : "secujava/java.lang.Void.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Void.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Void.java.xml.nonreg.html" 
   , "OKKO2"  : "" 
 }},
  { "ligne" : {

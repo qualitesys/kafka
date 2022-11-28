@@ -1,25 +1,34 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.StateRestoreCallback"
+ , "c1" : "StateRestoreCallback"
+ , "c2" : "org.apache.kafka.streams.processor.BatchingStateRestoreCallback"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.StateRestoreCallback" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.BatchingStateRestoreCallback" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00007"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.html#7"
+ , "c5" : "00014"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#14"
+ , "c1" : "void"
+ , "c2" : "restoreAll(Collection<KeyValue<byte[],byte[]>>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00017"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.html#17"
  , "c1" : "void"
  , "c2" : "restore(byte[];byte[])"
  , "c3" : "1"
@@ -30,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.svg" }
 
 ] 
 , 
@@ -58,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/BatchingStateRestoreCallback.java.fct.svg" 
 
 , 
 }

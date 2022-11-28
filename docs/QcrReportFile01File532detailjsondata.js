@@ -270,7 +270,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/ArrayOf.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method read list of called methods Object monObjet|Object type_readN155979"
+ , "c3" : "QC-JAV000007[00051] For method read list of called methods Object monObjet|java.lang.Object type_readN155979"
 }} 
 ,
 { "ligne" : {"" : ""

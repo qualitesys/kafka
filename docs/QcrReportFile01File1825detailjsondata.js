@@ -1,45 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/Cancellable.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/Cancellable.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/Cancellable.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.StateRestoreListener"
+ , "c2" : "org.apache.kafka.streams.processor.Cancellable"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.StateRestoreListener" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.Cancellable" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00011"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#11"
+ , "c5" : "00010"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/Cancellable.java.html#10"
  , "c1" : "void"
- , "c2" : "onRestoreStart(TopicPartition;String;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#17"
- , "c1" : "void"
- , "c2" : "onBatchRestored(TopicPartition;String;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#23"
- , "c1" : "void"
- , "c2" : "onRestoreEnd(TopicPartition;String;long)"
+ , "c2" : "cancel()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/Cancellable.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/Cancellable.java.svg" }
 
 ] 
 , 
@@ -76,7 +58,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/Cancellable.java.fct.svg" 
 
 , 
 }

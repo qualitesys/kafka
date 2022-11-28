@@ -415,7 +415,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method handleCallback list of called methods Object monObjet|String callback_tokenValueN185585"
+ , "c3" : "QC-JAV000007[00087] For method handleCallback list of called methods Object monObjet|java.lang.String callback_tokenValueN185585"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -464,7 +464,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00112] For method principalClaimName list of called methods Object monObjet|String optionN187240"
+ , "c3" : "QC-JAV000007[00112] For method principalClaimName list of called methods Object monObjet|java.lang.String optionN187240"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -478,7 +478,7 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00117] For method scopeClaimName list of called methods Object monObjet|String optionN187556"
+ , "c3" : "QC-JAV000007[00117] For method scopeClaimName list of called methods Object monObjet|java.lang.String optionN187556"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -492,14 +492,14 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00122] For method requiredScope list of called methods Object monObjet|String optionN187893"
+ , "c3" : "QC-JAV000007[00122] For method requiredScope list of called methods Object monObjet|java.lang.String optionN187893"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method allowableClockSkewMs list of called methods Object monObjet|String optionN188227"
+ , "c3" : "QC-JAV000007[00127] For method allowableClockSkewMs list of called methods Object monObjet|java.lang.String optionN188227"
 }} 
 ,
 { "ligne" : {"" : ""

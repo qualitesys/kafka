@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method validate list of called methods Object monObjet|java.util.List&lt;String&gt; parseTopicsListN173361"
+ , "c3" : "QC-JAV000007[00072] For method validate list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; parseTopicsListN173361"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -331,7 +331,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method enableErrantRecordReporter list of called methods Object monObjet|String dlqTopicNameN176387"
+ , "c3" : "QC-JAV000007[00147] For method enableErrantRecordReporter list of called methods Object monObjet|java.lang.String dlqTopicNameN176387"
 }} 
 ,
 { "ligne" : {"" : ""

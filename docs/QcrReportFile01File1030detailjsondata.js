@@ -137,7 +137,7 @@ var maDataBlocs = {
  , "c1" : "00025"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#25"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00025] For method start list of called methods Object monObjet|String config_sourceClusterAliasN149618|String config_targetClusterAliasN149692|String config_heartbeatsTopicN149766|java.time.Duration config_emitHeartbeatsIntervalN149840"
+ , "c3" : "QC-JAV000007[00025] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN149618|java.lang.String config_targetClusterAliasN149692|java.lang.String config_heartbeatsTopicN149766|java.time.Duration config_emitHeartbeatsIntervalN149840"
 }} 
 ,
 { "ligne" : {"" : ""

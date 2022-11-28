@@ -604,14 +604,14 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method findSourceTopicPartitions list of called methods Object monObjet|java.util.Set&lt;String&gt; listTopicsN240839"
+ , "c3" : "QC-JAV000007[00175] For method findSourceTopicPartitions list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; listTopicsN240839"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00186] For method findTargetTopicPartitions list of called methods Object monObjet|java.util.Set&lt;String&gt; listTopicsN241379"
+ , "c3" : "QC-JAV000007[00186] For method findTargetTopicPartitions list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; listTopicsN241379"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -681,7 +681,7 @@ var maDataBlocs = {
  , "c1" : "00254"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00254] For method topicsBeingReplicated list of called methods Object monObjet|java.util.Set&lt;String&gt; toTopicsN244944"
+ , "c3" : "QC-JAV000007[00254] For method topicsBeingReplicated list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; toTopicsN244944"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -709,7 +709,7 @@ var maDataBlocs = {
  , "c1" : "00281"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#281"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00281] For method syncTopicConfigs list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN246521"
+ , "c3" : "QC-JAV000007[00281] For method syncTopicConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN246521"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -737,7 +737,7 @@ var maDataBlocs = {
  , "c1" : "00336"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#336"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00336] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN250622|String formatRemoteTopicN250867|java.util.Map&lt;String,String&gt; configToMapN251104"
+ , "c3" : "QC-JAV000007[00336] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN250622|java.lang.String formatRemoteTopicN250867|java.util.Map&lt;java.lang.String,java.lang.String&gt; configToMapN251104"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -947,7 +947,7 @@ var maDataBlocs = {
  , "c1" : "00417"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#417"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00417] For method expandTopicDescription list of called methods Object monObjet|String description_nameN256106"
+ , "c3" : "QC-JAV000007[00417] For method expandTopicDescription list of called methods Object monObjet|java.lang.String description_nameN256106"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1017,7 +1017,7 @@ var maDataBlocs = {
  , "c1" : "00445"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method targetAclBinding list of called methods Object monObjet|String formatRemoteTopicN258281|org.apache.kafka.common.acl.AccessControlEntry downgradeAllowAllACLN258651|org.apache.kafka.common.acl.AccessControlEntry sourceAclBinding_entryN258775"
+ , "c3" : "QC-JAV000007[00445] For method targetAclBinding list of called methods Object monObjet|java.lang.String formatRemoteTopicN258281|org.apache.kafka.common.acl.AccessControlEntry downgradeAllowAllACLN258651|org.apache.kafka.common.acl.AccessControlEntry sourceAclBinding_entryN258775"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1080,7 +1080,7 @@ var maDataBlocs = {
  , "c1" : "00472"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#472"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00472] For method isCycle list of called methods Object monObjet|String replicationPolicy_topicSourceN259909|String replicationPolicy_upstreamTopicN260273"
+ , "c3" : "QC-JAV000007[00472] For method isCycle list of called methods Object monObjet|java.lang.String replicationPolicy_topicSourceN259909|java.lang.String replicationPolicy_upstreamTopicN260273"
 }} 
 ,
 { "ligne" : {"" : ""

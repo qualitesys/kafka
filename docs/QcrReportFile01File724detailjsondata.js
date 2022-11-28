@@ -164,7 +164,7 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaResponse.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00034] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,Integer&gt; errorCountsN150812"
+ , "c3" : "QC-JAV000007[00034] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN150812"
 }} 
 ,
 { "ligne" : {"" : ""

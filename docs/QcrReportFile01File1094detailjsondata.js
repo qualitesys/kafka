@@ -607,7 +607,7 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00193] For method iteration list of called methods Object monObjet|Long workerConfig_getLongN288431"
+ , "c3" : "QC-JAV000007[00193] For method iteration list of called methods Object monObjet|java.lang.Long workerConfig_getLongN288431"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -719,7 +719,7 @@ var maDataBlocs = {
  , "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#270"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00270] For method initializeAndStart list of called methods Object monObjet|java.util.List&lt;String&gt; SinkConnectorConfig_parseTopicsListN292573"
+ , "c3" : "QC-JAV000007[00270] For method initializeAndStart list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; SinkConnectorConfig_parseTopicsListN292573"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1139,7 +1139,7 @@ var maDataBlocs = {
  , "c1" : "00480"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#480"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00480] For method convertAndTransformRecord list of called methods Object monObjet|Long ConnectUtils_checkAndConvertTimestampN305842"
+ , "c3" : "QC-JAV000007[00480] For method convertAndTransformRecord list of called methods Object monObjet|java.lang.Long ConnectUtils_checkAndConvertTimestampN305842"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1272,7 +1272,7 @@ var maDataBlocs = {
  , "c1" : "00583"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#583"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00583] For method rewind list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Long&gt; context_offsetsN310487"
+ , "c3" : "QC-JAV000007[00583] For method rewind list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; context_offsetsN310487"
 }} 
 ,
 { "ligne" : {"" : ""

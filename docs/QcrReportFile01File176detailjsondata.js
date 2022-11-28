@@ -180,7 +180,7 @@ var maDataBlocs = {
  , "c1" : "00499"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#499"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00499] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;String,Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN246099"
+ , "c3" : "QC-JAV000007[00499] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; CommonClientConfigs_postProcessReconnectBackoffConfigsN246099"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,7 +299,7 @@ var maDataBlocs = {
  , "c1" : "00536"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#536"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00536] For method maybeOverrideEnableAutoCommit list of called methods Object monObjet|Boolean getBooleanN248719"
+ , "c3" : "QC-JAV000007[00536] For method maybeOverrideEnableAutoCommit list of called methods Object monObjet|java.lang.Boolean getBooleanN248719"
 }} 
 ,
 { "ligne" : {"" : ""

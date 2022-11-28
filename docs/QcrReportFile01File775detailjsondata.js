@@ -267,7 +267,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method configure list of called methods Object monObjet|String getServiceNameN194658"
+ , "c3" : "QC-JAV000007[00065] For method configure list of called methods Object monObjet|java.lang.String getServiceNameN194658"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -883,7 +883,7 @@ var maDataBlocs = {
  , "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#265"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00265] For method getServiceName list of called methods Object monObjet|String JaasContext_configEntryOptionN204254"
+ , "c3" : "QC-JAV000007[00265] For method getServiceName list of called methods Object monObjet|java.lang.String JaasContext_configEntryOptionN204254"
 }} 
 ,
 { "ligne" : {"" : ""

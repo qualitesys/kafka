@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method createAndSetup list of called methods Object monObjet|String sinkConfig_dlqTopicNameN181636"
+ , "c3" : "QC-JAV000007[00057] For method createAndSetup list of called methods Object monObjet|java.lang.String sinkConfig_dlqTopicNameN181636"
 }} 
 ,
 { "ligne" : {"" : ""

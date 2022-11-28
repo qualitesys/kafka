@@ -202,7 +202,7 @@ var maDataBlocs = {
  , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#25"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00025] For method schemaToBnfHtml list of called methods Object monObjet|String indentStringN172652"
+ , "c3" : "QC-JAV000007[00025] For method schemaToBnfHtml list of called methods Object monObjet|java.lang.String indentStringN172652"
 }} 
 ,
 { "ligne" : {"" : ""
