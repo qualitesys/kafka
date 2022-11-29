@@ -798,7 +798,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN218723|org.apache.kafka.common.KafkaFuture&lt;Map&lt;String,TopicListing&gt;&gt; res_namesToListingsN218912|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN219547|org.apache.kafka.common.KafkaFuture&lt;Map&lt;String,TopicDescription&gt;&gt; topicsResult_allTopicNamesN219758|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; desc_partitionsN219968"
+ , "c3" : "QC-JAV000007[00218] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN218723|org.apache.kafka.common.KafkaFuture&lt;java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicListing&gt;&gt; res_namesToListingsN218912|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN219547|org.apache.kafka.common.KafkaFuture&lt;java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicDescription&gt;&gt; topicsResult_allTopicNamesN219758|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; desc_partitionsN219968"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1149,7 +1149,7 @@ var maDataBlocs = {
  , "c1" : "00493"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#493"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00493] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,Map&lt;String,Entry&lt;OpType,String&gt;&gt;&gt; computeConfigChangesN515623|org.apache.kafka.controller.ControllerResult&lt;Map&lt;ConfigResource,ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN515809"
+ , "c3" : "QC-JAV000007[00493] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,java.util.Map&lt;java.lang.String,java.util.Map.Entry&lt;OpType,java.lang.String&gt;&gt;&gt; computeConfigChangesN515623|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN515809"
 }} 
 ,
 { "ligne" : {"" : ""

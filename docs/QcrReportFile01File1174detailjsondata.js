@@ -432,7 +432,7 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00109] For method putTaskConfigs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.connect.util.ConnectorTaskId,Map&lt;String,String&gt;&gt; taskConfigListAsMapN169030"
+ , "c3" : "QC-JAV000007[00109] For method putTaskConfigs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.connect.util.ConnectorTaskId,java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; taskConfigListAsMapN169030"
 }} 
 ,
 { "ligne" : {"" : ""

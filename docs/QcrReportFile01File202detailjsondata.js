@@ -1644,7 +1644,7 @@ var maDataBlocs = {
  , "c1" : "00854"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#854"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00854] For method fetchCommittedOffsets list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationIfStableN413462|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt; sendOffsetFetchRequestN414129"
+ , "c3" : "QC-JAV000007[00854] For method fetchCommittedOffsets list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationIfStableN413462|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt;&gt; sendOffsetFetchRequestN414129"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -5295,7 +5295,7 @@ var maDataBlocs = {
  , "c1" : "03126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03126] For method listConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt; ListConsumerGroupOffsetsHandler_newFutureN1132532"
+ , "c3" : "QC-JAV000007[03126] For method listConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt;&gt; ListConsumerGroupOffsetsHandler_newFutureN1132532"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5337,7 +5337,7 @@ var maDataBlocs = {
  , "c1" : "03146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03146] For method deleteConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt; DeleteConsumerGroupOffsetsHandler_newFutureN1134106"
+ , "c3" : "QC-JAV000007[03146] For method deleteConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;org.apache.kafka.common.TopicPartition,Errors&gt;&gt; DeleteConsumerGroupOffsetsHandler_newFutureN1134106"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5743,7 +5743,7 @@ var maDataBlocs = {
  , "c1" : "03476"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3476"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03476] For method removeMembersFromConsumerGroup list of called methods Object monObjet|java.util.List&lt;MemberIdentity&gt; getMembersFromGroupN1153105|java.util.Set&lt;org.apache.kafka.clients.admin.MemberToRemove&gt; options_membersN1153231|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;MemberIdentity,Errors&gt;&gt; RemoveMembersFromConsumerGroupHandler_newFutureN1153586"
+ , "c3" : "QC-JAV000007[03476] For method removeMembersFromConsumerGroup list of called methods Object monObjet|java.util.List&lt;MemberIdentity&gt; getMembersFromGroupN1153105|java.util.Set&lt;org.apache.kafka.clients.admin.MemberToRemove&gt; options_membersN1153231|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;MemberIdentity,Errors&gt;&gt; RemoveMembersFromConsumerGroupHandler_newFutureN1153586"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5771,7 +5771,7 @@ var maDataBlocs = {
  , "c1" : "03498"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3498"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03498] For method alterConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt; AlterConsumerGroupOffsetsHandler_newFutureN1154373"
+ , "c3" : "QC-JAV000007[03498] For method alterConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;org.apache.kafka.common.TopicPartition,Errors&gt;&gt; AlterConsumerGroupOffsetsHandler_newFutureN1154373"
 }} 
 ,
 { "ligne" : {"" : ""

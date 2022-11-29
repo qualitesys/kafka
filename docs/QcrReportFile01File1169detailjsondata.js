@@ -316,7 +316,7 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00133] For method get list of called methods Object monObjet|java.util.concurrent.Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt; getFromStoreN206467|java.util.concurrent.Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt; getFromStoreN206633|java.util.concurrent.Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt; time_millisecondsN208083"
+ , "c3" : "QC-JAV000007[00133] For method get list of called methods Object monObjet|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; getFromStoreN206467|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; getFromStoreN206633|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; time_millisecondsN208083"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -421,7 +421,7 @@ var maDataBlocs = {
  , "c1" : "00239"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00239] For method loggingContext list of called methods Object monObjet|java.util.concurrent.Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt; loggingContext_getN212191"
+ , "c3" : "QC-JAV000007[00239] For method loggingContext list of called methods Object monObjet|java.util.concurrent.Future&lt;java.util.Map&lt;java.nio.ByteBuffer,java.nio.ByteBuffer&gt;&gt; loggingContext_getN212191"
 }} 
 ,
 { "ligne" : {"" : ""

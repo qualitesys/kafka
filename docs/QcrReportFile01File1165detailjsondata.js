@@ -1481,7 +1481,7 @@ var maDataBlocs = {
  , "c1" : "00402"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#402"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00402] For method updateConnectorTasks list of called methods Object monObjet|java.util.List&lt;Map&lt;String,String&gt;&gt; recomputeTaskConfigsN239161|java.util.List&lt;Map&lt;String,String&gt;&gt; configState_allTaskConfigsN239305|java.util.List&lt;Map&lt;String,String&gt;&gt; reverseTransformN239617"
+ , "c3" : "QC-JAV000007[00402] For method updateConnectorTasks list of called methods Object monObjet|java.util.List&lt;java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; recomputeTaskConfigsN239161|java.util.List&lt;java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; configState_allTaskConfigsN239305|java.util.List&lt;java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; reverseTransformN239617"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1663,7 +1663,7 @@ var maDataBlocs = {
  , "c1" : "00510"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#510"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00510] For method tasksConfig list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.connect.util.ConnectorTaskId,Map&lt;String,String&gt;&gt; buildTasksConfigN243009"
+ , "c3" : "QC-JAV000007[00510] For method tasksConfig list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.connect.util.ConnectorTaskId,java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; buildTasksConfigN243009"
 }} 
 ,
 { "ligne" : {"" : ""

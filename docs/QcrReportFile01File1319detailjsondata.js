@@ -2624,7 +2624,7 @@ var maDataBlocs = {
  , "c1" : "01583"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1583"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01583] For method incrementalAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;Map&lt;ConfigResource,ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN483160"
+ , "c3" : "QC-JAV000007[01583] For method incrementalAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN483160"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2743,7 +2743,7 @@ var maDataBlocs = {
  , "c1" : "01628"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1628"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01628] For method legacyAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;Map&lt;ConfigResource,ApiError&gt;&gt; configurationControl_legacyAlterConfigsN485237"
+ , "c3" : "QC-JAV000007[01628] For method legacyAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_legacyAlterConfigsN485237"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2862,7 +2862,7 @@ var maDataBlocs = {
  , "c1" : "01690"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1690"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01690] For method alterClientQuotas list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;Map&lt;ClientQuotaEntity,ApiError&gt;&gt; clientQuotaControlManager_alterClientQuotasN487804"
+ , "c3" : "QC-JAV000007[01690] For method alterClientQuotas list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.quota.ClientQuotaEntity,org.apache.kafka.common.requests.ApiError&gt;&gt; clientQuotaControlManager_alterClientQuotasN487804"
 }} 
 ,
 { "ligne" : {"" : ""
