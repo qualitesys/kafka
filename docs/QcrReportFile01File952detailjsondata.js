@@ -1162,7 +1162,7 @@ var maDataBlocs = {
  , "c1" : "00576"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#576"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00576] For method parse list of called methods Object monObjet|String sb_toStringN402804|org.apache.kafka.connect.data.SchemaAndValue parseStringN402879|org.apache.kafka.connect.data.SchemaAndValue token_trimN409919|org.apache.kafka.connect.data.SchemaAndValue token_charAtN409994|boolean Character_isDigitN410090|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410554|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410823"
+ , "c3" : "QC-JAV000007[00576] For method parse list of called methods Object monObjet|java.lang.String sb_toStringN402804|org.apache.kafka.connect.data.SchemaAndValue parseStringN402879|org.apache.kafka.connect.data.SchemaAndValue token_trimN409919|org.apache.kafka.connect.data.SchemaAndValue token_charAtN409994|boolean Character_isDigitN410090|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410554|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410823"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1554,7 +1554,7 @@ var maDataBlocs = {
  , "c1" : "00778"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#778"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00778] For method parseAsTemporal list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaAndValue token_lengthN413597"
+ , "c3" : "QC-JAV000007[00778] For method parseAsTemporal list of called methods Object monObjet|java.lang.String token_replaceN413477|int token_lengthN413597"
 }} 
 ,
 { "ligne" : {"" : ""

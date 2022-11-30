@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.String.java.html" 
- , "texte" : "File secujava/java.lang.String.java 264 rule violations " 
+ , "texte" : "File secujava/java.lang.String.java 279 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.String.java.xml" 
  , "fic3"  : "" 
 }
@@ -813,12 +813,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "16"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -840,6 +863,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "60"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1505,6 +1535,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00472"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#472"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00472] For method compare list of called methods Object monObjet|int Character_toUpperCaseN842965|int Character_toUpperCaseN843058|int Character_toLowerCaseN843222|int Character_toLowerCaseN843315"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00472"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#472"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00472] The argument s1 is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1591,6 +1628,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.String.java.html#522"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00522] For method regionMatches arguments boolean  ignoreCase|int  toffset|String  other|int  ooffset|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00522"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#522"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00522] For method regionMatches list of called methods Object monObjet|int Character_toUpperCaseN850296|int Character_toUpperCaseN850390"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1762,6 +1806,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00613"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#613"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00613] For method indexOf list of called methods Object monObjet|char[] Character_toCharsN858556"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00617"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#617"
  , "c2" : "MAJOR"
@@ -1843,6 +1894,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.String.java.html#659"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00659] For method lastIndexOf arguments int  ch|int  fromIndex"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00659"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#659"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00659] For method lastIndexOf list of called methods Object monObjet|char[] Character_toCharsN862740"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2142,6 +2200,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00825"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#825"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00825] For method concat list of called methods Object monObjet|int str_lengthN875405"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00825"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#825"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00825] The argument str is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2294,6 +2359,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00902"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#902"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00902] For method toLowerCase list of called methods Object monObjet|int codePointAtN891413|int Character_charCountN891630|int codePointAtN893187|int Character_charCountN893272|int Character_toLowerCaseN893692|int Character_toCharsN894250|char[] Character_toCharsN894464"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00903"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#903"
  , "c2" : "MAJOR"
@@ -2396,6 +2468,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.String.java.html#994"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00994] For method toUpperCase arguments Locale  locale"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00994"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#994"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00994] For method toUpperCase list of called methods Object monObjet|int codePointAtN898994|int Character_charCountN899079|int Character_toUpperCaseExN899251|int codePointAtN900860|int Character_charCountN900945|int Character_toUpperCaseExN901319|char[] Character_toUpperCaseCharArrayN901872|int Character_toCharsN902041|char[] Character_toCharsN902255"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2697,6 +2776,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1181"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01181] For method valueOf arguments double  d"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.copyValueOf@POLYN912694"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.split@POLYN888693"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.startsWith@POLYN852713"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toLowerCase@POLYN896475"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toUpperCase@POLYN904272"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01151"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01151] In the recursive method java.lang.String.copyValueOf@POLYN912694 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00898"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#898"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00898] In the recursive method java.lang.String.split@POLYN888693 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00583"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#583"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00583] In the recursive method java.lang.String.startsWith@POLYN852713 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -296,13 +296,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#121"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method handleTokenCallback list of called methods Object monObjet|java.lang.String accessTokenRetriever_retrieveN198848"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#121"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00121] The argument callback is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -326,6 +319,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#134"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00134] For method handleExtensionsCallback arguments SaslExtensionsCallback  callback"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerLoginCallbackHandler.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00134] For method handleExtensionsCallback list of called methods Object monObjet|java.lang.String String_valueOfN200183"
 }} 
 ,
 { "ligne" : {"" : ""

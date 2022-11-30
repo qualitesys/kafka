@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java 71 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java 74 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.xml" 
  , "fic3"  : "" 
 }
@@ -237,7 +237,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -439,6 +439,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#149"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00149] For method processExtensions list of called methods Object monObjet|java.lang.String String_formatN187680"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#153"
  , "c2" : "MAJOR"
@@ -488,6 +495,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#169"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00169] For method jsonErrorResponse list of called methods Object monObjet|java.lang.String String_formatN188343|java.lang.String String_formatN188518|java.lang.String String_formatN188715|java.lang.String String_formatN188854"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#170"
  , "c2" : "MAJOR"
@@ -534,6 +548,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#180"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00180] For method handleCallbackError arguments Exception  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00180"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#180"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00180] For method handleCallbackError list of called methods Object monObjet|java.lang.String String_formatN189080"
 }} 
 ,
 { "ligne" : {"" : ""

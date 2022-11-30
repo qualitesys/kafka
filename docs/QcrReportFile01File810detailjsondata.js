@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java 52 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java 53 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -171,7 +171,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -440,6 +440,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#130"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00130] For method validateString arguments String  name|boolean  isRequired"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ConfigurationUtils.java.html#130"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00130] For method validateString list of called methods Object monObjet|java.lang.String value_trimN180165"
 }} 
 ,
 { "ligne" : {"" : ""

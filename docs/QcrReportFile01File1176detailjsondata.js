@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java 43 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java 38 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -202,46 +202,22 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.this" }
+{ "ligne" :  "R0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status" }
+{ "ligne" :  "R1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status" }
+{ "ligne" :  "R2:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status" }
-,
-{ "ligne" :  "R4:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status" }
+{ "ligne" :  "R3:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status" }
 ]
 ,
 "data12b" : [
-{ "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012 (R0 in line [00056],R1 in line [00056])" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633 (R0 in line [00048],R2 in line [00048])" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160840" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700 (R0 in line [00069],R3 in line [00069])" }
-,
-{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157 (R0 in line [00061],R4 in line [00061])" }
- ]
- } }
 ]
 ,
 "data12c" : [
 ]
 , 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE833"
- , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "5"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
@@ -557,41 +533,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#122"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00122] Void method flush is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.this"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.ServerSocket.java.html" 
- , "texte" : "File secujava/java.net.ServerSocket.java 126 rule violations " 
+ , "texte" : "File secujava/java.net.ServerSocket.java 124 rule violations " 
  , "fic2"  : "./qc/secujava/java.net.ServerSocket.java.xml" 
  , "fic3"  : "" 
 }
@@ -319,11 +319,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:java.net.ServerSocket.this" }
-,
-{ "ligne" :  "R1:java.net.ServerSocket.setSoTimeout@POLYN318970.timeout" }
-,
-{ "ligne" :  "R2:java.net.ServerSocket.setReceiveBufferSize@POLYN325249.size" }
 ]
 ,
 "data12b" : [
@@ -358,14 +353,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "25"
+ , "c4" : "24"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1060,13 +1055,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.close@POLYN317199"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getSoTimeout@POLYN319522"
 }} 
 ,
@@ -1201,13 +1189,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#144"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00144] In the recursive method java.net.ServerSocket.bind@POLYN309832 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method java.net.ServerSocket.close@POLYN317199 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

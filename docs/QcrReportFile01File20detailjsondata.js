@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NetworkClient.java 305 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NetworkClient.java 303 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -561,7 +561,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -1036,13 +1036,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#456"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00456] For method poll list of called methods Object monObjet|long metadataUpdater_maybeUpdateN342888"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00472"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#472"
  , "c2" : "MAJOR"
@@ -1393,13 +1386,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00688"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#688"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00688] For method handleTimedOutConnections list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; connectionStates_nodesWithConnectionSetupTimeoutN354339"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00693"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#693"
  , "c2" : "MAJOR"
@@ -1480,7 +1466,7 @@ var maDataBlocs = {
  , "c1" : "00724"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#724"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00724] For method handleCompletedReceives list of called methods Object monObjet|java.lang.String receive_sourceN356901|org.apache.kafka.clients.NetworkClient.InFlightRequest inFlightRequests_completeNextN356976|org.apache.kafka.common.requests.AbstractResponse parseResponseN357070"
+ , "c3" : "QC-JAV000007[00724] For method handleCompletedReceives list of called methods Object monObjet|java.lang.String receive_sourceN356901|org.apache.kafka.common.requests.AbstractResponse parseResponseN357070"
 }} 
 ,
 { "ligne" : {"" : ""

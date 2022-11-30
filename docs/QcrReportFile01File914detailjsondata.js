@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java 61 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java 62 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -189,6 +189,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -225,6 +232,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#50"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00050] For method parseKafkaPrincipal arguments String  str"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00050] For method parseKafkaPrincipal list of called methods Object monObjet|java.lang.String[] str_splitN169206"
 }} 
 ,
 { "ligne" : {"" : ""

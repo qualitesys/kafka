@@ -607,11 +607,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:java.io.File.this" }
-,
-{ "ligne" :  "R1:java.io.File.writeObject@POLYN630265.s" }
-,
-{ "ligne" :  "R2:java.io.File.readObject@POLYN630646.s" }
 ]
 ,
 "data12b" : [

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java 28 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java 25 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.xml" 
  , "fic3"  : "" 
 }
@@ -147,35 +147,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -381,27 +358,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#171"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.snapshot.FileRawSnapshotWriter.create@POLYN163809 the MagicNumber/String  'Error creating snapshot writer. path = %s, snapshotId %s.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN162710"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN162710 the MagicNumber/String 'Error closing snapshot writer, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.snapshot.FileRawSnapshotWriter.close@POLYN162710 the MagicNumber/String 'temp path = %s, snapshotId %s.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

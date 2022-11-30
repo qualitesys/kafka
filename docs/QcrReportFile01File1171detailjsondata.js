@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 328 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 324 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -427,7 +427,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.storage.KafkaConfigBackingStore.lock" }
 ]
 ,
 "data12b" : [
@@ -497,7 +496,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -860,13 +859,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00341"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#341"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00341] For method putConnectorConfig list of called methods Object monObjet|byte[] converter_fromConnectDataN368316"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#342"
  , "c2" : "MAJOR"
@@ -955,13 +947,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#376"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00376] For method putTaskConfigs arguments String  connector|List&lt;Map&lt;String ,String &gt; &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00376"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#376"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00376] For method putTaskConfigs list of called methods Object monObjet|byte[] converter_fromConnectDataN371814"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1079,13 +1064,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00433"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#433"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00433] For method putTargetState list of called methods Object monObjet|byte[] converter_fromConnectDataN374411"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00433"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#433"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00433] The argument state is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1109,13 +1087,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#443"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00443] For method putTaskCountRecord arguments String  connector|int  taskCount"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00443"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#443"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00443] For method putTaskCountRecord list of called methods Object monObjet|byte[] converter_fromConnectDataN375532"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1151,13 +1122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#459"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00459] For method putSessionKey arguments SessionKey  sessionKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00459"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#459"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00459] For method putSessionKey list of called methods Object monObjet|byte[] converter_fromConnectDataN377444"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1220,7 +1184,7 @@ var maDataBlocs = {
  , "c1" : "00477"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#477"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00477] For method putRestartRequest list of called methods Object monObjet|java.lang.String RESTART_KEYN378496|byte[] converter_fromConnectDataN378927"
+ , "c3" : "QC-JAV000007[00477] For method putRestartRequest list of called methods Object monObjet|java.lang.String RESTART_KEYN378496"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2033,6 +1997,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#897"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00897] For method parseTaskId arguments String  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00897"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#897"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00897] For method parseTaskId list of called methods Object monObjet|java.lang.String[] key_splitN402173"
 }} 
 ,
 { "ligne" : {"" : ""

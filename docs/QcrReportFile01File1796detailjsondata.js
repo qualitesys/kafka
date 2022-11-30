@@ -177,7 +177,7 @@ var maDataBlocs = {
  , "c1" : "00020"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphGraceSearchUtil.java.html#20"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00020] For method findAndVerifyWindowGrace list of called methods Object monObjet|java.lang.Long extractGracePeriodN152698|long findAndVerifyWindowGraceN153506"
+ , "c3" : "QC-JAV000007[00020] For method findAndVerifyWindowGrace list of called methods Object monObjet|java.lang.Long extractGracePeriodN152698|boolean chain_equalsN152901|long findAndVerifyWindowGraceN153506"
 }} 
 ,
 { "ligne" : {"" : ""

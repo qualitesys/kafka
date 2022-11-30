@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 85 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 86 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -338,7 +338,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method updateFeature list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions metadataVersion_getN195971|java.util.Optional&lt;java.lang.String&gt; quorumFeatures_reasonNotSupportedN196388"
+ , "c3" : "QC-JAV000007[00127] For method updateFeature list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions metadataVersion_getN195971"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -482,6 +482,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#189"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00189] For method invalidUpdateVersion list of called methods Object monObjet|java.lang.String String_formatN198738"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#190"
  , "c2" : "MAJOR"
@@ -566,6 +573,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#232"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00232] For method invalidMetadataVersion list of called methods Object monObjet|java.lang.String String_formatN200857"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#233"
  , "c2" : "MAJOR"
@@ -584,13 +598,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#252"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00252] For method replay arguments FeatureLevelRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#252"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.VersionRange quorumFeatures_localSupportedFeatureN202135"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -341,7 +341,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method toBytes list of called methods Object monObjet|java.lang.String extensionsMessageN175040"
+ , "c3" : "QC-JAV000007[00080] For method toBytes list of called methods Object monObjet|boolean authorizationId_isEmptyN174817|java.lang.String extensionsMessageN175040|java.lang.String String_formatN175261"
 }} 
 ,
 { "ligne" : {"" : ""

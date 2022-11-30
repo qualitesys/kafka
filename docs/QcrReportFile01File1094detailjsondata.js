@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java 256 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java 251 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.xml" 
  , "fic3"  : "" 
 }
@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "16"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : { "" : ""
@@ -451,7 +451,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -604,13 +604,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#193"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00193] For method iteration list of called methods Object monObjet|java.lang.Long workerConfig_getLongN288431"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#201"
  , "c2" : "MAJOR"
@@ -719,7 +712,7 @@ var maDataBlocs = {
  , "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#270"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00270] For method initializeAndStart list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; SinkConnectorConfig_parseTopicsListN292573"
+ , "c3" : "QC-JAV000007[00270] For method initializeAndStart list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; SinkConnectorConfig_parseTopicsListN292573|org.apache.kafka.common.config.ConfigData taskConfig_getN292976"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1188,7 +1181,7 @@ var maDataBlocs = {
  , "c1" : "00516"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#516"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00516] For method convertHeadersFor list of called methods Object monObjet|org.apache.kafka.connect.header.Headers record_topicN307551|org.apache.kafka.connect.data.SchemaAndValue headerConverter_toConnectHeaderN307740"
+ , "c3" : "QC-JAV000007[00516] For method convertHeadersFor list of called methods Object monObjet|org.apache.kafka.connect.header.Headers record_topicN307551"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1266,13 +1259,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#579"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.connect.runtime.WorkerSinkTask.deliverMessages@POLYN308582 the MagicNumber/String  'Exiting WorkerSinkTask due to unrecoverable exception.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00583"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#583"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00583] For method rewind list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; context_offsetsN310487"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1727,20 +1713,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.recordCommitFailure@POLYN313461"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.recordCommitSuccess@POLYN313654"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.stop@POLYN286734"
 }} 
 ,
@@ -1784,13 +1756,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.poll@POLYN293681"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.recordBatch@POLYN313244"
 }} 
 ,
 { "ligne" : {"" : ""

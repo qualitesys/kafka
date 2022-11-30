@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 305 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 302 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.xml" 
  , "fic3"  : "" 
 }
@@ -713,7 +713,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "10"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -734,7 +734,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -769,7 +769,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -1757,6 +1757,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00440"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#440"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00440] For method parseMap list of called methods Object monObjet|java.lang.String[] mapStr_splitN432399|java.lang.String[] attrval_splitN432573"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00440"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#440"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00440] The argument mapStr is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2658,6 +2665,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00964"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#964"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00964] For method getDateTime list of called methods Object monObjet|java.lang.String[] timestamp_splitN467056"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00965"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#965"
  , "c2" : "MAJOR"
@@ -2822,13 +2836,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Utils.formatBytes@POLYN428310"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Utils.min@POLYN411436"
 }} 
 ,
@@ -2872,34 +2879,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#704"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00704] In the recursive method org.apache.kafka.common.utils.Utils.closeQuietly@POLYN447394 the MagicNumber/String 'Failed to close {} with type {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#390"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00390] In the recursive method org.apache.kafka.common.utils.Utils.formatBytes@POLYN428310 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00394"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#394"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.common.utils.Utils.formatBytes@POLYN428310 the MagicNumber/String 1024.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.common.utils.Utils.formatBytes@POLYN428310 the MagicNumber/String 1024.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00399"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#399"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.common.utils.Utils.formatBytes@POLYN428310 the MagicNumber/String ' ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

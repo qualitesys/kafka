@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java 50 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java 46 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.xml" 
  , "fic3"  : "" 
 }
@@ -427,7 +427,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -456,13 +456,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "19"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
 }}
  ] 
 ,
@@ -507,13 +500,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method createTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method createTasks list of called methods Object monObjet|double taskToBeCreated_getKeyN195489"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -575,13 +561,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method convertActiveToStandby list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.StandbyTask standbyTaskCreator_createStandbyTaskFromActiveN197841"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#128"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00128] The argument activeTask is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -605,13 +584,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#147"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00147] For method convertStandbyToActive arguments StandbyTask  standbyTask|Set&lt;TopicPartition &gt;  partitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method convertStandbyToActive list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.StreamTask activeTaskCreator_createActiveTaskFromStandbyN198548"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -780,13 +752,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#334"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00334] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.Tasks.clear@POLYN201847"
 }} 
 ,
 { "ligne" : {"" : ""

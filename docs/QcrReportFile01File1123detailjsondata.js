@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java 57 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java 55 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.xml" 
  , "fic3"  : "" 
 }
@@ -202,13 +202,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.reporters@POLYN200911.reporters" }
-,
-{ "ligne" :  "R2:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.sourceRecord@POLYN201164.preTransformRecord" }
-,
-{ "ligne" :  "R3:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.consumerRecord@POLYN201393.consumedMessage" }
 ]
 ,
 "data12b" : [
@@ -268,13 +261,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -305,13 +291,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; context_reportN193086"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#72"
  , "c2" : "MAJOR"
@@ -330,13 +309,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#77"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00077] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|SourceRecord  sourceRecord|Throwable  error"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; context_reportN193957"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java 43 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java 40 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.xml" 
  , "fic3"  : "" 
 }
@@ -279,13 +279,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "13"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -315,13 +308,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#113"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00113] For method connectorConfig arguments String  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#113"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method connectorConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configTransformer_transformN198396"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -355,13 +341,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00131] For method taskConfig list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configTransformer_transformN199537"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#131"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00131] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -385,13 +364,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#144"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00144] For method allTaskConfigs arguments String  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00144] For method allTaskConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configTransformer_transformN200939"
 }} 
 ,
 { "ligne" : {"" : ""

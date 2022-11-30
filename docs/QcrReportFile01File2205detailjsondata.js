@@ -247,7 +247,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/ProcessStopFaultWorker.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00049] For method sendSignals list of called methods Object monObjet|java.lang.String platform_runCommandN154365"
+ , "c3" : "QC-JAV000007[00049] For method sendSignals list of called methods Object monObjet|java.lang.String platform_runCommandN154365|java.lang.String[] jcmdOutput_splitN154515|java.lang.String[] line_splitN154884"
 }} 
 ,
 { "ligne" : {"" : ""

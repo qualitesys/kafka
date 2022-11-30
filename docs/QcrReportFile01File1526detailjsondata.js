@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java 34 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java 35 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -150,6 +150,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -306,6 +313,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#80"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00080] For method find arguments PrintWriter  writer|String  path|MetadataNode  node"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00080] For method find list of called methods Object monObjet|boolean path_equalsN156698"
 }} 
 ,
 { "ligne" : {"" : ""

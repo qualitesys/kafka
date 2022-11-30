@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java 124 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java 122 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -680,7 +680,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -900,20 +900,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#319"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.record.MemoryRecordsBuilder.validateProducerState@POLYN291077 the MagicNumber/String  'Idempotent messages are not supported for magic ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#324"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00324] For method writeDefaultBatchHeader list of called methods Object monObjet|java.nio.ByteBuffer bufferStream_bufferN292015"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#348"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00348] For method writeLegacyCompressedWrapperHeader list of called methods Object monObjet|java.nio.ByteBuffer bufferStream_bufferN293440"
 }} 
 ,
 { "ligne" : {"" : ""

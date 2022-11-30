@@ -335,7 +335,7 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00180] For method parseVoterConnections list of called methods Object monObjet|java.lang.Integer parseVoterIdN183659|java.lang.String Utils_getHostN183776|java.lang.Integer Utils_getPortN184142"
+ , "c3" : "QC-JAV000007[00180] For method parseVoterConnections list of called methods Object monObjet|java.lang.String[] voterMapEntry_splitN183360|java.lang.Integer parseVoterIdN183659|java.lang.String Utils_getHostN183776|java.lang.Integer Utils_getPortN184142"
 }} 
 ,
 { "ligne" : {"" : ""

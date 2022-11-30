@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java 43 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java 42 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -106,7 +106,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -116,13 +116,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#25"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00025] The class FileLogInputStream contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method nextBatch list of called methods Object monObjet|java.nio.channels.FileChannel fileRecords_channelN174630"
 }} 
 ,
 { "ligne" : {"" : ""

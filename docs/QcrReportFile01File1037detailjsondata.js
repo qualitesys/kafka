@@ -391,7 +391,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method decodeTopicPartition list of called methods Object monObjet|int Integer_parseIntN159803"
+ , "c3" : "QC-JAV000007[00062] For method decodeTopicPartition list of called methods Object monObjet|java.lang.String topicPartitionString_substringN159567|java.lang.String topicPartitionString_substringN159685|int Integer_parseIntN159803"
 }} 
 ,
 { "ligne" : {"" : ""

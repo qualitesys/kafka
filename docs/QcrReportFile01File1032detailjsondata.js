@@ -580,7 +580,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method transform list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; configProvidersN203346|org.apache.kafka.common.config.provider.ConfigProvider plugins_newConfigProviderN203608"
+ , "c3" : "QC-JAV000007[00212] For method transform list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; configProvidersN203346"
 }} 
 ,
 { "ligne" : {"" : ""

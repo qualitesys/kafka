@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00034] For method readTaskIdFrom list of called methods Object monObjet|String namedTopologyBuilder_toStringN159029"
+ , "c3" : "QC-JAV000007[00034] For method readTaskIdFrom list of called methods Object monObjet|java.lang.String namedTopologyBuilder_toStringN159029"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method readTaskIdFrom list of called methods Object monObjet|String namedTopologyBuilder_toStringN161182"
+ , "c3" : "QC-JAV000007[00068] For method readTaskIdFrom list of called methods Object monObjet|java.lang.String namedTopologyBuilder_toStringN161182"
 }} 
 ,
 { "ligne" : {"" : ""

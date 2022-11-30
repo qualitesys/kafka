@@ -230,13 +230,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00029"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00029] For method generateAndWrite list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.message.StructRegistry.StructInfo&gt; structRegistry_structsN229109"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#29"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00029] The argument message is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -308,7 +301,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method generateRead list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN231632|org.apache.kafka.message.Versions field_versionsN232262"
+ , "c3" : "QC-JAV000007[00066] For method generateRead list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN231632|java.lang.String String_formatN231840|org.apache.kafka.message.Versions field_versionsN232262"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1212,6 +1205,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#369"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00369] For method generateVariableLengthTargetToJson arguments Target  target|Versions  versions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00369"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#369"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00369] For method generateVariableLengthTargetToJson list of called methods Object monObjet|java.lang.String String_formatN255065"
 }} 
 ,
 { "ligne" : {"" : ""

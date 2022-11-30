@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState header_getShortN196072|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V1_readN196229|java.lang.Long configState_getLongN196323|java.lang.String configState_getStringN196417|org.apache.kafka.common.protocol.types.Struct ALLOCATION_V1_readN196511|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment deserializeAssignmentN196605"
+ , "c3" : "QC-JAV000007[00001] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState header_getShortN196072|java.lang.Long configState_getLongN196323|java.lang.String configState_getStringN196417|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment deserializeAssignmentN196605"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -235,7 +235,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment header_getShortN198455|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V1_readN198612"
+ , "c3" : "QC-JAV000007[00001] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment header_getShortN198455"
 }} 
 ,
 { "ligne" : {"" : ""

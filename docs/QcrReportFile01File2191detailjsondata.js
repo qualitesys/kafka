@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00084] For method tasks list of called methods Object monObjet|org.apache.kafka.trogdor.rest.TaskState coordinatorN169396"
+ , "c3" : "QC-JAV000007[00084] For method tasks list of called methods Object monObjet|boolean state_equalsN168719|org.apache.kafka.trogdor.rest.TaskState coordinatorN169396"
 }} 
 ,
 { "ligne" : {"" : ""

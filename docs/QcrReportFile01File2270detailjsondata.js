@@ -85,7 +85,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.trogdor.workload.RandomComponentPayloadGenerator.random" }
 ]
 ,
 "data12b" : [

@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00012"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#12"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00012] For method parse list of called methods Object monObjet|short Short_parseShortN167367"
+ , "c3" : "QC-JAV000007[00012] For method parse list of called methods Object monObjet|java.lang.String input_trimN166514|int trimmedInput_indexOfN167198|short Short_parseShortN167367"
 }} 
 ,
 { "ligne" : {"" : ""

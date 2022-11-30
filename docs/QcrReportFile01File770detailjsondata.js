@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java 171 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java 170 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.xml" 
  , "fic3"  : "" 
 }
@@ -370,7 +370,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -590,13 +590,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#263"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN264786 the MagicNumber/String  'Failed during {}: {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00269"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#269"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00269] For method principal list of called methods Object monObjet|org.apache.kafka.common.security.auth.KafkaPrincipal principalBuilder_buildN267712"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -946,7 +939,7 @@ var maDataBlocs = {
  , "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#515"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00515] For method handleHandshakeRequest list of called methods Object monObjet|SaslHandshakeRequestData handshakeRequest_dataN280110|short context_header_apiVersionN280205"
+ , "c3" : "QC-JAV000007[00515] For method handleHandshakeRequest list of called methods Object monObjet|SaslHandshakeRequestData handshakeRequest_dataN280110"
 }} 
 ,
 { "ligne" : {"" : ""

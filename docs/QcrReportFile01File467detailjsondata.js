@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java 85 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java 84 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.xml" 
  , "fic3"  : "" 
 }
@@ -229,7 +229,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.common.metrics.Sensor.this" }
 ]
 ,
 "data12b" : [
@@ -306,7 +305,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -553,7 +552,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method add list of called methods Object monObjet|java.lang.Object metricLockN215416|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN215920"
+ , "c3" : "QC-JAV000007[00233] For method add list of called methods Object monObjet|java.lang.Object metricLockN215416"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -645,13 +644,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#259"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00259] For method add arguments MetricName  metricName|MeasurableStat  stat|MetricConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#259"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method add list of called methods Object monObjet|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN217742"
 }} 
 ,
 { "ligne" : {"" : ""

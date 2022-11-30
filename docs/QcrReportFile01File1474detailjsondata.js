@@ -345,7 +345,7 @@ var maDataBlocs = {
  , "c1" : "00273"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00273] For method toHexString list of called methods Object monObjet|String Long_toHexStringN378471"
+ , "c3" : "QC-JAV000007[00273] For method toHexString list of called methods Object monObjet|java.lang.String Long_toHexStringN378471"
 }} 
 ,
 { "ligne" : {"" : ""

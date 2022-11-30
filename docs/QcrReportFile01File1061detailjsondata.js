@@ -647,7 +647,7 @@ var maDataBlocs = {
  , "c1" : "00303"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#303"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00303] For method sendRecords list of called methods Object monObjet|ProducerRecord&lt;byte[],byte[]&gt; convertTransformedRecordN265393"
+ , "c3" : "QC-JAV000007[00303] For method sendRecords list of called methods Object monObjet|int toSend_sizeN264867|ProducerRecord&lt;byte[],byte[]&gt; convertTransformedRecordN265393"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -885,7 +885,7 @@ var maDataBlocs = {
  , "c1" : "00404"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#404"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00404] For method maybeCreateTopic list of called methods Object monObjet|org.apache.kafka.connect.util.TopicCreationGroup topicCreation_findFirstGroupN272217|org.apache.kafka.clients.admin.NewTopic topicGroup_newTopicN272428"
+ , "c3" : "QC-JAV000007[00404] For method maybeCreateTopic list of called methods Object monObjet|org.apache.kafka.clients.admin.NewTopic topicGroup_newTopicN272428"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1004,7 +1004,7 @@ var maDataBlocs = {
  , "c1" : "00441"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#441"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00441] For method convertHeaderFor list of called methods Object monObjet|org.apache.kafka.common.header.internals.RecordHeaders record_topicN273775|org.apache.kafka.common.header.internals.RecordHeaders header_keyN273924|byte[] headerConverter_fromConnectHeaderN274005"
+ , "c3" : "QC-JAV000007[00441] For method convertHeaderFor list of called methods Object monObjet|org.apache.kafka.common.header.internals.RecordHeaders record_topicN273775|org.apache.kafka.common.header.internals.RecordHeaders header_keyN273924"
 }} 
 ,
 { "ligne" : {"" : ""

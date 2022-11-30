@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java 98 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java 94 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.xml" 
  , "fic3"  : "" 
 }
@@ -408,7 +408,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -752,13 +752,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#239"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00239] For method resetReconnectBackoff list of called methods Object monObjet|long reconnectBackoff_backoffN237657"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#239"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00239] The argument nodeState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -782,13 +775,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#245"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00245] For method resetConnectionSetupTimeout arguments NodeConnectionState  nodeState"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#245"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00245] For method resetConnectionSetupTimeout list of called methods Object monObjet|long connectionSetupTimeout_backoffN238036"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -822,13 +808,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00251"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#251"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00251] For method updateReconnectBackoff list of called methods Object monObjet|long reconnectBackoff_backoffN238465"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#251"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00251] The argument nodeState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -838,13 +817,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#257"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00257] For method updateConnectionSetupTimeout arguments NodeConnectionState  nodeState"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#257"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00257] For method updateConnectionSetupTimeout list of called methods Object monObjet|long connectionSetupTimeout_backoffN238975"
 }} 
 ,
 { "ligne" : {"" : ""

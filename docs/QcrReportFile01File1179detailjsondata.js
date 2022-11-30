@@ -121,7 +121,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.storage.OffsetStorageWriter.this" }
 ]
 ,
 "data12b" : [

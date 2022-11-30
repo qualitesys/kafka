@@ -67,7 +67,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.storage.OffsetStorageReaderImpl.offsetReadFutures" }
 ]
 ,
 "data12b" : [

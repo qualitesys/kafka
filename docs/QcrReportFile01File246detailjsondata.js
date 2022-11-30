@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 299 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 298 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.xml" 
  , "fic3"  : "" 
 }
@@ -390,7 +390,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -834,13 +834,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#389"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308165 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#396"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00396] For method maybeSendAndPollTransactionalRequest list of called methods Object monObjet|RuntimeException transactionManager_lastErrorN313100|org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler transactionManager_nextRequestN313409"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1442,7 +1435,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00745] For method sendProduceRequest list of called methods Object monObjet|byte apiVersions_maxUsableProduceMagicN331361|byte batch_magicN331585|org.apache.kafka.common.record.MemoryRecords batch_recordsN331890|org.apache.kafka.common.record.MemoryRecords batch_recordsN332046|java.lang.String transactionManager_transactionalIdN333118|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333204|String Integer_toStringN333671|org.apache.kafka.clients.ClientRequest client_newClientRequestN333765"
+ , "c3" : "QC-JAV000007[00745] For method sendProduceRequest list of called methods Object monObjet|byte batch_magicN331585|org.apache.kafka.common.record.MemoryRecords batch_recordsN331890|org.apache.kafka.common.record.MemoryRecords batch_recordsN332046|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333204|java.lang.String Integer_toStringN333671"
 }} 
 ,
 { "ligne" : {"" : ""

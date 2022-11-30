@@ -184,7 +184,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin.mandatoryClassToSynchronizeOnPriorToRefresh" }
 ]
 ,
 "data12b" : [
@@ -543,7 +542,7 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00225] For method refreshMs list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN213695|double expiringCredentialRefreshConfig_loginRefreshWindowFactorN215764|short expiringCredentialRefreshConfig_loginRefreshMinPeriodSecondsN216019|short expiringCredentialRefreshConfig_loginRefreshBufferSecondsN216094"
+ , "c3" : "QC-JAV000007[00225] For method refreshMs list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN213695"
 }} 
 ,
 { "ligne" : {"" : ""

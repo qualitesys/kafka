@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00134] For method apply list of called methods Object monObjet|java.lang.String replaceParametersN176954|java.lang.String replaceSubstitutionN177361"
+ , "c3" : "QC-JAV000007[00134] For method apply list of called methods Object monObjet|java.lang.String replaceParametersN176954|java.lang.String replaceSubstitutionN177361|java.lang.String result_toLowerCaseN177912|java.lang.String result_toUpperCaseN178108"
 }} 
 ,
 { "ligne" : {"" : ""

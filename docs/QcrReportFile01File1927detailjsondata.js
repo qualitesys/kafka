@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 293 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 298 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.xml" 
  , "fic3"  : "" 
 }
@@ -490,7 +490,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.processor.internals.StreamThread.stateLock" }
 ]
 ,
 "data12b" : [
@@ -505,6 +504,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE572"
  , "c3" : "Call to Thread run() instead of start()"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -553,7 +559,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -688,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00225] For method create list of called methods Object monObjet|org.slf4j.Logger logContext_loggerN338337|org.slf4j.Logger config_getClientTagsN338713|org.slf4j.Logger config_getRestoreConsumerConfigsN338903|org.slf4j.Logger config_getStringN340510|org.slf4j.Logger config_getMainConsumerConfigsN340654"
+ , "c3" : "QC-JAV000007[00225] For method create list of called methods Object monObjet|java.lang.String String_formatN338116|org.slf4j.Logger logContext_loggerN338337|org.slf4j.Logger config_getClientTagsN338713|org.slf4j.Logger config_getRestoreConsumerConfigsN338903|org.slf4j.Logger config_getStringN340510|org.slf4j.Logger config_getMainConsumerConfigsN340654"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1483,13 +1489,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00834"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#834"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00834] For method resetOffsets list of called methods Object monObjet|OffsetResetStrategy topologyMetadata_offsetResetStrategyN366955"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00841"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#841"
  , "c2" : "MAJOR"
@@ -1668,7 +1667,7 @@ var maDataBlocs = {
  , "c1" : "00908"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#908"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00908] For method maybeCommit list of called methods Object monObjet|int time_millisecondsN371611|int taskManager_maybeCommitActiveTasksPerUserRequestedN371761"
+ , "c3" : "QC-JAV000007[00908] For method maybeCommit list of called methods Object monObjet|int taskManager_maybeCommitActiveTasksPerUserRequestedN371761"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1940,15 +1939,43 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.isRunning@POLYN334348"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.StreamThread.completeShutdown@POLYN372778 ending with method org.apache.kafka.streams.processor.internals.StreamThread.shutdown@POLYN372418"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.waitOnThreadState@POLYN352368"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.StreamThread.completeShutdown@POLYN372778"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.StreamThread.shutdown@POLYN372418"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.processor.internals.StreamThread.shutdown@POLYN372418 ending with method org.apache.kafka.streams.processor.internals.StreamThread.completeShutdown@POLYN372778"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.processor.internals.StreamThread.shutdown@POLYN372418"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.processor.internals.StreamThread.completeShutdown@POLYN372778"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1962,7 +1989,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.isRunning@POLYN334348"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.producerMetrics@POLYN378566"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.waitOnThreadState@POLYN352368"
 }} 
 ,
 { "ligne" : {"" : ""

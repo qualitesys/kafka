@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageGenerator.java 102 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageGenerator.java 103 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -524,6 +524,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#277"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00277] For method toSnakeCase arguments String  string"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#277"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00277] For method toSnakeCase list of called methods Object monObjet|char string_charAtN199357"
 }} 
 ,
 { "ligne" : {"" : ""

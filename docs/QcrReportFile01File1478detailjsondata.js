@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Integer.java.html" 
- , "texte" : "File secujava/java.lang.Integer.java 214 rule violations " 
+ , "texte" : "File secujava/java.lang.Integer.java 215 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Integer.java.xml" 
  , "fic3"  : "" 
 }
@@ -471,7 +471,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -802,7 +802,7 @@ var maDataBlocs = {
  , "c1" : "00444"
  , "c1link" : "./qc/secujava/java.lang.Integer.java.html#444"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00444] For method parseInt list of called methods Object monObjet|int Character_digitN425532"
+ , "c3" : "QC-JAV000007[00444] For method parseInt list of called methods Object monObjet|int s_lengthN424448|char s_charAtN424726|int Character_digitN425532"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1090,6 +1090,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Integer.java.html#942"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00942] For method decode arguments String  nm"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00942"
+ , "c1link" : "./qc/secujava/java.lang.Integer.java.html#942"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00942] For method decode list of called methods Object monObjet|char nm_charAtN441866"
 }} 
 ,
 { "ligne" : {"" : ""

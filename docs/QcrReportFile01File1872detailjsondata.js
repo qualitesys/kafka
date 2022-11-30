@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 70 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 71 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -559,6 +559,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#147"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00147] For method extractThreadId arguments String  fullThreadName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#147"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00147] For method extractThreadId list of called methods Object monObjet|int fullThreadName_indexOfN182120"
 }} 
 ,
 { "ligne" : {"" : ""

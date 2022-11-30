@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 571 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 566 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -559,7 +559,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "20"
+ , "c4" : "15"
 }}
  ] 
 ,
@@ -1149,7 +1149,7 @@ var maDataBlocs = {
  , "c1" : "00493"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#493"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00493] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,java.util.Map&lt;java.lang.String,java.util.Map.Entry&lt;OpType,java.lang.String&gt;&gt;&gt; computeConfigChangesN515623|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN515809"
+ , "c3" : "QC-JAV000007[00493] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,java.util.Map&lt;java.lang.String,java.util.Map.Entry&lt;OpType,java.lang.String&gt;&gt;&gt; computeConfigChangesN515623"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1303,7 +1303,7 @@ var maDataBlocs = {
  , "c1" : "00565"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#565"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00565] For method createTopic list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; translateCreationConfigsN519774|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN525555|org.apache.kafka.common.Uuid Uuid_randomUuidN525916|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.ConfigEntry&gt; configurationControl_computeEffectiveTopicConfigsN526349"
+ , "c3" : "QC-JAV000007[00565] For method createTopic list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; translateCreationConfigsN519774|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN525555|org.apache.kafka.common.Uuid Uuid_randomUuidN525916"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2406,13 +2406,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01060"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1060"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01060] For method ineligibleReplicasForIsr list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration clusterControl_registrationN549478"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01063"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1063"
  , "c2" : "MAJOR"
@@ -2459,13 +2452,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1076"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01076] For method handleBrokerFenced arguments int  brokerId|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1076"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01076] For method handleBrokerFenced list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN550522"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2794,7 +2780,7 @@ var maDataBlocs = {
  , "c1" : "01233"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01233] For method processBrokerHeartbeat list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager clusterControl_heartbeatManagerN560802|org.apache.kafka.controller.BrokerControlStates heartbeatManager_calculateNextBrokerStateN560877"
+ , "c3" : "QC-JAV000007[01233] For method processBrokerHeartbeat list of called methods Object monObjet|org.apache.kafka.controller.BrokerControlStates heartbeatManager_calculateNextBrokerStateN560877"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2809,13 +2795,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1269"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01269] For method unregisterBroker arguments int  brokerId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01269"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1269"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01269] For method unregisterBroker list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN562711"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2844,13 +2823,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1277"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01277] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN562614 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01280"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1280"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01280] For method maybeFenceOneStaleBroker list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager clusterControl_heartbeatManagerN563522"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2970,13 +2942,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1358"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01358] For method createPartitions arguments CreatePartitionsTopic  topic|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01358"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1358"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01358] For method createPartitions list of called methods Object monObjet|org.apache.kafka.metadata.placement.ReplicaPlacer clusterControl_replicaPlacerN571620"
 }} 
 ,
 { "ligne" : {"" : ""

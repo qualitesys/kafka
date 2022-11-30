@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java 347 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java 348 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -1043,7 +1043,7 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#351"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00351] For method makeReady list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; validateTopicsN286763|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN288166|java.util.Set&lt;java.lang.String&gt; time_millisecondsN290489"
+ , "c3" : "QC-JAV000007[00351] For method makeReady list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; validateTopicsN286763|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN288166|java.util.Set&lt;java.lang.String&gt; time_millisecondsN290489|java.lang.String String_formatN290640"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2171,6 +2171,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#727"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00727] For method maybeThrowTimeoutExceptionDuringSetup arguments Set&lt;String &gt;  topicStillToProcess|Set&lt;String &gt;  createdTopics|Map&lt;String ,Throwable &gt;  lastErrorsSeenForTopic|long  deadline"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00727"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#727"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00727] For method maybeThrowTimeoutExceptionDuringSetup list of called methods Object monObjet|java.lang.String String_formatN306230"
 }} 
 ,
 { "ligne" : {"" : ""

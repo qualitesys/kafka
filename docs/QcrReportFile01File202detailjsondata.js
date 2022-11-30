@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 465 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 461 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.xml" 
  , "fic3"  : "" 
 }
@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "18"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -587,7 +587,7 @@ var maDataBlocs = {
  , "c1" : "00214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#214"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00214] For method metadata list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; subscriptions_subscriptionN382378|java.nio.ByteBuffer ConsumerProtocol_serializeSubscriptionN382937"
+ , "c3" : "QC-JAV000007[00214] For method metadata list of called methods Object monObjet|java.nio.ByteBuffer ConsumerProtocol_serializeSubscriptionN382937"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -689,13 +689,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#287"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00287] For method invokePartitionsAssigned list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRebalanceListener subscriptions_rebalanceListenerN385952"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#288"
  , "c2" : "MAJOR"
@@ -728,13 +721,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#306"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00306] For method invokePartitionsRevoked arguments SortedSet&lt;TopicPartition &gt;  revokedPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00306"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#306"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00306] For method invokePartitionsRevoked list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscriptions_pausedPartitionsN386980|org.apache.kafka.clients.consumer.ConsumerRebalanceListener subscriptions_rebalanceListenerN387347"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -784,13 +770,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#329"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00329] For method invokePartitionsLost arguments SortedSet&lt;TopicPartition &gt;  lostPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00329"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#329"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00329] For method invokePartitionsLost list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscriptions_pausedPartitionsN388375|org.apache.kafka.clients.consumer.ConsumerRebalanceListener subscriptions_rebalanceListenerN388742"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -846,7 +825,7 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00353] For method onJoinComplete list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN389860|Assignment ConsumerProtocol_deserializeAssignmentN390777"
+ , "c3" : "QC-JAV000007[00353] For method onJoinComplete list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN389860|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Assignment ConsumerProtocol_deserializeAssignmentN390777|java.lang.String String_formatN391188|java.lang.String String_formatN392704"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1210,7 +1189,7 @@ var maDataBlocs = {
  , "c1" : "00596"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#596"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00596] For method onLeaderElected list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN400240|java.lang.String assignor_nameN400479|Subscription ConsumerProtocol_deserializeSubscriptionN401004|GroupAssignment assignor_assignN402202|java.nio.ByteBuffer ConsumerProtocol_serializeAssignmentN403195"
+ , "c3" : "QC-JAV000007[00596] For method onLeaderElected list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN400240|java.lang.String assignor_nameN400479|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription ConsumerProtocol_deserializeSubscriptionN401004|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment assignor_assignN402202|java.nio.ByteBuffer ConsumerProtocol_serializeAssignmentN403195"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1487,6 +1466,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00795"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#795"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00795] For method rejoinNeededOrPending list of called methods Object monObjet|java.lang.String String_formatN410309|java.lang.String String_formatN410742"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00797"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#797"
  , "c2" : "MAJOR"
@@ -1560,7 +1546,7 @@ var maDataBlocs = {
  , "c1" : "00820"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#820"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00820] For method refreshCommittedOffsetsIfNeeded list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscriptions_initializingPartitionsN411304|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt; fetchCommittedOffsetsN411421|boolean metadata_currentLeaderN412336"
+ , "c3" : "QC-JAV000007[00820] For method refreshCommittedOffsetsIfNeeded list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt; fetchCommittedOffsetsN411421|boolean metadata_currentLeaderN412336"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1928,13 +1914,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1045"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01045] For method maybeAutoCommitOffsetsSync list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt; subscriptions_allConsumedN421290"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1049"
  , "c2" : "MAJOR"
@@ -1967,13 +1946,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1063"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01063] For method maybeAutoCommitOffsetsAsync arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1073"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01073] For method autoCommitOffsetsAsync list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt; subscriptions_allConsumedN422526"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3002,28 +2974,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll@POLYN444793"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.refreshCommittedOffsetsIfNeeded@POLYN411181"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3044,6 +2995,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeOnAssignment@POLYN385243"
 }} 
 ,
@@ -3052,6 +3017,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned@POLYN385673"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll@POLYN444793"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3342,13 +3314,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01486"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1486"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01486] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll@POLYN444793 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00824"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#824"
  , "c2" : "BLOCKER"
@@ -3388,132 +3353,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#850"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00850] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.refreshCommittedOffsetsIfNeeded@POLYN411181 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00919"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#919"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00919] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String 'Get fenced exception for group.instance.id ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00920"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#920"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00920] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String 'unset_instance_id' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00921"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#921"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00921] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String ', current member.id is ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00923"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#923"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00923] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00925"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00925] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01112] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01120"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01120] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01121"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01121] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Invalid offset: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1144"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01144] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01145"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01145] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Failing OffsetCommit request since the consumer is not part of an active group' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01150"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01150] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Offset commit cannot be completed since the ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01151"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1151"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01151] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'consumer is undergoing a rebalance for auto partition assignment. You can try completing the rebalance ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01152"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1152"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01152] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'by calling poll-- and then retry the operation.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01154"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1154"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01154] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Offset commit cannot be completed since the ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01155"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1155"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01155] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'consumer is not part of an active group for auto partition assignment; it is likely that the consumer ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01156"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1156"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01156] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'was kicked out of the group.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01168] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01172] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Sending OffsetCommit request with {} to coordinator {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3706,6 +3545,132 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00919"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#919"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00919] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String 'Get fenced exception for group.instance.id ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00920"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#920"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00920] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String 'unset_instance_id' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00921"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#921"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00921] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String ', current member.id is ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00923"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#923"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00923] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00925"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#925"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00925] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeCompletedOffsetCommitCallbacks@POLYN415845 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01112] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01120"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01120] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01121"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01121] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Invalid offset: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01144] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01145] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Failing OffsetCommit request since the consumer is not part of an active group' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01150] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Offset commit cannot be completed since the ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01151"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01151] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'consumer is undergoing a rebalance for auto partition assignment. You can try completing the rebalance ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01152"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01152] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'by calling poll-- and then retry the operation.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01154"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01154] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Offset commit cannot be completed since the ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01155] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'consumer is not part of an active group for auto partition assignment; it is likely that the consumer ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01156"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1156"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01156] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'was kicked out of the group.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01168"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01168] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01172] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266 the MagicNumber/String 'Sending OffsetCommit request with {} to coordinator {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#276"
  , "c2" : "BLOCKER"
@@ -3745,6 +3710,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#303"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned@POLYN385673 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01486"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01486] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll@POLYN444793 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -873,7 +873,7 @@ var maDataBlocs = {
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00219] For method split list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords recordsBuilder_buildN235476|Iterable&lt;org.apache.kafka.common.record.MutableRecordBatch&gt; memoryRecords_batchesN235572|org.apache.kafka.clients.producer.internals.ProducerBatch createBatchOffAccumulatorForRecordN236641|org.apache.kafka.clients.producer.internals.ProducerBatch createBatchOffAccumulatorForRecordN237136|int baseSequenceN237969"
+ , "c3" : "QC-JAV000007[00219] For method split list of called methods Object monObjet|Iterable&lt;org.apache.kafka.common.record.MutableRecordBatch&gt; memoryRecords_batchesN235572|org.apache.kafka.clients.producer.internals.ProducerBatch createBatchOffAccumulatorForRecordN236641|org.apache.kafka.clients.producer.internals.ProducerBatch createBatchOffAccumulatorForRecordN237136|int baseSequenceN237969"
 }} 
 ,
 { "ligne" : {"" : ""

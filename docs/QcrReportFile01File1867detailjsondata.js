@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java 58 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java 59 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.xml" 
  , "fic3"  : "" 
 }
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -367,7 +367,7 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00139] For method createTasks list of called methods Object monObjet|org.apache.kafka.common.utils.LogContext getLogContextN190666|org.apache.kafka.streams.processor.internals.ProcessorTopology topologyMetadata_buildSubtopologyN191070"
+ , "c3" : "QC-JAV000007[00139] For method createTasks list of called methods Object monObjet|org.apache.kafka.common.utils.LogContext getLogContextN190666"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -550,6 +550,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#315"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00315] For method getLogContext arguments TaskId  taskId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#315"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00315] For method getLogContext list of called methods Object monObjet|java.lang.String String_formatN196694"
 }} 
 ,
 { "ligne" : {"" : ""

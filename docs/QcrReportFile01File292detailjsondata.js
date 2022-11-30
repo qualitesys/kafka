@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java 148 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java 144 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -449,7 +449,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -581,13 +581,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#118"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00118] For method typeOf list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN282744"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#120"
  , "c2" : "MAJOR"
@@ -606,13 +599,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#125"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00125] For method documentationOf arguments String  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method documentationOf list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN283075"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -744,13 +730,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#191"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00191] For method valuesWithPrefixOverride list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN288982|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN289526"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#191"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00191] The argument prefix is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -843,7 +822,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method valuesWithPrefixAllOrNothing list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN290353|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN290997"
+ , "c3" : "QC-JAV000007[00211] For method valuesWithPrefixAllOrNothing list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN290353"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -893,13 +872,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#222"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.config.AbstractConfig.valuesWithPrefixAllOrNothing@POLYN290219 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method nonInternalValues list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; definition_configKeysN291919"
 }} 
 ,
 { "ligne" : {"" : ""

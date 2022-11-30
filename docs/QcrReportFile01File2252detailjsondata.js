@@ -304,7 +304,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00135] For method materializeTopics list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; expandTopicNameN190983"
+ , "c3" : "QC-JAV000007[00135] For method materializeTopics list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; expandTopicNameN190983|java.lang.String[] topicName_splitN191552"
 }} 
 ,
 { "ligne" : {"" : ""

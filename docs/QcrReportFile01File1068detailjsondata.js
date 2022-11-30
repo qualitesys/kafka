@@ -256,7 +256,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.commitableRecords" }
 ]
 ,
 "data12b" : [

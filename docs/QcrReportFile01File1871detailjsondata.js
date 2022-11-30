@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java 30 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java 29 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.xml" 
  , "fic3"  : "" 
 }
@@ -160,13 +160,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -175,13 +168,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000008[00021] The class ChangelogTopics contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogTopics.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method setup list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; internalTopicManager_makeReadyN165201"
 }} 
 ,
 { "ligne" : {"" : ""

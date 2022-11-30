@@ -238,13 +238,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method createTasks list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorTopology topologyMetadata_buildSubtopologyN167544"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#70"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00070] The argument tasksToBeCreated is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -359,6 +352,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#163"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00163] For method getLogContext arguments TaskId  taskId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#163"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00163] For method getLogContext list of called methods Object monObjet|java.lang.String String_formatN170467"
 }} 
 ,
 { "ligne" : {"" : ""

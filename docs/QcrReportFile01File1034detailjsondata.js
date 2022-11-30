@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 104 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 103 rule violations " 
  , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.xml" 
  , "fic3"  : "" 
 }
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "14"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -1074,13 +1074,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#472"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00472] For method isCycle arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#472"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00472] For method isCycle list of called methods Object monObjet|java.lang.String replicationPolicy_topicSourceN259909|java.lang.String replicationPolicy_upstreamTopicN260273"
 }} 
 ,
 { "ligne" : {"" : ""
