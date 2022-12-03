@@ -1,117 +1,189 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/queue/EventQueue.java 14 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.xml" 
+   "fic1"  : "./qc/secujava/org.springframework.http.ResponseEntity.java.html" 
+ , "texte" : "File secujava/org.springframework.http.ResponseEntity.java 45 rule violations " 
+ , "fic2"  : "./qc/secujava/org.springframework.http.ResponseEntity.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AutoCloseable"
- , "c2" : "org.apache.kafka.queue.EventQueue"
+ , "c1" : "HttpEntity<T>"
+ , "c2" : "org.springframework.http.ResponseEntity"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.queue.EventQueue" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.springframework.http.ResponseEntity" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#94"
- , "c1" : "void"
- , "c2" : "prepend(Event)"
+ , "c5" : "00087"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#87"
+ , "c1" : "ResponseEntity"
+ , "c2" : "ResponseEntity(HttpStatus)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#99"
- , "c1" : "void"
- , "c2" : "append(Event)"
+ , "c5" : "00096"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#96"
+ , "c1" : "ResponseEntity"
+ , "c2" : "ResponseEntity(T;HttpStatus)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#104"
- , "c1" : "void"
- , "c2" : "appendWithDeadline(long;Event)"
+ , "c5" : "00105"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#105"
+ , "c1" : "ResponseEntity"
+ , "c2" : "ResponseEntity(MultiValueMap<String,String>;HttpStatus)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#109"
- , "c1" : "void"
- , "c2" : "scheduleDeferred(String;Function<OptionalLong,OptionalLong>;Event)"
+ , "c5" : "00115"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#115"
+ , "c1" : "ResponseEntity"
+ , "c2" : "ResponseEntity(T;MultiValueMap<String,String>;HttpStatus)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00128"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#128"
+ , "c1" : "ResponseEntity"
+ , "c2" : "ResponseEntity(T;MultiValueMap<String,String>;Object)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00139"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#139"
+ , "c1" : "HttpStatus"
+ , "c2" : "getStatusCode()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00153"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#153"
+ , "c1" : "int"
+ , "c2" : "getStatusCodeValue()"
+ , "c3" : "3"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00164"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#164"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00176"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#176"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#116"
- , "c1" : "void"
- , "c2" : "cancelDeferred(String)"
+ , "c5" : "00181"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#181"
+ , "c1" : "String"
+ , "c2" : "toString()"
+ , "c3" : "3"
+ , "c4" : "12"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00209"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#209"
+ , "c1" : "BodyBuilder"
+ , "c2" : "status(HttpStatus)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00220"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#220"
+ , "c1" : "BodyBuilder"
+ , "c2" : "status(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#125"
- , "c1" : "void"
- , "c2" : "enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event)"
+ , "c5" : "00229"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#229"
+ , "c1" : "BodyBuilder"
+ , "c2" : "ok()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#131"
- , "c1" : "void"
- , "c2" : "beginShutdown(String)"
+ , "c5" : "00263"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#263"
+ , "c1" : "BodyBuilder"
+ , "c2" : "created(URI)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#136"
- , "c1" : "void"
- , "c2" : "beginShutdown(String;Event)"
+ , "c5" : "00272"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#272"
+ , "c1" : "BodyBuilder"
+ , "c2" : "accepted()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00141"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#141"
- , "c1" : "void"
- , "c2" : "beginShutdown(String;Event;long;TimeUnit)"
+ , "c5" : "00281"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#281"
+ , "c1" : "HeadersBuilder<?>"
+ , "c2" : "noContent()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#144"
- , "c1" : "void"
- , "c2" : "wakeup()"
+ , "c5" : "00290"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#290"
+ , "c1" : "BodyBuilder"
+ , "c2" : "badRequest()"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#147"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00299"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#299"
+ , "c1" : "HeadersBuilder<?>"
+ , "c2" : "notFound()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00309"
+ , "c5link" : "././qc/secujava/org.springframework.http.ResponseEntity.java.html#309"
+ , "c1" : "BodyBuilder"
+ , "c2" : "unprocessableEntity()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -120,9 +192,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.png" 
+   {"ligne" : "./qc/secujava/org.springframework.http.ResponseEntity.java.png" 
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/org.springframework.http.ResponseEntity.java.svg" }
 
 ] 
 , 
@@ -149,150 +221,353 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000004"
- , "c3" : "You must segregate your interface"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "2"
+ , "c4" : "24"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "17"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#22"
+ , "c1" : "00088"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00022] The class FailureLoggingEvent contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00088] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232423 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#30"
+ , "c1" : "00088"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232423 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232716 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN233046 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN233420 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN234064 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method handleException arguments Throwable  e"
+ , "c3" : "QC-JAV000006[00164] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#32"
+ , "c1" : "00166"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN178638 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.springframework.http.ResponseEntity.equals@POLYN235313 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#34"
+ , "c1" : "00169"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN178638 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.springframework.http.ResponseEntity.equals@POLYN235313 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#44"
+ , "c1" : "00177"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00044] The class NoDeadlineFunction contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00177] In method org.springframework.http.ResponseEntity.hashCode@POLYN235872 the MagicNumber/String  29 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#48"
+ , "c1" : "00182"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00182] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  '&amp;lt;' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#185"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00185] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  ' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00191] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  '&amp;gt;' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method apply arguments OptionalLong  ignored"
+ , "c3" : "QC-JAV000006[00209] For method status arguments HttpStatus  status"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#53"
+ , "c1" : "00210"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00053] The class DeadlineFunction contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00210] In method org.springframework.http.ResponseEntity.status@POLYN237382 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#61"
+ , "c1" : "00220"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method apply arguments OptionalLong  ignored"
+ , "c3" : "QC-JAV000006[00220] For method status arguments int  status"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#66"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00066] The class EarliestDeadlineFunction contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#74"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method apply arguments OptionalLong  prevDeadlineNs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#74"
+ , "c1" : "00251"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#251"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument prevDeadlineNs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00251] The argument body is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#85"
+ , "c1" : "00252"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00085] The class VoidEvent contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00252] In method org.springframework.http.ResponseEntity the MagicNumber/String  'Body must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#89"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00089] Void method run is empty or contains only a return."
+ , "c1" : "00263"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#263"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00263] For method created arguments URI  location"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#89"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00089] Void method run is empty or contains only a return. Interface segregation"
+ , "c1" : "00473"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#473"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00473] The class DefaultBuilder contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00484"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#484"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00484] For method header arguments String  headerName|String  ...headerValues"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00492"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#492"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00492] For method headers arguments HttpHeaders  headers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00493"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#493"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00493] In method org.springframework.http.ResponseEntity.DefaultBuilder.headers@POLYN245599 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00500"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#500"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00500] For method headers arguments Consumer&lt;HttpHeaders &gt;  headersConsumer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00500"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#500"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00500] The argument headersConsumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00506"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#506"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00506] For method allow arguments HttpMethod  ...allowedMethods"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00512"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#512"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00512] For method contentLength arguments long  contentLength"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00518"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#518"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00518] For method contentType arguments MediaType  contentType"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00524"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#524"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00524] For method eTag arguments String  etag"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00524"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#524"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00524] The argument etag is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00525"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#525"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00525] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00525"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#525"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00525] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  'W/\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00526"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#526"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00526] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00528"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#528"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00528] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00529"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#529"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00529] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00536"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#536"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00536] For method lastModified arguments ZonedDateTime  date"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00542"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#542"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00542] For method lastModified arguments Instant  date"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00548"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#548"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00548] For method lastModified arguments long  date"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00554"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#554"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00554] For method location arguments URI  location"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00560"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#560"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00560] For method cacheControl arguments CacheControl  cacheControl"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00566"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#566"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00566] For method varyBy arguments String  ...requestHeaders"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00573"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#573"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00573] In method org.springframework.http.ResponseEntity.DefaultBuilder the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/org.springframework.http.ResponseEntity.java.fct.svg" 
 
 , 
 }

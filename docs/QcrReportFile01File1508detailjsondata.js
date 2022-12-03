@@ -1,72 +1,117 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java 9 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/queue/EventQueue.java 14 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.common.ApiMessageAndVersion"
+ , "c1" : "AutoCloseable"
+ , "c2" : "org.apache.kafka.queue.EventQueue"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.common.ApiMessageAndVersion" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.queue.EventQueue" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00014"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#14"
- , "c1" : "ApiMessageAndVersion"
- , "c2" : "ApiMessageAndVersion(ApiMessage;short)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00019"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#19"
- , "c1" : "ApiMessage"
- , "c2" : "message()"
+ , "c5" : "00094"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#94"
+ , "c1" : "void"
+ , "c2" : "prepend(Event)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#23"
- , "c1" : "short"
- , "c2" : "version()"
+ , "c5" : "00099"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#99"
+ , "c1" : "void"
+ , "c2" : "append(Event)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#28"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#37"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c5" : "00104"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#104"
+ , "c1" : "void"
+ , "c2" : "appendWithDeadline(long;Event)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#42"
- , "c1" : "String"
- , "c2" : "toString()"
+ , "c5" : "00109"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#109"
+ , "c1" : "void"
+ , "c2" : "scheduleDeferred(String;Function<OptionalLong,OptionalLong>;Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00116"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#116"
+ , "c1" : "void"
+ , "c2" : "cancelDeferred(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#125"
+ , "c1" : "void"
+ , "c2" : "enqueue(EventInsertionType;String;Function<OptionalLong,OptionalLong>;Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#131"
+ , "c1" : "void"
+ , "c2" : "beginShutdown(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00136"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#136"
+ , "c1" : "void"
+ , "c2" : "beginShutdown(String;Event)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#141"
+ , "c1" : "void"
+ , "c2" : "beginShutdown(String;Event;long;TimeUnit)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00144"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#144"
+ , "c1" : "void"
+ , "c2" : "wakeup()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00147"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#147"
+ , "c1" : "void"
+ , "c2" : "close()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +120,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.png" 
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.svg" }
 
 ] 
 , 
@@ -104,101 +149,150 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#10"
+ , "c1" : "00022"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class ApiMessageAndVersion contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00022] The class FailureLoggingEvent contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#28"
+ , "c1" : "00030"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00030] For method handleException arguments Throwable  e"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#30"
+ , "c1" : "00032"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00030] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN178638 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#29"
+ , "c1" : "00034"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN145226 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN178638 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#30"
+ , "c1" : "00044"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN145226 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000008[00044] The class NoDeadlineFunction contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.server.common.ApiMessageAndVersion.equals@POLYN145226 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00048"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00048] For method apply arguments OptionalLong  ignored"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#43"
+ , "c1" : "00053"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN145962 the MagicNumber/String  'ApiMessageAndVersion(' should be converted to const"
+ , "c3" : "QC-JAV000008[00053] The class DeadlineFunction contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN145962 the MagicNumber/String  ' at version ' should be converted to const"
+ , "c1" : "00061"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#61"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00061] For method apply arguments OptionalLong  ignored"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.html#43"
+ , "c1" : "00066"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.common.ApiMessageAndVersion.toString@POLYN145962 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000008[00066] The class EarliestDeadlineFunction contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#74"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00074] For method apply arguments OptionalLong  prevDeadlineNs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#74"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00074] The argument prevDeadlineNs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000008[00085] The class VoidEvent contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#89"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00089] Void method run is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#89"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00089] Void method run is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/ApiMessageAndVersion.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.fct.svg" 
 
 , 
 }

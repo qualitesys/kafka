@@ -8948,6 +8948,14 @@ class "java.lang.Character" {
 Nb methods :93
 Complexity :1.60
 }
+class "java.lang.Class" {
+Nb methods :158
+Complexity :2.61
+}
+class "java.lang.Comparable" {
+Nb methods :1
+Complexity :1.00
+}
 class "java.lang.Double" {
 Nb methods :25
 Complexity :1.33

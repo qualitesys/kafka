@@ -1,54 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java 6 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java 2 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.internals.StreamsConfigUtils"
+ , "c1" : "StreamsException"
+ , "c2" : "org.apache.kafka.streams.errors.UnknownTopologyException"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.internals.StreamsConfigUtils" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.UnknownTopologyException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00023"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23"
- , "c1" : "ProcessingMode"
- , "c2" : "processingMode(StreamsConfig)"
- , "c3" : "7"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#36"
- , "c1" : "String"
- , "c2" : "processingModeString(ProcessingMode)"
- , "c3" : "5"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00046"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#46"
- , "c1" : "boolean"
- , "c2" : "eosEnabled(StreamsConfig)"
+ , "c5" : "00008"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.html#8"
+ , "c1" : "UnknownTopologyException"
+ , "c2" : "UnknownTopologyException(String;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#50"
- , "c1" : "boolean"
- , "c2" : "eosEnabled(ProcessingMode)"
+ , "c5" : "00012"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.html#12"
+ , "c1" : "UnknownTopologyException"
+ , "c2" : "UnknownTopologyException(String;Throwable;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.svg" }
 
 ] 
 , 
@@ -86,73 +68,31 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00006"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#6"
+ , "c1" : "00009"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.html#9"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class StreamsConfigUtils contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00009] In method org.apache.kafka.streams.errors.UnknownTopologyException.UnknownTopologyException@POLYN142490 the MagicNumber/String  ' due to being unable to locate a Topology named ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00023] For method processingMode arguments StreamsConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#23"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00023] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#36"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method processingModeString arguments ProcessingMode  processingMode"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method eosEnabled arguments StreamsConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.html#50"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method eosEnabled arguments ProcessingMode  processingMode"
+ , "c1" : "00013"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.html#13"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00013] In method org.apache.kafka.streams.errors.UnknownTopologyException.UnknownTopologyException@POLYN142688 the MagicNumber/String  ' due to being unable to locate a Topology named ' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/StreamsConfigUtils.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownTopologyException.java.fct.svg" 
 
 , 
 }

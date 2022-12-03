@@ -1,65 +1,74 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java 29 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java 7 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Commands.Handler"
- , "c2" : "org.apache.kafka.shell.CdCommandHandler"
+ , "c1" : "AbstractMap<K,V>"
+ , "c2" : "org.apache.kafka.server.util.TranslatedValueMapView"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.shell.CdCommandHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.util.TranslatedValueMapView" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#61"
- , "c1" : "CdCommandHandler"
- , "c2" : "CdCommandHandler(Optional<String>)"
+ , "c5" : "00068"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#68"
+ , "c1" : "TranslatedValueMapView"
+ , "c2" : "TranslatedValueMapView(Map<K,B>;Function<B,V>)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00066"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#66"
- , "c1" : "void"
- , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
- , "c3" : "5"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#89"
- , "c1" : "int"
- , "c2" : "hashCode()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#94"
+ , "c5" : "00076"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#76"
  , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
+ , "c2" : "containsKey(Object)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00081"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#81"
+ , "c1" : "V"
+ , "c2" : "get(Object)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00088"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#88"
+ , "c1" : "Set<Entry<K,V>>"
+ , "c2" : "entrySet()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00093"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#93"
+ , "c1" : "boolean"
+ , "c2" : "isEmpty()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.png" 
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.svg" }
 
 ] 
 , 
@@ -86,241 +95,80 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "17"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "5"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00016] The class CdCommandHandler contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00019"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#19"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00019] The class CdCommandType contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c1" : "00024"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#24"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00024] For method contains arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00025"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#25"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.name@POLYN153016 the MagicNumber/String  'cd' should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN155013 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#30"
+ , "c1" : "00027"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.description@POLYN153118 the MagicNumber/String  'Set the current working directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN155013 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#35"
+ , "c1" : "00044"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.shellOnly@POLYN153220 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#39"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method addArguments arguments ArgumentParser  parser"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#39"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00039] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#40"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.addArguments@POLYN153314 the MagicNumber/String  'target' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#41"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.addArguments@POLYN153314 the MagicNumber/String  '?' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.addArguments@POLYN153314 the MagicNumber/String  'The directory to change to.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method createHandler arguments Namespace  namespace"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#46"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00046] The argument namespace is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.createHandler@POLYN153562 the MagicNumber/String  'target' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#51"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00051] The argument nextWords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.completeNext@POLYN153794 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.completeNext@POLYN153794 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#66"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#67"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00067] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#68"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00068] The argument manager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN154441 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000008[00044] The class TranslatedValueEntryIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN154441 the MagicNumber/String  'cd: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN154441 the MagicNumber/String  ': not a directory.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN154441 the MagicNumber/String  'cd: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN154441 the MagicNumber/String  ': no such directory.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#94"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method equals arguments Object  other"
+ , "c3" : "QC-JAV000006[00076] For method containsKey arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.CdCommandHandler.equals@POLYN155783 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00081"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00081] For method get arguments Object  key"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#97"
+ , "c1" : "00082"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.CdCommandHandler.equals@POLYN155783 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.CdCommandHandler.equals@POLYN155783 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.util.TranslatedValueMapView.get@POLYN157642 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.fct.svg" 
 
 , 
 }

@@ -1,146 +1,362 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java 172 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.xml" 
+   "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html" 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java 70 rule violations " 
+ , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.tools.ClientCompatibilityTest"
+ , "c1" : "ProcessorContext"
+ , "c2" : "org.apache.kafka.streams.processor.MockProcessorContext"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.tools.ClientCompatibilityTest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.MockProcessorContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#88"
- , "c1" : "void"
- , "c2" : "main(String[])"
- , "c3" : "3"
- , "c4" : "25"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00191"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#191"
- , "c1" : "String"
- , "c2" : "toHexString(byte[])"
- , "c3" : "2"
+ , "c5" : "00150"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#150"
+ , "c1" : "MockProcessorContext"
+ , "c2" : "MockProcessorContext()"
+ , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00199"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#199"
- , "c1" : "void"
- , "c2" : "compareArrays(byte[];byte[])"
- , "c3" : "2"
+ , "c5" : "00165"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#165"
+ , "c1" : "MockProcessorContext"
+ , "c2" : "MockProcessorContext(Properties)"
+ , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00211"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#211"
- , "c1" : "ClientCompatibilityTest"
- , "c2" : "ClientCompatibilityTest(TestConfig)"
- , "c3" : "2"
- , "c4" : "10"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00226"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#226"
- , "c1" : "void"
- , "c2" : "run()"
+ , "c5" : "00171"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#171"
+ , "c1" : "MockProcessorContext"
+ , "c2" : "MockProcessorContext(Properties;TaskId;File)"
  , "c3" : "1"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00233"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#233"
- , "c1" : "void"
- , "c2" : "testProduce()"
- , "c3" : "2"
  , "c4" : "13"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00251"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#251"
- , "c1" : "void"
- , "c2" : "testAdminClient()"
- , "c3" : "9"
- , "c4" : "20"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00307"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#307"
- , "c1" : "void"
- , "c2" : "testDescribeConfigsMethod(Admin)"
- , "c3" : "2"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00330"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#330"
- , "c1" : "void"
- , "c2" : "createTopicsResultTest(Admin;Collection<String>)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00344"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#344"
- , "c1" : "boolean"
- , "c2" : "topicExists(Collection<TopicListing>;String)"
- , "c3" : "4"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00391"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#391"
- , "c1" : "void"
- , "c2" : "testConsume(long)"
- , "c3" : "11"
- , "c4" : "48"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00501"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#501"
- , "c1" : "void"
- , "c2" : "tryFeature(String;boolean;Invoker)"
+ , "c5" : "00193"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#193"
+ , "c1" : "String"
+ , "c2" : "applicationId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00505"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505"
+ , "c5" : "00198"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#198"
+ , "c1" : "TaskId"
+ , "c2" : "taskId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#203"
+ , "c1" : "Map<String,Object>"
+ , "c2" : "appConfigs()"
+ , "c3" : "1"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00211"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#211"
+ , "c1" : "Map<String,Object>"
+ , "c2" : "appConfigsWithPrefix(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00216"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#216"
+ , "c1" : "long"
+ , "c2" : "currentSystemTimeMs()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00224"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#224"
+ , "c1" : "long"
+ , "c2" : "currentStreamTimeMs()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00232"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#232"
+ , "c1" : "Serde<?>"
+ , "c2" : "keySerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00237"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#237"
+ , "c1" : "Serde<?>"
+ , "c2" : "valueSerde()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00242"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#242"
+ , "c1" : "File"
+ , "c2" : "stateDir()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00247"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#247"
+ , "c1" : "StreamsMetrics"
+ , "c2" : "metrics()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00255"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#255"
  , "c1" : "void"
- , "c2" : "tryFeature(String;boolean;Invoker;ResultTester)"
+ , "c2" : "setRecordMetadata(String;int;long;Headers;long)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00269"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#269"
+ , "c1" : "void"
+ , "c2" : "setTopic(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00275"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#275"
+ , "c1" : "void"
+ , "c2" : "setPartition(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00281"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#281"
+ , "c1" : "void"
+ , "c2" : "setOffset(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00287"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#287"
+ , "c1" : "void"
+ , "c2" : "setHeaders(Headers)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00294"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#294"
+ , "c1" : "void"
+ , "c2" : "setTimestamp(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00300"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#300"
+ , "c1" : "void"
+ , "c2" : "setRecordTimestamp(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00304"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#304"
+ , "c1" : "void"
+ , "c2" : "setCurrentSystemTimeMs(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00308"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#308"
+ , "c1" : "void"
+ , "c2" : "setCurrentStreamTimeMs(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00313"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#313"
+ , "c1" : "String"
+ , "c2" : "topic()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00321"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#321"
+ , "c1" : "int"
+ , "c2" : "partition()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00329"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#329"
+ , "c1" : "long"
+ , "c2" : "offset()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00338"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#338"
+ , "c1" : "Headers"
+ , "c2" : "headers()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00343"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#343"
+ , "c1" : "long"
+ , "c2" : "timestamp()"
+ , "c3" : "2"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00353"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#353"
+ , "c1" : "void"
+ , "c2" : "register(StateStore;StateRestoreCallback)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00366"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#366"
+ , "c1" : "Cancellable"
+ , "c2" : "schedule(Duration;PunctuationType;Punctuator)"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00382"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#382"
+ , "c1" : "List<CapturedPunctuator>"
+ , "c2" : "scheduledPunctuators()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00403"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#403"
+ , "c1" : "List<CapturedForward>"
+ , "c2" : "forwarded()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00409"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#409"
+ , "c1" : "List<CapturedForward>"
+ , "c2" : "forwarded(String)"
  , "c3" : "3"
- , "c4" : "7"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00421"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#421"
+ , "c1" : "void"
+ , "c2" : "resetForwards()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00426"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#426"
+ , "c1" : "void"
+ , "c2" : "commit()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00432"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#432"
+ , "c1" : "boolean"
+ , "c2" : "committed()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00438"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#438"
+ , "c1" : "void"
+ , "c2" : "resetCommit()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00443"
+ , "c5link" : "././qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#443"
+ , "c1" : "RecordCollector"
+ , "c2" : "recordCollector()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.png" 
+   {"ligne" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.png" 
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.svg" }
+ , "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.svg" }
 
 ] 
 , 
@@ -165,1265 +381,567 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE572"
- , "c3" : "Call to Thread run() instead of start()"
- , "c4" : "1"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "7"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE392"
- , "c3" : "Failure to report error in status code"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "5"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "143"
+ , "c4" : "42"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "11"
+ , "c4" : "13"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#59"
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00059] The class ClientCompatibilityTest contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00034] The class MockProcessorContext contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#62"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class TestConfig contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00058] The class CapturedPunctuator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#74"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00074] The argument res is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#75"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'topic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'offsetsForTimesSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'clusterIdSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'expectRecordTooLargeException' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#80"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'numClusterNodes' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#81"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'createTopicsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#82"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'describeAclsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'describeConfigsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.tools.ClientCompatibilityTest.TestConfig.TestConfig@POLYN227469 the MagicNumber/String  'idempotentProducerSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#88"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00088] The argument args is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#181"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00181] The program calls a thread's run() method instead of calling start()"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'client-compatibility-test' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedPunctuator.cancel@POLYN231659 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00091] Public method cancelled is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'This tool is used to verify client compatibility guarantees.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#93"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--topic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#86"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00086] Public method cancel is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#97"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000008[00097] The class CapturedForward contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#98"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'TOPIC' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'the compatibility test will produce messages to this topic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--bootstrap-server' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#103"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00103] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#104"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'BOOTSTRAP_SERVER' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'The server(s) to use for bootstrapping' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--offsets-for-times-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#111"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'offsetsForTimesSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'OFFSETS_FOR_TIMES_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'True if KafkaConsumer#offsetsForTimes is supported by the current broker version' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--cluster-id-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'clusterIdSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'CLUSTER_ID_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#120"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'True if cluster IDs are supported.  False if cluster ID always appears as null.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--expect-record-too-large-exception' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'expectRecordTooLargeException' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'EXPECT_RECORD_TOO_LARGE_EXCEPTION' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'True if we should expect a RecordTooLargeException when trying to read from a topic ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#128"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'that contains a message that is bigger than ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '.  This is pre-KIP-74 behavior.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--num-cluster-nodes' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.CapturedForward@POLYN232144 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#134"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'numClusterNodes' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN233492 the MagicNumber/String  'CapturedForward{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#135"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'NUM_CLUSTER_NODES' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN233492 the MagicNumber/String  'childName='' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN233492 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#136"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'The number of cluster nodes we should expect to see from the AdminClient.' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN233492 the MagicNumber/String  ', timestamp=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#137"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--create-topics-supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN233492 the MagicNumber/String  ', keyValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#139"
+ , "c1" : "00138"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#141"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'createTopicsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'CREATE_TOPICS_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'Whether we should be able to create topics via the AdminClient.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--describe-acls-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'describeAclsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'DESCRIBE_ACLS_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'Whether describeAcls is supported in the AdminClient.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--describe-configs-supported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.processor.MockProcessorContext.CapturedForward.toString@POLYN233492 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#155"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'describeConfigsSupported' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN234190 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#156"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'DESCRIBE_CONFIGS_SUPPORTED' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN234190 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#157"
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'Whether describeConfigs is supported in the AdminClient.' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN234190 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#158"
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  '--idempotent-producer-supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN234190 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#160"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#162"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'idempotentProducerSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#163"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'IDEMPOTENT_PRODUCER_SUPPORTED' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#164"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'Whether the producer supports idempotency.' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN234190 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#166"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN235004 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#170"
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN235004 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#172"
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN235004 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#171"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00171] The argument taskId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN235618 the MagicNumber/String  'dummy-bootstrap-host:0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#175"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.streams.processor.MockProcessorContext.MockProcessorContext@POLYN235618 the MagicNumber/String  'dummy-mock-app-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'FAILED: Caught exception %s%n%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  'SUCCESS.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#188"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.tools.ClientCompatibilityTest.main@POLYN228590 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#191"
+ , "c1" : "00211"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00191] For method toHexString arguments byte[]  buf"
+ , "c3" : "QC-JAV000006[00211] For method appConfigsWithPrefix arguments String  prefix"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#194"
+ , "c1" : "00217"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.tools.ClientCompatibilityTest.toHexString@POLYN233608 the MagicNumber/String  '%02x' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.MockProcessorContext.currentSystemTimeMs@POLYN237971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#199"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method compareArrays arguments byte[]  a|byte[]  b"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#201"
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.tools.ClientCompatibilityTest.compareArrays@POLYN234024 the MagicNumber/String  'Arrays did not match: expected ' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.MockProcessorContext.currentSystemTimeMs@POLYN237971 the MagicNumber/String  'System time must be set before use via setCurrentSystemTimeMs().' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#201"
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.tools.ClientCompatibilityTest.compareArrays@POLYN234024 the MagicNumber/String  ', got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.streams.processor.MockProcessorContext.currentStreamTimeMs@POLYN238220 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#215"
+ , "c1" : "00226"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN234588 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#219"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN234588 the MagicNumber/String  4096 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN234588 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTest@POLYN234588 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#237"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.tools.ClientCompatibilityTest.testProduce@POLYN235807 the MagicNumber/String  'false' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#256"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00256] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#283"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00283] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.processor.MockProcessorContext.currentStreamTimeMs@POLYN238220 the MagicNumber/String  'Stream time must be set before use via setCurrentStreamTimeMs().' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#255"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  true should be converted to const"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#255"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00255] For method setRecordMetadata arguments String  topic|int  partition|long  offset|Headers  headers|long  timestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#260"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'Expected to see ' should be converted to const"
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#269"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00269] For method setTopic arguments String  topic"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#261"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  ' nodes, but saw ' should be converted to const"
+ , "c1" : "00275"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#275"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00275] For method setPartition arguments int  partition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#263"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'Saw only {} cluster nodes.  Waiting to see {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#270"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'createTopics' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'newtopic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#274"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#279"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'newtopic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00281"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#281"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00281] For method setOffset arguments long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#287"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'newtopic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#290"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#291"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'Did not see newtopic.  Retrying listTopics...' should be converted to const"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#287"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00287] For method setHeaders arguments Headers  headers"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#294"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.tools.ClientCompatibilityTest.testAdminClient@POLYN237282 the MagicNumber/String  'describeAclsSupported' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#307"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#294"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00307] For method testDescribeConfigsMethod arguments Admin  client"
+ , "c3" : "QC-JAV000006[00294] For method setTimestamp arguments long  timestamp"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#307"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00307] The argument client is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00300"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#300"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00300] For method setRecordTimestamp arguments long  recordTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00304"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#304"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00304] For method setCurrentSystemTimeMs arguments long  currentSystemTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#308"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#308"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00308] For method setCurrentStreamTimeMs arguments long  currentStreamTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.tools.ClientCompatibilityTest.testDescribeConfigsMethod@POLYN240119 the MagicNumber/String  'describeConfigsSupported' should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.streams.processor.MockProcessorContext.topic@POLYN242515 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#315"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.processor.MockProcessorContext.topic@POLYN242515 the MagicNumber/String  'Topic must be set before use via setRecordMetadata() or setTopic().' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00322"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#322"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.tools.ClientCompatibilityTest.testDescribeConfigsMethod@POLYN240119 the MagicNumber/String  'Expected to see config entries, but got zero entries' should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.streams.processor.MockProcessorContext.partition@POLYN242764 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00323"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#323"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.streams.processor.MockProcessorContext.partition@POLYN242764 the MagicNumber/String  'Partition must be set before use via setRecordMetadata() or setPartition().' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#330"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00330] For method createTopicsResultTest arguments Admin  client|Collection&lt;String &gt;  topics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#330"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00330] The argument client is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#336"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00336] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.MockProcessorContext.offset@POLYN243013 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00337"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#337"
+ , "c1" : "00331"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00337] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#332"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.tools.ClientCompatibilityTest.createTopicsResultTest@POLYN241201 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.streams.processor.MockProcessorContext.offset@POLYN243013 the MagicNumber/String  'Offset must be set before use via setRecordMetadata() or setOffset().' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00344"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#344"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00344] For method topicExists arguments Collection&lt;TopicListing &gt;  listings|String  topicName"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#344"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.streams.processor.MockProcessorContext.timestamp@POLYN243823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#345"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.tools.ClientCompatibilityTest.topicExists@POLYN241704 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.MockProcessorContext.timestamp@POLYN243823 the MagicNumber/String  'Timestamp must be set before use via setRecordMetadata() or setTimestamp().' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#349"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.tools.ClientCompatibilityTest.topicExists@POLYN241704 the MagicNumber/String  'Did not expect %s to be an internal topic.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#350"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.tools.ClientCompatibilityTest.topicExists@POLYN241704 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#356"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00356] The class OffsetsForTime contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#365"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00365] The class ClientCompatibilityTestDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#373"
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00373] For method deserialize arguments String  topic|byte[]  data"
+ , "c3" : "QC-JAV000006[00353] For method register arguments StateStore  store|StateRestoreCallback  stateRestoreCallbackIsIgnoredInMock"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#378"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00378] For method onUpdate arguments ClusterResource  clusterResource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#378"
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#353"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00378] The argument clusterResource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00353] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00380"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#380"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN242998 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#381"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN242998 the MagicNumber/String  'Expected cluster id to be supported, but it was null.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00384"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#384"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN242998 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00385"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#385"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer.onUpdate@POLYN242998 the MagicNumber/String  'Expected cluster id to be null, but it was supported.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#391"
+ , "c1" : "00366"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#366"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00391] For method testConsume arguments long  prodTimeMs"
+ , "c3" : "QC-JAV000006[00366] For method schedule arguments Duration  interval|PunctuationType  type|Punctuator  callback"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00404"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#404"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00404] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00366"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#366"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00366] For method schedule list of called methods Object monObjet|long ApiUtils_validateMillisecondDurationN244768"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00394"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#394"
+ , "c1" : "00369"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  512 should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.MockProcessorContext.schedule@POLYN244595 the MagicNumber/String  'interval' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00399"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#399"
+ , "c1" : "00370"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.streams.processor.MockProcessorContext.schedule@POLYN244595 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00400"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#400"
+ , "c1" : "00371"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Expected at least one partition for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.MockProcessorContext.schedule@POLYN244595 the MagicNumber/String  'The minimum supported scheduling interval is 1 millisecond.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00392"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#392"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00392] The argument to is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.MockProcessorContext the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.MockProcessorContext the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00396"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#396"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.MockProcessorContext the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#409"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'offsetsForTimes' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00411"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#411"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'offsetsForTime = {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00420"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#420"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  10000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#421"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00422"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#422"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#425"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00428"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#428"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Timed out after ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00428"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#428"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  ' ms.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#429"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00430"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#430"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  100 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00435"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#435"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00441"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#441"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#442"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00444"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#444"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00452"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#452"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00464"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#464"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Found first message...' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00466"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#466"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'The first message in this topic was not ours. Please use a new topic when ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#467"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'running this program.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#472"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Expected to get a RecordTooLargeException when reading a record ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#473"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'bigger than ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00478"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#478"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'The second message in this topic was not ours. Please use a new ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#479"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'topic when running this program.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#480"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00483"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#483"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Got RecordTooLargeException' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#485"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Got an unexpected RecordTooLargeException when reading a record ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#486"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'bigger than ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00488"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#488"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Closing consumer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00490"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#490"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.tools.ClientCompatibilityTest.testConsume@POLYN243473 the MagicNumber/String  'Closed consumer.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00501"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#501"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#409"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00501] For method tryFeature arguments String  featureName|boolean  supported|Invoker  invoker"
+ , "c3" : "QC-JAV000006[00409] For method forwarded arguments String  childName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00505"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00505] For method tryFeature arguments String  featureName|boolean  supported|Invoker  invoker|ResultTester  resultTester"
+ , "c1" : "00412"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#412"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00412] The same method call capture.childName() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00505"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505"
+ , "c1" : "00412"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#412"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.streams.processor.MockProcessorContext.forwarded@POLYN247291 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00427"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#427"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.streams.processor.MockProcessorContext.commit@POLYN248062 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00439"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#439"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.streams.processor.MockProcessorContext.resetCommit@POLYN248628 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00448"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#448"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.MockProcessorContext.recordCollector@POLYN248747 the MagicNumber/String  'MockProcessorContext does not provide record collection. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00449"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#449"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.streams.processor.MockProcessorContext.recordCollector@POLYN248747 the MagicNumber/String  'For processor unit tests, use an in-memory state store with change-logging disabled. ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00450"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#450"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.processor.MockProcessorContext.recordCollector@POLYN248747 the MagicNumber/String  'Alternatively, use the TopologyTestDriver for testing processor/store/topology integration.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00505] The argument invoker is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.MockProcessorContext.appConfigsWithPrefix@POLYN237807"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00505"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#505"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00505] The argument resultTester is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.MockProcessorContext.applicationId@POLYN237078"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00515"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#515"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE392[00515] Failure to report error in status code (see http://cwe.mitre.org/data/definitions/392.html)"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.MockProcessorContext.keySerde@POLYN238484"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#509"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN249820 the MagicNumber/String  'Successfully used feature {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#511"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN249820 the MagicNumber/String  'Got UnsupportedVersionException when attempting to use feature {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00513"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#513"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN249820 the MagicNumber/String  'Expected ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00513"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#513"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN249820 the MagicNumber/String  ' to be supported, but it wasn't.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00518"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#518"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN249820 the MagicNumber/String  'Did not expect ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00518"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#518"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.tools.ClientCompatibilityTest.tryFeature@POLYN249820 the MagicNumber/String  ' to be supported, but it was.' should be converted to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.MockProcessorContext.valueSerde@POLYN238619"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.fct.svg" 
 
 , 
 }

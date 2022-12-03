@@ -1,164 +1,137 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java 135 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.xml" 
+   "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html" 
+ , "texte" : "File tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java 156 rule violations " 
+ , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Closeable"
- , "c2" : "org.apache.kafka.tools.VerifiableConsumer"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.tools.TransactionalMessageCopier"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.tools.VerifiableConsumer" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.tools.TransactionalMessageCopier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#68"
- , "c1" : "VerifiableConsumer"
- , "c2" : "VerifiableConsumer(KafkaConsumer<String,String>;PrintStream;String;int;boolean;boolean;boolean)"
+ , "c5" : "00052"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#52"
+ , "c1" : "ArgumentParser"
+ , "c2" : "argParser()"
  , "c3" : "1"
- , "c4" : "8"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#85"
- , "c1" : "void"
- , "c2" : "addKafkaSerializerModule()"
- , "c3" : "1"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#99"
- , "c1" : "boolean"
- , "c2" : "hasMessageLimit()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#103"
- , "c1" : "boolean"
- , "c2" : "isFinished()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#107"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
- , "c2" : "onRecordsReceived(ConsumerRecords<String,String>)"
- , "c3" : "7"
  , "c4" : "14"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#143"
+ , "c5" : "00161"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#161"
+ , "c1" : "KafkaProducer<String,String>"
+ , "c2" : "createProducer(Namespace)"
+ , "c3" : "1"
+ , "c4" : "9"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00179"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#179"
+ , "c1" : "KafkaConsumer<String,String>"
+ , "c2" : "createConsumer(Namespace)"
+ , "c3" : "1"
+ , "c4" : "16"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#203"
+ , "c1" : "ProducerRecord<String,String>"
+ , "c2" : "producerRecordFromConsumerRecord(String;ConsumerRecord<String,String>)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00207"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#207"
+ , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+ , "c2" : "consumerPositions(KafkaConsumer<String,String>)"
+ , "c3" : "2"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00215"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#215"
  , "c1" : "void"
- , "c2" : "onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception)"
+ , "c2" : "resetToLastCommittedPositions(KafkaConsumer<String,String>)"
  , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00226"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#226"
+ , "c1" : "long"
+ , "c2" : "messagesRemaining(KafkaConsumer<String,String>;TopicPartition)"
+ , "c3" : "2"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00235"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#235"
+ , "c1" : "String"
+ , "c2" : "toJsonString(Map<String,Object>)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00246"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#246"
+ , "c1" : "String"
+ , "c2" : "statusAsJson(String;long;long;long;String)"
+ , "c3" : "1"
  , "c4" : "8"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00160"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#160"
+ , "c5" : "00263"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#263"
  , "c1" : "void"
- , "c2" : "onPartitionsAssigned(Collection<TopicPartition>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00165"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#165"
- , "c1" : "void"
- , "c2" : "onPartitionsRevoked(Collection<TopicPartition>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#169"
- , "c1" : "void"
- , "c2" : "printJson(Object)"
+ , "c2" : "abortTransactionAndResetPosition(KafkaProducer<String,String>;KafkaConsumer<String,String>)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#177"
- , "c1" : "void"
- , "c2" : "commitSync(Map<TopicPartition,OffsetAndMetadata>)"
- , "c3" : "1"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00192"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#192"
- , "c1" : "void"
- , "c2" : "run()"
- , "c3" : "5"
- , "c4" : "11"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#221"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "3"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00468"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#468"
- , "c1" : "ArgumentParser"
- , "c2" : "argParser()"
- , "c3" : "1"
- , "c4" : "15"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00571"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#571"
- , "c1" : "VerifiableConsumer"
- , "c2" : "createFromArgs(ArgumentParser;String[])"
- , "c3" : "7"
- , "c4" : "25"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00628"
- , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#628"
+ , "c5" : "00271"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#271"
  , "c1" : "void"
  , "c2" : "main(String[])"
- , "c3" : "2"
- , "c4" : "8"
+ , "c3" : "1"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00284"
+ , "c5link" : "././qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#284"
+ , "c1" : "void"
+ , "c2" : "runEventLoop(Namespace)"
+ , "c3" : "9"
+ , "c4" : "44"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.png" 
+   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.png" 
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.svg" }
+ , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.svg" }
 
 ] 
 , 
@@ -185,997 +158,1144 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE572"
- , "c3" : "Call to Thread run() instead of start()"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "4"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "6"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "113"
+ , "c4" : "130"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "8"
+ , "c4" : "11"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#52"
+ , "c1" : "00047"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00052] The class VerifiableConsumer contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000008[00047] The class TransactionalMessageCopier contains no field, constructor, finalize. Must contain only static methods, check it"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'transactional-message-copier' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#55"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#56"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'This tool copies messages transactionally from an input partition to an output topic, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#57"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'committing the consumed offsets along with the output messages' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#59"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--input-topic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'INPUT-TOPIC' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'inputTopic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Consume messages from this topic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#67"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--input-partition' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#69"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#71"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'INPUT-PARTITION' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#72"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'inputPartition' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#73"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Consume messages from this partition of the input topic.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--output-topic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#77"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'OUTPUT-TOPIC' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'outputTopic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Produce messages to this topic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#83"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--broker-list' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#87"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'HOST1:PORT1[,HOST2:PORT2[...]]' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#88"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'brokerList' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#89"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Comma-separated list of Kafka brokers in the form HOST1:PORT1,HOST2:PORT2,...' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#91"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.tools.VerifiableConsumer.addKafkaSerializerModule@POLYN235449 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--max-messages' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#92"
+ , "c1" : "00093"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.tools.VerifiableConsumer.addKafkaSerializerModule@POLYN235449 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#100"
+ , "c1" : "00094"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.tools.VerifiableConsumer.hasMessageLimit@POLYN236267 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#96"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'MAX-MESSAGES' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'maxMessages' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#98"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Process these many messages upto the end offset at the time this program was launched. If set to -1 ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#99"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'we will just read to the end offset of the input partition (as of the time the program was launched).' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#101"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--consumer-group' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#103"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#104"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'CONSUMER-GROUP' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#107"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method onRecordsReceived arguments ConsumerRecords&lt;String ,String &gt;  records"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#107"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'consumerGroup' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#107"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00107] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00108"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#108"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'The consumer group id to use for storing the consumer offsets.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--transaction-size' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#112"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00112] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#128"
+ , "c1" : "00113"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00128] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  200 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#115"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'TRANSACTION-SIZE' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#120"
+ , "c1" : "00116"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'messagesPerTransaction' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'The number of messages to put in each transaction. Default is 200.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#119"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--transaction-timeout' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#121"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#123"
+ , "c1" : "00122"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.tools.VerifiableConsumer.onRecordsReceived@POLYN236556 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  60000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#124"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'TRANSACTION-TIMEOUT' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#125"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'transactionTimeout' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#126"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'The transaction timeout in milliseconds. Default is 60000(1 minute).' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#128"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--transactional-id' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'TRANSACTIONAL-ID' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'transactionalId' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#134"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'The transactionalId to assign to the producer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#136"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--enable-random-aborts' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'ENABLE-RANDOM-ABORTS' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#140"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'enableRandomAborts' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Whether or not to enable random transaction aborts (for system testing)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method onComplete arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|Exception  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#143"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00143] The argument offsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#143"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--group-mode' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#146"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00146] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'GROUP-MODE' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#150"
+ , "c1" : "00147"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'groupMode' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Whether to let consumer subscribe to the input topic or do manual assign. If we do' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  ' subscription based consumption, the input partition shall be ignored' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#151"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  '--use-group-metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#152"
+ , "c1" : "00154"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'USE-GROUP-METADATA' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#153"
+ , "c1" : "00155"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.tools.VerifiableConsumer.onComplete@POLYN238751 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'useGroupMetadata' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#160"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c1" : "00156"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#156"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.tools.TransactionalMessageCopier.argParser@POLYN206417 the MagicNumber/String  'Whether to use the new transactional commit API with group metadata' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#165"
+ , "c1" : "00161"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00161] For method createProducer arguments Namespace  parsedArgs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method printJson arguments Object  data"
+ , "c1" : "00161"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#161"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00161] The argument parsedArgs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.tools.TransactionalMessageCopier.createProducer@POLYN210898 the MagicNumber/String  'brokerList' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#164"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.TransactionalMessageCopier.createProducer@POLYN210898 the MagicNumber/String  'transactionalId' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#166"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.tools.TransactionalMessageCopier.createProducer@POLYN210898 the MagicNumber/String  'org.apache.kafka.common.serialization.StringSerializer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#168"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.tools.TransactionalMessageCopier.createProducer@POLYN210898 the MagicNumber/String  'org.apache.kafka.common.serialization.StringSerializer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.tools.TransactionalMessageCopier.createProducer@POLYN210898 the MagicNumber/String  '512' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#173"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.tools.VerifiableConsumer.printJson@POLYN240294 the MagicNumber/String  'Bad data can't be written as json: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.tools.TransactionalMessageCopier.createProducer@POLYN210898 the MagicNumber/String  '5' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#177"
+ , "c1" : "00174"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#174"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.tools.TransactionalMessageCopier.createProducer@POLYN210898 the MagicNumber/String  'transactionTimeout' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#179"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method commitSync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00179] For method createConsumer arguments Namespace  parsedArgs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#179"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00179] The argument parsedArgs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#180"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.tools.VerifiableConsumer.commitSync@POLYN240650 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'consumerGroup' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#181"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'brokerList' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00182"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#182"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'messagesPerTransaction' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#188"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'read_committed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#190"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'false' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#191"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  '10000' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#192"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  '180000' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  '3000' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#194"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'earliest' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00196"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#196"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'org.apache.kafka.common.serialization.StringDeserializer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#198"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00198] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.tools.TransactionalMessageCopier.createConsumer@POLYN212008 the MagicNumber/String  'org.apache.kafka.common.serialization.StringDeserializer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#199"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00199] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00203"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#203"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00203] For method producerRecordFromConsumerRecord arguments String  topic|ConsumerRecord&lt;String ,String &gt;  record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#203"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00203] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#207"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00207] For method consumerPositions arguments KafkaConsumer&lt;String ,String &gt;  consumer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#207"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00207] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#210"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.tools.VerifiableConsumer.run@POLYN241276 the MagicNumber/String  'Caught WakeupException because consumer is shutdown, ignore and terminate.' should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.tools.TransactionalMessageCopier.consumerPositions@POLYN214101 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.tools.VerifiableConsumer.run@POLYN241276 the MagicNumber/String  'Error during processing, terminating consumer process: ' should be converted to const"
+ , "c1" : "00215"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#215"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00215] For method resetToLastCommittedPositions arguments KafkaConsumer&lt;String ,String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#229"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00229] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00215"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#215"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00215] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#222"
+ , "c1" : "00219"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.tools.VerifiableConsumer.close@POLYN242653 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.tools.TransactionalMessageCopier.resetToLastCommittedPositions@POLYN214655 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#225"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.tools.VerifiableConsumer.close@POLYN242653 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00226"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#226"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00226] For method messagesRemaining arguments KafkaConsumer&lt;String ,String &gt;  consumer|TopicPartition  partition"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#230"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.tools.VerifiableConsumer.close@POLYN242653 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00226"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#226"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00226] The argument consumer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#240"
+ , "c1" : "00232"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00240] The class ConsumerEvent contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.tools.TransactionalMessageCopier.messagesRemaining@POLYN215400 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#235"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00235] For method toJsonString arguments Map&lt;String ,Object &gt;  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00241"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#241"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.tools.TransactionalMessageCopier.toJsonString@POLYN216018 the MagicNumber/String  'Bad data can't be written as json: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#246"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00246] Lock statement on synchronized method statusAsJson"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00246"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#246"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00246] For method statusAsJson arguments String  stage|long  totalProcessed|long  consumedSinceLastRebalanced|long  remaining|String  transactionalId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00254"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#254"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.tools.TransactionalMessageCopier.statusAsJson@POLYN216535 the MagicNumber/String  'transactionalId' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#255"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.tools.TransactionalMessageCopier.statusAsJson@POLYN216535 the MagicNumber/String  'stage' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#256"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.tools.VerifiableConsumer.StartupComplete.name@POLYN243644 the MagicNumber/String  'startup_complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.tools.TransactionalMessageCopier.statusAsJson@POLYN216535 the MagicNumber/String  'time' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00257"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#257"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.tools.TransactionalMessageCopier.statusAsJson@POLYN216535 the MagicNumber/String  'totalProcessed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#258"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.tools.TransactionalMessageCopier.statusAsJson@POLYN216535 the MagicNumber/String  'consumed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00259"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#259"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.tools.TransactionalMessageCopier.statusAsJson@POLYN216535 the MagicNumber/String  'remaining' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#263"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00263] For method abortTransactionAndResetPosition arguments KafkaProducer&lt;String ,String &gt;  producer|KafkaConsumer&lt;String ,String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#264"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.tools.VerifiableConsumer.ShutdownComplete.name@POLYN243798 the MagicNumber/String  'shutdown_complete' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00282"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#282"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.tools.VerifiableConsumer.PartitionsRevoked.name@POLYN244284 the MagicNumber/String  'partitions_revoked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#300"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.tools.VerifiableConsumer.PartitionsAssigned.name@POLYN244770 the MagicNumber/String  'partitions_assigned' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#315"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.tools.VerifiableConsumer.RecordsConsumed.name@POLYN245269 the MagicNumber/String  'records_consumed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#340"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.tools.VerifiableConsumer.RecordData.name@POLYN246112 the MagicNumber/String  'record_data' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#370"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00370] The class PartitionData contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00404"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#404"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.tools.VerifiableConsumer.OffsetsCommitted.name@POLYN247888 the MagicNumber/String  'offsets_committed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00470"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#470"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'verifiable-consumer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00471"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#471"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#472"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'This tool consumes messages from a specific topic and emits consumer events (e.g. group rebalances, received messages, and offsets committed) as JSON objects to STDOUT.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#473"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Connection Group' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00474"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#474"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Group of arguments for connection to brokers' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00475"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#475"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00476"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#476"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--bootstrap-server' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00478"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#478"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#480"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'HOST1:PORT1[,HOST2:PORT2[...]]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00481"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#481"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00482"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#482"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'REQUIRED unless --broker-list(deprecated) is specified. The server(s) to connect to. Comma-separated list of Kafka brokers in the form HOST1:PORT1,HOST2:PORT2,...' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00483"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#483"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--broker-list' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#485"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00487"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#487"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'HOST1:PORT1[,HOST2:PORT2[...]]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00488"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#488"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'brokerList' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00489"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#489"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'DEPRECATED, use --bootstrap-server instead; ignored if --bootstrap-server is specified.  Comma-separated list of Kafka brokers in the form HOST1:PORT1,HOST2:PORT2,...' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00491"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#491"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--topic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00493"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#493"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00495"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#495"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'TOPIC' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00496"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#496"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Consumes messages from this topic.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#498"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--group-id' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00500"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#500"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00502"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#502"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'GROUP_ID' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00503"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#503"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'groupId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#504"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'The groupId shared among members of the consumer group' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00506"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#506"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--group-instance-id' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#508"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00510"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#510"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'GROUP_INSTANCE_ID' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#511"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'groupInstanceId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00512"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#512"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'A unique identifier of the consumer instance' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00514"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#514"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--max-messages' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00516"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#516"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00518"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#518"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00519"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#519"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'MAX-MESSAGES' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00520"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#520"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'maxMessages' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00521"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#521"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00521] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Consume this many messages. If -1 (the default), the consumer will consume until the process is killed externally' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00523"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#523"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--session-timeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00525"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#525"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00526"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#526"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  30000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00528"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#528"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'TIMEOUT_MS' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#529"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'sessionTimeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00530"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#530"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Set the consumer's session timeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00532"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#532"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--verbose' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00535"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#535"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'VERBOSE' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00536"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#536"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Enable to log individual consumed records' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00538"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#538"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--enable-autocommit' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00541"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#541"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'ENABLE-AUTOCOMMIT' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#542"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'useAutoCommit' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#543"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Enable offset auto-commit on consumer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#545"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--reset-policy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00547"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#547"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00548"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#548"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'earliest' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00550"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#550"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'resetPolicy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00551"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#551"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Set reset policy (must be either 'earliest', 'latest', or 'none'' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00553"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#553"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--assignment-strategy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00555"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#555"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00555] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00558"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#558"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'assignmentStrategy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00559"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#559"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Set assignment strategy (e.g. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00559"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#559"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00561"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#561"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  '--consumer.config' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00563"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#563"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00565"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#565"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'CONFIG_FILE' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00566"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#566"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.tools.VerifiableConsumer.argParser@POLYN249740 the MagicNumber/String  'Consumer config properties file (config options shared with command line parameters will be overridden).' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00571"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#571"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00571] For method createFromArgs arguments ArgumentParser  parser|String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00571"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#571"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#264"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00571] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00264] The argument producer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#574"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'useAutoCommit' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00575"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#575"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'consumer.config' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00576"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#576"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00579"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#579"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00587"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#587"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'groupId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00589"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#589"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00589] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'groupInstanceId' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00590"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#590"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00590] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#595"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#595"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#596"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'bootstrapServer' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00597"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#597"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'brokerList' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00597"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#597"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00598"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#598"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00598] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'brokerList' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00602"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#602"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00602] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00607"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#607"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'resetPolicy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00608"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#608"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00608] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'sessionTimeout' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00609"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#609"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'assignmentStrategy' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00614"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#614"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00614] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'topic' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00615"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#615"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'maxMessages' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00616"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#616"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00616] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  'verbose' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#624"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.tools.VerifiableConsumer.createFromArgs@POLYN254221 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00628"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#628"
+ , "c1" : "00271"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#271"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00628] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00271] For method main arguments String[]  args"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00628"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#628"
+ , "c1" : "00275"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#275"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.tools.TransactionalMessageCopier.main@POLYN217802 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#277"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.tools.TransactionalMessageCopier.main@POLYN217802 the MagicNumber/String  'Shutting down after unexpected error in event loop' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00278"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#278"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.tools.TransactionalMessageCopier.main@POLYN217802 the MagicNumber/String  'Shutting down after unexpected error ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#279"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.tools.TransactionalMessageCopier.main@POLYN217802 the MagicNumber/String  ': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#279"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.tools.TransactionalMessageCopier.main@POLYN217802 the MagicNumber/String  ' (see the log for additional detail)' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#280"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.tools.TransactionalMessageCopier.main@POLYN217802 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00284"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#284"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00284] For method runEventLoop arguments Namespace  parsedArgs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00284"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#284"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00628] The argument args is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00284] The argument parsedArgs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00640"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#640"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00640] The program calls a thread's run() method instead of calling start()"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00630"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#630"
+ , "c1" : "00357"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00357] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00633"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#633"
+ , "c1" : "00362"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00633] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00362] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00638"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#638"
+ , "c1" : "00368"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00638] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  'verifiable-consumer-shutdown-hook' should be converted to const"
+ , "c3" : "QC-JAV000001[00368] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00644"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#644"
+ , "c1" : "00379"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.tools.VerifiableConsumer.main@POLYN257526 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000001[00379] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#381"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00381] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#285"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'transactionalId' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00286"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#286"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'outputTopic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#288"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'consumerGroup' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'maxMessages' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#294"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'maxMessages' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00296"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#296"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'groupMode' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00297"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#297"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'inputTopic' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#298"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00299"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#299"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#310"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#313"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'RebalanceComplete' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00322"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#322"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'inputPartition' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00327"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#327"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'enableRandomAborts' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00331"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#331"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00333"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#333"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'transactional-message-copier-shutdown-hook' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#334"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#337"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'ShutdownComplete' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#345"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'useGroupMetadata' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00348"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#348"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#350"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'ProcessLoop' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00357"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#357"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  200 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00358"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#358"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00371"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#371"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00371"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#371"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00380"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#380"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'The transactional.id %s has been claimed by another process' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00382"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#382"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'Aborting transaction after catching exception' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00394"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#394"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'producer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00395"
+ , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#395"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.tools.TransactionalMessageCopier.runEventLoop@POLYN218587 the MagicNumber/String  'consumer' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.fct.svg" 
 
 , 
 }

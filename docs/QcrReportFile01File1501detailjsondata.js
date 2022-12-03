@@ -1,243 +1,153 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.html" 
- , "texte" : "File secujava/javax.servlet.http.HttpServletRequest.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.xml" 
+   "fic1"  : "./qc/secujava/javax.servlet.ServletResponse.java.html" 
+ , "texte" : "File secujava/javax.servlet.ServletResponse.java 0 rule violation " 
+ , "fic2"  : "./qc/secujava/javax.servlet.ServletResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ServletRequest"
- , "c2" : "javax.servlet.http.HttpServletRequest"
+ , "c1" : "java.lang.Object"
+ , "c2" : "javax.servlet.ServletResponse"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "javax.servlet.http.HttpServletRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "javax.servlet.ServletResponse" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00020"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#20"
+ , "c1" : "String"
+ , "c2" : "getCharacterEncoding()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
 { "ligne" : { "" : ""
  , "c5" : "00026"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#26"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#26"
  , "c1" : "String"
- , "c2" : "getAuthType()"
+ , "c2" : "getContentType()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#33"
- , "c1" : "Cookie[]"
- , "c2" : "getCookies()"
+ , "c5" : "00032"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#32"
+ , "c1" : "ServletOutputStream"
+ , "c2" : "getOutputStream()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#40"
- , "c1" : "long"
- , "c2" : "getDateHeader(String)"
+ , "c5" : "00038"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#38"
+ , "c1" : "PrintWriter"
+ , "c2" : "getWriter()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#47"
- , "c1" : "String"
- , "c2" : "getHeader(String)"
+ , "c5" : "00045"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#45"
+ , "c1" : "void"
+ , "c2" : "setCharacterEncoding(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00054"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#54"
- , "c1" : "Enumeration"
- , "c2" : "getHeaders(String)"
+ , "c5" : "00052"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#52"
+ , "c1" : "void"
+ , "c2" : "setContentLength(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#62"
- , "c1" : "Enumeration"
- , "c2" : "getHeaderNames()"
+ , "c5" : "00058"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#58"
+ , "c1" : "void"
+ , "c2" : "setContentType(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00063"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#63"
+ , "c1" : "void"
+ , "c2" : "setBufferSize(int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00069"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#69"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#69"
  , "c1" : "int"
- , "c2" : "getIntHeader(String)"
+ , "c2" : "getBufferSize()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#76"
- , "c1" : "String"
- , "c2" : "getMethod()"
+ , "c5" : "00075"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#75"
+ , "c1" : "void"
+ , "c2" : "flushBuffer()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#83"
- , "c1" : "String"
- , "c2" : "getPathInfo()"
+ , "c5" : "00081"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#81"
+ , "c1" : "void"
+ , "c2" : "resetBuffer()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#90"
- , "c1" : "String"
- , "c2" : "getPathTranslated()"
+ , "c5" : "00086"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#86"
+ , "c1" : "boolean"
+ , "c2" : "isCommitted()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#97"
- , "c1" : "String"
- , "c2" : "getContextPath()"
+ , "c5" : "00092"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#92"
+ , "c1" : "void"
+ , "c2" : "reset()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#98"
+ , "c1" : "void"
+ , "c2" : "setLocale(Locale)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00104"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#104"
- , "c1" : "String"
- , "c2" : "getQueryString()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00111"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#111"
- , "c1" : "String"
- , "c2" : "getRemoteUser()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00118"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#118"
- , "c1" : "boolean"
- , "c2" : "isUserInRole(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#125"
- , "c1" : "java.security.Principal"
- , "c2" : "getUserPrincipal()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#132"
- , "c1" : "String"
- , "c2" : "getRequestedSessionId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
- , "c1" : "String"
- , "c2" : "getRequestURI()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
- , "c1" : "StringBuffer"
- , "c2" : "getRequestURL()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
- , "c1" : "String"
- , "c2" : "getServletPath()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
- , "c1" : "HttpSession"
- , "c2" : "getSession(boolean)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
- , "c1" : "HttpSession"
- , "c2" : "getSession()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
- , "c1" : "boolean"
- , "c2" : "isRequestedSessionIdValid()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
- , "c1" : "boolean"
- , "c2" : "isRequestedSessionIdFromCookie()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
- , "c1" : "boolean"
- , "c2" : "isRequestedSessionIdFromURL()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
- , "c1" : "boolean"
- , "c2" : "isRequestedSessionIdFromUrl()"
+ , "c5link" : "././qc/secujava/javax.servlet.ServletResponse.java.html#104"
+ , "c1" : "Locale"
+ , "c2" : "getLocale()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -246,9 +156,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.png" 
+   {"ligne" : "./qc/secujava/javax.servlet.ServletResponse.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/javax.servlet.ServletResponse.java.svg" }
 
 ] 
 , 
@@ -274,7 +184,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.ServletResponse.java.fct.svg" 
 
 , 
 }

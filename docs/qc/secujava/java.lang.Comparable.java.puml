@@ -1,0 +1,7 @@
+@startuml
+!pragma layout smetana
+"java.lang.Object" <|-- "java.lang.Comparable"
+class java.lang.Comparable {
++compareTo(T) : int [[[./../.././qc/secujava/java.lang.Comparable.java.html#143]]]
+} 
+@enduml

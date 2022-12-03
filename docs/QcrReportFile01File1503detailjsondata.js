@@ -1,171 +1,243 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/javax.servlet.http.HttpSession.java.html" 
- , "texte" : "File secujava/javax.servlet.http.HttpSession.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/javax.servlet.http.HttpSession.java.xml" 
+   "fic1"  : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.html" 
+ , "texte" : "File secujava/javax.servlet.http.HttpServletRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "javax.servlet.http.HttpSession"
+ , "c1" : "ServletRequest"
+ , "c2" : "javax.servlet.http.HttpServletRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "javax.servlet.http.HttpSession" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "javax.servlet.http.HttpServletRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#89"
- , "c1" : "long"
- , "c2" : "getCreationTime()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#100"
+ , "c5" : "00026"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#26"
  , "c1" : "String"
- , "c2" : "getId()"
+ , "c2" : "getAuthType()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#123"
+ , "c5" : "00033"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#33"
+ , "c1" : "Cookie[]"
+ , "c2" : "getCookies()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00040"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#40"
  , "c1" : "long"
- , "c2" : "getLastAccessedTime()"
+ , "c2" : "getDateHeader(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#47"
+ , "c1" : "String"
+ , "c2" : "getHeader(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00054"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#54"
+ , "c1" : "Enumeration"
+ , "c2" : "getHeaders(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00062"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#62"
+ , "c1" : "Enumeration"
+ , "c2" : "getHeaderNames()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#69"
+ , "c1" : "int"
+ , "c2" : "getIntHeader(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#76"
+ , "c1" : "String"
+ , "c2" : "getMethod()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00083"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#83"
+ , "c1" : "String"
+ , "c2" : "getPathInfo()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00090"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#90"
+ , "c1" : "String"
+ , "c2" : "getPathTranslated()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00097"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#97"
+ , "c1" : "String"
+ , "c2" : "getContextPath()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00104"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#104"
+ , "c1" : "String"
+ , "c2" : "getQueryString()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00111"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#111"
+ , "c1" : "String"
+ , "c2" : "getRemoteUser()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00118"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#118"
+ , "c1" : "boolean"
+ , "c2" : "isUserInRole(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00125"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#125"
+ , "c1" : "java.security.Principal"
+ , "c2" : "getUserPrincipal()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00132"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#132"
- , "c1" : "ServletContext"
- , "c2" : "getServletContext()"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#132"
+ , "c1" : "String"
+ , "c2" : "getRequestedSessionId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00145"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#145"
- , "c1" : "void"
- , "c2" : "setMaxInactiveInterval(int)"
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
+ , "c1" : "String"
+ , "c2" : "getRequestURI()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00164"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#164"
- , "c1" : "int"
- , "c2" : "getMaxInactiveInterval()"
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
+ , "c1" : "StringBuffer"
+ , "c2" : "getRequestURL()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#177"
- , "c1" : "HttpSessionContext"
- , "c2" : "getSessionContext()"
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#198"
+ , "c1" : "String"
+ , "c2" : "getServletPath()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00191"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#191"
- , "c1" : "Object"
- , "c2" : "getAttribute(String)"
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "HttpSession"
+ , "c2" : "getSession(boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00206"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#206"
- , "c1" : "Object"
- , "c2" : "getValue(String)"
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "HttpSession"
+ , "c2" : "getSession()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00221"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#221"
- , "c1" : "Enumeration<String>"
- , "c2" : "getAttributeNames()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00237"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#237"
- , "c1" : "String[]"
- , "c2" : "getValueNames()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00268"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#268"
- , "c1" : "void"
- , "c2" : "setAttribute(String;Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00284"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#284"
- , "c1" : "void"
- , "c2" : "putValue(String;Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00305"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#305"
- , "c1" : "void"
- , "c2" : "removeAttribute(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00319"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#319"
- , "c1" : "void"
- , "c2" : "removeValue(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00329"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#329"
- , "c1" : "void"
- , "c2" : "invalidate()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00346"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#346"
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
  , "c1" : "boolean"
- , "c2" : "isNew()"
+ , "c2" : "isRequestedSessionIdValid()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isRequestedSessionIdFromCookie()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isRequestedSessionIdFromURL()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletRequest.java.html#1"
+ , "c1" : "boolean"
+ , "c2" : "isRequestedSessionIdFromUrl()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -174,9 +246,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/javax.servlet.http.HttpSession.java.png" 
+   {"ligne" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpSession.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.svg" }
 
 ] 
 , 
@@ -202,7 +274,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.http.HttpSession.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.http.HttpServletRequest.java.fct.svg" 
 
 , 
 }

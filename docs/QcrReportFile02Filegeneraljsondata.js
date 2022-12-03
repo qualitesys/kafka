@@ -1389,6 +1389,8 @@ var mavar =
 ' { "namespace":"java.lang" , "classe":"Boolean" , "nbMethodes":"14" , "nbComplexite":"1.08"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Byte" , "nbMethodes":"20" , "nbComplexite":"1.15"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Character" , "nbMethodes":"93" , "nbComplexite":"1.60"} ,' + 
+' { "namespace":"java.lang" , "classe":"Class" , "nbMethodes":"158" , "nbComplexite":"2.61"} ,' + 
+' { "namespace":"java.lang" , "classe":"Comparable" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Double" , "nbMethodes":"25" , "nbComplexite":"1.33"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Error" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Exception" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 

@@ -1,83 +1,92 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java 6 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java 14 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterator<byte[]>"
- , "c2" : "org.apache.kafka.trogdor.workload.PayloadIterator"
+ , "c1" : "Message"
+ , "c2" : "org.apache.kafka.trogdor.workload.PartitionsSpec"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.workload.PayloadIterator" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.PartitionsSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00012"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#12"
- , "c1" : "PayloadIterator"
- , "c2" : "PayloadIterator(PayloadGenerator)"
+ , "c5" : "00028"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#28"
+ , "c1" : "PartitionsSpec"
+ , "c2" : "PartitionsSpec(int;short;Map<Integer,List<Integer>>;Map<String,String>)"
+ , "c3" : "7"
+ , "c4" : "10"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00056"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#56"
+ , "c1" : "int"
+ , "c2" : "numPartitions()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00017"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#17"
- , "c1" : "boolean"
- , "c2" : "hasNext()"
+ , "c5" : "00060"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#60"
+ , "c1" : "List<Integer>"
+ , "c2" : "partitionNumbers()"
+ , "c3" : "4"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00074"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#74"
+ , "c1" : "short"
+ , "c2" : "replicationFactor()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#22"
- , "c1" : "byte[]"
- , "c2" : "next()"
+ , "c5" : "00079"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#79"
+ , "c1" : "Map<Integer,List<Integer>>"
+ , "c2" : "partitionAssignments()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#27"
- , "c1" : "void"
- , "c2" : "remove()"
+ , "c5" : "00084"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#84"
+ , "c1" : "Map<String,String>"
+ , "c2" : "configs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#31"
- , "c1" : "void"
- , "c2" : "seek(long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#35"
- , "c1" : "long"
- , "c2" : "position()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00088"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#88"
+ , "c1" : "NewTopic"
+ , "c2" : "newTopic(String)"
+ , "c3" : "4"
+ , "c4" : "7"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.svg" }
 
 ] 
 , 
@@ -105,16 +114,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -123,61 +132,110 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "INFO"
- , "c2" : "QC-JAV000019"
- , "c3" : "Lock statement"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#8"
+ , "c1" : "00038"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00008] The class PayloadIterator contains no field, constructor, finalize. Must contain only static methods, check it"
+ , "c3" : "QC-JAV000001[00038] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#18"
+ , "c1" : "00040"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00018] In method org.apache.kafka.trogdor.workload.PayloadIterator.hasNext@POLYN143505 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#22"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00022] Lock statement on synchronized method next"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#31"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00031] Lock statement on synchronized method seek"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#31"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method seek arguments long  position"
+ , "c3" : "QC-JAV000001[00040] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#35"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00035] Lock statement on synchronized method position"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#35"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.trogdor.workload.PartitionsSpec.PartitionsSpec@POLYN156588 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.workload.PartitionsSpec.PartitionsSpec@POLYN156588 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.workload.PartitionsSpec.PartitionsSpec@POLYN156588 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00039"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#39"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.trogdor.workload.PartitionsSpec.PartitionsSpec@POLYN156588 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#41"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.PartitionsSpec.PartitionsSpec@POLYN156588 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#41"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.trogdor.workload.PartitionsSpec.PartitionsSpec@POLYN156588 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.workload.PartitionsSpec.PartitionsSpec@POLYN156588 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.trogdor.workload.PartitionsSpec.partitionNumbers@POLYN158839 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00064"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#64"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.workload.PartitionsSpec.partitionNumbers@POLYN158839 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00088] For method newTopic arguments String  topicName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#91"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.trogdor.workload.PartitionsSpec.newTopic@POLYN159975 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html#93"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.trogdor.workload.PartitionsSpec.newTopic@POLYN159975 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.fct.svg" 
 
 , 
 }
