@@ -574,7 +574,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method constrainedAssign list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN356712|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN358941|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN360600|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN362205"
+ , "c3" : "QC-JAV000007[00147] For method constrainedAssign list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN356712|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN358941|int unassignedPartitions_indexOfN359920|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN360600|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN362205"
 }} 
 ,
 { "ligne" : {"" : ""

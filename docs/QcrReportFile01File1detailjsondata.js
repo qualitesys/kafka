@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/aa__all_files.java.html" 
- , "texte" : "File aa__all_files.java 1969 rule violations " 
+ , "texte" : "File aa__all_files.java 1982 rule violations " 
  , "fic2"  : "./qc/aa__all_files.java.xml" 
  , "fic3"  : "" 
 }
@@ -2874,207 +2874,209 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R16:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN226193.configInfos" }
 ,
-{ "ligne" :  "R17:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN190135.newCacheSizeBytes" }
+{ "ligne" :  "R17:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN228071.connName" }
 ,
-{ "ligne" :  "R18:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request" }
+{ "ligne" :  "R18:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN190135.newCacheSizeBytes" }
 ,
-{ "ligne" :  "R19:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb" }
+{ "ligne" :  "R19:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request" }
 ,
-{ "ligne" :  "R20:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.isDisconnected" }
+{ "ligne" :  "R20:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb" }
 ,
-{ "ligne" :  "R21:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.cause" }
+{ "ligne" :  "R21:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.isDisconnected" }
 ,
-{ "ligne" :  "R22:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.partition" }
+{ "ligne" :  "R22:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.cause" }
 ,
-{ "ligne" :  "R23:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.offsetResetStrategy" }
+{ "ligne" :  "R23:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.partition" }
 ,
-{ "ligne" :  "R24:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.tp" }
+{ "ligne" :  "R24:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.offsetResetStrategy" }
 ,
-{ "ligne" :  "R25:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.position" }
+{ "ligne" :  "R25:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.tp" }
 ,
-{ "ligne" :  "R26:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN329364.tp" }
+{ "ligne" :  "R26:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.position" }
 ,
-{ "ligne" :  "R27:org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN323339.dq" }
+{ "ligne" :  "R27:org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN329364.tp" }
 ,
-{ "ligne" :  "R28:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN220606.initialTopologies" }
+{ "ligne" :  "R28:org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN323339.dq" }
 ,
-{ "ligne" :  "R29:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries" }
+{ "ligne" :  "R29:org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN220606.initialTopologies" }
 ,
-{ "ligne" :  "R30:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.batch" }
+{ "ligne" :  "R30:org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries" }
 ,
-{ "ligne" :  "R31:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.exception" }
+{ "ligne" :  "R31:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.batch" }
 ,
-{ "ligne" :  "R32:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.adjustSequenceNumbers" }
+{ "ligne" :  "R32:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.exception" }
 ,
-{ "ligne" :  "R33:org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN384145.exception" }
+{ "ligne" :  "R33:org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.adjustSequenceNumbers" }
 ,
-{ "ligne" :  "R34:org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374145.exception" }
+{ "ligne" :  "R34:org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN384145.exception" }
 ,
-{ "ligne" :  "R35:org.apache.kafka.clients.producer.internals.TransactionManager.removeInFlightBatch@POLYN381566.batch" }
+{ "ligne" :  "R35:org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374145.exception" }
 ,
-{ "ligne" :  "R36:org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN377378.tp" }
+{ "ligne" :  "R36:org.apache.kafka.clients.producer.internals.TransactionManager.removeInFlightBatch@POLYN381566.batch" }
 ,
-{ "ligne" :  "R37:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName" }
+{ "ligne" :  "R37:org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN377378.tp" }
 ,
-{ "ligne" :  "R38:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback" }
+{ "ligne" :  "R38:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName" }
 ,
-{ "ligne" :  "R39:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.api" }
+{ "ligne" :  "R39:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback" }
 ,
-{ "ligne" :  "R40:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.error" }
+{ "ligne" :  "R40:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.api" }
 ,
-{ "ligne" :  "R41:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.shouldResetMemberId" }
+{ "ligne" :  "R41:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.error" }
 ,
-{ "ligne" :  "R42:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.reason" }
+{ "ligne" :  "R42:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.shouldResetMemberId" }
 ,
-{ "ligne" :  "R43:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.shouldResetMemberId" }
+{ "ligne" :  "R43:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.reason" }
 ,
-{ "ligne" :  "R44:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.reason" }
+{ "ligne" :  "R44:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.shouldResetMemberId" }
 ,
-{ "ligne" :  "R45:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.shouldResetMemberId" }
+{ "ligne" :  "R45:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.reason" }
 ,
-{ "ligne" :  "R46:org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN347421.deque" }
+{ "ligne" :  "R46:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.shouldResetMemberId" }
 ,
-{ "ligne" :  "R47:org.apache.kafka.common.record.CompressionRatioEstimator.updateEstimation@POLYN154658.compressionRatioForTopic" }
+{ "ligne" :  "R47:org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN347421.deque" }
 ,
-{ "ligne" :  "R48:java.io.PipedInputStream.receive@POLYN218909.b" }
+{ "ligne" :  "R48:org.apache.kafka.common.record.CompressionRatioEstimator.updateEstimation@POLYN154658.compressionRatioForTopic" }
 ,
-{ "ligne" :  "R49:java.io.PipedInputStream.receive@POLYN218909.off" }
+{ "ligne" :  "R49:java.io.PipedInputStream.receive@POLYN218909.b" }
 ,
-{ "ligne" :  "R50:java.io.PipedInputStream.receive@POLYN218909.len" }
+{ "ligne" :  "R50:java.io.PipedInputStream.receive@POLYN218909.off" }
 ,
-{ "ligne" :  "R51:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN294568.sensor" }
+{ "ligne" :  "R51:java.io.PipedInputStream.receive@POLYN218909.len" }
 ,
-{ "ligne" :  "R52:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.key" }
+{ "ligne" :  "R52:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN294568.sensor" }
 ,
-{ "ligne" :  "R53:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.value" }
+{ "ligne" :  "R53:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.key" }
 ,
-{ "ligne" :  "R54:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.tp" }
+{ "ligne" :  "R54:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.value" }
 ,
-{ "ligne" :  "R55:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.position" }
+{ "ligne" :  "R55:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.tp" }
 ,
-{ "ligne" :  "R56:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.requestedResetStrategy" }
+{ "ligne" :  "R56:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.position" }
 ,
-{ "ligne" :  "R57:org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN334517.partitionDequeue" }
+{ "ligne" :  "R57:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.requestedResetStrategy" }
 ,
-{ "ligne" :  "R58:org.apache.kafka.common.record.CompressionRatioEstimator.setEstimation@POLYN156606.compressionRatioForTopic" }
+{ "ligne" :  "R58:org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN334517.partitionDequeue" }
 ,
-{ "ligne" :  "R59:org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.key" }
+{ "ligne" :  "R59:org.apache.kafka.common.record.CompressionRatioEstimator.setEstimation@POLYN156606.compressionRatioForTopic" }
 ,
-{ "ligne" :  "R60:org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.value" }
+{ "ligne" :  "R60:org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.key" }
 ,
-{ "ligne" :  "R61:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.key" }
+{ "ligne" :  "R61:org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.value" }
 ,
-{ "ligne" :  "R62:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.value" }
+{ "ligne" :  "R62:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.key" }
 ,
-{ "ligne" :  "R63:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416322.cause" }
+{ "ligne" :  "R63:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.value" }
 ,
-{ "ligne" :  "R64:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.batch" }
+{ "ligne" :  "R64:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416322.cause" }
 ,
-{ "ligne" :  "R65:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.response" }
+{ "ligne" :  "R65:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.batch" }
 ,
-{ "ligne" :  "R66:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status" }
+{ "ligne" :  "R66:org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.response" }
 ,
-{ "ligne" :  "R67:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status" }
+{ "ligne" :  "R67:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status" }
 ,
-{ "ligne" :  "R68:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.pattern" }
+{ "ligne" :  "R68:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status" }
 ,
-{ "ligne" :  "R69:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.listener" }
+{ "ligne" :  "R69:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.pattern" }
 ,
-{ "ligne" :  "R70:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.tp" }
+{ "ligne" :  "R70:org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.listener" }
 ,
-{ "ligne" :  "R71:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.position" }
+{ "ligne" :  "R71:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.tp" }
 ,
-{ "ligne" :  "R72:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.tp" }
+{ "ligne" :  "R72:org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.position" }
 ,
-{ "ligne" :  "R73:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.highWatermark" }
+{ "ligne" :  "R73:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.tp" }
 ,
-{ "ligne" :  "R74:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.tp" }
+{ "ligne" :  "R74:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.highWatermark" }
 ,
-{ "ligne" :  "R75:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.logStartOffset" }
+{ "ligne" :  "R75:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.tp" }
 ,
-{ "ligne" :  "R76:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.tp" }
+{ "ligne" :  "R76:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.logStartOffset" }
 ,
-{ "ligne" :  "R77:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.lastStableOffset" }
+{ "ligne" :  "R77:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.tp" }
 ,
-{ "ligne" :  "R78:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.tp" }
+{ "ligne" :  "R78:org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.lastStableOffset" }
 ,
-{ "ligne" :  "R79:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.preferredReadReplicaId" }
+{ "ligne" :  "R79:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.tp" }
 ,
-{ "ligne" :  "R80:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.timeMs" }
+{ "ligne" :  "R80:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.preferredReadReplicaId" }
 ,
-{ "ligne" :  "R81:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.partitions" }
+{ "ligne" :  "R81:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.timeMs" }
 ,
-{ "ligne" :  "R82:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.offsetResetStrategy" }
+{ "ligne" :  "R82:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.partitions" }
 ,
-{ "ligne" :  "R83:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.partitions" }
+{ "ligne" :  "R83:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.offsetResetStrategy" }
 ,
-{ "ligne" :  "R84:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.nextAllowResetTimeMs" }
+{ "ligne" :  "R84:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.partitions" }
 ,
-{ "ligne" :  "R85:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN339116.tp" }
+{ "ligne" :  "R85:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.nextAllowResetTimeMs" }
 ,
-{ "ligne" :  "R86:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN339267.tp" }
+{ "ligne" :  "R86:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN339116.tp" }
 ,
-{ "ligne" :  "R87:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.partitions" }
+{ "ligne" :  "R87:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN339267.tp" }
 ,
-{ "ligne" :  "R88:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.nextRetryTimeMs" }
+{ "ligne" :  "R88:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.partitions" }
 ,
-{ "ligne" :  "R89:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.topic" }
+{ "ligne" :  "R89:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.nextRetryTimeMs" }
 ,
-{ "ligne" :  "R90:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.nowMs" }
+{ "ligne" :  "R90:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.topic" }
 ,
-{ "ligne" :  "R91:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.lastVersion" }
+{ "ligne" :  "R91:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.nowMs" }
 ,
-{ "ligne" :  "R92:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.timeoutMs" }
+{ "ligne" :  "R92:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.lastVersion" }
 ,
-{ "ligne" :  "R93:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.requestVersion" }
+{ "ligne" :  "R93:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.timeoutMs" }
 ,
-{ "ligne" :  "R94:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.response" }
+{ "ligne" :  "R94:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.requestVersion" }
 ,
-{ "ligne" :  "R95:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.isPartialUpdate" }
+{ "ligne" :  "R95:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.response" }
 ,
-{ "ligne" :  "R96:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.nowMs" }
+{ "ligne" :  "R96:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.isPartialUpdate" }
 ,
-{ "ligne" :  "R97:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN371822.topicPartition" }
+{ "ligne" :  "R97:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.nowMs" }
 ,
-{ "ligne" :  "R98:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.topicPartition" }
+{ "ligne" :  "R98:org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN371822.topicPartition" }
 ,
-{ "ligne" :  "R99:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.increment" }
+{ "ligne" :  "R99:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.topicPartition" }
 ,
-{ "ligne" :  "R100:org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.connector" }
+{ "ligne" :  "R100:org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.increment" }
 ,
-{ "ligne" :  "R101:org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.configs" }
+{ "ligne" :  "R101:org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.connector" }
 ,
-{ "ligne" :  "R102:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status" }
+{ "ligne" :  "R102:org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.configs" }
 ,
-{ "ligne" :  "R103:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status" }
+{ "ligne" :  "R103:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status" }
 ,
-{ "ligne" :  "R104:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166437.newLeader" }
+{ "ligne" :  "R104:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status" }
 ,
-{ "ligne" :  "R105:java.io.BufferedOutputStream.write@POLYN159676.b" }
+{ "ligne" :  "R105:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166437.newLeader" }
 ,
-{ "ligne" :  "R106:java.io.BufferedOutputStream.write@POLYN159676.off" }
+{ "ligne" :  "R106:java.io.BufferedOutputStream.write@POLYN159676.b" }
 ,
-{ "ligne" :  "R107:java.io.BufferedOutputStream.write@POLYN159676.len" }
+{ "ligne" :  "R107:java.io.BufferedOutputStream.write@POLYN159676.off" }
 ,
-{ "ligne" :  "R108:org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.key" }
+{ "ligne" :  "R108:java.io.BufferedOutputStream.write@POLYN159676.len" }
 ,
-{ "ligne" :  "R109:org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.value" }
+{ "ligne" :  "R109:org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.key" }
 ,
-{ "ligne" :  "R110:org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.windowStartTimestamp" }
+{ "ligne" :  "R110:org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.value" }
 ,
-{ "ligne" :  "R111:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.key" }
+{ "ligne" :  "R111:org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.windowStartTimestamp" }
 ,
-{ "ligne" :  "R112:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.value" }
+{ "ligne" :  "R112:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.key" }
 ,
-{ "ligne" :  "R113:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.windowStartTimestamp" }
+{ "ligne" :  "R113:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.value" }
 ,
-{ "ligne" :  "R114:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163224.consumerRecords" }
+{ "ligne" :  "R114:org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.windowStartTimestamp" }
 ,
-{ "ligne" :  "R115:java.io.PipedReader.receive@POLYN201247.c" }
+{ "ligne" :  "R115:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163224.consumerRecords" }
 ,
-{ "ligne" :  "R116:java.io.PipedReader.receive@POLYN201247.off" }
+{ "ligne" :  "R116:java.io.PipedReader.receive@POLYN201247.c" }
 ,
-{ "ligne" :  "R117:java.io.PipedReader.receive@POLYN201247.len" }
+{ "ligne" :  "R117:java.io.PipedReader.receive@POLYN201247.off" }
+,
+{ "ligne" :  "R118:java.io.PipedReader.receive@POLYN201247.len" }
 ]
 ,
 "data12b" : [
@@ -3172,16 +3174,16 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "7" , "pas" : [
-{ "ligne" : "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R18 in line [00292],R19 in line [00292])" }
+{ "ligne" : "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R19 in line [00292],R20 in line [00292])" }
 ,
 { "ligne" : "S7:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "8" , "pas" : [
-{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R18 in line [00292],R19 in line [00292])" }
+{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R19 in line [00292],R20 in line [00292])" }
 ,
-{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R18 in line [00292],R19 in line [00292])" }
+{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R19 in line [00292],R20 in line [00292])" }
 ,
 { "ligne" : "S8:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" }
  ]
@@ -3196,9 +3198,9 @@ var maDataBlocs = {
 ,
 { "ligne" : "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN415668" }
 ,
-{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R20 in line [00801],R21 in line [00801])" }
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R21 in line [00801],R22 in line [00801])" }
 ,
-{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R20 in line [00801],R21 in line [00801])" }
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R21 in line [00801],R22 in line [00801])" }
 ,
 { "ligne" : "S9:org.apache.kafka.common.utils.Time.milliseconds" }
  ]
@@ -3209,93 +3211,93 @@ var maDataBlocs = {
 ,
 { "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN326232" }
 ,
-{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787 (R24 in line [00300],R25 in line [00300])" }
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787 (R25 in line [00300],R26 in line [00300])" }
 ,
-{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787 (R24 in line [00300],R25 in line [00300])" }
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787 (R25 in line [00300],R26 in line [00300])" }
 ,
 { "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "11" , "pas" : [
-{ "ligne" : "S11:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R37 in line [00144],R38 in line [00144])" }
+{ "ligne" : "S11:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R38 in line [00144],R39 in line [00144])" }
 ,
 { "ligne" : "S11:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.removeConnectorTasks@POLYN238321" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "12" , "pas" : [
-{ "ligne" : "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R37 in line [00144],R38 in line [00144])" }
+{ "ligne" : "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R38 in line [00144],R39 in line [00144])" }
 ,
-{ "ligne" : "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R37 in line [00144],R38 in line [00144])" }
+{ "ligne" : "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R38 in line [00144],R39 in line [00144])" }
 ,
 { "ligne" : "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.removeConnectorTasks@POLYN238321" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "13" , "pas" : [
-{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R54 in line [00312],R55 in line [00312],R56 in line [00312])" }
+{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R55 in line [00312],R56 in line [00312],R57 in line [00312])" }
 ,
 { "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "14" , "pas" : [
-{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R54 in line [00312],R55 in line [00312],R56 in line [00312])" }
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R55 in line [00312],R56 in line [00312],R57 in line [00312])" }
 ,
-{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R54 in line [00312],R55 in line [00312],R56 in line [00312])" }
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R55 in line [00312],R56 in line [00312],R57 in line [00312])" }
 ,
 { "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "15" , "pas" : [
-{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R78 in line [00493],R79 in line [00493],R80 in line [00493])" }
+{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R79 in line [00493],R80 in line [00493],R81 in line [00493])" }
 ,
-{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R78 in line [00493],R79 in line [00493],R80 in line [00493])" }
+{ "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R79 in line [00493],R80 in line [00493],R81 in line [00493])" }
 ,
 { "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "16" , "pas" : [
-{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R81 in line [00526],R82 in line [00526])" }
+{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R82 in line [00526],R83 in line [00526])" }
 ,
-{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R81 in line [00526],R82 in line [00526])" }
+{ "ligne" : "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R82 in line [00526],R83 in line [00526])" }
 ,
 { "ligne" : "S16:java.io.InputStream.reset@POLYN251234" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "17" , "pas" : [
-{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R83 in line [00537],R84 in line [00537])" }
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R84 in line [00537],R85 in line [00537])" }
 ,
-{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R83 in line [00537],R84 in line [00537])" }
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R84 in line [00537],R85 in line [00537])" }
 ,
 { "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "18" , "pas" : [
-{ "ligne" : "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R87 in line [00631],R88 in line [00631])" }
+{ "ligne" : "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R88 in line [00631],R89 in line [00631])" }
 ,
 { "ligne" : "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "19" , "pas" : [
-{ "ligne" : "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R87 in line [00631],R88 in line [00631])" }
+{ "ligne" : "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R88 in line [00631],R89 in line [00631])" }
 ,
-{ "ligne" : "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R87 in line [00631],R88 in line [00631])" }
+{ "ligne" : "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R88 in line [00631],R89 in line [00631])" }
 ,
 { "ligne" : "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "20" , "pas" : [
-{ "ligne" : "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R89 in line [00052],R90 in line [00052])" }
+{ "ligne" : "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R90 in line [00052],R91 in line [00052])" }
 ,
-{ "ligne" : "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R89 in line [00052],R90 in line [00052])" }
+{ "ligne" : "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R90 in line [00052],R91 in line [00052])" }
 ,
 { "ligne" : "S20:org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN246286" }
  ]
@@ -3310,7 +3312,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "118"
+ , "c4" : "119"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3324,7 +3326,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1509"
+ , "c4" : "1521"
 }}
  ] 
 ,
@@ -3452,707 +3454,714 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN190135.newCacheSizeBytes"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN228071.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN190135.newCacheSizeBytes"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.isDisconnected"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.cause"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.isDisconnected"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.partition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.cause"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.offsetResetStrategy"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.partition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R24 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R24 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.offsetResetStrategy"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R25 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.position"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R25 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R26 : org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN329364.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R26 : org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787.position"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R27 : org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN323339.dq"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R27 : org.apache.kafka.clients.consumer.internals.SubscriptionState.completeValidation@POLYN329364.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R28 : org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN220606.initialTopologies"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R28 : org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN323339.dq"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R29 : org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R29 : org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN220606.initialTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R30 : org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.batch"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R30 : org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R31 : org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.exception"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R31 : org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.batch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R32 : org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.adjustSequenceNumbers"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R32 : org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.exception"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R33 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN384145.exception"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R33 : org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.adjustSequenceNumbers"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R34 : org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374145.exception"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R34 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN384145.exception"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R35 : org.apache.kafka.clients.producer.internals.TransactionManager.removeInFlightBatch@POLYN381566.batch"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R35 : org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN374145.exception"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R36 : org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN377378.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R36 : org.apache.kafka.clients.producer.internals.TransactionManager.removeInFlightBatch@POLYN381566.batch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R37 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R37 : org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN377378.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R38 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R38 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R39 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.api"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R39 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R40 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.error"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R40 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.api"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R41 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.shouldResetMemberId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R41 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.error"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R42 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.reason"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R42 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN419396.shouldResetMemberId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R43 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.shouldResetMemberId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R43 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.reason"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R44 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.reason"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R44 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN419098.shouldResetMemberId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R45 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.shouldResetMemberId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R45 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.reason"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R46 : org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN347421.deque"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R46 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN418399.shouldResetMemberId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R47 : org.apache.kafka.common.record.CompressionRatioEstimator.updateEstimation@POLYN154658.compressionRatioForTopic"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R47 : org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN347421.deque"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R48 : java.io.PipedInputStream.receive@POLYN218909.b"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R48 : org.apache.kafka.common.record.CompressionRatioEstimator.updateEstimation@POLYN154658.compressionRatioForTopic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R49 : java.io.PipedInputStream.receive@POLYN218909.off"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R49 : java.io.PipedInputStream.receive@POLYN218909.b"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R50 : java.io.PipedInputStream.receive@POLYN218909.len"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R50 : java.io.PipedInputStream.receive@POLYN218909.off"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R51 : org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN294568.sensor"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R51 : java.io.PipedInputStream.receive@POLYN218909.len"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R52 : org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.key"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R52 : org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN294568.sensor"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R53 : org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.value"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R53 : org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R54 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R54 : org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R55 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.position"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R55 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R56 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.requestedResetStrategy"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R56 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.position"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R57 : org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN334517.partitionDequeue"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R57 : org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.requestedResetStrategy"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R58 : org.apache.kafka.common.record.CompressionRatioEstimator.setEstimation@POLYN156606.compressionRatioForTopic"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R58 : org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN334517.partitionDequeue"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R59 : org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.key"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R59 : org.apache.kafka.common.record.CompressionRatioEstimator.setEstimation@POLYN156606.compressionRatioForTopic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R60 : org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.value"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R60 : org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R61 : org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.key"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R61 : org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R62 : org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.value"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R62 : org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R63 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416322.cause"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R63 : org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R64 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.batch"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R64 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416322.cause"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R65 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.response"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R65 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.batch"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R66 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R66 : org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.response"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R67 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R67 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R68 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.pattern"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R68 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R69 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.listener"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R69 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.pattern"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R70 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R70 : org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.listener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R71 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.position"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R71 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R72 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R72 : org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.position"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R73 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.highWatermark"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R73 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R74 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R74 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.highWatermark"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R75 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.logStartOffset"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R75 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R76 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R76 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.logStartOffset"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R77 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.lastStableOffset"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R77 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R78 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R78 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.lastStableOffset"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R79 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.preferredReadReplicaId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R79 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R80 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.timeMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R80 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.preferredReadReplicaId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R81 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.partitions"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R81 : org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.timeMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R82 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.offsetResetStrategy"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R82 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R83 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.partitions"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R83 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.offsetResetStrategy"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R84 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.nextAllowResetTimeMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R84 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R85 : org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN339116.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R85 : org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.nextAllowResetTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R86 : org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN339267.tp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R86 : org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN339116.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R87 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.partitions"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R87 : org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN339267.tp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R88 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.nextRetryTimeMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R88 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R89 : org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.topic"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R89 : org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.nextRetryTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R90 : org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.nowMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R90 : org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.topic"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R91 : org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.lastVersion"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R91 : org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R92 : org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.timeoutMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R92 : org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.lastVersion"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R93 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.requestVersion"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R93 : org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R94 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.response"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R94 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.requestVersion"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R95 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.isPartialUpdate"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R95 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.response"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R96 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.nowMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R96 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.isPartialUpdate"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R97 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN371822.topicPartition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R97 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R98 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.topicPartition"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R98 : org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN371822.topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R99 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.increment"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R99 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.topicPartition"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R100 : org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.connector"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R100 : org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.increment"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R101 : org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.configs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R101 : org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.connector"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R102 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R102 : org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R103 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R103 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R104 : org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166437.newLeader"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R104 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R105 : java.io.BufferedOutputStream.write@POLYN159676.b"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R105 : org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166437.newLeader"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R106 : java.io.BufferedOutputStream.write@POLYN159676.off"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R106 : java.io.BufferedOutputStream.write@POLYN159676.b"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R107 : java.io.BufferedOutputStream.write@POLYN159676.len"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R107 : java.io.BufferedOutputStream.write@POLYN159676.off"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R108 : org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.key"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R108 : java.io.BufferedOutputStream.write@POLYN159676.len"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R109 : org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.value"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R109 : org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R110 : org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.windowStartTimestamp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R110 : org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R111 : org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.key"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R111 : org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.windowStartTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R112 : org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.value"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R112 : org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R113 : org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.windowStartTimestamp"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R113 : org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.value"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R114 : org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163224.consumerRecords"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R114 : org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.windowStartTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R115 : java.io.PipedReader.receive@POLYN201247.c"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R115 : org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163224.consumerRecords"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R116 : java.io.PipedReader.receive@POLYN201247.off"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R116 : java.io.PipedReader.receive@POLYN201247.c"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R117 : java.io.PipedReader.receive@POLYN201247.len"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R117 : java.io.PipedReader.receive@POLYN201247.off"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R118 : java.io.PipedReader.receive@POLYN201247.len"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6021,6 +6030,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.completeResponses@POLYN344097"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NetworkClient.handleCompletedReceives@POLYN356658"
 }} 
 ,
@@ -6386,6 +6402,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.connect@POLYN401623"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.matches@POLYN879546"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7701,6 +7724,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN228071"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.setSaslState@POLYN261430"
 }} 
 ,
@@ -7918,13 +7948,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.putRestartRequest@POLYN378308"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.sendPrivileged@POLYN382259"
 }} 
 ,
@@ -7932,7 +7955,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.putConnectorConfig@POLYN367872"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.putRestartRequest@POLYN378308"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.putSessionKey@POLYN376735"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.putTaskConfigs@POLYN370798"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7967,6 +8011,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256"
 }} 
 ,
@@ -7975,13 +8026,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.recordToRestartRequest@POLYN396951"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8324,6 +8368,34 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinPrepare@POLYN405457"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsLost@POLYN388075"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked@POLYN386680"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN564434"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StandbyTask.closeCleanAndRecycleState@POLYN188109"
 }} 
 ,
@@ -8409,27 +8481,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN424266"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinPrepare@POLYN405457"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsLost@POLYN388075"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked@POLYN386680"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9018,6 +9069,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN198591"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN200735"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10256,6 +10314,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.removeConnectorConfig@POLYN369298"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.stop@POLYN363514"
 }} 
 ,
@@ -10375,6 +10440,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.updateChangelogOffsets@POLYN255556"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorTopology.ProcessorTopology@POLYN180395"
 }} 
 ,
@@ -10404,6 +10476,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.resume@POLYN317142"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN181714"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180102"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.assignmentListener@POLYN185167"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10698,6 +10791,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.QuorumController@POLYN473081"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN566090"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11804,27 +11904,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.doProcess@POLYN333070"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN181714"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180102"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.assignmentListener@POLYN185167"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -15128,6 +15207,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN201800"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN197382"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN202829"
 }} 
 ,
@@ -15689,6 +15782,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.pause@POLYN494029"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN535993"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -16298,13 +16398,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.checkpoint@POLYN256279"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.updateChangelogOffsets@POLYN255556"
 }} 
 ,
 { "ligne" : {"" : ""

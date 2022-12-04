@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 115 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 116 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -401,6 +401,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#115"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00115] For method printTargets arguments PrintWriter  writer|OptionalInt  screenWidth|List&lt;String &gt;  targetFiles|List&lt;TargetDirectory &gt;  targetDirectories"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00115] For method printTargets list of called methods Object monObjet|boolean targetFiles_isEmptyN187758"
 }} 
 ,
 { "ligne" : {"" : ""

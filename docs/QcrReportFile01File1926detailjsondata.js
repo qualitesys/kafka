@@ -1490,7 +1490,7 @@ var maDataBlocs = {
  , "c1" : "00742"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#742"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00742] For method initializeChangelogs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; endOffsetForChangelogsN312778|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; committedOffsetForChangelogsN312928"
+ , "c3" : "QC-JAV000007[00742] For method initializeChangelogs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; endOffsetForChangelogsN312778|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; committedOffsetForChangelogsN312928|boolean newPartitionsToFindCommittedOffset_containsN313316"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java 56 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java 58 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.xml" 
  , "fic3"  : "" 
 }
@@ -232,7 +232,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -469,6 +469,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#130"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00130] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN186120"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#139"
  , "c2" : "MINOR"
@@ -627,6 +634,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#223"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00223] For method extractStoreWindow arguments byte[]  binaryKey|long  windowSize"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#223"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00223] For method extractStoreWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN191824"
 }} 
 ]
 , 

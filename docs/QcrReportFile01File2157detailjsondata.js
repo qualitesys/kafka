@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java 124 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java 126 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.xml" 
  , "fic3"  : "" 
 }
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -707,6 +707,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#338"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00338] For method gaugeToComputeSumOfProperties list of called methods Object monObjet|java.lang.Boolean BigInteger_valueOfN236376"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#343"
  , "c2" : "MAJOR"
@@ -746,6 +753,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#356"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00356] For method gaugeToComputeBlockCacheMetrics arguments String  propertyName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#356"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00356] For method gaugeToComputeBlockCacheMetrics list of called methods Object monObjet|java.lang.Boolean BigInteger_valueOfN237213"
 }} 
 ,
 { "ligne" : {"" : ""

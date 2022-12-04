@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java 57 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java 58 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.xml" 
  , "fic3"  : "" 
 }
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -529,6 +529,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#119"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00119] For method extractWindow arguments byte[]  binaryKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00119] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN179237|java.lang.Long buffer_getLongN179366"
 }} 
 ,
 { "ligne" : {"" : ""
