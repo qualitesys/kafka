@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 450 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 446 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.xml" 
  , "fic3"  : "" 
 }
@@ -626,13 +626,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "189"
@@ -668,13 +661,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#101"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00101] The class KafkaStreams contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#188"
@@ -1271,13 +1257,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00478"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#478"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00478] The class StreamStateListener contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00502"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#502"
  , "c2" : "MAJOR"
@@ -1317,13 +1296,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#534"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00534] In method org.apache.kafka.streams.KafkaStreams.StreamStateListener.onChange@POLYN519984 the MagicNumber/String  'Global thread has died. The streams application or client will now close to ERROR.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#543"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00543] The class DelegatingStateRestoreListener contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2066,13 +2038,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1051"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01051] In method org.apache.kafka.streams.KafkaStreams.start@POLYN551115 the MagicNumber/String  'The client is either already started or already stopped, cannot re-start' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1056"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01056] The class CloseOptions contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

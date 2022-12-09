@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/examples/src/main/java/kafka/examples/Producer.java.html" 
- , "texte" : "File examples/src/main/java/kafka/examples/Producer.java 28 rule violations " 
+ , "texte" : "File examples/src/main/java/kafka/examples/Producer.java 27 rule violations " 
  , "fic2"  : "./qc/examples/src/main/java/kafka/examples/Producer.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,13 +111,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -253,13 +246,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Producer.java.html#78"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00078] In method kafka.examples.Producer.run@POLYN161533 the MagicNumber/String  ' records successfully' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/Producer.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00083] The class DemoCallBack contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

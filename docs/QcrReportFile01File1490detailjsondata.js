@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.ServerSocket.java.html" 
- , "texte" : "File secujava/java.net.ServerSocket.java 124 rule violations " 
+ , "texte" : "File secujava/java.net.ServerSocket.java 123 rule violations " 
  , "fic2"  : "./qc/secujava/java.net.ServerSocket.java.xml" 
  , "fic3"  : "" 
 }
@@ -372,13 +372,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "69"
@@ -407,13 +400,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class ServerSocket contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00033"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#33"

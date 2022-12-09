@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java 7 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -114,13 +114,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "5"
@@ -135,13 +128,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#15"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00015] The class ConsumerRecords contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#25"
@@ -182,13 +168,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#57"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.ConsumerRecords.count@POLYN163173 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#63"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00063] The class ConcatenatedIterable contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

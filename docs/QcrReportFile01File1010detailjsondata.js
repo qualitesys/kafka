@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html" 
- , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java 5 rule violations " 
+ , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java 3 rule violations " 
  , "fic2"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.xml" 
  , "fic3"  : "" 
 }
@@ -66,13 +66,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
@@ -82,24 +75,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00008"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#8"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00008] The class JsonSchema contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#46"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00046] For method envelope arguments JsonNode  schema|JsonNode  payload"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSchema.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00053] The class Envelope contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

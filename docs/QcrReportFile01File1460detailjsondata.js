@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 488 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 484 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectOutputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1594,7 +1594,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000008"
  , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1620,13 +1620,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00023] The class Caches contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#68"
@@ -4281,13 +4274,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01442"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1442"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01442] The class HandleTable contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01468"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1468"
  , "c2" : "MINOR"
@@ -4449,13 +4435,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01542"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1542"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01542] The class ReplaceTable contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01556"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1556"
  , "c2" : "MINOR"
@@ -4516,13 +4495,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1584"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01584] In method java.io.ObjectOutputStream.ReplaceTable.grow@POLYN641021 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01590"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1590"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01590] The class DebugTraceInfoStack contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

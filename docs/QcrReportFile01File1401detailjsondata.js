@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/LeaderState.java 58 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/LeaderState.java 56 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.xml" 
  , "fic3"  : "" 
 }
@@ -328,13 +328,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "35"
@@ -349,13 +342,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00024] The class LeaderState contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#46"
@@ -662,13 +648,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#287"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00287] For method isVoter arguments int  remoteNodeId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00291"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#291"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00291] The class ReplicaState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.Hashtable.java.html" 
- , "texte" : "File secujava/java.util.Hashtable.java 322 rule violations " 
+ , "texte" : "File secujava/java.util.Hashtable.java 319 rule violations " 
  , "fic2"  : "./qc/secujava/java.util.Hashtable.java.xml" 
  , "fic3"  : "" 
 }
@@ -457,13 +457,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "28"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2487,13 +2480,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00001] The class UnsafeHolder contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method putLoadFactor arguments Hashtable&lt;? ,? &gt;  table|float  lf"
 }} 
@@ -2545,13 +2531,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.reconstitutionPut@POLYN461105 the MagicNumber/String  'unchecked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00001] The class Entry contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2622,13 +2601,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method java.util.Hashtable.Entry.toString@POLYN464925 the MagicNumber/String  '=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00001] The class Enumerator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 430 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 425 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.xml" 
  , "fic3"  : "" 
 }
@@ -617,13 +617,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "253"
@@ -645,13 +638,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00044] The class Selector contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#100"
@@ -1976,13 +1962,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00884"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#884"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00884] The class SelectorChannelMetadataRegistry contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00889"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#889"
  , "c2" : "MINOR"
@@ -2036,13 +2015,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#931"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00931] In method org.apache.kafka.common.network.Selector.SelectorChannelMetadataRegistry.close@POLYN440511 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00936"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#936"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00936] The class SelectorMetrics contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3138,13 +3110,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01214"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1214"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01214] The class DelayedAuthenticationFailureClose contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1222"
  , "c2" : "MAJOR"
@@ -3184,13 +3149,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1238"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01238] In method org.apache.kafka.common.network.Selector.DelayedAuthenticationFailureClose.closeNow@POLYN463835 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01243"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1243"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01243] The class IdleExpiryManager contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 810 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 802 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1236,13 +1236,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "527"
@@ -1271,20 +1264,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#55"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00055] The class Caches contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00079] The class Logging contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#126"
@@ -1885,13 +1864,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#521"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00521] In method java.io.ObjectInputStream.filterCheck@POLYN807164 the MagicNumber/String  'n/a' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00528"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#528"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00528] The class GetField contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3379,20 +3351,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01442"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1442"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01442] The class ValidationList contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01444"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1444"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01444] The class Callback contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01468"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1468"
  , "c2" : "MINOR"
@@ -3474,13 +3432,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1510"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01510] In method java.io.ObjectInputStream.ValidationList.clear@POLYN862537 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01515"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1515"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01515] The class FilterValues contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5570,13 +5521,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02412"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2412"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02412] The class HandleTable contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02438"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2438"
  , "c2" : "MINOR"
@@ -5812,13 +5756,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2605"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02605] In method java.io.ObjectInputStream.HandleTable.grow@POLYN919074 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02613"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2613"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02613] The class HandleList contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

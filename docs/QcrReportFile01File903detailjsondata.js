@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Java.java 13 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Java.java 11 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.xml" 
  , "fic3"  : "" 
 }
@@ -78,13 +78,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "9"
@@ -106,13 +99,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#6"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class Java contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#13"
@@ -153,13 +139,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#29"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00029] In method org.apache.kafka.common.utils.Java.isIbmJdk@POLYN146636 the MagicNumber/String  'IBM' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Java.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00033] The class Version contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

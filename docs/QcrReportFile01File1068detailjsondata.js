@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java 99 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java 97 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.xml" 
  , "fic3"  : "" 
 }
@@ -291,13 +291,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -674,13 +667,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00328"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#328"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00328] The class TransactionBoundaryManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#329"
  , "c2" : "MINOR"
@@ -853,13 +839,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#453"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.buildTransactionManager@POLYN210126 the MagicNumber/String  'Unrecognized transaction boundary: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00462"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#462"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00462] The class TransactionMetricsGroup contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

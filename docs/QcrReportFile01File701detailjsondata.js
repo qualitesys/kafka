@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java 91 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java 88 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -313,13 +313,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "39"
@@ -531,13 +524,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00216] The class TopicMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#265"
  , "c2" : "MINOR"
@@ -650,13 +636,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#305"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00305] The class PartitionMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#350"
  , "c2" : "MAJOR"
@@ -738,13 +717,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#357"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229701 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00361"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#361"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00361] The class Holder contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

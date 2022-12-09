@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java 138 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java 125 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -142,13 +142,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "96"
@@ -170,27 +163,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00038] The class WorkerManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#69"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00069] The class ShutdownManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00073] The class Reference contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#79"
@@ -343,13 +315,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#126"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.trogdor.agent.WorkerManager.WorkerManager@POLYN235100 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00138] The class Worker contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -556,13 +521,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#298"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00298] The class CreateWorker contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#315"
  , "c2" : "MAJOR"
@@ -612,13 +570,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#339"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00339] The class FinishCreatingWorker contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#350"
  , "c2" : "MAJOR"
@@ -644,13 +595,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#362"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.trogdor.agent.WorkerManager.FinishCreatingWorker.call@POLYN246937 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#367"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00367] The class HandleWorkerHalting contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -724,13 +668,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00419"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#419"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00419] The class CompleteWorker contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#436"
  , "c2" : "MAJOR"
@@ -756,13 +693,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#447"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00447] For method stopWorker arguments long  workerId|boolean  mustDestroy"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#456"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00456] The class StopWorker contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -857,13 +787,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00510"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#510"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00510] The class HaltWorker contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00519"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#519"
  , "c2" : "MAJOR"
@@ -885,24 +808,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00537"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#537"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00537] The class GetWorkerStates contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#556"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.trogdor.agent.WorkerManager.waitForShutdown@POLYN256171 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00560"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#560"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00560] The class Shutdown contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -966,13 +875,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#580"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.trogdor.agent.WorkerManager.Shutdown.call@POLYN256492 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00585"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/WorkerManager.java.html#585"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00585] The class DestroyAllWorkers contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

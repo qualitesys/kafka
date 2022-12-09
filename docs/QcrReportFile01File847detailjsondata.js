@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 192 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 188 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.xml" 
  , "fic3"  : "" 
 }
@@ -223,13 +223,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "147"
@@ -251,13 +244,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00057] The class DefaultSslEngineFactory contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#77"
@@ -959,13 +945,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#317"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00317] The class FileBasedStore contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#326"
  , "c2" : "MAJOR"
@@ -1117,13 +1096,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#394"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.FileBasedPemStore.load@POLYN251805 the MagicNumber/String  'Failed to load PEM SSL keystore ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00399"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#399"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00399] The class PemStore contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1376,13 +1348,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#515"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.PemStore.keyFactory@POLYN258904 the MagicNumber/String  'Could not create key factory for algorithm ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00521"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#521"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00521] The class PemParser contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

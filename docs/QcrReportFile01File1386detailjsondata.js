@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java 39 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java 37 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.xml" 
  , "fic3"  : "" 
 }
@@ -236,13 +236,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "20"
@@ -257,13 +250,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class TimelineHashSetEntry contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00029"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#29"
@@ -325,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#80"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.timeline.TimelineHashSet.contains@POLYN170552 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00083] The class ValueIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

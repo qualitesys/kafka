@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java 41 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java 38 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.xml" 
  , "fic3"  : "" 
 }
@@ -216,13 +216,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "13"
@@ -238,20 +231,6 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00016] The class SnapshotRegistry contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00020"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#20"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00020] The class SnapshotIterator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#42"
  , "c2" : "MAJOR"
@@ -263,13 +242,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#46"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.timeline.SnapshotRegistry.SnapshotIterator.remove@POLYN177015 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshotRegistry.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00051] The class ReverseSnapshotIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

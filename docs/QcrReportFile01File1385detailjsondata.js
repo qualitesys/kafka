@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java 60 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java 56 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.xml" 
  , "fic3"  : "" 
 }
@@ -263,13 +263,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "30"
@@ -284,13 +277,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00017] The class TimelineHashMapEntry contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#40"
@@ -537,13 +523,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00195] The class KeyIterator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#224"
  , "c2" : "MINOR"
@@ -562,13 +541,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#250"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00250] For method contains arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#255"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00255] The class ValueIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -625,13 +597,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#318"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.timeline.TimelineHashMap.EntrySet.remove@POLYN199874 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#322"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00322] The class EntryIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

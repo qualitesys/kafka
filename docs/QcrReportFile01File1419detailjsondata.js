@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 36 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RequestManager.java 34 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -110,13 +110,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "13"
@@ -131,13 +124,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class RequestManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00032"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#32"
@@ -199,13 +185,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#65"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN167044 the MagicNumber/String  0L should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00086] The class ConnectionState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Class.java.html" 
- , "texte" : "File secujava/java.lang.Class.java 467 rule violations " 
+ , "texte" : "File secujava/java.lang.Class.java 462 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Class.java.xml" 
  , "fic3"  : "" 
 }
@@ -1501,13 +1501,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "369"
@@ -1536,13 +1529,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#197"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00197] The class Class contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#237"
@@ -2199,13 +2185,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1482"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01482] In method java.lang.Class.getEnclosingMethodInfo@POLYN1106998 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01488"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#1488"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01488] The class EnclosingMethodInfo contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3434,13 +3413,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03238"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3238"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[03238] The class Atomic contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03258"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3258"
  , "c2" : "MINOR"
@@ -3452,13 +3424,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3264"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03264] For method casAnnotationData arguments Class&lt;? &gt;  clazz|AnnotationData  oldData|AnnotationData  newData"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03277"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3277"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[03277] The class ReflectionData contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4404,13 +4369,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4051"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04051] For method isAnnotationPresent arguments Class&lt;?  extends Annotation &gt;  annotationClass"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04130"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#4130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[04130] The class AnnotationData contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

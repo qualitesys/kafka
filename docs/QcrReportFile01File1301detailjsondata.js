@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java 130 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java 124 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -250,13 +250,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "63"
@@ -278,20 +271,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00028] The class BrokerHeartbeatManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00029] The class BrokerHeartbeatState contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#50"
@@ -342,13 +321,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00073] The class MetadataOffsetComparator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#77"
  , "c2" : "MINOR"
@@ -388,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#87"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN222575 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00092] The class BrokerHeartbeatStateList contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -472,13 +437,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#131"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN224726 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#139"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00139] The class BrokerHeartbeatStateIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -661,13 +619,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#333"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00333] For method usableBrokers arguments Function&lt;Integer ,Optional&lt;String &gt; &gt;  idToRack"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#340"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00340] The class UsableBrokerIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

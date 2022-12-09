@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java 49 rule violations " 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java 45 rule violations " 
  , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.xml" 
  , "fic3"  : "" 
 }
@@ -308,13 +308,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "32"
@@ -337,27 +330,6 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00044] The class MockProcessorContext contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class MockRecordMetadata contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00090] The class CapturedPunctuator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#115"
  , "c2" : "MAJOR"
@@ -376,13 +348,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#114"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00114] Public method cancel is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/api/MockProcessorContext.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00123] The class CapturedForward contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

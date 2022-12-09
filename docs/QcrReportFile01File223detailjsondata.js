@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 185 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 181 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.xml" 
  , "fic3"  : "" 
 }
@@ -389,13 +389,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "143"
@@ -410,13 +403,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#78"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00078] The class KafkaProducer contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#110"
@@ -1573,20 +1559,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00860"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#860"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00860] The class ClusterAndWaitTime contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00869"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#869"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00869] The class FutureFailure contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00878"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#878"
  , "c2" : "MINOR"
@@ -1619,13 +1591,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#899"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00899] In method org.apache.kafka.clients.producer.KafkaProducer.FutureFailure.isDone@POLYN567485 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00905"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#905"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00905] The class AppendCallbacks contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

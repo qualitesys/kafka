@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 162 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 158 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -563,13 +563,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "65"
@@ -921,13 +914,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#228"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00228] The class BatchFilterResult contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00241"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#241"
  , "c2" : "MINOR"
@@ -1026,20 +1012,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#303"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00303] The class RecordFilter contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00312"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#312"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00312] The class BatchRetentionResult contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#329"
  , "c2" : "MINOR"
@@ -1051,13 +1023,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#332"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00332] For method shouldRetainRecord arguments RecordBatch  recordBatch|Record  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#335"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00335] The class FilterResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

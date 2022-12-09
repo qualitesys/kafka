@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java 9 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java 8 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.xml" 
  , "fic3"  : "" 
 }
@@ -85,13 +85,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
@@ -106,13 +99,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00007"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.html#7"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00007] The class Timestamp contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00014"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.html#14"

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftConfig.java 47 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftConfig.java 43 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -198,13 +198,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "25"
@@ -233,20 +226,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00021] The class RaftConfig contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00077] The class InetAddressSpec contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#81"
@@ -294,13 +273,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#99"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.raft.RaftConfig.InetAddressSpec.equals@POLYN180035 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00107] The class UnknownAddressSpec contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -497,13 +469,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#219"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00219] The argument voterConnections is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#230"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00230] The class ControllerQuorumVotersValidator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

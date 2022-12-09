@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java 11 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java 9 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -184,13 +184,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "5"
@@ -205,13 +198,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class StateQueryRequest contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#39"
@@ -252,13 +238,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#128"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.query.StateQueryRequest.getPartitions@POLYN168438 the MagicNumber/String  'Cannot list partitions of an 'all partitions' request' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00145] The class InStore contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

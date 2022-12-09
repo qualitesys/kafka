@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 116 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 112 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -151,13 +151,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "56"
@@ -179,20 +172,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00023"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#23"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00023] The class LsCommandHandler contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00028] The class LsCommandType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#34"
@@ -289,13 +268,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#62"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.shell.LsCommandHandler.LsCommandType.completeNext@POLYN184153 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00073] The class TargetDirectory contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -730,13 +702,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#197"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.shell.LsCommandHandler.calculateColumnSchema@POLYN190718 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#200"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00200] The class ColumnSchema contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

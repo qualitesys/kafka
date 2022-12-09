@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java 154 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java 151 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.xml" 
  , "fic3"  : "" 
 }
@@ -225,13 +225,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "89"
@@ -246,20 +239,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#53"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00053] The class TopicAdmin contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00057] The class TopicCreationResponse contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#75"
@@ -335,13 +314,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#99"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00099] Public method isEmpty is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#118"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00118] The class NewTopicBuilder contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

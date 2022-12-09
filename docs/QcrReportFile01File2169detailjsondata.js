@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java 49 rule violations " 
+ , "texte" : "File tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java 44 rule violations " 
  , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.xml" 
  , "fic3"  : "" 
 }
@@ -146,13 +146,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "29"
@@ -174,13 +167,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00039] The class PushHttpMetricsReporter contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#88"
@@ -305,13 +291,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#144"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.tools.PushHttpMetricsReporter.close@POLYN189903 the MagicNumber/String  'Interrupted when shutting down PushHttpMetricsReporter' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#148"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00148] The class HttpReporter contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -487,27 +466,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#212"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.tools.PushHttpMetricsReporter.readResponse@POLYN193699 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00216"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#216"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00216] The class MetricsReport contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#236"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00236] The class MetricClientInfo contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#263"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00263] The class MetricValue contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

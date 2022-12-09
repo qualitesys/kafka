@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java 7 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java 6 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.xml" 
  , "fic3"  : "" 
 }
@@ -93,13 +93,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
@@ -108,13 +101,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#10"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class StringSerde contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00013"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/StringSerde.java.html#13"

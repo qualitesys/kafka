@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 106 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 104 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -381,13 +381,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -967,13 +960,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00346"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#346"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00346] The class LogOffsetPosition contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00358"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#358"
  , "c2" : "MINOR"
@@ -1062,13 +1048,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#386"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.common.record.FileRecords.LogOffsetPosition.toString@POLYN249285 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00390"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#390"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00390] The class TimestampAndOffset contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

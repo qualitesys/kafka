@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java 137 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java 135 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.xml" 
  , "fic3"  : "" 
 }
@@ -363,13 +363,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "75"
@@ -398,13 +391,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class SaslClientAuthenticator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#90"
@@ -1026,13 +1012,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#557"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.firstPrincipal@POLYN271964 the MagicNumber/String  'Principal could not be determined from Subject, this may be a transient failure due to Kerberos re-login' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00562"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#562"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00562] The class ReauthInfo contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java 114 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java 112 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.xml" 
  , "fic3"  : "" 
 }
@@ -425,13 +425,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "75"
@@ -453,13 +446,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00030] The class MockProducer contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#53"
@@ -1165,13 +1151,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#442"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN242995 the MagicNumber/String  '].' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#450"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00450] The class Completion contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

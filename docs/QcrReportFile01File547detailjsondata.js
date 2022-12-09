@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 81 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 80 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.xml" 
  , "fic3"  : "" 
 }
@@ -430,13 +430,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "50"
@@ -603,13 +596,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#246"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00246] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#251"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00251] The class DataLogInputStream contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

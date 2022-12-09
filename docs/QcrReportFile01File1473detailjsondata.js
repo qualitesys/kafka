@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Character.java.html" 
- , "texte" : "File secujava/java.lang.Character.java 222 rule violations " 
+ , "texte" : "File secujava/java.lang.Character.java 219 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Character.java.xml" 
  , "fic3"  : "" 
 }
@@ -918,13 +918,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "113"
@@ -946,20 +939,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#123"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00123] The class Character contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00589"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#589"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00589] The class Subset contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00600"
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#600"
@@ -1056,13 +1035,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#3055"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[03055] In method java.lang.Character.UnicodeBlock.forName@POLYN1284617 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04357"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#4357"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[04357] The class CharacterCache contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

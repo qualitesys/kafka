@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java 38 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java 36 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.xml" 
  , "fic3"  : "" 
 }
@@ -177,13 +177,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "32"
@@ -205,13 +198,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class ConfigEntry contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#26"
@@ -392,13 +378,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#141"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN182144 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00170] The class ConfigSynonym contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

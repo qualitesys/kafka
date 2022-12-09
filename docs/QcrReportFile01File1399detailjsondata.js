@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 398 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 393 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -1008,13 +1008,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "230"
@@ -1043,13 +1036,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#89"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00089] The class KafkaRaftClient contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#136"
@@ -3347,13 +3333,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02040"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2040"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02040] The class RaftMetadataLogCleanerManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02046"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2046"
  , "c2" : "CRITICAL"
@@ -3585,13 +3564,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02231"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2231"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02231] The class GracefulShutdown contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02241"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2241"
  , "c2" : "MINOR"
@@ -3624,20 +3596,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2265"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02265] In method org.apache.kafka.raft.KafkaRaftClient.GracefulShutdown.complete@POLYN628136 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02269"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2269"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02269] The class Registration contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02299"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2299"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02299] The class ListenerContext contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

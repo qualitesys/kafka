@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java 8 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java 6 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.xml" 
  , "fic3"  : "" 
 }
@@ -105,13 +105,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1"
@@ -126,13 +119,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00012"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#12"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00012] The class ThresholdPurgatory contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00023"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#23"
@@ -159,13 +145,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#48"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00048] For method completeAllExceptionally arguments Throwable  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00059] The class ThresholdKey contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

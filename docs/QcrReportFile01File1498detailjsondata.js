@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html" 
- , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2251 rule violations " 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2245 rule violations " 
  , "fic2"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.xml" 
  , "fic3"  : "" 
 }
@@ -736,13 +736,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "1384"
@@ -771,13 +764,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00108] The class Node contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#124"
@@ -6575,13 +6561,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01526"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1526"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01526] The class CounterCell contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01536"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1536"
  , "c2" : "MAJOR"
@@ -9116,20 +9095,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02232"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2232"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02232] The class TableStack contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02240"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2240"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02240] The class Traverser contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02254"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2254"
  , "c2" : "MAJOR"
@@ -9456,13 +9421,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2392"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02392] In method java.util.concurrent.ConcurrentHashMap.EntryIterator.next@POLYN1598710 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02403"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2403"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02403] The class MapEntry contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11150,13 +11108,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2893"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02893] In method java.util.concurrent.ConcurrentHashMap.reduceEntriesToInt@POLYN1641416 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02900"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2900"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02900] The class CollectionView contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

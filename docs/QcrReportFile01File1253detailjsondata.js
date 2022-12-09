@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/IsNullConditional.java 33 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/IsNullConditional.java 31 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.xml" 
  , "fic3"  : "" 
 }
@@ -155,13 +155,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "15"
@@ -176,20 +169,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00006"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#6"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00006] The class IsNullConditional contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00011"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#11"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00011] The class PrimitiveConditionalGenerator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00015"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html#15"

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Integer.java.html" 
- , "texte" : "File secujava/java.lang.Integer.java 215 rule violations " 
+ , "texte" : "File secujava/java.lang.Integer.java 214 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Integer.java.xml" 
  , "fic3"  : "" 
 }
@@ -444,13 +444,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE390"
  , "c3" : "Detection of error condition without action"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -957,13 +950,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Integer.java.html#582"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00582] In method java.lang.Integer.valueOf@POLYN428833 the MagicNumber/String  10 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/secujava/java.lang.Integer.java.html#596"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00596] The class IntegerCache contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

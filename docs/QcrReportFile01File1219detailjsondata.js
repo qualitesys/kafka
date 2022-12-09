@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java 75 rule violations " 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java 73 rule violations " 
  , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.xml" 
  , "fic3"  : "" 
 }
@@ -155,13 +155,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "48"
@@ -176,20 +169,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00026"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#26"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00026] The class InsertField contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class InsertionSpec contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#71"

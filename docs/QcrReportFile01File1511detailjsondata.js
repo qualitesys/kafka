@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java 23 rule violations " 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java 21 rule violations " 
  , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.xml" 
  , "fic3"  : "" 
 }
@@ -99,13 +99,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "12"
@@ -127,13 +120,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00024] The class CheckpointFile contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00032"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#32"
@@ -181,13 +167,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#75"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00075] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#83"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00083] The class CheckpointReadBuffer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

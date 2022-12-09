@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java 100 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java 97 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.xml" 
  , "fic3"  : "" 
 }
@@ -74,13 +74,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "42"
@@ -110,13 +103,6 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#17"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00017] The class PrefixedSessionKeySchemas contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00023"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#23"
  , "c2" : "MINOR"
@@ -128,13 +114,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#24"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.extractPrefix@POLYN204340 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#27"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00027] The class TimeFirstSessionKeySchema contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -499,13 +478,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#203"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema.extractWindowBytesFromNonPrefixSessionKey@POLYN213820 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#209"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00209] The class KeyFirstSessionKeySchema contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

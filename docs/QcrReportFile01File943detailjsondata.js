@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java 17 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java 16 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.xml" 
  , "fic3"  : "" 
 }
@@ -103,13 +103,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "6"
@@ -131,13 +124,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#10"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class Decimal contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00015"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#15"

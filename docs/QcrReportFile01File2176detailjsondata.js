@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java 123 rule violations " 
+ , "texte" : "File tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java 120 rule violations " 
  , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.xml" 
  , "fic3"  : "" 
 }
@@ -157,13 +157,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "107"
@@ -185,13 +178,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00032] The class VerifiableProducer contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.html#85"
@@ -851,13 +837,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.html#283"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00283] The class ProducerEvent contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.html#299"
  , "c2" : "MAJOR"
@@ -932,13 +911,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.html#445"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00445] In method org.apache.kafka.tools.VerifiableProducer.printJson@POLYN225711 the MagicNumber/String  'Bad data can't be written as json: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableProducer.java.html#450"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00450] The class PrintInfoCallback contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

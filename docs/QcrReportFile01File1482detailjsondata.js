@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Number.java.html" 
- , "texte" : "File secujava/java.lang.Number.java 3 rule violations " 
+ , "texte" : "File secujava/java.lang.Number.java 2 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Number.java.xml" 
  , "fic3"  : "" 
 }
@@ -118,23 +118,9 @@ var maDataBlocs = {
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/secujava/java.lang.Number.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00049] The class Number contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Number.java.html#1"

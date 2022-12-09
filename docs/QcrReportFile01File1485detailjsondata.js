@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.String.java.html" 
- , "texte" : "File secujava/java.lang.String.java 280 rule violations " 
+ , "texte" : "File secujava/java.lang.String.java 278 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.String.java.xml" 
  , "fic3"  : "" 
 }
@@ -846,13 +846,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "185"
@@ -881,13 +874,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/secujava/java.lang.String.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00021] The class String contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#45"
@@ -1516,13 +1502,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.String.java.html#453"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00453] In method java.lang.String.compareTo@POLYN839863 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/secujava/java.lang.String.java.html#467"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00467] The class CaseInsensitiveComparator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

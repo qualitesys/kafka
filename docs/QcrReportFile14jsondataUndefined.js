@@ -842,6 +842,9 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.clients.consumer.ConsumerRecord.NO_TIMESTAMP" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.TimestampedBytesStore"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.clients.consumer.internals.Fetcher.hasUsableOffsetForLeaderEpochVersion" , "callers" : [
    {"caller" : "org.apache.kafka.clients.consumer.internals.SubscriptionState"} ,
    ]},
@@ -3210,9 +3213,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "kafka.server.builders.ReplicaManagerBuilder"} ,
    {"caller" : "org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark"} ,
    {"caller" : "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark"} ,
-   ]},
-   { "undefinedclass" : "staticorg.apache.kafka.clients.consumer.ConsumerRecord.NO_TIMESTAMP" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.TimestampedBytesStore"} ,
    ]},
    { "undefinedclass" : "sun.misc.DoubleConsts" , "callers" : [
    {"caller" : "java.lang.Double"} ,

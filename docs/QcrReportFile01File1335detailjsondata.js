@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java 13 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java 12 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.xml" 
  , "fic3"  : "" 
 }
@@ -153,13 +153,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "5"
@@ -174,13 +167,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#22"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00022] The class ConfigurationImage contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#45"

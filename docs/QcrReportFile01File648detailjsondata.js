@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java 18 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java 15 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -153,13 +153,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "10"
@@ -175,13 +168,6 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00021] The class Config contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#26"
  , "c2" : "MAJOR"
@@ -193,13 +179,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#27"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.requests.DescribeConfigsResponse.Config.Config@POLYN181799 the MagicNumber/String  'entries' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#39"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00039] The class ConfigEntry contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -228,13 +207,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#62"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigEntry.ConfigEntry@POLYN183200 the MagicNumber/String  'synonyms' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeConfigsResponse.java.html#173"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00173] The class ConfigSynonym contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

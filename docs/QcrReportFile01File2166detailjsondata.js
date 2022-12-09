@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java 35 rule violations " 
+ , "texte" : "File tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java 32 rule violations " 
  , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.xml" 
  , "fic3"  : "" 
 }
@@ -67,13 +67,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "21"
@@ -88,13 +81,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00102] The class OAuthCompatibilityTool contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#104"
@@ -187,13 +173,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00166] The class ArgsHandler contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#178"
  , "c2" : "MAJOR"
@@ -233,13 +212,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#243"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.addArgument@POLYN224838 the MagicNumber/String  '--' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#254"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00254] The class ConfigHandler contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

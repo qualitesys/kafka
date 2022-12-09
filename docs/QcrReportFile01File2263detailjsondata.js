@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java 40 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java 37 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.xml" 
  , "fic3"  : "" 
 }
@@ -128,13 +128,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "27"
@@ -163,13 +156,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00013"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#13"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00013] The class Histogram contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00019"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#19"
@@ -224,20 +210,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#39"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00039] For method add arguments long  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00049] The class Summary contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#79"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00079] The class PercentileSummary contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

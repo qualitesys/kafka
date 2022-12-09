@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java 1 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java 0 rule violation " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.xml" 
  , "fic3"  : "" 
 }
@@ -55,24 +55,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00007"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.html#7"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00007] The class WindowCloseStrategy contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
 ]
 , 
 "data15" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java 6 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java 4 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.xml" 
  , "fic3"  : "" 
 }
@@ -96,13 +96,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "4"
@@ -110,13 +103,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00014"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#14"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00014] The class AclDeleteResult contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#23"
@@ -129,13 +115,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#33"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.server.authorizer.AclDeleteResult.exception@POLYN151330 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#43"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00043] The class AclBindingDeleteResult contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

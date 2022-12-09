@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java 131 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java 128 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.xml" 
  , "fic3"  : "" 
 }
@@ -226,13 +226,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "55"
@@ -261,13 +254,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#38"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00038] The class SslFactory contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#49"
@@ -612,13 +598,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00213] The class CertificateEntries contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#218"
  , "c2" : "MINOR"
@@ -763,13 +742,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#278"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.toString@POLYN233835 the MagicNumber/String  ', subjectAltNames=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#283"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00283] The class SslEngineValidator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java 67 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java 66 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.xml" 
  , "fic3"  : "" 
 }
@@ -152,13 +152,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "23"
@@ -180,13 +173,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00016"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#16"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00016] The class ReplicatedCounter contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00032"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#32"

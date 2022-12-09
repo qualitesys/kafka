@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 149 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 146 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -194,13 +194,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "93"
@@ -223,24 +216,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00032] The class FetchSessionHandler contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#40"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00040] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#56"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00056] The class FetchRequestData contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -367,13 +346,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#165"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.FetchSessionHandler.FetchRequestData.toString@POLYN241094 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00170] The class Builder contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

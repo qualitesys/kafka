@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 148 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 138 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -185,13 +185,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "10"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "92"
@@ -213,13 +206,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00051] The class TaskManager contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#81"
@@ -267,13 +253,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#96"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.coordinator.TaskManager.TaskManager@POLYN256183 the MagicNumber/String  ', ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#99"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00099] The class ManagedTask contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -431,13 +410,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#239"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00239] The class CreateTask contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#248"
  , "c2" : "MAJOR"
@@ -557,13 +529,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#293"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00293] The class RunTask contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#304"
  , "c2" : "MAJOR"
@@ -631,13 +596,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#336"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.trogdor.coordinator.TaskManager.stopTask@POLYN270507 the MagicNumber/String  'stopTask(id={}) error' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#342"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00342] The class CancelTask contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -774,13 +732,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#408"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00408] The class DestroyTask contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#430"
  , "c2" : "MAJOR"
@@ -834,13 +785,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#438"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00438] For method updateWorkerState arguments String  nodeName|long  workerId|WorkerState  state"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00443"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#443"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00443] The class UpdateWorkerState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -991,24 +935,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00513"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#513"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00513] The class GetTasksResponse contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#533"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00533] For method task arguments TaskRequest  request"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00538"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#538"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00538] The class GetTaskState contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1051,13 +981,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#565"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.trogdor.coordinator.TaskManager.waitForShutdown@POLYN283523 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00568"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#568"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00568] The class Shutdown contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

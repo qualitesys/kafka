@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java 42 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java 41 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.xml" 
  , "fic3"  : "" 
 }
@@ -162,13 +162,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "20"
@@ -183,13 +176,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00024"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#24"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00024] The class KafkaConfigSchema contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#30"

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.HashMap.java.html" 
- , "texte" : "File secujava/java.util.HashMap.java 826 rule violations " 
+ , "texte" : "File secujava/java.util.HashMap.java 823 rule violations " 
  , "fic2"  : "./qc/secujava/java.util.HashMap.java.xml" 
  , "fic3"  : "" 
 }
@@ -545,13 +545,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "584"
@@ -573,13 +566,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/secujava/java.util.HashMap.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00042] The class Node contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#57"
@@ -3367,13 +3353,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00936"
- , "c1link" : "./qc/secujava/java.util.HashMap.java.html#936"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00936] The class HashIterator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00948"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#948"
  , "c2" : "MAJOR"
@@ -3504,13 +3483,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#977"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00977] In method java.util.HashMap.HashIterator.remove@POLYN670573 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01000"
- , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1000"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[01000] The class HashMapSpliterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

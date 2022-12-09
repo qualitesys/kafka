@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java 2 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java 1 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.xml" 
  , "fic3"  : "" 
 }
@@ -64,23 +64,9 @@ var maDataBlocs = {
  , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00004"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#4"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00004] The class InternalFixedKeyRecordFactory contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00010"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#10"

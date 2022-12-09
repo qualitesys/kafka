@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java 84 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java 81 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -205,13 +205,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -658,13 +651,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00424"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#424"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00424] The class ListenersValidator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#426"
  , "c2" : "MINOR"
@@ -721,13 +707,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00452"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#452"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00452] The class AdminListenersValidator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00454"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#454"
  , "c2" : "MINOR"
@@ -781,13 +760,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#480"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.connect.runtime.WorkerConfig.AdminListenersValidator.toString@POLYN238645 the MagicNumber/String  'List of comma-separated URLs, ex: http://localhost:8080,https://localhost:8443.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00484"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#484"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00484] The class ResponseHttpHeadersValidator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

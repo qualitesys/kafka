@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java 40 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java 36 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.xml" 
  , "fic3"  : "" 
 }
@@ -110,13 +110,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "13"
@@ -153,20 +146,6 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00021"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#21"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00021] The class Kibosh contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#32"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00032] The class KiboshFaultSpec contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#34"
  , "c2" : "MINOR"
@@ -199,13 +178,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#36"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshFaultSpec.equals@POLYN166060 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#73"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00073] The class KiboshProcess contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -269,13 +241,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#102"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.trogdor.fault.Kibosh.KiboshProcess.removeFault@POLYN168402 the MagicNumber/String  '. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00108] The class KiboshControlFile contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

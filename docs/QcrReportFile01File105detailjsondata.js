@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 882 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 873 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -853,13 +853,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "391"
@@ -1414,20 +1407,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00575"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#575"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00575] The class MetadataUpdateNodeIdProvider contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00582"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#582"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00582] The class ConstantNodeIdProvider contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00592"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#592"
  , "c2" : "MAJOR"
@@ -1439,13 +1418,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#600"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.clients.admin.KafkaAdminClient.ConstantNodeIdProvider.provide@POLYN986424 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00605"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#605"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00605] The class ControllerNodeProvider contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1463,24 +1435,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00618"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#618"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00618] The class LeastLoadedNodeProvider contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00627"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#627"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.clients.admin.KafkaAdminClient.LeastLoadedNodeProvider.provide@POLYN987367 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00631"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#631"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00631] The class Call contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1687,24 +1645,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00762"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#762"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00762] The class TimeoutProcessorFactory contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00763"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#763"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00763] For method create arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00768"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#768"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00768] The class TimeoutProcessor contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1796,13 +1740,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#804"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00804] In method org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessor.callHasExpired@POLYN996051 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00812"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#812"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00812] The class AdminClientRunnable contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5114,13 +5051,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2986"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02986] In method org.apache.kafka.clients.admin.KafkaAdminClient.validAclOperations@POLYN1124350 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02997"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2997"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[02997] The class ListConsumerGroupsResults contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java 51 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java 48 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.xml" 
  , "fic3"  : "" 
 }
@@ -263,13 +263,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "31"
@@ -284,13 +277,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00031"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#31"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00031] The class BatchAccumulator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#78"
@@ -572,13 +558,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#365"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00365] The class CompletedBatch contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#377"
  , "c2" : "CRITICAL"
@@ -611,13 +590,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#399"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.raft.internals.BatchAccumulator.CompletedBatch.CompletedBatch@POLYN227141 the MagicNumber/String  'Expected memory records to contain one batch' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#425"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00425] The class SimpleTimer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

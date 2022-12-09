@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java 29 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java 26 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.xml" 
  , "fic3"  : "" 
 }
@@ -117,13 +117,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "18"
@@ -138,20 +131,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#29"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00029] The class InteractiveShell contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00030] The class MetadataShellCompleter contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#38"
@@ -332,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#120"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.shell.InteractiveShell.history@POLYN167979 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00127] The class HistoryIterator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ]
 , 

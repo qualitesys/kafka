@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Values.java 437 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Values.java 434 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.xml" 
  , "fic3"  : "" 
 }
@@ -388,13 +388,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "158"
@@ -416,13 +409,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00033] The class Values contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#77"
@@ -1789,13 +1775,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00908"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#908"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00908] The class SchemaDetector contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00915"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#915"
  , "c2" : "MINOR"
@@ -1870,13 +1849,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#932"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00932] For method schema list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_typeN421734"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00941"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#941"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00941] The class Parser contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

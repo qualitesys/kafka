@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html" 
- , "texte" : "File tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java 172 rule violations " 
+ , "texte" : "File tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java 168 rule violations " 
  , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.xml" 
  , "fic3"  : "" 
 }
@@ -196,13 +196,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "143"
@@ -217,20 +210,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00059] The class ClientCompatibilityTest contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00062] The class TestConfig contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#74"
@@ -1048,20 +1027,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#350"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.tools.ClientCompatibilityTest.topicExists@POLYN241704 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#356"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00356] The class OffsetsForTime contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#365"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00365] The class ClientCompatibilityTestDeserializer contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

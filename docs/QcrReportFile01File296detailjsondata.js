@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 495 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 483 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.xml" 
  , "fic3"  : "" 
 }
@@ -644,13 +644,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "12"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "303"
@@ -679,13 +672,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00025"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#25"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00025] The class ConfigDef contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#39"
@@ -1597,13 +1583,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00544"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#544"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00544] The class Range contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00555"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#555"
  , "c2" : "MINOR"
@@ -1772,13 +1751,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00586"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#586"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00586] The class ValidList contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00594"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#594"
  , "c2" : "MINOR"
@@ -1797,13 +1769,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#600"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.common.config.ConfigDef.ValidList.ensureValid@POLYN483393 the MagicNumber/String  'unchecked' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00612"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#612"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00612] The class ValidString contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1853,13 +1818,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#633"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00633] In method org.apache.kafka.common.config.ConfigDef.ValidString.toString@POLYN484863 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00637"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#637"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00637] The class CaseInsensitiveValidString contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1926,13 +1884,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00664"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#664"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00664] The class NonNullValidator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00666"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#666"
  , "c2" : "MINOR"
@@ -1968,13 +1919,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00678"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#678"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00678] The class LambdaValidator contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00688"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#688"
  , "c2" : "MINOR"
@@ -1986,13 +1930,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#694"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00694] For method ensureValid arguments String  name|Object  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00704"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#704"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00704] The class CompositeValidator contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2045,13 +1982,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00736"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#736"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00736] The class NonEmptyString contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00739"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#739"
  , "c2" : "MINOR"
@@ -2077,13 +2007,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#748"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.common.config.ConfigDef.NonEmptyString.toString@POLYN489828 the MagicNumber/String  'non-empty string' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00752"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#752"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00752] The class NonEmptyStringWithoutControlChars contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2136,13 +2059,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00790"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#790"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00790] The class ListSize contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00797"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#797"
  , "c2" : "MINOR"
@@ -2189,13 +2105,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#812"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.common.config.ConfigDef.ListSize.toString@POLYN492347 the MagicNumber/String  ' elements' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00816"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#816"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00816] The class ConfigKey contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

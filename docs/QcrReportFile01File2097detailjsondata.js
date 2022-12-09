@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java 94 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java 91 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.xml" 
  , "fic3"  : "" 
 }
@@ -83,13 +83,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "37"
@@ -111,13 +104,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#18"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00018] The class PrefixedWindowKeySchemas contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00025"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#25"
@@ -151,13 +137,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#30"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.isTimeFirstSchemaKey@POLYN206819 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#33"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00033] The class TimeFirstWindowKeySchema contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,13 +438,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#208"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema.fromNonPrefixWindowKey@POLYN216636 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#215"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00215] The class KeyFirstWindowKeySchema contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""

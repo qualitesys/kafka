@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/FieldType.java 69 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/FieldType.java 55 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.xml" 
  , "fic3"  : "" 
 }
@@ -184,13 +184,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000008"
- , "c3" : "The class should be static contains no field, constructor, destructor"
- , "c4" : "14"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "37"
@@ -205,13 +198,6 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00010"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#10"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00010] The class BoolFieldType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00015"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#15"
@@ -231,13 +217,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#21"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.message.FieldType.BoolFieldType.fixedLength@POLYN184503 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#30"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00030] The class Int8FieldType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,13 +241,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#50"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00050] The class Int16FieldType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#55"
  , "c2" : "MINOR"
@@ -287,13 +259,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#61"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.FieldType.Int16FieldType.fixedLength@POLYN185713 the MagicNumber/String  2 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#70"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00070] The class Uint16FieldType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -318,13 +283,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00090] The class Int32FieldType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#95"
  , "c2" : "MINOR"
@@ -343,13 +301,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#101"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.FieldType.Int32FieldType.fixedLength@POLYN186923 the MagicNumber/String  4 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00110] The class Uint32FieldType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -374,13 +325,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#130"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00130] The class Int64FieldType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#135"
  , "c2" : "MINOR"
@@ -399,13 +343,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#141"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.message.FieldType.Int64FieldType.fixedLength@POLYN188133 the MagicNumber/String  8 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00150] The class UUIDFieldType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -437,13 +374,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00171] The class Float64FieldType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#177"
  , "c2" : "MAJOR"
@@ -469,13 +399,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#187"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.message.FieldType.Float64FieldType.isFloat@POLYN189563 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#196"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00196] The class StringFieldType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -511,13 +434,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#217"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.message.FieldType.StringFieldType.canBeNullable@POLYN190312 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#226"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00226] The class BytesFieldType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -563,13 +479,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#257"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00257] The class RecordsFieldType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#262"
  , "c2" : "MINOR"
@@ -612,13 +521,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#288"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00288] The class StructType contains no field, constructor, finalize. Must contain only static methods, check it"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#296"
  , "c2" : "MINOR"
@@ -637,13 +539,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#307"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.message.FieldType.StructType.isStruct@POLYN192609 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#320"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000008[00320] The class ArrayType contains no field, constructor, finalize. Must contain only static methods, check it"
 }} 
 ,
 { "ligne" : {"" : ""
