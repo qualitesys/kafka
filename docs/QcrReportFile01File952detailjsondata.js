@@ -588,7 +588,7 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method convertTo list of called methods Object monObjet|byte[] Utils_toArrayN381893|org.apache.kafka.connect.data.SchemaAndValue parseStringN383674|org.apache.kafka.connect.data.SchemaAndValue parseStringN384864|java.lang.Object parsed_valueN384969|java.lang.String fromSchema_nameN385201|long asLongN385909|org.apache.kafka.connect.data.SchemaAndValue parseStringN386338|java.lang.Object parsed_valueN386443|java.lang.String fromSchema_nameN386675|long asLongN387681|org.apache.kafka.connect.data.SchemaAndValue parseStringN388375|java.lang.Object parsed_valueN388480|java.lang.String fromSchema_nameN388818|int Date_fromLogicalN388989|int Time_fromLogicalN389375|long asLongN389778|org.apache.kafka.connect.data.SchemaAndValue parseStringN390829|java.lang.Object schemaAndValue_valueN390934|org.apache.kafka.connect.data.SchemaAndValue parseStringN391227|java.lang.Object schemaAndValue_valueN391332"
+ , "c3" : "QC-JAV000007[00227] For method convertTo list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaAndValue parseStringN383674|org.apache.kafka.connect.data.SchemaAndValue parseStringN384864|java.lang.Object parsed_valueN384969|java.lang.String fromSchema_nameN385201|long asLongN385909|org.apache.kafka.connect.data.SchemaAndValue parseStringN386338|java.lang.Object parsed_valueN386443|java.lang.String fromSchema_nameN386675|long asLongN387681|org.apache.kafka.connect.data.SchemaAndValue parseStringN388375|java.lang.Object parsed_valueN388480|java.lang.String fromSchema_nameN388818|int Date_fromLogicalN388989|int Time_fromLogicalN389375|long asLongN389778|org.apache.kafka.connect.data.SchemaAndValue parseStringN390829|java.lang.Object schemaAndValue_valueN390934|org.apache.kafka.connect.data.SchemaAndValue parseStringN391227|java.lang.Object schemaAndValue_valueN391332"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -861,7 +861,7 @@ var maDataBlocs = {
  , "c1" : "00468"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#468"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00468] For method append list of called methods Object monObjet|java.lang.String escapeN395900|byte[] Utils_readBytesN396826|org.apache.kafka.connect.data.Schema struct_schemaN398065|java.text.DateFormat dateFormatForN399721"
+ , "c3" : "QC-JAV000007[00468] For method append list of called methods Object monObjet|java.lang.String escapeN395900|java.text.DateFormat dateFormatForN399721"
 }} 
 ,
 { "ligne" : {"" : ""

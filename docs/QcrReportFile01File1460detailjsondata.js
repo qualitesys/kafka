@@ -2212,7 +2212,7 @@ var maDataBlocs = {
  , "c1" : "00385"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#385"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00385] For method verifySubclass list of called methods Object monObjet|java.lang.Class&lt;?&gt; getClassN574250|java.lang.Boolean Boolean_valueOfN574978"
+ , "c3" : "QC-JAV000007[00385] For method verifySubclass list of called methods Object monObjet|Class&lt;?&gt; getClassN574250|java.lang.Boolean Boolean_valueOfN574978"
 }} 
 ,
 { "ligne" : {"" : ""

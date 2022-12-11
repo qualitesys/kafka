@@ -8,7 +8,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "com.github.luben.zstd.BufferPool" , "callers" : [
    {"caller" : "org.apache.kafka.common.compress.ZstdFactory"} ,
@@ -151,16 +150,12 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "java.util.UUID.randomUUID" , "callers" : [
    {"caller" : "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor"} ,
    ]},
-   { "undefinedclass" : "java.util.concurrent.TimeUnit.MICROSECONDS" , "callers" : [
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
-   ]},
    { "undefinedclass" : "java.util.concurrent.TimeUnit.MILLISECONDS" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ControllerRequestContext"} ,
    ]},
    { "undefinedclass" : "java.util.concurrent.TimeUnit.NANOSECONDS" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ClusterControlManager"} ,
    {"caller" : "org.apache.kafka.controller.ControllerRequestContext"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    ]},
    { "undefinedclass" : "java.util.stream.Collectors.joining" , "callers" : [
    {"caller" : "org.apache.kafka.clients.admin.FeatureMetadata"} ,
@@ -282,7 +277,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "javax.ws.rs.core.HttpHeaders" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.InternalRequestSignature"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
    {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"} ,
    ]},
    { "undefinedclass" : "javax.ws.rs.core.MediaType" , "callers" : [
@@ -295,7 +289,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "javax.ws.rs.core.Response" , "callers" : [
    {"caller" : "org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
    {"caller" : "org.apache.kafka.connect.runtime.rest.errors.BadRequestException"} ,
    {"caller" : "org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper"} ,
    {"caller" : "org.apache.kafka.connect.runtime.rest.errors.ConnectRestException"} ,
@@ -832,33 +825,144 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "net.sourceforge.argparse4j.internal.HelpScreenException" , "callers" : [
    {"caller" : "org.apache.kafka.shell.Commands"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.clients.FetchSessionHandler" , "callers" : [
+   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark"} ,
+   {"caller" : "org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.clients.admin.AdminClientTestUtils" , "callers" : [
    {"caller" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.clients.admin.AdminClientUnitTestEnv" , "callers" : [
    {"caller" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.clients.admin.DescribeTopicsResult" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.InternalTopicManager"} ,
+   {"caller" : "org.apache.kafka.trogdor.common.WorkerUtils"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.clients.admin.KafkaAdminClient" , "callers" : [
+   {"caller" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.clients.admin.internals.MetadataOperationContext" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.clients.consumer.ConsumerRecord.NO_TIMESTAMP" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.TimestampedBytesStore"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.clients.consumer.ConsumerRecords" , "callers" : [
+   {"caller" : "kafka.examples.Consumer"} ,
+   {"caller" : "kafka.examples.ExactlyOnceMessageProcessor"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorClient"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorSourceTask"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerSinkTask"} ,
+   {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.GlobalStreamThread"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StoreChangelogReader"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StreamThread"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.TaskManager"} ,
+   {"caller" : "org.apache.kafka.tools.ClientCompatibilityTest"} ,
+   {"caller" : "org.apache.kafka.tools.TransactionalMessageCopier"} ,
+   {"caller" : "org.apache.kafka.tools.VerifiableConsumer"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ConsumeBenchWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.RecordProcessor"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.RoundTripWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.TimestampRecordProcessor"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.clients.consumer.internals.Fetcher.hasUsableOffsetForLeaderEpochVersion" , "callers" : [
    {"caller" : "org.apache.kafka.clients.consumer.internals.SubscriptionState"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.common.KafkaFuture" , "callers" : [
+   {"caller" : "kafka.tools.StreamsResetter"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AbortTransactionResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.Admin"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AlterClientQuotasResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AlterConfigsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.CreateAclsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.CreateDelegationTokenResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.CreatePartitionsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.CreateTopicsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DeleteAclsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DeleteRecordsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DeleteTopicsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeAclsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeClientQuotasResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeClusterResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeConfigsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeDelegationTokenResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeFeaturesResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeLogDirsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeProducersResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DescribeTransactionsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ElectLeadersResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ExpireDelegationTokenResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListOffsetsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListTopicsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListTransactionsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.RenewDelegationTokenResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.UnregisterBrokerResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.UpdateFeaturesResult"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.Worker"} ,
+   {"caller" : "org.apache.kafka.connect.util.TopicAdmin"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.ClientUtils"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.InternalTopicManager"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.TopologyMetadata"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult"} ,
+   {"caller" : "org.apache.kafka.trogdor.agent.Agent"} ,
+   {"caller" : "org.apache.kafka.trogdor.agent.WorkerManager"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.config.AbstractConfig" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.ClientUtils"} ,
+   {"caller" : "org.apache.kafka.clients.CommonClientConfigs"} ,
+   {"caller" : "org.apache.kafka.clients.GroupRebalanceConfig"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AdminClientConfig"} ,
+   {"caller" : "org.apache.kafka.clients.consumer.ConsumerConfig"} ,
+   {"caller" : "org.apache.kafka.clients.producer.ProducerConfig"} ,
+   {"caller" : "org.apache.kafka.common.network.ChannelBuilders"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.secured.JaasOptionsUtils"} ,
+   {"caller" : "org.apache.kafka.connect.file.FileStreamSinkConnector"} ,
+   {"caller" : "org.apache.kafka.connect.file.FileStreamSourceConnector"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.DefaultGroupFilter"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.DefaultTopicFilter"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorClientConfig"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorMakerConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.AbstractHerder"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.SourceConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.TaskConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerConfig"} ,
+   {"caller" : "org.apache.kafka.connect.storage.ConverterConfig"} ,
+   {"caller" : "org.apache.kafka.connect.transforms.util.SimpleConfig"} ,
+   {"caller" : "org.apache.kafka.raft.RaftConfig"} ,
+   {"caller" : "org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig"} ,
+   {"caller" : "org.apache.kafka.streams.StreamsConfig"} ,
+   {"caller" : "org.apache.kafka.streams.TopologyConfig"} ,
+   {"caller" : "org.apache.kafka.tools.OAuthCompatibilityTool"} ,
+   {"caller" : "org.apache.kafka.tools.PushHttpMetricsReporter"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.common.config.ConfigDef.ListSize.atMostOfSize" , "callers" : [
    {"caller" : "org.apache.kafka.streams.StreamsConfig"} ,
-   ]},
-   { "undefinedclass" : "org.apache.kafka.common.config.ConfigDef.NonEmptyStringWithoutControlChars.nonEmptyStringWithoutControlChars" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.config.ConfigDef.Range.atLeast" , "callers" : [
    {"caller" : "org.apache.kafka.clients.admin.AdminClientConfig"} ,
    {"caller" : "org.apache.kafka.clients.consumer.ConsumerConfig"} ,
    {"caller" : "org.apache.kafka.clients.producer.ProducerConfig"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,
    {"caller" : "org.apache.kafka.connect.runtime.WorkerConfig"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.DistributedConfig"} ,
    {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManagerConfig"} ,
@@ -879,7 +983,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.connect.mirror.MirrorClientConfig"} ,
    {"caller" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig"} ,
    {"caller" : "org.apache.kafka.connect.mirror.MirrorMakerConfig"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,
    {"caller" : "org.apache.kafka.connect.runtime.WorkerConfig"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.DistributedConfig"} ,
    {"caller" : "org.apache.kafka.connect.storage.ConverterConfig"} ,
@@ -890,6 +993,39 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.connect.mirror.MirrorMakerConfig"} ,
    {"caller" : "org.apache.kafka.connect.runtime.AbstractHerder"} ,
    {"caller" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.feature.Features" , "callers" : [
+   {"caller" : "org.apache.kafka.common.requests.ApiVersionsResponse"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.internals.KafkaFutureImpl" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ElectLeadersResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ListTransactionsResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult"} ,
+   {"caller" : "org.apache.kafka.clients.admin.internals.AllBrokersStrategy"} ,
+   {"caller" : "org.apache.kafka.common.requests.AlterClientQuotasResponse"} ,
+   {"caller" : "org.apache.kafka.common.requests.DescribeClientQuotasResponse"} ,
+   {"caller" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.TopologyMetadata"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult"} ,
+   {"caller" : "org.apache.kafka.trogdor.agent.WorkerManager"} ,
+   {"caller" : "org.apache.kafka.trogdor.common.WorkerUtils"} ,
+   {"caller" : "org.apache.kafka.trogdor.fault.DegradedNetworkFaultWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.fault.KiboshFaultWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.fault.ProcessStopFaultWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.task.NoOpTaskWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.task.TaskWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ConfigurableProducerWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ConnectionStressWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ConsumeBenchWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ExternalCommandWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ProduceBenchWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.RoundTripWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.SustainedConnectionWorker"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AddOffsetsToTxnRequestData" , "callers" : [
    {"caller" : "org.apache.kafka.clients.producer.internals.TransactionManager"} ,
@@ -926,13 +1062,11 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.message.AllocateProducerIdsRequestData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.AllocateProducerIdsRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AllocateProducerIdsResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.AllocateProducerIdsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.AllocateProducerIdsResponse"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterClientQuotasRequestData.EntityData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.AlterClientQuotasRequest"} ,
@@ -964,28 +1098,22 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.AlterConfigsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterPartitionReassignmentsRequestData.ReassignablePartition" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterPartitionReassignmentsRequestData.ReassignableTopic" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterPartitionReassignmentsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterPartitionReassignmentsResponseData.ReassignablePartitionResponse" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterPartitionReassignmentsResponseData.ReassignableTopicResponse" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
@@ -993,37 +1121,23 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterPartitionRequestData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterPartitionResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterPartitionResponse"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.AlterReplicaLogDirsRequestData.AlterReplicaLogDir" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.AlterReplicaLogDirsRequestData.AlterReplicaLogDirTopic" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterReplicaLogDirsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.AlterReplicaLogDirsResponseData.AlterReplicaLogDirPartitionResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterReplicaLogDirsResponseData.AlterReplicaLogDirTopicResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterReplicaLogDirsResponseData" , "callers" : [
@@ -1031,7 +1145,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.AlterReplicaLogDirsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterUserScramCredentialsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.AlterUserScramCredentialsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.AlterUserScramCredentialsResponseData" , "callers" : [
@@ -1061,7 +1174,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.ApiVersionsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ApiVersionsResponseData.FinalizedFeatureKey" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ApiVersionsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ApiVersionsResponseData.FinalizedFeatureKeyCollection" , "callers" : [
@@ -1069,7 +1181,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ApiVersionsResponseData.SupportedFeatureKey" , "callers" : [
    {"caller" : "org.apache.kafka.clients.NodeApiVersions"} ,
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ApiVersionsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ApiVersionsResponseData.SupportedFeatureKeyCollection" , "callers" : [
@@ -1092,7 +1203,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest"} ,
    {"caller" : "org.apache.kafka.controller.BrokerHeartbeatManager"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.BrokerHeartbeatResponseData" , "callers" : [
@@ -1103,7 +1213,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.BrokerRegistrationRequest"} ,
    {"caller" : "org.apache.kafka.controller.ClusterControlManager"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.BrokerRegistrationResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.BrokerRegistrationRequest"} ,
@@ -1126,55 +1235,38 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.ControlledShutdownResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateAclsRequestData.AclCreation" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateAclsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateAclsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateAclsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateAclsResponseData.AclCreationResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateAclsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateAclsResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.CreateAclsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateAclsResponse"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.CreateDelegationTokenRequestData.CreatableRenewers" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateDelegationTokenRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateDelegationTokenRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateDelegationTokenResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateDelegationTokenResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreatePartitionsRequestData.CreatePartitionsAssignment" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreatePartitionsRequestData.CreatePartitionsTopic" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreatePartitionsRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.CreatePartitionsRequestData.CreatePartitionsTopicCollection" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreatePartitionsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreatePartitionsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreatePartitionsResponseData.CreatePartitionsTopicResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreatePartitionsRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreatePartitionsResponseData" , "callers" : [
@@ -1191,7 +1283,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateTopicsRequestData.CreatableTopicCollection" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateTopicsRequestData.CreateableTopicConfig" , "callers" : [
@@ -1201,17 +1292,11 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateTopicsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateTopicsRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.CreateTopicsResponseData.CreatableTopicConfigs" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.CreateTopicsResponseData.CreatableTopicResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateTopicsRequest"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
@@ -1219,31 +1304,25 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.CreateTopicsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.CreateTopicsResponse"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DefaultPrincipalData" , "callers" : [
    {"caller" : "org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteAclsRequestData.DeleteAclsFilter" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteAclsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteAclsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteAclsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteAclsResponseData.DeleteAclsFilterResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteAclsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteAclsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteAclsResponseData.DeleteAclsMatchingAcl" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteAclsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteAclsResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteAclsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteAclsResponse"} ,
    ]},
@@ -1263,36 +1342,26 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.DeleteGroupsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteGroupsResponse"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.DeleteRecordsRequestData.DeleteRecordsPartition" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteRecordsRequestData.DeleteRecordsTopic" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteRecordsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteRecordsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteRecordsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteRecordsResponseData.DeleteRecordsTopicResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteRecordsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteRecordsResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteRecordsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteRecordsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteTopicsRequestData.DeleteTopicState" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteTopicsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteTopicsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteTopicsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteTopicsResponseData.DeletableTopicResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DeleteTopicsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DeleteTopicsResponseData" , "callers" : [
@@ -1337,7 +1406,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.image.ClientQuotasImage"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeClusterRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeClusterRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeClusterResponseData" , "callers" : [
@@ -1345,11 +1413,9 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.DescribeClusterResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeConfigsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeConfigsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeConfigsResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeConfigsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeConfigsResponse"} ,
    ]},
@@ -1380,15 +1446,10 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeGroupsResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.DescribeGroupsResponse"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.DescribeLogDirsRequestData.DescribableLogDirTopic" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeLogDirsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeLogDirsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeLogDirsResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeLogDirsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeLogDirsResponse"} ,
    ]},
@@ -1420,7 +1481,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.DescribeQuorumResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeQuorumResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeQuorumRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeQuorumResponse"} ,
    ]},
@@ -1436,15 +1496,10 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.DescribeTransactionsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeTransactionsResponse"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.DescribeUserScramCredentialsRequestData.UserName" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeUserScramCredentialsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.DescribeUserScramCredentialsResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsResponse"} ,
    ]},
@@ -1455,7 +1510,6 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.message.ElectLeadersRequestData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.ElectLeadersRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ElectLeadersResponseData.PartitionResult" , "callers" : [
@@ -1470,7 +1524,6 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.message.ElectLeadersResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.ElectLeadersResponse"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.EndQuorumEpochRequestData" , "callers" : [
@@ -1498,7 +1551,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.EnvelopeResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ExpireDelegationTokenRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ExpireDelegationTokenRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ExpireDelegationTokenResponseData" , "callers" : [
@@ -1581,17 +1633,11 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.message.JoinGroupRequestData.JoinGroupRequestProtocolCollection" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.JoinGroupRequestData" , "callers" : [
    {"caller" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator"} ,
    {"caller" : "org.apache.kafka.clients.consumer.internals.ConsumerCoordinator"} ,
    {"caller" : "org.apache.kafka.common.requests.JoinGroupRequest"} ,
-   ]},
-   { "undefinedclass" : "org.apache.kafka.common.message.JoinGroupResponseData.JoinGroupResponseMember" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.distributed.EagerAssignor"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.JoinGroupResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator"} ,
@@ -1638,7 +1684,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.metadata.util.SnapshotFileReader"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.LeaveGroupRequestData.MemberIdentity" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.clients.admin.MemberToRemove"} ,
    {"caller" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult"} ,
    {"caller" : "org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler"} ,
@@ -1658,20 +1703,16 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.LeaveGroupResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListGroupsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListGroupsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListGroupsResponseData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListGroupsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.ListGroupsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListOffsetsRequestData.ListOffsetsPartition" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListOffsetsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListOffsetsRequestData.ListOffsetsTopic" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListOffsetsRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListOffsetsRequestData" , "callers" : [
@@ -1679,12 +1720,10 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.jmh.common.ListOffsetRequestBenchmark"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListOffsetsResponseData.ListOffsetsPartitionResponse" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListOffsetsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.ListOffsetsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListOffsetsResponseData.ListOffsetsTopicResponse" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListOffsetsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.ListOffsetsResponse"} ,
    ]},
@@ -1693,23 +1732,18 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.ListOffsetsResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListPartitionReassignmentsRequestData.ListPartitionReassignmentsTopics" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListPartitionReassignmentsRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListPartitionReassignmentsResponseData.OngoingPartitionReassignment" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListPartitionReassignmentsResponseData.OngoingTopicReassignment" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
@@ -1717,7 +1751,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.ListPartitionReassignmentsResponse"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.ListTransactionsRequestData" , "callers" : [
@@ -1732,7 +1765,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.MetadataRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.MetadataRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.clients.admin.internals.AllBrokersStrategy"} ,
    {"caller" : "org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy"} ,
    {"caller" : "org.apache.kafka.common.requests.MetadataRequest"} ,
@@ -1869,7 +1901,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.ProduceResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.RenewDelegationTokenRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.RenewDelegationTokenRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.RenewDelegationTokenResponseData" , "callers" : [
@@ -1968,7 +1999,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.TxnOffsetCommitResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.UnregisterBrokerRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.UnregisterBrokerRequest"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.UnregisterBrokerResponseData" , "callers" : [
@@ -1976,13 +2006,10 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.requests.UnregisterBrokerResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.UpdateFeaturesRequestData" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.UpdateFeaturesRequest"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.UpdateFeaturesResponseData.UpdatableFeatureResult" , "callers" : [
-   {"caller" : "org.apache.kafka.clients.admin.KafkaAdminClient"} ,
    {"caller" : "org.apache.kafka.common.requests.UpdateFeaturesResponse"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.UpdateFeaturesResponseData.UpdatableFeatureResultCollection" , "callers" : [
@@ -1991,7 +2018,6 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.message.UpdateFeaturesResponseData" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.UpdateFeaturesResponse"} ,
    {"caller" : "org.apache.kafka.controller.Controller"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.UpdateMetadataRequestData.UpdateMetadataBroker" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.UpdateMetadataRequest"} ,
@@ -2050,7 +2076,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.AccessControlEntryRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.AclControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.AclsDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    {"caller" : "org.apache.kafka.metadata.authorizer.StandardAcl"} ,
@@ -2058,7 +2083,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.BrokerRegistrationChangeRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ClusterControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.ClusterDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
@@ -2070,7 +2094,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.ClientQuotaRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ClientQuotaControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.ClientQuotaDelta"} ,
    {"caller" : "org.apache.kafka.image.ClientQuotaImage"} ,
    {"caller" : "org.apache.kafka.image.ClientQuotasDelta"} ,
@@ -2079,7 +2102,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.ConfigRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ConfigurationControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.ConfigurationDelta"} ,
    {"caller" : "org.apache.kafka.image.ConfigurationImage"} ,
    {"caller" : "org.apache.kafka.image.ConfigurationsDelta"} ,
@@ -2090,14 +2112,12 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.metadata.FeatureLevelRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.BootstrapMetadata"} ,
    {"caller" : "org.apache.kafka.controller.FeatureControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.FeaturesDelta"} ,
    {"caller" : "org.apache.kafka.image.FeaturesImage"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.FenceBrokerRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ClusterControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.ClusterDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
@@ -2131,17 +2151,12 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.MetadataRecordType" , "callers" : [
    {"caller" : "org.apache.kafka.controller.BootstrapMetadata"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    {"caller" : "org.apache.kafka.metadata.MetadataRecordSerde"} ,
    {"caller" : "org.apache.kafka.shell.MetadataNodeManager"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.common.metadata.NoOpRecord" , "callers" : [
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
-   ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.PartitionChangeRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.PartitionChangeBuilder"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    {"caller" : "org.apache.kafka.image.TopicDelta"} ,
@@ -2150,7 +2165,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.shell.MetadataNodeManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.PartitionRecord" , "callers" : [
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    {"caller" : "org.apache.kafka.image.TopicDelta"} ,
@@ -2163,7 +2177,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.ProducerIdsRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ProducerIdControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    {"caller" : "org.apache.kafka.image.ProducerIdsDelta"} ,
    {"caller" : "org.apache.kafka.image.ProducerIdsImage"} ,
@@ -2185,7 +2198,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.RegisterBrokerRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ClusterControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.ClusterDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    {"caller" : "org.apache.kafka.metadata.BrokerRegistration"} ,
@@ -2193,12 +2205,10 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.RemoveAccessControlEntryRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.AclControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.image.AclsDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.RemoveTopicRecord" , "callers" : [
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.ConfigurationsDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
@@ -2206,7 +2216,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.shell.MetadataNodeManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.TopicRecord" , "callers" : [
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
    {"caller" : "org.apache.kafka.image.TopicImage"} ,
@@ -2215,7 +2224,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.UnfenceBrokerRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ClusterControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.ClusterDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
@@ -2223,7 +2231,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.metadata.UnregisterBrokerRecord" , "callers" : [
    {"caller" : "org.apache.kafka.controller.ClusterControlManager"} ,
-   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
    {"caller" : "org.apache.kafka.controller.ReplicationControlManager"} ,
    {"caller" : "org.apache.kafka.image.ClusterDelta"} ,
    {"caller" : "org.apache.kafka.image.MetadataDelta"} ,
@@ -2233,15 +2240,267 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.jmh.common.FetchRequestBenchmark"} ,
    {"caller" : "org.apache.kafka.jmh.common.FetchResponseBenchmark"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.common.security.authenticator.CredentialCache" , "callers" : [
+   {"caller" : "org.apache.kafka.common.network.ChannelBuilders"} ,
+   {"caller" : "org.apache.kafka.common.network.SaslChannelBuilder"} ,
+   {"caller" : "org.apache.kafka.common.security.scram.internals.ScramCredentialUtils"} ,
+   {"caller" : "org.apache.kafka.common.security.scram.internals.ScramServerCallbackHandler"} ,
+   {"caller" : "org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.security.authenticator.LoginManager" , "callers" : [
+   {"caller" : "org.apache.kafka.common.network.SaslChannelBuilder"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.serialization.Serdes" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pipe.PipeDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.temperature.TemperatureDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.CachingWindowStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.ListValueStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.CollectionUtils.subtractMap" , "callers" : [
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.CollectionUtils" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.admin.internals.DescribeProducersHandler"} ,
+   {"caller" : "org.apache.kafka.clients.consumer.StickyAssignor"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.ConfigUtils" , "callers" : [
+   {"caller" : "org.apache.kafka.common.metrics.JmxReporter"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.DefaultGroupFilter"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.DefaultTopicFilter"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.UncheckedCloseable" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerSinkTask"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.diff" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.enumOptions" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.runtime.SourceConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.distributed.DistributedConfig"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.filterMap" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.ActiveTaskCreator"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StandbyTaskCreator"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.getHost" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.ClientUtils"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration"} ,
+   {"caller" : "org.apache.kafka.streams.state.HostInfo"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.getNullableArray" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.BufferValue"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.getNullableSizePrefixedArray" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.ProcessorRecordContext"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.BufferValue"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.ContextualRecord"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.getPort" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.ClientUtils"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration"} ,
+   {"caller" : "org.apache.kafka.streams.state.HostInfo"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.intersection" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.TaskManager"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.mkSet" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.json.JsonConverter"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.union" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.TaskManager"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.assignment.ClientState"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils.wrapNullable" , "callers" : [
+   {"caller" : "org.apache.kafka.common.record.LegacyRecord"} ,
+   {"caller" : "org.apache.kafka.common.record.MemoryRecordsBuilder"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.Utils" , "callers" : [
+   {"caller" : "kafka.tools.StreamsResetter"} ,
+   {"caller" : "org.apache.kafka.clients.CommonClientConfigs"} ,
+   {"caller" : "org.apache.kafka.clients.NetworkClient"} ,
+   {"caller" : "org.apache.kafka.clients.NodeApiVersions"} ,
+   {"caller" : "org.apache.kafka.clients.admin.AdminClientConfig"} ,
+   {"caller" : "org.apache.kafka.clients.admin.ConsumerGroupDescription"} ,
+   {"caller" : "org.apache.kafka.clients.admin.MemberAssignment"} ,
+   {"caller" : "org.apache.kafka.clients.admin.TopicDescription"} ,
+   {"caller" : "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler"} ,
+   {"caller" : "org.apache.kafka.clients.consumer.ConsumerConfig"} ,
+   {"caller" : "org.apache.kafka.clients.consumer.ConsumerPartitionAssignor"} ,
+   {"caller" : "org.apache.kafka.clients.consumer.RoundRobinAssignor"} ,
+   {"caller" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator"} ,
+   {"caller" : "org.apache.kafka.clients.consumer.internals.ConsumerCoordinator"} ,
+   {"caller" : "org.apache.kafka.clients.producer.ProducerConfig"} ,
+   {"caller" : "org.apache.kafka.clients.producer.RoundRobinPartitioner"} ,
+   {"caller" : "org.apache.kafka.clients.producer.internals.BuiltInPartitioner"} ,
+   {"caller" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache"} ,
+   {"caller" : "org.apache.kafka.common.TopicPartitionInfo"} ,
+   {"caller" : "org.apache.kafka.common.config.ConfigDef"} ,
+   {"caller" : "org.apache.kafka.common.config.SslConfigs"} ,
+   {"caller" : "org.apache.kafka.common.feature.BaseVersionRange"} ,
+   {"caller" : "org.apache.kafka.common.header.internals.RecordHeader"} ,
+   {"caller" : "org.apache.kafka.common.internals.Topic"} ,
+   {"caller" : "org.apache.kafka.common.memory.GarbageCollectedMemoryPool"} ,
+   {"caller" : "org.apache.kafka.common.memory.SimpleMemoryPool"} ,
+   {"caller" : "org.apache.kafka.common.metrics.JmxReporter"} ,
+   {"caller" : "org.apache.kafka.common.network.ChannelBuilders"} ,
+   {"caller" : "org.apache.kafka.common.network.KafkaChannel"} ,
+   {"caller" : "org.apache.kafka.common.network.PlaintextChannelBuilder"} ,
+   {"caller" : "org.apache.kafka.common.network.SaslChannelBuilder"} ,
+   {"caller" : "org.apache.kafka.common.network.Selector"} ,
+   {"caller" : "org.apache.kafka.common.network.SslChannelBuilder"} ,
+   {"caller" : "org.apache.kafka.common.network.SslTransportLayer"} ,
+   {"caller" : "org.apache.kafka.common.protocol.DataOutputStreamWritable"} ,
+   {"caller" : "org.apache.kafka.common.protocol.MessageUtil"} ,
+   {"caller" : "org.apache.kafka.common.protocol.types.Type"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractRecords"} ,
+   {"caller" : "org.apache.kafka.common.record.DefaultRecord"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileRecords"} ,
+   {"caller" : "org.apache.kafka.common.record.LegacyRecord"} ,
+   {"caller" : "org.apache.kafka.common.record.MemoryRecords"} ,
+   {"caller" : "org.apache.kafka.common.record.MemoryRecordsBuilder"} ,
+   {"caller" : "org.apache.kafka.common.record.RecordsUtil"} ,
+   {"caller" : "org.apache.kafka.common.record.SimpleRecord"} ,
+   {"caller" : "org.apache.kafka.common.record.UnalignedMemoryRecords"} ,
+   {"caller" : "org.apache.kafka.common.requests.DescribeGroupsResponse"} ,
+   {"caller" : "org.apache.kafka.common.requests.FetchRequest"} ,
+   {"caller" : "org.apache.kafka.common.requests.LeaderAndIsrRequest"} ,
+   {"caller" : "org.apache.kafka.common.requests.MetadataResponse"} ,
+   {"caller" : "org.apache.kafka.common.requests.ProduceRequest"} ,
+   {"caller" : "org.apache.kafka.common.requests.StopReplicaRequest"} ,
+   {"caller" : "org.apache.kafka.common.requests.UpdateMetadataRequest"} ,
+   {"caller" : "org.apache.kafka.common.security.authenticator.SaslClientAuthenticator"} ,
+   {"caller" : "org.apache.kafka.common.security.authenticator.SaslServerAuthenticator"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredValidatorCallbackHandler"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.secured.FileTokenRetriever"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver"} ,
+   {"caller" : "org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler"} ,
+   {"caller" : "org.apache.kafka.common.security.scram.internals.ScramExtensions"} ,
+   {"caller" : "org.apache.kafka.common.security.scram.internals.ScramMessages"} ,
+   {"caller" : "org.apache.kafka.common.security.scram.internals.ScramSaslServer"} ,
+   {"caller" : "org.apache.kafka.common.security.ssl.DefaultSslEngineFactory"} ,
+   {"caller" : "org.apache.kafka.common.security.ssl.SslFactory"} ,
+   {"caller" : "org.apache.kafka.connect.cli.ConnectDistributed"} ,
+   {"caller" : "org.apache.kafka.connect.cli.ConnectStandalone"} ,
+   {"caller" : "org.apache.kafka.connect.data.Values"} ,
+   {"caller" : "org.apache.kafka.connect.health.AbstractState"} ,
+   {"caller" : "org.apache.kafka.connect.health.ConnectorHealth"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorClientConfig"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorMaker"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorMakerConfig"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorSourceConnector"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorSourceTask"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.OffsetSyncStore"} ,
+   {"caller" : "org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.AbstractWorkerSourceTask"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.SinkConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.Worker"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerConnector"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerInfo"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerSinkTask"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.distributed.DistributedConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.distributed.WorkerGroupMember"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaConfigBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaStatusBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.util.RetryUtil"} ,
+   {"caller" : "org.apache.kafka.connect.util.TopicAdmin"} ,
+   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark"} ,
+   {"caller" : "org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark"} ,
+   {"caller" : "org.apache.kafka.jmh.server.CheckpointBench"} ,
+   {"caller" : "org.apache.kafka.jmh.server.PartitionCreationBench"} ,
+   {"caller" : "org.apache.kafka.metadata.authorizer.StandardAuthorizerData"} ,
+   {"caller" : "org.apache.kafka.metadata.util.SnapshotFileWriter"} ,
+   {"caller" : "org.apache.kafka.raft.FileBasedStateStore"} ,
+   {"caller" : "org.apache.kafka.raft.RaftConfig"} ,
+   {"caller" : "org.apache.kafka.raft.internals.StringSerde"} ,
+   {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.CommittedOffsetsFile"} ,
+   {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager"} ,
+   {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile"} ,
+   {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner"} ,
+   {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager"} ,
+   {"caller" : "org.apache.kafka.shell.MetadataShell"} ,
+   {"caller" : "org.apache.kafka.snapshot.FileRawSnapshotWriter"} ,
+   {"caller" : "org.apache.kafka.snapshot.Snapshots"} ,
+   {"caller" : "org.apache.kafka.streams.StreamsConfig"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.ClientUtils"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.GlobalStreamThread"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.InternalTopicManager"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StateDirectory"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StateManagerUtil"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration"} ,
+   {"caller" : "org.apache.kafka.streams.state.HostInfo"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.KeyValueSegment"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimestampedSegment"} ,
+   {"caller" : "org.apache.kafka.tools.ProducerPerformance"} ,
+   {"caller" : "org.apache.kafka.tools.TransactionalMessageCopier"} ,
+   {"caller" : "org.apache.kafka.tools.TransactionsCommand"} ,
+   {"caller" : "org.apache.kafka.tools.VerifiableConsumer"} ,
+   {"caller" : "org.apache.kafka.trogdor.agent.Agent"} ,
+   {"caller" : "org.apache.kafka.trogdor.agent.WorkerManager"} ,
+   {"caller" : "org.apache.kafka.trogdor.basic.BasicPlatform"} ,
+   {"caller" : "org.apache.kafka.trogdor.common.Platform"} ,
+   {"caller" : "org.apache.kafka.trogdor.common.WorkerUtils"} ,
+   {"caller" : "org.apache.kafka.trogdor.coordinator.TaskManager"} ,
+   {"caller" : "org.apache.kafka.trogdor.fault.ProcessStopFaultWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ConnectionStressWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.ConsumeBenchWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.RoundTripWorker"} ,
+   {"caller" : "org.apache.kafka.trogdor.workload.SustainedConnectionWorker"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.connect.connector.ConnectRecord" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,
    {"caller" : "org.apache.kafka.connect.sink.SinkRecord"} ,
    {"caller" : "org.apache.kafka.connect.source.SourceRecord"} ,
+   {"caller" : "org.apache.kafka.connect.transforms.util.Requirements"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.data.Struct" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.header.ConnectHeader"} ,
+   {"caller" : "org.apache.kafka.connect.header.ConnectHeaders"} ,
+   {"caller" : "org.apache.kafka.connect.header.Headers"} ,
+   {"caller" : "org.apache.kafka.connect.json.JsonConverter"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaConfigBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaStatusBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.tools.SchemaSourceTask"} ,
    {"caller" : "org.apache.kafka.connect.transforms.util.Requirements"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.runtime.AbstractStatus.State" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.StateTracker"} ,
    {"caller" : "org.apache.kafka.connect.runtime.WorkerTask"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.runtime.ConnectorConfig" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.cli.ConnectStandalone"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.errors.LogReporter"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.runtime.PredicatedTransformation" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource"} ,
@@ -2249,6 +2508,32 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.connect.runtime.distributed.DistributedHerder" , "callers" : [
    {"caller" : "org.apache.kafka.connect.cli.ConnectDistributed"} ,
    {"caller" : "org.apache.kafka.connect.mirror.MirrorMaker"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.runtime.rest.entities.PluginInfo"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.runtime.isolation.Plugins.ClassLoaderUsage" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.runtime.Worker"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.runtime.isolation.Plugins" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.cli.ConnectDistributed"} ,
+   {"caller" : "org.apache.kafka.connect.cli.ConnectStandalone"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorMaker"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorMakerConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.AbstractHerder"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.Herder"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.SinkConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.SourceConnectorConfig"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.Worker"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerConnector"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerTask"} ,
+   {"caller" : "org.apache.kafka.connect.tools.PredicateDoc"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.runtime.rest.RestClient" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.storage.OffsetStorageReaderImpl" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.runtime.Worker"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.transforms.Cast" , "callers" : [
    {"caller" : "org.apache.kafka.connect.tools.TransformationDoc"} ,
@@ -2297,10 +2582,7 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.transforms.Transformation" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.AbstractHerder"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
    {"caller" : "org.apache.kafka.connect.runtime.isolation.PluginScanResult"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.Plugins"} ,
    {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.transforms.ValueToKey" , "callers" : [
@@ -2308,14 +2590,40 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.transforms.predicates.Predicate" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.AbstractHerder"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
    {"caller" : "org.apache.kafka.connect.runtime.isolation.PluginScanResult"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.Plugins"} ,
    {"caller" : "org.apache.kafka.connect.tools.PredicateDoc"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.util.ConnectUtils" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.cli.ConnectDistributed"} ,
+   {"caller" : "org.apache.kafka.connect.cli.ConnectStandalone"} ,
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorMaker"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.AbstractWorkerSourceTask"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.Worker"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerConnector"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.WorkerSinkTask"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.distributed.WorkerGroupMember"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaConfigBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaOffsetBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaStatusBackingStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.util.ConnectorUtils" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.util.KafkaBasedLog" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.storage.KafkaConfigBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaOffsetBackingStore"} ,
+   {"caller" : "org.apache.kafka.connect.storage.KafkaStatusBackingStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.raft.Batch" , "callers" : [
+   {"caller" : "org.apache.kafka.controller.BootstrapMetadata"} ,
+   {"caller" : "org.apache.kafka.metadata.util.SnapshotFileReader"} ,
+   {"caller" : "org.apache.kafka.shell.MetadataNodeManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.raft.KafkaRaftClient.MAX_BATCH_SIZE_BYTES" , "callers" : [
    {"caller" : "org.apache.kafka.metadata.util.SnapshotFileWriter"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.raft.QuorumState" , "callers" : [
+   {"caller" : "org.apache.kafka.raft.internals.KafkaRaftMetrics"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.raft.generated.QuorumStateData.Voter" , "callers" : [
    {"caller" : "org.apache.kafka.raft.FileBasedStateStore"} ,
@@ -2325,6 +2633,9 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.raft.generated.QuorumStateDataJsonConverter" , "callers" : [
    {"caller" : "org.apache.kafka.raft.FileBasedStateStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.raft.internals.MemoryBatchReader" , "callers" : [
+   {"caller" : "org.apache.kafka.metadata.util.SnapshotFileReader"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.server.log.remote.metadata.storage.generated.MetadataRecordType" , "callers" : [
    {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde"} ,
@@ -2345,6 +2656,77 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde"} ,
    {"caller" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.streams.KafkaStreams.State" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.errors.StreamsNotStartedException"} ,
+   {"caller" : "org.apache.kafka.streams.errors.StreamsStoppedException"} ,
+   {"caller" : "org.apache.kafka.streams.internals.metrics.ClientMetrics"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.KafkaStreams" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException"} ,
+   {"caller" : "org.apache.kafka.streams.errors.StreamsNotStartedException"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pipe.PipeDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.temperature.TemperatureDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"} ,
+   {"caller" : "org.apache.kafka.streams.processor.TaskMetadata"} ,
+   {"caller" : "org.apache.kafka.streams.processor.ThreadMetadata"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.ThreadMetadataImpl"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper"} ,
+   {"caller" : "org.apache.kafka.streams.state.HostInfo"} ,
+   {"caller" : "org.apache.kafka.streams.state.StreamsMetadata"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.StreamsMetadataImpl"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.KeyValue" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"} ,
+   {"caller" : "org.apache.kafka.streams.processor.BatchingStateRestoreCallback"} ,
+   {"caller" : "org.apache.kafka.streams.processor.MockProcessorContext"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StateRestoreCallbackAdapter"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.BatchWritingStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.CachingSessionStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.CachingWindowStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.ListValueStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.MergedSortedCacheKeyValueBytesStoreIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.NamedCache"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBRangeIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDbIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.ThreadCache"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.StoreQueryParameters" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.StreamsBuilder" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pipe.PipeDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.temperature.TemperatureDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"} ,
+   {"caller" : "org.apache.kafka.streams.processor.ProcessorContext"} ,
+   {"caller" : "org.apache.kafka.streams.processor.api.ProcessingContext"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.TopologyTestDriver" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.MockProcessorContext"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.streams.internals.generated.SubscriptionInfoData.ClientTag" , "callers" : [
    {"caller" : "org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo"} ,
    ]},
@@ -2357,12 +2739,51 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.streams.internals.generated.SubscriptionInfoData" , "callers" : [
    {"caller" : "org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.streams.kstream.Consumed" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.kstream.Grouped" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.kstream.Materialized" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.TopologyConfig"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.kstream.Produced" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.temperature.TemperatureDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountDemo"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.kstream.WindowedSerdes" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.temperature.TemperatureDemo"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.streams.kstream.Windows.DEPRECATED_DEFAULT_24_HR_GRACE_PERIOD" , "callers" : [
    {"caller" : "org.apache.kafka.streams.kstream.SessionWindows"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.streams.kstream.Windows.NO_GRACE_PERIOD" , "callers" : [
    {"caller" : "org.apache.kafka.streams.kstream.SessionWindows"} ,
    {"caller" : "org.apache.kafka.streams.kstream.SlidingWindows"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.kstream.internals.FullChangeSerde" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedKeyValueBufferChangelogDeserializationHelper"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.processor.api.FixedKeyRecord" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.processor.api.Record" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"} ,
+   {"caller" : "org.apache.kafka.streams.processor.Punctuator"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.GlobalStateUpdateTask"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl"} ,
+   {"caller" : "org.apache.kafka.streams.processor.internals.StreamTask"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.CachingSessionStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.CachingWindowStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.streams.processor.internals.AbstractReadOnlyDecorator.getReadOnlyStore" , "callers" : [
    {"caller" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl"} ,
@@ -2378,33 +2799,50 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.streams.processor.internals.TopologyMetadata"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.streams.processor.internals.InternalTopologyBuilder" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.StreamsBuilder"} ,
    {"caller" : "org.apache.kafka.streams.Topology"} ,
-   {"caller" : "org.apache.kafka.streams.TopologyTestDriver"} ,
-   {"caller" : "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder"} ,
    {"caller" : "org.apache.kafka.streams.kstream.internals.graph.GraphNode"} ,
    {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper"} ,
    {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology"} ,
    {"caller" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.streams.processor.internals.ProcessorAdapter" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.Topology"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.KafkaStreams"} ,
    {"caller" : "org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.streams.state.StateSerdes.TIMESTAMP_SIZE" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.SessionKeySchema"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.WindowKeySchema"} ,
+   { "undefinedclass" : "org.apache.kafka.streams.state.QueryableStoreTypes" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.StateStoreProvider"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.streams.state.ValueAndTimestamp.getValueOrNull" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.TopologyTestDriver"} ,
+   { "undefinedclass" : "org.apache.kafka.streams.state.StateSerdes" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.CachingWindowStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.state.Stores" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo"} ,
+   {"caller" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.processor.MockProcessorContext"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.KeyFirstSessionKeySchema" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema" , "callers" : [
+   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"} ,
+   {"caller" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer.rawValue" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueByteStoreAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.streams.state.internals.ValueAndTimestampDeserializer.timestamp" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore"} ,
@@ -2413,8 +2851,15 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped" , "callers" : [
    {"caller" : "org.apache.kafka.streams.processor.internals.StateManagerUtil"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.streams.test.TestRecord" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.TopologyTestDriver"} ,
+   { "undefinedclass" : "org.apache.kafka.trogdor.rest.JsonRestServer.HttpResponse" , "callers" : [
+   {"caller" : "org.apache.kafka.trogdor.agent.AgentClient"} ,
+   {"caller" : "org.apache.kafka.trogdor.coordinator.CoordinatorClient"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.trogdor.rest.JsonRestServer" , "callers" : [
+   {"caller" : "org.apache.kafka.trogdor.agent.Agent"} ,
+   {"caller" : "org.apache.kafka.trogdor.agent.AgentClient"} ,
+   {"caller" : "org.apache.kafka.trogdor.coordinator.Coordinator"} ,
+   {"caller" : "org.apache.kafka.trogdor.coordinator.CoordinatorClient"} ,
    ]},
    { "undefinedclass" : "org.apache.log4j.AppenderSkeleton" , "callers" : [
    {"caller" : "org.apache.kafka.log4jappender.KafkaLog4jAppender"} ,
@@ -2438,80 +2883,47 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.log4j.spi.LoggingEvent" , "callers" : [
    {"caller" : "org.apache.kafka.log4jappender.KafkaLog4jAppender"} ,
    ]},
-   { "undefinedclass" : "org.eclipse.jetty.client.HttpClient" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
-   ]},
-   { "undefinedclass" : "org.eclipse.jetty.client.api.ContentResponse" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
-   ]},
    { "undefinedclass" : "org.eclipse.jetty.client.api.Request" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.InternalRequestSignature"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
-   ]},
-   { "undefinedclass" : "org.eclipse.jetty.client.util.StringContentProvider" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
-   ]},
-   { "undefinedclass" : "org.eclipse.jetty.http.HttpField" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
-   ]},
-   { "undefinedclass" : "org.eclipse.jetty.http.HttpFields" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
-   ]},
-   { "undefinedclass" : "org.eclipse.jetty.http.HttpStatus" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestClient"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.Connector" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.CustomRequestLog" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.Handler" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.Server" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.ServerConnector" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.Slf4jRequestLogWriter" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.handler.ContextHandlerCollection" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.handler.DefaultHandler" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
-   ]},
-   { "undefinedclass" : "org.eclipse.jetty.server.handler.HandlerCollection" , "callers" : [
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.handler.RequestLogHandler" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.server.handler.StatisticsHandler" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.servlet.FilterHolder" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.servlet.ServletContextHandler" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.servlet.ServletHolder" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.eclipse.jetty.servlets.CrossOriginFilter" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
@@ -2529,14 +2941,12 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.glassfish.jersey.server.ResourceConfig" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable"} ,
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.glassfish.jersey.server.ServerProperties" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
    ]},
    { "undefinedclass" : "org.glassfish.jersey.servlet.ServletContainer" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   {"caller" : "org.apache.kafka.trogdor.rest.JsonRestServer"} ,
    ]},
    { "undefinedclass" : "org.jline.reader.Candidate" , "callers" : [
    {"caller" : "org.apache.kafka.shell.CatCommandHandler"} ,
@@ -2990,24 +3400,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.jmh.cache.LRUCacheBenchmark"} ,
    {"caller" : "org.apache.kafka.jmh.util.ByteUtilsBenchmark"} ,
    ]},
-   { "undefinedclass" : "org.reflections.Configuration" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
-   ]},
-   { "undefinedclass" : "org.reflections.Reflections" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
-   ]},
-   { "undefinedclass" : "org.reflections.ReflectionsException" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
-   ]},
-   { "undefinedclass" : "org.reflections.scanners.SubTypesScanner" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
-   ]},
-   { "undefinedclass" : "org.reflections.util.ClasspathHelper" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
-   ]},
-   { "undefinedclass" : "org.reflections.util.ConfigurationBuilder" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader"} ,
-   ]},
    { "undefinedclass" : "org.rocksdb.AbstractCompactionFilter" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
    ]},
@@ -3031,10 +3423,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.BlockBasedTableConfig" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
-   ]},
-   { "undefinedclass" : "org.rocksdb.BloomFilter" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.BuiltinComparator" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
@@ -3042,20 +3430,16 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.rocksdb.Cache" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.BlockBasedTableConfigWithAccessibleCache"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.ColumnFamilyDescriptor" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.ColumnFamilyHandle" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.ColumnFamilyOptions" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.CompactionOptionsFIFO" , "callers" : [
@@ -3069,21 +3453,18 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.CompactionStyle" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.CompressionOptions" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.CompressionType" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.ConcurrentTaskLimiter" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.DBOptions" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.DbPath" , "callers" : [
@@ -3091,9 +3472,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.Env" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   ]},
-   { "undefinedclass" : "org.rocksdb.FlushOptions" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.HistogramData" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"} ,
@@ -3103,10 +3481,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.InfoLogLevel" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
-   ]},
-   { "undefinedclass" : "org.rocksdb.LRUCache" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.MemTableConfig" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
@@ -3117,19 +3491,16 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.rocksdb.Options" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.RocksDBConfigSetter"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.RateLimiter" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.RocksDB" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.RocksDBException" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.BatchWritingStore"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
@@ -3137,7 +3508,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.RocksIterator" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBRangeIterator"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDbIterator"} ,
    ]},
@@ -3149,7 +3519,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.Statistics" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.StatsLevel" , "callers" : [
@@ -3157,7 +3526,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.TableFormatConfig" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.TickerType" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"} ,
@@ -3170,16 +3538,12 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.rocksdb.WriteBatch" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.BatchWritingStore"} ,
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"} ,
    ]},
    { "undefinedclass" : "org.rocksdb.WriteBufferManager" , "callers" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter"} ,
-   ]},
-   { "undefinedclass" : "org.rocksdb.WriteOptions" , "callers" : [
-   {"caller" : "org.apache.kafka.streams.state.internals.RocksDBStore"} ,
    ]},
    { "undefinedclass" : "org.xerial.snappy.SnappyInputStream" , "callers" : [
    {"caller" : "org.apache.kafka.common.compress.SnappyFactory"} ,

@@ -422,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredLoginCallbackHandler.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00112] For method handleTokenCallback list of called methods Object monObjet|java.lang.String optionValueN212353|boolean Utils_isBlankN212439|java.lang.String optionValueN212597|boolean Utils_isBlankN212683|java.lang.String optionValueN213001"
+ , "c3" : "QC-JAV000007[00112] For method handleTokenCallback list of called methods Object monObjet|java.lang.String optionValueN212353|java.lang.String optionValueN212597|java.lang.String optionValueN213001"
 }} 
 ,
 { "ligne" : {"" : ""

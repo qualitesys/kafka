@@ -410,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method addHerder list of called methods Object monObjet|java.lang.String sourceAndTarget_toStringN201757|java.lang.String ConnectUtils_lookupKafkaClusterIdN202070|org.apache.kafka.connect.runtime.WorkerConfigTransformer worker_configTransformerN202899|org.apache.kafka.connect.storage.Converter worker_getInternalValueConverterN202974"
+ , "c3" : "QC-JAV000007[00001] For method addHerder list of called methods Object monObjet|java.lang.String sourceAndTarget_toStringN201757|org.apache.kafka.connect.runtime.WorkerConfigTransformer worker_configTransformerN202899|org.apache.kafka.connect.storage.Converter worker_getInternalValueConverterN202974"
 }} 
 ,
 { "ligne" : {"" : ""

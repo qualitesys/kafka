@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 186 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 185 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -489,7 +489,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -838,13 +838,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#172"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00172] For method bootstrap list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache MetadataCache_bootstrapN250888"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#173"
  , "c2" : "MAJOR"
@@ -890,7 +883,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method update list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache handleMetadataResponseN252502"
+ , "c3" : "QC-JAV000007[00184] For method update list of called methods Object monObjet|MetadataCache handleMetadataResponseN252502"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1002,7 +995,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN255618|org.apache.kafka.clients.MetadataCache metadata_topicIdN255693|java.util.Map&lt;java.lang.Integer,org.apache.kafka.common.Node&gt; metadataResponse_brokersByIdN257877"
+ , "c3" : "QC-JAV000007[00236] For method handleMetadataResponse list of called methods Object monObjet|MetadataCache metadata_topicN255618|MetadataCache metadata_topicIdN255693|java.util.Map&lt;java.lang.Integer,org.apache.kafka.common.Node&gt; metadataResponse_brokersByIdN257877"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1506,6 +1499,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.update@POLYN251599"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN253746"
 }} 
 ,
@@ -1514,13 +1514,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254147"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.update@POLYN251599"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1615,20 +1608,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN253746 the MagicNumber/String 'Metadata response reported invalid topics {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254147 the MagicNumber/String 'Topic authorization failed for topics {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#185"
  , "c2" : "BLOCKER"
@@ -1675,6 +1654,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#212"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN251599 the MagicNumber/String 'Updated cluster metadata updateVersion {} to {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00223"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#223"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.clients.Metadata.checkInvalidTopics@POLYN253746 the MagicNumber/String 'Metadata response reported invalid topics {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.clients.Metadata.checkUnauthorizedTopics@POLYN254147 the MagicNumber/String 'Topic authorization failed for topics {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

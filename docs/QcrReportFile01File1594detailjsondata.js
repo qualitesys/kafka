@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 133 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 130 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -385,7 +385,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -611,7 +611,7 @@ var maDataBlocs = {
  , "c1" : "01002"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1002"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01002] For method verifyEOSTransactionTimeoutCompatibility list of called methods Object monObjet|java.lang.Long getLongN451742|java.lang.String producerPrefixN451833|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsN451932"
+ , "c3" : "QC-JAV000007[01002] For method verifyEOSTransactionTimeoutCompatibility list of called methods Object monObjet|java.lang.Long getLongN451742|java.lang.String producerPrefixN451833"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -674,7 +674,7 @@ var maDataBlocs = {
  , "c1" : "01034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1034"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01034] For method validateRackAwarenessConfiguration list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; getListN453408|java.util.Map&lt;java.lang.String,java.lang.String&gt; getClientTagsN453536"
+ , "c3" : "QC-JAV000007[01034] For method validateRackAwarenessConfiguration list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; getClientTagsN453536"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -912,7 +912,7 @@ var maDataBlocs = {
  , "c1" : "01154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01154] For method getMainConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getCommonConsumerConfigsN461096|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN461205|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN463605|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getClientPropsWithPrefixN463757|int Integer_parseIntN464086|int Integer_parseIntN464283"
+ , "c3" : "QC-JAV000007[01154] For method getMainConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getCommonConsumerConfigsN461096|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getClientPropsWithPrefixN463757|int Integer_parseIntN464086|int Integer_parseIntN464283"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -961,7 +961,7 @@ var maDataBlocs = {
  , "c1" : "01213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01213] For method getRestoreConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getCommonConsumerConfigsN465453|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN465562"
+ , "c3" : "QC-JAV000007[01213] For method getRestoreConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getCommonConsumerConfigsN465453"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -982,7 +982,7 @@ var maDataBlocs = {
  , "c1" : "01236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01236] For method getGlobalConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getCommonConsumerConfigsN466990|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN467099"
+ , "c3" : "QC-JAV000007[01236] For method getGlobalConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; getCommonConsumerConfigsN466990"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1056,13 +1056,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01315"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1315"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01315] For method getClientCustomProps list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsN471722"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1321"
  , "c2" : "MAJOR"
@@ -1081,13 +1074,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1323"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01323] In method org.apache.kafka.streams.StreamsConfig.getClientCustomProps@POLYN471605 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01329"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1329"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01329] For method defaultKeySerde list of called methods Object monObjet|java.lang.Object getN473007"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1116,13 +1102,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1340"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01340] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN472927 the MagicNumber/String  'Failed to configure key serde %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01346"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1346"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01346] For method defaultValueSerde list of called methods Object monObjet|java.lang.Object getN473990"
 }} 
 ,
 { "ligne" : {"" : ""

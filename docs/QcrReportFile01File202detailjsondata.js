@@ -1616,7 +1616,7 @@ var maDataBlocs = {
  , "c1" : "00854"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#854"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00854] For method fetchCommittedOffsets list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationIfStableN413462|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt;&gt; sendOffsetFetchRequestN414129"
+ , "c3" : "QC-JAV000007[00854] For method fetchCommittedOffsets list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationIfStableN413462|RequestFuture&lt;java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt;&gt; sendOffsetFetchRequestN414129"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1763,7 +1763,7 @@ var maDataBlocs = {
  , "c1" : "00932"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#932"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00932] For method commitOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; doCommitOffsetsAsyncN416815|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; doCommitOffsetsAsyncN417058"
+ , "c3" : "QC-JAV000007[00932] For method commitOffsetsAsync list of called methods Object monObjet|RequestFuture&lt;java.lang.Void&gt; doCommitOffsetsAsyncN416815|RequestFuture&lt;java.lang.Void&gt; doCommitOffsetsAsyncN417058"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1791,7 +1791,7 @@ var maDataBlocs = {
  , "c1" : "00983"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#983"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00983] For method doCommitOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; sendOffsetCommitRequestN418227"
+ , "c3" : "QC-JAV000007[00983] For method doCommitOffsetsAsync list of called methods Object monObjet|RequestFuture&lt;java.lang.Void&gt; sendOffsetCommitRequestN418227"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1833,7 +1833,7 @@ var maDataBlocs = {
  , "c1" : "01011"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1011"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01011] For method commitOffsetsSync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; sendOffsetCommitRequestN420354"
+ , "c3" : "QC-JAV000007[01011] For method commitOffsetsSync list of called methods Object monObjet|RequestFuture&lt;java.lang.Void&gt; sendOffsetCommitRequestN420354"
 }} 
 ,
 { "ligne" : {"" : ""

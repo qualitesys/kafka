@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 376 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 375 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.xml" 
  , "fic3"  : "" 
 }
@@ -699,7 +699,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "20"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -744,13 +744,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#145"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.runtime.Worker.Worker@POLYN415906 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#154"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method initConfigTransformer list of called methods Object monObjet|org.apache.kafka.connect.runtime.WorkerConfigTransformer config_getListN417791"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1653,7 +1646,7 @@ var maDataBlocs = {
  , "c1" : "00760"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#760"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00760] For method adminConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN452553|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN453569"
+ , "c3" : "QC-JAV000007[00760] For method adminConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN453569"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1702,7 +1695,7 @@ var maDataBlocs = {
  , "c1" : "00799"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#799"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00799] For method connectorClientConfigOverrides list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connConfig_originalsWithPrefixN454369|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN454665"
+ , "c3" : "QC-JAV000007[00799] For method connectorClientConfigOverrides list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN454665"
 }} 
 ,
 { "ligne" : {"" : ""

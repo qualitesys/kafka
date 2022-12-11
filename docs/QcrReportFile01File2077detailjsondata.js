@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java 46 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java 44 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.xml" 
  , "fic3"  : "" 
 }
@@ -148,13 +148,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -168,13 +161,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00029] For method range arguments Bytes  from|Bytes  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00029] For method range list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN167183|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN167276"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,13 +224,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00045] For method reverseRange arguments Bytes  from|Bytes  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method reverseRange list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN168278|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN168371"
 }} 
 ,
 { "ligne" : {"" : ""

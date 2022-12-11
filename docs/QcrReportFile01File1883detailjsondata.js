@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java 95 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java 93 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.xml" 
  , "fic3"  : "" 
 }
@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -311,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method setGlobalProcessorContext arguments InternalProcessorContext  globalProcessorContext"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#109"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00109] For method initialize list of called methods Object monObjet|byte[] storeToChangelogTopic_getN209357"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -458,13 +451,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#200"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00200] For method topicPartitionsForStore arguments StateStore  store"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method topicPartitionsForStore list of called methods Object monObjet|byte[] storeToChangelogTopic_getN212773"
 }} 
 ,
 { "ligne" : {"" : ""

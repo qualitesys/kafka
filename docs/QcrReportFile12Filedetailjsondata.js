@@ -476,96 +476,6 @@
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "4",
-      "_source" : "java.io.InputStream.read@POLYN243934.0",
-      "_method" : "---dummymethode in line [00028]",
-      "_target" : "java.io.InputStream.read@POLYN243934.return",
-      "_risk" : "//QC-JAVCWE099[00028] In java.io.InputStream.read@POLYN243934[00028] source data PATHtainted (java.io.InputStream.read)"
-    }, {
-      "_id" : "3",
-      "_source" : "java.io.InputStream.read@POLYN243934.return",
-      "_method" : "---java.io.InputStream.read@POLYN243934 in line [00768]",
-      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.bytesRead",
-      "_risk" : "//QC-JAVCWE099[00768] In org.apache.kafka.common.utils.Utils.readFully@POLYN452227[00768] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
-    }, {
-      "_id" : "2",
-      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.bytesRead",
-      "_method" : "---dummymethode in line [00769]",
-      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.currentPosition",
-      "_risk" : ""
-    }, {
-      "_id" : "1",
-      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.currentPosition",
-      "_method" : "---java.io.InputStream.read@POLYN243934 in line [00768]",
-      "_target" : "java.io.InputStream.read@POLYN243934.off",
-      "_risk" : "//QC-JAVCWE099[00768] In org.apache.kafka.common.utils.Utils.readFully@POLYN452227[00768] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
-    } ]
-  }, {
-    "_id" : "18",
-    "_riskSequence" : "Security risk level : None",
-    "_lesSteps" : [ {
-      "_id" : "4",
-      "_source" : "java.io.InputStream.read@POLYN243934.-1",
-      "_method" : "---dummymethode in line [00033]",
-      "_target" : "java.io.InputStream.read@POLYN243934.return",
-      "_risk" : "//QC-JAVCWE099[00033] In java.io.InputStream.read@POLYN243934[00033] source data PATHtainted (java.io.InputStream.read)"
-    }, {
-      "_id" : "3",
-      "_source" : "java.io.InputStream.read@POLYN243934.return",
-      "_method" : "---java.io.InputStream.read@POLYN243934 in line [00768]",
-      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.bytesRead",
-      "_risk" : "//QC-JAVCWE099[00768] In org.apache.kafka.common.utils.Utils.readFully@POLYN452227[00768] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
-    }, {
-      "_id" : "2",
-      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.bytesRead",
-      "_method" : "---dummymethode in line [00769]",
-      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.currentPosition",
-      "_risk" : ""
-    }, {
-      "_id" : "1",
-      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.currentPosition",
-      "_method" : "---java.io.InputStream.read@POLYN243934 in line [00768]",
-      "_target" : "java.io.InputStream.read@POLYN243934.off",
-      "_risk" : "//QC-JAVCWE099[00768] In org.apache.kafka.common.utils.Utils.readFully@POLYN452227[00768] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
-    } ]
-  }, {
-    "_id" : "19",
-    "_riskSequence" : "Security risk level : None",
-    "_lesSteps" : [ {
-      "_id" : "5",
-      "_source" : "1",
-      "_method" : "---dummymethode in line [00037]",
-      "_target" : "java.io.InputStream.read@POLYN243934.i",
-      "_risk" : ""
-    }, {
-      "_id" : "4",
-      "_source" : "java.io.InputStream.read@POLYN243934.i",
-      "_method" : "---dummymethode in line [00048]",
-      "_target" : "java.io.InputStream.read@POLYN243934.return",
-      "_risk" : "//QC-JAVCWE099[00048] In java.io.InputStream.read@POLYN243934[00048] source data PATHtainted (java.io.InputStream.read)"
-    }, {
-      "_id" : "3",
-      "_source" : "java.io.InputStream.read@POLYN243934.return",
-      "_method" : "---java.io.InputStream.read@POLYN243934 in line [00768]",
-      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.bytesRead",
-      "_risk" : "//QC-JAVCWE099[00768] In org.apache.kafka.common.utils.Utils.readFully@POLYN452227[00768] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
-    }, {
-      "_id" : "2",
-      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.bytesRead",
-      "_method" : "---dummymethode in line [00769]",
-      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.currentPosition",
-      "_risk" : ""
-    }, {
-      "_id" : "1",
-      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN452227.currentPosition",
-      "_method" : "---java.io.InputStream.read@POLYN243934 in line [00768]",
-      "_target" : "java.io.InputStream.read@POLYN243934.off",
-      "_risk" : "//QC-JAVCWE099[00768] In org.apache.kafka.common.utils.Utils.readFully@POLYN452227[00768] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
-    } ]
-  }, {
-    "_id" : "20",
-    "_riskSequence" : "Security risk level : None",
-    "_lesSteps" : [ {
-      "_id" : "4",
       "_source" : "java.io.ObjectOutputStream.writeObject0@POLYN576809.desc",
       "_method" : "---java.io.ObjectOutputStream.writeArray@POLYN586840 in line [00511]",
       "_target" : "java.io.ObjectOutputStream.writeArray@POLYN586840.desc",
@@ -590,7 +500,7 @@
       "_risk" : "//QC-JAVCWZ099[00606] In java.io.ObjectOutputStream.writeNonProxyDesc@POLYN584817[00606] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "21",
+    "_id" : "18",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "3",
@@ -612,7 +522,7 @@
       "_risk" : "//QC-JAVCWE099[00275] In org.apache.kafka.common.network.KafkaChannel.socketDescription@POLYN260108[00275] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
     } ]
   }, {
-    "_id" : "22",
+    "_id" : "19",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -628,7 +538,7 @@
       "_risk" : "//QC-JAVCWZ099[00558] In java.io.ObjectOutputStream.writeClassDesc@POLYN582326[00558] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "23",
+    "_id" : "20",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -644,7 +554,7 @@
       "_risk" : "//QC-JAVCWZ099[00558] In java.io.ObjectOutputStream.writeClassDesc@POLYN582326[00558] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "24",
+    "_id" : "21",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -660,7 +570,7 @@
       "_risk" : "//QC-JAVCWZ099[00511] In java.io.ObjectOutputStream.writeObject0@POLYN576809[00511] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "25",
+    "_id" : "22",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -676,7 +586,7 @@
       "_risk" : "//QC-JAVCWZ099[00511] In java.io.ObjectOutputStream.writeObject0@POLYN576809[00511] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "26",
+    "_id" : "23",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -692,7 +602,7 @@
       "_risk" : "//QC-JAVCWZ099[00511] In java.io.ObjectOutputStream.writeObject0@POLYN576809[00511] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "27",
+    "_id" : "24",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -708,7 +618,7 @@
       "_risk" : "//QC-JAVCWE099[00334] In java.io.PrintStream.println@POLYN362182[00334] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
     } ]
   }, {
-    "_id" : "28",
+    "_id" : "25",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -724,7 +634,7 @@
       "_risk" : "//QC-JAVCWE099[00334] In java.io.PrintStream.println@POLYN362182[00334] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
     } ]
   }, {
-    "_id" : "29",
+    "_id" : "26",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -740,7 +650,7 @@
       "_risk" : "//QC-JAVCWE099[00334] In java.io.PrintStream.println@POLYN362182[00334] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
     } ]
   }, {
-    "_id" : "30",
+    "_id" : "27",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -756,7 +666,7 @@
       "_risk" : "//QC-JAVCWE099[00334] In java.io.PrintStream.println@POLYN362182[00334] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
     } ]
   }, {
-    "_id" : "31",
+    "_id" : "28",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -772,7 +682,7 @@
       "_risk" : "//QC-JAVCWE099[00334] In java.io.PrintStream.println@POLYN362182[00334] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
     } ]
   }, {
-    "_id" : "32",
+    "_id" : "29",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -788,7 +698,7 @@
       "_risk" : "//QC-JAVCWZ099[00307] In java.io.PrintStream.print@POLYN360436[00307] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "33",
+    "_id" : "30",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -804,7 +714,7 @@
       "_risk" : "//QC-JAVCWZ099[00273] In java.io.PrintWriter.print@POLYN343845[00273] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
     } ]
   }, {
-    "_id" : "34",
+    "_id" : "31",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -820,7 +730,7 @@
       "_risk" : "//QC-JAVCWE099[00299] In java.io.PrintWriter.println@POLYN345597[00299] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
     } ]
   }, {
-    "_id" : "35",
+    "_id" : "32",
     "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "2",
@@ -838,28 +748,28 @@
   } ],
   "_lesDeadlocks" : [ {
     "_id" : "R0",
-    "_libelle" : "org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.key"
-  }, {
-    "_id" : "R1",
-    "_libelle" : "org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.value"
-  }, {
-    "_id" : "R2",
     "_libelle" : "org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN273422.connector"
   }, {
-    "_id" : "R3",
+    "_id" : "R1",
     "_libelle" : "org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN274730.id"
   }, {
-    "_id" : "R4",
+    "_id" : "R2",
     "_libelle" : "org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.prefix"
   }, {
-    "_id" : "R5",
+    "_id" : "R3",
     "_libelle" : "org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.id"
   }, {
-    "_id" : "R6",
+    "_id" : "R4",
     "_libelle" : "org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.metrics"
   }, {
-    "_id" : "R7",
+    "_id" : "R5",
     "_libelle" : "org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939.nowMs"
+  }, {
+    "_id" : "R6",
+    "_libelle" : "org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.key"
+  }, {
+    "_id" : "R7",
+    "_libelle" : "org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453.value"
   }, {
     "_id" : "R8",
     "_libelle" : "org.apache.kafka.clients.Metadata.update@POLYN251599.requestVersion"
@@ -895,16 +805,16 @@
     "_libelle" : "org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN190135.newCacheSizeBytes"
   }, {
     "_id" : "R19",
-    "_libelle" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request"
-  }, {
-    "_id" : "R20",
-    "_libelle" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb"
-  }, {
-    "_id" : "R21",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.isDisconnected"
   }, {
-    "_id" : "R22",
+    "_id" : "R20",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477.cause"
+  }, {
+    "_id" : "R21",
+    "_libelle" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request"
+  }, {
+    "_id" : "R22",
+    "_libelle" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb"
   }, {
     "_id" : "R23",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334279.partition"
@@ -925,10 +835,10 @@
     "_libelle" : "org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN323339.dq"
   }, {
     "_id" : "R29",
-    "_libelle" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN220606.initialTopologies"
+    "_libelle" : "org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries"
   }, {
     "_id" : "R30",
-    "_libelle" : "org.apache.kafka.streams.state.internals.NamedCache.putAll@POLYN197711.entries"
+    "_libelle" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper.start@POLYN220606.initialTopologies"
   }, {
     "_id" : "R31",
     "_libelle" : "org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN384740.batch"
@@ -997,215 +907,179 @@
     "_libelle" : "org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN294568.sensor"
   }, {
     "_id" : "R53",
-    "_libelle" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.key"
-  }, {
-    "_id" : "R54",
-    "_libelle" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN181604.value"
-  }, {
-    "_id" : "R55",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.tp"
   }, {
-    "_id" : "R56",
+    "_id" : "R54",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.position"
   }, {
-    "_id" : "R57",
+    "_id" : "R55",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378.requestedResetStrategy"
   }, {
-    "_id" : "R58",
+    "_id" : "R56",
     "_libelle" : "org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN334517.partitionDequeue"
   }, {
-    "_id" : "R59",
+    "_id" : "R57",
     "_libelle" : "org.apache.kafka.common.record.CompressionRatioEstimator.setEstimation@POLYN156606.compressionRatioForTopic"
   }, {
-    "_id" : "R60",
-    "_libelle" : "org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.key"
-  }, {
-    "_id" : "R61",
-    "_libelle" : "org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN173653.value"
-  }, {
-    "_id" : "R62",
-    "_libelle" : "org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.key"
-  }, {
-    "_id" : "R63",
-    "_libelle" : "org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN256310.value"
-  }, {
-    "_id" : "R64",
+    "_id" : "R58",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416322.cause"
   }, {
-    "_id" : "R65",
+    "_id" : "R59",
     "_libelle" : "org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.batch"
   }, {
-    "_id" : "R66",
+    "_id" : "R60",
     "_libelle" : "org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN383593.response"
   }, {
-    "_id" : "R67",
+    "_id" : "R61",
     "_libelle" : "org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status"
   }, {
-    "_id" : "R68",
+    "_id" : "R62",
     "_libelle" : "org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status"
   }, {
-    "_id" : "R69",
+    "_id" : "R63",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.pattern"
   }, {
-    "_id" : "R70",
+    "_id" : "R64",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.subscribe@POLYN313180.listener"
   }, {
-    "_id" : "R71",
+    "_id" : "R65",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.tp"
   }, {
-    "_id" : "R72",
+    "_id" : "R66",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.position@POLYN324759.position"
   }, {
-    "_id" : "R73",
+    "_id" : "R67",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.tp"
   }, {
-    "_id" : "R74",
+    "_id" : "R68",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updateHighWatermark@POLYN331669.highWatermark"
   }, {
-    "_id" : "R75",
+    "_id" : "R69",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.tp"
   }, {
-    "_id" : "R76",
+    "_id" : "R70",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLogStartOffset@POLYN331859.logStartOffset"
   }, {
-    "_id" : "R77",
+    "_id" : "R71",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.tp"
   }, {
-    "_id" : "R78",
+    "_id" : "R72",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updateLastStableOffset@POLYN332049.lastStableOffset"
   }, {
-    "_id" : "R79",
+    "_id" : "R73",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.tp"
   }, {
-    "_id" : "R80",
+    "_id" : "R74",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.preferredReadReplicaId"
   }, {
-    "_id" : "R81",
+    "_id" : "R75",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489.timeMs"
   }, {
-    "_id" : "R82",
+    "_id" : "R76",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.partitions"
   }, {
-    "_id" : "R83",
+    "_id" : "R77",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474.offsetResetStrategy"
   }, {
-    "_id" : "R84",
+    "_id" : "R78",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.partitions"
   }, {
-    "_id" : "R85",
+    "_id" : "R79",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038.nextAllowResetTimeMs"
   }, {
-    "_id" : "R86",
+    "_id" : "R80",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN339116.tp"
   }, {
-    "_id" : "R87",
+    "_id" : "R81",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN339267.tp"
   }, {
-    "_id" : "R88",
+    "_id" : "R82",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.partitions"
   }, {
-    "_id" : "R89",
+    "_id" : "R83",
     "_libelle" : "org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413.nextRetryTimeMs"
   }, {
-    "_id" : "R90",
+    "_id" : "R84",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.topic"
   }, {
-    "_id" : "R91",
+    "_id" : "R85",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101.nowMs"
   }, {
-    "_id" : "R92",
+    "_id" : "R86",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.lastVersion"
   }, {
-    "_id" : "R93",
+    "_id" : "R87",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN163142.timeoutMs"
   }, {
-    "_id" : "R94",
+    "_id" : "R88",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.requestVersion"
   }, {
-    "_id" : "R95",
+    "_id" : "R89",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.response"
   }, {
-    "_id" : "R96",
+    "_id" : "R90",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.isPartialUpdate"
   }, {
-    "_id" : "R97",
+    "_id" : "R91",
     "_libelle" : "org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN163914.nowMs"
   }, {
-    "_id" : "R98",
+    "_id" : "R92",
     "_libelle" : "org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN371822.topicPartition"
   }, {
-    "_id" : "R99",
+    "_id" : "R93",
     "_libelle" : "org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.topicPartition"
   }, {
-    "_id" : "R100",
+    "_id" : "R94",
     "_libelle" : "org.apache.kafka.clients.producer.internals.TransactionManager.incrementSequenceNumber@POLYN379749.increment"
   }, {
-    "_id" : "R101",
+    "_id" : "R95",
     "_libelle" : "org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.connector"
   }, {
-    "_id" : "R102",
+    "_id" : "R96",
     "_libelle" : "org.apache.kafka.connect.storage.MemoryConfigBackingStore.putTaskConfigs@POLYN168555.configs"
   }, {
-    "_id" : "R103",
+    "_id" : "R97",
     "_libelle" : "org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status"
   }, {
-    "_id" : "R104",
+    "_id" : "R98",
     "_libelle" : "org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status"
   }, {
-    "_id" : "R105",
+    "_id" : "R99",
     "_libelle" : "org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166437.newLeader"
   }, {
-    "_id" : "R106",
+    "_id" : "R100",
     "_libelle" : "java.io.BufferedOutputStream.write@POLYN159676.b"
   }, {
-    "_id" : "R107",
+    "_id" : "R101",
     "_libelle" : "java.io.BufferedOutputStream.write@POLYN159676.off"
   }, {
-    "_id" : "R108",
+    "_id" : "R102",
     "_libelle" : "java.io.BufferedOutputStream.write@POLYN159676.len"
   }, {
-    "_id" : "R109",
-    "_libelle" : "org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.key"
-  }, {
-    "_id" : "R110",
-    "_libelle" : "org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.value"
-  }, {
-    "_id" : "R111",
-    "_libelle" : "org.apache.kafka.streams.state.internals.CachingWindowStore.put@POLYN235678.windowStartTimestamp"
-  }, {
-    "_id" : "R112",
-    "_libelle" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.key"
-  }, {
-    "_id" : "R113",
-    "_libelle" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.value"
-  }, {
-    "_id" : "R114",
-    "_libelle" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.put@POLYN258907.windowStartTimestamp"
-  }, {
-    "_id" : "R115",
+    "_id" : "R103",
     "_libelle" : "org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163224.consumerRecords"
   }, {
-    "_id" : "R116",
+    "_id" : "R104",
     "_libelle" : "java.io.PipedReader.receive@POLYN201247.c"
   }, {
-    "_id" : "R117",
+    "_id" : "R105",
     "_libelle" : "java.io.PipedReader.receive@POLYN201247.off"
   }, {
-    "_id" : "R118",
+    "_id" : "R106",
     "_libelle" : "java.io.PipedReader.receive@POLYN201247.len"
   } ],
   "_lesDeadlocksSequences" : [ {
     "_id" : "0",
-    "_lesItems" : [ "S0:org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN315354", "S0:org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN315354", "S0:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN372386", "S0:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN372386", "S0:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN385499", "S0:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN382470", "S0:org.apache.kafka.streams.state.internals.ThreadCache.put@POLYN193647", "S0:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R0 in line [00142],R1 in line [00142])", "S0:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143132" ]
+    "_lesItems" : [ "S0:org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN181133", "S0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R2 in line [00045],R3 in line [00045],R4 in line [00045],R5 in line [00045])", "S0:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837" ]
   }, {
     "_id" : "1",
-    "_lesItems" : [ "S1:org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN315354", "S1:org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN315354", "S1:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN372386", "S1:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assign@POLYN372386", "S1:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.assignTasksToClients@POLYN385499", "S1:org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.populateTasksForMaps@POLYN382470", "S1:org.apache.kafka.streams.state.internals.ThreadCache.put@POLYN193647", "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R0 in line [00142],R1 in line [00142])", "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R0 in line [00142],R1 in line [00142])", "S1:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143132" ]
+    "_lesItems" : [ "S1:org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN181133", "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R2 in line [00045],R3 in line [00045],R4 in line [00045],R5 in line [00045])", "S1:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R2 in line [00045],R3 in line [00045],R4 in line [00045],R5 in line [00045])", "S1:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837" ]
   }, {
     "_id" : "2",
-    "_lesItems" : [ "S2:org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN181133", "S2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R4 in line [00045],R5 in line [00045],R6 in line [00045],R7 in line [00045])", "S2:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837" ]
+    "_lesItems" : [ "S2:org.apache.kafka.streams.processor.internals.ActiveTaskCreator.createTasks@POLYN189825", "S2:org.apache.kafka.streams.state.internals.ThreadCache.put@POLYN193647", "S2:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R6 in line [00142],R7 in line [00142])", "S2:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143132" ]
   }, {
     "_id" : "3",
-    "_lesItems" : [ "S3:org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN181133", "S3:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R4 in line [00045],R5 in line [00045],R6 in line [00045],R7 in line [00045])", "S3:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 (R4 in line [00045],R5 in line [00045],R6 in line [00045],R7 in line [00045])", "S3:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN162837" ]
+    "_lesItems" : [ "S3:org.apache.kafka.streams.processor.internals.ActiveTaskCreator.createTasks@POLYN189825", "S3:org.apache.kafka.streams.state.internals.ThreadCache.put@POLYN193647", "S3:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R6 in line [00142],R7 in line [00142])", "S3:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN193453 (R6 in line [00142],R7 in line [00142])", "S3:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN143132" ]
   }, {
     "_id" : "4",
     "_lesItems" : [ "S4:org.apache.kafka.clients.Metadata.update@POLYN251599 (R8 in line [00184],R9 in line [00184],R10 in line [00184],R11 in line [00184])", "S4:org.apache.kafka.common.ClusterResource.clusterId@POLYN146889" ]
@@ -1217,13 +1091,13 @@
     "_lesItems" : [ "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN226193 (R12 in line [00184],R13 in line [00184],R14 in line [00184],R15 in line [00184],R16 in line [00184])", "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN226193 (R12 in line [00184],R13 in line [00184],R14 in line [00184],R15 in line [00184],R16 in line [00184])", "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.updateConnectorTasks@POLYN238801", "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.updateConnectorTasks@POLYN238801", "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.recomputeTaskConfigs@POLYN236020" ]
   }, {
     "_id" : "7",
-    "_lesItems" : [ "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R19 in line [00292],R20 in line [00292])", "S7:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" ]
+    "_lesItems" : [ "S7:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.refreshCommittedOffsetsIfNeeded@POLYN411181", "S7:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.fetchCommittedOffsets@POLYN413201", "S7:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetFetchRequest@POLYN434234", "S7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN415668", "S7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R19 in line [00801],R20 in line [00801])", "S7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R19 in line [00801],R20 in line [00801])", "S7:org.apache.kafka.common.utils.Time.milliseconds" ]
   }, {
     "_id" : "8",
-    "_lesItems" : [ "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R19 in line [00292],R20 in line [00292])", "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R19 in line [00292],R20 in line [00292])", "S8:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" ]
+    "_lesItems" : [ "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R21 in line [00292],R22 in line [00292])", "S8:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" ]
   }, {
     "_id" : "9",
-    "_lesItems" : [ "S9:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.refreshCommittedOffsetsIfNeeded@POLYN411181", "S9:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.fetchCommittedOffsets@POLYN413201", "S9:org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetFetchRequest@POLYN434234", "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN415668", "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R21 in line [00801],R22 in line [00801])", "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN416477 (R21 in line [00801],R22 in line [00801])", "S9:org.apache.kafka.common.utils.Time.milliseconds" ]
+    "_lesItems" : [ "S9:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R21 in line [00292],R22 in line [00292])", "S9:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R21 in line [00292],R22 in line [00292])", "S9:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" ]
   }, {
     "_id" : "10",
     "_lesItems" : [ "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN326232", "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN326232", "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787 (R25 in line [00300],R26 in line [00300])", "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.seekValidated@POLYN321787 (R25 in line [00300],R26 in line [00300])", "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" ]
@@ -1235,28 +1109,28 @@
     "_lesItems" : [ "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R38 in line [00144],R39 in line [00144])", "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R38 in line [00144],R39 in line [00144])", "S12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.removeConnectorTasks@POLYN238321" ]
   }, {
     "_id" : "13",
-    "_lesItems" : [ "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R55 in line [00312],R56 in line [00312],R57 in line [00312])", "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
+    "_lesItems" : [ "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R53 in line [00312],R54 in line [00312],R55 in line [00312])", "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
   }, {
     "_id" : "14",
-    "_lesItems" : [ "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R55 in line [00312],R56 in line [00312],R57 in line [00312])", "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R55 in line [00312],R56 in line [00312],R57 in line [00312])", "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
+    "_lesItems" : [ "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R53 in line [00312],R54 in line [00312],R55 in line [00312])", "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN322378 (R53 in line [00312],R54 in line [00312],R55 in line [00312])", "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
   }, {
     "_id" : "15",
-    "_lesItems" : [ "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R79 in line [00493],R80 in line [00493],R81 in line [00493])", "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R79 in line [00493],R80 in line [00493],R81 in line [00493])", "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" ]
+    "_lesItems" : [ "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R73 in line [00493],R74 in line [00493],R75 in line [00493])", "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.updatePreferredReadReplica@POLYN332489 (R73 in line [00493],R74 in line [00493],R75 in line [00493])", "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" ]
   }, {
     "_id" : "16",
-    "_lesItems" : [ "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R82 in line [00526],R83 in line [00526])", "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R82 in line [00526],R83 in line [00526])", "S16:java.io.InputStream.reset@POLYN251234" ]
+    "_lesItems" : [ "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R76 in line [00526],R77 in line [00526])", "S16:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN334474 (R76 in line [00526],R77 in line [00526])", "S16:java.io.InputStream.reset@POLYN251234" ]
   }, {
     "_id" : "17",
-    "_lesItems" : [ "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R84 in line [00537],R85 in line [00537])", "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R84 in line [00537],R85 in line [00537])", "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" ]
+    "_lesItems" : [ "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R78 in line [00537],R79 in line [00537])", "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.setNextAllowedRetry@POLYN335038 (R78 in line [00537],R79 in line [00537])", "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN321268" ]
   }, {
     "_id" : "18",
-    "_lesItems" : [ "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R88 in line [00631],R89 in line [00631])", "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
+    "_lesItems" : [ "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R82 in line [00631],R83 in line [00631])", "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
   }, {
     "_id" : "19",
-    "_lesItems" : [ "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R88 in line [00631],R89 in line [00631])", "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R88 in line [00631],R89 in line [00631])", "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
+    "_lesItems" : [ "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R82 in line [00631],R83 in line [00631])", "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN339413 (R82 in line [00631],R83 in line [00631])", "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN321633" ]
   }, {
     "_id" : "20",
-    "_lesItems" : [ "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R90 in line [00052],R91 in line [00052])", "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R90 in line [00052],R91 in line [00052])", "S20:org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN246286" ]
+    "_lesItems" : [ "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R84 in line [00052],R85 in line [00052])", "S20:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN161101 (R84 in line [00052],R85 in line [00052])", "S20:org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN246286" ]
   } ],
   "_lesDeadlocksTypos" : [ ]
 }

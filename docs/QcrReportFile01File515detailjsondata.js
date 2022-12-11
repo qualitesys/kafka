@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java 264 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java 263 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.xml" 
  , "fic3"  : "" 
 }
@@ -550,7 +550,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c1" : "00262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00262] For method doHandshake list of called methods Object monObjet|javax.net.ssl.SSLEngineResult.HandshakeStatus runDelegatedTasksN302389|javax.net.ssl.SSLEngineResult handshakeWrapN302725|int netWriteBufferSizeN302910|java.nio.ByteBuffer Utils_ensureCapacityN303028|javax.net.ssl.SSLEngineResult handshakeUnwrapN304600|int applicationBufferSizeN304809|java.nio.ByteBuffer Utils_ensureCapacityN304875|int netReadBufferSizeN305458|java.nio.ByteBuffer Utils_ensureCapacityN305524"
+ , "c3" : "QC-JAV000007[00262] For method doHandshake list of called methods Object monObjet|javax.net.ssl.SSLEngineResult.HandshakeStatus runDelegatedTasksN302389|javax.net.ssl.SSLEngineResult handshakeWrapN302725|int netWriteBufferSizeN302910|javax.net.ssl.SSLEngineResult handshakeUnwrapN304600|int applicationBufferSizeN304809|int netReadBufferSizeN305458"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1084,7 +1084,7 @@ var maDataBlocs = {
  , "c1" : "00461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#461"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00461] For method read list of called methods Object monObjet|int readFromAppBufferN313104|java.nio.ByteBuffer Utils_ensureCapacityN313456|int readFromSocketChannelN313676|int readFromAppBufferN315538|int applicationBufferSizeN315723|java.nio.ByteBuffer Utils_ensureCapacityN315789|int readFromAppBufferN316237|int netReadBufferSizeN316437|java.nio.ByteBuffer Utils_ensureCapacityN316503"
+ , "c3" : "QC-JAV000007[00461] For method read list of called methods Object monObjet|int readFromAppBufferN313104|int readFromSocketChannelN313676|int readFromAppBufferN315538|int applicationBufferSizeN315723|int readFromAppBufferN316237|int netReadBufferSizeN316437"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1414,13 +1414,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#592"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00592] For method write arguments ByteBuffer  src"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00592"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#592"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00592] For method write list of called methods Object monObjet|java.nio.ByteBuffer Utils_ensureCapacityN321278"
 }} 
 ,
 { "ligne" : {"" : ""

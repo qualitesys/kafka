@@ -283,7 +283,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method projectStruct list of called methods Object monObjet|java.lang.String targetField_nameN176861|java.lang.Object source_fieldN176936|java.lang.Object sourceStruct_getN177103"
+ , "c3" : "QC-JAV000007[00075] For method projectStruct list of called methods Object monObjet|java.lang.String targetField_nameN176861|java.lang.Object source_fieldN176936"
 }} 
 ,
 { "ligne" : {"" : ""

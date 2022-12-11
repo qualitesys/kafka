@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java 46 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java 44 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -180,13 +180,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -195,13 +188,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#22"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00022] For method createServerSideSslContextFactory arguments WorkerConfig  config|String  prefix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00022"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#22"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00022] For method createServerSideSslContextFactory list of called methods Object monObjet|SslContextFactory config_valuesWithPrefixAllOrNothingN166326"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -230,13 +216,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#41"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00041] For method createClientSideSslContextFactory arguments WorkerConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method createClientSideSslContextFactory list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_valuesWithPrefixAllOrNothingN167261"
 }} 
 ,
 { "ligne" : {"" : ""

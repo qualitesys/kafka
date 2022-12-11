@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClientUtils.java 42 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClientUtils.java 45 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -116,7 +116,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -130,7 +130,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -419,7 +419,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method filterPreferredAddresses list of called methods Object monObjet|java.lang.Class&lt;?&gt; address_getClassN168617"
+ , "c3" : "QC-JAV000007[00095] For method filterPreferredAddresses list of called methods Object monObjet|Class&lt;?&gt; address_getClassN168617"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -444,6 +444,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN166633"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#90"
  , "c2" : "BLOCKER"
@@ -455,6 +462,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#90"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.clients.ClientUtils.resolve@POLYN167268 the MagicNumber/String 'Resolved host {} as {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN166633 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN166633 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 
