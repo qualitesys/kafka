@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java 119 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java 120 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.xml" 
  , "fic3"  : "" 
 }
@@ -312,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -812,6 +812,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#268"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00268] For method verifyTopologyStateStore arguments String  topologyName|String  storeName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#268"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00268] For method verifyTopologyStateStore list of called methods Object monObjet|InternalTopologyBuilder topologyMetadata_lookupBuilderForNamedTopologyN232633"
 }} 
 ,
 { "ligne" : {"" : ""

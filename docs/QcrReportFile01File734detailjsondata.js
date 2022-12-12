@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java 43 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java 55 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -170,7 +170,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -480,6 +480,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateMetadataRequest.brokerEpoch@POLYN181778"
 }} 
 ,
@@ -509,6 +516,83 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.UpdateMetadataRequest.topicStates@POLYN182715"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#47"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 3 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#50"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 'UpdateMetadataRequest v0 requires a single endpoint' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 'UpdateMetadataRequest v0 only handles PLAINTEXT endpoints' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 'UpdateMetadataRequest v0-v3 does not support custom ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#62"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String ', endpoints: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#62"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 'listeners, request version: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.requests.UpdateMetadataRequest.Builder.build@POLYN175459 the MagicNumber/String 5 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

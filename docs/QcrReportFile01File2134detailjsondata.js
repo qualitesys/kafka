@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 122 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 121 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -338,7 +338,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1013,13 +1013,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#516"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.close@POLYN272347 the MagicNumber/String  'Caught an exception while closing caching window store for store ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00580"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#580"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00580] For method hasNext list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes indexKeyToBaseKeyN276419"
 }} 
 ,
 { "ligne" : {"" : ""

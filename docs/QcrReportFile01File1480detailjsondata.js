@@ -1915,6 +1915,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Integer.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Integer.parseInt@POLYN427027"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Integer.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Integer.toString@POLYN434119"
 }} 
 ,
@@ -1944,13 +1951,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Integer.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Integer.longValue@POLYN433354"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Integer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Integer.parseInt@POLYN427027"
 }} 
 ,
 { "ligne" : {"" : ""

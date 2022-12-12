@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 118 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 126 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -377,7 +377,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "6"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -391,7 +391,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1191,7 +1191,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.RequestFutureCompletionHandler.fireCompletion@POLYN266386"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeTriggerWakeup@POLYN263620"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.UnsentRequests.put@POLYN268598"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.UnsentRequests.removeExpiredRequests@POLYN270240"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1209,6 +1230,34 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00481"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#481"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.RequestFutureCompletionHandler.fireCompletion@POLYN266386 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00483"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#483"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00483] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.RequestFutureCompletionHandler.fireCompletion@POLYN266386 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00486"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#486"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00486] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.RequestFutureCompletionHandler.fireCompletion@POLYN266386 the MagicNumber/String 'Cancelled request with header {} due to node {} being disconnected' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00489"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00489] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.RequestFutureCompletionHandler.fireCompletion@POLYN266386 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00412"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#412"
  , "c2" : "BLOCKER"
@@ -1220,6 +1269,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#413"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeTriggerWakeup@POLYN263620 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00560"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.UnsentRequests.removeExpiredRequests@POLYN270240 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

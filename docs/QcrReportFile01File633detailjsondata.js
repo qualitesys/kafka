@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java 14 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java 15 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -141,7 +141,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -263,6 +263,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#119"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00119] The argument filter is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsRequest.Builder.toString@POLYN164040"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataShell.java 66 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataShell.java 75 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.xml" 
  , "fic3"  : "" 
 }
@@ -114,14 +114,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "22"
+ , "c4" : "30"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -445,7 +445,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.MetadataShell.main@POLYN168991"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#41"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#42"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String 'You must supply the log path via --snapshot' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#44"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String 'Initialization error' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.shell.MetadataShell.Builder.build@POLYN165296 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

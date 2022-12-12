@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java 69 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java 73 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.xml" 
  , "fic3"  : "" 
 }
@@ -89,14 +89,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "16"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -118,6 +118,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -270,6 +277,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#116"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00116] For method onCompletion list of called methods Object monObjet|long Time_SYSTEM_millisecondsN194247"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#120"
  , "c2" : "MAJOR"
@@ -302,6 +316,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#148"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.workload.ConfigurableProducerWorker.SendRecords.SendRecords@POLYN195121 the MagicNumber/String  30 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#159"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00159] For method call list of called methods Object monObjet|long Time_SYSTEM_millisecondsN196557"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -483,6 +504,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConfigurableProducerWorker.SendRecords.sendMessage@POLYN198057"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConfigurableProducerWorker.start@POLYN190619"
 }} 
 ,
@@ -491,6 +519,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConfigurableProducerWorker.stop@POLYN202277"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConfigurableProducerWorker.java.html#195"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.trogdor.workload.ConfigurableProducerWorker.SendRecords.sendMessage@POLYN198057 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

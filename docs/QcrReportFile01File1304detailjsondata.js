@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java 168 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java 171 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "38"
+ , "c4" : "39"
 }}
 ,
 { "ligne" : { "" : ""
@@ -299,7 +299,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -327,7 +327,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -386,6 +386,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#107"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00107] For method setFeatureControlManager arguments FeatureControlManager  featureControl"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#112"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00112] For method build list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN245038"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1239,6 +1246,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClusterControlManager.ClusterControlIterator.next@POLYN267570"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ClusterControlManager.registerBroker@POLYN250512"
 }} 
 ,
@@ -1436,6 +1450,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#351"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00351] In the recursive method org.apache.kafka.controller.ClusterControlManager.replay@POLYN254197 the MagicNumber/String 'Re-registered broker id {}: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00574] In the recursive method org.apache.kafka.controller.ClusterControlManager.ClusterControlIterator.next@POLYN267570 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

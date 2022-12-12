@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataNode.java 46 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataNode.java 63 rule violations " 
  , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.xml" 
  , "fic3"  : "" 
 }
@@ -49,7 +49,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "14"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -393,6 +416,125 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#115"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00115] For method setContents arguments String  contents"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.MetadataNode.DirectoryNode.create@POLYN159714"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.MetadataNode.DirectoryNode.mkdirs@POLYN157495"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#51"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.create@POLYN159714 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#91"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#92"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String 'Invalid zero-length path' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String 'Unable to locate file /' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#99"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String '/' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String 'Unable to locate file /' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.file@POLYN161752 the MagicNumber/String '/' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00014"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#14"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00014] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.mkdirs@POLYN157495 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00015"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#15"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00015] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.mkdirs@POLYN157495 the MagicNumber/String 'Invalid zero-length path' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#18"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00018] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.mkdirs@POLYN157495 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00020"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#20"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00020] In the recursive method org.apache.kafka.shell.MetadataNode.DirectoryNode.mkdirs@POLYN157495 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

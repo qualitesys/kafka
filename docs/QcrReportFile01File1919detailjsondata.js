@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java 34 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java 35 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.xml" 
  , "fic3"  : "" 
 }
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -219,6 +219,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#70"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00070] For method createTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  tasksToBeCreated"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#70"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00070] For method createTasks list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorTopology topologyMetadata_buildSubtopologyN167544"
 }} 
 ,
 { "ligne" : {"" : ""

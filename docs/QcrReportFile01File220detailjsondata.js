@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java 8 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java 10 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.xml" 
  , "fic3"  : "" 
 }
@@ -70,6 +70,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -78,6 +85,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#21"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00021] For method compare arguments TopicPartition  o1|TopicPartition  o2"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00021"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#21"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00021] For method compare list of called methods Object monObjet|java.lang.String o1_topicN147799|int o1_partitionN147990"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -113,6 +127,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#36"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00036] For method compare arguments TopicPartition  topicPartition1|TopicPartition  topicPartition2"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Utils.java.html#36"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00036] For method compare list of called methods Object monObjet|java.lang.String topicPartition1_topicN148422|java.lang.String topicPartition2_topicN148497"
 }} 
 ,
 { "ligne" : {"" : ""

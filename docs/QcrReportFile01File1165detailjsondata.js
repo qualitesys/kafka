@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java 240 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java 237 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.xml" 
  , "fic3"  : "" 
 }
@@ -311,15 +311,13 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN226193.configInfos" }
 ,
-{ "ligne" :  "R5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN228071.connName" }
+{ "ligne" :  "R5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request" }
 ,
-{ "ligne" :  "R6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request" }
+{ "ligne" :  "R6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb" }
 ,
-{ "ligne" :  "R7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb" }
+{ "ligne" :  "R7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName" }
 ,
-{ "ligne" :  "R8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName" }
-,
-{ "ligne" :  "R9:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback" }
+{ "ligne" :  "R8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback" }
 ]
 ,
 "data12b" : [
@@ -337,32 +335,32 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R6 in line [00292],R7 in line [00292])" }
+{ "ligne" : "S1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R5 in line [00292],R6 in line [00292])" }
 ,
 { "ligne" : "S1:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R6 in line [00292],R7 in line [00292])" }
+{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R5 in line [00292],R6 in line [00292])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R6 in line [00292],R7 in line [00292])" }
+{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R5 in line [00292],R6 in line [00292])" }
 ,
 { "ligne" : "S2:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R8 in line [00144],R9 in line [00144])" }
+{ "ligne" : "S3:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R7 in line [00144],R8 in line [00144])" }
 ,
 { "ligne" : "S3:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.removeConnectorTasks@POLYN238321" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "4" , "pas" : [
-{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R8 in line [00144],R9 in line [00144])" }
+{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R7 in line [00144],R8 in line [00144])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R8 in line [00144],R9 in line [00144])" }
+{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212 (R7 in line [00144],R8 in line [00144])" }
 ,
 { "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.removeConnectorTasks@POLYN238321" }
  ]
@@ -377,7 +375,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "10"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -398,7 +396,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "58"
+ , "c4" : "57"
 }}
 ,
 { "ligne" : { "" : ""
@@ -412,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "11"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1618,35 +1616,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN228071.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.request"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522.cb"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.connName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN224212.callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1661,13 +1652,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.updateConnectorTasks@POLYN238801"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN228071"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1794,13 +1778,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#404"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.updateConnectorTasks@POLYN238801 the MagicNumber/String 'Skipping update of connector {} since it is not running' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#227"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00227] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN228071 the MagicNumber/String 'Task that requested reconfiguration does not exist: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

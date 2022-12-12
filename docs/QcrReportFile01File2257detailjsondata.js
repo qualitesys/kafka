@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java 105 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java 154 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.xml" 
  , "fic3"  : "" 
 }
@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "20"
+ , "c4" : "64"
 }}
 ,
 { "ligne" : { "" : ""
@@ -128,7 +128,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -731,6 +731,41 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor.run@POLYN213055"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ExternalCommandWorker.Terminator.run@POLYN214498"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.trogdor.workload.ExternalCommandWorker.start@POLYN203385 ending with method org.apache.kafka.trogdor.workload.ExternalCommandWorker.startProcess@POLYN205824"
 }} 
@@ -838,6 +873,314 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#107"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.startProcess@POLYN205824 the MagicNumber/String 'No command specified' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00255] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor.run@POLYN213055 the MagicNumber/String '{}: process exited with return code {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor.run@POLYN213055 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor.run@POLYN213055 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor.run@POLYN213055 the MagicNumber/String 'exited with return code ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00275"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#275"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00275] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor.run@POLYN213055 the MagicNumber/String '{}: ExitMonitor error' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor.run@POLYN213055 the MagicNumber/String 'ExitMonitor error: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342 the MagicNumber/String '{}: starting stderr monitor.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00181] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00184"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#184"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#185"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342 the MagicNumber/String 'EOF' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342 the MagicNumber/String '{}: can't read any more from stderr: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#191"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342 the MagicNumber/String '{}: -stderr-:{}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00194"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#194"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StderrMonitor.run@POLYN209342 the MagicNumber/String '{}: error reading from stderr.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#212"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String '{}: stdin writer ready.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00215] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String '{}: StdinWriter terminating.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String '{}: writing to stdin: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String '\n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#224"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00224] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String '{}: can't write any more to stdin: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00226] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String '{}: error writing to stdin.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00231"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00231] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdinWriter.run@POLYN210709 the MagicNumber/String '{}: error closing stdinWriter: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String '{}: starting stdout monitor.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00137"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#137"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#140"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'EOF' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String '{}: can't read any more from stdout: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#147"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String '{}: read line from stdin: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'status' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'status' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String '{}: New status: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'status' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00153"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#153"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'log' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'log' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String '{}: -stdout-: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#156"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'error' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String 'error' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#158"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String '{}: error: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.StdoutMonitor.run@POLYN206838 the MagicNumber/String '{}: error reading from stdout.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#292"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00292] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.Terminator.run@POLYN214498 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00295"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#295"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.Terminator.run@POLYN214498 the MagicNumber/String '{}: destroying process' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00301"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.Terminator.run@POLYN214498 the MagicNumber/String '{}: forcibly destroying process' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00307"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#307"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00307] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.Terminator.run@POLYN214498 the MagicNumber/String '{}: closing Terminator thread.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00312"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#312"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.Terminator.run@POLYN214498 the MagicNumber/String '{}: Terminator error' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ExternalCommandWorker.java.html#313"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.trogdor.workload.ExternalCommandWorker.Terminator.run@POLYN214498 the MagicNumber/String 'Terminator error: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

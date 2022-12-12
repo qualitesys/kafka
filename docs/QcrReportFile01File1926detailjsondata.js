@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 311 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 310 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.xml" 
  , "fic3"  : "" 
 }
@@ -431,7 +431,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "84"
+ , "c4" : "83"
 }}
 ,
 { "ligne" : { "" : ""
@@ -445,7 +445,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "15"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -1148,6 +1148,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#561"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00561] For method bufferChangelogRecords arguments ChangelogMetadata  changelogMetadata|List&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00561"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#561"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00561] For method bufferChangelogRecords list of called methods Object monObjet|int changelogMetadata_bufferedRecords_sizeN302248"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2064,13 +2071,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.StoreChangelogReader@POLYN284293"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreChangelogReader.addChangelogsToRestoreConsumer@POLYN315354"
 }} 
 ,
@@ -2625,13 +2625,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#853"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00853] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.removeChangelogsFromRestoreConsumer@POLYN316816 the MagicNumber/String 'does not contain some of the partitions ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.streams.processor.internals.StoreChangelogReader.StoreChangelogReader@POLYN284293 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

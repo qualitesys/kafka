@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 88 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 90 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.xml" 
  , "fic3"  : "" 
 }
@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -760,6 +760,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#320"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.streams.processor.internals.PartitionGroup.clear@POLYN204128 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.RecordInfo.node@POLYN192090"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.RecordInfo.partition@POLYN192191"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java 29 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java 36 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -96,7 +96,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -110,7 +110,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -322,7 +322,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.registerTaskError@POLYN156686"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata.canProcessTask@POLYN157847"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -330,6 +330,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.canProcessTask@POLYN155879"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.registerTaskError@POLYN156686"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata.canProcessTask@POLYN157847 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#69"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata.canProcessTask@POLYN157847 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata.canProcessTask@POLYN157847 the MagicNumber/String 'End backoff for task {} at t={}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#76"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata.canProcessTask@POLYN157847 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#78"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata.canProcessTask@POLYN157847 the MagicNumber/String 'Skipping processing for unhealthy task {} at t={}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutionMetadata.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata.canProcessTask@POLYN157847 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

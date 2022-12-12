@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java 29 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java 31 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -143,14 +143,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -173,13 +173,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -188,13 +181,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#38"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00038] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method build list of called methods Object monObjet|java.util.Map&lt;Errors,java.lang.Integer&gt; topicStates_streamN177478"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -341,6 +327,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176233"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.brokerEpoch@POLYN184093"
 }} 
 ,
@@ -370,6 +363,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN180492"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#44"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176233 the MagicNumber/String 3 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#46"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176233 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

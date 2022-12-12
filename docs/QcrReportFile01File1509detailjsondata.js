@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java 66 rule violations " 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java 70 rule violations " 
  , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.xml" 
  , "fic3"  : "" 
 }
@@ -123,7 +123,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -137,7 +137,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -559,6 +559,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.EventHandler.run@POLYN195304"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.EventContext.run@POLYN193626"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN204443"
 }} 
 ,
@@ -567,6 +581,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.close@POLYN205726"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.queue.KafkaEventQueue.EventHandler.run@POLYN195304 the MagicNumber/String 'event handler thread exiting with exception' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#88"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.queue.KafkaEventQueue.EventContext.run@POLYN193626 the MagicNumber/String 'Unexpected exception in handleException' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

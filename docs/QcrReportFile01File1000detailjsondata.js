@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html" 
- , "texte" : "File connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java 38 rule violations " 
+ , "texte" : "File connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java 50 rule violations " 
  , "fic2"  : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.xml" 
  , "fic3"  : "" 
 }
@@ -89,7 +89,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -103,7 +103,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -357,7 +357,91 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.filter@POLYN165311"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 'No credentials were provided with the request' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 'Request credentials were malformed; no space present in value for authorization header' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 'Request credentials used {} authentication, but only {} supported; ignoring' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 'Request credentials were malformed; no colon present between username and password' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java.html#133"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter.BasicAuthCallBackHandler.BasicAuthCallBackHandler@POLYN166875 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

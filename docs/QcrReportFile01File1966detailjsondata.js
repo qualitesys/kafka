@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 94 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 87 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -840,13 +840,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN189812"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClient@POLYN193919"
 }} 
 ,
@@ -855,27 +848,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN195529"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN197177"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN189812 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#118"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignActive@POLYN189812 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -904,27 +876,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#187"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN195529 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#214"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00214] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN197177 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN197177 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findLeastLoaded@POLYN197177 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

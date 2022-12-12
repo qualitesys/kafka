@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 375 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 385 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.xml" 
  , "fic3"  : "" 
 }
@@ -643,7 +643,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "69"
+ , "c4" : "79"
 }}
 ,
 { "ligne" : { "" : ""
@@ -657,7 +657,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "12"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -699,7 +699,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "19"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2042,13 +2042,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01083"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1083"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01083] For method build list of called methods Object monObjet|org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics errorHandlingMetricsN468028"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01084"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1084"
  , "c2" : "MAJOR"
@@ -2147,13 +2140,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01128"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01128] For method doBuild list of called methods Object monObjet|org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter createWorkerErrantRecordReporterN470639|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseConsumerConfigsN470850"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1129"
  , "c2" : "CRITICAL"
@@ -2193,13 +2179,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1169"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01169] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?  extends Connector &gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01169"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01169] For method doBuild list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN473138|boolean sourceConnectorTopicCreationEnabledN473614|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN473839|org.apache.kafka.connect.storage.ConnectorOffsetBackingStore offsetStoreForRegularSourceTaskN474403"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2263,13 +2242,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1237"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01237] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?  extends Connector &gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01237"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1237"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01237] For method doBuild list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; exactlyOnceSourceTaskProducerConfigsN477250|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN477635|boolean sourceConnectorTopicCreationEnabledN478057|org.apache.kafka.connect.storage.ConnectorOffsetBackingStore offsetStoreForExactlyOnceSourceTaskN478228"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2632,6 +2604,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01571"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1571"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01571] For method recordTaskAdded list of called methods Object monObjet|java.lang.String connectorTaskId_connectorN491847"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01571"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1571"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01571] The argument connectorTaskId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2816,6 +2795,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.startTask@POLYN436522"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.ExactlyOnceSourceTaskBuilder.doBuild@POLYN476172"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.SinkTaskBuilder.doBuild@POLYN469618"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.SourceTaskBuilder.doBuild@POLYN472060"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3180,6 +3180,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#581"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00581] In the recursive method org.apache.kafka.connect.runtime.Worker.startTask@POLYN436522 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01255"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1255"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01255] In the recursive method org.apache.kafka.connect.runtime.Worker.ExactlyOnceSourceTaskBuilder.doBuild@POLYN476172 the MagicNumber/String 'Initializing: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01263] In the recursive method org.apache.kafka.connect.runtime.Worker.ExactlyOnceSourceTaskBuilder.doBuild@POLYN476172 the MagicNumber/String 'connector-adminclient-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01269"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1269"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01269] In the recursive method org.apache.kafka.connect.runtime.Worker.ExactlyOnceSourceTaskBuilder.doBuild@POLYN476172 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01143"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1143"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01143] In the recursive method org.apache.kafka.connect.runtime.Worker.SinkTaskBuilder.doBuild@POLYN469618 the MagicNumber/String 'Initializing: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01150"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1150"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01150] In the recursive method org.apache.kafka.connect.runtime.Worker.SinkTaskBuilder.doBuild@POLYN469618 the MagicNumber/String 'connector-consumer-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01187"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1187"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01187] In the recursive method org.apache.kafka.connect.runtime.Worker.SourceTaskBuilder.doBuild@POLYN472060 the MagicNumber/String 'Initializing: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01189"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01189] In the recursive method org.apache.kafka.connect.runtime.Worker.SourceTaskBuilder.doBuild@POLYN472060 the MagicNumber/String 'connector-producer-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01193"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1193"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01193] In the recursive method org.apache.kafka.connect.runtime.Worker.SourceTaskBuilder.doBuild@POLYN472060 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01196"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1196"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01196] In the recursive method org.apache.kafka.connect.runtime.Worker.SourceTaskBuilder.doBuild@POLYN472060 the MagicNumber/String 'connector-adminclient-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01203"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1203"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01203] In the recursive method org.apache.kafka.connect.runtime.Worker.SourceTaskBuilder.doBuild@POLYN472060 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

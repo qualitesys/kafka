@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java 22 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java 28 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -84,7 +84,30 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -267,6 +290,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#112"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00112] For method parse arguments ByteBuffer  buffer|short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String 'API Version 0 only supports PREFERRED election type' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#55"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ElectLeadersRequest.java.html#65"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.common.requests.ElectLeadersRequest.Builder.toRequestData@POLYN159549 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

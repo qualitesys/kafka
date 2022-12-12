@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java 46 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java 50 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.xml" 
  , "fic3"  : "" 
 }
@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -461,6 +461,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#85"
  , "c2" : "BLOCKER"
@@ -521,6 +528,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#53"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN160939 the MagicNumber/String 'Error registering AppInfo mbean' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String 'Kafka version: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String 'Kafka commitId: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN164420 the MagicNumber/String 'Kafka startTimeMs: {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

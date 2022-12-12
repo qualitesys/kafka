@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 429 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 469 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -875,7 +875,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "64"
+ , "c4" : "95"
 }}
 ,
 { "ligne" : { "" : ""
@@ -896,7 +896,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "15"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -924,7 +924,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3016,6 +3016,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01238"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1238"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01238] For method handleResponse list of called methods Object monObjet|Errors initProducerIdResponse_errorN410792"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1247"
  , "c2" : "MAJOR"
@@ -3041,6 +3048,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1291"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01291] For method handleResponse arguments AbstractResponse  response"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01291"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1291"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01291] For method handleResponse list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Errors&gt; addPartitionsToTxnResponse_errorsN413358"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3247,6 +3261,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01470"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1470"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01470] For method handleResponse list of called methods Object monObjet|Errors endTxnResponse_errorN421406"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01493"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1493"
  , "c2" : "MAJOR"
@@ -3293,6 +3314,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1585"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01585] For method handleResponse arguments AbstractResponse  response"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01585"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1585"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01585] For method handleResponse list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,Errors&gt; txnOffsetCommitResponse_errorsN427002"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3418,6 +3446,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN407539"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN391514"
 }} 
 ,
@@ -3446,14 +3481,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401196"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382614"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382614"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401196"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3475,6 +3510,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN388503"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN423861"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN426741"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3629,6 +3692,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#460"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00460] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentProducerEpoch@POLYN377578 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01155"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1155"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01155] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN407539 the MagicNumber/String 'Detected more than one in-flight transactional request.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01159"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1159"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01159] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN407539 the MagicNumber/String 'Disconnected from {}. Will retry.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01163] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN407539 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01166] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN407539 the MagicNumber/String 'Received transactional response {} for request {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01172] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN407539 the MagicNumber/String 'Could not execute transactional request for unknown reasons' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3793,6 +3891,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00546"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#546"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00546] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382614 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00557"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#557"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00557] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382614 the MagicNumber/String 'Partition {} keeps lastOffset at {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00997"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#997"
  , "c2" : "BLOCKER"
@@ -3811,20 +3923,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1003"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01003] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN401196 the MagicNumber/String 'Invalid coordinator type: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00546"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00546] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382614 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00557"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00557] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN382614 the MagicNumber/String 'Partition {} keeps lastOffset at {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3895,6 +3993,188 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#674"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00674] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN388503 the MagicNumber/String 'Marking partition {} unresolved with next sequence number {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01528"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1528"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01528] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN423861 the MagicNumber/String 'Successfully added partition for consumer group {} to transaction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01533"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1533"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01533] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN423861 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01550"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1550"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01550] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN423861 the MagicNumber/String 'Unexpected error in AddOffsetsToTxnResponse: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01294"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1294"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01294] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01329"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1329"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01329] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String 'Did not attempt to add partition {} to transaction because other partitions in the ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01330"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1330"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01330] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String 'batch had errors.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01331"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1331"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01331] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01336"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01336] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String 'Could not add partition {} due to unexpected error {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01337"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1337"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01337] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01353"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1353"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01353] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String 'Could not add partitions to transaction due to errors: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1355"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01355] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String 'Successfully added partitions {} to transaction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01357"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1357"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01357] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN413154 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01412"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1412"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01412] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01413"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1413"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01413] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String 'Group coordinator lookup failed: Invalid response containing more than a single coordinator' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01414"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01414] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String 'Group coordinator lookup failed: Invalid response containing more than a single coordinator' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01416"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01416] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01418"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1418"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01418] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01431"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1431"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01431] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String 'Discovered {} coordinator {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01439"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1439"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01439] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String 'Could not find a coordinator with type %s with key %s due to ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01440"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1440"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01440] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN418044 the MagicNumber/String 'unexpected error: %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01587"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1587"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01587] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN426741 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01590"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1590"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01590] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN426741 the MagicNumber/String 'Received TxnOffsetCommit response for consumer group {}: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01602"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1602"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01602] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN426741 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01617"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1617"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01617] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN426741 the MagicNumber/String 'Transaction offset Commit failed ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01618"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1618"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01618] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN426741 the MagicNumber/String 'due to consumer group metadata mismatch: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01624"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1624"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01624] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN426741 the MagicNumber/String 'Unexpected error in TxnOffsetCommitResponse: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html" 
- , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java 65 rule violations " 
+ , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java 42 rule violations " 
  , "fic2"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.xml" 
  , "fic3"  : "" 
 }
@@ -57,15 +57,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -82,24 +73,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "22"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -417,167 +394,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#121"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#71"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#71"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#72"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#75"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#76"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Warning: Some command line arguments were ignored. This demo only accepts an optional configuration file.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#80"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'streams-wordcount-processor' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'localhost:9092' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#82"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#87"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'earliest' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#91"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Source' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#91"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'streams-plaintext-input' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Process' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Source' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#96"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Counts' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#99"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Process' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Process' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'Sink' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'streams-wordcount-processor-output' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 'streams-wordcount-shutdown-hook' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#119"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.main@POLYN169481 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

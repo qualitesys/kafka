@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java 39 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java 44 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -120,6 +120,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -129,10 +138,24 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -450,6 +473,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#49"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00049] Public method committableOffsets is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN207525"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#138"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN207525 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN207525 the MagicNumber/String 'Attempted to remove record from submitted queue for partition {}, but no records with that partition appear to have been submitted' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#140"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN207525 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord.drop@POLYN207525 the MagicNumber/String 'Attempted to remove record from submitted queue for partition {}, but the record has not been submitted or has already been removed' MUST BE CONVERTED to const"
 }} 
 ]
 , 

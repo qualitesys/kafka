@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java 365 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java 366 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -293,6 +293,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#90"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00090] For method target arguments String  host|int  port"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#90"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00090] For method target list of called methods Object monObjet|java.lang.String String_formatN233414"
 }} 
 ,
 { "ligne" : {"" : ""
