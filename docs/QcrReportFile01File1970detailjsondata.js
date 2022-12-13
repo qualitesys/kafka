@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java 76 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java 74 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.xml" 
  , "fic3"  : "" 
 }
@@ -216,7 +216,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -344,7 +344,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method assignStandbyTaskMovements list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN192426|java.util.UUID mostCaughtUpEligibleClientN192622"
+ , "c3" : "QC-JAV000007[00110] For method assignStandbyTaskMovements list of called methods Object monObjet|java.util.UUID mostCaughtUpEligibleClientN192622"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -434,13 +434,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#175"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method tryToSwapStandbyAndActiveOnCaughtUpClient list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN193497"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#175"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00175] The argument clientStates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -485,13 +478,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#194"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00194] For method tryToMoveActiveToCaughtUpClientAndTryToWarmUp arguments Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;UUID ,Set&lt;TaskId &gt; &gt;  warmups|AtomicInteger  remainingWarmupReplicas|ConstrainedPrioritySet  caughtUpClientsByTaskLoad|TaskMovement  movement"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#194"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00194] For method tryToMoveActiveToCaughtUpClientAndTryToWarmUp list of called methods Object monObjet|java.util.UUID caughtUpClientsByTaskLoad_pollN194507"
 }} 
 ,
 { "ligne" : {"" : ""

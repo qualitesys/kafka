@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java 32 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java 33 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -194,6 +194,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#28"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00028] For method validateIssuedAt list of called methods Object monObjet|double value_doubleValueN176421"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#36"
  , "c2" : "MAJOR"
@@ -226,6 +233,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#48"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00048] For method validateExpirationTime arguments OAuthBearerUnsecuredJws  jwt|long  whenCheckTimeMs|int  allowableClockSkewMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00048] For method validateExpirationTime list of called methods Object monObjet|double value_doubleValueN177928"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -303,13 +317,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#85"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00085] For method validateScope arguments OAuthBearerToken  token|List&lt;String &gt;  requiredScope"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method validateScope list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; token_scopeN179913"
 }} 
 ,
 { "ligne" : {"" : ""

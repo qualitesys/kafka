@@ -337,7 +337,7 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "1" , "pas" : [
 { "ligne" : "S1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R5 in line [00292],R6 in line [00292])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" }
+{ "ligne" : "S1:org.apache.kafka.connect.runtime.AbstractHerder.buildRestartPlan@POLYN304363" }
  ]
  } }
 ,
@@ -346,7 +346,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN232522 (R5 in line [00292],R6 in line [00292])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN161130" }
+{ "ligne" : "S2:org.apache.kafka.connect.runtime.AbstractHerder.buildRestartPlan@POLYN304363" }
  ]
  } }
 ,
@@ -1175,7 +1175,7 @@ var maDataBlocs = {
  , "c1" : "00292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00292] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN232661|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN233052"
+ , "c3" : "QC-JAV000007[00292] For method restartConnectorAndTasks list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN233052"
 }} 
 ,
 { "ligne" : {"" : ""

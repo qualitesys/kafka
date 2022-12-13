@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java 45 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java 46 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -235,6 +235,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#102"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00102] For method get arguments String  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#112"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00112] For method configDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef.Range ConfigDef_Range_atLeastN195674"
 }} 
 ,
 { "ligne" : {"" : ""

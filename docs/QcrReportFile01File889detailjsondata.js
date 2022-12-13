@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Bytes.java 42 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Bytes.java 41 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.xml" 
  , "fic3"  : "" 
 }
@@ -156,13 +156,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
  ] 
 ,
@@ -340,13 +333,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method increment arguments Bytes  input"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Bytes.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method increment list of called methods Object monObjet|byte[] input_getN172458"
 }} 
 ,
 { "ligne" : {"" : ""

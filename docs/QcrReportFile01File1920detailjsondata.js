@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java 214 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java 212 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.xml" 
  , "fic3"  : "" 
 }
@@ -361,7 +361,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -663,13 +663,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method getTaskDirectoryParentName list of called methods Object monObjet|java.lang.String taskId_topologyNameN250793"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00001] The argument taskId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -735,13 +728,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method taskDirIsEmpty arguments File  taskDir"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method taskDirIsEmpty list of called methods Object monObjet|java.io.File[] taskDir_listFilesN252050"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1063,7 +1049,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method maybeCleanEmptyNamedTopologyDirs list of called methods Object monObjet|java.io.File[] stateDir_listFilesN260849|java.io.File[] namedTopologyDir_listFilesN261251"
+ , "c3" : "QC-JAV000007[00001] For method maybeCleanEmptyNamedTopologyDirs list of called methods Object monObjet|java.io.File[] stateDir_listFilesN260849"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1280,7 +1266,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method listTaskDirectories list of called methods Object monObjet|java.lang.String parseNamedTopologyFromDirectoryN266601|java.io.File[] namedTopologyDir_listFilesN266718|java.io.File[] stateDir_listFilesN267215"
+ , "c3" : "QC-JAV000007[00001] For method listTaskDirectories list of called methods Object monObjet|java.lang.String parseNamedTopologyFromDirectoryN266601|java.io.File[] stateDir_listFilesN267215"
 }} 
 ,
 { "ligne" : {"" : ""

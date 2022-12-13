@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java 22 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java 24 rule violations " 
  , "fic2"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.xml" 
  , "fic3"  : "" 
 }
@@ -130,7 +130,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -139,7 +139,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method setup list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN164790|org.apache.kafka.common.Uuid Uuid_randomUuidN164885"
+ , "c3" : "QC-JAV000007[00061] For method setup list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN164790|org.apache.kafka.common.Uuid Uuid_randomUuidN164885|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forConsumerN165813|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forReplicaN166089"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -255,6 +255,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#90"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00090] For method testFetchRequestForConsumer list of called methods Object monObjet|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forConsumerN166792"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#91"
  , "c2" : "MAJOR"
@@ -266,6 +273,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#91"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.jmh.common.FetchRequestBenchmark.testFetchRequestForConsumer@POLYN166717 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#97"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00097] For method testFetchRequestForReplica list of called methods Object monObjet|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forReplicaN167218"
 }} 
 ,
 { "ligne" : {"" : ""

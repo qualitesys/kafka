@@ -317,13 +317,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00170] For method parseExecResult list of called methods Object monObjet|int reader_readN183884"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#170"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00170] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -375,6 +368,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#181"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.utils.Shell.ShellCommandExecutor.output@POLYN184168 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00185"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#185"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00185] For method toString list of called methods Object monObjet|java.lang.String[] execStringN184697"
 }} 
 ,
 { "ligne" : {"" : ""

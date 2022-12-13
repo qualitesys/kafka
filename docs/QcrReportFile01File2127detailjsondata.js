@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java 54 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java 57 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.xml" 
  , "fic3"  : "" 
 }
@@ -227,6 +227,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "16"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -347,6 +354,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#74"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00074] For method hasNextCondition arguments Bytes  binaryKeyFrom|Bytes  binaryKeyTo|long  from|long  to|boolean  forward"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#74"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00074] For method hasNextCondition list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN176679"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -504,6 +518,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00119] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN179237|java.lang.Long buffer_getLongN179366"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#122"
  , "c2" : "MAJOR"
@@ -515,6 +536,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#134"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00134] For method from arguments Bytes  bytesKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#134"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00134] For method from list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window extractWindowN180333"
 }} 
 ,
 { "ligne" : {"" : ""

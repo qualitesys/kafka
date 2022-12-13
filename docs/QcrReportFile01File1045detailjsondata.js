@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method startConnect list of called methods Object monObjet|org.apache.kafka.connect.runtime.Connect rest_advertisedUrlN168042|org.apache.kafka.connect.runtime.WorkerConfigTransformer worker_configTransformerN169188|org.apache.kafka.connect.storage.Converter worker_getInternalValueConverterN169263"
+ , "c3" : "QC-JAV000007[00068] For method startConnect list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN167708"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java 94 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java 92 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.xml" 
  , "fic3"  : "" 
 }
@@ -182,13 +182,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -197,13 +190,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#40"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00040] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  haltFuture"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#40"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00040] For method start list of called methods Object monObjet|org.apache.kafka.trogdor.common.Node platform_curNodeN173936"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -274,13 +260,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#59"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00059] For method stop arguments Platform  platform"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method stop list of called methods Object monObjet|org.apache.kafka.trogdor.common.Node platform_curNodeN175232"
 }} 
 ,
 { "ligne" : {"" : ""

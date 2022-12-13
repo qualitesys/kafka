@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/JaasContext.java 63 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/JaasContext.java 61 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.xml" 
  , "fic3"  : "" 
 }
@@ -198,13 +198,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -213,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#27"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00027] For method loadServerContext arguments ListenerName  listenerName|String  mechanism|Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#27"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00027] For method loadServerContext list of called methods Object monObjet|java.lang.String listenerName_valueN173974"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -318,13 +304,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#45"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00045] For method load arguments JaasContext.Type  contextType|String  listenerContextName|String  globalContextName|Password  dynamicJaasConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method load list of called methods Object monObjet|javax.security.auth.login.AppConfigurationEntry[] jaasConfig_getAppConfigurationEntryN175691"
 }} 
 ,
 { "ligne" : {"" : ""

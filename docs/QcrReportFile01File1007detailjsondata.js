@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html" 
- , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java 161 rule violations " 
+ , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java 174 rule violations " 
  , "fic2"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.xml" 
  , "fic3"  : "" 
 }
@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "41"
+ , "c4" : "54"
 }}
 ,
 { "ligne" : { "" : ""
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -504,7 +504,7 @@ var maDataBlocs = {
  , "c1" : "00407"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#407"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00407] For method asConnectSchema list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_boolN292481|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int8N292612|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int16N292743|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int32N292874|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int64N293005|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float32N293136|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float64N293267|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_bytesN293398|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_stringN293529|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN293935|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_mapN294582|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_structN294816|org.apache.kafka.connect.data.Schema builder_buildN298253"
+ , "c3" : "QC-JAV000007[00407] For method asConnectSchema list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_boolN292481|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int8N292612|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int16N292743|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int32N292874|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int64N293005|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float32N293136|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float64N293267|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_bytesN293398|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_stringN293529|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN293935|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_mapN294582|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_structN294816"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -984,13 +984,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00646"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#646"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00646] For method convertToConnect list of called methods Object monObjet|org.apache.kafka.connect.data.Schema.Type schema_typeN306818"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00648"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#648"
  , "c2" : "MAJOR"
@@ -1114,6 +1107,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.json.JsonConverter.configure@POLYN283021"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1401,6 +1401,97 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#399"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN286630 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00648"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#648"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00648] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00650"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#650"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00650] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00651"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#651"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00651] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00654"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#654"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00654] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00655"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00655] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String ' field' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00655"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00655] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String 'Invalid null value for required ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00662"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#662"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00662] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00685"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#685"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00685] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00691"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#691"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00691] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00692"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#692"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00692] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String 'Unknown schema type: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00694"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#694"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00694] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00694"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#694"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00694] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00696"
+ , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00696] In the recursive method org.apache.kafka.connect.json.JsonConverter.convertToConnect@POLYN306582 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

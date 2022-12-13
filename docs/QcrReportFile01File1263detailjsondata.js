@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 127 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 122 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -180,13 +180,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
  ] 
 ,
 "data13b" : [
@@ -195,13 +188,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#44"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00044] For method generateSchemas arguments MessageSpec  message"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN203533"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -223,13 +209,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#59"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00059] For method generateSchemas arguments String  className|StructSpec  struct|Versions  parentVersions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN204348|short versions_lowestN205664"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,13 +265,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#90"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00090] For method generateSchemaForVersion arguments StructSpec  struct|short  version|CodeBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00090] For method generateSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN206411|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN206671|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN207610|java.util.Optional&lt;org.apache.kafka.message.Versions&gt; field_flexibleVersionsN207961"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -398,13 +370,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#136"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00136] For method generateTaggedFieldsSchemaForVersion arguments StructSpec  struct|short  version|CodeBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#136"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method generateTaggedFieldsSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN209108|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN209368|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN210036|java.util.Optional&lt;org.apache.kafka.message.Versions&gt; field_flexibleVersionsN210497"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -909,13 +874,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#299"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00299] For method writeSchema arguments String  className|CodeBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#299"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00299] For method writeSchema list of called methods Object monObjet|short versions_lowestN219184|short versions_lowestN220661"
 }} 
 ,
 { "ligne" : {"" : ""

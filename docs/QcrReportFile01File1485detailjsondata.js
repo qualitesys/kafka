@@ -1515,7 +1515,7 @@ var maDataBlocs = {
  , "c1" : "00472"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#472"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00472] For method compare list of called methods Object monObjet|int Character_toUpperCaseN842965|int Character_toUpperCaseN843058|int Character_toLowerCaseN843222|int Character_toLowerCaseN843315"
+ , "c3" : "QC-JAV000007[00472] For method compare list of called methods Object monObjet|int s1_lengthN842280|int s2_lengthN842355|char s1_charAtN842707|char s2_charAtN842801|int Character_toUpperCaseN842965|int Character_toUpperCaseN843058|int Character_toLowerCaseN843222|int Character_toLowerCaseN843315"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2341,7 +2341,7 @@ var maDataBlocs = {
  , "c1" : "00902"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#902"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00902] For method toLowerCase list of called methods Object monObjet|int codePointAtN891413|int Character_charCountN891630|int codePointAtN893187|int Character_charCountN893272|int Character_toLowerCaseN893692|int Character_toCharsN894250|char[] Character_toCharsN894464"
+ , "c3" : "QC-JAV000007[00902] For method toLowerCase list of called methods Object monObjet|int codePointAtN891413|int Character_charCountN891630|int codePointAtN893187|int Character_charCountN893272|int Character_toLowerCaseN893692|char[] Character_toCharsN894250|char[] Character_toCharsN894464"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2453,7 +2453,7 @@ var maDataBlocs = {
  , "c1" : "00994"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#994"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00994] For method toUpperCase list of called methods Object monObjet|int codePointAtN898994|int Character_charCountN899079|int Character_toUpperCaseExN899251|int codePointAtN900860|int Character_charCountN900945|int Character_toUpperCaseExN901319|char[] Character_toUpperCaseCharArrayN901872|int Character_toCharsN902041|char[] Character_toCharsN902255"
+ , "c3" : "QC-JAV000007[00994] For method toUpperCase list of called methods Object monObjet|int codePointAtN898994|int Character_charCountN899079|int Character_toUpperCaseExN899251|int codePointAtN900860|int Character_charCountN900945|int Character_toUpperCaseExN901319|char[] Character_toUpperCaseCharArrayN901872|char[] Character_toCharsN902041|char[] Character_toCharsN902255"
 }} 
 ,
 { "ligne" : {"" : ""

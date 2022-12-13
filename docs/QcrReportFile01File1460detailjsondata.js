@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 486 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 492 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectOutputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1622,7 +1622,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -2219,7 +2219,7 @@ var maDataBlocs = {
  , "c1" : "00385"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#385"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00385] For method verifySubclass list of called methods Object monObjet|Class&lt;?&gt; getClassN574250|java.lang.Boolean Boolean_valueOfN574978"
+ , "c3" : "QC-JAV000007[00385] For method verifySubclass list of called methods Object monObjet|java.lang.Class&lt;?&gt; getClassN574250|java.lang.Boolean Boolean_valueOfN574978"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3602,6 +3602,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01198"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1198"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01198] For method writeBytes list of called methods Object monObjet|int s_lengthN617042"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01200"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1200"
  , "c2" : "MAJOR"
@@ -3641,6 +3648,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1220"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01220] For method writeChars arguments String  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01220"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1220"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01220] For method writeChars list of called methods Object monObjet|int s_lengthN618492"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3854,6 +3868,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01352"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1352"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01352] For method getUTFLength list of called methods Object monObjet|int s_lengthN627006"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01354"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1354"
  , "c2" : "MAJOR"
@@ -3949,6 +3970,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1402"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01402] For method writeUTFBody arguments String  s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01402"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1402"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01402] For method writeUTFBody list of called methods Object monObjet|int s_lengthN630112"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4295,6 +4323,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01480"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1480"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01480] For method lookup list of called methods Object monObjet|int hashN635741"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01481"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1481"
  , "c2" : "MAJOR"
@@ -4355,6 +4390,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1506"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01506] For method insert arguments Object  obj|int  handle"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01506"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1506"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01506] For method insert list of called methods Object monObjet|int hashN636962"
 }} 
 ,
 { "ligne" : {"" : ""

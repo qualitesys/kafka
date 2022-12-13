@@ -530,7 +530,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method writeTo list of called methods Object monObjet|int sizeOfBodyInBytesN228578|int header_keyN230429|int header_valueN230913"
+ , "c3" : "QC-JAV000007[00120] For method writeTo list of called methods Object monObjet|int sizeOfBodyInBytesN228578|int header_keyN230429|byte[] Utils_utf8N230641"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1503,7 +1503,7 @@ var maDataBlocs = {
  , "c1" : "00539"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#539"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00539] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfVarintN251397|int ByteUtils_sizeOfVarintN251625|int ByteUtils_sizeOfVarintN251871|int header_keyN252047|int ByteUtils_sizeOfVarintN252346|int header_valueN252468|int ByteUtils_sizeOfVarintN252688"
+ , "c3" : "QC-JAV000007[00539] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfVarintN251397|int ByteUtils_sizeOfVarintN251625|int ByteUtils_sizeOfVarintN251871|int header_keyN252047|int Utils_utf8LengthN252253|int ByteUtils_sizeOfVarintN252346|int header_valueN252468|int ByteUtils_sizeOfVarintN252688"
 }} 
 ,
 { "ligne" : {"" : ""

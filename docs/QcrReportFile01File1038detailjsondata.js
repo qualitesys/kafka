@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method deserializeRecord list of called methods Object monObjet|java.lang.String keyStruct_getStringN158153|java.lang.Integer keyStruct_getIntN158247|java.lang.Long valueStruct_getLongN158494|java.lang.Long valueStruct_getLongN158588"
+ , "c3" : "QC-JAV000007[00071] For method deserializeRecord list of called methods Object monObjet|java.lang.Long valueStruct_getLongN158494|java.lang.Long valueStruct_getLongN158588"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java 5 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java 6 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.xml" 
  , "fic3"  : "" 
 }
@@ -105,6 +105,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -113,6 +120,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#13"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00013] For method getIntConfig arguments Node  node|String  key|int  defaultVal"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00013"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#13"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00013] For method getIntConfig list of called methods Object monObjet|int node_getConfigN146113"
 }} 
 ,
 { "ligne" : {"" : ""

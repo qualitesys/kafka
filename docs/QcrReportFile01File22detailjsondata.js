@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java 55 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java 56 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.xml" 
  , "fic3"  : "" 
 }
@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -439,6 +439,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#146"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00146] For method apiVersionToText arguments ApiVersion  apiVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#146"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00146] For method apiVersionToText list of called methods Object monObjet|short Utils_minN188254"
 }} 
 ,
 { "ligne" : {"" : ""

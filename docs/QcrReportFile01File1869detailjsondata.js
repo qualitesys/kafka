@@ -437,7 +437,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00199] For method createActiveTaskFromStandby list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.InternalProcessorContext standbyTask_processorContextN192481|org.apache.kafka.common.utils.LogContext getLogContextN192629"
+ , "c3" : "QC-JAV000007[00199] For method createActiveTaskFromStandby list of called methods Object monObjet|org.apache.kafka.common.utils.LogContext getLogContextN192629"
 }} 
 ,
 { "ligne" : {"" : ""

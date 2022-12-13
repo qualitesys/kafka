@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 70 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 69 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -220,7 +220,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -382,13 +382,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method adminClientMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; adminClient_metricsN178197"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#82"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00082] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -398,13 +391,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00087] For method producerMetrics arguments Collection&lt;StreamsProducer &gt;  producers"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method producerMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; producer_metricsN178745"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -649,7 +635,7 @@ var maDataBlocs = {
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00170] For method recordSizeInBytes list of called methods Object monObjet|long header_valueN183787"
+ , "c3" : "QC-JAV000007[00170] For method recordSizeInBytes list of called methods Object monObjet|byte[] Utils_utf8N183569"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -699,6 +685,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN183159"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.adminClientMetrics@POLYN178049"
 }} 
 ,
 { "ligne" : {"" : ""

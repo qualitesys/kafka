@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 307 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 306 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.xml" 
  , "fic3"  : "" 
 }
@@ -355,7 +355,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -383,7 +383,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -1035,13 +1035,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#516"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00516] For method handleProduceResponse list of called methods Object monObjet|org.apache.kafka.common.requests.RequestHeader response_requestHeaderN318315|int requestHeader_correlationIdN318390"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00516"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#516"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00516] The argument response is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1421,7 +1414,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00745] For method sendProduceRequest list of called methods Object monObjet|byte batch_magicN331585|org.apache.kafka.common.record.MemoryRecords batch_recordsN331890|org.apache.kafka.common.record.MemoryRecords batch_recordsN332046|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333204|java.lang.String Integer_toStringN333671"
+ , "c3" : "QC-JAV000007[00745] For method sendProduceRequest list of called methods Object monObjet|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN333204|java.lang.String Integer_toStringN333671"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1499,13 +1492,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#807"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00807] For method throttleTimeSensor arguments SenderMetricsRegistry  metrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00807"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#807"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00807] For method throttleTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_sensorN334433"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2003,6 +1989,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN308165"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN304214"
 }} 
 ,
 { "ligne" : {"" : ""

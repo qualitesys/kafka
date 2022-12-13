@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java 35 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java 37 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -301,6 +301,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -417,6 +424,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00517"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#517"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00517] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN250895"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00520"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#520"
  , "c2" : "MAJOR"
@@ -442,6 +456,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#524"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00524] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN250761 the MagicNumber/String  'Ignoring '{}cleanup.policy={}' setting, since compaction is always used' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00549"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#549"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00549] For method ensureVerificationAlgorithmsIncludeSignatureAlgorithm list of called methods Object monObjet|java.lang.String getStringN252486|java.util.List&lt;java.lang.String&gt; getListN252593"
 }} 
 ,
 { "ligne" : {"" : ""

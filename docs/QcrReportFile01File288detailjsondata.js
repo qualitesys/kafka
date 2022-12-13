@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java 98 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java 99 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -209,6 +209,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -238,6 +245,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#71"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.compress.KafkaLZ4BlockInputStream.KafkaLZ4BlockInputStream@POLYN183646 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00080] For method readHeader list of called methods Object monObjet|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.FLG FLG_fromByteN185081|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.BD BD_fromByteN185194"
 }} 
 ,
 { "ligne" : {"" : ""

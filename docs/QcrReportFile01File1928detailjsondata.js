@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java 303 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java 304 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.xml" 
  , "fic3"  : "" 
 }
@@ -635,7 +635,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -1603,7 +1603,7 @@ var maDataBlocs = {
  , "c1" : "00868"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#868"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00868] For method initializeTaskTimeAndProcessorMetadata list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.TopicPartitionMetadata TopicPartitionMetadata_decodeN341175|long committedTimestampAndMeta_partitionTimeN341294|org.apache.kafka.streams.processor.internals.ProcessorMetadata committedTimestampAndMeta_processorMetadataN341630"
+ , "c3" : "QC-JAV000007[00868] For method initializeTaskTimeAndProcessorMetadata list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.TopicPartitionMetadata TopicPartitionMetadata_decodeN341175"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1987,6 +1987,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1170"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01170] For method createQueue list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.RecordQueue source_getTimestampExtractorN354686"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01170"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1170"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01170] The argument partition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2051,6 +2058,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.transitToSuspend@POLYN352522"
 }} 
 ,
@@ -2073,13 +2087,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.closeDirty@POLYN324633"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2279,6 +2286,62 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00370"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#370"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00370] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Prepared {} task for committing' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00373"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Skipped preparing {} task for commit since there is nothing to commit' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' for committing' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' while preparing active task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00378"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' for committing' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' while preparing active task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00381"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1122"
  , "c2" : "BLOCKER"
@@ -2367,62 +2430,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#506"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00506] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeDirty@POLYN324633 the MagicNumber/String 'Closed dirty' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#370"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00370] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Prepared {} task for committing' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Skipped preparing {} task for commit since there is nothing to commit' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' for committing' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' while preparing active task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' for committing' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String ' while preparing active task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.prepareCommit@POLYN318576 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

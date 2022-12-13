@@ -362,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method parseResponse list of called methods Object monObjet|ApiKeys requestHeader_apiKeyN186334|short requestHeader_apiVersionN186409|org.apache.kafka.common.requests.ResponseHeader ResponseHeader_parseN186484"
+ , "c3" : "QC-JAV000007[00072] For method parseResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ResponseHeader ResponseHeader_parseN186484"
 }} 
 ,
 { "ligne" : {"" : ""

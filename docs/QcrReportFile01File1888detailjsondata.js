@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java 344 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java 343 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -257,7 +257,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -357,7 +357,7 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00119] For method validate list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,KafkaFuture&lt;org.apache.kafka.clients.admin.Config&gt;&gt; describeConfigsResult_valuesN274932"
+ , "c3" : "QC-JAV000007[00119] For method validate list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN274240|org.apache.kafka.clients.admin.DescribeConfigsResult adminClient_describeConfigsN274627"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -587,13 +587,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#230"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00230] For method validatePartitionCount list of called methods Object monObjet|java.lang.String topicConfig_nameN279431|java.util.Optional&lt;java.lang.Integer&gt; topicConfig_numberOfPartitionsN279511|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; topicDescription_partitionsN279767"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#230"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00230] The argument validationResult is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -700,7 +693,7 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00261] For method validateCleanupPolicyForUnwindowedChangelogs list of called methods Object monObjet|java.lang.String topicConfig_nameN281119|java.lang.String getBrokerSideConfigValueN281199"
+ , "c3" : "QC-JAV000007[00261] For method validateCleanupPolicyForUnwindowedChangelogs list of called methods Object monObjet|java.lang.String getBrokerSideConfigValueN281199"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -756,7 +749,7 @@ var maDataBlocs = {
  , "c1" : "00276"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#276"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00276] For method validateCleanupPolicyForWindowedChangelogs list of called methods Object monObjet|java.lang.String topicConfig_nameN281812|java.lang.String getBrokerSideConfigValueN281892|long Long_parseLongN282131|long Long_parseLongN282471|java.lang.String getBrokerSideConfigValueN282978"
+ , "c3" : "QC-JAV000007[00276] For method validateCleanupPolicyForWindowedChangelogs list of called methods Object monObjet|java.lang.String getBrokerSideConfigValueN281892|long Long_parseLongN282131|long Long_parseLongN282471|java.lang.String getBrokerSideConfigValueN282978"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -847,7 +840,7 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00306] For method validateCleanupPolicyForRepartitionTopic list of called methods Object monObjet|java.lang.String topicConfig_nameN283517|java.lang.String getBrokerSideConfigValueN283597|long Long_parseLongN284181|java.lang.String getBrokerSideConfigValueN284689"
+ , "c3" : "QC-JAV000007[00306] For method validateCleanupPolicyForRepartitionTopic list of called methods Object monObjet|java.lang.String getBrokerSideConfigValueN283597|long Long_parseLongN284181|java.lang.String getBrokerSideConfigValueN284689"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -965,13 +958,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#339"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00339] For method getBrokerSideConfigValue list of called methods Object monObjet|org.apache.kafka.clients.admin.ConfigEntry brokerSideTopicConfig_getN285240"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#339"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00339] The argument brokerSideTopicConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1022,7 +1008,7 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#351"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00351] For method makeReady list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; validateTopicsN286763|java.util.Set&lt;java.lang.String&gt; time_millisecondsN290489|java.lang.String String_formatN290640"
+ , "c3" : "QC-JAV000007[00351] For method makeReady list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; validateTopicsN286763|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN288166|java.util.Set&lt;java.lang.String&gt; time_millisecondsN290489|java.lang.String String_formatN290640"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1348,6 +1334,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00474"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#474"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00474] For method getNumPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN291721"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00475"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#475"
  , "c2" : "CRITICAL"
@@ -1588,6 +1581,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00553"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#553"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00553] For method setup list of called methods Object monObjet|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN298170"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00553"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#553"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00553] The argument topicConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1639,13 +1639,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#586"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00586] For method processCreateTopicResults arguments CreateTopicsResult  createTopicsResult|Set&lt;String &gt;  topicStillToCreate|Set&lt;String &gt;  createdTopics|long  deadline"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00586"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#586"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00586] For method processCreateTopicResults list of called methods Object monObjet|java.util.Map&lt;java.lang.String,KafkaFuture&lt;java.lang.Void&gt;&gt; createTopicsResult_valuesN299040"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1827,7 +1820,7 @@ var maDataBlocs = {
  , "c1" : "00644"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#644"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00644] For method cleanUpCreatedTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,KafkaFuture&lt;java.lang.Void&gt;&gt; deleteTopicsResult_topicNameValuesN302323"
+ , "c3" : "QC-JAV000007[00644] For method cleanUpCreatedTopics list of called methods Object monObjet|org.apache.kafka.clients.admin.DeleteTopicsResult adminClient_deleteTopicsN302166"
 }} 
 ,
 { "ligne" : {"" : ""

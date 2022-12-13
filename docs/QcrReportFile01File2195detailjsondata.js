@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 200 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 204 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -196,6 +196,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -291,6 +298,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#156"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00156] For method findNodeNames list of called methods Object monObjet|java.util.TreeSet&lt;java.lang.String&gt; controller_targetNodesN260042"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#168"
  , "c2" : "MAJOR"
@@ -323,6 +337,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#194"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.trogdor.coordinator.TaskManager.ManagedTask.taskState@POLYN261269 the MagicNumber/String  'unreachable' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#197"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00197] For method getCombinedStatus list of called methods Object monObjet|com.fasterxml.jackson.databind.JsonNode state_statusN262922"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -393,6 +414,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#248"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.trogdor.coordinator.TaskManager.CreateTask.CreateTask@POLYN264837 the MagicNumber/String  'startMs' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00253"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#253"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00253] For method call list of called methods Object monObjet|java.lang.Void time_millisecondsN267183|java.lang.Void task_startDelayMsN267741"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -575,6 +603,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#336"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.trogdor.coordinator.TaskManager.stopTask@POLYN270507 the MagicNumber/String  'stopTask(id={}) error' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#350"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00350] For method call list of called methods Object monObjet|java.lang.Void time_millisecondsN271997|java.lang.Void task_activeWorkerIdsN272387|java.lang.Void time_millisecondsN272857"
 }} 
 ,
 { "ligne" : {"" : ""

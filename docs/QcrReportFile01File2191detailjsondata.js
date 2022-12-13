@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java 70 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java 72 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.xml" 
  , "fic3"  : "" 
 }
@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -199,6 +199,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -285,6 +292,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#100"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00100] For method main arguments String[]  args"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00100] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.common.Platform Platform_Config_parseN172031"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -488,6 +502,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#148"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN170238 the MagicNumber/String  'Got exception while running coordinator shutdown hook.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.Coordinator.Coordinator@POLYN167992"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedReader.java.html" 
- , "texte" : "File secujava/java.io.BufferedReader.java 86 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedReader.java 87 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.BufferedReader.java.xml" 
  , "fic3"  : "" 
 }
@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -489,6 +489,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#170"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00170] For method readLine arguments boolean  ignoreLF"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#170"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00170] For method readLine list of called methods Object monObjet|java.lang.String s_toStringN239172"
 }} 
 ,
 { "ligne" : {"" : ""

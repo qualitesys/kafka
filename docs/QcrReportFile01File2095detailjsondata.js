@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method serialize list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; position_getTopicsN157608|byte[] topic_getBytesN158319|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN158670|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN159740"
+ , "c3" : "QC-JAV000007[00047] For method serialize list of called methods Object monObjet|byte[] topic_getBytesN158319"
 }} 
 ,
 { "ligne" : {"" : ""

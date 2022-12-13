@@ -382,7 +382,7 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00201] For method setDomain list of called methods Object monObjet|java.lang.String domain_toLowerCaseN219931"
+ , "c3" : "QC-JAV000007[00201] For method setDomain list of called methods Object monObjet|int domain_toLowerCaseN219931"
 }} 
 ,
 { "ligne" : {"" : ""

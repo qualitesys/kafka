@@ -774,13 +774,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#195"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method closeDirtyAndRevive list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN344629"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#197"
  , "c2" : "MAJOR"
@@ -2108,6 +2101,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1106"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01106] For method recordTaskProcessRatio arguments long  totalProcessLatencyMs|long  now"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1117"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01117] For method maybePurgeCommittedRecords list of called methods Object monObjet|org.apache.kafka.clients.admin.DeleteRecordsResult adminClient_deleteRecordsN391964"
 }} 
 ,
 { "ligne" : {"" : ""

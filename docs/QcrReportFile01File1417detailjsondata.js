@@ -112,7 +112,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN166437.newLeader" }
 ]
 ,
 "data12b" : [

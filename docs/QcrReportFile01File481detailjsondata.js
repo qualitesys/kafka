@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java 29 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java 28 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.xml" 
  , "fic3"  : "" 
 }
@@ -155,13 +155,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -205,13 +198,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#47"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN160273 the MagicNumber/String  'Unknown bucket type: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method stats list of called methods Object monObjet|double percentile_percentileN161811"
 }} 
 ,
 { "ligne" : {"" : ""

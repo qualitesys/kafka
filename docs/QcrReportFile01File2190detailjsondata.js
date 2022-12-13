@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java 121 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java 120 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -778,13 +778,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method getMatchingTopicPartitions arguments Admin  adminClient|String  topicRegex|int  startPartition|int  endPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN218723|KafkaFuture&lt;java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicListing&gt;&gt; res_namesToListingsN218912|DescribeTopicsResult adminClient_describeTopicsN219547|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; desc_partitionsN219968"
 }} 
 ,
 { "ligne" : {"" : ""

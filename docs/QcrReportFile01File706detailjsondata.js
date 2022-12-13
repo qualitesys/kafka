@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java 85 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java 86 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -232,6 +232,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -338,6 +345,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#107"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00107] For method build arguments short  version"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#107"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00107] For method build list of called methods Object monObjet|org.apache.kafka.common.requests.OffsetFetchRequest data_groupIdN197870|org.apache.kafka.common.requests.OffsetFetchRequest data_topicsN197966"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -295,13 +295,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#74"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method initInternal list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN232502"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#74"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00074] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -324,7 +317,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method putAndMaybeForward list of called methods Object monObjet|long context_recordContextN234914"
+ , "c3" : "QC-JAV000007[00089] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; WindowKeySchema_fromStoreBytesKeyN233216|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; context_recordContextN234914"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,6 +405,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#141"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00141] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes WindowKeySchema_toStoreKeyBinaryN235885"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#148"
  , "c2" : "MAJOR"
@@ -430,6 +430,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#164"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00164] For method fetch arguments Bytes  key|long  timestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#164"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00164] For method fetch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes WindowKeySchema_toStoreKeyBinaryN236897"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -465,13 +472,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#181"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00181] For method fetch arguments Bytes  key|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#181"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00181] For method fetch list of called methods Object monObjet|byte[] wrappedN238310"
 }} 
 ,
 { "ligne" : {"" : ""

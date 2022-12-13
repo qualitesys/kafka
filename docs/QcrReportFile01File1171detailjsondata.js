@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 336 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 330 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -440,7 +440,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "88"
+ , "c4" : "82"
 }}
 ,
 { "ligne" : { "" : ""
@@ -454,7 +454,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "16"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -489,7 +489,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -737,6 +737,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#272"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00272] For method baseProducerProps arguments WorkerConfig  workerConfig"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#272"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00272] For method baseProducerProps list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN364727"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1212,7 +1219,7 @@ var maDataBlocs = {
  , "c1" : "00494"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#494"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00494] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|KafkaBasedLog&lt;String,byte[]&gt; config_originalsN380053|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN381796"
+ , "c3" : "QC-JAV000007[00494] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN379922|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN381796"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2129,41 +2136,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.KafkaConfigBackingStore@POLYN360974"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.setupAndCreateKafkaBasedLog@POLYN379657"
 }} 
 ,
@@ -2206,7 +2178,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.intValue@POLYN404256"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2235,300 +2235,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaConfigBackingStore.stop@POLYN363514"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00584"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00584] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00585"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#585"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00585] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Unexpected in consumer callback for KafkaConfigBackingStore: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00593"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#593"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00593] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Failed to convert config data to Kafka Connect format: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00598"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#598"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00598] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00608"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#608"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00608] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00609"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#609"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00609] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Ignoring task configuration because {} couldn't be parsed as a task config key' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00619"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#619"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00619] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00628"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#628"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00628] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Discarding config update record with invalid key: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00635"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#635"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00635] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00637"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#637"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00637] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00639"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#639"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00639] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Removed target state for connector {} due to null value in topic.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00641"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#641"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00641] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00649"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#649"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00649] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Ignoring target state for connector '{}' because it is in the wrong format: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00652"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#652"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00652] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00653"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#653"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00653] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'state' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00655"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#655"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00655] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Invalid data for target state for connector '{}': 'state' field should be a String but is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00662"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#662"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00662] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Setting target state for connector '{}' to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00665"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#665"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00665] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Invalid target state for connector '{}': {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00721"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00721] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00722"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#722"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00722] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Ignoring task configuration for task {} because it is unexpectedly null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00726"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#726"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00726] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Ignoring task configuration for task {} because the value is not a Map but is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00730"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#730"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00730] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00731"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#731"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00731] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'properties' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00733"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#733"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00733] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Invalid data for config of task {} 'properties' field should be a Map but is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00738"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#738"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00738] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Storing new config for task {}; this will wait for a commit message before the new config will take effect.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00739"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#739"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00739] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00858"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#858"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00858] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00859"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#859"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00859] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Ignoring session key because it is unexpectedly null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00863"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#863"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00863] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Ignoring session key because the value is not a Map but is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00867"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#867"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00867] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00870"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#870"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00870] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'key' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00872"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00872] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Invalid data for session key 'key' field should be a String but is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00877"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#877"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00877] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'algorithm' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00879"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#879"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00879] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Invalid data for session key 'algorithm' field should be a String but it is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00883"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#883"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00883] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'creation-timestamp' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00885"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#885"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00885] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Invalid data for session key 'creation-timestamp' field should be a long but it is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.KafkaConfigBackingStore@POLYN360974 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#192"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.KafkaConfigBackingStore@POLYN360974 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.KafkaConfigBackingStore@POLYN360974 the MagicNumber/String 'false' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.KafkaConfigBackingStore@POLYN360974 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#207"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.KafkaConfigBackingStore@POLYN360974 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.KafkaConfigBackingStore@POLYN360974 the MagicNumber/String 'Must specify topic for connector configuration.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2707,10 +2413,262 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00584"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#584"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00584] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00585"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#585"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00585] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Unexpected in consumer callback for KafkaConfigBackingStore: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00593"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#593"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00593] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Failed to convert config data to Kafka Connect format: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00598"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00598] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00608"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#608"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00608] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00609"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#609"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00609] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Ignoring task configuration because {} couldn't be parsed as a task config key' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00619"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00619] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00628"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#628"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00628] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.ConsumeCallback.onCompletion@POLYN384988 the MagicNumber/String 'Discarding config update record with invalid key: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00963"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#963"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00963] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.intValue@POLYN404256 the MagicNumber/String 'Expected integer value to be either Integer or Long' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00858"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#858"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00858] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00859"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#859"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00859] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Ignoring session key because it is unexpectedly null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00863"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#863"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00863] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Ignoring session key because the value is not a Map but is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00867"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#867"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00867] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00870"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#870"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00870] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'key' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00872"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00872] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Invalid data for session key 'key' field should be a String but is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00877"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#877"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00877] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'algorithm' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00879"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#879"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00879] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Invalid data for session key 'algorithm' field should be a String but it is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00883"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#883"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00883] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'creation-timestamp' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00885"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#885"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00885] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processSessionKeyRecord@POLYN399819 the MagicNumber/String 'Invalid data for session key 'creation-timestamp' field should be a long but it is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00635"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00635] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00637"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#637"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00637] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00639"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#639"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00639] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Removed target state for connector {} due to null value in topic.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00641] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00649"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#649"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00649] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Ignoring target state for connector '{}' because it is in the wrong format: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00652"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#652"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00652] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00653"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#653"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00653] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'state' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00655"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#655"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00655] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Invalid data for target state for connector '{}': 'state' field should be a String but is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00662"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#662"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00662] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Setting target state for connector '{}' to {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00665"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00665] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTargetStateRecord@POLYN388256 the MagicNumber/String 'Invalid target state for connector '{}': {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00721"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#721"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00721] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00722"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#722"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00722] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Ignoring task configuration for task {} because it is unexpectedly null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00726"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#726"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00726] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Ignoring task configuration for task {} because the value is not a Map but is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00730"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#730"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00730] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00731"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#731"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00731] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'properties' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00733"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#733"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00733] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Invalid data for config of task {} 'properties' field should be a Map but is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00738"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#738"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00738] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'Storing new config for task {}; this will wait for a commit message before the new config will take effect.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00739"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#739"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00739] In the recursive method org.apache.kafka.connect.storage.KafkaConfigBackingStore.processTaskConfigRecord@POLYN392790 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

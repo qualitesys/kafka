@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 560 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 557 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -552,7 +552,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "15"
+ , "c4" : "12"
 }}
  ] 
 ,
@@ -919,13 +919,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#410"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00410] For method replay arguments PartitionChangeRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#410"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00410] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.PartitionRegistration prevPartitionInfo_mergeN509767"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1933,7 +1926,7 @@ var maDataBlocs = {
  , "c1" : "00854"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#854"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00854] For method alterPartition list of called methods Object monObjet|RequestHeaderData context_requestHeaderN538849|Errors validateAlterPartitionDataN541082|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN542331|ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN542679"
+ , "c3" : "QC-JAV000007[00854] For method alterPartition list of called methods Object monObjet|Errors validateAlterPartitionDataN541082|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN542679"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2672,13 +2665,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01189"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1189"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01189] For method electLeader list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN559896"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1190"
  , "c2" : "CRITICAL"
@@ -2739,13 +2725,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1233"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01233] For method processBrokerHeartbeat arguments BrokerHeartbeatRequestData  request|long  lastCommittedOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01233"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01233] For method processBrokerHeartbeat list of called methods Object monObjet|org.apache.kafka.controller.BrokerControlStates heartbeatManager_calculateNextBrokerStateN560877"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java 42 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java 44 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -198,6 +198,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#167"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00167] For method loadFullBatch list of called methods Object monObjet|org.apache.kafka.common.record.RecordBatch loadBatchWithSizeN179849"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#168"
  , "c2" : "MAJOR"
@@ -216,6 +223,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#170"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN179646 the MagicNumber/String  'full record batch' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#175"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00175] For method loadBatchHeader list of called methods Object monObjet|org.apache.kafka.common.record.RecordBatch loadBatchWithSizeN180208"
 }} 
 ,
 { "ligne" : {"" : ""

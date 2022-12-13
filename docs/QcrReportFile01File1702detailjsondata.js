@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 110 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 121 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -210,12 +210,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "15"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -237,6 +260,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "11"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -461,6 +491,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#233"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00233] For method maybeAddNodeForOptimizationMetadata list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode getKeyChangingParentNodeN239232"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#233"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00233] The argument node is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -624,6 +661,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#346"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.optimizeKTableSourceTopics@POLYN243853 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#349"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00349] For method maybeOptimizeRepartitionOperations list of called methods Object monObjet|java.lang.String getFirstRepartitionTopicNameN245105|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN245604"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -795,6 +839,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00420"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#420"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00420] For method maybeUpdateKeyChangingRepartitionNodeMap list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN248444"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#425"
  , "c2" : "MAJOR"
@@ -890,6 +941,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#481"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00481] For method getKeyChangingParentNode arguments GraphNode  repartitionNode"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00481"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#481"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00481] For method getKeyChangingParentNode list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN251042|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN251243"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1000,6 +1058,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00517"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#517"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00517] For method findParentNodeMatching list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN253595"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00517"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#517"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00517] The argument startSeekingNode is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1016,6 +1081,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#522"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN253045 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN253045"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237786"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00522"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#522"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00522] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.findParentNodeMatching@POLYN253045 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237786 the MagicNumber/String 'parent node can't be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00222"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#222"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237786 the MagicNumber/String 'child node can't be null' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#225"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00225] In the recursive method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addGraphNode@POLYN237786 the MagicNumber/String 'Parent node collection can't be empty' MUST BE CONVERTED to const"
 }} 
 ]
 , 

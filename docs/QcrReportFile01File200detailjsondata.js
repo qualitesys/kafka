@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 328 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 331 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -292,7 +292,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -334,7 +334,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -1833,6 +1833,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00898"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#898"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00898] For method compare list of called methods Object monObjet|int o1_compareToN398376"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00898"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#898"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00898] The argument o1 is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1849,6 +1856,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#916"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00916] For method compare arguments String  o1|String  o2"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00916"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#916"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00916] For method compare list of called methods Object monObjet|int o1_compareToN399312"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1875,6 +1889,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00929"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#929"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00929] For method removeMovementRecordOfPartition list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair partition_topicN400173"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00929"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#929"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00929] The argument partition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1884,13 +1905,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#943"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00943] For method addPartitionMovementRecord arguments TopicPartition  partition|ConsumerPair  pair"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00943"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#943"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00943] For method addPartitionMovementRecord list of called methods Object monObjet|java.lang.String partition_topicN401052"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1908,17 +1922,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00973"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#973"
+ , "c1" : "00957"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#957"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00973] For method getTheActualPartitionToBeMoved arguments TopicPartition  partition|String  oldConsumer|String  newConsumer"
+ , "c3" : "QC-JAV000007[00957] For method movePartition list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair removeMovementRecordOfPartitionN402113"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00973"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#973"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00973] For method getTheActualPartitionToBeMoved list of called methods Object monObjet|java.lang.String partition_topicN402754"
+ , "c3" : "QC-JAV000006[00973] For method getTheActualPartitionToBeMoved arguments TopicPartition  partition|String  oldConsumer|String  newConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2248,6 +2262,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN364399"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.deepCopy@POLYN397143"
 }} 
 ,
 { "ligne" : {"" : ""

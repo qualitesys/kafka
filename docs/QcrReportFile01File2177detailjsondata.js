@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java 113 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java 115 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.xml" 
  , "fic3"  : "" 
 }
@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -205,7 +205,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -453,6 +453,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#153"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00153] For method main arguments String[]  args"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00153"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#153"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00153] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.common.Platform Platform_Config_parseN192009"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -726,6 +733,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.Agent.main@POLYN189800"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.Agent.Agent@POLYN184504"
 }} 
 ,
 { "ligne" : {"" : ""

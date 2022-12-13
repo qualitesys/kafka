@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java 53 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java 51 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.xml" 
  , "fic3"  : "" 
 }
@@ -155,13 +155,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -231,13 +224,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method registerStateStores list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId stateMgr_taskIdN167561|boolean stateDirectory_directoryForTaskIsEmptyN167970"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#59"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00059] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -296,13 +282,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method closeStateManager arguments Logger  log|String  logPrefix|boolean  closeClean|boolean  eosEnabled|ProcessorStateManager  stateMgr|StateDirectory  stateDirectory|TaskType  taskType"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method closeStateManager list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId stateMgr_taskIdN168783"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java 63 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java 64 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.xml" 
  , "fic3"  : "" 
 }
@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -402,6 +402,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#114"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00114] For method apply list of called methods Object monObjet|java.lang.String distinguishedName_replaceAllN172035|int result_toLowerCaseN172341|int result_toUpperCaseN172537"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#114"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00114] The argument distinguishedName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -438,7 +445,7 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00139] For method escapeLiteralBackReferences list of called methods Object monObjet|int Integer_parseIntN173321"
+ , "c3" : "QC-JAV000007[00139] For method escapeLiteralBackReferences list of called methods Object monObjet|int Integer_parseIntN173321|java.lang.String sb_toStringN174269"
 }} 
 ,
 { "ligne" : {"" : ""

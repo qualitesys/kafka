@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java 120 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java 121 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -638,7 +638,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -652,7 +652,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -673,7 +673,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -1129,13 +1129,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00465"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#465"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00465] For method appendEndTxnMarker list of called methods Object monObjet|java.nio.ByteBuffer marker_serializeValueN302842"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00465"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#465"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00465] The argument marker is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1214,7 +1207,7 @@ var maDataBlocs = {
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00509] For method appendUncheckedWithOffset list of called methods Object monObjet|long record_timestampN305554|int DefaultRecord_writeToN305741|org.apache.kafka.common.record.LegacyRecord LegacyRecord_createN306153"
+ , "c3" : "QC-JAV000007[00509] For method appendUncheckedWithOffset list of called methods Object monObjet|int DefaultRecord_writeToN305741|org.apache.kafka.common.record.LegacyRecord LegacyRecord_createN306153"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1512,10 +1505,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MemoryRecordsBuilder.appendUncheckedWithOffset@POLYN305227"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00462"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#462"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.common.record.MemoryRecordsBuilder.appendControlRecord@POLYN301851 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#513"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00513] In the recursive method org.apache.kafka.common.record.MemoryRecordsBuilder.appendUncheckedWithOffset@POLYN305227 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

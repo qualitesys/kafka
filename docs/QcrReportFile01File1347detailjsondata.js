@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 54 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 55 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.xml" 
  , "fic3"  : "" 
 }
@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "6"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -227,7 +227,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -341,7 +341,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method replay list of called methods Object monObjet|org.apache.kafka.image.TopicImage topicDelta_imageN176836|java.lang.String image_getTopicN177172|java.lang.String topicImage_nameN177500"
+ , "c3" : "QC-JAV000007[00069] For method replay list of called methods Object monObjet|java.lang.String image_getTopicN177172"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -384,13 +384,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#97"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00097] For method handleMetadataVersionChange arguments MetadataVersion  newVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method apply list of called methods Object monObjet|org.apache.kafka.image.TopicImage delta_applyN179300"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -481,7 +474,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method localChanges list of called methods Object monObjet|org.apache.kafka.image.LocalReplicaChanges delta_localChangesN181831"
+ , "c3" : "QC-JAV000007[00147] For method localChanges list of called methods Object monObjet|org.apache.kafka.image.LocalReplicaChanges imageN182292"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -579,14 +572,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.TopicsDelta.localChanges@POLYN181277"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.TopicsDelta.replay@POLYN176524"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.TopicsDelta.replay@POLYN176524"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.TopicsDelta.apply@POLYN178072"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.TopicsDelta.localChanges@POLYN181277"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -622,6 +622,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#81"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.image.TopicsDelta.replay@POLYN176524 the MagicNumber/String ': no such topic found.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.image.TopicsDelta.apply@POLYN178072 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

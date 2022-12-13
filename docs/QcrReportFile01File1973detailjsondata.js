@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java 21 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java 16 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.xml" 
  , "fic3"  : "" 
 }
@@ -170,13 +170,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
  ] 
 ,
 "data13b" : [
@@ -195,13 +188,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method activeProcessRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN174026"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#88"
  , "c2" : "CRITICAL"
@@ -213,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#101"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00101] For method activeBufferedRecordsSensor arguments String  threadId|String  taskId|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method activeBufferedRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN174673"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -272,13 +251,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#192"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00192] For method invocationRateAndCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN177262"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#198"
  , "c2" : "CRITICAL"
@@ -293,13 +265,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#212"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method avgAndMaxSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN177998|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_taskLevelTagMapN178222"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#218"
  , "c2" : "CRITICAL"
@@ -311,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#233"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00233] For method invocationRateAndCountAndAvgAndMaxLatencySensor arguments String  threadId|String  taskId|String  metricName|String  descriptionOfRate|String  descriptionOfCount|String  descriptionOfAvg|String  descriptionOfMax|RecordingLevel  recordingLevel|StreamsMetricsImpl  streamsMetrics|Sensor  ...parentSensors"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TaskMetrics.java.html#233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method invocationRateAndCountAndAvgAndMaxLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN178887|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_taskLevelTagMapN179111"
 }} 
 ,
 { "ligne" : {"" : ""

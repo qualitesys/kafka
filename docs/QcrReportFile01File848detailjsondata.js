@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java 128 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java 130 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.xml" 
  , "fic3"  : "" 
 }
@@ -249,7 +249,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -647,6 +647,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#230"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00230] For method ensureCompatible list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN231002|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN231117"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#238"
  , "c2" : "MAJOR"
@@ -812,6 +819,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#332"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00332] For method handshake arguments SslEngineValidator  peerValidator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00332"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#332"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00332] For method handshake list of called methods Object monObjet|java.nio.ByteBuffer Utils_ensureCapacityN237393|java.nio.ByteBuffer Utils_ensureCapacityN238429|java.nio.ByteBuffer Utils_ensureCapacityN238633"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java 111 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java 110 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.xml" 
  , "fic3"  : "" 
 }
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -638,13 +638,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00224] For method computePartitionCount arguments Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo &gt;  topicGroups|Cluster  clusterMetadata|String  repartitionSourceTopic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#224"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00224] For method computePartitionCount list of called methods Object monObjet|java.lang.Integer clusterMetadata_partitionCountForTopicN192338"
 }} 
 ,
 { "ligne" : {"" : ""

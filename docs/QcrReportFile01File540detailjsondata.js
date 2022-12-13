@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java 311 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java 310 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.xml" 
  , "fic3"  : "" 
 }
@@ -955,7 +955,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -2302,13 +2302,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#520"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00520] For method equals arguments Object  obj"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00520"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#520"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00520] For method equals list of called methods Object monObjet|java.lang.Object other_getN257958"
 }} 
 ,
 { "ligne" : {"" : ""

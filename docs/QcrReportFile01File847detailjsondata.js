@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 188 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 189 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.xml" 
  , "fic3"  : "" 
 }
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -1026,6 +1026,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#364"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.FileBasedStore.lastModifiedMs@POLYN250416 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00368"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#368"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00368] For method modified list of called methods Object monObjet|java.lang.Long lastModifiedMsN250917"
 }} 
 ,
 { "ligne" : {"" : ""

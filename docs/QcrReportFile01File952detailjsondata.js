@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Values.java 435 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Values.java 441 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.xml" 
  , "fic3"  : "" 
 }
@@ -355,7 +355,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "104"
+ , "c4" : "108"
 }}
 ,
 { "ligne" : { "" : ""
@@ -369,7 +369,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "18"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -588,7 +588,7 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method convertTo list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaAndValue parseStringN383674|org.apache.kafka.connect.data.SchemaAndValue parseStringN384864|java.lang.Object parsed_valueN384969|java.lang.String fromSchema_nameN385201|long asLongN385909|org.apache.kafka.connect.data.SchemaAndValue parseStringN386338|java.lang.Object parsed_valueN386443|java.lang.String fromSchema_nameN386675|long asLongN387681|org.apache.kafka.connect.data.SchemaAndValue parseStringN388375|java.lang.Object parsed_valueN388480|java.lang.String fromSchema_nameN388818|int Date_fromLogicalN388989|int Time_fromLogicalN389375|long asLongN389778|org.apache.kafka.connect.data.SchemaAndValue parseStringN390829|java.lang.Object schemaAndValue_valueN390934|org.apache.kafka.connect.data.SchemaAndValue parseStringN391227|java.lang.Object schemaAndValue_valueN391332"
+ , "c3" : "QC-JAV000007[00227] For method convertTo list of called methods Object monObjet|byte[] Utils_toArrayN381893|org.apache.kafka.connect.data.SchemaAndValue parseStringN383674|org.apache.kafka.connect.data.SchemaAndValue parseStringN384864|long asLongN385909|org.apache.kafka.connect.data.SchemaAndValue parseStringN386338|long asLongN387681|org.apache.kafka.connect.data.SchemaAndValue parseStringN388375|int Date_fromLogicalN388989|int Time_fromLogicalN389375|long asLongN389778|org.apache.kafka.connect.data.SchemaAndValue parseStringN390829|org.apache.kafka.connect.data.SchemaAndValue parseStringN391227"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -776,13 +776,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00420"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#420"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00420] For method asLong list of called methods Object monObjet|java.lang.String fromSchema_nameN392940"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00420"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#420"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00420] The argument value is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -861,7 +854,7 @@ var maDataBlocs = {
  , "c1" : "00468"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#468"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00468] For method append list of called methods Object monObjet|java.lang.String escapeN395900|java.text.DateFormat dateFormatForN399721"
+ , "c3" : "QC-JAV000007[00468] For method append list of called methods Object monObjet|java.lang.String escapeN395900|byte[] Utils_readBytesN396826|java.text.DateFormat dateFormatForN399721"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1607,13 +1600,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00807"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#807"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00807] For method commonSchemaFor list of called methods Object monObjet|org.apache.kafka.connect.data.Schema latest_schemaN415004|org.apache.kafka.connect.data.Schema.Type previous_typeN415079|org.apache.kafka.connect.data.Schema.Type newSchema_typeN415154"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00808"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#808"
  , "c2" : "MAJOR"
@@ -1652,7 +1638,7 @@ var maDataBlocs = {
  , "c1" : "00876"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#876"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00876] For method alignListEntriesWithSchema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schema_valueSchemaN418414|java.lang.Object convertToN418668"
+ , "c3" : "QC-JAV000007[00876] For method alignListEntriesWithSchema list of called methods Object monObjet|java.lang.Object convertToN418668"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1687,7 +1673,7 @@ var maDataBlocs = {
  , "c1" : "00886"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#886"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00886] For method alignMapKeysAndValuesWithSchema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema mapSchema_keySchemaN419086|org.apache.kafka.connect.data.Schema mapSchema_valueSchemaN419161|java.lang.Object convertToN419484|java.lang.Object convertToN419636"
+ , "c3" : "QC-JAV000007[00886] For method alignMapKeysAndValuesWithSchema list of called methods Object monObjet|java.lang.Object convertToN419484|java.lang.Object convertToN419636"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1743,7 +1729,7 @@ var maDataBlocs = {
  , "c1" : "00898"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#898"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00898] For method alignMapKeysWithSchema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema mapSchema_keySchemaN420096|java.lang.Object convertToN420419"
+ , "c3" : "QC-JAV000007[00898] For method alignMapKeysWithSchema list of called methods Object monObjet|java.lang.Object convertToN420419"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1880,6 +1866,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00978"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#978"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00978] For method next list of called methods Object monObjet|java.lang.String consumeNextTokenN423711"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00979"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#979"
  , "c2" : "MAJOR"
@@ -1898,6 +1891,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#988"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00988] For method next arguments int  n"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00988"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#988"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00988] For method next list of called methods Object monObjet|int markN423889|int markN423956"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2048,6 +2048,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01056"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1056"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01056] For method isNext list of called methods Object monObjet|java.lang.String consumeNextTokenN426908|java.lang.String consumeNextTokenN427148"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01057"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1057"
  , "c2" : "MAJOR"
@@ -2190,6 +2197,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Values.commonSchemaFor@POLYN414644"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method org.apache.kafka.connect.data.Values.convertTo@POLYN381200 ending with method org.apache.kafka.connect.data.Values.alignMapKeysAndValuesWithSchema@POLYN418927"
 }} 
@@ -2255,13 +2269,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] +--+--+--+--org.apache.kafka.connect.data.Values.alignMapKeysWithSchema@POLYN419937"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Values.Parser.next@POLYN423792"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2626,6 +2633,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.Values.append@POLYN395227"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Values.Parser.next@POLYN423792"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3382,6 +3396,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#416"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.connect.data.Values.convertTo@POLYN381200 the MagicNumber/String 'Unable to convert ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00808"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#808"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00808] In the recursive method org.apache.kafka.connect.data.Values.commonSchemaFor@POLYN414644 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00811"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#811"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00811] In the recursive method org.apache.kafka.connect.data.Values.commonSchemaFor@POLYN414644 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00864"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#864"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00864] In the recursive method org.apache.kafka.connect.data.Values.commonSchemaFor@POLYN414644 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00871"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#871"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00871] In the recursive method org.apache.kafka.connect.data.Values.commonSchemaFor@POLYN414644 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

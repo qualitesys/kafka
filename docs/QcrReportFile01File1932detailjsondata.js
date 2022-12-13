@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 385 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 381 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -574,13 +574,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#181"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00181] For method configure arguments Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#181"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00181] For method configure list of called methods Object monObjet|java.lang.String assignorConfiguration_logPrefixN367493|int assignorConfiguration_configuredMetadataVersionN367710|org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer assignorConfiguration_referenceContainerN367809|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentConfigs assignorConfiguration_assignmentConfigsN368723|java.lang.String assignorConfiguration_userEndPointN368870|org.apache.kafka.streams.processor.internals.InternalTopicManager assignorConfiguration_internalTopicManagerN368944|org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer assignorConfiguration_copartitionedTopicsEnforcerN369018|RebalanceProtocol assignorConfiguration_rebalanceProtocolN369092|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentListener assignorConfiguration_assignmentListenerN369232"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -678,7 +671,7 @@ var maDataBlocs = {
  , "c1" : "00274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00274] For method assign list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN373453|int info_versionN373572|int updateMinReceivedVersionN373824|int updateMinSupportedVersionN373931|java.util.UUID info_processIdN374565"
+ , "c3" : "QC-JAV000007[00274] For method assign list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN373453|int updateMinReceivedVersionN373824|int updateMinSupportedVersionN373931"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -969,13 +962,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00506"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#506"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00506] For method checkAllPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; fullMetadata_partitionsForTopicN384530"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#508"
  , "c2" : "CRITICAL"
@@ -1070,7 +1056,7 @@ var maDataBlocs = {
  , "c1" : "00532"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#532"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00532] For method assignTasksToClients list of called methods Object monObjet|boolean populateClientStatesMapN386838|org.apache.kafka.streams.processor.internals.assignment.TaskAssignor createTaskAssignorN387752|boolean taskAssignor_assignN387843"
+ , "c3" : "QC-JAV000007[00532] For method assignTasksToClients list of called methods Object monObjet|boolean populateClientStatesMapN386838|org.apache.kafka.streams.processor.internals.assignment.TaskAssignor createTaskAssignorN387752"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1692,13 +1678,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00883"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#883"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00883] For method populateActiveTaskAndPartitionsLists list of called methods Object monObjet|java.lang.String clientState_previousOwnerForPartitionN404046"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00883"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#883"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00883] The argument activePartitionsList is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2106,7 +2085,7 @@ var maDataBlocs = {
  , "c1" : "01138"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01138] For method onAssignment list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo AssignmentInfo_decodeN415019|int info_versionN415589|int info_commonlySupportedVersionN415669|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN416396|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN417056|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; info_partitionsByHostN417163|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN417311|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN417616|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; info_partitionsByHostN417723|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; info_standbyPartitionByHostN417797|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN417871|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN418324|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; info_partitionsByHostN418431|java.util.Map&lt;org.apache.kafka.streams.state.HostInfo,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; info_standbyPartitionByHostN418505|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN418579|long info_nextRebalanceMsN418664|org.apache.kafka.common.Cluster Cluster_emptyN419021"
+ , "c3" : "QC-JAV000007[01138] For method onAssignment list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo AssignmentInfo_decodeN415019|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN416396|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN417056|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN417311|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN417616|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN417871|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; getActiveTasksN418324|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.PartitionInfo&gt; getTopicPartitionInfoN418579|org.apache.kafka.common.Cluster Cluster_emptyN419021"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2322,13 +2301,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1262"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01262] For method getActiveTasks list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt; info_activeTasksN422130"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1262"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01262] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2491,13 +2463,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.ClientMetadata.addPreviousTasksAndOffsetSums@POLYN365357"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.checkMetadataVersions@POLYN379739"
 }} 
 ,
@@ -2632,6 +2597,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.AssignedPartition.hashCode@POLYN364351"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor.ClientMetadata.addPreviousTasksAndOffsetSums@POLYN365357"
 }} 
 ,
 { "ligne" : {"" : ""

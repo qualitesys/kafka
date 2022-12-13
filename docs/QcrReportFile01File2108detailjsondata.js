@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java 29 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java 33 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -164,6 +164,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -172,6 +179,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#31"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00031] For method getBaseKey arguments Bytes  indexKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#31"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00031] For method getBaseKey list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window KeyFirstSessionKeySchema_extractWindowN166798"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -200,6 +214,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#58"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00058] For method fetchSessions arguments long  earliestSessionEndTime|long  latestSessionEndTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#58"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00058] For method fetchSessions list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstSessionKeySchema_fromN168877"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -275,6 +296,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#97"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00097] For method getIndexKeyValue list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window TimeFirstSessionKeySchema_extractWindowN169999"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#97"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00097] The argument baseKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -291,6 +319,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#104"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00104] For method getWriteBatches list of called methods Object monObjet|long SessionKeySchema_extractEndTimestampN170857|long SessionKeySchema_extractEndTimestampN171346"
 }} 
 ,
 { "ligne" : {"" : ""

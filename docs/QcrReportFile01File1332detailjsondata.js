@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN168457|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN169327"
+ , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN168457"
 }} 
 ,
 { "ligne" : {"" : ""

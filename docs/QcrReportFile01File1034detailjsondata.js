@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 103 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java 101 rule violations " 
  , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.xml" 
  , "fic3"  : "" 
 }
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -946,13 +946,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#417"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00417] For method expandTopicDescription list of called methods Object monObjet|java.lang.String description_nameN256106"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00417"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#417"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00417] The argument description is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -976,13 +969,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#432"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00432] For method targetConfig arguments Config  sourceConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#432"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00432] For method targetConfig list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.admin.ConfigEntry&gt; sourceConfig_entriesN257266"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1017,7 +1003,7 @@ var maDataBlocs = {
  , "c1" : "00445"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method targetAclBinding list of called methods Object monObjet|java.lang.String formatRemoteTopicN258281|org.apache.kafka.common.acl.AccessControlEntry downgradeAllowAllACLN258651|org.apache.kafka.common.acl.AccessControlEntry sourceAclBinding_entryN258775"
+ , "c3" : "QC-JAV000007[00445] For method targetAclBinding list of called methods Object monObjet|java.lang.String formatRemoteTopicN258281|org.apache.kafka.common.acl.AccessControlEntry downgradeAllowAllACLN258651"
 }} 
 ,
 { "ligne" : {"" : ""

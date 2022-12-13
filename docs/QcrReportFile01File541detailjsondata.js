@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN173803|int ByteUtils_sizeOfUnsignedVarintN174130|byte[] value_dataN174484"
+ , "c3" : "QC-JAV000007[00094] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN173803|int ByteUtils_sizeOfUnsignedVarintN174130"
 }} 
 ,
 { "ligne" : {"" : ""

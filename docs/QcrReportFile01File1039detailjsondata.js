@@ -260,7 +260,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method handleRecord list of called methods Object monObjet|org.apache.kafka.connect.mirror.OffsetSync OffsetSync_deserializeRecordN154379|org.apache.kafka.common.TopicPartition offsetSync_topicPartitionN154473"
+ , "c3" : "QC-JAV000007[00065] For method handleRecord list of called methods Object monObjet|org.apache.kafka.connect.mirror.OffsetSync OffsetSync_deserializeRecordN154379"
 }} 
 ,
 { "ligne" : {"" : ""

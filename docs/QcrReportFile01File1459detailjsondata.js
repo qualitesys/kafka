@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 826 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 844 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -1174,7 +1174,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "29"
 }}
  ] 
 ,
@@ -1855,7 +1855,7 @@ var maDataBlocs = {
  , "c1" : "00566"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#566"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00566] For method verifySubclass list of called methods Object monObjet|Class&lt;?&gt; getClassN814428|java.lang.Boolean Boolean_valueOfN815156"
+ , "c3" : "QC-JAV000007[00566] For method verifySubclass list of called methods Object monObjet|java.lang.Class&lt;?&gt; getClassN814428|java.lang.Boolean Boolean_valueOfN815156"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3056,6 +3056,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01360"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1360"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01360] For method get list of called methods Object monObjet|int getFieldOffsetN853796"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01362"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1362"
  , "c2" : "MAJOR"
@@ -3067,6 +3074,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1365"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01365] For method get arguments String  name|byte  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01365"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1365"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01365] For method get list of called methods Object monObjet|int getFieldOffsetN854208"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3084,6 +3098,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01370"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1370"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01370] For method get list of called methods Object monObjet|int getFieldOffsetN854588"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01372"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1372"
  , "c2" : "MAJOR"
@@ -3095,6 +3116,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1375"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01375] For method get arguments String  name|short  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01375"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1375"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01375] For method get list of called methods Object monObjet|int getFieldOffsetN855000"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3112,6 +3140,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01380"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1380"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01380] For method get list of called methods Object monObjet|int getFieldOffsetN855412"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01382"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1382"
  , "c2" : "MAJOR"
@@ -3123,6 +3158,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1385"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01385] For method get arguments String  name|float  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01385"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1385"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01385] For method get list of called methods Object monObjet|int getFieldOffsetN855824"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3140,6 +3182,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01390"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1390"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01390] For method get list of called methods Object monObjet|int getFieldOffsetN856236"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01392"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1392"
  , "c2" : "MAJOR"
@@ -3154,6 +3203,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01395"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1395"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01395] For method get list of called methods Object monObjet|int getFieldOffsetN856648"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01397"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1397"
  , "c2" : "MAJOR"
@@ -3165,6 +3221,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1400"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01400] For method get arguments String  name|Object  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01400"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1400"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01400] For method get list of called methods Object monObjet|int getFieldOffsetN857060"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3494,6 +3557,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1612"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01612] For method readFully arguments byte[]  b|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01612"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1612"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01612] For method readFully list of called methods Object monObjet|int readN867071"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3875,6 +3945,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01836"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1836"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01836] For method peekByte list of called methods Object monObjet|int peekN877497"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01838"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1838"
  , "c2" : "MAJOR"
@@ -3956,6 +4033,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1878"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01878] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN878652 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01887"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1887"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01887] For method available list of called methods Object monObjet|int readBlockHeaderN880227"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4169,6 +4253,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01963"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1963"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01963] For method readFully list of called methods Object monObjet|int readN884324"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01966"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1966"
  , "c2" : "MAJOR"
@@ -4190,6 +4281,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01980"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1980"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01980] For method readBoolean list of called methods Object monObjet|int readN884939"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01982"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1982"
  , "c2" : "MAJOR"
@@ -4204,10 +4302,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01988"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1988"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01988] For method readByte list of called methods Object monObjet|int readN885278"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01990"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1990"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01990] In method java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN885191 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01996"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1996"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01996] For method readUnsignedByte list of called methods Object monObjet|int readN885590"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4841,6 +4953,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02255"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2255"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02255] For method readUTFBody list of called methods Object monObjet|long readUTFSpanN902262|int readUTFCharN902437"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02258"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2258"
  , "c2" : "MAJOR"
@@ -5160,6 +5279,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2352"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02352] For method readUTFChar arguments StringBuilder  sbuf|long  utflen"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02352"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2352"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02352] For method readUTFChar list of called methods Object monObjet|byte readByteN907634|byte readByteN908414|byte readByteN909292|byte readByteN909358"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java 43 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java 42 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.xml" 
  , "fic3"  : "" 
 }
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -381,13 +381,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#86"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00086] For method purgeObsoleteSamples arguments MetricConfig  config|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method purgeObsoleteSamples list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_samplesN164797"
 }} 
 ,
 { "ligne" : {"" : ""
