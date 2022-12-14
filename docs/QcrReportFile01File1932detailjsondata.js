@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 381 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 384 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -959,6 +959,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#506"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00506] For method checkAllPartitions arguments Set&lt;String &gt;  allSourceTopics|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Set&lt;TopicPartition &gt;  allAssignedPartitions|Cluster  fullMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00506"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#506"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00506] For method checkAllPartitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; fullMetadata_partitionsForTopicN384530"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1678,6 +1685,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00883"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#883"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00883] For method populateActiveTaskAndPartitionsLists list of called methods Object monObjet|java.lang.String clientState_previousOwnerForPartitionN404046"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00883"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#883"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00883] The argument activePartitionsList is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2296,6 +2310,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1262"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01262] For method getActiveTasks arguments List&lt;TopicPartition &gt;  partitions|AssignmentInfo  info"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01262"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1262"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01262] For method getActiveTasks list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt; info_activeTasksN422130"
 }} 
 ,
 { "ligne" : {"" : ""

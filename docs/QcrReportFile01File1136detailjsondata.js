@@ -563,7 +563,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00229] For method newConverter list of called methods Object monObjet|java.lang.Class&lt;?&gt; config_getClassN223041|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN223989|ClassLoader compareAndSwapLoadersN224417"
+ , "c3" : "QC-JAV000007[00229] For method newConverter list of called methods Object monObjet|Class&lt;?&gt; config_getClassN223041|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN223989|ClassLoader compareAndSwapLoadersN224417"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -766,7 +766,7 @@ var maDataBlocs = {
  , "c1" : "00354"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#354"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00354] For method newConfigProvider list of called methods Object monObjet|org.apache.kafka.common.config.provider.ConfigProvider config_originalsWithPrefixN230455|ClassLoader compareAndSwapLoadersN230578"
+ , "c3" : "QC-JAV000007[00354] For method newConfigProvider list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; config_originalsStringsN229032|org.apache.kafka.common.config.provider.ConfigProvider config_originalsWithPrefixN230455|ClassLoader compareAndSwapLoadersN230578"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1219,7 +1219,7 @@ var maDataBlocs = {
  , "c1" : "00494"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#494"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00494] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN379922|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN381796"
+ , "c3" : "QC-JAV000007[00494] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN379922|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN380053|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN381796"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1002,7 +1002,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN255618|org.apache.kafka.clients.MetadataCache metadata_topicIdN255693"
+ , "c3" : "QC-JAV000007[00236] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN255618|org.apache.kafka.clients.MetadataCache metadata_topicIdN255693|java.util.Map&lt;java.lang.Integer,org.apache.kafka.common.Node&gt; metadataResponse_brokersByIdN257877"
 }} 
 ,
 { "ligne" : {"" : ""

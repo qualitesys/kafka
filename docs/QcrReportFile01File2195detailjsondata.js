@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 204 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 205 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -855,6 +855,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#481"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00481] For method handleWorkerCompletion arguments ManagedTask  task|String  nodeName|WorkerDone  state"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00481"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#481"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00481] For method handleWorkerCompletion list of called methods Object monObjet|java.util.TreeMap&lt;java.lang.String,java.lang.Long&gt; task_activeWorkerIdsN279389"
 }} 
 ,
 { "ligne" : {"" : ""

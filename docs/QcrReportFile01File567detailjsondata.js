@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 156 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 157 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -586,7 +586,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -911,6 +911,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#241"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00241] For method buildRetainedRecordsInto arguments RecordBatch  originalBatch|List&lt;Record &gt;  retainedRecords|ByteBufferOutputStream  bufferOutputStream|long  deleteHorizonMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00241"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#241"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00241] For method buildRetainedRecordsInto list of called methods Object monObjet|byte originalBatch_magicN272932|org.apache.kafka.common.record.TimestampType originalBatch_timestampTypeN273007"
 }} 
 ,
 { "ligne" : {"" : ""

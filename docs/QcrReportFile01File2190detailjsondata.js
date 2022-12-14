@@ -398,13 +398,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method createTopics list of called methods Object monObjet|long Time_SYSTEM_millisecondsN211504"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#114"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00114] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -778,6 +771,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method getMatchingTopicPartitions arguments Admin  adminClient|String  topicRegex|int  startPartition|int  endPartition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#218"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00218] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN218723|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN219547"
 }} 
 ,
 { "ligne" : {"" : ""

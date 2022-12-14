@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java 99 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java 102 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.xml" 
  , "fic3"  : "" 
 }
@@ -275,6 +275,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "18"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -358,6 +365,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#141"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00141] For method handleTaskCorruptedException list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; taskCorruptedException_corruptedTasksN222625"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#141"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00141] The argument taskCorruptedException is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -423,6 +437,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#164"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00164] For method handleStreamsExceptionWithTask arguments StreamsException  streamsException"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#164"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00164] For method handleStreamsExceptionWithTask list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.TaskId&gt; streamsException_taskIdN223869"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -619,6 +640,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#264"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00264] For method maybeCompleteRestoration arguments StreamTask  task|Set&lt;TopicPartition &gt;  restoredChangelogs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#264"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00264] For method maybeCompleteRestoration list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN229105"
 }} 
 ,
 { "ligne" : {"" : ""

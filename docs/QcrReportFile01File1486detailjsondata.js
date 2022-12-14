@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.StringBuilder.java.html" 
- , "texte" : "File secujava/java.lang.StringBuilder.java 61 rule violations " 
+ , "texte" : "File secujava/java.lang.StringBuilder.java 60 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.StringBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -447,7 +447,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -527,13 +527,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#48"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00048] For method append arguments StringBuilder  sb"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00048] For method append list of called methods Object monObjet|int sb_lengthN223052"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -887,17 +880,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN232707"
+ , "c1" : "00269"
+ , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#269"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00269] For method readObject list of called methods Object monObjet|int s_readIntN235362"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.writeObject@POLYN234795"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN232707"
 }} 
 ]
 , 

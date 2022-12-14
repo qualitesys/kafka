@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 124 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 125 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -343,7 +343,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -422,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method initInternal list of called methods Object monObjet|java.lang.String StreamsConfig_InternalConfig_getStringN252241|java.lang.String ProcessorStateManager_storeChangelogTopicN252512"
+ , "c3" : "QC-JAV000007[00108] For method initInternal list of called methods Object monObjet|java.lang.String StreamsConfig_InternalConfig_getStringN252241|java.lang.String ProcessorStateManager_storeChangelogTopicN252512|org.apache.kafka.streams.processor.TaskId context_taskIdN252887"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -521,6 +521,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#187"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00187] For method putAndMaybeForward arguments InternalProcessorContext&lt;? ,? &gt;  context|DirtyEntry  finalEntry|Bytes  binaryKey|long  windowStartTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#187"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00187] For method putAndMaybeForward list of called methods Object monObjet|byte[] finalEntry_newValueN256163|byte[] context_recordContextN257586"
 }} 
 ,
 { "ligne" : {"" : ""

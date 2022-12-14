@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java 15 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java 16 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.xml" 
  , "fic3"  : "" 
 }
@@ -155,7 +155,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -179,6 +179,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#32"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00032] For method cacheKey arguments Bytes  key|long  segmentId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#32"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00032] For method cacheKey list of called methods Object monObjet|byte[] key_getN151114"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN152478|int Long_compareN152708"
+ , "c3" : "QC-JAV000007[00057] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN152478|int Long_compareN152708|byte[] cacheKey_getN152908|byte[] storeKey_getN152994"
 }} 
 ,
 { "ligne" : {"" : ""

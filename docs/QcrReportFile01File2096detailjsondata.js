@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00152] For method from list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window extractWindowN211078"
+ , "c3" : "QC-JAV000007[00152] For method from list of called methods Object monObjet|byte[] bytesKey_getN210998|org.apache.kafka.streams.kstream.Window extractWindowN211078"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -687,7 +687,7 @@ var maDataBlocs = {
  , "c1" : "00297"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#297"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00297] For method from list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window extractWindowN219749"
+ , "c3" : "QC-JAV000007[00297] For method from list of called methods Object monObjet|byte[] bytesKey_getN219669|org.apache.kafka.streams.kstream.Window extractWindowN219749"
 }} 
 ,
 { "ligne" : {"" : ""

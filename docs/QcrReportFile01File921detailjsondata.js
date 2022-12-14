@@ -873,13 +873,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#155"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00155] For method utf8Length list of called methods Object monObjet|int s_lengthN411989|char s_charAtN412152"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#156"
  , "c2" : "MAJOR"
@@ -2305,6 +2298,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#774"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00774] For method readFully arguments InputStream  inputStream|ByteBuffer  destinationBuffer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00774"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#774"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00774] For method readFully list of called methods Object monObjet|int inputStream_readN453795"
 }} 
 ,
 { "ligne" : {"" : ""

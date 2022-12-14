@@ -202,6 +202,13 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160012.status" }
+,
+{ "ligne" :  "R1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN159633.status" }
+,
+{ "ligne" :  "R2:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN160700.status" }
+,
+{ "ligne" :  "R3:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN160157.status" }
 ]
 ,
 "data12b" : [

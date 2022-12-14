@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "00014"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#14"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00014] For method downConvert list of called methods Object monObjet|int AbstractRecords_estimateSizeInBytesN166096|java.nio.ByteBuffer Utils_ensureCapacityN166897|org.apache.kafka.common.record.MemoryRecordsBuilder convertRecordBatchN167181"
+ , "c3" : "QC-JAV000007[00014] For method downConvert list of called methods Object monObjet|long time_nanosecondsN164425|int AbstractRecords_estimateSizeInBytesN166096|java.nio.ByteBuffer Utils_ensureCapacityN166897|org.apache.kafka.common.record.MemoryRecordsBuilder convertRecordBatchN167181"
 }} 
 ,
 { "ligne" : {"" : ""

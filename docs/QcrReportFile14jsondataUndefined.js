@@ -4973,6 +4973,66 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.quota.ClientQuotaEntity.USER" , "callers" : [
    {"caller" : "org.apache.kafka.image.ClientQuotasImage"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.RecordBatch.CURRENT_MAGIC_VALUE" , "callers" : [
+   {"caller" : "org.apache.kafka.jmh.record.BaseRecordBatchBenchmark"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.RecordBatch.MAGIC_VALUE_V2" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.producer.internals.ProducerBatch"} ,
+   {"caller" : "org.apache.kafka.clients.producer.internals.ProducerBatch.Thunk"} ,
+   {"caller" : "org.apache.kafka.common.record.DefaultRecord"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.RecordBatch.NO_PARTITION_LEADER_EPOCH" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.Metadata"} ,
+   {"caller" : "org.apache.kafka.clients.Metadata.LeaderAndEpoch"} ,
+   {"caller" : "org.apache.kafka.clients.Metadata.MetadataRequestAndVersion"} ,
+   {"caller" : "org.apache.kafka.common.requests.OffsetFetchResponse"} ,
+   {"caller" : "org.apache.kafka.common.requests.OffsetFetchResponse.PartitionData"} ,
+   {"caller" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochResponse"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.RecordBatch.NO_TIMESTAMP" , "callers" : [
+   {"caller" : "org.apache.kafka.clients.producer.internals.ProducerBatch"} ,
+   {"caller" : "org.apache.kafka.clients.producer.internals.ProducerBatch.Thunk"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.Records.HEADER_SIZE_UP_TO_MAGIC" , "callers" : [
+   {"caller" : "org.apache.kafka.common.record.ByteBufferLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.Records.LOG_OVERHEAD" , "callers" : [
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.BasicLegacyRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.ByteBufferLegacyRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.DataLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.DeepRecordsIterator"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.LegacyFileChannelRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.ByteBufferLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.DefaultRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.DefaultRecordBatch.DefaultFileChannelRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator"} ,
+   {"caller" : "org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.Records.MAGIC_OFFSET" , "callers" : [
+   {"caller" : "org.apache.kafka.common.record.ByteBufferLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.Records.OFFSET_OFFSET" , "callers" : [
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.BasicLegacyRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.ByteBufferLegacyRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.DataLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.DeepRecordsIterator"} ,
+   {"caller" : "org.apache.kafka.common.record.AbstractLegacyRecordBatch.LegacyFileChannelRecordBatch"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.common.record.Records.SIZE_OFFSET" , "callers" : [
+   {"caller" : "org.apache.kafka.common.record.ByteBufferLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream"} ,
+   {"caller" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.common.requests.AbstractResponse.DEFAULT_THROTTLE_TIME" , "callers" : [
    {"caller" : "org.apache.kafka.common.requests.DescribeGroupsRequest"} ,
    {"caller" : "org.apache.kafka.common.requests.DescribeGroupsRequest.Builder"} ,
@@ -5380,6 +5440,15 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.metadata.Replicas.NONE" , "callers" : [
    {"caller" : "org.apache.kafka.controller.BrokersToIsrs"} ,
    {"caller" : "org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.metadata.authorizer.ClusterMetadataAuthorizer" , "callers" : [
+   {"caller" : "org.apache.kafka.controller.AclControlManager"} ,
+   {"caller" : "org.apache.kafka.controller.QuorumController"} ,
+   {"caller" : "org.apache.kafka.controller.QuorumController.Builder"} ,
+   {"caller" : "org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker"} ,
+   {"caller" : "org.apache.kafka.controller.QuorumController.ControlEvent"} ,
+   {"caller" : "org.apache.kafka.controller.QuorumController.QuorumMetaLogListener"} ,
+   {"caller" : "org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.raft.KafkaRaftClient.MAX_BATCH_SIZE_BYTES" , "callers" : [
    {"caller" : "org.apache.kafka.metadata.util.SnapshotFileWriter"} ,

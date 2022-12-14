@@ -339,7 +339,7 @@ var maDataBlocs = {
  , "c1" : "00198"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00198] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN199493"
+ , "c3" : "QC-JAV000007[00198] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN199493|java.lang.Short defaultGroupConfig_getShortN200053|java.lang.Integer defaultGroupConfig_getIntN200169"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -240,7 +240,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN152725"
+ , "c3" : "QC-JAV000007[00042] For method serialize list of called methods Object monObjet|java.nio.ByteBuffer header_sizeN152725|int apiMessage_sizeN152841"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 446 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 447 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.xml" 
  , "fic3"  : "" 
 }
@@ -649,7 +649,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1058,6 +1058,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#386"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00386] For method getActionForThrowable arguments Throwable  throwable|StreamsUncaughtExceptionHandler  streamsUncaughtExceptionHandler"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00386"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#386"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00386] For method getActionForThrowable list of called methods Object monObjet|org.apache.kafka.streams.errors.StreamsUncaughtExceptionHandler.StreamThreadExceptionResponse streamsUncaughtExceptionHandler_handleN514857"
 }} 
 ,
 { "ligne" : {"" : ""

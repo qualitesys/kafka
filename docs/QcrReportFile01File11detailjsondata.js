@@ -856,7 +856,7 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#414"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00414] For method handleResponse list of called methods Object monObjet|java.lang.String verifyFullFetchResponsePartitionsN261276|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN262389|java.lang.String verifyIncrementalFetchResponsePartitionsN262560"
+ , "c3" : "QC-JAV000007[00414] For method handleResponse list of called methods Object monObjet|java.util.LinkedHashMap&lt;org.apache.kafka.common.TopicPartition,FetchResponseData.PartitionData&gt; response_responseDataN260603|java.lang.String verifyFullFetchResponsePartitionsN261276|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN262389|java.lang.String verifyIncrementalFetchResponsePartitionsN262560"
 }} 
 ,
 { "ligne" : {"" : ""

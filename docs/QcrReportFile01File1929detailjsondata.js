@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 304 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 305 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.xml" 
  , "fic3"  : "" 
 }
@@ -559,7 +559,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -694,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00225] For method create list of called methods Object monObjet|java.lang.String String_formatN338116|org.apache.kafka.streams.processor.internals.StreamThread config_getClientTagsN338713|org.apache.kafka.streams.processor.internals.StreamThread config_getRestoreConsumerConfigsN338903|org.apache.kafka.streams.processor.internals.StreamThread config_getStringN340510|org.apache.kafka.streams.processor.internals.StreamThread config_getMainConsumerConfigsN340654"
+ , "c3" : "QC-JAV000007[00225] For method create list of called methods Object monObjet|java.lang.String String_formatN338116|org.apache.kafka.streams.processor.internals.StreamThread config_getClientTagsN338713|org.apache.kafka.streams.processor.internals.StreamThread config_getRestoreConsumerConfigsN338903|Consumer&lt;byte[],byte[]&gt; clientSupplier_getRestoreConsumerN339082|org.apache.kafka.streams.processor.internals.StreamThread config_getStringN340510|org.apache.kafka.streams.processor.internals.StreamThread config_getMainConsumerConfigsN340654|Consumer&lt;byte[],byte[]&gt; clientSupplier_getConsumerN341287"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1640,6 +1640,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#899"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00899] For method addToResetList arguments TopicPartition  partition|Set&lt;TopicPartition &gt;  partitions|String  logMessage|String  resetPolicy|Set&lt;String &gt;  loggedTopics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00899"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#899"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00899] For method addToResetList list of called methods Object monObjet|java.lang.String partition_topicN369770"
 }} 
 ,
 { "ligne" : {"" : ""

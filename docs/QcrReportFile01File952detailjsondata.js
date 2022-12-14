@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Values.java 441 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Values.java 444 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.xml" 
  , "fic3"  : "" 
 }
@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -588,7 +588,7 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method convertTo list of called methods Object monObjet|byte[] Utils_toArrayN381893|org.apache.kafka.connect.data.SchemaAndValue parseStringN383674|org.apache.kafka.connect.data.SchemaAndValue parseStringN384864|long asLongN385909|org.apache.kafka.connect.data.SchemaAndValue parseStringN386338|long asLongN387681|org.apache.kafka.connect.data.SchemaAndValue parseStringN388375|int Date_fromLogicalN388989|int Time_fromLogicalN389375|long asLongN389778|org.apache.kafka.connect.data.SchemaAndValue parseStringN390829|org.apache.kafka.connect.data.SchemaAndValue parseStringN391227"
+ , "c3" : "QC-JAV000007[00227] For method convertTo list of called methods Object monObjet|byte[] Utils_toArrayN381893|org.apache.kafka.connect.data.SchemaAndValue parseStringN383674|org.apache.kafka.connect.data.SchemaAndValue parseStringN384864|java.lang.String fromSchema_nameN385201|long asLongN385909|org.apache.kafka.connect.data.SchemaAndValue parseStringN386338|java.lang.String fromSchema_nameN386675|long asLongN387681|org.apache.kafka.connect.data.SchemaAndValue parseStringN388375|java.lang.String fromSchema_nameN388818|int Date_fromLogicalN388989|int Time_fromLogicalN389375|long asLongN389778|org.apache.kafka.connect.data.SchemaAndValue parseStringN390829|org.apache.kafka.connect.data.SchemaAndValue parseStringN391227"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -771,6 +771,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#420"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00420] For method asLong arguments Object  value|Schema  fromSchema|Throwable  error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00420"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#420"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00420] For method asLong list of called methods Object monObjet|java.lang.String fromSchema_nameN392940"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1112,6 +1119,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00557"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#557"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00557] For method canParseSingleTokenLiteral list of called methods Object monObjet|int parser_markN401682"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00557"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#557"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00557] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1141,7 +1155,7 @@ var maDataBlocs = {
  , "c1" : "00576"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#576"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00576] For method parse list of called methods Object monObjet|java.lang.String sb_toStringN402804|org.apache.kafka.connect.data.SchemaAndValue parseStringN402879|org.apache.kafka.connect.data.SchemaAndValue token_trimN409919|org.apache.kafka.connect.data.SchemaAndValue token_charAtN409994|boolean Character_isDigitN410090|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410554|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410823"
+ , "c3" : "QC-JAV000007[00576] For method parse list of called methods Object monObjet|java.lang.String sb_toStringN402804|org.apache.kafka.connect.data.SchemaAndValue parseStringN402879|int parser_markN403764|java.lang.String parser_nextN409653|java.lang.String token_trimN409919|char token_charAtN409994|boolean Character_isDigitN410090|int parser_markN410233|java.lang.String parser_nextN410308|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410554|org.apache.kafka.connect.data.SchemaAndValue parseAsTemporalN410823"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1600,6 +1614,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00807"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#807"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00807] For method commonSchemaFor list of called methods Object monObjet|org.apache.kafka.connect.data.Schema latest_schemaN415004|org.apache.kafka.connect.data.Schema.Type previous_typeN415079"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00808"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#808"
  , "c2" : "MAJOR"
@@ -1638,7 +1659,7 @@ var maDataBlocs = {
  , "c1" : "00876"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#876"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00876] For method alignListEntriesWithSchema list of called methods Object monObjet|java.lang.Object convertToN418668"
+ , "c3" : "QC-JAV000007[00876] For method alignListEntriesWithSchema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schema_valueSchemaN418414|java.lang.Object convertToN418668"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1673,7 +1694,7 @@ var maDataBlocs = {
  , "c1" : "00886"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#886"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00886] For method alignMapKeysAndValuesWithSchema list of called methods Object monObjet|java.lang.Object convertToN419484|java.lang.Object convertToN419636"
+ , "c3" : "QC-JAV000007[00886] For method alignMapKeysAndValuesWithSchema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema mapSchema_keySchemaN419086|org.apache.kafka.connect.data.Schema mapSchema_valueSchemaN419161|java.lang.Object convertToN419484|java.lang.Object convertToN419636"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1729,7 +1750,7 @@ var maDataBlocs = {
  , "c1" : "00898"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#898"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00898] For method alignMapKeysWithSchema list of called methods Object monObjet|java.lang.Object convertToN420419"
+ , "c3" : "QC-JAV000007[00898] For method alignMapKeysWithSchema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema mapSchema_keySchemaN420096|java.lang.Object convertToN420419"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2275,6 +2296,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Values.Parser.next@POLYN423792"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Values.convertTo@POLYN381200"
 }} 
 ,
@@ -2633,13 +2661,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.Values.append@POLYN395227"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.Values.Parser.next@POLYN423792"
 }} 
 ,
 { "ligne" : {"" : ""

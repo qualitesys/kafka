@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Character.java.html" 
- , "texte" : "File secujava/java.lang.Character.java 224 rule violations " 
+ , "texte" : "File secujava/java.lang.Character.java 220 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Character.java.xml" 
  , "fic3"  : "" 
 }
@@ -934,7 +934,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -1236,13 +1236,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04667"
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#4667"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04667] For method codePointAt list of called methods Object monObjet|char seq_charAtN1329661|char seq_charAtN1329931"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04667"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#4667"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04667] The argument seq is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1280,13 +1273,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04772] For method codePointBefore arguments CharSequence  seq|int  index"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04772"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04772] For method codePointBefore list of called methods Object monObjet|char seq_charAtN1334141|char seq_charAtN1334397"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1446,13 +1432,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "05015"
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#5015"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[05015] For method codePointCount list of called methods Object monObjet|int seq_lengthN1344123"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "05015"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#5015"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[05015] The argument seq is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1497,13 +1476,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#5092"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[05092] For method offsetByCodePoints arguments CharSequence  seq|int  index|int  codePointOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "05092"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#5092"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[05092] For method offsetByCodePoints list of called methods Object monObjet|int seq_lengthN1347717"
 }} 
 ,
 { "ligne" : {"" : ""

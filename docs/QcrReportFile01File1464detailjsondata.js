@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.PipedOutputStream.java.html" 
- , "texte" : "File secujava/java.io.PipedOutputStream.java 35 rule violations " 
+ , "texte" : "File secujava/java.io.PipedOutputStream.java 23 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.PipedOutputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -111,30 +111,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -317,90 +294,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#70"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00070] In method java.io.PipedOutputStream.close@POLYN173003 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PipedOutputStream.PipedOutputStream@POLYN168607"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PipedOutputStream.write@POLYN170604"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PipedOutputStream.write@POLYN171327"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#38"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00038] In the recursive method java.io.PipedOutputStream.write@POLYN170604 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#39"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00039] In the recursive method java.io.PipedOutputStream.write@POLYN170604 the MagicNumber/String 'Pipe not connected' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#46"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00046] In the recursive method java.io.PipedOutputStream.write@POLYN171327 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#47"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method java.io.PipedOutputStream.write@POLYN171327 the MagicNumber/String 'Pipe not connected' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#48"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00048] In the recursive method java.io.PipedOutputStream.write@POLYN171327 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#50"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method java.io.PipedOutputStream.write@POLYN171327 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#50"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method java.io.PipedOutputStream.write@POLYN171327 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#51"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method java.io.PipedOutputStream.write@POLYN171327 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method java.io.PipedOutputStream.write@POLYN171327 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

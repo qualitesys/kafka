@@ -1081,7 +1081,7 @@ var maDataBlocs = {
  , "c1" : "00363"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#363"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00363] For method splitAndReenqueue list of called methods Object monObjet|java.lang.String[] bigBatch_splitN334880|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN335080"
+ , "c3" : "QC-JAV000007[00363] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; bigBatch_splitN334880|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN335080"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1270,7 +1270,7 @@ var maDataBlocs = {
  , "c1" : "00469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#469"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method partitionReady list of called methods Object monObjet|long batchReadyN343417"
+ , "c3" : "QC-JAV000007[00469] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN341341|long batchReadyN343417"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1564,7 +1564,7 @@ var maDataBlocs = {
  , "c1" : "00624"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#624"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00624] For method drainBatchesForOneNode list of called methods Object monObjet|int getDrainIndexN347890|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN348733"
+ , "c3" : "QC-JAV000007[00624] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForNodeN347671|int getDrainIndexN347890|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN348733"
 }} 
 ,
 { "ligne" : {"" : ""

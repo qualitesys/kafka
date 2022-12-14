@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java 121 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java 122 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -673,7 +673,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -1129,6 +1129,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00465"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#465"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00465] For method appendEndTxnMarker list of called methods Object monObjet|java.nio.ByteBuffer marker_serializeValueN302842"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00465"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#465"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00465] The argument marker is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1207,7 +1214,7 @@ var maDataBlocs = {
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecordsBuilder.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00509] For method appendUncheckedWithOffset list of called methods Object monObjet|int DefaultRecord_writeToN305741|org.apache.kafka.common.record.LegacyRecord LegacyRecord_createN306153"
+ , "c3" : "QC-JAV000007[00509] For method appendUncheckedWithOffset list of called methods Object monObjet|long record_timestampN305554|int DefaultRecord_writeToN305741|org.apache.kafka.common.record.LegacyRecord LegacyRecord_createN306153"
 }} 
 ,
 { "ligne" : {"" : ""

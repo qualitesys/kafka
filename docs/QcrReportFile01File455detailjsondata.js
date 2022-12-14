@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java 73 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java 75 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.xml" 
  , "fic3"  : "" 
 }
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -371,7 +371,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method metricRemoval list of called methods Object monObjet|java.lang.String getMBeanNameN194809|org.apache.kafka.common.metrics.JmxReporter.KafkaMbean removeAttributeN194917"
+ , "c3" : "QC-JAV000007[00128] For method metricRemoval list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN194734|java.lang.String getMBeanNameN194809|org.apache.kafka.common.metrics.JmxReporter.KafkaMbean removeAttributeN194917"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -400,6 +400,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#143"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00143] For method removeAttribute arguments KafkaMetric  metric|String  mBeanName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#143"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00143] For method removeAttribute list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN195551"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -743,6 +750,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#313"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00313] For method contextChange arguments MetricsContext  metricsContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#313"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00313] For method contextChange list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; metricsContext_contextLabelsN204452"
 }} 
 ,
 { "ligne" : {"" : ""

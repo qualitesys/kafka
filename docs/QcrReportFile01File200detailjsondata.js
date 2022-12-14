@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 331 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 333 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -334,7 +334,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -1910,6 +1910,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00943"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#943"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00943] For method addPartitionMovementRecord list of called methods Object monObjet|java.lang.String partition_topicN401052"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00943"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#943"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00943] The argument partition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1933,6 +1940,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#973"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00973] For method getTheActualPartitionToBeMoved arguments TopicPartition  partition|String  oldConsumer|String  newConsumer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00973"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#973"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00973] For method getTheActualPartitionToBeMoved list of called methods Object monObjet|java.lang.String partition_topicN402754"
 }} 
 ,
 { "ligne" : {"" : ""

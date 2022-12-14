@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java 236 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java 234 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.xml" 
  , "fic3"  : "" 
 }
@@ -368,7 +368,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "61"
+ , "c4" : "59"
 }}
 ,
 { "ligne" : { "" : ""
@@ -382,7 +382,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "12"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -410,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -762,7 +762,7 @@ var maDataBlocs = {
  , "c1" : "00289"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#289"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00289] For method registerStore list of called methods Object monObjet|boolean isLoggingEnabledN245168"
+ , "c3" : "QC-JAV000007[00289] For method registerStore list of called methods Object monObjet|java.lang.String store_nameN244317|boolean isLoggingEnabledN245168"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1244,6 +1244,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#539"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00539] For method transitionTaskType list of called methods Object monObjet|org.slf4j.Logger logContext_loggerN255255"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00539"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#539"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00539] The argument logContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1631,13 +1638,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerGlobalStateStores@POLYN239689"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.transitionTaskType@POLYN254854"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2051,20 +2051,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#191"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerGlobalStateStores@POLYN239689 the MagicNumber/String 'Register global stores {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00541"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#541"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00541] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.transitionTaskType@POLYN254854 the MagicNumber/String 'Tried to recycle state for task type conversion but new type was the same.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00549"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.transitionTaskType@POLYN254854 the MagicNumber/String 'Transitioning state manager for {} task {} to {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

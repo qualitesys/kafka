@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 384 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 386 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.xml" 
  , "fic3"  : "" 
 }
@@ -699,7 +699,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "15"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1653,7 +1653,7 @@ var maDataBlocs = {
  , "c1" : "00760"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#760"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00760] For method adminConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN453569"
+ , "c3" : "QC-JAV000007[00760] For method adminConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN452553|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN453569"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1696,6 +1696,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#799"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00799] For method connectorClientConfigOverrides arguments String  connName|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|String  clientConfigPrefix|ConnectorType  connectorType|ConnectorClientConfigRequest.ClientType  clientType|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00799"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#799"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00799] For method connectorClientConfigOverrides list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connConfig_originalsWithPrefixN454369|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN454665"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1779,7 +1786,7 @@ var maDataBlocs = {
  , "c1" : "00837"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#837"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00837] For method sinkTaskReporters list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN456896|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN457195|org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter DeadLetterQueueReporter_createAndSetupN457465"
+ , "c3" : "QC-JAV000007[00837] For method sinkTaskReporters list of called methods Object monObjet|java.lang.String connConfig_dlqTopicNameN456660|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN456896|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN457195|org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter DeadLetterQueueReporter_createAndSetupN457465"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2297,7 +2304,7 @@ var maDataBlocs = {
  , "c1" : "01288"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01288] For method offsetStoreForRegularSourceConnector list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN479726|java.util.Map&lt;java.lang.String,java.lang.Object&gt; regularSourceOffsetsConsumerConfigsN480200|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN480651|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forConnectorN481036"
+ , "c3" : "QC-JAV000007[01288] For method offsetStoreForRegularSourceConnector list of called methods Object monObjet|java.lang.String sourceConfig_offsetsTopicN479614|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN479726|java.util.Map&lt;java.lang.String,java.lang.Object&gt; regularSourceOffsetsConsumerConfigsN480200|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN480651|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forConnectorN481036"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2402,7 +2409,7 @@ var maDataBlocs = {
  , "c1" : "01402"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1402"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01402] For method offsetStoreForRegularSourceTask list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; regularSourceOffsetsConsumerConfigsN484714|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forTaskN485128"
+ , "c3" : "QC-JAV000007[01402] For method offsetStoreForRegularSourceTask list of called methods Object monObjet|java.lang.String sourceConfig_offsetsTopicN484427|java.util.Map&lt;java.lang.String,java.lang.Object&gt; regularSourceOffsetsConsumerConfigsN484714|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forTaskN485128"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2599,6 +2606,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1571"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01571] For method recordTaskAdded arguments ConnectorTaskId  connectorTaskId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01571"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1571"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01571] For method recordTaskAdded list of called methods Object monObjet|java.lang.String connectorTaskId_connectorN491847"
 }} 
 ,
 { "ligne" : {"" : ""
